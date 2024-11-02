@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+fhirpy_types_r5/__init__.py
+fhirpy_types_r5/py.typed
+fhirpy_types_r5.egg-info/PKG-INFO
+fhirpy_types_r5.egg-info/SOURCES.txt
+fhirpy_types_r5.egg-info/dependency_links.txt
+fhirpy_types_r5.egg-info/requires.txt
+fhirpy_types_r5.egg-info/top_level.txt
