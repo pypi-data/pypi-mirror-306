@@ -1,0 +1,52 @@
+[project]
+name = "hxsoup"
+authors = [
+    {name = "ilotoki0804", email = "ilotoki0804@gmail.com"},
+]
+description = "Various convenient features related to httpx and BeautifulSoup."
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["httpx", "request", "beautifulsoup", "beautifulsoup4", "bs4", "soup"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "frozendict>=2.4.4",
+    "httpx>=0.27.2",
+]
+dynamic = ["version"]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel>=6.29.5",
+    "selectolax>=0.3.21",
+]
+
+[tool.black]
+line-length = 120
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "UP", "W", "B"]
+ignore = ["E501", "F401", "E999", "F405", "F403", "E402", "S101", "F841"]
+
+[tool.hatch.version]
+path = "hxsoup/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["hxsoup"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
