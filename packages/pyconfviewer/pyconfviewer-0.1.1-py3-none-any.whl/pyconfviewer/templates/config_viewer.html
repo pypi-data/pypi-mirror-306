@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Configuration Viewer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/themes/default/style.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 class="mt-4">Configuration Viewer</h1>
+        <input type="text" id="search-input" class="form-control mb-3" placeholder="Search...">
+        <ul class="nav nav-tabs" id="configTabs" role="tablist"></ul>
+        <div class="tab-content" id="configTabsContent"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/jstree.min.js"></script>
+
+    <script>
+        // Use embedded JSON data
+        var configsData = JSON.parse("{{ configs_json }}");
+
+        $(document).ready(function() {
+            var tabList = $('#configTabs');
+            var tabContent = $('#configTabsContent');
+            Object.keys(configsData).forEach(function(filename, index) {
+                var isActive = index === 0 ? 'active' : '';
+                var tabItem = `<li class="nav-item">
+                    <a class="nav-link ${isActive}" id="tab-${index}-tab" data-toggle="tab" href="#tab-${index}" role="tab">${filename}</a>
+                </li>`;
+                tabList.append(tabItem);
+
+                var tabPane = `<div class="tab-pane fade ${isActive ? 'show active' : ''}" id="tab-${index}" role="tabpanel">
+                    <div id="treeview-${index}" class="treeview"></div>
+                </div>`;
+                tabContent.append(tabPane);
+
+                // Initialize jstree for this tab's content
+                $(`#treeview-${index}`).jstree({
+                    'core' : {
+                        'data' : buildTree(configsData[filename])
+                    },
+                    'plugins' : ['search']
+                });
+            });
+
+            var to = false;
+            $('#search-input').keyup(function () {
+                if (to) { clearTimeout(to); }
+                to = setTimeout(function () {
+                    var v = $('#search-input').val();
+                    // Perform search on all jstree instances
+                    $('.treeview').each(function() {
+                        $(this).jstree(true).search(v);
+                    });
+                }, 250);
+            });
+        });
+
+        function buildTree(obj) {
+            var result = [];
+            for (var key in obj) {
+                if (typeof obj[key] === 'object' && obj[key] !== null) {
+                    result.push({
+                        'text': key,
+                        'children': buildTree(obj[key])
+                    });
+                } else {
+                    result.push({
+                        'text': key + ': ' + obj[key]
+                    });
+                }
+            }
+            return result;
+        }
+    </script>
+</body>
+</html>
