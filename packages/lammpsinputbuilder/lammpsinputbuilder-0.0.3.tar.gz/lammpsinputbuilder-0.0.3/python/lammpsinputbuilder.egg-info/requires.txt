@@ -1,0 +1,6 @@
+ase
+pint
+lammps-logfile
+matplotlib
+pylint
+pydantic
