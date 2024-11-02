@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "smart-open-with-pbgzip"
+version = "0.1.3"
+description = "Makes smart_open write to .gz/.gzip files using pbgzip rather than gzip"
+authors = ["Ben Skubi <bskubi@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+smart-open = "^7.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
