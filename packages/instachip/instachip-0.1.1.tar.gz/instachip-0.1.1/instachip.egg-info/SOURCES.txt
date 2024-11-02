@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+instachip.egg-info/PKG-INFO
+instachip.egg-info/SOURCES.txt
+instachip.egg-info/dependency_links.txt
+instachip.egg-info/entry_points.txt
+instachip.egg-info/top_level.txt
+tests/test_cli.py
