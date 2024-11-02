@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/pyconfviewer/__init__.py
+src/pyconfviewer/config_generator.py
+src/pyconfviewer/diff_generator.py
+src/pyconfviewer.egg-info/PKG-INFO
+src/pyconfviewer.egg-info/SOURCES.txt
+src/pyconfviewer.egg-info/dependency_links.txt
+src/pyconfviewer.egg-info/entry_points.txt
+src/pyconfviewer.egg-info/requires.txt
+src/pyconfviewer.egg-info/top_level.txt
+src/pyconfviewer/templates/config_diff_viewer.html
+src/pyconfviewer/templates/config_viewer.html
+tests/test_config_generator.py

@@ -1,0 +1,9 @@
+pyyaml
+jsonschema
+configparser
+python-dotenv
+jinja2
+toml
+
+[dev]
+pytest>=6.0.0

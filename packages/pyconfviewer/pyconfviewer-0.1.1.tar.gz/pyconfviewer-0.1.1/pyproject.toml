@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyconfviewer"
+dynamic = ["version"]
+description = "A Python library for generating HTML views and diffs for configuration files."
+authors = [
+    { name = "pkaiy81", email = "pkaiy81@outlook.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["configuration", "HTML", "diff", "YAML", "JSON", "env"]
+
+dependencies = [
+    "pyyaml",
+    "jsonschema",
+    "configparser",
+    "python-dotenv",
+    "jinja2",
+    "toml",
+]
+
+[project.urls]
+Homepage = "https://github.com/pkaiy81/pyconfviewer"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0.0",
+    # add other development dependencies here if needed
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = { find = { where = ["src"], include = ["pyconfviewer"], exclude = ["tests"] } }
+
+[tool.setuptools.dynamic]
+version = {attr = "pyconfviewer.__version__"}
+
+[project.scripts]
+pyconfviewer = "pyconfviewer.__main__:main"
