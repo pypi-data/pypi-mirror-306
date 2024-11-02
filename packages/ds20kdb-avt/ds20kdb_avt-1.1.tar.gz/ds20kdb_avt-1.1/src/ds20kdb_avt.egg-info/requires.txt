@@ -1,0 +1,8 @@
+aiohttp
+importlib-metadata
+pandas
+python-dateutil>=2.9.0
+requests
+tkcalendar
+ttkwidgets
+paramiko
