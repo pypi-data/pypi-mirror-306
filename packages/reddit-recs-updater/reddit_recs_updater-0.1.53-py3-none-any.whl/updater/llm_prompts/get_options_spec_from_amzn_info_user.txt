@@ -1,0 +1,13 @@
+Which is the correct spec from the list of options for this product, given the following information?
+
+Spec label:
+__spec_label__
+
+Spec options:
+__spec_options__
+
+Product title: 
+__title__
+
+Product features: 
+__features__
