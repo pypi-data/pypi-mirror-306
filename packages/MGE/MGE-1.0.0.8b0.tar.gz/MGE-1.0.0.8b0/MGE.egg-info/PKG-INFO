@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: MGE
+Version: 1.0.0.8b0
+Summary: LibMGE is a graphical user interface library for developing 2D programs and games.
+Home-page: https://libmge.org/
+Author: Lucas Guimarães
+Author-email: commercial@lucasguimaraes.pro
+License: zlib
+Project-URL: Source, https://github.com/MonumentalGames/LibMGE
+Project-URL: Documentation, https://docs.libmge.org/
+Project-URL: Author Website, https://lucasguimaraes.pro/
+Keywords: 2D development,graphical interface,games
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: License :: OSI Approved :: zlib/libpng License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: numpy
+
+# MGE
+
+Version: 1.0.0
+
+## Dependencies
+[`numpy`](https://pypi.org/project/numpy/)
+
+## Example of use
+```py
+import MGE
+
+MGE.init()
+
+window = MGE.Window(resolution=(500, 500), flags=MGE.WindowFlag.Shown)
+window.frameRateLimit = 60
+
+gif = MGE.Object2D([0, 0], 0, [500, 500])
+gif.material = MGE.Material(MGE.Texture(MGE.LoadImage("./image.gif")))
+
+while True:
+    MGE.update()
+    window.update()
+
+    window.title = f"LibMGE OpenGif | FPS: {int(window.frameRate)}"
+
+    if MGE.QuitEvent() or MGE.keyboard(MGE.KeyboardButton.F1):
+        exit()
+
+    gif.drawObject(window)
+```

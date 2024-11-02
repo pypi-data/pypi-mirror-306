@@ -1,0 +1,4 @@
+MGE
+MGE/_ConsoleScripts
+MGE/_InputsEmulator
+MGE/_sdl

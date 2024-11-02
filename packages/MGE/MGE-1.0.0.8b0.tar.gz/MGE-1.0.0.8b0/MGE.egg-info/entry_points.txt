@@ -1,0 +1,3 @@
+[console_scripts]
+MGE = MGE._ConsoleScripts:main
+mge = MGE._ConsoleScripts:main
