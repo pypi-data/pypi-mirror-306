@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: matplotlib-visual
+Version: 1.2
+Author: mcafin31
+Author-email: johnmecafin31@gmail.com
+License: GPL 3.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
