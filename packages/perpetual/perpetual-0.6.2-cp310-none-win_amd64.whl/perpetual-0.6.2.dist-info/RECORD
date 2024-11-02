@@ -1,0 +1,12 @@
+perpetual-0.6.2.dist-info/METADATA,sha256=TQq6Mc2rQlbrL4YGAzw3xvw3vmW4x-p1NnqPEGDhOuA,5504
+perpetual-0.6.2.dist-info/WHEEL,sha256=LHPtDn9GsU_zwAyiX9e_TBqkI_hl9cDVdeDzCCtycGk,95
+perpetual-0.6.2.dist-info/license_files/LICENSE,sha256=YpyY33_TKPAOHPZllvDC4KKcSwyBG5nY9k6rxusNu30,35014
+perpetual-0.6.2.dist-info/license_files/LICENSE,sha256=YpyY33_TKPAOHPZllvDC4KKcSwyBG5nY9k6rxusNu30,35014
+perpetual/booster.py,sha256=ovwVlOi1xDG3GKbh1OgZKAU4AXPrzGSpMLfDlLOJSUQ,43499
+perpetual/data.py,sha256=HiDsv2i1p9cLkXe8vnekxfpafyuxfWXwXrucdIir3xk,614
+perpetual/serialize.py,sha256=FeW4JsUFVsrft9N7gz-ebn5mXvDv4LiJC2sgBEeGxYo,1957
+perpetual/types.py,sha256=idZNsDErNTur_rJ_5Co8Pb6fik-AUn9lkrXmjbQJVX0,3381
+perpetual/utils.py,sha256=Hl4F-q6vvl7ZK-2LwwNmeIpEwDbL5Vx0SpTY2LPItI8,7318
+perpetual/__init__.py,sha256=V0RhghaG0CuKxKrzYUBYqrf7Drb-gjmznsbz9KT12lk,122
+perpetual/perpetual.cp310-win_amd64.pyd,sha256=gM_z2mMmsVRn98Fg5e561ep36NZbrPej2JAVeXZiHPM,1483264
+perpetual-0.6.2.dist-info/RECORD,,
