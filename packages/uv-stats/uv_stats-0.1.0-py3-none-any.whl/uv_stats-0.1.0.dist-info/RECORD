@@ -1,0 +1,13 @@
+uv_stats/__init__.py,sha256=hSsgoahFWxw40OxFY-AxR9RUcM8vtDBTSjs3U5hMBSQ,208
+uv_stats/__main__.py,sha256=3myysFDE9XopALQJ_VkFI9F4Lnpo-D_-JgRycIrRNTY,63
+uv_stats/cli.py,sha256=q0djk5GiiVA9SGo5LW7NpE38Duq7a433LkB-nAq-uH8,1429
+uv_stats/jupyter.py,sha256=wCuQ83TKnlR1Xu99LmoefLeN865bQQjgoB-jFZkzn2M,152
+uv_stats/manager.py,sha256=pQK5RmML7RWplzeNQArIPoNaPEepBBPU9yew0Ybw0S8,7519
+uv_stats/monitoring.py,sha256=5IfGe8HwanFX2IbGI3bWNP3axgCUQxz568cIzlPpwTA,536
+uv_stats/requests.py,sha256=EJerbyTLZTkvRH0OdlOUB2KOySlVS976MfzbUJGkj6w,3500
+uv_stats/sources.py,sha256=PeTeWxiuUDsAdI94vpJwkN0rPEmVxgs6GvOLwqgvvpk,2772
+uv_stats-0.1.0.dist-info/METADATA,sha256=GNB6x0quQok-kFPH2kOf8-xLNKap2_gnnPRbkLpCgb0,2760
+uv_stats-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+uv_stats-0.1.0.dist-info/entry_points.txt,sha256=ObOqIWbyXWON9M6R720PTB8zWek7OrcYvOq3DZAiOfE,42
+uv_stats-0.1.0.dist-info/top_level.txt,sha256=tYUxQLVTj3vurrszpLxbo_-IgHZ_sabMLPFN0JINdoI,9
+uv_stats-0.1.0.dist-info/RECORD,,

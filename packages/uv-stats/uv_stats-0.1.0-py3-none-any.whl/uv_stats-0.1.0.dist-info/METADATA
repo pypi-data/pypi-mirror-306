@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: uv-stats
+Version: 0.1.0
+Summary: Make pritty statistic about package in concole
+Author-email: Alekse Marusich <alekse.marusich@rocshers.com>
+License: MIT
+Keywords: rocshers,uvxt,uv,pypi,clickhouse
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Archiving :: Packaging
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Software Distribution
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: rich >=13.9.3
+Requires-Dist: package-schemes ==0.1.2
+Requires-Dist: clickhouse-connect >=0.8.5
+Requires-Dist: typer >=0.12.5
+Requires-Dist: pydantic >=2.9.2
+
+# uv Audit Tool
+
+Make pritty statistic about package in concole
+
+[![PyPI](https://img.shields.io/pypi/v/uv-stats)](https://pypi.org/project/uv-stats/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/uv-stats)](https://pypi.org/project/uv-stats/)
+[![uvxt](https://img.shields.io/badge/family-uvxt-purple)](https://pypi.org/project/uvxt/)
+
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rocshers_uv-stats&metric=coverage)](https://sonarcloud.io/summary/new_code?id=rocshers_uv-stats)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rocshers_uv-stats&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=rocshers_uv-stats)
+
+[![Downloads](https://static.pepy.tech/badge/uv-stats)](https://pepy.tech/project/uv-stats)
+[![GitLab stars](https://img.shields.io/gitlab/stars/rocshers/python/uv-stats)](https://gitlab.com/rocshers/python/uv-stats)
+[![GitLab last commit](https://img.shields.io/gitlab/last-commit/rocshers/python/uv-stats)](https://gitlab.com/rocshers/python/uv-stats)
+
+Powered by [clickpy](https://clickpy.clickhouse.com)
+
+## Quick start
+
+```bash
+uvx uv-stats fastapi
+
+# Or using uvxt
+uv tool install uvxt
+uvxt stats fastapi
+```
+
+## Contribute
+
+Issue Tracker: <https://gitlab.com/rocshers/python/uv-stats/-/issues>  
+Source Code: <https://gitlab.com/rocshers/python/uv-stats>
+
+Before adding changes:
+
+```bash
+make install
+```
+
+After changes:
+
+```bash
+make format test
+```
