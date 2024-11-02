@@ -1,0 +1,13 @@
+jsonschema
+
+[test]
+pytest
+pytest-cov
+pytest-mock
+pre-commit
+
+[typing]
+mypy
+types-Pillow
+types-pyinstaller
+types-jsonschema
