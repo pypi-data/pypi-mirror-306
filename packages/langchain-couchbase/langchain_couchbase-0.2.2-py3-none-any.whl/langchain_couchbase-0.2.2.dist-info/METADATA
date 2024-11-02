@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: langchain-couchbase
+Version: 0.2.2
+Summary: An integration package connecting Couchbase and LangChain
+Home-page: https://github.com/langchain-ai/langchain
+License: MIT
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: couchbase (>=4.3.2,<5.0.0)
+Requires-Dist: langchain-core (>=0.3.15,<0.4.0)
+Project-URL: Repository, https://github.com/langchain-ai/langchain
+Project-URL: Release Notes, https://github.com/langchain-ai/langchain/releases?q=tag%3A%22langchain-couchbase%3D%3D0%22&expanded=true
+Project-URL: Source Code, https://github.com/langchain-ai/langchain/tree/master/libs/partners/couchbase
+Description-Content-Type: text/markdown
+
+# langchain-couchbase
+
+This package contains the LangChain integration with Couchbase
+
+## Installation
+
+```bash
+pip install -U langchain-couchbase
+```
+
+## Usage
+
+The `CouchbaseVectorStore` class exposes the connection to the Couchbase vector store.
+
+```python
+from langchain_couchbase.vectorstores import CouchbaseVectorStore
+
+from couchbase.cluster import Cluster
+from couchbase.auth import PasswordAuthenticator
+from couchbase.options import ClusterOptions
+from datetime import timedelta
+
+auth = PasswordAuthenticator(username, password)
+options = ClusterOptions(auth)
+connect_string = "couchbases://localhost"
+cluster = Cluster(connect_string, options)
+
+# Wait until the cluster is ready for use.
+cluster.wait_until_ready(timedelta(seconds=5))
+
+embeddings = OpenAIEmbeddings()
+
+vectorstore = CouchbaseVectorStore(
+    cluster=cluster,
+    bucket_name="",
+    scope_name="",
+    collection_name="",
+    embedding=embeddings,
+    index_name="vector-search-index",
+)
+
+```
+
