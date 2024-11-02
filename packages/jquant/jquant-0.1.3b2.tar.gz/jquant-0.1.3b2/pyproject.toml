@@ -1,0 +1,54 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+authors = [
+    { name = "enoch", email = "lanxenet@gmail.com" },
+]
+dependencies = [
+    "grpcio>=1.66.1",
+    "protobuf==5.27.4",
+]
+description = "jquant grpc client for python"
+name = "jquant"
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = [
+    "jquant",
+    "grpc",
+]
+version = "0.1.3-beta.2"
+
+[project.license]
+text = "MIT"
+
+[tool.setuptools]
+py-modules = []
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.10.0",
+    "pytest>=8.2.2",
+    "pytest-asyncio>=0.24.0",
+]
+
+[tool.pytest.ini_options]
+addopts = "-s"
+asyncio_mode = "auto"
+log_cli = true
+log_level = "NOTSET"
+testpaths = [
+    "tests",
+]
+python_files = [
+    "test_*.py",
+    "*_test.py",
+    "tests.py",
+    "test.py",
+]
