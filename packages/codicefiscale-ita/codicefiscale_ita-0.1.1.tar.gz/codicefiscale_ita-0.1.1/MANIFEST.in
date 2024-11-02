@@ -1,0 +1,2 @@
+include codicefiscale/data/*.csv
+exclude tests/*
