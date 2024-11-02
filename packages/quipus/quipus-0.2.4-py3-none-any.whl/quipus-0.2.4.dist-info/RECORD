@@ -1,0 +1,17 @@
+quipus/__init__.py,sha256=L4jdRssGtzgS5WLSNEJYGYdZ39hMynnzn8zNmjIp2Ao,1506
+quipus/data_sources/__init__.py,sha256=U1JrKXn1d9p-8Zc2YXhAVTMuXKgrZ_uSjfywxGNFwWg,876
+quipus/data_sources/csv_data_source.py,sha256=Dw_YtSA4lDb-UXXc4WATu6knMhJN80eHTV1AWYcLAIw,4800
+quipus/data_sources/dataframe_data_source.py,sha256=j9J8dJFSUr36Ga_xrbpF-1tTEcokkTK8Kg19Yv4_BB8,2981
+quipus/data_sources/postgresql_data_source.py,sha256=R2v9guC4s1G9_A4s4PddnoEK_0aEcQIRxmFroZzhCaQ,8946
+quipus/data_sources/xlsx_data_source.py,sha256=grvgfrnt-eNiZ1Nn6lnPQDZkk3k0whsWfh89HJ3zFLU,4124
+quipus/models/__init__.py,sha256=rnCFmQkdsD9q9Wp445o2m_z2coClDCtlqJWBKFcKxp8,386
+quipus/models/template.py,sha256=UClmzcs3YjBCOvXeVY0-4SmRobfHhgGXPzZ2X2-m7gw,8065
+quipus/services/__init__.py,sha256=DiiUZXUX6XOsTHP20OMA8HySy6W88vriGclB5GLE9lw,1090
+quipus/services/s3_delivery.py,sha256=mllCieg2FB1miDwauznzOTstj-m9lbCGtgUUPUkR1xY,6207
+quipus/services/sftp_delivery.py,sha256=wCCehxYabWiWnbeMNOv4ylKLYiQyL65K1xE0nOT9aQA,11765
+quipus/services/smtp_delivery.py,sha256=StaFvkVVcP4jRrTasuzQ-gX8s-AcnuZfu9RTet00MPM,29993
+quipus/services/template_manager.py,sha256=zU8pyuHYIZOy8DXkgMbzsJEwRht5iglLEU3_Fn8Qfi4,6985
+quipus-0.2.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+quipus-0.2.4.dist-info/METADATA,sha256=_LDMkU-akCqth6Gv1GC5yW_TaKXUmi011a8HIGfgxcM,6775
+quipus-0.2.4.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+quipus-0.2.4.dist-info/RECORD,,
