@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: data_reporter
+Version: 0.2
+Summary: Это data_reporte, делай с ним че хочешь
+Author: Novoselov Efim
+Author-email: Novoselov Efim <myemail@example.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+Requires-Dist: numpy>=1.19.2
+Requires-Dist: pandas>=2.2.3
+
+Финансовый отдел  анализирует доходы и расходы компании по различным категориям. Автоматизация этого процесса позволит сэкономить время и избежать ошибок.
+
+Python-пакет, который будет загружать данные о транзакциях, группировать их по категориям (доходы и расходы) и генерировать отчёт с суммами для каждой категории.
+
+**Функциональность пакета**
+
+Напиши пакет, который:
+
+- Загружает данные о транзакциях из CSV-файла и группирует их по категориям.
+
+- Выводит общий объём транзакций для каждой категории.
+
+- Поддерживает запуск через командную строку с опциями:
+  - `--input_file` для указания входного файла `.сsv`,
+  - `--output_file` для указания выходного файла `.txt`.
+
+Пример ввода: 
+```bash
+
+python3 -m data_reporter --input_file data/transactions.csv --output_file info.txt
