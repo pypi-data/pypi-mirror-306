@@ -1,0 +1,118 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Weitersager"
+version = "0.11"
+description = "A proxy to forward messages received via HTTP to to IRC"
+readme = "README.rst"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "Jochen Kupperschmidt", email = "homework@nwsnet.de" },
+]
+keywords = [
+    "irc",
+    "webhook",
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Other Audience",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Communications :: Chat :: Internet Relay Chat",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: System :: Logging",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "blinker>=1.8.2",
+    "irc>=20.5.0",
+    "rtoml>=0.11.0",
+    "werkzeug>=3.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.13.0",
+    "ruff>=0.7.2",
+]
+test = [
+    "coverage>=7.6.4",
+    "pytest>=8.3.3",
+]
+
+[project.scripts]
+weitersager = "weitersager.cli:main"
+weitersager-token = "weitersager.tokencli:main"
+
+[project.urls]
+Changelog = "https://github.com/homeworkprod/weitersager/blob/main/CHANGES.rst"
+Homepage = "https://homework.nwsnet.de/releases/1cda/#weitersager"
+"Source code" = "https://github.com/homeworkprod/weitersager"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+]
+
+[tool.mypy]
+python_version = "3.9"
+ignore_missing_imports = true
+no_implicit_optional = true
+
+[tool.pytest.ini_options]
+addopts = "-vv -ra --showlocals"
+testpaths = [ "tests" ]
+
+[tool.ruff]
+line-length = 80
+
+[tool.ruff.format]
+quote-style = "single"
+line-ending = "lf"
+
+[tool.ruff.lint]
+select = [
+    "B",
+    "E",
+    "EXE",
+    "F",
+    "G",
+    "ICN",
+    "ISC",
+    "PLE",
+    "PLW",
+    "PTH",
+    "PYI",
+    "Q",
+    "RSE",
+    "S",
+    "TID",
+    "UP",
+    "W",
+    "YTT",
+]
+ignore = [
+    "ISC001",  # Conflict with Ruff's formatter
+    "Q001",  # Conflict with Ruff's formatter
+]
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "single"
+multiline-quotes = "single"
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+force-sort-within-sections = true
+lines-after-imports = 2
+order-by-type = false

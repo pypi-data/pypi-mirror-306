@@ -1,0 +1,12 @@
+# Python 3 bytecode
+__pycache__
+
+# virtual environment
+/.venv
+
+# testing
+/.coverage
+/.pytest_cache
+
+# distribution artifacts
+/dist
