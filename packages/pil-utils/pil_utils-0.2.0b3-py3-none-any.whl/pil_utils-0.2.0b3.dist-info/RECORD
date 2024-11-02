@@ -1,0 +1,10 @@
+pil_utils/__init__.py,sha256=8HI3gKcYQ2_yNkyhU7CXlZTa60SDN9sdfWZQro3ce6o,148
+pil_utils/build_image.py,sha256=ZvJG4N7ZxSuQ-eEOjl5xEtUzSpGqc5AHq9m7yoRZYKM,22969
+pil_utils/gradient.py,sha256=oSI4fgIkjapI016MTj1ch3LwqzptD18zoJoU-eYtZ2I,2621
+pil_utils/text2image.py,sha256=7rZqr4WmJ30LZveR65QC-lOX2ytSIribajjYHHp_Hsg,18834
+pil_utils/typing.py,sha256=163XxriIc9OyJl9BAAEtyO99-KnHvbAsiNOurjF42-0,822
+pil_utils/utils.py,sha256=Uka_u5jAl3akQV_tQZW_wKZMBF8f1aNZ5aqC397MvUI,993
+pil_utils-0.2.0b3.dist-info/LICENSE,sha256=MB9kjv_MMzk3mfQT1djd80kgH9jSNxiT7KyaGXg2IY4,1063
+pil_utils-0.2.0b3.dist-info/METADATA,sha256=AVfNTLqP7h_sKi4rk3MNmcJgAXPpiffR79Dhsr5Hmb0,2514
+pil_utils-0.2.0b3.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pil_utils-0.2.0b3.dist-info/RECORD,,
