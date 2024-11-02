@@ -1,0 +1,2 @@
+include xy_django_app_feedback
+recursive-include xy_django_app_feedback/* *
