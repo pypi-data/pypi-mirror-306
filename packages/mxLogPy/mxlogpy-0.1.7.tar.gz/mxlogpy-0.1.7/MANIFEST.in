@@ -1,0 +1,4 @@
+include mxLog_Package/*.pyd  # 包含已经编译好的 .pyd 文件
+recursive-include python_module *.cpp  # 包含 C++ 源码文件
+recursive-include include *.hpp
+recursive-include lib *.lib *.dll
