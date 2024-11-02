@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: deepsea-commons
+Version: 0.0.1
+Summary: Common library for deepsea
+Author-email: Stone Zhong <stone.zhong@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pydantic>=2.6.3
+Project-URL: Homepage, https://github.com/stonezhong/deepsea
+Project-URL: Issues, https://github.com/stonezhong/deepsea/issues
+
+Blah...
+
+build:
+```bash
+
+python -m build
+
+```

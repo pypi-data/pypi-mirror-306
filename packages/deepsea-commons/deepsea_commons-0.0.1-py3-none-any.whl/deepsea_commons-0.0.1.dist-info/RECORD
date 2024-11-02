@@ -1,0 +1,9 @@
+deepsea_commons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepsea_commons/spark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepsea_commons/spark/interface.py,sha256=Ek1a9nDFm_bRVt2nJPzqBiUSufUxUBtLjNBI5iiZYHs,741
+deepsea_commons/spark/providers/__init__.py,sha256=dOg0LTgfWXzH3HYMqvPJ8xOb_CHT4IgsJo0JjR2DOJQ,37
+deepsea_commons/spark/providers/pyspark/__init__.py,sha256=Z9pe5D3pGfe2vD7jLqBDa9Hox2lWiARC8bXs4f3nZk0,34
+deepsea_commons/spark/providers/pyspark/main.py,sha256=PctlTXa2f-IUdRBmN9_3Fq29bF-tT1-_D67lEOlLvJ4,363
+deepsea_commons-0.0.1.dist-info/WHEEL,sha256=-ta_u8-23-bwm4JkHhR_rJkpb_X1cxtvIsLH0KOv1sU,82
+deepsea_commons-0.0.1.dist-info/METADATA,sha256=pdsxXvjfm8FpfZ5omVQwSkgj2ys5ZqezBQeyGJgUlbY,560
+deepsea_commons-0.0.1.dist-info/RECORD,,
