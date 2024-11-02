@@ -1,0 +1,218 @@
+Metadata-Version: 2.1
+Name: icsneopy
+Version: 0.2.0.post1.dev441
+Home-page: https://github.com/intrepidcs/libicsneo
+Author: Intrepid Control Systems, Inc.
+Maintainer-Email: Kyle Schwarz <kschwarz@intrepidcs.com>
+License: Copyright 2018-2024 Intrepid Control Systems, Inc.
+        
+        Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+        
+        4. It is forbidden to use this library or derivatives to interface with vehicle networking hardware not produced by Intrepid Control Systems, Inc.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Project-URL: Homepage, https://github.com/intrepidcs/libicsneo
+Project-URL: Documentation, https://libicsneo.readthedocs.io
+Project-URL: Source, https://github.com/intrepidcs/libicsneo
+Project-URL: Tracker, https://github.com/intrepidcs/libicsneo/issues
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# libicsneo
+### The Intrepid Control Systems Open Source Cross-Platform Device Communication API
+
+An open source solution to integrate Intrepid Control Systems vehicle networking hardware with your application.
+
+[Read the Full Documentation](https://libicsneo.readthedocs.io/)
+
+## Getting Started
+There are two major ways to write a new application using libicsneo. You can use the C++ interface, which will be compiled with your project and statically linked, or you can use the C interface, which can be either statically or dynamically linked.
+### Integration with CMake (Static Linking)
+Integrating the library with your current CMake project is extremely easy.
+1. Checkout the library (or add as a submodule) into a subdirectory of your project.
+2. Within your `CMakeLists.txt` you can add the line `add_subdirectory("third-party/libicsneo")` to bring in the libicsneo targets. Replace `third-party` with any subdirectory you choose.
+3. The libicsneo library include paths should automatically be added to your include path.
+4. Link the library with your target by adding `target_link_libraries(libicsneocpp-example icsneocpp)` after your target, substituting `libicsneocpp-example` with your target application.
+
+You can now include either the C++ API with `#include <icsneo/icsneocpp.h>` or the C API with `#include <icsneo/icsneoc.h>`
+
+### DLL / SO / DYLIB Releases (Dynamic Linking)
+It is also possible to use the precompiled binaries with runtime linking. It is not recommended or supported to attempt to use the C++ interface with dynamic linking due to the complexities of C++ compilers.
+1. Add this repository's `/include` to your include path
+2. Add `#define ICSNEOC_DYNAMICLOAD` to the top of your source file
+2. Add `#import <icsneo/icsneoc.h>` below that line
+3. Call `icsneo_init();` to import the library before using any other libicsneo functions.
+4. Use the library as normal.
+5. Call `icsneo_close();` to unload the library.
+
+## Usage
+### Using the C++ API
+The C++ API is designed to be modern and easy to use. All library functions and classes are in the namespace `icsneo`. Most applications will start by calling `icsneo::FindAllDevices()`. This will return an `std::vector` of `std::shared_ptr<icsneo::Device>` objects. You will want to keep a copy of the `shared_ptr` to any devices you want to use, as allowing it to go out of scope will automatically close the device and free all memory associated with it.
+
+Any time you get bus traffic from the API, you will receive it as an `std::shared_ptr<icsneo::Message>`. The message will be valid as long as the `shared_ptr` stays in scope. Checking the type of the message allows you to cast it accordingly and access extra data for certain protocols. For instance, casting an `icsneo::Message` to an `icsneo::CANMessage` allows you to access the arbitration ID.
+
+A barebones example is provided. For a more complete example, check the included `examples`.
+``` c++
+std::vector<std::shared_ptr<icsneo::Device>> devices = icsneo::FindAllDevices();
+std::cout << devices.size() << " found!" << std::endl;
+for(auto& device : devices)
+    std::cout << "Found " << device->describe() << std::endl; // "Found neoVI FIRE 2 CY2345"
+std::shared_ptr<icsneo::Device> myDevice = devices[0];
+
+if(!myDevice->open()) // Device tried and failed to open, print the last error
+    std::cout << icsneo::GetLastError() << std::endl;
+
+myDevice->goOnline(); // Start receiving messages
+myDevice->enableMessagePolling(); // Allow the use of myDevice->getMessages() later
+// Alternatively, assign a callback for new messages
+std::this_thread::wait_for(std::chrono::seconds(5));
+std::vector<std::shared_ptr<icsneo::Message>> messages = myDevice->getMessages();
+std::cout << "We got " << messages.size() << " messages!" << std::endl;
+for(auto& msg : messages) {
+    switch(msg->network.getType()) {
+        case icsneo::Network::Type::CAN:
+        case icsneo::Network::Type::SWCAN:
+        case icsneo::Network::Type::LSFTCAN: {
+            // A message of type CAN is guaranteed to be a CANMessage, so we can static cast safely
+            auto canmsg = std::static_pointer_cast<icsneo::CANMessage>(msg);
+            // canmsg->arbid is valid here
+            // canmsg->data is an std::vector<uint8_t>, you can check .size() for the DLC of the message
+            // canmsg->timestamp is the time recorded by the hardware in nanoseconds since (1/1/2007 12:00:00 GMT)
+        }
+        default:
+            // Handle others
+    }
+}
+myDevice->close();
+```
+
+### Using the C API
+The C API is designed to be a robust and fault tolerant interface which allows easy integration with other languages as well as existing C applications. When calling `icsneo_findAllDevices()` you will provide a buffer of `neodevice_t` structures, which will be written with the found devices. These `neodevice_t` structures can be uses to interface with the API from then on. Once you call `icsneo_close()` with a device, that device and all associated memory will be freed. You will need to run `icsneo_findAllDevices()` again to reconnect.
+
+Messages are passed in the form of `neomessage_t` structures when calling `icsneo_getMessages()`. These structures contain a `uint8_t*` to the payload data, and this pointer will be valid until the next call to `icsneo_getMessages()` or the device is closed.
+
+A barebones example is provided. For a more complete example, check the included `examples`.
+``` c
+size_t deviceCount = 10; // Pre-set to the size of your buffer before the icsneo_findAllDevices() call
+neodevice_t devices[10];
+icsneo_findAllDevices(devices, &deviceCount);
+printf("We found %ull devices\n", deviceCount);
+for(size_t i = 0; i < deviceCount; i++) {
+    neodevice_t* myDevice = &devices[i];
+    char desc[ICSNEO_DEVICETYPE_LONGEST_DESCRIPTION];
+    size_t sz = ICSNEO_DEVICETYPE_LONGEST_DESCRIPTION;
+    icsneo_describeDevice(myDevice, desc, &sz);
+    printf("Found %s\n", desc); // "Found neoVI FIRE 2 CY2345"
+}
+
+neodevice_t* myDevice = &devices[0];
+if(!icsneo_openDevice(myDevice)) {
+    neoevent_t error;
+    if(icsneo_getLastError(&error))
+        printf("Error! %s\n", error.description);
+}
+icsneo_goOnline(myDevice); // Start receiving messages
+icsneo_enableMessagePolling(myDevice); // Allow the use of icsneo_getMessages() later
+sleep(5);
+neomessage_t messages[50];
+size_t messageCount = 50;
+icsneo_getMessages(myDevice, messages, &messageCount, 0 /* non-blocking */);
+printf("We got %ull messages!\n", messageCount);
+for(size_t i = 0; i < messageCount; i++) {
+    if(messages[i].type == ICSNEO_NETWORK_TYPE_CAN) {
+        // A message of type CAN should be interperated a neomessage_can_t, so we can cast safely
+        neomessage_can_t* canmsg = (neomessage_can_t*)&messages[i];
+        // canmsg->arbid is valid here
+        // canmsg->data is an uint8_t*, you can check canmsg->length for the length of the payload
+        // canmsg->timestamp is the time recorded by the hardware in nanoseconds since (1/1/2007 12:00:00 GMT)
+    }
+}
+icsneo_closeDevice(myDevice);
+```
+
+### Debugging
+
+To enable debug printing set the `LIBICSNEO_PRINT_EVENTS` environmental variable to the desired `APIEvent::Severity` level, all `Event`s greater than or equal to that level will be printed to stderr. For example, to print all warnings and errors: `LIBICSNEO_PRINT_EVENTS=32`.
+
+## Building from Source
+### FTD3XX
+Some devices require FTD3XX for USB communication so the [FTDI D3XX library](https://ftdichip.com/drivers/d3xx-drivers/) will be automatically downloaded and included. If you would like to use a system copy of D3XX instead you can set `FTD3XX_ROOT` to the path containing `f3d3xx.h` (`-DFTD3XX_ROOT=<path to directory containing ftd3xx.h>`).
+### Windows
+
+- Open a terminal and install the following:
+```
+winget install Microsoft.VisualStudio.2022.Community
+winget install Kitware.CMake
+winget install Git.Git
+winget install Ninja-build.Ninja
+```
+- Reboot so cmake is in the system path
+- Open a developer Powershell for VS2022 and run the following:
+```
+git clone https://github.com/intrepidcs/libicsneo
+cd libicsneo
+cmake -S . -B build -G "Ninja"
+cmake --build build
+# All dlls and libs are now inside the build directory
+```
+
+
+Building will require MSVC 2017 version 15.7 or newer and CMake to be installed.
+### macOS
+Getting the dependencies is easiest with the Homebrew package manager. You will also need XCode installed. You can then install CMake, an up-to-date version of GCC or Clang, and `libusb-1.0`.
+### Linux
+#### General Dependencies
+ - CMake 3.12 or above
+ - GCC 7 or above
+ - `libusb-1.0-0-dev`
+ - `libpcap0.8-dev`
+ - `build-essential` is recommended
+
+#### Fedora
+```
+dnf install git @development-tools gcc-c++ libpcap-devel libusb1-devel cmake
+```
+#### Debian/Ubuntu
+```
+apt install git build-essential libpcap0.8-dev libusb-1.0-0-dev cmake
+```
+
+#### Building
+```
+git clone https://github.com/intrepidcs/libicsneo
+cd libicsneo
+cmake -S . -B build
+cmake --build build
+# Optional: Install globally:
+cp *.so /usr/local/lib/
+```
+
+#### udev
+If you'd like to be able to run programs that use this library without being root, consider using the included udev rules:
+
+```
+cp 99-intrepidcs.rules /etc/udev/rules.d/
+udevadm control --reload-rules && udevadm trigger
+```
