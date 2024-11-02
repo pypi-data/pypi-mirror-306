@@ -1,0 +1,2 @@
+[console_scripts]
+tono = tono.cli:app
