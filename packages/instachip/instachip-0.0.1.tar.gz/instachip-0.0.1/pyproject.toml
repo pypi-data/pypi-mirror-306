@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "instachip"
+version = "0.0.1"
+authors = [
+  { name="Sathvik Redrouthu", email="sathvikr@getinstachip.com" },
+  { name="Rithvik Redrouthu", email="rithvik.redrouthu@gmail.com" },
+  { name="Instachip", email="team@getinstachip.com" },
+]
+description = "A research lab building autonomous RTL coders"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://getinstachip.com/"
