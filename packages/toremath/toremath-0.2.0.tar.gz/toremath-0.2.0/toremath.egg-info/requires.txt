@@ -1,0 +1,9 @@
+sympy
+
+[dev]
+check-manifest
+pytest
+
+[docs]
+sphinx
+sphinx_rtd_theme
