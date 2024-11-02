@@ -1,0 +1,2 @@
+[console_scripts]
+disopy = disopy.__main__:main
