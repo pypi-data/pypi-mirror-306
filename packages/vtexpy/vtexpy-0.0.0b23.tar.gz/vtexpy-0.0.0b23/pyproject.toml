@@ -1,0 +1,111 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "vtexpy"
+description = "Unofficial VTEX API's Python SDK"
+version = "0.0.0b23"
+readme = "README.md"
+license = "Apache"
+authors = [
+    "Luis Vieira <lvieira@lvieira.com>",
+]
+maintainers = [
+    "Luis Vieira <lvieira@lvieira.com>",
+]
+homepage = "https://github.com/lvieirajr/vtex-python"
+repository = "https://github.com/lvieirajr/vtex-python"
+documentation = "https://github.com/lvieirajr/vtex-python"
+keywords = ["vtex", "sdk", "client", "api"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed",
+]
+packages = [
+    {include = "vtex"},
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+cachetools = {version = ">=5.0,<6.0"}
+httpx = {version = ">=0.17,<1.0"}
+pydantic = {version = ">=2.0,<3.0"}
+python-dateutil = {version = ">=2.9,<3.0"}
+tenacity = {version = ">=8.0,<10.0"}
+typing-extensions = {version = ">=3.10,<5.0", markers = "python_version < \"3.12\""}
+
+[tool.poetry.group.dev.dependencies]
+ipdb = {version = "*"}
+ipython = {version = "*"}
+mock = {version = "*"}
+mypy = {version = "*"}
+pip = {version = "*"}
+poetry = {version = "*"}
+pre-commit = {version = "*"}
+pytest = {version = "*"}
+pytest-mock = {version = "*"}
+ruff = {version = "*"}
+setuptools = {version = "*"}
+types-cachetools = {version = "*"}
+types-decorator = {version = "*"}
+types-python-dateutil = {version = "*"}
+types-six = {version = "*"}
+
+
+# ======
+# PyTest
+# ======
+[tool.pytest.ini_options]
+addopts = "-s -vv"
+markers = [
+    "unit: unit tests",
+    "integration: integration tests",
+    "e2e: end-to-end tests",
+]
+mock_use_standalone_module = true
+
+
+# ====
+# MyPy
+# ====
+[tool.mypy]
+exclude = [".*tests/*"]
+ignore_missing_imports = true
+install_types = true
+namespace_packages = true
+no_implicit_reexport = false
+non_interactive = true
+plugins = []
+pretty = true
+strict = true
+
+
+# ====
+# Ruff
+# ====
+[tool.ruff]
+target-version = "py313"
+
+[tool.ruff.format]
+preview = true
+
+[tool.ruff.lint]
+ignore = ["COM812", "ISC001"]
+select = ["B", "C4", "C90", "COM", "E", "EXE", "F", "I", "ISC", "N", "S", "T10", "T20", "W"]
+
+[tool.ruff.lint.per-file-ignores]
+"**/__init__.py" = ["F401"]
+"**/tests/*" = ["S101"]
