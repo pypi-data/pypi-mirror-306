@@ -1,0 +1,73 @@
+[tool.poetry]
+name = "billboard"
+version = "0.4.0"
+description = "Python scraper for Billboard Hot 100"
+authors = ["TonyGrif <TonyGriffin2000@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "billboard" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+fake-useragent = "^1.5.1"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.1"
+pytest-cov = "^5.0.0"
+pyhamcrest = "^2.1.0"
+tox = "^4.16.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.0"
+ruff = "^0.4.4"
+poethepoet = "^0.26.1"
+types-requests = "^2.32.0.20240712"
+types-beautifulsoup4 = "^4.12.0.20240511"
+pylint = "^3.3.1"
+
+[tool.poetry.group.docs.dependencies]
+pdoc = "^15.0.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+log_cli = "True"
+
+[tool.mypy]
+files = ["billboard"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.poe.tasks]
+test = "pytest --cov --cov-report term-missing"
+format = "ruff format"
+type = "mypy"
+check = "ruff check"
+lint.sequence = ["format", "check", "type"]
+docs = "pdoc -t pdoc/ -o docs/ --docformat google billboard/"
+
+[tool.tox]
+legacy_tox_ini = """
+    [tox]
+    requires =
+        tox>=4
+    env_list = py{39, 310, 311, 312}
+    isolated_build = true
+
+    [testenv]
+    description = Run the PyTest Suite.
+    skip_install = true
+    deps = poetry
+    commands_pre =
+        poetry install --only main,test
+    commands =
+        poetry run pytest --cov
+"""
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
