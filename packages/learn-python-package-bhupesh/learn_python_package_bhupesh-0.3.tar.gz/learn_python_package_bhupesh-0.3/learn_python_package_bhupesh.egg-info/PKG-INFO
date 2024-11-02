@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: learn_python_package_bhupesh
+Version: 0.3
+Summary: package created for learning purposes
+Home-page: https://github.com/BhupeshTongaria/Learn_python_package/
+Author: Bhupesh Tongaria
+Description-Content-Type: text/markdown
+
+# My Package
+
+
+
+This is a simple Python package that provides 3 defs.
+
+Ihave created on 30-10-24 for learning purposes .
+
+
+
+## Installation
+
+
+
+You can install this package using pip:
+
+=================================================================================
+
+
