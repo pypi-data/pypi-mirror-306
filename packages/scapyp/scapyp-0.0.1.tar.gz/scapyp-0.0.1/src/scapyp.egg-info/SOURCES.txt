@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/one.py
+src/scapyp.egg-info/PKG-INFO
+src/scapyp.egg-info/SOURCES.txt
+src/scapyp.egg-info/dependency_links.txt
+src/scapyp.egg-info/top_level.txt
