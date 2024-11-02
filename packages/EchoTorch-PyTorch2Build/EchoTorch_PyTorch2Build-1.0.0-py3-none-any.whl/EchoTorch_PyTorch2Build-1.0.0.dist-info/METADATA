@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: EchoTorch-PyTorch2Build
+Version: 1.0.0
+Summary: A Python toolkit for Reservoir Computing
+Download-URL: https://github.com/RaameshB/EchoTorch/archive/refs/tags/v1.0.0-pre.tar.gz
+Author: Raamesh Balabhadrapatruni
+Author-email: raameshb@proton.me
+License: GPLv3
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: future
+Requires-Dist: numpy==2.1.2
+Requires-Dist: scipy==1.14
+Requires-Dist: matplotlib
+Requires-Dist: torch==2.5.1
+Requires-Dist: torchvision
+Requires-Dist: networkx
+Requires-Dist: tqdm
+
+A Python toolkit for Reservoir Computing, Echo State Network and Conceptor experimentation based on pyTorchUpdated version of the original work by Nils Schaetti
