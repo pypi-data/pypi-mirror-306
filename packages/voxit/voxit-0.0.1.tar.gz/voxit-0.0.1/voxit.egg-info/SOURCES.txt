@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+voxit/voxit.py
+voxit.egg-info/PKG-INFO
+voxit.egg-info/SOURCES.txt
+voxit.egg-info/dependency_links.txt
+voxit.egg-info/entry_points.txt
+voxit.egg-info/requires.txt
+voxit.egg-info/top_level.txt

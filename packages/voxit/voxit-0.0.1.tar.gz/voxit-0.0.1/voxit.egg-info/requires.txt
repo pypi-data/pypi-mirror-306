@@ -1,0 +1,5 @@
+openai==1.53.0
+pydub>=0.25.1
+cryptography>=43.0.3
+halo>=0.0.31
+tqdm>=4.66.6
