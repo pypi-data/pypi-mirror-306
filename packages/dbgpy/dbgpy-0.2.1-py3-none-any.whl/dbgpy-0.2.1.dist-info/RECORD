@@ -1,0 +1,8 @@
+dbgpy/__init__.py,sha256=ka0q5b5Q4V65M26iRf36OiAm3_o6iqrB1uEmUJVu9Gk,77
+dbgpy/_config.py,sha256=XRhKH0ZzejWNfoq8H9ogTPyxfy_UVejY0LtQaQ7AAMc,477
+dbgpy/_dbg.py,sha256=ce9aVcJXSqMYrVzbXPT5EMZDxr6VXTHJwKDA9z-1nsM,3357
+dbgpy/_stack_inspect.py,sha256=rPZh4IeQtEhvAe6RBlKKb4MdpiukOGVxCO82QA1xHsk,4372
+dbgpy-0.2.1.dist-info/METADATA,sha256=HmFjfdvMJqPVC86a59dv9OtsDNP4WI0WRhmiXR_8hqU,658
+dbgpy-0.2.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+dbgpy-0.2.1.dist-info/top_level.txt,sha256=wMxgjtt2PeFR53N5ZHogGSBlXGBmSAF3WXXqd6gW55I,6
+dbgpy-0.2.1.dist-info/RECORD,,
