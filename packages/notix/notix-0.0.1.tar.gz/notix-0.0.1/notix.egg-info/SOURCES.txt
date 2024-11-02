@@ -1,0 +1,8 @@
+README.md
+setup.py
+notix/__init__.py
+notix/message.py
+notix.egg-info/PKG-INFO
+notix.egg-info/SOURCES.txt
+notix.egg-info/dependency_links.txt
+notix.egg-info/top_level.txt
