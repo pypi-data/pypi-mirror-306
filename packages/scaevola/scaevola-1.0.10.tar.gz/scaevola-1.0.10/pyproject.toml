@@ -1,0 +1,34 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools>=61.0.0",
+]
+
+[project]
+authors = [
+    { email = "johannes-programming@mailfence.com", name = "Johannes" },
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+description = "class with preset right handed magic methods"
+keywords = []
+name = "scaevola"
+readme = "README.rst"
+requires-python = ">=3.8"
+version = "1.0.10"
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.urls]
+Documentation = "https://pypi.org/project/scaevola"
+Download = "https://pypi.org/project/scaevola/#files"
+Index = "https://pypi.org/project/scaevola/"
+Source = "https://github.com/johannes-programming/scaevola"
+Website = "https://scaevola.johannes-programming.online/"
