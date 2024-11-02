@@ -1,0 +1,9 @@
+finic_py/__init__.py,sha256=OwulZtNtxuJRuFafJw_BOoKiIHYZGfeWJOnC6RBT8pw,94
+finic_py/cli.py,sha256=O9E9lkG1GGffbM-H6VXYpFO9M6ln0bpqHMtXOxjr964,6908
+finic_py/copilot.py,sha256=RfmANLJsbCLYtb1nVpZ9ivYAKTtN8VJtXhcqUo2w7G0,23213
+finic_py/finic.py,sha256=gQyK0P4qbgQPMOWvm9ww4Wp01_ltPmcCoGhzsXjqKZ0,20050
+finic_py/test.py,sha256=Qe4poxjMLLKhAxam4eJpBv4fJgqPcAt4P3CWQEceRP8,944
+finic_py-0.1.39.dist-info/METADATA,sha256=KUOx_cjPjlCFDKuYpnxtV4PJxZNT8DmQpb_3JszFP_o,1097
+finic_py-0.1.39.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+finic_py-0.1.39.dist-info/entry_points.txt,sha256=gHL8tNUyJ3JVOW5g0iELrv1fehApundCDAi4jpW7ZD0,43
+finic_py-0.1.39.dist-info/RECORD,,
