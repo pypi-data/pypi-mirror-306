@@ -1,0 +1,7 @@
+What is the __spec__ of the following product?
+
+Product title: 
+__title__
+
+Product features: 
+__features__
