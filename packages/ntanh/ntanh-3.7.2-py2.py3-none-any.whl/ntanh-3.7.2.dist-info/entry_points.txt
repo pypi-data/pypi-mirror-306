@@ -1,0 +1,8 @@
+[console_scripts]
+ntanh = ntanh:console_main
+ntanh_aug = ntanh:console_image_aug
+ntanh_base_params_help = ntanh:Print_BaseParam_using
+ntanh_delete_files_dupplicates = ntanh:console_delete_files_ORB
+ntanh_delete_files_extention = ntanh:console_delete_files
+ntanh_img_del = ntanh:console_fnImage_dupplicate_remove
+ntanh_img_resize = ntanh:console_resize_images_in_directory
