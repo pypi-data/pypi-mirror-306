@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: PyGraphLib
+Version: 0.0.1
+Summary: A simple and incomplete graph library for Python
+Project-URL: Homepage, https://github.com/HansLuft778/PyGraphLib
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+
