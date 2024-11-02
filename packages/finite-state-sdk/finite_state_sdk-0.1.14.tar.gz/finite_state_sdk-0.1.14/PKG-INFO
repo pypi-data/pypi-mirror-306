@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: finite-state-sdk
+Version: 0.1.14
+Summary: The official Finite State Python SDK.
+Home-page: https://github.com/FiniteStateInc/finite-state-sdk-python
+License: MIT
+Author: Finite State, Inc.
+Author-email: developer-tools@finitestate.io
+Maintainer: Finite State, Inc.
+Maintainer-email: developer-tools@finitestate.io
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: MarkupSafe (>=2.1.3,<3.0.0)
+Requires-Dist: Pygments (>=2.15.1,<3.0.0)
+Requires-Dist: bleach (>=6.1.0,<7.0.0)
+Requires-Dist: build (>=1.2.1,<2.0.0)
+Requires-Dist: certifi (>=2024.2.2,<2025.0.0)
+Requires-Dist: charset-normalizer (>=3.2.0,<4.0.0)
+Requires-Dist: cyclonedx-bom (==3.11.7)
+Requires-Dist: cyclonedx-python-lib (==3.1.5)
+Requires-Dist: idna (>=3.4,<4.0)
+Requires-Dist: importlib-metadata (>=7.1.0,<8.0.0)
+Requires-Dist: jaraco-classes (>=3.3.0,<4.0.0)
+Requires-Dist: keyring (>=25.1.0,<26.0.0)
+Requires-Dist: markdown-it-py (>=3.0.0,<4.0.0)
+Requires-Dist: mdurl (>=0.1.2,<0.2.0)
+Requires-Dist: more-itertools (>=10.2.0,<11.0.0)
+Requires-Dist: packageurl-python (>=0.15.0,<0.16.0)
+Requires-Dist: packaging (>=24.0,<25.0)
+Requires-Dist: pip-requirements-parser (>=32.0.1,<33.0.0)
+Requires-Dist: pkginfo (>=1.9.6,<2.0.0)
+Requires-Dist: pyparsing (>=3.1.0,<4.0.0)
+Requires-Dist: pyproject_hooks (>=1.0.0,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: requests-toolbelt (>=1.0.0,<2.0.0)
+Requires-Dist: rfc3986 (>=2.0.0,<3.0.0)
+Requires-Dist: six (>=1.16.0,<2.0.0)
+Requires-Dist: sortedcontainers (>=2.4.0,<3.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Requires-Dist: webencodings (>=0.5.1,<0.6.0)
+Requires-Dist: zipp (>=3.16.2,<4.0.0)
+Project-URL: Repository, https://www.github.com/FiniteStateInc/finite-state-sdk-python
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <img src="https://finitestate.io/hs-fs/hubfs/FS-Logo-Final-01.png" />
+</p>
+
+# What is [Finite State](https://finitestate.io)
+
+[Finite State](https://finitestate.io) manages risk across your software supply chain so that you can minimize risk, ship confidently, and reduce attack surface. Finite State reduces software supply chain risk with end-to-end SBOM solutions for the connected world.
+
+The cloud-based SaaS platform for SBOM and Product Security management enables you to:
+
+* Generate and manage SBOMs in any format to create software transparency
+* Orchestrate and correlate scan findings from over 120 top scanning tools
+* Monitor AppSec and Product Security risk across product portfolios to visualize risk scoring and prioritize critical findings
+* Leverage world-class binary SCA to generate the most thorough and accurate SBOMs available
+
+# [Finite State](https://finitestate.io) SDK
+
+Finite State's powerful GraphQL API gives you and your teams access to the incredibly rich data you have in the platform. These SDKs, tools, and examples help your team to connect to Finite State APIs quickly and easily.
+
+# Installing the Python SDK
+
+View the Python API Docs here: [https://finitestateinc.github.io/finite-state-sdk-python/finite_state_sdk.html](https://finitestateinc.github.io/finite-state-sdk-python/finite_state_sdk.html).
+
+```
+$ pip3 install finite-state-sdk
+```
+
+To use it:
+
+```
+import finite_state_sdk
+```
+
+## Generating the docs
+
+### Setting docs generation project
+
+`docs-generation` folder is the python project to generate html documentation.
+
+`./docs-generation/pyproject.toml` is the Poetry file project. It should run with python 3.9 or up.
+
+Should run once the following commands. This is an example with pyenv and python 3.11.
+
+```bash
+cd docs-generation
+pyenv local 3.11
+poetry env use 3.11
+poetry install
+```
+
+### Generation docs.
+
+From project root folder.
+
+```bash
+export VERSION=0.0.4
+./scripts/generate-docs.sh
+```
+
+# Finite State API
+
+For more information about Finite State's APIs, see: [https://docs.finitestate.io](https://docs.finitestate.io).
+
+Our teams are working to add additional programming language and package manager support for Finite State SDKs.
+
