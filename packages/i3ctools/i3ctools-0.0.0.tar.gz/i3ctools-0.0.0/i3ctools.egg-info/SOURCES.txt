@@ -1,0 +1,5 @@
+setup.py
+i3ctools.egg-info/PKG-INFO
+i3ctools.egg-info/SOURCES.txt
+i3ctools.egg-info/dependency_links.txt
+i3ctools.egg-info/top_level.txt
