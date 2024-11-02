@@ -1,0 +1,16 @@
+pyproject.toml
+readme.md
+src/melkor/__init__.py
+src/melkor/__main__.py
+src/melkor/customTypes.py
+src/melkor/engine.py
+src/melkor/settings.py
+src/melkor/tester.py
+src/melkor/utils.py
+src/melkor.egg-info/PKG-INFO
+src/melkor.egg-info/SOURCES.txt
+src/melkor.egg-info/dependency_links.txt
+src/melkor.egg-info/entry_points.txt
+src/melkor.egg-info/requires.txt
+src/melkor.egg-info/top_level.txt
+src/melkor/output/junit.py
