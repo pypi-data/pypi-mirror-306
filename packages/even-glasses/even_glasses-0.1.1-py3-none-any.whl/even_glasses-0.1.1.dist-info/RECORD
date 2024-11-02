@@ -1,0 +1,9 @@
+even_glasses/__init__.py,sha256=mnooBISWc5xwSD3tz740zEa_8fbkxeX7YFK9JWxMLh0,170
+even_glasses/ble_manager.py,sha256=Or7jEFz6Qf8HFz8EqxFOgsE5MWEzJUqnjwze53ioAPk,22560
+even_glasses/enums.py,sha256=Xxbb6aiYqFy9ED8SX6kNC_1Q-gmVFooxXgiHvKiYY2I,743
+even_glasses/service_identifiers.py,sha256=N7V5sdQ_QVzfjcElgkEpwhFIR-OPIBtSrUOWxza18FM,236
+even_glasses-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+even_glasses-0.1.1.dist-info/METADATA,sha256=qTWZuaT0wSG2yBLh6SkGYg2jE0FAUefAgsCioKPViVg,598
+even_glasses-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+even_glasses-0.1.1.dist-info/top_level.txt,sha256=FIg_wdoVRcTU80_b3s6Eci6Zp6i1K_EiBnL1CofLirY,13
+even_glasses-0.1.1.dist-info/RECORD,,
