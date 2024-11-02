@@ -1,0 +1,13 @@
+numpy
+argparse
+textual
+textual_image
+matplotlib
+pillow
+cairosvg
+tqdm
+art
+tree-sitter==0.21.3
+tree-sitter-languages==1.10.2
+asyncio
+requests
