@@ -1,0 +1,8 @@
+README.md
+setup.py
+MultilingualSpeaker.egg-info/PKG-INFO
+MultilingualSpeaker.egg-info/SOURCES.txt
+MultilingualSpeaker.egg-info/dependency_links.txt
+MultilingualSpeaker.egg-info/requires.txt
+MultilingualSpeaker.egg-info/top_level.txt
+aivoice_2/__init__.py

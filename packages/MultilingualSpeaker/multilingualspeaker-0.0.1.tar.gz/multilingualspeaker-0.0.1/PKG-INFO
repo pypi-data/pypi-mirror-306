@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: MultilingualSpeaker
+Version: 0.0.1
+Summary: A brief description of the library
+Home-page: https://github.com/NPO_KS903/MultilingualSpeaker
+Author: NPO_KS_903
+Author-email: xksxkatuyoshi0009@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: deep-translator
+Requires-Dist: pyttsx3
+
+# README.md
+
+# My Library
+
+A brief description of what My Library does. For example, "My Library is a Python package that simplifies data processing and analysis tasks."
+
+## Table of Contents
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Examples](#examples)
+5. [Contributing](#contributing)
+6. [License](#license)
+
+## Features
+- **Feature 1**: Description of the first feature, such as "Easily handle complex data transformations."
+- **Feature 2**: Description of the second feature, such as "Integrate seamlessly with popular data science libraries like Pandas and NumPy."
+- **Feature 3**: Description of any other notable functionality.
+
+## Installation
+
+To install this package, use `pip`:
+
+```bash
+pip install my_library
