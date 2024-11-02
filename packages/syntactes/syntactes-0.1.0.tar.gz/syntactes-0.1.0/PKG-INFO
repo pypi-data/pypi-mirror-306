@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: syntactes
+Version: 0.1.0
+Summary: Parser generator
+Author-email: Maximos Nikiforakis <nikiforos@live.co.uk>
+License: MIT
+Project-URL: Homepage, https://github.com/Maxcode123/syntactes
+Project-URL: Issues, https://github.com/Maxcode123/syntactes/issues
+Keywords: parser,generator
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Compilers
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown

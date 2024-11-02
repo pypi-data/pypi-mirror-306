@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/syntactes/__init__.py
+src/syntactes/_action.py
+src/syntactes/_item.py
+src/syntactes/_state.py
+src/syntactes/generator.py
+src/syntactes/grammar.py
+src/syntactes/rule.py
+src/syntactes/table.py
+src/syntactes/token.py
+src/syntactes.egg-info/PKG-INFO
+src/syntactes.egg-info/SOURCES.txt
+src/syntactes.egg-info/dependency_links.txt
+src/syntactes.egg-info/top_level.txt
