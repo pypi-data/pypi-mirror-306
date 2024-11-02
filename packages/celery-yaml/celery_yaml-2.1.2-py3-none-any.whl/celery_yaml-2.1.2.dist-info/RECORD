@@ -1,0 +1,10 @@
+CHANGELOG.md,sha256=9nq42nuz3tVy6mIdy-0lunI5kTqg8A7KrANF3LaFf5w,1254
+celery_yaml-2.1.2.dist-info/METADATA,sha256=VhLbGDdb18ksYxiPYnEEWpO-BoPUnrodIP4aaP0U60s,4698
+celery_yaml-2.1.2.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+celery_yaml-2.1.2.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+celery_yaml-2.1.2.dist-info/licenses/LICENSE,sha256=V32F3pzX0PY1vHGqIq3DV-as9q6cglrNA60gA70oN4U,1521
+celery_yaml/__init__.py,sha256=x5JAeBrGcTyoy_O_kLbZaYhioJSHuXtFqL2GpTCUP1Y,206
+celery_yaml/loader.py,sha256=eqfbTURWocq3zbIf6vhYoFvSWGgWh1lJXlubrI7hyAo,2509
+celery_yaml/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celery_yaml/pyramid.py,sha256=JmJJa1zN8jGxMDokd645ui7lrZXgPLgHuMM_2U4b7N8,953
+celery_yaml-2.1.2.dist-info/RECORD,,
