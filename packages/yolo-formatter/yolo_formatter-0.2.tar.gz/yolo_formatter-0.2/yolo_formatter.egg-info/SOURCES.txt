@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+yolo_formatter/__init__.py
+yolo_formatter/yolo_dataset_formatter.py
+yolo_formatter.egg-info/PKG-INFO
+yolo_formatter.egg-info/SOURCES.txt
+yolo_formatter.egg-info/dependency_links.txt
+yolo_formatter.egg-info/requires.txt
+yolo_formatter.egg-info/top_level.txt
