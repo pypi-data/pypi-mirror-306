@@ -1,0 +1,8 @@
+neural_condense/__init__.py,sha256=Sk5m7nvTSoXVMLtT-W5h9ZIuQ85UWPef50bPI37FNR0,165
+neural_condense/client.py,sha256=fGioyhwQBaqMRrMHr80XcsLDFLDWE52D91UTmFoq1Kk,3600
+neural_condense/constants.py,sha256=gFY-mHYOFVdNMmbJr1xD8MesqJbMHz3y79NO8ihjdgg,79
+neural_condense/datatypes.py,sha256=zE5PhFOjrUNZTNmZ3IW9NS8i1nQo7LI33-j63iX3mmU,367
+neural_condense-0.0.1.dist-info/METADATA,sha256=E5CDDKINr96IQy6OjHimgHn1qGikAgZjfp-Blazb0E4,4688
+neural_condense-0.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+neural_condense-0.0.1.dist-info/top_level.txt,sha256=3fjNiixoyhJwEDhQqUev4AkihCDRZC7HHA-YAlI4Btc,16
+neural_condense-0.0.1.dist-info/RECORD,,
