@@ -1,0 +1,14 @@
+xy_django_app_feedback/__init__.py,sha256=4nJq5CLcYBJ9AqkxGr4Am_88m1dJsBQn6fgBeA6fJTs,126
+xy_django_app_feedback/abstracts.py,sha256=2Ikj4dKWwCKhlmKYuQrJFeofE2BuxX8jKE6SOUYSPr0,3067
+xy_django_app_feedback/admin.py,sha256=dJkhS4uCFcqUEJ8Dt-2Z8gf_idph8QQ5gNWLbv3XDYU,228
+xy_django_app_feedback/apps.py,sha256=qirqmK2ReGkLwb0l1cHbFXe37XWaAGUW4fAARWGvh1w,147
+xy_django_app_feedback/models.py,sha256=jFOoWEeY82J4KUpd0Pd4YSDXhN7VQDjW4jGpFmRzL10,481
+xy_django_app_feedback/serializers.py,sha256=2guelnfUw-3FYg7Biv2Hu8blHgXPh-dLm325Gat1q5s,398
+xy_django_app_feedback/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+xy_django_app_feedback/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+xy_django_app_feedback/migrations/__init__.py,sha256=uVyJ2KO22evUaT2_liVnT2qqBOH_HB_CMYiXDqgEXbQ,126
+xy_django_app_feedback-1.0.1.dist-info/LICENSE,sha256=8NreXJM3ab-0PXXvuVF9QqDoXrglPouAZDdv3Vj-70U,9247
+xy_django_app_feedback-1.0.1.dist-info/METADATA,sha256=4yK6MqbLpMI1ndqnNvgfyyZZayq8XsGYNjTBw8o2LoU,4997
+xy_django_app_feedback-1.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+xy_django_app_feedback-1.0.1.dist-info/top_level.txt,sha256=nCbPHd3NZABdpXJ5l7Txf-ap0elkpelddKvjNsF2MmI,23
+xy_django_app_feedback-1.0.1.dist-info/RECORD,,
