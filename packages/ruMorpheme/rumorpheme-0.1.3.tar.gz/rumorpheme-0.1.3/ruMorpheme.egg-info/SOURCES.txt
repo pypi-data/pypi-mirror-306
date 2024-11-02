@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ruMorpheme.egg-info/PKG-INFO
+ruMorpheme.egg-info/SOURCES.txt
+ruMorpheme.egg-info/dependency_links.txt
+ruMorpheme.egg-info/requires.txt
+ruMorpheme.egg-info/top_level.txt
+rumorpheme/__init__.py
+rumorpheme/const.py
+rumorpheme/model.py
+rumorpheme/utils.py
