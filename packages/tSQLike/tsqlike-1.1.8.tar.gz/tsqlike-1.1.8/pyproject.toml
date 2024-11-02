@@ -1,0 +1,37 @@
+[project]
+name = "tSQLike"
+dynamic = [
+ "version",
+]
+authors = [
+  { name="<Mikhail Zakharov>", email="zmey20000@yahoo.com" },
+]
+description = "SQL-like interface to tabular structured data"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Database",
+    "Topic :: File Formats",
+]
+
+dependencies = [
+  "tssplit>=1.0.7",
+]
+
+[project.urls]
+Homepage = "https://github.com/mezantrop/tSQLike"
+Issues = "https://github.com/mezantrop/tSQLike/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "tsqlike/__about__.py"

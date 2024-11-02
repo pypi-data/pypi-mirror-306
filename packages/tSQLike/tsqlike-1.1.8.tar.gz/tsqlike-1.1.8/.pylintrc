@@ -1,0 +1,15 @@
+[MESSAGES CONTROL]
+    disable=
+        chained-comparison,
+        consider-using-with,
+        eval-used,
+        fixme,
+        no-member,
+        too-many-arguments,
+        too-many-boolean-expressions,
+        too-many-branches,
+        too-many-instance-attributes,
+        too-many-lines,
+        too-many-locals,
+        too-many-positional-arguments,
+        too-many-public-methods
