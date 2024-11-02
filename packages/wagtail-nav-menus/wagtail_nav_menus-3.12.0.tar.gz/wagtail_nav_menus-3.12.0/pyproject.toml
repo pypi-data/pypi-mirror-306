@@ -1,0 +1,46 @@
+[build-system]
+requires = [ "poetry-core>=1.9.1",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "wagtail-nav-menus"
+version = "3.12.0"
+description = "Wagtail Nav Menus is a app to provide highly customizable menus in wagtail by leveraging StreamFields."
+authors = ["thelab <thelabdev@thelab.co>"]
+readme = "README.rst"
+homepage = "https://gitlab.com/thelabnyc/wagtail-nav-menus"
+repository = "https://gitlab.com/thelabnyc/wagtail-nav-menus"
+license = "ISC"
+
+[[tool.poetry.packages]]
+include = "wagtail_nav_menus"
+from = "src"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+wagtail = ">=5.2,<6.4"
+wagtail-modeladmin = "^2.1.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = ">=7.1.1"
+tox = ">=4.23.2"
+ipdb = "*"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+annotated_tag = true
+gpg_sign = true
+tag_format = "v$version"
+update_changelog_on_bump = true
+changelog_merge_prerelease = true
+version_provider = "poetry"
+version_scheme = "pep440"
+version_files = [
+    "pyproject.toml:version",
+]
+pre_bump_hooks = [
+    "pre-commit run --all-files || true",
+]
+post_bump_hooks = [
+    "git push origin master $CZ_POST_CURRENT_TAG_VERSION"
+]
