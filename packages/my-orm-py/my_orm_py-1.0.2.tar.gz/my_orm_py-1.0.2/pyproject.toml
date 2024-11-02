@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-orm-py"
+version = "1.0.2"
+description = "Uma ORM simples para facilitar a implementação de SQL com Python"
+readme = "README.md"
+authors = [{ name = "Paulo Chagas Chaves Silva", email = "paulochz01@gmail.com" }]
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.2"]
+mysql = ["mysql-connector-python"]
+postgres = ["pg8000"]
+sqlite = ["sqlite3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
