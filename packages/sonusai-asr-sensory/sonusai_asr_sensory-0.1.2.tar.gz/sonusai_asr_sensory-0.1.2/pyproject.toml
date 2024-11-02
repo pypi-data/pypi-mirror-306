@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sonusai-asr-sensory"
+version = "0.1.2"
+description = "Sensory ASR tools for SonusAI"
+authors = ["Chris Eddington <chris@aaware.com>", "Jason Calderwood <jason@aaware.com>"]
+maintainers = ["Chris Eddington <chris@aaware.com>", "Jason Calderwood <jason@aaware.com>"]
+homepage = "https://aaware.com"
+license = "GPL-3.0-only"
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+numpy = "^1"
+python = "~3.11"
+sonusai = ">=0.16.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.11.2"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
