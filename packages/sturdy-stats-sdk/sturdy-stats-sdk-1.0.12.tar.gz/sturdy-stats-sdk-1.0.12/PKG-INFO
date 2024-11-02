@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sturdy-stats-sdk
+Version: 1.0.12
+Summary: SDK for the Sturdy Statistics API
+Home-page: https://sturdystatistics.com/api/documentation
+Author: Kian Ghodoussi
+Author-email: ghodoussikian@gmail.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: more-itertools
+Requires-Dist: srsly
+Requires-Dist: tenacity
+
+# Sturdy Stats SDK
