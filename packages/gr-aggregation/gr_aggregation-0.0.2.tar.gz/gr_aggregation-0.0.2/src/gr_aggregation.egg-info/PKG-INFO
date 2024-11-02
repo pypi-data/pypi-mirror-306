@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: gr-aggregation
+Version: 0.0.2
+Summary: Aggregation methods for scoring/ranking in group recommenders
+Author-email: Ariel Smith <arielsmithzerega@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
