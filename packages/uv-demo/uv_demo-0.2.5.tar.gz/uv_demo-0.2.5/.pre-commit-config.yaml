@@ -1,0 +1,50 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+    - repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v5.0.0
+      hooks:
+          # file properties
+          - id: check-added-large-files
+          - id: check-case-conflict
+          # text files
+          - id: check-executables-have-shebangs
+          - id: check-merge-conflict
+          - id: end-of-file-fixer
+          - id: trailing-whitespace
+          # saving yourself
+          - id: detect-private-key
+          # - id: detect-aws-credentials
+          #   args:
+          #       - --credentials-file ~/.aws/credentials
+          # syntax checkers
+          - id: check-ast
+          - id: check-json
+          - id: check-yaml
+          # formatters
+          - id: pretty-format-json
+            args:
+                - --autofix
+                - --indent=4
+
+    # makes sure the uv.lock file is up to date
+    - repo: https://github.com/astral-sh/uv-pre-commit
+      rev: 0.4.29
+      hooks:
+          - id: uv-lock
+
+    - repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v5.0.0
+      hooks:
+          - id: check-toml # after uv-lock
+
+    # run deptry with uv to check for missing and unused dependencies
+    - repo: local
+      hooks:
+          - id: deptry
+            name: deptry
+            entry: uv run deptry .
+            language: system
+            types: [python]
+            always_run: true
+            pass_filenames: false

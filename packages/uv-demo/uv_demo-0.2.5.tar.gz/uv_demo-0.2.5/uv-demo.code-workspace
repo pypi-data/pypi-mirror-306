@@ -1,0 +1,59 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {},
+    "tasks": {
+        "tasks": [
+            {
+                "command": "uv run pytest --cov=src ./tests",
+                "group": {
+                    "isDefault": true,
+                    "kind": "test"
+                },
+                "label": "Run pytest",
+                "linux": {
+                    "options": {
+                        "shell": {
+                            "args": [
+                                "-ci" // bash -i to load .bashrc; -c to run command
+                            ]
+                        }
+                    }
+                },
+                "presentation": {
+                    "panel": "shared",
+                    "reveal": "silent"
+                },
+                "problemMatcher": [],
+                "type": "shell"
+            },
+            {
+                "command": "uv build",
+                "group": {
+                    "isDefault": true,
+                    "kind": "build"
+                },
+                "label": "Run build",
+                "linux": {
+                    "options": {
+                        "shell": {
+                            "args": [
+                                "-ci" // bash -i to load .bashrc; -c to run command
+                            ]
+                        }
+                    }
+                },
+                "presentation": {
+                    "panel": "shared",
+                    "reveal": "silent"
+                },
+                "problemMatcher": [],
+                "type": "shell"
+            }
+        ],
+        "version": "2.0.0"
+    }
+}
