@@ -1,0 +1,14 @@
+README.md
+setup.py
+agentp/GREX.py
+agentp/GWAS.py
+agentp/Genotypes.py
+agentp/Project.py
+agentp/Static.py
+agentp/TWAS.py
+agentp/__init__.py
+agentp.egg-info/PKG-INFO
+agentp.egg-info/SOURCES.txt
+agentp.egg-info/dependency_links.txt
+agentp.egg-info/requires.txt
+agentp.egg-info/top_level.txt
