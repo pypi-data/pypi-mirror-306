@@ -1,0 +1,13 @@
+datadigitizer/__init__.py,sha256=OJy-qqbKX0SHZLg3-5tqrdUcnwY9RF-T-1P8vZnoOpQ,463
+datadigitizer/gui.py,sha256=hqsnpvOkE8kNV3TwtcHi02xP00mx30h6QO_OHo1_uNY,58132
+datadigitizer/icon.png,sha256=s1hmbI4vDy8szKN5dHErvfWAe4gYwGbc_4uNWHml70k,2461
+datadigitizer/icon.py,sha256=bxtLq88UPqV4X6TD2bwje3mCN8UjPYSWkVWCwquVePE,537
+datadigitizer/settings.py,sha256=k-jJDpJGoH4M6_lO3KRSdUTjOumFNJknqrPBKjd2xcw,2658
+datadigitizer/tests.py,sha256=emgCPn7CH3v_OkNUA5JptOEwYJ5XeguDAkYtzeGdk84,3512
+datadigitizer/version.py,sha256=mYCTTL7ubiDqnfM9IdX3C2V3jmuR3eapRGHPmARxy34,134
+datadigitizer-1.3.0.dist-info/LICENSE,sha256=L89ZlAU1h12hV7se2OZ1DmQ58zzcsJBcukggeWbeQTI,1086
+datadigitizer-1.3.0.dist-info/METADATA,sha256=1tgA0BUpn2H2a2DhdyRyEpLc3_TT8muOOzkl47VM9D0,2173
+datadigitizer-1.3.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+datadigitizer-1.3.0.dist-info/entry_points.txt,sha256=rlmn11Syr3oY8uaF0ioVUMWQgjvdxdjn0I7IpuvrIYE,113
+datadigitizer-1.3.0.dist-info/top_level.txt,sha256=VxxoBFqRR7mGkViMJQ7OOWnCLBqAd5L8sRbxOBtpqLM,14
+datadigitizer-1.3.0.dist-info/RECORD,,
