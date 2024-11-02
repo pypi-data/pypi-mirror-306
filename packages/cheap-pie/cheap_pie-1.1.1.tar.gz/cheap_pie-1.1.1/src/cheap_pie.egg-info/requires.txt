@@ -1,0 +1,12 @@
+untangle
+hickle
+cmsis-svd
+ipyxact
+python-docx
+wavedrom
+wavedrom-ascii
+pyverilator-mm
+peakrdl-ipxact
+peakrdl-uvm
+peakrdl-verilog
+peakrdl-cheader
