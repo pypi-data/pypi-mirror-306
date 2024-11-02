@@ -1,0 +1,6 @@
+click
+langchain
+langchain-anthropic>=0.2.3
+langchain-openai
+pandas>=0.2.4
+rich
