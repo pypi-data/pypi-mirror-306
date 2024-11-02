@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dharmamitra-sanskrit-grammar"
+version = "0.1.6"
+authors = [{name = "dharmamitra"}]
+description = "Sanskrit grammar processing using the Dharmamitra API"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = ["requests>=2.25.0"]
+
+[tool.setuptools]
+packages = ["dharmamitra_sanskrit_grammar"]
