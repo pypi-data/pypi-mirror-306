@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = { find = { where = ["src"] } }
+
+[project]
+name = "riddle-handler"
+version = "1.0.1"
+description = "A Python package for managing and interacting with a JSON-based riddle library."
+authors = [{name = "code crafters", email = "bw2176@nyu.edu"}]
+readme = "README.md"
+license = {text = "MIT"}
+keywords = ["riddle", "library", "JSON", "file handling"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = ["pytest"]

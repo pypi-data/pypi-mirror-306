@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/riddle_handler.egg-info/PKG-INFO
+src/riddle_handler.egg-info/SOURCES.txt
+src/riddle_handler.egg-info/dependency_links.txt
+src/riddle_handler.egg-info/requires.txt
+src/riddle_handler.egg-info/top_level.txt
