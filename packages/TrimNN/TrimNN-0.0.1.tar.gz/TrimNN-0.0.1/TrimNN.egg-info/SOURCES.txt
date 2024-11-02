@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+TrimNN.egg-info/PKG-INFO
+TrimNN.egg-info/SOURCES.txt
+TrimNN.egg-info/dependency_links.txt
+TrimNN.egg-info/requires.txt
+TrimNN.egg-info/top_level.txt
