@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "water_column_sonar_processing"
+version = "0.0.5"
+authors = [
+  { name="Rudy Klucik", email="rudy.klucik@noaa.gov" },
+]
+description = "A processing tool for water column sonar data."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/CI-CMG/water-column-sonar-processing"
+Issues = "https://github.com/CI-CMG/water-column-sonar-processing/issues"
+
+#[pytest]
+#pythonpath = "src"
+#testpaths = "tests"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
