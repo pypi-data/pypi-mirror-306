@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+
+# Activate asdf env in case you have installed Hatch via asdf
+ASDF_SHELL="$HOME"/.asdf/asdf.sh
+if [ -f "${ASDF_SHELL}" ]; then
+  # shellcheck disable=SC1090
+  . "${ASDF_SHELL}"
+fi
+
+# check hatch command works
+command -v hatch
+
+# check format and types
+hatch fmt
+hatch run types:check
