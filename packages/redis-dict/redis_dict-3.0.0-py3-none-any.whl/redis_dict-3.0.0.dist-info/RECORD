@@ -1,0 +1,9 @@
+redis_dict/__init__.py,sha256=fksonUr5DetzwFDEkT7lpmAaV3Jhmp2IQ12t62LwFb4,476
+redis_dict/core.py,sha256=iLVTzpR4HmMPqcgZQWMgdAgwRepLEhTbdxP-tfA13ts,34698
+redis_dict/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redis_dict/type_management.py,sha256=U3aP_EtHByApRdHvpr-zSOjok6r9BVZ0g3YnpVCVt8Y,7690
+redis_dict-3.0.0.dist-info/LICENSE,sha256=-QiLwYznh_vNUSz337k0faP9Jl0dgtCIHVZ39Uyl6cA,1070
+redis_dict-3.0.0.dist-info/METADATA,sha256=8Zn6a75THLjxiCGfRdFuz675RwSsLrBf0JQE8fH-Kfo,16873
+redis_dict-3.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+redis_dict-3.0.0.dist-info/top_level.txt,sha256=Wyp5Xvq_imoxvu-c-Le1rbTZ3pYM5BF440H9YAcgBZ8,11
+redis_dict-3.0.0.dist-info/RECORD,,
