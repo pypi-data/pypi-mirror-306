@@ -1,0 +1,7 @@
+README.md
+setup.py
+finance_calculator_ForCU_Ruslan.egg-info/PKG-INFO
+finance_calculator_ForCU_Ruslan.egg-info/SOURCES.txt
+finance_calculator_ForCU_Ruslan.egg-info/dependency_links.txt
+finance_calculator_ForCU_Ruslan.egg-info/entry_points.txt
+finance_calculator_ForCU_Ruslan.egg-info/top_level.txt
