@@ -1,0 +1,14 @@
+workstation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+workstation/config.py,sha256=rL0MWW3LaSHlhws__bTXoAkAhyNXzWTjBnTIAwLEGW8,9538
+workstation/core.py,sha256=f9aOlURKz_Okco0I36Qn1b2DxBQWjaGbqlGNodQ4eCk,10010
+workstation/machines.py,sha256=jwHT8lz3s-E9i5DGDZCYWoFFCI5eM1IRlHNqb1y6SU0,2893
+workstation/utils.py,sha256=7XDK9YxjMqht14p6tf0Fpe7yv3bhVuBQ47UIqL2TO6M,9667
+workstation/cli/__init__.py,sha256=2xMlHi0jU8Ag7uERqc1nvam_fRkg27AShGzU6qWiLbQ,803
+workstation/cli/__main__.py,sha256=VTsga7M3QRGsk8Z_iBk2etzZHK0kWbu6Y7ov95pbekg,78
+workstation/cli/crud.py,sha256=7u_OieM9pIhY7xKrccunUzE6m2ORbQvMMWrxcZ5cQ0w,14302
+cloud_workstation-0.1.4.dist-info/LICENSE.txt,sha256=Nz1fdbwpIAD0XlocykmqXSKiKgaObBi8LH4FhOvxNgg,551
+cloud_workstation-0.1.4.dist-info/METADATA,sha256=8ZYR5r294RjL97S-iRv8RPGIcKAu3BJ5T4dTWinOQIo,737
+cloud_workstation-0.1.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+cloud_workstation-0.1.4.dist-info/entry_points.txt,sha256=ekTbTUUdlH1rGDtpbbxLeojo12zhDqDfA-_tvn0bysg,52
+cloud_workstation-0.1.4.dist-info/top_level.txt,sha256=6ylTpvX3n62FDGfO3_Zzp2EmIGqwLsLTHqBmhCnrIII,12
+cloud_workstation-0.1.4.dist-info/RECORD,,
