@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+FinamPy.egg-info/PKG-INFO
+FinamPy.egg-info/SOURCES.txt
+FinamPy.egg-info/dependency_links.txt
+FinamPy.egg-info/requires.txt
+FinamPy.egg-info/top_level.txt
+src/Config.py
+src/FinamPy.py
+src/FinamRestPy.py
+src/__init__.py
