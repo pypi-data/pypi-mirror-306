@@ -1,0 +1,1 @@
+function trafficLight(t,e,r){let a=t.firstChild;a||(a=t),!1===e?(a.setAttribute("data-status",r.red),a.style.backgroundColor=r.red):!0===e?(a.setAttribute("data-status",r.green),a.style.backgroundColor=r.green):null===e?(a.setAttribute("data-status",r.orange),a.style.backgroundColor=r.orange):(a.setAttribute("data-status",e),a.style.backgroundColor=e)}
