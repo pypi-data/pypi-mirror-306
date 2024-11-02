@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: mvtcr
+Version: 0.2.1.2
+Summary: mvTCR: A multimodal generative model to learn a unified representation across TCR sequences and scRNAseq data for joint analysis of single-cell immune profiling data
+Home-page: https://github.com/SchubertLab/mvTCR
+Author: Felix Drost, Yang An, Lisa M Dratva, Rik GH Lindeboom, Muzlifah Haniffa, Sarah A Teichmann, Fabian Theis, Mohammad Lotfollahi, Benjamin Schubert
+Maintainer: Felix Drost, Yang An, Irene Bonafonte Pardàs, Jan-Philipp Leusch
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anndata ==0.10.3
+Requires-Dist: comet-ml ==3.35.5
+Requires-Dist: leidenalg ==0.10.1
+Requires-Dist: muon ==0.1.5
+Requires-Dist: numba ==0.58.1
+Requires-Dist: numpy ==1.26.1
+Requires-Dist: optuna ==3.4.0
+Requires-Dist: pandas ==2.1.1
+Requires-Dist: scanpy ==1.9.6
+Requires-Dist: scikit-learn ==1.3.2
+Requires-Dist: scirpy ==0.13.1
+Requires-Dist: scrublet ==0.2.3
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: umap-learn ==0.5.4
+
+# mvTCR
+
+mvTCR is a multimodal generative model to learn a unified representation across across TCR sequences and scRNAseq data and datasets for joint analysis of single-cell immune profiling data.
+
+- The publication can be found [here](https://www.nature.com/articles/s41467-024-49806-9) 
+- GitHub can be found [here](https://github.com/SchubertLab/mvTCR)
+
+### Installation
+
+To install mvTCR follow these steps:
+1. Create a [conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment) environment: <code>conda create -n mvTCR python=3.10</code>
+2. Install mvTCR <code>pip install mvTCR</code>
+3. Install [PyTorch](https://pytorch.org/get-started/locally/) e.g. v2.1.2 with the appropriate CUDA version
+
+### Tutorial
+
+Please have a look at our tutorial notebooks found [here](https://github.com/SchubertLab/mvTCR/tree/master/tutorials).
+
+### Bugs and Errors
+
+If you find any bugs or run into errors please report them to our [GitHub](https://github.com/SchubertLab/mvTCR/issues).
+
+
+#### Reproducibility 
+
+The [reproducibility GitHub](https://github.com/SchubertLab/mvTCR_reproducibility) features experiments and code used in the publication. If you want to reproduce them, please use mvTCR v0.1.3 together with PyTorch v1.8.0 .
