@@ -1,0 +1,9 @@
+scaevola/__init__.py,sha256=KAt5tVgdikLvbdauzJTkCsxH3vJKrff4LB1CH8OklYM,57
+scaevola/core.py,sha256=DtV4VI3d2fL7P_Q-rL0V-XMgUalXAaW9au4YilWufPc,1195
+scaevola/tests/__init__.py,sha256=ks4pt_cFlcE6dNvV8osJ7Ezzewqqqm4LPnP9Qod20tM,229
+scaevola/tests/tests_operators.py,sha256=OfXTuqdPouiZontb-aVZ5r33uTYijibkpO0Kmf4veKU,5115
+scaevola-1.0.10.dist-info/LICENSE.txt,sha256=QwqYepQwTN5xG57cngKt6xxYD9z9hw9d3lcI8zSLiNg,1074
+scaevola-1.0.10.dist-info/METADATA,sha256=vzLJmaBbdZ7DW_6kNM3HvshuHAAEMT3ymyQKUrCbnew,2259
+scaevola-1.0.10.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+scaevola-1.0.10.dist-info/top_level.txt,sha256=1oM62lKpwPWVxHtGCB2tN-TIs0bzZaSkB9dlI3Eoesw,9
+scaevola-1.0.10.dist-info/RECORD,,
