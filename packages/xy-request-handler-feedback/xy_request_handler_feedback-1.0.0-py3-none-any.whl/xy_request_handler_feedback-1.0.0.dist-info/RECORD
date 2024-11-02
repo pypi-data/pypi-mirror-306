@@ -1,0 +1,10 @@
+xy_request_handler__feedback/Feedbacks.py,sha256=hKiZTaEuMT_ZfZADK3gmnBLkMR6x_fijgQMSfho5yok,3930
+xy_request_handler__feedback/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xy_request_handler__feedback/urls.py,sha256=jRGhFqJXYi65kBFShfpSnsX9NlegLosrC03Ep9bF130,138
+xy_request_handler__feedback/__pycache__/Feedbacks.cpython-311.pyc,sha256=DRd2bX6ow1wqzZTB-WMeoM6dvPlZS4UMXXfEYhesd44,7713
+xy_request_handler__feedback/__pycache__/__init__.cpython-311.pyc,sha256=dRxTpzKVff7hqCf77k6gRrk0nBbVOMn7t2sfZd0b-MQ,236
+xy_request_handler_feedback-1.0.0.dist-info/LICENSE,sha256=8NreXJM3ab-0PXXvuVF9QqDoXrglPouAZDdv3Vj-70U,9247
+xy_request_handler_feedback-1.0.0.dist-info/METADATA,sha256=GNHxv-GwdKk5puFpOE8fS-mCpqduIDOhJKwmfOZafOI,3706
+xy_request_handler_feedback-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+xy_request_handler_feedback-1.0.0.dist-info/top_level.txt,sha256=fgjy63ucud17XMamubmH4YBeINlnLKJdGW3_xemKhYc,29
+xy_request_handler_feedback-1.0.0.dist-info/RECORD,,
