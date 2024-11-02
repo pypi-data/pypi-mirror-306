@@ -1,0 +1,10 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+ccs_govuk_frontend_jinja.egg-info/PKG-INFO
+ccs_govuk_frontend_jinja.egg-info/SOURCES.txt
+ccs_govuk_frontend_jinja.egg-info/dependency_links.txt
+ccs_govuk_frontend_jinja.egg-info/requires.txt
+ccs_govuk_frontend_jinja.egg-info/top_level.txt
+govuk_frontend_jinja/__init__.py
