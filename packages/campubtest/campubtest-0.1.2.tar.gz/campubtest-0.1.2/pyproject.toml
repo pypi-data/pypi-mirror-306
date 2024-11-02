@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "campubtest"
+version = "0.1.2"
+description = "pypi package"
+authors = ["ChristieMyburgh <c.myburgh@yahoo.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+greet = "campubtest.__main__:main"
+
+
