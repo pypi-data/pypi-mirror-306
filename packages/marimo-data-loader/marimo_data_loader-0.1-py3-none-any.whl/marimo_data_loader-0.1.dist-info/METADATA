@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: marimo_data_loader
+Version: 0.1
+Summary: A module that loads premade, editable datasets using marimo.
+Author: Muhammad Mustjaab
+Author-email: mustjaab.19@gmail.com
+License: MIT
+Requires-Dist: pandas
+Requires-Dist: marimo
+
