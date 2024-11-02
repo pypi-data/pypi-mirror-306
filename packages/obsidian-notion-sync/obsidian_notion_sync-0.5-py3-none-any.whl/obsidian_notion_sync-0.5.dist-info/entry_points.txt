@@ -1,0 +1,2 @@
+[console_scripts]
+obsidian-notion-sync = obsidian_notion_sync.cli:main
