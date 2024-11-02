@@ -1,0 +1,16 @@
+stompman/__init__.py,sha256=EFg0-ygOxEsb0TJGH0v2-WEaNpaqMH4koTAdyzHaqWA,1600
+stompman/client.py,sha256=O2NW964MZ_9w1Up3bHKoSJQ-BEkQuT1f4GDpjJLaXIE,7381
+stompman/config.py,sha256=MUyGKVRpvlLg_2jiYbBKRpt6gPYP48-TGG9-chLugj8,3503
+stompman/connection.py,sha256=QQaENE7fLw_L79HPHODDDBRBWh2jLfNlC4Zq3PGHnAw,3455
+stompman/connection_lifespan.py,sha256=ZWAIpILb6j7bBktyH9f1SRezCdqEFHnKabGCyRK1f00,4449
+stompman/connection_manager.py,sha256=ej0KEhWGf1KYS55hsXwzmN2nsl2_9GaFJiqBNSmxslo,6247
+stompman/errors.py,sha256=9MY92zY8022HSLgaLYAscBEn9dTsLtfFz3n55gYeVCw,1415
+stompman/frames.py,sha256=K9aZKIvZO_02t5zE0cLmySTFqqRAw1S4x-NuFS9UtKY,5695
+stompman/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stompman/serde.py,sha256=1AJaqYcmUnSB5N3hViSwDceo4BEZgJPzcGJ4TwJjCMs,6251
+stompman/subscription.py,sha256=XEa-E3NYY_k0JKbBmISZ3tJuAe9wlup7BuAQWIUDcH4,3297
+stompman/transaction.py,sha256=d7SqBt__SA3x-mDN-akd4z-uTxAlWMwnIpcNZsh_HYk,2375
+stompman-1.5.0.dist-info/METADATA,sha256=ZkGWhwWDLZpIMPyYkcHHr_5wTYq09YzXYVnvT8wNFzA,5791
+stompman-1.5.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+stompman-1.5.0.dist-info/licenses/LICENSE,sha256=yRjHcVk5oiyAVD9dQFvWTrp-oIP1GlWoG5D4oKaZn1c,1091
+stompman-1.5.0.dist-info/RECORD,,
