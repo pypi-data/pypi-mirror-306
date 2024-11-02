@@ -1,0 +1,17 @@
+attrs
+black>=24
+isort
+libcst
+python-dotenv>=0.20.0
+
+[dev]
+headline[lint,test]
+
+[lint]
+pre-commit
+ruff>=0.4.2
+
+[test]
+pytest
+pytest-cov
+hypothesis
