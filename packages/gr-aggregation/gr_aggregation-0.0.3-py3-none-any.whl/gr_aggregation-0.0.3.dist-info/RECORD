@@ -1,0 +1,12 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gr_aggregation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gr_aggregation/aggregation.py,sha256=zCjyPqL68EvXDDBLDyM784ZwIwqIqFJVBERarcBO44o,386
+gr_aggregation/borda_count.py,sha256=7h1Xp2JI7-6EezpFNlYDPAnr2ORYtljJBd2iD985d70,1699
+gr_aggregation/completeness.py,sha256=7qzbTqrBHvVTWq0vkVVo9inE_0FNljgze0TuGhIDCBw,1673
+gr_aggregation/ranking.py,sha256=nvfnvKS-V6w88-zJbexj1-W7ECGMILwHpnDS-AD1FJQ,736
+gr_aggregation/user_items.py,sha256=m1WSZ0tZaFlc7gHuAXD5UK3XMthl9QvNQUS1wTtExrQ,1062
+gr_aggregation-0.0.3.dist-info/LICENSE,sha256=-tmnCPaYDp9kb0fE_0Mj3btP4m4FhUdL7M6tnZSDGNk,1064
+gr_aggregation-0.0.3.dist-info/METADATA,sha256=wkvqxfMYn_2YsZpVtEAJ01w3yiYMwzQURETciGKopJc,416
+gr_aggregation-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gr_aggregation-0.0.3.dist-info/top_level.txt,sha256=0tnXw5-n75mMHJQO7FJg7OsP-gi0vPKg71VKw0pPorI,24
+gr_aggregation-0.0.3.dist-info/RECORD,,
