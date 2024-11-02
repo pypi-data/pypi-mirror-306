@@ -1,0 +1,13 @@
+ansifier/__init__.py,sha256=q-Q5VS78UTDgt8TAHJ1M4X-6NKtDpSyXI5BoM01qwu4,27
+ansifier/__main__.py,sha256=z3OQolCKD8rUd3pKYp_FISq2VctFhFl1mV-DVnaoNOM,29
+ansifier/ansify.py,sha256=jEVjpJAB9JXwIFWHXyRMJKF4xCjo_lQr1zGM0Xpoea8,5920
+ansifier/cli.py,sha256=C3iBr4ZZdmYysWcGlPq6oKrddu_m_eUVEje3dHGRiFs,6542
+ansifier/config.py,sha256=i2KqUdREVlJRKk4fcBfBWASdaDcVU42ZJVvycDfioNE,311
+ansifier/input_formats.py,sha256=U7Yx0Jbj5Cy5bAgPcwML-wIhnIytBYQaOFBntkyN5T4,2189
+ansifier/output_formats.py,sha256=z2QnycwVf26o_CKqrXfl6gnu0K7GxR0LFTMM03RmGEg,2149
+ansifier-0.1.2.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+ansifier-0.1.2.dist-info/METADATA,sha256=DFLnhbT6kb5hpk3ClToIibJVDoqJYke_ZgTtbQf_AgM,7597
+ansifier-0.1.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+ansifier-0.1.2.dist-info/entry_points.txt,sha256=rtCxyfW9zLFyXfyTY475TdFS6CiXHmHVgNObH8Eec0A,47
+ansifier-0.1.2.dist-info/top_level.txt,sha256=g-mPS0JgJV-vrRwRgroiamx95uYLPMpuM5stT-iBojM,9
+ansifier-0.1.2.dist-info/RECORD,,
