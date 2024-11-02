@@ -1,0 +1,16 @@
+quiettransfer/Reader.py,sha256=bguDvKIjfQ8d0PrZWD2Z4UzlyCwLSq7bXICiof8fmPU,8049
+quiettransfer/Receive.py,sha256=4sosX1-nbrQQ5pyalNT0vQ69vM8PbyifHMfnyNGhgcY,11092
+quiettransfer/Send.py,sha256=NvNc-jAYVlLpcfbX_HZJ387BoBRHgiGRMJbB4vg5K7o,8283
+quiettransfer/__init__.py,sha256=E3fz2yx8lmn5fPIKkz2hO7o27AQrkQXdD8AxllUJi8w,1791
+quiettransfer/__main__.py,sha256=kKk2hfWkwrYNZBg4ksobURmluH8ocgKyIkbi3u2SZqE,4045
+quiettransfer/_quiettransferwin32.pyd,sha256=WbAJxUAryGns6amvaHl9JKStyNiMRponUCEFv00Vqwk,44544
+quiettransfer/quiet-profiles.json,sha256=4gUG8gjL0icPr7mru7MCXW7UWaGtLNtMSPeZsov_DGU,6031
+quiettransfer/dll_win32/jansson.dll,sha256=l9tIZNnP7CECIpHDPdSlXJkthCo62SCV7zy41NcEdyY,55296
+quiettransfer/dll_win32/liquid.dll,sha256=NndkbWDKBQZKccaNw9GZPr42HSsB4F2c1h4OIdVh6CQ,987648
+quiettransfer/dll_win32/quiet.dll,sha256=7O2oE7haTRK6q2iaTL5kB7HwuLOuaIVRWROBw1C46TA,129024
+quiet_transfer-0.2.7.dist-info/LICENSE.md,sha256=07KmW4Cyi_jR-Yq7skv5dD8qYlKL3NNHfv_BuFi0dpc,65352
+quiet_transfer-0.2.7.dist-info/METADATA,sha256=h8CMWNLCOrcCkVkrQJx78bEZ7mzQjpJwcd7c9XJ6rFA,80762
+quiet_transfer-0.2.7.dist-info/WHEEL,sha256=KtqZaq8v70QMVuQgboAiCVhqNDeRlf7ECIN7NvaxSUw,101
+quiet_transfer-0.2.7.dist-info/entry_points.txt,sha256=r4G35x-jO4ox4zCVs9TluPuJkGbFOswOBIBe32A4t5A,64
+quiet_transfer-0.2.7.dist-info/top_level.txt,sha256=DjIqLAHQ-aIbMO1SGUstiuc8qVZj25__HKFcigjS8QY,14
+quiet_transfer-0.2.7.dist-info/RECORD,,
