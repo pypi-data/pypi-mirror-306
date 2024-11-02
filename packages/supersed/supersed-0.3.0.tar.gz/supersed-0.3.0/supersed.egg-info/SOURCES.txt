@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+supersed/__init__.py
+supersed/supersed.py
+supersed.egg-info/PKG-INFO
+supersed.egg-info/SOURCES.txt
+supersed.egg-info/dependency_links.txt
+supersed.egg-info/entry_points.txt
+supersed.egg-info/requires.txt
+supersed.egg-info/top_level.txt
