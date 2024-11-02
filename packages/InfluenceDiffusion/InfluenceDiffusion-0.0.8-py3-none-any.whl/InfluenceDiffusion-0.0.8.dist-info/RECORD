@@ -1,0 +1,14 @@
+InfluenceDiffusion/Graph.py,sha256=F09g7UbXecxkxi9uHmo0Irsv_FkaMX84deAPQyioNCw,15180
+InfluenceDiffusion/Trace.py,sha256=WloLFqQLIIfmNcCfaRa6SzH2W08nR0O8uY4DB2f7qD4,15322
+InfluenceDiffusion/__init__.py,sha256=6TTC-3vSdmzI2EjZWesUohsgCmuhOHdqPQcIF0Zzptc,241
+InfluenceDiffusion/influence_models.py,sha256=Qgnl8EfE6aDesEaAjnthEuqoFdq-N5OS3fkK_akp1UY,22475
+InfluenceDiffusion/utils.py,sha256=ZVz4_2btS_5h0nzLddcb67oc1MB69-Jku1D3av_P8Mw,718
+InfluenceDiffusion/weight_samplers.py,sha256=rW_qDgpiwINKFPWIfVBB6WGMUKq6zELooyKtR7kWqsg,1073
+InfluenceDiffusion/estimation_models/BaseWeightEstimator.py,sha256=2_5Tbebl6Jo7sBQaVQrThUFRR-4D4Xo_6nFe5ChoULE,18226
+InfluenceDiffusion/estimation_models/EMEstimation.py,sha256=2jrkVqkosOGdsXTnJ7pNsHcjz9KTE5d8JrfPRS_zH0s,9955
+InfluenceDiffusion/estimation_models/OptimEstimation.py,sha256=eTh9gIejwlWgOSfCSiiNqdaGrKf0G_mNg1dadeZBT4E,10769
+InfluenceDiffusion/estimation_models/__init__.py,sha256=OvLml9qiUnAeSoxKvoSPCNx8yuxDvwXYwZ4nRWH7c34,262
+InfluenceDiffusion-0.0.8.dist-info/METADATA,sha256=8GmhdDFoImxwhUWWmG3hRLy-D3Rni9bzjKa5IRZq8x8,787
+InfluenceDiffusion-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+InfluenceDiffusion-0.0.8.dist-info/top_level.txt,sha256=Fad_YlZYnVYGG5UerSx2REIoxBrEjVKJKleHguMf8rw,19
+InfluenceDiffusion-0.0.8.dist-info/RECORD,,
