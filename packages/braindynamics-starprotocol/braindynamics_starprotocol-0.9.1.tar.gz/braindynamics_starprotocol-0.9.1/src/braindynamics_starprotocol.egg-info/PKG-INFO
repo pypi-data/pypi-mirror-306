@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: braindynamics_starprotocol
+Version: 0.9.1
+Summary: Functional brain network analysis protocol developed by Varga et al., 2024
+Author-email: bpentek <balazs.pentek@ubbcluj.ro>, vlewir <levente.varga@ubbcluj.ro>
+Project-URL: Homepage, https://github.com/vlewir/BrainDynamics_STARProtocols
+Project-URL: Issues, https://github.com/vlewir/BrainDynamics_STARProtocols/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: igraph>=0.11.6
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: scipy>=1.14.0
+Requires-Dist: matplotlib>=3.9.2
+Requires-Dist: cliffs_delta>=1.0.0
+
+# BrainDynamics protocol
+
+## Requirements
+
+- Python (tested for 3.12 and later versions)
+- C/C++ compiler (e.g. gcc on Linux, Xcode Developer Tools for MacOS or Visual C++ Build Tools on Windows)
+
+## Setting up
+
+### 1) Set up virtual python environment using python or conda.
+
+For example:
+
+```
+python -m venv braindynamics_env
+```
+
+OR via Anaconda:
+
+```
+conda create --name braindynamics_env python=3.x
+```
+
+### 2) Install package from PyPi
+
+```
+ pip install braindynamics-starprotocol
+```
+
+Link to the TestPyPi project site for release history: https://pypi.org/project/braindynamics-starprotocol
