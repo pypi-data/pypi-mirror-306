@@ -1,0 +1,9 @@
+package_a/__init__.py,sha256=ugrXeppDOcQ60BDRzSvbVmmxHNS2qpUnJwOvuU0emi8,123
+package_a/age_calculator.py,sha256=XFiZJQRE3u6oS0wZwyDnONcaYBa1X-Mjni2vQLXaoHc,316
+package_a/greet_function.py,sha256=8l9caF_xBCY-WUaIiN-DmGr_mt-QnIxfhir1G1qtSZQ,51
+package_a/tax_calculator.py,sha256=_RNKa_MdNXDwuoHkYDOmxLITFCRzw2dfdJrJwcPJSNk,412
+package_a/test_functions.py,sha256=quzMqzhLa4NsqCNZzODSlePz-SRaqQ4l0l4THjYXLps,357
+learn_python_package_bhupesh-0.4.dist-info/METADATA,sha256=sTUJo8QOcYIM5GKKEFuAflkKMYPH3ipjhPUHRISFhFg,3811
+learn_python_package_bhupesh-0.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+learn_python_package_bhupesh-0.4.dist-info/top_level.txt,sha256=Qj6caaO5Q6D8fG0Z3Wtar9s6_WEF4D506xjPyTdfzfA,10
+learn_python_package_bhupesh-0.4.dist-info/RECORD,,
