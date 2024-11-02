@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+tabs2music/__init__.py
+tabs2music/main.py
+tabs2music/midi_and_wav_creation.py
+tabs2music/tabs_parser.py
+tabs2music/tuning_to_midi_note.py
+tabs2music.egg-info/PKG-INFO
+tabs2music.egg-info/SOURCES.txt
+tabs2music.egg-info/dependency_links.txt
+tabs2music.egg-info/requires.txt
+tabs2music.egg-info/top_level.txt
