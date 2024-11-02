@@ -1,0 +1,12 @@
+perpetual-0.6.2.dist-info/METADATA,sha256=FAA8IEYuFzHn7HPmxELWnMbnCLx7EodL6iud2zvbLbk,5435
+perpetual-0.6.2.dist-info/WHEEL,sha256=cUEq4b8lDgfuNVcz_eQPCw-aqCgoD2fen9AD0LryJtQ,104
+perpetual-0.6.2.dist-info/license_files/LICENSE,sha256=FpGljptuyNtvKNvxCg_JgfMVSW4bgY91h0uTf-79k4E,34351
+perpetual-0.6.2.dist-info/license_files/LICENSE,sha256=FpGljptuyNtvKNvxCg_JgfMVSW4bgY91h0uTf-79k4E,34351
+perpetual/serialize.py,sha256=Tg2BbuA1jKQ5-ITuVhwtj6hgBaRAbZ66eHctR7fcVk4,1883
+perpetual/__init__.py,sha256=zzFLkwRr8No7DPUNUQlBXdsdGfT7KEt4orHozdZhS7c,116
+perpetual/types.py,sha256=vBwsX2XnSC8RqdmP2Mr6hDljgWhgGNS6OsuBZM1QdW0,3231
+perpetual/utils.py,sha256=28vlN6tvdCwVO3TdqCyuqiILhghMIIofhz18ZUEDGFA,7108
+perpetual/data.py,sha256=718adB9qIc0YvBiTQtMkbT6JPb5liR-4z1UD81IyYhY,590
+perpetual/booster.py,sha256=nsC8IL2EIWcfzHxn3sDVFRCdgi-GN-YTxJZvAfInf6s,42590
+perpetual/perpetual.cpython-312-darwin.so,sha256=FnNTPheCY11kP0RL9BxRS-5oHgjAYfqJse70_a0i1Wk,1389664
+perpetual-0.6.2.dist-info/RECORD,,
