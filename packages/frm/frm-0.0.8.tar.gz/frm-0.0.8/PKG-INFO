@@ -1,0 +1,58 @@
+Metadata-Version: 2.3
+Name: frm
+Version: 0.0.8
+Summary: A python package for quantitative finance and derivative pricing
+Project-URL: Homepage, https://github.com/frmcalcs/frm
+Project-URL: Website, https://www.frmcalcs.com
+Author-email: Shasa Foster <shasa.foster@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: holidays
+Requires-Dist: matplotlib
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pandas-market-calendars
+Requires-Dist: prettytable
+Requires-Dist: pycountry
+Requires-Dist: pytest
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# frm
+
+[![PyPI](https://img.shields.io/pypi/v/frm?label=PyPI%20Package)](https://pypi.org/project/frm/)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/84233a0d4c944e7e92abdb4011db33b4)](https://app.codacy.com/gh/frmcalcs/frm/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
+frm is an in-development python package for quantitative financial pricing and modelling.
+frm uses common 3rd party python packages for scientific computing (numpy, scipy, pandas, numba, matplotlib) and the holidays package.
+
+This package will have a similar function set to Quantlib however we want to make it more *accessible*, *documented*, and *productive* through:
+1. The python (core + 3rd party libaries) implementation
+2. In line academic and industry references to support users own validation and testing
+3. Supporting [excel/VBA models](https://github.com/shasafoster/frm/tree/master/excel_models) that validate/support the code 
+4. Significant code examples  
+
+## Installation
+```bash
+pip install --upgrade frm
+```
+
+## Complete with examples
+- Clewlow-Strickland 1-factor simulation
+- Heston parameter calibration to European FX option volatility smile
+- Heston simulation
+
+## Tests/examples in progress
+- Interest rate swaps pricing
+- Interest rate curve bootstrapping
+- Caplet/floorlet term structure bootstrapper (smiles fit to SABR) & caplet/floorlet pricing
+
+## In development / pipeline
+- Swaption term structure bootstrapper (smiles fit to SABR)
+- CDS Bootstrapper
+
+
