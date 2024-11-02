@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: shirin
+Version: 0.0.4
+Summary: Util codes, and wrappers for common functions
+Author-email: Mustafa Akur <akurmustafa@gmail.com>
+Project-URL: Homepage, https://github.com/akurmustafa/shirin
+Project-URL: Issues, https://github.com/akurmustafa/shirin/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Shirin
+- A library and wrapper for common functionalities when starting out a project
