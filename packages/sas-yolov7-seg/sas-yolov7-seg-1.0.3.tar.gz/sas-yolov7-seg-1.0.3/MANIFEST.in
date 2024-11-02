@@ -1,0 +1,15 @@
+include LICENSE setup.py 
+
+global-include *.yaml
+global-include *.jpg
+global-include *.md
+global-include *.png
+include sas_yolov7_seg/requirements.txt
+include sas_yolov7_seg/setup.cfg
+include sas_yolov7_seg/datasets/coco/labels/train2017/*.nfs00000000ae5878c7000000dd
+include sas_yolov7_seg/*.pt
+include sas_yolov7_seg/data/scripts/*.sh
+include sas_yolov7_seg/utils/aws/*.sh
+include sas_yolov7_seg/utils/docker/Dockerfile*
+include sas_yolov7_seg/utils/google_app_engine/additional_requirements.txt
+include sas_yolov7_seg/utils/google_app_engine/Dockerfile
