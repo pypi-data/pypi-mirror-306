@@ -1,0 +1,10 @@
+omniconfig/__init__.py,sha256=ggE0X0T5_gtRxUaa3owsbwktWBZYVoDoGqolvu2ni0M,414
+omniconfig/args.py,sha256=eGHzixthbDPKVOkp3ZcTvugfP-tH6UCOVfXFp1x8Y-E,18126
+omniconfig/configclass.py,sha256=HvVNldz-gKSGj5P4K8Ta2m2b1-KgOYu2nGPQxM2bji4,14764
+omniconfig/parser.py,sha256=Amqf28_Msu9tyum5iCgl_xlit7S3uzgXBzUIYH50mu8,11294
+omniconfig/utils.py,sha256=Beqm_izzpAa5nFSZJ5B3Gi9ki0oIFBFlCtpsA9dthtU,8801
+omniconfig/version.py,sha256=bvpKbY0tPapr6zl6cdg46dAe6-9mSl-LRDbV3YGiyZI,95
+omniconfig-0.1.8.post1.dist-info/LICENSE,sha256=NUOu7sJDBAeJVy4ZjBVwAMgsoEM44HPEbRwbMJuW7qE,11341
+omniconfig-0.1.8.post1.dist-info/METADATA,sha256=dSOCjh_gXxjSC1VQu_6l5ws2Dh5UNZzJWxu5ixzYhes,7256
+omniconfig-0.1.8.post1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+omniconfig-0.1.8.post1.dist-info/RECORD,,
