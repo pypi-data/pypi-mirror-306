@@ -1,0 +1,58 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "dependencyDashboardAutoclose": true,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "every weekend"
+    ],
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "pypi"
+      ],
+      "groupName": "Python dependencies",
+      "matchFileNames": [
+        "pyproject.toml",
+        "uv.lock",
+        "docs/requirements.txt"
+      ],
+      "schedule": [
+        "every weekend"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    },
+    {
+      "matchDatasources": [
+        "docker"
+      ],
+      "groupName": "Docker dependencies",
+      "schedule": [
+        "before 3am on the first day of the month"
+      ]
+    }
+  ],
+  "dockerfile": {
+    "fileMatch": [
+      "Dockerfile"
+    ],
+    "automerge": true
+  },
+  "labels": [
+    "dependencies"
+  ],
+  "timezone": "America/Edmonton",
+  "schedule": [
+    "every weekend"
+  ]
+}
