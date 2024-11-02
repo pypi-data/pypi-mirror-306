@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: DENO_DOWNLOAD
+Version: 0.0.1
+Summary: Thư Viện Về API Download
+Author: DENO
+Author-email: vinhytb3010@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: clint
+
+
+Package được làm bởi DENO(Nguyễn Văn Vinh)
+
+* Cách Sử Dụng
+
+- 1.Install package
+
++ pip install DENO_DOWNLOAD==0.0.1
+
+
+
