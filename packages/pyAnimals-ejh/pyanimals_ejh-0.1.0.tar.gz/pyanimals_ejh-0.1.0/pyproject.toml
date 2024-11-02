@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyAnimals_ejh"
+version = "0.1.0"
+description = "A fun package that displays animals on the terminal with movement and messages."
+authors = [
+    "Emma Zhu <egz2006@nyu.edu>",
+    "Haley Hobbs <hkh9725@nyu.edu>",
+    "Jason Tran <ht2354@nyu.edu>",
+    "Jenna Han <jh7765@nyu.edu>"
+]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.13"
+
+[build-system]
+requires = ["poetry-core", "setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
