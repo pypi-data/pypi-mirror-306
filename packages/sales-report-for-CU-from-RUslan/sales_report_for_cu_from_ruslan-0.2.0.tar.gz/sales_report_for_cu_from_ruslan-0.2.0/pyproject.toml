@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sales-report-for-CU-from-RUslan"
+version = "0.2.0"
+description = "Пакет для анализа продаж и генерации отчетов"
+authors = [{ name = "Ruslan", email = "r.khuseyinov@edu.centraluniversity.ru" }]
+dependencies = ["pandas"]
+readme = "README.md"
+
+[tool.setuptools]
+packages = ["sales_report"]
