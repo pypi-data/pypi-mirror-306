@@ -1,0 +1,2 @@
+[console_scripts]
+rule34 = rule34_cli.__main__:main
