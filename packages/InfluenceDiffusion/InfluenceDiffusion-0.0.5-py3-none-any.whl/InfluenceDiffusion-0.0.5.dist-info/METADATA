@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: InfluenceDiffusion
+Version: 0.0.5
+Summary: InfluenceDiffusion package
+Author: Alexander Kagan
+Author-email: <amkagan@umich.edu>
+Keywords: python,Influence Maximization,Network diffusion models,General Linear Threshold model,Social Networks,Independent Cascade model
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: networkx
+Requires-Dist: typing
+Requires-Dist: joblib
+
+in this package, we implement popular network diffusion models and methods for their estimation.
