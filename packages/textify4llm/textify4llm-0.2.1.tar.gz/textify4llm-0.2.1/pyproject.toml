@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "textify4llm"
+version = "0.2.1"
+authors = [{ name="Gushroom", email="972648237@qq.com" }]
+description = "Converts any file format into plaintext/JSON, enabling multimodality for any LLM"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy==1.26.4",
+    "pandas>=2.1",
+    "pillow>=11.0.0",
+    "pdfplumber==0.11.3",
+    "pymupdf>=1.24.13",
+    "python-pptx>=1.0.2",
+    "python-docx>=1.1.2",
+    "paddleocr>=2.7",
+    "paddlepaddle>=2.6",
+    "torch>=2.5.0",
+    "transformers>=4.46.1",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/gushroom/textify4llm"
+Issues = "https://github.com/gushroom/textify4llm/issues"
+
+[tool.poetry.scripts]
+mytool = "textify4llm.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["textify4llm"]
