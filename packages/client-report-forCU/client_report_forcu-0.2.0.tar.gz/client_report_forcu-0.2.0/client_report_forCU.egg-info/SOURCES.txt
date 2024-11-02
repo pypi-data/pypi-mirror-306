@@ -1,0 +1,7 @@
+README.md
+setup.py
+client_report_forCU.egg-info/PKG-INFO
+client_report_forCU.egg-info/SOURCES.txt
+client_report_forCU.egg-info/dependency_links.txt
+client_report_forCU.egg-info/requires.txt
+client_report_forCU.egg-info/top_level.txt
