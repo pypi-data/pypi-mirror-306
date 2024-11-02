@@ -1,0 +1,2 @@
+[console_scripts]
+dagster-looker = dagster_looker.api.cli:app
