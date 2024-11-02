@@ -1,0 +1,2 @@
+[console_scripts]
+boring-stuff = boring_stuff.cli:main
