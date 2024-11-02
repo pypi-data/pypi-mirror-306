@@ -1,0 +1,16 @@
+trame/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+trame/modules/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+trame/modules/annotations.py,sha256=JQpG6VXhv9ObE8En96x7diFDknkDCW_jR_ydjDixfBQ,47
+trame/widgets/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+trame/widgets/annotations.py,sha256=qZ9329fpxjh2Ch6LVeX4VbYWZKXRUThrOP_AVHaQYkQ,171
+trame_annotations/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+trame_annotations/module/.gitignore,sha256=8Fw8URqQMo9aKnUMB9gVNUr_GpAP5xdVDNRlgZwSGQc,6
+trame_annotations/module/__init__.py,sha256=esW4Owqxb8D2QNPxjPaYq-5l2qzy4uepL_zped7lmfg,224
+trame_annotations/module/serve/trame_annotations.umd.cjs,sha256=FtO_dP990Vptc6tSstXVTH_nsEoTIIHjIdq1n1TiThU,7271
+trame_annotations/module/serve/trame_annotations.umd.cjs.map,sha256=9DI-YSRhv1-BEzieepy8dKAUEM36s5ZeEZGK9dg8RlI,48005
+trame_annotations/widgets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trame_annotations/widgets/annotations.py,sha256=nxLJqUvUsj8F4wGJmV1II0imejrr3IgcKcWqUw0NFm4,812
+trame_annotations-0.1.1.dist-info/METADATA,sha256=GnuTJlXvMYIzN9H4iMdM0JwWHV1mFyOYMTqA8Q7cIAw,1907
+trame_annotations-0.1.1.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+trame_annotations-0.1.1.dist-info/licenses/LICENSE,sha256=7HHgtrfI7AtPEaD2M04oYyY9-h97w0A7b8wkMp0737g,583
+trame_annotations-0.1.1.dist-info/RECORD,,
