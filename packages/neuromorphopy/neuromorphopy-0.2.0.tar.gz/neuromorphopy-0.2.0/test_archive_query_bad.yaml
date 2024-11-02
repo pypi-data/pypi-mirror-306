@@ -1,0 +1,5 @@
+filters:
+  archive: ["Cox", "FlyEM"]
+sort: # sorting is optional
+  field: "chatgpt"
+  ascending: true
