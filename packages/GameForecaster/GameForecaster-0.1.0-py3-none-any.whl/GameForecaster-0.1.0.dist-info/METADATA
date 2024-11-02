@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: GameForecaster
+Version: 0.1.0
+Summary: A library to predict the success of video games based on various features.
+Author: si aziz bahloul 
+Author-email: azizbahloul3@gmail.com
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: joblib
+
