@@ -1,0 +1,10 @@
+restack_google_gemini/__init__.py,sha256=9nIfMUVc4DUsOrfbHNW1rBOjgUfNGw5rRoxFypWrcxM,438
+restack_google_gemini/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+restack_google_gemini/functions/generate_content.py,sha256=tVVlVEKatlVyDg0EvaezPbWUY4Zg8C2VTDSaDvltN54,602
+restack_google_gemini/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+restack_google_gemini/service.py,sha256=AyUCH27uY6wJ3lwzgNuTndUQeGFtxDJlsggGP0wYEWE,821
+restack_google_gemini/task_queue.py,sha256=tMpa6_1x14Tf6IpMt7kS-mVVzMA11HBwKB8e8QYig_0,28
+restack_google_gemini/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+restack_google_gemini-0.0.18.dist-info/METADATA,sha256=I_G4PG3PcASI0eExxFcC2-gEhdjUDmYePhT7EqwZVVU,769
+restack_google_gemini-0.0.18.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+restack_google_gemini-0.0.18.dist-info/RECORD,,
