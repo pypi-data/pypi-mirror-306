@@ -1,0 +1,16 @@
+_pyspqr.abi3.so,sha256=rgidJYdgZA3QG8VPpIDPliBY_Jjwlo58_EVyeym19CU,71200
+pyspqr/pyspqr.py,sha256=iFON-V4TIAv23Jv__l86MltA-0GQtL4JoSCYwgdcI9k,3201
+pyspqr/__init__.py,sha256=YQSkR5R9CIGvM-I9UqgIl8hoZZFzCNtl92LPNchTTYg,769
+pyspqr/test.py,sha256=FHsba7hqmuhA6HFNwXar0FzDt7WLZY5qgAL3rwjn4fI,3711
+pyspqr/.dylibs/libspqr.4.3.4.dylib,sha256=7cqq8ZVU3NMslAd4Vo3UlUo1LnaW_lp4-BspZ-2Vcz8,392144
+pyspqr/.dylibs/libcholmod.5.3.0.dylib,sha256=P9nOsYp-uoodDfXlE70ic9deu1mtjZ_Q15GejqAnZHk,1849728
+pyspqr/.dylibs/libsuitesparseconfig.7.8.3.dylib,sha256=pM4_OzbpNL8SFGUDHfDE-cWOJ0mstYfsuqBP7_2Mo-k,70448
+pyspqr/.dylibs/libcamd.3.3.3.dylib,sha256=DdF7hWU_MN2abWrj8SWJxlDTWXLuF7OM2DxrJTCoHDo,85936
+pyspqr/.dylibs/libccolamd.3.3.4.dylib,sha256=EHFWCPmskIz5MmX1_n6Brai2famqTTdrfzPLv5kq2d4,102736
+pyspqr/.dylibs/libcolamd.3.3.4.dylib,sha256=W1UWx276rlFvz0No5p_VHPTD8PLboK_v24fradFrLJo,85696
+pyspqr/.dylibs/libamd.3.3.3.dylib,sha256=9oR4CZKj6CS4UQb3EXSomkYlM1Ri8CkI3VTw1Sn3jCw,85872
+pyspqr-0.0.1.dist-info/RECORD,,
+pyspqr-0.0.1.dist-info/WHEEL,sha256=OkVKZQZtHoB4doLSVSHNWXdwxZ-ro_VjNxikpp_RPrM,108
+pyspqr-0.0.1.dist-info/COPYING,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+pyspqr-0.0.1.dist-info/top_level.txt,sha256=NZDQmHLA32xkL90Itu-Q_zwz1mPOralVJXoUzt6Hgtc,15
+pyspqr-0.0.1.dist-info/METADATA,sha256=YxPklHokdkgW-Cw3RXBWVk6MQNfFnxwXX4qhsk7kyUA,2051
