@@ -1,0 +1,2 @@
+[console_scripts]
+ngp-cli = py_netgear_plus_cli:main
