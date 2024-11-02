@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+st_table_select_cell/__init__.py
+st_table_select_cell/example.py
+st_table_select_cell/frontend/build/asset-manifest.json
+st_table_select_cell/frontend/build/index.html
+st_table_select_cell/frontend/build/table.css
+st_table_select_cell/frontend/build/static/js/main.8cd7a845.js
+st_table_select_cell/frontend/build/static/js/main.8cd7a845.js.LICENSE.txt
+st_table_select_cell/frontend/build/static/js/main.8cd7a845.js.map
+streamlit_table_select_cell.egg-info/PKG-INFO
+streamlit_table_select_cell.egg-info/SOURCES.txt
+streamlit_table_select_cell.egg-info/dependency_links.txt
+streamlit_table_select_cell.egg-info/requires.txt
+streamlit_table_select_cell.egg-info/top_level.txt
