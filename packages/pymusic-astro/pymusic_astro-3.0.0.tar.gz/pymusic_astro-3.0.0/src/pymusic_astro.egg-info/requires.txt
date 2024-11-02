@@ -1,0 +1,9 @@
+lazympl~=0.1.2
+numpy~=2.1
+scipy~=1.14
+pandas~=2.2
+h5py~=3.12
+matplotlib~=3.9
+tqdm>=4.66
+xarray>=2024.10
+music_pykg~=7.1.0
