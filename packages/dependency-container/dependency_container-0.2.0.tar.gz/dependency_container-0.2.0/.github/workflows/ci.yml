@@ -1,0 +1,71 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+    branches:
+      - main
+      - dev
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  LANG: en_US.utf-8
+  LC_ALL: en_US.utf-8
+  PYTHONIOENCODING: UTF-8
+
+jobs:
+
+  quality:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Fetch all tags
+      run: git fetch --depth=1 --tags
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      with:
+        # Install a specific version of uv.
+        version: "0.4.29"
+    - name: Install dependencies
+      run: make setup
+    - name: Check the code quality
+      run: make lint
+
+  tests:
+
+    strategy:
+      max-parallel: 4
+      matrix:
+        os:
+        - ubuntu-latest
+        python-version:
+        - "3.10"
+        - "3.11"
+        - "3.12"
+        - "3.13"
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      with:
+        # Install a specific version of uv.
+        version: "0.4.29"
+
+    - name: Set up Python ${{ matrix.python-version }}
+      run: uv python install ${{ matrix.python-version }}
+
+    - name: Resolving dependencies
+      run: make setup
+
+    - name: Run the test suite
+      run: make test

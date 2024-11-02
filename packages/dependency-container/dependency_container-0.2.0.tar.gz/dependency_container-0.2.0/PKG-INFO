@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: dependency-container
+Version: 0.2.0
+Summary: Support delayed dependency injection in FastApi to enable app constructor pattern.
+Project-URL: Homepage, https://klmatlock.github.io/dependency-container
+Project-URL: Documentation, https://klmatlock.github.io/dependency-container
+Project-URL: Changelog, https://klmatlock.github.io/dependency-container/changelog
+Project-URL: Repository, https://github.com/klmatlock/dependency-container
+Project-URL: Issues, https://github.com/klmatlock/dependency-container/issues
+Project-URL: Discussions, https://github.com/klmatlock/dependency-container/discussions
+Project-URL: Gitter, https://gitter.im/dependency-container/community
+Author-email: Kevin Matlock <kevin.matlock@gmail.com>
+License: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Requires-Dist: fastapi>=0.95.0
+Provides-Extra: faststream
+Requires-Dist: faststream>=0.5.26; extra == 'faststream'
+Description-Content-Type: text/markdown
+
+# FastApi Delayed Dependency Injection
+
+Support delayed dependency injection in FastApi to enable app constructor pattern.
+
+## Installation
+
+With `pip`:
+
+```bash
+pip install dependency-container
+```
