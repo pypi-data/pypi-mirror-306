@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: glidertest
+Version: 0.0.1a5
+Summary: Diagnostic tests of glider quality 
+Maintainer-email: Callum Rollo <c.rollo@outlook.com>
+License: MIT License
+        
+        Copyright (c) 2024 Callum Rollo
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: documentation, https://github.com/callumrollo/glidertest
+Project-URL: homepage, https://github.com/callumrollo/glidertest
+Project-URL: repository, https://github.com/callumrollo/glidertest
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: netcdf4
+Requires-Dist: pooch
+Requires-Dist: xarray
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: cmocean
+Requires-Dist: skyfield
+Requires-Dist: tqdm
+Requires-Dist: gsw
+Requires-Dist: sgp4>=2.14
+Requires-Dist: cartopy
+
+# glidertest
+
+This is a repo to diagnose issues in glider data such as CTD thermal lag.
+
+This is a work in progress, all contributions welcome!
+
+### Instal
+
+Install from PyPI with
+
+```sh
+python -m pip install glidertest
+```
+
+Install a local, development version of this by cloning the repo, opening a terminal in the home directory (next to this readme file) and running these commands:
+
+```sh
+pip install -r requirements-dev.txt
+pip install -e . 
+```
+This installs glidertest locally. -e ensures that any edits you make in the files will be picked up by scripts that import functions from glidertest.
+
+### Documentation
+
+Documentation website at [https://callumrollo.github.io/glidertest/](https://callumrollo.github.io/glidertest/)
+
+Check out the example notebook `notebooks/demo.ipynb` for example functionality
+
+As input, glidertest takes [OceanGliders format files](https://github.com/OceanGlidersCommunity/OG-format-user-manual)
+
