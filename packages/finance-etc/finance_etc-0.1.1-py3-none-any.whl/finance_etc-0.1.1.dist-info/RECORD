@@ -1,0 +1,8 @@
+finance_etc/__init__.py,sha256=LuCpX1syCV7Nd5iLzVtkyi4CBK6wX2DJTmCMjMsaC5c,98
+finance_etc/csv_source_parser.py,sha256=Cgv5f2DZaoZei2jn3Qa47Pa2E6cfan45KE0dk7OiSO4,42
+finance_etc/duckdb_tax_func.py,sha256=Vxxm6_E9WXYs7uAizAxFTzU7H9CCXXe4H5hXOlHxrSk,5151
+finance_etc/mortgage.py,sha256=5UfiREpqbJ3NeE2WdYmrT3Un-xs4285-nsXSpTlEwls,5005
+finance_etc/myutils.py,sha256=hmF-bh2c8033137RcqdjRe6OAcI3ggBUtovi1Wiu690,193
+finance_etc-0.1.1.dist-info/METADATA,sha256=AzFX3mN-TWju90z5X9SJkraxfkiJDqsJTKGwzynW3OE,433
+finance_etc-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+finance_etc-0.1.1.dist-info/RECORD,,
