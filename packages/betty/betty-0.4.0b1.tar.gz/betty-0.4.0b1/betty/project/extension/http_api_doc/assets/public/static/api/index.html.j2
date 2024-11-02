@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>{% trans %}API documentation{% endtrans %} - {{ project.configuration.title | localize }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/css/http-api-doc.css' | static_url }}" />
+</head>
+<body>
+<div id="swagger-ui"></div>
+<script src="{{ '/js/http-api-doc.js' | static_url }}" crossorigin></script>
+<script>
+  window.onload = () => {
+    window.ui = SwaggerUIBundle({
+      url: '{{ '/api/index.json' | static_url }}',
+      dom_id: '#swagger-ui',
+    });
+  };
+</script>
+</body>
+</html>
