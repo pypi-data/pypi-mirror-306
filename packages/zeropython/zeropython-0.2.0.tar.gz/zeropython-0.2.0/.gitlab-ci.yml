@@ -1,0 +1,4 @@
+include:
+  - component: $CI_SERVER_FQDN/swepy/cicd-templates/ruff/ruff@3.0.0
+  - component: $CI_SERVER_FQDN/swepy/cicd-templates/release-by-changelog/release-by-changelog@1.0.0
+  - component: $CI_SERVER_FQDN/swepy/cicd-templates/twine/twine@0.2.0
