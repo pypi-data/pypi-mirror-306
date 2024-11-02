@@ -1,0 +1,15 @@
+openapioktaipranges/__init__.py,sha256=islEeJCLVZvoI5HdpYpjOAH9vHKJN_onhIzV9mrLZi0,1148
+openapioktaipranges/api_client.py,sha256=GiJVyZSjriYvHGLtUOLwxBzrJ5gpiv_ApSbYG2GiN1M,27521
+openapioktaipranges/api_response.py,sha256=eMxw1mpmJcoGZ3gs9z6jM4oYoZ10Gjk333s9sKxGv7s,652
+openapioktaipranges/configuration.py,sha256=jZ2Va7B1zKLHIxDiYmiTBe0W45Umdv3qHt1ja_IKUF8,15135
+openapioktaipranges/exceptions.py,sha256=so9iIDK_afIUthV3wBkJZj4V1PyNK8_zdbI8671adBg,5995
+openapioktaipranges/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openapioktaipranges/rest.py,sha256=q0rTNq4inU7UG3cmMtGWmb-mGgTCbn14LCcySxYMFBs,9440
+openapioktaipranges/api/__init__.py,sha256=jBNeK4xWarcv7kt3V300jji7xf0NltqPHVsxpFajy0Y,107
+openapioktaipranges/api/default_api.py,sha256=WyVOICu6Oz-HZJyD1_UXdbKZ2-62MCjpK-FaVsJgbTY,10670
+openapioktaipranges/models/__init__.py,sha256=7ysv0g2I7bFwZoOH-uVRK-c6xY47vjqN5dwSHw2gE64,499
+openapioktaipranges/models/ip_ranges_json_get200_response_value.py,sha256=9ylb8DBHv7KYwOIrzj3PhSuqxGpQErf2cipqDeaj0Js,2641
+openapioktaipranges-0.10.0.dist-info/METADATA,sha256=tvqWA56sRsBqu_5f8uWtZpcOazrhuf5uVv7qO3oqNDI,602
+openapioktaipranges-0.10.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+openapioktaipranges-0.10.0.dist-info/top_level.txt,sha256=35Q9Y6GX9bZ83vLVU4ROkDxmY0xzdChwZIa0GrqmHoQ,20
+openapioktaipranges-0.10.0.dist-info/RECORD,,

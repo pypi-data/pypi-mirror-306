@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: openapioktaipranges
+Version: 0.10.0
+Summary: OpenAPI Okta IP Ranges
+Home-page: https://github.com/oapicf/openapi-okta-ip-ranges
+Author: OpenAPI Okta IP Ranges
+Author-email: blah+oapicf@cliffano.com
+License: MPL-2.0
+Keywords: OpenAPI,OpenAPI-Generator,OpenAPI Okta IP Ranges
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic (>=2)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: typing-extensions (>=4.7.1)
+Requires-Dist: urllib3 (<3.0.0,>=1.25.3)
+
+    OpenAPI specification and a set of generated API clients for Okta IP Ranges
+    
+
