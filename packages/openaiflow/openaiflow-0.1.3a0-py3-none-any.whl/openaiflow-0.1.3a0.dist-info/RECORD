@@ -1,0 +1,10 @@
+openaiflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openaiflow/file_parser.py,sha256=8xD3ajAY54wdqxl468H-eCzE228nqS7sXCj47WRvSNs,463
+openaiflow/openaiflow.py,sha256=65-yhjorl-yzjHXYLZIsU9T3CT4BIZnHZx2RSHQ0bjg,10365
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_openaiflow.py,sha256=MhyvQzZuy4iH0o6l1AwB2GpKglArVh9P20CRJ7VJp5g,2210
+openaiflow-0.1.3a0.dist-info/LICENSE,sha256=_cwG-EykYAVjJBWTD_0EhdzR_a4foCJNqfBimOfSXuk,1068
+openaiflow-0.1.3a0.dist-info/METADATA,sha256=YVaNlmTECxfntMVb3qAsfHUzImWr0MUJsdN2VBYysrk,5053
+openaiflow-0.1.3a0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+openaiflow-0.1.3a0.dist-info/top_level.txt,sha256=Y7JKDsBaYoaL-Kw1Tw7v7BXr3-YAxE7c5hE41yqBvok,17
+openaiflow-0.1.3a0.dist-info/RECORD,,
