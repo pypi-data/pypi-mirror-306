@@ -1,0 +1,17 @@
+discmoji/__init__.py,sha256=6CJWLJ1uw5i1SApqg3cw2CuSrzh_StN0WMS9hTJSp6o,224
+discmoji/_gateway.py,sha256=qzP7IoQh46QTE-NMpqGM9D_-AoXcRPJyG0Z9afQzIhA,1430
+discmoji/_http.py,sha256=zIzpllR6GiwTaSYM3Ji97u6yPqY38HToJLRUm6j4Kg0,4282
+discmoji/decoration.py,sha256=929kszUNotWgiOX6UHcqCcylANs4gyOe4XD56Kcm81k,1405
+discmoji/intents.py,sha256=Z2cZrWRfq494bGN27HI0kNEwDhdG_bG8kVUHrVI7P7Y,1127
+discmoji/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+discmoji/snowflake.py,sha256=l5E5t7V_5Mqr3YJoGX9EldcPLQvEwK2QalCmHO0Ux04,1720
+discmoji/types.py,sha256=sVXcnWzGICvFemoFUOjv4IFa-ubSp2lQEL94Gvpn0fU,4214
+discmoji/user.py,sha256=6UE506ODka8JkYY7egAVpyAZhpJwLzVHp_-T0jriHOs,4711
+discmoji/guild/__init__.py,sha256=6-bDKD_XIT96yo60vFomZd1eqB5yTOdybPEkSmZOj2w,104
+discmoji/guild/guild.py,sha256=-xog4LSjGmHhlBlMTlApbFXlGCdoG9SlMh64qIUpglw,1120
+discmoji/guild/guild_member.py,sha256=OOXcuj8xFDnZOmhr23bsW6hYJmix7vFIarB-y3SmLGY,4513
+discmoji-0.1.0.dist-info/LICENSE,sha256=P-B4ZU3A7ZyQYdH2fNTa-0sBm5GvbrfcqG3NkaP9Kao,1088
+discmoji-0.1.0.dist-info/METADATA,sha256=75iXI6cyhbe5sJ0vemheaPGuHs1TeornH62-WoWlFhY,2214
+discmoji-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+discmoji-0.1.0.dist-info/top_level.txt,sha256=7yPYslJrbaAatSC3jcXm0ubg5RJz8xElk2fXrDlWEZg,9
+discmoji-0.1.0.dist-info/RECORD,,
