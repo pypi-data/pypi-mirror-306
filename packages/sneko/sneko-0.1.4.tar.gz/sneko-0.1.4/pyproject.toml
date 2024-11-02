@@ -1,0 +1,43 @@
+[project]
+name = "sneko"
+version = "0.1.4"
+description = "Terminal GUI for Ethereum smart contracts"
+authors = [
+    { name = "Marc Garreau", email = "marc@ethereum.org" }
+]
+dependencies = [
+    "eth-tester>=0.12.0b1",
+    "py-evm>=0.10.1b1",
+    "py-solc-x",
+    "pyperclip",
+    "snekmate>=0.1.0",
+    "textual[syntax]>=0.85.1",
+    "tree-sitter-types==0.0.2",
+    "tree-sitter>=0.20.1",
+    "vyper==0.4.0",
+    "web3>=7.4.0",
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[project.scripts]
+"sneko" = "sneko:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "textual-dev",
+    "black>=24.4.2",
+    "ipython>=8.26.0",
+    "pdbpp>=0.10.3",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sneko"]
