@@ -1,0 +1,2 @@
+[console_scripts]
+feanor = feanor.__main__:main
