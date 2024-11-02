@@ -1,0 +1,2 @@
+[console_scripts]
+vpm = ivpx.__main__:main
