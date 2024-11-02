@@ -1,0 +1,17 @@
+quiet_transfer-0.2.7.dist-info/LICENSE.md,sha256=MhnOmVP0caMynII4yAPv-h_vFGAdfuXmxcpPTDNk2kw,64113
+quiet_transfer-0.2.7.dist-info/RECORD,,
+quiet_transfer-0.2.7.dist-info/WHEEL,sha256=GtUMBD8rRNN-RJptdWLtqVb-pAPV69bWaMPIs5zM-s8,109
+quiet_transfer-0.2.7.dist-info/entry_points.txt,sha256=r4G35x-jO4ox4zCVs9TluPuJkGbFOswOBIBe32A4t5A,64
+quiet_transfer-0.2.7.dist-info/top_level.txt,sha256=DjIqLAHQ-aIbMO1SGUstiuc8qVZj25__HKFcigjS8QY,14
+quiet_transfer-0.2.7.dist-info/METADATA,sha256=7S-o1_MoKCn6QnU0lj-iVI26UY0mpraOnL15HJUK5yo,79380
+quiettransfer/Receive.py,sha256=gKKvD012V-8cWwn8o4E85pUpnHi1qu8y0pfzRZd9spM,10843
+quiettransfer/Send.py,sha256=z415R_2n6wNit3_Db6h6OTg8Iyk5dt54tcNXiXeFQ3Q,8096
+quiettransfer/__init__.py,sha256=_iYfRPKCAPdaKM3HisP5zH8dv24Ik_Sda7-_Behyuo8,1745
+quiettransfer/Reader.py,sha256=QCsn81OubMqDVIAlQaxzZpT0ZvpD8DUkYVeMx2Yiq8M,7862
+quiettransfer/quiet-profiles.json,sha256=1iLU7eMZGP9XqKaqg-sXz6R2rPb3gny_LfEtgmmzSmk,5793
+quiettransfer/_quiettransfermacos.abi3.so,sha256=hxRIspCSTdlAhLmSVFk1jwg_Dk3KW3i19yjYB_lxCuc,108656
+quiettransfer/__main__.py,sha256=_m4CLf5N558c6tSRaCuT0lzDnxJEV8PpgGmw7k-gXa8,3954
+quiettransfer/.dylibs/libquiet.dylib,sha256=hUelNpt10IehuXMCqqWoyr-cPBkHVpze57dc5NUjWVw,98704
+quiettransfer/.dylibs/libfec.dylib,sha256=aQ9vW5dlG-DC76eBFEJzOXD-hjEr5Bn8JID12eU7mzM,98704
+quiettransfer/.dylibs/libliquid.1.3.1.dylib,sha256=7JDT4fqIQOL_uq5OvMQPdOs8-sCdQsRwNggiYQke8GE,1089392
+quiettransfer/.dylibs/libjansson.4.dylib,sha256=6tLd1CNm3EFqURty2K6u4DN14FORsGXtLGRFAOxIONc,106944
