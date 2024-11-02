@@ -1,0 +1,3 @@
+[console_scripts]
+potnia=potnia.main:app
+
