@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dharmamitra_sanskrit_grammar/__init__.py
+dharmamitra_sanskrit_grammar/processor.py
+dharmamitra_sanskrit_grammar.egg-info/PKG-INFO
+dharmamitra_sanskrit_grammar.egg-info/SOURCES.txt
+dharmamitra_sanskrit_grammar.egg-info/dependency_links.txt
+dharmamitra_sanskrit_grammar.egg-info/requires.txt
+dharmamitra_sanskrit_grammar.egg-info/top_level.txt
