@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: finance-etc
+Version: 0.1.1
+Summary: Add your description here
+Author-email: sluo <41530060+sluofoss@users.noreply.github.com>
+Requires-Python: >=3.8
+Requires-Dist: duckdb
+Requires-Dist: numpy
+Requires-Dist: pandas
+Description-Content-Type: text/markdown
+
+# About
+This project is some functions I used to calculate tax and home loan information.
+
+# installation instruction 
+```
+pip install finance-etc
+```
