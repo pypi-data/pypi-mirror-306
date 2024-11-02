@@ -1,0 +1,10 @@
+superduper_torch/__init__.py,sha256=lmusAwrbk9PJ87TkAkyNwf8O015QXvNt1aE-M5Yu5oE,194
+superduper_torch/encoder.py,sha256=lKylOdyOjEssepV9DdxCVaZa1uvVoJozYJWuLl8V07o,3029
+superduper_torch/model.py,sha256=8bcA-pU8oD20JUzjh82jUOWNvB9FB8FjaJyazm8cZ-Q,13327
+superduper_torch/training.py,sha256=dtc5Rl9xMkMXxiAN73Ik6KBR_t2QcC-edk6naid7tt4,7988
+superduper_torch/utils.py,sha256=r4ixo7-J3dEO5D9gV8m2-VBHBav_00DrXAL_ZpC26XI,1768
+superduper_torch-0.4.0.dist-info/LICENSE,sha256=fq2WxmjewRN4VfDClVl-6CiVFZedp4y5_iGqQiXHBN8,11353
+superduper_torch-0.4.0.dist-info/METADATA,sha256=xFAjGztdgbU6UNyOm5Z_KKwwCLvtOyqPtByut9jIiUA,14871
+superduper_torch-0.4.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+superduper_torch-0.4.0.dist-info/top_level.txt,sha256=oKuG97fG_XWp3RF6NG4w9omJrlKSFVWthyJk0pA3gXU,17
+superduper_torch-0.4.0.dist-info/RECORD,,
