@@ -1,0 +1,16 @@
+conformist/__init__.py,sha256=oIlKsEbtDJ5JXjoAopp9ArDOJEPCZg6WE8zvBMxHztA,355
+conformist/alpha_selector.py,sha256=SeDT7hh-fYh_Z05dd3qcNU3_YLdQPngj5N0hQHqO6Ks,6940
+conformist/base_cop.py,sha256=g8LsHIloZsMIlhHVAR0urHi7d8_H4p69XUUg_p7tkHI,6949
+conformist/fnr_cop.py,sha256=NRh4ePWLRVh_9ntLjFGVIYP4RXJYrgaIpDonr60KHUI,1129
+conformist/model_vs_cop_fnr.py,sha256=IzWBVhiu2aEz0cmAcqsNvf_CgslhLDe-quKsVRkNn04,3642
+conformist/output_dir.py,sha256=xW2NJsdRLL16ekfqv_rx0zATTJLEnexVagLVlBuhWPw,796
+conformist/prediction_data_preprocessor.py,sha256=DxcNezdShlJENKokRX89LJBecbXHzMf0HxFm0Q4h0l8,1848
+conformist/prediction_dataset.py,sha256=f8vxAZlWXs6eMtHlU51uxh2BKmFh4SUwN_JNAbxa_iQ,10170
+conformist/simple_cop.py,sha256=CLUICeCARz_ugWLGQJ1tN6Tn4LajtvVw3NhNreYs7XM,693
+conformist/validation_run.py,sha256=p4AlNOM-bxyTCOCCFJtelVvHuM79kFfVSG_KStU9Viw,5757
+conformist/validation_trial.py,sha256=1O93Q2KzPF3ihhzZ_K0WCzKBWua4GBQTCXHM6Pko2a8,7036
+conformist-1.0.3.dist-info/LICENSE,sha256=o3txZgrBq_a0Ahi52hovI1JpM7q3wGkpqpS5WdAegOA,1083
+conformist-1.0.3.dist-info/METADATA,sha256=_cbQs8pksvQ-oFdZLcYmt-aqBTuJZmgbR8lfD6Cwu_Q,5216
+conformist-1.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+conformist-1.0.3.dist-info/top_level.txt,sha256=GiMsx_xcCpsSIjs9vEJrrqr6CVOFnHUwCdkWVgmR53M,11
+conformist-1.0.3.dist-info/RECORD,,
