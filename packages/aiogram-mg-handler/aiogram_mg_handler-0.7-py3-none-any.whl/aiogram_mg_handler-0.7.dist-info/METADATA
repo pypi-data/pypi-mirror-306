@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: aiogram-mg-handler
+Version: 0.7
+Summary: Aiogram media group handler. Fork of aiogram-media-group
+Author: crut0i
+Keywords: aiogram handler
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: aiogram
+Requires-Dist: aioredis
+Requires-Dist: motor
+Requires-Dist: ujson
+
+# Handler for aiogram media groups
+
+`Fork of https://pypi.org/project/aiogram-media-group`
+
+## Install
+
+```Shell
+pip install aiogram-mg-handler
+```
+
+## Usage
+
+```Python
+from aiogram_mg_handler import media_group_handler
+
+@dp.message_handler(MediaGroupFilter(is_media_group=True), content_types=ContentType.PHOTO)
+@media_group_handler
+async def album_handler(messages: List[types.Message]):
+    for message in messages:
+        print(message)
+```
+
+[Usage examples](https://github.com/deptyped/aiogram-media-group/blob/main/examples)
+
+*Big thanks to* [deptyped](https://pypi.org/user/deptyped)

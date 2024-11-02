@@ -1,0 +1,11 @@
+aiogram_mg_handler/__init__.py,sha256=1FVvLtlubXRBFayVNhdpGH7xAjuWgV4nUnyioe2t2p0,469
+aiogram_mg_handler/handler.py,sha256=fqQuzEXsf_R3RIEcbXkCCsmk3zJ5PMIgVRdzzQzTZdI,3967
+aiogram_mg_handler/storages/__init__.py,sha256=Fn-jFBqFK6NJ3YmQKWSzKr19reafu1WT-4A5I0R6vFw,128
+aiogram_mg_handler/storages/base.py,sha256=h3Rx--oBt2blk5kn0GvKcuAj7h7vyJzOrN8i3ZomqWU,599
+aiogram_mg_handler/storages/memory.py,sha256=0_XXF6qoTQRVjXsfw_fJap-Oq_LW9ZCEWor4FIVhcyI,990
+aiogram_mg_handler/storages/mongo.py,sha256=e8PIYGAW7vscB_cpVNpS5k38E8CcHGbtTA32Bwe343U,3631
+aiogram_mg_handler/storages/redis.py,sha256=qnO1Q4n0hAW2uetU1uom4xEM1JVufdHfrOnyLx1Pyw8,2152
+aiogram_mg_handler-0.7.dist-info/METADATA,sha256=OG8LsrNGCYoEkRO4DDBjhAdvlVGh5fUGbBd0Kzz-sOI,1099
+aiogram_mg_handler-0.7.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+aiogram_mg_handler-0.7.dist-info/top_level.txt,sha256=ydIJkY1HA8iuEdWdzxkYKR73ML_nrK9iG_Cs1zXwOVU,19
+aiogram_mg_handler-0.7.dist-info/RECORD,,
