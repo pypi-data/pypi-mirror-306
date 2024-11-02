@@ -1,0 +1,14 @@
+[package]
+name = "ainu-utils-python"
+version = "0.3.3"
+edition = "2021"
+description = "A collection of utilities for the Ainu language"
+license = "MIT"
+
+[lib]
+name = "ainu_utils"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.20.0"
+ainu-utils = { path = "../ainu-utils" }
