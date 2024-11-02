@@ -1,0 +1,4 @@
+requests>=2.25.1
+numpy>=1.19.2
+pandas>=2.2.3
+csv>=1.0

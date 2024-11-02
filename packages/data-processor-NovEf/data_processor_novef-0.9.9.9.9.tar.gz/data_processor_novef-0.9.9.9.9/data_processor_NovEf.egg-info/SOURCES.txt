@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+data_processor/__init__.py
+data_processor/__main__.py
+data_processor/processor.py
+data_processor_NovEf.egg-info/PKG-INFO
+data_processor_NovEf.egg-info/SOURCES.txt
+data_processor_NovEf.egg-info/dependency_links.txt
+data_processor_NovEf.egg-info/requires.txt
+data_processor_NovEf.egg-info/top_level.txt

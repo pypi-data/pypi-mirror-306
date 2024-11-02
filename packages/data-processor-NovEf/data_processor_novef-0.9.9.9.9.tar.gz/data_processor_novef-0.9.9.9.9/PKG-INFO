@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: data_processor_NovEf
+Version: 0.9.9.9.9
+Summary: Это data_processor, делай с ним че хочешь
+Author: Novoselov Efim
+Author-email: Novoselov Efim <myemail@example.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+Requires-Dist: numpy>=1.19.2
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: csv>=1.0
+
+Компания собирает данные о продажах с разных магазинов. Требуется автоматизировать этот процесс.
+
+Пакет, который:
+
+- Загружает данные о продажах из CSV-файла.
+- Группирует данные по колонке `category`.
+- Генерирует отчёт с двумя метриками:
+    - общая сумма продаж,
+    - количество проданных товаров.
+- Поддерживает запуск через командную строку с опциями:
+    - `--input_file` для указания входного файла `.csv`,
+    - `--output_file` для указания выходного файла `.csv`.
+
+Пример выходного CSV-файла:
+
+```text
+category,sales,quantity
+electronics,1300,7
+clothing,700,13
+```
+
+Пример ввода:
+```bash
+python3 -m data_processor --input_file data/sales_data.csv --output_file info.csv
+```
