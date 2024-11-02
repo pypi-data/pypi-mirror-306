@@ -1,0 +1,10 @@
+zeropython/__init__.py,sha256=36J2HiEo7HUQvV2-Qo1uQKb2syxZMzDB7QxfRhOr-zY,51
+zeropython/ast_cleaner.py,sha256=dOa13RWTWuEvoIiiPVuKTEOQ5buzlmDOhmij3KtiQKM,18765
+zeropython/main.py,sha256=ML36pynB-hmvfXkuysv-kKQdqI3u9pMTK_pFYfClIf8,1175
+zeropython/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zeropython/report.py,sha256=-vmyWdFNDbigyqfZS5nrIrSTfQdNiPdOdcPs95_XBs8,326
+zeropython-0.2.0.dist-info/METADATA,sha256=K9n9tzYjDkb5dv8Vd8N6DQAmhT_CIa488OgWnho3y68,3735
+zeropython-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+zeropython-0.2.0.dist-info/entry_points.txt,sha256=UlmPSrwUXE0IV_FgXFzUHhPwtTI7F2TMXysrPZ8BE9o,46
+zeropython-0.2.0.dist-info/licenses/LICENSE,sha256=ocftIHF8tktrZwsl7Wu4xSiTzQxRQKJlPPPU-qQLNA8,1069
+zeropython-0.2.0.dist-info/RECORD,,
