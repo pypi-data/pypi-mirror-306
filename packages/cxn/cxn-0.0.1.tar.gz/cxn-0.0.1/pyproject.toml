@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cxn"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Artem Lykhvar", email = "me@a10r.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/lykhvar/cxn#readme"
+Issues = "https://github.com/lykhvar/cxn/issues"
+Source = "https://github.com/lykhvar/cxn"
+
+[tool.hatch.version]
+path = "src/cxn/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/cxn tests}"
+
+[tool.coverage.run]
+source_pkgs = ["cxn", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/cxn/__about__.py",
+]
+
+[tool.coverage.paths]
+cxn = ["src/cxn", "*/cxn/src/cxn"]
+tests = ["tests", "*/cxn/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
