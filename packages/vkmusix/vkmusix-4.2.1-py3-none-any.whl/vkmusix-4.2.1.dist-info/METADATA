@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: vkmusix
+Version: 4.2.1
+Summary: Библиотека для взаимодействия с VK Music. Документация: https://to4no4sv.gitbook.io/vkmusix.
+Home-page: https://github.com/to4no4sv/vkmusix
+Author: thswq
+Author-email: admin@vkmusix.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pytz (==2024.1)
+Requires-Dist: httpx (==0.27.0)
+Requires-Dist: aiofiles (==24.1.0)
+Requires-Dist: pycryptodome (==3.20.0)
+Requires-Dist: av (==13.1.0)
+Requires-Dist: mutagen (==1.47.0)
+
+# VKMusix
+
+## Установка и обновление
+```bash
+pip install --upgrade vkmusix
+```
+
+## Быстрый старт
+```python
+from vkmusix import Client
+
+client = Client()
+
+tracks = client.searchTracks(
+    query="Маленький ярче",
+    limit=10,
+    
+)
+
+print(tracks)
+
+client.close()
+```
