@@ -1,0 +1,17 @@
+SwarmPlus/__init__.py,sha256=qaOCNGy8FRvdasCEclhQIyp_YktR6rBOI7DJBi3mHtY,61
+SwarmPlus/agent.py,sha256=l5bvCCjneM-7NMyrKqXubnj2jrQqzTbfr0IxBsWNXis,23780
+SwarmPlus/demo.py,sha256=2oLlnvAjuQo5cp-efPNyNmefIPxObZa1Mk4x-3oRo9A,2379
+SwarmPlus/helper.py,sha256=RMN4lnrEEmqH-oTyfLaJKoGlHpdShw7dxhPMmyrwHvk,1240
+SwarmPlus/memory.py,sha256=x6ZDOl5WHuvClaAadAcrW0U_XJf8L8AQexbKKoQKFao,5386
+SwarmPlus/models.py,sha256=JzmQoZydkflj48lei7Qbo2kNr6x_LslmRSk0QqxbwNU,18854
+SwarmPlus/tools/AgenticTools.py,sha256=MPj9ptHH7UocpPslhKAbRuzBnwmsan230ucR0_ayzuM,3492
+SwarmPlus/tools/CodeInterpreter.py,sha256=2aKzohQrl49upjXUkygAkIaaE6ZQ5sDKRPZKboMXbSI,19837
+SwarmPlus/tools/FileOperationsTool.py,sha256=jIF_Wy4JVKe_e3-1-EqIGlaUqpRbBOFtMORov6WpA0E,7640
+SwarmPlus/tools/PythonTool.py,sha256=2nz8x4vDcmmidLjd3_jape0zrNsd0kh8C3n4VfdSnPg,6435
+SwarmPlus/tools/TerminalTool.py,sha256=ll6eIppUETPvomvL7rKzCSKNg3FHc_gUQahENivzHxA,3867
+SwarmPlus/tools/__init__.py,sha256=F-aJ3IB1NA78YDEnlrn-a87ycUhZ3wbREHmoUftG1tg,44
+Swarm_Plus-0.0.0.1.dist-info/LICENSE.txt,sha256=Z_R0qA8dBa_UBMGgM1fEedm0wV7CBqwIBaBEOu4iT5w,1077
+Swarm_Plus-0.0.0.1.dist-info/METADATA,sha256=QDZnxkk1JAGGtJAts6eS3aN68EB-AsQdctmZlyQeHcg,20037
+Swarm_Plus-0.0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+Swarm_Plus-0.0.0.1.dist-info/top_level.txt,sha256=RbrBlK9yl5FMP9WDj7mQwtk4B8G2RokyjL8xVMTokko,10
+Swarm_Plus-0.0.0.1.dist-info/RECORD,,
