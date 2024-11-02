@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: quote-image-generator
+Version: 0.1.0
+Summary: Create beautiful, customizable images with quotes, supporting unique font styles and emojis
+Home-page: https://github.com/lordralinc/QIG
+License: MIT
+Keywords: image,generation,PIL
+Author: lordralinc
+Author-email: lordralinc@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pillow (>=11.0.0,<12.0.0)
+Project-URL: Bug Tracker, https://github.com/lordralinc/QIG/issues
+Project-URL: Repository, https://github.com/lordralinc/QIG
+Description-Content-Type: text/markdown
+
+# Quote Image Generator
+
+**Create beautiful, customizable images with quotes, supporting unique font styles and emojis**
+

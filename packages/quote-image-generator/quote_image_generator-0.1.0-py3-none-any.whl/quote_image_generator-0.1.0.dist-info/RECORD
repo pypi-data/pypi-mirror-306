@@ -1,0 +1,17 @@
+quote_image_generator/__init__.py,sha256=5ue6t9IMeJubv1aGeg2Cnb1-lTw-2sUXyLu63JeCazs,151
+quote_image_generator/generator.py,sha256=-2YvQMdAtERv5imQ2t8DmA4AUutY09w180hcGD-j_Ug,1424
+quote_image_generator/pipelines/__init__.py,sha256=EDArULiykeazmiB7jDFOfWzpQMwnI5fbAhfQPN1pl3Q,750
+quote_image_generator/pipelines/background.py,sha256=KqKgX4ltcFnUCRMOx9y1PZ5Ux-7k-s6uNXmQzO-eYKA,3149
+quote_image_generator/pipelines/base.py,sha256=zv6hKC3fiZo-9dxwpCvwe76e2aQjfFP9TNVd4KZdJcc,1500
+quote_image_generator/pipelines/entities.py,sha256=66H7N4HgweLuQrJexJKLNsoC-8hoW1h1IsTGJScS4-0,1898
+quote_image_generator/pipelines/image.py,sha256=c3ABoHvuiva0CfOPayZpU0lW4Fov_eyZTI2poFYbCxg,1802
+quote_image_generator/pipelines/text.py,sha256=fg0gp5Q6XJFD9fjL3GJXIocbsB-_sNJS-oNej71MUZg,2531
+quote_image_generator/processors/__init__.py,sha256=DUSoYwYl523vMn9yeKQv1jRUDNZ5Fy0A9WasUTN9bUc,271
+quote_image_generator/processors/emoji.py,sha256=yhxj6_45_3uq5jRXBP-paGTml3ZNG9rdwFoMdaN5OcM,4273
+quote_image_generator/processors/entities.py,sha256=QDBL9m8_iBZqgkwWNReVCyaEy2u9DJNcAFWWJISDLm0,4419
+quote_image_generator/processors/text_processor.py,sha256=1mn9B3nnsNEjtk0WZPjIEIskdshRYRm34Rp4Wuhb1w4,10851
+quote_image_generator/types.py,sha256=kmccDH85OZQIax5-UVEKU3PVZVpO7vsJyZ8Jk8NnOJc,2362
+quote_image_generator-0.1.0.dist-info/LICENSE,sha256=Idv750RMi4aoF6LV2iYa6nNV4vU2VdRKrdJ5dGrVJTw,1075
+quote_image_generator-0.1.0.dist-info/METADATA,sha256=KnPhSaCrhGRnT9iGjfS-SAxDiHncAWjgL4nRNKoa9js,818
+quote_image_generator-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+quote_image_generator-0.1.0.dist-info/RECORD,,
