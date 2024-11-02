@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sonusai-asr-faster-whisper"
+version = "0.1.3"
+description = "Faster-whisper ASR tools for SonusAI"
+authors = ["Chris Eddington <chris@aaware.com>", "Jason Calderwood <jason@aaware.com>"]
+maintainers = ["Chris Eddington <chris@aaware.com>", "Jason Calderwood <jason@aaware.com>"]
+homepage = "https://aaware.com"
+license = "GPL-3.0-only"
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+ctranslate2 = "~4.2.1"
+faster-whisper = "^1.0.2"
+python = ">=3.9,<3.12"
+sonusai = ">=0.16.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.6.0"
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
