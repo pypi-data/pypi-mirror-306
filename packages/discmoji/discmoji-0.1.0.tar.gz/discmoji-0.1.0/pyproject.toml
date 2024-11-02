@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "discmoji"
+authors = [
+    {name = "mojidev-py"},
+    {name = "XenonPy"},
+]
+description = "A discord API wrapper."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["API", "wrapper","discord","library"]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Typing :: Typed"
+
+]
+dependencies = [
+    "asyncio",
+    "aiohttp"
+]
+version = "0.1.0"
+
+[project.urls]
+github = "https://github.com/mojidev-py/discmoji/"
+
+[tool.setuptools]
+packages = [
+    "discmoji",
+]
+
