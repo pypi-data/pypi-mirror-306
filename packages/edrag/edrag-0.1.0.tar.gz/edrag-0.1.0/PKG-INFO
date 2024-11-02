@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: edrag
+Version: 0.1.0
+Summary: A simple package for RAG in the educational context
+Home-page: https://github.com/Jibril-Frej/edrag
+Author: Jibril Frej
+Author-email: jibril.frej@epfl.ch
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=2.5.1
+Requires-Dist: transformers>=4.46.1
+
+# edrag
