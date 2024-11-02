@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: GreeDS
+Version: 2.0
+Summary: This package is a ADI or ARDI sequence processing tool that aim to distangle extended signal (like disks) from quasi-static speakels) using iterative PCA
+Home-page: https://github.com/Sand-jrd/GreeDS
+Author: Sandrine Juillard
+Author-email: sjuillard@uliege.be
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: photutils
+Requires-Dist: setuptools
+Requires-Dist: pip
+
