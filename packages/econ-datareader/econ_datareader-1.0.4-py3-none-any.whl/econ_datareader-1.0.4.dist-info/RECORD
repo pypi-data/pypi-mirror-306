@@ -1,0 +1,10 @@
+econdatareader/__init__.py,sha256=o2cdyoemhXF3_rj-vfWZT7iYxMhVD83BMwdOKLF1Sok,209
+econdatareader/bok.py,sha256=s4h5pRKlT4uIETUfHUsRDCg-zcAdfBYQIHTw3dIKEj4,4673
+econdatareader/finance.py,sha256=mxBIsNu-YVOOMTAq9jbfnxwR-ls6e5qsm-TsZ3b0ORE,18098
+econdatareader/fred.py,sha256=fZsUrhZy39Rq3h360UYgmS0OnlU5CD9wYvWD3z1MJv8,3920
+econdatareader/version.py,sha256=E1MvlQDs-C9ebHP_LqAdtz6bereWlSarIUBTZLtTVB4,19
+econ_datareader-1.0.4.dist-info/LICENSE,sha256=rirg7il1fAcqMnwIGD7JW7IQYD9N0zapcQNSDk3_9V4,1088
+econ_datareader-1.0.4.dist-info/METADATA,sha256=MNCTlzL8z49R_Vy5zrtrG9WglRcCfpMfs1clxRNAznM,5979
+econ_datareader-1.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+econ_datareader-1.0.4.dist-info/top_level.txt,sha256=lRUEsVa8VZO7WAIDNoenhpbD84D0tyqv302hUhOY06s,15
+econ_datareader-1.0.4.dist-info/RECORD,,
