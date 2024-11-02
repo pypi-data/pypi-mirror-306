@@ -1,0 +1,14 @@
+gymnasium==0.29.1
+pygame==2.6.1
+
+[quality]
+black[d]
+isort
+pylint
+
+[testing]
+pytest
+
+[training]
+rl_zoo3==2.3.0
+tensorboard==2.18.0
