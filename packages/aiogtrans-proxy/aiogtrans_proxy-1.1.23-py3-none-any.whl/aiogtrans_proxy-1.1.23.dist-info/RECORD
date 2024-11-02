@@ -1,0 +1,11 @@
+aiogtrans/__init__.py,sha256=M0pcd3bADoqhHEWfWaQonx6ROHCgaqb-jqbkZyFP9jk,1013
+aiogtrans/cache.py,sha256=Z8yxKtpvS_04coH7psvqgiei2Cv0uNkCgkLnm8D0LAY,2179
+aiogtrans/client.py,sha256=fOLNEvfb3xp26sYS0ttX21ao-tEDgjHAPrZ5q38IOLE,12389
+aiogtrans/constants.py,sha256=z9eZFg9eIW0kWctWWi-sAgKhFXwnWek8BpD-Ab3cPVM,8931
+aiogtrans/models.py,sha256=nmooiNdsUY1O14ZR2HgRUckVkT0WBGO7Py7dhcjQOyo,3693
+aiogtrans/urls.py,sha256=wqZcVmGY9byfic6A5TZpkPu0sSd9QNeYKihvamj8Zkg,837
+aiogtrans_proxy-1.1.23.dist-info/LICENSE,sha256=fM_sQnIDAfwUv0-EY6lAusBdhSAvPNWsFjwkaHzAauQ,1073
+aiogtrans_proxy-1.1.23.dist-info/METADATA,sha256=NNcLQ946FeRDMQ6db1HwkgyU6H38_QSvGWESa2FUG1k,7815
+aiogtrans_proxy-1.1.23.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+aiogtrans_proxy-1.1.23.dist-info/top_level.txt,sha256=G4rOHwrNL9d8ZO0qyTnM85iIB32YK3ZWfcCD8dLR3Jc,10
+aiogtrans_proxy-1.1.23.dist-info/RECORD,,
