@@ -1,0 +1,8 @@
+README.md
+setup.py
+cheks_for_CU_from_Ruslan.egg-info/PKG-INFO
+cheks_for_CU_from_Ruslan.egg-info/SOURCES.txt
+cheks_for_CU_from_Ruslan.egg-info/dependency_links.txt
+cheks_for_CU_from_Ruslan.egg-info/entry_points.txt
+cheks_for_CU_from_Ruslan.egg-info/requires.txt
+cheks_for_CU_from_Ruslan.egg-info/top_level.txt
