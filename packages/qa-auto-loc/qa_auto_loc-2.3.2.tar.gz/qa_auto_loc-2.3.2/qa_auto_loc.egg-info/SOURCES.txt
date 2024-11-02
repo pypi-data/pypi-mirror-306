@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+auto_loc/__init__.py
+auto_loc/inspector.py
+auto_loc/locators.py
+auto_loc/run_inspector.py
+auto_loc/utils.py
+qa_auto_loc.egg-info/PKG-INFO
+qa_auto_loc.egg-info/SOURCES.txt
+qa_auto_loc.egg-info/dependency_links.txt
+qa_auto_loc.egg-info/entry_points.txt
+qa_auto_loc.egg-info/requires.txt
+qa_auto_loc.egg-info/top_level.txt
