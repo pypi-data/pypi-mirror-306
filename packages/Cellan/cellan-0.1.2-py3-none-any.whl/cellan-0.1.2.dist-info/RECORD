@@ -1,0 +1,13 @@
+Cellan/__init__.py,sha256=TcY9FEyFk-vmx4BWSp36IEQGCPwRW-VryUOXnueNUgo,19
+Cellan/__main__.py,sha256=wtk6dmgy6pjUgBUYnVHOuhHq0mbrASC_7OgrvCHNwp4,645
+Cellan/analyzer.py,sha256=VONPBlZMOyNQ6YKlARbEaf4aJCaKHU87yY0ge_WpUAM,5761
+Cellan/detector.py,sha256=nO5_UB30_ofYGsQ4uIwhwHFIGcgXoNz6Y5Ac99VbwY8,6950
+Cellan/detectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Cellan/gui.py,sha256=y94mwBKUxELLxZVXwQ5f2or808QQFyNMw9cx_akY_c4,32010
+Cellan/tools.py,sha256=uOk-p_CslgEb7LPnEtRE7z5AnQPd35wikr1dVCeMACk,999
+cellan-0.1.2.dist-info/METADATA,sha256=EFwVvls-_PSaCG8j42zPetE2qrxqpBZO1UBvXahnl6k,1087
+cellan-0.1.2.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+cellan-0.1.2.dist-info/entry_points.txt,sha256=bjASsK_OwQ3p3db7J0KDMy74e3wBn_HqgxOOXWKwzt4,64
+cellan-0.1.2.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cellan-0.1.2.dist-info/licenses/NOTICE.txt,sha256=Mrw4CwTsI_NhmUu9UZjixAsDCqTXwDL2KDhpnP3UJ98,131
+cellan-0.1.2.dist-info/RECORD,,
