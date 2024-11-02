@@ -1,0 +1,211 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <prm-brief-result-container (expand-item-event)="$ctrl.setExpandedItem($event, $index)" (hide-dialog-event)="$ctrl.hideDialog()" (load-next-results-event)="$ctrl.nextResults()" (show-dialog-event)="$ctrl.showDialog()" [index]="::$ctrl.getItemIndex($index)" [is-digest-when-in-view-disabled]="::$ctrl.isDigestWhenInViewDisabled" [is-expanded]="$ctrl.isExpanded($index)" [is-the-highlighted-record-you-came-from]="$ctrl.isTheHighlightedRecordYouCameFrom" [isfavorites]="::$ctrl.isFavorites" [item-height]="$ctrl.expandedItemHeight" [item]="item" [links]="item.delivery.link" class="list-item" ng-class="{'item-bookmarked' : $ctrl.showPin(item)}">
+      <div [digest-when-in-view-disabled]="$ctrl.disableDigest" class="list-item-primary-content result-item-primary-content has-checkbox layout-row" data-recordid="alma991018444251307596" id="SEARCH_RESULT_RECORDID_alma991018444251307596" in-view="$ctrl.onInView(undefined, $inview, $inviewInfo)" in-view-options="{throttle: 50}" layout="row" ng-class="{'new-result-item' : ($ctrl.index &amp;&amp; $ctrl.newMetalibItem())}" ng-click="$ctrl.handleDetailsThrottled($ctrl.item,$event, true);$ctrl.sendAnalytics()" prm-digest-when-in-view="" tabindex="0"><!-- -->
+        <span class="list-item-count" ng-if="::(!$ctrl.isFullView &amp;&amp; !$ctrl.isEmailMode() &amp;&amp; !$ctrl.isRapidoSAEnabled) &amp;&amp; !$ctrl.isTheHighlightedRecordYouCameFrom">
+          <span>
+            10
+          </span><!-- -->
+        </span><!-- --><!-- --><!-- --><!-- -->
+        <div class="result-item-image layout-column" layout="column" ng-if="::(!$ctrl.mediaQueries.xs &amp;&amp; (!$ctrl.isDBSearch() || $ctrl.isFullView) &amp;&amp; !$ctrl.isEmailMode()) &amp;&amp; !$ctrl.isAuthoritySearch"><!-- -->
+          <div class="media-content-images" ng-if="!$ctrl.isItemDeleted()">
+            <div class="media-thumbnail"><a aria-label="Image 10" class="a-tag-as-wrapper md-primoExplore-theme" href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018444251307596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB&amp;lang=en&amp;search_scope=MyInst_and_CI&amp;adaptor=Local Search Engine&amp;tab=Everything&amp;query=creator%2Ccontains%2Cmufwene%2CAND&amp;mode=advanced&amp;pfilter=dr_s%2Cexact2001-01-01%2CAND&amp;pfilter=dr_s%2Cexact2001-12-31%2CAND&amp;offset=0" ng-click="$event.preventDefault(); $ctrl.sendBeacon()" ng-href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018444251307596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB&amp;lang=en&amp;search_scope=MyInst_and_CI&amp;adaptor=Local Search Engine&amp;tab=Everything&amp;query=creator%2Ccontains%2Cmufwene%2CAND&amp;mode=advanced&amp;pfilter=dr_s%2Cexact2001-01-01%2CAND&amp;pfilter=dr_s%2Cexact2001-12-31%2CAND&amp;offset=0" ng-style="::$ctrl.isFullView &amp;&amp; {'cursor': 'default'}" tabindex="-1">
+                <prm-search-result-thumbnail-container [frbr]="::$ctrl.isMultipleVersions()" [is-frbr-generic]="::$ctrl.isFrbrGeneric()" [item]="$ctrl.item" [links]="$ctrl.links" class="media-content-images" ng-class="::{'dedup-images-holder' : $ctrl.isMultipleVersions() &amp;&amp; !$ctrl.isFavoriteState()}">
+                  <div><!-- --><!-- --><!-- -->
+                    <img alt="" class="main-img fan-img-1" data-ng-animate="2" ng-class="::{'fan-img' : $ctrl.isMultipleVersions() &amp;&amp; !$ctrl.isFavoriteState() &amp;&amp; $ctrl.selectedThumbnailLink.linkURL}" ng-if="::$ctrl.selectedThumbnailLink.linkURL" ng-src="https://proxy-euf.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.php?client=primo&amp;isbn=1-283-31308-1/lc.jpg" onload="this.style.display=''" src="https://proxy-euf.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.php?client=primo&amp;isbn=1-283-31308-1/lc.jpg" style="display: none;"><!-- --><!-- --><!-- -->
+                  </div><!-- -->
+                  <div class="" ng-if="::$ctrl.links" ng-init="$ctrl.go()" style="">
+                  </div><!-- -->
+                  <prm-search-result-thumbnail-container-after parent-ctrl="$ctrl">
+                  </prm-search-result-thumbnail-container-after>
+                </prm-search-result-thumbnail-container></a>
+            </div>
+          </div><!-- -->
+        </div><!-- -->
+        <div class="text-selector-spacer">
+        </div><!-- --><!-- -->
+        <div class="result-item-text layout-fill layout-column flex" flex="" layout="column" layout-fill="" ng-if="!$ctrl.isItemDeleted()">
+          <div class="media-content-type align-self-start"><!-- --><!-- -->
+            <span ng-if="::$ctrl.showItemType &amp;&amp; (!$ctrl.isDBSearch() || $ctrl.isFullView)" translate="mediatype.conference_proceeding">
+              Conference Proceeding
+            </span><!-- --><!-- -->
+          </div><!-- -->
+          <prm-brief-result [deep-link]="::$ctrl.getDeepLinkPath()" [display-mode]="::$ctrl.displayMode" [is-collection-discovery-collection]="::$ctrl.isCollectionDiscoveryCollection" [is-full-view]="::$ctrl.isFullView" [item]="$ctrl.item" [resource-type-for-display]="::$ctrl.getResourceTypeForDisplay()" class="result-item-details layout-column" layout="column"><!-- --><!-- -->
+            <span aria-hidden="true" class="urlToXmlPnx" data-url="https://uub.primo.exlibrisgroup.com/primaws/rest/pub/pnxs/xml/L/alma991018444251307596?vid=46LIBRIS_UUB:UUB&amp;lang=en&amp;search_scope=MyInst_and_CI&amp;adaptor=Local Search Engine&amp;inst=46LIBRIS_UUB&amp;showPnx=true&amp;jwtAsParam=eyJraWQiOiJwcmltYVByaXZhdGVLZXktNDZMSUJSSVNfVVVCIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJQcmltYSIsImp0aSI6IiIsImV4cCI6MTczMDQxNjYzMSwiaWF0IjoxNzMwMzMwMjMxLCJ1c2VyTmFtZSI6ImFub255bW91cy0xMDMwXzIzMTcxMSIsImRpc3BsYXlOYW1lIjpudWxsLCJ1c2VyIjoiYW5vbnltb3VzLTEwMzBfMjMxNzExIiwidXNlckdyb3VwIjoiR1VFU1QiLCJpbnN0aXR1dGlvbiI6IjQ2TElCUklTX1VVQiIsInVzZXJJcCI6IjgzLjI1Mi44NC43NiIsImF1dGhlbnRpY2F0aW9uUHJvZmlsZSI6IiIsImF1dGhlbnRpY2F0aW9uU3lzdGVtIjoiIiwibGFuZ3VhZ2UiOiJlbiIsInNhbWxTZXNzaW9uSW5kZXgiOiIiLCJzYW1sTmFtZUlkIjoiIiwib25DYW1wdXMiOiJmYWxzZSIsInNpZ25lZEluIjpudWxsLCJ2aWV3SWQiOiI0NkxJQlJJU19VVUI6VVVCIn0.HXGXjalfruvlX5YxKUC6i4jLre3vH925Q1GA8XZPLHTj0Yc6n6HtsGMOF4uYmAhJD4SmFDq3_WdfFMP0MrI0sA" id="" ng-if="(!$ctrl.isFullViewOverlayOpen || $ctrl.isFullView)" title="https://uub.primo.exlibrisgroup.com/primaws/rest/pub/pnxs/xml/L/alma991018444251307596?vid=46LIBRIS_UUB:UUB&amp;lang=en&amp;search_scope=MyInst_and_CI&amp;adaptor=Local Search Engine&amp;inst=46LIBRIS_UUB&amp;showPnx=true&amp;jwtAsParam=eyJraWQiOiJwcmltYVByaXZhdGVLZXktNDZMSUJSSVNfVVVCIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJQcmltYSIsImp0aSI6IiIsImV4cCI6MTczMDQxNjYzMSwiaWF0IjoxNzMwMzMwMjMxLCJ1c2VyTmFtZSI6ImFub255bW91cy0xMDMwXzIzMTcxMSIsImRpc3BsYXlOYW1lIjpudWxsLCJ1c2VyIjoiYW5vbnltb3VzLTEwMzBfMjMxNzExIiwidXNlckdyb3VwIjoiR1VFU1QiLCJpbnN0aXR1dGlvbiI6IjQ2TElCUklTX1VVQiIsInVzZXJJcCI6IjgzLjI1Mi44NC43NiIsImF1dGhlbnRpY2F0aW9uUHJvZmlsZSI6IiIsImF1dGhlbnRpY2F0aW9uU3lzdGVtIjoiIiwibGFuZ3VhZ2UiOiJlbiIsInNhbWxTZXNzaW9uSW5kZXgiOiIiLCJzYW1sTmFtZUlkIjoiIiwib25DYW1wdXMiOiJmYWxzZSIsInNpZ25lZEluIjpudWxsLCJ2aWV3SWQiOiI0NkxJQlJJU19VVUI6VVVCIn0.HXGXjalfruvlX5YxKUC6i4jLre3vH925Q1GA8XZPLHTj0Yc6n6HtsGMOF4uYmAhJD4SmFDq3_WdfFMP0MrI0sA"></span><!-- -->
+            <h3 class="item-title" ng-class="::{'string-to-rtl': $ctrl.changeStringDirectionToRtl($ctrl.firstLine.values), 'is-chapter-state': $ctrl.isChaptersAndReviewsState()}" ng-style="::($ctrl.isEmailMode() &amp;&amp; {'margin':'0'})"><a (keydown)="$ctrl.keydownSupport($event)" class="md-primoExplore-theme" data-emailref="alma991018444251307596" href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018444251307596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB&amp;lang=en&amp;search_scope=MyInst_and_CI&amp;adaptor=Local Search Engine&amp;tab=Everything&amp;query=creator%2Ccontains%2Cmufwene%2CAND&amp;mode=advanced&amp;pfilter=dr_s%2Cexact2001-01-01%2CAND&amp;pfilter=dr_s%2Cexact2001-12-31%2CAND&amp;offset=0" ng-class="::{'full-view-mouse-pointer':$ctrl.isFullView}" ng-click="$ctrl.sendBeacon(); $event.preventDefault();" ng-href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018444251307596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB&amp;lang=en&amp;search_scope=MyInst_and_CI&amp;adaptor=Local Search Engine&amp;tab=Everything&amp;query=creator%2Ccontains%2Cmufwene%2CAND&amp;mode=advanced&amp;pfilter=dr_s%2Cexact2001-01-01%2CAND&amp;pfilter=dr_s%2Cexact2001-12-31%2CAND&amp;offset=0" ng-mousedown="$ctrl.addRecordOnScrollMouseClick($event)" prm-context-menu="$ctrl.addRecordOnContextMenu($event)" tabindex="0"><!-- --><!-- -->
+              <span data-field-selector="::title" ng-if="!$ctrl.isAuthoritySearch" ng-repeat="item in ::$ctrl.firstLine.values"><!-- -->
+                <span aria-hidden="true" class="media-delimiter ng-hide" ng-bind-html="::$ctrl.firstLine.delimiter" ng-if="::$ctrl.firstLine.delimiter" ng-show="::(!$first)" ng-style="::($first &amp;&amp; $ctrl.isEmailMode() &amp;&amp; {'display':'none'})">;
+                </span><!-- --><!-- --><!-- -->
+                <prm-highlight display-mode="::$ctrl.displayMode" ng-class="::item.codes[$index]" ng-repeat="val in ::$ctrl.filterAndNormalize(item.values)" terms="::$ctrl.hl(item.key)" text="::$ctrl.getDisplayValFromVal(val, $ctrl.firstLine.delimiter, $ctrl.getFirstLineKeyByIndex($parent.$index))"><!-- --><!-- -->
+                  <span dir="auto" ng-bind-html="$ctrl.highlightedText" ng-if="::(!$ctrl.isEmailMode())">
+                    Topics in African linguistics : papers from the XXI Annual Conference on African Linguistics, University of Georgia, April 1990
+                  </span><!-- -->
+                </prm-highlight><!-- -->
+              </span><!-- --><!-- --><!-- --></a>
+            </h3><!-- -->
+            <div class="item-detail reduce-lines-display" ng-class="::{'identifier-in-brief-classic' : displayLine.values[0].key === 'identifier', 'reduce-lines-display': !$ctrl.isIe, 'reduce-line-display-ie': $ctrl.isIe}" ng-repeat="displayLine in ::$ctrl.otherLines"><!-- -->
+              <span ng-repeat="item in ::displayLine.values">
+                <span aria-hidden="true" class="media-delimiter ng-hide" ng-bind-html="::displayLine.delimiter" ng-show="::(!$first)" ng-style="::($first &amp;&amp; $ctrl.isEmailMode() &amp;&amp; {'display':'none'})">
+                  ;
+                </span><!-- -->
+                <span data-field-selector="contributor" ng-repeat="val in ::$ctrl.filterAndNormalize(item.text) track by $index">
+                  <prm-highlight display-mode="::$ctrl.displayMode" ng-class="::item.codes[$index]" terms="::$ctrl.hl(item.key)" text="::$ctrl.getDisplayValFromVal(val, displayLine.delimiter, item.key)"><!-- --><!-- -->
+                    <span dir="auto" ng-bind-html="$ctrl.highlightedText" ng-if="::(!$ctrl.isEmailMode())">
+                      <mark>Mufwene</mark>, Salikoko S.; Moshi, Lioba J.; Annual Conference on African Linguistics (21st : 1990 : University of Georgia)
+                    </span><!-- -->
+                  </prm-highlight>
+                  <span aria-hidden="true" class="media-delimiter ng-hide" ng-bind-html="::displayLine.delimiter" ng-show="::(!$last)" ng-style="::($ctrl.isEmailMode() &amp;&amp; {'display':'none'})">
+                    ; </span></span><!-- --></span><!-- -->
+            </div><!-- -->
+            <div class="item-detail reduce-lines-display" ng-class="::{'identifier-in-brief-classic' : displayLine.values[0].key === 'identifier', 'reduce-lines-display': !$ctrl.isIe, 'reduce-line-display-ie': $ctrl.isIe}" ng-repeat="displayLine in ::$ctrl.otherLines"><!-- -->
+              <span ng-repeat="item in ::displayLine.values">
+                <span aria-hidden="true" class="media-delimiter ng-hide" ng-bind-html="::displayLine.delimiter" ng-show="::(!$first)" ng-style="::($first &amp;&amp; $ctrl.isEmailMode() &amp;&amp; {'display':'none'})">
+                  ;
+                </span><!-- -->
+                <span data-field-selector="edition" ng-repeat="val in ::$ctrl.filterAndNormalize(item.text) track by $index">
+                  <prm-highlight display-mode="::$ctrl.displayMode" ng-class="::item.codes[$index]" terms="::$ctrl.hl(item.key)" text="::$ctrl.getDisplayValFromVal(val, displayLine.delimiter, item.key)"><!-- --><!-- -->
+                    <span dir="auto" ng-bind-html="$ctrl.highlightedText" ng-if="::(!$ctrl.isEmailMode())">
+                      1st ed.
+                    </span><!-- -->
+                  </prm-highlight>
+                  <span aria-hidden="true" class="media-delimiter ng-hide" ng-bind-html="::displayLine.delimiter" ng-show="::(!$last)" ng-style="::($ctrl.isEmailMode() &amp;&amp; {'display':'none'})">
+                    ;
+                  </span>
+                </span><!-- -->
+              </span><!-- -->
+              <span ng-repeat="item in ::displayLine.values">
+                <span aria-hidden="false" class="media-delimiter" ng-bind-html="::displayLine.delimiter" ng-show="::(!$first)" ng-style="::($first &amp;&amp; $ctrl.isEmailMode() &amp;&amp; {'display':'none'})">
+                  ;
+                </span><!-- -->
+                <span data-field-selector="creationdate" ng-repeat="val in ::$ctrl.filterAndNormalize(item.text) track by $index">
+                  <prm-highlight display-mode="::$ctrl.displayMode" ng-class="::item.codes[$index]" terms="::$ctrl.hl(item.key)" text="::$ctrl.getDisplayValFromVal(val, displayLine.delimiter, item.key)"><!-- --><!-- -->
+                    <span dir="auto" ng-bind-html="$ctrl.highlightedText" ng-if="::(!$ctrl.isEmailMode())">
+                      1993
+                    </span><!-- -->
+                  </prm-highlight>
+                  <span aria-hidden="true" class="media-delimiter ng-hide" ng-bind-html="::displayLine.delimiter" ng-show="::(!$last)" ng-style="::($ctrl.isEmailMode() &amp;&amp; {'display':'none'})">
+                    ;
+                  </span></span><!-- --></span><!-- --><span ng-repeat="item in ::displayLine.values"><span aria-hidden="false" class="media-delimiter" ng-bind-html="::displayLine.delimiter" ng-show="::(!$first)" ng-style="::($first &amp;&amp; $ctrl.isEmailMode() &amp;&amp; {'display':'none'})">; </span><!-- --><span data-field-selector="publisher" ng-repeat="val in ::$ctrl.filterAndNormalize(item.text) track by $index">
+                  <prm-highlight display-mode="::$ctrl.displayMode" ng-class="::item.codes[$index]" terms="::$ctrl.hl(item.key)" text="::$ctrl.getDisplayValFromVal(val, displayLine.delimiter, item.key)"><!-- --><!-- --><span dir="auto" ng-bind-html="$ctrl.highlightedText" ng-if="::(!$ctrl.isEmailMode())">Amsterdam ; Philadelphia : J. Benjamins Pub. Co.</span><!-- -->
+                  </prm-highlight>
+                  <span aria-hidden="true" class="media-delimiter ng-hide" ng-bind-html="::displayLine.delimiter" ng-show="::(!$last)" ng-style="::($ctrl.isEmailMode() &amp;&amp; {'display':'none'})">
+                    ; </span></span><!-- --></span><!-- -->
+            </div><!-- -->
+            <prm-brief-result-after parent-ctrl="$ctrl">
+            </prm-brief-result-after>
+          </prm-brief-result><!-- -->
+          <prm-snippet [display-mode]="::$ctrl.displayMode" [record]="::$ctrl.item"><!-- -->
+            <prm-snippet-after parent-ctrl="$ctrl">
+            </prm-snippet-after>
+          </prm-snippet><!-- --><!-- -->
+          <prm-search-result-journal-indication-line [display-mode]="::$ctrl.displayMode" [item]="::$ctrl.item" ng-if="::$ctrl.isSuprima"><!-- -->
+            <prm-search-result-journal-indication-line-after parent-ctrl="$ctrl">
+            </prm-search-result-journal-indication-line-after>
+          </prm-search-result-journal-indication-line><!-- --><!-- --><!-- -->
+          <div class="search-result-availability-line-wrapper" ng-style="::($ctrl.isEmailMode() &amp;&amp; {'margin-top':'1em'})"><!-- --><!-- -->
+            <prm-search-result-availability-line (open-full-display-with-getit1)="$ctrl.handleDetails($ctrl.item, $event, false);" (open-full-display-with-ngrs)="$ctrl.handleDetails($ctrl.item, $event, false);" [collection-discovery-data]="::$ctrl.collectionDiscoveryData" [display-mode]="::$ctrl.displayMode" [is-full-view]="::$ctrl.isFullView" [is-overlay-full-view]="$ctrl.isOverlayFullView" [result]="::$ctrl.item" class="" ng-click="$event.stopPropagation();" ng-if="::($ctrl.delivery &amp;&amp;(!$ctrl.isGenericRecord() || $ctrl.isPc()))" style="" tabindex="-1"><!-- --><!-- -->
+              <div class="layout-align-start-start layout-row" layout="row" layout-align="start start" ng-if="$ctrl.ifShowAvailability(availability)" ng-repeat="availability in $ctrl.displayedAvailability track by $index" style=""><!-- -->
+                <div class="layout-row" layout="flex" ng-if="::!$ctrl.isCollectionDiscoveryCollection"><!-- -->
+                  <prm-icon [display-mode]="::$ctrl.displayMode" availability-type="" icon-definition="link" icon-type="svg" ng-if="::$ctrl.isOnline($index,availability) &amp;&amp; !$ctrl.isGlobalRapidoRecord(availability)" svg-icon-set="primo-ui"><!-- -->
+                    <md-icon class="md-primoExplore-theme" md-svg-icon="primo-ui:link" ng-if="($ctrl.iconDefinition &amp;&amp; !$ctrl.isCustom &amp;&amp; !$ctrl.isEmailMode()) &amp;&amp; !$ctrl.useFallBack" role="presentation">
+                      <svg fit="" focusable="false" height="100%" id="link_cache340" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="100%" y="528" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z">
+                        </path></svg>
+                    </md-icon><!-- --><!-- --><!-- -->
+                    <prm-icon-after parent-ctrl="$ctrl">
+                    </prm-icon-after>
+                  </prm-icon><!-- --><!-- --><!-- --><!-- -->
+                  <button aria-labelledby="alma991018444251307596titleForAccessibilityAvailabilityLine0 alma991018444251307596availabilityLine0" class="neutralized-button arrow-link-button md-button md-primoExplore-theme md-ink-ripple" ng-click="$ctrl.handleAvailability($index, $event);$event.preventDefault();" ng-if="::!$ctrl.isEmailMode()" ng-transclude="" prm-brief-internal-button-marker="" role="link" type="button">
+                    <span class="accessible-only" id="alma991018444251307596titleForAccessibilityAvailabilityLine0">
+                      Topics in African linguistics : papers from the XXI Annual Conference on African Linguistics, University of Georgia, April 1990 </span><span class="button-content" id="alma991018444251307596availabilityLine0"><span class="availability-status not_restricted" ng-class="::{'text-rtl': $ctrl.switchToLtrString()}" ng-style="::$ctrl.getNgrsStyle()" translate="delivery.code.not_restricted" translate-compile="" translate-values="::$ctrl.getPlaceHolders($ctrl.result)">Available Online</span><!-- --><!-- --><!-- --><!-- --><span class="availability-status not_restricted" ng-if="::$ctrl.showCoverage(availability)"></span><!-- --><!-- -->
+                      <prm-icon [display-mode]="::$ctrl.displayMode" external-link="" icon-definition="open-in-new" icon-type="svg" ng-if="::$ctrl.isDirectLink($index)" svg-icon-set="primo-ui"><!-- -->
+                        <md-icon class="md-primoExplore-theme" md-svg-icon="primo-ui:open-in-new" ng-if="($ctrl.iconDefinition &amp;&amp; !$ctrl.isCustom &amp;&amp; !$ctrl.isEmailMode()) &amp;&amp; !$ctrl.useFallBack" role="presentation"><svg fit="" focusable="false" height="100%" id="open-in-new_cache341" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="100%" y="504" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z">
+                            </path></svg>
+                        </md-icon><!-- --><!-- --><!-- -->
+                        <prm-icon-after parent-ctrl="$ctrl">
+                        </prm-icon-after>
+                      </prm-icon><!-- --></span><!-- -->
+                    <prm-icon [display-mode]="::$ctrl.displayMode" icon-definition="chevron-right" icon-type="svg" link-arrow="" svg-icon-set="primo-ui"><!-- -->
+                      <md-icon class="md-primoExplore-theme" md-svg-icon="primo-ui:chevron-right" ng-if="($ctrl.iconDefinition &amp;&amp; !$ctrl.isCustom &amp;&amp; !$ctrl.isEmailMode()) &amp;&amp; !$ctrl.useFallBack" role="presentation"><svg fit="" focusable="false" height="100%" id="chevron-right_cache325" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="100%" y="384" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z">
+                          </path></svg>
+                      </md-icon><!-- --><!-- --><!-- -->
+                      <prm-icon-after parent-ctrl="$ctrl">
+                      </prm-icon-after>
+                    </prm-icon></button><!-- --><!-- -->
+                </div><!-- -->
+              </div><!-- --><!-- --><!-- -->
+              <prm-search-result-availability-line-after parent-ctrl="$ctrl">
+              </prm-search-result-availability-line-after>
+            </prm-search-result-availability-line><!-- -->
+          </div><!-- --><!-- --><!-- --><!-- -->
+        </div><!-- -->
+      </div><!-- -->
+      <div aria-label="Actions for Topics in African linguistics : papers from the XXI Annual Conference on African Linguistics, University of Georgia, April 1990 " class="result-item-actions layout-row ng-animate ng-enter ng-enter-active" data-ng-animate="2" layout="row" ng-if="((!$ctrl.isGenericRecord() || $ctrl.isPc()) &amp;&amp; !$ctrl.isEmailMode() &amp;&amp; $ctrl.showTimer) &amp;&amp; !$ctrl.isAuthoritySearch" ng-keydown="$ctrl.keyDownSupport($event)" role="region" style=""><!-- --><!-- --><!-- -->
+        <button (click)="$ctrl.openTab($event, action)" aria-label="Create citation of Topics in African linguistics : papers from the XXI Annual Conference on African Linguistics, University of Georgia, April 1990 " class="md-icon-button custom-button prm-primary md-button md-primoExplore-theme md-ink-ripple hide-xs" data-custom-button="action" data-qa="open_up_front_Citation_action" hide-xs="" ng-if="::(!$ctrl.isItemDeleted() &amp;&amp; !$ctrl.isFullView)" ng-repeat="action in ::$ctrl.upFrontActions" ng-transclude="" type="button">
+          <prm-icon [display-mode]="::$ctrl.displayMode" class="md-icon-button-custom" icon-definition="citation" icon-type="svg" svg-icon-set="primo-actions"><!-- -->
+            <md-icon class="md-primoExplore-theme" md-svg-icon="primo-actions:citation" ng-if="($ctrl.iconDefinition &amp;&amp; !$ctrl.isCustom &amp;&amp; !$ctrl.isEmailMode()) &amp;&amp; !$ctrl.useFallBack" role="presentation">
+              <svg fit="" focusable="false" height="100%" id="citation_cache449" preserveAspectRatio="xMidYMid meet" version="1.1" viewBox="0 0 24 24" width="100%" y="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14,17H17L19,13V7H13V13H16M6,17H9L11,13V7H5V13H8L6,17Z" id="path3444_cache449">
+                </path></svg>
+            </md-icon><!-- --><!-- --><!-- -->
+            <prm-icon-after parent-ctrl="$ctrl">
+            </prm-icon-after>
+          </prm-icon></button><!-- --><!-- --><!-- --><button (click)="$ctrl.openTab($event, action)" aria-label="Send as Email of Topics in African linguistics : papers from the XXI Annual Conference on African Linguistics, University of Georgia, April 1990 " class="md-icon-button custom-button prm-primary md-button md-primoExplore-theme md-ink-ripple hide-xs" data-custom-button="action" data-qa="open_up_front_E-mail_action" hide-xs="" ng-if="::(!$ctrl.isItemDeleted() &amp;&amp; !$ctrl.isFullView)" ng-repeat="action in ::$ctrl.upFrontActions" ng-transclude="" type="button">
+          <prm-icon [display-mode]="::$ctrl.displayMode" class="md-icon-button-custom" icon-definition="email" icon-type="svg" svg-icon-set="primo-actions"><!-- -->
+            <md-icon class="md-primoExplore-theme" md-svg-icon="primo-actions:email" ng-if="($ctrl.iconDefinition &amp;&amp; !$ctrl.isCustom &amp;&amp; !$ctrl.isEmailMode()) &amp;&amp; !$ctrl.useFallBack" role="presentation"><svg fit="" focusable="false" height="100%" id="email_cache450" preserveAspectRatio="xMidYMid meet" version="1.1" viewBox="0 0 24 24" width="100%" y="0" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20,4H4A2,2 0 0,0 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6A2,2 0 0,0 20,4M20,18H4V8L12,13L20,8V18M20,6L12,11L4,6V6H20V6Z" id="path3441_cache450">
+                </path></svg>
+            </md-icon><!-- --><!-- --><!-- -->
+            <prm-icon-after parent-ctrl="$ctrl">
+            </prm-icon-after>
+          </prm-icon></button><!-- --><!-- --><!-- --><button (click)="$ctrl.openTab($event, action)" aria-label="Copy link of Topics in African linguistics : papers from the XXI Annual Conference on African Linguistics, University of Georgia, April 1990 " class="md-icon-button custom-button prm-primary md-button md-primoExplore-theme md-ink-ripple hide-xs" data-custom-button="action" data-qa="open_up_front_Permalink_action" hide-xs="" ng-if="::(!$ctrl.isItemDeleted() &amp;&amp; !$ctrl.isFullView)" ng-repeat="action in ::$ctrl.upFrontActions" ng-transclude="" type="button">
+          <prm-icon [display-mode]="::$ctrl.displayMode" class="md-icon-button-custom" icon-definition="permalink" icon-type="svg" svg-icon-set="primo-actions"><!-- -->
+            <md-icon class="md-primoExplore-theme" md-svg-icon="primo-actions:permalink" ng-if="($ctrl.iconDefinition &amp;&amp; !$ctrl.isCustom &amp;&amp; !$ctrl.isEmailMode()) &amp;&amp; !$ctrl.useFallBack" role="presentation"><svg fit="" focusable="false" height="100%" id="permalink_cache451" preserveAspectRatio="xMidYMid meet" version="1.1" viewBox="0 0 24 24" width="100%" y="48" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z">
+                </path></svg>
+            </md-icon><!-- --><!-- --><!-- -->
+            <prm-icon-after parent-ctrl="$ctrl">
+            </prm-icon-after>
+          </prm-icon></button><!-- --><!-- --><!-- -->
+        <prm-save-to-favorites-button [index]="::$ctrl.index" [is-favorites]="::$ctrl.isFavorites" [is-overlay-full-view]="$ctrl.isOverlayFullView" [item]="::$ctrl.item" ng-if="!$ctrl.isRapidoSAEnabled"><!-- --><span class="pin-button" ng-if="::(!$ctrl.isFavorites  &amp;&amp; $ctrl.showBookmark())"><!-- --><button aria-label="Add item Topics in African linguistics : papers from the XXI Annual Conference on African Linguistics, University of Georgia, April 1990  to favorites" class="md-icon-button custom-button pin-button md-button md-primoExplore-theme md-ink-ripple pinned" ng-class="{'pinned':!$ctrl.showPin(), 'pin-icon-on-mobile': (($ctrl.isOverlayFullView || $ctrl.isFullViweState()) &amp;&amp; $ctrl.mediaQueries.xs)}" ng-click="$event.stopPropagation(); $event.preventDefault(); $ctrl.updateFavorites($event);" ng-disabled="::$ctrl.isFavoritesDisabled()" ng-if="!$ctrl.showPin() &amp;&amp; (!$ctrl.isDiscoveryLocalNoLogin() &amp;&amp; !$ctrl.isDiscoveryServicePage() &amp;&amp; !$ctrl.isDiscoveryWithExternalNoLogin())" ng-keydown="($event.keyCode === 13 || $event.keyCode === 32) &amp;&amp; $event.stopPropagation()" ng-transclude="" type="button">
+              <prm-icon [icon-definition]="::$ctrl.actionsIcons.pin.icon" [icon-type]="::$ctrl.actionsIcons.pin.type" [svg-icon-set]="::$ctrl.actionsIcons.pin.iconSet"><!-- -->
+                <md-icon class="md-primoExplore-theme" md-svg-icon="primo-ui:prm_pin" ng-if="($ctrl.iconDefinition &amp;&amp; !$ctrl.isCustom &amp;&amp; !$ctrl.isEmailMode()) &amp;&amp; !$ctrl.useFallBack" role="presentation"><svg fit="" focusable="false" height="100%" id="prm_pin_cache419" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="100%" y="0" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16,12V4H17V2H7V4H8V12L6,14V16H11.2V22H12.8V16H18V14L16,12Z">
+                    </path></svg>
+                </md-icon><!-- --><!-- --><!-- -->
+                <prm-icon-after parent-ctrl="$ctrl">
+                </prm-icon-after>
+              </prm-icon></button><!-- --><!-- --><span aria-live="assertive" class="accessible-only" ng-if="!$ctrl.showPin()"></span><!-- --></span><!-- --><!-- --><span class="pin-button" ng-if="::(!$ctrl.isFavorites  &amp;&amp; $ctrl.showBookmark())"><!-- --><!-- --><!-- --></span><!-- --><!-- -->
+          <prm-save-to-favorites-button-after parent-ctrl="$ctrl">
+          </prm-save-to-favorites-button-after>
+        </prm-save-to-favorites-button><!-- --><!-- -->
+        <button (click)="$ctrl.closeOpenTabs($event);$ctrl.toggleItemMenu($event);$event.stopPropagation();" aria-label="Show actions options for Topics in African linguistics : papers from the XXI Annual Conference on African Linguistics, University of Georgia, April 1990 " class="md-icon-button more-options-button md-button md-primoExplore-theme md-ink-ripple hide-xs" hide-xs="" id="briefResultMoreOptionsButton10" ng-if="::(!$ctrl.isItemDeleted() &amp;&amp; !$ctrl.isFullView)" ng-transclude="" type="button">
+          <prm-icon [display-mode]="::$ctrl.displayMode" [icon-definition]="::$ctrl.actionsIcons.moreActions.icon" [icon-type]="::$ctrl.actionsIcons.moreActions.type" [svg-icon-set]="::$ctrl.actionsIcons.moreActions.iconSet" class="open-icon"><!-- -->
+            <md-icon class="md-primoExplore-theme" md-svg-icon="navigation:ic_more_horiz_24px" ng-if="($ctrl.iconDefinition &amp;&amp; !$ctrl.isCustom &amp;&amp; !$ctrl.isEmailMode()) &amp;&amp; !$ctrl.useFallBack" role="presentation">
+              <svg fit="" focusable="false" height="100%" id="ic_more_horiz_24px_cache420" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="100%" y="384" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                </path></svg>
+            </md-icon><!-- --><!-- --><!-- -->
+            <prm-icon-after parent-ctrl="$ctrl">
+            </prm-icon-after>
+          </prm-icon>
+          <prm-icon [display-mode]="::$ctrl.displayMode" [icon-definition]="::$ctrl.actionsIcons.closeActions.icon" [icon-type]="::$ctrl.actionsIcons.closeActions.type" [svg-icon-set]="::$ctrl.actionsIcons.closeActions.iconSet" class="close-icon"><!-- -->
+            <md-icon class="md-primoExplore-theme" md-svg-icon="primo-ui:close" ng-if="($ctrl.iconDefinition &amp;&amp; !$ctrl.isCustom &amp;&amp; !$ctrl.isEmailMode()) &amp;&amp; !$ctrl.useFallBack" role="presentation">
+              <svg fit="" focusable="false" height="100%" id="close_cache421" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="100%" y="240" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z">
+                </path></svg>
+            </md-icon><!-- --><!-- --><!-- -->
+            <prm-icon-after parent-ctrl="$ctrl">
+            </prm-icon-after>
+          </prm-icon></button><!-- -->
+      </div><!-- --><!-- -->
+      <div class="action-list-content" ng-if="::(!$ctrl.isItemDeleted() &amp;&amp;!$ctrl.isFullView &amp;&amp; !$ctrl.isEmailMode()) &amp;&amp; !$ctrl.isAuthoritySearch" ng-keydown="$ctrl.keyDownSupport($event)" ng-style="{'padding-top': $ctrl.itemHeight}"><!-- -->
+      </div><!-- -->
+      <prm-brief-result-container-after parent-ctrl="$ctrl">
+      </prm-brief-result-container-after>
+    </prm-brief-result-container>
+  </body>

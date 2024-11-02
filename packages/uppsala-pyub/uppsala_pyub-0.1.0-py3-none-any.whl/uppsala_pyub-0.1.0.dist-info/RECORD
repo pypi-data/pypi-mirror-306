@@ -1,0 +1,11 @@
+uppsala_pyub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uppsala_pyub/bibtex.py,sha256=OcVrTDv4f2UAYgQb_czhfYV6UHoAE_xB61SdKoYaVAc,5142
+uppsala_pyub/cli.py,sha256=KldiIeeykO9JfxfMkdX2cjGfNIZGJUpXTY_0fSqq9aI,5227
+uppsala_pyub/handle_results.py,sha256=4KkjIX-Cd5BAFvA2X2d9lzrKQrclrKu3c7utj-OE3bE,4353
+uppsala_pyub/query.py,sha256=wudBxURgs7TNREC8av0UBeQIJnzuvsSph4q_GTJChuQ,2517
+uppsala_pyub/soup.py,sha256=IfcoBXe7c4XeymrLo7_2515xF0i-pEiSGXP6H4zsC2A,309
+uppsala_pyub/tmp.html,sha256=O55vvfr_PZCuQMHs5PdPbhH2V9NCCS90N_VrHIkN87A,33059
+uppsala_pyub-0.1.0.dist-info/METADATA,sha256=Ki6DcgCD9McLnc8NFkN1qlPEgKAgJzzAG2Ud2dgfMyw,749
+uppsala_pyub-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+uppsala_pyub-0.1.0.dist-info/entry_points.txt,sha256=81Z2dAuqAtOwM5aFtlEKRkbm3fCS0MhnJ_ix0cB7_FY,45
+uppsala_pyub-0.1.0.dist-info/RECORD,,
