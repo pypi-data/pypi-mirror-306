@@ -1,0 +1,2 @@
+pysheetreader
+sheetreader-core
