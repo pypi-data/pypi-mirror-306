@@ -1,0 +1,135 @@
+Metadata-Version: 2.3
+Name: thermalprinter
+Version: 0.3.0
+Summary: Driver for the DP-EH600 thermal printer (AdaFruit).
+Project-URL: Homepage, https://github.com/BoboTiG/thermalprinter
+Project-URL: Changelog, https://github.com/BoboTiG/thermalprinter/blob/main/CHANGELOG.md
+Project-URL: Source, https://github.com/BoboTiG/thermalprinter
+Project-URL: Sponsor, https://github.com/sponsors/BoboTiG
+Project-URL: Tracker, https://github.com/BoboTiG/thermalprinter/issues
+Project-URL: Released Versions, https://github.com/BoboTiG/thermalprinter/releases
+Author-email: Mickaël Schoentgen <contact@tiger-222.fr>
+Maintainer-email: Mickaël Schoentgen <contact@tiger-222.fr>
+License: MIT License
+        Copyright (c) 2016-2024, Mickaël 'Tiger-222' Schoentgen
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+License-File: LICENSE
+Keywords: adafruit,dp-eh400,dp-eh600,driver,printer,thermal-printer
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Printing
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Requires-Python: >=3.7
+Requires-Dist: pyserial<4,>=3.5
+Provides-Extra: dev
+Requires-Dist: build==1.2.2.post1; extra == 'dev'
+Requires-Dist: twine==5.1.1; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: enum-tools[sphinx]==0.12.0; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme==3.0.1; extra == 'docs'
+Requires-Dist: sphinx==8.1.3; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: mypy==1.13.0; extra == 'lint'
+Requires-Dist: ruff==0.7.1; extra == 'lint'
+Provides-Extra: tests
+Requires-Dist: pillow; (python_version < '3.9') and extra == 'tests'
+Requires-Dist: pillow==11.0.0; (python_version >= '3.9') and extra == 'tests'
+Requires-Dist: pytest-cov; (python_version < '3.9') and extra == 'tests'
+Requires-Dist: pytest-cov==6.0.0; (python_version >= '3.9') and extra == 'tests'
+Requires-Dist: pytest; (python_version < '3.9') and extra == 'tests'
+Requires-Dist: pytest==8.3.3; (python_version >= '3.9') and extra == 'tests'
+Description-Content-Type: text/markdown
+
+# DP-EH600 Thermal Printer
+
+[![PyPI Version](https://img.shields.io/pypi/v/thermalprinter.svg)](https://pypi.python.org/pypi/thermalprinter)
+[![PyPI Status](https://img.shields.io/pypi/status/thermalprinter.svg)](https://pypi.python.org/pypi/thermalprinter)
+[![PyPI Python Versions](https://img.shields.io/pypi/pyversions/thermalprinter.svg)](https://pypi.python.org/pypi/thermalprinter)
+[![Tests](https://github.com/BoboTiG/thermalprinter/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/BoboTiG/thermalprinter/actions/workflows/tests.yml)
+[![Github License](https://img.shields.io/github/license/BoboTiG/thermalprinter.svg)](https://github.com/BoboTiG/thermalprinter/blob/master/LICENSE)
+
+Python module to manage DP-EH600 thermal printers (the one sold by AdaFruit).
+
+- **Python 3.7+** and PEP8 compliant;
+- this is a clean follow of the technical manual with few helpers;
+- and there is a [complete, and beautiful, documentation](https://thermalprinter.readthedocs.io) 🙂
+- also several useful [recipes](https://github.com/BoboTiG/thermalprinter-recipes);
+- **contributors** are welcome, check the [developer guide](https://thermalprinter.readthedocs.io/en/latest/developers.html)!
+
+## Printers
+
+Supported printers:
+
+- DP-EH600
+- DP-EH400/1
+
+## Installation
+
+```bash
+python -m pip install -U thermalprinter
+```
+
+## Usage
+
+An example is better than a thousand words:
+
+```python
+from PIL import Image  # Optional, for printing images
+from ThermalPrinter import *
+
+
+with ThermalPrinter(port="/dev/ttyAMA0") as printer:
+    # Picture
+    printer.image(Image.open("src/tests/gnu.png"))
+
+    # Bar codes
+    printer.barcode_height(80)
+    printer.barcode_position(BarCodePosition.BELOW)
+    printer.barcode_width(3)
+    printer.barcode("012345678901", BarCode.EAN13)
+
+    # Styles
+    printer.out("Bold", bold=True)
+    printer.out("Double height", double_height=True)
+    printer.out("Double width", double_width=True)
+    printer.out("Inverse", inverse=True)
+    printer.out("Rotate 90°", rotate=True, codepage=CodePage.ISO_8859_1)
+    printer.out("Strike", strike=True)
+    printer.out("Underline", underline=1)
+    printer.out("Upside down", upside_down=True)
+
+    # Chinese (almost all alphabets exist)
+    printer.out("现代汉语通用字表", chinese=True, chinese_format=Chinese.UTF_8)
+                
+    # Greek (excepted the ΐ character)
+    printer.out("Στην υγειά μας!", codepage=CodePage.CP737)
+
+    # Other characters
+    printer.out(b"Cards \xe8 \xe9 \xea \xeb", codepage=CodePage.CP932)
+
+    # Accents
+    printer.out("Voilà !", justify="C", strike=True, underline=2, codepage=CodePage.ISO_8859_1)
+
+    # Line feeds
+    printer.feed(2)
+```

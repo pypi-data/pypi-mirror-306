@@ -1,0 +1,20 @@
+# Files
+.coverage
+MANIFEST.in
+
+# Folders
+__pycache__/
+build/
+cache/
+dist/
+docs/build/
+docs/output
+.eggs/
+*.egg-info/
+htmlcov/
+.idea/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+tests/.cache/
+venv/
