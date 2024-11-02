@@ -1,0 +1,16 @@
+pysheetreader.cpython-39-x86_64-linux-gnu.so,sha256=1MG6dRT8XB-P9_iovNuTpCLizK75FOOWjMEN3q9nqoE,4624864
+sheetreader-core/src/XlsxSheet.h,sha256=bLQk_u8mZ90YNz-CxoT1WQg9ZF0MjHytJRWXsOA2BkY,2601
+sheetreader-core/src/XlsxSheet.cpp,sha256=_khZlIxghJTr4y02XthWyVfco2C6_RnDXcT4R-Csjk4,31299
+sheetreader-core/src/XlsxFile.cpp,sha256=9rWLeRu-KNpB9umS83jc1j7XtwBg9tXrQvfi8qVQvIQ,28231
+sheetreader-core/src/parsing.h,sha256=ZvmXgYbaoYHWKRZUwhxwCS2aH9AxXNXYC4yAm645WlQ,13256
+sheetreader-core/src/XlsxFile.h,sha256=rFN2QbTewkT74-KcQti-hCJEcbWOLcsEPUSk6-4nxDE,2385
+sheetreader-core/src/miniz/miniz.cpp,sha256=9KGLyk_MMzMRrm42Wd1hk-shHqouXNtH1KL55q2J5e4,315539
+sheetreader-core/src/miniz/LICENSE,sha256=byD6dnKwDi6XXCkd9zfPInrd860y42_vP-D0FuRmTT0,1162
+sheetreader-core/src/miniz/miniz.h,sha256=gVRPpKOwBq9iW0R-yNfZcnWPBvbmu4uJNujljBvymeY,68498
+sheetreader-core/src/fast_double_parser/fast_double_parser.h,sha256=nx206bToNlfRlwLuJuXP7cKyf6yohY0loGzv1Id1XnM,49482
+sheetreader-core/src/fast_double_parser/LICENSE,sha256=AXuyoeOmM6KCcBVXG6DYDF9C1U1M-VCf4-MBqiAHaBE,11343
+pysheetreader-0.0.1.dist-info/METADATA,sha256=51ti31D7bQ_5EQh3w6C83n4Pd_yL6b-6XOtQK1Nmwuc,4703
+pysheetreader-0.0.1.dist-info/WHEEL,sha256=snQ74ADnYzlmaPbDSGPvziq8_Up2CG9wO3yHJPrNejw,147
+pysheetreader-0.0.1.dist-info/LICENSE,sha256=Q3ueI91eO9Gc4TTdnllMKiUElZqkXgAANoZ7G_8wf4k,1064
+pysheetreader-0.0.1.dist-info/top_level.txt,sha256=WKFZq9Ms8fpF2oTISpu_SNXC2mDARqUX9K-2uFx4UtA,31
+pysheetreader-0.0.1.dist-info/RECORD,,
