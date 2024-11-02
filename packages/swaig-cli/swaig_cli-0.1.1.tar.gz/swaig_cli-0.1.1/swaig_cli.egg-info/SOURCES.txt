@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+man/swaig_cli.1
+swaig_cli/__init__.py
+swaig_cli/cli.py
+swaig_cli.egg-info/PKG-INFO
+swaig_cli.egg-info/SOURCES.txt
+swaig_cli.egg-info/dependency_links.txt
+swaig_cli.egg-info/entry_points.txt
+swaig_cli.egg-info/requires.txt
+swaig_cli.egg-info/top_level.txt
