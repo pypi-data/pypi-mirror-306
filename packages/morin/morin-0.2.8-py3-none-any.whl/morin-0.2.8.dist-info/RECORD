@@ -1,0 +1,13 @@
+morin/__init__.py,sha256=gmnUGdH8uYIdun0WQivUTBqL9_tBrZI1AOIJHbREKsg,104
+morin/clickhouse.py,sha256=qeY2u3OqfNcKRnGQDPUlKqPdu8wiU9LwVcWrKQy9Ry0,12686
+morin/common.py,sha256=7Wr5jzpsr8qlNAENPbcV_khWnKoyFA5kupAyq0ouvUY,13772
+morin/ozon_by_date.py,sha256=bUXMBaZCFwd9aE3fyalIldTaxDd7t_zYWXqeaAHuqCo,25952
+morin/ozon_reklama.py,sha256=8Ao2NdnpAwQzs2RQvTrUfccfXlWP5NmGoPHb-i1wQqM,29575
+morin/wb_by_date.py,sha256=J-ZYAw_KrTfipVp_WXZ75dBDrEdzAYrVf5LFxih2mN8,14962
+morin/wb_reklama.py,sha256=NX5BfFdexo-4Bo46OQ7RcGfw3sxhcgb05jAoPJZx1Vg,18698
+morin/yd_by_date.py,sha256=an6K4CeVPCOPgg0Wae2WFYjCV25RkmmPqBUXf3L-qJ4,10671
+morin-0.2.8.dist-info/LICENSE,sha256=vzRyw3xIbcP5bMlHKIJk7NeLXvAvddkMaG5VMYqc114,1097
+morin-0.2.8.dist-info/METADATA,sha256=hn1RaPkrjBzdZopXAcL6O__lR2R358sSTwjLgfFVk00,441
+morin-0.2.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+morin-0.2.8.dist-info/top_level.txt,sha256=aHXWYDN7OqpQ4naPkT355x3qgsSnU_PdTivn0CltPcA,6
+morin-0.2.8.dist-info/RECORD,,
