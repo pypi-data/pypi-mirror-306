@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+shirin.egg-info/PKG-INFO
+shirin.egg-info/SOURCES.txt
+shirin.egg-info/dependency_links.txt
+shirin.egg-info/top_level.txt
