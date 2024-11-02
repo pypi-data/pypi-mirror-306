@@ -1,0 +1,62 @@
+# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: Python package
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+        cache: 'pip'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -e .[test]
+    - name: Lint/format source code and docs
+      run: |
+        ruff check .
+        ruff format . --check
+    - name: Test source code and docs
+      run: |
+        coverage run --rcfile=coverage_feature.toml
+        coverage report --rcfile=coverage_feature.toml
+        coverage xml --rcfile=coverage_feature.toml
+        coverage run --rcfile=coverage_unit.toml
+        coverage report --rcfile=coverage_unit.toml
+        coverage xml --rcfile=coverage_unit.toml
+        python -m sphinx -b doctest docs/source/ docs/build/doctest/
+    - name: Upload feature coverage reports to Codecov
+      uses: codecov/codecov-action@v4
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        flags: ${{ matrix.python-version }}, feature
+        file: ./cover/feature/coverage.xml
+        disable_search: true
+        fail_ci_if_error: true
+        verbose: true
+    - name: Upload unit coverage reports to Codecov
+      uses: codecov/codecov-action@v4
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        flags: ${{ matrix.python-version }}, unit
+        file: ./cover/unit/coverage.xml
+        disable_search: true
+        fail_ci_if_error: true
+        verbose: true

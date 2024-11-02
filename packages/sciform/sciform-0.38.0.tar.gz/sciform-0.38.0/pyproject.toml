@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sciform"
+authors = [
+    {name = "Justin Gerber", email="justin.gerber48@gmail.com"}
+]
+description = "A package for formatting numbers into scientific formatted strings."
+requires-python = ">= 3.8"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Text Processing",
+    "Topic :: Utilities",
+]
+dynamic = ["version", "readme"]
+
+[project.urls]
+homepage = "https://github.com/jagerber48/sciform"
+documentation = "https://sciform.readthedocs.io"
+
+[project.optional-dependencies]
+docs = [
+    "sphinx",
+    "sphinx-rtd-dark-mode",
+    "sphinx-rtd-theme",
+    "sphinx-toolbox",
+]
+test = [
+    "coverage[toml]",
+    "numpy",
+    "ruff==0.5.5",
+    "sciform[docs]",
+]
+examples = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "tabulate",
+    "jupyter",
+]
+all = [
+    "sciform[docs]",
+    "sciform[test]",
+    "sciform[examples]",
+]
+
+[tool.setuptools.dynamic]
+readme = {file = "README.rst"}
+
+[tool.setuptools_scm]
