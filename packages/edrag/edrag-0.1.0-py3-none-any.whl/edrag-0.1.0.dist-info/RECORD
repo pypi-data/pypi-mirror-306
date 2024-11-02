@@ -1,0 +1,13 @@
+edrag/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edrag/edrag.py,sha256=l-u_97ngSBO_gdzzjSwnVp7wi9zr7-czgo2pr7EMIu0,412
+edrag/evaluation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edrag/generation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edrag/indexing.py,sha256=G0jNeG0uQG5L9FlplY2pb1IqXaQp3GQ5v7T25CiXhsk,2014
+edrag/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edrag/retrieval.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edrag/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edrag-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+edrag-0.1.0.dist-info/METADATA,sha256=9ndpKjAJnOBtnixtGrYHV40AGggTPxVECufK_cKBL-c,516
+edrag-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+edrag-0.1.0.dist-info/top_level.txt,sha256=yd-YhF33xk8Bp_0EdLnF7DQLKk-G0CRfxSGl_vELGFE,6
+edrag-0.1.0.dist-info/RECORD,,
