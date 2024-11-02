@@ -1,0 +1,71 @@
+name: Continuous Deployment
+
+on:
+  workflow_run:
+    workflows: ["Continuous Integration"]
+    types:
+      - completed
+
+env:
+  UV_CACHE_DIR: /tmp/.uv-cache
+
+jobs:
+  cd:
+    name: Deploy Release
+    runs-on: ubuntu-latest
+    concurrency: cd
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    permissions:
+      id-token: write
+      contents: write
+    steps:
+      - name: Setup | Checkout Repository at workflow sha
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Setup | Force correct release branch on workflow sha
+        run: |
+          git checkout -B ${{ github.ref_name }} ${{ github.sha }}
+
+      - name: Setup | Set up UV Environment
+        uses: astral-sh/setup-uv@v3.2.0
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+
+      - name: Run Python Semantic Release
+        id: release
+        uses: python-semantic-release/python-semantic-release@v9.12.0
+        with:
+          github_token: '${{ secrets.GITHUB_TOKEN }}'
+          git_committer_name: 'MountainGod2'
+          git_committer_email: 'admin@reid.ca'
+          ssh_private_signing_key: '${{ secrets.GIT_COMMIT_SSH_PRIV_KEY }}'
+          ssh_public_signing_key: '${{ secrets.GIT_COMMIT_SSH_PUB_KEY }}'
+
+      - name: Publish to TestPyPI
+        if: steps.release.outputs.released == 'true'
+        uses: pypa/gh-action-pypi-publish@v1.11.0
+        with:
+          repository-url: 'https://test.pypi.org/legacy/'
+          attestations: false
+
+      - name: Test Install from TestPyPI
+        if: steps.release.outputs.released == 'true'
+        run: |
+          pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple chaturbate-poller
+
+      - name: Publish to PyPI
+        if: steps.release.outputs.released == 'true'
+        uses: pypa/gh-action-pypi-publish@v1.11.0
+        with:
+          attestations: false
+
+      - name: Publish to GitHub Releases
+        if: steps.release.outputs.released == 'true'
+        uses: python-semantic-release/publish-action@v9.12.0
+        with:
+          github_token: '${{ secrets.GITHUB_TOKEN }}'
