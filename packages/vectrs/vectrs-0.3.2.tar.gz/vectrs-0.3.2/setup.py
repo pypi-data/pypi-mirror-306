@@ -1,0 +1,37 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="vectrs",
+    version="0.3.2",
+    packages=find_packages(include=['vectrs', 'vectrs.*', 
+                                  'vectrs.database', 
+                                  'vectrs.network',
+                                  'vectrs.networking',
+                                  'vectrs.utils',
+                                  'vectrs.swarms',
+                                  'vectrs.swarms.*',
+                                  'vectrs.load_balancer',
+                                  'vectrs.replication_manager']),
+    install_requires=[
+        "numpy",
+        "kademlia",
+        "networkx",
+        "anthropic",
+        "sentence_transformers",
+        "hnswlib",  
+        "scipy",    
+    ],
+    author="Mir Sakib",
+    author_email="sakib@paralex.tech",
+    description="Decentralized & Distributed Vector Database",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/ParalexLabs/Vectrs-beta",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: Apache Software License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires=">=3.8",
+    include_package_data=True,
+)

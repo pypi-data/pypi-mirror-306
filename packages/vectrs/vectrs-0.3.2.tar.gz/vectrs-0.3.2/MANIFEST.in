@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+recursive-include vectrs *.py
+recursive-include vectrs/swarms *.py
+recursive-include vectrs/database *.py
+recursive-include vectrs/network *.py
+recursive-include vectrs/networking *.py
+recursive-include vectrs/utils *.py
+recursive-include vectrs/load_balancer *.py
+recursive-include vectrs/replication_manager *.py
