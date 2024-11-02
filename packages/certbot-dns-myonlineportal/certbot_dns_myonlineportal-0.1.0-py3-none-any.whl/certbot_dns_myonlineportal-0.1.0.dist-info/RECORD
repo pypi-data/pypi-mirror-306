@@ -1,0 +1,8 @@
+certbot_dns_myonlineportal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_myonlineportal/dns_myonlineportal.py,sha256=epJ-xqD8MLlLvejA3HaquNPLx50ZxN-6QiLsvk4w7HQ,5003
+certbot_dns_myonlineportal/dns_myonlineportal_test.py,sha256=7PFzdDOTbo-oZh5BHMqXJeHdAUoRVEz3U4eXv2W0LcI,4125
+certbot_dns_myonlineportal-0.1.0.dist-info/METADATA,sha256=oBpuht7i3OdCKANwHU14B1MYNTivJ5JmE0_Xli6jK90,3800
+certbot_dns_myonlineportal-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+certbot_dns_myonlineportal-0.1.0.dist-info/entry_points.txt,sha256=dd-rBdJwmvga_L6iXodlJNTEm8Cd9AJS-exIyXL6T10,99
+certbot_dns_myonlineportal-0.1.0.dist-info/top_level.txt,sha256=acd_GGWjGkXeew6NDQFzj0dRt5aTmHMlkzmuIQbZVWI,27
+certbot_dns_myonlineportal-0.1.0.dist-info/RECORD,,

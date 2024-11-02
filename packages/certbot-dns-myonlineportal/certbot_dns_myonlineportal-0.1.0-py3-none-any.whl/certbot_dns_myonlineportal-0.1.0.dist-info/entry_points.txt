@@ -1,0 +1,2 @@
+[certbot.plugins]
+dns-myonlineportal = certbot_dns_myonlineportal.dns_myonlineportal:Authenticator
