@@ -1,0 +1,12 @@
+minimark/__init__.py,sha256=OUZiLSEmwjaKY21nqBwFr2bJLQ-mLZ5z28hBkh-03DQ,55574
+minimark/__main__.py,sha256=fr-CFAsvUaq-F1nICslExsfLggcTfrfCuU_MUBrHZdQ,58
+minimark/data/main.tcss,sha256=mFF7_J7UBbHlQ9xqWRGwVZE1oId4tZeXAWOLkb_UQY4,5518
+minimark/data/puppeteer-config.json,sha256=m5t-Ig2sWqgVIatCAeMkOUPBQHtCr97-Ve6gUherx_M,60
+minimark/data/python_highlights.scm,sha256=a7t3EAgbJ1N6-6SR0TLFTfeaR9iB0YNWDV9Pguuktw4,1920
+minimark/data/treesitter-grammar_repos.txt,sha256=OsWYqQtaDyGhwTdLPcjOVqUyekLPylQJzymE81ZX0-c,4094
+minimark-0.0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+minimark-0.0.1.2.dist-info/METADATA,sha256=uOH3Y63UK-C40zD6vbFPYzsGl0fI82tcsKsWXLON6e8,2532
+minimark-0.0.1.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+minimark-0.0.1.2.dist-info/entry_points.txt,sha256=aCFVinh76TI9BTdDoIQu9hj16ClPMC-fJBOji59t05I,52
+minimark-0.0.1.2.dist-info/top_level.txt,sha256=B0ZBcRo9LKFAFBS5VlYJQzlKHH31icWL3uIGzndLnzk,9
+minimark-0.0.1.2.dist-info/RECORD,,
