@@ -1,0 +1,9 @@
+campubtest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+campubtest/__main__.py,sha256=2CqjFcyoneAGK2Lu6amXmGRMZ60OUUhHOXgv9KosiaM,125
+campubtest/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+campubtest/src/utils.py,sha256=tAfmXJnzOkkdPYHsa41cPSXodOhni4b64thWxfraJeU,63
+campubtest-0.0.7.dist-info/LICENSE,sha256=0X6EFOdMLYjOpyuADrT2ESEoDnvmjP6qGFr9YNGHXJ4,1073
+campubtest-0.0.7.dist-info/METADATA,sha256=EqNfN2HrogqHsITiylQxhzrXt7FACT-K534MLM9Ee_M,429
+campubtest-0.0.7.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+campubtest-0.0.7.dist-info/entry_points.txt,sha256=1Gn4HTsypw9QtfzwUH3p4n1cn7IpK03aLI0Nt5EZtsY,50
+campubtest-0.0.7.dist-info/RECORD,,

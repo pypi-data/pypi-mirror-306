@@ -1,0 +1,3 @@
+[console_scripts]
+greet=campubtest.__main__:main
+
