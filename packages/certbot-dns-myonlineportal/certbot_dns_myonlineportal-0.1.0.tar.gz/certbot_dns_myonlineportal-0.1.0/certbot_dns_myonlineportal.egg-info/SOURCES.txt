@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+./certbot_dns_myonlineportal/__init__.py
+./certbot_dns_myonlineportal/dns_myonlineportal.py
+./certbot_dns_myonlineportal/dns_myonlineportal_test.py
+certbot_dns_myonlineportal/__init__.py
+certbot_dns_myonlineportal/dns_myonlineportal.py
+certbot_dns_myonlineportal/dns_myonlineportal_test.py
+certbot_dns_myonlineportal.egg-info/PKG-INFO
+certbot_dns_myonlineportal.egg-info/SOURCES.txt
+certbot_dns_myonlineportal.egg-info/dependency_links.txt
+certbot_dns_myonlineportal.egg-info/entry_points.txt
+certbot_dns_myonlineportal.egg-info/requires.txt
+certbot_dns_myonlineportal.egg-info/top_level.txt

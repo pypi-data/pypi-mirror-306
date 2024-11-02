@@ -1,0 +1,142 @@
+Metadata-Version: 2.1
+Name: certbot_dns_myonlineportal
+Version: 0.1.0
+Summary: Obtain certificates using a DNS TXT record for MyOnlinePortal.net domains
+Home-page: https://github.com/geraldhansen/certbot_dns_myonlineportal
+Author: geraldhansen
+License: Apache License 2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Security
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: acme>=0.29.0
+Requires-Dist: certbot>=2.0.0
+Requires-Dist: setuptools
+Requires-Dist: requests
+Requires-Dist: mock
+Requires-Dist: requests-mock
+
+certbot-dns-myonlineportal
+============
+
+MyOnlinePortal DNS Authenticator plugin for [Certbot](https://certbot.eff.org/).
+
+This plugin is built from the ground up and follows the development style and life-cycle
+of other `certbot-dns-*` plugins found in the
+[Official Certbot Repository](https://github.com/certbot/certbot).
+
+Installation
+------------
+
+```
+pip install --upgrade certbot
+pip install certbot-dns-myonlineportal
+```
+
+Verify:
+
+```
+$ certbot plugins --text
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+* dns-myonlineportal
+Description: Obtain certificates using a DNS TXT record (if you are using
+MyOnlinePortal for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-myonlineportal =
+certbot_dns_myonlineportal.dns_myonlineportal:Authenticator
+
+...
+...
+```
+
+Configuration
+-------------
+
+The credentials file e.g. `/etc/letsencrypt/.secrets/myonlineportal-credentials.ini` should look like this:
+
+```
+dns_myonlineportal_username = username
+dns_myonlineportal_password = password
+dns_myonlineportal_endpoint = https://myonlineportal.net/set-acme
+```
+
+Usage
+-----
+
+```
+certbot ... \
+        --authenticator dns-myonlineportal \
+        --dns-myonlineportal-propagation-seconds 90 \
+        --dns-myonlineportal-credentials ~/myonlineportal-credentials.ini \
+        certonly
+```
+
+Development
+-----------
+
+Build the docker container
+```
+docker build -t certbot/dns-myonlineportal .
+```
+
+Run the docker container
+```
+mkdir -p ./var/lib/letsencrypt
+mkdir -p ./var/log/letsencrypt
+mkdir -p ./etc/letsencrypt
+PWD=$(pwd)
+
+docker run \
+  --rm \
+  -v ${PWD}/var/lib/letsencrypt:/var/lib/letsencrypt \
+  -v ${PWD}/var/log/letsencrypt:/var/log/letsencrypt \
+  -v ${PWD}/etc/letsencrypt:/etc/letsencrypt \
+  --cap-drop=all \
+  certbot/dns-myonlineportal certonly --debug \
+   --authenticator dns-myonlineportal \
+   --dns-myonlineportal-propagation-seconds 90 \
+   --dns-myonlineportal-credentials /etc/letsencrypt/.secrets/myonlineportal-credentials.ini \
+   --no-self-upgrade \
+   --agree-tos \
+   --email 'my.email@example.com' \
+   --keep-until-expiring --non-interactive --expand \
+   --server https://acme-v02.api.letsencrypt.org/directory \
+   -d example.myonlineportal.net -d '*.example.myonlineportal.net'
+
+```
+
+Run the tests
+```
+python3 setup.py test
+```
+
+Build the package
+```
+python3 -m build
+```
+
+Upload to pypi
+```
+python3 -m twine upload --repository testpypi dist/*
+```
+
+Helpful links
+--------
+
+[MyOnlinePortal api](https://myonlineportal.net/help#acme_api)
