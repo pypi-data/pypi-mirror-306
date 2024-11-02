@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "shy_sh"
+version = "1.0.1"
+description = "Shell copilot - sh shell AI copilot"
+authors = ["Mattia Cecchini <matcecco@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/mceck/shy-sh"
+readme = "README.md"
+classifiers=[
+    'Topic :: Scientific/Engineering :: Artificial Intelligence',
+    'Topic :: Terminals',
+    'Topic :: Utilities',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+]
+packages = [{include = "shy_sh"}]
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.10"
+langchain = "^0.2.11"
+langchain-community = "^0.2.10"
+langchain-groq = "^0.1.8"
+anthropic = "^0.31.2"
+openai = "^1.37.1"
+typer = "^0.12.3"
+pyyaml = "^6.0.1"
+pydantic-settings = "^2.3.4"
+langchain-google-genai = "^1.0.8"
+boto3 = "==1.34.162"
+langchain-aws = "^0.1.12"
+pillow = "^11.0.0"
+pyperclip = "^1.9.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+poetry-bumpversion = "^0.3.2"
+
+[tool.poetry.scripts]
+shy = "shy_sh.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
