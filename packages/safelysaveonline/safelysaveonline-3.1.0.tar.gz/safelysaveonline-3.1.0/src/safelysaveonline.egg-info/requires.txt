@@ -1,0 +1,4 @@
+cryptography
+gitpython
+webdav4
+httpx
