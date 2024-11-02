@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: receipt_generator_NovEf
+Version: 0.1
+Summary: Это receipt_generator, делай с ним че хочешь
+Author: Novoselov Efim
+Author-email: Novoselov Efim <myemail@example.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+Requires-Dist: numpy>=1.19.2
+Requires-Dist: pandas>=2.2.3
+
+### Задача 4
+Ты работаешь в компании, занимающейся электронной коммерцией, и она сталкивается с проблемой ручного создания чеков для покупателей. Каждый раз, когда покупатель делает заказ, менеджер компании вручную составляет отчёт по каждому заказу, что тратит время и приводит к ошибкам.
+
+Пакет выполняет следующее:
+
+- Принимает данные о заказе в виде JSON-файла со следующей структурой:
+```json
+{
+  'customer_name': 'Иван Иванов',
+  'items': [
+    {'name': 'Телефон', 'quantity': 1, 'price': 20000},
+    {'name': 'Наушники', 'quantity': 2, 'price': 1500}
+  ]
+}
+```
+- Создаёт текстовый файл с чеком, который содержит:
+  - имя клиента,
+  - список товаров (название товара, количество, цена за единицу),
+  - общую сумма заказа.
+- Поддерживает запуск через командную строку с опциями:
+  - `--input_file` для указания входного файла `.json`,
+  - `--output_file` для указания выходного файла `.txt`.
+
+Пример ввода:
+```bash
+python3 -m receipt_generator --input_file data/order.json --output_file receipt.txt
+```
