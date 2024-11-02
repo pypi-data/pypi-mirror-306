@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: gcp-flowlogs-reader
+Version: 3.0.0
+Summary: Reader for Google Cloud VPC Flow Logs
+Home-page: https://github.com/obsrvbl-oss/gcp-flowlogs-reader
+Author: Cisco Stealthwatch Cloud
+Author-email: support@observable.net
+License: Apache
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+
+This project provides a convenient interface for accessing
+VPC Flow Logs stored in Google Cloud's Stackdriver Logging service.
