@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=example-schema2.json
+
+org:
+  name: mila
+  nonprofit: true
+  members:
+    - name: Olivier Breuleux
+      username: breuleuo
+      home: "breuleuo"
+      start: "2017-06-01"
+      end: null
+    # - mysterio.yaml
+  machines:
+    - name: turbo01
+      os: Bubuntu
+      ngpus: 32
+    - name: turbo02
+      os: Bubuntu
+      ngpus: 32
+  # point:
+  #   class: Point3D
+  #   x: 0
+  #   y: 0
+  #   z: 3
+
+time:
+  class: FrozenTime
+  sleep_beat: 6

@@ -1,0 +1,13 @@
+org:
+  name: vector
+  nonprofit: true
+  members:
+  - name: Geoff Hinton
+    username: dahint
+    home: /hinton
+    start: "2020-06-01"
+    end: null
+  machines:
+  - name: slomo01
+    os: Crapuntu
+    ngpus: 3

@@ -1,0 +1,261 @@
+{
+    "type": "object",
+    "properties": {
+        "time": {
+            "type": "object",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "class": {
+                            "title": "Class",
+                            "description": "Reference to the class to instantiate",
+                            "enum": [
+                                "NormalTime"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "time": {
+                            "type": "string",
+                            "format": "date-time",
+                            "title": "Time",
+                            "description": "Datetime to freeze time at",
+                            "default": "2024-03-14T14:27:39.612854"
+                        },
+                        "sleep_beat": {
+                            "type": "number",
+                            "title": "Sleep beat",
+                            "description": "How long to pause when sleeping, in actual seconds (default: 0)"
+                        },
+                        "class": {
+                            "title": "Class",
+                            "description": "Reference to the class to instantiate",
+                            "enum": [
+                                "FrozenTime"
+                            ]
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                        "class"
+                    ]
+                }
+            ],
+            "title": "Time"
+        },
+        "org": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "title": "Name",
+                    "description": "Name of the organization"
+                },
+                "nonprofit": {
+                    "type": "boolean",
+                    "title": "Nonprofit",
+                    "description": "Whether the organization is a nonprofit"
+                },
+                "members": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string",
+                                "title": "Name",
+                                "description": "Member name"
+                            },
+                            "username": {
+                                "type": "string",
+                                "title": "Username",
+                                "description": "User name"
+                            },
+                            "home": {
+                                "type": "string",
+                                "title": "Home",
+                                "description": "Home directory"
+                            },
+                            "start": {
+                                "type": "string",
+                                "format": "date",
+                                "title": "Start",
+                                "description": "Date the member started working"
+                            },
+                            "end": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ],
+                                "format": "date",
+                                "title": "End",
+                                "description": "Date the member stopped working"
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "username",
+                            "home",
+                            "start",
+                            "end"
+                        ],
+                        "additionalProperties": false
+                    },
+                    "title": "Members",
+                    "description": "Members of the organization"
+                },
+                "machines": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string",
+                                "title": "Name"
+                            },
+                            "os": {
+                                "type": "string",
+                                "title": "Os"
+                            },
+                            "ngpus": {
+                                "type": "integer",
+                                "title": "Ngpus"
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "os",
+                            "ngpus"
+                        ],
+                        "additionalProperties": false
+                    },
+                    "title": "Machines",
+                    "description": "Machines the organization owns"
+                },
+                "point": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "x": {
+                                    "type": "integer",
+                                    "title": "X",
+                                    "description": "ex"
+                                },
+                                "y": {
+                                    "type": "integer",
+                                    "title": "Y",
+                                    "description": "why"
+                                },
+                                "class": {
+                                    "title": "Class",
+                                    "description": "Reference to the class to instantiate",
+                                    "enum": [
+                                        "Point"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "x",
+                                "y"
+                            ],
+                            "additionalProperties": false
+                        },
+                        {
+                            "type": "object",
+                            "properties": {
+                                "x": {
+                                    "type": "integer",
+                                    "title": "X",
+                                    "description": "ex"
+                                },
+                                "y": {
+                                    "type": "integer",
+                                    "title": "Y",
+                                    "description": "why"
+                                },
+                                "z": {
+                                    "type": "integer",
+                                    "title": "Z",
+                                    "description": "zeeee"
+                                },
+                                "class": {
+                                    "title": "Class",
+                                    "description": "Reference to the class to instantiate",
+                                    "enum": [
+                                        "Point3D"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "x",
+                                "y",
+                                "z",
+                                "class"
+                            ],
+                            "additionalProperties": false
+                        },
+                        {
+                            "type": "object",
+                            "properties": {
+                                "x": {
+                                    "type": "integer",
+                                    "title": "X",
+                                    "description": "ex"
+                                },
+                                "y": {
+                                    "type": "integer",
+                                    "title": "Y",
+                                    "description": "why"
+                                },
+                                "z": {
+                                    "type": "integer",
+                                    "title": "Z",
+                                    "description": "zeeee"
+                                },
+                                "w": {
+                                    "type": "integer",
+                                    "title": "W",
+                                    "description": "dubs"
+                                },
+                                "class": {
+                                    "title": "Class",
+                                    "description": "Reference to the class to instantiate",
+                                    "enum": [
+                                        "Point4D"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "x",
+                                "y",
+                                "z",
+                                "w",
+                                "class"
+                            ],
+                            "additionalProperties": false
+                        }
+                    ],
+                    "title": "Point"
+                }
+            },
+            "required": [
+                "name",
+                "nonprofit",
+                "members",
+                "machines"
+            ],
+            "additionalProperties": false,
+            "title": "Org"
+        }
+    },
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft/2020-12/schema#",
+    "$defs": {}
+}

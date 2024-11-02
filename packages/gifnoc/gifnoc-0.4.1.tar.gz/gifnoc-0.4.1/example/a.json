@@ -1,0 +1,10 @@
+{
+    "fruits": [
+        "banana",
+        "apple"
+    ],
+    "likes": {
+        "apple": true,
+        "banana": false
+    }
+}

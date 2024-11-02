@@ -1,0 +1,7 @@
+city:
+  name: Boogerville
+  people:
+  - name: Andre
+    birthdate: "1980-01-07"
+  - name: Ulrich
+    birthdate: "1904-01-01"
