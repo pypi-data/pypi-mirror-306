@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: mcap-logger
+Version: 0.1.17
+Summary: provides a standardised, easy to import and use logging method with mcap
+Author-email: Kristof Kovacs <kristof.kovacs1996@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 bit hunters
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: foxglove-schemas-protobuf>=0.2.1
+Requires-Dist: mcap-protobuf-support>=0.5.1
+
+# MCAP Logger 🧢
+
+This python package wraps the [MCap protobuf logging package](https://mcap.dev/docs/python/protobuf_example) with
+the [Foxglove schemas](https://docs.foxglove.dev/docs/visualization/message-schemas/introduction/) to provide a
+standardised, easy to import and use logging method.
+
+## Usage
+
+1. Add the package to your python project.
+2. Import the package and use the `get_logger` function to create your logger.
+
+```python
+from mcap_logger.mcap_logger import get_logger
+
+logger = get_logger(__name__)
+```
+
+3. If you haven't provided any log file path and or log level to the `get_logger` function, you can use environmental
+   variables to specify them at run time. `LOG_LEVEL` for log level, and `LOG_ROOT` for the log file.
+
+```shell
+LOG_LEVEL=DEBUG LOG_ROOT=log_file.mcap uv run python -m mcap.demo.demo
+```
+
+4. Use the MCAPLogger `.debug()`, `.info()`, `.warning()`, etc. functions to create different types of log messages
+5. If you want to log topics like sensor data, you have to first specify the message with protobuf. (See
+   the [Working with ProtoBuf](#working-with-protobuf) section).
+6. You can open the created log file with [Foxglove Studio](https://foxglove.dev/).
+
+For an example see [demo.py](mcap_logger/demo/demo.py).
+
+The output: ![demo_log_in_foxglove.png](docs/demo_log_in_foxglove.png)
+
+## Working with ProtoBuf
+
+Protocol buffers are Google's language-neutral mechanism for serializing structured data.
+>ℹ️ More info about it and its
+syntax: [Protocol Buffers](https://protobuf.dev/)
+
+1. Make sure that you have the latest protobuf-compiler installed
+   [protoc installation](https://grpc.io/docs/protoc-installation/)
+2. You can compile the `.proto` file with the following command.
+
+Example:
+
+```bash
+protoc --python_out=. sensor_data.proto
+```
+
+3. Import the created protobuf python script (this can confuse your linter).
+4. Create a protobuf message and use the `.topic().write()` function to log the message.
+
+Example:
+
+```python
+from mcap_logger.demo.sensor_data_pb2 import SensorData
+
+sensor_message = SensorData(temperature=25, humidity=65)
+logger.topic("/sensor_data").write(sensor_message)
+```
