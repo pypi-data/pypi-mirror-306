@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "omniconfig"
+version = "0.1.9"
+description = "Python package for parsing configurations from YAML and TOML and command-line interface."
+authors = ["Yujun Lin"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+PyYAML = ">=6.0"
+toml = ">=0.10"
+docstring-parser = ">=0.15"
+
+[tool.poetry.group.dev.dependencies]
+ipython = ">= 8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+indent-width = 4
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["B", "C", "E", "F", "I", "W"]
+ignore = []
+
+[tool.ruff.lint.mccabe]
+max-complexity = 15
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401", "F403"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
