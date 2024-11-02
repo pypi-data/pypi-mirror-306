@@ -1,0 +1,2 @@
+class FollowMeeApiException(Exception):
+    pass

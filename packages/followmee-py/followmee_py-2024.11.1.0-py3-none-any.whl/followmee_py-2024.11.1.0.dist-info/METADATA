@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: followmee_py
+Version: 2024.11.1.0
+Summary: A Python wrapper for the FollowMee REST API
+Project-URL: Homepage, https://github.com/uwmadison-chm/followmee-py
+Project-URL: Issues, https://github.com/uwmadison-chm/followmee-py/issues
+Author-email: Nicholas Vanhaute <nvanhaute@wisc.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: certifi==2024.7.4
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: idna==3.7
+Requires-Dist: requests==2.32.3
+Requires-Dist: urllib3==2.2.2
+Description-Content-Type: text/markdown
+
+# followmee-py
+Python wrapper for FollowMee API
+
+# Installing FollowMee-Py and Supported Versions
+
+FollowMee-Py is available on PyPI:
+
+```console
+$ pip install followmee_py
+```
+
+FollowMee-Py officially supports Python 3.12+.
