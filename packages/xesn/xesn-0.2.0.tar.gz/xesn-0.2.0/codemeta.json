@@ -1,0 +1,17 @@
+{
+  "@context": "https://raw.githubusercontent.com/codemeta/codemeta/master/codemeta.jsonld",
+  "@type": "Code",
+  "author": [
+
+  ],
+  "identifier": "",
+  "codeRepository": "https://github.com/timothyas/xesn",
+  "datePublished": "2024-11-01",
+  "dateModified": "2024-11-01",
+  "dateCreated": "2023-12-15",
+  "description": "Echo State Networks powered by xarray and dask.",
+  "keywords": "echo state networks, machine learning, weather, climate, forecasting",
+  "license": "Apache-2.0",
+  "title": "xesn",
+  "version": "v0.2.0"
+}
