@@ -1,0 +1,9 @@
+pywasm/__init__.py,sha256=A6p_ggjDU1iOhxtyMkV9onOSdnkCUkcOxvSDssQ6f2I,99
+pywasm/core.py,sha256=ZGZ7at781cCNCwEQgYRS8spvYAmB7Zmm9dn6_K3f9Kg,117396
+pywasm/leb128.py,sha256=yNvSJhi3yG5JG04oiQhRamHpiwKHq7NXdqc9SerSMZE,2177
+pywasm/log.py,sha256=CvJzE1ir0cvS8yjMSo0HS1yEJCXl_1jWnHqigbdAW_o,190
+pywasm/opcode.py,sha256=7Suhfqus_O-M1VJIrsB01LMcOkrqkqhRnhNyaKU220A,9982
+pywasm-1.2.2.dist-info/METADATA,sha256=L5MywXbUBktYuKhPBJCmoo_EAoppfJ1bmDTjQmDoLQ4,3179
+pywasm-1.2.2.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+pywasm-1.2.2.dist-info/licenses/LICENSE,sha256=SQfZivC1jpcv-aicHtP-kFBcHw2ZOeLEBNB9MjAfhbk,1067
+pywasm-1.2.2.dist-info/RECORD,,
