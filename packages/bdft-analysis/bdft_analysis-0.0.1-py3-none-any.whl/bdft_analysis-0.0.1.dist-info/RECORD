@@ -1,0 +1,9 @@
+bdft_analysis/__init__.py,sha256=t9EIsoj8YTqnDQwHGTe9mn8eDu_JQ_uRG1tZwxlOQlI,224
+bdft_analysis/conductivity.py,sha256=72rneHJcetTCncMvP5EEGJ8oFyaG6BAhuKKsHUc8PzQ,6947
+bdft_analysis/immutiblenamespace.py,sha256=PDcvRjdFxFE3Y2qS01Gzh0Up92x-GQRUg7D2Vb9IStM,964
+bdft_analysis/plotting_utils.py,sha256=TysrjZHpOgzYLsTZHTvr_6cF7wrqoPkymrYQ27hBttw,1943
+bdft_analysis/tbm_dft.py,sha256=LZz6upIXQ1FU1-iimU0AEjAtv6cqpNhiE5YaBOvH4jw,36506
+bdft_analysis-0.0.1.dist-info/METADATA,sha256=75QovKhqWKKgiUxSAXZ-_GBo3GRNGs8t5ZY6GT9jXbI,877
+bdft_analysis-0.0.1.dist-info/WHEEL,sha256=OVMc5UfuAQiSplgO0_WdW7vXVGAt9Hdd6qtN4HotdyA,91
+bdft_analysis-0.0.1.dist-info/top_level.txt,sha256=d9AfR-V8NYTya9XdulDAydOeYdA5xwMkDnDu3KavAHs,14
+bdft_analysis-0.0.1.dist-info/RECORD,,
