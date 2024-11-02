@@ -1,0 +1,3 @@
+[console_scripts]
+gps = pkg_wizard.cli:main
+ppi = pkg_wizard.cli:print_pypi_instructions
