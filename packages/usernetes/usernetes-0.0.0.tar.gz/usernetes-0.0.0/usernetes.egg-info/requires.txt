@@ -1,0 +1,5 @@
+docker
+
+[all]
+docker
+pytest>=4.6.2
