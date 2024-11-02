@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[bdist_wheel]
+universal = 0
+
+[project]
+name = "plantree"
+version = "0.2444.5"
+description = "Init Project Tree"
+readme = "README.md"
+authors = [
+    {name = "Louis RIVIERE", email = "louis@riviere.xyz"},
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pybrary",
+]
+keywords = [
+    'util',
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.optional-dependencies]
+yaml = ["pyyaml"]
+toml = ["toml"]
+
+[project.urls]
+pypi = 'https://pypi.org/project/plantree'
+repository = 'https://helixteamhub.cloud/dull-pot-216/projects/projects/repositories/plantree/tree/alpha'
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+exclude = ["*test*"]
+
+[project.scripts]
+plantree = "plantree.main:main"

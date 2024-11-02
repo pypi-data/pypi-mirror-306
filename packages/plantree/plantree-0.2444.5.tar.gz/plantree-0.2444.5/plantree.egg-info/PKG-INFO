@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: plantree
+Version: 0.2444.5
+Summary: Init Project Tree
+Author-email: Louis RIVIERE <louis@riviere.xyz>
+Project-URL: pypi, https://pypi.org/project/plantree
+Project-URL: repository, https://helixteamhub.cloud/dull-pot-216/projects/projects/repositories/plantree/tree/alpha
+Keywords: util
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: pybrary
+Provides-Extra: yaml
+Requires-Dist: pyyaml; extra == "yaml"
+Provides-Extra: toml
+Requires-Dist: toml; extra == "toml"
+
+# Plantree
+
+Init Project Tree
+

@@ -1,0 +1,2 @@
+[console_scripts]
+plantree = plantree.main:main
