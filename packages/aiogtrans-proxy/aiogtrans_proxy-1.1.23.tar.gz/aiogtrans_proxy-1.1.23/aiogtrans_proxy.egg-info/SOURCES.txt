@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aiogtrans/__init__.py
+aiogtrans/cache.py
+aiogtrans/client.py
+aiogtrans/constants.py
+aiogtrans/models.py
+aiogtrans/urls.py
+aiogtrans_proxy.egg-info/PKG-INFO
+aiogtrans_proxy.egg-info/SOURCES.txt
+aiogtrans_proxy.egg-info/dependency_links.txt
+aiogtrans_proxy.egg-info/requires.txt
+aiogtrans_proxy.egg-info/top_level.txt
