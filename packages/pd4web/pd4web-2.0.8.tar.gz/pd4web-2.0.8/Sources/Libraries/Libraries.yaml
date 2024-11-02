@@ -1,0 +1,83 @@
+---
+#╭──────────────────────────────────────╮
+#│           Download Sources           │
+#╰──────────────────────────────────────╯
+Sources:
+  GITHUB: https://github.com/{}/{}
+  GITLAB: https://gitlab.com/{}/{}
+#╭──────────────────────────────────────╮
+#│              Libraries               │
+#╰──────────────────────────────────────╯
+Libraries:
+# ───────────────── pmpd ─────────────────
+  - Name: pmpd
+    Source: GITHUB
+    Developer: ch-nry
+    Repository: pd-pmpd
+    Version: v0.14.1
+    Unsupported: [pmpd3d~, pmpd2d~, pmpd~]
+
+# ─────────────── cyclone ─────────────
+  - Name: cyclone
+    Source: GITHUB
+    Developer: porres
+    Repository: pd-cyclone
+    Version: cyclone_0.9-1
+    Unsupported: [active, mousefilter, mousestate, scope~, coll, mtr, capture, hrandfile, prob, funbuff, seq, hrandgrowfile, hrandfile, capture~, table]
+
+# ─────────────── o.scofo~ ───────────────
+  - Name: ambi~
+    Source: GITHUB
+    Developer: charlesneimog
+    Repository: pd-ambi
+    Version: 62ce81e25c4fcc289cd1f627ef90cbf4d59f5c8b
+
+# ─────────────── o.scofo~ ───────────────
+  - Name: o.scofo~
+    Source: GITHUB
+    Developer: charlesneimog
+    Repository: OScofo
+    Version: cc9026c479c7659049fbdadcfc4cfed377ff81e9
+
+# ───────────── timbreIDLib ───────────
+  - Name: timbreIDLib
+    Source: GITHUB
+    Developer: wbrent
+    Repository: timbreIDLib
+    Version: ef2e24a
+
+# ───────────────── else ─────────────────
+  - Name: else
+    Source: GITHUB
+    Developer: porres
+    Repository: pd-else
+    Version: v.1.0-rc12
+    Unsupported:
+      # Need implementation
+      - sfz~
+      - sfont~
+
+      # Pd GUI Related
+      - oscope~
+      - midi
+      - numbox~
+      - keyboard
+      - pic
+      - bicoeff
+      - function
+      - canvas.active
+      - else
+      - colors
+      - rec
+      - mouse
+      - messbox
+      - pad
+      - note
+      - openfile
+      - keycode
+      # Need fixes
+      - bl.imp2~
+      - slew2~
+      - bl.imp~
+      # Incompatible with Web enviroment
+      - osc.format
