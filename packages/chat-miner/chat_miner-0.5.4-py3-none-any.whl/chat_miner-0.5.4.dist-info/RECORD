@@ -1,0 +1,10 @@
+chatminer/__init__.py,sha256=Ptwuulw5yH9VQ-DeqKMTGEeaLYNsRCDTTsJW-IC0lMY,515
+chatminer/chatparsers.py,sha256=HU_MhA44t-w1HK9ElZ1bmBSppZ0APIaQivujMD7p0cQ,13425
+chatminer/cli.py,sha256=n6nNc4LOC1OIWfnKVNL9sANOiO-WjpkR34ML7SaM-jg,2108
+chatminer/nlp.py,sha256=lNUv9eukX1XEI3-4hEKJd9F_rIHVvPROKVMlYR1KiB0,1352
+chatminer/visualizations.py,sha256=c-jgoVPc2dAaU0usjvHkbPpiL6JOfzfKG-_1Sd0oXc0,11869
+chat_miner-0.5.4.dist-info/METADATA,sha256=Xb5WInjb2xprgvT9MszXG37nPPPDYsc3PDf1PFq40UI,6741
+chat_miner-0.5.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+chat_miner-0.5.4.dist-info/entry_points.txt,sha256=436liPquAOwYnsLSJiZYTjSRweRzl4lKtFeupYcJGkw,49
+chat_miner-0.5.4.dist-info/licenses/LICENSE,sha256=TR5VsRRC4A8UqZlW7ynOpqsZNhTv5Ni05TxzoDhKQjE,1068
+chat_miner-0.5.4.dist-info/RECORD,,
