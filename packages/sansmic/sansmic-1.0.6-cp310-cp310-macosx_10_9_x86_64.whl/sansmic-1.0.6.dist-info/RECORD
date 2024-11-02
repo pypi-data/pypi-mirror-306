@@ -1,0 +1,14 @@
+sansmic-1.0.6.dist-info/AUTHORS.md,sha256=S5P1Ek46i3trIvBmOj_sGRZxXDaGJOluA85r6JSqfvo,71
+sansmic-1.0.6.dist-info/RECORD,,
+sansmic-1.0.6.dist-info/LICENSE,sha256=A_xmF-aF8sN3Ew0O9xAG_-vULdWJoR8w5-fiTWfAOXY,1668
+sansmic-1.0.6.dist-info/WHEEL,sha256=GiH5pdVU4nw_yL23jemzmSJOfgJgasReMUGTVBeMnco,110
+sansmic-1.0.6.dist-info/entry_points.txt,sha256=ZoXQK2iOID26Y1T7t_fYqtI-Pr-5GmFtYNv8LfdSkBg,82
+sansmic-1.0.6.dist-info/top_level.txt,sha256=WAdoQRZtojFvBFLvuS_0RjWSVhVEwkmbqEglLdBTorI,8
+sansmic-1.0.6.dist-info/METADATA,sha256=VwBz8D9tCutV6asiXzUE5xwAHG5iXYoS5tFJefsjf7U,6770
+sansmic/_version.py,sha256=IbI2wbDlpbxJb76KCOSfV8C8UH_dxy4WsM0h_13lZXc,2004
+sansmic/io.py,sha256=9u_6cNNhJBfoCeqCYNHlJW4sY1mt1CzDcS4te5UXMJc,31164
+sansmic/__init__.py,sha256=9etA-0asA9hWq8kH_vlcieJz8k5zR4I-QoBhIdQa3j4,380
+sansmic/model.py,sha256=NN5O_rxnYit17R2axAxmG7TD8VSZRPnSYgg5XACPlkk,64313
+sansmic/libsansmic.cpython-310-darwin.so,sha256=zUaTicXcqU1_dia0ILIHFPDsOPeP9hwZIVlK6ipEH0Q,888480
+sansmic/app.py,sha256=CkrJx0Z6HgEpqYJloKaeTrubOi2M1IZvgWEtiyVxmcs,14824
+sansmic/empirical.py,sha256=BTbwn6PB_FIt1IluPI0MrEjClwMLAbcQrkxTc46tP9E,5980
