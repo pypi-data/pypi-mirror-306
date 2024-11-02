@@ -1,0 +1,7 @@
+Vapoursynth>=61
+vsscale>=2.0.0
+vsrgtools>=1.6.1
+vskernels>=3.0.1
+vstools>=3.0.0
+vsmasktools>=1.2.0
+vsmuxtools>=0.2.0
