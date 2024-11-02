@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: intuiting-machine
+Version: 0.0.1
+Summary: A machine knowing or understanding something because of a 'feeling' rather than because of facts or what someone has told.
+Author-email: Alexander Fedotov <alex.fedotov@aol.com>
+Project-URL: Homepage, https://github.com/intuiting-machine/intuiting-machine
+Project-URL: Bug Tracker, https://github.com/intuiting-machine/intuiting-machine/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyGithub >=2.3.0
+Requires-Dist: PyYAML >=6.0.1
+
+# Intuiting Machine
+"Intuit" - know or understand something because of a 'feeling' that you have rather than because of facts or what someone has told you.
+<pre>
+  pip install intuiting-machine
+</pre>
+Then:
+```Python
+  # Python
+  import intuiting_machine
+```
