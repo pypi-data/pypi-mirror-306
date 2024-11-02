@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+evdetect/__init__.py
+evdetect/evdetector.py
+evdetect/gen_data.py
+evdetect.egg-info/PKG-INFO
+evdetect.egg-info/SOURCES.txt
+evdetect.egg-info/dependency_links.txt
+evdetect.egg-info/requires.txt
+evdetect.egg-info/top_level.txt
