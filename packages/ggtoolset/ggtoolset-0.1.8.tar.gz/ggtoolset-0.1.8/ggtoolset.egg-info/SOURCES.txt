@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ggtoolset/ConfigReader.py
+ggtoolset/InitializeML.py
+ggtoolset/Utils.py
+ggtoolset/__init__.py
+ggtoolset.egg-info/PKG-INFO
+ggtoolset.egg-info/SOURCES.txt
+ggtoolset.egg-info/dependency_links.txt
+ggtoolset.egg-info/requires.txt
+ggtoolset.egg-info/top_level.txt
+tests/test_configreader.py
