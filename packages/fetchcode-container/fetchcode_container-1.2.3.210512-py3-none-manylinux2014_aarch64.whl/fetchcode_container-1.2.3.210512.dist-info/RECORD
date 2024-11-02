@@ -1,0 +1,12 @@
+fetchcode_container/__init__.py,sha256=Ol2rjMA0WTIb4VWu-86jhaaHHK2hvaxa6Xjn87LgoNM,789
+fetchcode_container/bin/default-policy.json,sha256=zd-qjmp-VJe2fMDdjoUXBY0Ml96Rv0b_-GdShBXy2UY,256
+fetchcode_container/bin/skopeo,sha256=DvZRd6TLd_yQwYLBsKzBRk2UTCYskLLtNgt8705jlSM,21032392
+fetchcode_container/licenses/apache-2.0.LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+fetchcode_container-1.2.3.210512.dist-info/METADATA,sha256=gcWCuOnAZsroOxSF4tu4nENUTXkiXChdUl2YwJf_nAo,814
+fetchcode_container-1.2.3.210512.dist-info/README.rst,sha256=3cF2xZL9OkmtUQ9AavbaFnzoryfUxVC9acpg8BFwTkA,495
+fetchcode_container-1.2.3.210512.dist-info/WHEEL,sha256=uEDBtbrkGAvMsG1z7kIl7b5DYNNKZ110KP7bgdmmbH0,109
+fetchcode_container-1.2.3.210512.dist-info/apache-2.0.LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+fetchcode_container-1.2.3.210512.dist-info/entry_points.txt,sha256=1kOLkNE92f7Y7-XMzxaEjLUQU6SNpPTcu-xyQsit8Vs,83
+fetchcode_container-1.2.3.210512.dist-info/fetchcode_container.ABOUT,sha256=JITlGFVMZselkIsvioqhkjgLRGXkD0uPl2QBPiLCfj8,423
+fetchcode_container-1.2.3.210512.dist-info/top_level.txt,sha256=NKkZItkLHCJ7Mi1OXJFZI1OJWEg3pnqfOq_otV4ll0g,20
+fetchcode_container-1.2.3.210512.dist-info/RECORD,,
