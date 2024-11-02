@@ -1,0 +1,12 @@
+superduper_mongodb/__init__.py,sha256=ppDxn36Q_mLzcbx6b31p0f6srsCMKNYiVniHV0pTzkY,414
+superduper_mongodb/artifacts.py,sha256=uPcBPqdM9XDbEBDwp700ZSxE9HYyNuFWi4Ck04Yhkts,7755
+superduper_mongodb/data_backend.py,sha256=SJ3HMuIw_NgFY7b4xDR_3wRhj2NU6QmS19AbIaCeLyo,8554
+superduper_mongodb/metadata.py,sha256=xu3swcRBNRX07CMs8W977h4EPeDB5FrqtzA08DoKEOE,13989
+superduper_mongodb/query.py,sha256=RSiMYsQdGGNtaccnn-mxI0RbuhvFaVWrshUNzw1Ctno,26015
+superduper_mongodb/utils.py,sha256=9m-B8noQVwa1xkYftkPK3FDKb62qG-ASU1f-KwRsjYg,2703
+superduper_mongodb/vector_search.py,sha256=hYGJQH-3jaeh07haPqZcN9_7UTuF3Tr8ztH4NoFHKCU,6764
+superduper_mongodb-0.4.0.dist-info/LICENSE,sha256=fq2WxmjewRN4VfDClVl-6CiVFZedp4y5_iGqQiXHBN8,11353
+superduper_mongodb-0.4.0.dist-info/METADATA,sha256=xAGPAXS386P-XcKmRIdctcwjyfJQSK8Iq5axaRAroqE,16013
+superduper_mongodb-0.4.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+superduper_mongodb-0.4.0.dist-info/top_level.txt,sha256=3z7JkQI3NSDQhHhn9RnQ-NfWCJTxyn5gP0RtLA85Bik,19
+superduper_mongodb-0.4.0.dist-info/RECORD,,
