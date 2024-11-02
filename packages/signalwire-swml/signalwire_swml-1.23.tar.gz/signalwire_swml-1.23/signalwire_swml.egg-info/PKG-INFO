@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: signalwire-swml
+Version: 1.23
+Summary: A Python package for generating SignalWire Markup Language (SWML)
+Home-page: https://github.com/briankwest/signalwire-swml
+Author: Brian West
+Author-email: brian@signalwire.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml>=5.1
+
+# SignalWire ML
+
+A Python package for generating SignalWire ML configurations.
+
+## Installation 
