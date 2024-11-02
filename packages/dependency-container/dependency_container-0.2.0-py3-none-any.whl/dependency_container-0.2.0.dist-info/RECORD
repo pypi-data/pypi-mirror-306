@@ -1,0 +1,8 @@
+dependency_container/__init__.py,sha256=KVta2BAsJZqURofeY3Hq7n0XLvBpPhVQTT1XTz_2EpE,347
+dependency_container/container.py,sha256=JBTtIrO_cja7h4bc0eNERFJLRJSALygcv7C_LxWtWqA,5082
+dependency_container/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dependency_container/routing.py,sha256=W_YbDGYBGTyPbpGtBOZmDFnKzKXWGlWYm9nNfSgjlMs,3828
+dependency_container-0.2.0.dist-info/METADATA,sha256=c09cRgcc00e95gNLU9dnQPzcn5qZt1cArfntxQV8jNo,1690
+dependency_container-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+dependency_container-0.2.0.dist-info/licenses/LICENSE,sha256=zaikImR1SV8im8iQ7_9PAW-Gi1kUwDf8Rc56jGJ4sd8,1070
+dependency_container-0.2.0.dist-info/RECORD,,
