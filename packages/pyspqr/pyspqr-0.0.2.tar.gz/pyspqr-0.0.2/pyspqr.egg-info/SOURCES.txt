@@ -1,0 +1,13 @@
+COPYING
+README.rst
+_pyspqr.c
+pyproject.toml
+setup.py
+pyspqr/__init__.py
+pyspqr/pyspqr.py
+pyspqr/test.py
+pyspqr.egg-info/PKG-INFO
+pyspqr.egg-info/SOURCES.txt
+pyspqr.egg-info/dependency_links.txt
+pyspqr.egg-info/requires.txt
+pyspqr.egg-info/top_level.txt

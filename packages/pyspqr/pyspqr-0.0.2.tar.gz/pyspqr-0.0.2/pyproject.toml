@@ -1,0 +1,161 @@
+[project]
+name = "pyspqr"
+version = "0.0.2"
+description = "Python bindings for SuiteSparseQR."
+license = {text = "GPLv3"}
+readme = "README.rst"
+authors = [{name = "Enzo Busseti"}]
+maintainers = [{name = "Enzo Busseti", email = "enzo.busseti@gmail.com"}]
+dependencies = ["numpy", "scipy"]
+
+[project.optional-dependencies]
+dev = ["build", "twine", "auditwheel", "rstcheck", "wheel", "abi3audit"]
+
+[build-system]
+requires = ["setuptools", "numpy>=2.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Repository = "https://github.com/enzbus/pyspqr"
+
+
+
+[tool.cibuildwheel]
+skip = [
+  "pp*", # Disable building PyPy wheels on all platforms
+  "*-win32", 
+  # these are backward compatible, both by abi3 and Numpy2 compilation
+  # we don't compile on them because Numpy2 wheels are not available
+  "cp36*",
+  "cp37*",
+  "cp38*",
+  "*musllinux*aarch64*" # no Scipy wheels for this
+]
+test-command = [
+  "echo wheel installed successfully",
+  "python -m pyspqr.test"
+]
+# we use the newer image for aarch64, for this there are openblas dev libraries
+manylinux-aarch64-image = "manylinux_2_28"
+
+[tool.cibuildwheel.linux]
+archs = [
+  "x86_64",
+  "aarch64",
+]
+
+[tool.cibuildwheel.windows]
+# For some reason this MKL dll doesn't get installed
+repair-wheel-command = [
+  "pip install delvewheel",
+  "delvewheel repair -vv --include mkl_intel_thread.2.dll -w {dest_dir} {wheel}"
+]
+
+[[tool.cibuildwheel.overrides]]
+select = "*-manylinux_x86_64"
+inherit.before-all = "append"
+before-all = [
+  # "yum check-update",
+  # "yum search blas", # look at what's available
+  # netlib blas/lapack fallback compiles and tests (on aarch64) but is super slow
+  # "((yum install -y openblas-devel) || (yum install -y blas-devel lapack-devel))",
+  "yum install -y mpfr-devel openblas-devel"]
+
+[[tool.cibuildwheel.overrides]]
+select = "*-manylinux_aarch64"
+inherit.before-all = "append"
+before-all = [
+  # "dnf update",
+  "dnf search blas",
+  "dnf install -y openblas-devel mpfr-devel"]
+
+[[tool.cibuildwheel.overrides]]
+select = "*-musllinux*"
+inherit.before-all = "append"
+before-all = [
+  #"apk update",
+  "apk search -v '*blas*'", # look at what's available
+  "apk add openblas-dev mpfr-dev"]
+
+[[tool.cibuildwheel.overrides]]
+select = "*linux*"
+# These may be needed on different linuxes, without them one would fail to find
+# the .pc files, one other would fail to auditwheel; no newlines for {} syntax
+environment = { PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/lib64/pkgconfig", LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib64"}
+inherit.before-all = "append"
+# following dependency tree has been found manually; can also compile the whole
+# thing but some components take more time and aren't used by SPQR
+before-all = [
+"git clone -b stable --depth 1 https://github.com/DrTimothyAldenDavis/SuiteSparse.git",
+"cd SuiteSparse/SuiteSparse_config",
+"make",
+"make install",
+"cd ../AMD",
+"make",
+"make install",
+"cd ../COLAMD",
+"make",
+"make install",
+"cd ../CAMD",
+"make",
+"make install",
+"cd ../CCOLAMD",
+"make",
+"make install",
+"cd ../CHOLMOD",
+"make",
+"make install",
+"cd ../SPQR",
+"make",
+"make install",
+"cd ../..",
+"pkg-config --libs --cflags SPQR",
+"pkg-config --libs --cflags CHOLMOD",
+]
+
+# sadly duplicated because we need sudo on mac
+[[tool.cibuildwheel.overrides]]
+select = "*macosx*"
+inherit.before-all = "append"
+# following dependency tree has been found manually; can also compile the whole
+# thing but some components take more time and aren't used by SPQR
+before-all = [
+"echo $OpenMP_ROOT",
+"git clone -b stable --depth 1 https://github.com/DrTimothyAldenDavis/SuiteSparse.git",
+"cd SuiteSparse/SuiteSparse_config",
+"make",
+"sudo make install",
+"cd ../AMD",
+"make",
+"sudo make install",
+"cd ../COLAMD",
+"make",
+"sudo make install",
+"cd ../CAMD",
+"make",
+"sudo make install",
+"cd ../CCOLAMD",
+"make",
+"sudo make install",
+"cd ../CHOLMOD",
+"make",
+"sudo make install",
+"cd ../SPQR",
+"make",
+"sudo make install",
+"cd ../..",
+"pkg-config --libs --cflags SPQR",
+"pkg-config --libs --cflags CHOLMOD",
+]
+
+[[tool.cibuildwheel.overrides]]
+select = "*-win_*"
+inherit.before-all = "append"
+before-all = ["conda info --all"]
+
+[[tool.cibuildwheel.overrides]]
+select = "*"
+inherit.repair-wheel-command = "append"
+repair-wheel-command = [
+  "pipx run abi3audit --strict --report {wheel}",
+]
