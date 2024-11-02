@@ -1,0 +1,9 @@
+
+/build
+Gamepadla.spec
+.Gamepadla.spec
+data.txt
+data.json
+/dist
+/venv
+__pycache__
