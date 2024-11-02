@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bdft_analysis
+Version: 0.2.1
+Author-email: Maxwell Gisborne <maxwell.gisborne@plymouth.ac.uk>
+Requires-Python: >=3.11
+Requires-Dist: scipy >=1.14
+Requires-Dist: numpy >=2.1
+Requires-Dist: PyYAML >=6.0
+Requires-Dist: six >=1.16
+Provides-Extra: all
+Requires-Dist: bdft-analysis[dev,plots,pybigdft] ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: ipykernel >=6.29 ; extra == 'dev'
+Requires-Dist: ipython >=8.27 ; extra == 'dev'
+Requires-Dist: jupyter-client >=8.6 ; extra == 'dev'
+Requires-Dist: jupyter-core >=5.7 ; extra == 'dev'
+Provides-Extra: plots
+Requires-Dist: fonttools >=4.54 ; extra == 'plots'
+Requires-Dist: matplotlib >=3.9 ; extra == 'plots'
+Requires-Dist: matplotlib-inline >=0.1 ; extra == 'plots'
+Provides-Extra: pybigdft
+Requires-Dist: PyBigDFT >=1.0.9 ; extra == 'pybigdft'
+Requires-Dist: pyFutile >=1.9.3 ; extra == 'pybigdft'
+
