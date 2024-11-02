@@ -1,0 +1,5 @@
+matplotlib>=2.2
+pillow
+
+[:os_name == "posix"]
+pycairo>=1.16.0
