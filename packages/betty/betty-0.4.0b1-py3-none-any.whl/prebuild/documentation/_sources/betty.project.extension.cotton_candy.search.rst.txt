@@ -1,0 +1,7 @@
+betty.project.extension.cotton\_candy.search module
+===================================================
+
+.. automodule:: betty.project.extension.cotton_candy.search
+   :members:
+   :undoc-members:
+   :show-inheritance:
