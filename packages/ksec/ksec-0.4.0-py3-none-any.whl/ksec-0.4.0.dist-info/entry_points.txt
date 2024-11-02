@@ -1,0 +1,2 @@
+[console_scripts]
+ksec = ksec.main:app
