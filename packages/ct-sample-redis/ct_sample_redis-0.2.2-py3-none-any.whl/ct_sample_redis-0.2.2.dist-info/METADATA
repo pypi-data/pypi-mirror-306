@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ct-sample-redis
+Version: 0.2.2
+Summary: Common custom library for Redis
+Home-page: UNKNOWN
+Author: credenti
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: redis (==5.0.3)
+Requires-Dist: Flask (>=2.0.2)
+
+UNKNOWN
+
