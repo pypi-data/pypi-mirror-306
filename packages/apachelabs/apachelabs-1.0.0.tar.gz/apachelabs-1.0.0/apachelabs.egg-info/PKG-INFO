@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: apachelabs
+Version: 1.0.0
+Summary: Apache Labs API is a Python package that uses Mistral and Hugging Face to create a simple and unified API system to use all of the Apache Labs models.
+Home-page: 
+Author: Apache Labs
+Author-email: Apache Labs <apachemllabs@gmail.com>
+Project-URL: Homepage, https://github.com/Apache-Labs
+Project-URL: Bug Tracker, https://github.com/Apache-Labs
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: mistralai
+
+# Apache Labs API
+
+## Overview
+
+**Apache Labs API** is a Python package that uses Mistral and Hugging Face to create a simple and unified API system to use all of the Apache Labs models
+
+## Models
+
+**Text to Text**
+- ApacheLM-v3 (apachelm-v3)
+- ApacheLM-v3.5 (apachelm-v3.5)
+- ApacheLM-v4 (apachelm-v4)
+
+**Text to Image**
+- ApacheXL-Mini (Coming Soon)
+- ApacheXL-Dream (Coming Soon)
+- Apache-Odyssey (Coming Soon)
+
+**Image to Video**
+-ApacheXT-1.1 (Coming Soon)
+
+
+### Features
+
+- Simple and intuitive interface for making API calls.
+- Model mapping for easy selection of different Apache models.
+- Built-in error handling for model selection.
+
+### Installation
+
+To install the **Apache Labs API Package**, you can use pip:
+
+```bash
+pip install my-apache-lib
