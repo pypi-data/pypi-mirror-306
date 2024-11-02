@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: fastlmm
+Version: 0.6.12a1
+Summary: Fast GWAS
+Home-page: https://fastlmm.github.io/
+Author: FaST-LMM Team
+Author-email: FaST-LMM Team <fastlmm-dev@python.org>
+License: Apache 2.0
+Project-URL: homepage, https://fastlmm.github.io/
+Project-URL: bug-tracker, https://github.com/fastlmm/FaST-LMM/issues
+Project-URL: documentation, http://fastlmm.github.io/FaST-LMM
+Project-URL: source-code, https://github.com/fastlmm/FaST-LMM
+Keywords: gwas,bioinformatics,LMMs,MLMs,linear,mixed models,genomics,genetics,python
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+License-File: AUTHORS.txt
+Requires-Dist: pandas>=1.3.1
+Requires-Dist: matplotlib>=3.8.0
+Requires-Dist: scikit-learn>=1.4.2
+Requires-Dist: cloudpickle>=3.1.0
+Requires-Dist: statsmodels>=0.14.2
+Requires-Dist: psutil>=6.1.0
+Requires-Dist: pysnptools>=0.5.14a1
+Requires-Dist: fastlmmclib>=0.0.7a1
+Provides-Extra: bgen
+Requires-Dist: cbgen>=1.0.6; extra == "bgen"
+Requires-Dist: bgen-reader>=4.0.9; extra == "bgen"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-doctestplus; extra == "dev"
+Requires-Dist: pytest-datadir; extra == "dev"
+Requires-Dist: limix-sphinx-theme>=0.0.4; extra == "dev"
+Requires-Dist: pytest-sphinx>=0.2.2; extra == "dev"
+Requires-Dist: sphinx>=6.2.1; extra == "dev"
+Requires-Dist: sphinx_rtd_theme>=0.4.3; extra == "dev"
+Requires-Dist: ruff>=0.1.0; extra == "dev"
+
+FaST-LMM
+=================================
+
+FaST-LMM, which stands for Factored Spectrally Transformed Linear Mixed Models, is a program for performing 
+genome-wide association studies (GWAS) on datasets of all sizes, up to one millions samples.
+
+This release contains the following features, each illustrated with an IPython notebook.
+
+* Core FaST-LMM ([notebook](https://github.com/fastlmm/FaST-LMM/blob/master/doc/ipynb/FaST-LMM.ipynb)) -- [Lippert *et al.*, *Nature Methods* 2011](http://www.nature.com/nmeth/journal/v8/n10/abs/nmeth.1681.html)
+
+Improvements:
+
+* New features for single_snp (including effect size and multiple phenotype support) and epistasis (including reporting beta and using pre-computed eigenvalue decompositions) ([notebook](https://github.com/fastlmm/FaST-LMM/blob/master/doc/ipynb/fastlmm2021.ipynb))  -- [Lippert *et al.*, *Nature Methods* 2011](http://www.nature.com/nmeth/journal/v8/n10/abs/nmeth.1681.html)
+* Ludicrous-Speed GWAS ([notebook](https://github.com/fastlmm/FaST-LMM/blob/master/doc/ipynb/SingleSnpScale.ipynb)) -- [Kadie and Heckerman, *bioRxiv* 2018](https://www.biorxiv.org/content/10.1101/154682v2)
+* Heritability with Spatial Correction ([notebook](https://github.com/fastlmm/FaST-LMM/blob/master/doc/ipynb/heritability_si.ipynb)), [Heckerman *et al.*, *PNAS* 2016](http://www.pnas.org/content/113/27/7377.abstract)
+* Two Kernels ([notebook](https://github.com/fastlmm/FaST-LMM/blob/master/doc/ipynb/FaST-LMM.ipynb)) -- [Widmer *et al.*, *Scientific Reports* 2014](http://www.nature.com/srep/2014/141112/srep06874/full/srep06874.html)
+* Set Analysis ([notebook](https://github.com/fastlmm/FaST-LMM/blob/master/doc/ipynb/FaST-LMM.ipynb)) -- [Lippert *et al.*, *Bioinformatics* 2014](http://bioinformatics.oxfordjournals.org/content/early/2014/09/07/bioinformatics.btu504)
+* Epistasis ([notebook](https://github.com/fastlmm/FaST-LMM/blob/master/doc/ipynb/FaST-LMM.ipynb)) -- [Lippert *et al.*, *Scientific Reports,* 2013](http://www.nature.com/srep/2013/130122/srep01099/full/srep01099.html)
+* Prediction ([notebook](https://github.com/fastlmm/FaST-LMM/blob/master/doc/ipynb/FaST-LMM.ipynb)) -- [Lippert *et al.*, *Nature Methods* 2011](http://www.nature.com/nmeth/journal/v8/n10/abs/nmeth.1681.html)
+
+*A C++ version, which is generally less functional, is available. See http://fastlmm.github.io/.*
+
+Quick install:
+=================================
+
+`pip install fastlmm`
+
+*If you need support for BGEN files, instead do:*
+
+    pip install fastlmm[bgen]
+
+For best performance, be sure your Python distribution includes a fast version of NumPy. We use Anaconda's [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+
+Documentation
+=================================
+
+* IPython Notebooks:
+	* [Core, Epistasis, Set Analysis, Two Kernels](https://github.com/fastlmm/FaST-LMM/blob/master/doc/ipynb/FaST-LMM.ipynb)
+    * [Multiple-Phenotype GWAS and related features](https://github.com/fastlmm/FaST-LMM/blob/master/doc/ipynb/fastlmm2021.ipynb)
+	* [Heritability with Spatial Correction](https://github.com/fastlmm/FaST-LMM/blob/master/doc/ipynb/heritability_si.ipynb)
+	* [Ludicrous-Speed GWAS](https://github.com/fastlmm/FaST-LMM/blob/master/doc/ipynb/SingleSnpScale.ipynb)
+* [Main Documentation](http://fastlmm.github.io/FaST-LMM/)
+* [Project Home and Full Annotated Bibliography](https://fastlmm.github.io/)
+
+
+Code
+=================================
+* [PyPi](https://pypi.org/project/fastlmm/)
+* [GitHub](https://github.com/fastlmm/FaST-LMM)
+
+Contacts
+=================================
+
+* Email the developers at fastlmm-dev@python.org.
+* [Join](mailto:fastlmm-user-join@python.org?subject=Subscribe) the user discussion and announcement list (or use [web sign up](https://mail.python.org/mailman3/lists/fastlmm-user.python.org)).
+* [Open an issue](https://github.com/fastlmm/FaST-LMM/issues) on GitHub.
