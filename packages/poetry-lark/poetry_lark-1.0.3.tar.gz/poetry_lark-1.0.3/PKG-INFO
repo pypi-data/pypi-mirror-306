@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: poetry-lark
+Version: 1.0.3
+Summary: Plugin which integrates Lark into the Poetry build system.
+Home-page: https://github.com/mhalairt/poetry-lark
+License: BSD-2-Clause
+Author: Mikhalev Oleg
+Author-email: mhalairt@gmail.com
+Requires-Python: >=3.8.1,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Provides-Extra: interegular
+Provides-Extra: regex
+Requires-Dist: interegular (>=0.3.1,<0.4.0) ; extra == "interegular"
+Requires-Dist: lark (>=1.2.2,<2.0.0)
+Requires-Dist: poetry (>=1.8.3,<2.0.0)
+Requires-Dist: regex ; extra == "regex"
+Project-URL: Repository, https://github.com/mhalairt/poetry-lark
+Description-Content-Type: text/markdown
+
+# poetry-lark
+
+[Lark](https://github.com/lark-parser/lark) is a parsing toolkit for Python, built with a focus on ergonomics, performance and modularity. This plugin integrates Lark into the Poetry build system and provides several commands for configuring standalone parsers using `pyproject.toml` and Poetry.
+
+## Install
+
+    $ poetry self add poetry-lark
+
+The plugin depends only on Lark and Poetry, but you can use Lark's extra features: `interegular` (if it is installed, Lark uses it to check for collisions, and warn about any conflicts that it can find) and `regex` (if you want to use the `regex` module instead of the `re` module).
+
+## Usage
+
+    $ poetry lark-add <module> <grammar-file>
+    $ poetry lark-remove <module>
+    $ poetry lark-build <module>
+
+By default, the plugin is integrated into the Poetry build system and generates all parser modules specified in the `pyproject.toml` (if `auto-build` option is not configured as `false` for parser module).
+
