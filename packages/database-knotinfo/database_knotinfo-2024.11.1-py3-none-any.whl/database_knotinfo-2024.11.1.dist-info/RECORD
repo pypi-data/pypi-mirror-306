@@ -1,0 +1,9 @@
+database_knotinfo/__init__.py,sha256=xwYhnuAuiSkoRSVduWPUMszekpL6bwjdny6erI1Nwac,2951
+database_knotinfo/__version__.py,sha256=fTSPXFFFYelhPLqsX76Z8lv_5ktzytUp6B1mR2R8U3M,20
+database_knotinfo/csv_data/knotinfo_data_complete.csv,sha256=80JUGCH0ok2xK8Z3-O9dKW6-SRhwzUXWa2rHrl1vdJg,83802249
+database_knotinfo/csv_data/linkinfo_data_complete.csv,sha256=BCk-TsCjoPL7ZQeXjE_j73cw47wsa0lmpRBsVEdYALQ,15682183
+database_knotinfo-2024.11.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+database_knotinfo-2024.11.1.dist-info/METADATA,sha256=LlLxmsf-t71P63U0cvOGrCpnjIaKgb_rFI0dF3L6fWE,4653
+database_knotinfo-2024.11.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+database_knotinfo-2024.11.1.dist-info/top_level.txt,sha256=cYtdCekxs5N5zIBSggTbOmXEoJER-GokI_-j1vIzy4U,18
+database_knotinfo-2024.11.1.dist-info/RECORD,,
