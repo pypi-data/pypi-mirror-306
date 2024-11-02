@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: offlineyoutube
+Version: 2.1
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: yt-dlp
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: faiss-cpu
+Requires-Dist: faster-whisper
+Requires-Dist: sentence-transformers
+Requires-Dist: gradio==3.36.1
+Requires-Dist: argparse
+Requires-Dist: beautifulsoup4
+Requires-Dist: pysrt
+Requires-Dist: webvtt-py
