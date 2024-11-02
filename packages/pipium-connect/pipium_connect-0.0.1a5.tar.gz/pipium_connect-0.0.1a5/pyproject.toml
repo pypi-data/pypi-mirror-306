@@ -1,0 +1,9 @@
+[project]
+name = "pipium_connect"
+version = "0.0.1a5" # Also update in setup.py
+authors = [
+  { name="Albin Berglund", email="e.a.e.berglund@gmail.com" },
+]
+description = "Connect to Pipium"
+readme = "README.md"
+requires-python = ">=3.7"
