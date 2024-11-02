@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/intuiting_machine/__init__.py
+src/intuiting_machine/githf.py
+src/intuiting_machine.egg-info/PKG-INFO
+src/intuiting_machine.egg-info/SOURCES.txt
+src/intuiting_machine.egg-info/dependency_links.txt
+src/intuiting_machine.egg-info/requires.txt
+src/intuiting_machine.egg-info/top_level.txt
