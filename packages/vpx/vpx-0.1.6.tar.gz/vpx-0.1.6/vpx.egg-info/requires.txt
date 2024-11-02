@@ -1,0 +1,4 @@
+anthropic==0.38.0
+openai==1.53.0
+typer==0.12.5
+python-dotenv==1.0.1
