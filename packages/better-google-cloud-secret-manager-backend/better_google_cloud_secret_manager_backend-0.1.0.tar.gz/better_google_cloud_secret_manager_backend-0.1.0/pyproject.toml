@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "better_google_cloud_secret_manager_backend"
+version = "0.1.0"
+description = "A brief description of your project"
+authors = [
+    { name = "Lucas Arruda" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = [
+    "apache-airflow[gcp]",
+]
+
+[tool.setuptools]
+packages = ["better-google-cloud-secret-manager-backend"]

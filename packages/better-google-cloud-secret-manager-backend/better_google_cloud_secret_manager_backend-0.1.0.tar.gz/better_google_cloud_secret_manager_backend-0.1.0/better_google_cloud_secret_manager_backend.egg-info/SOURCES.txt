@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+better-google-cloud-secret-manager-backend/__init__.py
+better_google_cloud_secret_manager_backend.egg-info/PKG-INFO
+better_google_cloud_secret_manager_backend.egg-info/SOURCES.txt
+better_google_cloud_secret_manager_backend.egg-info/dependency_links.txt
+better_google_cloud_secret_manager_backend.egg-info/requires.txt
+better_google_cloud_secret_manager_backend.egg-info/top_level.txt
