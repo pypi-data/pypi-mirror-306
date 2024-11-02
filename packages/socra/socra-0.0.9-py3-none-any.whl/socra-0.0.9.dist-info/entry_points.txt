@@ -1,0 +1,3 @@
+[console_scripts]
+socra=socra.cli:cli
+
