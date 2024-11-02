@@ -1,0 +1,7 @@
+numpy
+kademlia
+networkx
+anthropic
+sentence_transformers
+hnswlib
+scipy
