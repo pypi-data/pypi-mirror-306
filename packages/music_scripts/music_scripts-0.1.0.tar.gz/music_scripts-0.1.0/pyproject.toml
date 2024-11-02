@@ -1,0 +1,62 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "music_scripts"
+version = "0.1.0"
+description = "MUSIC toolshed"
+readme = "README.md"
+authors = [{name = "Adrien Morison", email = "adrien.morison@gmail.com"}]
+license = {file = "LICENSE"}
+urls = {homepage = "https://github.com/amorison/music_scripts/"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.1",
+    "scipy>=1.14",
+    "f90nml>=1.4.4",
+    "h5py>=3.12",
+    "matplotlib>=3.9",
+    "pyevtk>=1.6",
+    "tomso>=0.2.1",
+    "music_mesa_tables~=0.2.2",
+    "music_pykg~=7.1",
+    "pymusic-astro~=3.0",
+    "loam>=0.8.0,<0.9.0",
+]
+
+[project.scripts]
+mutools = "music_scripts.__main__:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.13",
+    "ruff>=0.7.2",
+]
+
+[tool.hatch.build.targets.sdist]
+include = ["music_scripts"]
+
+[tool.mypy]
+disallow_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = [
+    "f90nml.*",
+    "h5py.*",
+    "mpl_toolkits.*",
+    "pyevtk.*",
+    "scipy.*",
+    "tomso.*",
+]
+ignore_missing_imports = true
