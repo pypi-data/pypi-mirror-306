@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+shellai.py
+shellai_tmux.egg-info/PKG-INFO
+shellai_tmux.egg-info/SOURCES.txt
+shellai_tmux.egg-info/dependency_links.txt
+shellai_tmux.egg-info/entry_points.txt
+shellai_tmux.egg-info/requires.txt
+shellai_tmux.egg-info/top_level.txt
