@@ -1,0 +1,77 @@
+# Copyright (c) Travis Law.
+# All rights reserved.
+#
+# This source code is licensed under the BSD-style license found in the
+# LICENSE file in the root directory of this source tree.
+
+# Copyright (c) Facebook, Inc. and its affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the BSD-style license found in the
+# LICENSE.python-nubia file in the root directory of this source tree.
+
+# NOTE: you have to use single-quoted strings in TOML for regular expressions.
+# It's the equivalent of r-strings in Python.  Multiline strings are treated as
+# verbose regular expressions by Black.  Use [ ] to denote a significant space
+# character.
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.poetry]
+name = "pynubia"
+version = "0.3.0"
+description = "A framework for building beautiful shells."
+repository = "https://gitlab.com/tmlaw/python-nubia"
+authors = [
+  "Travis Law <tmlaw0182@gmail.com>",
+]
+license = "BSD-3-Clause"
+readme = ["README.md"]
+packages = [
+  { include = "nubia" }
+]
+include = ["LICENSE", "LICENSE.python-nubia"]
+classifiers=[
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "Environment :: Console",
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords=["cli", "shell", "interactive", "framework"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jellyfish = "^1.1.0"
+prettytable = "^3.12.0"
+prompt-toolkit = "^3.0.23"
+Pygments = "^2.10.0"
+pyparsing = "^3.2.0"
+termcolor = "^2.5.0"
+typing-inspect = "^0.9.0"
+wcwidth = "^0.2.5"
+
+[tool.poetry.group.dev.dependencies]
+pynose = "^1.5.3"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
