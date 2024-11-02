@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nnn-retrieval"
+version = "1.0.1"
+description = "Simple and efficient training-free methods for correcting errors in contrastive image-text retrieval!"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT License"}
+authors = [
+    {name = "Neil Chowdhury"},
+    {name = "Sumedh Shenoy"},
+    {name = "Franklin Wang"},
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch",
+    "tqdm",
+    "numpy",
+]
+
+[project.optional-dependencies]
+faiss_cpu = ["faiss-cpu"]
+faiss_gpu = ["faiss-gpu"]
+dev = ["pytest", "pre-commit"]
+
+[project.urls]
+Homepage = "https://multimodal-interpretability.csail.mit.edu/nnn/"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nnn*"]
+exclude = ["tests*"]

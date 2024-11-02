@@ -1,0 +1,13 @@
+torch
+tqdm
+numpy
+
+[dev]
+pytest
+pre-commit
+
+[faiss_cpu]
+faiss-cpu
+
+[faiss_gpu]
+faiss-gpu
