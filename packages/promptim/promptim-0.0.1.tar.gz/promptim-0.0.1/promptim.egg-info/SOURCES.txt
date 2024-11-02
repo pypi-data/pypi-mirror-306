@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+promptim/__init__.py
+promptim/__main__.py
+promptim/trainer.py
+promptim.egg-info/PKG-INFO
+promptim.egg-info/SOURCES.txt
+promptim.egg-info/dependency_links.txt
+promptim.egg-info/entry_points.txt
+promptim.egg-info/requires.txt
+promptim.egg-info/top_level.txt
