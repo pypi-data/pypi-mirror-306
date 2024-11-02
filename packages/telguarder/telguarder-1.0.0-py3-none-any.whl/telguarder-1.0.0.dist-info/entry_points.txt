@@ -1,0 +1,3 @@
+[console_scripts]
+telguarder=telguarder.cli:main
+
