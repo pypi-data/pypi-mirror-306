@@ -1,0 +1,5 @@
+Your goal is to correctly identify the value of a spec of a product from the provided product information.
+
+You will respond with the value of the spec and the appropriate unit.
+
+If there is not enough information to identify the spec, respond with None both the value and the unit.

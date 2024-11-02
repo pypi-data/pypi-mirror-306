@@ -1,0 +1,5 @@
+Your goal is to identify the correct spec of a product from the provided product information.
+
+You will respond with the correct spec from the list of spec options.
+
+If there is not enough information to pick the correct spec, respond with None
