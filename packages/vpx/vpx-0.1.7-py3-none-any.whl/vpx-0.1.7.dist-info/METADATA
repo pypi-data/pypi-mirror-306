@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: vpx
+Version: 0.1.7
+Summary: VPM with integrated agents
+Author-email: Instachip <tea@getinstachip.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: anthropic==0.38.0
+Requires-Dist: openai==1.53.0
+Requires-Dist: typer==0.12.5
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: cairosvg==2.7.1
+Requires-Dist: networkx==3.4.2
+
+# vpm-v2
+VPM with integrated agents, made in Python
