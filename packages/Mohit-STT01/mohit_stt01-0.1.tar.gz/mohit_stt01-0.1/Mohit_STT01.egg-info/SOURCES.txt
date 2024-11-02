@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+Mohit_STT01/__init__.py
+Mohit_STT01/index.html
+Mohit_STT01/input.txt
+Mohit_STT01/script.js
+Mohit_STT01/style.css
+Mohit_STT01.egg-info/PKG-INFO
+Mohit_STT01.egg-info/SOURCES.txt
+Mohit_STT01.egg-info/dependency_links.txt
+Mohit_STT01.egg-info/requires.txt
+Mohit_STT01.egg-info/top_level.txt

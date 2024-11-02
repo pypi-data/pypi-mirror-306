@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Mohit_STT01
+Version: 0.1
+Summary: This is a speech-to-text package created by Mohit Kumar
+Author: Mohit Kumar
+Author-email: megamohit2006@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: selenium
+Requires-Dist: webdriver_manager
