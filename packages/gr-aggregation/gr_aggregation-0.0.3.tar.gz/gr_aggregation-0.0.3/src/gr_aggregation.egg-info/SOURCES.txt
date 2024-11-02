@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/gr_aggregation/__init__.py
+src/gr_aggregation/aggregation.py
+src/gr_aggregation/borda_count.py
+src/gr_aggregation/completeness.py
+src/gr_aggregation/ranking.py
+src/gr_aggregation/user_items.py
+src/gr_aggregation.egg-info/PKG-INFO
+src/gr_aggregation.egg-info/SOURCES.txt
+src/gr_aggregation.egg-info/dependency_links.txt
+src/gr_aggregation.egg-info/top_level.txt
+tests/test_borda.py
+tests/test_completeness.py
