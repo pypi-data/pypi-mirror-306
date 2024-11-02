@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: screamer
+Version: 0.1.46
+Summary: Screamingly fast financial technical indicators with C++ performance and Python simplicity, built for both time series analysis and real-time, event-driven streaming.
+Keywords: streaming,indicators,real-time,algorithmic,trading,low-latency
+Author-Email: Thijs van den Berg <thijs@sitmo.com>, Mohammadjavad Vakili <mohammadjavad.vakili@gmail.com>
+Maintainer-Email: Thijs van den Berg <thijs@sitmo.com>, Mohammadjavad Vakili <mohammadjavad.vakili@gmail.com>
+License: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: C++
+Classifier: Operating System :: OS Independent
+Project-URL: Homepage, https://github.com/quantfinlib/screamer
+Project-URL: Documentation, https://screamer.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/quantfinlib/screamer.git
+Project-URL: Issues, https://github.com/quantfinlib/screamer/issues
+Project-URL: Changelog, https://github.com/quantfinlib/screamer/blob/master/CHANGELOG.md
+Requires-Python: >=3.9
+Requires-Dist: pybind11>=2.9
+Description-Content-Type: text/markdown
+
+# Screamer
+
+
+```bash
+pip install screamer
+```
+
+
+Screamer is a high-performance Python library for time series analysis, designed for speed, 
+accuracy, and versatility in handling both NumPy arrays and streaming data. 
+
+
+[![License](https://img.shields.io/pypi/l/screamer?color=#28A745)](https://github.com/quantfinlib/screamer/blob/main/LICENSE)
+![Python Versions](https://img.shields.io/pypi/pyversions/screamer)
+[![tests](https://github.com/quantfinlib/screamer/actions/workflows/test.yml/badge.svg)](https://github.com/quantfinlib/screamer/actions/workflows/test.yml)
+[![Docs](https://readthedocs.org/projects/screamer/badge/?version=latest)](https://screamer.readthedocs.io/en/latest/?badge=latest) 
+[![PyPI](https://img.shields.io/pypi/v/screamer)](https://pypi.org/project/screamer/)
+
+
+Engineered in C++ and leveraging state-of-the-art numerical algorithms, Screamer delivers 
+exceptional computational efficiency, consistently outperforming traditional libraries 
+like NumPy and Pandas—often by factors of two or more, and in some cases by orders of magnitude. 
+
+Screamer's polymorphic design allows all functions to operate seamlessly on both static arrays
+and streaming data, enabling smooth integration and consistent syntax without code modification. 
+Built for secure, real-time analysis, Screamer's stream-processing approach ensures every 
+function is free from look-ahead bias, guaranteeing accurate results you can trust.
+
+For detailed documentation, visit [Screamer Documentation on ReadTheDocs](https://screamer.readthedocs.io/en/latest/).
