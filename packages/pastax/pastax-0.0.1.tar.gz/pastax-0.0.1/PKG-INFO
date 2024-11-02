@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pastax
+Version: 0.0.1
+Summary: **P**arameterizable **A**uto-differentiable **S**imulators of ocean **T**rajectories in j**AX**.
+Author-email: Vadim Bertrand <vadim.bertrand@univ-grenoble-alpes.fr>, Emmanuel Cosme <emmanuel.cosme@univ-grenoble-alpes.fr>, Adeline Leclercq Samson <adeline.leclercq-samson@univ-grenoble-alpes.fr>, Julien Le Sommer <julien.lesommer@univ-grenoble-alpes.fr>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/vadmbertr/pastax
+Project-URL: Bug Tracker, https://github.com/vadmbertr/pastax/issues
+Keywords: differentiable,drift,jax,lagrangian,ocean,parameterizable,sampler,sea,simulator,stochastic,trajectory
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cartopy
+Requires-Dist: cmocean
+Requires-Dist: diffrax
+Requires-Dist: equinox
+Requires-Dist: interpax
+Requires-Dist: jax
+Requires-Dist: jaxtyping
+Requires-Dist: lineax
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: xarray
+
+# pastax
+
+**P**arameterizable **A**uto-differentiable **S**imulators of ocean **T**rajectories in j**AX**.
+
+## Installation
+
+`pastax` is Pip-installable:
+
+```shell
+pip install pastax
+```
+
+## Usage
+
+Documentation is under construction.
+Meanwhile, see the [minimal demonstration notebook](docs/demo.ipynb) and the [full API documentation](https://pastax.readthedocs.io/en/latest/api/).
+
+## Contributing
+
+Contributions are welcomed!
+See [CONTRIBUTING.md](https://github.com/vadmbertr/pastax/blob/main/CONDUCT.md) and [CONDUCT.md](https://github.com/vadmbertr/pastax/blob/main/CONDUCT.md) to get started.
