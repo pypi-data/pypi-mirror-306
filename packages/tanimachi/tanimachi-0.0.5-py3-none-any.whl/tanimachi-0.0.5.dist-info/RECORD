@@ -1,0 +1,12 @@
+tanimachi/__init__.py,sha256=KAdMxLKB7dW4lz9LTjzk6A1Xvm_ftnqda2l0RMBWvxo,372
+tanimachi/utils.py,sha256=Uyt1cjBk5siO3pyhX_KS_yr1Xe7Ito9rYEeryKPPInw,1136
+tanimachi/wappalyzer.py,sha256=KHZEC4TcKRkFqalEFiag5918LPCZiYgInVJRiytw3Hw,14790
+tanimachi/schemas/__init__.py,sha256=quQqVHHccHiSC6B7zZ8AOzv9Q3sJPBO82MAU6GlYCfw,196
+tanimachi/schemas/api_model.py,sha256=hXU47LHsfAzNLbRI_AlAcd3pi1eBFIfjGAwXHX9CvPc,175
+tanimachi/schemas/har.py,sha256=pBomFANuQIJ_CJcJ79jVIk0Dr4VWh_o70X0ijzb8OA4,3502
+tanimachi/schemas/mixins.py,sha256=PaL4fUDLSPSl0T3j2JF_ZzVExdgmkvWa-zE9iV1bN7o,821
+tanimachi/schemas/wappalyzer.py,sha256=LUBSaWmB5wCc2o292Ul8pTDtS0L-qDi3afAV3wi9VJY,6919
+tanimachi-0.0.5.dist-info/METADATA,sha256=eEDgwvuzDShvrnWmSHV_DJe3M9hzooVS3M_n8WmnhYc,1668
+tanimachi-0.0.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+tanimachi-0.0.5.dist-info/licenses/LICENSE,sha256=Qt4j6TVi93b4z9Jf1e9g8WN1BBM-Tu9Cw6EgtOfgcWM,1070
+tanimachi-0.0.5.dist-info/RECORD,,
