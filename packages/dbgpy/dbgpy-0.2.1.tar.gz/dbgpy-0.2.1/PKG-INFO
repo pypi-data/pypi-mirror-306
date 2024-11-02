@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dbgpy
+Version: 0.2.1
+Summary: Python implementation of Rust's dbg! macro
+Author-email: Marcel Rød <marcelroed@gmail.com>
+License: MIT License
+Project-URL: Repository, https://github.com/marcelroed/dbgpy
+Project-URL: Homepage, https://github.com/marcelroed/dbgpy
+Project-URL: Issues, https://github.com/marcelroed/dbgpy/issues
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: attrs>=24.2.0
+
+# dbgpy
+
+Debug print inspired by Rust's `dbg!` macro.
+
+Example:
+
+```python
+from dbgpy import dbg
+import numpy as np
+
+arr = np.linspace(0, 10)
+
+dbg(arr.shape)
+```
+
+Outputs
+```
+main.py:6: arr.shape = (50,)
+```
+
