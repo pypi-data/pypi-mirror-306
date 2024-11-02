@@ -1,0 +1,35 @@
+- title: Notebook example in config 2
+  description: Example of opening a notebook with Voila Preview
+  source: ./sample.ipynb
+  args:
+    widget-type: 'Voila Preview'
+  cwd: '.'
+  type: notebook
+  catalog: Config 2
+
+- title: Markdown
+  description: Example of opening a markdown file
+  source: ./beam.md
+  cwd: '.'
+  type: markdown
+  catalog: Config 2
+
+- title: Command example 2
+  description: Example of calling JupyterLab commands
+  type: jupyterlab-commands
+  source:
+    - label: Command 1
+      id: 'filebrowser:open-path'
+      args:
+        path: sample.ipynb
+  cwd: '.'
+  catalog: Config 2
+
+- title: Terminal
+  description: Example of opening the terminal
+  source: 'ls -l'
+  args:
+    reuse: false
+  cwd: '../'
+  type: terminal
+  catalog: Config 2
