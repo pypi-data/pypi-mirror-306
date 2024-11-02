@@ -1,0 +1,101 @@
+<div align="center">
+  <h1>🚀 Organic API Usage for Neural Condense Subnet 🌐</h1>
+  <p>Powered by <b>Bittensor</b></p>
+</div>
+
+---
+
+## 🌟 Overview
+This library provides a streamlined and efficient interface to interact with the Neural Condense Subnet (NCS), designed to condense lengthy contexts into a shorter, high-relevance format. By using NCS, you can enhance input efficiency, especially for models with token limitations, making it ideal for optimizing input to LLMs (Large Language Models) during inference.
+
+## 📦 Installation
+To install the library, simply use pip:
+```bash
+pip install neural-condense
+```
+
+## 🛠️ Usage
+
+### Quick Start in Python
+```python
+from neural_condense import CondenseClient
+import numpy as np
+
+# Initialize the client with your API key
+client = CondenseClient(api_key="your_api_key")
+
+# Define a long context and a focused prompt
+context = """Many of you think that EPL and other salary levels are similar, but you are wrong. In EPL, 
+the media glosses over pre-tax salary information, while in Serie A they deal with salary. That means the 
+salary that Milan must pay Donnarumma if they agree to sign the contract is 24m/season + 20m in salary. No 
+one pays that much money for a goalkeeper..."""
+
+prompt = "What is the salary that Milan must pay Donnarumma if they agree to sign the contract?"
+
+# Generate condensed tokens
+condensed_output = client.create_condensed_tokens(
+    context=context, 
+    prompt=prompt,
+    tier="inference_0", 
+    target_model="mistralai/Mistral-7B-Instruct-v0.2"
+)
+
+# Check the shape of the condensed tokens
+print(f"Condensed tokens shape: {condensed_output.inputs_embeds.shape}")
+
+# Example: Using the condensed tokens in an LLM pipeline
+from transformers import pipeline
+
+# Initialize language model (Hugging Face transformers)
+llm = pipeline("text-generation", model="mistralai/Mistral-7B-Instruct-v0.2")
+
+# Use condensed embeddings as input
+output = llm(inputs_embeds=condensed_output.inputs_embeds, max_new_tokens=100)
+
+print(output)
+```
+
+### Asynchronous Usage 🌐
+In an async environment, use `AsyncCondenseClient` for non-blocking requests:
+
+```python
+from neural_condense import AsyncCondenseClient
+import asyncio
+
+async def main():
+    client = AsyncCondenseClient(api_key="your_api_key")
+    condensed_output = await client.create_condensed_tokens(
+        context=context, 
+        prompt=prompt,
+        tier="inference_0", 
+        target_model="mistralai/Mistral-7B-Instruct-v0.2"
+    )
+    print(f"Condensed tokens shape: {condensed_output.inputs_embeds.shape}")
+
+asyncio.run(main())
+```
+
+## 🔍 Parameters
+
+| Parameter      | Description                                                                                                     |
+|----------------|-----------------------------------------------------------------------------------------------------------------|
+| **context**    | The full text context to condense.                                                                              |
+| **prompt**     | An optional prompt to focus the condensation.                                                                   |
+| **tier**       | Condensation level; varies with API setup.                                                                      |
+| **target_model** | The target LLM model for inference.                                                                               |
+| **miner_uid**  | Optional for selecting specified miner.                                                                         |
+| **top_incentive** | Set the incentive threshold for selecting node; defaults to 0.9.                                               |
+
+## 📤 Response Structure
+The `create_condensed_tokens` function returns a `ClientResponse` object, which includes:
+
+- **condensed_tokens**: An array of condensed tokens.
+- **prompt_tokens** (if prompt provided): Additional tokens relevant to the prompt.
+- **inputs_embeds**: Embeddings ready for input into LLMs for inference.
+
+## License 📝
+This library is licensed under the MIT License. Enjoy seamless and efficient context condensation!
+
+<div align="center">
+  <h3>🔗 Connect. Condense. Create. ✨</h3>
+</div>
