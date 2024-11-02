@@ -1,0 +1,10 @@
+pipium_connect/__init__.py,sha256=Y3BmQe85hO4nlwnOC33wlF8MIqohGbwgAsc6im0nUWY,23
+pipium_connect/connect.py,sha256=_TFRgAv0xzYXK-4VhjfBThxFv7MUodHP76_soNWs7Wc,6098
+pipium_connect/connect_model.py,sha256=3wJD7v1gsRsAj__n6nrVc-WZoC1F2dbRVu4eicZF8yQ,2274
+pipium_connect/run_connection_model.py,sha256=UabTuYTIgwzbEkklWv-8sfuwXM4z3vRF0AQaJ0q_i8Y,1257
+pipium_connect/run_observer_model.py,sha256=CrN9z4tWIHiXGrvlqkAzx6wbHUMDuIRozm0zLUV8wUc,452
+pipium_connect/run_value_model.py,sha256=dUJucpDu_l6oMDcyrzJHFCQhBCVlmsyxrumS1-WC-ww,178
+pipium_connect-0.0.1a5.dist-info/METADATA,sha256=_Xc0irdWjcQGZk4i_v2SttV-wfbG3Hd7Mv9gGaswIYM,744
+pipium_connect-0.0.1a5.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pipium_connect-0.0.1a5.dist-info/top_level.txt,sha256=Kl1X0vUclQYz8iP7tWmXyQuRwQ1dIaYllQZxEqJMXRY,15
+pipium_connect-0.0.1a5.dist-info/RECORD,,
