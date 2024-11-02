@@ -1,0 +1,2 @@
+include mxLog_Package/*.pyd
+recursive-include python_module *.cpp
