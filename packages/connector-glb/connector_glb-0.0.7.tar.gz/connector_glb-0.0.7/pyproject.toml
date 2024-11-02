@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling", "psycopg2", "pymysql", "sqlalchemy", "pandas", "boto3", "pyyaml"]
+build-backend = "hatchling.build"
+
+[project]
+name = "connector_glb"
+version = "0.0.7"
+authors = [
+  { name="Igor Jasenovski", email="igormjsk@gmail.com" },
+]
+description = "Pacote para facilitar a conexão com o banco de dados"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

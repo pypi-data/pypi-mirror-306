@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: connector_glb
+Version: 0.0.7
+Summary: Pacote para facilitar a conexão com o banco de dados
+Author-email: Igor Jasenovski <igormjsk@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
