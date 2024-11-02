@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+GameForecaster.egg-info/PKG-INFO
+GameForecaster.egg-info/SOURCES.txt
+GameForecaster.egg-info/dependency_links.txt
+GameForecaster.egg-info/requires.txt
+GameForecaster.egg-info/top_level.txt
+gameforecaster/__init__.py
+gameforecaster/predictor.py
