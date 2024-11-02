@@ -1,0 +1,26 @@
+control:
+  template: letter-scrlttr2
+  nosuffix: true
+
+
+latex:
+  body:
+    - content.tex
+  documentclassoptions:
+    - DIN
+    - myletter
+  preamble: |-
+    \usepackage{myletter}
+  prepreamble: |-
+
+
+letter:
+  recipient: >-
+    Lisa Simpson \\
+    742 Evergreen Terrace \\
+    Springfield, OR 97475
+  subject: Our joint manuscript
+  date: \today
+  encl: another copy of the manuscript, just in case
+  cc:
+  ps: "PS: You can find me at the Springfield Heights Coffee Shop every day from 3 to 5~pm this week."

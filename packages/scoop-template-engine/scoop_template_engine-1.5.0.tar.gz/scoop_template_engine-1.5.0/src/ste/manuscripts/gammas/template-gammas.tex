@@ -1,0 +1,82 @@
+% A LaTeX template for submissions to GAMM Archive for Students.
+% Derived from gammas_template.tex.
+<<MinimumVersion: 1.0.0>>
+<<% >>
+<<TemplateDescription: GAMM Archive for Students>>
+<<% >>
+<<Dependency: gammas.cls>>
+<<Dependency: preamble-gammas.sty>>
+<<Dependency: postpreamble-gammas.sty>>
+
+% Prepreamble follows.
+<<LaTeXPrePreamble>>
+
+% Load the documentclass.
+\documentclass[%
+usebiber,
+<<DocumentClassOptions>>]{gammas}
+
+% Preamble follows.
+<<LaTeXPreamble>>
+
+% Define the BibLaTeX resources.
+<<BibLaTeXResources>>
+
+% Setup document metadata.
+\makeatletter
+\@ifpackageloaded{hyperref}{%
+	\hypersetup{
+		pdftitle = {<<Title>>},
+		pdfauthor = {<<AuthorsFullNamesCommaSeparated>>},
+		pdfkeywords = {<<KeywordsCommaSeparated>>},
+		pdfcreator = {<<ScoopTemplateEngineSignature>>}
+	}
+}{
+	\pdfinfo{
+		/Title (<<Title>>)
+		/Author (<<AuthorsFullNamesCommaSeparated>>)
+		/Subject ()
+		/Keywords (<<KeywordsCommaSeparated>>)
+		/Creator (<<ScoopTemplateEngineSignature>>)
+	}
+}
+\makeatother
+
+% Set title and subtitle information.
+\gammtitle{<<TitleNewlineSubTitle>>}
+
+% Set author information.
+<<AuthorsInstitutionsGAMMAS>>
+\gammauthorhead{<<AuthorsRunningHeadSpringer>>}
+
+\begin{document}
+\maketitle
+
+% Insert the abstract.
+\begin{gammabstract}
+<<InputAbstract>>
+\end{gammabstract}
+
+% Insert the keywords.
+\begin{gammkeywords}
+<<KeywordsCommaSeparated>>
+\end{gammkeywords}
+
+% Set dedication information.
+\newenvironment{gammdedication}{\indent\textbf{Dedication:}\begin{itshape}}{\end{itshape}\par}
+<<DedicationGAMMAS>>
+
+% Insert the document body.
+<<InputBody>>
+
+% Set funding information.
+<<FundingAcknowledgmentsGAMMAS>>
+
+% Insert the appendix.
+\appendix
+<<InputAppendix>>
+
+% Insert the bibliography.
+% \printbibliography is automatically issued by gammas.cls.
+
+\end{document}
