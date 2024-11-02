@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_logging_easy.egg-info/PKG-INFO
+django_logging_easy.egg-info/SOURCES.txt
+django_logging_easy.egg-info/dependency_links.txt
+django_logging_easy.egg-info/requires.txt
+django_logging_easy.egg-info/top_level.txt
+model_logger/__init__.py
+model_logger/apps.py
+model_logger/decorators.py
+model_logger/models.py
+model_logger/migrations/0001_initial.py
+model_logger/migrations/__init__.py
