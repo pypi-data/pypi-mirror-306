@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: tree-ring-analyzer
+Version: 0.1.2
+Summary: A package for tree ring detection in images
+Home-page: https://github.com/tuke307/tree-disk-analyzer
+Author: Tony Meissner
+Author-email: tonymeissner70@@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==2.1.2
+Requires-Dist: matplotlib==3.9.2
+Requires-Dist: opencv-python==4.10.0.84
+Requires-Dist: opencv-contrib-python-headless==4.10.0.84
+Requires-Dist: pandas==2.2.3
+Requires-Dist: scikit-learn==1.5.2
+Requires-Dist: natsort==8.4.0
+Requires-Dist: glob2==0.7
+Requires-Dist: shapely==2.0.6
+Requires-Dist: imageio==2.36.0
+Requires-Dist: Pillow==11.0.0
+Requires-Dist: torch==2.5.0
+Requires-Dist: torchvision==0.20.0
+
+# Tree Ring Analyzer
+
+forked from [hmarichal93/cstrd_ipol](https://github.com/hmarichal93/cstrd_ipol)
+
+## Installation
+```bash
+python -m venv venv
+source venv/bin/activate # On Windows use: venv\Scripts\activate
+pip install -r requirements.txt
+cd ./externas/devernay_1.0 && make clean && make
+```
+
+## Usage Examples
+
+### Basic Usage
+
+```bash
+python main.py --input IMAGE_PATH --cx CX --cy CY --output_dir OUTPUT_DIR
+```
+
+Example:
+```bash
+python main.py --input input/tree-disk4.png --cx 1204 --cy 1264 --output_dir output/
+```
+
+### Saving Intermediate Results
+If you want to save intermediate results, you can use the --save_imgs flag:
+```bash
+python main.py --input input/tree-disk4.png --cx 1204 --cy 1264 --output_dir output/ --save_imgs
+```
+
+### Using Advanced Parameters
+```bash
+python main.py --input input/F02c.png --cx 1204 --cy 1264 \
+  --output_dir output/ --sigma 4.0 --th_low 10 --th_high 25 --debug
+```
+
+## Command-Line Arguments
+
+* `--input` (str, required): Path to input image.
+* `--cx` (int, required): Pith x-coordinate.
+* `--cy` (int, required): Pith y-coordinate.
+* `--output_dir` (str, required): Output directory path.
+* `--root` (str, optional): Root directory of the repository.
+* `--sigma` (float, optional): Gaussian kernel parameter for edge detection. Default is 3.0.
+* `--th_low` (float, optional): Low threshold for gradient magnitude. Default is 5.0.
+* `--th_high` (float, optional): High threshold for gradient magnitude. Default is 20.0.
+* `--height` (int, optional): Height after resizing (0 to keep original). Default is 0.
+* `--width` (int, optional): Width after resizing (0 to keep original). Default is 0.
+* `--alpha` (float, optional): Edge filtering parameter (collinearity threshold). Default is 30.0.
+* `--nr` (int, optional): Number of rays. Default is 360.
+* `--min_chain_length` (int, optional): Minimum chain length. Default is 2.
+* `--debug` (flag, optional): Enable debug mode.
+* `--save_imgs` (flag, optional): Save intermediate images.
+
+## Publishing Package
+```bash
+python setup.py sdist bdist_wheel
+twine upload dist/*
+```
