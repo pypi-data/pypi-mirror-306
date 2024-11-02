@@ -1,0 +1,65 @@
+zookeeper-servers:
+  - host: {zookeeper_host}
+    port: {zookeeper_port}
+    chroot: {zookeeper_chroot}
+
+zookeeper-tls:
+  ca: {zookeeper_ca}
+  cert: {zookeeper_cert}
+  key: {zookeeper_key}
+
+tenant-resource-limits:
+  - tenant-name: tenant-1
+    max-cores: 1024
+
+labels:
+  - name: pod-fedora
+  - name: pod-extra
+  - name: pod-custom
+  - name: kubernetes-namespace
+
+providers:
+  - name: kubespray
+    driver: kubernetes
+    context: admin-cluster.local
+    pools:
+      - name: main
+        node-attributes:
+          key1: value1
+          key2: value2
+        labels:
+          - name: kubernetes-namespace
+            type: namespace
+          - name: pod-fedora
+            type: pod
+            image: docker.io/fedora:28
+          - name: pod-extra
+            type: pod
+            image: docker.io/fedora:28
+            labels:
+              environment: qa
+            dynamic-labels:
+              # Note: we double the braces to deal with unit-test
+              # pre-processing of this file.  The output and actual
+              # file syntax is single braces.
+              tenant: "{{request.tenant_name}}"
+            privileged: true
+            node-selector:
+              storageType: ssd
+            scheduler-name: myscheduler
+            volumes:
+              - name: my-csi-inline-vol
+                csi:
+                  driver: inline.storage.kubernetes.io
+            volume-mounts:
+              - name: my-csi-inline-vol
+                mountPath: /data
+          - name: pod-custom
+            type: pod
+            spec:
+              containers:
+                - name: pod-custom
+                  image: ubuntu:jammy
+                  imagePullPolicy: IfNotPresent
+                  command: ["/bin/sh", "-c"]
+                  args: ["while true; do sleep 30; done;"]
