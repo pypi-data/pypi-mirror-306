@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyspqr
+Version: 0.0.1
+Summary: Python bindings for SuiteSparseQR.
+Author: Enzo Busseti
+Maintainer-email: Enzo Busseti <enzo.busseti@gmail.com>
+License: GPLv3
+Project-URL: Repository, https://github.com/enzbus/pyspqr
+Description-Content-Type: text/x-rst
+License-File: COPYING
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: auditwheel; extra == "dev"
+Requires-Dist: rstcheck; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Requires-Dist: abi3audit; extra == "dev"
+
+
+``pyspqr``: Simple Python Wrapper for SuiteSparseQR
+===================================================
+
+.. code-block:: python
+
+    import scipy as sp
+    from pyspqr import qr
+    
+    A = sp.sparse.random(1000,1000, format='csc')
+
+    R, H, HPinv, HTau = qr(A)
+
+
+The result objects are Scipy CSC sparse matrices or 1 dimensional Numpy arrays.
+The last three objects are the Householder reflection representing Q, plus a row
+permutation. In future versions we'll wrap them in a ``scipy.sparse.LinearOperator``
+
