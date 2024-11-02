@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: greety
+Version: 0.2.13
+Summary: A sample package compiled with Cython
+Author: Charles Dhainaut
+Author-email: ch.dhainaut@gmail.com
+Description-Content-Type: text/markdown
+
+blablabla
