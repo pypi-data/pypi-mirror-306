@@ -1,0 +1,40 @@
+from enum import StrEnum
+
+"""https://developers.facebook.com/docs/whatsapp/cloud-api/webhooks/components"""
+
+class MessageType(StrEnum):
+    TEXT = "text"
+    IMAGE = "image"
+    VIDEO = "video"
+    DOCUMENT = "document"
+    STICKER = "sticker"
+    AUDIO = "audio"
+    REACTION="reaction"
+    CENTRAL="central"
+    CONTACT = "contacts"
+    LOCATION = "location"
+    UNKNOWN = "unknown"
+    INTERACTIVE = "interactive"
+    SYSTEM = "system"
+    ERROR = "error"
+    
+    @staticmethod
+    def values():
+        return [member.value for member in MessageType]
+    
+    @staticmethod
+    def special_system_messages():
+        return [MessageType.SYSTEM, MessageType.ERROR, MessageType.UNKNOWN]
+    
+    @staticmethod
+    def uncontrolled_messages():
+        return [MessageType.INTERACTIVE, MessageType.LOCATION]
+    
+    @staticmethod
+    def controlled_messages():
+        return [member.value for member in MessageType if member not in MessageType.special_system_messages() + MessageType.uncontrolled_messages()]
+    
+class MessageSubtype(StrEnum):
+    TEMPLATE = "template"
+    CHATTY_RESPONSE = "chatty_response"
+    NONE = ""
