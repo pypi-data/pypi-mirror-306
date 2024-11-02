@@ -1,0 +1,2 @@
+[llm]
+groq_whisper = llm_groq_whisper
