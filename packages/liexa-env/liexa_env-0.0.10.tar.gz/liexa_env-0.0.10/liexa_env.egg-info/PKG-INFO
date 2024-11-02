@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: liexa-env
+Version: 0.0.10
+Summary: A Python package for environment management.
+Home-page: https://github.com/lifedrivendev/liexa-env
+Author: lifedrivendev
+Author-email: lifedrivendeveloper@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# Liexa-env
+
+Liexa-env is a Python package to manage environment variables easily. It supports loading, parsing, and exporting variables from files, including `.env`, JSON, and YAML formats.
+
+## Features
+
+- Load environment variables from `.env`, JSON, or YAML files.
+- Supports environment-based auto-loading.
+- Retrieve variables with specific data types (e.g., `int`, `bool`, `list`).
+- Export variables to a file or print them with masking options for sensitive information.
+
+## Installation
+
+Install with pip:
+
+```bash
+pip install liexa-env
+```
+
+## Usage
+
+### Initialization in a Project
+
+Initialize Liexa-env by importing and creating an instance:
+
+```python
+from liexa_env import env
+```
+
+### Loading Environment Variables
+
+#### Auto-loading (Recommended)
+
+Liexa-env automatically loads environment variables based on the `ENV` system variable. If `ENV` is set to `production`, the package looks for `.env.production` files in the project root.
+
+- **File Priority**: `.env.<ENV>` (e.g., `.env.production`) > `.env`
+- **Supported Formats**: `.env`, `.json`, `.yaml`
+
+#### Manual Loading
+
+To manually load files, specify file paths and control load order. Later files override earlier ones if they have the same variable names.
+
+```python
+env.load(["config.yaml", "settings.env"], overwrite_system=True)
+```
+
+- **Order Matters**: Variables in files loaded later override earlier ones.
+- **Overwrite System**: Set `overwrite_system` to `True` to let loaded files override system environment variables.
+
+### Accessing Environment Variables
+
+#### Reading Variables
+
+Access environment variables using attribute syntax:
+
+```python
+db_host = env.DB_HOST
+```
+
+Or use specific data types:
+
+```python
+db_port = env.as_int("DB_PORT")
+debug_mode = env.as_bool("DEBUG")
+allowed_ips = env.as_list("ALLOWED_IPS")
+```
+
+#### Setting Variables
+
+Set a variable directly:
+
+```python
+env.NEW_SETTING = "some_value"
+```
+
+### Printing Environment Variables
+
+Print variables with options to hide sensitive values and include system variables:
+
+```python
+# Print with sensitive values masked
+env.print(show_sensitive=False, include_system=True)
+```
+
+### Exporting to a File
+
+Export all variables to a file:
+
+```python
+env.export_to_file("output.env", include_system=True)
+```
+
+- **File Path**: Specify the path for the output file.
+- **Include System**: Include both system and loaded variables by setting `include_system=True`.
+
+---
