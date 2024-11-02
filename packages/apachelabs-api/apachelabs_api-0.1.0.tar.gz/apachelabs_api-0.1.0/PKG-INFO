@@ -1,0 +1,44 @@
+Metadata-Version: 2.3
+Name: apachelabs-api
+Version: 0.1.0
+Summary: A simplified wrapper for Mistral AI API/Hugging Face so that developers can easily work with Apache Lab Models.
+Project-URL: Homepage, https://github.com/Apache-Labs
+Project-URL: Bug Tracker, https://github.com/Apache-Labs
+Author-email: Apache Labs <apachemllabs@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: mistralai
+Description-Content-Type: text/markdown
+
+# ApacheLabs
+
+A simplified wrapper for Mistral AI API/Hugging Face so that developers can easily work with Apache Lab Models.
+
+## Current Models
+- ApacheLM v3.0 (Mistral Nemo Fine-tune)
+- ApacheLM v4.0 (Comming Soon)
+- ApacheLM v3.5 (Comming Soon)
+- ApacheXL Mini (Comming Soon)
+- ApacheXL Dream (Comming Soon)
+- ApacheXL Odyssey (Comming Soon)
+
+## Installation
+
+```bash
+pip install apachelabs
+```
+## Usage Example (LLMs)
+
+from apachelabs import lmclient
+api_key = "your-api-key"
+model = "apachelm-v3"  # Specify the desired model
+
+client = lmclient(api_key, model)
+
+# Start the chat session
+client.start_chat()
+```
+
