@@ -1,0 +1,17 @@
+crandr/__init__.py,sha256=AdkZHukipCyG7PTvWTv0hsHxanK3FdcebQmupc-UPAE,217
+crandr/__main__.py,sha256=Gg18R3x04p371-uv46LEFj3Zym0MYEeuZTqPnXOuQsE,83
+crandr/api_swaymsg.py,sha256=B4Yu_mfGLXW9SRx6Cp09sp9J87if8WjHgIZYUmDVcXY,4196
+crandr/api_xrandr.py,sha256=wpcYgNjXbMPBegGXU27GESsy-GrrYFM0kTM5VPcWJ80,4128
+crandr/config_paths.py,sha256=U9uo6RHugsvNmkDEykbhEH32r2WgM6-TjLjQPAPEx2Y,1346
+crandr/connection_parser.py,sha256=-wZfDNRldxHxs8CT-es-14axLveOW2kSAzOAa2s8v00,799
+crandr/main.py,sha256=FYJGiV9VuHNxaaS4TZjd8CerZ_-lvXEIl-nvxESEeW0,19348
+crandr/model.py,sha256=udoKyV3kvvDDww2DZ84-vv-FUnmMnIX0Vhu2y2IaHus,3942
+crandr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crandr/utils.py,sha256=Ak2pGPThzxp7rQzD8OEzYBPkEVs5KQVodvbOunRADPY,2419
+crandr/version.py,sha256=EyMGX1ADFzN6XVXHWbJUtKPONYKeFkvWoKIFPDDB2I8,22
+crandr/doc/example_config,sha256=qybGQK0fGVZaaJ_nh-X4TiWlAEpMCgInARALty7C72A,378
+crandr-1.4.0.dist-info/entry_points.txt,sha256=UuqulKOd36kmMW271ojeykI7dJAv-FHwxHqYFa0DItQ,43
+crandr-1.4.0.dist-info/LICENSE,sha256=LB4viZx5oTFIra8PUFnAZW1O9GecSS3Covr0qE7W4AQ,657
+crandr-1.4.0.dist-info/WHEEL,sha256=-ta_u8-23-bwm4JkHhR_rJkpb_X1cxtvIsLH0KOv1sU,82
+crandr-1.4.0.dist-info/METADATA,sha256=fdOB-JZiF-KcSqOmLxbB79X22aaUJf6dUS383F1ziAI,3117
+crandr-1.4.0.dist-info/RECORD,,
