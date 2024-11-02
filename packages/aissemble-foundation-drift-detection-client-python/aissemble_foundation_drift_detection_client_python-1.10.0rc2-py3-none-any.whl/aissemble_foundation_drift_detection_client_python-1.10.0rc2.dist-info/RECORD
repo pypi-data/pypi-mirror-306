@@ -1,0 +1,11 @@
+config/__init__.py,sha256=39OQsqau9anFqqJKG3Zzrd4EbZHix5RREItyr49_ZQE,194
+config/rest_config.py,sha256=sBy7DTve79yQBn1RIH9uFR-m7LKoqfP-klO5X42os9g,672
+drift/__init__.py,sha256=39OQsqau9anFqqJKG3Zzrd4EbZHix5RREItyr49_ZQE,194
+drift/detection/__init__.py,sha256=39OQsqau9anFqqJKG3Zzrd4EbZHix5RREItyr49_ZQE,194
+drift/detection/rest/__init__.py,sha256=39OQsqau9anFqqJKG3Zzrd4EbZHix5RREItyr49_ZQE,194
+drift/detection/rest/client/__init__.py,sha256=39OQsqau9anFqqJKG3Zzrd4EbZHix5RREItyr49_ZQE,194
+drift/detection/rest/client/drift_rest_client.py,sha256=YCMAPReepEsuCilC-wbB06ipRc5l4Krg2yTfnlH6i5U,1671
+aissemble_foundation_drift_detection_client_python-1.10.0rc2.dist-info/LICENSE,sha256=EpfjzMucs6zHEQoBNShGfksoMxBx4W_GRoqBoqV_yAw,9580
+aissemble_foundation_drift_detection_client_python-1.10.0rc2.dist-info/METADATA,sha256=bdCPkwj0q2oFbap6WFX3NQwjjbS8_Byul1O5E_OF0IM,1335
+aissemble_foundation_drift_detection_client_python-1.10.0rc2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+aissemble_foundation_drift_detection_client_python-1.10.0rc2.dist-info/RECORD,,
