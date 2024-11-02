@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "melkor"
+version = "1.0.6"
+description = "A python testing library"
+authors = [
+    { name = "Antoine Buirey", email = "antoine.buirey@gmail.com" }
+]
+readme = "readme.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "gamuLogger>=3.0.0",
+    "json5>=0.9.25"
+]
+
+[project.scripts]
+melkor = "melkor.__main__:main"
+

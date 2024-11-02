@@ -1,0 +1,2 @@
+gamuLogger>=3.0.0
+json5>=0.9.25
