@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ggtoolset
+Version: 0.1.7
+Summary: everday utilities
+Home-page: https://github.com/
+Author: gg61021277
+Author-email: gg61021277@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-box>=6.0.0
+Requires-Dist: markerpath>=0.1.9
+
+# ggtoolset
+Utility tools
+1. ConfigReader
+2. InitializeML
+3. Utils Logger
