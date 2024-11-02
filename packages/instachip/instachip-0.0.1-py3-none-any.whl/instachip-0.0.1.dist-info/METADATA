@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: instachip
+Version: 0.0.1
+Summary: A research lab building autonomous RTL coders
+Project-URL: Homepage, https://getinstachip.com/
+Author-email: Sathvik Redrouthu <sathvikr@getinstachip.com>, Rithvik Redrouthu <rithvik.redrouthu@gmail.com>, Instachip <team@getinstachip.com>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# vpm-v2
+VPM with integrated agents, made in Python

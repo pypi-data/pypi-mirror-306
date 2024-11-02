@@ -1,0 +1,9 @@
+instachip/__init__.py,sha256=5B5dBorbNzJRaRVBzP7q5o1McYrH4rweRaJ1n1Q9WQs,72
+instachip/cli.py,sha256=gu0ZD1GUU1cPZL1Qw5QhVzxNYKHbSG-jS0JT-Rv6oqs,789
+instachip/diann/agent.py,sha256=y35yp6REeWeDYPaL8bSMcjpS2TLRhZu4K5dFdXeJizo,15667
+instachip/diann/helper_agents.py,sha256=RhSN_83r5U1aT1j3btWtacllGkKH90MG3SbKe8NsmrQ,34928
+instachip/diann/tools.py,sha256=xy6LHzrDl-2Opfx2UqRJmKqw0Xx9xI81RIHLDCZPttk,26776
+instachip/diann/utility.py,sha256=5vVfG40F2AjxGzlCMdmUd9uMTaYn4lf64aN0J_fqAeU,509
+instachip-0.0.1.dist-info/METADATA,sha256=bUQ6jGtM2iuDG7_oJg0b3MnDgdfVie5C4ZKcE_-CD_Y,512
+instachip-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+instachip-0.0.1.dist-info/RECORD,,
