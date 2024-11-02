@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+codicefiscale/__init__.py
+codicefiscale/codice_fiscale.py
+codicefiscale/utils.py
+codicefiscale/data/tabella_comuni.csv
+codicefiscale/data/tabella_stati.csv
+codicefiscale_ita.egg-info/PKG-INFO
+codicefiscale_ita.egg-info/SOURCES.txt
+codicefiscale_ita.egg-info/dependency_links.txt
+codicefiscale_ita.egg-info/top_level.txt
