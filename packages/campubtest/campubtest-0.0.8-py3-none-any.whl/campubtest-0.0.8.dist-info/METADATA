@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: campubtest
+Version: 0.0.8
+Summary: pypi package
+License: MIT
+Author: ChristieMyburgh
+Author-email: c.myburgh@yahoo.com
+Requires-Python: >=3.13.0,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# campubtest
+repo to test automated package deployment
+
