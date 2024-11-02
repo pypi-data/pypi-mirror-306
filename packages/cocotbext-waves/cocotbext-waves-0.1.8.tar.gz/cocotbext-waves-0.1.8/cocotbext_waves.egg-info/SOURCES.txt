@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+cocotbext/waves/__init__.py
+cocotbext/waves/version.py
+cocotbext/waves/waves.py
+cocotbext_waves.egg-info/PKG-INFO
+cocotbext_waves.egg-info/SOURCES.txt
+cocotbext_waves.egg-info/dependency_links.txt
+cocotbext_waves.egg-info/requires.txt
+cocotbext_waves.egg-info/top_level.txt
