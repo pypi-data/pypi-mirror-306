@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.py
+xy_request_handler__feedback/Feedbacks.py
+xy_request_handler__feedback/__init__.py
+xy_request_handler__feedback/urls.py
+xy_request_handler__feedback.egg-info/PKG-INFO
+xy_request_handler__feedback.egg-info/SOURCES.txt
+xy_request_handler__feedback.egg-info/dependency_links.txt
+xy_request_handler__feedback.egg-info/requires.txt
+xy_request_handler__feedback.egg-info/top_level.txt
+xy_request_handler__feedback/__pycache__/Feedbacks.cpython-311.pyc
+xy_request_handler__feedback/__pycache__/__init__.cpython-311.pyc

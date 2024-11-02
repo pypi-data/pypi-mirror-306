@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+requires-python = ">=3.11.3"
+
+name = "xy_request_handler__feedback"
+
+authors = [{ name = "余洋", email = "yuyangit.0515@qq.com" }]
+description = "反馈业务请求模块"
+
+dynamic = ["version"]
+
+classifiers = ["Programming Language :: Python :: 3"]
+
+dependencies = ["xy_type", "xy_string", "xy_django_app_feedback", "xy_django_app_resource", "xy_request_handler_api"]
+
+readme = "README.md"
+
+[project.scripts]
+
+[tool.setuptools.packages.find]
+where = ["./"]
+include = [
+    "xy_request_handler__feedback",
+] # alternatively: `exclude = ["additional*"]`
+namespaces = false
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = { file = "VERSION" }
