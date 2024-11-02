@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: toremath
+Version: 0.2.1b1
+Summary: A clone of the builtin math module
+Author: Torrez Tsoi
+Author-email: that1.stinkyarmpits@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: sympy
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_rtd_theme; extra == "docs"
