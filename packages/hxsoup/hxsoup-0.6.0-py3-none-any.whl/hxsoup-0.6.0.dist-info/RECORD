@@ -1,0 +1,15 @@
+hxsoup/__init__.py,sha256=Pbc_EMHe2Q_0JKRZo9uKd64-zenhCbTwfpRjP4ZO2Y4,1814
+hxsoup/api.py,sha256=897M00ZZiopFpXktoUwlDC-f-lS6U-_eck5ZY6Qby6U,17028
+hxsoup/broadcast_list.py,sha256=OWHHh05ikgr5R3KOlis4sjJLGea7Wan6bFttyfCSGfo,2629
+hxsoup/broadcast_list.pyi,sha256=QdincSQWdQVF_lmeUp2vqD3yCVccgCW76ooU65bd1aI,14476
+hxsoup/client.py,sha256=ItkGsQ6flo_TX8yi_iqkcUyJZ4Xh_u4o7TUu9CGvEUs,42824
+hxsoup/dev.py,sha256=FNpvXpW8e1CM-vZiwQQySa0kUnGuDuF9lPApPeRaEJ4,749
+hxsoup/dev_api.py,sha256=DRb9zDPXdMt3JQ-sVBrvhs_pL40e2i-L06M3HXvL2d4,31915
+hxsoup/exceptions.py,sha256=K3sLogRcPjzP8GiTX_6gWOcbd63eR7cAgx5OcJmoKYI,770
+hxsoup/options.py,sha256=RS_iWn4SX6N0bo9bHrUux5IcWznFbGEsb3g5xnYqK1w,8302
+hxsoup/souptools.py,sha256=Khbi_0P3JniCm9a8fxkE4za0ce5JXWjvrhdYHBX3E-w,10607
+hxsoup/utils.py,sha256=CRoaYiL7dXOYWAWsVBP47HST-ZClN_yNqOc6bFL10-M,17350
+hxsoup-0.6.0.dist-info/METADATA,sha256=aMCLfLOZqO8xGwqMtW1G7-nVi0OQ4WZ5N_-SD8-svjI,17827
+hxsoup-0.6.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+hxsoup-0.6.0.dist-info/licenses/LICENSE,sha256=QfI2f1mHX2BHL_ltGlUCSMLzNrTPCQOgNHBXtlK4XNY,1087
+hxsoup-0.6.0.dist-info/RECORD,,
