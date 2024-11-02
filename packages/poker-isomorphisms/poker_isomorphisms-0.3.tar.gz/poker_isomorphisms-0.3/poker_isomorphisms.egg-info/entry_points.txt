@@ -1,0 +1,3 @@
+[console_scripts]
+poker_isomorphisms-flop_isomorphisms = poker_isomorphisms:flop_isomorphisms
+poker_isomorphisms-flop_normalise = poker_isomorphisms:flop_normalise
