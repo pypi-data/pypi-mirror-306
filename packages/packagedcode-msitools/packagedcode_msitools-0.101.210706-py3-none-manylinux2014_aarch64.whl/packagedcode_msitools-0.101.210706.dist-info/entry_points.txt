@@ -1,0 +1,2 @@
+[scancode_location_provider]
+packagedcode_msitools = packagedcode_msitools:MsitoolsPaths
