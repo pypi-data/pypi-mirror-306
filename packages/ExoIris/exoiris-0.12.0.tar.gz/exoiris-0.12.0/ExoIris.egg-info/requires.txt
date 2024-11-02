@@ -1,0 +1,12 @@
+pytransit>=2.6.11
+ldtk
+numpy
+scipy
+numba
+matplotlib
+celerite2
+pandas
+xarray
+seaborn
+astropy
+uncertainties
