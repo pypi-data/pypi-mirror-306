@@ -1,0 +1,33 @@
+[project]
+name = "datasets-toolbox"
+version = "0.1.0"
+description = "A toolbox for audio dataset processing and augmentation."
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["datasets", "CLI", "audio"]
+license = { text = "MIT" }
+dependencies = [
+    "click",
+    "datasets",
+    "librosa",
+    "soundfile",
+    "numpy",
+    "transformers",
+    "accelerate",
+    "torch",
+    "tqdm",
+]
+
+[project.urls]
+homepage = "https://github.com/JacobLinCool/datasets-toolbox"
+repository = "https://github.com/JacobLinCool/datasets-toolbox"
+
+[project.scripts]
+datasets = "datasets_toolbox.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

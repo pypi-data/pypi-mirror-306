@@ -1,0 +1,9 @@
+click
+datasets
+librosa
+soundfile
+numpy
+transformers
+accelerate
+torch
+tqdm
