@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sbtse
+Version: 0.1.0
+Summary: Library and tool to access Swissbit TSE
+Author-email: Raphael Michel <mail@raphaelmichel.de>
+License: Apache-2.0
+Keywords: swissbit,tse
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: click==8.1.*
+Requires-Dist: rich==13.6.*
+Requires-Dist: python-dateutil
