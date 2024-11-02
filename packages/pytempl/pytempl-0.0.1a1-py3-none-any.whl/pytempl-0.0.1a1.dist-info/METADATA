@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pytempl
+Version: 0.0.1a1
+Summary: DSL for writing HTML user interfaces in Python.
+Home-page: https://github.com/pytempl/pytempl
+License: BSD-2-Clause
+Author: Saurabh Ghanekar
+Author-email: ghanekarsaurabh8@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Documentation, https://github.com/pytempl/pytempl
+Project-URL: Repository, https://github.com/pytempl/pytempl
+Description-Content-Type: text/markdown
+
+# PyTempl
+
+Build HTML user interfaces in Python
+
+## Introduction
+
+PyTempl is a DSL for writing HTML user interfaces in Python that allows you to create components that create fragments of HTML and compose them to create views, pages, or apps.
