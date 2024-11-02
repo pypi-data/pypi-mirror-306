@@ -1,0 +1,15 @@
+libsbmlnetwork/__init__.py,sha256=zijt1ZZLqAbaRIGLwsMd_jg9S7oXiil0uaX4rJuJXpI,56
+libsbmlnetwork/concrt140.dll,sha256=O_55WLbFzAFQkn5toFUYKbjj4aOou0Rq2_ZPf4R1H3Q,322640
+libsbmlnetwork/libsbmlnetwork.dll,sha256=UNPI5lps3rvmBUCNIke1LxOw7UYDoCH7ZKMA1hVdY_w,6532608
+libsbmlnetwork/libsbmlnetwork.py,sha256=ML2KDjgM7l_QAuKyTKd2YiRLVLs1sw5BO630BtP5j9w,792000
+libsbmlnetwork/msvcp140.dll,sha256=e4pvKDiE5kSFWdz1ELAMGohb-45ZjqBc0sKQyHRlcyY,575056
+libsbmlnetwork/msvcp140_1.dll,sha256=1bfjmxWMptZNEHE7ade66pupxoapRCydchf2kUxqlV0,35920
+libsbmlnetwork/msvcp140_2.dll,sha256=-7hVf3OrmiB71nZD_c-a40UnMl0ifFNwfOvfDRyMRlg,268912
+libsbmlnetwork/msvcp140_atomic_wait.dll,sha256=0tyYs9nL_r2S0Wrra-R1to7DCUNQMBTjO2ReXKfeLPs,50792
+libsbmlnetwork/msvcp140_codecvt_ids.dll,sha256=1fvhBSbDCq4GZcJAmstVpQy22c0VkTirnrsZ24e81Z8,31824
+libsbmlnetwork/vcruntime140.dll,sha256=ZCrlJoenpr-wPQsg3H4H9LEc7KY09-t7oYTWcRq1GlE,119888
+libsbmlnetwork/vcruntime140_1.dll,sha256=DlYFMuchtpONr-QFXu3QJRul61mUzZaTfOu88Wp92uU,49744
+libsbmlnetwork-0.4.0.dist-info/METADATA,sha256=j-3Xx-OKA3nSHEvIUR_7SLj1N-5iBwo5PzC6K1WKbEk,974
+libsbmlnetwork-0.4.0.dist-info/WHEEL,sha256=yEpuRje-u1Z_HrXQj-UTAfIAegW_HcP2GJ7Ek8BJkUM,102
+libsbmlnetwork-0.4.0.dist-info/top_level.txt,sha256=Ae2KQlVigBQnnt7oXZHvOTaXbwCAi028hOrASIKqtBs,15
+libsbmlnetwork-0.4.0.dist-info/RECORD,,
