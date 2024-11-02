@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: agentp
+Version: 0.0.0
+Summary: Associating Gene Expression to Neuroimaging Traits Pipeline (AGENT-P)
+Home-page: https://github.com/nhunghoang/neurogen
+Author: Nhung Hoang
+Author-email: nhung.hoang@vanderbilt.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: bgen-reader>=4.0.8
+Requires-Dist: h5py>=3.7.0
+Requires-Dist: numpy>=1.23.5
+Requires-Dist: pandas>=1.5.3
+Requires-Dist: patsy>=0.5.6
+Requires-Dist: bitarray>=3.0.0
+Requires-Dist: scipy>=1.10.1
+Requires-Dist: statsmodels>=0.14.1
+Requires-Dist: pyliftover>=0.4.1
+
+UNKNOWN
+
+
