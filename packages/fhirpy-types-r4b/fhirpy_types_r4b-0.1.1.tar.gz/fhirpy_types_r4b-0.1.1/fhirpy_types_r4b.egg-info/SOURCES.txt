@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+fhirpy_types_r4b/__init__.py
+fhirpy_types_r4b/py.typed
+fhirpy_types_r4b.egg-info/PKG-INFO
+fhirpy_types_r4b.egg-info/SOURCES.txt
+fhirpy_types_r4b.egg-info/dependency_links.txt
+fhirpy_types_r4b.egg-info/requires.txt
+fhirpy_types_r4b.egg-info/top_level.txt
