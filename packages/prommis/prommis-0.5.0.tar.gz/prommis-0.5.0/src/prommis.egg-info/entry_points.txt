@@ -1,0 +1,2 @@
+[pytest11]
+known_issues = prommis._testing_utils.known_issues
