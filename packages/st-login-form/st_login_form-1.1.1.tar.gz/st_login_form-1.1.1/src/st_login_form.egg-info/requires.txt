@@ -1,0 +1,5 @@
+streamlit>=1.2
+jinja2
+st_supabase_connection>=2.0
+argon2-cffi
+stqdm
