@@ -1,0 +1,9 @@
+jpdatetime/__init__.py,sha256=fbNGv58zbGMiUvmfR4_TCrrciMG0R7jOnu4f84khduI,35
+jpdatetime/jpdatetime.py,sha256=qpgP1fWOCt1ABMSPmN-P27VwtwdizaT5rzo88xw71r4,11054
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_jpdatetime.py,sha256=bKuFNoDGbqIPnhzsitEHg7KM8uk8loKff2hM4mb7jO8,16710
+jpdatetime-1.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jpdatetime-1.2.0.dist-info/METADATA,sha256=EWOuMmvWscMB1CCTTR6KRBf9CXPb7lbkxDFm_jHNV_U,5839
+jpdatetime-1.2.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+jpdatetime-1.2.0.dist-info/top_level.txt,sha256=gW2fY3I_0IoFrkZALZ_eZwuHyZxh4p-JCq7BWKls6aY,16
+jpdatetime-1.2.0.dist-info/RECORD,,
