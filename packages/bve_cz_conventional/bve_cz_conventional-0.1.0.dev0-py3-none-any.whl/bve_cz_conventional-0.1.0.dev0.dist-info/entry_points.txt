@@ -1,0 +1,3 @@
+[commitizen.plugin]
+bve_cz_conventional=bve_cz_conventional:BreveCzConventional
+
