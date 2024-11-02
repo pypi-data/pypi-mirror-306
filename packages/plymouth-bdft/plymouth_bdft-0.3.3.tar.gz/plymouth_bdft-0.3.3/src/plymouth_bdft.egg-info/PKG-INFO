@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: plymouth_bdft
+Version: 0.3.3
+Author-email: Maxwell Gisborne <maxwell.gisborne@plymouth.ac.uk>
+Requires-Python: >=3.10
+Requires-Dist: scipy>=1.14
+Requires-Dist: numpy>=2.1
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: six>=1.16
+Requires-Dist: ricetypes>=0.1.2
+Provides-Extra: dev
+Requires-Dist: ipykernel>=6.29; extra == "dev"
+Requires-Dist: ipython>=8.27; extra == "dev"
+Requires-Dist: jupyter_client>=8.6; extra == "dev"
+Requires-Dist: jupyter_core>=5.7; extra == "dev"
+Requires-Dist: ipykernel>=6.29; extra == "dev"
+Requires-Dist: ipython>=8.27; extra == "dev"
+Provides-Extra: plots
+Requires-Dist: fonttools>=4.54; extra == "plots"
+Requires-Dist: matplotlib>=3.9; extra == "plots"
+Requires-Dist: matplotlib-inline>=0.1; extra == "plots"
+Provides-Extra: pybigdft
+Requires-Dist: PyBigDFT>=1.0.9; extra == "pybigdft"
+Requires-Dist: pyFutile>=1.9.3; extra == "pybigdft"
+Provides-Extra: all
+Requires-Dist: plymouth_bdft[dev,plots,pybigdft]; extra == "all"
