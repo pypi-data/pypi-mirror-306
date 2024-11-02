@@ -1,0 +1,15 @@
+cfgdict/__init__.py,sha256=21-7dUsvsfGMA3eq4eNGmMAlaJGS76FSI8kTR7p4VWE,393
+cfgdict/api.py,sha256=BCNRYkvc6ESEfYX-odbcxJs1fYkvwbpK47fGXQcpwiY,1402
+cfgdict/exception.py,sha256=l-uZ1lS4LwL1IO3Ipq-yBmSDHumejDK-xRqCgUZCsTw,132
+cfgdict/field.py,sha256=s-yu33hfHfGcf6mzB-0EiUln2bONL863ugvZ2Ng5H7Q,3092
+cfgdict/logger.py,sha256=XY2kywkzpD4v4WjwK1Kt8lEl_U9w-GuH-_AT4r8vKnU,69
+cfgdict/schema.py,sha256=15DrbA0N5MN4vaxLekOJS-hbPUAhksYEBICfPdUl-vE,6194
+cfgdict/utils.py,sha256=pKlDb1MS-NkHV1tJaOqD98_Q-QhKA3GF9q09CAzGRWs,6741
+cfgdict/v1.py,sha256=KJfliNPnIAzLAkK-DZuiNrGvmfckku49sZxcW-E4Lfk,18836
+cfgdict/v2.py,sha256=uTWsBfOEXFKaLysrsjrCanPU9f6IkDOZ9ZXKG9zrLMI,16857
+cfgdict/version.py,sha256=ABNjc1aQmKJQokfxgj0PnpcGLKJ9g_tsSdMa9c-lrRQ,221
+cfgdict-1.1.2.dist-info/LICENSE,sha256=PTGkKmatc_wLjZ5RllAiq7aELH6XXra33q1g6h3f2jA,1065
+cfgdict-1.1.2.dist-info/METADATA,sha256=t-zyIeLUdSKhPWiD502DPKZZTImKc-225OBXE15YncM,7502
+cfgdict-1.1.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+cfgdict-1.1.2.dist-info/top_level.txt,sha256=SDwH6a41v_gbsGJlqQX97xEUaxV7E0yw2Qh5E9mK2lg,8
+cfgdict-1.1.2.dist-info/RECORD,,
