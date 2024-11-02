@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+mxLogPy/__init__.py
+mxLogPy/mxLogPy.cp311-win_amd64.pyd
+mxLogPy.egg-info/PKG-INFO
+mxLogPy.egg-info/SOURCES.txt
+mxLogPy.egg-info/dependency_links.txt
+mxLogPy.egg-info/requires.txt
+mxLogPy.egg-info/top_level.txt
+test/test.py
