@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "Neatlogger"
+version = "0.1.1"
+description = "Neat adaptions to the loguru package which wraps logging in python."
+authors = ["Martin Schrön <martin@schroen.eu>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/mschroen/neatlogger"
+repository = "https://github.com/mschroen/neatlogger"
+keywords = ["logging"]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = ">3.9"
+loguru = ">0.7"
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
