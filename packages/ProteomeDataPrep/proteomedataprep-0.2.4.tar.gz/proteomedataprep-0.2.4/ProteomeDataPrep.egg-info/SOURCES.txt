@@ -1,0 +1,15 @@
+setup.py
+ProteomeDataPrep.egg-info/PKG-INFO
+ProteomeDataPrep.egg-info/SOURCES.txt
+ProteomeDataPrep.egg-info/dependency_links.txt
+ProteomeDataPrep.egg-info/requires.txt
+ProteomeDataPrep.egg-info/top_level.txt
+proteome_data_prep/__init__.py
+proteome_data_prep/data_container.py
+proteome_data_prep/data_loader.py
+proteome_data_prep/data_utils.py
+proteome_data_prep/process_utils.py
+proteome_data_prep/data/acc_by_tf_gene.json
+proteome_data_prep/data/bad_batches.txt
+proteome_data_prep/data/gene_info_by_acc.json
+proteome_data_prep/data/tf_proteins.txt
