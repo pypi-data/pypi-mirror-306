@@ -1,0 +1,11 @@
+from .check import *
+from .exponential import *
+from .function import *
+
+
+class sigmoid(Function):
+    @classmethod
+    def eval(cls, x):
+        _c = check(x)()
+        if _c.is_passed():
+            return 1 / (1 + exp(-x))
