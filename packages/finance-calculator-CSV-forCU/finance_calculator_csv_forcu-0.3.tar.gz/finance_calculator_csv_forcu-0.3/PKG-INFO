@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: finance-calculator_CSV_forCU
+Version: 0.3
+Summary: Пакет для анализа доходов и расходов
+Author: Ruslan
+Author-email: r.khuseyinov@edu.centraluniversity.ru
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+**Функциональность пакета**
+
+Напиши пакет, который:
+
+- Загружает данные о транзакциях из CSV-файла и группирует их по категориям.
+
+- Выводит общий объём транзакций для каждой категории.
+
+- Поддерживает запуск через командную строку с опциями:
+  - `--input-file` для указания входного файла `.сsv`,
+  - `--output-file` для указания выходного файла `.txt`.
+
+Пример выходного отчёта:
+
+```text
+Доход: 8000 руб.
+Расход: 3000 руб. 
