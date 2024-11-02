@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/pubgapi_ku.egg-info/PKG-INFO
+src/pubgapi_ku.egg-info/SOURCES.txt
+src/pubgapi_ku.egg-info/dependency_links.txt
+src/pubgapi_ku.egg-info/requires.txt
+src/pubgapi_ku.egg-info/top_level.txt
+src/pubgapiku/__init__.py
+src/pubgapiku/api_connector.py
+src/pubgapiku/data_wrapper.py
