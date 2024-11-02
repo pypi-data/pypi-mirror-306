@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: vlense
+Version: 0.1.0
+Summary: A Python package to extract text from images and PDFs using Vision Language Model (VLM).
+Author-email: Aditya Miskin <adityamiskin98@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/adityamiskin/vlense
+Project-URL: Repository, https://github.com/adityamiskin/vlense.git
+Project-URL: Bug Tracker, https://github.com/adityamiskin/vlense/issues
+Keywords: vision-language-model,ocr,text-extraction,pdf-processing,image-processing
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiofiles==24.1.0
+Requires-Dist: aioshutil==1.5
+Requires-Dist: litellm==1.51.2
+Requires-Dist: pdf2image==1.17.0
+Requires-Dist: pydantic==2.9.2
+Requires-Dist: asyncio==3.4.3
+
