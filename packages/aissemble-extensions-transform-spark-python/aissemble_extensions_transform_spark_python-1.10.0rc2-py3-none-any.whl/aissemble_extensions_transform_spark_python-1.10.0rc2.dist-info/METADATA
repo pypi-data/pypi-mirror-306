@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: aissemble-extensions-transform-spark-python
+Version: 1.10.0rc2
+Summary: Contains the core Python implementation of data transform for Spark
+Author: aiSSEMBLE Baseline Community
+Author-email: aissemble@bah.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aissemble-foundation-core-python (>=1.10.0-rc2,<1.10.1)
+Requires-Dist: aissemble-foundation-transform-core-python (>=1.10.0-rc2,<1.10.1)
+Requires-Dist: cryptography (>=42.0.4)
+Requires-Dist: krausening (>=20)
+Requires-Dist: pydantic (>=2.8.0)
+Requires-Dist: pyspark (==3.5.2)
+Requires-Dist: urllib3 (>=1.26.18,<2.0.0)
+Description-Content-Type: text/markdown
+
+## aiSSEMBLE&trade; Extensions Transform PySpark
+
+[![PyPI](https://img.shields.io/pypi/v/aissemble-extensions-transform-spark-python?logo=python&logoColor=gold)](https://pypi.org/project/aissemble-extensions-transform-spark-python/)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/aissemble-extensions-transform-spark-python?logo=python&logoColor=gold)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/aissemble-extensions-transform-spark-python?logo=python&logoColor=gold)
+
+TODO: document functionality
