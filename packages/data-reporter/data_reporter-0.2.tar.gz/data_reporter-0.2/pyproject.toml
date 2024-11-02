@@ -1,0 +1,19 @@
+[build-system]
+requires = ['setuptools>=42', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'data_reporter'
+version = '0.2'
+description = 'Это data_reporte, делай с ним че хочешь'
+authors = [
+  {name = 'Novoselov Efim', email = 'myemail@example.com'}
+]
+readme = 'README.md'
+license = {text = 'MIT'}
+requires-python = '>=3.10'
+dependencies = [
+  'requests>=2.25.1',
+  'numpy>=1.19.2',
+  'pandas>=2.2.3'
+]
