@@ -1,0 +1,10 @@
+plymouth_bdft/__init__.py,sha256=e2QvaBoTNvdEe97IyUCtagoGvqUHTCQztM1iKsUnMO4,224
+plymouth_bdft/conductivity.py,sha256=_To14B8brRJqFYIwx9qd-g4yzHJb6OEg3gxnFmUzwyA,9881
+plymouth_bdft/genesis.py,sha256=SmC_zbRRL2ULbItv8lBFcKLsZwzq9ODb4RcFsMNRu4o,14884
+plymouth_bdft/immutiblenamespace.py,sha256=WNgEi6XQrUD4cdjhwqWhO1xfyM7_TS1JuYf_qrqRKbo,1663
+plymouth_bdft/plotting_utils.py,sha256=TysrjZHpOgzYLsTZHTvr_6cF7wrqoPkymrYQ27hBttw,1943
+plymouth_bdft/tbm_dft.py,sha256=BsYDj4AZN9T6_AEjsZvj1F1DIxqs3KHpa3PHa2GxyZY,40997
+plymouth_bdft-0.3.3.dist-info/METADATA,sha256=tTdm--qyRnEVSyVF15Jo93qnzXaLdUpwerBZ1IheCDE,910
+plymouth_bdft-0.3.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+plymouth_bdft-0.3.3.dist-info/top_level.txt,sha256=LIXj5CSryt0uDTjtdCfnpzeDDfqqK4P9jKr-iUv6Aw8,14
+plymouth_bdft-0.3.3.dist-info/RECORD,,
