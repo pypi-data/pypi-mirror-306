@@ -1,0 +1,13 @@
+melkor/__init__.py,sha256=HPjJL8cfblyNPR0OaUK19pOKHK-ZkWRbFysvuiv4lzU,112
+melkor/__main__.py,sha256=blD3kXGuXtxeV6tv6huaMqE77rrsargqU8ZzP8I-3jc,2298
+melkor/customTypes.py,sha256=cFEaaAFc1tYTc3YduV-ciRmY2YCynaq1Al7iC5_SP_U,6791
+melkor/engine.py,sha256=D3dJZf9e1japKJ_CGGRxXHl4G4HHRB2Px5oftpV_os0,1561
+melkor/settings.py,sha256=4XHMe2jJY-NCvvJRPZd33z8m2TZQnyxzZUrnYDZOQYA,1501
+melkor/tester.py,sha256=_qXPWpdaVfBJNWcQnwJWoCsv_E76b48dZG8LYTds6Mc,2028
+melkor/utils.py,sha256=GQXflvRKD8BNp-Lws2bZQaI9Z6eIuqI6wB0_-Afg0JE,1252
+melkor/output/junit.py,sha256=eSCeEUaYok7NnrM1VclFJv87_y0-yyc2xklkmbXhtR4,3846
+melkor-1.0.6.dist-info/METADATA,sha256=EoFv9ucvdyM6k6cgOCHdUgEf3KUmMe7SpNAn4J9u1iM,424
+melkor-1.0.6.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+melkor-1.0.6.dist-info/entry_points.txt,sha256=iWyNqvAARo-gMUl5PZ5hR45Rea8TODj_dHjJxro6D8E,48
+melkor-1.0.6.dist-info/top_level.txt,sha256=QQOW4b-e2gMRpcxbO-WdQ_YPPUn-nRpkcWbkso9qj6s,7
+melkor-1.0.6.dist-info/RECORD,,
