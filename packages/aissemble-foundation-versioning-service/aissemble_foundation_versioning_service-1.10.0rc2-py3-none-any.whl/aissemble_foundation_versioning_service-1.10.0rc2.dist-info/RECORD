@@ -1,0 +1,7 @@
+model_versioning/version.py,sha256=_muo3GhrIjRZaZ16F2LTJlwouqN0p94zz_VjG9LQudg,2697
+model_versioning/versioning_api.py,sha256=v4doEG7D3kUhdQ_cZdg-qvSDC1xyqSbZMRz7Dkfkf08,2826
+util/maven_util.py,sha256=sMjci2VDLl9yxljE3JRqoeYQMIQjV3LWxb9nrrOr7dg,1810
+aissemble_foundation_versioning_service-1.10.0rc2.dist-info/LICENSE,sha256=EpfjzMucs6zHEQoBNShGfksoMxBx4W_GRoqBoqV_yAw,9580
+aissemble_foundation_versioning_service-1.10.0rc2.dist-info/METADATA,sha256=AFsvfSlVPcUfrx9cmSQDx1PWleRQJWY-U9___Qm6NiI,4268
+aissemble_foundation_versioning_service-1.10.0rc2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+aissemble_foundation_versioning_service-1.10.0rc2.dist-info/RECORD,,
