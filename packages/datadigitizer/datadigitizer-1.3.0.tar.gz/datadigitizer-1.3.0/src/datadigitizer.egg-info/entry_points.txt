@@ -1,0 +1,5 @@
+[console_scripts]
+datadigitizer_cli = datadigitizer:cli
+
+[gui_scripts]
+datadigitizer = datadigitizer:application
