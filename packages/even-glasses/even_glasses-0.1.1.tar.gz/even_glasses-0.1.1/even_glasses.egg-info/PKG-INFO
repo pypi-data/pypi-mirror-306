@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: even_glasses
+Version: 0.1.1
+Summary: A Python package for managing even-realities glasses devices via BLE.
+Home-page: https://github.com/emingenc/even_glasses
+Author: Emin Genc
+Author-email: emingench@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bleak>=0.22.3
+
+# even_glasses
+even-realities g1 smart glasses ble control pip package
