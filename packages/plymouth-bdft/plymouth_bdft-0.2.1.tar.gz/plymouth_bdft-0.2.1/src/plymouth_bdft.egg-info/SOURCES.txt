@@ -1,0 +1,11 @@
+pyproject.toml
+src/plymouth_bdft/__init__.py
+src/plymouth_bdft/conductivity.py
+src/plymouth_bdft/immutiblenamespace.py
+src/plymouth_bdft/plotting_utils.py
+src/plymouth_bdft/tbm_dft.py
+src/plymouth_bdft.egg-info/PKG-INFO
+src/plymouth_bdft.egg-info/SOURCES.txt
+src/plymouth_bdft.egg-info/dependency_links.txt
+src/plymouth_bdft.egg-info/requires.txt
+src/plymouth_bdft.egg-info/top_level.txt
