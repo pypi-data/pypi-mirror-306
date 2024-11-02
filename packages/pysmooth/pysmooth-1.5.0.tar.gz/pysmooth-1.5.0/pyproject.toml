@@ -1,0 +1,68 @@
+[project]
+authors = [
+    { name = "Miles Smith", email = "mileschristiansmith@gmail.com" },
+]
+requires-python = "<4.0,>=3.10"
+dependencies = [
+    "numpy>=1.26",
+]
+name = "pysmooth"
+version = "1.5.0"
+description = "Pysmooth: a Python implementation of R's stats::smooth Tukey's (running median) smoother"
+readme = "README.rst"
+classifiers = [
+    "Development Status :: 4 - Beta",
+]
+
+[project.license]
+text = "GPL-3.0"
+
+[project.urls]
+Changelog = "https://github.com/milescsmith/pysmooth/releases"
+homepage = "https://github.com/milescsmith/pysmooth"
+repository = "https://github.com/milescsmith/pysmooth"
+documentation = "https://pysmooth.readthedocs.io"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.coverage.paths]
+source = [
+    "src",
+    "*/site-packages",
+]
+
+[tool.coverage.run]
+branch = true
+source = [
+    "pysmooth",
+]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "hypothesis>=6.116.0",
+    "pytest>=8.3.3",
+    "coverage[toml]>=7.6.4",
+    "pytest-random-order>=1.1.1",
+    "pytest-xdist[psutil]>=3.6.1",
+    "typeguard>=4.4.0",
+    "pre-commit>=4.0.1",
+    "pre-commit-hooks>=5.0.0",
+    "ruff>=0.7.2",
+    "sphinx-rtd-theme>=3.0.1",
+    "Pygments>=2.18.0",
+    "xdoctest[colors]>=1.2.0",
+    "sphinx>=8.1.3",
+    "sphinx-autobuild>=2024.10.3",
+    "nox>=2024.10.9",
+]
+
+[tool.pdm.build]
+includes = []
