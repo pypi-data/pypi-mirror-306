@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+jp_medicine_master/__init__.py
+jp_medicine_master/ssk_y_header.csv
+jp_medicine_master.egg-info/PKG-INFO
+jp_medicine_master.egg-info/SOURCES.txt
+jp_medicine_master.egg-info/dependency_links.txt
+jp_medicine_master.egg-info/requires.txt
+jp_medicine_master.egg-info/top_level.txt
+tests/test_.py
