@@ -1,0 +1,3 @@
+[console_scripts]
+dosa = psaspotter.batch:batch
+psaspotter = psaspotter.main:main
