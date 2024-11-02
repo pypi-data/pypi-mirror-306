@@ -1,0 +1,12 @@
+moesifasgi/__init__.py,sha256=TPCkmTs3htVIDt1KKs3M7XHtKh6iayqB80ckxO8VPCg,26
+moesifasgi/async_iterator_wrapper.py,sha256=NsdWQR2NH16bHyD4m0pU5ONYhJrxNNq5-FctY4wZQZI,301
+moesifasgi/client_ip.py,sha256=3EcKMyeeDjRo94T-Hy2b1d-6jnMJuaH0T-t7ktk_soA,4682
+moesifasgi/event_mapper.py,sha256=5oR-OreI_WWAZqWhPsOe9jnmkmWD3gK2Is9RfJEgpl8,3592
+moesifasgi/logger_helper.py,sha256=k0R9enpLNCP1zycrRhNqrMP5ZOqu6i9v6CyRPaMOuwQ,9087
+moesifasgi/middleware.py,sha256=wUSK6oa6SeQ9kJupXGjymhdt3i6_byd5G2oVKVrZayY,14476
+moesifasgi/send_batch_events.py,sha256=nPyJt27e9vDIQRkOzLqpkK40XjriPlr-yzl1FUHcvlI,2218
+moesifasgi-1.0.10.dist-info/LICENSE,sha256=ys5tPFL_aOSVfDVPdO1fYs5iC5Auw7thH2cKWdGvkaI,11908
+moesifasgi-1.0.10.dist-info/METADATA,sha256=jPVdmGDxx9iwFZ1BZOsbPbY7AH3ws1oLh9fbkuljuIg,21471
+moesifasgi-1.0.10.dist-info/WHEEL,sha256=OpXWERl2xLPRHTvd2ZXo_iluPEQd8uSbYkJ53NAER_Y,109
+moesifasgi-1.0.10.dist-info/top_level.txt,sha256=2a87z7sBUd8lM_XIDNEZfM5DgXknHALIxPQijg7iAd4,11
+moesifasgi-1.0.10.dist-info/RECORD,,
