@@ -1,0 +1,2 @@
+[console_scripts]
+tamagotchi_cli = tamagotchi.__main__:main
