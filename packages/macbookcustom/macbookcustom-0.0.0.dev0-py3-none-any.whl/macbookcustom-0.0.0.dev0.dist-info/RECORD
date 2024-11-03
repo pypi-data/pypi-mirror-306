@@ -1,0 +1,9 @@
+macbookcustom/__init__.py,sha256=dMQ2ZqHw6vaJ0baXrtLVZx-Za6XmRJgRwBDbwAZcSYM,87
+macbookcustom/__main__.py,sha256=RrTD6QFpWxAgT6RApcMRxVkl2zt62zxx0Q7wMD5XWUc,70
+macbookcustom/tests/__init__.py,sha256=kVDm8hy2OlXIyw0_fZuBrRweZsXFucAX6vdJgdxuSeo,234
+macbookcustom/tests/test_1984.py,sha256=GPfy8FPaGbj-w9uGHkJYSjmlSReVAXwiHS8JydJaERw,187
+macbookcustom-0.0.0.dev0.dist-info/LICENSE.txt,sha256=CaheL2V02rrZrnOEABQKmAR_4Egj4bW7vzcDMM1GiYQ,1076
+macbookcustom-0.0.0.dev0.dist-info/METADATA,sha256=eXv-1OoQvM7PdjkHsSpzQCrr0kmCjaSoejpsk5uP4ZY,2619
+macbookcustom-0.0.0.dev0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+macbookcustom-0.0.0.dev0.dist-info/top_level.txt,sha256=8HfN1maLySaWyxt39mjlK4CLyTOolWJOBblVUTQbp5w,14
+macbookcustom-0.0.0.dev0.dist-info/RECORD,,
