@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: zengl-playground
+Version: 0.2.1
+License-File: LICENSE
+Requires-Dist: pygame-ce
+Requires-Dist: pyglm
+Requires-Dist: zengl-extras
+Requires-Dist: zengl

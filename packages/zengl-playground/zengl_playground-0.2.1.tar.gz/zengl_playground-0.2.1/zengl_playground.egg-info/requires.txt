@@ -1,0 +1,4 @@
+pygame-ce
+pyglm
+zengl-extras
+zengl
