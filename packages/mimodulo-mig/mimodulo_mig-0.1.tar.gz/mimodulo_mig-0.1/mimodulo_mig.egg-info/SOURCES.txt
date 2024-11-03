@@ -1,0 +1,5 @@
+setup.py
+mimodulo_mig.egg-info/PKG-INFO
+mimodulo_mig.egg-info/SOURCES.txt
+mimodulo_mig.egg-info/dependency_links.txt
+mimodulo_mig.egg-info/top_level.txt
