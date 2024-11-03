@@ -1,0 +1,10 @@
+README.md
+setup.py
+xTerm/Alpha.py
+xTerm/Terminal.py
+xTerm/__init__.py
+xTerm/_utils.py
+xTerm.egg-info/PKG-INFO
+xTerm.egg-info/SOURCES.txt
+xTerm.egg-info/dependency_links.txt
+xTerm.egg-info/top_level.txt
