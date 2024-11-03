@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: precision_rounding
+Version: 0.1
+Summary: Rounds a measurement value and its uncertainty to a specified number of significant digits.
+Home-page: https://github.com/slawomirmarczynski/precision_rounding
+Author: Sławomir Marczyński
+Author-email: 
+License: BSD-3-Clause
+License-File: LICENSE

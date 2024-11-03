@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+precision_rounding/__init__.py
+precision_rounding/precision_rounding.py
+precision_rounding/precision_rounding.egg-info/PKG-INFO
+precision_rounding/precision_rounding.egg-info/SOURCES.txt
+precision_rounding/precision_rounding.egg-info/dependency_links.txt
+precision_rounding/precision_rounding.egg-info/top_level.txt
+tests/test_precision_rounding.py
