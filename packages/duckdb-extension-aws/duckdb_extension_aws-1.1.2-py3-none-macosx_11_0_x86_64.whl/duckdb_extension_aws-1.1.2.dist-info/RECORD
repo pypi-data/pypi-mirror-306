@@ -1,0 +1,6 @@
+duckdb_extension_aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_extension_aws/extensions/v1.1.2/aws.duckdb_extension,sha256=jz2nopFDGf_tQLn5fVLp8tDf0it-Qwh_N1sb07_bDv4,9034718
+duckdb_extension_aws-1.1.2.dist-info/METADATA,sha256=vLlpcmtJqCawkv_vMEPv_PYDESDiyzS1wZOempyMq80,2096
+duckdb_extension_aws-1.1.2.dist-info/WHEEL,sha256=fic1ktR5qa8qLrG4GUvXD55amQcMceACg0DKhvXAHHw,102
+duckdb_extension_aws-1.1.2.dist-info/licenses/LICENSE.txt,sha256=nnxZWPH56sIZcjI_d3lzGiShkm7fMUnNisNrUJKahaU,1090
+duckdb_extension_aws-1.1.2.dist-info/RECORD,,
