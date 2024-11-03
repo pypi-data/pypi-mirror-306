@@ -1,0 +1,10 @@
+django_meilisearch_indexer/__init__.py,sha256=iAeEInqRGbF4I7fKj4eeILhUAn8olcEjYc4Zh9lBL2E,1013
+django_meilisearch_indexer/model_indexer.py,sha256=2oZyahw1CkswOUtSqwDZsvii5mhlXboE1FMDatODfXs,7068
+django_meilisearch_indexer/search_utils.py,sha256=eSWL5tS-vdQKR-vsggbUYGq5XzoW_g5lsaGMnp8DdEs,2436
+django_meilisearch_indexer/serializers.py,sha256=hh3dJ23W-fsvZAvA4OHlIyhQoE3YsSrQkLWKr3RiRQc,1256
+django_meilisearch_indexer/types.py,sha256=azOgefYBbG1X3wGAUpjFj6dpFiNL584Rd9A11XJ4sQU,3034
+django_meilisearch_indexer-1.0.0.dist-info/LICENSE,sha256=x3tKJXOez-V0BY5JNS3QeY6aHJg84XpZNaCyMbND6qU,1069
+django_meilisearch_indexer-1.0.0.dist-info/METADATA,sha256=BRekRxFTcFWyyv5lscr3kRiBjGe4uxCA89QvW6xnlwQ,8964
+django_meilisearch_indexer-1.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+django_meilisearch_indexer-1.0.0.dist-info/top_level.txt,sha256=Ex9p9zxzoIPIbMYg6jGOnmVPEQjdrzEc1MkvllRaHEU,27
+django_meilisearch_indexer-1.0.0.dist-info/RECORD,,
