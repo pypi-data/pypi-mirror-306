@@ -1,0 +1,10 @@
+msgpack>=0.5.0
+greenlet>=3.0
+
+[docs]
+sphinx
+sphinx-rtd-theme
+
+[test]
+pytest
+pytest_timeout
