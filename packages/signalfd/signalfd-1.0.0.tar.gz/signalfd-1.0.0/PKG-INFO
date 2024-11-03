@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: signalfd
+Version: 1.0.0
+Summary: CFFI bindings for signalfd.
+Home-page: https://github.com/ionelmc/python-signalfd
+Author: Ionel Cristian Mărieș
+Author-email: contact@ionelmc.ro
+License: BSD-2-Clause
+Project-URL: Documentation, https://python-signalfd.readthedocs.io/
+Project-URL: Changelog, https://python-signalfd.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/ionelmc/python-signalfd/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: cffi>=1.0.0
+
+========
+Overview
+========
+
+
+
+CFFI bindings for signalfd. Interface is mostly the same as https://pypi.python.org/pypi/python-signalfd
+
+* Free software: BSD license
+
+Installation
+============
+
+::
+
+    pip install signalfd
+
+Usage
+=====
+
+.. sourcecode:: python
+
+    import signalfd
+
+    fd = signalfd.signalfd(-1, [signal.SIGUSR1], signalfd.SFD_CLOEXEC)
+    try:
+        signalfd.sigprocmask(signalfd.SIG_BLOCK, [signal.SIGUSR1])
+
+        while True:
+            si = signalfd.read_siginfo(fd)
+            print(si.ssi_signo)
+    finally:
+        os.close(fd)
+
+
+Documentation
+=============
+
+https://python-signalfd.readthedocs.org/
+
+Development
+===========
+
+To run the all tests run::
+
+    tox
+
+
+Changelog
+=========
+
+1.0.0 (2024-11-02)
+------------------
+
+* Fixed build issue caused by incorrect sigset_t size calculation.
+* Updated various project boilerplate.
+* Dropped support for EOL Python 3.8.
+
+0.4.0 (2015-08-25)
+------------------
+
+* Corrected return value for sigprocmask.
+
+0.3.0 (2015-08-24)
+------------------
+
+* Corrected error handling in signalfd and sigprocmask wrappers.
+
+0.2.0 (2015-08-24)
+------------------
+
+* Changed ``read_siginfo`` so it raises IOError in case is used with a file object and ``.readinto()`` would return ``None``
+  (not enough data available).
+
+0.1.0 (2015-08-23)
+-----------------------------------------
+
+* First release on PyPI.
