@@ -1,0 +1,20 @@
+<!--
+Coeus Sphinx Theme Sidebar Template
+===================================
+
+Author: Akshay Mestry <xa@mes3.dev>
+Created on: Monday, August 26 2024
+Last updated on: Tuesday, October 29 2024
+-->
+{% block sidebar_content %}
+{%- set only_header = sidebars == ["navbar_links.html.jinja"] -%}
+{%- if not only_header and sidebars|length > 0 -%}
+<aside id="left-sidebar" :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }">
+    {%- endif %}
+    <div class="sidebar-wrapper">
+        {%- for section in sidebars %}
+        {%- include section %}
+        {%- endfor %}
+    </div>
+</aside>
+{% endblock sidebar_content %}
