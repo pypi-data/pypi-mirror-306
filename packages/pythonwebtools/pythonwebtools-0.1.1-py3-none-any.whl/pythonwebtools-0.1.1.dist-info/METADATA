@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pythonwebtools
+Version: 0.1.1
+Summary: A utility library for Python that provides common validation and cryptographic functions for web development.
+Home-page: https://github.com/erosnoxx/pywebtools
+Author: Eros Gabriel Vieira
+Author-email: apenaclaskrr@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: argon2-cffi
+Requires-Dist: cryptography
+Requires-Dist: email-validator
+Requires-Dist: python-dotenv
+
