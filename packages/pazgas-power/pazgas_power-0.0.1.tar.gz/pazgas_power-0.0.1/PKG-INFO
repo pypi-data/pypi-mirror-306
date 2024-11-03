@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pazgas-power
+Version: 0.0.1
+Summary: A python wrapper for PazGas Power
+License: MIT
+Author: Guy Khmelnitsky
+Author-email: guykhmel@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.10.10,<4.0.0)
+Requires-Dist: mashumaro (>=3.13.1,<4.0.0)
