@@ -1,0 +1,2 @@
+[console_scripts]
+dl-plus = dl_plus.cli:main
