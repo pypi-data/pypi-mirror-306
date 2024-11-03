@@ -1,0 +1,2 @@
+[console_scripts]
+gg-transfer = ggtransfer.__main__:_main

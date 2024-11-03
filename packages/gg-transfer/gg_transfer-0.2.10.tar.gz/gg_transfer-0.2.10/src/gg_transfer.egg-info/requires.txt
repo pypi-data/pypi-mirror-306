@@ -1,0 +1,2 @@
+sounddevice
+ggwave-wheels>=0.4.2.3

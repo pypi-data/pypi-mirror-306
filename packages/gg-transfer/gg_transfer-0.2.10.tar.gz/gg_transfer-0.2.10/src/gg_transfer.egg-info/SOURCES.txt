@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/gg_transfer.egg-info/PKG-INFO
+src/gg_transfer.egg-info/SOURCES.txt
+src/gg_transfer.egg-info/dependency_links.txt
+src/gg_transfer.egg-info/entry_points.txt
+src/gg_transfer.egg-info/requires.txt
+src/gg_transfer.egg-info/top_level.txt
+src/ggtransfer/__init__.py
+src/ggtransfer/__main__.py
+src/ggtransfer/_exceptions.py
+src/ggtransfer/_receive.py
+src/ggtransfer/_send.py
+tests/test_send_msg.py
+tests/test_sounddevice.py
