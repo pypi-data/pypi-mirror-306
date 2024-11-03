@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stardust"
+version = "0.0.5"
+description = "Stardust is micro web framework inspired by serverless and lambda deployments."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Luca Simone", email = "info@lucasimone.info"}
+]
+
+dependencies = [
+    "starlette>=0.41.2",
+    "uvicorn>=0.32.0",
+]
+
+[project.urls]
+Repository = "https://github.com/lukefx/stardust"
+
+[project.scripts]
+stardust = "stardust.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest"]
