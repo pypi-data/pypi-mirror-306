@@ -1,0 +1,14 @@
+COPYING
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+test_base4.py
+test_base5.py
+base5/__init__.py
+base5/__main__.py
+base5/py.typed
+base5.egg-info/PKG-INFO
+base5.egg-info/SOURCES.txt
+base5.egg-info/dependency_links.txt
+base5.egg-info/top_level.txt
