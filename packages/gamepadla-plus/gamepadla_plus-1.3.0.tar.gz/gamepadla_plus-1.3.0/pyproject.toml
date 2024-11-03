@@ -1,0 +1,55 @@
+[build-system]
+requires = [
+    "hatchling", 
+    "versioningit",
+]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "versioningit"
+
+[tool.hatch.build.targets.wheel]
+packages = ["gamepadla_plus"]
+
+
+[project]
+name = "gamepadla-plus"
+description = "Gamepad polling rate and synthetic latency tester."
+authors = [
+  { name="John Punch" },
+  { name="Adam McKellar", email="dev@mckellar.eu" },
+]
+maintainers = [
+  { name="Adam McKellar", email="dev@mckellar.eu" },
+]
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["gamepad", "test", "latency"]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+]
+
+dynamic = ["version"]
+
+dependencies = [
+    "colorama",
+    "tqdm",
+    "numpy",
+    "requests",
+    "pygame",
+    "typer",
+    "rich",
+]
+
+
+[project.urls]
+Repository = "https://github.com/WyvernIXTL/gamepadla-plus"
+Issues = "https://github.com/WyvernIXTL/gamepadla-plus/issues"
+
+
+[project.scripts]
+gamepadla = "gamepadla_plus.__main__:run"
+
