@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+looprint/__init__.py
+looprint/looprint.py
+looprint.egg-info/PKG-INFO
+looprint.egg-info/SOURCES.txt
+looprint.egg-info/dependency_links.txt
+looprint.egg-info/top_level.txt
