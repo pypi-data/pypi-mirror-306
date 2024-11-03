@@ -1,0 +1,40 @@
+[project]
+name = "spop"
+version = "0.0.0"
+description = "Add your description here"
+authors = [
+    { name = "Movpasd", email = "54367524+movpasd@users.noreply.github.com" }
+]
+dependencies = [
+    "numpy>=2.1.2",
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[project.optional-dependencies]
+highs = [
+    "highspy>=1.8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.3.3",
+    "black>=24.10.0",
+    "ipython>=8.29.0",
+    "ipdb>=0.13.13",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/spop"]
+
+[tool.pytest.ini_options]
+addopts = "--pdbcls=IPython.terminal.debugger:Pdb"
+python_files = "_test.py"
