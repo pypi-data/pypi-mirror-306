@@ -1,0 +1,5 @@
+setup.py
+NumIntKMC.egg-info/PKG-INFO
+NumIntKMC.egg-info/SOURCES.txt
+NumIntKMC.egg-info/dependency_links.txt
+NumIntKMC.egg-info/top_level.txt
