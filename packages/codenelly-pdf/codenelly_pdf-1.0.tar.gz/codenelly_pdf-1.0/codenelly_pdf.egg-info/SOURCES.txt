@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+codenelly_pdf.egg-info/PKG-INFO
+codenelly_pdf.egg-info/SOURCES.txt
+codenelly_pdf.egg-info/dependency_links.txt
+codenelly_pdf.egg-info/top_level.txt
