@@ -1,0 +1,11 @@
+{
+    "simple_plugin": {
+        "enabled": true,
+        "dependencies": [],
+        "config_option": "value"
+    },
+    "another_plugin": {
+        "enabled": false,
+        "dependencies": ["simple_plugin"]
+    }
+}
