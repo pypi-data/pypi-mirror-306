@@ -1,0 +1,12 @@
+Django>=3.2
+kafka-python-ng>=2.2.2
+celery>=5.1.0
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[tests]
+pytest
+pytest-cov
+pytest-djangoapp
