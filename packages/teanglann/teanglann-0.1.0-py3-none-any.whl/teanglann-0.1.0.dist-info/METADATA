@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: teanglann
+Version: 0.1.0
+Summary: Random Irish words from teanglann.ie
+Project-URL: Homepage, https://github.com/sopermaf/RandomIrishWord
+Author-email: My Name <sopermaf@tcd.ie>
+Maintainer-email: My Organization <myemail@email.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.9
+Requires-Dist: bs4
+Requires-Dist: click
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: types-beautifulsoup4; extra == 'dev'
+Requires-Dist: types-requests; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Description
+
+This is a library designed to return a random word in Irish
+from http://www.teanglann.ie to help learns of Irish improve
+their vocabulary.
+
+<br>
+
+This tool can be used by learners as inspiration to learn a
+new random word in Irish. Even learning just one word a day can
+make a big difference!
+
+# About
+
+This script uses Python 3 with BeautifulSoup and requests to
+get information from teanglann.ie and parse the data.
