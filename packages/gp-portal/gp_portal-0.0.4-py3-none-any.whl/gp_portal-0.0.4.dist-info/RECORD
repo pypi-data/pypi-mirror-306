@@ -1,0 +1,13 @@
+gp/portal/__init__.py,sha256=k0O-pEhpq3NCAjHt5Ty468I66OzpNAdyCYRmybzuYeQ,1694
+gp/portal/cache.py,sha256=iuwRAJz90aUaIFudvSeHxh7j0pCKXHlVpAOMvycbFbQ,113
+gp/portal/config.py,sha256=L4zYhkPFuk0Y3GaLCm0wmUEP14Krp1rSUB1bwOjf72Y,2255
+gp/portal/api/__init__.py,sha256=BGgbAEcnxBFoTeN9TO2wz14yGsaYQwUnJt8FCIn9kFg,705
+gp/portal/root/__init__.py,sha256=2nQ7_24QGUga9W3C6IJSIpIwiQs1jqrAKWzK_QLxOsQ,579
+gp/portal/root/templates/index.html,sha256=09gZi27nLnF0fQa--KREm8AdCWQM-wjrJiCB2qQujYQ,1967
+gp/portal/templates/index.html,sha256=09gZi27nLnF0fQa--KREm8AdCWQM-wjrJiCB2qQujYQ,1967
+gp_portal-0.0.4.dist-info/AUTHORS,sha256=urcpNnfBrCRD8ubOt5rkCREB0p-0OCdxMcHlhPoVT8Q,68
+gp_portal-0.0.4.dist-info/METADATA,sha256=zUP997zZg_XRu9v6WvvNjdlZ8Ly1Q8qv2Xr5ecjjeCI,867
+gp_portal-0.0.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+gp_portal-0.0.4.dist-info/pbr.json,sha256=fv5_o1CdaPZavoP1DX69S1sl9YLajuR9h31j9gQ85Bc,47
+gp_portal-0.0.4.dist-info/top_level.txt,sha256=wwYgmQAKgnyuTHffKebcitGkYY1s4SEDl4OW7x7Dom4,10
+gp_portal-0.0.4.dist-info/RECORD,,
