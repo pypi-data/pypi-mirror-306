@@ -1,0 +1,14 @@
+setup.py
+NumInt/__init__.py
+NumInt/gaussiana_compuesta.py
+NumInt/gaussiana_compuesta_iterativa.py
+NumInt/romberg.py
+NumInt/simpson_compuesto.py
+NumInt/simpson_compuesto_iterativo.py
+NumInt/trapecio_compuesto.py
+NumInt/trapecio_compuesto_iterativa.py
+NumInt_ANPI.egg-info/PKG-INFO
+NumInt_ANPI.egg-info/SOURCES.txt
+NumInt_ANPI.egg-info/dependency_links.txt
+NumInt_ANPI.egg-info/requires.txt
+NumInt_ANPI.egg-info/top_level.txt
