@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+krakenstream/__init__.py
+krakenstream/kraken_api.py
+krakenstream.egg-info/PKG-INFO
+krakenstream.egg-info/SOURCES.txt
+krakenstream.egg-info/dependency_links.txt
+krakenstream.egg-info/top_level.txt
+krakenstream/exceptions/__init__.py
+krakenstream/exceptions/kraken_api_exception.py
+krakenstream/models/__init__.py
