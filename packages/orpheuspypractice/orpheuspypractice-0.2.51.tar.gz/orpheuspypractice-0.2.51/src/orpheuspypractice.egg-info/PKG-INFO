@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: orpheuspypractice
+Version: 0.2.51
+Summary: Practice Package to Experiment with Orpheus's goals and its submodules
+Home-page: https://github.com/jgwill/orpheuspypractice
+Author: JGWill
+Author-email: jgi@jgwill.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tlid
+Requires-Dist: requests
+Requires-Dist: music21
+Requires-Dist: ipython
+Requires-Dist: jgcmlib>=1.0.59
+Requires-Dist: jghfmanager>=0.1.5
+Requires-Dist: langchain
+Requires-Dist: langchain_openai
+Requires-Dist: langchain_community
+Requires-Dist: arxiv
+Requires-Dist: pyyaml
+Requires-Dist: python-dotenv
+Requires-Dist: langgraph
+Requires-Dist: wikipedia
+Requires-Dist: llm
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: langchain-experimental
+Requires-Dist: langsmith
+Requires-Dist: numexpr
+Requires-Dist: strip-tags
+
+# orpheuspypractice
+
+A Practice Package to Experiment with Orpheus's goals.
+
+## Installation
+
+You can install orpheuspypractice using pip:
+
+```shell
+pip install orpheuspypractice
+```
+
+## Commands
+
+* oabc: Convert an ABC file to a MIDI file.
+* ohfi: Call ChatMusician API with the omusical.yaml
+* odep: Install dependencies for Orpheus
+* olca: Experimental langchain agent with shell action and python interpretation tooling(at your own risk)
+
+### Olca
+
+The olca.py script is designed to function as a command-line interface (CLI) agent. It performs various tasks based on given inputs and files present in the directory. The agent is capable of creating directories, producing reports, and writing instructions for self-learning. It operates within a GitHub repository environment and can commit and push changes if provided with an issue ID. The script ensures that it logs its internal actions and follows specific guidelines for handling tasks and reporting, without modifying certain configuration files or checking out branches unless explicitly instructed.
