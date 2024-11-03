@@ -1,0 +1,2 @@
+[console_scripts]
+corecfg-me = corecfg.multi_entity_cli:cli
