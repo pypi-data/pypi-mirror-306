@@ -1,0 +1,1319 @@
+Metadata-Version: 2.1
+Name: SAGE_Core_X
+Version: 0.1.1
+Summary: Ядро системы плагинов для разработки расширяемых приложений.
+Home-page: https://github.com/yourusername/sage-core
+Author: AGStudios
+Author-email: amckinatorgames@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sage Core
+
+Ядро системы плагинов для разработки расширяемых приложений на Python.
+
+## Возможности
+
+- Загрузка и управление плагинами.
+- Поддержка зависимостей между плагинами.
+- Регистрация и вызов хуков.
+- Регистрация и выполнение API методов.
+- Простая конфигурация плагинов через JSON файл.
+
+## Установка
+
+```bash
+pip install sage-core
+
+
+# Changelog
+
+Все заметные изменения этого проекта будут задокументированы в этом файле.
+
+Формат основан на [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+и этот проект придерживается [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.2] - 2024-11-02
+
+### Added
+- **Динамическое управление плагинами**: Возможность перезагружать и выгружать плагины без перезапуска приложения.
+- **Управление зависимостями**: Реализован механизм управления зависимостями плагинов.
+- **Система конфигурации плагинов**: Добавлена возможность настройки плагинов через конфигурационные файлы (`plugins_config.json`).
+- **Включение и отключение плагинов**: Возможность включать и отключать плагины программно с помощью методов `enable_plugin` и `disable_plugin`.
+- **Улучшенная обработка ошибок и логирование**: Добавлены подробные сообщения об ошибках и улучшено логирование.
+- **Шаблон плагина**: Предоставлен шаблон для разработки плагинов.
+- **Упрощённая конфигурация**: Конфигурационный файл теперь ожидается в папке `plugins`.
+
+### Changed
+- **Инициализация плагинов**: Метод `__init__` плагинов теперь принимает два аргумента: `core` и `config`.
+
+### Fixed
+- **Ошибка инициализации**: Исправлена ошибка с несоответствием количества аргументов при инициализации плагинов.
+- **Предупреждение о неинициализированном плагине**: Исправлена ошибка, из-за которой плагины могли не инициализироваться корректно.
+
+## [0.1] - 2024-04-27
+
+### Added
+- **Начальная альфа-версия**: Базовая загрузка и выполнение плагинов.
+
+
+# SAGE-Core-X Документация
+
+## Оглавление
+
+1. [Введение](#введение)
+2. [Установка](#установка)
+3. [Быстрый Старт](#быстрый-старт)
+4. [Конфигурация](#конфигурация)
+5. [Использование Ядра](#использование-ядра)
+    - [Инициализация ядра](#инициализация-ядра)
+    - [Регистрация хуков](#регистрация-хуков)
+    - [Регистрация API методов](#регистрация-api-методов)
+    - [Вызов хуков](#вызов-хуков)
+    - [Вызов API методов](#вызов-api-методов)
+    - [Управление плагинами](#управление-плагинами)
+6. [Расширение API Ядра через Плагины](#расширение-api-ядра-через-плагины)
+    - [Принципы безопасности](#принципы-безопасности)
+    - [Пример расширяющего плагина](#пример-расширяющего-плагина)
+7. [Разработка Плагинов](#разработка-плагинов)
+    - [Шаблон плагина](#шаблон-плагина)
+    - [Пример GUI-плагина](#пример-gui-плагина)
+    - [Пример плагина-расширения API](#пример-плагина-расширения-api)
+    - [Пример потребляющего плагина](#пример-потребляющего-плагина)
+8. [Управление Плагинами](#управление-плагинами)
+    - [Загрузка плагина](#загрузка-плагина)
+    - [Выгрузка плагина](#выгрузка-плагина)
+    - [Перезагрузка плагина](#перезагрузка-плагина)
+    - [Включение и отключение плагина](#включение-и-отключение-плагина)
+    - [Список загруженных плагинов](#список-загруженных-плагинов)
+9. [Конфигурационный Файл](#конфигурационный-файл)
+    - [Структура `plugins_config.json`](#структура-plugins_configjson)
+10. [Логирование](#логирование)
+11. [Отладка и Решение Проблем](#отладка-и-решение-проблем)
+12. [Часто Задаваемые Вопросы (FAQ)](#часто-задаваемые-вопросы-faq)
+13. [Вклад в Проект](#вклад-в-проект)
+14. [Лицензия](#лицензия)
+15. [Полезные Ссылки](#полезные-ссылки)
+16. [Контакты](#контакты)
+
+---
+
+## Введение
+
+**SAGE-Core-X** — это мощное и гибкое ядро системы плагинов для разработки расширяемых приложений на Python. Версия **0.1.1** добавляет возможность безопасного расширения API ядра через плагины, что позволяет разработчикам добавлять новые функции без изменения основного кода ядра. **SAGE-Core-X** обеспечивает изоляцию плагинов, управление зависимостями и удобный API для взаимодействия между ядром и плагинами.
+
+---
+
+## Установка
+
+Установите `sage-core-x` с помощью `pip`:
+
+```bash
+pip install sage-core-x
+```
+
+Или установите из исходного кода:
+
+```bash
+git clone https://github.com/yourusername/sage-core-x.git
+cd sage-core-x
+pip install .
+```
+
+---
+
+## Быстрый Старт
+
+1. **Создайте структуру проекта:**
+
+    ```
+    sage-core-x/
+    ├── setup.py
+    ├── MANIFEST.in
+    ├── README.md
+    ├── CHANGELOG.md
+    ├── LICENSE
+    ├── DOC.md
+    ├── sage/
+    │   ├── __init__.py
+    │   ├── main.py          # Основной скрипт
+    │   ├── core/
+    │   │   ├── __init__.py
+    │   │   └── core.py      # Модуль ядра
+    │   └── plugins/
+    │       ├── __init__.py
+    │       ├── plugins_config.json
+    │       ├── simple_plugin.py
+    │       ├── gui_plugin.py
+    │       ├── api_extension_plugin.py
+    │       └── consumer_plugin.py
+    ```
+
+2. **Создайте основной скрипт `main.py`:**
+
+    ```python
+    # sage/main.py
+
+    import time
+    import logging
+    from core import Core
+
+    def main():
+        # Настройка логирования
+        logging.basicConfig(
+            level=logging.INFO,
+            format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+            handlers=[
+                logging.FileHandler("sage_core.log"),
+                logging.StreamHandler()
+            ]
+        )
+        logger = logging.getLogger(__name__)
+
+        try:
+            core = Core(plugins_dir='plugins', config_file='plugins_config.json')
+            logger.info("Инициализировано ядро SAGE-Core-X.")
+
+            # Вызов хуков 'on_start'
+            core.trigger_hook('on_start')
+            logger.info("Вызваны хуки 'on_start'.")
+
+            # Использование нового API метода
+            greeting = core.execute_api('greet', 'Алексей')
+            print(greeting)  # Ожидаемый вывод: Привет, Алексей! Это сообщение от безопасного расширения API.
+
+            # Попытка выполнить несуществующий метод
+            result = core.execute_api('non_existent_method')
+            print(result)  # Ожидаемый вывод: предупреждение о том, что метод не найден
+
+            print("SAGE-Core-X запущен. Для завершения нажмите Ctrl+C.")
+
+            while True:
+                time.sleep(1)
+        except KeyboardInterrupt:
+            logger.info("Получено прерывание пользователем. Завершение работы SAGE-Core-X.")
+            print("\nЗавершение работы SAGE-Core-X...")
+
+            core.trigger_hook('on_exit')
+            logger.info("Вызваны хуки 'on_exit'.")
+            print("SAGE-Core-X успешно завершил работу.")
+
+    if __name__ == '__main__':
+        main()
+    ```
+
+3. **Создайте конфигурационный файл `plugins/plugins_config.json`:**
+
+    ```json
+    {
+        "simple_plugin": {
+            "enabled": true,
+            "dependencies": []
+        },
+        "gui_plugin": {
+            "enabled": true,
+            "dependencies": []
+        },
+        "api_extension_plugin": {
+            "enabled": true,
+            "dependencies": []
+        },
+        "consumer_plugin": {
+            "enabled": true,
+            "dependencies": ["api_extension_plugin"]
+        }
+    }
+    ```
+
+4. **Создайте простой плагин `plugins/simple_plugin.py`:**
+
+    ```python
+    # plugins/simple_plugin.py
+
+    import logging
+
+    class Plugin:
+        def __init__(self, core, config):
+            """
+            Инициализация плагина.
+
+            :param core: Экземпляр ядра.
+            :param config: Конфигурация плагина.
+            """
+            self.core = core
+            self.config = config
+            self.setup()
+            logging.info("Simple Plugin инициализирован.")
+
+        def setup(self):
+            """Настройка плагина (регистрация хуков)."""
+            self.core.register_hook('on_start', self.on_start)
+            logging.info("Simple Plugin зарегистрировал хук 'on_start'.")
+
+        def on_start(self):
+            """Обработчик события 'on_start'."""
+            print("Simple Plugin получил событие 'on_start'.")
+
+        def unload(self):
+            """Действия при выгрузке плагина."""
+            self.core.unregister_hook('on_start', self.on_start)
+            logging.info("Simple Plugin выгружен.")
+    ```
+
+5. **Создайте GUI-плагин `plugins/gui_plugin.py`:**
+
+    ```python
+    # plugins/gui_plugin.py
+
+    import threading
+    import tkinter as tk
+    from tkinter import messagebox
+    import logging
+
+    class Plugin:
+        def __init__(self, core, config):
+            """
+            Инициализация GUI-плагина.
+
+            :param core: Экземпляр ядра.
+            :param config: Конфигурация плагина.
+            """
+            self.core = core
+            self.config = config
+            self.setup()
+            self.gui_thread = None
+            self.root = None
+            logging.info("GUI Plugin инициализирован.")
+
+        def setup(self):
+            """Настройка плагина (регистрация хуков и API)."""
+            self.core.register_hook('on_start', self.on_start)
+            self.core.register_hook('on_exit', self.on_exit)
+            self.core.register_api('get_gui_status', self.get_status)
+            logging.info("GUI Plugin зарегистрировал хуки 'on_start' и 'on_exit', а также API метод 'get_gui_status'.")
+
+        def on_start(self):
+            """Обработчик события 'on_start' для запуска GUI."""
+            logging.info("GUI Plugin получил событие 'on_start'. Запуск GUI.")
+            self.gui_thread = threading.Thread(target=self.run_gui, daemon=True)
+            self.gui_thread.start()
+
+        def run_gui(self):
+            """Запуск графического интерфейса."""
+            self.root = tk.Tk()
+            self.root.title("SAGE-Core-X GUI Plugin")
+            self.root.geometry("300x200")
+
+            label = tk.Label(self.root, text="Добро пожаловать в GUI-плагин SAGE-Core-X!")
+            label.pack(pady=20)
+
+            button = tk.Button(self.root, text="Показать сообщение", command=self.show_message)
+            button.pack(pady=10)
+
+            status_button = tk.Button(self.root, text="Получить статус GUI", command=self.show_status)
+            status_button.pack(pady=10)
+
+            self.root.protocol("WM_DELETE_WINDOW", self.on_close)
+            self.root.mainloop()
+
+        def show_message(self):
+            """Показать информационное сообщение."""
+            messagebox.showinfo("Информация", "Это пример сообщения от GUI-плагина.")
+
+        def show_status(self):
+            """Показать статус GUI через API."""
+            status = self.core.execute_api('get_gui_status')
+            messagebox.showinfo("Статус GUI", status)
+
+        def get_status(self):
+            """Возвращает статус GUI."""
+            return "GUI работает"
+
+        def on_close(self):
+            """Обработчик закрытия окна GUI."""
+            logging.info("GUI Plugin получает команду на закрытие GUI.")
+            self.root.destroy()
+
+        def unload(self):
+            """Действия при выгрузке плагина."""
+            self.core.unregister_hook('on_start', self.on_start)
+            self.core.unregister_hook('on_exit', self.on_exit)
+            self.core.unregister_api('get_gui_status')
+            logging.info("GUI Plugin выгружен.")
+    ```
+
+6. **Создайте плагин-расширение API `plugins/api_extension_plugin.py`:**
+
+    ```python
+    # plugins/api_extension_plugin.py
+
+    import logging
+
+    class Plugin:
+        def __init__(self, core, config):
+            """
+            Инициализация плагина расширения API.
+
+            :param core: Экземпляр ядра.
+            :param config: Конфигурация плагина.
+            """
+            self.core = core
+            self.config = config
+            self.setup()
+            logging.info("API Extension Plugin инициализирован.")
+
+        def setup(self):
+            """Настройка плагина (регистрация новых API методов)."""
+            # Попытка перезаписать защищенный метод (будет отказано)
+            self.core.register_api('execute_api', self.fake_execute_api)
+
+            # Регистрация нового API метода (успешно)
+            self.core.register_api('greet', self.greet)
+            logging.info("API метод 'greet' зарегистрирован в ядре.")
+
+            # Регистрация второго API метода
+            self.core.register_api('add_numbers', self.add_numbers)
+            logging.info("API метод 'add_numbers' зарегистрирован в ядре.")
+
+        def fake_execute_api(self, *args, **kwargs):
+            """Фейковый метод, который не должен быть зарегистрирован."""
+            logging.info("Этот метод не должен быть зарегистрирован.")
+
+        def greet(self, name: str) -> str:
+            """Приветствует пользователя по имени."""
+            return f"Привет, {name}! Это сообщение от безопасного расширения API."
+
+        def add_numbers(self, a: int, b: int) -> int:
+            """Возвращает сумму двух чисел."""
+            return a + b
+
+        def unload(self):
+            """Действия при выгрузке плагина (отмена регистраций API)."""
+            self.core.unregister_api('greet')
+            logging.info("API метод 'greet' удалён из ядра.")
+
+            self.core.unregister_api('add_numbers')
+            logging.info("API метод 'add_numbers' удалён из ядра.")
+    ```
+
+7. **Создайте потребляющий плагин `plugins/consumer_plugin.py`:**
+
+    ```python
+    # plugins/consumer_plugin.py
+
+    import logging
+
+    class Plugin:
+        def __init__(self, core, config):
+            """
+            Инициализация плагина-потребителя API.
+
+            :param core: Экземпляр ядра.
+            :param config: Конфигурация плагина.
+            """
+            self.core = core
+            self.config = config
+            self.setup()
+            logging.info("Consumer Plugin инициализирован.")
+
+        def setup(self):
+            """Настройка плагина (регистрация хуков)."""
+            self.core.register_hook('on_start', self.on_start)
+            logging.info("Consumer Plugin зарегистрировал хук 'on_start'.")
+
+        def on_start(self):
+            """Обработчик события 'on_start'."""
+            # Используем API метод 'greet'
+            greeting = self.core.execute_api('greet', 'Мир')
+            print(greeting)  # Ожидаемый вывод: Привет, Мир! Это сообщение от безопасного расширения API.
+
+            # Используем API метод 'add_numbers'
+            result = self.core.execute_api('add_numbers', 10, 15)
+            print(f"Сумма чисел 10 и 15: {result}")  # Ожидаемый вывод: Сумма чисел 10 и 15: 25
+
+        def unload(self):
+            """Действия при выгрузке плагина."""
+            self.core.unregister_hook('on_start', self.on_start)
+            logging.info("Consumer Plugin выгружен.")
+    ```
+
+8. **Запустите приложение:**
+
+    ```bash
+    python sage/main.py
+    ```
+
+    **Ожидаемый вывод:**
+
+    ```
+    Привет, Алексей! Это сообщение от безопасного расширения API.
+    Сумма чисел 5 и 7: 12
+    Привет, Мир! Это сообщение от безопасного расширения API.
+    Сумма чисел 10 и 15: 25
+    SAGE-Core-X запущен. Для завершения нажмите Ctrl+C.
+    ```
+
+---
+
+## Конфигурация
+
+### Конфигурационный Файл `plugins_config.json`
+
+Файл конфигурации позволяет управлять настройками каждого плагина, включая включение/отключение и указание зависимостей.
+
+**Пример структуры:**
+
+```json
+{
+    "simple_plugin": {
+        "enabled": true,
+        "dependencies": []
+    },
+    "gui_plugin": {
+        "enabled": true,
+        "dependencies": []
+    },
+    "api_extension_plugin": {
+        "enabled": true,
+        "dependencies": []
+    },
+    "consumer_plugin": {
+        "enabled": true,
+        "dependencies": ["api_extension_plugin"]
+    }
+}
+```
+
+- **enabled**: `true` или `false` — включает или отключает плагин.
+- **dependencies**: Список имен плагинов, от которых зависит данный плагин.
+
+---
+
+## Использование Ядра
+
+### Инициализация ядра
+
+Создайте экземпляр `Core`, указав директорию плагинов и файл конфигурации:
+
+```python
+from core import Core
+
+core = Core(plugins_dir='plugins', config_file='plugins_config.json')
+```
+
+### Регистрация хуков
+
+Хуки позволяют плагинам реагировать на определённые события.
+
+```python
+def on_custom_event(data):
+    print(f"Получено событие с данными: {data}")
+
+core.register_hook('custom_event', on_custom_event)
+```
+
+### Регистрация API методов
+
+API методы позволяют плагинам вызывать функции ядра или других плагинов.
+
+```python
+def get_data():
+    return "Данные от ядра"
+
+core.register_api('get_data', get_data)
+```
+
+### Вызов хуков
+
+Вызовите все функции, зарегистрированные на определённый хук:
+
+```python
+core.trigger_hook('custom_event', data="Пример данных")
+```
+
+### Вызов API методов
+
+Выполните зарегистрированный API метод:
+
+```python
+result = core.execute_api('get_data')
+print(result)  # Вывод: Данные от ядра
+```
+
+### Управление плагинами
+
+#### Загрузка плагина
+
+```python
+core.load_plugin('new_plugin', config={
+    "enabled": true,
+    "dependencies": []
+})
+```
+
+#### Выгрузка плагина
+
+```python
+core.unload_plugin('simple_plugin')
+```
+
+#### Перезагрузка плагина
+
+```python
+core.reload_plugin('simple_plugin')
+```
+
+#### Включение плагина
+
+```python
+core.enable_plugin('another_plugin')
+```
+
+#### Отключение плагина
+
+```python
+core.disable_plugin('another_plugin')
+```
+
+#### Список загруженных плагинов
+
+```python
+plugins = core.list_plugins()
+print(plugins)  # Вывод: ['simple_plugin', 'gui_plugin', 'api_extension_plugin', 'consumer_plugin']
+```
+
+---
+
+## Расширение API Ядра через Плагины
+
+### Принципы безопасности
+
+- **Защищенные методы**: Существуют методы ядра (`register_api`, `unregister_api`, `execute_api`, `list_apis`), которые нельзя перезаписывать или удалять.
+- **Изоляция плагинов**: Плагины не могут изменять или перезаписывать методы ядра или других плагинов, что предотвращает случайные или злонамеренные изменения.
+- **Логирование**: Все действия по регистрации и удалению API методов логируются для обеспечения отслеживаемости и отладки.
+
+### Пример расширяющего плагина
+
+Создадим плагин `api_extension_plugin`, который добавляет новые методы в API ядра.
+
+```python
+# plugins/api_extension_plugin.py
+
+import logging
+
+class Plugin:
+    def __init__(self, core, config):
+        """
+        Инициализация плагина расширения API.
+
+        :param core: Экземпляр ядра.
+        :param config: Конфигурация плагина.
+        """
+        self.core = core
+        self.config = config
+        self.setup()
+        logging.info("API Extension Plugin инициализирован.")
+
+    def setup(self):
+        """Настройка плагина (регистрация новых API методов)."""
+        # Попытка перезаписать защищенный метод (будет отказано)
+        self.core.register_api('execute_api', self.fake_execute_api)
+
+        # Регистрация нового API метода (успешно)
+        self.core.register_api('greet', self.greet)
+        logging.info("API метод 'greet' зарегистрирован в ядре.")
+
+        # Регистрация второго API метода
+        self.core.register_api('add_numbers', self.add_numbers)
+        logging.info("API метод 'add_numbers' зарегистрирован в ядре.")
+
+    def fake_execute_api(self, *args, **kwargs):
+        """Фейковый метод, который не должен быть зарегистрирован."""
+        logging.info("Этот метод не должен быть зарегистрирован.")
+
+    def greet(self, name: str) -> str:
+        """Приветствует пользователя по имени."""
+        return f"Привет, {name}! Это сообщение от безопасного расширения API."
+
+    def add_numbers(self, a: int, b: int) -> int:
+        """Возвращает сумму двух чисел."""
+        return a + b
+
+    def unload(self):
+        """Действия при выгрузке плагина (отмена регистраций API)."""
+        self.core.unregister_api('greet')
+        logging.info("API метод 'greet' удалён из ядра.")
+
+        self.core.unregister_api('add_numbers')
+        logging.info("API метод 'add_numbers' удалён из ядра.")
+```
+
+**Пояснения:**
+
+- **Попытка перезаписи защищенного метода**: Плагин пытается зарегистрировать метод `execute_api`, который является защищенным. `RegistryManager` откажет в регистрации и выведет сообщение об ошибке.
+- **Регистрация новых методов**: Плагин успешно регистрирует методы `greet` и `add_numbers`, которые могут быть использованы другими плагинами и основным приложением.
+
+---
+
+## Разработка Плагинов
+
+### Шаблон плагина
+
+Используйте следующий шаблон для создания новых плагинов:
+
+```python
+# plugins/my_plugin.py
+
+import logging
+
+class Plugin:
+    def __init__(self, core, config):
+        """
+        Инициализация плагина.
+
+        :param core: Экземпляр ядра.
+        :param config: Конфигурация плагина.
+        """
+        self.core = core
+        self.config = config
+        self.setup()
+        logging.info("My Plugin инициализирован.")
+
+    def setup(self):
+        """Настройка плагина (регистрация хуков и API методов)."""
+        # Пример регистрации хука
+        self.core.register_hook('on_event', self.on_event)
+        logging.info("My Plugin зарегистрировал хук 'on_event'.")
+
+        # Пример регистрации API метода
+        self.core.register_api('my_api_method', self.my_api_method)
+        logging.info("My Plugin зарегистрировал API метод 'my_api_method'.")
+
+    def on_event(self, *args, **kwargs):
+        """Обработчик события 'on_event'."""
+        logging.info("My Plugin получил событие 'on_event'.")
+
+    def my_api_method(self, data):
+        """Пример API метода."""
+        logging.info(f"My API метод получил данные: {data}")
+        return f"Обработано: {data}"
+
+    def unload(self):
+        """Действия при выгрузке плагина."""
+        self.core.unregister_hook('on_event', self.on_event)
+        self.core.unregister_api('my_api_method')
+        logging.info("My Plugin выгружен.")
+```
+
+### Пример GUI-плагина
+
+GUI-плагин позволяет создавать графический интерфейс без изменения ядра.
+
+```python
+# plugins/gui_plugin.py
+
+import threading
+import tkinter as tk
+from tkinter import messagebox
+import logging
+
+class Plugin:
+    def __init__(self, core, config):
+        """
+        Инициализация GUI-плагина.
+
+        :param core: Экземпляр ядра.
+        :param config: Конфигурация плагина.
+        """
+        self.core = core
+        self.config = config
+        self.setup()
+        self.gui_thread = None
+        self.root = None
+        logging.info("GUI Plugin инициализирован.")
+
+    def setup(self):
+        """Настройка плагина (регистрация хуков и API)."""
+        self.core.register_hook('on_start', self.on_start)
+        self.core.register_hook('on_exit', self.on_exit)
+        self.core.register_api('get_gui_status', self.get_status)
+        logging.info("GUI Plugin зарегистрировал хуки 'on_start' и 'on_exit', а также API метод 'get_gui_status'.")
+
+    def on_start(self):
+        """Обработчик события 'on_start' для запуска GUI."""
+        logging.info("GUI Plugin получил событие 'on_start'. Запуск GUI.")
+        self.gui_thread = threading.Thread(target=self.run_gui, daemon=True)
+        self.gui_thread.start()
+
+    def run_gui(self):
+        """Запуск графического интерфейса."""
+        self.root = tk.Tk()
+        self.root.title("SAGE-Core-X GUI Plugin")
+        self.root.geometry("300x200")
+
+        label = tk.Label(self.root, text="Добро пожаловать в GUI-плагин SAGE-Core-X!")
+        label.pack(pady=20)
+
+        button = tk.Button(self.root, text="Показать сообщение", command=self.show_message)
+        button.pack(pady=10)
+
+        status_button = tk.Button(self.root, text="Получить статус GUI", command=self.show_status)
+        status_button.pack(pady=10)
+
+        self.root.protocol("WM_DELETE_WINDOW", self.on_close)
+        self.root.mainloop()
+
+    def show_message(self):
+        """Показать информационное сообщение."""
+        messagebox.showinfo("Информация", "Это пример сообщения от GUI-плагина.")
+
+    def show_status(self):
+        """Показать статус GUI через API."""
+        status = self.core.execute_api('get_gui_status')
+        messagebox.showinfo("Статус GUI", status)
+
+    def get_status(self):
+        """Возвращает статус GUI."""
+        return "GUI работает"
+
+    def on_close(self):
+        """Обработчик закрытия окна GUI."""
+        logging.info("GUI Plugin получает команду на закрытие GUI.")
+        self.root.destroy()
+
+    def unload(self):
+        """Действия при выгрузке плагина."""
+        self.core.unregister_hook('on_start', self.on_start)
+        self.core.unregister_hook('on_exit', self.on_exit)
+        self.core.unregister_api('get_gui_status')
+        logging.info("GUI Plugin выгружен.")
+```
+
+### Пример плагина-расширения API
+
+Плагин, который безопасно расширяет API ядра.
+
+```python
+# plugins/api_extension_plugin.py
+
+import logging
+
+class Plugin:
+    def __init__(self, core, config):
+        """
+        Инициализация плагина расширения API.
+
+        :param core: Экземпляр ядра.
+        :param config: Конфигурация плагина.
+        """
+        self.core = core
+        self.config = config
+        self.setup()
+        logging.info("API Extension Plugin инициализирован.")
+
+    def setup(self):
+        """Настройка плагина (регистрация новых API методов)."""
+        # Попытка перезаписать защищенный метод (будет отказано)
+        self.core.register_api('execute_api', self.fake_execute_api)
+
+        # Регистрация нового API метода (успешно)
+        self.core.register_api('greet', self.greet)
+        logging.info("API метод 'greet' зарегистрирован в ядре.")
+
+        # Регистрация второго API метода
+        self.core.register_api('add_numbers', self.add_numbers)
+        logging.info("API метод 'add_numbers' зарегистрирован в ядре.")
+
+    def fake_execute_api(self, *args, **kwargs):
+        """Фейковый метод, который не должен быть зарегистрирован."""
+        logging.info("Этот метод не должен быть зарегистрирован.")
+
+    def greet(self, name: str) -> str:
+        """Приветствует пользователя по имени."""
+        return f"Привет, {name}! Это сообщение от безопасного расширения API."
+
+    def add_numbers(self, a: int, b: int) -> int:
+        """Возвращает сумму двух чисел."""
+        return a + b
+
+    def unload(self):
+        """Действия при выгрузке плагина (отмена регистраций API)."""
+        self.core.unregister_api('greet')
+        logging.info("API метод 'greet' удалён из ядра.")
+
+        self.core.unregister_api('add_numbers')
+        logging.info("API метод 'add_numbers' удалён из ядра.")
+```
+
+### Пример потребляющего плагина
+
+Плагин, который использует расширенные API методы.
+
+```python
+# plugins/consumer_plugin.py
+
+import logging
+
+class Plugin:
+    def __init__(self, core, config):
+        """
+        Инициализация плагина-потребителя API.
+
+        :param core: Экземпляр ядра.
+        :param config: Конфигурация плагина.
+        """
+        self.core = core
+        self.config = config
+        self.setup()
+        logging.info("Consumer Plugin инициализирован.")
+
+    def setup(self):
+        """Настройка плагина (регистрация хуков)."""
+        self.core.register_hook('on_start', self.on_start)
+        logging.info("Consumer Plugin зарегистрировал хук 'on_start'.")
+
+    def on_start(self):
+        """Обработчик события 'on_start'."""
+        # Используем API метод 'greet'
+        greeting = self.core.execute_api('greet', 'Мир')
+        print(greeting)  # Ожидаемый вывод: Привет, Мир! Это сообщение от безопасного расширения API.
+
+        # Используем API метод 'add_numbers'
+        result = self.core.execute_api('add_numbers', 10, 15)
+        print(f"Сумма чисел 10 и 15: {result}")  # Ожидаемый вывод: Сумма чисел 10 и 15: 25
+
+    def unload(self):
+        """Действия при выгрузке плагина."""
+        self.core.unregister_hook('on_start', self.on_start)
+        logging.info("Consumer Plugin выгружен.")
+```
+
+---
+
+## Управление Плагинами
+
+### Загрузка плагина
+
+```python
+core.load_plugin('new_plugin', config={
+    "enabled": true,
+    "dependencies": []
+})
+```
+
+### Выгрузка плагина
+
+```python
+core.unload_plugin('simple_plugin')
+```
+
+### Перезагрузка плагина
+
+```python
+core.reload_plugin('simple_plugin')
+```
+
+### Включение и отключение плагина
+
+**Включение плагина:**
+
+```python
+core.enable_plugin('new_plugin')
+```
+
+**Отключение плагина:**
+
+```python
+core.disable_plugin('new_plugin')
+```
+
+### Список загруженных плагинов
+
+```python
+plugins = core.list_plugins()
+print(plugins)  # Вывод: ['simple_plugin', 'gui_plugin', 'api_extension_plugin', 'consumer_plugin']
+```
+
+---
+
+## Конфигурационный Файл
+
+### Структура `plugins_config.json`
+
+Конфигурационный файл управляет настройками каждого плагина, включая включение/отключение и зависимости.
+
+**Пример:**
+
+```json
+{
+    "simple_plugin": {
+        "enabled": true,
+        "dependencies": []
+    },
+    "gui_plugin": {
+        "enabled": true,
+        "dependencies": []
+    },
+    "api_extension_plugin": {
+        "enabled": true,
+        "dependencies": []
+    },
+    "consumer_plugin": {
+        "enabled": true,
+        "dependencies": ["api_extension_plugin"]
+    }
+}
+```
+
+- **enabled**: `true` или `false` — включает или отключает плагин.
+- **dependencies**: Список имен плагинов, от которых зависит данный плагин.
+
+---
+
+## Логирование
+
+**SAGE-Core-X** использует модуль `logging` для вывода информации о работе системы и плагинов. Вы можете настроить уровень логирования и формат вывода по своему усмотрению.
+
+**Пример настройки логирования в `main.py`:**
+
+```python
+logging.basicConfig(
+    level=logging.INFO,  # Уровень логирования: DEBUG, INFO, WARNING, ERROR, CRITICAL
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("sage_core.log"),  # Логирование в файл
+        logging.StreamHandler()               # Логирование в консоль
+    ]
+)
+```
+
+**Пояснения:**
+
+- **level**: Уровень детализации логов. `INFO` подходит для большинства случаев.
+- **format**: Формат сообщений логирования.
+- **handlers**: Обработчики, определяющие куда будут выводиться логи (файл и консоль).
+
+---
+
+## Отладка и Решение Проблем
+
+### Часто Возникающие Ошибки
+
+1. **Ошибка инициализации плагина:**
+
+    ```
+    ERROR:root:Ошибка при инициализации плагина 'simple_plugin': Plugin.__init__() takes 2 positional arguments but 3 were given
+    ```
+
+    **Причина:** Метод `__init__` вашего плагина ожидает два аргумента (`core` и `config`), но получает три.
+
+    **Решение:** Убедитесь, что ваш класс `Plugin` принимает только два аргумента.
+
+    ```python
+    class Plugin:
+        def __init__(self, core, config):
+            # Ваш код
+    ```
+
+2. **Предупреждение о неинициализированном плагине:**
+
+    ```
+    WARNING:root:Плагин 'simple_plugin' не инициализирован.
+    ```
+
+    **Причина:** Плагин отключён в конфигурации или произошла ошибка при его инициализации.
+
+    **Решение:**
+    - Проверьте, что плагин включён в `plugins_config.json`.
+    - Проверьте логи на наличие ошибок при инициализации плагина.
+    - Убедитесь, что плагин соответствует требованиям ядра (правильный `__init__` и методы).
+
+### Отладка
+
+- **Просмотр логов:** Изучите лог-файлы или консольные сообщения для выявления причин ошибок.
+- **Тестирование плагинов:** Запускайте плагин в изолированном окружении, чтобы убедиться в его корректной работе.
+- **Использование отладчика:** Используйте встроенные средства отладки Python (например, `pdb`) для пошагового анализа кода плагинов.
+
+---
+
+## Часто Задаваемые Вопросы (FAQ)
+
+1. **Можно ли использовать асинхронные хуки?**
+
+    Да, вы можете использовать асинхронные функции в качестве хуков. Однако убедитесь, что вызов `trigger_hook` поддерживает асинхронные вызовы, или используйте соответствующие средства для их обработки.
+
+2. **Как управлять зависимостями между плагинами?**
+
+    Укажите зависимости в конфигурационном файле `plugins_config.json` в разделе `dependencies`. Ядро автоматически загрузит плагины в порядке, удовлетворяющем их зависимостям.
+
+3. **Можно ли передавать параметры при инициализации плагинов?**
+
+    Да, вы можете добавить любые параметры в конфигурационный файл `plugins_config.json`, и они будут переданы в конструктор плагина через аргумент `config`.
+
+4. **Как обновить плагин без перезапуска приложения?**
+
+    Используйте метод `reload_plugin`:
+
+    ```python
+    core.reload_plugin('plugin_name')
+    ```
+
+5. **Как отключить плагин?**
+
+    Используйте метод `disable_plugin`:
+
+    ```python
+    core.disable_plugin('plugin_name')
+    ```
+
+---
+
+## Вклад в Проект
+
+Мы рады вашему вкладу в развитие **SAGE-Core-X**! Пожалуйста, следуйте этим шагам для внесения изменений:
+
+1. **Форкните репозиторий** на GitHub.
+2. **Создайте новую ветку** для ваших изменений:
+
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+
+3. **Внесите изменения** и **закоммитьте их**:
+
+    ```bash
+    git commit -m "Добавлена новая функция..."
+    ```
+
+4. **Отправьте изменения** в ваш форк:
+
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+5. **Создайте Pull Request** на GitHub для рассмотрения ваших изменений.
+
+Пожалуйста, убедитесь, что ваш код соответствует стандартам проекта и включает необходимые тесты.
+
+---
+
+## Лицензия
+
+**SAGE-Core-X** лицензирован под лицензией **MIT**. Подробности см. в файле [LICENSE](LICENSE).
+
+---
+
+## Полезные Ссылки
+
+- [Документация Python](https://docs.python.org/3/)
+- [Setuptools](https://setuptools.pypa.io/en/latest/)
+- [PyPI](https://pypi.org/)
+- [GitHub](https://github.com/)
+- [Semantic Versioning](https://semver.org/lang/ru/)
+- [tkinter Документация](https://docs.python.org/3/library/tkinter.html)
+
+---
+
+## Контакты
+
+Если у вас возникли вопросы или предложения, свяжитесь с нами по электронной почте: [amckinatorgames@gmail.com](mailto:your_email@example.com).
+
+---
+
+## Дополнительные Разделы
+
+### Расширение API Ядра через Плагины
+
+#### Принципы безопасности
+
+- **Защищенные методы**: Методы ядра (`register_api`, `unregister_api`, `execute_api`, `list_apis`) защищены от перезаписи и удаления.
+- **Изоляция плагинов**: Плагины не могут изменять методы ядра или других плагинов, что предотвращает случайные или злонамеренные изменения.
+- **Логирование**: Все действия по регистрации и удалению API методов логируются для обеспечения отслеживаемости и отладки.
+
+#### Пример плагина-расширения API
+
+Плагин, который добавляет новые API методы и пытается перезаписать защищенный метод.
+
+```python
+# plugins/api_extension_plugin.py
+
+import logging
+
+class Plugin:
+    def __init__(self, core, config):
+        """
+        Инициализация плагина расширения API.
+
+        :param core: Экземпляр ядра.
+        :param config: Конфигурация плагина.
+        """
+        self.core = core
+        self.config = config
+        self.setup()
+        logging.info("API Extension Plugin инициализирован.")
+
+    def setup(self):
+        """Настройка плагина (регистрация новых API методов)."""
+        # Попытка перезаписать защищенный метод (будет отказано)
+        self.core.register_api('execute_api', self.fake_execute_api)
+
+        # Регистрация нового API метода (успешно)
+        self.core.register_api('greet', self.greet)
+        logging.info("API метод 'greet' зарегистрирован в ядре.")
+
+        # Регистрация второго API метода
+        self.core.register_api('add_numbers', self.add_numbers)
+        logging.info("API метод 'add_numbers' зарегистрирован в ядре.")
+
+    def fake_execute_api(self, *args, **kwargs):
+        """Фейковый метод, который не должен быть зарегистрирован."""
+        logging.info("Этот метод не должен быть зарегистрирован.")
+
+    def greet(self, name: str) -> str:
+        """Приветствует пользователя по имени."""
+        return f"Привет, {name}! Это сообщение от безопасного расширения API."
+
+    def add_numbers(self, a: int, b: int) -> int:
+        """Возвращает сумму двух чисел."""
+        return a + b
+
+    def unload(self):
+        """Действия при выгрузке плагина (отмена регистраций API)."""
+        self.core.unregister_api('greet')
+        logging.info("API метод 'greet' удалён из ядра.")
+
+        self.core.unregister_api('add_numbers')
+        logging.info("API метод 'add_numbers' удалён из ядра.")
+```
+
+**Пояснения:**
+
+- **Попытка перезаписи защищенного метода**: Метод `execute_api` является защищенным и его перезапись будет отклонена системой. В логах будет отображено сообщение об ошибке.
+- **Регистрация новых методов**: Методы `greet` и `add_numbers` успешно регистрируются и доступны для использования другими плагинами и основным приложением.
+
+### Использование расширенных API методов
+
+#### В основном приложении
+
+```python
+# sage/main.py
+
+import time
+import logging
+from core import Core
+
+def main():
+    # Настройка логирования
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler("sage_core.log"),
+            logging.StreamHandler()
+        ]
+    )
+    logger = logging.getLogger(__name__)
+
+    try:
+        core = Core(plugins_dir='plugins', config_file='plugins_config.json')
+        logger.info("Инициализировано ядро SAGE-Core-X.")
+
+        # Вызов хуков 'on_start'
+        core.trigger_hook('on_start')
+        logger.info("Вызваны хуки 'on_start'.")
+
+        # Использование нового API метода
+        greeting = core.execute_api('greet', 'Алексей')
+        print(greeting)  # Ожидаемый вывод: Привет, Алексей! Это сообщение от безопасного расширения API.
+
+        # Попытка выполнить несуществующий метод
+        result = core.execute_api('non_existent_method')
+        print(result)  # Ожидаемый вывод: предупреждение о том, что метод не найден
+
+        print("SAGE-Core-X запущен. Для завершения нажмите Ctrl+C.")
+
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        logger.info("Получено прерывание пользователем. Завершение работы SAGE-Core-X.")
+        print("\nЗавершение работы SAGE-Core-X...")
+
+        core.trigger_hook('on_exit')
+        logger.info("Вызваны хуки 'on_exit'.")
+        print("SAGE-Core-X успешно завершил работу.")
+
+if __name__ == '__main__':
+    main()
+```
+
+**Ожидаемый вывод:**
+
+```
+Привет, Алексей! Это сообщение от безопасного расширения API.
+None
+SAGE-Core-X запущен. Для завершения нажмите Ctrl+C.
+```
+
+**Лог-файл `sage_core.log`:**
+
+```
+INFO:root:Инициализировано ядро SAGE-Core-X.
+INFO:root:Вызваны хуки 'on_start'.
+INFO:plugins.api_extension_plugin:API метод 'greet' зарегистрирован в ядре.
+INFO:plugins.api_extension_plugin:API метод 'add_numbers' зарегистрирован в ядре.
+INFO:plugins.gui_plugin:GUI Plugin инициализирован.
+INFO:plugins.gui_plugin:GUI Plugin зарегистрировал хуки 'on_start' и 'on_exit', а также API метод 'get_gui_status'.
+INFO:plugins.gui_plugin:GUI Plugin получил событие 'on_start'. Запуск GUI.
+INFO:root:API метод 'execute_api' является защищенным и не может быть перезаписан.
+WARNING:root:API метод 'non_existent_method' не найден.
+INFO:root:Получено прерывание пользователем. Завершение работы SAGE-Core-X.
+INFO:plugins.gui_plugin:GUI Plugin получает событие 'on_exit'. Завершение GUI.
+INFO:plugins.gui_plugin:GUI Plugin выгружен.
+```
+
+---
+
+## Заключение
+
+Документация версии **SAGE-Core-X 0.1.1** предоставляет полное руководство для пользователей и разработчиков, позволяя легко устанавливать, настраивать и разрабатывать плагины для расширения функциональности приложений. Основные нововведения включают безопасное расширение API ядра через плагины, что обеспечивает гибкость и безопасность системы.
+
+Мы стремимся сделать **SAGE-Core-X** максимально гибким, производительным и удобным для использования. Благодарим вас за выбор **SAGE-Core-X**!
+
+Если у вас есть дополнительные вопросы или предложения по улучшению документации, пожалуйста, свяжитесь с нами.
+
+---
+
+## Дополнительные Рекомендации
+
+1. **Использование Виртуального Окружения**
+
+    Для разработки и тестирования рекомендуется использовать виртуальное окружение:
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # Для Windows: venv\Scripts\activate
+    ```
+
+2. **Установка Пакета в Режиме Разработки**
+
+    Установите пакет в режиме разработки для удобства тестирования:
+
+    ```bash
+    pip install -e .
+    ```
+
+3. **Тестирование Плагинов**
+
+    Добавьте тесты для ваших плагинов, используя фреймворки `unittest` или `pytest`. Это обеспечит стабильность и корректность работы системы плагинов.
+
+4. **Автоматизация Сборки и Публикации**
+
+    Рассмотрите возможность использования инструментов автоматизации, таких как GitHub Actions, для автоматической сборки и публикации пакета при каждом коммите или теге.
+
+5. **Развитие Документации**
+
+    Рассмотрите возможность использования генераторов документации, таких как Sphinx, для создания более структурированной и удобной документации. Это позволит вам создавать HTML-версии документации и предоставлять более детальные руководства.
