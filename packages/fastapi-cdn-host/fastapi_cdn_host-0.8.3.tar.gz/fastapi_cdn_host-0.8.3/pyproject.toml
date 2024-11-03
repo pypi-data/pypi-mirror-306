@@ -1,0 +1,77 @@
+[tool.poetry]
+name = "fastapi-cdn-host"
+version = "0"  # Managed by poetry-plugin-version with value in fastapi_cdn_host/__init__.py
+description = "Auto choose the fastest cdn host for fastapi project docs."
+homepage = "https://github.com/waketzheng/fastapi-cdn-host"
+repository = "https://github.com/waketzheng/fastapi-cdn-host.git"
+authors = ["Waket Zheng <waketzheng@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = {version = ">=0.100"}
+httpx = {version = ">=0.23"}
+fastapi-cli = {version = "^0.0.5", optional = true}
+asyncer = "^0.0.8"
+
+[tool.poetry.extras]
+all = ["fastapi-cli"]
+
+[tool.poetry.group.dev.dependencies]
+fast-dev-cli = {version=">=0.11.0", python=">=3.10"}
+pre-commit = {version=">=3.7.0", python=">=3.10"}
+asynctor = {version=">=0.6.0", python=">=3.10"}
+ruff = ">=0.7,<1"
+mypy = ">=1.12,<2"
+pytest = ">=8.3,<9"
+coverage = ">=7.6,<8"
+click = ">=8.1,<9"
+bandit = ">=1.7,<2"
+trio = ">=0.26,<0.28"
+fastapi-cli = ">=0.0.5,<1"
+pytest-mock = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+pretty = true
+ignore_missing_imports = true
+explicit_package_bases = true
+check_untyped_defs = true
+
+[tool.ruff.lint]
+extend-select = [
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "SIM",  # flake8-simplify
+]
+
+[tool.ruff.lint.per-file-ignores]
+"test_*.py" = ["E501"]
+"examples/main.py" = ["I001"]
+
+[tool.coverage.run]
+branch = true
+parallel=true
+source = ["fastapi_cdn_host"]
+[tool.coverage.report]
+omit = ["*/tests/*", "test_*"]
+exclude_lines = [
+    "pragma: no cover",
+    "@overload",
+    'if __name__ == "__main__":',
+    "if TYPE_CHECKING:",
+]
+
+[tool.poetry.scripts]
+fastcdn = "fastapi_cdn_host:cli.main"
+
+[tool.bandit]
+exclude_dirs = ["tests", "fastapi_cdn_host/cli.py", "scripts", "examples"]
+
+# pipx inject poetry poetry-plugin-version
+[tool.poetry-plugin-version]
+source = "init"
