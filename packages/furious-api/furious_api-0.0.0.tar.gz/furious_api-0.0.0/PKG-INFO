@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: furious-api
+Version: 0.0.0
+Summary: if Xzibit customized FastAPI
+Author-email: Serhii Karelov <axe@sharpaxe.org>
+License: MIT License
+Project-URL: Homepage, https://github.com/serhii-karelov/furious-api
+Project-URL: Repository, https://github.com/serhii-karelov/furious-api
+Description-Content-Type: text/markdown
+
+# Furious API
+FastAPI extensions

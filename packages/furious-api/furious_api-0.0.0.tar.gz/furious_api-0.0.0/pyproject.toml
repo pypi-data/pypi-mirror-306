@@ -1,0 +1,14 @@
+[project]
+version = "0.0.0"
+name = "furious-api"
+description = "if Xzibit customized FastAPI"
+readme = "README.md"
+license = {text = "MIT License"}
+authors = [
+  {name = "Serhii Karelov", email = "axe@sharpaxe.org"}
+]
+
+[project.urls]
+Homepage = "https://github.com/serhii-karelov/furious-api"
+Repository = "https://github.com/serhii-karelov/furious-api"
+

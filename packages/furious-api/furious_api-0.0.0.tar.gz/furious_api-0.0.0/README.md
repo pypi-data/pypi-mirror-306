@@ -1,0 +1,2 @@
+# Furious API
+FastAPI extensions

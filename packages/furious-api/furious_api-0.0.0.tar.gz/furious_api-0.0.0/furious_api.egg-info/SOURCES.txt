@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+furious_api.egg-info/PKG-INFO
+furious_api.egg-info/SOURCES.txt
+furious_api.egg-info/dependency_links.txt
+furious_api.egg-info/top_level.txt
