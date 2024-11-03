@@ -1,0 +1,71 @@
+[tool.poetry]
+name = "mkdocs-asciinema-player"
+version = "0.14.0"
+description = "A Mkdocs Plugin to include asciinema player in your documentation."
+license = "MIT"
+authors = [
+  "Philippe-André De Carvalho <philippe.andre.decarvalho@gmail.com>"
+]
+maintainers = [
+  "Philippe-André De Carvalho <philippe.andre.decarvalho@gmail.com>"
+]
+readme = "README.md"
+homepage = "https://github.com/pa-decarvalho/mkdocs-asciinema-player"
+repository = "https://github.com/pa-decarvalho/mkdocs-asciinema-player"
+documentation = "https://pa-decarvalho.github.io/mkdocs-asciinema-player/"
+keywords = ["mkdocs", "documentation", "asciinema", "asciinema-player"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Operating System :: POSIX",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: System Administrators",
+  "Topic :: Software Development :: Build Tools",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Utilities",
+  "Topic :: Software Development :: Documentation",
+]
+packages = [
+  {include = "mkdocs_asciinema_player", from = "src"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs = "^1.6.1"
+
+[tool.poetry.group.dev.dependencies]
+asciinema = "^2.4.0"
+commitizen = "^3.30.0"
+
+[tool.poetry.group.lint.dependencies]
+bandit = "^1.7.10"
+djlint = "^1.35.3"
+mypy = "^1.13.0"
+yamllint = "^1.35.1"
+ruff = "^0.7.1"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+
+[tool.poetry.plugins."mkdocs.plugins"]
+asciinema-player = "mkdocs_asciinema_player.plugin:AsciinemaPlayerPlugin"
+
+[tool.poetry.urls]
+"Issues" = "https://github.com/pa-decarvalho/mkdocs-asciinema-player/issues"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "pep440"
+version_provider = "poetry"
+update_changelog_on_bump = true
+major_version_zero = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
