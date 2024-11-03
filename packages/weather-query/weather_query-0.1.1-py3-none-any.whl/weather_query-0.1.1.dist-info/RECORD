@@ -1,0 +1,9 @@
+weather_query/__init__.py,sha256=LbOqiGC4GrETGYt43YhpgqXybdTZSnLInoNQwcdNRXU,18
+weather_query/api_client.py,sha256=NsUATIe6ZYJtmjXipGH_ufnNweutgHVAcfDcVIuC8Ec,418
+weather_query/core.py,sha256=Qc21ML_0MtQsyO2WkfwEwXuWo1o4hTvQVY5-lGrDLIs,934
+weather_query/nlp_parser.py,sha256=V8lwzJTJs9ed98MsUgPmDwUjWb7B3i0EpPBTMm8xtrM,416
+weather_query/test_query.py,sha256=v2GgIl15wNJBJXLE8p7U4PCIGArg81ZQX7qI4wfYBaQ,2228
+weather_query-0.1.1.dist-info/METADATA,sha256=_htetk7n7wsFYmGNJfSjbCu8uTBKoXR7HQftY-N5gbA,1405
+weather_query-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+weather_query-0.1.1.dist-info/top_level.txt,sha256=-BhAuWtQ6L_uMf7dCzd_XYpZfLPjMlyNPzsFaIT0RgU,14
+weather_query-0.1.1.dist-info/RECORD,,
