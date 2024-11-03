@@ -1,0 +1,15 @@
+dialogstream/__init__.py,sha256=dbIOiBL5ENrTQ7OdGn-2dPMLryOYJPYf4y0m_7CBFgU,562
+dialogstream/convert_file_path.py,sha256=BaAn5rYPa0y4d5QsTMJJU_q1lS8aIfQlyf13swgCTtQ,4366
+dialogstream/extract_query_params.py,sha256=Sf1vsCF9i4fGnBrwWA0ZTr_mXxPcj7iPO4QVCFBrItw,273
+dialogstream/get_url_parts.py,sha256=1ywm5e59RRAOANyEzO1IJ0NsxB6UEKXo75BSdSoB_Kc,1024
+dialogstream/main.py,sha256=U2VITrWDHEv4j0PKkecHStWXEzB9CHCQoPOJeKGE4Sk,1253
+dialogstream/match_filter.py,sha256=WVdRdBd4iyAly1IVvZSfhU9lLNV-FZ0LFZ6Ol3OZOMM,1636
+dialogstream/process.py,sha256=atafFp4LLVDgKtDAQoa5upEhXn_H06sSSEAXwxT5l3c,8481
+dialogstream/process_utils.py,sha256=nkIxtEcmoPh5fH23rJzzUOJchPckl58VtibgRBnhGD4,4850
+dialogstream/router.py,sha256=yjRwCF1jWVC-lEeAlpyKTLgWi6982TXTgu_PW-Y_CrM,10071
+dialogstream-1.4.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dialogstream-1.4.4.dist-info/METADATA,sha256=SmuKH58tCMLeX5gqHcyNpSlbmgrNeg2Gm5c8Sf-x3WM,4851
+dialogstream-1.4.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+dialogstream-1.4.4.dist-info/entry_points.txt,sha256=XlAz61r8_G7EXeP-999d4JACYu_QnT_06504BjJBMsc,56
+dialogstream-1.4.4.dist-info/top_level.txt,sha256=BrmierUqMXI3vn881wKPSmPZ-3hDCX1dP8PQzLYnvD8,13
+dialogstream-1.4.4.dist-info/RECORD,,
