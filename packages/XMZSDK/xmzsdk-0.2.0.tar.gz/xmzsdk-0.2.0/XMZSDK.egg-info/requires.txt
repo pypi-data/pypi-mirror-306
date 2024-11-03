@@ -1,0 +1,7 @@
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+requests
+huaweicloudsdkcore
+huaweicloudsdknlp
+esdk-obs-python

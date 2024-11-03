@@ -1,0 +1,10 @@
+README.md
+setup.py
+XMZAPI/APM.py
+XMZAPI/KVS.py
+XMZAPI/__init__.py
+XMZSDK.egg-info/PKG-INFO
+XMZSDK.egg-info/SOURCES.txt
+XMZSDK.egg-info/dependency_links.txt
+XMZSDK.egg-info/requires.txt
+XMZSDK.egg-info/top_level.txt
