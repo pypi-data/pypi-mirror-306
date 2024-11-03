@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: swautoscale
+Version: 0.1.0
+Summary: Default template for PDM package
+Author-email: GITSangWoo <dogcenta@gmail.com>
+License: MIT
+Requires-Python: ==3.11.*
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.32.3
+Requires-Dist: pytz>=2024.2
+Requires-Dist: PyYAML>=6.0.2
+
+# k1s
+https://hub.docker.com/_/httpd
+
+#BUILD & RUN
+```bash
+# 빌드 
+$ docker build -t my-apache2 docker/httpd/
+
+# 실행 
+$ docker run -dit --name my-running-app -p 8949:80 my-apache2
+
+# 컨테이너 안으로 
+$ docker exec -it my-running-app bash 
+```

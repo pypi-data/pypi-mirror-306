@@ -1,0 +1,9 @@
+k1s/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+k1s/autoscale.py,sha256=5YeIcKLHLq_IA_k-MqdOKS780LXYr4SB5HehZmRl6vs,5983
+k1s/dockerautoscaleup.py,sha256=6dNTr-IPOhT-AfsDk-yqbee_73IxwLYHh_M-XyI1ktc,1893
+k1s/improveauto.py,sha256=XYna553pJ0hsRdgfmTHxNf2UI0Ckzi-KVDvOrcplpKY,7390
+swautoscale-0.1.0.dist-info/METADATA,sha256=dkmFA7ty25CAHqQQrQlXkVnE-CdgUV_KYU-yZ-Me06Q,567
+swautoscale-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+swautoscale-0.1.0.dist-info/entry_points.txt,sha256=N3PWKKKimV2fder7oR-YrtLPRtLEb8sdlQNwhFOTNkY,71
+swautoscale-0.1.0.dist-info/top_level.txt,sha256=VbxnQMad7XJOdvr3tfb1hRWUSbKJJtgBmv4ir0QDHbI,4
+swautoscale-0.1.0.dist-info/RECORD,,
