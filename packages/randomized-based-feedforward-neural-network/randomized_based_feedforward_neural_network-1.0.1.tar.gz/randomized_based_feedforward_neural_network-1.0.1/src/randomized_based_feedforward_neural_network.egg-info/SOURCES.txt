@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/randomized_based_feedforward_neural_network.egg-info/PKG-INFO
+src/randomized_based_feedforward_neural_network.egg-info/SOURCES.txt
+src/randomized_based_feedforward_neural_network.egg-info/dependency_links.txt
+src/randomized_based_feedforward_neural_network.egg-info/requires.txt
+src/randomized_based_feedforward_neural_network.egg-info/top_level.txt
