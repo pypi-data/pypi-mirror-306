@@ -1,0 +1,5 @@
+dist
+build
+*egg-info
+**/*test_db.sqlite
+.aider*
