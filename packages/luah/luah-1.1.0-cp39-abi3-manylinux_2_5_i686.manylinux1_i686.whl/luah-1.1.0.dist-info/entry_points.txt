@@ -1,0 +1,2 @@
+[console_scripts]
+luah=luah.__main__:Cli
