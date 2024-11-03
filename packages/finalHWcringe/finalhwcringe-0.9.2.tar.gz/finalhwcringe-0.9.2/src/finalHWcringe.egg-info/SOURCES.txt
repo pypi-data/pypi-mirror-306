@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/finalHWcringe.egg-info/PKG-INFO
+src/finalHWcringe.egg-info/SOURCES.txt
+src/finalHWcringe.egg-info/dependency_links.txt
+src/finalHWcringe.egg-info/entry_points.txt
+src/finalHWcringe.egg-info/requires.txt
+src/finalHWcringe.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+manager = src.main:main_menu
