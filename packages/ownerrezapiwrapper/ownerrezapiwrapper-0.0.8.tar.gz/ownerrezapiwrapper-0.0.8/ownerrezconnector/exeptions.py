@@ -1,0 +1,2 @@
+class OwerrezapiExeception(Exception):
+    pass
