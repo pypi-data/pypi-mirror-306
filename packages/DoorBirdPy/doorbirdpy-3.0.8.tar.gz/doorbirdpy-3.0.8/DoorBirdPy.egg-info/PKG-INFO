@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: DoorBirdPy
+Version: 3.0.8
+Summary: Python wrapper for the DoorBird LAN API
+Home-page: https://gitlab.com/klikini/doorbirdpy
+Download-URL: https://gitlab.com/klikini/doorbirdpy/-/archive/master/doorbirdpy-master.zip
+Author: Andy Castille
+Author-email: andy@robiotic.net
+Maintainer: J. Nick Koston
+Maintainer-email: nick@koston.org
+License: MIT
+Platform: Cross Platform
+Requires-Python: >=3.9
+License-File: LICENSE.txt
+Requires-Dist: aiohttp
