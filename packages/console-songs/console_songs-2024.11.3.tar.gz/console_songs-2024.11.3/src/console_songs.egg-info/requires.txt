@@ -1,0 +1,12 @@
+python-dotenv
+requests
+lyricsgenius
+side-by-side
+beautifulsoup4
+
+[cli]
+pytest
+pytest-cov
+black
+build
+twine
