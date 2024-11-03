@@ -1,0 +1,28 @@
+Metadata-Version: 2.3
+Name: moderatorpy
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Kevin Hill <kivo360@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: httpx>=0.27.2
+Requires-Dist: pyrate-limiter
+Requires-Dist: redis[hiredis]>=5.0.0
+Description-Content-Type: text/markdown
+
+# moderatorpy - Python rate limiting with Redis
+
+A Python library for rate limiting HTTP requests using Redis as a backend store.
+
+## Features
+
+- Redis-backed rate limiting for distributed systems
+- Built on top of pyrate_limiter
+- Async support with httpx
+- Simple integration with existing HTTP clients
+- Configurable rate limits (requests per second, minute, etc)
+
+## Installation
+
+```bash
+pip install moderatorpy
+```
