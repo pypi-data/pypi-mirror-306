@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: xjm_device_tasks
+Version: 0.0.9
+Summary: Android device management and automation tasks
+Author: 23233
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic~=2.7.3
+Requires-Dist: requests~=2.31.0
+Requires-Dist: urllib3~=2.2.1
+Requires-Dist: uiautomator2~=3.2.6
+Requires-Dist: adbutils~=2.7.2
+Requires-Dist: loguru~=0.7.2
+Requires-Dist: beautifulsoup4~=4.12.3
+Requires-Dist: retry~=0.9.2
+
+# XJM Publish
+
+私有任务执行包，仅用于内部分发。
+
+## 安装方法
+
+### 方式1：直接从zip安装
+1. 下载 XJM Publish 的 zip 包文件（例如：`xjm_device_tasks.zip`）
+
+2. 使用 Python 的 zipimport 方式导入：
+```python
+import zipimport
+importer = zipimport.zipimporter('xjm_device_tasks.zip')
+xjm_publish = importer.load_module('xjm_device_tasks')
+
+```
+
+python -m build
+python -m twine upload dist/*
+
+git tag v0.0.4
+git push origin v0.0.4
