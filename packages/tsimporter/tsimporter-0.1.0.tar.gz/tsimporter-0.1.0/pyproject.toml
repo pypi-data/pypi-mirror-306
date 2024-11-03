@@ -1,0 +1,50 @@
+[project]
+name = "tsimporter"
+version = "0.1.0"
+description = "Local files to database."
+authors = [
+    { name = "Taeyong Jeon", email = "taeyongjeon24@gmail.com" },
+]
+dependencies = [
+    "pandas>=2.2.3",
+    "psycopg2-binary>=2.9.10",
+    "pyarrow>=18.0.0",
+    "fastparquet>=2024.5.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest",
+    "ipykernel",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+extend-select = [
+    "RUF",
+    "I",
+    "W",
+    "UP",
+    "D",
+    "PD",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
