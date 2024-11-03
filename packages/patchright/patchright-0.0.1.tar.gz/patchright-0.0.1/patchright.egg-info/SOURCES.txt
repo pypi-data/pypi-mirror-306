@@ -1,0 +1,5 @@
+setup.py
+patchright.egg-info/PKG-INFO
+patchright.egg-info/SOURCES.txt
+patchright.egg-info/dependency_links.txt
+patchright.egg-info/top_level.txt
