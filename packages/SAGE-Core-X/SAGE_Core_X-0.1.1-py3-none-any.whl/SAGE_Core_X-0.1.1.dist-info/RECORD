@@ -1,0 +1,16 @@
+plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plugins/input_plugin.py,sha256=6cuv34YotSjPZ0LvhYNatuZnL3FffbwmJlO5G9rRnng,4154
+plugins/opengl_plugin.py,sha256=GuZEG4REcIDSTGd77K1EVqFiIRYSNeBfMQVUImQ0Rns,4580
+sage/__init__.py,sha256=wkQHuWQ36xCFbx3Mejhj_aha6dhfuY9dHgLjx6f06Fk,46
+sage/main.py,sha256=q1TO91Y4bJ4-UpzT4oEZiXKLauXuPcfEF0CpujZi7uE,729
+sage/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sage/core/core.py,sha256=f5KTV8Ba0Rr0z7Cj0_XWD0IHMWPcuuT6wgyKUAa7LVk,10378
+sage/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sage/plugins/plugin_template.py,sha256=ZaP4v5OemtnZ8jQvDjvX4bY_oI6FwJanCpbIlw0fWLk,1243
+sage/plugins/plugins_config.json,sha256=VOYadVjbd1nw0a95i0mvnJLkoY6ncqmA6JZKDlwZNNo,229
+sage/plugins/simple_plugin.py,sha256=0jW7zbT2GoCFxlOEuNG657-HvCy-jGJpbJBrYqI6SUM,704
+SAGE_Core_X-0.1.1.dist-info/LICENSE,sha256=_6mioAf-3pO1LoFTLLNYgvOJHHXeon_c8qkPTjO322k,479
+SAGE_Core_X-0.1.1.dist-info/METADATA,sha256=JRVLB8SFwtNd6dc_XUhUnT9abjtXaFjF7xfN8J-XVdQ,56937
+SAGE_Core_X-0.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+SAGE_Core_X-0.1.1.dist-info/top_level.txt,sha256=fHL7_5RTK3hGVJJUps3wVE-qs6ITKpjUyuz6IQT0lr4,8
+SAGE_Core_X-0.1.1.dist-info/RECORD,,
