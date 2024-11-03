@@ -1,0 +1,15 @@
+sqloquent/__init__.py,sha256=ZSy9_cCpV6u_NnjmOsDv-REJ3XnODeLup1DTdjC_6Mo,1185
+sqloquent/classes.py,sha256=OvGWTkoDtroJboahMkSFIWEIwH7iqffPcDlwlzMFzyY,52923
+sqloquent/errors.py,sha256=3Jw8QQ7lTWPUXnFKPIqR7QnC-CfYd70okRjC0tTEfq8,642
+sqloquent/interfaces.py,sha256=fvCpejQZViTlNfQvqA6Dd4k9AiVhQWLaPhpPGpl4F1Y,22151
+sqloquent/migration.py,sha256=Tb8XVqjQ735kDEUq2VydFhmPNl9y6s2qsM2Pt2uAogg,12896
+sqloquent/relations.py,sha256=CEIN6VviBOa5y4WnVs6iBA420xr3OUhJOrycGEMxW6k,60118
+sqloquent/tools.py,sha256=biZwsnJt4BqkNx4kMARVec1KQd3-HF0GJYQ8c2d8wfI,25666
+sqloquent/asyncql/__init__.py,sha256=0q-vQINjdsdwhQF44y6PwxHBgSXABKno2Q39qaelyhE,888
+sqloquent/asyncql/classes.py,sha256=DiuGrjCpAxvOtsx3wlqVYrE9mluOc8a0VN7kDXVXhfk,56900
+sqloquent/asyncql/interfaces.py,sha256=pd1vU0nLsObfQRl0vuJMGqSTCSuFmv54yFIbegjB7As,18033
+sqloquent/asyncql/relations.py,sha256=VnPBvQ2b7EkCr8EL055C4uUvWT4BEioBYR5bSgzE8R8,62868
+sqloquent-0.5.2.dist-info/METADATA,sha256=ptnHOTEPVz6fQ3HQH5zoomorNtRjo3L51kzmxV0-bYk,40041
+sqloquent-0.5.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+sqloquent-0.5.2.dist-info/entry_points.txt,sha256=RP2N3fIAVqe8WMbw_A9yQZkyDo7sGp2D1isKE_qe9pw,54
+sqloquent-0.5.2.dist-info/RECORD,,
