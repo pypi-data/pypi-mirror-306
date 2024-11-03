@@ -1,0 +1,6 @@
+duckdb_extension_httpfs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_extension_httpfs/extensions/v1.1.2/httpfs.duckdb_extension,sha256=D6MhJ13hEDFCAk2HA2PT_fiV2BrYWRFqmZ9KL7lrhQU,33677134
+duckdb_extension_httpfs-1.1.1a0.dist-info/METADATA,sha256=rjA90Ax2TECYLY_CsoZ_m0lVnMCNpm8pY8Vy4AVTD-c,2064
+duckdb_extension_httpfs-1.1.1a0.dist-info/WHEEL,sha256=B_HTF0nESsbkeA2UeB8YgKrtPrxyKFORYURx7Qxu8Xw,101
+duckdb_extension_httpfs-1.1.1a0.dist-info/licenses/LICENSE.txt,sha256=nnxZWPH56sIZcjI_d3lzGiShkm7fMUnNisNrUJKahaU,1090
+duckdb_extension_httpfs-1.1.1a0.dist-info/RECORD,,
