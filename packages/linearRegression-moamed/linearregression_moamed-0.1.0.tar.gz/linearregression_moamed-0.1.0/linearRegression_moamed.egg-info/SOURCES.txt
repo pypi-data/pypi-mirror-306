@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+linearRegression_moamed/__init__.py
+linearRegression_moamed/linearRegression_moamed.py
+linearRegression_moamed.egg-info/PKG-INFO
+linearRegression_moamed.egg-info/SOURCES.txt
+linearRegression_moamed.egg-info/dependency_links.txt
+linearRegression_moamed.egg-info/top_level.txt
