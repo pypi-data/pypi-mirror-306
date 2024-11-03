@@ -1,0 +1,12 @@
+NumInt/__init__.py,sha256=CqfGNS5769sDw_uORPqD7ga5jwWl4Vmrf-YCHCd8FLg,414
+NumInt/gaussiana_compuesta.py,sha256=m69FE-zOm72_ZM-IOfuo8q8fifZ2bc3M5l6D7rEAYWU,695
+NumInt/gaussiana_compuesta_iterativa.py,sha256=-qjJkpr2oRr2sqxLRw0XkPMeKJvLAzWMDlaPIdCWUng,1448
+NumInt/romberg.py,sha256=C7iuQEAVC9bXlZZFGZaiXb02fe87TKR7g03L75Qk-CY,1093
+NumInt/simpson_compuesto.py,sha256=XGpIdes-GxApKpR8IEmdMxgr9h-U7WWc_XmUCfzPfQE,945
+NumInt/simpson_compuesto_iterativo.py,sha256=_DLcpJdWMjoX2SORUB-d-56LVIDSpbCXt-CR_1AQBhM,1670
+NumInt/trapecio_compuesto.py,sha256=Z6uy3Eq2a21aERMuZbBPUqpyYjkVTHH7cxQk1upULM8,793
+NumInt/trapecio_compuesto_iterativa.py,sha256=B7nE1-MLvLmpdRELlpW_IH5Y3yCkUByItBD3NTjlcs4,1736
+NumInt_ANPI-0.1.dist-info/METADATA,sha256=ZiK5DdPopwf6DY7YMtKYkM0MhuM13bPY8dVRUJMikSY,245
+NumInt_ANPI-0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+NumInt_ANPI-0.1.dist-info/top_level.txt,sha256=5PQMqeJp2Mbx5q6saDS-6W4gANGVtpRw8eMSFzvEeWc,7
+NumInt_ANPI-0.1.dist-info/RECORD,,

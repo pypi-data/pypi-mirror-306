@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: NumInt-ANPI
+Version: 0.1
+Summary: Paquete computacional en Python para métodos de integración
+Author: 
+Author-email: tu_correo@example.com
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: scipy
+
