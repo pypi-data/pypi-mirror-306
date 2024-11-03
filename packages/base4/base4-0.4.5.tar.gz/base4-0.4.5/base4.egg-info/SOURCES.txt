@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+base4/__init__.py
+base4/cli.py
+base4.egg-info/PKG-INFO
+base4.egg-info/SOURCES.txt
+base4.egg-info/dependency_links.txt
+base4.egg-info/entry_points.txt
+base4.egg-info/top_level.txt
