@@ -1,0 +1,9 @@
+equation-tree
+numpy
+tqdm
+torch
+pandas
+sympy
+scipy
+scikit-learn
+pyro-ppl
