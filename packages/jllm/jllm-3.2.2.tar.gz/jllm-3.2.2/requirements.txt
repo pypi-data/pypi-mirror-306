@@ -1,0 +1,10 @@
+protobuf==3.20.3
+sentencepiece
+transformers
+deepspeed
+accelerate
+opencv-python
+#flash-attn # Install the wheel package downloaded from https://github.com/Dao-AILab/flash-attention/releases
+pyarrow
+tiktoken
+#torch_npu # Runing on NPUs
