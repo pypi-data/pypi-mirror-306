@@ -1,0 +1,8 @@
+README.md
+setup.py
+kwiksand/__init__.py
+kwiksand/kwiksand.py
+kwiksand.egg-info/PKG-INFO
+kwiksand.egg-info/SOURCES.txt
+kwiksand.egg-info/dependency_links.txt
+kwiksand.egg-info/top_level.txt
