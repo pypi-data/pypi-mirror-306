@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: django-context-from-path
+Version: 0.0.1
+Summary: A helper library to create Django global context (context processor) and urlpatterns.
+Author-email: meowking <mr.meowking@tutamail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: build ; extra == "wheels"
+Requires-Dist: twine ; extra == "wheels"
+Project-URL: Homepage, https://codeberg.org/meow_king/django-global-context
+Provides-Extra: test
+Provides-Extra: wheels
+
+# Django Context from Path
+

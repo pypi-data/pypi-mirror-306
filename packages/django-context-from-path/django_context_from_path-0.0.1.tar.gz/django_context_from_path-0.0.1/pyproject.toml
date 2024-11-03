@@ -1,0 +1,35 @@
+[project]
+name = "django-context-from-path"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+  {name = "meowking", email = "mr.meowking@tutamail.com"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.12",
+]
+dynamic = ["version", "description"]
+
+dependencies = []
+
+[project.optional-dependencies]
+wheels = [
+    "build",
+    "twine"
+]
+test = [
+    "pytest",
+]
+
+[project.urls]
+Homepage = "https://codeberg.org/meow_king/django-global-context"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
