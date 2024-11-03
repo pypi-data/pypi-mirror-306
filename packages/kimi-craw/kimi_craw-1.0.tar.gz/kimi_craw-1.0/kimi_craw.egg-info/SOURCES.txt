@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+kimi_craw/__init__.py
+kimi_craw/test.py
+kimi_craw.egg-info/PKG-INFO
+kimi_craw.egg-info/SOURCES.txt
+kimi_craw.egg-info/dependency_links.txt
+kimi_craw.egg-info/top_level.txt
+kimi_craw/core/__init__.py
