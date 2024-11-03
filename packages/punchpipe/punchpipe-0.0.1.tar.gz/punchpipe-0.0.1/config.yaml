@@ -1,0 +1,51 @@
+root: "/d0/punchsoc/gamera_data/"
+input_drop: "dropzone/"
+file_version: "1"
+
+scheduler:
+  max_start: 10
+
+launcher:
+  max_flows_running: 5
+
+levels:
+  level0_process_flow:
+    priority:
+      initial: 5
+      seconds: [ 30, 120, 600 ]
+      escalation: [ 10, 20, 30 ]
+    schedule:
+    options:
+      num_quads: 100
+
+  level1_process_flow:
+    priority:
+      initial: 6
+      seconds: [ 30, 120, 600 ]
+      escalation: [ 11, 21, 31 ]
+    schedule:
+    options:
+
+  level2_process_flow:
+    priority:
+      initial: 1000
+      seconds: [ 3000, 12000, 60000 ]
+      escalation: [ 1000, 1000, 1000 ]
+    schedule:
+    options:
+
+  levelq_process_flow:
+    priority:
+      initial: 1000
+      seconds: [ 3000, 12000, 60000 ]
+      escalation: [ 1000, 1000, 1000 ]
+    schedule:
+    options:
+
+  level3_PTM_process_flow:
+    priority:
+      initial: 10000
+      seconds: [1]
+      escalation: [10000]
+    schedule:
+    options:
