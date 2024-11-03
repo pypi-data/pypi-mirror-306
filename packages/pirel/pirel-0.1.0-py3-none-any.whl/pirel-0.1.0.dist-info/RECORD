@@ -1,0 +1,9 @@
+pirel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pirel/__main__.py,sha256=wcCrL4PjG51r5wVKqJhcoJPTLfHW0wNbD31DrUN0MWI,28
+pirel/cli.py,sha256=aDgDPeKD6MpHcnbu8gdM9zsFmgIP0aYWD0zih4X58gg,699
+pirel/python_cli.py,sha256=Ln9mFRGez5ByU0cMQaWbpYwr09BBfjHjlS1IYw-9np8,1863
+pirel/releases.py,sha256=Ya8a7nThLVaE_UZIR4lGSroYa0M-spN6gg3erH7EhlU,3761
+pirel-0.1.0.dist-info/METADATA,sha256=7e-x-3r5pG6SdAYGPJORbeVzaFU5BRzXCVazhKPMaKM,925
+pirel-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pirel-0.1.0.dist-info/entry_points.txt,sha256=TMDEvmvFbX_CesH4c3YUVNnOv3f4pJIxup_Cx1Tajts,40
+pirel-0.1.0.dist-info/RECORD,,
