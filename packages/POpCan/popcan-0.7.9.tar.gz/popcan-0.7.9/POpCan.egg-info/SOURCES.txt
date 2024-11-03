@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+POpCan/POpCan.py
+POpCan/__init__.py
+POpCan.egg-info/PKG-INFO
+POpCan.egg-info/SOURCES.txt
+POpCan.egg-info/dependency_links.txt
+POpCan.egg-info/requires.txt
+POpCan.egg-info/top_level.txt
+POpCan/data/Example.csv

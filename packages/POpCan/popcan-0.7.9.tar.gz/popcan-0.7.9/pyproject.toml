@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "POpCan"
+version = "0.7.9"
+description = "Percentage Overlap Tool"
+
+maintainers = [
+    { name = "Pravallika Govada", email = "pravallika2606g@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+license = { text = "BSD-2-Clause" } 
+dependencies = [
+    "pandas >=1.0.0"
+]
+
+[tool.setuptools]
+include-package-data = true  # This is important
+
+[tool.setuptools.package-data]
+POpCan = ["data/Example.csv"]
