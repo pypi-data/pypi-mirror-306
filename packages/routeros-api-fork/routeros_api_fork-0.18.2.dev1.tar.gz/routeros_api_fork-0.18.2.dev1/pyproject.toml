@@ -1,0 +1,20 @@
+[project]
+name = "routeros-api-fork"
+version = "0.18.2.dev1"
+description = "Python API to RouterBoard devices produced by MikroTik."
+readme = "README.md"
+keywords = ["RouterOS", "MikroTik", "API"]
+license = {text = "MIT"}
+authors = [
+    {name = "Pavel Korchagin", email = "xoste49@gmail.com"},
+    {name = "Social WiFi", email = "it@socialwifi.com"}
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/xoste49/RouterOS-api-fork"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

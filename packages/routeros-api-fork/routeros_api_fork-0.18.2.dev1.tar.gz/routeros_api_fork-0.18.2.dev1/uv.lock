@@ -1,0 +1,7 @@
+version = 1
+requires-python = ">=3.9"
+
+[[package]]
+name = "routeros-api-fork"
+version = "0.18.2.dev1"
+source = { editable = "." }
