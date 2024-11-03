@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: django-double-entry
+Version: 1.0.2
+Summary: This manages accounting related functionality
+Project-URL: Homepage, https://github.com/joemash/django-double-entry
+Author-email: Josephat Macharia <josemash4@gmail.com>
+License: MIT
+License-File: AUTHORS.rst
+License-File: LICENCE
+Provides-Extra: test
+Requires-Dist: black; extra == 'test'
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: flake8; extra == 'test'
+Requires-Dist: isort; extra == 'test'
+Requires-Dist: model-bakery>=1.18.1; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-django>=4.8.0; extra == 'test'
+Requires-Dist: pytest>=8.2.1; extra == 'test'
+Requires-Dist: tox; extra == 'test'
