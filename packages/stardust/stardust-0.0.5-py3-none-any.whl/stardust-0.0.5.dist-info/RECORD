@@ -1,0 +1,9 @@
+stardust/__init__.py,sha256=GRHWC5YW319AakEyboASd85jbRdSxm7U8SJEHRKH0q0,31
+stardust/cli.py,sha256=zB_PMUZiyPnFf6_xA-xeIljXJiBZyTioFVjeKLM1PNo,986
+stardust/file_handler.py,sha256=qrt5mKSDl-M-KWLjGAOEowxKCHlia4uKDu9PuxapO9c,1796
+stardust/stardust.py,sha256=ibHg1pqjc_UvSFSt2jpUN-PzJKt-sRLIlISfRoYL1zU,1732
+stardust-0.0.5.dist-info/METADATA,sha256=psNod3X61TjbTBvWzRfwqC5R_ORnAgHV0u2XLLDazJ4,1586
+stardust-0.0.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+stardust-0.0.5.dist-info/entry_points.txt,sha256=yvR6nPwfSqhJ2G_Isgno6cOOJaRTbeRsEh8GcciVg4c,47
+stardust-0.0.5.dist-info/licenses/LICENSE.txt,sha256=ukEi8E0PKq1dQGTXHUflg3rppLymwAhr7il9x-0nPgg,1062
+stardust-0.0.5.dist-info/RECORD,,
