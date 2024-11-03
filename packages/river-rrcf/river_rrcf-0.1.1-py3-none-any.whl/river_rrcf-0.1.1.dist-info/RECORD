@@ -1,0 +1,13 @@
+river_rrcf-0.1.1.dist-info/METADATA,sha256=bubHea9Qe1irgGvomc6RGPlvDSyNMsp0bzMLKjUk8kU,1073
+river_rrcf-0.1.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+river_rrcf-0.1.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+river_rrcf-0.1.1.dist-info/licenses/LICENSE,sha256=GNOxLEWZ0Op9HKrRug4KPGTyWUA6NCQOFVj677KSUqM,1066
+river_rrcf/__init__.py,sha256=p5VS_MNLFmMjmFsclLKjlW-FRQjsDUrGovzggZqFz1A,129
+river_rrcf/__version__.py,sha256=zZDQj3mDmK091nBiCZRhyhYxgaddTCsReZdLmlBmwN8,151
+river_rrcf/_vendor/rrcf.patch,sha256=eQWRkYXosq5V9m9va10JHyRqrHo7j_Tjp_81DLOMshw,16644
+river_rrcf/_vendor/rrcf/LICENSE,sha256=X4FPw9IpIMDm5zVQgQ0QqVoFAPjZ0Bh2AeDkDju_164,1063
+river_rrcf/_vendor/rrcf/__init__.py,sha256=NNPNEM50fiW-Aa7zyNhsbOsmeypT5om3ABWPx33g6ao,141
+river_rrcf/_vendor/rrcf/rrcf.py,sha256=1JiuYvcEzIdTqnsL3Jnwbn0TjfFyNtvdnu03-KLrsKU,36797
+river_rrcf/_vendor/rrcf/shingle.py,sha256=s2sDR5oWwdPHv0HnRPWD8kT87MBKtqAop4frScmczdI,635
+river_rrcf/rrcf.py,sha256=tBAjfJ7v0TzZkWDktIa-rjVdZg93098TU5ttsaHP7C4,6254
+river_rrcf-0.1.1.dist-info/RECORD,,
