@@ -1,0 +1,7 @@
+taskiq_nats/__init__.py,sha256=3B7u3ocLqxMhOjBFfPppUbgF7xdGATO608KBJuwr4SA,416
+taskiq_nats/broker.py,sha256=6mr3sMKfRzgHw-tYpcF_TkgWJH1L4-0oLvTajV-ybo0,8143
+taskiq_nats/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taskiq_nats/result_backend.py,sha256=dnaFMMFRQeNMTIMz_9ZUaPpjE8LWgWRexpyVjS2W5Hs,4041
+taskiq_nats-0.5.0.dist-info/METADATA,sha256=GjPdakMblOg2-5AtX1i1grQtmfbSeLf1omd39b_lbn4,4762
+taskiq_nats-0.5.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+taskiq_nats-0.5.0.dist-info/RECORD,,
