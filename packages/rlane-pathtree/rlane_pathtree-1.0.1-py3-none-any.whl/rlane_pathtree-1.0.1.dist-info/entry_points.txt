@@ -1,0 +1,5 @@
+[console_scripts]
+pathtree = pathtree.cli:main
+
+[gui_scripts]
+
