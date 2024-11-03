@@ -1,0 +1,11 @@
+README.md
+setup.py
+weather_query/__init__.py
+weather_query/api_client.py
+weather_query/core.py
+weather_query/nlp_parser.py
+weather_query/test_query.py
+weather_query.egg-info/PKG-INFO
+weather_query.egg-info/SOURCES.txt
+weather_query.egg-info/dependency_links.txt
+weather_query.egg-info/top_level.txt

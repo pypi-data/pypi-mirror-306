@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: weather_query
+Version: 0.1.1
+Summary: My sample package
+Home-page: https://github.com/minsung8/weather_project
+Author: minsung8
+Author-email: alstjddl8@naver.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# 목적
+
+이 프로젝트는 자연어 질의를 통해 특정 도시의 날씨 정보를 가져오는 Python 프로그램입니다. 사용자는 질문 형식으로 날짜와 도시를 입력할 수 있으며, 프로그램은 API를 호출하여 해당 날짜의 날씨 정보를 반환합니다.
+
+# 사용하기
+
+# 테스트 하기
+```python
+1. git pull https://github.com/minsung8/weather_project.git
+2. source venv/bin/activate
+3. pip install -r requirements.txt
+3. pytest test_query.py
+```
+
+## 기능
+
+- 사용자의 질문을 파싱하여 도시와 날짜를 추출
+- 네이버 페이지 호출 및 파싱하여 날씨 정보 가져오기
+- 요청된 날짜에 따른 날씨 정보를 자연어 형식으로 응답
+
+## 제한 사항
+
+- 한번에 한개 지역의 한개 날짜의 날씨 질문만 가능
+- 제미나이 제공량 초과 시 불가
+- 오늘, 내일, 내일 모래 날짜만 조회 가능
+
+## 사용 예시
+
+```python
+print(query('내일 하와이 날씨는 어떤가요?'))
+```
+
