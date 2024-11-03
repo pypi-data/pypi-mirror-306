@@ -1,0 +1,8 @@
+tsdataloader-0.1.0.dist-info/METADATA,sha256=ZDwIsFdwvQYWyQ2ugWL96SlR7hrHXBzs7YmNgHiF_ZA,1126
+tsdataloader-0.1.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+tsdataloader-0.1.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+tsdataloader/__init__.py,sha256=zKEXVNhmrDPSDVAZePHv1DyccC4DAnQ1ZadHfbZ2vb0,172
+tsdataloader/dataloader.py,sha256=ptCXttWOz9OiB8_--cgQvpiXhwslYkFdx2chnnd9NXQ,392
+tsdataloader/dataset.py,sha256=j-xKCa9HxOI4SsrVKJgIkIPMYvlQx1cu1WhXOhZleQI,981
+tsdataloader/logging_config.py,sha256=v2XKe1cYJUVQfdefSwIQP5hYn3LUkL8m5-Kreb1zIro,634
+tsdataloader-0.1.0.dist-info/RECORD,,
