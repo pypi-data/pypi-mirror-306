@@ -1,0 +1,5 @@
+conda-recipe
+dist
+phenoscope
+sample_imgs
+test
