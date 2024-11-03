@@ -1,0 +1,24 @@
+[project]
+name = "auto_scailer"
+version = "2.0.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Mingk42", email = "xoals123456t@gmail.com"},
+]
+dependencies = [
+    "requests>=2.32.3",
+    "tz-kst>=0.5.2",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+scailer-start="auto_scailer.auto_scailer:auto_scailer"
+get-log-path="auto_scailer.utils:get_log_path"
+
+[tool.pdm]
+distribution = true
+
+[tool.setuptools]
+package-dir={""="src"}

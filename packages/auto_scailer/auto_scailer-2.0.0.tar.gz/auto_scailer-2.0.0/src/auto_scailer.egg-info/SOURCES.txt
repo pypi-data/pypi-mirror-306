@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/auto_scailer/__init__.py
+src/auto_scailer/auto_scailer.py
+src/auto_scailer/utils.py
+src/auto_scailer.egg-info/PKG-INFO
+src/auto_scailer.egg-info/SOURCES.txt
+src/auto_scailer.egg-info/dependency_links.txt
+src/auto_scailer.egg-info/entry_points.txt
+src/auto_scailer.egg-info/requires.txt
+src/auto_scailer.egg-info/top_level.txt
+src/auto_scailer/config/config.ini
