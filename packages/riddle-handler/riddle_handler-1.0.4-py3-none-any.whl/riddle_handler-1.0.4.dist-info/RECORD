@@ -1,0 +1,11 @@
+riddle_handler/__init__.py,sha256=yDC7JQ4CY2dnEE0IKq96GZgSYnycIjeh8Dosv9ddaNE,196
+riddle_handler/check_answer.py,sha256=JPEVkXy-q1qxzmAEb7zZgVW77RHCsFdV8dC0U3ep92c,1016
+riddle_handler/generate_riddle.py,sha256=GX_k5XPimZ6fIWl1Y1TsRDud0LArxCAYZTuUDmlvkoY,584
+riddle_handler/provide_hint.py,sha256=T6HaWrpykTFh7DKkeaBVa90PQYlLo1Dh_OvJ6EXoH_0,679
+riddle_handler/read_file.py,sha256=xkxmbrkriEW2NMJCZfVeStD4q15fONA5dzxHaci1a4M,411
+riddle_handler/submit_riddle.py,sha256=J0QkY4w9rz88YOcFiGxcbehzZWgiHFIKEbZfSTyEFFA,1391
+riddle_handler-1.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+riddle_handler-1.0.4.dist-info/METADATA,sha256=pDQnn0cy4kpXE5UxuhK8mRH2s1OjkpIHgzwy1jdgrCw,8739
+riddle_handler-1.0.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+riddle_handler-1.0.4.dist-info/top_level.txt,sha256=e4zRmcT5RV7S0-UgvmmJGiWa83DoibdDuriyRb4UDKk,15
+riddle_handler-1.0.4.dist-info/RECORD,,
