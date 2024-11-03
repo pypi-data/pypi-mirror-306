@@ -1,0 +1,12 @@
+xwrpr/__init__.py,sha256=Ej7eij_1daO4gnAtrKm96VfMgC8pB-aKApojzlJKYaQ,1965
+xwrpr/account.py,sha256=eP-tZatkj2u8NnMtkCHgKm0eSn3dIVHNRAlQvGpmG1I,4071
+xwrpr/api.ini,sha256=i5Sn6hxFuz5Fo6BGHckkjaULGDDG2fRrF3N68wWv4tc,2905
+xwrpr/client.py,sha256=DRcLvMBDygzWuqdjTZQZbp2rBQDd4zyr1NpcoE3L0rI,48127
+xwrpr/handler.py,sha256=WgS_jaRDQ2Q59zOM9z1M_U0f0p-3RceHi0-YyFe8IUs,84882
+xwrpr/utils.py,sha256=qr4ZgkjNtGNOTR2HQZ-DABjJ_bh-BbZC4bwthYixki4,9982
+xwrpr/wrapper.py,sha256=Dxheh87QPco7zBKZsemxKBgUh9_Oee2-nN5kmiTj-Oo,98020
+xwrpr-1.0.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+xwrpr-1.0.0.dist-info/METADATA,sha256=APLlt5Aoza16o1BG5q59YbTkfdktsHQ5dmbKHmJADCg,51749
+xwrpr-1.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+xwrpr-1.0.0.dist-info/top_level.txt,sha256=n75V1Mtwc5WM2oanZ5PZJcprnXbd7uSJWkWIdjWdshk,6
+xwrpr-1.0.0.dist-info/RECORD,,
