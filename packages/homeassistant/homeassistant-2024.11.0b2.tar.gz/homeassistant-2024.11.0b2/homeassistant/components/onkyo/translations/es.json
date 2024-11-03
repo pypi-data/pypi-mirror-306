@@ -1,0 +1,8 @@
+{
+    "config": {
+        "abort": {
+            "reconfigure_successful": "Se volvi\u00f3 a configurar correctamente",
+            "unique_id_mismatch": "El n\u00famero de serie del dispositivo no coincide con el n\u00famero de serie anterior"
+        }
+    }
+}
