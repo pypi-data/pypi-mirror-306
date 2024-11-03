@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: rlane-keyboard
+Version: 1.0.1
+Summary: computer keyboard model
+Keywords: keyboard,shortcuts
+Author-Email: Russel Lane <russel@rlane.com>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Homepage, https://github.com/russellane/keyboard
+Requires-Python: >=3.10
+Requires-Dist: rlane-libcli>=1.0.7
+Description-Content-Type: text/markdown
+
+### keyboard - computer keyboard model
+
+#### Usage
+    keyboard [-h] [-v] [-V] [--print-config] [--print-url]
+             [--completion [SHELL]]
+             KEYNAME
+    
+Command line test tool.
+
+#### Positional Arguments
+    KEYNAME             Parse and print given KEYNAME.
+
+#### General options
+    -h, --help          Show this help message and exit.
+    -v, --verbose       `-v` for detailed output and `-vv` for more detailed.
+    -V, --version       Print version number and exit.
+    --print-config      Print effective config and exit.
+    --print-url         Print project url and exit.
+    --completion [SHELL]
+                        Print completion scripts for `SHELL` and exit
+                        (default: `bash`).
