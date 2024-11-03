@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: medco-pi-data-fetcher
+Version: 0.1.1
+Summary: A package to fetch data from PI System using PI Web API
+Home-page: https://github.com/WigunaKurniawan/medco-pi-data-fetcher
+Author: Wiguna Kurniawan
+Author-email: youremail@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+
+# Medco PI Data Fetcher
+
+`Medco PI Data Fetcher` adalah paket Python yang dirancang untuk mengambil data dari PI System menggunakan PI Web API. Paket ini memungkinkan pengguna untuk mengakses data historis, data terkini, serta melakukan analisis berbasis waktu dengan mudah. Solusi ini dikembangkan untuk mendukung transformasi digital dan membantu pengguna dalam mengintegrasikan data PI System ke dalam aplikasi berbasis Python.
+
+## Fitur
+
+- Mengambil data historis dengan interval dan jenis agregasi yang fleksibel.
+- Mendukung pengambilan data terkini (current value).
+- Analisis data berbasis waktu (time-based analysis) untuk agregasi harian, mingguan, dll.
+- Pengambilan data dari beberapa tag sekaligus.
+- Filter data berdasarkan kondisi tertentu (misalnya, nilai lebih besar atau kurang dari ambang batas).
+
+## Instalasi
+
+Gunakan pip untuk menginstal paket ini:
+```bash
+pip install pi_data_fetcher
+```
+## Penggunaan
+### Mengambil Data dari Beberapa Tag Sekaligus
+Berikut adalah contoh cara mengambil data dari beberapa tag dalam satu kali panggilan:
+```bash
+from pi_data_fetcher import PIDataFetcher
+
+# Inisialisasi kelas dengan server API, username, dan password
+fetcher = PIDataFetcher(api_url="https://JKTWAPT0041/piwebapi", username="user", password="pass")
+
+# Daftar tag yang ingin diambil datanya
+tags = [
+    r"\\CGPPISERVER\257-FI-2231",
+    r"\\CGPPISERVER\257-TI-2212",
+    r"\\CGPPISERVER\257-TIC-2556_PV"
+]
+
+# Rentang waktu pengambilan data
+start_time = "2024-01-01T00:00:00Z"
+end_time = "2024-01-01T23:59:59Z"
+interval = "1h"
+
+# Ambil data untuk beberapa tag sekaligus
+data = fetcher.fetch_multiple_tags_data(tags, start_time, end_time, interval)
+
+# Tampilkan hasilnya
+print(data)
+```
+## Output Contoh
+```bash
+            Timestamp               Tag     Value
+0   2024-01-01T00:00:00Z  \\CGPPISERVER\257-FI-2231  123.4
+1   2024-01-01T01:00:00Z  \\CGPPISERVER\257-FI-2231  126.7
+2   2024-01-01T00:00:00Z  \\CGPPISERVER\257-TI-2212   98.5
+3   2024-01-01T01:00:00Z  \\CGPPISERVER\257-TI-2212  100.1
+...
+```
+## Struktur Proyek
+```bash
+pi_data_fetcher/
+├── pi_data_fetcher/       # Folder utama paket
+│   ├── __init__.py        # Inisialisasi modul
+│   ├── data_fetcher.py    # Kode utama untuk mengambil data dari PI System
+├── setup.py               # Konfigurasi instalasi paket
+├── README.md              # Dokumentasi proyek
+├── LICENSE                # Lisensi penggunaan
+└── requirements.txt       # Dependensi paket
+```
+
+## References
+This project utilizes PI Web API to interact with the PI System. For more detailed documentation and additional examples, refer to the following resources:
+
+AVEVA PI Web API Documentation - Official documentation on endpoints, authentication, and data access via PI Web API:
+
+**PI Web API Documentation**
+AVEVA GitHub Repositories - Sample projects and utilities for working with the PI Web API in various programming languages, including Python:
+
+**GitHub - AVEVA PI Web API Common Actions (Python)**
+py-PIwebapi Repository - A third-party Python client for interacting with the PI Web API, which includes various functions for PI System interactions:
+
+**GitHub - py-PIwebapi**
+These references provide additional context on how to work with PI System data using PI Web API and Python. They offer helpful examples and API information for those looking to further customize or expand their use of ```Medco PI Data Fetcher.```
+## Lisensi
+### Hak Cipta (C) 2024 MedcoEnergi
+
+Paket ini adalah perangkat lunak proprietary dan hanya diperuntukkan bagi penggunaan internal. Segala bentuk penyalinan, distribusi, atau modifikasi tanpa izin tertulis dari Medco adalah dilarang.
+```bash
+Copyright (C) 2024 MedcoEnergi
+
+This software is proprietary and confidential. Unauthorized copying, redistribution, or modification of this software is strictly prohibited.
+
+Permission is granted to Medco only, to use, copy, and modify the software for internal purposes only. Redistribution of this software, in any form, with or without modification, is strictly prohibited outside Medco.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+```
