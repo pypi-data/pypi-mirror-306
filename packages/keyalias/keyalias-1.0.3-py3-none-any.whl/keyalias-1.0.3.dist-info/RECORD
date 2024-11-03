@@ -1,0 +1,10 @@
+keyalias/__init__.py,sha256=doR8xZWnxjqiDQhSWLPH7ldCrXvphT_C1bcR45taKNE,95
+keyalias/core.py,sha256=tjE5x4kYJwxVo4d7M49-9XasrLAeC-7gQC4Ra5u7PAM,793
+keyalias/tests/__init__.py,sha256=ByfvGGRbff7ag5ElHVXj5iPQWljTfXgfUkSpEQ9dgtQ,236
+keyalias/tests/test_foo.py,sha256=QrEUinfEbjxCLHAED7qiyAK21eV23IiiUEcCFFeAnWI,1036
+keyalias/tests/test_mock.py,sha256=KTbNGMjWnH8l5sZZ-UfbOw5vUj_9YYQt4liC35V_oO0,5885
+keyalias-1.0.3.dist-info/LICENSE.txt,sha256=QwqYepQwTN5xG57cngKt6xxYD9z9hw9d3lcI8zSLiNg,1074
+keyalias-1.0.3.dist-info/METADATA,sha256=AvgYz6QT2MFyTge6OzDWOjZ3kSYLmK3qbkQaPLZpWcA,2288
+keyalias-1.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+keyalias-1.0.3.dist-info/top_level.txt,sha256=bgCDnn1Vea1jWmiyeD6SU0DF6NwM-Om14D081U6ddCQ,9
+keyalias-1.0.3.dist-info/RECORD,,
