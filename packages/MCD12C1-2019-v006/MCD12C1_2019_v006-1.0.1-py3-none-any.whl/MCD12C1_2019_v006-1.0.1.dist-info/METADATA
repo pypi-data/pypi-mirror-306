@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: MCD12C1_2019_v006
+Version: 1.0.1
+Summary: MODIS/Terra+Aqua Land Cover Type CMG Yearly L3 Global 0.05 Deg 2019 Collection 6 Dataset Python Tool
+Author-email: "Gregory H. Halverson" <gregory.h.halverson@jpl.nasa.gov>
+Project-URL: Homepage, https://github.com/JPL-Evapotranspiration-Algorithms/MCD12C1_2019_v006
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: rasters
+
+# MODIS/Terra+Aqua Land Cover Type CMG Yearly L3 Global 0.05 Deg 2019 Collection 6 Dataset Python Tool
+
+This package generates rasters of the MODIS/Terra+Aqua Land Cover Type CMG Yearly L3 Global 0.05 Deg (MCD12C1) 2019 global composite collection 6 dataset, as used in ECOSTRESS Collection 2.
+
+[Gregory H. Halverson](https://github.com/gregory-halverson-jpl) (they/them)<br>
+[gregory.h.halverson@jpl.nasa.gov](mailto:gregory.h.halverson@jpl.nasa.gov)<br>
+NASA Jet Propulsion Laboratory 329G
+
+## References
+
+- **NASA LP DAAC**. (2015). *MCD12C1 MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG*. NASA LP DAAC. https://doi.org/10.5067/MODIS/MCD12C1.006
+- **Friedl, M., & Sulla-Menashe, D.** (2015). *MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG*. NASA LP DAAC. https://doi.org/10.5067/MODIS/MCD12C1.006
