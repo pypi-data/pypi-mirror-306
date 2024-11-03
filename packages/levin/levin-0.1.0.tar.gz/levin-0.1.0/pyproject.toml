@@ -1,0 +1,44 @@
+[project]
+name = "levin"
+version = "0.1.0"
+authors = [{name="Jeet Trivedi", email="jtriv@protonmail.com"},]
+description = "A Python package that implements the Levin methods for highly oscillatory integrals."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+"coverage>=7.6.4",
+"coverage-badge>=1.1.2",
+"gitdb>=4.0.11",
+"GitPython>=3.1.41",
+"iniconfig>=2.0.0",
+"mpmath>=1.3.0",
+"numpy>=2.1.2",
+"packaging>=24.1",
+"pluggy>=1.5.0",
+"pytest>=8.3.3",
+"pytest-cov>=6.0.0",
+"scipy>=1.14.1",
+"setuptools>=70.0.0",
+"smmap>=5.0.1",
+"sympy>=1.13.3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jeettrivedi/highly-oscillatory"
+"Bug Tracker" = "https://github.com/jeettrivedi/highly-oscillatory/issues"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
