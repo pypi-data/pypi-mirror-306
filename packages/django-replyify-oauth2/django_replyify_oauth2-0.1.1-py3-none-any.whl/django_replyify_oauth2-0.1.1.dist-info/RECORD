@@ -1,0 +1,17 @@
+replyify_oauth2/__init__.py,sha256=232JHaQqZMTQVgSCURQB2VlPDTghVzFi1XVwXVwIPCY,380
+replyify_oauth2/admin.py,sha256=sUKiGFSgvRAJ3zzG3PN_j8zTehNJvNx1hB8l_SI3qko,900
+replyify_oauth2/apps.py,sha256=1NGOS-QEBPlpv-jDFKIxy4jGg9McPJrw2qXH6wEN04g,479
+replyify_oauth2/decorators.py,sha256=t46zU88dzYkDBgvdAMtq8rTV4stMc0p7GC2XmziluVM,1328
+replyify_oauth2/models.py,sha256=BXno73GIwSS8A2WKhO4j6NRqyH1iT_HDVqoLy4sVGOQ,1116
+replyify_oauth2/settings.py,sha256=RDALHMKtpnsEMjDNHOG_Wkp1rhAxD2lwMUXoeN74140,824
+replyify_oauth2/tests.py,sha256=sgyrwRWvbWA9PwR5lUiBfc6T1RpQ3rpJMwjvgGjgQIs,174
+replyify_oauth2/urls.py,sha256=9mZhDTv3LGOuWfgL0RJB6GaLI76tzLGgQI4eVmsyiR4,500
+replyify_oauth2/utils.py,sha256=lNj7HR3XB3Bkg1SAWNZlAqCXDsJU_VyEbkAaSRYdsKQ,1742
+replyify_oauth2/views.py,sha256=X5NhQ4Ex6-CdIr-m7g0g0gA9yyV2V3J3LwVXI3qjY7E,3405
+replyify_oauth2/migrations/0001_initial.py,sha256=kVXYZ1GwIzd9qi75MbiZ1e9lE3jdY01V278Ct8bDk48,1400
+replyify_oauth2/migrations/__init__.py,sha256=sgyrwRWvbWA9PwR5lUiBfc6T1RpQ3rpJMwjvgGjgQIs,174
+django_replyify_oauth2-0.1.1.dist-info/LICENSE,sha256=GXoXWgPC-2P9kbNlElDM-WhSLHIEWwOaaIT4parnUdw,1065
+django_replyify_oauth2-0.1.1.dist-info/METADATA,sha256=2COvo6Tpl48zn_HBnUZIkXKEVrAAQvnI2gbRi4Jc3VU,3634
+django_replyify_oauth2-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_replyify_oauth2-0.1.1.dist-info/top_level.txt,sha256=XoORNTYIR0azrHDouVK8rqsnsXJEpOzffUAyHCeNSI8,16
+django_replyify_oauth2-0.1.1.dist-info/RECORD,,
