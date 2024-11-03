@@ -1,0 +1,10 @@
+codeboot/__init__.py,sha256=LBwKuKF_PbB260RxuBvi1AclifGI3YFrOLAnuDDJn7c,121
+codeboot/globaux/__init__.py,sha256=79Ih1151rfcqZdr7F8HSZSTs_iT2SKd1xCkehMsXeXs,19
+codeboot/globaux/core.py,sha256=SgNHaCQO_Gdgf2R_ITCeFGVPUc8IhTPhnEhoJrjOnZk,3029
+codeboot/pixels/__init__.py,sha256=79Ih1151rfcqZdr7F8HSZSTs_iT2SKd1xCkehMsXeXs,19
+codeboot/pixels/core.py,sha256=LWwF59pRfVnSzE-StvSKRdsi2ny83dptudNFvnJvSQk,12372
+codeboot/pixels/utils.py,sha256=pA0G_axnxQMInlWvjDZOoLqfeh3pwlW-ukaAswAVi2I,822
+codeboot-0.2.4.dist-info/METADATA,sha256=0DF9pEBFy4oP-AXpsg1PpwzRXTH98Uh75wcHKKL9g5k,468
+codeboot-0.2.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+codeboot-0.2.4.dist-info/top_level.txt,sha256=5MaDFs4mVewWo04EE5yKVGzLhGiNVpbMW2mnAMWf6Rs,9
+codeboot-0.2.4.dist-info/RECORD,,
