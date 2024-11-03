@@ -1,0 +1,12 @@
+haversine>=2.8.1
+xmltodict>=0.14.2
+requests>=2.31.0
+python-dateutil>=2.9.0
+
+[tests]
+pytest
+pytest-timeout
+pytest-xdist
+pytest-cov
+coverage
+mock
