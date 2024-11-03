@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyga-text
+Version: 0.1.0
+Summary: Uma biblioteca para manipulação de textos e personagens em Python
+Author: Joao
+Author-email: jpg01153@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Começo
+essa é a melhor e basica ferramenta para criar histórias.
+## Em breve...
+1. opções:essa funcionalidade adiciona escolhas

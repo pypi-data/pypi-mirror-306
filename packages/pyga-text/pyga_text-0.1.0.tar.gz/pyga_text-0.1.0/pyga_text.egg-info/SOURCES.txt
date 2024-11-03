@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyga-text/__init__.py
+pyga-text/text.py
+pyga_text.egg-info/PKG-INFO
+pyga_text.egg-info/SOURCES.txt
+pyga_text.egg-info/dependency_links.txt
+pyga_text.egg-info/top_level.txt
