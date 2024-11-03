@@ -1,0 +1,67 @@
+# 🌔 moondream
+
+a tiny vision language model that kicks ass and runs anywhere
+
+[Website](https://moondream.ai/) | [Hugging Face](https://huggingface.co/vikhyatk/moondream2) | [Demo](https://huggingface.co/spaces/vikhyatk/moondream2)
+
+## Examples
+
+| Image                  | Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](assets/demo-1.jpg) | **What is the girl doing?**<br>The girl is sitting at a table and eating a large hamburger.<br><br>**What color is the girl's hair?**<br>The girl's hair is white.                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ![](assets/demo-2.jpg) | **What is this?**<br>This is a computer server rack, which is a device used to store and manage multiple computer servers. The rack is filled with various computer servers, each with their own dedicated space and power supply. The servers are connected to the rack via multiple cables, indicating that they are part of a larger system. The rack is placed on a carpeted floor, and there is a couch nearby, suggesting that the setup is in a living or entertainment area.<br><br>**What is behind the stand?**<br>Behind the stand, there is a brick wall. |
+
+## Features
+
+- Easy-to-use command line interface
+- Python API for integration into your projects
+- Support for various image formats
+- Efficient processing using PyTorch
+- GPU acceleration support
+
+## Installation
+
+```bash
+pip install moondream
+```
+
+## Quick Start
+
+### Command Line Interface
+
+```bash
+moondream -i path/to/image.jpg -p "What's in this image?" -m path/to/model.safetensors
+```
+
+### Python API
+
+```python
+from moondream import run_inference
+
+result = run_inference(
+    image_path="path/to/image.jpg",
+    prompt="What's in this image?",
+    model_path="path/to/model.safetensors"
+)
+print(result)
+```
+
+## Model Weights
+
+You'll need to download the model weights separately. You can find them at [🤗HuggingFace/vikhyatk/moondream2](https://huggingface.co/vikhyatk/moondream2/blob/main/model.safetensors).
+
+## Requirements
+
+- Python 3.8+
+- PyTorch
+- transformers
+- Pillow
+
+## License
+
+MIT License
+
+## Author
+
+vikhyat (vik@m87.ai)
+1997marsrover (antonygithinji11156@gmail.com)

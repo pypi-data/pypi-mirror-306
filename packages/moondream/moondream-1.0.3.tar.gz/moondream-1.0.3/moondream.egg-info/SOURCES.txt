@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+moondream/__init__.py
+moondream.egg-info/PKG-INFO
+moondream.egg-info/SOURCES.txt
+moondream.egg-info/dependency_links.txt
+moondream.egg-info/entry_points.txt
+moondream.egg-info/requires.txt
+moondream.egg-info/top_level.txt
+moondream/torch/__init__.py
+moondream/torch/inference.py
+moondream/torch/layers.py
+moondream/torch/rope.py
+moondream/torch/text.py
+moondream/torch/vision.py
+moondream/torch/weights.py
