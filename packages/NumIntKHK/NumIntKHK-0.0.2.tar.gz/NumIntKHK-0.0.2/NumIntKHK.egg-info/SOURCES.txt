@@ -1,0 +1,17 @@
+setup.py
+NumIntKHK/__init__.py
+NumIntKHK/ceros_pesos_cuad_gauss.py
+NumIntKHK/gaussiana.py
+NumIntKHK/gaussiana_compuesta.py
+NumIntKHK/gaussiana_compuesta_iterativa.py
+NumIntKHK/romberg.py
+NumIntKHK/simpson.py
+NumIntKHK/simpson_compuesto.py
+NumIntKHK/simpson_compuesto_iterativo.py
+NumIntKHK/trapecio.py
+NumIntKHK/trapecio_compuesto.py
+NumIntKHK/trapecio_compuesto_iterativo.py
+NumIntKHK.egg-info/PKG-INFO
+NumIntKHK.egg-info/SOURCES.txt
+NumIntKHK.egg-info/dependency_links.txt
+NumIntKHK.egg-info/top_level.txt
