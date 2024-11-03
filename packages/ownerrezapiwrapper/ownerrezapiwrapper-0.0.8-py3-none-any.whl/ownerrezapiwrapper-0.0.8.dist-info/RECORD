@@ -1,0 +1,16 @@
+ownerrezconnector/__init__.py,sha256=9pFsOQgwU6zCpg5J-TE3hlJ_TEFyz4chd4gtc085POA,90
+ownerrezconnector/api.py,sha256=8vT83ivok5BAJ5bgUIIa4s9rqKxvoBoTaa6_48CRbcY,2866
+ownerrezconnector/constants.py,sha256=w9lK7YsM_X1qpU-eHGGFNjND57QXpp73rSw7uJUCPU8,41
+ownerrezconnector/exeptions.py,sha256=2bsCi9pg9gDKuvex1ZOCL7xvbkmBR-mH42vTzxr4l5Q,47
+ownerrezconnector/model.py,sha256=hol1Alq8svqaAFNpXzrjlb8330zjIaSjbIJ7N0VTTh4,4810
+ownerrezconnector/model2.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ownerrezconnector/restAdapter.py,sha256=exQjmKs1DwsW2X8pTN2aWDMrLx3KVURClXjEhmSjf0E,3297
+ownerrezconnector/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ownerrezconnector/test/context.py,sha256=EL9HDqg7Xejzj8tGyuRNYkZS1dtByOAbEB9fm1B_Jmk,134
+ownerrezconnector/test/tests.py,sha256=ImIzv0h1fHx9OAWYiGGT1ud0AnF6NzJQpifJX4h5f54,5268
+ownerrezapiwrapper-0.0.8.dist-info/LICENSE,sha256=uvlN4cyQ9cLZyMqdSeXvDT0eBu_fPKLoMe83fyJ9TZ8,1069
+ownerrezapiwrapper-0.0.8.dist-info/METADATA,sha256=Lci47t7pgJ4nkWOjHgrmkCbXQnNFw9W_ySac54UPngE,564
+ownerrezapiwrapper-0.0.8.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+ownerrezapiwrapper-0.0.8.dist-info/top_level.txt,sha256=5-esOn-18EKBoHcmrRV47cg1A0u39Y5RJE3zQCngGXU,18
+ownerrezapiwrapper-0.0.8.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ownerrezapiwrapper-0.0.8.dist-info/RECORD,,
