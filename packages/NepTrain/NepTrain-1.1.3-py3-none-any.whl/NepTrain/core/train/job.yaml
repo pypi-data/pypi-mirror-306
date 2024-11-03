@@ -1,0 +1,42 @@
+queue: slurm
+vasp_job: 10
+work_path: ./cache
+current_job: nep
+generation: 1
+init_train_xyz: ./train.xyz
+init_nep_txt: ./nep.txt
+nep:
+  nep_restart: true
+  nep_restart_step: 10000
+  nep_in_path: ./nep.in
+  test_xyz_path: ./test.xyz
+vasp:
+  cpu_core: 64
+  kpoints_use_gamma: true
+  incar_path: ./INCAR
+  use_k_stype: kpoints
+  kpoints:
+    - 20
+    - 20
+    - 20
+  kspacing: 0.05
+gpumd:
+  step_times:
+    - 10
+    - 100
+    - 500
+    - 1000
+  temperature_every_step:
+    - 50
+    - 100
+    - 150
+    - 200
+    - 250
+    - 300
+  model_path: ./structure
+  run_in_path: ./run.in
+  max_selected: 20
+  min_distance: 0.01
+
+
+
