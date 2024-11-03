@@ -1,0 +1,18 @@
+{
+    "controls": {
+        "phase1" : {
+            "K_ESCAPE": "pause"
+        }
+    }, 
+    "current_language": "fr_FR", 
+    "fullscreen": 0, 
+    "volumes": {
+        "main": 1, 
+        "music": 1, 
+        "sounds": {
+            "speeches": 1
+        }
+    },
+    "antialias": 1,
+    "senibility" : 1
+}
