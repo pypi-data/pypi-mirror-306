@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+kivy_webview/__init__.py
+kivy_webview/main.py
+kivy_webview.egg-info/PKG-INFO
+kivy_webview.egg-info/SOURCES.txt
+kivy_webview.egg-info/dependency_links.txt
+kivy_webview.egg-info/top_level.txt
+tests/test_main.py

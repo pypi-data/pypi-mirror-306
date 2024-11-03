@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kivy_webview"
+version = "0.0.0"
+description = "A cross-platform webview widget for Kivy, designed to easily integrate web content into your Kivy applications. Coming soon!"
+keywords = ["kivy", "webview"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
