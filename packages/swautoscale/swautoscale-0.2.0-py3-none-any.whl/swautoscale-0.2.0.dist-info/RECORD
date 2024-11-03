@@ -1,0 +1,12 @@
+k1s/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+k1s/autoscale.py,sha256=Yy9ph5RCVcvI-PTHKh6edvAX_NFowApl9tCvRMP4eQE,6052
+k1s/docker-compose.yml,sha256=PsxSEkvFgtnVSDR-oElBILoFOULvML_9c-Fs_yA_dYk,615
+k1s/dockerautoscaleup.py,sha256=6dNTr-IPOhT-AfsDk-yqbee_73IxwLYHh_M-XyI1ktc,1893
+k1s/improveauto.py,sha256=XYna553pJ0hsRdgfmTHxNf2UI0Ckzi-KVDvOrcplpKY,7390
+k1s/httpd/Dockerfile,sha256=iyRy41itkjecaDZxi_ZeonwawwikIITzY5JopdzbSI4,299
+k1s/httpd/my-httpd.conf,sha256=q5d11j6HEpAoIMmo7fUz_VVEn1YEdw2PnIChP-1_4iA,20832
+swautoscale-0.2.0.dist-info/METADATA,sha256=zBgU8DJODtRHR2FaHF5EyaeD6VC_bMllGLVTZJIJRVc,1421
+swautoscale-0.2.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+swautoscale-0.2.0.dist-info/entry_points.txt,sha256=6APZF-C50krLet7hgXsXb6G0eD4ZNcU7EkDrTJBvLhM,102
+swautoscale-0.2.0.dist-info/top_level.txt,sha256=VbxnQMad7XJOdvr3tfb1hRWUSbKJJtgBmv4ir0QDHbI,4
+swautoscale-0.2.0.dist-info/RECORD,,
