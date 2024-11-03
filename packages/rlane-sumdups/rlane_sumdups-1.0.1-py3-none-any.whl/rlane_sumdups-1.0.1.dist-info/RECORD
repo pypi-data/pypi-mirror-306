@@ -1,0 +1,9 @@
+rlane_sumdups-1.0.1.dist-info/METADATA,sha256=-mGr0GDzcfK448nTJgp5CNu-50_M9AcqIIWchhvwxWM,6132
+rlane_sumdups-1.0.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+rlane_sumdups-1.0.1.dist-info/entry_points.txt,sha256=a5sqJ9rbk-guQb81GoBldDlqWJ7aTZaP8RRwTB7-mFE,61
+rlane_sumdups-1.0.1.dist-info/licenses/LICENSE,sha256=TVpVrLOIatrJu_eYPMC1lOTeVgFT00kiieZkrgDqmKc,1068
+sumdups/__init__.py,sha256=T7BEW9IL14oyjqrwMeHTlb5c7KZTsZMxB56VHAYKyv0,27300
+sumdups/__main__.py,sha256=0_79sm_YsAy8pbJ4P0Vc6YvR9VC2Iyu-oCawl4drqq4,108
+sumdups/cli.py,sha256=rfcwewPWSHBmiIPfKQHCq9dI09P3v2aBNWbYP5kMLTI,10219
+sumdups/subfile.py,sha256=f2kQdfuGg4rwZPba0keZGpONzCZygjgB0TTJeDX0kJo,6903
+rlane_sumdups-1.0.1.dist-info/RECORD,,

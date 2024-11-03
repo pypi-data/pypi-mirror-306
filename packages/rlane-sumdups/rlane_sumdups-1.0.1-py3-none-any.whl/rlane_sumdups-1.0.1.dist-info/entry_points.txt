@@ -1,0 +1,5 @@
+[console_scripts]
+sumdups = sumdups.cli:main
+
+[gui_scripts]
+
