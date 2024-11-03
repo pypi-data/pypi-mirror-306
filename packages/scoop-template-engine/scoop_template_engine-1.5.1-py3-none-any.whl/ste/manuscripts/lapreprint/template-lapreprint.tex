@@ -1,0 +1,85 @@
+% A LaTeX template for preprints with the LaPreprint documentclass
+% by Mikkel Roald-Arbøl
+% https://github.com/LaPreprint/LaPreprint
+% Derived from main.tex.
+<<MinimumVersion: 1.0.0>>
+<<% >>
+<<TemplateDescription: LaPreprint>>
+<<% >>
+<<Dependency: lapreprint.cls>>
+<<Dependency: preamble-lapreprint.sty>>
+<<Dependency: postpreamble-lapreprint.sty>>
+
+% Prepreamble follows.
+<<LaTeXPrePreamble>>
+
+% Load the documentclass.
+\documentclass[%
+secnum,
+<<DocumentClassOptions>>]{lapreprint}
+
+% Preamble follows.
+\RequirePackage{biblatex}
+\RequirePackage[misc]{ifsym}
+<<LaTeXPreamble>>
+
+% Define the BibLaTeX resources.
+<<BibLaTeXResources>>
+
+% Setup document metadata.
+\makeatletter
+\@ifpackageloaded{hyperref}{%
+	\hypersetup{
+		pdftitle = {<<Title>>},
+		pdfauthor = {<<AuthorsFullNamesCommaSeparated>>},
+		pdfkeywords = {<<KeywordsCommaSeparated>>},
+		pdfcreator = {<<ScoopTemplateEngineSignature>>}
+	}
+}{
+	\pdfinfo{
+		/Title (<<Title>>)
+		/Author (<<AuthorsFullNamesCommaSeparated>>)
+		/Subject ()
+		/Keywords (<<KeywordsCommaSeparated>>)
+		/Creator (<<ScoopTemplateEngineSignature>>)
+	}
+}
+\makeatother
+
+% Set title and subtitle information.
+\title{<<TitleNewlineSubTitle>>}
+\shorttitle{<<ShortTitle>>}
+
+% Set author information.
+<<AuthorsInstitutionsLaPreprint>>
+\leadauthor{<<CorrespondingAuthorsLaPreprint>>}
+\metadata[]{\Letter\hspace{.5ex} For correspondence}{<<CorrespondingAuthorsEMailsURLsLaPreprint>>}
+
+% Set funding and dedication information.
+\metadata[]{Funding}{<<Funding>>}
+\metadata[]{Dedication}{<<Dedication>>}
+
+\begin{document}
+
+% Typeset the opening page.
+\maketitle
+
+% Insert the abstract.
+\begin{abstract}
+<<InputAbstract>>
+\end{abstract}
+
+% Insert the document body.
+<<InputBody>>
+
+% Insert the bibliography.
+<<BibLaTeXPrintBibliography>>
+
+% Defer all floats to before the appendix in case the "endfloat" document class option is given.
+\if@endfloat\clearpage\processdelayedfloats\clearpage\fi
+
+% Insert the appendix.
+\appendix
+<<InputAppendix>>
+
+\end{document}
