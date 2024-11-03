@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: snap-tracker
+Version: 0.1.1
+Summary: Collection and game tracker for Marvel Snap. Work in progress.
+Author-email: Kimmo Parviainen-Jalanko <kimvais@kimva.is>
+License: MIT License
+Project-URL: Homepage, https://github.com/kimvais/snap-tracker/
+Project-URL: Repository, https://github.com/kimvais/snap-tracker.git
+Project-URL: Issues, https://github.com/kimvais/snap-tracker/issues
+Keywords: Marvel Snap
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Utilities
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: aiofiles
+Requires-Dist: fire
+Requires-Dist: motor
+Requires-Dist: rich
+Requires-Dist: stringcase
+Requires-Dist: watchfiles
+Provides-Extra: dev
+Requires-Dist: ipython; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+
+# Snap-tracker
+
+A collection & game tracker for [Marvel Snap](https://marvelsnap.com).
+
+Work in progress.
+
+## Installation
+
+```PowerShell
+pip install snap-tracker
+```
+
+## Usage
+```text
+snap-tracker (card_stats|upgrades)
+```
+Other commands are not in useful state, but you can see them with `snap-tracker help`. Use them at your own risk.
+
+### Card stats
+`snap-tracker card_stats` shows all cards in your collection based on their performance ranked by the values found in `AccountState` under `['Account']['CardStats']`
+
+![Screenshot of output of snap-tracker card_stats](https://github.com/kimvais/snap-tracker/blob/master/doc/screenshot_card_stats.png?raw=true)
+
+### Upgrades
+
+`snap-tracker upgrades` will show you cards in your collection for which  you have enough boosters and credits to upgrade.
+
+![Screenshot of output of snap-tracker upgrades](https://github.com/kimvais/snap-tracker/blob/master/doc/screenshot_upgrades.png?raw=true)
+
+_The author of this project is not affiliated with MARVEL, NuVerse or Second Dinner._
