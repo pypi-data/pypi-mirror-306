@@ -1,0 +1,40 @@
+<!--
+Coeus Sphinx Theme Footer Template
+==================================
+
+Author: Akshay Mestry <xa@mes3.dev>
+Created on: Thursday, August 29 2024
+Last updated on: Tuesday, October 29 2024
+-->
+<footer>
+    {%- block footer_before %}{%- endblock footer_before %}
+    <div class="footer-element">
+        <div class="extra-footer-elements">
+            <div>
+                To submit feedback on documentation, visit <a href="{{ feedback_link }}">Feedback</a>.
+            </div>
+            <div>
+                {%- if show_copyright and copyright|length -%}
+                {%- if hasdoc('copyright') -%}
+                {%- trans path=pathto('copyright'), copyright=copyright|e -%}&nbsp;Copyright © <a
+                    href="{{ path }}">&nbsp;Copyright</a>{{ copyright }}{%- endtrans -%}
+                {%- else -%}
+                {%- trans copyright=copyright|e -%}Copyright © {{ copyright }}{%- endtrans -%}
+                {%- endif -%}
+                {%- endif -%}
+            </div>
+            <div>
+                {%- if show_sphinx -%}
+                {%- trans sphinx_version=sphinx_version|e -%}
+                Built using <a href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx {{ sphinx_version }}</a>
+                and <a href="https://github.com/xames3/coeus-sphinx-theme" rel="noreferrer">Coeus Sphinx Theme</a>
+                {%- endtrans -%}
+                {%- endif -%}
+                {%- if last_updated -%}
+                {%- trans last_updated=last_updated|e -%}. Last updated: {{ last_updated }}{%- endtrans -%}
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+    {%- block footer_after %}{%- endblock footer_after %}
+</footer>
