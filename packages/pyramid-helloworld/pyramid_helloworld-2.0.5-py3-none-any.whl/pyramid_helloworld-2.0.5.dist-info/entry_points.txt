@@ -1,0 +1,10 @@
+[celery_yaml.app]
+main = pyramid_helloworld.backend:app
+
+[console_scripts]
+
+[gui_scripts]
+
+[paste.app_factory]
+main = pyramid_helloworld:main
+

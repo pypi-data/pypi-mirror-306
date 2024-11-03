@@ -1,0 +1,11 @@
+CHANGELOG.md,sha256=DA3S0sRxUbAJESEi6lwWJqUSxcntr-FDQLdtk8ONkUo,348
+development.json,sha256=MRrYveUFRzv7N16XmM_6tWFfBFhmVzKbl50qSU_htLo,717
+development.yaml,sha256=DZ-sWhnbmgMT-Qgzm9gSdG7eb4GJ1HRKwyU6xc8YxbU,740
+pyramid_helloworld-2.0.5.dist-info/METADATA,sha256=NhyuA7JyUhvWZ3kneD9VEBrPW6_AKGSr1h7JU_DZAIk,1059
+pyramid_helloworld-2.0.5.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+pyramid_helloworld-2.0.5.dist-info/entry_points.txt,sha256=bSNj8OIchRhT5zWSieePZwbyJhrzu3kMg3EYtOi2_E4,143
+pyramid_helloworld-2.0.5.dist-info/licenses/LICENSE,sha256=PNdPGqa6V0DdAidWuNndR6aJkwbhwyjVzeEIHHLxyrk,1523
+pyramid_helloworld/__init__.py,sha256=K5rcNMNVFB9O7FUu3fN3VbOf-P8qo3VlTvuh74_OluU,899
+pyramid_helloworld/backend.py,sha256=Xece3g6sC-6eggFIuskTHCzE5t5b8kXalcfEnmuVKu8,89
+pyramid_helloworld/tasks.py,sha256=Thk5aYA8TQndddbOzbVrEQhVX8ABKSCZTT5qmJcDwWE,120
+pyramid_helloworld-2.0.5.dist-info/RECORD,,
