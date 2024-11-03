@@ -1,0 +1,45 @@
+[project]
+name = "pyalsolver"
+version = "0.0.11"
+description = "A package for matrix factorization using alternating least squares"
+readme = "README.md"
+authors = [
+    { name = "George Assaad", email = "lopgogo@gmail.com" } 
+]
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.9.2",
+    "numba>=0.60.0",
+    "numpy==2.0.0",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+    "scikit-learn>=1.5.2",
+    "scipy>=1.14.1",
+]
+classifiers = [
+  "Intended Audience :: Developers",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Repository = "https://github.com/0xgeorgeassaad/ALSolver"
+
+
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel>=6.29.5",
+    "ruff>=0.7.1",
+    "seaborn>=0.13.2",
+]
