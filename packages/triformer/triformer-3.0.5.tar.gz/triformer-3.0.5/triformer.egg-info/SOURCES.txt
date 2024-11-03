@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+triformer/__init__.py
+triformer/cross_entropy.py
+triformer/dropout.py
+triformer/layernorm.py
+triformer/softmax.py
+triformer/transformer.py
+triformer/utils.py
+triformer.egg-info/PKG-INFO
+triformer.egg-info/SOURCES.txt
+triformer.egg-info/dependency_links.txt
+triformer.egg-info/requires.txt
+triformer.egg-info/top_level.txt
