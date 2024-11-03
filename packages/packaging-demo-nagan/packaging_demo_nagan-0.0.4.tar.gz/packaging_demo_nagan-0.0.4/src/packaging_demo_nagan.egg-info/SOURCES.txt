@@ -1,0 +1,9 @@
+pyproject.toml
+src/packaging_demo/__init__.py
+src/packaging_demo/app.py
+src/packaging_demo_nagan.egg-info/PKG-INFO
+src/packaging_demo_nagan.egg-info/SOURCES.txt
+src/packaging_demo_nagan.egg-info/dependency_links.txt
+src/packaging_demo_nagan.egg-info/requires.txt
+src/packaging_demo_nagan.egg-info/top_level.txt
+tests/test_app.py

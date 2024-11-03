@@ -1,0 +1,73 @@
+[project]
+name = "packaging-demo-nagan"
+version = "0.0.4"
+# dynamic = ["version"]
+description = "A Python project with formatting and linting tools"
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+requires-python = ">=3.9"
+keywords = ["packaging", "demo", "example"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = ["pandas", "numpy"]
+
+[project.optional-dependencies]
+code_qa = ["black", "isort", "ruff", "yamllint", "nbqa", "pre-commit"]
+test = ["pytest", "pytest-cov"]
+release = ["build", "twine"]
+
+ci = ["packaging-demo-nagan[code_qa, test]"]
+dev = ["packaging-demo-nagan[code_qa, test, release]" , "ipykernel"]
+cd = ["packaging-demo-nagan[release]"]
+
+
+
+[tool.isort]
+profile = "black"
+line_length = 120
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
+
+[tool.black]
+line-length = 120
+target-version = ['py311']
+exclude = '''
+/(
+    \.git
+    | \.venv
+    | \.ipynb$
+    | old_and_archived_samples
+)/
+'''
+
+[tool.ruff]
+lint.select = ["E", "F", "B"]
+# lint.ignore = ["E501"]
+lint.fixable = ["E", "F", "B"]
+line-length = 120
+target-version = "py311"
+exclude = ["*.ipynb", "old_and_archived_samples/*"]
+
+
+[tool.nbqa]
+line-length = 120
+
+# not supported yet
+# [tool.yamllint]
+# config-file = "yamllint.yaml"
+
+# not supported yet
+# [tool.markdownlint]
+# config = "markdownlint.yml"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+norecursedirs = ["old_and_archived_samples"]
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+
+# [tool.setuptools]
+# packages = ["e2e_samples", "single_tech_samples"]

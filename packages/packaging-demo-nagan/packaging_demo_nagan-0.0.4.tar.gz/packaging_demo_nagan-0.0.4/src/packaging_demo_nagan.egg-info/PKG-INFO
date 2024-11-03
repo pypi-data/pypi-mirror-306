@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: packaging-demo-nagan
+Version: 0.0.4
+Summary: A Python project with formatting and linting tools
+Author-email: Your Name <your.email@example.com>
+Keywords: packaging,demo,example
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: pandas
+Requires-Dist: numpy
+Provides-Extra: code-qa
+Requires-Dist: black; extra == "code-qa"
+Requires-Dist: isort; extra == "code-qa"
+Requires-Dist: ruff; extra == "code-qa"
+Requires-Dist: yamllint; extra == "code-qa"
+Requires-Dist: nbqa; extra == "code-qa"
+Requires-Dist: pre-commit; extra == "code-qa"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Provides-Extra: release
+Requires-Dist: build; extra == "release"
+Requires-Dist: twine; extra == "release"
+Provides-Extra: ci
+Requires-Dist: packaging-demo-nagan[code_qa,test]; extra == "ci"
+Provides-Extra: dev
+Requires-Dist: packaging-demo-nagan[code_qa,release,test]; extra == "dev"
+Requires-Dist: ipykernel; extra == "dev"
+Provides-Extra: cd
+Requires-Dist: packaging-demo-nagan[release]; extra == "cd"
