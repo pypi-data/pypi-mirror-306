@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: binaryrepr
+Version: 0.19
+Summary: binaryrep utility to display position of the bits for a number.
+Home-page: https://github.com/dlamouller/binaryreprtui
+Author: David Lamouller
+Author-email: dlamouller@protonmail.com
+Keywords: binary representation
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: PrettyTable
+
+binaryrep is a utility to display position of the bits of a number. Entries can be decimal, hexadecimal, binary or octal.
