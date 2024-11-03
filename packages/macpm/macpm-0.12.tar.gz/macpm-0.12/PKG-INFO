@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: macpm
+Version: 0.12
+Summary: Performance monitoring CLI tool for Apple Silicon
+Home-page: https://github.com/visualcjy/macpm
+Author: Jinyu Chen
+Author-email: visualcjy@mail.com
+License: MIT
+Keywords: macpm
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dashing
+Requires-Dist: psutil
+Requires-Dist: humanize
+
+Performance monitoring CLI tool for Apple Silicon
