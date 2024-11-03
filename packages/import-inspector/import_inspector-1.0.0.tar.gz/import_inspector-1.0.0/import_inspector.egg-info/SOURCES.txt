@@ -1,0 +1,13 @@
+README.md
+setup.py
+import_inspector/__init__.py
+import_inspector/cli.py
+import_inspector/cpu_profiler.py
+import_inspector/detailed_profiler.py
+import_inspector/memory_profiler.py
+import_inspector.egg-info/PKG-INFO
+import_inspector.egg-info/SOURCES.txt
+import_inspector.egg-info/dependency_links.txt
+import_inspector.egg-info/entry_points.txt
+import_inspector.egg-info/requires.txt
+import_inspector.egg-info/top_level.txt

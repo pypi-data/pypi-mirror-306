@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: import-inspector
+Version: 1.0.0
+Summary: A profiling tool for analyzing memory and CPU usage of Python imports.
+Author: Saurabh Apraj
+Author-email: saurabhapraj7@gmail.com
+Requires-Dist: pympler
