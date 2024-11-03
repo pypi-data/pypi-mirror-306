@@ -1,0 +1,12 @@
+setup.py
+codeboot/__init__.py
+codeboot.egg-info/PKG-INFO
+codeboot.egg-info/SOURCES.txt
+codeboot.egg-info/dependency_links.txt
+codeboot.egg-info/requires.txt
+codeboot.egg-info/top_level.txt
+codeboot/globaux/__init__.py
+codeboot/globaux/core.py
+codeboot/pixels/__init__.py
+codeboot/pixels/core.py
+codeboot/pixels/utils.py
