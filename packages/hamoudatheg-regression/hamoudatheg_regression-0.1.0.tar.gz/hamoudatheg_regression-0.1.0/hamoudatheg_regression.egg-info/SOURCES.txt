@@ -1,0 +1,8 @@
+README.md
+setup.py
+hamoudatheg-regression/__init__.py
+hamoudatheg-regression/regression.py
+hamoudatheg_regression.egg-info/PKG-INFO
+hamoudatheg_regression.egg-info/SOURCES.txt
+hamoudatheg_regression.egg-info/dependency_links.txt
+hamoudatheg_regression.egg-info/top_level.txt

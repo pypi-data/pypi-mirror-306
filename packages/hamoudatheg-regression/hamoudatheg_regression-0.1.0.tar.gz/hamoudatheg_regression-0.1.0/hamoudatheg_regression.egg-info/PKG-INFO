@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: hamoudatheg-regression
+Version: 0.1.0
+Summary: A simple linear regression model
+Author: hamouda
+Author-email: m.guechaoui@esi-sba.dz
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# package_name
+
+`rocket` is a Python library for ..........
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `rocket`.
+
+```bash
+pip install rocket
+```
+
+## Usage
+
+```python
+import rocket
+
+# returns 'words'
+rocket.module_name('word')
+
+# returns 'geese'
+package_name.module_name('goose')
+
+# returns 'phenomenon'
+package_name.module_name('phenomena')
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
