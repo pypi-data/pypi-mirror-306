@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: NumIntGrupo1
+Version: 1.0.1
+Summary: Paquete computacional que permite aproximar el valor numérico de la integra definida
+Author: Abraham Venegas
+Author-email: <abravenegas@estudiantec.cr>
+Keywords: python,NumInt,integración numérica
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: numpy
+
+Los métodos incluidos son: regla del trapecio compuesto, regla de Simpson compuesta, cuadratura gaussiana compuesta, regla del trapecio compuesta iterativa y método de Romberg.
