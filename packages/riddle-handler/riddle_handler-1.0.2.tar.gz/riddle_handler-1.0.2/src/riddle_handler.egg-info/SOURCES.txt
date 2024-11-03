@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/riddle_handler/__init__.py
+src/riddle_handler/check_answer.py
+src/riddle_handler/generate_riddle.py
+src/riddle_handler/provide_hint.py
+src/riddle_handler/read_file.py
+src/riddle_handler/submit_riddle.py
+src/riddle_handler.egg-info/PKG-INFO
+src/riddle_handler.egg-info/SOURCES.txt
+src/riddle_handler.egg-info/dependency_links.txt
+src/riddle_handler.egg-info/requires.txt
+src/riddle_handler.egg-info/top_level.txt
