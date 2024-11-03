@@ -1,0 +1,96 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+authors = [
+    { name = "Tpt", email = "thomas@pellissier-tanon.fr" },
+    { name = "Nikola", email = "me@thisisnikola.com" },
+]
+description = "rdflib stores based on pyoxigraph"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: BSD License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Database :: Database Engines/Servers",
+]
+dependencies = ["pyoxigraph~=0.4.2", "rdflib>=6.3,<8.0"]
+dynamic = ["version"]
+license = { text = "BSD-3-Clause" }
+name = "oxrdflib"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.entry-points."rdf.plugins.store"]
+Oxigraph = "oxrdflib.store:OxigraphStore"
+oxigraph = "oxrdflib.store:OxigraphStore"
+
+[project.entry-points."rdf.plugins.parser"]
+ox-turtle = "oxrdflib.parser:OxigraphTurtleParser"
+ox-ttl = "oxrdflib.parser:OxigraphTurtleParser"
+ox-n3 = "oxrdflib.parser:OxigraphN3Parser"
+ox-nq = "oxrdflib.parser:OxigraphNQuadsParser"
+ox-nquads = "oxrdflib.parser:OxigraphNQuadsParser"
+ox-ntriples = "oxrdflib.parser:OxigraphNTriplesParser"
+ox-nt = "oxrdflib.parser:OxigraphNTriplesParser"
+ox-nt11 = "oxrdflib.parser:OxigraphNTriplesParser"
+ox-trig = "oxrdflib.parser:OxigraphTriGParser"
+ox-xml = "oxrdflib.parser:OxigraphRdfXmlParser"
+
+[project.entry-points."rdf.plugins.serializer"]
+ox-turtle = "oxrdflib.serializer:OxigraphTurtleSerializer"
+ox-ttl = "oxrdflib.serializer:OxigraphTurtleSerializer"
+ox-n3 = "oxrdflib.serializer:OxigraphN3Serializer"
+ox-nq = "oxrdflib.serializer:OxigraphNQuadsSerializer"
+ox-nquads = "oxrdflib.serializer:OxigraphNQuadsSerializer"
+ox-ntriples = "oxrdflib.serializer:OxigraphNTriplesSerializer"
+ox-nt = "oxrdflib.serializer:OxigraphNTriplesSerializer"
+ox-nt11 = "oxrdflib.serializer:OxigraphNTriplesSerializer"
+ox-trig = "oxrdflib.serializer:OxigraphTriGSerializer"
+ox-xml = "oxrdflib.serializer:OxigraphRdfXmlSerializer"
+
+[project.urls]
+Changelog = "https://github.com/oxigraph/oxrdflib/blob/main/CHANGELOG.md"
+Documentation = "https://github.com/oxigraph/oxrdflib/blob/main/README.md"
+Homepage = "https://github.com/oxigraph/oxrdflib"
+Source = "https://github.com/oxigraph/oxrdflib"
+Tracker = "https://github.com/oxigraph/oxrdflib/issues"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "ARG",
+    "B",
+    "C40",
+    "C901",
+    "E",
+    "F",
+    "FLY",
+    "I",
+    "ICN",
+    "N",
+    "PERF",
+    "PIE",
+    "PTH",
+    "RET",
+    "RUF",
+    "SIM",
+    "T10",
+    "TCH",
+    "TID",
+    "UP",
+    "W",
+    "YTT",
+]
+
+[tool.setuptools_scm]

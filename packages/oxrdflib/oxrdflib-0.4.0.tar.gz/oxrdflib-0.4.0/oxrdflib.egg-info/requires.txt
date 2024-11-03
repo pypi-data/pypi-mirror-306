@@ -1,0 +1,2 @@
+pyoxigraph~=0.4.2
+rdflib<8.0,>=6.3

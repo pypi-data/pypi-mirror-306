@@ -1,0 +1,27 @@
+[rdf.plugins.parser]
+ox-n3 = oxrdflib.parser:OxigraphN3Parser
+ox-nq = oxrdflib.parser:OxigraphNQuadsParser
+ox-nquads = oxrdflib.parser:OxigraphNQuadsParser
+ox-nt = oxrdflib.parser:OxigraphNTriplesParser
+ox-nt11 = oxrdflib.parser:OxigraphNTriplesParser
+ox-ntriples = oxrdflib.parser:OxigraphNTriplesParser
+ox-trig = oxrdflib.parser:OxigraphTriGParser
+ox-ttl = oxrdflib.parser:OxigraphTurtleParser
+ox-turtle = oxrdflib.parser:OxigraphTurtleParser
+ox-xml = oxrdflib.parser:OxigraphRdfXmlParser
+
+[rdf.plugins.serializer]
+ox-n3 = oxrdflib.serializer:OxigraphN3Serializer
+ox-nq = oxrdflib.serializer:OxigraphNQuadsSerializer
+ox-nquads = oxrdflib.serializer:OxigraphNQuadsSerializer
+ox-nt = oxrdflib.serializer:OxigraphNTriplesSerializer
+ox-nt11 = oxrdflib.serializer:OxigraphNTriplesSerializer
+ox-ntriples = oxrdflib.serializer:OxigraphNTriplesSerializer
+ox-trig = oxrdflib.serializer:OxigraphTriGSerializer
+ox-ttl = oxrdflib.serializer:OxigraphTurtleSerializer
+ox-turtle = oxrdflib.serializer:OxigraphTurtleSerializer
+ox-xml = oxrdflib.serializer:OxigraphRdfXmlSerializer
+
+[rdf.plugins.store]
+Oxigraph = oxrdflib.store:OxigraphStore
+oxigraph = oxrdflib.store:OxigraphStore
