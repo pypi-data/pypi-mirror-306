@@ -1,0 +1,29 @@
+[project]
+name = "WordTransformer"
+version = "0.0.5"
+description = "WiC Pretrained Model for Cross-Lingual LEXical sEMantic changE"
+authors = [
+    { name = "Pierluigi Cassotti", email = "p@x.com" }
+]
+dependencies = [
+    "huggingface-hub<0.26.0",
+    "sentence-transformers<3.0.0",
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pierluigic/xl-lexeme"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
