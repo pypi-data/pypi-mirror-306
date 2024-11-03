@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mimodulo_djcr25
+Version: 0.0.1
+Summary: modulo de saludos a tu nombre
+Home-page: https://tuurl.com
+Author: David chaparro
+Author-email: chaparrodavid91@icloud.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
