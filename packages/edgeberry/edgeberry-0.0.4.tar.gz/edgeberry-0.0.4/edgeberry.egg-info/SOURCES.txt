@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+edgeberry/__init__.py
+edgeberry.egg-info/PKG-INFO
+edgeberry.egg-info/SOURCES.txt
+edgeberry.egg-info/dependency_links.txt
+edgeberry.egg-info/requires.txt
+edgeberry.egg-info/top_level.txt
