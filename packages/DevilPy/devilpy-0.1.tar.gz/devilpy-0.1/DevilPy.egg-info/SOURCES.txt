@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+DevilPy.egg-info/PKG-INFO
+DevilPy.egg-info/SOURCES.txt
+DevilPy.egg-info/dependency_links.txt
+DevilPy.egg-info/top_level.txt
+NasrPy/__init__.py
