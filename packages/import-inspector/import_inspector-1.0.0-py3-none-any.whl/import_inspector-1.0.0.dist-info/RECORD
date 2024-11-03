@@ -1,0 +1,10 @@
+import_inspector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+import_inspector/cli.py,sha256=4jEHoBD-hC0C-kOfh5l51vPF7skrPUTofTXLDqS-A40,1062
+import_inspector/cpu_profiler.py,sha256=IDQzpmlxoUcoE7Nq90lh6YnaUsIdOdGRC8OGbbJX-oc,802
+import_inspector/detailed_profiler.py,sha256=aBAavgYk-g-X9snv5WwHq5mdgLbvrh2JwMjacZEGcXA,750
+import_inspector/memory_profiler.py,sha256=5K4C8dXZalPlzaI73gf60z9O_BFZ3iUBJ4ZJh3Tzj7s,845
+import_inspector-1.0.0.dist-info/METADATA,sha256=kprKUIj5lmufaJTR2VFcqam0gFoJfiquqaTr0trOyH0,232
+import_inspector-1.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+import_inspector-1.0.0.dist-info/entry_points.txt,sha256=dwXbmqSOTCxNzVnIHc25wFSaCexc_cyMS5VrTYFn0sE,63
+import_inspector-1.0.0.dist-info/top_level.txt,sha256=29JL0uj9tay-6Hte8SVbqjZVR1bmobCfKQC9XiouiMY,17
+import_inspector-1.0.0.dist-info/RECORD,,
