@@ -1,0 +1,13 @@
+gluex.hddm_r.libs/libXrdCl-516bb06e.so.3.0.0,sha256=WAHK_SXdehzX4N9C52CD8KL2uG4g3QWb-hQwOxTgZrw,3355409
+gluex.hddm_r.libs/libuuid-055a0bd8.so.2.40.1,sha256=XroUUKL1mD0HH9fnrxBhnx-46eZZ2je0ghhwdcgWBYE,42049
+gluex.hddm_r.libs/libXrdUtils-4b65dacb.so.3.0.0,sha256=7wZHaAps5nsLVwD9jwjhbKwtTjaP7-OJvEH3tN6doqQ,8981889
+gluex.hddm_r.libs/libXrdXml-9b70722d.so.3.0.0,sha256=D-NhJm1SXnGV6hIrrCpzTgXKThERUmXGd4_KEwBFOe8,1735601
+gluex/hddm_r.cpython-36m-x86_64-linux-gnu.so,sha256=titjgOm18abtDoSJYkKnt0l6gfZsEsJX3TXNf0cCZAo,48358169
+gluex/xrootd_client/__init__.py,sha256=PZekT8k2mKAhJ8Q5RlhQ0mS2fKDXybaK3sVDEqZDoHA,1368
+gluex/hddm_r/rest.xml,sha256=jvKYpQsC3tcOzmMF8jz-a4WxcV8Sax_bmPKeZ_qEf5g,11295
+gluex/hddm_r/sharedlibs.tar.gz,sha256=rxQdf5-kD74zUhFj5tQoi6ztaaoQYYXdsKHXqsmbW78,43308394
+gluex.hddm_r-2.3.3.dist-info/top_level.txt,sha256=1sy7WrgDAbSW3qpacdhWOOk2sU_moRx_P9UXnotF4m8,77
+gluex.hddm_r-2.3.3.dist-info/RECORD,,
+gluex.hddm_r-2.3.3.dist-info/LICENSE,sha256=guNhQjgEXYGAl4Nghfk09_ps1QJs-mwri2sFQcz2878,1070
+gluex.hddm_r-2.3.3.dist-info/METADATA,sha256=QE1_w455FhWnhPfc1-w58z26eLGwDAhGoYBr6iVToTk,2396
+gluex.hddm_r-2.3.3.dist-info/WHEEL,sha256=2o5WOWabEixCANJsjbRq-k-ysmAqlETlAIL-KeeJn3k,113
