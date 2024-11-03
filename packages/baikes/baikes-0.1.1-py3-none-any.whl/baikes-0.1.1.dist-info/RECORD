@@ -1,0 +1,9 @@
+baikes/__init__.py,sha256=fI2M8U8svr0CCYXVYMxTM22bIsBT7Ybr7XojCNxzUbo,38
+baikes/__main__.py,sha256=5tj_FhNMbfhzAVk-UwVOA5J6dGLelcYDbuvpyIHK7Gc,92
+baikes/baike.py,sha256=pfV95e9MjE3pWp2DovIaa6bJgpXMnH_yifGc374Gryk,7669
+baikes/provider.py,sha256=Qvt8GdBbChbbN2PlXa7QfzBqOotBZmEEPEKJal4Jd_Q,2514
+baikes-0.1.1.dist-info/License,sha256=-_8OdaUz8OagfvuWlHGXyvLFlPZLGzHzBE9hVY8VaPE,1089
+baikes-0.1.1.dist-info/METADATA,sha256=6qIkmzlYahTosReWFXovxbgkb_r3hNBnL-VpH5wU8yA,1990
+baikes-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+baikes-0.1.1.dist-info/top_level.txt,sha256=agZcNHq2URLjq5E0Txu10ICQ3VYmtL4KItnkB2_QY-c,7
+baikes-0.1.1.dist-info/RECORD,,
