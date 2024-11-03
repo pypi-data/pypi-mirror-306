@@ -1,0 +1,14 @@
+DataRefine/__init__.py,sha256=QvrUfSe0JcJ_6X6HxXi8Ca46gP-YoZfcfAYd85_M1eU,425
+DataRefine/data_quality_assessment.py,sha256=YuKF7oO4XVc4Yn1Jf4aSK117RSjIxOkBMipRJegX2fs,4768
+DataRefine/handle_missing.py,sha256=eI1bo5nRGP_EJzKbZmXrH-qCXl3gJ-_PNzbwhOkr3Gk,5909
+DataRefine/handle_outliers.py,sha256=30jQtkfoIHH87TGa0MKhDxbqDtTNOJK6jy8zpnjFOUk,5577
+DataRefine/normalize.py,sha256=FLnr-27GA9CVMTmuVKrsCp2JE2-5dfHXHxbVwhtsJH8,5061
+DataRefine/scripts/app.py,sha256=z0LBqOZmUSH6ZnhDn8hCV0jyWRLApv_Z2w6jVosXZlU,24986
+DataRefine/scripts/drlogo.jpeg,sha256=tzVT9BDrjNOmEzjpfQwmmUE-l16pKEQLeNdnM0Z7ons,49895
+DataRefine/scripts/run_app.py,sha256=1JOXO09kwDiWv_aJsAkqFNw3izg_m9i3-e74FhiycTo,320
+datarefi-1.5.dist-info/LICENSE,sha256=oWIX3_hlrdLR-FpIJ12YM-9CNcGw0no-lvEF-euby-c,1071
+datarefi-1.5.dist-info/METADATA,sha256=1Gcxo75r1EXTNE87-tNBplVipDYPnb8Oa0NegP8SXxc,2969
+datarefi-1.5.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+datarefi-1.5.dist-info/entry_points.txt,sha256=sNjl9vrHZ1GDa4_5uJV2N0CAemIESH52QhMhEKav_5Y,64
+datarefi-1.5.dist-info/top_level.txt,sha256=sA8sUoSBQfyQHGfhlJzNDlapoJAb-SCheuXBBLI1rW8,11
+datarefi-1.5.dist-info/RECORD,,

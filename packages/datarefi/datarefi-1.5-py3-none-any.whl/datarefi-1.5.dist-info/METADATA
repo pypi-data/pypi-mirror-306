@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: datarefi
+Version: 1.5
+Summary: A no-code solution for performing data cleaning like misssing value imputation,outlier handling,normalisation,transformation and quality check with an intuitive interface for interactive DataFrame manipulation and easy CSV export.
+Home-page: https://github.com/Shahanafarvin/DataRefine
+Author: Shahana Farvin
+Author-email: shahana50997@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/Shahanafarvin/DataRefine/blob/main/README.md
+Project-URL: Source, https://github.com/Shahanafarvin/DataRefine/tree/main/datarefine
+Project-URL: Tracker, https://github.com/Shahanafarvin/DataRefine/issues
+Keywords: data transformation,missing value imputation,outlier handling,normalisation,transformation,machine learning,data preprocessing,pandas,scikit-learn,feature engineering,data science,Python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: plotly
+Requires-Dist: scikit-learn>=0.22.0
+Requires-Dist: scipy
+Requires-Dist: setuptools
+Requires-Dist: streamlit
+
+# DataRefine
+
+**DataRefine** is a Python package designed for data cleaning with interactive output and visualizations. It offers a streamlined interface to help users detect and handle missing values, outliers, perform normalization and transformation, and assess data quality. The package also integrates interactive visualizations to make it easy for users to understand their data, along with an interface for an enhanced user experience.
+
+## Features
+
+- **Missing Values Detection and Handling**: Detect missing values and apply various methods to handle them (mean, median, mode imputation, etc.).
+- **Outlier Detection and Handling**: Identify outliers and provide methods for dealing with them.
+- **Normalization & Transformation**: Apply normalization and transformation techniques to your data for scaling and distribution improvement.
+- **Data Quality Assessment**: Compute key quality metrics, summary statistics, and identify data inconsistencies.
+- **Interactive Visualizations**: Visualize data distributions, outliers, missing data, and correlations using easy-to-understand plots.
+- **User-friendly Interface**: An interactive Streamlit-powered interface for seamless navigation and ease of use.
+
+## Installation
+
+You can install the latest version of **DataRefine** directly from PyPi:
+
+```bash
+pip install DataRefine
+
+
