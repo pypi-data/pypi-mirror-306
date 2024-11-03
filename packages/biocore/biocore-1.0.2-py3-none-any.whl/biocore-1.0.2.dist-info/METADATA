@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: biocore
+Version: 1.0.2
+Summary: Bioinformatics datasets and tools for bio-family projects
+Home-page: https://github.com/psmyth94/biocore
+Author: Patrick Smyth
+Author-email: psmyth1994@gmail.com
+License: Apache 2.0
+Download-URL: https://github.com/psmyth94/biocore/tags
+Platform: UNKNOWN
+Requires-Python: >=3.8.0,<3.12.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.17
+Requires-Dist: pandas
+Requires-Dist: pyarrow>=15.0.0
+Provides-Extra: biosets
+Requires-Dist: biosets; extra == "biosets"
+Provides-Extra: datasets
+Requires-Dist: datasets; extra == "datasets"
+Provides-Extra: docs
+Requires-Dist: s3fs; extra == "docs"
+Provides-Extra: polars
+Requires-Dist: polars>=0.20.5; extra == "polars"
+Requires-Dist: timezones>=0.10.2; extra == "polars"
+Provides-Extra: quality
+Requires-Dist: ruff>=0.1.5; extra == "quality"
+Provides-Extra: test
+Requires-Dist: ruff>=0.1.5; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-timeout; extra == "test"
+Requires-Dist: pytest-xdist; extra == "test"
+Requires-Dist: polars>=0.20.5; extra == "test"
+Requires-Dist: timezones>=0.10.2; extra == "test"
+Requires-Dist: biosets; extra == "test"
+Requires-Dist: datasets; extra == "test"
+Requires-Dist: s3fs; extra == "test"
+
+UNKNOWN
+
+
