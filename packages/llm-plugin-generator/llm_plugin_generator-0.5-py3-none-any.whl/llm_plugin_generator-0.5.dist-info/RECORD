@@ -1,0 +1,10 @@
+llm_plugin_generator/__init__.py,sha256=hWl4XC6Alp5lV19oYaYFCXbDJpV40OfprA2XE9lU8SA,5177
+llm_plugin_generator/few_shot_prompt_llm_plugin_all.xml,sha256=p7Ks6q0N58259XGCksTmiwy2Pbjq5qbA-FdYxBojCH0,56581
+llm_plugin_generator/few_shot_prompt_llm_plugin_model.xml,sha256=IbZNBlqE2Rl3wFsRDhjFck-F64UZSwXDz8D4t6n0qTU,30651
+llm_plugin_generator/few_shot_prompt_llm_plugin_utility.xml,sha256=1fLtcXN7zMe1cCd2ogb4SZFPNMXAKgSn11h1AQTpYVQ,26005
+llm_plugin_generator-0.5.dist-info/LICENSE,sha256=dUhuoK-TCRQMpuLEAdfme-qPSJI0TlcH9jlNxeg9_EQ,1056
+llm_plugin_generator-0.5.dist-info/METADATA,sha256=cZn77qcJMfM0FIRWYGWc4T1Li6WfokkBxpxk1khvNrs,4212
+llm_plugin_generator-0.5.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+llm_plugin_generator-0.5.dist-info/entry_points.txt,sha256=ftVcwXrCcOqBQDh0uUGleEpbxF9laaQ6r0m-laLBZl0,46
+llm_plugin_generator-0.5.dist-info/top_level.txt,sha256=JohIiLJ_Y8cGBUb_3UpBMnCjF5iFAspAuKEafgbUBlo,21
+llm_plugin_generator-0.5.dist-info/RECORD,,
