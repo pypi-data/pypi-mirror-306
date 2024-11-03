@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+kscaleos/__init__.py
+kscaleos/py.typed
+kscaleos/requirements-dev.txt
+kscaleos/requirements.txt
+kscaleos.egg-info/PKG-INFO
+kscaleos.egg-info/SOURCES.txt
+kscaleos.egg-info/dependency_links.txt
+kscaleos.egg-info/requires.txt
+kscaleos.egg-info/top_level.txt
+tests/test_dummy.py
