@@ -1,0 +1,16 @@
+nanoflow-0.8.0.dist-info/METADATA,sha256=Pcmjop1KFCSb1j_6n5GHa5az0tZjNKya6OGxgEv2h38,4545
+nanoflow-0.8.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+nanoflow-0.8.0.dist-info/entry_points.txt,sha256=PRhD9IB1ecDVE7hbUOMWiugKTsOdBJR9DIRiLqYr5W4,67
+nanoflow-0.8.0.dist-info/licenses/LICENCE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nanoflow/__init__.py,sha256=CQpqHsfrgw8YBod00PUWO4CYhDkH060Ux0A9GgInF9E,182
+nanoflow/__main__.py,sha256=RGcN_Y4szC8FSUKrZiPkUprUmY3LgTB_jI9lvI46BqQ,103
+nanoflow/__version__.py,sha256=ceImgOLnQYbeKHLYYJS5ZBuABnV-cyTzWjoMa_RcZBs,21
+nanoflow/cli.py,sha256=VNWDz7X96OdLkgkyC-hCkBPVpHsiKmek8lbmh-5ZP_E,1761
+nanoflow/config.py,sha256=Q0UwJXynTJJ6GdjO61Q61quU6s6cpyf-5X_wOQ9x8As,4967
+nanoflow/executor.py,sha256=1Nbb0EG5N1X-FXkj8jH8z-3KCMFnjJKudy8X6GA6ELg,2260
+nanoflow/resource_pool.py,sha256=8Q_ZPh7KKQw7iIhv-ZxAddl_VBtZjfw7ALvXX5V4Xao,2791
+nanoflow/task.py,sha256=aSlqIGYrz9DiLC9INRPTAp8E3oHmuN-4MidLS-Jyz7s,4037
+nanoflow/tui.py,sha256=w1DyS1wtBdtLZjr40n4-OInFC2ITxVXYyuk9x_H-0ps,2573
+nanoflow/utils.py,sha256=Mg1QCUAxYsY6iDLyhSeu1SgwT6MDk2RBjMtwM3ds6IM,3001
+nanoflow/workflow.py,sha256=Hma1zlt3ngblZusQkr3gD_Mt-BJfy6XnA3DyGTmD9fM,1135
+nanoflow-0.8.0.dist-info/RECORD,,
