@@ -1,0 +1,15 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Sergeev
+    given-names: Denis E.
+    orcid: https://orcid.org/0000-0001-8832-5288
+    website: https://dennissergeev.github.io/
+  - family-names: Zamyatina
+    given-names: Maria
+    orcid: https://orcid.org/0000-0002-9705-0535
+    website: https://mzamyatina.github.io/
+title: "Aeolus - a Python library for the analysis and visualisation of climate model output."
+version: 24.4.29.1
+doi: 10.5281/zenodo.5145604
+date-released: 2024-04-29

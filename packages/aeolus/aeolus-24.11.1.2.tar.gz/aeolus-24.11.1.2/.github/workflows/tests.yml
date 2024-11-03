@@ -1,0 +1,58 @@
+name: tests
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/tests.yml'
+      - 'pyproject.toml'
+      - 'requirements/**'
+      - 'src/**'
+      - 'tests/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/tests.yml'
+      - 'pyproject.toml'
+      - 'requirements/**'
+      - 'src/**'
+      - 'tests/**'
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python-version: ['3.10', '3.11', '3.12']
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Setup Conda for OS ${{ matrix.os }} and Python ${{ matrix.python-version }}
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          python-version: ${{ matrix.python-version }}
+          environment-file: requirements/environment-py${{ matrix.python-version }}.yml
+          miniforge-version: "latest"
+          use-mamba: true
+          activate-environment: aeolus_test
+          auto-activate-base: false
+
+      - name: Install
+        shell: bash -l {0}
+        run: python -m pip install -e .
+
+      - name: List installed packages
+        shell: bash -l {0}
+        run: conda list
+
+      - name: Run tests
+        shell: bash -l {0}
+        run: |
+          git clone https://github.com/exoclim/aeolus_data.git tests/data
+          python -m pytest -c pyproject.toml --cov=aeolus --cov-report=xml
+
+      - name: Coverage
+        uses: codecov/codecov-action@v1
