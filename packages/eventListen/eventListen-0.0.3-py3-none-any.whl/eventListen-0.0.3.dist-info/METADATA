@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: eventListen
+Version: 0.0.3
+Summary: eventListen is a small module for creating events.
+Author-email: Artic <artic.admisoffi@gmail.com>
+Project-URL: Homepage, https://github.com/ArticOff/eventListen
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: proto-obj >=0.0.4
+
+# eventListen
+
+eventListen is a small module for creating events.
+eventListen has been designed for the [Trophées NSI 2025](https://trophees-nsi.fr).
+
+## Warning
+
+This package is not maintained and is not intended to be used.
