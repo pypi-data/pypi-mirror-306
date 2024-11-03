@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: moondream
+Version: 1.0.2
+Summary: A package for image-based question answering using Moondream
+Home-page: https://github.com/1997MarsRover/moondream
+Author: 1997marsrover
+Author-email: antonygithinji11156@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: Pillow
+Requires-Dist: transformers
+
