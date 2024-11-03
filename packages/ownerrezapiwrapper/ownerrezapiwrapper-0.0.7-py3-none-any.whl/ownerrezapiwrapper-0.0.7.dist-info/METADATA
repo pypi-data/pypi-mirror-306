@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ownerrezapiwrapper
+Version: 0.0.7
+Summary: "This is a python wrapper for the Owerrez REST API. Currently it only implements the GET calls. It is my intent to fully implement the entire v2.0 api. For more information on the OwnerRez API see thier documentation ( OwnerRez 2.0)"
+Home-page: https://github.com/gmoorevt/ownerezAPI
+Author: George Moore
+Author-email: geody.moore@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: requests==2.31.0
+
