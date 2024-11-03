@@ -1,0 +1,11 @@
+pydgea/__init__.py,sha256=kQOJvtmpbHGE0oVJv6oubUfigE6lAOQFBGPyh3SkWZI,21
+pydgea/normalization.py,sha256=bEYdgPFQXVumN5wH3GyxB78Ukftg94w6km_71yW7Mfk,1633
+pydgea/pdd.py,sha256=VsfIZi18C18eBr85L0x4_t8itoM39CmZbC4hqJ0U1Ps,4703
+pydgea/prework.py,sha256=u3jDyFWt71phimsdYqSsOD7CMw--8nA7H3YVck8-IcI,8334
+pydgea/stats.py,sha256=l1WjEXmvCehHxHxnME1yZP0Gdfm4P_vegMW6p_bexh0,9935
+pydgea/utils.py,sha256=FATQqp-M943NtmbtboCaobmKSzmgR4O5TX_-0EzgaVY,2506
+pyDGEA-0.0.3.dist-info/LICENSE,sha256=4sAMjpwyw3ElcLd61cYowBJlDluWU-f-RB7ejDJWoK0,1091
+pyDGEA-0.0.3.dist-info/METADATA,sha256=PHMmqXT5P4STOV3E9gfZx280ac6VeIMaBbEMwTRjy4g,257
+pyDGEA-0.0.3.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+pyDGEA-0.0.3.dist-info/top_level.txt,sha256=yf0jlu8ovxsI_ZGqewcTNdaVGhWLEhDc1hhz0nLn5uo,7
+pyDGEA-0.0.3.dist-info/RECORD,,
