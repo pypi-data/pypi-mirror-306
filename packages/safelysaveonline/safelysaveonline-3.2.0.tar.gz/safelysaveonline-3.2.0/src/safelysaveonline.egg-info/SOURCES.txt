@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+src/safelysave/__init__.py
+src/safelysaveonline.egg-info/PKG-INFO
+src/safelysaveonline.egg-info/SOURCES.txt
+src/safelysaveonline.egg-info/dependency_links.txt
+src/safelysaveonline.egg-info/requires.txt
+src/safelysaveonline.egg-info/top_level.txt
+tests/test_210.py
+tests/test_300-pre1.py
+tests/test_300.py
