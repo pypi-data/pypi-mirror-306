@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: texweaver
+Version: 0.3.1
+Summary: A simple converter from Markdown to LaTeX
+Home-page: https://github.com/erix025/texweaver
+Author: Eric025
+Author-email: erix025@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: argparse
