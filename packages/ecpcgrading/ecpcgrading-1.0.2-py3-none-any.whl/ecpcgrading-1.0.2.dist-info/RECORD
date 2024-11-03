@@ -1,0 +1,13 @@
+ecpcgrading/__init__.py,sha256=zzr3Ymsw3CJvVdu91Lkl_y8VGaNwSIqfdMmiZHozBcU,163
+ecpcgrading/assignments.py,sha256=fh4DifUYLRtARWWcPf9VjMexArNjXe35sOVc9SckLck,1663
+ecpcgrading/canvas.py,sha256=swbxFVqwZyP4RgzOWZZnqAhjfzjWZ6C5IsP8_On2Oys,2804
+ecpcgrading/config.py,sha256=jJj7V91WJGUYCQq_bUjosGSkwP92k79dVefmK2QEA4I,763
+ecpcgrading/grading_tool.tcss,sha256=Tfh2tV0NkWP2gpFAnbi-zv8LIUDFQiexPysq2QE8Axc,1038
+ecpcgrading/students.py,sha256=cBkQaGP7s_vaPGg8r3L9j9bMfPJFC-AFXA2e2jfjWW8,2695
+ecpcgrading/tasks.py,sha256=o1JaLR3A2UwxrPH587lXWG99IKhZB-pcPGgQnjyBKyA,13932
+ecpcgrading/tui.py,sha256=oDTMXv2ivF1T2AZoJs4DUNMQg3YjF403sWw4z3vzA1k,2792
+ecpcgrading-1.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ecpcgrading-1.0.2.dist-info/METADATA,sha256=O4oc3N2D7zibEE9paagugNAUa4d0-9gG5IX-V4vdVaY,839
+ecpcgrading-1.0.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ecpcgrading-1.0.2.dist-info/entry_points.txt,sha256=-xeY2_w6cE5zgZDd4tLJBRiNsmnTCvlS7F2-Bh01Txo,51
+ecpcgrading-1.0.2.dist-info/RECORD,,
