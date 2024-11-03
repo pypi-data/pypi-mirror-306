@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: NumIntKMC
+Version: 0.0.1
+Summary: Paquete computacional
+Author: Kendall Fernandez,Meibel Mora,Christopher Castro
+Author-email: kefernandez@estudiantec.cr,chriscv1608@estudiantec.cr,meimora@estudiantec.cr
+Keywords: python,ANPI
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+
+Paquete computacional para Tarea 3 de ANPI 2024
