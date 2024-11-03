@@ -1,0 +1,2 @@
+[console_scripts]
+wks-read = wks_com.__main__:read
