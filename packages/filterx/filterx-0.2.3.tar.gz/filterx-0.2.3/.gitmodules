@@ -1,0 +1,6 @@
+[submodule "spec/gff3"]
+	path = spec/gff3
+	url = https://github.com/The-Sequence-Ontology/Specifications
+[submodule "spec/sam-vcf"]
+	path = spec/sam-vcf
+	url = https://@github.com/samtools/hts-specs
