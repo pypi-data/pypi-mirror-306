@@ -1,0 +1,10 @@
+setup.py
+nimc/Main.py
+nimc/__init__.py
+nimc/extension.py
+nimc.egg-info/PKG-INFO
+nimc.egg-info/SOURCES.txt
+nimc.egg-info/dependency_links.txt
+nimc.egg-info/entry_points.txt
+nimc.egg-info/requires.txt
+nimc.egg-info/top_level.txt
