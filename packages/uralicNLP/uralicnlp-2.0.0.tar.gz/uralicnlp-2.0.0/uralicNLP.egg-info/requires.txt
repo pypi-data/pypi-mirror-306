@@ -1,0 +1,7 @@
+requests
+mikatools>=0.0.6
+argparse
+future>=0.18.2
+tinydb
+pyhfst
+py-markdown-table
