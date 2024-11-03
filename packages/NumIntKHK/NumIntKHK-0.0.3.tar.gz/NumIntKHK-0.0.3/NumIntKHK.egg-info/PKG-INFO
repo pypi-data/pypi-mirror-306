@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: NumIntKHK
+Version: 0.0.3
+Summary: Paquete NumInt diseñado para aproximar el valor numérico de una integral definida
+Author: Marin Kendall, Nuñez Henry, Zheng Kun
+Author-email: <kendallmarin@estudiantec.cr, henunez@estudiantec.cr, kzheng@estudiantec.cr>
+Keywords: python,primer paquete
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Paquete NumInt diseñado para aproximar el valor numérico de una integral definida, con una función f continua en A y definida en un intervalo contenido en A.
