@@ -1,0 +1,9 @@
+file_convertion_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_convertion_tools/csv_to_md.py,sha256=PpmH3tOgnf2MlV80_8d-x0rnnqxdX3JCjjwAEp_PkzA,805
+file_convertion_tools/json_to_yaml.py,sha256=eEVDM2vGlqT7herKV_Nit5I17oXuEA-8ADCH4CX7Thw,829
+file_convertion_tools/make_md_table.py,sha256=vpwdblMr4t1qwR81bm-JjwAwePyRhrh49N6OexVS6eQ,1651
+file_convertion_tools/txt_to_csv.py,sha256=rBNXqIo5UCWevAVgp1lR9cYmEt69qzkHZbWJ7xLCKUI,401
+file_convertion_tools-0.0.9.dist-info/LICENSE,sha256=ekGVFBlgSReRuUXshOTUmbfyhKps2LRNLbO_kN4zuPM,1073
+file_convertion_tools-0.0.9.dist-info/METADATA,sha256=d8a761eb84jgu9MosNnlvpI2AIFowxkSNkQ5XtHi93g,890
+file_convertion_tools-0.0.9.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+file_convertion_tools-0.0.9.dist-info/RECORD,,
