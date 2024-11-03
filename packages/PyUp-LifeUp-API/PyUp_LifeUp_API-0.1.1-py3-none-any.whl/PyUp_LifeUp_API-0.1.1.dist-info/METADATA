@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PyUp-LifeUp-API
+Version: 0.1.1
+Summary: A python package for working with the LifeUp api
+Author-email: leighton carpenter <leighton.h.carpenter@gmail.com>
+Project-URL: Homepage, https://github.com/deadend-g4mes/PyUp
+Project-URL: Issues, https://github.com/deadend-g4mes/PyUp/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyUp
+a Python Library for easy usage of the LifeUp API.
+ 
