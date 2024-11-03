@@ -1,0 +1,40 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+python-source = "python"
+module-name = "autonomi_client._autonomi"
+bindings = "pyo3"
+sdist-include = ["Cargo.toml", "Cargo.lock", "src/**/*", "python/**/*"]
+manifest-path = "autonomi/Cargo.toml"
+
+[project]
+name = "autonomi-client"
+version = "0.2.33"
+description = "Autonomi client API for the Safe Network"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "GPL-3.0"}
+keywords = ["safe", "network", "autonomi", "client"]
+authors = [
+    {name = "MaidSafe Developers", email = "dev@maidsafe.net"}
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Rust",
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+[project.urls]
+Homepage = "https://maidsafe.net"
+Repository = "https://github.com/maidsafe/safe_network"
+Documentation = "https://docs.rs/autonomi"
