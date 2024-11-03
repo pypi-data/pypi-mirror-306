@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_twd.py,sha256=XrxOo99oqida_7qZ48pA6BCazZekDmG5syw9NvjZWDU,484
+twd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twd/__main__.py,sha256=gM_Py51pQFH3CXdDIuPzBW6eNlFH1UHeRAmgAPWQyik,61
+twd/crud.py,sha256=QTruLgK9aBorJ1VKpeBS-joeD1DZbK2JfQm9tl3v5Bc,3057
+twd/logger.py,sha256=WG-JBbkdizR2KMODGcxREj1N--CgY-PdIC_agyZ5PHU,1590
+twd/screen.py,sha256=vQFNtast5-P_XrdvbY7XyIx2MGoNR7TUoVHHkXUTbvc,7066
+twd/twd.py,sha256=m-wad_GY6plzaatBKatkd5vp4UTV_fjXdHJauzInPYQ,10488
+twd_m4sc0-2.0.1.dist-info/LICENSE,sha256=eQSDjcD_fvOwfjmrzxKJhtZsSI39seMawuvsgeD_dfw,1062
+twd_m4sc0-2.0.1.dist-info/METADATA,sha256=BhP5_39Pb76v64cvxgDrsbauBCB4MYO5tfQdigh5LJg,3528
+twd_m4sc0-2.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+twd_m4sc0-2.0.1.dist-info/entry_points.txt,sha256=QfYDHHjipkVN4oalpACFmIeYHb7GQCJY4SC12bTsiQQ,37
+twd_m4sc0-2.0.1.dist-info/top_level.txt,sha256=PXToru2Yr2Xh3F_F-pHXtuOQVp5x7KKCPFf94P_VI5U,10
+twd_m4sc0-2.0.1.dist-info/RECORD,,
