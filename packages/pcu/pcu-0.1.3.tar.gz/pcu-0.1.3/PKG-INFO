@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pcu
+Version: 0.1.3
+Summary: Comprehensive suite for competitive programming.
+Home-page: https://github.com/jma127/pcu
+Author: Jerry Ma
+Author-email: jmnospam@mail.com
+License: BSD-new
+License-File: LICENSE
+Requires-Dist: colorama<1,>=0.4
+Requires-Dist: filelock<4,>=3
+Requires-Dist: inflection<1,>=0.5
+Requires-Dist: pyyaml<7,>=6
