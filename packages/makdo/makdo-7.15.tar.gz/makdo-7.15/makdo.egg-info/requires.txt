@@ -1,0 +1,6 @@
+Levenshtein
+chardet
+openai
+openpyxl
+python-docx
+tkinterdnd2
