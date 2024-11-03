@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/pytarot/__init__.py
+src/pytarot/__main__.py
+src/pytarot/answersofwisdom.py
+src/pytarot/luckyday.py
+src/pytarot/positive_action.py
+src/pytarot/truelover.py
+src/pytarot.egg-info/PKG-INFO
+src/pytarot.egg-info/SOURCES.txt
+src/pytarot.egg-info/dependency_links.txt
+src/pytarot.egg-info/entry_points.txt
+src/pytarot.egg-info/requires.txt
+src/pytarot.egg-info/top_level.txt
+test/test_pytarot.py

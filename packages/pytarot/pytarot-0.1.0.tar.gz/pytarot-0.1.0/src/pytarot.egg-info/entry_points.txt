@@ -1,0 +1,2 @@
+[console_scripts]
+pytarot = src.pytarot.__main__:main
