@@ -1,0 +1,17 @@
+octotail/__init__.py,sha256=LLgn3cs-bceSsUr-P2J_Tu1_ZbmyF-JdU3zb6phIpUE,66
+octotail/browser.py,sha256=mrHjaVY87DI78Pg3ijy1HD1Okbw3SSXLdFyIjZ2uXAA,7491
+octotail/cli.py,sha256=eoa09_rNI92kPPlhkSto5sISQDqqYT4FGpzjDPqQmdk,5834
+octotail/fmt.py,sha256=LVbF_C_ejtuJFzJyqGIr7l9pRjG8FIslLY4_HM04e3w,3706
+octotail/gh.py,sha256=GSV6bBGqlwS_fuI0TsEvVNJEDLudz_fuvKx20Hq02pU,5369
+octotail/git.py,sha256=TpiX9Xvv5J381-7rEtHQOLQLU-xLHX3wPbe8jHYsUbY,2155
+octotail/main.py,sha256=NbyLPJTkYWE9fG57-aev7YHNoVO9Xr76USnI6oAuVe0,2595
+octotail/manager.py,sha256=6cTl8zlZ2GhZUG7W9U93rRCoA3WpKGVp0rkHp9KiSOQ,2907
+octotail/mitm.py,sha256=lNsPH9R904MWXtC_v8-xQ3sjH_cHkeUb8sH6d1SYYzQ,4798
+octotail/msg.py,sha256=8WcenYBsRMFG35XAUCrw0OasVYz_Z0FxiFt_30O4HWM,1524
+octotail/streamer.py,sha256=_KsAoSlKZexlteEfp58cSoEcGCXi5c7oyNzdZJ66ZRA,1943
+octotail/utils.py,sha256=lE2VSBol784tbmsD1_37lAUWefDwvZSR0e_COvkkyKU,3363
+octotail/x.py,sha256=CUKy3sBqlOeMeek2cu4c3Pesoa5jszfjR7rzXibGuYU,6966
+octotail-1.0.16.dist-info/METADATA,sha256=05P5MJWoPS3EiTyOqueMJQTEtCpjQDHFHLnDUjulCp8,10943
+octotail-1.0.16.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+octotail-1.0.16.dist-info/entry_points.txt,sha256=GfoXoEKM5rTRCX29uZRZmHGvgkvEPQ702C_cxWQby4g,78
+octotail-1.0.16.dist-info/RECORD,,
