@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+django_meilisearch_indexer/__init__.py
+django_meilisearch_indexer/indexers.py
+django_meilisearch_indexer/serializers.py
+django_meilisearch_indexer/types.py
+django_meilisearch_indexer.egg-info/PKG-INFO
+django_meilisearch_indexer.egg-info/SOURCES.txt
+django_meilisearch_indexer.egg-info/dependency_links.txt
+django_meilisearch_indexer.egg-info/requires.txt
+django_meilisearch_indexer.egg-info/top_level.txt
