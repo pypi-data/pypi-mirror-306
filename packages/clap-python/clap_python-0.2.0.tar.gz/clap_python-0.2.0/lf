@@ -1,0 +1,73 @@
+#!/usr/bin/env python
+from __future__ import annotations
+
+from clap_python import App, Arg, MutuallyExclusiveGroup, SubCommand
+from clap_python.complete import autocomplete
+from clap_python.style import AnsiColor, AnsiStyle, Style, TextStyle
+
+docs = """LionFish is a command line tool to manage your enviorments."""
+
+styles = (
+    Style()
+    .usage(TextStyle(AnsiColor.Green, AnsiStyle.Bold))
+    .headers(TextStyle(AnsiColor.Green, AnsiStyle.Bold))
+    .error(TextStyle(AnsiColor.Red))
+    .flags(TextStyle(AnsiColor.Cyan, AnsiStyle.Bold))
+    .value_names(TextStyle(AnsiColor.Cyan))
+    .tip(TextStyle(AnsiColor.Green))
+)
+
+app = (
+    App("lf")
+    .about(docs)
+    .arg_required_else_help(True)
+    .arg(
+        MutuallyExclusiveGroup()
+        .arg(
+            SubCommand("--env", "-e")
+            .arg(
+                Arg("env-name")
+                .choices(["maya", "nuke", "houdini"])
+                .help("Recipe name.")
+            )
+            .help_heading("Package Section")
+            .arg(
+                MutuallyExclusiveGroup()
+                .arg(Arg("--add").help("Add packages to env").multiple_values(True).choices(["abc", "def", "ghi", "jkl", "mno"]))
+                .arg(Arg("--rm").help("Remove packages from env").multiple_values(True))
+                .arg(Arg("--del").help("delete env"))
+                .arg(Arg("--list").takes_value(False).help("List packages in env"))
+                .arg(
+                    SubCommand("--run").arg(
+                        Arg("--command", "-c")
+                        .default("bash")
+                        .help("Command to execute when running env")
+                    )
+                    .arg(Arg("--version", "--pv").choices(["10", "20", "30", "40"]))
+                )
+                .arg(Arg("--editor").takes_value(False).help("open code editor"))
+                .arg(SubCommand("--bake", "-b")
+                     .arg(Arg("--prefix")))
+            )
+        )
+        .arg(Arg("--list", "-l").help("List available envs ").takes_value(False))
+        .arg(
+            Arg("--generate", "-g")
+            .help("Interactive tool to setup new dev env.")
+            .takes_value(False)
+        )
+        .arg(Arg("--new").help("Create new env."))
+    )
+    .arg(Arg("--verbose", "-v").takes_value(False))
+    .style(styles)
+)
+
+
+
+
+autocomplete(app)
+args = app.parse_known_args()
+# import json
+#
+# print(">" * 100)
+# print(json.dumps(args, indent=3))
