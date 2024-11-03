@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: proxtaster
+Version: 1.0.3
+Summary: Пакет для проверки прокси
+Home-page: https://gitlab.com/thewhatis/ptaster
+Download-URL: https://gitlab.com/thewhatis/ptaster/dist/proxtaster-1.0.3.zip
+Author: Whatis
+Author-email: asdwdagwahwabe@gmail.com
+License: GPL
+Platform: any
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: aiohttp-proxy
+Requires-Dist: fake-useragent
+Requires-Dist: PyEventEmitter
+
+# ProxiesTaster
+  * [Wiki](https://github.com/TheWhatis/ptaster/tree/master/docs/_build/markdown/index.md "Wiki")
+  * [App](https://github.com/TheWhatis/ptaster/tree/master/docs/_build/markdown/app.md "App")
+  * [Package](https://github.com/TheWhatis/ptaster/tree/master/docs/_build/markdown/package.md "Package")

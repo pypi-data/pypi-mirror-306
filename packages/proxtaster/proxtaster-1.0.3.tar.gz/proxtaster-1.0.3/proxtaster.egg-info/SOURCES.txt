@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+proxtaster/__init__.py
+proxtaster/__main__.py
+proxtaster/events_data.py
+proxtaster/exceptions.py
+proxtaster/proxies_parser_logger.py
+proxtaster/taster.py
+proxtaster/types.py
+proxtaster.egg-info/PKG-INFO
+proxtaster.egg-info/SOURCES.txt
+proxtaster.egg-info/dependency_links.txt
+proxtaster.egg-info/requires.txt
+proxtaster.egg-info/top_level.txt

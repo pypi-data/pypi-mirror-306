@@ -1,0 +1,4 @@
+include README.md requirements.txt
+recursive-exclude docs *
+recursive-exclude dist *
+exclude .gitignore Makefile requirements.txt
