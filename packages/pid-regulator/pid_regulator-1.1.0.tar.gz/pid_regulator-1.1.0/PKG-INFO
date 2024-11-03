@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pid_regulator
+Version: 1.1.0
+Summary: a pid regulator
+Author-email: Lazox12 <tomik.lazar@gmail.com>
+Project-URL: Homepage, https://github.com/Lazox12/pid
+Project-URL: Issues, https://github.com/Lazox12/pid/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
