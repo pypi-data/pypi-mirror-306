@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+signalwire_swaig/__init__.py
+signalwire_swaig/core.py
+signalwire_swaig.egg-info/PKG-INFO
+signalwire_swaig.egg-info/SOURCES.txt
+signalwire_swaig.egg-info/dependency_links.txt
+signalwire_swaig.egg-info/requires.txt
+signalwire_swaig.egg-info/top_level.txt
