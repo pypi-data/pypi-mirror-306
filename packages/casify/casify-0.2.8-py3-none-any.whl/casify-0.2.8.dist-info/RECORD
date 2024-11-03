@@ -1,0 +1,11 @@
+casify/__init__.py,sha256=roHoOzUIGaa3R1IHnFst83W3dtTOiFA9Po0QDiac90E,442
+casify/algebra.py,sha256=1WgpriJRGIx4RWmdL_YHrYC0LVqUvkDTIh5MdGPL80Q,1181
+casify/equation.py,sha256=Va_1IJN42qFmMUi7VF862ATNLeuX9SWSCbrE9Lurtoo,4023
+casify/function.py,sha256=BAopmILAFPh6g5Q_TGL81AtN93587HvPsQfaRRg_lSQ,3102
+casify/funksjon.py,sha256=2myZlrtSHYIkv_0RoKZX26mQcN-hfOpIjM8vAfTTDCU,1808
+casify/likning.py,sha256=Xl8dtfG-r1nG-U75ytkf6C5lr345isSg4gb9LdzbyaE,1588
+casify-0.2.8.dist-info/LICENSE,sha256=7nP4mEfu9fXD-OFxavvJyiudI9LGiEvLk9a0ucEZ6NE,1079
+casify-0.2.8.dist-info/METADATA,sha256=wBzPtZ2tA_6qExRCO-dMNzGZIZCFhLRFwgQBXMsbPXE,2493
+casify-0.2.8.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+casify-0.2.8.dist-info/top_level.txt,sha256=l08yl022VUnp_pSq8_iYqvc2x3Q8aBw29wVYZFaLvSw,7
+casify-0.2.8.dist-info/RECORD,,
