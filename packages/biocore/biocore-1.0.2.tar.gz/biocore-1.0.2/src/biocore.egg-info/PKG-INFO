@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: biocore
+Version: 1.0.2
+Summary: Bioinformatics datasets and tools for bio-family projects
+Home-page: https://github.com/psmyth94/biocore
+Author: Patrick Smyth
+Author-email: psmyth1994@gmail.com
+License: Apache 2.0
+Download-URL: https://github.com/psmyth94/biocore/tags
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8.0,<3.12.0
+Description-Content-Type: text/markdown
+Provides-Extra: polars
+Provides-Extra: datasets
+Provides-Extra: biosets
+Provides-Extra: test
+Provides-Extra: quality
+Provides-Extra: docs
