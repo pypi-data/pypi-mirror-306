@@ -1,0 +1,7 @@
+__main__
+database_songs
+display_lyrics
+fetch_lyrics
+songs
+test_songs
+translate_lyrics
