@@ -1,0 +1,8 @@
+agori/__init__.py,sha256=AKn9yMhek2SaJdJc1ShGVss3Sdm9SK_7QovwnKKin1Y,346
+agori/core.py,sha256=Nwsrk59lHrtvO69dV7D0AleoYUBgOCxopnBPjxp4Bf4,6959
+agori/exceptions.py,sha256=gq85fln_Zz_l_MenwnDTaTvYlpleAVCXUVQOy7UVxF8,469
+agori/utils.py,sha256=QoFqL-Bu3BK55rqttdS4Gl6v0V9yDFmfNKRRdE03HBQ,2097
+agori-0.1.0.dist-info/METADATA,sha256=kQnRErRETZe6IHGdX-4z9nZFbzsXwmD3hwc-1CmlN5Q,5050
+agori-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+agori-0.1.0.dist-info/licenses/LICENSE,sha256=Up9H9GdRel-VDAqlH5-mzfTryAsyv4StXlGIqmTfz3k,1067
+agori-0.1.0.dist-info/RECORD,,
