@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: base4
+Version: 0.4.4
+Summary: base4 Encoder/Decoder
+Author: NasrPy
+Requires-Python: >=3.6,<4.0
+License-File: LICENSE
+
+# Python base4
+
+A Python module to encode/decode binary data using base4 as described in [RFC 9285 ](https://www.rfc-editor.org/info/rfc9285).
