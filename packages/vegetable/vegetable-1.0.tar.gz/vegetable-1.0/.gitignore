@@ -1,0 +1,8 @@
+bin
+include
+lib
+lib64
+project.env
+pyvenv.cfg
+**/__pycache__
+**/*.pyc

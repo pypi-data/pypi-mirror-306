@@ -1,0 +1,320 @@
+#!/usr/bin/env python3
+#
+# Note: this example requires the use of the "click" command line option
+# processing library. "pip install click" to install it.
+#
+# Example use of vegetable module. Extract some values from /proc/net/dev
+# and plot them in a table.
+#
+# This example shows use of displaying tables with incomplete data - column
+# headers are printed "manually" by calling header_str() and separator_str()
+# and rows of data are printed using row_str()
+#
+# Other features used:
+#
+# * Highlighting output by value with a HighlightRange highighter.
+#
+
+import os
+import click
+import logging
+import time
+from datetime import datetime
+from vegetable import *
+from vegetable.highlight import *
+from colored import Fore, Back, Style
+
+
+log = logging.getLogger()
+
+HighlightBytes = HighlightRange(
+    [
+        ("500000-2000000", Fore.yellow),
+        ("2000000-4000000", Fore.red),
+        ("4000000-", [Fore.red, Style.reverse]),
+    ]
+)
+
+HighlightErr = HighlightRange(
+    [
+        ("1-2", Fore.yellow),
+        ("2-10", Fore.red),
+        ("10-", [Fore.red, Style.reverse]),
+    ]
+)
+
+NetDevFields = [
+    {
+        "id": "dev",
+        "type": str,
+        "title": "Interface",
+        "want": True,
+    },
+    {
+        "id": "recv",
+        "type": float,
+        "title": "Received Bytes",
+        "want": True,
+        "highlight": HighlightBytes,
+    },
+    {
+        "id": "rpkt",
+        "type": float,
+        "title": "Received Packets",
+        "want": False,
+        "highlight": None,
+    },
+    {
+        "id": "rerr",
+        "type": float,
+        "title": "Received Errors",
+        "want": True,
+        "highlight": HighlightErr,
+    },
+    {
+        "id": "rdrop",
+        "type": float,
+        "title": "Received Dropped",
+        "want": False,
+        "highlight": None,
+    },
+    {
+        "id": "rfifo",
+        "type": float,
+        "title": "Received FIFO",
+        "want": False,
+        "highlight": None,
+    },
+    {
+        "id": "rfram",
+        "type": float,
+        "title": "Received Frame",
+        "want": False,
+        "highlight": None,
+    },
+    {
+        "id": "rcomp",
+        "type": float,
+        "title": "Received Compressed",
+        "want": False,
+        "highlight": None,
+    },
+    {
+        "id": "rmult",
+        "type": float,
+        "title": "Received Multicast",
+        "want": False,
+        "highlight": None,
+    },
+    {
+        "id": "xmit",
+        "type": float,
+        "title": "Transmit Bytes",
+        "want": True,
+        "highlight": HighlightBytes,
+    },
+    {
+        "id": "tpkt",
+        "type": float,
+        "title": "Transmit Packets",
+        "want": False,
+        "highlight": None,
+    },
+    {
+        "id": "terr",
+        "type": float,
+        "title": "Transmit Errors",
+        "want": True,
+        "highlight": HighlightErr,
+    },
+    {
+        "id": "tdrop",
+        "type": float,
+        "title": "Transmit Dropped",
+        "want": False,
+        "highlight": None,
+    },
+    {
+        "id": "tfifo",
+        "type": float,
+        "title": "Transmit FIFO",
+        "want": False,
+        "highlight": None,
+    },
+    {
+        "id": "tfram",
+        "type": float,
+        "title": "Transmit Frame",
+        "want": False,
+        "highlight": None,
+    },
+    {
+        "id": "tcomp",
+        "type": float,
+        "title": "Transmit Compressed",
+        "want": False,
+        "highlight": None,
+    },
+    {
+        "id": "tmult",
+        "type": float,
+        "title": "Transmit Multicast",
+        "want": False,
+        "highlight": None,
+    },
+]
+
+
+@click.command()
+@click.option(
+    "--device",
+    "-d",
+    multiple=True,
+    default=["w.*"],
+    help="Select device regex filter. Can be used multiple times - all matching interfaces will be monitored.",
+)
+@click.option(
+    "--interval",
+    "-i",
+    type=float,
+    default=2.0,
+    help="How long to wait between producing a row of output",
+)
+@click.option(
+    "--output",
+    "-o",
+    type=click.Choice(["table", "delimited", "json", "yaml"]),
+    default="table",
+    help="Choose output format.",
+)
+@click.option(
+    "--pagesize",
+    "-p",
+    type=int,
+    default=None,
+    help="How often to releat table headers (0 means only print them when device the list changes)",
+)
+def main(device, interval, output, pagesize):
+    filters = [x + "$" for x in device]
+    if pagesize is None:
+        try:
+            pagesize = int(os.environ["LINES"]) - 3
+        except:
+            pagesize = 0
+
+    gap = ""
+    data = dict()
+    flat = dict()
+    previous_flat = dict()
+    previous_time = time.time()
+    rows_since_header = 0
+    tab = None
+
+    def headers():
+        nonlocal tab
+        nonlocal gap
+        nonlocal rows_since_header
+        print(gap + tab.header_str())
+        print(tab.separator_str())
+        gap = "\n"
+        rows_since_header = 0
+
+    while True:
+        data = get_stats(filters)
+        now = time.time()
+        period = now - previous_time
+        previous_time = now
+
+        flat = flatten(data)
+        if flat.keys() != previous_flat.keys():
+            tab = new_table(data)
+            headers()
+        else:
+            if pagesize > 0 and rows_since_header >= pagesize:
+                headers()
+            diff = dict()
+            for k in flat.keys():
+                if k == "Time":
+                    diff[k] = flat[k]
+                else:
+                    diff[k] = (flat[k] - previous_flat[k]) / period
+            print(tab.row_str(diff))
+            rows_since_header += 1
+
+        previous_flat = flat
+        time.sleep(interval)
+
+
+def get_stats(filters):
+    result = dict()
+    with open("/proc/net/dev") as f:
+        for ln, line in enumerate([x.strip() for x in f], start=1):
+            if ln < 3:  # skip headers
+                continue
+            stats = proc_line_to_dict(line.replace(":", ""))
+            if is_match(stats["dev"], filters):
+                result[stats["dev"]] = stats
+    return result
+
+
+def proc_line_to_dict(line):
+    fields = line.strip().split()
+    result = dict()
+    for idx, deets in enumerate(NetDevFields):
+        if deets["want"]:
+            result[deets["id"]] = deets["type"](fields[idx])
+    return result
+
+
+def new_table(data):
+    tab = Table()
+    tab.column("Time", width=8, formatter=lambda x: x.strftime("%T"))
+    for dev, stats in data.items():
+        for k in [x for x in stats.keys() if x != "dev"]:
+            h = get_highlight(k)
+            tab.column(
+                f"{dev}.{k}", type=float, width=8, formatter=si_size, highlighter=h
+            )
+    return tab
+
+
+def get_highlight(field_id):
+    for f in NetDevFields:
+        if field_id == f["id"]:
+            return f["highlight"]
+    return None
+
+
+def flatten(data):
+    result = dict()
+    result["Time"] = datetime.now()
+    for dev, stats in data.items():
+        for k in [x for x in stats.keys() if x != "dev"]:
+            result[f"{dev}.{k}"] = data[dev][k]
+    return result
+
+
+def is_match(dev, filters):
+    for f in filters:
+        if re.match(f, dev):
+            return True
+    return False
+
+
+def si_size(size):
+    if size < 1024:
+        return f"{size:.0f}"
+    suffixes = ["K", "M", "G", "T", "P", "E", "Z", "Y"]
+    for power, suffix in enumerate(suffixes[:-1], start=1):
+        div = 1024**power
+        next_div = 1024 ** (power + 1)
+        # print(f"size={size} power={power} div={div} suffix={suffix}")
+        if size < next_div:
+            return f"{size/div:.0f}{suffix}"
+    power, suffix = len(suffixes), suffixes[-1]
+    div = 1024**power
+    return f"{size/div:.0f}{suffix}i"
+
+
+if __name__ == "__main__":
+    main()
