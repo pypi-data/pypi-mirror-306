@@ -1,0 +1,2 @@
+[console_scripts]
+nfsn-ddns = nfsn_ddns.__main__:main
