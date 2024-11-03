@@ -1,0 +1,12 @@
+triformer/__init__.py,sha256=p1WgSg3cLqSEI1LIkA53Xq1cXja2dnS2FNtHIgmW-rk,164
+triformer/cross_entropy.py,sha256=4DI1NVZRaBqc1VlEDGPNULIHINvktYEETaWK80F7pOc,4761
+triformer/dropout.py,sha256=y0-JttvT5Sv-MFFkAdh-WNyrp2ojl7cgXLxUUJgeonU,2230
+triformer/layernorm.py,sha256=1b64cNT6I9cRbOR9ARXTExyudpqeGWIltBO2OX30ipk,4107
+triformer/softmax.py,sha256=FQPhdYEiJ1DTnkdzQfHEAIHhkABLu1eYjXnT0z258h0,4152
+triformer/transformer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+triformer/utils.py,sha256=VcRG6yiB5ojAcIGKg4IGZf56g6-GXRySvBdixew5l74,595
+triformer-3.0.5.dist-info/LICENSE,sha256=MQRCPqgBRepywI0FMfOA5le0tMOnoHESnuKKGSr3xTM,1105
+triformer-3.0.5.dist-info/METADATA,sha256=56_wkUPF6E-b3f5Z9wsRIUn2op9OSRO7SwdscdFIj9Y,729
+triformer-3.0.5.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+triformer-3.0.5.dist-info/top_level.txt,sha256=EWrZ_hXn0kwlcSItwYlZFsIiZrrme4_r7NFG7eDOL6A,10
+triformer-3.0.5.dist-info/RECORD,,

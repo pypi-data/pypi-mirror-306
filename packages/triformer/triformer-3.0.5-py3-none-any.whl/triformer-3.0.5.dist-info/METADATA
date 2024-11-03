@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: triformer
+Version: 3.0.5
+Summary: Transformer components in Triton
+Home-page: https://github.com/dame-cell/Triformer
+Author: Dame rajee
+Author-email: doss72180@gmail.com
+License: MIT
+Keywords: artificial intelligence,transformers,deep learning
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=2.2.1
+Requires-Dist: triton>=2.2.0
+
+This package implements transformer components in Triton.
