@@ -1,0 +1,12 @@
+fasio/__init__.py,sha256=ukKyGs2J6p0UwW96LQr9KypIgzlxQtWF7WN6Giu7mYw,182
+fasio/asyncsocket.py,sha256=kmZv3AhxOqE86ssHLiVQSuD8UkA1E06zCChSbX492IA,3892
+fasio/eventloop.py,sha256=q19TB9lFoFwVglGKdqP5IJ9bIJNecKbZlaCg4aibzJ4,8194
+fasio/file.py,sha256=f304D8oYGJRdr-9ghVQ5qrGbwY2qLUbpK_TRvNL40OM,471
+fasio/promise.py,sha256=PAISDI80ekMg2WmsrA56knFK2I02d60B2j51I4tkg4A,1012
+fasio/queue.py,sha256=bUqmcQ4mTmJWhyim0bYRaYh0CwcJBatCGNC7FQgIf1k,3149
+fasio/reactors.py,sha256=_yBiOJbtl6y-SqVI2uISuKMEF9Zq0P87QIkDejSigT0,3672
+fasio-0.2.0.dist-info/LICENSE,sha256=-cN1ob5KQfe3AwHdg8kcuJ5BVnR4hZt37vN1pS14JQU,18091
+fasio-0.2.0.dist-info/METADATA,sha256=ZaQVrkeq1_ifar_hZc7On9WjzWJJj9vFoK_dW_Xgqd8,3673
+fasio-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fasio-0.2.0.dist-info/top_level.txt,sha256=owpj7oDB-LyWHIdbHZDes7oNQE7Qz9eOBWHjnp6eJUI,6
+fasio-0.2.0.dist-info/RECORD,,
