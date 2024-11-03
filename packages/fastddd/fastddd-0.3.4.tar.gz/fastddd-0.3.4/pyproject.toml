@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastddd"
+version = "0.3.4"
+description = "Python library designed to simplify the implementation of Domain-Driven Design (DDD) principles in your software projects"
+authors = ["TEPPEN <yk.iteppen@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.9.1"
+sqlalchemy = "^2.0.36"
+psycopg2-binary = "^2.9.10"
+fastapi = "^0.115.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
