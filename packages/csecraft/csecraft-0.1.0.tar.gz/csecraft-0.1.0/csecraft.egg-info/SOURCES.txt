@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+csecraft/__init__.py
+csecraft/main.py
+csecraft.egg-info/PKG-INFO
+csecraft.egg-info/SOURCES.txt
+csecraft.egg-info/dependency_links.txt
+csecraft.egg-info/requires.txt
+csecraft.egg-info/top_level.txt
+csecraft/schemas/__init__.py
+csecraft/schemas/main.py
