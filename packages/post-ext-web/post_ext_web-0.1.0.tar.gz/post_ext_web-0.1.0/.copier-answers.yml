@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.5
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: oli.howson@open.ac.uk
+author_name: Oli Howson
+has_binder: false
+has_settings: false
+kind: frontend
+labextension_name: post_ext_web
+project_short_description: A JupyterLab extension to post a folder to an external
+    website.
+python_name: post_ext_web
+repository: https://github.com/ICTSoEasy/post_ext_web
+test: false
+
