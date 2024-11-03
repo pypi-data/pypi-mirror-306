@@ -1,0 +1,36 @@
+[project]
+name = "test-github-ci"
+version = "0.0.13"
+description = "This project tests AutoPub with GitHub Actions CI."
+readme = "README.md"
+authors = [
+    { name = "BotPub", email = "52496925+botpub@users.noreply.github.com" },
+]
+requires-python = "~=3.10"
+dependencies = []
+
+[project.scripts]
+say-hello = "test_github_ci.hello:hello"
+
+[dependency-groups]
+lint = [
+    "ruff",
+]
+test = [
+    "pytest",
+    "pytest-sugar",
+]
+
+[tool.autopub]
+project-name = "TestProj"
+git-username = "botpub"
+git-email = "52496925+botpub@users.noreply.github.com"
+version-strings = [
+    "test_github_ci/__init__.py",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
