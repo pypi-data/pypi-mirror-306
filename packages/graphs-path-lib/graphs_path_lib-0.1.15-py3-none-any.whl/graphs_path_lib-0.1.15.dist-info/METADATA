@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: graphs_path_lib
+Version: 0.1.15
+Summary: Library for shortest paths in graphs
+Home-page: https://github.com/PavelMalyshev01/graphs_path_lib
+Author: Pavel Malyshev
+Author-email: p.malyshev@razumai.pro
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: numpy
+
+# Library for shortest paths in graphs
+Library for finding shortest paths in graphs
+
+## How to use
+See example/example.py
