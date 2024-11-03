@@ -1,0 +1,9 @@
+README.md
+repair.py
+setup.py
+PDF_Repair.egg-info/PKG-INFO
+PDF_Repair.egg-info/SOURCES.txt
+PDF_Repair.egg-info/dependency_links.txt
+PDF_Repair.egg-info/entry_points.txt
+PDF_Repair.egg-info/requires.txt
+PDF_Repair.egg-info/top_level.txt
