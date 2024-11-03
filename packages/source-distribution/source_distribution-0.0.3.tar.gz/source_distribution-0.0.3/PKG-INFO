@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: source-distribution
+Version: 0.0.3
+Dynamic: Requires-Dist
+Project-URL: Documentation, https://github.com/unknown/source-distribution#readme
+Project-URL: Issues, https://github.com/unknown/source-distribution/issues
+Project-URL: Source, https://github.com/unknown/source-distribution
+Author-email: Charlie Marsh <charlie.r.marsh@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# source_distribution
+
+[![PyPI - Version](https://img.shields.io/pypi/v/source-distribution.svg)](https://pypi.org/project/source-distribution)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/source-distribution.svg)](https://pypi.org/project/source-distribution)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install source-distribution
+```
+
+## License
+
+`source-distribution` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
