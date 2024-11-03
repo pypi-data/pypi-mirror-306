@@ -1,0 +1,13 @@
+LICENSE
+pyproject.toml
+setup.py
+pyDGEA.egg-info/PKG-INFO
+pyDGEA.egg-info/SOURCES.txt
+pyDGEA.egg-info/dependency_links.txt
+pyDGEA.egg-info/top_level.txt
+pydgea/__init__.py
+pydgea/normalization.py
+pydgea/pdd.py
+pydgea/prework.py
+pydgea/stats.py
+pydgea/utils.py

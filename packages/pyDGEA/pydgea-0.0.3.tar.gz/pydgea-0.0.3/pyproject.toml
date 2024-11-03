@@ -1,0 +1,7 @@
+[tool.poetry]
+name="pyDGEA"
+version='0.0.3'
+license="MIT"
+description="A python package that performs differential gene expression analysis."
+authors=["Innocent Labs"]
+
