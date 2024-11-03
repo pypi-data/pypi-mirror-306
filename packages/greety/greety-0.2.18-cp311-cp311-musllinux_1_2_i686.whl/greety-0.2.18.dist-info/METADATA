@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: greety
+Version: 0.2.18
+Summary: A brief description of your package
+Author: Charles Dhainaut
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Project-URL: homepage, https://github.com/yourusername/greety
+Project-URL: repository, https://github.com/yourusername/greety
+Project-URL: Bug Tracker, https://github.com/yourusername/greety/issues
+Project-URL: Documentation, https://yourpackage.readthedocs.io/
+Keywords: example,greety
+Description-Content-Type: text/markdown
+
+blablabla
