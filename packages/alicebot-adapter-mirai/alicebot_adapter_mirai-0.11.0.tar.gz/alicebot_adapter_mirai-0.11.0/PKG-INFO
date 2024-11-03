@@ -1,0 +1,32 @@
+Metadata-Version: 2.3
+Name: alicebot-adapter-mirai
+Version: 0.11.0
+Summary: Mirai adapter for AliceBot.
+Project-URL: Homepage, https://docs.alicebot.dev/
+Project-URL: Documentation, https://docs.alicebot.dev/
+Project-URL: Repository, https://github.com/AliceBotProject/alicebot
+Project-URL: Changelog, https://docs.alicebot.dev/changelog.html
+Author-email: st1020 <stone_1020@qq.com>
+License: AGPL-3.0-or-later
+License-File: LICENSE
+Keywords: bot,chatbot,mirai,qq,qqbot
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications :: Chat
+Requires-Python: >=3.9
+Requires-Dist: alicebot==0.11.0
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <a href="https://docs.alicebot.dev/"><img src="https://raw.githubusercontent.com/AliceBotProject/alicebot/master/docs/public/logo.png" width="200" height="200" alt="logo"></a>
+
+# AliceBot-Adapter-CQHTTP
+
+**Mirai 协议适配**
+
+</div>
