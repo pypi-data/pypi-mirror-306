@@ -1,0 +1,15 @@
+alicebot/adapter/mirai/__init__.py,sha256=ZWO6wmnX3VhqGm8DE5rppBwUFcmkORtcW8kxHD3bF5I,9851
+alicebot/adapter/mirai/config.py,sha256=Plph8YYUQgq2SeHFl452TBVo3ZI0tzJ99Z15pSOByUM,1057
+alicebot/adapter/mirai/exceptions.py,sha256=4uiBVaRRsWxZfEaHuuUyZ2RdLEK1-UsvQ_NWOXXlYg0,738
+alicebot/adapter/mirai/message.py,sha256=hP2DLYi9uJBjeos2UqQZb8UEmeR9GMdi1zAJyjqwLjc,5053
+alicebot/adapter/mirai/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alicebot/adapter/mirai/event/__init__.py,sha256=wLOYTHEQTttjurtwDOFPuXMkkk5nG0k8fkLKY_maVi8,159
+alicebot/adapter/mirai/event/base.py,sha256=0f4lAs80en3I2tF4NF5TmAIxOlG82WU-PZprg9M4Ejs,1042
+alicebot/adapter/mirai/event/message.py,sha256=MuTOc5stAWm2czoopFYgw4Gm8-8qggg2LsiDAEa2ibE,6640
+alicebot/adapter/mirai/event/meta.py,sha256=KYCX2DZqq7KGUZu6e1sdoS78ms893tCQxtzDMejv1IQ,1149
+alicebot/adapter/mirai/event/notice.py,sha256=fsMvMtVxHgSkxUm-Gm_x9ru-Hb1DWkjJB5oRNH_SGw4,6310
+alicebot/adapter/mirai/event/request.py,sha256=5rSAaQf5ChPEmxKeCC8ryrX7A39Mwcl5WNWgiPc5B7Y,4453
+alicebot_adapter_mirai-0.11.0.dist-info/METADATA,sha256=uU5Lg-7Y4yBo2CTKnfwDsmJ8D_2zpjcnTfHy_C559XQ,1184
+alicebot_adapter_mirai-0.11.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+alicebot_adapter_mirai-0.11.0.dist-info/licenses/LICENSE,sha256=TfPDBt3ar0uv_f9cqCDMZ5rIzW3CY8anRRd4PkL6ejs,34522
+alicebot_adapter_mirai-0.11.0.dist-info/RECORD,,
