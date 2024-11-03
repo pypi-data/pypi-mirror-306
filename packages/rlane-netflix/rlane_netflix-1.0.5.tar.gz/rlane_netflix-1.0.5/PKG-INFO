@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: rlane-netflix
+Version: 1.0.5
+Summary: Netflix history report
+Keywords: netflix,python
+Author-Email: Russel Lane <russel@rlane.com>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing :: General
+Project-URL: Homepage, https://github.com/russellane/netflix
+Requires-Python: >=3.10
+Requires-Dist: rlane-libcli>=1.0.7
+Description-Content-Type: text/markdown
+
+### netflix - Netflix history report
+
+#### Usage
+    netflix [--seasons] [--episodes] [--movies-only] [--series1-only]
+            [--series2-only] [-h] [-v] [-V] [--print-config] [--print-url]
+            [--completion [SHELL]]
+            [FILE ...]
+    
+Print list of Titles, number of Seasons and total number of Episodes.
+
+#### Positional Arguments
+    FILE                Read from `FILE`, use `-` for `stdin` (default:
+                        `~/Downloads/NetflixViewingHistory.csv`).
+
+#### Options
+    --seasons           List seasons and number of episodes.
+    --episodes          List episodes; implies `--seasons`.
+    --movies-only       Print movies only.
+    --series1-only      Print series1 only.
+    --series2-only      Print series2 only.
+
+#### General options
+    -h, --help          Show this help message and exit.
+    -v, --verbose       `-v` for detailed output and `-vv` for more detailed.
+    -V, --version       Print version number and exit.
+    --print-config      Print effective config and exit.
+    --print-url         Print project url and exit.
+    --completion [SHELL]
+                        Print completion scripts for `SHELL` and exit
+                        (default: `bash`).
