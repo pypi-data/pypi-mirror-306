@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+docker-compose.yml
+pyproject.toml
+src/k1s/__init__.py
+src/k1s/autoscale.py
+src/k1s/dockerautoscaleup.py
+src/k1s/improveauto.py
+src/swautoscale.egg-info/PKG-INFO
+src/swautoscale.egg-info/SOURCES.txt
+src/swautoscale.egg-info/dependency_links.txt
+src/swautoscale.egg-info/entry_points.txt
+src/swautoscale.egg-info/requires.txt
+src/swautoscale.egg-info/top_level.txt

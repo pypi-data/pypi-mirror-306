@@ -1,0 +1,3 @@
+[console_scripts]
+i = k1s.autoscale:scalein
+o = k1s.autoscale:scaleout
