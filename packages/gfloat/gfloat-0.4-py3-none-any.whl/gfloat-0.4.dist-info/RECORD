@@ -1,0 +1,16 @@
+gfloat/__init__.py,sha256=YOFiy-x84g-vbWeiNfYqDYlWEBbQOSFY-IWYxjmxvBw,689
+gfloat/block.py,sha256=TJzWI89yEklQunZ0WbJzOAXwfBJ6mMUdvnPQuuTTaOk,5635
+gfloat/decode.py,sha256=tXATbWDA8zCho9xXvP6-Oo-oafrj8pVc_DHm1rl7BFw,2834
+gfloat/decode_ndarray.py,sha256=1q7Aq8hscyIxmON2XvSDVA3CdybcGguZ9bwb9bV5EQM,2825
+gfloat/encode.py,sha256=qfZ3rtOkeNJrMqLqHg9qvOtP10HKEoDJDdBhFlBfwds,2413
+gfloat/encode_ndarray.py,sha256=4gtSqwIyOhfR_COdpeLt_fEjEuoFBPNh0lnlRuQbLDQ,2516
+gfloat/formats.py,sha256=veGl2FVvq_CoXuhZTMIV7ldy8JwN-RNoG3eP5cSzPTY,5348
+gfloat/printing.py,sha256=VejeofwsPc6s5HlkMnVe9AlQXFTZCKYQlD1A2DBy15o,1710
+gfloat/round.py,sha256=EiAOE1jrtc4bfLlM5RGXR9lXb82FJOwFVfaTwEO8Wmg,5379
+gfloat/round_ndarray.py,sha256=YF-Uc8G6tGn4eCmruO6KvsrNr4cMacmWX7SX7Kc6DqU,5423
+gfloat/types.py,sha256=Mzce-IjgUSQw1lrlTDtNlYrxK7AkF1FWQ_mKjzWD7_w,12867
+gfloat-0.4.dist-info/LICENSE,sha256=_fFQN-SGqmeCqm20DSzyKqET9V8-cLLZkTE1cDTjcis,1093
+gfloat-0.4.dist-info/METADATA,sha256=ww67ou11gyymtuLoq290Irjyakz_Z5X6BRwWfxdS_Yw,3977
+gfloat-0.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+gfloat-0.4.dist-info/top_level.txt,sha256=jiT_C06Gn0ESnNsa1PgprasU_eRidOnEs6mnr7yn0Hk,7
+gfloat-0.4.dist-info/RECORD,,
