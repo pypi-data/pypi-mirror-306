@@ -1,0 +1,12 @@
+texweaver/__init__.py,sha256=PZp6xefQ3I5-eIYy3uXSHTzn2nxR-fQSY8zCpImvNg0,51
+texweaver/default.yaml,sha256=QAczSQWPdGYYVFy4ygrDrn4K2Rge7IE8drFjU11WrNY,810
+texweaver/entrypoint.py,sha256=hIKi1n7r_qmmL087NQP3EAc4QM0DqaoZ4X4mIKw4BbE,819
+texweaver/markdown.py,sha256=fWTvXTKWhvxzZnaIeHpLOqyPx2BVqPDv1MYavPQHsrs,6632
+texweaver/tex_config.py,sha256=VkZipUZa59QZ6Au2qNxEbWXdC8nmuA4PGbyR4lwBTzM,847
+texweaver/tex_parser.py,sha256=2SLuRGyr7ui0QfTuA4rSLI8gP1qFtTVOXzAN2UXjzOE,4576
+texweaver-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+texweaver-0.3.0.dist-info/METADATA,sha256=wsgPm1fzaRkjjHbpDK2l4LFVDG_eSJJtp5l8ckpnFbA,395
+texweaver-0.3.0.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+texweaver-0.3.0.dist-info/entry_points.txt,sha256=aIRYnxatHZhDtsD9URx9Q3QBUg37zQyJUh60biuerMc,56
+texweaver-0.3.0.dist-info/top_level.txt,sha256=9jmqjX5-skZu757QffIhFCiw4YDWh_x2QD3XkAtmLLg,10
+texweaver-0.3.0.dist-info/RECORD,,
