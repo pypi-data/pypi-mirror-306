@@ -1,0 +1,16 @@
+alicebot/adapter/telegram/__init__.py,sha256=P0L91jBTU1Gojs7cymVTCk3kdSNAhr4HhZ-uJkJnx3w,11385
+alicebot/adapter/telegram/api.py,sha256=Ujq5ZpOXThBR7h_lBJm9E5e1ppGjOhd6ndyR3PgYhYI,74963
+alicebot/adapter/telegram/config.py,sha256=iemiWijjarmD2ado_wm5m5Z0tpoalja6g4qpRfK9vwU,1110
+alicebot/adapter/telegram/entity.py,sha256=l7x6hhx6RSHC_5f8-umk7_V9f4UEzVHGlbKmAOlvRf4,2813
+alicebot/adapter/telegram/exceptions.py,sha256=gX3KDAR3R-IInEuiNxftrc8O8pFKz51RBQnI8Ot0Jbc,589
+alicebot/adapter/telegram/media.py,sha256=0g20XpVDjtz6G1EQDRYeI92XQf_28yGZ-1KK_dMYw9k,4936
+alicebot/adapter/telegram/message.py,sha256=ioAqynLB-ZFL2dynlbdW8w8s0aGnGXhL6cnzl-Ahbs8,3552
+alicebot/adapter/telegram/model.py,sha256=YAdhqnCKZeE0GLC8TM-5o5OG2_twwqgd6fAfV7RIiQo,51254
+alicebot/adapter/telegram/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alicebot/adapter/telegram/event/__init__.py,sha256=WQJAgLphVFgCv0YmPE_wMzHl0dQohFlV2WyGn9SZpdc,118
+alicebot/adapter/telegram/event/base.py,sha256=rYbp6nRaFXkw-TSSQu4CQTGu6DhGa_iBZ9ALpZlPWJU,469
+alicebot/adapter/telegram/event/message.py,sha256=OQlm5Fs_9xtwfWE2uSuXFnaXDkQwmFiVa23IdAN0vb8,2381
+alicebot/adapter/telegram/event/other.py,sha256=W90-e2X5_B8U6Gib554i6_aFBq85TfLZI8gnN1Drb_A,8366
+alicebot_adapter_telegram-0.11.0.dist-info/METADATA,sha256=_kSE5lBpDXjvN4b_39m607_LwGtsnbH8q_qpbKZ7ELA,1161
+alicebot_adapter_telegram-0.11.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+alicebot_adapter_telegram-0.11.0.dist-info/RECORD,,
