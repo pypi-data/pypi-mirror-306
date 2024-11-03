@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "algosto"
+version = "0.0.14"
+readme = "README.md"
+description = "Algosto implements stochastic algorithms."
+authors = [{name = "Melvine Nargeot", email = "melvine.nargeot@gmail.com"}]
+requires-python = ">=3.7"
+
+dependencies = [
+    "matplotlib>=2.25.1",
+    "numpy>=1.19.5",
+]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
