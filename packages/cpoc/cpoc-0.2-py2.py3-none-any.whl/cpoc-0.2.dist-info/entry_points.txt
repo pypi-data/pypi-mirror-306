@@ -1,0 +1,3 @@
+[console_scripts]
+cpoc=cpoc.__main__:main
+
