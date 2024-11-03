@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: refreshrate
+Version: 0.4
+Summary: A python package that fetchs your monitor refresh rate.
+Home-page: https://github.com/ruskydev/refreshrate
+Author: Ayaan
+Author-email: iamayaanalee@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wmi
+
+# refreshrate
+A Python package that fetches your monitor refresh rate.
+
+## Installation
+Install the package via pip:
+
+```bash
+pip install refreshrate
+```
+
+## Usage
+To use `refreshrate` in your project:
+
+```python
+import refreshrate
+
+# Get the monitor's refresh rate
+rate = refreshrate.get()
+
+if rate:
+    print(f"Your monitor's refresh rate is {rate} Hz.")
+else:
+    print("Could not retrieve the refresh rate.")
+```
