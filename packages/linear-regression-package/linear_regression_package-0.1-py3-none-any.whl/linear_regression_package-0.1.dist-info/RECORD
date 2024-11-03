@@ -1,0 +1,8 @@
+linear_regression_model/__init__.py,sha256=RC18qB0_dwnvhNPo1h9_7OYupfxx6HQPsIzBrOxdWGs,166
+linear_regression_model/data_generator.py,sha256=As5NzgnNhty84TLofZRmOuDa_zJQvcDOz8EEkon3CsA,596
+linear_regression_model/gradiant_descent.py,sha256=mEi7uKUx7kPFrFytRXAlPO5of8RzCGqI-RTTw-RX5X4,454
+linear_regression_model/linear_model.py,sha256=wW4c29NAZkiY0dEN6QInhggFcyMFzT3bXZ76TcrcVUk,443
+linear_regression_package-0.1.dist-info/METADATA,sha256=7Vqj1zAovsHuIb6XFHI8E8jwJLqpoyjydssJgVC9HNs,286
+linear_regression_package-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+linear_regression_package-0.1.dist-info/top_level.txt,sha256=Ul7BysoMW2RoLLOtrZw8fTGH6k3zfz68q9NH4LDZVMg,24
+linear_regression_package-0.1.dist-info/RECORD,,
