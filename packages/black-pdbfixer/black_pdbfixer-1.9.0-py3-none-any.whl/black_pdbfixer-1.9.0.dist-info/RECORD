@@ -1,0 +1,17 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdbfixer/__init__.py,sha256=sj8Rl1jP2MIxJoZw2QVDfyHUJMGmYmro-4hMMC8qkME,71
+pdbfixer/pdbfixer.py,sha256=_z0x_XgNChqzj1AIRafwjaFg_EE-a04oP_xJWf3qIco,81452
+pdbfixer/ui.py,sha256=oHWYm-tPfw1rgV1_ygZ84EKJhpnr8q3tPFaoPufd0x4,12126
+pdbfixer/uiserver.py,sha256=XsLsZjgEm_emg3RTc46p7GFLkr7YVJbWIlgQTsjJDc4,2717
+pdbfixer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdbfixer/tests/test_add_hydrogens.py,sha256=F6VOso5OfsGYuYg0__G6ZpsuBsKdRTyz33RlDgZV8eo,1933
+pdbfixer/tests/test_build_and_simulate.py,sha256=4BZNBqLTDXzE_TybWZG-zcTuuNYz7Zpfb4aisj7FYVc,10199
+pdbfixer/tests/test_charge_and_solvate.py,sha256=kIrQu2PScwi9dRXx5K5LM0Gg__5-1S3CiEoCt7-eyw4,1574
+pdbfixer/tests/test_cli.py,sha256=ufvn3S3jH_OQGBWXO6OKdtU6Wbn6hm6I7aP_uaNIsRA,1855
+pdbfixer/tests/test_mutate.py,sha256=xC-Op6OqwHS-GGCh7WP7kfggbJIxIujpq8Vjb5QgYaY,4786
+pdbfixer/tests/test_removechains.py,sha256=X6pfHeALQEMm7u3bRwuPYWbMXDMQr2PKsvSI5XZLI6g,1647
+black_pdbfixer-1.9.0.dist-info/LICENSE,sha256=uFryhALAOLwGOm3m5frWMFJGX0IDpz79YlIOLhnUHiM,1407
+black_pdbfixer-1.9.0.dist-info/METADATA,sha256=Sxj8BQ503olLFzRLk7_ZIEVYVD-hwHz7-FYy95USQ6I,1771
+black_pdbfixer-1.9.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+black_pdbfixer-1.9.0.dist-info/top_level.txt,sha256=o0_AbbgZm-AMqY8T5YqHVYSlF87t5FCn4yc6OoUDUf4,18
+black_pdbfixer-1.9.0.dist-info/RECORD,,
