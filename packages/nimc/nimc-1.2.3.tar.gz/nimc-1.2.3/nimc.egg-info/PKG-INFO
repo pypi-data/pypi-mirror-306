@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: nimc
+Version: 1.2.3
+Summary: Python Package made by Mhadhbi Issam . 
+Home-page: https://gitlab.com/game-dev-comapny/nimc.git
+Author: $GITLAB_USER_LOGIN
+Author-email: mhadhbixissam@gmail.com
+Project-URL: Documentation, https://pydefold.readthedocs.io/en/latest/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+Requires-Dist: click
+Requires-Dist: jinja2
+
+# Nimc 
+command line utilty in order to create Defold naitive extensions in Nim .
+
+
+## ♠ Install  
+```bash
+pip install nimc
+```
+
+## ♠ Getting started
+open terminal in root path of defold project  : 
+### ♠♠ Create Extension named ext : 
+```bash
+nimc init ext
+```
+### ♠♠ Build project : 
+```bash
+nimc build ext
+```
+### ♠♠ Add the extension to `game.project` file  : 
+under section library -> include dirs = /ext/ext
+
+### ♠♠ Usage of naitive extension : 
+in any script file : 
+```lua
+	local result = ext.add(10,12)
+	print(result)
+```
