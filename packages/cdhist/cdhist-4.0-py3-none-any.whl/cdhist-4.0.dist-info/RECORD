@@ -1,0 +1,10 @@
+cdhist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdhist/__main__.py,sha256=bM3AUWlLj284-FAAB41ROgu-_weTQPWvQpgdZXRm72Y,94
+cdhist/cdhist.py,sha256=4tPupChGDh8HD24zGfsPixwilvpZOCguCDJ_eBbWY-c,8484
+cdhist/git_worktree.py,sha256=FpF2OhRwvcT0gyYgLzDLFKsNzJMDLgxCNZnDCvL2qFI,4558
+cdhist/utils.py,sha256=4ih6s4pqY0iGPKqfiZVFzpi5A3hgB_Xk7RMdZQtGSyU,2998
+cdhist-4.0.dist-info/METADATA,sha256=LNtjs67AbtMDou0ChFXhX2g_on6bLBktVom0qBAmfRU,13280
+cdhist-4.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+cdhist-4.0.dist-info/entry_points.txt,sha256=mv5XIVQcZ3mnIRHdAkk3_PodCAqrJS153Iyd5AvtbL4,46
+cdhist-4.0.dist-info/top_level.txt,sha256=ibZ0CbGnhcW4RHSp6rBMSI9wtkVko3rwMnhs9EgFngg,7
+cdhist-4.0.dist-info/RECORD,,
