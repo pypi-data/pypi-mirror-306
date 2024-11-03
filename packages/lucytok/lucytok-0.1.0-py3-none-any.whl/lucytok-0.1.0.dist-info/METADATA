@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lucytok
+Version: 0.1.0
+Summary: 
+Author: Doug Turnbull
+Author-email: softwaredoug@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pystemmer (>=2.2.0.3,<3.0.0.0)
+Requires-Dist: regex (>=2024.9.11,<2025.0.0)
+Description-Content-Type: text/markdown
+
+## Lucytok
+
+Lucene-like tokenizers for Python. Compatible with [SearchArray](http://github.com/softwaredoug/searcharray).
+
