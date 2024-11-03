@@ -1,0 +1,14 @@
+black
+flake8
+isort
+ipython
+maturin[patchelf]
+mypy
+pytest
+
+# Used for examples / preparation
+librosa
+# The following are transitive dependencies, but for some reason
+# uv uses massively outdated version without pinning them.
+llvmlite>=0.43
+numba>=0.60

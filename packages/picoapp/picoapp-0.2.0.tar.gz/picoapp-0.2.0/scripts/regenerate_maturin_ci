@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+maturin generate-ci github > .github/workflows/deploy.yml

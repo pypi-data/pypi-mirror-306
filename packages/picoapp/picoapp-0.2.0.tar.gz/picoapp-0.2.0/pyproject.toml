@@ -1,0 +1,19 @@
+[build-system]
+requires = ["maturin>=1.6,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "picoapp"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dynamic = ["version"]
+
+
+[tool.maturin]
+python-source = "python"
+module-name = "picoapp._picoapp"
+features = ["pyo3/extension-module"]
