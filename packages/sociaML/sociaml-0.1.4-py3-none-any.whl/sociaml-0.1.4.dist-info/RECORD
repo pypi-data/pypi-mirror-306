@@ -1,0 +1,14 @@
+sociaml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sociaml/analysis.py,sha256=W6cLdcnmOHB18r1W_VT8yjcGfd52eR-OZK0glVvwwOg,2581
+sociaml/audio_analysis.py,sha256=yRQDq1ihsrPXeNjkBeoRkfj-KcxmBpq-14z1j5OviNM,15895
+sociaml/datastructures.py,sha256=PGd7QZqYF-st5jaqpvTkVsXmcYuOMKHbJy3Ktxp2cYU,1539
+sociaml/preprocessing.py,sha256=QZVxgs0-h9PWXAO8O8yTxKZb2t66XN1btluM7ot_H2Q,10488
+sociaml/text_analysis.py,sha256=G6ZtLhUQKQ03bxQRxDM0j2AeqLh2KcBjSvLM0pbPubk,14703
+sociaml/utils.py,sha256=By7gEaa9qF2K183SCZJ6T9fwvv8xO4CNwkAzQsRIcpU,2175
+sociaml/video_analysis.py,sha256=EKiC0YmJInzs6WV4Z6xuc-XdLa9fnOCLd3MtqhDDU4A,3278
+sociaml/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sociaml/models/wav2vec2LargeRobust12ftEmotionMspDim.py,sha256=6NcmE7LUvJF3T7N-ZmdW70Due4jBxnZtekbGS2NmTrI,2516
+sociaml-0.1.4.dist-info/METADATA,sha256=Oku2P6vX1_2hK8gfvhKEinK30eC3eSiuopgfZ-Z1S0s,8703
+sociaml-0.1.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+sociaml-0.1.4.dist-info/licenses/LICENSE.md,sha256=Dht5odvEg0pjjWHutQjmPHE9OboPsXzsQXnHH-b_yKM,1088
+sociaml-0.1.4.dist-info/RECORD,,
