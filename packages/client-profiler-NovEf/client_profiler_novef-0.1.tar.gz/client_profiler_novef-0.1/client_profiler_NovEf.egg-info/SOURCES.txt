@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+client_profiler/__init__.py
+client_profiler/__main__.py
+client_profiler/profiler.py
+client_profiler_NovEf.egg-info/PKG-INFO
+client_profiler_NovEf.egg-info/SOURCES.txt
+client_profiler_NovEf.egg-info/dependency_links.txt
+client_profiler_NovEf.egg-info/requires.txt
+client_profiler_NovEf.egg-info/top_level.txt
