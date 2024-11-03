@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pyhttpsnippet
+Version: 1.0.5
+Summary: A short description of your package
+Home-page: https://github.com/Mohammadwh/pyhttpsnippet/
+Author: negative_boy
+Author-email: negativeres@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyhttpsnippet
+simpel code to convert raw http request to python object.
+
+``` python
+from pyhttpsnippet import HttpToRequestsConverter
+
+raw = open("request.txt",'r').read()
+py = HttpToRequestsConverter(raw)
+print(py.headers)
+print(py.cookies)
+print(py.body)
+print(py.url)
+print(py.method)
+
+```
+
+enjoy it :D
+
+

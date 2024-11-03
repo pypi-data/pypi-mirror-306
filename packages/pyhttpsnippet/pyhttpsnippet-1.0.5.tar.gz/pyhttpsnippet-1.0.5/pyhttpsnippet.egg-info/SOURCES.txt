@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pyhttpsnippet/__init__.py
+pyhttpsnippet.egg-info/PKG-INFO
+pyhttpsnippet.egg-info/SOURCES.txt
+pyhttpsnippet.egg-info/dependency_links.txt
+pyhttpsnippet.egg-info/top_level.txt
