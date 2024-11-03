@@ -1,0 +1,4 @@
+recursive-include src/ggwave/ggwave/include *
+recursive-include src/ggwave/ggwave/src *
+include src/ggwave/*.pxd
+include src/ggwave/*.pyx
