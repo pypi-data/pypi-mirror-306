@@ -1,0 +1,11 @@
+cwtch/__init__.py,sha256=gbsrLXFInINq8xStsMlPIseUo4kZITVZjM46Hc0o42E,463
+cwtch/config.py,sha256=MnNdQ5qB6bpeLXQwh8C-2eIPJnLwUbCdoz9U4Bcz9gc,280
+cwtch/cwtch.py,sha256=eEvz6Bjk4N8QFBM_OLOfG3zsR6fq8E0-zA-Yikk8wXQ,50521
+cwtch/errors.py,sha256=pvrDoy1s2ISoU92N-rK14yDCkUo70hZrSm5tZcLO0pI,3473
+cwtch/metadata.py,sha256=K6Ha62m46MYGk3j7SMC-A4RZIR0drxjxGecPh5UDtmU,6068
+cwtch/types.py,sha256=Ee13zqGwSsyatNXGqs5HefiDGkjQbqmNRPCX59uqzUU,7164
+ext/core.pyx,sha256=1r6Hb8k45g16h2laD1h8MxFqW0NlIrq9XdJImsQLQ3U,45104
+cwtch-0.9.1.dist-info/LICENSE,sha256=HyWZ8-DWMR_byooYl020UC2sZRssnpIazMtnZnVa9gA,1089
+cwtch-0.9.1.dist-info/METADATA,sha256=9X7_UBKv1oBrB_1MSpPvcGiPwIB-xgf2kgUCXm11eus,1932
+cwtch-0.9.1.dist-info/WHEEL,sha256=mplBUCx-pBi3qWfkXZJ51YVNhldljO04tS33S9GKuiU,98
+cwtch-0.9.1.dist-info/RECORD,,
