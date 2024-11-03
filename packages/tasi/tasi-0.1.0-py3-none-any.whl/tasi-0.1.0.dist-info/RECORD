@@ -1,0 +1,12 @@
+tasi/__init__.py,sha256=dYCcU1YKnWQI7tj3VJ01WETgLJ9TkK-en6rlD59iai0,247
+tasi/_version.py,sha256=CQheTbVi3MeADY6h44A1yyQ9nLg9lPO9IXS9WGEHpi0,24496
+tasi/dataset.py,sha256=ZFbL3MpDosXxsAPIg_IE_YzZPQ8dHyeMvy5ZFXGPKI0,9212
+tasi/dlr/__init__.py,sha256=g7wWlIx02GtTeJN40id5d5APgekl1YN_EGSea48hEPI,109
+tasi/dlr/dataset.py,sha256=YcHqnXoXQ35hJWjGp9HiS0PRcL5D0D9fzwANhQY4G6Q,10522
+tasi/logging.py,sha256=MQR2ueV_rN4cLOxotd5yt7X13zGHyvLMTCP7bKeKhpA,1231
+tasi/utils.py,sha256=_5GjQYl19wKQmk52EIseCukkGtcnaUSPP4RASY15YMQ,2048
+tasi-0.1.0.dist-info/LICENSE,sha256=loCv6o9FLYUPPBNbxwuIUKqvlu7NG0jAFlhwRJhNjN4,546
+tasi-0.1.0.dist-info/METADATA,sha256=ZQWHhnFXfTvlkq8WbwsNkP6LpdcQMNrH9oCHewobmik,1005
+tasi-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+tasi-0.1.0.dist-info/entry_points.txt,sha256=6zfU-lqrf0gFcs3WD3eSrqKT21oWysiYZyFwlDginzQ,60
+tasi-0.1.0.dist-info/RECORD,,
