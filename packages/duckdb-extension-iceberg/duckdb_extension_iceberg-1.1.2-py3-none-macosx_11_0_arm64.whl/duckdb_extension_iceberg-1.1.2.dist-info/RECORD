@@ -1,0 +1,6 @@
+duckdb_extension_iceberg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_extension_iceberg/extensions/v1.1.2/iceberg.duckdb_extension,sha256=_FE7CAH7guB5YGPzLspWnMHdWcfxK0KfOs5RCpO1Y0Q,6294478
+duckdb_extension_iceberg-1.1.2.dist-info/METADATA,sha256=UGlTNnn_9aOAE1nnIp_T8-kulfR27nN0XdISiT2sl1E,2144
+duckdb_extension_iceberg-1.1.2.dist-info/WHEEL,sha256=B_HTF0nESsbkeA2UeB8YgKrtPrxyKFORYURx7Qxu8Xw,101
+duckdb_extension_iceberg-1.1.2.dist-info/licenses/LICENSE.txt,sha256=nnxZWPH56sIZcjI_d3lzGiShkm7fMUnNisNrUJKahaU,1090
+duckdb_extension_iceberg-1.1.2.dist-info/RECORD,,
