@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyUp-LifeUp-API"
+version = "0.1.1"
+authors = [
+  { name="leighton carpenter", email="leighton.h.carpenter@gmail.com" },
+]
+description = "A python package for working with the LifeUp api"
+readme = "README.md"
+requires-python = ">=3.12.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/deadend-g4mes/PyUp"
+Issues = "https://github.com/deadend-g4mes/PyUp/issues"
+
+[tool.setuptools]
+packages = ["pyup"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = "requirements.txt" }
+
+[tool.setuptools_scm]
