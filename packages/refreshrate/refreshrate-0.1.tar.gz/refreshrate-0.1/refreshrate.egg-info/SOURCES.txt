@@ -1,0 +1,9 @@
+README.md
+setup.py
+refreshrate/__init__.py
+refreshrate/refreshrate.py
+refreshrate.egg-info/PKG-INFO
+refreshrate.egg-info/SOURCES.txt
+refreshrate.egg-info/dependency_links.txt
+refreshrate.egg-info/requires.txt
+refreshrate.egg-info/top_level.txt
