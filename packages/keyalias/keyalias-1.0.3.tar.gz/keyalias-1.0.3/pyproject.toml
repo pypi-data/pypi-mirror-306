@@ -1,0 +1,35 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools>=61.0.0",
+]
+
+[project]
+authors = [
+    { email = "johannes-programming@mailfence.com", name = "Johannes" },
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+description = "Add a property that is an alias for an indexer to a class."
+keywords = []
+name = "keyalias"
+readme = "README.rst"
+requires-python = ">=3.8"
+version = "1.0.3"
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.urls]
+Documentation = "https://pypi.org/project/keyalias"
+Download = "https://pypi.org/project/keyalias/#files"
+Index = "https://pypi.org/project/keyalias"
+Source = "https://github.com/johannes-programming/keyalias"
+Website = "http://keyalias.johannes-programming.online"
