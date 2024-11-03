@@ -1,0 +1,11 @@
+multi_repo_workspace/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multi_repo_workspace/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+multi_repo_workspace/cli.py,sha256=A-wws2wcWdrsZdLly3f90j5w1_myoJldQxdMupcz5g0,453
+multi_repo_workspace/config.py,sha256=bCmGH4pCe3ra5W7M9BLQJpFLnB-Js0N60UdETWCvy5o,2184
+multi_repo_workspace/use_case.py,sha256=QfVGoErvawxt22uBmAigtlcoju0C-whXNMYCXfgaMgA,437
+multi_repo_workspace/workspace.py,sha256=vrMT_9giRXgW0RWhhPt6ZcLXE1BIR_6dqFSiWM1R3dc,10
+multi_repo_workspace-0.0.2.dist-info/METADATA,sha256=qqO5JCmjeAfTRmUiYPz744qhfI-T-aG7svgAQWsOetk,3233
+multi_repo_workspace-0.0.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+multi_repo_workspace-0.0.2.dist-info/entry_points.txt,sha256=-xWvWW3Xi4ce7-s4oJANlpKKzuWzLqIXeoZl-6RR9mc,59
+multi_repo_workspace-0.0.2.dist-info/licenses/LICENSE,sha256=g1_zd2bV4HwGhtW9-YtP-NT7THnu-75atnzETgMQp4w,1072
+multi_repo_workspace-0.0.2.dist-info/RECORD,,

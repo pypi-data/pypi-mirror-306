@@ -1,0 +1,2 @@
+[console_scripts]
+mrw = multi_repo_workspace.__main__:main

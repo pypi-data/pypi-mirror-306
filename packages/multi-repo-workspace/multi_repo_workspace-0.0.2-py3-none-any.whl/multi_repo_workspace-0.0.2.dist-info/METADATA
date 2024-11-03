@@ -1,0 +1,80 @@
+Metadata-Version: 2.3
+Name: multi-repo-workspace
+Version: 0.0.2
+Summary: Command Line Interface for managing projects in a multi-repository context by configuration.
+Project-URL: Homepage, https://github.com/maximeduf/multi-repo-workspace
+Project-URL: Issues, https://github.com/maximeduf/multi-repo-workspace/issues
+Author-email: Maxime Dufresne <maxm.dufresne@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Maxime Dufresne
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.11
+Requires-Dist: click==8.1.7
+Requires-Dist: coverage==7.6.4
+Requires-Dist: packaging==24.1
+Requires-Dist: pkginfo==1.10.*
+Requires-Dist: prompt-toolkit==3.0.48
+Requires-Dist: pygments==2.18.0
+Requires-Dist: regex==2024.9.11
+Provides-Extra: test
+Requires-Dist: iniconfig==2.0.0; extra == 'test'
+Requires-Dist: pluggy==1.5.0; extra == 'test'
+Requires-Dist: pytest-cov==5.0.0; extra == 'test'
+Requires-Dist: pytest==8.3.3; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Multi-repo Workspace (mrw)
+An alternative to monorepos for managing projects composed of multiple git repositories without using git submodules.
+
+This also aims to provide a way to automatically configure a development environment for the project.
+
+## Prerequisites
+for python prerequisites see [setup-python-venv.md](https://github.com/maximeduf/multi-repo-workspace/blob/master/docs/setup-python-venv.md)
+
+## Install and Run for development
+in venv activated
+```
+python -m pip install -e ."[test]"
+```
+
+### CLI
+```
+mrw
+```
+
+### Tests
+```
+PYTHONPATH=src pytest --cov-config .coveragerc --cov-report term-missing --cov=multi_repo_workspace tests
+```
+or
+```
+./run_tests.sh
+```
+
+## Docs
+for documentation see [mrw documentation](https://github.com/maximeduf/multi-repo-workspace/blob/master/docs/mrw-doc.md)
