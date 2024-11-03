@@ -1,0 +1,11 @@
+README.md
+setup.py
+linear_regression_model/__init__.py
+linear_regression_model/data_generator.py
+linear_regression_model/gradiant_descent.py
+linear_regression_model/linear_model.py
+linear_regression_package.egg-info/PKG-INFO
+linear_regression_package.egg-info/SOURCES.txt
+linear_regression_package.egg-info/dependency_links.txt
+linear_regression_package.egg-info/requires.txt
+linear_regression_package.egg-info/top_level.txt

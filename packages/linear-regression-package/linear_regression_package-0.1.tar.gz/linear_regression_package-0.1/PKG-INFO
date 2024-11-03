@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: linear_regression_package
+Version: 0.1
+Summary: A simple linear regression model package with gradient descent
+Author: Boukrara_Melissa
+Author-email: m.boukrara@esi-sba.dz
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
