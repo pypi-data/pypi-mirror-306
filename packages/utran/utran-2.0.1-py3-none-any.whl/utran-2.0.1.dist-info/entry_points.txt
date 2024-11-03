@@ -1,0 +1,2 @@
+[console_scripts]
+utran = utran.__main__:main
