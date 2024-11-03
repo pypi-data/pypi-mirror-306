@@ -1,0 +1,11 @@
+uniparser_beserman_lat/__init__.py,sha256=7JIoygReG8Kp1HUHd0xwhhhPUxYTB7_cbUSx1N4eHE8,2311
+uniparser_beserman_lat/data_default/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uniparser_beserman_lat/data_default/bad_analyses.txt,sha256=sT2jD--xVqYLEy5GQ5y2VkurLZhAMUkHb2_GRhNnKUY,1388
+uniparser_beserman_lat/data_default/beserman.cg3,sha256=p73vw5qTOJTPCwlsmTRg0qL4lyksbzbGrlvgYZsV4i8,48692
+uniparser_beserman_lat/data_default/lexemes.txt,sha256=tajqYwuNeCM-MERr59M0oxhf2uhOinyio8VIxI-rxe0,1041462
+uniparser_beserman_lat/data_default/paradigms.txt,sha256=I3csQnERcuAI8mYp1RjsN6t-ZzTovAReEqneitJdFMY,101463
+uniparser_beserman_lat-2.1.8.dist-info/LICENSE,sha256=26CDCoS2F79UCkz6qbuFIDY5786wuxyXqU80VGGl64Q,1175
+uniparser_beserman_lat-2.1.8.dist-info/METADATA,sha256=-yDs24KUP84CMaGj20CE9Re1ZQpvxPSJZo8E5ieIYKg,5637
+uniparser_beserman_lat-2.1.8.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+uniparser_beserman_lat-2.1.8.dist-info/top_level.txt,sha256=DYa1hMLgqBr2xPCCe8VApcli-Za1Q7DuiXbYn-05YjA,23
+uniparser_beserman_lat-2.1.8.dist-info/RECORD,,
