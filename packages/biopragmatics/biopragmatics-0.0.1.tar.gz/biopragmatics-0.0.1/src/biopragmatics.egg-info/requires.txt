@@ -1,0 +1,14 @@
+more_itertools
+tqdm
+click
+more_click
+
+[docs]
+sphinx>=8
+sphinx-rtd-theme>=3.0
+sphinx-click
+sphinx_automodapi
+
+[tests]
+pytest
+coverage
