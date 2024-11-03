@@ -1,0 +1,2 @@
+[console_scripts]
+pexel-downloader = pexel_downloader.downloader:main
