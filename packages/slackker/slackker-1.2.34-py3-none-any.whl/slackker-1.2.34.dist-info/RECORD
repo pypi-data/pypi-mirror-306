@@ -1,0 +1,14 @@
+slackker/__init__.py,sha256=lrn8sTiaj2veCOn62FOgfmz6RBIY5g66x9u5sxs4XTM,525
+slackker/callbacks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackker/callbacks/basic.py,sha256=RC8ZZEl-UtHDfAYuQcZMNrI1j-2nboJVMa4E5fd9qJc,6293
+slackker/callbacks/keras.py,sha256=DLT8e459iVXJN29-g4nqqeNnq31KD8Wwcw3o50Vco10,7555
+slackker/callbacks/lightning.py,sha256=Q9EiDDLuFP6Rs6Ve1Fa2z-spM1eC5YrMcv8Wt4Ab56M,9801
+slackker/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackker/utils/ccolors.py,sha256=wPqDLy_N52AiYbdXQhzoN7MVt2VUOfkV_wxKqkJzmFI,247
+slackker/utils/checkker.py,sha256=JHJlzkddishjLV2la6n8ntNL1hmGfm3YXXehivsbEyo,3403
+slackker/utils/functions.py,sha256=KuCcndC3cmhOM9PZZhMYo1ClZqgy1dqq52UIm3_ZwIg,6751
+slackker-1.2.34.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+slackker-1.2.34.dist-info/METADATA,sha256=2oOqwjlZr4z3PZxq9Kp6Bi7IkBRbs_D9OtxK-8TiBhE,16400
+slackker-1.2.34.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+slackker-1.2.34.dist-info/top_level.txt,sha256=ZrZlC_Dqui7O_gegc-dPDGQrVlZcPHxwI2bopHYcuj8,9
+slackker-1.2.34.dist-info/RECORD,,
