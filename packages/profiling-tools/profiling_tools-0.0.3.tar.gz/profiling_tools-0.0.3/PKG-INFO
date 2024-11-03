@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: profiling-tools
+Version: 0.0.3
+Summary: Python profiling tools using cProfile and pstats
+Author: Gustav Rasmussen
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# profiling-tools
+
+Python profiling tools using cProfile and pstats
+
+## Create a new release
+
+example:
+
+```BASH
+git tag 0.0.1
+git push origin --tags
+```
+
+release a patch:
+
+```BASH
+poetry version patch
+```
+
+then `git commit`, `git push` and
+
+```BASH
+git tag 0.0.2
+git push origin --tags
+```
+
