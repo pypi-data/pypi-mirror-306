@@ -1,0 +1,5 @@
+[console_scripts]
+qvalve = qvalve.cli:main
+
+[gui_scripts]
+
