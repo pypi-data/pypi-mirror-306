@@ -1,0 +1,25 @@
+[project]
+name = "WordTransformer"
+version = "0.0.3"
+description = "WiC Pretrained Model for Cross-Lingual LEXical sEMantic changE"
+authors = [
+    { name = "Pierluigi Cassotti", email = "p@x.com" }
+]
+dependencies = [
+    "sentence-transformers==2.3.0",
+    "huggingface-hub>=0.26.2",
+    "torch>=2.5.1",
+    "tqdm>=4.66.6",
+    "transformers>=4.46.1",
+    "numpy>=2.1.2",
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
