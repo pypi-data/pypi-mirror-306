@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Ascii_Art_TNH"
+version = "0.0.1"
+authors = [
+  { name="Hugo Bray", email="hwb4547@nyu.edu" },
+  { name="Tamara Bueno", email="tb2803@nyu.edu"},
+  { name="Nuzhat Bushra", email="ntb5562@nyu.edu"},
+  { name="Melanie Zhang", email="mz3138@nyu.edu"}
+]
+description = "A small silly package which prints ASCII art based on certain inputs. Watch out for the interrupting cow"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "License :: OSI Approved :: GNU General Public License (GPL)",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10"
+]
+
+[project.urls]
+Homepage = "https://github.com/software-students-fall2024/3-python-package-tnh-tnh-needs-help?tab=readme-ov-file"
