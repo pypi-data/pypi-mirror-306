@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+DevDec.egg-info/PKG-INFO
+DevDec.egg-info/SOURCES.txt
+DevDec.egg-info/dependency_links.txt
+DevDec.egg-info/top_level.txt
+NasrPy/__init__.py
