@@ -1,0 +1,10 @@
+COPYING.LESSER
+setup.py
+map_compositor/__init__.py
+map_compositor/_map_compositor.py
+map_compositor/map_compositor.ui
+map_compositor.egg-info/PKG-INFO
+map_compositor.egg-info/SOURCES.txt
+map_compositor.egg-info/dependency_links.txt
+map_compositor.egg-info/requires.txt
+map_compositor.egg-info/top_level.txt
