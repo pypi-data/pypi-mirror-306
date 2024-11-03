@@ -1,0 +1,56 @@
+[project]
+name = "pyramid-helloworld"
+version = "2.0.5"
+description = "Hello World web app using pyramid."
+authors = [
+    { name = "Guillaume Gauvrit", email = "guillaume@gauvr.it" },
+]
+requires-python = ">=3.9"
+readme = "README.md"
+dependencies = [
+    "plaster-yaml>=2.0.1",
+    "pyramid>=1.10, <3",
+    "waitress>=2.0.0,<3",
+]
+
+[project.license]
+text = "BSD-Derived"
+
+[project.urls]
+Homepage = "https://github.com/mardiros/pyramid-helloworld"
+Documentation = "https://github.com/mardiros/pyramid-helloworld/blob/main/README.md"
+Repository = "https://github.com/mardiros/pyramid-helloworld.git"
+Issues = "https://github.com/mardiros/pyramid-helloworld/issues"
+Changelog = "https://github.com/mardiros/pyramid-helloworld/blob/main/CHANGELOG.md"
+
+[project.entry-points."paste.app_factory"]
+main = "pyramid_helloworld:main"
+
+[project.entry-points."celery_yaml.app"]
+main = "pyramid_helloworld.backend:app"
+
+[dependency-groups]
+celery = [
+    "celery >= 5.2.7",
+    "celery-yaml>=2.0.0",
+]
+dev = [
+    "pytest>=7.4.2",
+]
+
+[tool.pdm.build]
+includes = [
+    "src",
+    "development.yaml",
+    "development.json",
+    "CHANGELOG.md",
+]
+excludes = [
+    "tests",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
