@@ -1,0 +1,12 @@
+torchrun_jsc/__init__.py,sha256=bQcVl6GjJgy2vfCYdqUhmkgNKYHtKSWJ4qGTGk2el_Q,1211
+torchrun_jsc/__main__.py,sha256=fr-CFAsvUaq-F1nICslExsfLggcTfrfCuU_MUBrHZdQ,58
+torchrun_jsc/arg_patching.py,sha256=WUAeeteySGMcsIPJjhlNSBytlTxUcmgd6DeXaea92DU,1551
+torchrun_jsc/parsing.py,sha256=Pdi6jCu8zhp1WMMQJFySKScnYARieNwouBleD1816CQ,1124
+torchrun_jsc/run.py,sha256=17fQZVS35YaIIZtlrZ4PaU7Oa9JZ1LYgLH14jjc284w,1494
+torchrun_jsc/run_old.py,sha256=wbvwCsaR-k2axYHkteUmgxabDWmGyXHCgUmxs7kPwAQ,4805
+torchrun_jsc-0.0.9.dist-info/LICENSE,sha256=My-NV_uT-_WMuS2d5f8YuIH706ft44XSfPokEIza8Zk,11340
+torchrun_jsc-0.0.9.dist-info/METADATA,sha256=rp-59nWVpTl9xwvxQI3qcY3NYQIG2DlfwWg2G0By5w0,522
+torchrun_jsc-0.0.9.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+torchrun_jsc-0.0.9.dist-info/entry_points.txt,sha256=mc7WqlRYfhs4MVnu67A4r-IRDoUTXGu6PxuMaR75dJI,55
+torchrun_jsc-0.0.9.dist-info/top_level.txt,sha256=hWuxVGjyJlDqHjCwnNnHMXqqFUpT2BrY_bcnwu9m3o0,13
+torchrun_jsc-0.0.9.dist-info/RECORD,,
