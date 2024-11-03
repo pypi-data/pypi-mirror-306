@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "machaao_client"
+version = "0.0.5"
+authors = [
+  { name="Machaao", email="sayantan@machaao.com" },
+]
+description = "A package for rapidly prototyping a bot on Machaao platform"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+[project.urls]
+Homepage = "https://github.com/machaao/machaao-client"
+[tool.setuptools.packages.find]
+exclude = ["env", "test*"]
