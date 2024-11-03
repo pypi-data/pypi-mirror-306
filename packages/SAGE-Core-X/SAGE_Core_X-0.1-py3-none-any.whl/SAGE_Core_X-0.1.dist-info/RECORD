@@ -1,0 +1,13 @@
+sage/__init__.py,sha256=wkQHuWQ36xCFbx3Mejhj_aha6dhfuY9dHgLjx6f06Fk,46
+sage/main.py,sha256=q1TO91Y4bJ4-UpzT4oEZiXKLauXuPcfEF0CpujZi7uE,729
+sage/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sage/core/core.py,sha256=f5KTV8Ba0Rr0z7Cj0_XWD0IHMWPcuuT6wgyKUAa7LVk,10378
+sage/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sage/plugins/plugin_template.py,sha256=ZaP4v5OemtnZ8jQvDjvX4bY_oI6FwJanCpbIlw0fWLk,1243
+sage/plugins/plugins_config.json,sha256=VOYadVjbd1nw0a95i0mvnJLkoY6ncqmA6JZKDlwZNNo,229
+sage/plugins/simple_plugin.py,sha256=0jW7zbT2GoCFxlOEuNG657-HvCy-jGJpbJBrYqI6SUM,704
+SAGE_Core_X-0.1.dist-info/LICENSE,sha256=_6mioAf-3pO1LoFTLLNYgvOJHHXeon_c8qkPTjO322k,479
+SAGE_Core_X-0.1.dist-info/METADATA,sha256=rXmZfmdcG-VUREV6Ziol0aUy1DjZFOODBMD8k_0RMTI,27758
+SAGE_Core_X-0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+SAGE_Core_X-0.1.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+SAGE_Core_X-0.1.dist-info/RECORD,,
