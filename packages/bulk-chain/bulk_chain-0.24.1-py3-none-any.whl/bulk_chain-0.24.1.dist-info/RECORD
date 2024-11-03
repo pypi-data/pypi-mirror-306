@@ -1,0 +1,17 @@
+bulk_chain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bulk_chain/infer.py,sha256=hD9GJEp6P9PZRBSUCIxK8DaDjsX-oiq8VCe0rAD2EPs,7366
+bulk_chain/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bulk_chain/core/llm_base.py,sha256=5js2RJLpNS5t-De-xTpZCbLMgbz3F_b9tU_CtXhy02I,259
+bulk_chain/core/provider_sqlite.py,sha256=rNUvBt3aGa6Uv4a9RItyMgBZPnFbBdNjnt0Gw81lM3I,3171
+bulk_chain/core/service_args.py,sha256=Qr3rHsAB8wnajB-DbU-GjiEpRZFP4D6s1lVTpLkPPX4,1294
+bulk_chain/core/service_csv.py,sha256=-m8tNN9aIqRfJa4sPUX8ZUDP4W0fgnnOR3_0PapepDY,1984
+bulk_chain/core/service_data.py,sha256=18gQwSCTEsI7XFukq8AE5lDJX_QQRpasaH69g6EddV0,797
+bulk_chain/core/service_json.py,sha256=alYqTQbBjAcCh7anSTOZs1CLJbiWrLPpzLcoADstD0Q,743
+bulk_chain/core/service_llm.py,sha256=tYgMphJkXunhxdrThdfI4eM8qQTCZfEM1kabbReVjuQ,2726
+bulk_chain/core/service_schema.py,sha256=JVhOv2YP5VEtiwOq_zgCzhS2uF_BOATAgg6fmKRf2NQ,1209
+bulk_chain/core/utils.py,sha256=UV6Cefaw7yZiYblsCr-s9LsbcI83xe7eESBvha9A2Og,2784
+bulk_chain-0.24.1.dist-info/LICENSE,sha256=VF9SjNpwwSSFEY_eP_8A1ocDCrbwfjI1pZexXdCkOwo,1076
+bulk_chain-0.24.1.dist-info/METADATA,sha256=g5_Sr1pfa8v5lRs0sd7Ldch-uLiV_KfdDXaTHSen-R4,3649
+bulk_chain-0.24.1.dist-info/WHEEL,sha256=pL8R0wFFS65tNSRnaOVrsw9EOkOqxLrlUPenUYnJKNo,91
+bulk_chain-0.24.1.dist-info/top_level.txt,sha256=Hxq_wyH-GDXKBaA63UfBIiMJO2eCHJG5EOrXDphpeB4,11
+bulk_chain-0.24.1.dist-info/RECORD,,
