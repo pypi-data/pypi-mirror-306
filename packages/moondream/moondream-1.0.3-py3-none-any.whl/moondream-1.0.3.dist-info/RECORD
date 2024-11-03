@@ -1,0 +1,14 @@
+moondream/__init__.py,sha256=kg9ipO6yZjL5dJZvUwW2zFqzxrUo4XAIF1eaOHEmlMU,95
+moondream/torch/__init__.py,sha256=AttwzPDVjIPtRGFHq83__VI2i2pemSCblQ4C1pyo1ek,202
+moondream/torch/inference.py,sha256=IrzYiSU-YF6beOevyng-BmwEGWECFRh_zWtx5bJPawc,3847
+moondream/torch/layers.py,sha256=u6E-0JmMuKryzpMPWmxI_n5SRXFRlPXc-slKg-501UE,1556
+moondream/torch/rope.py,sha256=FU017lf51z7iSS2bs_4KDk7-frz8P4pVEl-0pUWhNQA,1741
+moondream/torch/text.py,sha256=4JodKX937h9ghWm4oNyhQgKtZVogV8CvxyfyEg2OUVQ,2920
+moondream/torch/vision.py,sha256=4RfTFvtNYpM005XDklqAeZebgVWtJAF9zhF4Igl-Q9M,3393
+moondream/torch/weights.py,sha256=C5whBJPmrKacRAwmylQnz6H-m8z36T6YFF43FcwlwD0,6599
+moondream-1.0.3.dist-info/LICENSE,sha256=6LnNiERg1JyLVd1l0jpDHgTAeNouDbfhXrAnVfEDTCA,1065
+moondream-1.0.3.dist-info/METADATA,sha256=pfsTBGLU1HMx3vBNoSpquZXVX6LSFPR_Xhxy83fuqOk,4581
+moondream-1.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+moondream-1.0.3.dist-info/entry_points.txt,sha256=iuQDF-fzfsB8YXZ0XxhGecvZ1c6lyibrL_D67EWCE6w,61
+moondream-1.0.3.dist-info/top_level.txt,sha256=m_eOqzX4m1xP9Njpi_vHQeOP5B720mGJazO2gurLn28,10
+moondream-1.0.3.dist-info/RECORD,,

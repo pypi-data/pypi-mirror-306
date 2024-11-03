@@ -1,0 +1,2 @@
+[console_scripts]
+moondream = moondream.torch.inference:main
