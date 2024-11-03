@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vizdata
+Version: 0.5
+Summary: Simple Exploratory Data Analysis tool.
+Home-page: https://github.com/darkhan-ai/vizdata
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+
+# vizdata
