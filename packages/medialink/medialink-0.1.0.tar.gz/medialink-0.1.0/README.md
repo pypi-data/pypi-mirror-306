@@ -1,0 +1,33 @@
+<p align="center">
+    <img width="200" align="center" src="https://raw.githubusercontent.com/anhede/medialink/refs/heads/main/medialink.png" alt="Medialink logo">
+</p>
+<h1 align="center">Medialink</h1>
+Medialink is a Python CLI-tool for bringing order to your digital film and tv-show library. From a messy collection of badly structured folders and files, Medialink can generate a new folder structure with properly named files and folders for use with services such as Plex, Emby, and Jellyfin. Medialink uses links to the original files, so no files are copied or moved. Since the original files are not modified or moved, it allows torrents and other downloads to continue seeding without interruption.
+
+## Installation
+### pipx (Recommended)
+Medialink can be installed using pipx, which is a tool to install Python CLI tools in isolated environments. This is the recommended way to install Medialink as it will not interfere with other Python packages on your system.
+```bash
+pipx install medialink
+```
+
+### pip
+Medialink can also be installed using pip, which is the Python package installer. This is not recommended as it will install Medialink globally on your system and may interfere with other Python packages.
+```bash
+pip install medialink
+```
+
+## Usage
+TO BE WRITTEN
+
+## Developers
+If you want to contribute to Medialink, you can clone the repository and install the development dependencies using poetry. Remember to use the `--with=dev` flag to install the development dependencies.
+```bash
+git clone
+cd medialink
+poetry install --with=dev   # Installs dev dependencies.
+poetry run medialink --help # Run the tool!
+```
+
+## License
+Medialink is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
