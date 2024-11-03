@@ -1,0 +1,10 @@
+beeperpurge/__init__.py,sha256=z_julrcsBUkXVwgDm5FT9csOuNqc-HQHNflXpE2_Bi8,24
+beeperpurge/__version__.py,sha256=z_julrcsBUkXVwgDm5FT9csOuNqc-HQHNflXpE2_Bi8,24
+beeperpurge/cleaner.py,sha256=MSLQ3REnzvfdEOAlkHuNPiAA3SBjO1Rm62vRsM1_-Cc,7594
+beeperpurge/logging.py,sha256=wIAdk6ULY4nRY3O0wUReE-87e48TeOHEn-qjbKYHApw,2707
+beeperpurge-1.0.12.dist-info/LICENSE,sha256=EaYW9t1rwsM4QJiPp18JyH-BYTD_cFCexdx4lxX6qT0,1063
+beeperpurge-1.0.12.dist-info/METADATA,sha256=UmquFR_4toJo2fcLKfeO5xj7gF9zshcTeq5OX0GquWM,4002
+beeperpurge-1.0.12.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+beeperpurge-1.0.12.dist-info/entry_points.txt,sha256=EmZHS6c_TciCtE7w673gl9cuQZ2VvtjVMCXIX0KnTy0,57
+beeperpurge-1.0.12.dist-info/top_level.txt,sha256=6MdcZsFB0R3mUSGkO5MiBn0I8AKnP8iGhudiUPoLfsk,12
+beeperpurge-1.0.12.dist-info/RECORD,,
