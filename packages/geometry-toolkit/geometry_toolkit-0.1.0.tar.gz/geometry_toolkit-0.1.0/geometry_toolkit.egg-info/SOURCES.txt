@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+geometry_toolkit/__init__.py
+geometry_toolkit/shapes.py
+geometry_toolkit.egg-info/PKG-INFO
+geometry_toolkit.egg-info/SOURCES.txt
+geometry_toolkit.egg-info/dependency_links.txt
+geometry_toolkit.egg-info/top_level.txt
