@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+slack_alerter.egg-info/PKG-INFO
+slack_alerter.egg-info/SOURCES.txt
+slack_alerter.egg-info/dependency_links.txt
+slack_alerter.egg-info/requires.txt
+slack_alerter.egg-info/top_level.txt

@@ -1,0 +1,63 @@
+# Slack Alerter
+
+Slack Slack Alerts, Automated Crash Alerts for your projects
+
+A Python package for sending alerts to Slack channels using webhooks. This package allows you to easily notify users about important events or errors in your application, improving monitoring and response times.
+
+## Features
+
+- **Customizable Alerts:** Send alerts with specific headers and messages.
+- **Automatic Exception Handling:** Automatically log and notify about unhandled exceptions and threading issues.
+- **Retry Mechanism:** Configurable retries for sending alerts, ensuring reliable notifications.
+
+## Installation
+
+You can install the package via pip:
+
+```bash
+pip install slack-alerter
+```
+
+## Usage
+
+### Basic Example
+
+Here’s a quick example of how to use the `slack_alerter` package:
+
+```python
+from slack_alerter import Alerts
+import sys
+import threading
+
+# Initialize the Alerts class
+al = Alerts(
+    module_name="alerter_test",
+    slack_alerts_webhook='https://hooks.slack.com/services/your/webhook/url'
+)
+
+# Send a test alert
+al.alert("Custom Header", "This is a custom alert message.")
+
+# Set up exception handling
+sys.excepthook = al.handle_exception
+threading.excepthook = al.handle_threading_excepthook
+```
+
+## Configuration
+
+The following configuration parameters are required for initializing the `Alerts` class:
+
+- **`slack_alerts_webhook`**: Your Slack webhook URL (mandatory).
+- **`module_name`**: The name of your module (mandatory).
+
+
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Author
+Hritik Karwasra - https://github.com/hritikkarwasra
+
+## Acknowledgments
+Thanks to the Slack API for providing the webhook functionality that makes this package possible.
