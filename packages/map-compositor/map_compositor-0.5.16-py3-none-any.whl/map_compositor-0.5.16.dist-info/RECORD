@@ -1,0 +1,9 @@
+map_compositor/__init__.py,sha256=q00pcaTyZTbzLHaV_EDkSWvc87XWAnvirNXTXCobYpM,94
+map_compositor/_map_compositor.py,sha256=3fqstqAYs5kXJcnrDIjtxXZhVN19yB5BXVXWuOAbidc,18885
+map_compositor/map_compositor.ui,sha256=ls46iX8bF3Cv4ugzv2-OmnOP4NelfZB_HVQdkTw4iLU,16910
+map_compositor-0.5.16.data/data/map_compositor.ui,sha256=ls46iX8bF3Cv4ugzv2-OmnOP4NelfZB_HVQdkTw4iLU,16910
+map_compositor-0.5.16.dist-info/COPYING.LESSER,sha256=-DHn7tV3SBaHqbwLSAJOXkC29lX83gc-3pZLUL5dVdk,7815
+map_compositor-0.5.16.dist-info/METADATA,sha256=Aj6Pz1XRk7fV2EyRD9319Tl7L_xJokChe4Qo1ji4Itg,1456
+map_compositor-0.5.16.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+map_compositor-0.5.16.dist-info/top_level.txt,sha256=wOlVGML6KuqETLFqg8BTYAPsP0S5ANZKkQL8imI6e6E,15
+map_compositor-0.5.16.dist-info/RECORD,,
