@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/corecfg/__init__.py
+src/corecfg/multi_entity.py
+src/corecfg/multi_entity_cli.py
+src/corecfg.egg-info/PKG-INFO
+src/corecfg.egg-info/SOURCES.txt
+src/corecfg.egg-info/dependency_links.txt
+src/corecfg.egg-info/entry_points.txt
+src/corecfg.egg-info/requires.txt
+src/corecfg.egg-info/top_level.txt
