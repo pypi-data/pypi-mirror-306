@@ -1,0 +1,14 @@
+luma.core>=2.4.1
+
+[docs]
+sphinx>=1.5.1
+sphinx-rtd-theme
+
+[qa]
+flake8
+rstcheck
+
+[test]
+pytest
+pytest-cov
+pytest-timeout
