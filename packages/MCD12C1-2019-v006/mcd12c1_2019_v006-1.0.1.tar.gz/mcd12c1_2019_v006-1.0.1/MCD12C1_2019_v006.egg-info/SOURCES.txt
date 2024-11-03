@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/python-publish.yml
+MCD12C1_2019_v006/MCD12C1.A2019001.006.2020220162300.jpeg
+MCD12C1_2019_v006/MCD12C1.A2019001.006.2020220162300.jpeg.aux.xml
+MCD12C1_2019_v006/MCD12C1.A2019001.006.2020220162300.tif
+MCD12C1_2019_v006/MCD12C1_2019_v006.py
+MCD12C1_2019_v006/__init__.py
+MCD12C1_2019_v006/version.txt
+MCD12C1_2019_v006.egg-info/PKG-INFO
+MCD12C1_2019_v006.egg-info/SOURCES.txt
+MCD12C1_2019_v006.egg-info/dependency_links.txt
+MCD12C1_2019_v006.egg-info/requires.txt
+MCD12C1_2019_v006.egg-info/top_level.txt
