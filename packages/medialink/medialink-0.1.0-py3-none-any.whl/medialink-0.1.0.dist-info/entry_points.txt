@@ -1,0 +1,3 @@
+[console_scripts]
+medialink=medialink.cli:cli
+
