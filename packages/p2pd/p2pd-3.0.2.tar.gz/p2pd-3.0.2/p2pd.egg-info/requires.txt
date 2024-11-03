@@ -1,0 +1,16 @@
+aiodns
+aiounittest==1.4.2
+ecdsa
+fasteners
+gmqtt==0.6.11
+ntplib==0.4.0
+xmltodict
+
+[:platform_system != "Windows" and platform_system != "Darwin"]
+pyroute2
+
+[:platform_system == "Windows"]
+winregistry
+
+[:sys_platform != "win32"]
+netifaces==0.11.0
