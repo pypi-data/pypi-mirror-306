@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: bioskin
+Version: 1.0
+Summary: This package contains the implementation of a neural model that estimates the biophysical skin properties from a single RGB diffuse reflectance with baked occlusion, allowing deocclusion, and spectral upsampling in both the visible and near infrared (NIR) spectra (380-1000 nm). It also contains several practical applications, as well as a gui to perform interactive edits directly over the estimated skin properties
+Home-page: https://github.com/facebookresearch/BioSkin
+Author: Carlos Aliaga
+License: MIT
+Requires-Python: >=3.8
+License-File: LICENSE
+
