@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: AppDT
+Version: 1.4.0
+Summary: (This Is A Chinese Package)此工具箱可以帮您快速构建Windows™应用程序，也可以快速生成安装包
+Home-page: https://github.com/xumouren225588
+Author: xumouren225588
+Author-email: xumouren225588@163.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AppDT
+此工具箱可以帮您快速构建Windows™应用程序，也可以快速生成安装包。安装完毕后请在命令行中输入“adt”来运行它
+# 升级日志：
+- 1.修复chardet库缺失问题。
+
