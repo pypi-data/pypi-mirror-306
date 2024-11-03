@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+EasyProject.egg-info/PKG-INFO
+EasyProject.egg-info/SOURCES.txt
+EasyProject.egg-info/dependency_links.txt
+EasyProject.egg-info/requires.txt
+EasyProject.egg-info/top_level.txt
