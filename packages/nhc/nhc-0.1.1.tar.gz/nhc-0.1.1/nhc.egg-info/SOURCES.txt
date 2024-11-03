@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+nhc.egg-info/PKG-INFO
+nhc.egg-info/SOURCES.txt
+nhc.egg-info/dependency_links.txt
+nhc.egg-info/not-zip-safe
+nhc.egg-info/requires.txt
+nhc.egg-info/top_level.txt
