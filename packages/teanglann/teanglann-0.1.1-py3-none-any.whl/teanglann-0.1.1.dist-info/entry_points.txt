@@ -1,0 +1,2 @@
+[console_scripts]
+teanglann = teanglann.__main__:cli
