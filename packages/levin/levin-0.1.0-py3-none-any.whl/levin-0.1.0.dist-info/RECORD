@@ -1,0 +1,10 @@
+levin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+levin/bernstein.py,sha256=poiFrf9BNW7Or6TT5M0fS3U5jklYq8EzYrQHGyjkm30,5044
+levin/finite_diff.py,sha256=HaF-fIvq7UecimVb254qfeWcfFdyzZO6UJd8U_k4IKw,3199
+levin/hermite.py,sha256=TYvUlL2tCW2e7p_4TGWvpHDW6KCQUShebgF0qrVEyg4,3212
+levin/common/genbarywts.py,sha256=MuKHu6MvO84-_7zhQBUL8mbt9PWz6INvqicwD8rnwrc,2605
+levin/common/utils.py,sha256=Yfk-09RpTkCZADIPHRHnDO-2izKwMhg2vYIcOWLofOA,3520
+levin-0.1.0.dist-info/METADATA,sha256=FQXIGkH77DpMGGzz0BhGpMx0JOZJeHVHbg-5P4QO48U,1135
+levin-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+levin-0.1.0.dist-info/top_level.txt,sha256=rfPM1wp3hcAdoAJA4509abP3G4e5wY2jsY4_i6M-w90,6
+levin-0.1.0.dist-info/RECORD,,
