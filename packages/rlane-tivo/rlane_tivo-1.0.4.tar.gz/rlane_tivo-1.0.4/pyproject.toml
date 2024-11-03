@@ -1,0 +1,88 @@
+[project]
+name = "rlane-tivo"
+version = "1.0.4"
+description = "A curses-based TiVo remote control"
+authors = [
+    { name = "Russel Lane", email = "russel@rlane.com" },
+]
+readme = "README.md"
+keywords = [
+    "curses",
+    "home-automation",
+    "python",
+    "tivo",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Home Automation",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "loguru>=0.7.2",
+    "rlane-libcli>=1.0.7",
+    "rlane-libcurses>=1.0.7",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/russellane/tivo"
+
+[project.scripts]
+tivo = "tivo.cli:main"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=24.10.0",
+    "flake8-bugbear>=24.10.31",
+    "flake8-pydocstyle>=0.2.4",
+    "flake8-pylint>=0.2.1",
+    "flake8-pytest-style>=2.0.0",
+    "flake8-simplify>=0.21.0",
+    "flake8>=7.1.1",
+    "isort>=5.13.2",
+    "mypy>=1.13.0",
+    "pytest-cov>=6.0.0",
+    "pytest>=8.3.3",
+]
+
+[tool.black]
+line-length = "97"
+
+[tool.isort]
+line_length = "97"
+profile = "black"
+
+[tool.pylint.format]
+max-line-length = "97"
+
+[tool.pylint.messages_control]
+enable = [
+    "useless-suppression",
+]
+fail-on = [
+    "I0021",
+]
+good-names = [
+    "ui",
+]
+
+[tool.pydocstyle]
+convention = "google"
+add-ignore = [
+    "D105",
+    "D202",
+]
+
+[tool.mypy]
+strict = true
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
