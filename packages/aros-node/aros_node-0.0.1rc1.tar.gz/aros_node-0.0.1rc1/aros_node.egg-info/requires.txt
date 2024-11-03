@@ -1,0 +1,16 @@
+geotorch
+torch
+torchdiffeq
+timm==1.0.9
+robustbench
+numpy
+scikit-learn
+scipy
+tqdm
+
+[dev]
+pylint
+toml
+yapf
+black
+pytest
