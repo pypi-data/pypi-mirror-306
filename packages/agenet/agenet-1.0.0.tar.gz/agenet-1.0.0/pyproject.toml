@@ -1,0 +1,108 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agenet"
+version = "1.0.0"
+description = "Age of Information Model for wireless networks"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["age of information ", "URLLC", "age of information model", "AoI"]
+license = {text = "MIT"}
+authors = [
+    { name = "Chathuranga Basanayaka", email = "chathurangab@sltc.ac.lk" },
+    { name = "Nuno Fachada", email = "nuno.fachada@ulusofona.pt" } ]
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "rich",
+    "rich-argparse",
+    "rich-tools",
+    "scipy"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering" ]
+
+[project.scripts]
+agenet = "agenet.cli:_main"
+
+[project.urls]
+"Homepage" = "https://github.com/cahthuranag/agenet"
+"Bug Reports" = "https://github.com/cahthuranag/agenet/issues"
+"Documentation" = "https://cahthuranag.github.io/agenet/"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "pytest-console-scripts",
+    "pytest-mock",
+    "coverage",
+    "codecov",
+    "mypy",
+    "pytest-mypy",
+    "mkdocs-material>=7.1.11",
+    "mkdocstrings[python]>=0.19.0",
+    "black",
+    "flake8 >= 6.0.0",
+    "flake8-black",
+    "flake8-builtins",
+    "flake8-comprehensions",
+    "flake8-docstrings",
+    "flake8-isort",
+    "Flake8-pyproject",
+    "flake8-pytest-style",
+    "flake8-simplify",
+    "isort",
+    "pre-commit",
+    "typing"]
+
+[tool.setuptools]
+packages = ["agenet"]
+
+[tool.setuptools.package-data]
+"*" = ["py.typed"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_unused_ignores = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-v --tb=short --strict-markers --mypy"
+testpaths = [ "test" ]
+[tool.black]
+line-length = 88
+
+[tool.isort]
+# https://pycqa.github.io/isort/docs/configuration/options.html
+profile = "black"
+src_paths = ["agenet", "test"]
+line_length = 88
+skip_gitignore = "True"
+
+[tool.flake8]
+extend-select = ["B9", "C4"]
+max-line-length = 88
+max-doc-length = 88
+ignore = [ "B018", "SIM106", "W503", "E501", "E203", "PT006","I001", "B905"]
+doctests = true
+exclude = [
+    ".git",
+    "__pycache__",
+    ".*cache",
+    "build",
+    "dist",
+    "env",
+    "venv",
+    ".eggs",
+    "*.egg",
+    "docs" ]
+# flake8-docstrings
+docstring-convention = "google"
