@@ -1,0 +1,355 @@
+{
+  "id": "add_subtitles_to_video",
+  "access": "public",
+  "created_at": "2024-10-21T23:32:04.578174",
+  "updated_at": "2024-10-21T23:32:04.578174",
+  "name": "Add Subtitles To Video",
+  "description": "",
+  "tags": ["start", "video"],
+  "thumbnail": "",
+  "thumbnail_url": "/examples/add_subtitles_to_video.jpg",
+  "graph": {
+    "nodes": [
+      {
+        "id": "1",
+        "parent_id": null,
+        "type": "nodetool.video.ExtractAudio",
+        "data": {},
+        "ui_properties": {
+          "selected": false,
+          "position": {
+            "x": 382,
+            "y": 370
+          },
+          "zIndex": 0,
+          "width": 200,
+          "selectable": true
+        }
+      },
+      {
+        "id": "2",
+        "parent_id": null,
+        "type": "huggingface.automatic_speech_recognition.Whisper",
+        "data": {
+          "model": {
+            "type": "hf.automatic_speech_recognition",
+            "repo_id": "openai/whisper-large-v3"
+          },
+          "task": "transcribe",
+          "language": "english",
+          "chunk_length_s": 8,
+          "timestamps": "sentence"
+        },
+        "ui_properties": {
+          "selected": false,
+          "position": {
+            "x": 649,
+            "y": 209
+          },
+          "zIndex": 0,
+          "width": 200,
+          "selectable": true
+        }
+      },
+      {
+        "id": "3",
+        "parent_id": null,
+        "type": "huggingface.automatic_speech_recognition.ChunksToSRT",
+        "data": {
+          "time_offset": 0
+        },
+        "ui_properties": {
+          "selected": false,
+          "position": {
+            "x": 921,
+            "y": 442
+          },
+          "zIndex": 0,
+          "width": 200,
+          "selectable": true
+        }
+      },
+      {
+        "id": "4",
+        "parent_id": null,
+        "type": "nodetool.video.AddSubtitles",
+        "data": {
+          "font_size": 16,
+          "font_color": "white",
+          "outline_color": "black",
+          "outline_width": 1,
+          "position": "bottom"
+        },
+        "ui_properties": {
+          "selected": false,
+          "position": {
+            "x": 1208,
+            "y": 436
+          },
+          "zIndex": 0,
+          "width": 200,
+          "selectable": true
+        }
+      },
+      {
+        "id": "6",
+        "parent_id": null,
+        "type": "nodetool.workflows.base_node.Preview",
+        "data": {
+          "name": "list_chunks_2024-10-08"
+        },
+        "ui_properties": {
+          "selected": false,
+          "position": {
+            "x": 912,
+            "y": 195
+          },
+          "zIndex": 0,
+          "width": 213,
+          "height": 197,
+          "selectable": true
+        }
+      },
+      {
+        "id": "7",
+        "parent_id": null,
+        "type": "nodetool.workflows.base_node.Preview",
+        "data": {
+          "name": "video_output_2024-10-08"
+        },
+        "ui_properties": {
+          "selected": false,
+          "position": {
+            "x": 1449,
+            "y": 435
+          },
+          "zIndex": 0,
+          "width": 409,
+          "height": 390,
+          "selectable": true
+        }
+      },
+      {
+        "id": "34",
+        "parent_id": null,
+        "type": "nodetool.workflows.base_node.Preview",
+        "data": {
+          "name": "str_output_2024-10-08"
+        },
+        "ui_properties": {
+          "selected": false,
+          "position": {
+            "x": 1212,
+            "y": 147
+          },
+          "zIndex": 0,
+          "width": 427,
+          "height": 249,
+          "selectable": true
+        }
+      },
+      {
+        "id": "35",
+        "parent_id": null,
+        "type": "nodetool.workflows.base_node.Comment",
+        "data": {
+          "headline": "Add Subtitles To Videos",
+          "comment": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Extracts audio from a video and uses Whisper to transcribe the audio."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The resulting chunks are converted to SRT format and then used to  render them into a video."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        "ui_properties": {
+          "position": {
+            "x": 3,
+            "y": -224
+          },
+          "zIndex": 0,
+          "width": 388,
+          "height": 207,
+          "selectable": true
+        }
+      },
+      {
+        "id": "36",
+        "parent_id": null,
+        "type": "nodetool.constant.Video",
+        "data": {
+          "value": {
+            "uri": "https://nodetool-ai.github.io/nodetool/assets/lire_bird.mp4",
+            "type": "video"
+          }
+        },
+        "ui_properties": {
+          "selected": false,
+          "position": {
+            "x": 126,
+            "y": 198
+          },
+          "zIndex": 0,
+          "width": 198,
+          "selectable": true
+        }
+      },
+      {
+        "id": "37",
+        "parent_id": null,
+        "type": "nodetool.workflows.base_node.Preview",
+        "data": {
+          "name": "audio_output_2024-10-21"
+        },
+        "ui_properties": {
+          "selected": false,
+          "position": {
+            "x": 379,
+            "y": 480
+          },
+          "zIndex": 0,
+          "width": 210,
+          "height": 214,
+          "selectable": true
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "df6a4b65-22b8-4cad-a44e-90cc46ec37e6",
+        "source": "1",
+        "sourceHandle": "output",
+        "target": "2",
+        "targetHandle": "audio",
+        "ui_properties": {
+          "className": "audio"
+        }
+      },
+      {
+        "id": "8fffeac3-e01a-4c29-b159-d9c9d5716f61",
+        "source": "2",
+        "sourceHandle": "chunks",
+        "target": "3",
+        "targetHandle": "chunks",
+        "ui_properties": {
+          "className": "list"
+        }
+      },
+      {
+        "id": "6219",
+        "source": "4",
+        "sourceHandle": "output",
+        "target": "7",
+        "targetHandle": "value",
+        "ui_properties": {
+          "className": "video"
+        }
+      },
+      {
+        "id": "f3141d84-d30a-4ae7-9930-5b721b1b560e",
+        "source": "36",
+        "sourceHandle": "output",
+        "target": "4",
+        "targetHandle": "video",
+        "ui_properties": {
+          "className": "video"
+        }
+      },
+      {
+        "id": "6220",
+        "source": "3",
+        "sourceHandle": "output",
+        "target": "34",
+        "targetHandle": "value",
+        "ui_properties": {
+          "className": "str"
+        }
+      },
+      {
+        "id": "6cc760db-7823-473f-88f2-67fcdc76e4f5",
+        "source": "3",
+        "sourceHandle": "output",
+        "target": "4",
+        "targetHandle": "subtitles",
+        "ui_properties": {
+          "className": "str"
+        }
+      },
+      {
+        "id": "6221",
+        "source": "1",
+        "sourceHandle": "output",
+        "target": "37",
+        "targetHandle": "value",
+        "ui_properties": {
+          "className": "audio"
+        }
+      },
+      {
+        "id": "06ec8a2f-03b9-42db-9a7c-538acc65526f",
+        "source": "36",
+        "sourceHandle": "output",
+        "target": "1",
+        "targetHandle": "video",
+        "ui_properties": {
+          "className": "video"
+        }
+      },
+      {
+        "id": "6218",
+        "source": "2",
+        "sourceHandle": "chunks",
+        "target": "6",
+        "targetHandle": "value",
+        "ui_properties": {
+          "className": "list"
+        }
+      }
+    ]
+  },
+  "input_schema": null,
+  "output_schema": null
+}
