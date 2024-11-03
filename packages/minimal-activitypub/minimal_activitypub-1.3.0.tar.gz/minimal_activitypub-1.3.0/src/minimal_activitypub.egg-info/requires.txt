@@ -1,0 +1,4 @@
+h2~=4.1.0
+httpx~=0.27.2
+python-dateutil~=2.9.0.post0
+certifi>=2024.7.4
