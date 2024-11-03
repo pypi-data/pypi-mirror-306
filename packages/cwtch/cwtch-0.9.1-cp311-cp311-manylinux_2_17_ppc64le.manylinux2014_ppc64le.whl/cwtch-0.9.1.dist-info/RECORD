@@ -1,0 +1,12 @@
+cwtch-0.9.1.dist-info/RECORD,,
+cwtch-0.9.1.dist-info/LICENSE,sha256=Wk7uAQHNzNZYbZ8BVvJKMepby7UdoiTBc00DPle6qB0,1068
+cwtch-0.9.1.dist-info/METADATA,sha256=9X7_UBKv1oBrB_1MSpPvcGiPwIB-xgf2kgUCXm11eus,1932
+cwtch-0.9.1.dist-info/WHEEL,sha256=Q22khR9LVxj4IN3zxHPsCRsz0wD9y8BLbu6y3HdrWN8,151
+cwtch/errors.py,sha256=AaadVBaWNrZb5BwyYHTjjoPRerYEOvugzMml89oTyYw,3378
+cwtch/metadata.py,sha256=ZMLTttv7IEct_RZwRgtRg-GWffy-c4OiUalegmY6ErA,5847
+cwtch/cwtch.py,sha256=4NDj2RSuHa0y2rfjoD7zm3IqfgbR9Y8GZc7TfQawQac,49075
+cwtch/__init__.py,sha256=O6-iMk2AHW6DCz82By2CD2OhBzOKH-PuFKHsex7eDWc,442
+cwtch/types.py,sha256=BwcCxINizv5AqodVZ-LJ3nISXKGQHJMtQwxNq_PLJMU,6898
+cwtch/core.cpython-311-powerpc64le-linux-gnu.so,sha256=lP4xzuCIaZJGPkuiLwG-W1AdRfR4YSEwOlIrhqDmAlQ,5106192
+cwtch/config.py,sha256=h95_LTxphp_liUCwLn-HIewm3fZG21RwWyfLOtKeKJc,268
+ext/core.pyx,sha256=jHvHk2KbXl23wAAUq9q0t4FKe_566HcKVruuWa-2otk,43932
