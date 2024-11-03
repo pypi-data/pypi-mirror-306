@@ -1,0 +1,5 @@
+[console_scripts]
+chase = chase.cli:main
+
+[gui_scripts]
+
