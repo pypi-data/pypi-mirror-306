@@ -1,0 +1,14 @@
+__pycache__/
+.benchmarks/
+build/
+.coverage
+dist/
+*.egg-info/
+.idea/
+.mypy_cache/
+*.orig
+pip-wheel-metadata/
+.pytest_cache/
+# in tests/files ; but hatchling doesn't consider a .gitignore there
+.result.xml
+*-result.xml
