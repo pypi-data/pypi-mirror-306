@@ -1,0 +1,7 @@
+blume
+matplotlib
+astropy
+astroquery
+scipy
+#jwst
+
