@@ -1,0 +1,17 @@
+algosto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algosto/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algosto/constraints/__init__.py,sha256=sueORcekgqUsMUY3i9zJ9PLswiSRr8jzTdSeXXC0U54,96
+algosto/constraints/abstract_constraint.py,sha256=2wvpzOcP9k7cgDqvWhjCxIvgamugy9uffn9520BeUzM,738
+algosto/constraints/rd_constraint.py,sha256=d3cd8_E41EnRtasOacQrwkpOFlQeGDAXgiC4ZNgNOJk,2152
+algosto/solvers/__init__.py,sha256=IYCjZ_P6C-kBvWEKZ_u4c-e2cWJVRZFirxsTBiBa4YM,123
+algosto/solvers/abstract_solver.py,sha256=oh3ezmo2rKFGL6G9VmEnKLciGdPWAi2IEyyuyrI1Ovc,1543
+algosto/solvers/kiefer_wolfowitz.py,sha256=1TknabTtQvRBIDm0uBNPfd9TE-Y18l9De-h4sVZbJMQ,4130
+algosto/solvers/sgd.py,sha256=iGG6B5lOmLfnuCC6Zod-_h7rqT2PnjSrB03mCLEkpoI,4092
+algosto/utils/__init__.py,sha256=12hWveRJqoQPxLj5ry6jHHbbasUGr5YJbMEh5OvDwkE,46
+algosto/utils/plot.py,sha256=fcGGQfHdCpCstvvM1u4Nc7u6yhiTV_CqAcoD_xA6Ew8,1227
+algosto/utils/functions/__init__.py,sha256=InyiCINYKKpKiGaJwN8vSac2NfVbDJs6DkD7Id7jrfI,33
+algosto/utils/functions/quadratic.py,sha256=lnpbn84Kadhb7dUJY9-9td3fiE-BL4qufJxQvy-uAfE,2358
+algosto-0.0.14.dist-info/METADATA,sha256=DtlLu3f0VtSZC0qHjNbiUfNZGOqAGbhwVD0CIAKQCGA,4776
+algosto-0.0.14.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+algosto-0.0.14.dist-info/top_level.txt,sha256=33oQ7NVRxfKHgLOJujAwMtSVE4v9k0Ed-Baqrgoyt54,8
+algosto-0.0.14.dist-info/RECORD,,
