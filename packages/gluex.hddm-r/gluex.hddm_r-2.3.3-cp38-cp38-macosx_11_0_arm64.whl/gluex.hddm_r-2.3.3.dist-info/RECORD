@@ -1,0 +1,15 @@
+gluex.hddm_r.dylibs/libssl.3.dylib,sha256=JbNvgIJXPYOVfiJFZioz3KbG7kYmnC-x9RGHyzI46Eo,838768
+gluex.hddm_r.dylibs/libXrdCl.3.0.0.dylib,sha256=B4mipFp1UGlKszUEGdCtj3XND00mFqJ5MaiO6gqXLXM,2463840
+gluex.hddm_r.dylibs/libcrypto.3.dylib,sha256=mod8jw3QUy41Ogxo5p-5rnXx0mJ6PkhnB13jva8JYE8,4222880
+gluex.hddm_r.dylibs/libz.1.3.1.dylib,sha256=BmlHUqxhAi5iCyoY_xNEw2n9QHmsb0DWDZ6z3D0iUks,141216
+gluex.hddm_r.dylibs/libXrdUtils.3.0.0.dylib,sha256=UXoMXTfEGM1HRgnjKiH05CWC_nby6us1BhIgHtFaQBU,1149296
+gluex.hddm_r.dylibs/libXrdXml.3.0.0.dylib,sha256=w-BTZYorTNUo9aS7RkiOzK2GqtZXhVv4osHUITBupQc,147072
+gluex.hddm_r-2.3.3.dist-info/RECORD,,
+gluex.hddm_r-2.3.3.dist-info/LICENSE,sha256=guNhQjgEXYGAl4Nghfk09_ps1QJs-mwri2sFQcz2878,1070
+gluex.hddm_r-2.3.3.dist-info/WHEEL,sha256=7_oe0rMIEoZOpgBhth1WRv0SCKz8pdiUZgyT0NjKRv8,107
+gluex.hddm_r-2.3.3.dist-info/top_level.txt,sha256=1sy7WrgDAbSW3qpacdhWOOk2sU_moRx_P9UXnotF4m8,77
+gluex.hddm_r-2.3.3.dist-info/METADATA,sha256=sp7LUqiES_Hq_W7uAZDoGraA_dl_q8aaru7mvGI15ak,3001
+gluex/hddm_r.cpython-38-darwin.so,sha256=dmd-MUB6V_yYKW9xHT97cMFq8SMwCwX7PGvFV8lOeaE,6857712
+gluex/hddm_r/sharedlibs.tar.gz,sha256=alvgHX20zfoEVL9bTycpI2NS5ToNHMDiESaKjO1za3c,24702137
+gluex/hddm_r/rest.xml,sha256=jvKYpQsC3tcOzmMF8jz-a4WxcV8Sax_bmPKeZ_qEf5g,11295
+gluex/xrootd_client/__init__.py,sha256=PZekT8k2mKAhJ8Q5RlhQ0mS2fKDXybaK3sVDEqZDoHA,1368
