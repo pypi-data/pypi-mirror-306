@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: cisco-nso-restconf
+Version: 1.0.1
+Summary: A Python client library for interacting with the Cisco NSO RESTCONF API
+Home-page: https://github.com/dbono711/cisco-nso-restconf
+License: MIT
+Keywords: RESTCONF,Cisco,NSO,client,API
+Author: Darren Bono
+Author-email: dbono215@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Project-URL: Repository, https://github.com/dbono711/cisco-nso-restconf
+Description-Content-Type: text/markdown
+
+# cisco-nso-restconf
+
+## Overview
+
+This Python library provides an interface for interacting with the Cisco Network Services Orchestrator (NSO) RESTCONF API.
+
+## Features
+
+* **RESTCONF API Access:** Use the [NSORestconfClient](cisco_nso_restconf/client.py) class to make raw GET, POST, & DELETE requests to any RESTCONF ```/data``` resource.
+* **Utility Classes:** Use pre-built helper classes, such as the [Devices](cisco_nso_restconf/devices.py) class, to simplify common operations, like fetching all device NED ID's.
+
+## Requirements
+
+* NSO RESTCONF Configuration
+  * To use this library, RESTCONF must be enabled in NSO. Please refer to the documentation specific to the NSO version being used to determine how to enable RESTCONF in NSO.
+
+## Installation
+
+You can install the library using pip:
+
+```bash
+pip install cisco-nso-restconf
+```
+
+## Client Class
+
+Use the [NSORestconfClient](cisco_nso_restconf/client.py) class to interact with the NSO RESTCONF API ```/data``` resource
+
+### Methods Supported
+
+* GET, POST, DELETE
+
+## Utility Classes
+
+To make the process easier, the library also provides utility classes for specific tasks. For example, the [Devices](cisco_nso_restconf/devices.py) class simplifies interaction with ```tailf-ncs:devices``` RESTCONF resources.
+
+### Available Utility Classes
+
+| Class   | Description                                            |
+|---------|--------------------------------------------------------|
+| Devices | Interact with the NSO ```tailf-ncs:devices``` resource |
+
+### Closing Sessions
+
+When using the NSORestconfClient, it’s important to close the session when you’re done to free up resources. You can do this using the close() method, as shown in the examples above.
+
+## Examples
+
+There are a number of [examples](examples) provided for utilizing the Client classes and various Helper classes, such as the ```Devices``` class. The examples are intended to showcase basic use cases/workflows for acheiving a specific function in NSO, such as retreiving NED ID's, device groups, life cycle of a VLAN resource, life cycle of a service, and so on.
+
+## Contributing
+
+We welcome contributions! Feel free to open issues or submit pull requests. For development, we recommend using Poetry to manage dependencies and packaging.
+
+```shell
+poetry install
+```
+
+## License
+
+This project is licensed under the MIT License.
+
