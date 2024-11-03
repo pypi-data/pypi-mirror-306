@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: phenoscope
+Version: 0.4.0a0
+Summary: An image processing platform created for Ex-FAB NSF BioFoundry that aims to facilitate the development of image processing tools for synthetic bioengineering research.
+Author-email: Alexander Nguyen <xander-git@protonmail.com>
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: ~=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+
+# PhenoScope
+![Development Status](https://img.shields.io/badge/status-Pre--Alpha-red)
+
+An image processing framework for rapid protocol development of phenotype image analysis 
+
+---
+## Overview
+This framework aims to provide a toolkit & developer framework that streamlines the process of creating phenotype image analysis protocols. 
+By providing a structured data flow, developers can create their own versions of computer vision operations and easily integrate it
+with other established protocols without having to create entirely programs every time.
