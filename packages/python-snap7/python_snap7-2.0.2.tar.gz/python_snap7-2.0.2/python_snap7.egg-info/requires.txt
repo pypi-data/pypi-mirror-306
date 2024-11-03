@@ -1,0 +1,17 @@
+
+[cli]
+rich
+click
+
+[doc]
+sphinx
+sphinx_rtd_theme
+
+[test]
+pytest
+mypy
+types-setuptools
+ruff
+tox
+types-click
+uv
