@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: openapiiplocation
+Version: 1.1.0
+Summary: iplocation.net API
+Home-page: https://github.com/oapicf/openapi-iplocation
+Author: OpenAPI Clients Factory
+Author-email: blah+oapicf@cliffano.com
+License: MIT
+Keywords: OpenAPI,OpenAPI-Generator,iplocation.net API
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic (>=2)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: typing-extensions (>=4.7.1)
+Requires-Dist: urllib3 (<3.0.0,>=1.25.3)
+
+    OpenAPI v3 specification and a set of generated API clients for iplocation.net
+    
+
