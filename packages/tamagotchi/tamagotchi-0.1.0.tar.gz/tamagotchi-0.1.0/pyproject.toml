@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tamagotchi"
+description = "Create and interact with your very own Tamagotchi character using Python! \\(^ 3 ^)/"
+version = "0.1.0"
+authors = [
+  { name = "Sahar Bueno-Abdala", email = "sb8249@nyu.edu" },
+  { name = "Hang Yin", email = "hy2270@nyu.edu" },  
+  { name = "Jessica Xu", email = "kx2053@nyu.edu" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build", "tutorial"]
+requires-python = ">=3.7"
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Communications :: Chat",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+dependencies = [
+    "numpy",
+    "Pillow"
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/software-students-fall2024/3-python-package-macaron-for-three"
+Repository = "https://github.com/software-students-fall2024/3-python-package-macaron-for-three.git"
+BugTracker = "https://github.com/software-students-fall2024/3-python-package-macaron-for-three/issues"
+
+[project.scripts]
+tamagotchi_cli = "tamagotchi.__main__:main"
+
+
+
+

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/tamagotchi/__init__.py
+src/tamagotchi/__main__.py
+src/tamagotchi/tamagotchi.py
+src/tamagotchi.egg-info/PKG-INFO
+src/tamagotchi.egg-info/SOURCES.txt
+src/tamagotchi.egg-info/dependency_links.txt
+src/tamagotchi.egg-info/entry_points.txt
+src/tamagotchi.egg-info/requires.txt
+src/tamagotchi.egg-info/top_level.txt
+tests/test_tamagotchi.py
