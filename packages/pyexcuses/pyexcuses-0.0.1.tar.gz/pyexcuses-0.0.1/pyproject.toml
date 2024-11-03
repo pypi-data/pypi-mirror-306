@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyexcuses"
+version = "0.0.1"
+authors = [
+  { name="Joseph Chege", email="jcm9824@nyu.edu" },
+  { name="Darren Zou", email="dz2218@nyu.edu" },
+  { name="Peter D'Angelo", email="pgd8870@nyu.edu" },
+  { name="Gene Park", email="ghp7469@nyu.edu" },
+  { name="Jack Zhang", email="yz6973@nyu.edu" },
+]
+description = "Package to fix all your coding problems."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/software-students-fall2024/3-python-package-realoriginal"
+Issues = "https://github.com/software-students-fall2024/3-python-package-realoriginal/issues"

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyexcuses.egg-info/PKG-INFO
+pyexcuses.egg-info/SOURCES.txt
+pyexcuses.egg-info/dependency_links.txt
+pyexcuses.egg-info/top_level.txt
+tests/test_generate_excuse.py
+tests/test_get_multilingual_excuse_or_solution.py
+tests/test_list_available_options.py
+tests/test_suggest_solution.py
