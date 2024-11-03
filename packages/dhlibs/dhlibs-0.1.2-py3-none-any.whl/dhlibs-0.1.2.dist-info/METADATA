@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dhlibs
+Version: 0.1.2
+Summary: dhlibs - random libraries that you shouldn't care
+Home-page: https://github.com/DinhHuy2010/dhlibs
+Author: DinhHuy2010
+Author-email: huy04052010@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: more-itertools (>=10.4.0,<11.0.0)
+Requires-Dist: typing-extensions (>=4.12.2,<5.0.0)
+Project-URL: Repository, https://github.com/DinhHuy2010/dhlibs
+Description-Content-Type: text/markdown
+
+[![Checked with pyright](https://microsoft.github.io/pyright/img/pyright_badge.svg)](https://microsoft.github.io/pyright/)
+![GitHub Actions](https://github.com/DinhHuy2010/dhlibs/actions/workflows/ci.yaml/badge.svg)
+
+dhlibs® - random libraries that you shouldn't care™
+
