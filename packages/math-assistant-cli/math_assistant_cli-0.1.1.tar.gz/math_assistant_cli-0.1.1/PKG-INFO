@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: math-assistant-cli
+Version: 0.1.1
+Summary: AI-powered math problem solver and tutor
+Home-page: https://github.com/LucasRimfrost/math-assistant-cli
+Author: Lucas Rimfrost
+Author-email: lucas.rimfrost@gmail.com
+License: MIT
+Keywords: mathematics education ai tutor claude anthropic
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anthropic>=0.5.0
+Requires-Dist: Pillow>=9.0.0
+Requires-Dist: rich>=10.0.0
+Requires-Dist: click>=8.0.0
+
+# Math Assistant CLI
+
+A command-line tool that uses Claude AI to help with math problems. Just show it a picture of your math problem and get explanations, similar practice problems, and solution checking.
+
+## Installation
+
+```bash
+pip install math-assistant-cli
+```
+
+You'll need an Anthropic API key. Set it as an environment variable:
+```bash
+export ANTHROPIC_API_KEY='your-api-key-here'
+```
+
+## Quick Start
+
+1. Explain a problem:
+```bash
+math-assist explain problem.jpg
+```
+
+2. Interactive mode:
+```bash
+math-assist
+```
+
+3. Different formatting:
+```bash
+math-assist explain problem.jpg --format rich
+```
+
+## Features
+
+- 📸 Upload images of math problems
+- 💬 Get step-by-step explanations
+- 🏋️ Generate similar practice problems
+- ✅ Check your solutions
+- 💾 Save conversations for later
+- 🎨 Multiple output formats
+
+## Interactive Commands
+
+When in interactive mode:
+- `image: path/to/image.jpg` - Load a new problem
+- `save` - Save the conversation
+- `quit` - Exit
+
+## Examples
+
+1. Quick explanation:
+```bash
+math-assist explain calc_problem.jpg
+```
+
+2. Interactive session:
+```bash
+math-assist
+> image: integral.jpg
+> Can you explain the first step?
+> How do I know which substitution to use?
+> save conversation.txt
+> quit
+```
+
+## Contributing
+
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
