@@ -1,0 +1,14 @@
+tests/test_cli.py,sha256=oZLdch_TLNUBKZQaYQ2B1imCyK9O0EypikXqBKpNrhs,1851
+vpx/__init__.py,sha256=xOnafdDcPyxhG7PC9XDfzJl_6UFxIeMaOvDrIkPdlO8,73
+vpx/auth.py,sha256=FcA58YcD5zMv8apz7MEqjf0Ljrl9qvm12dlaFzWmY1w,3901
+vpx/cli.py,sha256=491W9yxmX1Q31Nkwdf_kw6UsNamcC_1EscJQ212qbvw,2035
+vpx/secretload.py,sha256=daS7YBJNkzhXzmTU-KokRsgf9-HbXX2i6RlBxpl4DtI,910
+vpx/diann/agent.py,sha256=tKlpa9NZ_kdzvtJB897_3OPQyDKTTRkrhn22h0j-f84,15863
+vpx/diann/helper_agents.py,sha256=RhSN_83r5U1aT1j3btWtacllGkKH90MG3SbKe8NsmrQ,34928
+vpx/diann/tools.py,sha256=xy6LHzrDl-2Opfx2UqRJmKqw0Xx9xI81RIHLDCZPttk,26776
+vpx/diann/utility.py,sha256=5vVfG40F2AjxGzlCMdmUd9uMTaYn4lf64aN0J_fqAeU,509
+vpx-0.1.12.dist-info/METADATA,sha256=w8erwWcfmGFeTV8LO1J2Ur-EQw7YZrKFDjnU9_nF3tM,583
+vpx-0.1.12.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+vpx-0.1.12.dist-info/entry_points.txt,sha256=vGeyhFLyOpQEMNVZa9n3Rqv29jKr87C66sOJTFtNUjQ,36
+vpx-0.1.12.dist-info/top_level.txt,sha256=Hu5YQjmM5od1WLaFdP4YlaUwgtLHvZPGJa1tDC0dPgQ,10
+vpx-0.1.12.dist-info/RECORD,,
