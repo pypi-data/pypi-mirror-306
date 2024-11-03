@@ -1,0 +1,2 @@
+[console_scripts]
+e-commerce-packing = e_commerce_packing.main:main
