@@ -1,0 +1,70 @@
+[project]
+name = "plasted"
+version = "1.0.0"
+description = "A WSGI app maded from a PLASTER_URI environment variable."
+authors = [
+    { name = "Guillaume Gauvrit", email = "guillaume@gauvr.it" },
+]
+requires-python = ">=3.9"
+readme = "README.md"
+dependencies = [
+    "plaster>=1.1.2,<2",
+]
+
+[project.urls]
+Homepage = "https://github.com/mardiros/plasted"
+Documentation = "https://github.com/mardiros/plasted/blob/main/README.md"
+Repository = "https://github.com/mardiros/plasted.git"
+Issues = "https://github.com/mardiros/plasted/issues"
+Changelog = "https://github.com/mardiros/plasted/blob/main/CHANGELOG.md"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.3,<9",
+    "pytest-cov>=5.0.0,<6",
+    "plaster-yaml>=3.0.0,<4",
+    "mypy>=1.12.0,<2",
+    "webtest>=3.0.1,<4",
+]
+functest = [
+    "uwsgi>=2.0.27,<3",
+]
+
+[tool.pdm.build]
+includes = [
+    "src",
+    "CHANGELOG.md",
+]
+excludes = [
+    "tests",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.ruff.lint]
+select = [
+    "B",
+    "I",
+    "F",
+    "UP",
+    "RUF",
+]
+
+[[tool.mypy.overrides]]
+disallow_any_generics = true
+disallow_untyped_defs = true
+module = "plasted.*"
+
+[[tool.mypy.overrides]]
+module = [
+    "plaster",
+]
+ignore_missing_imports = true
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
