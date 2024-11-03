@@ -1,0 +1,5 @@
+lyric_js_worker/__init__.py,sha256=wTMC6wocPT-FtHuKbsETtQK8_EvMgj9jZEWifDDiuvE,315
+lyric_js_worker/javascript_worker.wasm,sha256=GFwwHl4B67JuiTJMV_l6kT9bvdLmS0rv688D98rTYVE,10699190
+lyric_js_worker-0.1rc0.dist-info/METADATA,sha256=pStQ63z9iCbXlBSxP2r-oYs5cNY2gSFTk6O44aGsdh8,258
+lyric_js_worker-0.1rc0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+lyric_js_worker-0.1rc0.dist-info/RECORD,,
