@@ -1,0 +1,13 @@
+richapi/__init__.py,sha256=e4vY20s-zR-e6521HkdkU1mQAaauVleE4quxvVz1XJE,330
+richapi/__version__.py,sha256=vNiWJ14r_cw5t_7UDqDQIVZvladKFGyHH2avsLpN7Vg,22
+richapi/cli.py,sha256=d2DPwp5tavypSszPHYuAPOA2ktO1nxtOTnHqHDlK1KM,2536
+richapi/exceptions.py,sha256=DQU5gj8veUHhn7BxrhFH-3lQzIfuJcWqlJE2fKh-U60,97
+richapi/exc_parser/__init__.py,sha256=M88S8H5DBfYUt9odbUJH62gliiRwMS4TnN9O5AAGFS0,237
+richapi/exc_parser/compiler.py,sha256=3uLpUeMvOL0AvV41xCSK9oI3Og6cdtArYT5IafcDsLI,23315
+richapi/exc_parser/handler.py,sha256=w9wkoeFEet1KwXx1jBl-RMrHCj7Tb1PhfvZpkd53syg,732
+richapi/exc_parser/openapi.py,sha256=E14ePh0QPQh0kn83Pm8w6NjL4OFxc72eY3mSE6NEwxQ,11036
+richapi/exc_parser/protocol.py,sha256=626aDV_KeZHTX6SEJMfAvFSkbvpLkAqwERAg1I49Ibw,3292
+richapi-0.3.2.dist-info/METADATA,sha256=6HBiDSxreVbMO_P1PiotgIdpsTetBN3AiSWT7BuQsmY,1355
+richapi-0.3.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+richapi-0.3.2.dist-info/entry_points.txt,sha256=BjKovYW30iyw_HgNL4kWqNRtg6RDpVUnJ3WzZFO5aDA,44
+richapi-0.3.2.dist-info/RECORD,,
