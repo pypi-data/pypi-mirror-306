@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tglogging/__init__.py
+tglogging/tglogger.py
+tglogging_black.egg-info/PKG-INFO
+tglogging_black.egg-info/SOURCES.txt
+tglogging_black.egg-info/dependency_links.txt
+tglogging_black.egg-info/requires.txt
+tglogging_black.egg-info/top_level.txt
