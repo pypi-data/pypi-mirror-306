@@ -1,0 +1,5 @@
+[console_scripts]
+lscolors = lscolors.cli:main
+
+[gui_scripts]
+
