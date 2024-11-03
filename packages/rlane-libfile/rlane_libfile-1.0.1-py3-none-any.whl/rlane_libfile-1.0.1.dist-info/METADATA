@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: rlane-libfile
+Version: 1.0.1
+Summary: Represent a filesystem item such as a file or folder
+Keywords: libfile
+Author-Email: Russel Lane <russel@rlane.com>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Homepage, https://github.com/russellane/libfile
+Requires-Python: >=3.10
+Requires-Dist: loguru>=0.7.2
+Description-Content-Type: text/markdown
+
+This module offers a class that combines pathlib.Path, os.walk,
+cached os.struct_stat, debug/trace logging, and the ability to execute
+a --dry-run through 'most' of the code without changing the filesystem.
+
+File(object) represents a filesystem item, such as a file or folder, which
+may or may not exist when the object is initialized.  This differs
+from os.DirEntry(object), which is only instantiated for an existing item.
