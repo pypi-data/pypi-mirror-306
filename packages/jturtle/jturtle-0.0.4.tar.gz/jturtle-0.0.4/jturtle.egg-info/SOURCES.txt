@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+jturtle/__init__.py
+jturtle/turtle.py
+jturtle.egg-info/PKG-INFO
+jturtle.egg-info/SOURCES.txt
+jturtle.egg-info/dependency_links.txt
+jturtle.egg-info/requires.txt
+jturtle.egg-info/top_level.txt
