@@ -1,0 +1,15 @@
+krakencli/__init__.py,sha256=HAr1nFnKuMYNzE6fCmk__5UXZRF_XrgqkcEsrLNGjIw,889
+krakencli/kraken_api.py,sha256=VaGBF8PEctSRjXTu87QfWIU5Fv9tB0-LyQRsdggW8Pc,2328
+krakencli/exceptions/__init__.py,sha256=N_ZeGcqRqnpkBe4ywhnajEWyXArKzZF1epOKhHV4QxM,296
+krakencli/exceptions/kraken_api_exception.py,sha256=0hPufgqcjG5GJHUo1FrXpSgG-kkF6--zWUuKj6yq5SY,2012
+krakencli/models/__init__.py,sha256=JOZQOf7hKCXrStjUWMfTvjoYq_KZh5iYyeWOIe6JFEY,225
+krakenstream/__init__.py,sha256=-1VD-f3d0RgAin9O9VeT19SBFRnU68nm0EbDGMnD31c,889
+krakenstream/kraken_api.py,sha256=VaGBF8PEctSRjXTu87QfWIU5Fv9tB0-LyQRsdggW8Pc,2328
+krakenstream/exceptions/__init__.py,sha256=6_9ZdBr9452qM2A1UOVszQDihnAYyot3CzC-K28qK3w,302
+krakenstream/exceptions/kraken_api_exception.py,sha256=0hPufgqcjG5GJHUo1FrXpSgG-kkF6--zWUuKj6yq5SY,2012
+krakenstream/models/__init__.py,sha256=756DBqAY8p5z_rQ26H_iBf8arKylfyzMs6hz6Le0XAY,228
+krakenstream-0.1.0.dist-info/LICENSE,sha256=0_1NhOFSjzkKQc55qzHyrL-h4mxtpmdRU--FJQsgDnA,1052
+krakenstream-0.1.0.dist-info/METADATA,sha256=A-LlES1fQxNsEy5tUJcb4V0D9aJV7lzRvDLFir-ktPA,1824
+krakenstream-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+krakenstream-0.1.0.dist-info/top_level.txt,sha256=d5bytgMIIjOhe1py92nxX69hRg1RCsdCh3TiROuE4Bk,13
+krakenstream-0.1.0.dist-info/RECORD,,
