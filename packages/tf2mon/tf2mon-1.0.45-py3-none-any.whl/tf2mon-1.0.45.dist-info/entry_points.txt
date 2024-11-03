@@ -1,0 +1,5 @@
+[console_scripts]
+tf2mon = tf2mon.cli:main
+
+[gui_scripts]
+
