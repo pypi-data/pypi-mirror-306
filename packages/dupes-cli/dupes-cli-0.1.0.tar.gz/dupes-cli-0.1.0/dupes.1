@@ -1,0 +1,20 @@
+.TH dupes 1 "November 2024" "dupes 0.1.0" "User Commands"
+.SH NAME
+dupes \- A CLI tool to find and manage duplicate files
+.SH SYNOPSIS
+.B dupes
+.RI [\ \-\-show\-all\ ]
+.RI [\ \-\-created\ ]
+.SH DESCRIPTION
+Recursively searches for duplicate files in the current directory and offers to delete them with options to show all or only delete the latest duplicates.
+.SH OPTIONS
+.TP
+.B \-\-show\-all
+Displays all duplicate files found.
+.TP
+.B \-\-created
+Only delete newer duplicates, preserving the oldest file.
+.SH AUTHOR
+David Blue
+.SH LICENSE
+MIT License
