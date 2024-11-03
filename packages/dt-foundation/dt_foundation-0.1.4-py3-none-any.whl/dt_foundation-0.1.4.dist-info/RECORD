@@ -1,0 +1,17 @@
+dt_tools/cli/demos/dt_foundation_demo.py,sha256=4LD9c0bEgSkOzN4WrQNIyGG6JrkpwPnPkjnfn7bPVKs,1762
+dt_tools/cli/demos/dt_logging_demo.py,sha256=Pz2icsuTctcnnW1HaCu56YfGVycjpdIaCcYACxygY-8,3852
+dt_tools/cli/demos/dt_misc_helper_demo.py,sha256=d3UwH0vdj_lWdzNDI3sdhcThOh6H6YQSWaq6bmnvZB0,3690
+dt_tools/cli/demos/dt_os_demo.py,sha256=mNOTR5odenOzDdkgkZ7HoxuxF1XaCkE2wahp8SwPheY,2107
+dt_tools/cli/demos/dt_project_helper_demo.py,sha256=h6D7Em2k4wxCf9R2Sq6pOPgwGvUzUyq4w9JFumQ_96s,1688
+dt_tools/cli/demos/dt_sysinfo_demo.py,sha256=bbTCqfDCBJpBKSgNsuu7D2t26xcBebuTNWqTVr2EyIw,4852
+dt_tools/cli/set_api_tokens_cli.py,sha256=5Er_Xpjr34Xr8Sjnm90EYRLebTVmAU9tcKj_x1GL0II,5537
+dt_tools/logger/logging_helper.py,sha256=O-Zx0M4HFEyHU9n7vYJllsx7wV-I6EUIcD2qka7mGKY,7047
+dt_tools/logger/logging_helper_legacy.py,sha256=ELqglxYhJSJyRl1QLbzbNh6wLbZSH1YTrza5fPakG7Y,5238
+dt_tools/misc/helpers.py,sha256=6ANNnBdxK4ecOvGnts9J-DivC-A-gQJXhN7llLG1xxY,12419
+dt_tools/os/os_helper.py,sha256=Fa8BPJVkJyjAbyineWJ6Mq3ZXG0fJ518bUcMeQp6o-s,17836
+dt_tools/os/project_helper.py,sha256=JoJ71td3KxdhWj0kBsQoIAiN8q8CK1Cw_LOTI_4JO9Y,7571
+dt_foundation-0.1.4.dist-info/entry_points.txt,sha256=BGwxxpPeen2TLFSW-4m7oN0YZnN6eEY1qVw1BWDvPaw,71
+dt_foundation-0.1.4.dist-info/LICENSE,sha256=qucJcNK8ntair9P5bvVSqq8p_dU6IALbT_B_EQUx0I4,1065
+dt_foundation-0.1.4.dist-info/METADATA,sha256=Q_bcjYF0SGgcpWU35qWF7mAIoc2m2hPNfcru2mTr3-k,2408
+dt_foundation-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dt_foundation-0.1.4.dist-info/RECORD,,
