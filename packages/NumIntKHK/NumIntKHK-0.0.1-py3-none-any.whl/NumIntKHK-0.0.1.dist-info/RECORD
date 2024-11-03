@@ -1,0 +1,17 @@
+NumIntKHK/__init__.py,sha256=bNGic-i1mL1og9uijd4I4hU6s-J2dauqDOW9mBAKS_M,395
+NumIntKHK/gaussiana_compuesta.py,sha256=mjOpltSwh8qK32T74m6mTq29SKY4rvL_MQTGByA1ld4,2056
+NumIntKHK/gaussiana_compuesta_iterativa.py,sha256=pSJmuWyU9RQgvgLKTSABir2FKARZSyY4IetchaFhcvs,2541
+NumIntKHK/romberg.py,sha256=qFN4btEXOVjPr5XHG58VELyf8e6N1bbdRYyzoyp8vQo,2605
+NumIntKHK/simpson_compuesto.py,sha256=OPCqDCeHLG6eno5JWjWSmnyAOnCOu6hpR5a5ULDtOx4,2085
+NumIntKHK/simpson_compuesto_iterativo.py,sha256=DtC7KlQAgUGmiYK8VIqs21nnqI5lPwacntxbh8O2phw,2311
+NumIntKHK/trapecio_compuesto.py,sha256=X339tYO4Serug0NUhcDWHPJ5hHBJq6s6ovr_7QtzPr4,1782
+NumIntKHK/trapecio_compuesto_iterativo.py,sha256=Q78mAGB1ipdvO6aHty-hXAW_bjFoH2-HdBwI7l1Vptw,2275
+NumIntKHK/elementales/__init__.py,sha256=DDNv7HeUdgsTjgC2QltfRGUwnZ1s-uhZ7G5YKDxBqBo,152
+NumIntKHK/elementales/ceros_pesos_cuad_gauss.py,sha256=oiZUq_XCI4WwyRNQ-Z_8Xg1XJ2Ia0f1JaLVr1PMSfRw,3779
+NumIntKHK/elementales/gaussiana.py,sha256=KQa4G-6lStG_WzHzQXG-has0F_yrLdQjfhkMYW40GEY,2425
+NumIntKHK/elementales/simpson.py,sha256=r_LfeUk6i3JyS3r54OXboNaA2KpiHqFzZfrXo5n2-PE,1540
+NumIntKHK/elementales/trapecio.py,sha256=R_XHx2lNW92ls_LyYbJf8T7QP8TprgQDjs00SY6lCCc,1466
+NumIntKHK-0.0.1.dist-info/METADATA,sha256=MsvQ6ZePa8mh1OzVqSQWVuaBu7x5ed5FuMwkm8M_Bsc,778
+NumIntKHK-0.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+NumIntKHK-0.0.1.dist-info/top_level.txt,sha256=F4x1u9_6kiyt_KvwYGq-u0OASzalRcQELXOSXecNTnw,10
+NumIntKHK-0.0.1.dist-info/RECORD,,
