@@ -1,0 +1,10 @@
+flytekitplugins_perian_job_unofficial-1.13.13-py3.11-nspkg.pth,sha256=ya_zoT0ZM023a2lpUsRaqXsgDEknLucLLOWbbtFBPw4,512
+flytekitplugins/perian_job/__init__.py,sha256=Ub4-M30YY8Xkp9FFziiRxZoPKBmqWkTiC66FHOfoxpU,263
+flytekitplugins/perian_job/agent.py,sha256=3-Z2oFQytqY8uFbSo3TSwxvddT_otiK4sFb7weEF86I,9758
+flytekitplugins/perian_job/task.py,sha256=NEXBFERiIygTDu-qdtnwZ-IMki59endQYVTwtckIdvM,5573
+flytekitplugins_perian_job_unofficial-1.13.13.dist-info/METADATA,sha256=XAIc7zykfgmGwgaQqhh5D9JZutxg7eLeAzWDWRpfKtE,1201
+flytekitplugins_perian_job_unofficial-1.13.13.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+flytekitplugins_perian_job_unofficial-1.13.13.dist-info/entry_points.txt,sha256=FO6TNaoMLhsD2LI927eTbcN0DUWgwChoTi6PxRJxM0I,59
+flytekitplugins_perian_job_unofficial-1.13.13.dist-info/namespace_packages.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_perian_job_unofficial-1.13.13.dist-info/top_level.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_perian_job_unofficial-1.13.13.dist-info/RECORD,,
