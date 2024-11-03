@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: chonkie
+Version: 0.0.1a6
+Summary: A simple, efficient text chunking library for RAG applications
+Author-email: Bhavnick Minhas <bhavnicksm@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Bhavnick Minhas
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/bhavnicksm/chonkie
+Keywords: chunking,rag,nlp,text-processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tokenizers>=0.13.0
+Provides-Extra: sentence
+Requires-Dist: spacy>=3.0.0; extra == "sentence"
+Provides-Extra: semantic
+Requires-Dist: sentence-transformers>=2.0.0; extra == "semantic"
+Requires-Dist: numpy>=1.23.0; extra == "semantic"
+Provides-Extra: all
+Requires-Dist: spacy>=3.0.0; extra == "all"
+Requires-Dist: sentence-transformers>=2.0.0; extra == "all"
+Requires-Dist: numpy>=1.23.0; extra == "all"
+Provides-Extra: dev
+Requires-Dist: pytest>=6.2.0; extra == "dev"
+
+![Chonkie Logo](https://github.com/bhavnicksm/chonkie/blob/6b1b1953494d47dda9a19688c842975184ccc986/assets/chonkie_logo_br_transparent_bg.png)
+# 🦛 Chonkie
+
+so i found myself making another RAG bot (for the 2342148th time) and meanwhile, explaining to my juniors about why we should use chunking in our RAG bots, only to realise that i would have to write chunking all over again unless i use the bloated software library X or the extremely feature-less library Y. _WHY CAN I NOT HAVE GOOD THINGS IN LIFE, UGH?_
+
+Can't i just install, import and run chunking and not have to worry about dependencies, bloat, speed or other factors?
+
+Well, with chonkie you can! (chonkie boi is a gud boi)
+
+✅ All the CHONKs you'd ever need </br>
+✅ Easy to use: Install, Import, CHONK </br>
+✅ No bloat, just CHONK </br>
+✅ Cute CHONK mascoot </br>
+✅ Moto Moto's favorite python library </br>
+
+What're you waiting for, **just CHONK it**!
+
+# Table of Contents
+- [🦛 Chonkie](#-chonkie)
+- [Table of Contents](#table-of-contents)
+- [Why do we need Chunking?](#why-do-we-need-chunking)
+- [Quick CHONK!](#quick-chonk)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Citation](#citation)
+
+# Why do we need Chunking?
+
+Here are some arguments for why one would like to chunk their texts for a RAG scenario:
+
+- Most RAG pipelines are bottlenecked by context length as of today. While we expect future LLMs to exceed 1Mill token lenghts, even then, it's not only LLMs inside the pipeline, but other aspects too, namely, bi-encoder retriever, cross-encoder reranker and even models for particular aspects like answer relevancy models and answer attribution models, that could lead to the context length bottleneck.
+- Even with infinite context, there's no free lunch on the context side - the minimum it takes to understand a string is o(n) and we would never be able to make models more efficient on scaling context. So, if we have smaller context, our search and generation pipeline would be more efficient (in response latency)
+- Research suggests that a lot of random, noisy context can actually lead to higher hallucination in the model responses. However, if we ensure that each chunk that get's passed onto the model is only relevant, the model would end up with better responses.
+
+# Quick CHONK!
+
+
+## Installation
+To install chonkie, simply run:
+
+```bash
+pip install chonkie
+```
+
+Chonkie follows the rule to have minimal defualt installs, read the [DOCS](/DOCS.md) to know the installation for your required chunker, or simply install `all` if you don't want to think about it (not recommended).
+
+```bash
+pip install chonkie[all]
+```
+
+## Usage
+
+Here's a basic example to get you started:
+
+```python
+from chonkie import TokenChunker
+
+# Initialize the chunker
+chunker = TokenChunker()
+
+# Chunk some text
+chunks = chunker("Your text here")
+print(chunks)
+```
+
+More example usages given inside the [DOCS](/DOCS.md)
+
+
+# Citation
+
+If you use Chonkie in your research, please cite it as follows:
+
+```
+@misc{chonkie2024,
+  author = {Minhas, Bhavnick},
+  title = {Chonkie: A Lightweight Chunking Library for RAG Bots},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/bhavnick/chonkie}},
+}
+```

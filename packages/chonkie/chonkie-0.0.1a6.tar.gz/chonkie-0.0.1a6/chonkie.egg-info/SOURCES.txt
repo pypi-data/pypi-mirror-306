@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+chonkie/__init__.py
+chonkie.egg-info/PKG-INFO
+chonkie.egg-info/SOURCES.txt
+chonkie.egg-info/dependency_links.txt
+chonkie.egg-info/requires.txt
+chonkie.egg-info/top_level.txt
