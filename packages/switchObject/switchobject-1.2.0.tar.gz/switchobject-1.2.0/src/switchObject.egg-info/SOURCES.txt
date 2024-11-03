@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/switchObject/__init__.py
+src/switchObject.egg-info/PKG-INFO
+src/switchObject.egg-info/SOURCES.txt
+src/switchObject.egg-info/dependency_links.txt
+src/switchObject.egg-info/top_level.txt
