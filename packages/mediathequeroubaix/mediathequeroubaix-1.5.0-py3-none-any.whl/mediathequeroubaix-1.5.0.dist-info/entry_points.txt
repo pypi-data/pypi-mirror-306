@@ -1,0 +1,2 @@
+[console_scripts]
+mediathequeroubaix = mediathequeroubaix.main:app
