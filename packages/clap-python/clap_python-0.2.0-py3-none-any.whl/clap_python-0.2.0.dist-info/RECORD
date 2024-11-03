@@ -1,0 +1,10 @@
+clap_python/__init__.py,sha256=ecPQMJB3-UY0MiM2-pckFKv1keA_y5WgFRaBiZzARZY,32625
+clap_python/style.py,sha256=LmUD6EfCzruALJFK5qMwUg8nwstzu5ORfO9Vzrw2yzs,4713
+clap_python/complete/__init__.py,sha256=m4rb1xD2nz6j6f7xgUg28nFHmTJzELgCrX6YgpEeK3g,9043
+clap_python/complete/__main__.py,sha256=8duMzJjr7WuTyE3LFE3Cw6cFJCtFrsz4_ttly1SN_FM,667
+clap_python/complete/_register_app.py,sha256=fwf5tj7v2O9eO7Bz1-jqGcFqBaBD5HB4IzO6d_NMl9k,2286
+clap_python-0.2.0.dist-info/METADATA,sha256=P9bXVOIBz9f8Fx73UV1SmbKwJ7V2lYLtqOXtHrxsP7o,15431
+clap_python-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+clap_python-0.2.0.dist-info/entry_points.txt,sha256=9oiLavkdAVaLbsetIQ64QPxU5IiEKWykl8KszXqA1wU,93
+clap_python-0.2.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+clap_python-0.2.0.dist-info/RECORD,,
