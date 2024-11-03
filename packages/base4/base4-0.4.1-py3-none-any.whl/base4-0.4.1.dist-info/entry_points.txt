@@ -1,0 +1,2 @@
+[console_scripts]
+base4 = base4.cli:main
