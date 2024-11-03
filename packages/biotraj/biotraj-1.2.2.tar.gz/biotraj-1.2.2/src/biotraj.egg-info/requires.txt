@@ -1,0 +1,10 @@
+numpy>=1.25
+scipy>=1.13
+
+[lint]
+ruff==0.6.1
+
+[test]
+pytest
+psutil
+netcdf4>=1.7.1
