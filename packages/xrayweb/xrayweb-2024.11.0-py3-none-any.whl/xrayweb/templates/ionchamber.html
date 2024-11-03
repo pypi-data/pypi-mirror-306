@@ -1,0 +1,156 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<p><div class=subtitle>X-ray Fluxes from Ion Chambers and PIN Diodes </div></p>
+
+<div class=body>
+
+  {% if errors %}
+  {% for e in range(errors) %}
+  <p>{{message[e]}}</p>
+  {% endfor %}
+  {% endif %}
+
+
+  <form action="{{url_for('ionchamber')}}" method="post">
+
+    <table cellpadding=2 border=0>
+      <tr><td><b>Detector Materials</b></td><td colspan=5><hr></td></tr>
+      <tr>
+	<td> Primary Gas / Material: </td>
+	<td>
+          <select name="mat1" id="mat1" style="width: 80px;">
+            {% for mat in mat1list %}
+            <option value="{{mat}}"  {% if request.form['mat1'] == mat %} selected {% endif %}> {{mat}}</option>
+            {% endfor %}
+          </select>
+	</td>
+
+	<td> Fraction of Primary Gas: </td>
+	<td> <input style="width: 80px;" type="number" id="frac1" name="frac1"
+		    min="0" max="1" step="0.01" value="{{ request.form['frac1'] }}"> </td>
+
+	<td> Secondary Gas: </td>
+	<td>
+          <select name="mat2" id="mat2" style="width: 80px;">
+            {% for mat in mat2list %}
+            <option value="{{mat}}"  {% if request.form['mat2'] == mat %} selected {% endif %}> {{mat}}</option>
+            {% endfor %}
+          </select>
+	</td>
+      </tr>
+      <tr>
+        <td> Length/Thickness (cm): </td>
+	<td> <input style="width: 80px;" type="number" id="thick" name="thick"
+		    min="0" minlength=1 step="any"  value="{{ request.form['thick'] }}">
+	</td>
+	<td> Gas Pressure (atm): </td>
+	<td> <input style="width: 80px;" type="number" id="pressure" name="pressure"
+		    min="0.001"  minlength=1 step="any"  value="{{ request.form['pressure'] }}">
+	</td>
+      </tr>
+
+      <tr><td><b>Current Amplifier</b></td><td colspan=5><hr></td></tr>
+      <tr>
+	<td> Sensitivity: </td>
+	<td>
+          <select style="width: 80px;" name="amp_val" id="amp_val">
+            <option value="1"     {% if request.form['amp_val'] == "1" %} selected {% endif %}>1</option>
+            <option value="2"     {% if request.form['amp_val'] == "2" %} selected {% endif %}>2</option>
+            <option value="5"     {% if request.form['amp_val'] == "5" %} selected {% endif %}>5</option>
+            <option value="10"   {% if request.form['amp_val'] == "10" %} selected {% endif %}>10</option>
+            <option value="20"   {% if request.form['amp_val'] == "20" %} selected {% endif %}>20</option>
+            <option value="50"   {% if request.form['amp_val'] == "50" %} selected {% endif %}>50</option>
+            <option value="100" {% if request.form['amp_val'] == "100" %} selected {% endif %}>100</option>
+            <option value="200" {% if request.form['amp_val'] == "200" %} selected {% endif %}>200</option>
+            <option value="500" {% if request.form['amp_val'] == "500" %} selected {% endif %}>500</option>
+          </select>
+	</td>
+	<td>
+          <select style="width: 80px;" name="amp_units" id="amp_units">
+            <option value="fA/V"    {% if request.form['amp_units'] == "fA/V" %} selected {% endif %}>fA/V</option>
+            <option value="pA/V"   {% if request.form['amp_units'] == "pA/V" %} selected {% endif %}>pA/V</option>
+            <option value="nA/V"   {% if request.form['amp_units'] == "nA/V" %} selected {% endif %}>nA/V</option>
+            <option value="uA/V"   {% if request.form['amp_units'] == "uA/V" %} selected {% endif %}>uA/V</option>
+            <option value="mA/V"  {% if request.form['amp_units'] == "mA/V" %} selected {% endif %}>mA/V</option>
+            <option value="A/V"     {% if request.form['amp_units'] == "A/V" %} selected {% endif %}>A/V</option>
+          </select>
+	</td>
+      </tr>
+
+      <tr><td><b>Measurement</b></td><td colspan=5><hr></td></tr>
+      <tr>
+	 <td> X-ray Energy  (eV): </td>
+	 <td> <input style="width: 80px;" type="number" id="energy" name="energy"
+		     min="0" step="any" value="{{ request.form['energy'] }}"> </td>
+      </tr>
+      <tr>
+	<td> Measured Voltage  (V): </td>
+	<td> <input style="width: 80px;" type="number" id="voltage" name="voltage"
+		    min="0"  step="any"  value="{{ request.form['voltage'] }}"></td>
+      </tr>
+      <tr><td><input type="submit" value="Calculate"></td>
+	<td> <a href="https://xraypy.github.io/XrayDB/examples.html#x-ray-flux-calculations-for-ionization-chambers-and-photodiodes">
+	    documentation </a></td>
+
+	{% if incident_flux %}
+	<td> <a href="{{url_for('fluxscript',
+		      mat1=request.form['mat1'],
+		      mat2=request.form['mat2'],
+		      frac1=request.form['frac1'],
+		      thick=request.form['thick'],
+		      pressure=request.form['pressure'],
+		      energy=request.form['energy'],
+		      voltage=request.form['voltage'],
+		      amp_val=request.form['amp_val'],
+		      amp_units=request.form['amp_units'].replace('/', '_'),
+		      fname='xrayweb_flux.py')}}"> python script </a>
+	  </td>
+	{% endif %}
+      </tr>
+      <tr>
+	<td>
+	</td>
+
+	{% if incident_flux %}
+	<td colspan=4>
+	  <table cellpadding=2 border=0 style='vertical-align: top; '>
+	    <tr style='vertical-align: top; '>
+	      <th > &nbsp; Location &nbsp;</th>
+	      <th > &nbsp; Flux (Hz)  &nbsp;</th>
+	      <th align='right'> &nbsp; % of Incident Flux  &nbsp;</th>
+	    </tr>
+	    <tr class='odd'>
+	      <td> &nbsp; Incident to Detector: </td>
+	      <td> &nbsp;  {{incident_flux}}</td>
+	      <td align='right'> &nbsp;  100.0000 </td>
+	    </tr>
+	    <tr class='even'>
+	      <td> &nbsp; Transmitted through Detector: </td>
+	      <td> &nbsp; {{transmitted_flux}}</td>
+	      <td align='right'> &nbsp; {{transmitted_percent}} </td>
+	    </tr>
+	    <tr class='odd'>
+	      <td> &nbsp; Flux Absorbed by Photo-Electric Effect:  </td>
+	      <td> &nbsp; {{photo_flux}}</td>
+	      <td align='right'> &nbsp; {{photo_percent}} </td>
+	    </tr>
+	    <tr class='odd'>
+	      <td> &nbsp; Flux Attenuated by Incoherent Scattering:  </td>
+	      <td> &nbsp; {{compton_flux}}</td>
+	      <td align='right'> &nbsp; {{compton_percent}} </td>
+	    </tr>
+	    <tr class='even'>
+	      <td> &nbsp; Flux Attenuated by Coherent Scattering:  </td>
+	      <td> &nbsp; {{rayleigh_flux}}</td>
+	      <td align='right'> &nbsp; {{rayleigh_percent}} </td>
+	    </tr>
+	  </table>
+	<td>
+	 {% endif %}
+    </table>
+
+</form>
+
+</div>
+{% endblock %}
