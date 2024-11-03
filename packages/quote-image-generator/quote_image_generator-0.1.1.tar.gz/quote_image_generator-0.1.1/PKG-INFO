@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: quote-image-generator
+Version: 0.1.1
+Summary: Create beautiful, customizable images with quotes, supporting unique font styles and emojis
+Home-page: https://github.com/lordralinc/QIG
+License: MIT
+Keywords: image,generation,PIL
+Author: lordralinc
+Author-email: lordralinc@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pillow (>=11.0.0,<12.0.0)
+Project-URL: Bug Tracker, https://github.com/lordralinc/QIG/issues
+Project-URL: Repository, https://github.com/lordralinc/QIG
+Description-Content-Type: text/markdown
+
+# Quote Image Generator
+
+![PyPI](https://img.shields.io/pypi/v/quote-image-generator)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/quote-image-generator)
+![GitHub](https://img.shields.io/github/license/lordralinc/QIG)
+
+
+**Create beautiful, customizable images with quotes, supporting unique font styles and emojis**
+
+
+# Examples
+
+[![base_quote](pics/base_quote.png)](examples/base_quote.py)
+[![entities_quote](pics/entities_quote.png)](examples/entities_quote.py)
+
+# Usage
+
+## Emoji source
+
+See `quote_image_generator.processors.emoji.ABCEmojiSource`
+
+## Text processor
+
+The `TextProcessor` class is designed for rendering text and entities.
+
+See `quote_image_generator.text.TextProcessor`
+
+## Entities processor
+
+`EntitiesProcessor` is designed to process text entities, transforming them from the `InputEntity` type to DrawEntity with added styling, such as font and color.
+
+# Pipelines
+
+See `quote_image_generator.pipelines.base.BasePipeLine`
+
+
