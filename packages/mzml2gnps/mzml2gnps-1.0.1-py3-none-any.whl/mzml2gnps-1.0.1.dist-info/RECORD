@@ -1,0 +1,11 @@
+mzml2gnps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mzml2gnps/command_line.py,sha256=fI9n_izs1nwsX9-SFTFbXJIl_ebIGHLKBDCk1Z_2XFc,3156
+mzml2gnps/main.py,sha256=vtqROX9YH36DeLo_waE_wcWYelp7KcEG1UX3OdnqNHk,1479
+mzml2gnps/methods.py,sha256=CR2964gwaC-p3fRCfJP2e2yTLo9wTgP4A686RLV8lMM,7611
+mzml2gnps/test.py,sha256=tgTYEliMoBhAPiO257MecWZdAK7d3toDUsh27Mfrn3w,213
+mzml2gnps-1.0.1.dist-info/LICENSE,sha256=ooL9oEQ0ecNgCbDMasVRB6SUazmeJNcWjRz8r7wFuVQ,1085
+mzml2gnps-1.0.1.dist-info/METADATA,sha256=e3jPhcxymWj1Yf7sNchCWZVjkAwCr_XLZSj_GnFERXs,4195
+mzml2gnps-1.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+mzml2gnps-1.0.1.dist-info/entry_points.txt,sha256=rLQLSaOJWsgzLPsq-N_m3jyGlJKFmKHksO46J-md5A8,58
+mzml2gnps-1.0.1.dist-info/top_level.txt,sha256=DR8n7WwEOlfFN0AfcS6_Y2rY-NJ0pnefnpAmp1CVGuQ,10
+mzml2gnps-1.0.1.dist-info/RECORD,,
