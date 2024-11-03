@@ -1,0 +1,4 @@
+[project]
+name = "chz"
+version = "0.1a1"
+requires-python = ">=3.11"
