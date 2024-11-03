@@ -1,0 +1,14 @@
+pypotage/__init__.py,sha256=sLWJz_5ohnmyC6Bbn5ecjfXFWIMEkWOMAIK6pRcU72Y,996
+pypotage/defaultChefs.py,sha256=xRe3VIa6fkBKLBthbDlgFcDTkrblpqmlma_nuoNiYLE,3338
+pypotage/flavours.py,sha256=BTQ0sW8XruOgEqbfBv1YJdngeEVztutztGqt5p098nE,3001
+pypotage/ingredient.py,sha256=7ROX8DDDDmgrkXN-S71JEueVN5BkbHdhGPfhrnp-oac,1904
+pypotage/ingredientProxies.py,sha256=EcWwdK_82sTGclUMEUIh1HEq92KTMXzj95lE04sUqtQ,642
+pypotage/kitchen.py,sha256=2CTexBx1jvo7nb7WK9j8WOIQga3m1DabfClIeoeVoEo,4341
+pypotage/pot.py,sha256=kZNVW0mOS1YTbR0TF2vCRzvZxMM4hQBe7_wg9K1YQU0,893
+pypotage/shared.py,sha256=Py-jvuenow5qpSZqir5kO4vR540U4Ginn2RqyRin1cU,278
+pypotage/utils.py,sha256=Zy9dkfX4cfud5X6fqsAi-epyNzDMYnf9JGUEEikVLg8,3227
+pypotage-1.0.0a0.dist-info/LICENSE,sha256=EqrUBIkKzF80rkvlX2dhJNZFQhFn6xhxUZFFdV0dkwM,1064
+pypotage-1.0.0a0.dist-info/METADATA,sha256=RbEq-xFxy22XKy1e8IuwhonUzxcL38_b3YxSnQWnzn8,2512
+pypotage-1.0.0a0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pypotage-1.0.0a0.dist-info/top_level.txt,sha256=WxUPro6ecVHCz7Zs-MpggDPwDnOLeYPoWIJt3YFo2iY,9
+pypotage-1.0.0a0.dist-info/RECORD,,
