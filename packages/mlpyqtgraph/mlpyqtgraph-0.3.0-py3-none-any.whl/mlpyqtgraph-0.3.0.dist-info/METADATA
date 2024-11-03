@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: mlpyqtgraph
+Version: 0.3.0
+Summary: Matplotlib like plotting with pyqtgraph in python
+Author-email: Sietze van Buuren <s.van.buuren@gmail.com>
+License: Copyright 2022 Sietze van Buuren <s.van.buuren@gmail.com>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of
+        this software and associated documentation files (the "Software"), to deal in
+        the Software without restriction, including without limitation the rights to
+        use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+        the Software, and to permit persons to whom the Software is furnished to do so,
+        subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+        FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+        COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+        IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+        CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/swvanbuuren/mlpyqtgraph
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyqtgraph
+Requires-Dist: pqthreads
+Requires-Dist: pyopengl
+
+# mlpyqtgraph
+
+mlpyqtgraph enables [matplotlib](https://matplotlib.org/)-like plotting with
+[pyqtgraph](https://github.com/pyqtgraph/pyqtgraph) in existing python programs.
+
+## Installation
+
+mlpyqtgraph is a [python package](https://pypi.org/project/mlpyqtgraph/) which
+is available on the [Python Package Index (PyPi)](https://pypi.org/). You can
+install it just like any other python package using `pip`:
+
+``` bash
+pip install mlpyqtgraph
+```
+
+For detailed installation instructions, please refer to [documentation's installation
+page](https://swvanbuuren.github.io/mlpyqtgraph/installation/).
+
+## License
+
+An MIT style license applies for mlpyqtgraph, see the [LICENSE](LICENSE) file for more
+details.
+
+## Examples
+
+Please refer to the [examples](/examples) for a few applications of mlpyqtgraph.
+
+## Documentation
+
+Check out the [documentation](https://swvanbuuren.github.io/mlpyqtgraph/)!
+Please note that it's currently still under construction.
