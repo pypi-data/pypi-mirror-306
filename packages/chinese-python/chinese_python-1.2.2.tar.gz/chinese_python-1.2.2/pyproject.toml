@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend="setuptools.build_meta"
+[project]
+name = "chinese-python"
+version = "1.2.2"
+authors = [
+  { name="Sky Vega Yang", email="xjgis@126.com" },
+]
+description = "A package for myself"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
