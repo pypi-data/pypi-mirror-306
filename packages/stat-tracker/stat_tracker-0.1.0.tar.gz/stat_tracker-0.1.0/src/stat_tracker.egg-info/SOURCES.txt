@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+Makefile
+README.md
+pyproject.toml
+uv.lock
+.vscode/settings.json
+src/stat_tracker/__init__.py
+src/stat_tracker.egg-info/PKG-INFO
+src/stat_tracker.egg-info/SOURCES.txt
+src/stat_tracker.egg-info/dependency_links.txt
+src/stat_tracker.egg-info/top_level.txt
+test/test_main.py

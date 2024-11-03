@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: stat-tracker
+Version: 0.1.0
+Summary: Local metrics and measurements
+Author-email: David Kincaid <daelonsuzuka@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 David Kincaid
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/DaelonSuzuka/stat_tracker
+Project-URL: Repository, https://github.com/DaelonSuzuka/stat_tracker
+Project-URL: Issues, https://github.com/DaelonSuzuka/stat_tracker/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# stat-tracker
+
+`stat-tracker` is a small utility library for short-term record-keeping, such as gathering local metrics inside a function .
+
+## Installation
+
+`pip install stat-tracker`
+
+## Usage
+
+```py
+stats = StatTracker()
+
+with stats.time1:
+    sleep(0.05)
+
+for _ in range(5):
+    stats.value1 += 1
+
+for i in stats.loop1.count(range(10)):
+    pass
+
+for i in stats('loop2').count(range(100)):
+    pass
+
+stats.tags.append('a')
+stats.tags.extend(['b', 'c'])
+
+print(f'time {stats.time1}')  # time 0.05
+print(f'added {stats.value1}')  # added 5
+print(f'counted {stats.loop1}')  # counted 10
+print(f'counted {stats('loop2')}')  # counted 100
+print(f'gathered {stats.tags}')  # gathered ['a', 'b', 'c']
+```

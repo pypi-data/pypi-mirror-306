@@ -1,0 +1,39 @@
+[project]
+name = "stat-tracker"
+version = "0.1.0"
+description = "Local metrics and measurements"
+readme = "README.md"
+authors = [{ name = "David Kincaid", email = "daelonsuzuka@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+requires-python = ">=3.9"
+dependencies = []
+
+
+[project.urls]
+Homepage = "https://github.com/DaelonSuzuka/stat_tracker"
+Repository = "https://github.com/DaelonSuzuka/stat_tracker"
+Issues = "https://github.com/DaelonSuzuka/stat_tracker/issues"
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.uv]
+package = true
+dev-dependencies = ["pytest", "pytest-cov", "twine"]
+
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
