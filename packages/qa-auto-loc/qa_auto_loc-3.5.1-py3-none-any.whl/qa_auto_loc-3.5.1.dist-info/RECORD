@@ -1,0 +1,10 @@
+auto_loc/__init__.py,sha256=bI-8B1uNo9675il0WISBW15TBvw0Im2q1e1d4_sV-uk,145
+auto_loc/inspector.py,sha256=TvgDLA1iq3HpczIXLR-SrHOM18_phi-w4EXBYFgctaM,10240
+auto_loc/locators.py,sha256=WND60YcN6iZfQQW3IPeLCQ7X__klyyoBrgCN5hjh7FU,5680
+auto_loc/run_inspector.py,sha256=L8WoHkXH8Ao8TX5KsOPruWA5Gdrg7FiO1R1rYgA5138,445
+auto_loc/utils.py,sha256=FnQaPYLwkpKb8ltRkH2HqIqdG5fjsyx-z3GdhzYbFBg,827
+qa_auto_loc-3.5.1.dist-info/METADATA,sha256=velpQf2Z41Pt_lX0O9AGA9F45TP3LfTZ17OGUkMjPhs,544
+qa_auto_loc-3.5.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+qa_auto_loc-3.5.1.dist-info/entry_points.txt,sha256=z4rtGXrcUqFA81DV6SeTqJ9sp3gtrdkCtBz4nLovWpo,101
+qa_auto_loc-3.5.1.dist-info/top_level.txt,sha256=PBusgP2zVrXFDHKuxxpIyaT9nGxv822oKYXEQ6IkwXs,9
+qa_auto_loc-3.5.1.dist-info/RECORD,,
