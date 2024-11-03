@@ -1,0 +1,20 @@
+[project]
+name = "eventListen"
+version = "0.0.2"
+authors = [
+  { name="Artic", email="artic.admisoffi@gmail.com" },
+]
+dependencies = [
+  "proto-obj>=0.0.4"
+]
+description = "eventListen is a small module for creating events."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ArticOff/eventListen"
