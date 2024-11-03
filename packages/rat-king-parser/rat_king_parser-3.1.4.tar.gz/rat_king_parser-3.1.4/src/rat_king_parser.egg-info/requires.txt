@@ -1,0 +1,7 @@
+cryptography
+dnfile
+yara-python
+
+[maco]
+maco
+validators
