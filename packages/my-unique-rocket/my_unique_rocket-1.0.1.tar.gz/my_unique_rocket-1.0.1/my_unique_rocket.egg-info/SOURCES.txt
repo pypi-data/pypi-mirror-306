@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+my_unique_rocket/__init__.py
+my_unique_rocket/my_unique_rocket.py
+my_unique_rocket/test_rocket.py
+my_unique_rocket.egg-info/PKG-INFO
+my_unique_rocket.egg-info/SOURCES.txt
+my_unique_rocket.egg-info/dependency_links.txt
+my_unique_rocket.egg-info/top_level.txt
