@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: allied-vision-api
+Version: 0.1.6
+Summary: Allied vision 相机接口封装
+Author: LiuWei
+Author-email: 183074632@qq.com
+Requires-Python: >=3.8,<=3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: opencv-python (>=4.10.0.84,<5.0.0.0)
+Requires-Dist: pymba (>=0.3.7,<0.4.0)
+Requires-Dist: socket-cyg (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# Allied Vision Api
+
