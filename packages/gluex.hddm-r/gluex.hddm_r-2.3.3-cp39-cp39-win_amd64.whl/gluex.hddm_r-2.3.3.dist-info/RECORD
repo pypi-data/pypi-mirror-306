@@ -1,0 +1,12 @@
+gluex/hddm_r.cp39-win_amd64.pyd,sha256=JVXvK6Vbh33jyEX0x61VVtSq9OLKlcr8jRri74tc4M0,4185600
+gluex/hddm_r/hddm_r++.cpp,sha256=-ym_m0KtqC0SX_WseVSqL4xRdbGO4D6YBrizfqSYnw8,393442
+gluex/hddm_r/pyhddm_r.cpp,sha256=ybRLoYMjCvgv8Q7f7-MmWwqYww0GT7I7UkF6sXpP7vo,1063402
+gluex/hddm_r/rest.xml,sha256=Tw7AmgbkGBt8j3lAFUSaTq_uHYjKDeGCywEr0Fk3V-0,11490
+gluex/hddm_r/setup_hddm_r.py,sha256=OEw43epdEyM4WqArCb3KaJ-PzqK3OhICHaOyxgGjc4g,6100
+gluex/hddm_r/sharedlibs.tar.gz,sha256=00J89n4koWgMfnyTuNCzJpUD6Nz9MVuINbPUe0W2OCA,38025060
+gluex/xrootd_client/__init__.py,sha256=lxMquhkHP28Psnx4FUiOgXlpHH56wXoNiY0GNi2WbKQ,1409
+gluex.hddm_r-2.3.3.dist-info/LICENSE,sha256=804GcF4mByx40GNjtiOmEFNATYV1wSfRIANhMH4WEY4,1091
+gluex.hddm_r-2.3.3.dist-info/METADATA,sha256=UkTqZkK3ZZARUxnr5tii96fk-wy14uXk__d73t-BxfU,3056
+gluex.hddm_r-2.3.3.dist-info/WHEEL,sha256=zq3MnTB53_Huh0eFGROKhLNn5cmUbG6gUFCG6-LWXTY,99
+gluex.hddm_r-2.3.3.dist-info/top_level.txt,sha256=1sy7WrgDAbSW3qpacdhWOOk2sU_moRx_P9UXnotF4m8,77
+gluex.hddm_r-2.3.3.dist-info/RECORD,,
