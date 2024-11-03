@@ -1,0 +1,41 @@
+{% set name = "nlpe" %}
+{% set version = "0.0.6" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nlpe-{{ version }}.tar.gz
+  sha256: 6e45e2abb7aa8af4a448ae5d07444368d8726bb7b9849351365d9d8c6fc2c564
+
+build:
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  number: 0
+
+requirements:
+  host:
+    - python >=3.11
+    - hatchling
+    - pip
+  run:
+    - python >=3.11
+    - pytest
+
+test:
+  imports:
+    - nlpe
+  commands:
+    - pip check
+  requires:
+    - pip
+
+about:
+  summary: A Python library for NLP experiments.
+  license: MIT
+  license_file: LICENSE
+
+extra:
+  recipe-maintainers:
+    - '125587612'

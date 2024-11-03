@@ -1,0 +1,72 @@
+Metadata-Version: 2.3
+Name: nlpe
+Version: 0.0.6
+Summary: A Python library for NLP experiments.
+Author-email: 徐 勝 <gocodedoc@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 SHENG XU
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: pytest
+Description-Content-Type: text/markdown
+
+# NLPE
+**N**ural **L**anguage **P**rocess **E**xperiments (NLPE) is a python package supporting you setup NLP experiments fastly.
+
+Its mission is tio reduce the duplicate labors when we set up and NLP models or framework in current popular deep learning framework or methodology.
+
+## Installation
+
+### Install with Pip
+```
+pip install nlpe
+```
+### Install with Conda
+```
+conda install codedoc::nlpe
+```
+### Install with Docker
+```
+docker run -it codedocx/nlpe
+```
+### Install with Source
+```
+git clone https://github.com/codesedoc/nlpe.git
+cd nlpe
+pip install -e .
+```
+
+## Experiment
+There are examples of conducting expeirments by using nlpe at **experiment** dir.
+The **experiment/semantic_similarity** is an example to calculate semantic similarity of two texts by fine-tuned the uncased [BERT](https://huggingface.co/google-bert/bert-base-uncased) on [STSB](https://huggingface.co/datasets/nyu-mll/glue) dataset.
+```
+cd experiment/semantic_similarity
+pip install -r requrements.txt
+python main.py -t sematic_similarity -d glue -a bert --eval_strategy epoch --output_dir tmp_trainer
+```
+> **Version: 0.0.6**
+> 
+> **E-mail: gocodedoc@gmail.com** 
+> 

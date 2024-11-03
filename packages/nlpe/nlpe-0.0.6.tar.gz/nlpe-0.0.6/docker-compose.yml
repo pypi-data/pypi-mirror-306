@@ -1,0 +1,46 @@
+name: nple
+services:
+  env:
+    container_name: "env"
+    build:
+      context: "."
+      tags:
+        - "${DOCKER_REPOSITORY}:${VERSION}"
+        - "${DOCKER_REPOSITORY}:latest"
+      platforms:
+        - "linux/amd64"
+      args:
+        - PYTHON_VERSION=${PYTHON_VERSION}
+    working_dir: $WORK_DIR
+    image: "${DOCKER_REPOSITORY}:${VERSION}"
+    pull_policy: build
+    volumes:
+       - type: volume
+         source: cache
+         target: $CACHE_PATH
+
+    command: echo "Welcome to NLPE"
+    env_file:
+        - .env
+
+  test:
+    depends_on:
+      env:
+        condition: service_completed_successfully
+    command: pytest test
+    image: "${DOCKER_REPOSITORY}:${VERSION}"
+    env_file:
+      - .env
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+
+    tty: true
+    stdin_open: true
+    
+volumes:
+  cache:

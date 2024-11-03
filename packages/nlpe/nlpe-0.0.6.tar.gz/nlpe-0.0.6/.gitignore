@@ -1,0 +1,11 @@
+/**/.idea
+/**/.venv*
+/**/.cache
+/**/.pytest_cache
+/**/.DS_Store
+/**/__pycache__/
+/**/tmp*
+/tmp
+/**/log
+/dist
+/release.sh
