@@ -1,0 +1,41 @@
+=========================================================================== short test summary info ============================================================================
+FAILED test/json_test.py::test_json_strip_prefix[ApiType.MOCK]
+FAILED test/no_running_jobs_test.py::test_no_running_jobs[ApiType.MOCK]
+FAILED test/kill_test.py::test_kill_current[ApiType.JENKINS]
+FAILED test/missing_jobs_test.py::test_missing_jobs_allowed_created_serial_parallel[ApiType.JENKINS]
+FAILED test/json_test.py::test_json_no_strip_prefix[ApiType.MOCK]
+FAILED test/multiple_invocations_test.py::test_multiple_invocations_parallel_same_flow_no_args_singlequeued[ApiType.JENKINS]
+FAILED test/json_test.py::test_json_unchecked_only_in_flows[ApiType.MOCK]
+======================================================= 7 failed, 448 passed, 76 skipped, 6 xfailed in 473.92s (0:07:53) =======================================================
+nox > Command pytest --capture=sys --cov --cov-report=term-missing --cov-fail-under=93.9 --cov-config=/home/lhn/src/jenkinsflow/test/.coveragerc --forked -n 16 --capture=sys --instafail -p no:warnings --failed-first failed with exit code 1
+nox > Session unit-3.12 failed.
+
+=========================================================================== short test summary info ============================================================================
+FAILED test/json_test.py::test_json_strip_prefix[ApiType.MOCK]
+FAILED test/json_test.py::test_json_no_strip_prefix[ApiType.MOCK]
+FAILED test/kill_test.py::test_kill_current[ApiType.JENKINS]
+FAILED test/kill_test.py::test_kill_all_unchecked[ApiType.MOCK]
+FAILED test/multiple_invocations_test.py::test_multiple_invocations_parallel_same_flow_no_args_singlequeued[ApiType.JENKINS]
+======================================================= 5 failed, 450 passed, 76 skipped, 6 xfailed in 437.89s (0:07:17) =======================================================
+nox > Command pytest --capture=sys --cov --cov-report=term-missing --cov-fail-under=93.9 --cov-config=/home/lhn/src/jenkinsflow/test/.coveragerc --forked -n 16 --capture=sys --instafail -p no:warnings --failed-first failed with exit code 1
+nox > Session unit-3.11 failed.
+
+
+=========================================================================== short test summary info ============================================================================
+FAILED test/json_test.py::test_json_strip_prefix[ApiType.MOCK]
+FAILED test/json_test.py::test_json_no_strip_prefix[ApiType.MOCK]
+FAILED test/kill_test.py::test_kill_current[ApiType.JENKINS]
+FAILED test/reporting_test.py::test_reporting_job_status[ApiType.MOCK]
+======================================================= 4 failed, 451 passed, 76 skipped, 6 xfailed in 409.46s (0:06:49) =======================================================
+nox > Command pytest --capture=sys --cov --cov-report=term-missing --cov-fail-under=93.9 --cov-config=/home/lhn/src/jenkinsflow/test/.coveragerc --forked -n 16 --capture=sys --instafail -p no:warnings --failed-first failed with exit code 1
+nox > Session unit-3.10 failed.
+
+
+=========================================================================== short test summary info ============================================================================
+FAILED test/json_test.py::test_json_strip_prefix[ApiType.MOCK]
+FAILED test/json_test.py::test_json_no_strip_prefix[ApiType.MOCK]
+FAILED test/kill_test.py::test_kill_current[ApiType.JENKINS]
+FAILED test/reporting_test.py::test_reporting_result_unchecked[ApiType.MOCK]
+======================================================= 4 failed, 451 passed, 76 skipped, 6 xfailed in 365.04s (0:06:05) =======================================================
+nox > Command pytest --capture=sys --cov --cov-report=term-missing --cov-fail-under=93.9 --cov-config=/home/lhn/src/jenkinsflow/test/.coveragerc --forked -n 16 --capture=sys --instafail -p no:warnings --failed-first failed with exit code 1
+nox > Session unit-3.9 failed.
