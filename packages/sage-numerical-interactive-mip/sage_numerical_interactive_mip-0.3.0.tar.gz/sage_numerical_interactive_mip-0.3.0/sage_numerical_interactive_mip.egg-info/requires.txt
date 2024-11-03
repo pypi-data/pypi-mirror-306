@@ -1,0 +1,10 @@
+passagemath-polyhedra
+passagemath-plot
+passagemath-repl
+passagemath-flint
+
+[coin]
+passagemath-polyhedra[coin]
+
+[docs]
+sphinx

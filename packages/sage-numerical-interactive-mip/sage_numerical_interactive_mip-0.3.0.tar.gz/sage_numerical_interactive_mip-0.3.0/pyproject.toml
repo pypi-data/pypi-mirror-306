@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sage_numerical_interactive_mip"
+version = "0.3.0"
+description = "Interactive mixed integer linear programming solver"
+license = {text = "GNU General Public License (GPL) v2 or later"}
+authors = [
+    {name = "Peijun Xiao"},
+    {name = "Zeyi Wang"},
+    {name = "Yuan Zhou"},
+    {name = "Matthias Koeppe", email = "mkoeppe@math.ucdavis.edu"},
+]
+keywords = [
+    "milp",
+    "linear-programming",
+    "optimization",
+]
+dependencies = [
+    "passagemath-polyhedra",
+    "passagemath-plot",
+    "passagemath-repl",
+    "passagemath-flint",
+]
+
+[project.optional-dependencies]
+coin = [
+    "passagemath-polyhedra[coin]",
+]
+
+docs = [
+    "sphinx",
+]
+
+[project.readme]
+file = "README.rst"
+content-type = "text/x-rst"
+
+[project.urls]
+Homepage = "https://github.com/passagemath/sage-numerical-interactive-mip"
+
+[tool.setuptools]
+packages = [
+    "sage_numerical_interactive_mip",
+    "sage_numerical_interactive_mip._vendor",
+    "sage_numerical_interactive_mip.backends",
+]
+include-package-data = false
