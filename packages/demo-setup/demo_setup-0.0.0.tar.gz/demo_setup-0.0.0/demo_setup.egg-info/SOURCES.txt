@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+use.py
+demo_package/__init__.py
+demo_package/demo_module.py
+demo_setup.egg-info/PKG-INFO
+demo_setup.egg-info/SOURCES.txt
+demo_setup.egg-info/dependency_links.txt
+demo_setup.egg-info/top_level.txt
