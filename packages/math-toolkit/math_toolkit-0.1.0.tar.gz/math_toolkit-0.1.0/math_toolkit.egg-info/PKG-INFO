@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: math_toolkit
+Version: 0.1.0
+Summary: A simple math toolkit package
+Home-page: https://github.com/prachikabra121/mathToolkit
+Author: Prachi Kabra
+Author-email: kabraprachi9@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Math Toolkit
+
+A simple math toolkit for basic operations.
+
+## Installation
+
+To install the package, use:
+
+```bash
+pip install math_toolkit
+from math_toolkit.operations import add, subtract, multiply, divide
+
+print(add(10, 5))        # Output: 15
+print(subtract(10, 5))   # Output: 5
+print(multiply(10, 5))   # Output: 50
+print(divide(10, 5))     # Output: 2.0
