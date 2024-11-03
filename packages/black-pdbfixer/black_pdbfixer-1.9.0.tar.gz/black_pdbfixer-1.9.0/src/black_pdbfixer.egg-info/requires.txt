@@ -1,0 +1,2 @@
+numpy<2
+openmm>=7.1

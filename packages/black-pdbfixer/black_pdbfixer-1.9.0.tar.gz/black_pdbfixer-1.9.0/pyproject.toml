@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "black-pdbfixer"
+version = "1.9.0"
+authors = [
+  { name="Peter Eastman"},
+  { name="Julian M. Kleber", email="julian.m.kleber@gmail.com" }
+]
+description = "Fork of pdbfixer (https://github.com/openmm/pdbfixer) to be able to pip install it."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy<2", 
+    "openmm >= 7.1"
+]
+[project.urls]
+"Homepage" = "https://www.codeberg.org/cap_jmk/pdfixer.git"
+"Bug Tracker" = "https://www.codeberg.org/cap_jmk/pdbfixer.git/issues"
+
