@@ -1,0 +1,121 @@
+# rexeloft_llc [Beta]
+
+**rexeloft_llc is a Python library developed by Rexeloft LLC for interacting with Intelix, a chatbot capable of answering various questions. This package includes basic functionality for querying the chatbot and getting relevant responses.**
+
+# Features
+
+- Lightweight and easy-to-use chatbot library
+
+- Supports questions on various topics
+
+- Can talk in almost every language
+
+- Built-in natural language processing tool:
+
+*Emotion detection*
+
+*conversation history*
+
+- Totally free to use!
+
+
+# Installation
+
+To install this library, use pip:
+
+```
+pip install rexeloft_llc
+```
+
+# Usage
+
+After installation, you can easily use the library to get responses from the chatbot.
+
+# Basic chatbot example
+
+```
+from rexeloft_llc import intelix
+
+response = intelix.chatbot_response("What is capital of India?")
+print(response)
+```
+
+- Example Output
+
+```
+The capital of India is New Delhi.
+```
+
+# Emotion detection Example 
+
+```
+from rexeloft_llc import intelix
+
+def main():
+    print("Welcome to the chatbot!")
+    user_input = "I am so excited about tomorrow's trip!"
+    
+    emotion = intelix.detect_emotion(user_input)
+    emotion_response = intelix.respond_based_on_emotion(emotion)
+    
+    print(f"Emotion detected: {emotion}")
+    print(f"Bot (Emotion response): {emotion_response}")
+
+if __name__ == "__main__":
+    main()
+```
+
+- Example output
+  
+```
+Emotion detected: happy
+Bot: That's awesome!
+```
+
+# Conversation history example
+
+```
+from rexeloft_llc import intelix
+
+def main():
+    print("Welcome to the Rexeloft Chatbot!")
+    while True:
+        user_input = input("You: ")
+        if user_input.lower() == 'exit':
+            print("Exiting the conversation. Goodbye!")
+            break
+        elif user_input.lower() == 'history':
+            print("\nConversation History:")
+            if intelix.conversation_history:
+                print("\n".join(intelix.conversation_history))
+            else:
+                print("No conversation history yet.")
+            continue
+
+        response = intelix.chatbot_response(user_input)
+        print(f"Bot: {response}")
+
+if __name__ == "__main__":
+    main()
+```
+
+- Example output
+  
+```
+user: What is 7 + 10?
+bot: addition of 7 and 10 = 17
+user: okay so add 5 in it
+bot: its 22
+```
+
+**About us**
+
+rexeloft_llc is developed by Rexeloft LLC. For feedback, feature requests, or bug reports, please contact us at **https://discord.gg/pnzqVAbtRp**
+
+# Things to be NOTED
+
+- This is beta version of chatbot so it might have bugs
+- You need to give us proper credits before using/modifying it. (For more info read license)
+- **You cannot modify it for illegal uses!**
+
+Thank you :)

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+rexeloft_llc/__init__.py
+rexeloft_llc.egg-info/PKG-INFO
+rexeloft_llc.egg-info/SOURCES.txt
+rexeloft_llc.egg-info/dependency_links.txt
+rexeloft_llc.egg-info/entry_points.txt
+rexeloft_llc.egg-info/requires.txt
+rexeloft_llc.egg-info/top_level.txt
+rexeloft_llc/intelix/__init__.py
+rexeloft_llc/intelix/chatbot.py

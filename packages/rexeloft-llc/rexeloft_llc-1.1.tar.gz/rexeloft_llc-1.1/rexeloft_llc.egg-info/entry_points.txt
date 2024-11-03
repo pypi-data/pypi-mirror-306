@@ -1,0 +1,2 @@
+[console_scripts]
+intelix-chat = rexeloft_llc.main:main
