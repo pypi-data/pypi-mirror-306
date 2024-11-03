@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: marfyl-metadata-service
+Version: 0.2.0
+Summary: A service to process metadata from headers
+Author: Eduardo Ponce
+Author-email: poncejones@gmail.com
+Requires-Python: >=3.9
