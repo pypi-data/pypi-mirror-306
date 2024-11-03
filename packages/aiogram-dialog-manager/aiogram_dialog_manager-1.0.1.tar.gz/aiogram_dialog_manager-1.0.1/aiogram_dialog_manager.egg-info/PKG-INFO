@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aiogram-dialog-manager
+Version: 1.0.1
+Summary: Dialog manager for aiogram.
+Home-page: https://github.com/RomanKuschanow
+Author: kuschanow
+Author-email: kuschanow@gmail.com
+Project-URL: GitHub, https://github.com/RomanKuschanow/aiogram_dialog_manager
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Dialog manager for aiogram
