@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "esch"
+version = "0.2.5"
+description = "esch (v.) : to turn matricies into high quality svg (animations)"
+authors = ["Noah Syrkis <noah@syrkis.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+svgwrite = "^1.4.3"
+tqdm = "^4.66.5"
+numpy = "^2.1.2"
+ipython = "^8.29.0"
+cairosvg = "^2.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+[tool.ruff]
+line-length = 120
