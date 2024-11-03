@@ -1,0 +1,8 @@
+pdfsc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdfsc/cli.py,sha256=eJ2FpEYAn5GahVIBnVZOxIDBh0I9m8veDifKN7U_Jko,1560
+pdfsc/code_to_pdf.py,sha256=qFYF3cSDK3HRZNr6S58VLETrIwTWbb0B8gG4ThmPndA,8616
+pdfsc-2.0.8.dist-info/METADATA,sha256=E9AUcWg0ypY7JMbM75bbcGlfh_qLmDfMjEs4qbsWS1s,12250
+pdfsc-2.0.8.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pdfsc-2.0.8.dist-info/entry_points.txt,sha256=KV1bpn_QqlR-345Fq1lqF7BNmktDyeSnYPDx08FOpYM,41
+pdfsc-2.0.8.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pdfsc-2.0.8.dist-info/RECORD,,
