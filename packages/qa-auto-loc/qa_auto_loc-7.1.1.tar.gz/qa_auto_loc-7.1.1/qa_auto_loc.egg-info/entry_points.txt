@@ -1,0 +1,5 @@
+[console_scripts]
+run-inspector = auto_loc.run_inspector:main
+
+[pytest11]
+auto_loc = auto_loc.plugin
