@@ -1,0 +1,7 @@
+tsimporter-0.1.1.dist-info/METADATA,sha256=Mq43GnFFlUl7EnI70g9qteVxfbf1UJtUmtZOsgbtDwM,1509
+tsimporter-0.1.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+tsimporter-0.1.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+tsimporter/__init__.py,sha256=uAfosUV8MoBlVLYNGXVryn_jMRWCfEzvoPALqW2Za8I,101
+tsimporter/importer.py,sha256=hYql7WnoLWPaCUMZsN0g5N3TWXX5Q-IgaBkNRq6I0Sc,4976
+tsimporter/logging_config.py,sha256=v2XKe1cYJUVQfdefSwIQP5hYn3LUkL8m5-Kreb1zIro,634
+tsimporter-0.1.1.dist-info/RECORD,,
