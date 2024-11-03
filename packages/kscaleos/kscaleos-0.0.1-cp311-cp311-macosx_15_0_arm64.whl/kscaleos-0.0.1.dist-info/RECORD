@@ -1,0 +1,8 @@
+kscaleos/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+kscaleos/bindings.cpython-311-darwin.so,sha256=dY0WSFnXgJs1xXqPtyfR12kqBYVXEVN5irZwPNGigTM,431856
+kscaleos/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kscaleos-0.0.1.dist-info/LICENSE,sha256=HCN2bImAzUOXldAZZI7JZ9PYq6OwMlDAP_PpX1HnuN0,1071
+kscaleos-0.0.1.dist-info/METADATA,sha256=RqRGmY0cnY4GJJbC36PAsUWvU2YzHxIb_LJUOyBTv2U,512
+kscaleos-0.0.1.dist-info/WHEEL,sha256=EzMNAL3E3o-SnLAYMTM_3Y6tztzXBehUB9jfU2WRpnI,109
+kscaleos-0.0.1.dist-info/top_level.txt,sha256=Jaq6j9wurhLmHt0cTYZjrDlAoML_7K6wyMkHgGAsSsk,9
+kscaleos-0.0.1.dist-info/RECORD,,
