@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: flowplot
+Version: 0.0.5
+Summary: Flow-related diagrammes
+Author: Mikhail Smilovic
+Author-email: <smilovic@mail.com>
+Keywords: python,hydrological modeling
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Flow-related diagrammes, cycles, and assessment tools
