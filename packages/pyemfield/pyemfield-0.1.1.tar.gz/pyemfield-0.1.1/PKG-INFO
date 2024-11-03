@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyemfield
+Version: 0.1.1
+Summary: A Python library for antenna radiation pattern analysis and gain optimization
+Home-page: https://github.com/linmingchih/pyemf
+Author: Lin, Ming Chih
+Author-email: mingchih.lin8@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyemfield
+ pyemfield is a Python library designed for antenna radiation pattern analysis and gain optimization. It leverages SciPy, NumPy, Matplotlib, and ANSYS HFSS (through pyaedt) to automate high-frequency structure simulations, process electromagnetic data, and visualize results.
