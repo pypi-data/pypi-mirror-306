@@ -1,0 +1,4 @@
+Good afternoon dear user, we are pleased to present to you our library for building multi-agent kripke frames of CTLK logic in the form of n-ary trees, this library builds trees based on the NetworkX library, and builds tables based on the Openpyxl library. The library contains several basic functions that are aimed at building a cone tree, displaying its levels and branches, as well as saving them to jpg files.
+
+
+Добрый день уважаемый пользователь, мы рады представить вам свою библиотеку для построения многоагентных фреймов крипке логики CTLK в виде n-арных деревьев, данная библиотека строит деревья на основе библиотеки NetworkX, а таблицы строит на основе библиотеки Openpyxl. В библиотеки присутствуют несколько основных функций, которые направлены на построение конус дерева, вывод его уровней и веткок, а так же сохранения их в jpg файлы.
