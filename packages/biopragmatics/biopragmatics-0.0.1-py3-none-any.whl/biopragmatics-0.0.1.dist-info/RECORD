@@ -1,0 +1,12 @@
+biopragmatics/__init__.py,sha256=hcACj5PA4_QmfAaVKvEjibnJieO0xWE-rEQYkTeqBOw,162
+biopragmatics/__main__.py,sha256=p98enKrdEfYmzEZpWKnTOpVg-BQCsProd6ok-5Ixta0,305
+biopragmatics/api.py,sha256=-VArpa_VnZp1zlRSQQGB-GCJwZlMdztoG_e5jLJK_28,935
+biopragmatics/cli.py,sha256=DT3j4K4wwN0SkKqBjcMTXDPVKnPFDRYnfd9G1KQIR78,1114
+biopragmatics/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+biopragmatics/version.py,sha256=rz7A8r9i719qJA5BpHZfF_Sc9Q3KO2n8_joNz2iVWnI,1010
+biopragmatics-0.0.1.dist-info/LICENSE,sha256=QcgJZKGxlW5BwBNnCBL8VZLVtRvXs81Ch9lJRQSIpJg,1076
+biopragmatics-0.0.1.dist-info/METADATA,sha256=SXjg6MInXI3gF5J6A-5jMzLiyB82tg0uwNpvbIT-wnc,14064
+biopragmatics-0.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+biopragmatics-0.0.1.dist-info/entry_points.txt,sha256=1gClx8ioXtFGm43ZtRg3J0K9aqs9iY3A57GsqN8cEsM,57
+biopragmatics-0.0.1.dist-info/top_level.txt,sha256=fi367jg5az7X5LCQ-Nwwg-aqJoPEQm9Ri--J8DoEx1s,14
+biopragmatics-0.0.1.dist-info/RECORD,,
