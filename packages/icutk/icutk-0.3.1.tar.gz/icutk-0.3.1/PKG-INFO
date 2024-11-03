@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: icutk
+Version: 0.3.1
+Summary: Integrated Circuit Utilities (kit)
+Home-page: https://github.com/yeungchie/icutk
+Author: YEUNGCHIE
+Keywords: icutk,ic,utils,kit,linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ply>=3.11
+
+# <font style="color:red">I</font>ntegrated <span style="color:red">C</span>ircuit <span style="color:red">Ut</span>ilities (<span style="color:red">k</span>it)
