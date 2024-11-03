@@ -1,0 +1,17 @@
+LICENSE
+pyproject.toml
+setup.py
+test/test_parser.py
+test/test_texweaver.py
+texweaver/__init__.py
+texweaver/default.yaml
+texweaver/entrypoint.py
+texweaver/markdown.py
+texweaver/tex_config.py
+texweaver/tex_parser.py
+texweaver.egg-info/PKG-INFO
+texweaver.egg-info/SOURCES.txt
+texweaver.egg-info/dependency_links.txt
+texweaver.egg-info/entry_points.txt
+texweaver.egg-info/requires.txt
+texweaver.egg-info/top_level.txt
