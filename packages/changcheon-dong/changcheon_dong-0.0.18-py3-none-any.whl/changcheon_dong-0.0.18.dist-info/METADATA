@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: changcheon-dong
+Version: 0.0.18
+Summary: 
+Home-page: https://libertai.io
+Author: LibertAI.io team
+Author-email: hello@libertai.io
+Requires-Python: >=3.11,<3.12
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: aiohttp (>=3.10,<4.0)
+Requires-Dist: fastapi (>=0.112,<0.113)
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: pydantic (>=1.10,<2.0)
+Requires-Dist: transformers (>=4.46.0,<5.0.0)
+Project-URL: Documentation, https://docs.libertai.io
+Project-URL: Repository, https://github.com/LibertAI/libertai-agents
+Description-Content-Type: text/markdown
+
+# LibertAI Agents
+
+## Supported models
+
+We support multiple open-source models that have agentic capabilities.
+
+- [Hermes 2 Pro - Llama 3 8B](https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B)
+- ⏳ [Hermes 3 - Llama-3.1 8B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B)
+- ⏳ [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407)
+
+## Using a gated model
+
+Some models, like [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) are gated (
+generally to require you to accept some usage conditions).\
+To use those models, you need to create an [access token](https://huggingface.co/settings/tokens) from your Hugging Face
+account and give it to the `get_model` function.
