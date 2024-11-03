@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/macbookcustom/__init__.py
+src/macbookcustom/__main__.py
+src/macbookcustom.egg-info/PKG-INFO
+src/macbookcustom.egg-info/SOURCES.txt
+src/macbookcustom.egg-info/dependency_links.txt
+src/macbookcustom.egg-info/top_level.txt
+src/macbookcustom/tests/__init__.py
+src/macbookcustom/tests/test_1984.py
