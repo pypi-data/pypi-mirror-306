@@ -1,0 +1,3 @@
+[console_scripts]
+DataRefine = DataRefine.scripts.run_app:main
+
