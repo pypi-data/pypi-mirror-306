@@ -1,0 +1,331 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "El dispositivo ya est\u00e1 configurado",
+            "already_in_progress": "El flujo de configuraci\u00f3n ya est\u00e1 en curso"
+        },
+        "error": {
+            "token_unauthorized": "El token no es v\u00e1lido o no est\u00e1 autorizado."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "access_token": "Token de acceso personal",
+                    "country": "Pa\u00eds"
+                },
+                "description": "Por favor, introduce un ThinQ [PAT(Personal Access Token)]({pat_url}) creado con tu cuenta LG ThinQ.",
+                "title": "Conectar con ThinQ"
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "clean_light_reminder": {
+                "name": "Indicador luminoso de limpieza"
+            },
+            "eco_friendly_mode": {
+                "name": "Respetuoso con el medio ambiente"
+            },
+            "machine_clean_reminder": {
+                "name": "Recordatorio de limpieza de la m\u00e1quina"
+            },
+            "one_touch_filter": {
+                "name": "Filtro de aire fresco"
+            },
+            "operation_mode": {
+                "name": "Energ\u00eda"
+            },
+            "power_save_enabled": {
+                "name": "Modo de ahorro de energ\u00eda"
+            },
+            "remote_control_enabled": {
+                "name": "Inicio remoto"
+            },
+            "remote_control_enabled_for_location": {
+                "name": "Inicio remoto de {location}"
+            },
+            "rinse_refill": {
+                "name": "Es necesario rellenar el enjuague"
+            },
+            "sabbath_mode": {
+                "name": "Sabbath"
+            },
+            "signal_level": {
+                "name": "Sonido del timbre"
+            }
+        },
+        "event": {
+            "error": {
+                "state_attributes": {
+                    "event_type": {
+                        "state": {
+                            "turbidity_sensor_error": "Error del sensor de turbidez"
+                        }
+                    }
+                }
+            }
+        },
+        "number": {
+            "target_humidity": {
+                "name": "Humedad deseada"
+            }
+        },
+        "sensor": {
+            "current_state": {
+                "state": {
+                    "pause": "En pausa",
+                    "paused": "En pausa",
+                    "power_fail": "Fallo de alimentaci\u00f3n",
+                    "power_off": "Apagado",
+                    "power_on": "Encendido",
+                    "preference": "Ajuste",
+                    "preheat": "Precalentamiento",
+                    "preheating": "Precalentamiento",
+                    "prepareing_fermentation": "Prepar\u00e1ndose ahora",
+                    "presteam": "Listo para cocinar al vapor",
+                    "soaking": "Remojo",
+                    "softening": "Suavizante",
+                    "spinning": "Girando",
+                    "standby": "En espera",
+                    "stay": "Actualizar",
+                    "steam": "Actualizar",
+                    "steam_softening": "Ablandamiento por vapor",
+                    "sterilize": "Esterilizar",
+                    "temperature_stabilization": "Ajuste de la temperatura",
+                    "wrinkle_care": "Cuidado de las arrugas"
+                }
+            },
+            "current_state_for_location": {
+                "name": "estado actual en {location}",
+                "state": {
+                    "initial": "En espera",
+                    "soaking": "Remojo",
+                    "softening": "Suavizante",
+                    "spinning": "Girando",
+                    "standby": "En espera",
+                    "stay": "Actualizar",
+                    "steam": "Actualizar",
+                    "steam_softening": "Ablandamiento por vapor",
+                    "sterilize": "Esterilizar",
+                    "temperature_stabilization": "Ajuste de la temperatura",
+                    "wrinkle_care": "Cuidado de las arrugas"
+                }
+            },
+            "current_temperature": {
+                "name": "Temperatura actual"
+            },
+            "day_target_temperature": {
+                "name": "Temperatura de crecimiento diurno"
+            },
+            "day_target_temperature_for_location": {
+                "name": "temperatura de crecimiento diurno en {location}"
+            },
+            "duration": {
+                "name": "Duraci\u00f3n de la iluminaci\u00f3n"
+            },
+            "duration_for_location": {
+                "name": "duraci\u00f3n de la iluminaci\u00f3n en {location}"
+            },
+            "elapsed_day_state": {
+                "name": "Per\u00edodo de elaboraci\u00f3n"
+            },
+            "elapsed_day_total": {
+                "name": "Duraci\u00f3n de la elaboraci\u00f3n"
+            },
+            "filter_lifetime": {
+                "name": "Filtro restante"
+            },
+            "flavor_info": {
+                "name": "Sabor"
+            },
+            "fresh_air_filter": {
+                "name": "Filtro de aire fresco",
+                "state": {
+                    "auto": "Auto",
+                    "off": "Apagado",
+                    "replace": "Sustituir el filtro",
+                    "smart_off": "Apagado"
+                }
+            },
+            "growth_mode": {
+                "state": {
+                    "standard": "Auto"
+                }
+            },
+            "growth_mode_for_location": {
+                "name": "modo en {location}",
+                "state": {
+                    "standard": "Auto"
+                }
+            },
+            "odor_level": {
+                "name": "Olor",
+                "state": {
+                    "invalid": "No v\u00e1lido",
+                    "normal": "Normal",
+                    "strong": "Fuerte",
+                    "very_strong": "Muy fuerte",
+                    "weak": "D\u00e9bil"
+                }
+            },
+            "personalization_mode": {
+                "name": "Modo personal",
+                "state": {
+                    "auto_outside": "Modo de enclavamiento",
+                    "baby": "Modo de cuidado del beb\u00e9",
+                    "cooking": "Modo de cocci\u00f3n",
+                    "exercise": "Modo de ejercicio",
+                    "others": "Otros",
+                    "pet": "Modo mascota",
+                    "sick_house": "Nuevo modo Casa",
+                    "sleep": "Modo de reposo",
+                    "smoke": "Modo humo"
+                }
+            },
+            "power_level": {
+                "name": "Nivel de potencia"
+            },
+            "power_level_for_location": {
+                "name": "nivel de potencia en {location}"
+            },
+            "recipe_name": {
+                "name": "Receta de cerveza casera",
+                "state": {
+                    "ipa": "IPA",
+                    "my_recipe": "Mi receta",
+                    "pale_ale": "Cerveza p\u00e1lida",
+                    "pilsner": "Cerveza pilsner",
+                    "red_ale": "Cerveza roja",
+                    "stout": "Cerveza negra",
+                    "wheat": "Trigo"
+                }
+            },
+            "remain": {
+                "name": "Tiempo restante"
+            },
+            "remain_for_location": {
+                "name": "tiempo restante en {location}"
+            },
+            "rinse_level": {
+                "name": "Nivel del dispensador de abrillantador",
+                "state": {
+                    "rinselevel_0": "0",
+                    "rinselevel_1": "1",
+                    "rinselevel_2": "2",
+                    "rinselevel_3": "3",
+                    "rinselevel_4": "4"
+                }
+            },
+            "running": {
+                "name": "Tiempo de funcionamiento"
+            },
+            "running_for_location": {
+                "name": "tiempo de funcionamiento en {location}"
+            },
+            "softening_level": {
+                "name": "Nivel de ablandamiento",
+                "state": {
+                    "softeninglevel_1": "1",
+                    "softeninglevel_2": "2",
+                    "softeninglevel_3": "3",
+                    "softeninglevel_4": "4"
+                }
+            },
+            "sterilizing_state": {
+                "name": "Esterilizaci\u00f3n a alta temperatura",
+                "state": {
+                    "off": "Apagado",
+                    "on": "Esterilizaci\u00f3n"
+                }
+            },
+            "target": {
+                "name": "Tiempo de cocci\u00f3n"
+            },
+            "target_for_location": {
+                "name": "tiempo de cocci\u00f3n en {location}"
+            },
+            "target_temperature": {
+                "name": "Temperatura",
+                "state": {
+                    "freezer": "Congelador",
+                    "fridge": "Frigor\u00edfico",
+                    "kimchi": "Kimchi",
+                    "meat_fish": "Carne/Pescado",
+                    "off": "Apagado",
+                    "rice_grain": "Arroz/Cereales",
+                    "storage": "Almacenamiento",
+                    "temperature_number": "N\u00famero",
+                    "vegetable_fruit": "Verdura/Fruta"
+                }
+            },
+            "target_temperature_for_location": {
+                "state": {
+                    "freezer": "Congelador",
+                    "fridge": "Frigor\u00edfico",
+                    "kimchi": "Kimchi",
+                    "meat_fish": "Carne/Pescado",
+                    "off": "Apagado",
+                    "rice_grain": "Arroz/Cereales",
+                    "storage": "Almacenamiento",
+                    "temperature_number": "N\u00famero",
+                    "vegetable_fruit": "Verdura/Fruta"
+                }
+            },
+            "temperature": {
+                "name": "Temperatura"
+            },
+            "temperature_state": {
+                "name": "Temperatura",
+                "state": {
+                    "high": "Alta",
+                    "low": "Baja",
+                    "normal": "Buena"
+                }
+            },
+            "temperature_state_for_location": {
+                "state": {
+                    "high": "Alta",
+                    "low": "Baja",
+                    "normal": "Buena"
+                }
+            },
+            "total": {
+                "name": "Tiempo total"
+            },
+            "total_for_location": {
+                "name": "tiempo total en {location}"
+            },
+            "total_pollution_level": {
+                "name": "Calidad general del aire",
+                "state": {
+                    "bad": "Poco saludable",
+                    "good": "Bueno",
+                    "invalid": "No v\u00e1lido",
+                    "normal": "Moderado",
+                    "very_bad": "Pobre"
+                }
+            },
+            "used_time": {
+                "name": "Filtro de agua utilizado"
+            },
+            "water_type": {
+                "name": "Tipo"
+            },
+            "wind_volume_for_location": {
+                "name": "velocidad del viento en {location}"
+            },
+            "wort_info": {
+                "name": "Mosto",
+                "state": {
+                    "dark": "Oscuro",
+                    "deep_gold": "Oro profundo",
+                    "hoppy": "L\u00fapulo",
+                    "wheat": "Trigo"
+                }
+            },
+            "yeast_info": {
+                "name": "Levadura"
+            }
+        }
+    }
+}
