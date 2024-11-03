@@ -1,0 +1,15 @@
+MANIFEST.in
+pyproject.toml
+snap_tracker/__init__.py
+snap_tracker/__main__.py
+snap_tracker/debug.py
+snap_tracker/helpers.py
+snap_tracker/split_rates.py
+snap_tracker/types.py
+snap_tracker.egg-info/PKG-INFO
+snap_tracker.egg-info/SOURCES.txt
+snap_tracker.egg-info/dependency_links.txt
+snap_tracker.egg-info/entry_points.txt
+snap_tracker.egg-info/requires.txt
+snap_tracker.egg-info/top_level.txt
+tests/test_splitrates.py

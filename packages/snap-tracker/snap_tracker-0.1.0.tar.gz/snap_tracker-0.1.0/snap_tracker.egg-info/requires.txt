@@ -1,0 +1,11 @@
+aiofiles
+fire
+motor
+rich
+stringcase
+watchfiles
+
+[dev]
+ipython
+pytest
+ruff
