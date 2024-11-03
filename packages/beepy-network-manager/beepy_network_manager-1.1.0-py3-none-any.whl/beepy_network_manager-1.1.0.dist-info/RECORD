@@ -1,0 +1,9 @@
+beepy_network_manager/api.py,sha256=OnEa6Ya_-a2QSbC6CG6ktY0YB5rVh-Y_EpMZ7cVlVMk,3426
+beepy_network_manager/cli.py,sha256=NRhC3RdshY8L-xJMNIegdysOdAEhXxQqfSQLrNx_2AA,3478
+beepy_network_manager/main.py,sha256=9NmLh5k0MfO3JsnDwNUYv8zlhFShdIy0f3_bQEn3Gjg,345
+beepy_network_manager/tui.py,sha256=LGuHKwWGutW7-iMaqbG4xuiQMVPNLcFhZG_bfQ5U0qU,7206
+beepy_network_manager-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+beepy_network_manager-1.1.0.dist-info/METADATA,sha256=cde-FsKzv6ixUmWaRB5HXkpIh9zXfr07c9NrF-mc8tI,2132
+beepy_network_manager-1.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+beepy_network_manager-1.1.0.dist-info/entry_points.txt,sha256=LWOOngJB0U_T-0sr6JuwDQWPZjGo7IEii2rxARWMz8w,77
+beepy_network_manager-1.1.0.dist-info/RECORD,,

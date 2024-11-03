@@ -1,0 +1,3 @@
+[console_scripts]
+beepy_network_manager=beepy_network_manager.main:run_main
+
