@@ -1,0 +1,3 @@
+[console_scripts]
+gamepadla = gamepadla_plus.__main__:run
+gamepadla-gui = gamepadla_plus.__main__:gui
