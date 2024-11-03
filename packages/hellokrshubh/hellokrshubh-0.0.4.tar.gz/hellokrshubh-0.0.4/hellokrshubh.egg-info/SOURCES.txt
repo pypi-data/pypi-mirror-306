@@ -1,0 +1,8 @@
+README.md
+setup.py
+hellokrshubh/__init__.py
+hellokrshubh/hello.py
+hellokrshubh.egg-info/PKG-INFO
+hellokrshubh.egg-info/SOURCES.txt
+hellokrshubh.egg-info/dependency_links.txt
+hellokrshubh.egg-info/top_level.txt
