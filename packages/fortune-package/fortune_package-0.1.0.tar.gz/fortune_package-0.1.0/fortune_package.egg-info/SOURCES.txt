@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fortune_package.egg-info/PKG-INFO
+fortune_package.egg-info/SOURCES.txt
+fortune_package.egg-info/dependency_links.txt
+fortune_package.egg-info/entry_points.txt
+fortune_package.egg-info/requires.txt
+fortune_package.egg-info/top_level.txt
+test/test_fortune.py

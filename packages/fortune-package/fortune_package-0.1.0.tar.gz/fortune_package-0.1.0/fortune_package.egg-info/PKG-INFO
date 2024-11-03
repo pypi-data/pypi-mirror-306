@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fortune_package
+Version: 0.1.0
+Summary: A fun package that provides fortunes and quotes
+Home-page: https://github.com/yourusername/fortune_package
+Author: Your Name
+Author-email: your_email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dotenv
+
+# Python Package Exercise
+
+An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
