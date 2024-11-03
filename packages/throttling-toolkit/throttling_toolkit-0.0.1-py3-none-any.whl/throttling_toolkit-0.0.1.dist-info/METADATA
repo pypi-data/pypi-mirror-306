@@ -1,0 +1,53 @@
+Metadata-Version: 2.3
+Name: throttling-toolkit
+Version: 0.0.1
+Summary: Python implementation of throttling resiliency pattern.
+Project-URL: Documentation, https://github.com/davidejames/throttling-toolkit#readme
+Project-URL: Issues, https://github.com/davidejames/throttling-toolkit/issues
+Project-URL: Source, https://github.com/davidejames/throttling-toolkit
+Author-email: "David E. James" <david.eugene.james@protonmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# fallback_toolkit
+
+[![PyPI - Version](https://img.shields.io/pypi/v/fallback-toolkit.svg)](https://pypi.org/project/fallback-toolkit)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fallback-toolkit.svg)](https://pypi.org/project/fallback-toolkit)
+[![Hatch project](https://img.shields.io/badge/%F0%9F%A5%9A-Hatch-4051b5.svg)](https://github.com/pypa/hatch)
+-----
+
+(Yet Another) fallback implementation for python.
+
+
+*No dependencies outside of standard python libraries*
+
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Examples](#examples)
+- [License](#license)
+
+## Installation
+
+```console
+pip install fallback-toolkit
+```
+
+
+## License
+
+`fallback-toolkit` is distributed under the terms of the
+[MIT](https://spdx.org/licenses/MIT.html) license.
+
