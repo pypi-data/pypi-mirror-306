@@ -1,0 +1,103 @@
+Metadata-Version: 2.3
+Name: minigrammar
+Version: 0.1.0
+Summary: A parser-generation library based on decorators
+Author-email: Francesco De Rosa <francescodero@outlook.it>
+License: MIT License
+        
+        Copyright (c) 2024 Francesco De Rosa
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# MiniGrammar
+
+A parser-generation library that makes use of python metaprogramming to inject the parsing-logic 
+into user defined AST-classes. All the user has to do is to decorate the classes in the codebase
+with the provided decorators. Such decorators will inject into the classes a constructor (`__init__`) and
+a list of parsed elements (`elems`), wich will be accessible for every instance of the classes.
+
+---
+
+Consider the following grammar:
+```g4
+expression
+    : sum
+    | mul
+    | wrapped_expression
+    | num
+    | var
+    ;
+
+wrapped_expression: '(' expression ')'
+sum: expression PLUS expression;
+mul: expression STAR expression;
+var: ID;
+num: INT;
+```
+
+This grammar is left-recursive, so it will cause the parser to loop forever. But we can 
+change it in such a way to avoid this problem by refactoring it as follows:
+
+```g4
+expression
+    : addend ((PLUS addend)*) 
+    ;
+
+addend
+    : factor ((STAR factor)*) 
+    ;
+
+factor
+    : num
+    | var
+    | wrapped_expression
+    ;
+
+wrapped_expression: '(' expression ')'
+var: ID;
+num: INT;
+```
+
+Then, for every grammar rule we define a python class that will end up being used to build the **AST** itself. For instance,
+let's consider the class `WrappedExpression`
+
+```python
+@chain([rid("OpenParen"), rid("Expression"), rid("ClosedParen")])
+class WrappedExpression(MathSettings):
+    def __repr__(self):
+        return " ( " + self.elems[1].__repr__() + " ) "
+
+@exact_match("(")
+class OpenParen(MathSettings):
+    def __repr__(self):
+        return self.elems[0].__repr__()
+
+
+@exact_match(")")
+class ClosedParen(MathSettings):
+    def __repr__(self):
+        return self.elems[0].__repr__()
+```
+
+This class has also a way to be printed in the console. The user can add method for evaluating the expression or to serialize it in multiple ways
+and so on. Possibilities are limitless, feel free to explore with your creativity as long as the grammar is not left-recursive and as long as 
+regex are non-prefix. The whole example has being uploaded in `MiniGrammar/examples/math_demo.py`.
