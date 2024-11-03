@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+maxbits/__init__.py
+maxbits.egg-info/PKG-INFO
+maxbits.egg-info/SOURCES.txt
+maxbits.egg-info/dependency_links.txt
+maxbits.egg-info/top_level.txt
