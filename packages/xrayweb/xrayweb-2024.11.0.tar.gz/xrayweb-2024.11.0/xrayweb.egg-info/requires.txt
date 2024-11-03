@@ -1,0 +1,12 @@
+xraydb
+sqlalchemy>=2
+numpy
+flask
+plotly
+
+[all]
+xrayweb[dev]
+
+[dev]
+build
+twine

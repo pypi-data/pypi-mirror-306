@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <title>X-ray Data for the Elements</title>
+
+    <link rel=stylesheet type=text/css  href="{{ url_for('static', filename='style.css') }}">
+    <script type=text/javascript>
+      var temp = {{materials_dict | tojson}};
+      var mdict = JSON.parse(temp);
+      var keys = Object.keys(mdict);
+      var vals = Object.values(mdict);
+
+      function toFormula(name) {
+        var i = keys.indexOf(name);
+        if (i != -1) {
+          return vals[i][0];
+        }
+        return "";
+      }
+      function toDensity(name) {
+        var i = keys.indexOf(name);
+        if (i != -1) {
+          return vals[i][1];
+        }
+        return "";
+      }
+      function displayinfo(mats, formula, density) {
+        var dropdown = document.getElementById(mats);
+        document.getElementById(formula).value=toFormula(dropdown.options[dropdown.selectedIndex].text);
+        document.getElementById(density).value=toDensity(dropdown.options[dropdown.selectedIndex].text);
+      }
+
+      function update_step(e1, e2, de) {
+         document.getElementById(e1).step = document.getElementById(de).value;
+         document.getElementById(e2).step = document.getElementById(de).value;
+      }
+    </script>
+  </head>
+  <body>
+
+<div class=topbar>
+  <table cellpadding=1 width=100%>
+    <tr><td width=35% padding=5 align=left>
+        <a href="https://xrayabsorption.org/">IXAS</a>
+        <a href="{{url_for('element')}}"> X-ray Data for the Elements </a>
+      </td>
+  </table>
+</div>
+
+<ul class=topmenu>
+  <li> <a href="{{url_for('element')}}"> X-ray Edges and Lines </a> </li>
+  <li> <a href="{{url_for('atten')}}"> X-ray Attenuation </a> </li>
+  <li> <a href="{{url_for('ionchamber')}}"> Fluxes </a> </li>
+  <li> <a href="{{url_for('scattering')}}"> Scattering Factors </a> </li>
+  <li> <a href="{{url_for('reflectivity')}}"> Mirror Reflectivity </a> </li>
+  <li> <a href="{{url_for('darwinwidth')}}"> Darwin Widths </a> </li>
+  <li> <a href="{{url_for('analyzers')}}"> Analyzers </a> </li>
+  <li> <a href="{{url_for('transmission_sample')}}"> Transmission Samples </a> </li>
+  <li> <a href="{{url_for('about')}}"> About </a> </li>
+<!--
+  <li> <a href="{{url_for('static', filename='style.css')}}"> _ </a></li>
+-->
+</ul>
+
+    {% block body %}
+{% endblock %}
