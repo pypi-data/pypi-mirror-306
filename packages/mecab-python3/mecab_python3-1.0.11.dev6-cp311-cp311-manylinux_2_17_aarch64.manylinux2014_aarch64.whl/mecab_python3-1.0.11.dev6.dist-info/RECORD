@@ -1,0 +1,11 @@
+MeCab/_MeCab.cpython-311-aarch64-linux-gnu.so,sha256=WHXcdaURstVMU2isLZoYfh9XU5pN32_rACcBXX4jzyQ,923697
+MeCab/__init__.py,sha256=CsZI9CPWjdZsJK3xExLYcpeRInlRtksPkJaEJ3Z-l24,4937
+MeCab/cli.py,sha256=6V7j6EPaCxI5rzwdvLeZjTyIeWdPORvAifuosJpi3DY,991
+mecab_python3.libs/libmecab-608f3a6a.so.2.0.0,sha256=xz9QfK_tRk0m3Y4vnvqHG7UiQ9FwKEwdiVmzdymsAuc,1046905
+mecab_python3-1.0.11.dev6.dist-info/top_level.txt,sha256=IVvVKeTLHhM6T9k5l1p9R6q6g9YlzVjjNn1IWwjM5Es,6
+mecab_python3-1.0.11.dev6.dist-info/RECORD,,
+mecab_python3-1.0.11.dev6.dist-info/entry_points.txt,sha256=rMPGJ7SRP_M7K5x3tEHfCZj0UCdmCzcDLbh4xxAuv2Y,76
+mecab_python3-1.0.11.dev6.dist-info/AUTHORS,sha256=iILKKikEFVrLH3S2bl4m1fCNQ8NM4GMRsz8hppNzEJs,144
+mecab_python3-1.0.11.dev6.dist-info/METADATA,sha256=hMqC3FTDQQhi2UwLERsq_a11PN4S9H3C6m3OlGYfVJc,6156
+mecab_python3-1.0.11.dev6.dist-info/COPYING,sha256=ntigF_Iia28Nbdah0lQEgAN0oSxw4UpWypYTF294d44,240
+mecab_python3-1.0.11.dev6.dist-info/WHEEL,sha256=Op2RVjKCU4Yd3uty1Wlljkjcwas4cTvIrdqkKFZWK28,153
