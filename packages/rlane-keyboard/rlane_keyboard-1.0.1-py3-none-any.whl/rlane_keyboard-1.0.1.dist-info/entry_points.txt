@@ -1,0 +1,5 @@
+[console_scripts]
+keyboard = keyboard.cli:main
+
+[gui_scripts]
+
