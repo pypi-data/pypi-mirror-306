@@ -1,0 +1,9 @@
+torch_hawk.libs/libcudart-b5a066d7.so.12.2.140,sha256=VYBF1Yk63PCnZiUhEq7BxX6771x9F9UIoL89nyTDYAY,699273
+torch_hawk/__init__.py,sha256=Vr85_94BKUkLsli_d4kqrP56iPbv9UWeOr_8Q4zvQQM,19555
+torch_hawk/_torch_hawk.cpython-39-x86_64-linux-gnu.so,sha256=rqepghUqKy4hjr1yrswCKjLO8rsIS60thfYzZTLwCys,313529
+torch_hawk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torch_hawk-0.0.3.dist-info/top_level.txt,sha256=AQMzKu0c_TEbeyNV2a-uzD1Cqvdt_hZujF9uRFIecUM,11
+torch_hawk-0.0.3.dist-info/RECORD,,
+torch_hawk-0.0.3.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+torch_hawk-0.0.3.dist-info/METADATA,sha256=_f7W3jn6EKsrOKjvyZEXbkWy9ZJgeVExtWnKLTFjLBw,298
+torch_hawk-0.0.3.dist-info/WHEEL,sha256=5uzwGLPxWjsL7gSIZMiAtBlL48FPdJAAjB9wwawaC8o,111
