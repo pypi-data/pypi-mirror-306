@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: kivy_webview
+Version: 0.0.0
+Summary: A cross-platform webview widget for Kivy, designed to easily integrate web content into your Kivy applications. Coming soon!
+Keywords: kivy,webview
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
