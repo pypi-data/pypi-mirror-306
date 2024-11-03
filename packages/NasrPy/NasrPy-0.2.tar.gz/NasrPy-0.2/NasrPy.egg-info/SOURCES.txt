@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+NasrPy/__init__.py
+NasrPy.egg-info/PKG-INFO
+NasrPy.egg-info/SOURCES.txt
+NasrPy.egg-info/dependency_links.txt
+NasrPy.egg-info/top_level.txt
