@@ -1,0 +1,2 @@
+[console_scripts]
+pdfsc = pdfsc.cli:main
