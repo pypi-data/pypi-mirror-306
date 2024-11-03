@@ -1,0 +1,11 @@
+scylla_bridge/__init__.py,sha256=AP7GrzLJNTcjamusuKdiMhVv-mAn9Sy1pkL5FWsvCx4,611
+scylla_bridge/column.py,sha256=u4buFCEbP7C-xG11Zg1DtGFxnTITs5ipke70ipo5N3I,9157
+scylla_bridge/metaclass.py,sha256=uMNTtz0-T8TJUPZhUhUR6R05GuqKV8RRep5U-_abvS0,2592
+scylla_bridge/metadata.py,sha256=vpk-xrzkeu8AaemgYz6di_bt9aLlHspTOj7Y65jMaOY,2110
+scylla_bridge/query.py,sha256=4Fjo_g23U9ZIq3ah1pdi3WPVootNqZv3Q3xCLWgwcjs,14346
+scylla_bridge/table.py,sha256=J5i86fj6O5qsHXQCAWAhcIysWL0UsmpuwPJigTTqrII,1821
+scylla_bridge/types.py,sha256=i8dG2upLCUvpvzEQ5lF_7okIgTVh476nBhCIudLjL2I,1315
+scylla_bridge-1.1.2.dist-info/METADATA,sha256=xpaQsiWbYr6rCtXFJSeL4FwKAOdWdeLOc7KV9SIzmhA,390
+scylla_bridge-1.1.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+scylla_bridge-1.1.2.dist-info/top_level.txt,sha256=rQVueriwKIhTD_pbMH-l6cmfpeKZjtNvrOhhlpa_cKc,14
+scylla_bridge-1.1.2.dist-info/RECORD,,
