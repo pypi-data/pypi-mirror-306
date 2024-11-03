@@ -1,0 +1,11 @@
+tramp/annotations.py,sha256=ea_J4QZSb3dWNB1wgXKRttuhOggV8U6YR2CK9vwr8Ds,5072
+tramp/as_completed.py,sha256=0k2nK-Hnojk80sPXYFVmjbtmQpE4hjniMIxFSRiwkw4,970
+tramp/containers.py,sha256=Xi7hQCE-MHfuECDNKxPrGwW6-RJdsszmYiUwKTrO5bU,371
+tramp/modules.py,sha256=iaBgDVtf5plIAZro_wXqwcrr7ZPx27PuHAmrK-tFw78,130
+tramp/optionals.py,sha256=G-1MPssGbZvkkl-sP8Tu-yD4W-xSJf5YM9l_wPVtQQ8,1629
+tramp/results.py,sha256=HGj53P2MICGP5tcT7furBEeyDKPQp7sF7zh__lcCQLo,2641
+tramp/sentinels.py,sha256=ymWAnhJmdpuL1arppcNXgQc_QvyMDw-7WH0iIyrhvRI,522
+tramp/singleton.py,sha256=wLc2l_v1IYl3BlQbJnwL-XnKe-joQv9OcxpEvq3RG1E,335
+tramp-0.1.12.dist-info/METADATA,sha256=RdEpEiomlvW5diS6KyVIaDDLsE1csykFaOECOEXIdCY,3242
+tramp-0.1.12.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+tramp-0.1.12.dist-info/RECORD,,
