@@ -1,0 +1,16 @@
+git_bob/__init__.py,sha256=mrB6xsyljIDAalHRd6sIA8jSm6fbsguiYz8JcE4RaPE,42
+git_bob/_ai_github_utilities.py,sha256=9t59r6PQZIUj6UHOjvBiR8p5z_c2_ot1ajGYAKBbqqY,31393
+git_bob/_endpoints.py,sha256=BGnvIE_rGgsf6EyH0pqSc89rtJjlbVG_EuGGOaf0MS4,7226
+git_bob/_github_utilities.py,sha256=faInOyh6s2Wpimt9zmKH1NeNvZujDdVrtPbcSGfx6hk,27730
+git_bob/_gitlab_utilities.py,sha256=i3LhnWxy9e5Z83nm1xNi6tf8USAm628VmAtMsaMlLi4,24830
+git_bob/_logger.py,sha256=5iXsH3FZ8NbEExlbW52Uh9aT-mVQYXvd7Vg7nl26fEY,389
+git_bob/_terminal.py,sha256=MebOYzyVAGFyBEj8eydXjTjbVdCqobIBCBc8xit9ngU,11024
+git_bob/_utilities.py,sha256=vMDc7tHLkeEP6H8-S2vmMA6G2hE66c8QlxiuG8AfTyc,22500
+git_bob/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_bob/data/slide_template.pptx,sha256=q5BmLfnBKpydvtx1jxAEz-vifA__orIyhXWn_LMwn20,35975
+git_bob-0.14.0.dist-info/LICENSE,sha256=aO97_S6H1gIgdP0PG_FvqNm2itE2gQovpp8Dym4Q5vk,1522
+git_bob-0.14.0.dist-info/METADATA,sha256=Iyu-XJprPYJqXW8Vu3P3pR5UXtaDk4yWaS8OoVw4qRQ,17111
+git_bob-0.14.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+git_bob-0.14.0.dist-info/entry_points.txt,sha256=kLY3PsT9eGl0z_H3YtnXkQCtP_tRCOFlBEHQOAYDi9s,69
+git_bob-0.14.0.dist-info/top_level.txt,sha256=bweFleryRSQHmsoJcmZx6R0AQFzpDBqe7qEf_DTdCoo,8
+git_bob-0.14.0.dist-info/RECORD,,
