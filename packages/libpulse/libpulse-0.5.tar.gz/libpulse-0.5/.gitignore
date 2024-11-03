@@ -1,0 +1,8 @@
+/dist/
+/docs/build/
+/.coverage
+.emacs.desktop*
+*.pyc
+libpulse.cpp
+ext_device_restore.cpp
+libpulse.cache
