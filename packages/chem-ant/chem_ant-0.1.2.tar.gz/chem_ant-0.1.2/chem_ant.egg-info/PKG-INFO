@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: chem_ant
+Version: 0.1.2
+Summary: Select materials to output molecules similar to the target molecule with MCTS Solver and Genetic Programming.
+Home-page: https://github.com/akuroiwa/chem-ant
+Author: Akihiro Kuroiwa, ChatGPT of OpenAI, Perplexity AI
+Author-email: akuroiwa@env-reform.com, 
+License: GNU/GPLv3+
+Keywords: evolutionary algorithms,genetic programming,gp,mcts,mcts solver,cheminformatics,chemoinformatics
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8, !=3.10.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rdkit
+Requires-Dist: mcts
+Requires-Dist: deap
+Requires-Dist: mcts-solver
+Requires-Dist: pandas
+Requires-Dist: biopython
+Requires-Dist: openbabel-wheel
+Provides-Extra: classification
+Requires-Dist: transformers; extra == "classification"
+Requires-Dist: chem_classification; extra == "classification"
+
+# chem-ant
+
+Select materials to output molecules similar to the target molecule with MCTS Solver and Genetic Programming.
+This is a part of [Chess-Ant](https://github.com/akuroiwa/chess-ant) project.
+
+If you want to install this package on Python 3.12, please be sure to read the manual above beforehand.
+
+Please install the required packages using the following commands:
+
+```console
+pip install git+https://github.com/Global-Chem/global-chem.git#subdirectory=global_chem
+pip install git+https://github.com/Global-Chem/global-chem.git#subdirectory=global_chem_extensions
+```

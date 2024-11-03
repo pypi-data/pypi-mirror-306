@@ -1,0 +1,11 @@
+rdkit
+mcts
+deap
+mcts-solver
+pandas
+biopython
+openbabel-wheel
+
+[classification]
+transformers
+chem_classification

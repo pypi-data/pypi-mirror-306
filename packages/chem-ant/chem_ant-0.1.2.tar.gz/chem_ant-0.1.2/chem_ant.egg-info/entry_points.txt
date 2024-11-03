@@ -1,0 +1,8 @@
+[console_scripts]
+create-vina-config = chem_ant.create_vina_config:main
+prepare-experiment = chem_ant.prepare_experiment:main
+run-experiment = chem_ant.run_experiment:main
+select-ligands = chem_ant.select_ligands:main
+similarity-ant = chem_ant.similarity_ant:console_script
+similarity-genMols = chem_ant.similarity_mcts:console_script2
+similarity-mcts = chem_ant.similarity_mcts:console_script
