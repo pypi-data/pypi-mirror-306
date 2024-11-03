@@ -1,0 +1,1 @@
+recursive-include django_sortable_tabular/static *
