@@ -1,0 +1,31 @@
+#!python
+
+import sys
+import asyncio
+from loguru import logger
+from chutes.entrypoint.build import build_image
+from chutes.entrypoint.deploy import deploy_chute
+from chutes.entrypoint.run import run_chute
+from chutes.entrypoint.report import report_invocation
+
+COMMAND_MAP = {
+    "build": build_image,
+    "deploy": deploy_chute,
+    "run": run_chute,
+    "report": report_invocation,
+}
+
+
+async def main():
+    """Run various commands."""
+    args = sys.argv[1:]
+    if not args or args[0] not in COMMAND_MAP:
+        logger.error(
+            f"Please specify one of the supported commands: {', '.join(list(COMMAND_MAP))}"
+        )
+        sys.exit(1)
+    await COMMAND_MAP[args[0]](args[1:])
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
