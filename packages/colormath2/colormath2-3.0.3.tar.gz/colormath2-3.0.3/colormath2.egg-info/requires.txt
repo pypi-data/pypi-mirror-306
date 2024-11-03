@@ -1,0 +1,9 @@
+numpy
+networkx>=2.0
+
+[development]
+black
+flake8
+nose2
+pre-commit
+sphinx
