@@ -1,0 +1,4 @@
+django>=4.0.0
+djangorestframework>=3.13.0
+meilisearch>=0.28.0
+typing-extensions>=4.12.2
