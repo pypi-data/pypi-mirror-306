@@ -1,0 +1,10 @@
+redlines/__init__.py,sha256=GfhUDSwFQeEtAlcLQRvYrFaWxlALWnSFz2D6AzFQlZQ,2213
+redlines/cli.py,sha256=ZeT0zmu6JYgacK6vyxs3reLnbex6A3ofQx5SA89IHxA,4010
+redlines/document.py,sha256=8_e6TblOb8QxaA_zWH1NkJiQNoZZUjhp1-6KcHKQhTQ,1667
+redlines/processor.py,sha256=QXJa4ukidvBnCVkdA7U_Flfk1XVryiNxI0_npJ-2Hus,5279
+redlines/redlines.py,sha256=CXfXCI2EB6MGd12mUydRUVa0ztVohZMtGEdFw6xwI_E,13453
+redlines-0.5.0.dist-info/LICENSE.txt,sha256=7UCiPtTKiA-sQyoQIFtzJGfQ_g7lFIXsrssqW0PE2nQ,1067
+redlines-0.5.0.dist-info/METADATA,sha256=Wp6hdh1MP9yb2QA2X14ztZXvV2Q5c1oKGVsSU92r5IQ,4725
+redlines-0.5.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+redlines-0.5.0.dist-info/entry_points.txt,sha256=fD9tURfJvbloe-0AvjNKY_FexJ2FAZVri1K_g--hSaM,45
+redlines-0.5.0.dist-info/RECORD,,
