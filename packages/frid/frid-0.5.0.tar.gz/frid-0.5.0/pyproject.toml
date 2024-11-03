@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frid"
+dynamic = ["version"]
+authors = [
+  { name="Hanhua Feng", email="han.hua.feng@askherefirst.com" },
+]
+description = "Flexibly Represented Interactive Data"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ask-Here-First/ahf-generic"
+Issues = "https://github.com/Ask-Here-First/ahf-generic/issues"
+
+[tool.setuptools.packages.find]
+namespaces = true
+where = ["."]
+
+[tool.setuptools.dynamic]
+version = {attr = "frid.__version__"}
+
+[tool.ruff]
+line-length = 96
+target-version = "py310"
+ignore = ["E401"]
+
+[tool.pycodestyle]
+ignore = ["E301"]
