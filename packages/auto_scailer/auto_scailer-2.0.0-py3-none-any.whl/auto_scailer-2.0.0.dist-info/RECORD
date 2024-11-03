@@ -1,0 +1,9 @@
+auto_scailer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_scailer/auto_scailer.py,sha256=TEqrZa0nmllR8kOqwthrXmpP2WM-l3Hy9ulILbIdZpw,3759
+auto_scailer/utils.py,sha256=wRYnS-xzVDYAWuCZv2awtKBAzouArWzfTJ2UHFhbqZI,2207
+auto_scailer/config/config.ini,sha256=9nmdTgfL1CBd-d_ON4VkXhtdhC3Qv43cBb1F_ojIBKc,45
+auto_scailer-2.0.0.dist-info/METADATA,sha256=MRQUH--rPi6gUZiX4J-sFHCdjBN2dv6Os6z1gdy1CNY,1269
+auto_scailer-2.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+auto_scailer-2.0.0.dist-info/entry_points.txt,sha256=M5B8K-7poB-g2-wka7RzQlmi6T0A42XWWkIxUSZEY0I,120
+auto_scailer-2.0.0.dist-info/top_level.txt,sha256=FyJhA_hBSHsHbRwUwnpbacA1Qj3AZSc-oZRqLOZQMhU,13
+auto_scailer-2.0.0.dist-info/RECORD,,

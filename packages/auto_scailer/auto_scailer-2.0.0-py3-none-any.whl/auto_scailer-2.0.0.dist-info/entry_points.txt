@@ -1,0 +1,3 @@
+[console_scripts]
+get-log-path = auto_scailer.utils:get_log_path
+scailer-start = auto_scailer.auto_scailer:auto_scailer
