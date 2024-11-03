@@ -1,0 +1,10 @@
+theodoretools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+theodoretools/fs.py,sha256=2ZDpvB0gt6qDTh7wLqpljzGkOPzmxpFqlIRT73aNF74,632
+theodoretools/id.py,sha256=s7hyq_NWNsImixzVohCFpIAkfxU_JrXj3Xi6pOVqZcs,523
+theodoretools/image.py,sha256=rEgSewql8RGCQ2jPeaoExPui82_h-79GrozmjGIyLik,249
+theodoretools/st.py,sha256=KyPcYAAiLIJJ-K97IY1nplJFVYZLhwYl1vnzeNHyYxg,1411
+theodoretools/url.py,sha256=cKQbJen2bvn-gFNSDekZq5hKox9rbw-vbSf5NDHCB5Q,118
+theodoretools-0.0.5.dist-info/METADATA,sha256=aZMPnl9SZbDs9gch5gfe4DVP-rKUhVr60jzy2Fn8jIQ,575
+theodoretools-0.0.5.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+theodoretools-0.0.5.dist-info/top_level.txt,sha256=BNAgLs7xTw0pN-rtYZRhO09ANWZiTZ4b54CTriBzyZ4,14
+theodoretools-0.0.5.dist-info/RECORD,,
