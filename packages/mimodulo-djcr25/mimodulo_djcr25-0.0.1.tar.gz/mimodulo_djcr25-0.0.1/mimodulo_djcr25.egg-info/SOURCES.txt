@@ -1,0 +1,5 @@
+setup.py
+mimodulo_djcr25.egg-info/PKG-INFO
+mimodulo_djcr25.egg-info/SOURCES.txt
+mimodulo_djcr25.egg-info/dependency_links.txt
+mimodulo_djcr25.egg-info/top_level.txt
