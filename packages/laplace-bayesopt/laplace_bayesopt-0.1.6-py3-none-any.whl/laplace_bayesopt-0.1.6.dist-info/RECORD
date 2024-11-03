@@ -1,0 +1,6 @@
+laplace_bayesopt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+laplace_bayesopt/acqf.py,sha256=KWhPXtJIHwU2zfuhHqUl1CncKujIn_S-B8t1j6vBAG4,5079
+laplace_bayesopt/botorch.py,sha256=IVKDzMshvMSv_WuVu7Q2MKrHTAEPUBESBJL4cc7wZu8,14108
+laplace_bayesopt-0.1.6.dist-info/METADATA,sha256=NEkFgIK_6I72uy2p-u7mKgYeppPG8coYpyBfz3bII7E,1904
+laplace_bayesopt-0.1.6.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+laplace_bayesopt-0.1.6.dist-info/RECORD,,
