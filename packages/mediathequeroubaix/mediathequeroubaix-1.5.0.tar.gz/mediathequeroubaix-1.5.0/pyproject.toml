@@ -1,0 +1,44 @@
+[project]
+name = "mediathequeroubaix"
+version = "1.5.0"
+description = "Client for the library of Roubaix (Médiathèque Roubaix)"
+authors = [
+    {name = "Thomas Queste", email = "tom@tomsquest.com"}
+]
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python :: 3.12",
+    "Typing :: Typed",
+]
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.28.1",
+    "pydantic>=1.10.2",
+    "returns>=0.23.0",
+    "rich>=12.6.0",
+    "typer>=0.7.0",
+    "pydantic-settings>=2.6.1",
+]
+
+[project.urls]
+Changelog = "https://github.com/tomsquest/mediathequeroubaix.py/blob/master/CHANGELOG.md"
+Releases = "https://github.com/tomsquest/mediathequeroubaix.py/releases"
+Repository = "https://github.com/tomsquest/mediathequeroubaix.py"
+
+[project.scripts]
+mediathequeroubaix = "mediathequeroubaix.main:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.0.1",
+    "pytest>=8.3.3",
+    "requests-mock>=1.12.1",
+]
