@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+nova_client_sdk.egg-info/PKG-INFO
+nova_client_sdk.egg-info/SOURCES.txt
+nova_client_sdk.egg-info/dependency_links.txt
+nova_client_sdk.egg-info/requires.txt
+nova_client_sdk.egg-info/top_level.txt
+nova_sdk/__init__.py
+nova_sdk/nova_sdk.py
