@@ -1,0 +1,19 @@
+# Template for a square figure, on slides.
+
+num_rows: 1
+num_cols: 1
+fig_width: 16
+fig_height: 15
+margin_top: 1.5
+margin_bottom: 2.5
+margin_left: 2
+margin_right: 2
+hsep: 2
+vsep: 2
+spine_shift: 0
+is_framed: True
+base_unit: 60 # in points
+xlabel_preset: center
+xlabel_pad: 1.5
+ylabel_preset: top_right
+ylabel_pad: 0.5
