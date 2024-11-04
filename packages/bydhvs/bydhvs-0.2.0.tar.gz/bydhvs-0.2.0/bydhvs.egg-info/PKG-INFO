@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: bydhvs
+Version: 0.2.0
+Summary: A module for communicating with the BYD HVS Battery system
+Home-page: https://github.com/bbr111/python-bydhvs
+Download-URL: https://github.com/bbr111/python-bydhvs/releases
+Author: bbr111
+Author-email: ben1@gmx.net
+License: GPL-3.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: asyncio
+Requires-Dist: logging
+
+# python-bydhvs
+Python Wrapper for BYD b-Box HVM/HVS/LVS
+
+Installation
+------------
+The module is available from the [Python Package Index](https://pypi.python.org/pypi)
+
+    $ pip3 install bydhvs
+
+On a Fedora-based system or a CentOS/RHEL host with EPEL.
+
+    $ sudo dnf -y install python3-bydhvs
+
+Usage
+-----
+
+The file ``example.py`` contains an example about how to use this module.
+
+License
+-------
+
+``python-byd`` is licensed under GPL-3.0 license, for more details check LICENSE.
