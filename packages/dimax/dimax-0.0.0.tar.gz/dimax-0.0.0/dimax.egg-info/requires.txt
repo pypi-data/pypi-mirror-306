@@ -1,0 +1,9 @@
+
+[test]
+Flake8-pyproject==1.2.3
+black==24.3.0
+flake8==7.0.0
+isort==5.13.2
+mypy==1.9.0
+pytest-asyncio==0.23.7
+pytest==8.1.1
