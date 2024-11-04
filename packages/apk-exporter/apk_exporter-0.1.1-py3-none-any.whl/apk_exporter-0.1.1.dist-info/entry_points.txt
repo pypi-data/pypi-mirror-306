@@ -1,0 +1,2 @@
+[console_scripts]
+apk-exporter = apk_exporter:main
