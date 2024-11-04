@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: drflickr
+Version: 0.3.3
+Summary: Provides a daemon to automate certain tasks on Flickr
+Author: Ole Kliemann
+Author-email: mail@olekliemann.de
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: drresult (>=0.6.3,<0.7.0)
+Requires-Dist: mrjsonstore (>=0.5.0,<0.6.0)
+Requires-Dist: python-daemon (>=3.0.1,<4.0.0)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Requires-Dist: requests-oauthlib (>=2.0.0,<3.0.0)
