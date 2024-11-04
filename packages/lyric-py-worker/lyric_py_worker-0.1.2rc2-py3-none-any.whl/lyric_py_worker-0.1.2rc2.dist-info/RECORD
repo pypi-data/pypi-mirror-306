@@ -1,0 +1,5 @@
+lyric_py_worker/__init__.py,sha256=O7nC7D-pQTL1auwc-9BP_771xmPXodA4qF4VV14I_oQ,301
+lyric_py_worker/python_worker.wasm,sha256=GLxYAKSF81XB1Ui2QQE4UEOc6jmelXeSKY8gNw8IiOo,47161028
+lyric_py_worker-0.1.2rc2.dist-info/METADATA,sha256=cMgM8dYGvWyXq7IHuIxkZcFOb2pcsgN0DRubOYoKXOA,422
+lyric_py_worker-0.1.2rc2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+lyric_py_worker-0.1.2rc2.dist-info/RECORD,,
