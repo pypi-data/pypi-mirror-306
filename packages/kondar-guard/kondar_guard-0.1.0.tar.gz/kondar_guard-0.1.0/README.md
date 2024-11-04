@@ -1,0 +1,62 @@
+## How to launch app 🚀
+
+1. [Install poetry](https://python-poetry.org/docs/#installation)
+2. Clone repository to your PC
+3. Move to directory `kondar-guard`
+4. Execute command `poetry install` (in main app directory)
+5. Execute command `poetry run kondar`
+6. Enjoy!
+
+## Basic usage ✨
+
+### Encrypt file
+
+```text
+cmd: poetry run kondar
+
+[1] — Encrypt file (convert in memory)
+[2] — Decrypt file (convert in memory)
+ Enter action number >>> 1
+Move file to directory «/home/user/kondar-guard/src/storage» (existed objects: keys.txt) and enter file name with extension. 
+If you want work with fill in specific directory, pass full path to need file
+>>> keys.txt
+------------------------
+Enter password >>>
+------------------------
+Retype password >>>
+File successful encrypted!
+
+[1] — next
+[2] — quit
+
+```
+
+### Decrypt file
+
+```text
+cmd: poetry run kondar
+
+[1] — Encrypt file (convert in memory)
+[2] — Decrypt file (convert in memory)
+ Enter action number >>> 2
+Move file to directory «/home/user/kondar-guard/src/storage» (existed objects: keys.txt) and enter file name with extension. 
+If you want work with fill in specific directory, pass full path to need file
+>>> keys.txt
+------------------------
+Enter password >>>
+File successful decrypted!
+```
+
+## Ideas 🎯
+
+- Server synchronization
+- Many peoples confirm to start some action
+- Storage folder periodic backups
+- One-time showing in console mode
+
+## Donates ❤️
+
+- TON: `UQBDBlIA1RscEjPhftROOxVLfHkT-D4YzDE9bT8hsnORuerI`
+- USDT (TRC-20): `TP7J1fYKUQpZsH4PpuihAueF8dU8Vwwuqa`
+- ETH (ARB): `0x303d589960032b971EE3EE016FD3A7A0E0f31261`
+- APT: `0x55dadcbe3cb3a49cf22aadbda3a8a9ac9edd176a5bd54f4a8f278a3a17dfe388`

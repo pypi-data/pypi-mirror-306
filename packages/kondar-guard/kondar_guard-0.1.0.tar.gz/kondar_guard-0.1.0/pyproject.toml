@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "kondar-guard"
+version = "0.1.0"
+description = "A console program for secure data storage"
+authors = ["nkdo <fofmow@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyaescrypt = "^6.1.1"
+colorama = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+kondar = "src.main:main"
