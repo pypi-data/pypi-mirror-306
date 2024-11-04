@@ -1,0 +1,7 @@
+README.md
+setup.py
+new_python_project_1/__init__.py
+new_python_project_1.egg-info/PKG-INFO
+new_python_project_1.egg-info/SOURCES.txt
+new_python_project_1.egg-info/dependency_links.txt
+new_python_project_1.egg-info/top_level.txt
