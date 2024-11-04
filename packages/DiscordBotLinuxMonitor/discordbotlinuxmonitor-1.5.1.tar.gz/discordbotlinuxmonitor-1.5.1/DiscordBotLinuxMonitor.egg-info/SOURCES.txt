@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+DiscordBotLinuxMonitor.egg-info/PKG-INFO
+DiscordBotLinuxMonitor.egg-info/SOURCES.txt
+DiscordBotLinuxMonitor.egg-info/dependency_links.txt
+DiscordBotLinuxMonitor.egg-info/requires.txt
+DiscordBotLinuxMonitor.egg-info/top_level.txt
+discordbotlinuxmonitor/__init__.py
+discordbotlinuxmonitor/__main__.py
+discordbotlinuxmonitor/discordbotlinuxmonitor.py

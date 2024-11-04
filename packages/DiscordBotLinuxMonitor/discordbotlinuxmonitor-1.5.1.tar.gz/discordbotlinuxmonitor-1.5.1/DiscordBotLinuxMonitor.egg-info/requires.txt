@@ -1,0 +1,4 @@
+linuxmonitor~=1.5.0
+discord.py
+typing
+asyncio
