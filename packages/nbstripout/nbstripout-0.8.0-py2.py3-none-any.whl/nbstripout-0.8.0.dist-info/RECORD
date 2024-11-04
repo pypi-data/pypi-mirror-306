@@ -1,0 +1,10 @@
+nbstripout/__init__.py,sha256=PC4jK6qNrFKeCBLR7ByJyB7OaxbDn2eg-Yv9N8WcVC8,277
+nbstripout/__main__.py,sha256=xfVws8NbW_9PYzB9bCO7mj992dhliCXk3ZRJHiErptY,36
+nbstripout/_nbstripout.py,sha256=Sa2Mx1yxAUWO4t3G5XErgL1NVtOVnNIGCqc9pMHWWNg,21626
+nbstripout/_utils.py,sha256=7Oy1gvucvWs9gqZPZH4yTINKyn8U50erbo6sOC_WrQ8,5522
+nbstripout-0.8.0.dist-info/LICENSE.txt,sha256=zOtlgeErTkb4KR0TixVzHot35uHu6dyiO-IpfixI_ik,1118
+nbstripout-0.8.0.dist-info/METADATA,sha256=ilOKiskXm15KHvAxBKtCKnL9GCaAnLujlmzFLsobI3o,19205
+nbstripout-0.8.0.dist-info/WHEEL,sha256=OpXWERl2xLPRHTvd2ZXo_iluPEQd8uSbYkJ53NAER_Y,109
+nbstripout-0.8.0.dist-info/entry_points.txt,sha256=J_ygIvD-AQ_Pqb0HRfbQCN6PUmBO1lRztQBKZWJotn8,59
+nbstripout-0.8.0.dist-info/top_level.txt,sha256=bveRSCyWJ_9mx7f0rJxvBR2Lf8kFAOvs5z8i_Wndt4s,11
+nbstripout-0.8.0.dist-info/RECORD,,
