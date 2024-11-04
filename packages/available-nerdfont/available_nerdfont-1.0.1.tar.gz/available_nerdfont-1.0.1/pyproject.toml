@@ -1,0 +1,61 @@
+[tool.poetry]
+name = "available-nerdfont"
+version = "1.0.1"
+description = "Python script to find which nerdfonts are available for download"
+authors = ["TonyGrif <TonyGriffin2000@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    {include = "src"},
+]
+
+[tool.poetry.scripts]
+available-nerdfont = "src.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+beautifulsoup4 = "^4.12.3"
+types-beautifulsoup4 = "^4.12.0.20240511"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.1"
+pytest-cov = "^5.0.0"
+tox = "^4.15.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.0"
+black = "^24.4.2"
+isort = "^5.13.2"
+pylint = "^3.2.2"
+ruff = "^0.4.4"
+flake8-pyproject = "^1.2.3"
+poethepoet = "^0.26.1"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+log_cli = "True"
+
+[tool.mypy]
+files = ["src"]
+
+[tool.isort]
+profile = "black"
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "E701"]
+
+[tool.poe.tasks]
+test = "pytest --cov --cov-report term-missing"
+_mypy = "mypy src/"
+_ruff = "ruff check src/"
+_pylint = "pylint src/"
+_flake = "flake8 src/"
+lint = [ "_mypy", "_ruff", "_pylint", "_flake" ]
+_imports = "isort src/"
+_format = "black src/"
+format = [ "_imports", "_format" ]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
