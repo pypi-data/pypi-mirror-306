@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guessFact"
+description = """A Python package lets users select a category and sub-category to 
+reveal two unique facts about it. One fact is true, while the other is a playful fabrication, 
+and the user needs to identify the correct one."""
+version = "0.1.0"
+authors = [
+  { name="Hanna Han", email="mh6161@nyu.edu" },
+  { name="Wilson Xu", email="wx2105@nyu.edu" },
+  { name="Sewon Kim", email="sak9725@nyu.edu" },
+  { name="Rhan Chen", email="xc2344@nyu.edu" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build", "tutorial"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Repository" = "https://github.com/software-students-fall2024/3-python-package-thecoders2"
+
+[project.scripts]
+guessFact = "guessFact.__main__:main"

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/guessFact/__init__.py
+src/guessFact/__main__.py
+src/guessFact/code.py
+src/guessFact.egg-info/PKG-INFO
+src/guessFact.egg-info/SOURCES.txt
+src/guessFact.egg-info/dependency_links.txt
+src/guessFact.egg-info/entry_points.txt
+src/guessFact.egg-info/requires.txt
+src/guessFact.egg-info/top_level.txt
+tests/test_code.py

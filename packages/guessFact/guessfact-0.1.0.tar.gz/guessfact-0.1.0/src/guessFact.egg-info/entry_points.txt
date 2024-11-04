@@ -1,0 +1,2 @@
+[console_scripts]
+guessFact = guessFact.__main__:main
