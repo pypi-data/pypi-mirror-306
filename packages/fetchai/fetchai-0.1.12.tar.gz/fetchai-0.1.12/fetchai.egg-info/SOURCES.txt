@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+fetchai/__init__.py
+fetchai/communication.py
+fetchai/crypto.py
+fetchai/fetch.py
+fetchai/registration.py
+fetchai.egg-info/PKG-INFO
+fetchai.egg-info/SOURCES.txt
+fetchai.egg-info/dependency_links.txt
+fetchai.egg-info/requires.txt
+fetchai.egg-info/top_level.txt
