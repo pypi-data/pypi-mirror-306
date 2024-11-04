@@ -1,0 +1,12 @@
+README.md
+setup.py
+nyust_sso/__init__.py
+nyust_sso/_types.py
+nyust_sso/client.py
+nyust_sso/errors.py
+nyust_sso/utils.py
+nyust_sso_client.egg-info/PKG-INFO
+nyust_sso_client.egg-info/SOURCES.txt
+nyust_sso_client.egg-info/dependency_links.txt
+nyust_sso_client.egg-info/requires.txt
+nyust_sso_client.egg-info/top_level.txt
