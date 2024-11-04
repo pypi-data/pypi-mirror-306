@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mcp_persor/__init__.py
+mcp_persor/persor.py
+mcp_persor/type.py
+mcp_persor.egg-info/PKG-INFO
+mcp_persor.egg-info/SOURCES.txt
+mcp_persor.egg-info/dependency_links.txt
+mcp_persor.egg-info/requires.txt
+mcp_persor.egg-info/top_level.txt
