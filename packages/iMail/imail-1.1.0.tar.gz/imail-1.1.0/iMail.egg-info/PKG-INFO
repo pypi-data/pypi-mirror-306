@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: iMail
+Version: 1.1.0
+Summary: A simple and effective email notification script.
+Home-page: https://github.com/mtics/iMail
+Author: Zhiwei Li
+Author-email: lizhw.cs@outlook.com
+License: MIT License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications :: Email
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+
+# iMail
+
+[中文文档](https://github.com/mtics/iMail/README-cn.md)
+
+## Overview
+
+**iMail** is a straightforward and efficient email notification package built on `Python 3.8`. It supports email authentication, group mailing, and the addition of images and attachments.
+
+## Features
+
+* Supports group email sending.
+* Allows specification of message content in multiple formats, such as plain text and HTML.
+* Enables users to add images and attachments, with attachments sent in a compressed package.
+* Allows customization of the maximum attachment size (in MB).
+
+## Usage
+
+Developed for `Python 3.8`, iMail requires the `Pillow` library.
+
+To install the package, execute the following command in your environment:
+```bash
+pip install iMail
+```
+or
+```bash
+python install iMail-*-py3-none-any.whl
+```
+
+## Example
+
+A simple example file, `demo.py`, is available in [the project on GitHub](https://github.com/mtics/iMail) for configuration guidance.
+
+## License
+
+This script is licensed under the [MIT License](https://github.com/mtics/iMail/LICENSE), permitting free use and distribution.
