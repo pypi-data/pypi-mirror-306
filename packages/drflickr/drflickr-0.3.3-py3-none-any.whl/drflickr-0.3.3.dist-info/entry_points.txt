@@ -1,0 +1,3 @@
+[console_scripts]
+drflickr=drflickr.cli.main:main
+
