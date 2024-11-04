@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+tests/test_ynab.py
+ynabkit/__init__.py
+ynabkit/__main__.py
+ynabkit/cli.py
+ynabkit.egg-info/PKG-INFO
+ynabkit.egg-info/SOURCES.txt
+ynabkit.egg-info/dependency_links.txt
+ynabkit.egg-info/entry_points.txt
+ynabkit.egg-info/requires.txt
+ynabkit.egg-info/top_level.txt
