@@ -1,0 +1,8 @@
+simdist-0.1.1.dist-info/METADATA,sha256=iB-l_3brTDvd0QSQOwDwBUm-nWU-lfOrDDIqWN4qJAQ,340
+simdist-0.1.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+simdist-0.1.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+simdist-0.1.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+simdist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simdist/core.py,sha256=KN_HtRK6O9O4ZBZPMw3V4Dryc1HJI98EDd6dFRlHcjU,7868
+simdist/dists.py,sha256=CmKHKgfqWGTy3lI7rytNJxQhx8gbxDwSJHR4WmEPjxk,5555
+simdist-0.1.1.dist-info/RECORD,,
