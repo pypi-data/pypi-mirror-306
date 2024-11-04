@@ -1,0 +1,9 @@
+openscenesense/__init__.py,sha256=dvIp8k6GT0ctElobDOXbXyb-sMsvWFV6afFvzkoGwE4,1194
+openscenesense/analyzer.py,sha256=FuZXiFJVKgjIXhfpz4NkD9erUV2bACPqXfmN2P0YAII,19699
+openscenesense/frame_selectors.py,sha256=g_QMfuQJncrCP93BENWhx9i2pk7sqKVVSCIVEXR_mkc,7290
+openscenesense/models.py,sha256=33VRb7ZXCh-9kJD0a9VSfSjeTwVbQlUsbPNQmSAM88M,1542
+openscenesense/openrouter_analyzer.py,sha256=x5ILyMTlQ7xfZ2eS96mHvkCDyzSlUaysckgvMnW0wMs,3351
+openscenesense-1.0.0.dist-info/METADATA,sha256=6Lg2a_ZWtxmHnIkTIqu4tOqbygVX45f5HtfJhsfLct0,18288
+openscenesense-1.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+openscenesense-1.0.0.dist-info/licenses/LICENSE,sha256=6i_y4kQatY9Nwsy7GoSgT4zNcKfDNYY-VSs-GVWKqiQ,1080
+openscenesense-1.0.0.dist-info/RECORD,,
