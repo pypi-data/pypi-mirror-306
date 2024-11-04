@@ -1,0 +1,29 @@
+[project]
+name = "seqpro"
+version = "0.1.14"
+authors = [
+    { name = "David Laub", email = "dlaub@ucsd.edu" },
+    { name = "Adam Klie", email = "aklie@ucsd.edu" },
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+requires-python = ">=3.9"
+dependencies = ["numba>=0.58.1", "numpy>=1.26.0"]
+
+[project.optional-dependencies]
+dev = ["matplotlib", "pytest<8", "pytest-cases", "hypothesis", "pytest-benchmark"]
+
+[build-system]
+requires = ["maturin>=1.4,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+python-source = "python"
+features = ["pyo3/extension-module"]
+
+[tool.pyright]
+include = ['seqpro', 'notebooks', 'tests']
