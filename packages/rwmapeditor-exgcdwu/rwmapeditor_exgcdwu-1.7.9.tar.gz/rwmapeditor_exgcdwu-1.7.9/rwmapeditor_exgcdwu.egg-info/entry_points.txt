@@ -1,0 +1,4 @@
+[console_scripts]
+idrearrange = command:idrearrange
+triggerauto = command:triggerauto
+tsindep = command:tsindep
