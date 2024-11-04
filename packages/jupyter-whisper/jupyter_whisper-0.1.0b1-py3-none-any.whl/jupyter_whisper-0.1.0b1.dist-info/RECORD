@@ -1,0 +1,9 @@
+jupyter_whisper/__init__.py,sha256=qWMNbIMA2yVhNo9DXQa7cg98Sv3FFW9IvgN_qf6NvWw,26602
+jupyter_whisper/__version__.py,sha256=OgCIasb_M_UBtqzpbjF1qwi9E70Ycg8hZmXeYrgCA4g,123
+jupyter_whisper/search.py,sha256=O_EqwTBlUUjhi92Q2lP2ZT7BBWU9QFScSH8ALR5pMRo,1129
+jupyter_whisper/static/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyter_whisper/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyter_whisper-0.1.0b1.dist-info/METADATA,sha256=T7DyfSzjfqP8SWzIK8JFDPxF7A18NPIqMxc5eWdl6bg,5348
+jupyter_whisper-0.1.0b1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+jupyter_whisper-0.1.0b1.dist-info/top_level.txt,sha256=vo8XNY8COQfK3FZ7oR19lMvxWwXGx97pvcsFtJ5zuFM,16
+jupyter_whisper-0.1.0b1.dist-info/RECORD,,
