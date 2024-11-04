@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: enova-instrumentation-llmo
+Version: 0.0.7
+Summary: llmo instrumentation for OpenTelemetry
+Author: wenxinxie
+Author-email: wenxin@emergingai-tech.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: fastapi
+Requires-Dist: opentelemetry-api
+Requires-Dist: opentelemetry-distro
+Requires-Dist: opentelemetry-exporter-otlp
+Requires-Dist: opentelemetry-instrumentation-fastapi
+Requires-Dist: opentelemetry-sdk
+Requires-Dist: vllm (==v0.6.0)
