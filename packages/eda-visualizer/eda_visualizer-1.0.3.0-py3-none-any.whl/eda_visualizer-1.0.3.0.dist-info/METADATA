@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: eda-visualizer
+Version: 1.0.3.0
+Summary: A Python library for automatic univariate analysis using Pandas and Matplotlib
+Home-page: UNKNOWN
+Author: Rohan
+Author-email: rohanpatil4600@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+
+# eda_visualizer
+
+eda_visualizer is a Python library that automates univariate analysis on a given dataset using pandas, matplotlib, and seaborn.
+
+## Installation
+
+```bash
+pip install eda_visualizer
+
+## Imports
+from edaviz import eda_visualizer
+
+
