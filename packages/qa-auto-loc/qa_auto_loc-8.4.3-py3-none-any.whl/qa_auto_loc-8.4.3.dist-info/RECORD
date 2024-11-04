@@ -1,0 +1,12 @@
+auto_loc/__init__.py,sha256=bI-8B1uNo9675il0WISBW15TBvw0Im2q1e1d4_sV-uk,145
+auto_loc/create_setup.py,sha256=lWTCRepzpbRyseLt83ly1ws_5ze5BIkpNGlQyxBUp_g,1604
+auto_loc/inspector.py,sha256=rk9ajSukWlFHXrrkoiY9Y8QZyKzFimCVGdeDfGrN88w,10476
+auto_loc/locators.py,sha256=gbKmlbmu2E9edVHtipNXQB9wJyXnvdZI2orsTDFvj9Y,8260
+auto_loc/run_inspector.py,sha256=46aWU7IhRrL7qje8H5FKotIBLSPl_JkfO3hIGZo5ZDk,538
+auto_loc/run_text.txt,sha256=8tVRATFWrbTZe_tVuG9W3Vh6lqKLkGVZUyRhKgAFPW4,395
+auto_loc/utils.py,sha256=FnQaPYLwkpKb8ltRkH2HqIqdG5fjsyx-z3GdhzYbFBg,827
+qa_auto_loc-8.4.3.dist-info/METADATA,sha256=NAdLjOhIkL0EZ0ZKQZUQ6f-frxau6Vxk8BpJND6y-fg,542
+qa_auto_loc-8.4.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+qa_auto_loc-8.4.3.dist-info/entry_points.txt,sha256=KMfO4RiFVgisFDzAyGoMJEhggKoWfKSlcjq24_5-6ZA,143
+qa_auto_loc-8.4.3.dist-info/top_level.txt,sha256=PBusgP2zVrXFDHKuxxpIyaT9nGxv822oKYXEQ6IkwXs,9
+qa_auto_loc-8.4.3.dist-info/RECORD,,
