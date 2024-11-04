@@ -1,0 +1,2 @@
+[console_scripts]
+npdep_server = npdep_server.__main__:main
