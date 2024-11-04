@@ -1,0 +1,13 @@
+cookidoo_api/__init__.py,sha256=FrfE8gl9b5-iSOcIaIxVJxrPQsm7Jx8oOGdRIeM6euA,1193
+cookidoo_api/const.py,sha256=AKCSsUz_toIU6nbvnLgZkL85Y9-w54emRVGmzXHZSws,2228
+cookidoo_api/cookidoo.py,sha256=jXMct0e3M1WOhahGx0Yrv8-4k2sFGdWwf6GkNld52MY,48461
+cookidoo_api/exceptions.py,sha256=6LfZcZUsyKeeB3zNjTgGq3iBU3PXYALFiQAjG0-TEbk,703
+cookidoo_api/helpers.py,sha256=Ew9Vu8iUEGzNXR7Q-qqCy0auEL8rayDO447IK10MolA,2103
+cookidoo_api/localization.json,sha256=LDzI7lh-GeDBnX__brY8Iv8qWcYZxQX867FZySYSslM,49237
+cookidoo_api/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cookidoo_api/types.py,sha256=tTrBSzLv7xPYyE6kA3uwCEmEipkG9C-m2pkWOlLAKQs,1942
+cookidoo_api-0.4.0rc1.dist-info/LICENSE,sha256=Wtw2uLmDzGi8bzNGPrVq_rJwHzMPq-biV_H9ReKpUyA,1120
+cookidoo_api-0.4.0rc1.dist-info/METADATA,sha256=Z-shemt8R757oAc1BDU0c0mLx2ibOjIXXHVNTi_smu4,6522
+cookidoo_api-0.4.0rc1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+cookidoo_api-0.4.0rc1.dist-info/top_level.txt,sha256=soRg2ZRNamVXEyr_VejPpgT15eGYFAlJxv44Aei7J2A,13
+cookidoo_api-0.4.0rc1.dist-info/RECORD,,
