@@ -1,0 +1,2 @@
+[console_scripts]
+connectdev = chaser.__main__:main
