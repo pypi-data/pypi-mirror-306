@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: kal
+Version: 0.6.0
+Summary: Personal assistant cli tool
+Author: Jrog
+Author-email: jrog612@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: cleo (>=0.8.1,<0.9.0)
+Requires-Dist: cookiecutter (>=2.1.1,<3.0.0)
+Requires-Dist: pend (>=1.0.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# kal
+kal은 개인용 어시스턴트 CLI 툴입니다.
+
+개인 사용 목적으로 제작되어있기에 컨트리뷰트는 일절 받지 않습니다.
+
+
+## Installation
+
+```shell script
+pip install kal
+```
+
