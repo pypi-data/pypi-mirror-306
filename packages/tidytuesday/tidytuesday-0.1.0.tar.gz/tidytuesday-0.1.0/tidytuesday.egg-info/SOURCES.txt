@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tidytuesday/__init__.py
+tidytuesday/parse_zip.py
+tidytuesday/src.py
+tidytuesday.egg-info/PKG-INFO
+tidytuesday.egg-info/SOURCES.txt
+tidytuesday.egg-info/dependency_links.txt
+tidytuesday.egg-info/requires.txt
+tidytuesday.egg-info/top_level.txt
