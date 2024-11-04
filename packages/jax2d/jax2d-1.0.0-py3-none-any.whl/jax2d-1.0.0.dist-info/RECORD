@@ -1,0 +1,12 @@
+jax2d/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jax2d/collision.py,sha256=OQpJ-zmlAbFsX3X-EDmdhXv_FgRU3-0Ch16_cVsxNXk,20522
+jax2d/engine.py,sha256=taf0efsGdEccbn-Rwvh6tcNFkjy_KAfHzjxyTq8pXdI,45216
+jax2d/joint.py,sha256=fyPt4u71rEZcUQIceqUOwMRGFp6q7SbXH1rBOx-YN9Y,6830
+jax2d/maths.py,sha256=QDs7cRO8rEtY-WMJBVRM0spqcZ_rccOfGWruEr-TLfM,414
+jax2d/scene.py,sha256=XQ7jvSjeISBaPhb7OOib30M2x18grar1oQj5TKSDmeY,9371
+jax2d/sim_state.py,sha256=hK0FUsZV9OPSIfq1zsb4VGX3--kDvsPc09JkAaj14vk,3544
+jax2d-1.0.0.dist-info/LICENSE,sha256=_4TCcXcLOyZuBqG_xQuB4F37mBG1Xpz7VGhTyFGQvu8,1059
+jax2d-1.0.0.dist-info/METADATA,sha256=i1doEhFK5pzGkIyXfWDzanElF1c6ZMJK6MZ3aDwRcTI,6681
+jax2d-1.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+jax2d-1.0.0.dist-info/top_level.txt,sha256=eD03wOQ0Zrirrrm2B5KQRYB9HyBtJ9NpA8LzlTp-ARg,6
+jax2d-1.0.0.dist-info/RECORD,,
