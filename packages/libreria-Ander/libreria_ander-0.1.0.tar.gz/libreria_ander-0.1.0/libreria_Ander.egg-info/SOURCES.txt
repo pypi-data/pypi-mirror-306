@@ -1,0 +1,8 @@
+README.md
+setup.py
+libreria_Ander.egg-info/PKG-INFO
+libreria_Ander.egg-info/SOURCES.txt
+libreria_Ander.egg-info/dependency_links.txt
+libreria_Ander.egg-info/top_level.txt
+operaciones/__init__.py
+operaciones/lib.py
