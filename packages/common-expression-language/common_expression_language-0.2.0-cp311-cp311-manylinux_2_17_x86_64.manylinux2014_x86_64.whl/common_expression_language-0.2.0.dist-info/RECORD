@@ -1,0 +1,6 @@
+common_expression_language-0.2.0.dist-info/METADATA,sha256=Mpvkysh9zCk25fSgfd9QGmJLSjOtUu_c00FxdfQ1gi8,2029
+common_expression_language-0.2.0.dist-info/WHEEL,sha256=lbL5EWTI8o4jAohEMlOu6SEPfbFdTwghtb94Y7b9Hk0,129
+common_expression_language-0.2.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cel/__init__.py,sha256=h_HAUB92PrTFBZoo4ayzt0c_xIXdgm0-h599GIPEdh8,95
+cel/cel.cpython-311-x86_64-linux-gnu.so,sha256=t5LbsazWRruYyeRBEatOgZT8k5K7vy46traRtJrEJ_8,3823128
+common_expression_language-0.2.0.dist-info/RECORD,,
