@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "async-lightstreamer"
+version = "0.1.7"
+description = ""
+authors = ["Seyed Mahdi Sadegh Shobeiri <smss.lite@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.10.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+select = ["E4", "E7", "E9", "F", "B"]
+ignore = ['E501']
+fixable = ["ALL"]
+unfixable = ["B"]
+
+
+[tool.ruff.extend-per-file-ignores]
+"__init__.py" = ["F401", "E402"]
+"**/{tests,docs,tools}/*" = ["E402"]
+
+
+[tool.pylint."messages control"]
+max-line-length = 88
+disable = [
+  "too-few-public-methods",
+  "too-many-function-args",
+  "unexpected-keyword-arg",
+  "no-member",
+  "missing-module-docstring",
+  "missing-class-docstring",
+  "missing-function-docstring",
+  "invalid-name",
+  "too-many-instance-attributes",
+  "too-many-arguments",
+  "too-many-instance-attributes",
+  "import-error",
+  "no-name-in-module",
+  "duplicate-code",
+  "fixme",
+]
+
+[tool.pylint.refactoring]
+max-nested-blocks = 3
+
+[tool.black]
+line-length = 88
+
+[tool.pyright]
+reportMissingImports = false
+
+[tool.pydoclint]
+style = 'google'
