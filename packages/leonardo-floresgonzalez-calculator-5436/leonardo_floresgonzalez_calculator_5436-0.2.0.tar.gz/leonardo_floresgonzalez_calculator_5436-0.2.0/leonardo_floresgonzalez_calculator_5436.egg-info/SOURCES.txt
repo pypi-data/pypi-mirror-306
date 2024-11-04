@@ -1,0 +1,11 @@
+setup.py
+calculator/__init__.py
+calculator/advanced_operations.py
+calculator/basic_operations.py
+calculator/logarithms.py
+calculator/statistics.py
+calculator/trigonometry.py
+leonardo_floresgonzalez_calculator_5436.egg-info/PKG-INFO
+leonardo_floresgonzalez_calculator_5436.egg-info/SOURCES.txt
+leonardo_floresgonzalez_calculator_5436.egg-info/dependency_links.txt
+leonardo_floresgonzalez_calculator_5436.egg-info/top_level.txt
