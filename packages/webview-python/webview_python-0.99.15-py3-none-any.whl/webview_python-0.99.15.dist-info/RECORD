@@ -1,0 +1,8 @@
+webview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webview/_webview_ffi.py,sha256=xe3-MVoA7f-ZdhaNa3c_XBT35jQMDC7yKr80YXBvo60,4616
+webview/webview.py,sha256=AlW5SnasXeWS4skhwu30b0Upfr90SobVKU37MUZVTqc,2931
+webview_python-0.99.15.dist-info/LICENSE,sha256=I4hXdAjGE4JH-VoHpo4KKCdxNskzk_ECEhBjwP70xSU,1084
+webview_python-0.99.15.dist-info/METADATA,sha256=mabkhCU3vWyiGMhiqWjKhEsLPMM_BR-TjYMtJIXXu88,9223
+webview_python-0.99.15.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+webview_python-0.99.15.dist-info/top_level.txt,sha256=d5SpaV1yBkWk3tar-VrEOX-bBM9jXPlVdVNpN5FQrxA,8
+webview_python-0.99.15.dist-info/RECORD,,
