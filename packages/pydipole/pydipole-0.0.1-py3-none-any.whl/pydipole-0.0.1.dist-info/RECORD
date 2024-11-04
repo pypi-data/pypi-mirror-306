@@ -1,0 +1,12 @@
+pydipole/__init__.py,sha256=TMAstTgcAa3FBIXyA4qP6wmSQZu55ovQ3ph46M5fqyQ,1045
+pydipole/__main__.py,sha256=f4ehZcRa9uGwrA962WL3DNc0Ew2WOsemrpdrfXR6yEU,2433
+pydipole/_version.py,sha256=pMnmqZnpVmaqR5nqHztNWzbbtb1oy5bPN_v7uhOH8K8,411
+pydipole/periodic.py,sha256=CEDkPcRDnh-duaM3Zrr6Ge-f7B2bRVcMSqbhhGIONc0,9784
+pydipole/utils.py,sha256=ZO9ClZc76z2AB1ZSrPHPUYA1uziOMfnss9YvrqHU0kQ,1146
+pydipole/data/database.csv,sha256=Sb5GKoeejnpyaMn9DPvxQ5cEO97m2T40MCdf4TKZ3n4,94383
+pydipole/data/references.bib,sha256=C7VZeWd8d8OOKyZd417-MYqnd0abikCbrF6zgggzlYA,437748
+pydipole-0.0.1.dist-info/METADATA,sha256=-kFXMusgAoWMHGMGNPHs_WNIHo5RYNR6pTF0TE0t7to,4150
+pydipole-0.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pydipole-0.0.1.dist-info/entry_points.txt,sha256=S1JPzg7xY5soHOOa0rrHNZKRdMpvmqjxoGyxPirPylA,55
+pydipole-0.0.1.dist-info/top_level.txt,sha256=KC9BGsBE3w6Tlb7d2Eg6c4vgEut3dmmT6iZBy_1_wYw,9
+pydipole-0.0.1.dist-info/RECORD,,

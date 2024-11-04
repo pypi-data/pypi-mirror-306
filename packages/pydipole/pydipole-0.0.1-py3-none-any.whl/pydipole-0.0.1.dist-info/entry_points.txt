@@ -1,0 +1,2 @@
+[console_scripts]
+write-table = pydipole.__main__:main
