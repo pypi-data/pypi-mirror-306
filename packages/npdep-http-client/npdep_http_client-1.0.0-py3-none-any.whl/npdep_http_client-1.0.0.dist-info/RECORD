@@ -1,0 +1,17 @@
+npdep_http_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npdep_http_client/__main__.py,sha256=DL0H1bJuLrjx5ziVCviI9dETcgDIJp5H76lUwZgRH7w,1090
+npdep_http_client/args/Args.py,sha256=xS7KCGNmz7uGX8Z8FU_M4wkeMEtfjJtAGRvbqHFc4ts,856
+npdep_http_client/args/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npdep_http_client/client/Client.py,sha256=4cYVuQZ4LwtFg1VzUs0NMRED1VF-bJVK6kncXfgV3nU,1034
+npdep_http_client/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npdep_http_client/output/Output.py,sha256=zQEqtdbDfwkw8a0Qs_t_cokMLD01UL9diiQuUaa5ueo,1072
+npdep_http_client/output/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npdep_http_client/type/RequestType.py,sha256=xWS3zHuGk_6yFL6_RycVM2G8hMDg-3rLV3aeF5kvZhs,145
+npdep_http_client/type/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npdep_http_client/util/Util.py,sha256=toZG6twt79iBqsxqh1KIummA27cL8LGhJJQJ1pRIdps,462
+npdep_http_client/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npdep_http_client-1.0.0.dist-info/METADATA,sha256=elf49T9L9qdWaIA3p4PGCP2PyG2v4PE_BjNzMNxppcY,2042
+npdep_http_client-1.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+npdep_http_client-1.0.0.dist-info/entry_points.txt,sha256=nFP8zBWARlG3ZkHinU8BogRGQ2GMIIPZ4SLUee5tfgI,70
+npdep_http_client-1.0.0.dist-info/top_level.txt,sha256=YXcAXbMUTWMzhpW3mew2g82T6GNaPcdmR6ljZJSC1FI,18
+npdep_http_client-1.0.0.dist-info/RECORD,,
