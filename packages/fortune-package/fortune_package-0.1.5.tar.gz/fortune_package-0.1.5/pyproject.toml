@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fortune_package"
+version = "0.1.5"
+description = "A funny fortunes generator package"
+readme = "README.md"
+authors = [
+    { name = "Yuhao Sheng", email = "ys4689@nyu.edu" },
+    { name = "Ryoma Nagano", email = "rn2247@nyu.edu" },
+    { name = "Qiyuan Yin", email = "qy765@nyu.edu" },
+    { name = "Andrea Tang", email = "xt2073@nyu.edu" },
+]
+license = { text = "MIT" }
+dependencies = [
+    "python-dotenv",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests*"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

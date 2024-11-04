@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/fortune_package.egg-info/PKG-INFO
+src/fortune_package.egg-info/SOURCES.txt
+src/fortune_package.egg-info/dependency_links.txt
+src/fortune_package.egg-info/requires.txt
+src/fortune_package.egg-info/top_level.txt
+src/fortunes/__init__.py
+src/fortunes/getMultipleFortunes.py
+src/fortunes/get_quotes_by_author.py
+src/fortunes/random_fortune.py
+src/fortunes/send_email.py
+tests/test_fortune.py
