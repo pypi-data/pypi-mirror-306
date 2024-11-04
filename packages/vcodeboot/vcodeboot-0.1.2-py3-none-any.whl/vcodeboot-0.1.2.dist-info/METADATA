@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: vcodeboot
+Version: 0.1.2
+Summary: Fonctions de Codeboot 5.
+Home-page: https://github.com/Victorio-NASCIMENTO/Fonctions_Codeboot/tree/main
+Author: Victorio N.
+Author-email: victorio.nascimento@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pygame
+Requires-Dist: pymsgbox
+
+# Codeboot
+
+
+
+## Installation
+```bash
+pip install vcodeboot
+```
+
+Pour plus de détails, consultez la documentation complète sur : https://victorio-nascimento.github.io/Fonctions_Codeboot/
