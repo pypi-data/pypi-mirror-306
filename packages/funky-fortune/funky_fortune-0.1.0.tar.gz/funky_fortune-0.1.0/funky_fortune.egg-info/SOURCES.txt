@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+funky_fortune/__init__.py
+funky_fortune/main.py
+funky_fortune.egg-info/PKG-INFO
+funky_fortune.egg-info/SOURCES.txt
+funky_fortune.egg-info/dependency_links.txt
+funky_fortune.egg-info/requires.txt
+funky_fortune.egg-info/top_level.txt
+tests/test_fortune_cookie.py
+tests/test_integration.py
+tests/test_lucky_number.py
+tests/test_magic_8ball.py
+tests/test_zodiac.py
