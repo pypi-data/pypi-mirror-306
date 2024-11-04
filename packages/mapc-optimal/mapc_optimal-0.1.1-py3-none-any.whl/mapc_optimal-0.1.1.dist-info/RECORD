@@ -1,0 +1,11 @@
+mapc_optimal/__init__.py,sha256=BEcVrPfeR1fPzKZaLA7yWkfUHPlliMmtmbCvSxk1Rqc,129
+mapc_optimal/constants.py,sha256=LvK8Mi3DE11g_5Ru-oEQtZ6CgIfgbyLVG6WL2-32qoU,1466
+mapc_optimal/main.py,sha256=Q06gA5ZUNt8aXWFwNJTrWKLVEPR5rjd_XuvPtl8b3-Y,4180
+mapc_optimal/pricing.py,sha256=NE078qpBhZqOj_4I8-jCOhb0lJ89z7xrBMRb_CcUJYs,9936
+mapc_optimal/solver.py,sha256=Sz4pCwCch4mxOdtIJnh5KzUc385lbrbo2UdSRFT2BMA,12885
+mapc_optimal/utils.py,sha256=0ZjZ4fvJLqWJoFkaZY82YmCynWn1i0q_UYXioyCid0s,2493
+mapc_optimal-0.1.1.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+mapc_optimal-0.1.1.dist-info/METADATA,sha256=YnIaOK7yH5kTzrmACk0IN9dpTDqkRzHA9M9WfYVE-pI,12329
+mapc_optimal-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+mapc_optimal-0.1.1.dist-info/top_level.txt,sha256=vAhJABOlEj7PIKDxLh9-r0ICK_yS_Ei8wvJxyjO2CYM,13
+mapc_optimal-0.1.1.dist-info/RECORD,,
