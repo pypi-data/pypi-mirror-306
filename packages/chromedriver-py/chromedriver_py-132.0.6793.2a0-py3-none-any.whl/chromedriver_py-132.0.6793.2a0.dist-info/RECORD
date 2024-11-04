@@ -1,0 +1,11 @@
+chromedriver_py/__init__.py,sha256=-Wk_bVFht5MB3TWxTIhU7ExtxcFaLM_WE8qAS_KYbtM,1286
+chromedriver_py/chromedriver_linux64,sha256=vP_OI8e0A39BkhhSikt12gwsBAhwGOYPN9A9OKvzuZc,19531440
+chromedriver_py/chromedriver_mac-arm64,sha256=aIRlCLFvDQjO6gbgRIB1z8THToCSf4Rm5PfRCkOCMGU,14589488
+chromedriver_py/chromedriver_mac-x64,sha256=4cG9wxmYKaBMxnKFFofSjl5BHReWmV2vBTgABl4xjGk,15330840
+chromedriver_py/chromedriver_win32.exe,sha256=KffIWczMNnxQwnfu9BR1-G0d-sj__gabc2UcK-g5lSo,15321600
+chromedriver_py/chromedriver_win64.exe,sha256=JO6psHJvaij8pwRbdn5QtiV9CshkimtpzHwqsYpJMjo,17856512
+chromedriver_py-132.0.6793.2a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+chromedriver_py-132.0.6793.2a0.dist-info/METADATA,sha256=HXSBgKQWsv5qO_5vTjV_D27tsUpOWpin4FT4RSsxpzk,1825
+chromedriver_py-132.0.6793.2a0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+chromedriver_py-132.0.6793.2a0.dist-info/top_level.txt,sha256=85VGpxKcFIE56zyNeyEsJm_Qk8nxGsK_jLtQww5ib1k,16
+chromedriver_py-132.0.6793.2a0.dist-info/RECORD,,
