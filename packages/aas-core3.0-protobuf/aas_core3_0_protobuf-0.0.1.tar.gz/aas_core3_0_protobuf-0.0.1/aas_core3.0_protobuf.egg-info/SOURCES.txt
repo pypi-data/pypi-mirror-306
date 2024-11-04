@@ -1,0 +1,15 @@
+AUTHORS
+LICENSE
+README.md
+pyproject.toml
+aas_core3.0_protobuf.egg-info/PKG-INFO
+aas_core3.0_protobuf.egg-info/SOURCES.txt
+aas_core3.0_protobuf.egg-info/dependency_links.txt
+aas_core3.0_protobuf.egg-info/requires.txt
+aas_core3.0_protobuf.egg-info/top_level.txt
+aas_core3_protobuf/__init__.py
+aas_core3_protobuf/pbization.py
+aas_core3_protobuf/types_pb2.py
+aas_core3_protobuf/types_pb2.pyi
+tests/test_pbization.py
+tests/test_protobuf.py
