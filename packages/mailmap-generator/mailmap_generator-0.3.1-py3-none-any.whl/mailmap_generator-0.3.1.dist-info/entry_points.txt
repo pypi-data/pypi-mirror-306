@@ -1,0 +1,3 @@
+[console_scripts]
+mailmap=mailmap_generator.cli:main
+

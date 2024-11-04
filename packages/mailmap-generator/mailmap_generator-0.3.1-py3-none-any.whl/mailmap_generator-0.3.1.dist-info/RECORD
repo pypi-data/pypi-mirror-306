@@ -1,0 +1,7 @@
+mailmap_generator/__init__.py,sha256=WHizC8UzElmTH3641zjnMTLUHmP2rliWLTalgHU6vMA,75
+mailmap_generator/cli.py,sha256=9FEzDifM3XcBG5RdmdNUVqSetI6vql70IlJqrKDzzZM,1178
+mailmap_generator/mailmap.py,sha256=3Im4KnDtuDJ8xOOVhQbbeHr-npzB08tvle0MLwtPZFA,4792
+mailmap_generator-0.3.1.dist-info/METADATA,sha256=s6EM2O-2M1--MY8Tzf33djN0amAxY1NPzwqGsnWsvqs,3222
+mailmap_generator-0.3.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+mailmap_generator-0.3.1.dist-info/entry_points.txt,sha256=9NgOigR0H4todov3VEQ3HCvJr2yeCZbHl5qPQ6GLOO4,54
+mailmap_generator-0.3.1.dist-info/RECORD,,
