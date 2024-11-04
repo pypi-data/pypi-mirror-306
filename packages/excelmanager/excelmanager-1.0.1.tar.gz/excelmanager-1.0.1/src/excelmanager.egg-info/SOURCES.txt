@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/excelmanager/__init__.py
+src/excelmanager/excel_manager.py
+src/excelmanager.egg-info/PKG-INFO
+src/excelmanager.egg-info/SOURCES.txt
+src/excelmanager.egg-info/dependency_links.txt
+src/excelmanager.egg-info/requires.txt
+src/excelmanager.egg-info/top_level.txt
+tests/test_excelmanager.py

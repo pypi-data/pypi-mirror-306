@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "excelmanager"
+version = "1.0.1"
+authors = [
+  { name="Erik Bierbrauer" },
+]
+description = "A simplified wrapper around `openpyxl` optimized for easy read and write operations."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "openpyxl==3.1.5"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ebier92/excelmanager"
+"Bug Tracker" = "https://github.com/ebier92/excelmanager/issues"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
