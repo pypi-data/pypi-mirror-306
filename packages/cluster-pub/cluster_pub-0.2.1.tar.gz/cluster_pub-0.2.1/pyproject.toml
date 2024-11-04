@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "cluster-pub"
+version = "0.2.1"
+description = "CLI to cluster scientific papers"
+authors = ["felipe barcelos <felipebarcelos@ufu.br>"]
+readme = "Pypi.md"
+
+[tool.poetry.dependencies]
+typer = "~0.12.5"
+bibtexparser = "~1.4.1"
+rispy = "~0.9.0"
+nbib = "~0.3.2"
+scikit-learn = "~1.5.2"
+scipy = "~1.14.1"
+matplotlib = "~3.9.2"
+python = "~3.11"
+
+[tool.poetry.dev-dependencies]
+black = "~24.8.0"
+
+[tool.poetry.scripts]
+cluster-pub = "cluster_pub.main:application"
+cluster-pub-metrics = "cluster_pub.cluster_evaluation:application"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
