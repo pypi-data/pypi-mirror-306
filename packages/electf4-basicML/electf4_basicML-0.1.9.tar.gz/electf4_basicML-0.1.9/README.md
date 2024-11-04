@@ -1,0 +1,1 @@
+You can use this package work with the result predicted from Tensorflow, if you want to the see example you following: [Example](https://github.com/oatanurakch/electf4_BasicML/blob/master/example.ipynb).

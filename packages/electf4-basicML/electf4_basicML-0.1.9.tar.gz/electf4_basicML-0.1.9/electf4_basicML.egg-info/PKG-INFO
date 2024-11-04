@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: electf4-basicML
+Version: 0.1.9
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+You can use this package work with the result predicted from Tensorflow, if you want to the see example you following: [Example](https://github.com/oatanurakch/electf4_BasicML/blob/master/example.ipynb).
+
+
