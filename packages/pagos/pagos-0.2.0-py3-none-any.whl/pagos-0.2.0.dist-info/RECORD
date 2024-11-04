@@ -1,0 +1,18 @@
+pagos/__init__.py,sha256=kiZm52DEtzOKTw42veuxOEbNwBXftltZltd2Cs3UoRw,1454
+pagos/_pretty_gas_wrappers.py,sha256=BL1rNA93Pau6nIxDNKR33Icz59N1C89FSZa9P4qrqcw,4058
+pagos/builtin_models.py,sha256=hTifmoUSEJI275oKxfzjuIGHHDHFSqvyy7B4CD7MUvs,7458
+pagos/constants.py,sha256=oX98f2PX5iJ25T8YQvQgRlImqukuLBaPg1_E2FWieSg,5909
+pagos/core.py,sha256=DlIO7g3giaLKSDmnoRUItxbVHrl89w2aMmNXjIp0cPs,10895
+pagos/gas.py,sha256=3__ej3kOMSVYEE_jDQIv8T93shny1p5QNhk6lkT1dJE,26030
+pagos/modelling.py,sha256=C04vnO3vD9-5e0UkxgO3L6SmpLKP8Lq097E8HckuMMI,40742
+pagos/plotting.py,sha256=AhMnJcECtanVVP3PE3DwdoUX5wGtp8rZxkRfAIzUrwc,3818
+pagos/water.py,sha256=VniPmMZLKchzXwe7VqbPm0iqYy-oHLV0kM2VVurSFtg,5207
+pagos/Old modules - delete later/builtin_modelsOLD.py,sha256=CMcUN3xFE2V2dN0ge4wdjKP3gCnhywJmQKLhfhMGAks,7683
+pagos/Old modules - delete later/constantsOLD.py,sha256=9FFNqo4whQBJc5A1wfd0bGnpv9ZN_u6EjVq4WCGaGOA,7728
+pagos/Old modules - delete later/gasOLD.py,sha256=DQ75CvX8lUc0HufbB-MjO7DcpxHR9QOIZMLQN4axGiY,19987
+pagos/Old modules - delete later/modellingOLD.py,sha256=YoGD8Zl6cROKETwaiqpSyPPdcMCoDpgi_wsWqVO5pOw,13905
+pagos/Old modules - delete later/waterOLD.py,sha256=Um36RZCRQ2BmSDBsQ3g6A7z9pWLABMWbGE5EKc4LGeM,3524
+pagos-0.2.0.dist-info/METADATA,sha256=2wnrmrZBcG9DCrRQVWlCc9ogBHoLJhTbHv110M9onTk,6070
+pagos-0.2.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pagos-0.2.0.dist-info/top_level.txt,sha256=OnjTPLOZhJYCN59falEBpOUTB0N42H1FRk2Zm5RSBQo,6
+pagos-0.2.0.dist-info/RECORD,,
