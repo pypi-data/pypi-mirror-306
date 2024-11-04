@@ -1,0 +1,11 @@
+creality_wifi_box_client/__init__.py,sha256=1LCcBY_y7NbEEpUhEI9yxEwGI-E0xHYdAtyVe1Dpznc,50
+creality_wifi_box_client/box_info.py,sha256=osQpvGGM8qrljop1ZewRd5caexrUa-B70Et5yHQM-7A,10839
+creality_wifi_box_client/creality_wifi_box_client.py,sha256=LApcLhYpbqvc1KraeaUlf66wqKOPMQLb566Rdj6xajs,2072
+tests/__init__.py,sha256=1nI7Za4Te8naWHUnQ4OXqj6hpbcTxwPt3DLBcQKKoJY,22
+tests/test_box_info.py,sha256=g9xbvsFtSUdPf3CpfYxeODs1wLA6Kl3H3Npa2MW6nk8,7865
+tests/test_wifi_box_client.py,sha256=PTs5hegVbTJ0hQkaPXLdNNqCMo682GXJpWi2E9xzsmU,4250
+creality_wifi_box_client-0.0.3.dist-info/LICENSE,sha256=0hDuUem83iQVYVbM4BSvQHpNWlNbAtEJwrfKAIDBxMI,1117
+creality_wifi_box_client-0.0.3.dist-info/METADATA,sha256=iP5GFHD_aznp6vJqs9dwqaKvcQXlDD-QIBbEEuKGyi0,482
+creality_wifi_box_client-0.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+creality_wifi_box_client-0.0.3.dist-info/top_level.txt,sha256=3CRbn8pLiUv1UPMKq_EbU3TKlK-4WM1iUnsgRXgiHVo,31
+creality_wifi_box_client-0.0.3.dist-info/RECORD,,
