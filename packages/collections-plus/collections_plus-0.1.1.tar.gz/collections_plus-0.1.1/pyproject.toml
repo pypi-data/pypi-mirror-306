@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "collections-plus"
+version = "0.1.1"
+description = "A Python library to implement various data structures."
+authors = ["ricE06 <ezzhaneri06@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
