@@ -1,0 +1,26 @@
+2024-11-04 09:03:11,329 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-11-04 09:03:11,533 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-11-04 09:03:11,610 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-11-04 09:03:11,610 - AdsLogger - INFO - Temps d'exécution de connect: 0.0764 secondes.
+2024-11-04 09:03:11,624 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-11-04 09:03:11,631 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0208 secondes.
+2024-11-04 09:03:11,730 - AdsLogger - INFO - Connexion à test réussie.
+2024-11-04 09:03:11,730 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-11-04 09:03:11,979 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-11-04 09:03:12,020 - AdsLogger - INFO - 5 lignes insérées avec succès dans la table insert_test_2.
+2024-11-04 09:03:12,110 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-11-04 09:03:12,110 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.1239 secondes.
+2024-11-04 09:03:12,115 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-11-04 09:03:12,116 - AdsLogger - INFO - 5 lignes lues.
+2024-11-04 09:03:12,202 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-11-04 09:03:12,202 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0921 secondes
+2024-11-04 09:03:12,205 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-11-04 09:03:12,206 - AdsLogger - INFO - 5 lignes lues.
+2024-11-04 09:03:12,298 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-11-04 09:03:12,298 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0962 secondes
+2024-11-04 09:03:12,303 - AdsLogger - INFO - Les données insérées correspondent bien à la source.
+2024-11-04 09:03:12,303 - AdsLogger - INFO - 5 ligne(s) lue(s).
+2024-11-04 09:03:12,389 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-11-04 09:03:12,389 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.4489 secondes
+2024-11-04 09:03:12,390 - AdsLogger - INFO - Temps d'exécution de run: 0.7587 secondes.
+2024-11-04 09:03:12,390 - AdsLogger - INFO - Fin de la démonstration
