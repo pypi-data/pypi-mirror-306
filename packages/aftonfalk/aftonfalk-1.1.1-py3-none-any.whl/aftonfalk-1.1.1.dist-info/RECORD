@@ -1,0 +1,9 @@
+aftonfalk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aftonfalk/mssql/driver.py,sha256=_dVy_SnbhyjLRCkX83GZx0dOUj52kYj_4FzeNYpKg7I,10830
+aftonfalk/mssql/enums_.py,sha256=70a3pWMDpuQzWXFWKe4o17G4kbXII9oBbO7atcThDsU,1828
+aftonfalk/mssql/types_.py,sha256=fJgr3iyohWsKOq2zy5MKaSYQYiU1-SO18vjzS7MjeEg,6251
+aftonfalk-1.1.1.dist-info/LICENSE,sha256=3FXL3ZkW7FnuzdI9JnHY9u21FbtwriDhCKonBnbSJME,1071
+aftonfalk-1.1.1.dist-info/METADATA,sha256=gIaDEriT-3ZxUlEsakraqPjVvBqLZdxlHLFDxS09HuM,2889
+aftonfalk-1.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+aftonfalk-1.1.1.dist-info/top_level.txt,sha256=VVQrtrHnPzhl1ClwDhY93qNUnTQhMRpdy6HrnV2E220,10
+aftonfalk-1.1.1.dist-info/RECORD,,
