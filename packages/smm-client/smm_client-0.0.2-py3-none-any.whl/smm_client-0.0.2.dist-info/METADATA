@@ -1,0 +1,46 @@
+Metadata-Version: 2.3
+Name: smm-client
+Version: 0.0.2
+Summary: Python client to interact with Search Management Map
+Project-URL: Documentation, https://github.com/canterbury-air-patrol/smm-python#readme
+Project-URL: Issues, https://github.com/canterbury-air-patrol/smm-python/issues
+Project-URL: Source, https://github.com/canterbury-air-patrol/smm-python
+Author-email: Canterbury Air Patrol Inc <github@canterburyairpatrol.org>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: imt,incident management,sar,search and rescue,search management map
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: requests>=2.32.3
+Description-Content-Type: text/markdown
+
+# smm_client
+
+[![PyPI - Version](https://img.shields.io/pypi/v/smm-client.svg)](https://pypi.org/project/smm-client)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/smm-client.svg)](https://pypi.org/project/smm-client)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install smm-client
+```
+
+## License
+
+`smm-client` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
