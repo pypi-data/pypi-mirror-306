@@ -1,0 +1,7 @@
+geobbox/__init__.py,sha256=wCgL-WD1Z6no-PH5jE7bHXxhIG789Aa-UBUObNGIYhw,195
+geobbox/geobbox.py,sha256=4L04HQNx-N946fQuohMpnsCBtPEDAqDzRYFTTTHalDQ,16475
+geobbox/utm.py,sha256=Dt2A-FsJjXQKAAGuCILKc2lJ82q1KoEY00cPLxtqOX0,4519
+geobbox-0.0.1.dist-info/LICENSE,sha256=BMjooYIGce9-r1w-P25w1JkqpNPB77wrpV4tGlroFMQ,1321
+geobbox-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+geobbox-0.0.1.dist-info/METADATA,sha256=c0RT7l140CBXnh56kvVmk3RAGxCeMCFYQJstvooqKqg,1790
+geobbox-0.0.1.dist-info/RECORD,,
