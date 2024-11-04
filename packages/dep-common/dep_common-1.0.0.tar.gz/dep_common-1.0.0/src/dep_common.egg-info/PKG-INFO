@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dep_common
+Version: 1.0.0
+Summary: Provides common functionality for dep_reader and dep_client
+Home-page: https://github.com/npdep/dep-common
+Author: npdep
+Classifier: Operating System :: OS Independent 
+Classifier: Programming Language :: Python :: 3 
+Description-Content-Type: text/markdown
+
+# Description
+
+Provides common functionality for `dep_reader` and `dep_client`
+
+# Installation
+
+`pip install dep_common`
+
+# Usage
+
+This module does not have any direct functionalty. 
+It does only provide common types and capabilites to `dep_reader` and `dep_client`

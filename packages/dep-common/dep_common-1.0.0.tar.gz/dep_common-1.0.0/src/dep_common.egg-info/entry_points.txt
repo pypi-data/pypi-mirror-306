@@ -1,0 +1,2 @@
+[console_scripts]
+dep_common = dep_common.__main__:main
