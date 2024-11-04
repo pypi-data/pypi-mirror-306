@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: GravCap
+Version: 24.0.1
+Summary: GravCap is a Python tool designed to calculate the gravimetric storage capacity of hydrogen molecules adsorbed on the materials. This utility determines the theoretical weight-based storage capacity.
+Home-page: UNKNOWN
+Author: Narender Kumar
+Author-email: bansalnarender25@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Calculate the weight percent (wt%) of H2 molecules adsorbed on the system. This library uses the mendeleev library for the molar mass contributions of user-defined atomic species.
+
