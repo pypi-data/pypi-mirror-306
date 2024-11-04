@@ -1,0 +1,74 @@
+[build-system]
+requires = ["flit_core>=3.9,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "sphinx-tsn-theme"
+dynamic = ["version"]
+
+requires-python = ">=3.9"
+dependencies = [
+    "sphinx-rtd-theme>=3.0",
+]
+
+authors = [
+    {name = "Stephan Linz", email = "linz@li-pro.net"},
+    {name = "Sarah Renkhoff", email = "sarah.renkhoff@navimatix.de"},
+    {name = "Tobias Kästner", email = "tobias.kaestner.jena@gmail.com"},
+]
+
+maintainers = [
+    {name = "Stephan Linz", email = "linz@li-pro.net"},
+    {name = "TiaC Systems Network", email = "info@tiac-systems.net"},
+]
+
+description = "TiaC Systems Network (TSN) theme for Sphinx"
+readme = {content-type = "text/x-rst", file = "README.rst"}
+license = {file = "LICENSE"}
+
+# Classifiers list: https://pypi.org/classifiers
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Environment :: Web Environment",
+    "Framework :: Sphinx",
+    "Framework :: Sphinx :: Theme",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Documentation",
+    "Topic :: Documentation :: Sphinx",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Text Processing",
+    "Topic :: Text Processing :: Markup",
+    "Topic :: Text Processing :: Markup :: HTML",
+]
+keywords = ["sphinx", "theme", "TiaC Systems Network", "tiac", "tiacsys", "tsn"]
+
+# Well-known Project URLs list:
+# https://packaging.python.org/en/latest/specifications/well-known-project-urls/
+[project.urls]
+Homepage = "https://www.tiac-systems.net/"
+Documentation = "https://github.com/tiacsys/sphinx-tsn-theme#readme-ov-file"
+GitHub = "https://github.com/tiacsys/sphinx-tsn-theme"
+Repository = "https://github.com/tiacsys/sphinx-tsn-theme.git"
+Issues = "https://github.com/tiacsys/sphinx-tsn-theme/issues"
+Changelog = "https://github.com/tiacsys/sphinx-tsn-theme/releases"
+Download = "https://pypi.org/project/sphinx-tsn-theme/"
+
+[project.entry-points]
+"sphinx.html_themes" = {sphinx_tsn_theme = "sphinx_tsn_theme"}
