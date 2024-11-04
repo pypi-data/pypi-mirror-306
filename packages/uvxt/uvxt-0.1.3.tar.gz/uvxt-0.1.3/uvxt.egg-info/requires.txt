@@ -1,0 +1,5 @@
+typer>=0.10
+uv-audit>=0.1.2
+uv-stats>=0.1.0
+uv-up>=0.1.0
+uv-version>=0.1.1
