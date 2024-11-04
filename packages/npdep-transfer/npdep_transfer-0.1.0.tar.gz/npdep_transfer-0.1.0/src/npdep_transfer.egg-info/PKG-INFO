@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: npdep_transfer
+Version: 0.1.0
+Summary: Transfer Modules for Network Protocol Data Exfiltration Project Client
+Home-page: https://github.com/npdep/npdep-transfer
+Author: npdep
+Classifier: Operating System :: OS Independent 
+Classifier: Programming Language :: Python :: 3 
+Description-Content-Type: text/markdown
+Requires-Dist: dep_common
+Requires-Dist: dep_client
+Requires-Dist: npdep_icmp_client
+Requires-Dist: npdep_http_client
+Requires-Dist: foi
+
+# Description
+
+Transfer Modules for Network Protocol Data Exfiltration Project Client
+
+# Installation
+
+`pip install npdep_transfer`
+
+# Usage
+
+It does not have any direct functionality. It does only provide transfer modules for NPDEP
