@@ -1,0 +1,81 @@
+from testapp.perms.apps.account import (
+    INVITE_CREATE,
+    INVITE_DELETE,
+    INVITE_EDIT,
+    INVITE_MANAGE,
+    INVITE_VIEW,
+    PERMISSION_VIEW,
+    PROFILE_CREATE,
+    PROFILE_DELETE,
+    PROFILE_EDIT,
+    PROFILE_MANAGE,
+    PROFILE_VIEW,
+    ROLE_CREATE,
+    ROLE_DELETE,
+    ROLE_EDIT,
+    ROLE_MANAGE,
+    ROLE_VIEW,
+    USER_CREATE,
+    USER_DELETE,
+    USER_EDIT,
+    USER_MANAGE,
+    USER_VIEW,
+)
+from testapp.perms.apps.org_structure import (
+    BRANCH_CREATE,
+    BRANCH_DELETE,
+    BRANCH_EDIT,
+    BRANCH_VIEW,
+    DEPARTMENT_CREATE,
+    DEPARTMENT_DELETE,
+    DEPARTMENT_EDIT,
+    DEPARTMENT_VIEW,
+    ORGANISATION_CREATE,
+    ORGANISATION_DELETE,
+    ORGANISATION_EDIT,
+    ORGANISATION_VIEW,
+)
+
+__all__ = (
+    # organisation
+    "ORGANISATION_CREATE",
+    "ORGANISATION_DELETE",
+    "ORGANISATION_EDIT",
+    "ORGANISATION_VIEW",
+    # department
+    "DEPARTMENT_CREATE",
+    "DEPARTMENT_DELETE",
+    "DEPARTMENT_EDIT",
+    "DEPARTMENT_VIEW",
+    # branch
+    "BRANCH_CREATE",
+    "BRANCH_DELETE",
+    "BRANCH_EDIT",
+    "BRANCH_VIEW",
+    # permissions
+    "PERMISSION_VIEW",
+    # roles
+    "ROLE_VIEW",
+    "ROLE_CREATE",
+    "ROLE_EDIT",
+    "ROLE_DELETE",
+    "ROLE_MANAGE",
+    # users
+    "USER_VIEW",
+    "USER_CREATE",
+    "USER_EDIT",
+    "USER_DELETE",
+    "USER_MANAGE",
+    # profile
+    "PROFILE_CREATE",
+    "PROFILE_DELETE",
+    "PROFILE_EDIT",
+    "PROFILE_VIEW",
+    "PROFILE_MANAGE",
+    # invites
+    "INVITE_CREATE",
+    "INVITE_DELETE",
+    "INVITE_EDIT",
+    "INVITE_VIEW",
+    "INVITE_MANAGE",
+)
