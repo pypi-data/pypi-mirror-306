@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+lzx_pypi_test.egg-info/PKG-INFO
+lzx_pypi_test.egg-info/SOURCES.txt
+lzx_pypi_test.egg-info/dependency_links.txt
+lzx_pypi_test.egg-info/requires.txt
+lzx_pypi_test.egg-info/top_level.txt
