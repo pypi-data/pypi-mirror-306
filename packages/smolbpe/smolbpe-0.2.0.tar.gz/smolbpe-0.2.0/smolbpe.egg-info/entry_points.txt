@@ -1,0 +1,2 @@
+[console_scripts]
+gpt4tokenizer = smolbpe.gpt4Tokenizer:main
