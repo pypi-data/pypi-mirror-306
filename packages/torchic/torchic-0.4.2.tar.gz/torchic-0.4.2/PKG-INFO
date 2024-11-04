@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: torchic
+Version: 0.4.2
+Summary: A Python library for data analysis in python and ROOT (tailored for high energy physics)
+Home-page: https://github.com/GiorgioAlbertoLucia/torchic
+Author: Giorgio Alberto Lucia, Roberta Ferioli
+Author-email: giogioalberto@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy<2.0
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: pyYAML
+Requires-Dist: uproot
+Provides-Extra: root
+Requires-Dist: ROOT; extra == "root"
+
+# torchic
+**Tools for Optimized Research in Computational HIgh-energy physiCs.**
