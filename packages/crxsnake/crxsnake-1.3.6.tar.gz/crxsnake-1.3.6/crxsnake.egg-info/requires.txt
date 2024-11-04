@@ -1,0 +1,5 @@
+setuptools==72.2.0
+tortoise-orm==0.21.0
+disnake==2.9.2
+aiofiles==23.2.1
+loguru==0.7.2
