@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: mcp-persor
+Version: 1.0.6
+Summary: It parses bvh files so you can easily handle them.
+Home-page: https://github.com/SatooRu65536/mcp_persor
+Download-URL: https://github.com/SatooRu65536/mcp_persor
+Author: SatooRu
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.25.2
+Requires-Dist: pandas>=2.0.3
+Requires-Dist: matplotlib>=3.8.1
+Requires-Dist: japanize-matplotlib>=1.1.3
+
+# mcp_persor
+mocopiで作成したBVHファイルを解析するパッケージです。
+
+# インストール
+```bash
+pip install git+https://github.com/SatooRu65536/mcp_persor.git
+
+or
+
+pip install mcp-persor
+```
+
+# 使い方
+## インポート
+```python
+from mcp_persor import BVHparser
+```
+
+## ファイルを読み込む
+```python
+bvhp = BVHparser('path/to/bvh/file')
+```
+
+## Dataframe として取得する
+```python
+motion_df = bvhp.get_motion_df()
+```
+
+# LICENSE
+[MIT](./LICENSE)
