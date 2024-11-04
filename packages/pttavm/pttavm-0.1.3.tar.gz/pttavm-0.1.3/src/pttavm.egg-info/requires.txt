@@ -1,0 +1,11 @@
+requests
+xmltodict
+python-dateutil
+python-dotenv
+
+[dev]
+pytest>=6.0
+pytest-cov
+black
+isort
+flake8
