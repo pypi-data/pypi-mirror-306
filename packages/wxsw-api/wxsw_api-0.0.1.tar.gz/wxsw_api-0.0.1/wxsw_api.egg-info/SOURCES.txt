@@ -1,0 +1,8 @@
+README.md
+setup.py
+build_model/__init__.py
+build_model/test.py
+wxsw_api.egg-info/PKG-INFO
+wxsw_api.egg-info/SOURCES.txt
+wxsw_api.egg-info/dependency_links.txt
+wxsw_api.egg-info/top_level.txt
