@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+DataCleanerAI/__init__.py
+DataCleanerAI/analyzer.py
+DataCleanerAI/interact.py
+DataCleanerAI/learn.py
+DataCleanerAI.egg-info/PKG-INFO
+DataCleanerAI.egg-info/SOURCES.txt
+DataCleanerAI.egg-info/dependency_links.txt
+DataCleanerAI.egg-info/requires.txt
+DataCleanerAI.egg-info/top_level.txt
