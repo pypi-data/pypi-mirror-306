@@ -1,0 +1,15 @@
+asteriskutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asteriskutils/asterisk.json,sha256=ClPqNxNB-_GTcDRa9jgF_MtPb3smz5KhjQzi-sJgyok,861
+asteriskutils/calendar.py,sha256=ywfTnQiGwN9Guh3uDAlQPkdk0UzcL_mdPLaZU1sLaQc,371
+asteriskutils/error.py,sha256=AofjfC1rC8YTq6VbWXZdOlRQUD-8Enj-Bnhpfj3YjZk,83
+asteriskutils/log.config,sha256=ZxtmoyaenNuqsm-yxoANd5CVQN4sJOChyiqYxFEf6yQ,467
+asteriskutils/logo.attpl,sha256=FcXJpaT7QRm8aSyOHG4HBQ5E31OURZzZFksFPP6eGBw,298
+asteriskutils/mail.py,sha256=pp_FnWNqypazQGjiQ-Jru5qlloo8kKkb_dI42bE1mNM,7309
+asteriskutils/setting.py,sha256=sh-ohfWtBT4DrGE2gUpKw2ZaQbD0DdC9_AaEHBTodr4,1820
+asteriskutils/title.attpl,sha256=v66qti5A-xP9_BSxcU10efVJWOneoQvH3MCpJrns2O8,263
+asteriskutils/tools.py,sha256=RfAZh-3bwyMEJSVRn5KQOES07thWELBLZ8GMfd4DJcE,4126
+asterisk_utils-0.1.2.1104.818.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+asterisk_utils-0.1.2.1104.818.dist-info/METADATA,sha256=JCWbTkrEEYQncRFPVOM5bgPLy2Gj53M4v2yiy_iSJ2Q,2858
+asterisk_utils-0.1.2.1104.818.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+asterisk_utils-0.1.2.1104.818.dist-info/top_level.txt,sha256=8YR5Jrr0GJGoKKXnHh-NXhBDczP8XpCnJxcXRfCZsTM,14
+asterisk_utils-0.1.2.1104.818.dist-info/RECORD,,
