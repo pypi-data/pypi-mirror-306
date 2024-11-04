@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: warno-mod-framework
+Version: 0.0.0
+Summary: Modding framework for WARNO
+Home-page: https://github.com/dninemfive/wn-mfw
+Author: dninemfive
+Author-email: me@dninemfive.com
+Project-URL: Bug Reports, https://github.com/dninemfive/wn-mfw/issues
+Project-URL: Source Code, https://github.com/dninemfive/wn-mfw
+Keywords: WARNO,mod,framework,modding,Eugen Systems
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment :: Real Time Strategy
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# WARNO Mod Framework
+Framework which makes adding new divisions and units to WARNO much easier.
+
+Description to be elaborated on later.
