@@ -1,0 +1,4 @@
+astor>=0.8.1
+nbformat>=5.10.4
+pyyaml>=6.0.2
+sqlglot>=25.27.0
