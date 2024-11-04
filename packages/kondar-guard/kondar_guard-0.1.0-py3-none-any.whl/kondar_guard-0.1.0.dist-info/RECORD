@@ -1,0 +1,10 @@
+src/config.py,sha256=bkPE6hS82fzQ3XglQW-BKHdG5P-gv4SQd-MOLXmrxVE,721
+src/crypt/__init__.py,sha256=n051E6_w-utLzxsIA81XLCPJC8kxGlS0J8EwgPrTauI,57
+src/crypt/in_memory.py,sha256=Mi18PU6oeMK2q0Ul00LfYPjOgb4_6qeC28s26LE71_I,2924
+src/kondar.py,sha256=zhdmgvhbNPR8NOo0qwi-DFiWG1uvhcovlBPOjrQnfEA,3702
+src/main.py,sha256=zqxqLZs4vvEQ3ID6jwUF_RYpSEz-kk89nrI0qzQSVXY,294
+src/storage/keys.txt,sha256=TO-udnWIzSdy_tJtdNmqGwqOW7DpgmP6e8jEjRIi6h8,10
+kondar_guard-0.1.0.dist-info/METADATA,sha256=X9Mgbm2EJy0NpQFRIRxm7brlzr3KvK41yncMYeKFGac,2246
+kondar_guard-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+kondar_guard-0.1.0.dist-info/entry_points.txt,sha256=NyK8lwgHphF4_GfYoSijn8UmFo75O7MIh-yI7pJGGrg,40
+kondar_guard-0.1.0.dist-info/RECORD,,
