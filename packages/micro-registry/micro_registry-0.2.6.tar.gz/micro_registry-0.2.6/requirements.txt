@@ -1,0 +1,6 @@
+flake8
+pyyaml
+fastapi
+httpx
+uvicorn
+asyncio
