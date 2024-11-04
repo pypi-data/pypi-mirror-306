@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: brepmatching
+Version: 0.1.2
+Summary: Learning to match BRep Topology
+Author: Kazuma NAITO
+Author-email: kazuma.naito@murata.com
+License: MIT
+License-File: LICENSE.txt
