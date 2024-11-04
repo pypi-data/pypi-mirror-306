@@ -1,0 +1,10 @@
+fortunes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fortunes/getMultipleFortunes.py,sha256=inN4DBoHjXkaKTtecYngi2AZSMCVP7V21Fhs2iZS5F0,774
+fortunes/get_quotes_by_author.py,sha256=Uy2AqivXpkZ5GhvcZ8Kqwlb-Lutda1v5UPUFjUCi67o,3906
+fortunes/random_fortune.py,sha256=bBDA0zQje842RJE0FWZk2V8xawdF5XXrGpTts7yEgaM,690
+fortunes/send_email.py,sha256=n7b37Eb5z03V0oMHsTbruwSXsESJwt4jQw4kYocu5lI,2841
+fortune_package-0.1.5.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+fortune_package-0.1.5.dist-info/METADATA,sha256=5mvgZ3g7tsQvmYUDocmfjBM56VD5pPL_PIEKTZ2QXfg,10265
+fortune_package-0.1.5.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+fortune_package-0.1.5.dist-info/top_level.txt,sha256=RynfnFgESG7g8sUg5FWGcaXwVKmIWjP1aHODKNjPGz0,9
+fortune_package-0.1.5.dist-info/RECORD,,
