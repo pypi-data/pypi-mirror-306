@@ -1,0 +1,4 @@
+[console_scripts]
+jk_pwdgen=jk_pwdgen.bin.cli_pwdgen:main
+pwdgen-py=jk_pwdgen.bin.cli_pwdgen:main
+
