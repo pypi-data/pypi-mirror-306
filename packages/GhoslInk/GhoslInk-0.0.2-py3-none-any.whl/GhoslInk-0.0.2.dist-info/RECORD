@@ -1,0 +1,11 @@
+ghostink/__init__.py,sha256=pRjlFYM6swh2ZuQzdaStRGSrPaFEvZSm8V4P92d5348,54
+ghostink/ghostink.py,sha256=so7zd9jZsluhnEx15f-qc7-hxCfmTi_TX6sk9YIgXQs,10120
+ghostink/main.py,sha256=IDOyntPfg3NXkEkY-Th7BxdNzNtuTABr-TID__mQyjQ,441
+ghostink/testing.py,sha256=XfwwSyLHGcT1WvyV2eaqBV15i3FXM3H5pJ1VpXn_AaM,99
+ghostink/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ghostink/tests/test_ghostink.py,sha256=798TXc6IgHAHCsg_J9hCDiJN0jkKJ4Tyok7kVh7vA-s,1852
+GhoslInk-0.0.2.dist-info/LICENSE,sha256=M5mBBQVbL70zhjuZZQFEJ4kR_wIMB8HHRg9jyUO1YOk,1065
+GhoslInk-0.0.2.dist-info/METADATA,sha256=zqsFNMLxbFUwS1O6kfHTeZxK7v-jXSa-hbEANH7JGoc,4708
+GhoslInk-0.0.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+GhoslInk-0.0.2.dist-info/top_level.txt,sha256=XERdhSUXQIeugmWiwHgGIuwKD6HS9CD_n65YOv1V8Xw,9
+GhoslInk-0.0.2.dist-info/RECORD,,
