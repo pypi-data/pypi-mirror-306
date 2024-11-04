@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: codebreak
+Version: 0.0.0
+Summary: A package to help Python developers take healthy breaks with different types of exercises.
+Author: The Fixers
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: schedule==1.2.2
+Provides-Extra: dev
+Requires-Dist: pytest==8.3.3; extra == "dev"
