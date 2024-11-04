@@ -1,0 +1,8 @@
+source_iter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source_iter/service_csv.py,sha256=fv7OeawLBYBqPHqVTstLDGRKSPPKGE3aQ6qSwVuNBCo,2240
+source_iter/service_jsonl.py,sha256=LMBJmmptOky8oGN_258qom9seUklRmWzD2FMTm9ymzI,787
+source_iter/service_sqlite.py,sha256=NTJc1xSKnucXIyHAqBsv2ROUjvKrZ4MTcnNu0dbVJeA,3223
+source_iter-0.24.0.dist-info/METADATA,sha256=E_DbVA34PGJ75cLjABkXjniAoOJdTGD_4qTEQxsNlRo,1032
+source_iter-0.24.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+source_iter-0.24.0.dist-info/top_level.txt,sha256=-FXQrJlZyM96_i53ZD7eJI_kDXHOOeH5yMwyb1gMoKo,12
+source_iter-0.24.0.dist-info/RECORD,,
