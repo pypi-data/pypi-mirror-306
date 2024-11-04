@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xchainpy2-thornode
+Version: 2.137.1
+Summary: Thornode API
+Home-page: 
+Author-email: devs@thorchain.org
+Keywords: Swagger,Thornode API
+License-File: LICENSE
+Requires-Dist: urllib3>=1.15
+Requires-Dist: six>=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+Requires-Dist: aiohttp
+
+    Thornode REST API.  # noqa: E501
+    
