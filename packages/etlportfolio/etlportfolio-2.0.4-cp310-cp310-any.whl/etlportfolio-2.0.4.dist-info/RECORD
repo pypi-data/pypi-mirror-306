@@ -1,0 +1,13 @@
+etlportfolio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etlportfolio/data.py,sha256=ICEEpcGHKHiEnuZKFZE14mascixTO1MFjqQpvNzUkH0,791
+etlportfolio/portfolio.py,sha256=SOPCiAx2ipmBEYkICysp6mBzjCY8HbYbHurAPKkOSMM,11741
+etlportfolio/optimized/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etlportfolio/optimized/risk_criteria.cpython-310-x86_64-linux-gnu.so,sha256=TDv_Tb77x7M8L_OQY2pSWD-pMOLjqQZ9eBGo2rYmi_w,305728
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_data.py,sha256=34wSDs1EnUNIioLnRhJ8mO-xgGewPqV7whK0H7JLXfc,1612
+tests/test_portfolio.py,sha256=6_-lHMSWOMD4FGGg8rE1qBjMWYLFtrOq1144cWzo05I,3958
+etlportfolio-2.0.4.dist-info/LICENSE,sha256=6ouclgyf_nr1fHBSPGGqFmVO35xPC92NPxFIF2Xj_iU,1068
+etlportfolio-2.0.4.dist-info/METADATA,sha256=IJ8dPCEs5nnlC4WBi0GtYf4i5KGMmZZTJfgsLrdAM3Y,2032
+etlportfolio-2.0.4.dist-info/WHEEL,sha256=Chn6DFUE6i2fNf2jsTMQDUBLXxO5nekSMBFixpeaF6A,96
+etlportfolio-2.0.4.dist-info/top_level.txt,sha256=T6ZjXMN9Rpktf_Yy4kyk8_982sJuZ45-q8L74e6G9Eg,19
+etlportfolio-2.0.4.dist-info/RECORD,,
