@@ -1,0 +1,10 @@
+README.md
+setup.py
+music_downloader/__init__.py
+music_downloader/downloader.py
+qa_download.egg-info/PKG-INFO
+qa_download.egg-info/SOURCES.txt
+qa_download.egg-info/dependency_links.txt
+qa_download.egg-info/entry_points.txt
+qa_download.egg-info/requires.txt
+qa_download.egg-info/top_level.txt
