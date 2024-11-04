@@ -1,0 +1,12 @@
+dist/*
+
+.idea/
+
+
+**/__pycache__/
+
+.venv/
+
+*secrets.py
+*.DS_Store
+env
