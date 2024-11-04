@@ -1,0 +1,12 @@
+backtesting_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backtesting_data/history.py,sha256=zR_tAswy_evFSiZ07TP_YdULy8b8KKNGhcK5wZGJgpw,386
+backtesting_data/exchange/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backtesting_data/exchange/binance_futures.py,sha256=F9OyZk8nAnXfkQSUS8vy3tTH31ghQV5boci7fLQunH0,621
+backtesting_data/exchange/binance_futures_cm.py,sha256=VILi5LozsD8dsP9eeLa05EXgdeTnkSr4fSad91e7ljg,628
+backtesting_data/exchange/binance_spot.py,sha256=fjG4CnJ4MnLcx1JziA0h2jESuz1onR8TIXN69lD0Z-w,1243
+backtesting_data/exchange/bingx.py,sha256=prC--U93OnEOpLCeVqJmkW3QvQYyUV8doMfjjzDgUTw,595
+backtesting_data-0.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+backtesting_data-0.0.1.dist-info/METADATA,sha256=0C-ine4s27ccYokUnJAKR5ADRQmCg_FMU2xo3q3C7dQ,1817
+backtesting_data-0.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+backtesting_data-0.0.1.dist-info/top_level.txt,sha256=Kiiv8PJnp0jLPriakS79X6xEbtRjRV-rU1IGzGpzopc,17
+backtesting_data-0.0.1.dist-info/RECORD,,
