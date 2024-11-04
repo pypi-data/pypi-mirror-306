@@ -1,0 +1,2 @@
+[console_scripts]
+aioftp = aiosftp.__main__:main

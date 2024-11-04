@@ -1,0 +1,14 @@
+aiosftp/__init__.py,sha256=f79OvCcZXRB8jQyXsufiN9SIlbxQPUY91Rgst0Nlkqw,93
+aiosftp/__main__.py,sha256=RdVLnnW3tXgUzoEamE0EuzmsiPS5lvzWR29xGJFZmsM,2469
+aiosftp/conf.py,sha256=IXek4CrC5nPgBQJ6UPuaJ9oX4CfsT59JMdqlgg59azQ,2006
+aiosftp/ftp.py,sha256=aucfXnmu72MtaOj-qEXM6OGm3OpHQ9fFv-k0bUi4dz0,5807
+aiosftp/scp.py,sha256=oPE7Xrrzv5mvMtkgzR1fvH-77GA7S-ssN16638tpX0g,6792
+aiosftp/user.py,sha256=jL8oxFzxePys0hLmM6-Wkgf7sceWvc19xt867bOCLW8,1992
+aiosftp/uv.py,sha256=Mb09bsi13hhi3xQDBjEhCf-U1wherXl-K4-BLcSvqtc,308
+aiosftp/version.py,sha256=Jbw9vWq_DmkxhliFZxY9qxhfB74agaD3aCpR42AfOZw,547
+aiosftp-0.4.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aiosftp-0.4.0.dist-info/METADATA,sha256=ik2M2AxF6wIKhsGmHoHZM-qwBFM5B1PTxhu5mruvLjg,3361
+aiosftp-0.4.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+aiosftp-0.4.0.dist-info/entry_points.txt,sha256=csM0gCSxAvs5NKY2PK5JUuhbCXmaqe1wp6CGukqxtL4,49
+aiosftp-0.4.0.dist-info/top_level.txt,sha256=8sy3PUV4S3mY2tlcGZHwqHe0zRNLYcn2gmfe9Ht1Sxc,8
+aiosftp-0.4.0.dist-info/RECORD,,
