@@ -1,0 +1,2 @@
+[console_scripts]
+ip_checker_boyuan = ip_checker_boyuan:get_ip_address
