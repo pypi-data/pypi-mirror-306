@@ -1,0 +1,7 @@
+README.md
+setup.py
+ceo_framework.egg-info/PKG-INFO
+ceo_framework.egg-info/SOURCES.txt
+ceo_framework.egg-info/dependency_links.txt
+ceo_framework.egg-info/requires.txt
+ceo_framework.egg-info/top_level.txt
