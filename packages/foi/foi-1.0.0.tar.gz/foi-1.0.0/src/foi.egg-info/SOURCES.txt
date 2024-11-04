@@ -1,0 +1,17 @@
+README.md
+setup.py
+src/foi/__init__.py
+src/foi/__main__.py
+src/foi.egg-info/PKG-INFO
+src/foi.egg-info/SOURCES.txt
+src/foi.egg-info/dependency_links.txt
+src/foi.egg-info/entry_points.txt
+src/foi.egg-info/top_level.txt
+src/foi/args/Args.py
+src/foi/args/__init__.py
+src/foi/output/Output.py
+src/foi/output/__init__.py
+src/foi/search/Search.py
+src/foi/search/__init__.py
+src/foi/util/Util.py
+src/foi/util/__init__.py
