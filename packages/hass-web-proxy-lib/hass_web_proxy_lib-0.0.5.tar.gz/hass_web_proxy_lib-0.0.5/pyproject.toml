@@ -1,0 +1,45 @@
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = [
+    "hass_web_proxy_lib/tests",
+]
+norecursedirs = [
+    ".git",
+]
+addopts = "--timeout=10 --cov-report=xml:coverage.xml --cov-report=term-missing --cov=hass_web_proxy_lib --cov-fail-under=100"
+
+[tool.coverage.run]
+omit = [
+    "hass_web_proxy_lib/tests/*"
+]
+
+[tool.coverage.report]
+exclude_also = [
+    "raise NotImplementedError",
+    "if TYPE_CHECKING:"
+]
+
+[tool.poetry]
+name = "hass-web-proxy-lib"
+version = "0.0.5"
+description = "A library to proxy web traffic through Home Assistant integrations."
+license = "MIT"
+authors = [
+    "Dermot Duffy <dermot.duffy@gmail.com>",
+]
+readme = "README.md"
+repository = "https://github.com/dermotduffy/hass-web-proxy-lib"
+classifiers = [
+    "Topic :: Home Automation"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+homeassistant = ">=2024.10.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.3.3"
+pytest-homeassistant-custom-component = ">=0.13.174"
+ruff = ">=0.7.0"
+poetry = ">=1.8.4"
