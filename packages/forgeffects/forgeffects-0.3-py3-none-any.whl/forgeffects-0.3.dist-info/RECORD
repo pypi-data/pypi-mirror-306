@@ -1,0 +1,14 @@
+forgeffects/FE.py,sha256=RovfkrIfFz04TEEsw5lDAH1pq73HSU_LJOCKzBmNWlg,5450
+forgeffects/FEempirical.py,sha256=8OI9UqGNEDaJGcXswSSlyK3MSsnz6MN27UEXPfdkDI4,963
+forgeffects/GrafoBipartitoEncadenado.py,sha256=Va-R2CaEImwIr9ENXxxPotVda8zuo5857WRFG-x6YB4,1143
+forgeffects/__init__.py,sha256=huphgw6o6oWtEGuKpaJD4Mw4t7xXmJZVaZEJkAeurZw,19
+forgeffects/armar_caminos.py,sha256=FWI2yaaKi-dSQv2N8Xsn_gCayc9G2UL-KE4XP_qnJyE,3869
+forgeffects/indices.py,sha256=dqAGbELXYSKeFXH1KNxwTMRZ7YvSnZpyeD6HDtOpnXw,3128
+forgeffects/iterative_maxmin_cuadrado.py,sha256=I7YVIGXzsqG1yHH-9I619ZbuqYRmPAZ8KVztPvRcT0I,2097
+forgeffects/maxmin.py,sha256=bj0CZTDFl7GkBfFE_lXT03ziqJqIYLm1YBxpgJ9fh58,923
+forgeffects/process_data.py,sha256=GW426y5wK8EXXZdIzJdBn-SffYDkQEahCL9WD0OcfHo,4740
+forgeffects-0.3.dist-info/LICENSE,sha256=MmEb7RjFPNyIqWY243WCASSw6j5EN4DCfoTkGznhYyk,1070
+forgeffects-0.3.dist-info/METADATA,sha256=5-SgRvkh8VRAZE-12R4lowxTIo8d2nPvTsgLJSK0vqY,607
+forgeffects-0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+forgeffects-0.3.dist-info/top_level.txt,sha256=1QsFQ5fjiYo9Xi29BF4OLiB2uPs778rb7XlWp7dpjls,12
+forgeffects-0.3.dist-info/RECORD,,
