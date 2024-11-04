@@ -1,0 +1,14 @@
+[package]
+name = "ooverpunch"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "ooverpunch"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22.0", features = ["rust_decimal"] }
+overpunch = "0.3.0"
+rust_decimal = "1.35.0"
