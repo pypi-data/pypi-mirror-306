@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: NLarge
+Version: 0.1.0
+Summary: Data augmentation for NLP
+Author: Ng Tze Kean
+Author-email: ngtzekean@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: accelerate (>=1.0.1,<2.0.0)
+Requires-Dist: datasets (>=3.0.1,<4.0.0)
+Requires-Dist: gensim (>=4.3.3,<5.0.0)
+Requires-Dist: iprogress (>=0.4,<0.5)
+Requires-Dist: ipykernel (>=6.29.5,<7.0.0)
+Requires-Dist: jupyter (>=1.1.1,<2.0.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: nltk (>=3.9.1,<4.0.0)
+Requires-Dist: numpy (>=1.18.5,<2.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: sentencepiece (>=0.2.0,<0.3.0)
+Requires-Dist: torch (==2.4.1)
+Requires-Dist: transformers (>=4.45.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+# SC4002
+
+## Purpose of project
+
+xxx
+
+## Initializing virtual environment
+
+We use poetry in this project for dependency management, thus there will be a 
+need to first install poetry.
+
+```shell
+pip install poetry
+```
+
+Afterwards, you can install the needed packages from python with the help of
+poetry with teh command below
+
+```shell
+poetry install
+```
+
+## Repository contents
+
+xxx
