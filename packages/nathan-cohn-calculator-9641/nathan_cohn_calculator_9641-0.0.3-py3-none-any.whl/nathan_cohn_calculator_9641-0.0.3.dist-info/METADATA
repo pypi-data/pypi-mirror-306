@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nathan-cohn-calculator-9641
+Version: 0.0.3
+Summary: A simple calculator package
+Author: Nathan Cohn
+Author-email: nathan.cohn@sjsu.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
