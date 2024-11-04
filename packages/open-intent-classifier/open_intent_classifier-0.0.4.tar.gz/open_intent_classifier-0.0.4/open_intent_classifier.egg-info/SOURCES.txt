@@ -1,0 +1,17 @@
+README.md
+setup.py
+open_intent_classifier/__init__.py
+open_intent_classifier/consts.py
+open_intent_classifier/embedder.py
+open_intent_classifier/model.py
+open_intent_classifier/utils.py
+open_intent_classifier.egg-info/PKG-INFO
+open_intent_classifier.egg-info/SOURCES.txt
+open_intent_classifier.egg-info/dependency_links.txt
+open_intent_classifier.egg-info/requires.txt
+open_intent_classifier.egg-info/top_level.txt
+tests/test_devices.py
+tests/test_embeddings.py
+tests/test_flan_t5_base.py
+tests/test_flan_t5_small.py
+tests/test_openai_classifier.py
