@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+sqlnbfmt/__init__.py
+sqlnbfmt/formatter.py
+sqlnbfmt.egg-info/PKG-INFO
+sqlnbfmt.egg-info/SOURCES.txt
+sqlnbfmt.egg-info/dependency_links.txt
+sqlnbfmt.egg-info/entry_points.txt
+sqlnbfmt.egg-info/requires.txt
+sqlnbfmt.egg-info/top_level.txt
+tests/test_formatter.py
