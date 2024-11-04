@@ -1,0 +1,51 @@
+[project]
+name = "titanoboa-zksync"
+version = "0.2.6"
+description = "A Zksync plugin for the Titanoboa Vyper interpreter"
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = [
+    "ethereum",
+    "evm",
+    "smart contract",
+    "development",
+    "vyper",
+    "zksync",
+]
+classifiers = [
+    "Topic :: Software Development",
+]
+
+dependencies = [
+    "titanoboa==0.2.5b1"
+]
+
+[project.optional-dependencies]
+forking-recommended = [
+    "ujson",
+]
+
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+]
+
+[tool.setuptools.packages.find]
+include = [
+    "boa_zksync*",
+]
+
+[tool.setuptools.package-data]
+boa_zksync = [
+    '*.json',
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipython>=8.28.0",
+    "jupyter-server>=2.14.2",
+    "nest-asyncio>=1.6.0",
+    "pytest-xdist>=3.6.1",
+    "pytest>=8.3.3",
+]
