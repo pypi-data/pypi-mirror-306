@@ -1,0 +1,8 @@
+global-include *.rst
+global-include *.sh
+include /test/test_analyzer/*
+include /test/test_bsd_repo/*
+include /test/test_simple_repo/*
+include /test/test_viewer/*
+include /databases/*
+include /docs/*
