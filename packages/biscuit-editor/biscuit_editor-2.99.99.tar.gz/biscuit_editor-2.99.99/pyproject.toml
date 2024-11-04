@@ -1,0 +1,56 @@
+[tool.poetry]
+name = "biscuit-editor"
+version = "2.99.99"
+description = "A lightweight, fast, and extensible code editor with a growing community"
+authors = ["Billy <billydevbusiness@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "biscuit", from = "src" }]
+include = ["./resources/**/*"]
+
+[tool.poetry.scripts]
+biscuit = "biscuit.cli:run"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+hintedtext = "^0.6.0"
+watchdog = ">=4.0.1,<7.0.0"
+filetype = "^1.2.0"
+GitPython = "^3.1.43"
+tkextrafont = { version = "^0.6.3", platform = "win32" }
+Pygments = "^2.18.0"
+toml = "^0.10.2"
+sv-ttk = "^2.6.0"
+Pillow = ">=10.3,<12.0"
+requests = "^2.32.2"
+pyperclip = "^1.8.2"
+tkinterweb = "^3.23.9"
+mistune = "^3.0.2"
+chardet = "^5.2.0"
+pywinpty = { version = "^2.0.13", platform = "win32" }
+ptyprocess = { version = "^0.7.0", platform = "linux" }
+python-tkdnd = "^0.2.1"
+psutil = ">=5.9.8,<7.0.0"
+google-generativeai = ">=0.7,<0.9"
+sortedcontainers = "^2.4.0"
+click = "^8.1.7"
+tarts = "0.14.0"
+editorconfig = "^0.12.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+pytest-dotenv = "^0.5.2"
+git-changelog = "^2.5.2"
+pyperclip = "^1.8.2"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.6.1"
+mkdocstrings-python = "^1.12.0"
+mkdocs-material = "^9.5.40"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
