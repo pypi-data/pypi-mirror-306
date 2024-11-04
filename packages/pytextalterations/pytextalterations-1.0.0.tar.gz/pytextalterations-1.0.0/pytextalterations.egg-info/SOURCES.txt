@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+pytextalterations/__init__.py
+pytextalterations/__main__.py
+pytextalterations/capitalize_sentences.py
+pytextalterations/most_frequent_words.py
+pytextalterations/remove.py
+pytextalterations/sentence_count.py
+pytextalterations.egg-info/PKG-INFO
+pytextalterations.egg-info/SOURCES.txt
+pytextalterations.egg-info/dependency_links.txt
+pytextalterations.egg-info/requires.txt
+pytextalterations.egg-info/top_level.txt
+tests/test_capitalize_sentences.py
+tests/test_most_frequent_words.py
+tests/test_sentence_count.py
