@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: annotation_exporter
+Version: 1.0.0
+Summary: Export eCRF annotations to Excel
+Author: Salomo Sparna
+Author-email: SalomoSparna@gmail.com
+License: MIT
+Keywords: python,CRF,CDISC
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: openpyxl
+Requires-Dist: PyPDF2
+Requires-Dist: FreeSimpleGUI
+
+Automates migrating between data levels (in this case CRF and STDM spec)
