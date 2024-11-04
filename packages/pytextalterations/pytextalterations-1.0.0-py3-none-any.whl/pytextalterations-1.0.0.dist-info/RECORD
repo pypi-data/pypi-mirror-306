@@ -1,0 +1,11 @@
+pytextalterations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytextalterations/__main__.py,sha256=-q5O_oMkV8hhaefOicNVeU7z9RaORyxBML38BhIYScs,1609
+pytextalterations/capitalize_sentences.py,sha256=xpnJiLRhvcQo3pw-hJewMUM2UIdxESGpllW_U8jczaU,1447
+pytextalterations/most_frequent_words.py,sha256=sGWZsRyP3jB7SG9kysZq3VDG3XhczHNmwcYOE119ZyA,956
+pytextalterations/remove.py,sha256=QNCzg3t45uFzr3Ch9KwUbiBBt5bZYd0aPLX9NdphagA,415
+pytextalterations/sentence_count.py,sha256=sqdGrRM1Gd5g2veXz2pjlTAVDBj8YQoVF6BPfbGXnwc,1520
+pytextalterations-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pytextalterations-1.0.0.dist-info/METADATA,sha256=PhDni4wb7eSt-yz2_khC8leBQs4IJPPX1DJ0sTYFXVI,41758
+pytextalterations-1.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pytextalterations-1.0.0.dist-info/top_level.txt,sha256=u8OgF86q4txXqJvPDsHcMZrDa1r068yllOul5SNp5hc,18
+pytextalterations-1.0.0.dist-info/RECORD,,
