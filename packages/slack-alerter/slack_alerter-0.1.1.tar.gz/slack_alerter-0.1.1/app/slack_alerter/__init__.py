@@ -1,0 +1,1 @@
+from slack_alerter.alerter import Alerts
