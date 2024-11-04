@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gaiaengine
+Version: 0.5.1
+Summary: Lightweight and easy-to-use graphics engine. The project is still in development and not ready for release
+Author: Paul Vallet
+Author-email: luap.vallet@gmail.com
+Classifier: License :: Other/Proprietary License
+License-File: LICENSE
+License-File: LICENSE.LESSER
+Requires-Dist: pysdl2>=0.9.8
+Requires-Dist: AoE2ScenarioParser
+Requires-Dist: vdf
+Requires-Dist: noise
+
+Lightweight and easy-to-use graphics engine. The project is still in development and not ready for release
