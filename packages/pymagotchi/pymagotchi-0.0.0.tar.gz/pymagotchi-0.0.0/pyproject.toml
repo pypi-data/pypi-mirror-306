@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pymagotchi"
+description = "A Python-based virtual pet simulation package with customizable care and stats tracking. Coming soon!"
+version = "0.0.0"
+authors = [
+  { name="book-of-amos", email="bookofamos@nyu.edu" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
