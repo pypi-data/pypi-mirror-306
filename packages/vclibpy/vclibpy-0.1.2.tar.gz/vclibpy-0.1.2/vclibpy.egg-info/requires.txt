@@ -1,0 +1,6 @@
+numpy
+coolprop
+matplotlib
+pandas
+sdf
+ctREFPROP
