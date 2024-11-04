@@ -1,0 +1,21 @@
+python-irodsclient>=2.0.0
+tqdm
+
+[:python_version < "3.10"]
+importlib-metadata
+
+[docs]
+sphinx<9
+sphinx-rtd-theme
+sphinxcontrib-napoleon
+sphinx-autodoc-typehints
+sphinx_inline_tabs
+sphinx_copybutton
+
+[test]
+pylint
+pytest
+pytest-cov
+ruff
+mypy
+types-tqdm
