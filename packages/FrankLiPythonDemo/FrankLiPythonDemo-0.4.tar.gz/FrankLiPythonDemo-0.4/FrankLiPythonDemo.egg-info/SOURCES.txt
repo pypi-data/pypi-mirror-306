@@ -1,0 +1,11 @@
+README.md
+setup.py
+Basic/__init__.py
+Basic/Entity/TestEntity.py
+Basic/Entity/__init__.py
+Code/TestHelper.py
+Code/__init__.py
+FrankLiPythonDemo.egg-info/PKG-INFO
+FrankLiPythonDemo.egg-info/SOURCES.txt
+FrankLiPythonDemo.egg-info/dependency_links.txt
+FrankLiPythonDemo.egg-info/top_level.txt
