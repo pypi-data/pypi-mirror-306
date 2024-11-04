@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: confido_atls
+Version: 0.1.1
+Summary: confido provides trust model verification client for Attested-TLS protocol
+Author-email: Pavel Nikonorov <pavel@genxt.network>
+License: 	
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+confido provides trust model verification client for Attested-TLS protocol.
+
