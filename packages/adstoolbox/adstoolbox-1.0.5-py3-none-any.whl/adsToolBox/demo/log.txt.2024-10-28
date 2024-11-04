@@ -1,0 +1,531 @@
+2024-10-28 09:48:43,433 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:48:43,608 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:48:43,698 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:48:43,699 - AdsLogger - INFO - Temps d'exécution de connect: 0.0907 secondes.
+2024-10-28 09:48:43,707 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:48:43,717 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0170 secondes.
+2024-10-28 09:48:43,804 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:48:43,804 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:48:44,050 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:48:44,109 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:48:44,202 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:48:44,203 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1319 secondes.
+2024-10-28 09:48:44,208 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:48:44,209 - AdsLogger - ERROR - Échec de la lecture des données: (208, b"Invalid object name 'information_schema.columns'.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2024-10-28 09:48:44,209 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:48:44,300 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:48:44,300 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:48:44,301 - AdsLogger - ERROR - Échec de l'exécution du pipeline: (208, b"Invalid object name 'information_schema.columns'.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2024-10-28 09:48:44,301 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:50:58,910 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:50:59,087 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:50:59,165 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:50:59,165 - AdsLogger - INFO - Temps d'exécution de connect: 0.0782 secondes.
+2024-10-28 09:50:59,176 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:50:59,183 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0178 secondes.
+2024-10-28 09:50:59,252 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:50:59,253 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:50:59,464 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:50:59,488 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:50:59,578 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:50:59,578 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1134 secondes.
+2024-10-28 09:50:59,640 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:50:59,641 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 09:50:59,728 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:50:59,728 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1500 secondes
+2024-10-28 09:50:59,728 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:50:59,728 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 09:50:59,728 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:51:37,779 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:51:38,295 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:51:38,508 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:51:38,508 - AdsLogger - INFO - Temps d'exécution de connect: 0.2140 secondes.
+2024-10-28 09:51:38,519 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:51:38,526 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0180 secondes.
+2024-10-28 09:51:38,698 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:51:38,699 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:51:39,148 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:51:39,173 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:51:39,393 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:51:39,394 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2449 secondes.
+2024-10-28 09:51:39,398 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:51:39,398 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 09:51:39,512 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:51:39,512 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1181 secondes
+2024-10-28 09:51:39,513 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:51:39,513 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 09:51:39,513 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:52:06,799 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:52:06,992 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:52:07,076 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:52:07,076 - AdsLogger - INFO - Temps d'exécution de connect: 0.0848 secondes.
+2024-10-28 09:52:07,089 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:52:07,100 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0232 secondes.
+2024-10-28 09:52:07,181 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:52:07,181 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:52:07,447 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:52:07,477 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:52:07,569 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:52:07,570 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1221 secondes.
+2024-10-28 09:52:07,573 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:52:07,574 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 09:52:07,661 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:52:07,661 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0915 secondes
+2024-10-28 09:52:07,661 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:52:07,661 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 09:52:07,661 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:54:16,569 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:54:16,768 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:54:16,878 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:54:16,878 - AdsLogger - INFO - Temps d'exécution de connect: 0.1094 secondes.
+2024-10-28 09:54:16,890 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:54:16,897 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0200 secondes.
+2024-10-28 09:54:16,963 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:54:16,963 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:54:17,235 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:54:17,262 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:54:17,350 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:54:17,350 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1147 secondes.
+2024-10-28 09:54:17,354 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:54:17,355 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 09:54:17,449 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:54:17,449 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0981 secondes
+2024-10-28 09:54:17,449 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:54:17,449 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 09:54:17,449 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:55:03,608 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:55:03,820 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:55:03,930 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:55:03,930 - AdsLogger - INFO - Temps d'exécution de connect: 0.1107 secondes.
+2024-10-28 09:55:03,943 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:55:03,958 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0273 secondes.
+2024-10-28 09:55:04,040 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:55:04,040 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:55:04,216 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:55:04,238 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:55:04,355 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:55:04,356 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1389 secondes.
+2024-10-28 09:55:04,356 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:55:04,356 - AdsLogger - ERROR - Échec de l'exécution du pipeline: 'generator' object is not subscriptable
+2024-10-28 09:55:04,356 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:55:39,323 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:55:39,497 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:55:39,577 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:55:39,577 - AdsLogger - INFO - Temps d'exécution de connect: 0.0801 secondes.
+2024-10-28 09:55:39,592 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:55:39,598 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0216 secondes.
+2024-10-28 09:55:39,653 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:55:39,653 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:55:39,830 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:55:39,856 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:55:39,957 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:55:39,957 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1273 secondes.
+2024-10-28 09:55:39,961 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:55:39,961 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 09:55:40,050 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:55:40,050 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0921 secondes
+2024-10-28 09:55:40,050 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:55:40,050 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 09:55:40,050 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:56:37,119 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:56:37,322 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:56:37,404 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:56:37,404 - AdsLogger - INFO - Temps d'exécution de connect: 0.0823 secondes.
+2024-10-28 09:56:37,416 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:56:37,427 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0222 secondes.
+2024-10-28 09:56:37,510 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:56:37,511 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:56:37,769 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:56:37,795 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:56:37,899 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:56:37,900 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1299 secondes.
+2024-10-28 09:56:37,904 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:56:37,904 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 09:56:38,005 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:56:38,005 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1052 secondes
+2024-10-28 09:56:38,005 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:56:38,005 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 09:56:38,005 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:56:52,168 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:56:52,405 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:56:52,508 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:56:52,508 - AdsLogger - INFO - Temps d'exécution de connect: 0.1027 secondes.
+2024-10-28 09:56:52,519 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:56:52,527 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0190 secondes.
+2024-10-28 09:56:52,594 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:56:52,594 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:56:52,847 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:56:52,869 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:56:52,983 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:56:52,983 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1359 secondes.
+2024-10-28 09:56:52,986 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:56:52,986 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 09:56:53,093 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:56:53,094 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1109 secondes
+2024-10-28 09:56:53,094 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:56:53,094 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 09:56:53,094 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:57:28,195 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:57:28,404 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:57:28,625 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:57:28,625 - AdsLogger - INFO - Temps d'exécution de connect: 0.2216 secondes.
+2024-10-28 09:57:28,636 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:57:28,645 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0197 secondes.
+2024-10-28 09:57:28,725 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:57:28,725 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:57:29,037 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:57:29,060 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:57:29,173 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:57:29,173 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1361 secondes.
+2024-10-28 09:57:29,179 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:57:29,179 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 09:57:29,294 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:57:29,294 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1200 secondes
+2024-10-28 09:57:29,294 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:57:29,294 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 09:57:29,294 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:58:06,265 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:58:06,430 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:58:06,527 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:58:06,528 - AdsLogger - INFO - Temps d'exécution de connect: 0.0978 secondes.
+2024-10-28 09:58:06,540 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:58:06,550 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0219 secondes.
+2024-10-28 09:58:06,612 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:58:06,612 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:58:06,802 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:58:06,825 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:58:06,903 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:58:06,903 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1003 secondes.
+2024-10-28 09:58:06,907 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:58:06,907 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 09:58:06,987 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:58:06,987 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0843 secondes
+2024-10-28 09:58:06,987 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:58:06,987 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 09:58:06,987 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:58:57,787 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:58:57,991 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:58:58,079 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:58:58,080 - AdsLogger - INFO - Temps d'exécution de connect: 0.0878 secondes.
+2024-10-28 09:58:58,092 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:58:58,103 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0233 secondes.
+2024-10-28 09:58:58,176 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:58:58,176 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:58:58,473 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:58:58,500 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:58:58,616 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:58:58,616 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1425 secondes.
+2024-10-28 09:58:58,622 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:58:58,622 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 09:58:58,733 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:58:58,733 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1172 secondes
+2024-10-28 09:58:58,733 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:58:58,733 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 09:58:58,733 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:59:54,874 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 09:59:55,035 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 09:59:55,128 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 09:59:55,128 - AdsLogger - INFO - Temps d'exécution de connect: 0.0925 secondes.
+2024-10-28 09:59:55,139 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 09:59:55,149 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0206 secondes.
+2024-10-28 09:59:55,221 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 09:59:55,221 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 09:59:55,479 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:59:55,501 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 09:59:55,583 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:59:55,584 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1041 secondes.
+2024-10-28 09:59:55,588 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 09:59:55,588 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 09:59:55,669 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 09:59:55,669 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0851 secondes
+2024-10-28 09:59:55,669 - AdsLogger - ERROR - **************************************************
+2024-10-28 09:59:55,669 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 09:59:55,669 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:00:24,229 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 10:00:24,462 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 10:00:24,548 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 10:00:24,548 - AdsLogger - INFO - Temps d'exécution de connect: 0.0853 secondes.
+2024-10-28 10:00:24,560 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 10:00:24,570 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0217 secondes.
+2024-10-28 10:00:24,653 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 10:00:24,653 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 10:00:24,880 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:00:24,912 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 10:00:25,014 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:00:25,014 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1332 secondes.
+2024-10-28 10:00:25,017 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:00:25,018 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 10:00:25,121 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:00:25,121 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1078 secondes
+2024-10-28 10:00:25,126 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:00:25,126 - AdsLogger - INFO - 5 lignes lues.
+2024-10-28 10:00:25,227 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:00:25,227 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1067 secondes
+2024-10-28 10:00:25,240 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:00:25,240 - AdsLogger - ERROR - Divergence détectée entre les données source et destination.
+2024-10-28 10:00:25,240 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:00:25,240 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:00:25,240 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Les données source et insérées ne sont pas identiques.
+2024-10-28 10:00:25,240 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:01:39,249 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 10:01:39,446 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 10:01:39,544 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 10:01:39,544 - AdsLogger - INFO - Temps d'exécution de connect: 0.0975 secondes.
+2024-10-28 10:01:39,556 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 10:01:39,566 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0223 secondes.
+2024-10-28 10:01:39,627 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 10:01:39,628 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 10:01:39,838 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:01:39,864 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 10:01:39,958 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:01:39,958 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1195 secondes.
+2024-10-28 10:01:39,964 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:01:39,964 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 10:01:40,051 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:01:40,051 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0935 secondes
+2024-10-28 10:01:40,058 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:01:40,058 - AdsLogger - INFO - 5 lignes lues.
+2024-10-28 10:01:40,147 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:01:40,147 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0941 secondes
+2024-10-28 10:01:40,151 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:01:40,151 - AdsLogger - ERROR - Divergence détectée entre les données source et destination.
+2024-10-28 10:01:40,151 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:01:40,162 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:01:40,162 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Les données source et insérées ne sont pas identiques.
+2024-10-28 10:01:40,163 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:02:17,242 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 10:02:17,439 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 10:02:17,517 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 10:02:17,517 - AdsLogger - INFO - Temps d'exécution de connect: 0.0781 secondes.
+2024-10-28 10:02:17,529 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 10:02:17,538 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0205 secondes.
+2024-10-28 10:02:17,624 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 10:02:17,624 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 10:02:17,861 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:02:17,890 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 10:02:17,973 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:02:17,973 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1121 secondes.
+2024-10-28 10:02:17,978 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:02:17,979 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 10:02:18,058 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:02:18,058 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0848 secondes
+2024-10-28 10:02:18,063 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:02:18,064 - AdsLogger - INFO - 5 lignes lues.
+2024-10-28 10:02:18,137 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:02:18,138 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0791 secondes
+2024-10-28 10:02:18,142 - AdsLogger - INFO - Les données insérées correspondent bien à la source.
+2024-10-28 10:02:18,142 - AdsLogger - INFO - 5 ligne(s) lue(s).
+2024-10-28 10:02:18,217 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:02:18,217 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.4092 secondes
+2024-10-28 10:02:18,217 - AdsLogger - INFO - Temps d'exécution de run: 0.6792 secondes.
+2024-10-28 10:02:18,218 - AdsLogger - INFO - Fin de la démonstration
+2024-10-28 10:04:30,999 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 10:04:31,584 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 10:04:31,791 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 10:04:31,792 - AdsLogger - INFO - Temps d'exécution de connect: 0.2072 secondes.
+2024-10-28 10:04:31,805 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 10:04:31,815 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0228 secondes.
+2024-10-28 10:04:32,011 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 10:04:32,011 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 10:04:32,552 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:04:32,576 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 10:04:32,819 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:04:32,819 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2668 secondes.
+2024-10-28 10:04:32,943 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:04:32,943 - AdsLogger - INFO - 3 lignes lues.
+2024-10-28 10:04:33,210 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:04:33,210 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.3910 secondes
+2024-10-28 10:04:33,216 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:04:33,217 - AdsLogger - INFO - 5 lignes lues.
+2024-10-28 10:04:33,345 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:04:33,345 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1342 secondes
+2024-10-28 10:04:33,345 - AdsLogger - INFO - Les données insérées correspondent bien à la source.
+2024-10-28 10:04:33,345 - AdsLogger - INFO - 5 ligne(s) lue(s).
+2024-10-28 10:04:33,505 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:04:33,505 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 1.0092 secondes
+2024-10-28 10:04:33,505 - AdsLogger - INFO - Temps d'exécution de run: 1.6903 secondes.
+2024-10-28 10:04:33,505 - AdsLogger - INFO - Fin de la démonstration
+2024-10-28 10:06:35,068 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 10:06:35,296 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 10:06:35,375 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 10:06:35,375 - AdsLogger - INFO - Temps d'exécution de connect: 0.0793 secondes.
+2024-10-28 10:06:35,386 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 10:06:35,393 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0179 secondes.
+2024-10-28 10:06:35,448 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 10:06:35,448 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 10:06:35,710 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:06:35,734 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 10:06:35,835 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:06:35,835 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1243 secondes.
+2024-10-28 10:06:35,844 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:06:35,845 - AdsLogger - INFO - 5 lignes lues.
+2024-10-28 10:06:35,944 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:06:35,944 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1044 secondes
+2024-10-28 10:06:35,944 - AdsLogger - INFO - Les données insérées correspondent bien à la source.
+2024-10-28 10:06:35,944 - AdsLogger - INFO - 5 ligne(s) lue(s).
+2024-10-28 10:06:36,042 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:06:36,043 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.3892 secondes
+2024-10-28 10:06:36,043 - AdsLogger - INFO - Temps d'exécution de run: 0.6494 secondes.
+2024-10-28 10:06:36,043 - AdsLogger - INFO - Fin de la démonstration
+2024-10-28 10:09:49,617 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 10:09:49,807 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 10:09:49,899 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 10:09:49,899 - AdsLogger - INFO - Temps d'exécution de connect: 0.0924 secondes.
+2024-10-28 10:09:49,910 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 10:09:49,920 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0207 secondes.
+2024-10-28 10:09:50,006 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 10:09:50,006 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 10:09:50,035 - AdsLogger - INFO - 5 ligne(s) insérée(s) avec succès dans la table insert_test_2.
+2024-10-28 10:09:50,126 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:09:50,126 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1195 secondes.
+2024-10-28 10:09:50,138 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:09:50,139 - AdsLogger - INFO - 5 lignes lues.
+2024-10-28 10:09:50,229 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:09:50,229 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0977 secondes
+2024-10-28 10:09:50,230 - AdsLogger - INFO - Les données insérées correspondent bien à la source.
+2024-10-28 10:09:50,230 - AdsLogger - INFO - Temps d'exécution de run: 0.3104 secondes.
+2024-10-28 10:09:50,230 - AdsLogger - INFO - Fin de la démonstration
+2024-10-28 10:15:39,963 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 10:15:40,127 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 10:15:40,218 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 10:15:40,218 - AdsLogger - INFO - Temps d'exécution de connect: 0.0904 secondes.
+2024-10-28 10:15:40,230 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 10:15:40,239 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0205 secondes.
+2024-10-28 10:15:40,320 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 10:15:40,321 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 10:15:40,575 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:15:40,576 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:15:40,576 - AdsLogger - ERROR - Échec de l'insertion des données: sequence item 0: expected str instance, int found
+2024-10-28 10:15:40,576 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:15:40,659 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:15:40,667 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.0911 secondes.
+2024-10-28 10:15:40,678 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:15:40,754 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:15:40,755 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0822 secondes
+2024-10-28 10:15:40,755 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:15:40,755 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 10:15:40,755 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:16:27,769 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 10:16:28,050 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 10:16:28,155 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 10:16:28,155 - AdsLogger - INFO - Temps d'exécution de connect: 0.1047 secondes.
+2024-10-28 10:16:28,165 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 10:16:28,172 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0172 secondes.
+2024-10-28 10:16:28,235 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 10:16:28,235 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 10:16:28,460 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:16:28,461 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:16:28,461 - AdsLogger - ERROR - Échec de l'insertion des données: sequence item 0: expected str instance, int found
+2024-10-28 10:16:28,461 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:16:28,568 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:16:28,574 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.1134 secondes.
+2024-10-28 10:16:28,583 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:16:28,685 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:16:28,685 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1074 secondes
+2024-10-28 10:16:28,692 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:16:28,793 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:16:28,794 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1040 secondes
+2024-10-28 10:16:28,794 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:16:28,794 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 10:16:28,794 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:17:10,148 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 10:17:10,357 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 10:17:10,434 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 10:17:10,434 - AdsLogger - INFO - Temps d'exécution de connect: 0.0782 secondes.
+2024-10-28 10:17:10,446 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 10:17:10,455 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0211 secondes.
+2024-10-28 10:17:10,515 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 10:17:10,515 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 10:17:10,767 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:17:10,768 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:17:10,768 - AdsLogger - ERROR - Échec de l'insertion des données: sequence item 0: expected str instance, int found
+2024-10-28 10:17:10,768 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:17:10,882 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:17:10,888 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.1198 secondes.
+2024-10-28 10:17:10,898 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:17:11,009 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:17:11,010 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1177 secondes
+2024-10-28 10:17:11,020 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:17:11,129 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:17:11,130 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1133 secondes
+2024-10-28 10:17:11,130 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:17:11,130 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 10:17:11,130 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:17:51,560 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 10:17:51,757 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 10:17:51,820 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 10:17:51,820 - AdsLogger - INFO - Temps d'exécution de connect: 0.0636 secondes.
+2024-10-28 10:17:51,830 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 10:17:51,838 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0169 secondes.
+2024-10-28 10:17:51,908 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 10:17:51,908 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 10:17:52,187 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:17:52,189 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:17:52,189 - AdsLogger - ERROR - Échec de l'insertion des données: sequence item 0: expected str instance, int found
+2024-10-28 10:17:52,189 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:17:52,301 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:17:52,308 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.1197 secondes.
+2024-10-28 10:17:52,317 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:17:52,433 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:17:52,433 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1208 secondes
+2024-10-28 10:17:52,436 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:17:52,544 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:17:52,545 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1113 secondes
+2024-10-28 10:17:52,552 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:17:52,660 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:17:52,661 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1119 secondes
+2024-10-28 10:17:52,666 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:17:52,773 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:17:52,774 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1130 secondes
+2024-10-28 10:17:52,774 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:17:52,775 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 10:17:52,775 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:18:08,879 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 10:18:09,043 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 10:18:09,136 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 10:18:09,136 - AdsLogger - INFO - Temps d'exécution de connect: 0.0934 secondes.
+2024-10-28 10:18:09,148 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 10:18:09,156 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0202 secondes.
+2024-10-28 10:18:09,265 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 10:18:09,265 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 10:18:09,443 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:18:09,445 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:18:09,445 - AdsLogger - ERROR - Échec de l'insertion des données: sequence item 0: expected str instance, int found
+2024-10-28 10:18:09,445 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:18:09,523 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:18:09,531 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.0865 secondes.
+2024-10-28 10:18:09,544 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:18:09,621 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:18:09,621 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0824 secondes
+2024-10-28 10:18:09,630 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:18:09,709 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:18:09,709 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0812 secondes
+2024-10-28 10:18:09,709 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:18:09,709 - AdsLogger - ERROR - Échec de l'exécution du pipeline: list index out of range
+2024-10-28 10:18:09,709 - AdsLogger - ERROR - **************************************************
+2024-10-28 10:18:45,400 - EnvLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2024-10-28 10:18:45,593 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2024-10-28 10:18:45,676 - AdsLogger - INFO - Connexion établie avec la base de données.
+2024-10-28 10:18:45,676 - AdsLogger - INFO - Temps d'exécution de connect: 0.0825 secondes.
+2024-10-28 10:18:45,687 - AdsLogger - INFO - Requête exécutée avec succès.
+2024-10-28 10:18:45,697 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0206 secondes.
+2024-10-28 10:18:45,780 - AdsLogger - INFO - Connexion à test réussie.
+2024-10-28 10:18:45,781 - AdsLogger - INFO - Chargement des données depuis la source...
+2024-10-28 10:18:45,957 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:18:45,991 - AdsLogger - INFO - 5 lignes insérées avec succès dans la table insert_test_2.
+2024-10-28 10:18:46,083 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:18:46,084 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.1255 secondes.
+2024-10-28 10:18:46,092 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:18:46,092 - AdsLogger - INFO - 5 lignes lues.
+2024-10-28 10:18:46,190 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:18:46,190 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1062 secondes
+2024-10-28 10:18:46,194 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2024-10-28 10:18:46,194 - AdsLogger - INFO - 5 lignes lues.
+2024-10-28 10:18:46,280 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:18:46,281 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0907 secondes
+2024-10-28 10:18:46,281 - AdsLogger - INFO - Les données insérées correspondent bien à la source.
+2024-10-28 10:18:46,281 - AdsLogger - INFO - 5 ligne(s) lue(s).
+2024-10-28 10:18:46,366 - AdsLogger - INFO - Logs inséré dans les tables LOGS et LOGS_details.
+2024-10-28 10:18:46,366 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.4500 secondes
+2024-10-28 10:18:46,367 - AdsLogger - INFO - Temps d'exécution de run: 0.6690 secondes.
+2024-10-28 10:18:46,367 - AdsLogger - INFO - Fin de la démonstration
