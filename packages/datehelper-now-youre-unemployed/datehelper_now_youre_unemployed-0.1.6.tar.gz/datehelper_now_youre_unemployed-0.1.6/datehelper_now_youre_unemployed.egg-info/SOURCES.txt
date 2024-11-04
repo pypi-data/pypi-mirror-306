@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+datehelper/__init__.py
+datehelper/core.py
+datehelper_now_youre_unemployed.egg-info/PKG-INFO
+datehelper_now_youre_unemployed.egg-info/SOURCES.txt
+datehelper_now_youre_unemployed.egg-info/dependency_links.txt
+datehelper_now_youre_unemployed.egg-info/top_level.txt
+tests/__init__.py
+tests/test_datehelper.py
