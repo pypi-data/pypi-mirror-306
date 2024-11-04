@@ -1,0 +1,12 @@
+smolbpe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smolbpe/basicTokenizer.py,sha256=H_WDFyO8GPuj9iX24Y9khWx7nq0RrXiUbiSZ8BaIKwM,2275
+smolbpe/gpt4Tokenizer.py,sha256=8MDRqWy1hWtOZwS-Iv-aQSsCvIfJJDtjsnB86Zwqq0M,4089
+smolbpe/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smolbpe/data/taylorswift.txt,sha256=o7jNKTxT3iVbKalkz184hDpzXOEQwQ8dJlm-qZFgs5Q,185767
+smolbpe/data/text.py,sha256=GdTcarmAyYRGw7thtqRroSPwLp2E631ARmAnCk6yyJM,24650
+smolbpe-0.1.0.dist-info/LICENSE,sha256=WUT-yx3E290NOxM9N9LpXx7RLBhFIJLFhqyASezmvEI,1062
+smolbpe-0.1.0.dist-info/METADATA,sha256=ajQA6ILezl6ci-ElrXR9AVbAGmC5PM7kdEvy60jZl54,435
+smolbpe-0.1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+smolbpe-0.1.0.dist-info/entry_points.txt,sha256=3o6AXXycVgO6kBSDOymhJNnIIh7G8wqbk9OWcIsCbJs,61
+smolbpe-0.1.0.dist-info/top_level.txt,sha256=TZnD5kYBjVLpGOEE36nFuCdxdSy_FAH3pEq_VZ66YU8,8
+smolbpe-0.1.0.dist-info/RECORD,,
