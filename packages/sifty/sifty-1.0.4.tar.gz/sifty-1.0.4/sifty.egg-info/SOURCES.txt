@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+sifty/__init__.py
+sifty/types.py
+sifty/types.pyi
+sifty.egg-info/PKG-INFO
+sifty.egg-info/SOURCES.txt
+sifty.egg-info/dependency_links.txt
+sifty.egg-info/top_level.txt
+sifty/_core/__init__.py
+sifty/_utils/__init__.py
