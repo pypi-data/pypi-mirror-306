@@ -1,0 +1,3 @@
+DOMAIN: str
+CONF_DEBUG_UI: str
+DEBUG_UI_URL_MESSAGE: str
