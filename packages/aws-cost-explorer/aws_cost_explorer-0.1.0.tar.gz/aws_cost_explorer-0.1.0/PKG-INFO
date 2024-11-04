@@ -1,0 +1,6 @@
+Metadata-Version: 2.3
+Name: aws-cost-explorer
+Version: 0.1.0
+Summary: View aws costs from the CLI
+Author-email: Michael Lingelbach <m.j.lbach@gmail.com>
+Requires-Python: >=3.11
