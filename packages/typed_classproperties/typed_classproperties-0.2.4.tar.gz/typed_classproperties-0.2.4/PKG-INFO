@@ -1,0 +1,94 @@
+Metadata-Version: 2.3
+Name: typed_classproperties
+Version: 0.2.4
+Summary: Typed decorators for classproperty and cached_classproperty.
+Project-URL: Issues, https://github.com/CarrotManMatt/typed_classproperties/issues
+Project-URL: Repository, https://github.com/CarrotManMatt/typed_classproperties
+Author-email: Jonathan Clarke <jonathan.a.clarke@gmail.com>, Matt Norton <matt@carrotmanmatt.com>
+Maintainer-email: Matt Norton <matt@carrotmanmatt.com>
+License-File: LICENSE
+Keywords: classmethod,decorator,property
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# typed_classproperties
+
+Typed decorators for classproperty and cached_classproperty.
+
+Python 3 compatible only. No dependencies.
+
+## Installation
+
+This package is hosted on PYPI and can be installed using `uv` or `pip`. E.g.
+
+```bash
+uv add typed_classproperties
+```
+
+```bash
+pip install typed_classproperties
+```
+
+## Example usage
+
+```python
+from typing import override
+
+from typed_classproperties import classproperty, cached_classproperty
+
+
+class Foo:
+    @override
+    def __init__(self, bar: str) -> None:
+        self.bar: str = bar
+
+    @classproperty
+    def BAR(cls) -> int:
+        return 1
+
+
+assert Foo.BAR == 1
+assert Foo(bar="one").BAR == 1
+
+
+class CachedFoo:
+    @override
+    def __init__(self, bar: str) -> None:
+        self.bar: str = bar
+
+    @cached_classproperty
+    def BAR(cls) -> int:
+        print("This will be executed only once")
+        return 1
+
+
+assert CachedFoo.BAR == 1
+assert CachedFoo(bar="bar").FOO == 1
+```
+
+## Tests
+
+See [`tests.py`](tests.py) for usage examples and expected behaviour.
+
+To run tests:
+
+```bash
+uv run --group test pytest
+```
+
+## Credits
+
+Credits to Denis Ryzhkov on Stackoverflow for the implementation of classproperty:
+https://stackoverflow.com/a/13624858/1280629
