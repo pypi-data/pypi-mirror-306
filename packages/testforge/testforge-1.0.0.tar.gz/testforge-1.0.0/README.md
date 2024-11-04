@@ -1,0 +1,180 @@
+# TestForge
+
+**TestForge** is a command-line tool designed to help automate the creation of test files using pytest. This tool can compress project files, send them to a specified cloud endpoint, and generate pytest cases for a given directory.
+
+## Features
+
+- **Version Check**: Show the current version of TestForge.
+- **Help**: Provides usage instructions.
+- **Generate Tests**: Automatically generate pytest test cases for a specified directory.
+- **Output Directory**: Specify an output directory for the generated test files (default is `tests`).
+
+## Installation
+
+To install TestForge, clone the repository and run:
+
+```bash
+python3 setup.py sdist bdist_wheel
+pip install .
+```
+
+## Usage
+
+TestForge provides several options that can be used in the command line:
+
+- **Show Version**: Check the version of TestForge.
+
+  ```bash
+  testforge -v
+  ```
+
+- **Generate Tests**: Generate pytest cases for a specified directory.
+
+  ```bash
+  testforge -g path/to/your/directory
+  ```
+
+- **Specify Output Directory**: Define a custom directory for the generated test files.
+  ```bash
+  testforge -g path/to/your/directory -o custom_output_directory
+  ```
+
+## Example
+
+```bash
+testforge -g src -o tests
+```
+
+This command will generate test files for the `src` directory and save them in the `tests` folder.
+
+## Development
+
+If you want to contribute to the development of TestForge, clone the repository, make your changes, and submit a pull request.
+
+## Building and Publishing Guide
+
+This section provides a step-by-step guide to build, publish, and update `testforge` on PyPI.
+
+### Prerequisites
+
+- **Python 3.6+**
+- **Twine** for uploading the package to PyPI
+
+Install Twine (if not already installed):
+
+```bash
+pip install twine
+```
+
+### Project Structure
+
+Ensure the project has the following structure:
+
+```
+cli-tool/
+├── setup.py
+├── README.md
+├── LICENSE
+├── testforge/
+│   ├── __init__.py
+│   └── cli.py
+└── tests/
+```
+
+### Steps to Build and Publish the First Version
+
+1. **Navigate to the Project Root Directory**  
+   Go to the `cli-tool` directory where `setup.py` is located:
+
+   ```bash
+   cd path/to/cli-tool
+   ```
+
+2. **Build the Package**  
+   Generate distribution files using the following command:
+
+   ```bash
+   python3 setup.py sdist bdist_wheel
+   ```
+
+   This command creates a `dist/` folder with two files:
+
+   - A source distribution (`.tar.gz`)
+   - A wheel distribution (`.whl`)
+
+3. **Upload to PyPI**  
+   Use Twine to upload the package to PyPI:
+
+   ```bash
+   twine upload dist/*
+   ```
+
+   You will be prompted to enter your PyPI username and password.
+
+4. **Verify the Package on PyPI**  
+   After uploading, visit [https://pypi.org/project/testforge](https://pypi.org/project/testforge) to verify that the package is live.
+
+5. **Test Installation**  
+   Once published, you can install the package using:
+
+   ```bash
+   pip install testforge
+   ```
+
+   Test the CLI tool by running:
+
+   ```bash
+   testforge -v
+   ```
+
+### Publishing a New Version
+
+To publish an updated version of `testforge`, follow these steps:
+
+1. **Update the Version in `setup.py`**  
+   Increment the version number in `setup.py`. For example, if the current version is `1.0.0`, update it to `1.0.1` for a minor change, `1.1.0` for a new feature, or `2.0.0` for a major update.
+
+   ```python
+   setup(
+       name="testforge",
+       version="1.0.1",  # Updated version number
+       # other parameters...
+   )
+   ```
+
+2. **Clean Up Previous Builds**  
+   Delete old distribution files to avoid confusion:
+
+   ```bash
+   rm -rf dist/
+   ```
+
+3. **Build the New Distribution Files**  
+   From the `cli-tool` directory, rebuild the package:
+
+   ```bash
+   python3 setup.py sdist bdist_wheel
+   ```
+
+4. **Upload the New Version to PyPI**  
+   Use Twine to upload the new distribution files:
+
+   ```bash
+   twine upload dist/*
+   ```
+
+5. **Verify the New Version on PyPI**  
+   Check [https://pypi.org/project/testforge](https://pypi.org/project/testforge) to confirm that the new version is live.
+
+6. **Test the New Version**  
+   Install the latest version to ensure it’s accessible:
+
+   ```bash
+   pip install --upgrade testforge
+   ```
+
+   Run the CLI tool to confirm the version:
+
+   ```bash
+   testforge -v
+   ```
