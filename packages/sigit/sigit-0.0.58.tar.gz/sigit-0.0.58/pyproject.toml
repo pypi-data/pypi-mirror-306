@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sigit"  # Your application/package name
+version = "0.0.58"
+description = "A Git GUI built with Python and Kivy"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["git", "gui", "kivy", "python"]
+license = { text = "MIT" }
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+# Add the required dependencies
+dependencies = [
+    "kivy>=2.0.0",       # Kivy for the GUI
+    "pygments>=2.7.0",   # Pygments for syntax highlighting
+]
+
+# Entry point for your application
+[project.scripts]
+sigit = "sigit.main:main"  # Adjust to your actual module and function
+
+[tool.hatch.metadata]
+allow-direct-references = true

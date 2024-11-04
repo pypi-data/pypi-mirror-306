@@ -1,0 +1,71 @@
+<CustomPopup>:
+    grid: _grid
+    info_lbl: _info_lbl
+    ok_button: _ok_btn
+    size_hint: None,None
+    auto_dismiss: False
+    size: dp(400),dp(400)
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(10)
+        GridLayout:
+            cols: 1
+            id: _grid
+            spacing: dp(8)
+            padding: dp(8)
+            Label:
+                id: _info_lbl
+                size_hint_y: None
+                font_size: '12sp'
+                height: self.texture_size[1] if self.text else 0
+                text_size: self.width, None
+                halign: 'left'
+                valign: 'middle'
+
+        BoxLayout:
+            size_hint_y: None
+            height: dp(40)
+            spacing: dp(20)
+            Button:
+                id: _ok_btn
+                text: "Ok"
+                on_release: root.dismiss()
+            Button:
+                text: "Cancel"
+                on_release: root.dismiss()
+<CustomDropdown>:
+    canvas:
+        Color:
+            rgb: .3,.3,.3
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<CustomDropBtn>:
+    markup: True
+    text_size: self.size
+    halign: 'left'
+    valign: 'center'
+    size_hint: None,None
+    width: 240
+    height: 30
+    font_size: '12sp'
+    padding: [6,0,0,0]
+
+<DragBarHorizontal>:
+    size_hint_y: 1
+    canvas:
+        Color:
+            rgb: .3,.3,.3
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+<DragBarVertical>:
+    size_hint_x: 1
+    canvas:
+        Color:
+            rgb: .3,.3,.3
+        Rectangle:
+            size: self.size
+            pos: self.pos

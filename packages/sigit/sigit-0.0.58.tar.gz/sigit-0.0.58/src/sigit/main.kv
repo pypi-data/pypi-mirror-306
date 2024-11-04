@@ -1,0 +1,284 @@
+#: import Window kivy.core.window.Window
+#:import DragBarHorizontal sigit.custom_widgets.DragBarHorizontal
+#:import DragBarVertical sigit.custom_widgets.DragBarVertical
+<MainWidget>:
+    id: main_widget
+    orientation: 'vertical'
+    commit_list: _commit_list
+    commit_details: _commit_details
+    diff_scroll: _diff_scroll
+    tree_box: _tree_box
+    prev_btn: _prev_btn
+    next_btn: _next_btn
+    spacing: 2
+    BoxLayout:
+        size_hint_y: None
+        height: dp(32)
+        BoxLayout:
+            Widget: #alignment widget
+            Button:
+                id: _prev_btn
+                size_hint_x: None
+                width: dp(32)
+                text: '<-'
+                on_press: root.go_back()
+        Label:
+            text: f"{root.repo_name}: {root.parsed_arguments}"
+            color: 1, 1, 1, .6
+            size_hint_x: None  # No horizontal size hint, so the width is determined by content
+            width: min(self.texture_size[0], 400)  # Set the width of the label to fit content, with a maximum of 400
+            text_size: None, None  # No wrapping
+            padding: 10, 10
+        BoxLayout:
+            Button:
+                id: _next_btn
+                size_hint_x: None
+                width: dp(32)
+                text: '->'
+                on_press: root.go_forward()
+            Widget: #alignment widget
+    RecycleView:
+        id: _commit_list
+        commits: _commits
+        viewclass: 'CommitLine'
+        bar_width: dp(10)
+        scroll_type: ['bars', 'content']
+        bar_color: (.3, .3, .3, 1)
+        bar_inactive_color: (.3, .3, .3, 1)
+        effect_cls: 'ScrollEffect'
+        SelectableRecycleBoxLayout:
+            id: _commits
+            default_size: None, dp(20)
+            default_size_hint: 1, None
+            size_hint_y: None
+            height: self.minimum_height
+            orientation: 'vertical'
+            multiselect: False  # Disable multiselect
+            touch_multiselect: False  # Disable multiselect on touch
+    Splitter:
+        sizable_from: 'top'
+        size_hint_y: 1
+        min_size: dp(160)  # Set a minimum size for the splitter
+        max_size: Window.height * 0.9  # Dynamically set max_size based on 80% of the window height
+        strip_size: '8dp'
+        BoxLayout:
+            orientation: 'vertical'
+            BoxLayout:
+                size_hint_y: None
+                height: dp(32)
+                canvas:
+                    Color:
+                        rgba: 1,1,1,.2
+                    Line:
+                        points: self.x,self.top,self.right,self.top
+                    Line:
+                        points: self.x,self.y,self.right,self.y 
+                BoxLayout:
+                    size_hint_x: .5
+
+                    TextInput:
+                        id: _search_input
+                        multiline: False
+                        hint_text: "Please enter a search term"
+                        background_color: 1, 1, 1, .1  # No background color (fully transparent)
+                        foreground_color: 1, 1, 1, 1  # Set text color to white
+                        cursor_color: 1, 1, 1, 1  # Set cursor to visible (white, or any other color)
+                        on_text: self.text = self.text[:100] if len(self.text) > 100 else self.text  # Limit to 100 characters
+                        on_text_validate: if self.text: root.perform_search(self.text)  # Call perform_search if there's text and Enter is pressed
+                    Button:
+                        size_hint_x: None
+                        width: dp(60)
+                        text: 'Search'
+                        on_press: root.perform_search(_search_input.text if _search_input.text != "" else None)
+                    Spinner:
+                        id: search_options
+                        text: 'Search Messages'  # Set the default option here
+                        values: ['Limit to Author', 'Search Messages', 'Search Changes', 'Search Occurrences', 'Trace Line Evolution']
+                        size_hint: None, 1
+                        width: dp(180)
+
+                BoxLayout:
+                    size_hint_x: .5
+                    ToggleButton:
+                        id: _patch_toggle
+                        text: 'Patch'
+                        size_hint_x: None
+                        width: dp(50)
+                        state: 'down'
+                        on_state: root.is_patch_view = True if self.state == 'down' else False
+                        on_state: _tree_toggle.state = 'normal' if self.state == 'down' else 'down'
+                        
+                    ToggleButton:
+                        id: _tree_toggle
+                        text: 'Tree'
+                        size_hint_x: None
+                        width: dp(50)
+                        on_state: root.is_patch_view = False if self.state == 'down' else True
+                        on_state: _patch_toggle.state = 'normal' if self.state == 'down' else 'down'
+
+
+            BoxLayout:
+                BoxLayout:
+                    orientation: 'vertical'
+                    id: _commit_details
+                    commit_hash_lbl: _commit_hash_lbl
+                    branch_lbl: _branch_lbl
+                    parent_child_lbl: _parent_child_lbl
+                    message_lbl: _message_lbl
+                    spacing: dp(4)
+                    CommitDetailLabel:
+                        id: _parent_child_lbl
+                        on_ref_press: root.on_ref_press(self, args[1])
+                    TextInput:
+                        id: _commit_hash_lbl
+                        readonly: True
+                        font_size: '12sp'
+                        size_hint: 1, None
+                        height: self.minimum_height
+                        padding: [4, 0, 0, 0]  
+                        multiline: False
+                        halign: 'left'
+                        valign: 'top'
+                        background_normal: ''  # Remove default background image
+                        background_color: 0, 0, 0, 0  # Make background transparent
+                        foreground_color: 1, 1, 1, 1  # Set text color if needed (white here)
+                        text_size: self.width, None  # Enable text wrapping
+                        cursor_color: 1, 1, 1, 1  # Set cursor color if needed (white here)
+                        
+                    CommitDetailLabel:
+                        id: _branch_lbl
+                        on_ref_press: root.on_branch_click(self, args[1])
+                    CommitDetailLabel:
+                        id: _message_lbl
+                        padding: [4, 0, 0, 4]
+                    BoxLayout:
+                        BoxLayout:
+                            orientation: 'vertical'
+                            CodeInput:
+                                id: _diff_scroll
+                                size_hint: 1, 1
+                                font_name: "DejaVuSansMono" # Mono space font
+                                font_size: '12sp'
+                                readonly: True
+                                cursor_blink: False
+                                do_wrap: False
+                                use_bubble: True
+                                background_color: (1,1,1,.08)
+                                foreground_color: (1,1,1,1)
+                                on_text: _horizontal_scroll_bar.update_width(self)
+                                on_text: _vertical_scroll_bar.update_height(self)
+                                on_scroll_x: _horizontal_scroll_bar.update_from_scroll() # update scroll bar position when scrolled form content
+                                on_scroll_y: _vertical_scroll_bar.update_from_scroll() # update scroll bar position when scrolled form content
+                                #on_scroll_y: self.highlight_file_from_code(self)
+                            BoxLayout:
+                                orientation: 'vertical'
+                                size_hint_y: None
+                                height: dp(10)
+                                DragBarHorizontal:
+                                    id: _horizontal_scroll_bar
+                        BoxLayout:
+                            size_hint_x: None
+                            width: dp(10)
+                            DragBarVertical:
+                                id: _vertical_scroll_bar
+                Splitter:
+                    horizontal: False
+                    size_hint_y: 1
+                    min_size: dp(160)  # Set a minimum size for the splitter
+                    max_size: Window.width * 0.9  # Dynamically set max_size based on 80% of the window height
+                    strip_size: '6dp'
+                    ScrollView:
+                        effect_cls: 'ScrollEffect'
+                        bar_width: dp(10)        
+                        scroll_type: ['bars', 'content']
+                        bar_color: (.3, .3, .3, 1)
+                        bar_inactive_color: (.3, .3, .3, 1)
+                        canvas: 
+                            Color:
+                                rgba: 1,1,1,.2
+                            Line:
+                                points: self.x,self.top,self.x,self.y
+                        BoxLayout:
+                            id: _tree_box
+                            padding: [6,0,0,0]
+                            orientation: 'vertical'
+                            size_hint: 1, None
+                            height: self.minimum_height
+
+<CommitDetailLabel@Label>:
+    font_size: '12sp'
+    size_hint: 1, None
+    halign: 'left'
+    valign: 'top'
+    height: self.texture_size[1]
+    padding: [4, 0, 0, 0]    
+    markup: True    
+    text_size: self.width, None  # This will enable wrapping and create new lines when needed
+    shorten: False
+
+<CommitLine>:
+    spacing: 2
+    canvas:
+        Color:
+            rgb: (.12,.12,.12) if self.selected else (0,0,0)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+    CommitLineText:
+        id: _commit_graph
+        size_hint_x: None
+        text: root.graph
+        bold: root.highlighted or root.marked
+        valign: 'center'
+        color: (1, 1, 1, .87) if not root.marked else (1, 1, 0.6, 1)
+        text_size: None, None
+        padding: [6,0,6,0]
+        font_size: '14sp'
+        on_text: self.texture_update(); self.width = root.get_plain_text_length(self.text) * 16
+    CommitLineText:
+        bold: root.highlighted or root.marked
+        color: (1, 1, 1, .87) if not root.marked else (1, 1, 0.6, 1)
+        text: ("[u]" + root.message + "[/u]") if root.highlighted else root.message
+    CommitLineText:
+        bold: root.highlighted or root.marked
+        color: (1, 1, 1, .87) if not root.marked else (1, 1, 0.6, 1)
+        text: ("[u]" + root.author + "[/u]") if root.highlighted else root.author
+        size_hint_max_x: dp(400)
+    CommitLineText:
+        bold: root.highlighted or root.marked
+        color: (1, 1, 1, .87) if not root.marked else (1, 1, 0.6, 1)
+        text: ("[u]" + root.date + "[/u]") if root.highlighted else root.date
+        size_hint_max_x: dp(220)
+
+<CommitLineText@Label>:
+    markup: True
+    multiline: False
+    text_size: self.size
+    halign: 'left'
+    valign: 'middle'
+    font_size: 12
+    padding:   [4,0,0,0]
+    
+<FileLabel>:
+    size_hint_y: None
+    height: dp(30)
+    text: self.file
+    halign: 'left'
+    valign: 'middle'
+    text_size: self.size
+    canvas.before: 
+        Color:
+            rgb: self.bg_color
+        Rectangle:
+            pos: self.pos
+            size: self.size
+<TreeLabel>:
+    size_hint_y: None
+    height: dp(30)
+
+    text: root.file
+    halign: 'left'
+    valign: 'middle'
+    text_size: self.size
+    color: (1,1,1,1)
