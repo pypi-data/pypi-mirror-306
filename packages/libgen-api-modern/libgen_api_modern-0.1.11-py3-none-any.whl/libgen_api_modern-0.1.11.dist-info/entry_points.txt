@@ -1,0 +1,3 @@
+[console_scripts]
+libgen_api_modern=libgen_api_modern:main
+
