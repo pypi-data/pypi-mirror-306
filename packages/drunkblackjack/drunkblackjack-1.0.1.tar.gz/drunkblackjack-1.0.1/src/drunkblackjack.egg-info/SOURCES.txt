@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/drunkblackjack/__init__.py
+src/drunkblackjack/module.py
+src/drunkblackjack.egg-info/PKG-INFO
+src/drunkblackjack.egg-info/SOURCES.txt
+src/drunkblackjack.egg-info/dependency_links.txt
+src/drunkblackjack.egg-info/requires.txt
+src/drunkblackjack.egg-info/top_level.txt
+tests/test_blackjack.py
