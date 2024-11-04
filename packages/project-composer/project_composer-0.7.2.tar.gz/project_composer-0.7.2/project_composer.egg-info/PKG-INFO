@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: project-composer
+Version: 0.7.2
+Summary: A system to compose project parts from applications enabled in a manifest
+Home-page: https://github.com/sveetch/project-composer
+Author: David Thenon
+Author-email: sveetch@gmail.com
+License: MIT
+Project-URL: Source Code, https://github.com/sveetch/project-composer
+Project-URL: Issue Tracker, https://github.com/sveetch/project-composer/issues
+Project-URL: Changelog, https://project-composer.readthedocs.io/en/latest/history.html
+Project-URL: Documentation, https://project-composer.readthedocs.io/
+Keywords: Python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENCE.txt
+Requires-Dist: click>=8.0
+Requires-Dist: colorlog>=6.7.0
+Requires-Dist: tomli>=2.0.1
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: freezegun>=1.2.0; extra == "dev"
+Provides-Extra: quality
+Requires-Dist: flake8>=6.0.0; extra == "quality"
+Requires-Dist: tox>=4.11.0; extra == "quality"
+Provides-Extra: doc
+Requires-Dist: sphinx>=8.0.2; extra == "doc"
+Requires-Dist: furo>=2024.8.6; extra == "doc"
+Requires-Dist: sphinx-copybutton>=0.5.2; extra == "doc"
+Requires-Dist: diagrams>=0.23.3; extra == "doc"
+Requires-Dist: pillow>=8.0.0; extra == "doc"
+Provides-Extra: doc-live
+Requires-Dist: livereload>=2.6.0; extra == "doc-live"
+Provides-Extra: release
+Requires-Dist: twine>=5.0.0; extra == "release"
+
+.. _Python: https://www.python.org/
+.. _click: https://palletsprojects.com/p/click/
+.. _colorlog: https://github.com/borntyping/python-colorlog
+.. _tomli: https://github.com/hukkin/tomli
+
+================
+Project composer
+================
+
+A convenient system to structure and compose applications from a modular project.
+
+Basically, you give it a project manifest that will be used to organize your various
+project parts. Parts can be classes, text files or you can implement another part
+kind.
+
+
+Dependencies
+************
+
+* `Python`_>=3.8;
+* `click`_ >=8.0;
+* `colorlog`_;
+* `tomli`_;
+
+
+Links
+*****
+
+* Read the documentation on `Read the docs <https://project-composer.readthedocs.io/>`_;
+* Download its `PyPi package <https://pypi.python.org/pypi/project-composer>`_;
+* Clone it on its `Github repository <https://github.com/sveetch/project-composer>`_;
+
+
+Credits
+*******
+
+Logo vector and icon by `SVG Repo <https://www.svgrepo.com>`_.

@@ -1,0 +1,2 @@
+[console_scripts]
+project_composer = project_composer.cli.entrypoint:cli_frontend
