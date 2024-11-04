@@ -1,0 +1,8 @@
+LICENSE
+README.md
+dotdicttools.py
+pyproject.toml
+dotdicttools.egg-info/PKG-INFO
+dotdicttools.egg-info/SOURCES.txt
+dotdicttools.egg-info/dependency_links.txt
+dotdicttools.egg-info/top_level.txt
