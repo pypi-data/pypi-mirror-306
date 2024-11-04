@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: libro
+Version: 0.1.23
+Summary: libro
+Author-email: brokun <brokun0128@gmail.com>, sunshinesmilelk <ximo.lk66@gmail.com>, zhanba <c5e1856@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: libro-ai>=0.1.10
+Requires-Dist: libro-server>=0.1.7
+Requires-Dist: libro-sql>=0.1.9
+Description-Content-Type: text/markdown
+
+# libro
