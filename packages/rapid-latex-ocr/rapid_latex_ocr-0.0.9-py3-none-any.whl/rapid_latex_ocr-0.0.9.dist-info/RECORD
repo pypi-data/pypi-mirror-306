@@ -1,0 +1,12 @@
+rapid_latex_ocr/__init__.py,sha256=BCsVQU3F6yybK1rmSka39MoGieWKGER8B6lEGDg703w,125
+rapid_latex_ocr/config.yaml,sha256=TYXHv4q1dA9fsDFHSZe8Ye09vRQ1k6WZ0RiiLMmi1Xs,123
+rapid_latex_ocr/main.py,sha256=2lmOoraXrP30ijLkD-MBZKR8ySR7H32rE4mZV3W5vks,7393
+rapid_latex_ocr/models.py,sha256=uFrdxTrA7iGiMB_JROMkO3Lu16v6q5MLaR5oHKO8me0,5084
+rapid_latex_ocr/utils.py,sha256=lD5IAWYLhRVMV3mIopSPPVSsNEkSSmx5r6pq7PjsBVY,6342
+rapid_latex_ocr/utils_load.py,sha256=vvz8z4vQ_LDK0w4kS9pvF8H-xcjj0Ep00wErZ7ynWGI,5389
+rapid_latex_ocr-0.0.9.dist-info/LICENSE,sha256=XIRNqQHHxanWKddi5ZnwhhN5j-sEBRvchf3U0auNfJM,1064
+rapid_latex_ocr-0.0.9.dist-info/METADATA,sha256=2qF3plPNp_loQuIxN9yUYIh3R9D9EYBuy9enI75MVus,990
+rapid_latex_ocr-0.0.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+rapid_latex_ocr-0.0.9.dist-info/entry_points.txt,sha256=3ZwBE4Fx7DoWQn-nkVpVnzyPPsI55QzMp3-ez1tAZjM,63
+rapid_latex_ocr-0.0.9.dist-info/top_level.txt,sha256=blk0Gq0rC6c2B3IV8lPom6BfHmRKgP_pCCOl7YPZh8I,16
+rapid_latex_ocr-0.0.9.dist-info/RECORD,,
