@@ -1,0 +1,13 @@
+todo2notion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todo2notion/__main__.py,sha256=TuBSmMYFLF8O5vuGCD63Aov5yPicLUX8F3x4Vg5Z7dA,68
+todo2notion/config.py,sha256=kWdFqpzAXnj4g52zrqzgtJrnAhrGthGZoahn60nYQ3w,210
+todo2notion/notion_helper.py,sha256=ef4WYUM3EW5nQdKgDBOlnijUnOXJ5g080WdCtN0F4Es,11677
+todo2notion/notion_renderer.py,sha256=YcecI-BRBSq1seJ_r1SssXhK7X7dJDJtts9eNTnJmkE,16327
+todo2notion/todo.py,sha256=UgpW3gi5BRS9Gt6GQhPiD5ZpW8QhxrNPO1U8pdvFQB8,12503
+todo2notion/update_heatmap.py,sha256=ZNFh__r1032wSlBohIoNtPZf8sNxSKa4fPRuyNN3xqs,856
+todo2notion/utils.py,sha256=M3ehc4DTX7Y70hEYxgi57-nIefXHlZ1hYWAdzeGeDSk,9824
+todo2notion-0.0.8.dist-info/METADATA,sha256=aVZ3-Z_3rj5n3t-IixRlNFsiPZF8ubQAPnI6N7H2VM4,1530
+todo2notion-0.0.8.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+todo2notion-0.0.8.dist-info/entry_points.txt,sha256=EHWi_KjS1ApN9rrD0IwQmJFx6oIlStlYPx05scI-cQo,96
+todo2notion-0.0.8.dist-info/top_level.txt,sha256=WEGZbBMQ2eXG6Y7IHsDAzfq0lA5lXpD3zhzpYHr5qp8,12
+todo2notion-0.0.8.dist-info/RECORD,,
