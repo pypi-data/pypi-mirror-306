@@ -1,0 +1,5 @@
+falcon
+liteindex==0.0.3.2.dev4
+zstandard
+gunicorn[gevent]
+msgpack
