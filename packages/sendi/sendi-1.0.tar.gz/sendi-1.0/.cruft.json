@@ -1,0 +1,62 @@
+{
+  "template": "https://framagit.org/inkhey_projects/templates/modern-python-template.git",
+  "commit": "2455bcf7f3c1d5b7ed23b08aca165145ef2bcd61",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "sendi",
+      "__project_slug": "sendi",
+      "__app_slug": "sendi",
+      "description": "Another xmppsend script",
+      "author": "Inkey",
+      "email": "inkey@inkey-art.net",
+      "feature_typer": true,
+      "feature_fastapi": false,
+      "python_version": "3.11",
+      "package_version": "0.1",
+      "__features": {
+        "fastapi": {
+          "name": "FastApi Web Api",
+          "enabled": "False",
+          "ressources": [
+            "sendi/sendi/web.py",
+            "sendi/sendi/test_api.py"
+          ],
+          "devdependencies": [
+            "httpx",
+            "uvicorn"
+          ],
+          "dependencies": [
+            "fastapi"
+          ],
+          "rye_scripts": {
+            "devserver": "uvicorn sendi.web:app --reload"
+          },
+          "entrypoints": {}
+        },
+        "typer": {
+          "name": "Typer Cli",
+          "enabled": "True",
+          "ressources": [
+            "sendi/sendi/cli.py",
+            "sendi/sendi/test_cli.py"
+          ],
+          "devdependencies": [],
+          "dependencies": [
+            "typer"
+          ],
+          "rye_scripts": {},
+          "entrypoints": {
+            "sendi_cli": "sendi.cli:app"
+          }
+        }
+      },
+      "_jinja2_env_vars": {
+        "lstrip_blocks": true,
+        "trim_blocks": true
+      },
+      "_template": "https://framagit.org/inkhey_projects/templates/modern-python-template.git"
+    }
+  },
+  "directory": null
+}

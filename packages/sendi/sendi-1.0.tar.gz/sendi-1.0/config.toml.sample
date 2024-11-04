@@ -1,0 +1,11 @@
+[user]
+host="localhost"
+port=5222
+password="superpassword"
+jid="user@localhost"
+connection_type="standard"
+security_level="simple"
+lang="en"
+loglevel=0 # max log
+omemo_cache_file_path= "/tmp/mycache.json"
+clear_cache=true

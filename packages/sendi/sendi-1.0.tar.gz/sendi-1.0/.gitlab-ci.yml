@@ -1,0 +1,33 @@
+default:
+  image: jfxs/rye
+  before_script:
+    - rye tools install invoke
+    - invoke init
+
+
+stages:
+  - test
+  - publish
+
+
+lint:
+  stage: test
+  script:
+    - invoke check
+    - rye fmt
+
+
+tests:
+  stage: test
+  script:
+    - rye run pytest -s -vvvv
+  allow_failure: true
+
+
+publish:
+  stage: publish
+  script:
+    - invoke build
+    - rye publish --token $PYPI_TOKEN --yes
+  only:
+    - tags

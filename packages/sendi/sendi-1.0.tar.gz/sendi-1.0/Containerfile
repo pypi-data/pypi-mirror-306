@@ -1,0 +1,21 @@
+FROM python:3.11-bookworm as base
+
+FROM base as builder
+COPY dist /dist
+# INFO: libxeddsa is needed explicitly for build of XEdDSA in arm64.
+RUN set -eux; \
+	apt-get update; \
+	apt-get install -y --no-install-recommends libxeddsa-dev libsodium-dev libsodium23 libxeddsa2; \
+	rm -rf /var/lib/apt/lists/*
+RUN PYTHONDONTWRITEBYTECODE=1 pip install --no-cache-dir /dist/*.whl
+
+FROM base
+RUN set -eux; \
+	apt-get update; \
+	apt-get install -y --no-install-recommends libsodium23 libxeddsa2; \
+	rm -rf /var/lib/apt/lists/*
+LABEL maintainer="inkey@inkey-art.net"
+LABEL org.opencontainers.image.title="sendi"
+LABEL org.opencontainers.image.description="Another xmppsend script"
+COPY --from=builder /usr/local /usr/local
+ENTRYPOINT ["/usr/local/bin/sendi"]

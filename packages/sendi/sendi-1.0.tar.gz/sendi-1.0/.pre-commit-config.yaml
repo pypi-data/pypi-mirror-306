@@ -1,0 +1,29 @@
+default_language_version:
+    python: python3.11
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-merge-conflict
+      - id: debug-statements
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-toml
+      - id: check-yaml
+      - id: check-json
+  - repo: local
+    hooks:
+      # python
+      - id: format
+        name: Format and Lint
+        entry: rye run ruff check --fix
+        language: system
+        types_or: [python, pyi]
+      - id: mypy
+        name: Type Checking
+        entry: rye run mypy
+        language: system
+        types_or: [ python, pyi ]
+        exclude: "tasks.py"
+        args: []
