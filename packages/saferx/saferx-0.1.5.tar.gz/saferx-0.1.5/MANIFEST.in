@@ -1,0 +1,4 @@
+include saferx/model1/model/tft_model.pkl
+include saferx/model2/model/final_model.pkl
+recursive-include saferx *.py
+include saferx/__init__.py
