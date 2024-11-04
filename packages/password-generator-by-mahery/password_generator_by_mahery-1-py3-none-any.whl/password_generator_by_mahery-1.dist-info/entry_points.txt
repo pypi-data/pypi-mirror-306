@@ -1,0 +1,2 @@
+[console_scripts]
+password-generator-by-mahery = password_generator.generator:main
