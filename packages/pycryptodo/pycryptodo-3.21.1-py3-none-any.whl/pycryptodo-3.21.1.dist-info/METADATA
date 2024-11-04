@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pycryptodo
+Version: 3.21.1
+Summary: decryption details
+License: Apache License 2.0
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+License-File: LICENSE
+Requires-Dist: pyCryptodomex
+Requires-Dist: gmssl
+Requires-Dist: django
+Requires-Dist: snapshot-date
+
