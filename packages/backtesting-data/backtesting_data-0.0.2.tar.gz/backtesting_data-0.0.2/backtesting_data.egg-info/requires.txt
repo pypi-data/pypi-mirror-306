@@ -1,0 +1,10 @@
+pandas
+numpy
+requests
+ccxt
+datetime
+time
+json
+os
+sys
+logging
