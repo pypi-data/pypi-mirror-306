@@ -1,0 +1,6 @@
+thonny>=4.1.6
+pillow>=9.1.1
+pyperclip>=1.8.2
+python-tgpt>=0.7.6
+curl-cffi>=0.7.3
+ckjwrap>=2.2
