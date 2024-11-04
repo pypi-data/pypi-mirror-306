@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hvi-wrap"
+version = "1.1.1"
+description = "Keysight PW TSE wrapper that provides a friendlier interface"
+authors = ["Guy McBride <guy_mcbride@keysight.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+sphinx = "^8.1.3"
+sphinx-rtd-theme = "^3.0.1"
+sphinx-autodoc-defaultargs = "^0.1.2"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
