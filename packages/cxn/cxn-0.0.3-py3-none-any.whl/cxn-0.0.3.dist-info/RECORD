@@ -1,0 +1,9 @@
+cxn/__about__.py,sha256=TeJl2rlwOZdteFsfbFvM77w2ULA4KxhEeiYuFtRI5SE,122
+cxn/__init__.py,sha256=XOpLf-aF5MTdiS3bpo6XPW9mqKr-t6eNcSsB73ffY2E,100
+cxn/cli.py,sha256=IaJrVaOI86eYyRck-2xvhea8alOoQtnqnUATdt5s49o,2491
+cxn/providers.py,sha256=p5k1VnQQVbd58y4xIxnowyg1NefbXjpx_KimRqR21OI,4546
+cxn-0.0.3.dist-info/METADATA,sha256=IPuaFAGjjyzESqHt4bfDqX02jyH_bx2h-mgh6erjssc,3740
+cxn-0.0.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+cxn-0.0.3.dist-info/entry_points.txt,sha256=jO7QpE9Emofp2sk35i3pOEO_5X7VZjxk1oWqeG6lrCM,37
+cxn-0.0.3.dist-info/licenses/LICENSE.txt,sha256=t4HTne6d2AFKvmVyEkpuHCm7BAzfx3FAhNpdxeBl3IQ,1092
+cxn-0.0.3.dist-info/RECORD,,
