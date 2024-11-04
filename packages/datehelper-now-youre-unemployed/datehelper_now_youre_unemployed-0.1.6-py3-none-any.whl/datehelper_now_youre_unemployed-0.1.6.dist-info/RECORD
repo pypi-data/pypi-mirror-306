@@ -1,0 +1,9 @@
+datehelper/__init__.py,sha256=Cw4l7VGDxpmlI9l8yOc4neGoZ-I2VTgW0M2GYIZITYI,66
+datehelper/core.py,sha256=95MWSCQ1ENh5p9qC83byC1Y3X9Sw8XKT57vagrESxus,879
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_datehelper.py,sha256=-mak6f0kRXam6xJmRk99Ru7JTUdCxlZ3u-5UltvijCw,1813
+datehelper_now_youre_unemployed-0.1.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+datehelper_now_youre_unemployed-0.1.6.dist-info/METADATA,sha256=eAp7DUdMEcrvtKczG6ZIF-iKVzC6aUOyj0waK4yA3Aw,3355
+datehelper_now_youre_unemployed-0.1.6.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+datehelper_now_youre_unemployed-0.1.6.dist-info/top_level.txt,sha256=N-hkU94ASk-ESTRypDDUDF_BZEA2ltC7JESyXaHz0Gc,17
+datehelper_now_youre_unemployed-0.1.6.dist-info/RECORD,,
