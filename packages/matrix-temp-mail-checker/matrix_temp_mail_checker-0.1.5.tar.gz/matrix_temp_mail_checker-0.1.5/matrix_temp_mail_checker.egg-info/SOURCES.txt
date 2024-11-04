@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+matrix-temp-mail-checker/__init__.py
+matrix-temp-mail-checker/temp_mail_checker.py
+matrix_temp_mail_checker.egg-info/PKG-INFO
+matrix_temp_mail_checker.egg-info/SOURCES.txt
+matrix_temp_mail_checker.egg-info/dependency_links.txt
+matrix_temp_mail_checker.egg-info/requires.txt
+matrix_temp_mail_checker.egg-info/top_level.txt
