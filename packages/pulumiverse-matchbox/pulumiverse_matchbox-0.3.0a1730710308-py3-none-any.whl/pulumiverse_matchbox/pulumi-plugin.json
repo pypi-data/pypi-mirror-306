@@ -1,0 +1,6 @@
+{
+  "resource": true,
+  "name": "matchbox",
+  "version": "0.3.0-alpha.1730710308",
+  "server": "github://api.github.com/pulumiverse"
+}
