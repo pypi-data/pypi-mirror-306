@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+CodeShakespeare.egg-info/PKG-INFO
+CodeShakespeare.egg-info/SOURCES.txt
+CodeShakespeare.egg-info/dependency_links.txt
+CodeShakespeare.egg-info/top_level.txt
+codeshakespeare.egg-info/PKG-INFO
+codeshakespeare.egg-info/SOURCES.txt
+codeshakespeare.egg-info/dependency_links.txt
+codeshakespeare.egg-info/top_level.txt
+tests/__init__.py
+tests/test_codeshakespeare.py
