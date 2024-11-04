@@ -1,0 +1,27 @@
+[project]
+name = "mind-castle"
+version = "0.1.4"
+description = "A universal secrets manager"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "sqlalchemy>=2.0.0,<3.0.0",
+    "hvac",
+    "boto3",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
+[tool.uv]
+dev-dependencies = [
+    "black>=24.10.0",
+    "flake8>=7.1.1",
+    "pytest>=8.3.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
