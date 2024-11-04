@@ -1,0 +1,10 @@
+aftonfalk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aftonfalk/mssql.py,sha256=Do4nCbNK1S_BSdx9l5n0cxKc185TLPg_oyzDFi0Mym8,10714
+aftonfalk/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aftonfalk/models/enums_.py,sha256=SnpI80CXYopXcsEWWXDHmSNZLQOeHG_ACh8NXI3eA4g,1737
+aftonfalk/models/types_.py,sha256=CtvQDlZjD6OaCzM_OMVmV6bV0NhoIU2ocoG8AI3z27Q,5011
+aftonfalk-1.0.0.dist-info/LICENSE,sha256=3FXL3ZkW7FnuzdI9JnHY9u21FbtwriDhCKonBnbSJME,1071
+aftonfalk-1.0.0.dist-info/METADATA,sha256=r7cXpXjUuaDatJAn9VqLpKtz5gn73wL7qi3LvOpqtgA,2000
+aftonfalk-1.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+aftonfalk-1.0.0.dist-info/top_level.txt,sha256=VVQrtrHnPzhl1ClwDhY93qNUnTQhMRpdy6HrnV2E220,10
+aftonfalk-1.0.0.dist-info/RECORD,,
