@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+yassine_ramla_linear_regression/__init__.py
+yassine_ramla_linear_regression/yassine_ramla_linear_regression.py
+yassine_ramla_linear_regression.egg-info/PKG-INFO
+yassine_ramla_linear_regression.egg-info/SOURCES.txt
+yassine_ramla_linear_regression.egg-info/dependency_links.txt
+yassine_ramla_linear_regression.egg-info/requires.txt
+yassine_ramla_linear_regression.egg-info/top_level.txt
