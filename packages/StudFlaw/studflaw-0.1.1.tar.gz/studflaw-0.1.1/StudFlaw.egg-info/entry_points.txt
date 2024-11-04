@@ -1,0 +1,2 @@
+[console_scripts]
+studflaw = studflaw.main:main

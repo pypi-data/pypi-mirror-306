@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+StudFlaw.egg-info/PKG-INFO
+StudFlaw.egg-info/SOURCES.txt
+StudFlaw.egg-info/dependency_links.txt
+StudFlaw.egg-info/entry_points.txt
+StudFlaw.egg-info/requires.txt
+StudFlaw.egg-info/top_level.txt
+studflaw/__init__.py
+studflaw/main.py
