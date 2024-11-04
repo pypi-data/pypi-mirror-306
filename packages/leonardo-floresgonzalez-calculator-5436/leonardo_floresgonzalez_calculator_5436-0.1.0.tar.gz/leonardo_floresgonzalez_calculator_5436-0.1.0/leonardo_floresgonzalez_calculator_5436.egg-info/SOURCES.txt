@@ -1,0 +1,5 @@
+setup.py
+leonardo_floresgonzalez_calculator_5436.egg-info/PKG-INFO
+leonardo_floresgonzalez_calculator_5436.egg-info/SOURCES.txt
+leonardo_floresgonzalez_calculator_5436.egg-info/dependency_links.txt
+leonardo_floresgonzalez_calculator_5436.egg-info/top_level.txt
