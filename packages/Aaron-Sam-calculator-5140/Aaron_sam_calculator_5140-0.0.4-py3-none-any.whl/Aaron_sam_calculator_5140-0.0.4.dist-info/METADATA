@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Aaron_sam_calculator_5140
+Version: 0.0.4
+Summary: A simple calculator package
+Author: Aaron Sam
+Author-email: Aaron.Sam@sjsu.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
