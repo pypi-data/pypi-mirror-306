@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: yassine-ramla-linear-regression
+Version: 1.0.1
+Summary: An awesome package for linear regression
+Home-page: http://pypi.python.org/pypi/yassine_ramla_linear_regression/
+Author: yassine ramla
+Author-email: y.ramla@esi-sba.dz
+License: LICENSE.txt
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# package_name
+
+`yassine_ramla_linear_regression` is a Python library for linear regression
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `yassine_ramla_linear_regression`.
+
+```bash
+pip install yassine_ramla_linear_regression
+```
+
+## Usage
+
+```python
+import yassine_ramla_linear_regression
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
