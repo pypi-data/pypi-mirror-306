@@ -1,0 +1,11 @@
+lxml
+bayoo-docx>=0.2.20
+setuptools
+six
+babel
+
+[test]
+pytest
+
+[tests]
+pytest
