@@ -1,0 +1,13 @@
+wcferry/__init__.py,sha256=JdGCfPEnfDcrxOvfTJE2DOCwqBdbas2mDVAbTXb1MyU,105
+wcferry/client.py,sha256=WFwfxb9YtlErOqrG3U4UuoVkibi8_v4QATQwiC8-yow,32493
+wcferry/roomdata_pb2.py,sha256=glRKLzFFYpmDwjXXkR4fkHNfytPC-qf9K7zI12GpofI,1548
+wcferry/sdk.dll,sha256=Lm7omHrkshLmwH4hniCcOyd5LskvPxf05mDWIlyIBpY,196608
+wcferry/spy.dll,sha256=jbY4fXrhFru8_DbmEt9QcADhlxIYUEBlMa-GnPqa4SQ,1285120
+wcferry/spy_debug.dll,sha256=j9v2RMqeb9yoIwzCMBCDDxEvYkKlSg1bkQ320ZaenMo,1761280
+wcferry/spy_dev.dll,sha256=jTZcOqTrToXOAVDNvYmC23jHg7k5y9tcsBBtaHBcZbg,1739264
+wcferry/wcf_pb2.py,sha256=x9SNY19C1AgAavQAQRz6DWoogn-ETVuB13Ok-p7aRGs,20890
+wcferry/wxmsg.py,sha256=QJgfDfIhFvpFEd0LUSJ1jpGWyYtGUwKg1FXcyKCedIs,2219
+wcferry-39.3.3.0.dist-info/METADATA,sha256=lB-JZOoZJzoEuilu_OQkCkQPjzhyCTNj_9pAxbb1HOQ,3426
+wcferry-39.3.3.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+wcferry-39.3.3.0.dist-info/top_level.txt,sha256=V5vt9XhXSiO7m2GlBwWWGifvO4Lbr1AMqPse7PHtIKc,8
+wcferry-39.3.3.0.dist-info/RECORD,,
