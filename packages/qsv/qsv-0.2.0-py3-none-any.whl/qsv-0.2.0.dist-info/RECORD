@@ -1,0 +1,10 @@
+qsv/__init__.py,sha256=kUJqe-ZybUCKABInlNQIUKz3WiQt8FMwy39L8I22rIY,385
+qsv/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qsv/controllers/CsvController.py,sha256=2SXnk6JCpkYDpKRSClxnFT1hzZv4Nf4qBJ4BHWqmPUI,359
+qsv/controllers/DataFrameController.py,sha256=60mS49fbNpWqAL1zV-RWjHcHg0I-DyqX5a7mjyOi56g,5483
+qsv/views/TableView.py,sha256=kVVAhXNAFOZnJiW8vN9GpYhNQS07ioJaphQmyZ9Sjr4,405
+qsv-0.2.0.dist-info/METADATA,sha256=r1mtgYpYFgbBh4sj3OHxKTIeLiFH8ckXpGazwSK9TzU,10277
+qsv-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+qsv-0.2.0.dist-info/entry_points.txt,sha256=ap0wkwACXW2VdcIU3RKuKsvsI6wbE7oG5hPeP8C9dT4,33
+qsv-0.2.0.dist-info/licenses/LICENSE,sha256=d6O0mGrHyaRWoFSGXEgawJriIcrv7PqEG3n6e_tJar0,1065
+qsv-0.2.0.dist-info/RECORD,,
