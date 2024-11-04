@@ -1,0 +1,25 @@
+.. _react.i18n:
+
+==========================================
+i18n in React
+==========================================
+
+
+.. contents::
+   :depth: 1
+   :local:
+
+Cheat sheet
+===========
+
+
+- In a js or jsx source code file, ``this.ex.i18n.t("Hello, world!")`` marks
+  "Hello, world!" as a translatable message.
+
+- :cmd:`npm run build` will update the files below
+
+- :cmd:`npm run mm`
+
+
+
+.. command:: npm run mm
