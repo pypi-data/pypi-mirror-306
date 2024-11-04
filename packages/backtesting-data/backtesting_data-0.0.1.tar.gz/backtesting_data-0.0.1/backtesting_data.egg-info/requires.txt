@@ -1,0 +1,13 @@
+pandas
+numpy
+requests
+ccxt
+datetime
+time
+json
+os
+sys
+csv
+logging
+binance-futures-connector
+load-dotenv
