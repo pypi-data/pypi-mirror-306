@@ -1,0 +1,2 @@
+[console_scripts]
+pow-law = power_law.__main__:main
