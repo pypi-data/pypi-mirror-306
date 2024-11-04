@@ -1,0 +1,9 @@
+package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/main.py,sha256=uM_3rljXSNAJW7_dIq9ojyCEE8i-GGIlOUcA8GJsTj0,4088
+package/order_management.py,sha256=OZQOwQiuRA18SFtPKBtLu3shDoJAuMVq26QCtNuKfRs,1253
+package/user_management.py,sha256=mTtYmIQnw2u4kOz3xPCubTPICGwu_wihLG60KMTUv6w,1778
+finalHWcringe-0.9.3.dist-info/METADATA,sha256=_hRHVFuOtsug2cHGyHHzMZ0vVvxVekjaSeZ817Yjhbc,3576
+finalHWcringe-0.9.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+finalHWcringe-0.9.3.dist-info/entry_points.txt,sha256=-I23m2G_2oieJ7bms9N3EyUlsbwA4zX14Q5d735w3fE,43
+finalHWcringe-0.9.3.dist-info/top_level.txt,sha256=TpQW7893uEAT8mPh-QCMZWhhKYvlqryC9Fjm5Hxg2f8,8
+finalHWcringe-0.9.3.dist-info/RECORD,,
