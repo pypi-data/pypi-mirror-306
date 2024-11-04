@@ -1,0 +1,10 @@
+aas_core3_protobuf/__init__.py,sha256=HtEJc64kY8pFW0C_Lkw7999_mGQJ1n0Ph_8Zn-sXY58,278
+aas_core3_protobuf/pbization.py,sha256=dcSng1FA51jsgzQVpU-FEKsMXjjPMA8p8rEMVbOfJxA,289872
+aas_core3_protobuf/types_pb2.py,sha256=jisvPunXbntlWacyetQ-JoatYuaYMdAhb8j0t8cN4eM,48051
+aas_core3_protobuf/types_pb2.pyi,sha256=BlpeGI-cfYXHQw0s2o1ymVgsTMcxVFD4azXg0IQPyxw,95110
+aas_core3.0_protobuf-0.0.2.dist-info/AUTHORS,sha256=A6cvKtLzrBiDjxEuiM0H1P89WFWS32Z3UvxhGUfJfPY,118
+aas_core3.0_protobuf-0.0.2.dist-info/LICENSE,sha256=H8u9bZvmANydEk3ZxMr43vfxYI3roczzk_GjY5p6DpU,1186
+aas_core3.0_protobuf-0.0.2.dist-info/METADATA,sha256=AIjJax66kPKIeX3kghWJA6QKc6ye2Kq8M2f9tsLfDLY,2215
+aas_core3.0_protobuf-0.0.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+aas_core3.0_protobuf-0.0.2.dist-info/top_level.txt,sha256=wPuSTEGWYMS25xP2bkp8kfGMneQGC_dFSHjSjuI99NY,19
+aas_core3.0_protobuf-0.0.2.dist-info/RECORD,,
