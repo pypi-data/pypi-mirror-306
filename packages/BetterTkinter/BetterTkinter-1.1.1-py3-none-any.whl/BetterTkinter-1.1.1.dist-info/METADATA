@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: BetterTkinter
+Version: 1.1.1
+Summary: An enhanced tkinter package with custom-styled widgets
+Home-page: https://github.com/D-I-Projects/bettertkinter
+Download-URL: https://github.com/D-I-Projects/simplified_regex/archive/refs/tags/v1.1.1.tar.gz
+Author: D&I Projects
+Author-email: di.projects.help@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/D-I-Projects/bettertkinter/issues
+Project-URL: Documentation, https://github.com/D-I-Projects/bettertkinter#readme
+Project-URL: Source Code, https://github.com/D-I-Projects/bettertkinter
+Keywords: tkinter gui custom-widgets python
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align="center">
+  
+# BetterTkinter
+
+[![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/D-I-Projects/BetterTkinter#license)  [![PyPi](https://img.shields.io/badge/PyPi%20Link-FFFF00)](https://pypi.org/project/BetterTkinter/)  <a href="https://github.com/D-I-Projects/BetterTkinter/blob/master/CONTRIBUTING.md"> <img src="https://img.shields.io/github/contributors-anon/D-I-Projects/BetterTkinter" alt="Contributors badge" /></a>  [![Downloads](https://static.pepy.tech/badge/BetterTkinter)](https://pepy.tech/project/BetterTkinter)
+
+```pip install BetterTkinter``` 
+
+</div>
