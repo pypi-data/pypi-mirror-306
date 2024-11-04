@@ -1,0 +1,14 @@
+cryptography==43.*
+keyring==25.*
+
+[dev]
+build==1.*
+twine==5.*
+wheel==0.43.*
+
+[test]
+mypy==1.*
+playwright==1.*
+pytest==8.*
+ruff==0.7.*
+tox==4.*
