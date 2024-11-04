@@ -1,0 +1,10 @@
+pymagotchi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymagotchi/__main__.py,sha256=48bTlhtyMpW6DfjzMNdKOj0LOJ6pDcNfxIykiHCIW24,1662
+pymagotchi/constants.py,sha256=VFFtJXqXuX4kwSv_TSuWR0_I1CxbVF4fevg8VCqhzeQ,43
+pymagotchi/names.py,sha256=xB4cmYQcPh68XR0CtKUBAKTjxSGk995ZuaYACkqoYS4,2823
+pymagotchi/pet.py,sha256=rKMuD3Rwg6pCpu0m-rw89Nh6vmstjDvD3Rp0_90odD8,4270
+pymagotchi-0.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pymagotchi-0.0.0.dist-info/METADATA,sha256=-DkSXD9hvVVW44GcUbqEIn8-0kd5mrM9m57sDeP1V_U,40936
+pymagotchi-0.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pymagotchi-0.0.0.dist-info/top_level.txt,sha256=GUtyVxKDY79H8PmT2FQKKbjFnzUyMfDowNHMshKYZMo,11
+pymagotchi-0.0.0.dist-info/RECORD,,
