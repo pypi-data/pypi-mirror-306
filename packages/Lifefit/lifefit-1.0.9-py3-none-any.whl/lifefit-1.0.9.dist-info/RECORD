@@ -1,0 +1,17 @@
+lifefit/__init__.py,sha256=Uj4Qfd5H3AUwJRb-xTOzIMX1dL-LIjzJ9ZVLZ3m0qRM,239
+lifefit/app/app.py,sha256=Vp6XjSUeabL5tKhQ_kJfJTsbqUseI2zr4xzgsj5ncJg,21569
+lifefit/data/IRF/irf.txt,sha256=sqoyU1wfXr7T46p5ImoG5WN2tF87tXbyi2P5ccI_JYU,27874
+lifefit/data/IRF/irf_time_intensity.txt,sha256=dc7E7RtrxZ1AcReB5awxPb-kJvJMegTt-r6YeeHFsec,56721
+lifefit/data/anisotropy/HH.txt,sha256=g87grBRg7Z4H1NVmOrX9mfDTCowaKU0Ez-aQpgxda6I,30949
+lifefit/data/anisotropy/HV.txt,sha256=XaMGOAxgc1UpEFbGPvicz6vrmRdqa58JMhIhbdVjWzY,30314
+lifefit/data/anisotropy/VH.txt,sha256=GDEj40kaVu_r42jJbAYV1d3pHA-DjQh7LWQdtRqgjgs,31407
+lifefit/data/anisotropy/VV.txt,sha256=1jjAPwS4wvhEZ0mFlIvidRkOY6tY7-yQVS6IwC1qC6A,31352
+lifefit/data/lifetime/Atto550_DNA.txt,sha256=NRCI_MsPx9xZb8LeWQ5H64jxWluKKXajmht3wEXqxyI,30469
+lifefit/data/lifetime/Atto550_DNA_time_intensity.txt,sha256=pAGnJCBI4tpCP13FemYNUT252ua38FVtH2ehIvGSu0s,59313
+lifefit/gui.py,sha256=F_3WF88vy4QTbNFdH3A3FBNv4uZY61ewwa2SRwKXkaA,163
+lifefit/tcspc.py,sha256=n0YRYA0dre9LBuvoaug5iVs8zcM6x_ZoAkF3w3WsehM,33734
+lifefit-1.0.9.dist-info/LICENSE,sha256=3zjpxbaGJFumF1cdxndas3V25BF3S--ZxoEwZjmVI7A,1070
+lifefit-1.0.9.dist-info/METADATA,sha256=t9DmKROnPYYfCyyGK8-6Dp2e_g3zkHlUq6Rx40ze3EU,3225
+lifefit-1.0.9.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+lifefit-1.0.9.dist-info/entry_points.txt,sha256=xqkh_i3XJoI-eXQ0WkaZjQFnOCYP06F0AR481gkWeRI,48
+lifefit-1.0.9.dist-info/RECORD,,

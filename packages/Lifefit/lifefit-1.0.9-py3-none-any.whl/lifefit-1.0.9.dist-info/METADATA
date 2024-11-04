@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: Lifefit
+Version: 1.0.9
+Summary: Reconvolution fitting of time-correlated single-photon (TCPSC) data
+Home-page: https://rna-fretools.github.io/
+License: MIT
+Keywords: TCSPC,fluorescence
+Author: Fabio Steffen
+Author-email: fabio.steffen@chem.uzh.ch
+Maintainer: Fabio Steffen
+Maintainer-email: fabio.steffen@chem.uzh.ch
+Requires-Python: >=3.10
+Classifier: Framework :: Jupyter
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Dist: matplotlib (>=3.9.1,<4.0.0)
+Requires-Dist: mkdocs (>=1.6.0,<2.0.0)
+Requires-Dist: mkdocs-jupyter (>=0.24.8,<0.25.0)
+Requires-Dist: mkdocs-material (>=9.5.29,<10.0.0)
+Requires-Dist: mkdocstrings-python (>=1.10.7,<2.0.0)
+Requires-Dist: numpy (>=2.0.0,<3.0.0)
+Requires-Dist: plotly (>=5.22.0,<6.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: scipy (>=1.14.0,<2.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Requires-Dist: streamlit (>=1.36.0,<2.0.0)
+Requires-Dist: uncertainties (>=3.2.2,<4.0.0)
+Project-URL: Documentation, https://rna-fretools.github.io/lifefit
+Project-URL: Repository, https://github.com/RNA-FRETools/lifefit
+Description-Content-Type: text/markdown
+
+# <img src="https://raw.githubusercontent.com/RNA-FRETools/Lifefit/master/docs/images/lifefit_logo.png" width="70"> LifeFit
+
+[![Build Status](https://github.com/RNA-FRETools/LifeFit/actions/workflows/build.yml/badge.svg)](https://github.com/RNA-FRETools/Lifefit/actions/workflows/build.yml)
+[![Build Status](https://github.com/RNA-FRETools/LifeFit/actions/workflows/docs.yml/badge.svg)](https://github.com/RNA-FRETools/Lifefit/actions/workflows/docs.yml)
+[![PyPI](https://img.shields.io/pypi/v/lifefit)](https://pypi.org/project/lifefit/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10966753.svg)](https://doi.org/10.5281/zenodo.10966753)
+
+## What is LifeFit
+LifeFit is a Python package to analyze **time-correlated single-photon counting (TCSPC)** data sets, namely **fluorescence lifetime** and **time-resolve anisotropy** decays.
+
+> [!Note]
+> Please cite: F.D. Steffen, R.K.O. Sigel, R. Börner, *Phys. Chem. Chem. Phys.* **2016**, *18*, 29045-29055. [![](https://img.shields.io/badge/DOI-10.1039/C6CP04277E-blue.svg)](https://doi.org/10.1039/C6CP04277E)
+
+
+## Installation
+Install the latest release with pip
+
+```
+pip install lifefit
+```
+
+## Webserver
+You can run LifeFit directly in your browser. Start the streamlit app from the terminal with:
+
+```
+lifefit_gui
+```
+<img src="https://raw.githubusercontent.com/RNA-FRETools/Lifefit/master/docs/images/webserver.png">
+
+
+## Documentation
+LifeFit is documented [here](https://rna-fretools.github.io/Lifefit/).
+
+
+## Bug reports
+Please report any *bugs* via the [issue tracker](https://github.com/RNA-FRETools/Lifefit/issues)
+

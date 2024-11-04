@@ -1,0 +1,3 @@
+[console_scripts]
+lifefit_gui=lifefit.gui:main
+
