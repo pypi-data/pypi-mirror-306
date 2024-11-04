@@ -1,0 +1,7 @@
+nova_sdk/__init__.py,sha256=pxraKrhqhjGA3WGu4iuD-HQs6VlzsIyIikumTiabSKo,55
+nova_sdk/nova_sdk.py,sha256=qlB7i1ijcCoIdiLlcLd_NMMxB3kqrtiIe4ePqXt4M4U,5273
+nova_client_sdk-0.1.0.dist-info/LICENSE,sha256=lhdUAazdjmoNgJfBO-T61d13wrTT1J3HiKYRr_hp_Nk,1067
+nova_client_sdk-0.1.0.dist-info/METADATA,sha256=FTsBwUkBgApNUayrds9HsSqdw0OYfoTruMVkwWvuoqc,1448
+nova_client_sdk-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+nova_client_sdk-0.1.0.dist-info/top_level.txt,sha256=mbs3m6yq1eGkyb1oRfOQ7iwi1d0ia9fFl-oVS7CoNMQ,9
+nova_client_sdk-0.1.0.dist-info/RECORD,,
