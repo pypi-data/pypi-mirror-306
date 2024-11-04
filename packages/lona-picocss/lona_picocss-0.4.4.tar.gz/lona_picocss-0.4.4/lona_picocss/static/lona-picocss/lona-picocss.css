@@ -1,0 +1,94 @@
+body {
+    padding: 0 var(--spacing);
+}
+
+#brand {
+    color: inherit !important;
+    background: inherit !important;
+}
+
+#brand img {
+    height: calc(var(--font-size) * 2);
+}
+
+main#lona {
+    min-height: 100vh;
+}
+
+footer#lona-footer {
+    min-height: 4em;
+}
+
+/* header (menu) ----------------------------------------------------------- */
+header#lona-header details {
+    direction: ltr;
+}
+
+header#lona-header a,
+header#lona-header summary {
+    display: flex;
+    gap: 0.3em;
+    align-items: center;
+}
+
+header#lona-header a svg,
+header#lona-header summary svg {
+    height: var(--font-size);
+    width: var(--font-size);
+}
+
+@media (max-width: 992px) {
+    header#lona-header nav {
+        display: block;
+    }
+
+    header#lona-header nav ul {
+        margin-left: 0;
+    }
+
+    header#lona-header nav > ul > li {
+        padding-top: calc(var(--nav-element-spacing-vertical) / 2);
+        padding-left: 0;
+        padding-right: calc(var(--nav-element-spacing-horizontal) * 2);
+    }
+
+    header#lona-header > nav {
+        margin-top: calc(var(--nav-element-spacing-horizontal) * 2);
+        margin-bottom: calc(var(--nav-element-spacing-horizontal) * 2);
+    }
+}
+
+/* auth -------------------------------------------------------------------- */
+@media (min-width: 767px) {
+    .auth-form dialog article {
+        min-width: 30em;
+    }
+}
+
+.auth-form dialog footer a {
+    width: 100%;
+}
+
+.auth-form .error,
+.auth-form .errorlist {
+	color: red;
+}
+
+/* scroller ---------------------------------------------------------------- */
+.scroller {
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+.scroller * {
+    overflow-anchor: none;
+}
+
+.scroller .scroller-body {
+    min-height: 101%;
+}
+
+.scroller .scroller-anchor {
+    overflow-anchor: auto;
+    height: 1px;
+}
