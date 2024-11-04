@@ -1,0 +1,14 @@
+griffe_pydantic-1.1.0.dist-info/METADATA,sha256=CL2VsSxOBNiZabvSIuB8-cbYLWAbWFB0hxVM-sCYtzg,3034
+griffe_pydantic-1.1.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+griffe_pydantic-1.1.0.dist-info/entry_points.txt,sha256=sa9cilS6KkAY1Jz7ooC5l-JD0o-D-Fula2_8MtwZNxA,120
+griffe_pydantic-1.1.0.dist-info/licenses/LICENSE,sha256=GZ4fS4Z6WtxHYD5ZqFT9vlpdOXvzm-cvjYmOIHXhqMc,754
+griffe_pydantic/__init__.py,sha256=2-LXzP1JY1ZAaDVG38AAOi04C9ATHZQzTEa8zJAP7zg,380
+griffe_pydantic/common.py,sha256=5gtw_-Xb0PvQmPxGN-61c6YcTzNpKm7_KnEYkFvBNO0,2196
+griffe_pydantic/debug.py,sha256=3B-05bEpzPegH1RqAy6SpsEr6l3koA5xSaDiDjOiEgQ,2846
+griffe_pydantic/dynamic.py,sha256=cRQRMveMc_2mfv13XFoqGvrz23hHqeayFOgowh0ASkI,1620
+griffe_pydantic/extension.py,sha256=UAAvmk7X8zDjP8g9upwuM9CjcgUGRy_d9PCnyle78dw,2935
+griffe_pydantic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+griffe_pydantic/static.py,sha256=Pcj0BM4kdbaoD7WfUEL2HFD9zqbk2vzSKJ8QWLkWCTg,5267
+griffe_pydantic/templates/material/_base/pydantic_model.html.jinja,sha256=KamYkHkibICNvJvHLVT4LFfats5MeLvG9syT7zR_SGs,2364
+griffe_pydantic/templates/material/pydantic_model.html.jinja,sha256=9zxZn4B76goRl74S3Mmk14gxy3PphlrcPYek3PgpWfI,48
+griffe_pydantic-1.1.0.dist-info/RECORD,,
