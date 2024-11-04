@@ -1,0 +1,3 @@
+[console_scripts]
+example_etl=example_etl.cmdline:main
+
