@@ -1,0 +1,9 @@
+README.md
+setup.py
+uz_virus.egg-info/PKG-INFO
+uz_virus.egg-info/SOURCES.txt
+uz_virus.egg-info/dependency_links.txt
+uz_virus.egg-info/requires.txt
+uz_virus.egg-info/top_level.txt
+virus/__init__.py
+virus/test.py
