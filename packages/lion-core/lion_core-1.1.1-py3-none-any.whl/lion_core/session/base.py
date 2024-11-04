@@ -1,0 +1,52 @@
+from pydantic import field_validator, model_validator
+
+from lion_core.abc import AbstractSpace
+from lion_core.communication.system import System
+from lion_core.communication.utils import validate_sender_recipient
+from lion_core.generic.node import Node
+from lion_core.service import iModel
+from lion_core.session.msg_handlers import create_system
+from lion_core.types import ID
+
+
+class BaseSession(Node, AbstractSpace):
+    system: System | None = None
+    user: ID.SenderRecipient | None = None
+    imodel: iModel | None = None
+    name: str | None = None
+
+    @field_validator("user", mode="before")
+    def validate_user(cls, value: ID.SenderRecipient):
+        v = validate_sender_recipient(value)
+        if v in ["system", "assistant"]:
+            raise ValueError(f"Invalid user: {v}")
+        return v
+
+    @model_validator(mode="before")
+    def validate_system(cls, data: dict):
+        system = data.pop("system", None)
+        if system is None:
+            return data
+
+        sender = data.pop("system_sender", None)
+        system_datetime = data.pop("system_datetime", None)
+
+        system = create_system(
+            system=system,
+            sender=sender,
+            system_datetime=system_datetime,
+        )
+        data["system"] = system
+        return data
+
+    @model_validator(mode="after")
+    def check_system_recipient(self):
+        if self.system is None:
+            return self
+        if not ID.is_id(self.system.recipient):
+            self.system.recipient = self.ln_id
+        return self
+
+
+__all__ = ["BaseSession"]
+# File: lion_core/session/base.py
