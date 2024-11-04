@@ -1,0 +1,2 @@
+[console_scripts]
+npdep_transfer = npdep_transfer.__main__:main
