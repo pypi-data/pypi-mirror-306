@@ -1,0 +1,63 @@
+Metadata-Version: 2.3
+Name: gfftk
+Version: 24.10.30
+Summary: GFFtk: genome annotation GFF3 tool kit
+Project-URL: Homepage, https://github.com/nextgenusfs/gfftk
+Project-URL: Repository, https://github.com/nextgenusfs/gfftkgit
+Author-email: Jon Palmer <nextgenusfs@gmail.com>
+License: BSD 2-Clause License
+        
+        Copyright (c) 2016, Jonathan M. Palmer
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+License-File: LICENSE.md
+Keywords: annotation,bioinformatics,completeness,genome
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6.0
+Requires-Dist: gb-io>=0.3.2
+Requires-Dist: natsort
+Requires-Dist: numpy
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+[![Latest Github release](https://img.shields.io/github/release/nextgenusfs/gfftk.svg)](https://github.com/nextgenusfs/gfftk/releases/latest)
+![Conda](https://img.shields.io/conda/dn/bioconda/gfftk)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+# GFFtk: genome annotation tool kit
+
+
+To install release versions use the pip package manager, like so:
+```
+python -m pip install gfftk
+```
+
+To install the most updated code in master you can run:
+```
+python -m pip install git+https://github.com/nextgenusfs/gfftk.git
+```
