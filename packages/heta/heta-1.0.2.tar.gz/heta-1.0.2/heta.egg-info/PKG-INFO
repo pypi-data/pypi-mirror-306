@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: heta
+Version: 1.0.2
+Summary: Library for works with heta.
+Home-page: https://github.com/FajoX1/heta
+Author: Fajox
+Author-email: pybytee@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+<div align=center>
+
+<img src="https://github.com/FajoX1/heta/raw/main/banner.png">
+
+### в¬‡пёЏ Installation
+<pre><code>pip install heta</code></pre>
+
+## рџ“Ѓ Documentation
+#### https://fajox1.github.io/heta-docs
+
+<hr>
+</div>
+
+## Support
+
+- <a href="https://t.me/heta_lib">Channel</a><br>
+- <a href="https://t.me/HetaLibChat">Chat</a><br>
+- <a href="https://t.me/vecax">Developer</a>
