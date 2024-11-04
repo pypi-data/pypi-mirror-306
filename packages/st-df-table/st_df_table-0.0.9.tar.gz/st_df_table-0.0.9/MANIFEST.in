@@ -1,0 +1,3 @@
+recursive-include st_df_table/frontend/build *
+exclude tests/*
+recursive-exclude st_df_table/frontend/node_modules *
