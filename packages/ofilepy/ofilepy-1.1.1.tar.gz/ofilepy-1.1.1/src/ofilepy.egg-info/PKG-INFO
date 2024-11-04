@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ofilepy
+Version: 1.1.1
+Summary: A library to make easier work with files in local system
+Home-page: https://github.com/lincolnolivr/pylib_ofilepy.git
+Author: Lincoln Oliver
+Author-email: lincolnolive@gmail.com
+License: MIT License
+Keywords: files manipulation with python
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# orpa-pylib
+library for easily creating rpas in python
