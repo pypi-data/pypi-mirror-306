@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/virtualpet/__init__.py
+src/virtualpet/pet.py
+src/virtualpet/use_virtual_pet.py
+src/virtualpet_game.egg-info/PKG-INFO
+src/virtualpet_game.egg-info/SOURCES.txt
+src/virtualpet_game.egg-info/dependency_links.txt
+src/virtualpet_game.egg-info/entry_points.txt
+src/virtualpet_game.egg-info/requires.txt
+src/virtualpet_game.egg-info/top_level.txt
+tests/test_pet.py
