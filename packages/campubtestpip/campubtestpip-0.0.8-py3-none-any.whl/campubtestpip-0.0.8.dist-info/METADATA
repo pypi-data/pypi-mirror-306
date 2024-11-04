@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: campubtestpip
+Version: 0.0.8
+Summary: Orelogy package to dilute resource block models
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: build
+Requires-Dist: setuptools
+Requires-Dist: setuptools-scm
+Requires-Dist: wheel
+
+# campubtestpip
+package flow using pip only

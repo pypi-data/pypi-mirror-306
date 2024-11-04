@@ -1,0 +1,2 @@
+[console_scripts]
+greet = campubtestpip.__main__:main

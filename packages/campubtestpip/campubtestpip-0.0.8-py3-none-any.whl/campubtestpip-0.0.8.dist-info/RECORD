@@ -1,0 +1,10 @@
+campubtestpip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+campubtestpip/__main__.py,sha256=vEOHFWd_JIwkxiAqIDWRQrxorrgsxu_O_qwab3_4tAM,128
+campubtestpip/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+campubtestpip/src/utils.py,sha256=jTaLzJgOrTPEIWnoy5koBzKrJZ73OQMg3EDuUdgXhSc,82
+campubtestpip-0.0.8.dist-info/LICENSE,sha256=0X6EFOdMLYjOpyuADrT2ESEoDnvmjP6qGFr9YNGHXJ4,1073
+campubtestpip-0.0.8.dist-info/METADATA,sha256=Eecf5vx3UA167es2mK3C6jVpIjNUY0-dt_dsNCVOrr4,343
+campubtestpip-0.0.8.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+campubtestpip-0.0.8.dist-info/entry_points.txt,sha256=GyPNar1kn8miXK4NWE3CoSIrf4vbtrTfIx7LS5WTyV4,54
+campubtestpip-0.0.8.dist-info/top_level.txt,sha256=Dwy8zqwMZlthKQps_VMqEBHx7ZZY6pB28LSew3Shgig,14
+campubtestpip-0.0.8.dist-info/RECORD,,
