@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/bohancompliment/__init__.py
+src/bohancompliment/generator.py
+src/bohancompliment.egg-info/PKG-INFO
+src/bohancompliment.egg-info/SOURCES.txt
+src/bohancompliment.egg-info/dependency_links.txt
+src/bohancompliment.egg-info/top_level.txt
+tests/test_generator.py
