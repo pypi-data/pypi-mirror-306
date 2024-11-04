@@ -1,0 +1,16 @@
+{
+  "overview": {
+      "modules": [
+          { "name": "meta", "description": "{{ META_DESCRIPTION }}" },
+          { "name": "arch", "description": "{{ ARCH_DESCRIPTION }}" },
+          { "name": "dep_res", "description": "{{ DEP_RES_DESCRIPTION }}" },
+          { "name": "err_handling", "description": "{{ ERR_HANDLING_DESCRIPTION }}" },
+          { "name": "prio", "description": "{{ PRIO_DESCRIPTION }}" },
+          { "name": "abbr", "description": "{{ ABBR_DESCRIPTION }}" },
+          { "name": "map", "description": "{{ MAP_DESCRIPTION }}" },
+          { "name": "p_order", "description": "{{ P_ORDER_DESCRIPTION }}" },
+          { "name": "version", "description": "{{ VERSION_DESCRIPTION }}" },
+          { "name": "tech", "description": "{{ TECH_DESCRIPTION }}" }
+      ]
+  }
+}

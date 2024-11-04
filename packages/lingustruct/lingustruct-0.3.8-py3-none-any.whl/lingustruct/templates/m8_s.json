@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "p_order": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "description": "Order of properties"
+            },
+            "default": ["meta", "arch", "tech", "svc", "sec", "perf"],
+            "priority": 1,
+            "required": true
+        }
+    },
+    "required": ["p_order"]
+}

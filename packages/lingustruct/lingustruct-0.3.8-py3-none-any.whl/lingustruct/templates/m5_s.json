@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "prio": {
+      "type": "object",
+      "priority": 5,
+      "required": true,
+      "properties": {
+        "c": {
+          "type": "integer",
+          "description": "Critical",
+          "priority": 1,
+          "required": true
+        },
+        "h": {
+          "type": "integer",
+          "description": "High",
+          "priority": 2,
+          "required": true
+        },
+        "m": {
+          "type": "integer",
+          "description": "Medium",
+          "priority": 3,
+          "required": true
+        },
+        "l": {
+          "type": "integer",
+          "description": "Low",
+          "priority": 4,
+          "required": true
+        }
+      }
+    }
+  },
+  "required": ["prio"]
+}
