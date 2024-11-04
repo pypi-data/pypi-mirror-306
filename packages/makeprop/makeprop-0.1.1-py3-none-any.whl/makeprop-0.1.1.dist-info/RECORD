@@ -1,0 +1,9 @@
+makeprop/__init__.py,sha256=9CCHDyIZ6m1U9XXGb58oQNKr2PXLTHFCgeSskhnZHqo,57
+makeprop/core/__init__.py,sha256=k6fwIzLPyqMmuEkbyDf2JAxQ48QQqGC4J1Fn0lAW34w,509
+makeprop/tests/__init__.py,sha256=3UAZvMpQNSGEOKM4YIaLwE6CT8zQIGE9jlpB7sJmGEo,229
+makeprop/tests/test_1984.py,sha256=Xj84Tu_FmwGirz5GtqqP4e-xkPPCg2AIwbeFbx-1w5E,5135
+makeprop-0.1.1.dist-info/LICENSE.txt,sha256=QwqYepQwTN5xG57cngKt6xxYD9z9hw9d3lcI8zSLiNg,1074
+makeprop-0.1.1.dist-info/METADATA,sha256=OXqn0fBCHKGLh0RsC0jlYRQL0Jy6xkgK4lGzyyGPofU,2183
+makeprop-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+makeprop-0.1.1.dist-info/top_level.txt,sha256=wQArh1zizHNUJGejiZBI1LEb736r1W-PzSSI0f4aVNg,9
+makeprop-0.1.1.dist-info/RECORD,,
