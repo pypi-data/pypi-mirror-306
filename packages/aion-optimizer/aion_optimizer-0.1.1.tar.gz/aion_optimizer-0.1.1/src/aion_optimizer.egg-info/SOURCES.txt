@@ -1,0 +1,15 @@
+LICENCE
+README.md
+setup.py
+src/aion_optimizer/__init__.py
+src/aion_optimizer/config.py
+src/aion_optimizer/data_cleaner.py
+src/aion_optimizer/data_preprocessor.py
+src/aion_optimizer/hyperparam_config.json
+src/aion_optimizer/optimizer.py
+src/aion_optimizer/test.py
+src/aion_optimizer.egg-info/PKG-INFO
+src/aion_optimizer.egg-info/SOURCES.txt
+src/aion_optimizer.egg-info/dependency_links.txt
+src/aion_optimizer.egg-info/requires.txt
+src/aion_optimizer.egg-info/top_level.txt
