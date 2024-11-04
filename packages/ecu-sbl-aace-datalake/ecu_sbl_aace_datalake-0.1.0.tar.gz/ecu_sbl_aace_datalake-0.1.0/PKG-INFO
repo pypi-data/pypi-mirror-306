@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ecu_sbl_aace_datalake
+Version: 0.1.0
+Summary: Generally useful utilities
+Author-email: Jonathan Mills <jonathan.mills@itsalljustdata.com>
+Maintainer-email: Jonathan Mills <jonathan.mills@itsalljustdata.com>
+License: TBD
+Project-URL: Homepage, https://github.com/itsalljustdata/ecu_sbl_aace_datalake
+Project-URL: Bug Reports, https://github.com/itsalljustdata/ecu_sbl_aace_datalake/issues
+Keywords: utilities
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.11.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
