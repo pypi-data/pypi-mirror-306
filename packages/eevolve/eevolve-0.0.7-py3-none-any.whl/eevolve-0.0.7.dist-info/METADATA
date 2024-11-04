@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: eevolve
+Version: 0.0.7
+Summary: Evolution Algorithms Playground
+Author: Isak Volodymyr
+Author-email: volodymyr.o.isak@gmail.com
+License-File: LICENSE
+Requires-Dist: numpy >=2.1.2
+Requires-Dist: pygame-ce >=2.5.2
+
