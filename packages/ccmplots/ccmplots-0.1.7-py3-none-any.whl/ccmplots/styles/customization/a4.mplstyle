@@ -1,0 +1,9 @@
+
+# change default figure size, aspect ratio = 6/5
+figure.figsize : 3, 2.5
+
+# font size
+font.size: 10
+axes.titlesize: 10
+xtick.labelsize: 10
+ytick.labelsize: 10

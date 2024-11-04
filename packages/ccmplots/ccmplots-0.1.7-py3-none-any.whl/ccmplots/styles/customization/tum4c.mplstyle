@@ -1,0 +1,2 @@
+# Set color cycle: 4 TUM Colors
+axes.prop_cycle : cycler('color', ['0065bd', 'e37222', '999999', 'a2ad00'])

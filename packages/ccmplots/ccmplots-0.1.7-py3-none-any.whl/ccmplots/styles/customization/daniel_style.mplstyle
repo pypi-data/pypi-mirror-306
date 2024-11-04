@@ -1,0 +1,35 @@
+#FONTSIZES
+axes.titlesize : 11
+axes.labelsize : 11
+xtick.labelsize : 11
+ytick.labelsize : 11
+
+# Legende
+legend.frameon : False
+legend.handlelength: 1.0
+
+
+# Linien und Ticks
+lines.linewidth : 2
+lines.markersize : 5
+xtick.direction : in
+xtick.top : True 
+ytick.direction : in
+ytick.right : True
+
+# Figure Sizes
+figure.figsize: 2.9,2.5
+figure.facecolor: white
+figure.dpi: 150
+
+# Farbschema
+axes.prop_cycle: cycler('color', ['1f77b4', 'ff7f0e', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
+#axes.prop_cycle: cycler("color", ["0065bd", "e37222", "808080", "a2ad00"])
+
+# Font
+font.family: Times New Roman
+text.usetex : True
+font.size: 11
+
+savefig.bbox : tight
+savefig.pad_inches : 0.05
