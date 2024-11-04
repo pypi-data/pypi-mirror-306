@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: leonardo-floresgonzalez-calculator-5436
+Version: 0.3.0
+Summary: An advanced calculator package
+Home-page: https://github.com/leo7812/my_calculator
+Author: Leonardo Flores Gonzalez
+Author-email: leof7812@gmail.com
+License: MIT
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+I am building this calculator package for CS-122 class
