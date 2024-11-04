@@ -1,0 +1,10 @@
+HFResourceScanner/__init__.py,sha256=ciT8NOPXIUYAE4LNTW5iJVOyQ3Oj1p6uzrKjXHimYvo,105
+HFResourceScanner/main.py,sha256=AgadM0JekCR7QKgtMltpKiKlfIAKLGj7Hyjs8tdl9P8,773
+HFResourceScanner/scanner.py,sha256=Kqz5xnsgirPMTe_2x7cKQ3ihJKxm64RS-8xnFm3RIug,17790
+HFResourceScanner/test.py,sha256=CNbu4_eXsctgkNeD3OWDvRz_fsbQ3kS8NCKz1PPvYKM,674
+HFResourceScanner/utils.py,sha256=rlUdUwOF6K_zG_Qowk4b7IVQ6txsPfH-BTmiczNrr0o,298
+HFResourceScanner-0.1.1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+HFResourceScanner-0.1.1.dist-info/METADATA,sha256=j30ls0Ff5f6zYhn8bKiBj_ZeQsmo7-jo-Z_hTb9HraQ,3136
+HFResourceScanner-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+HFResourceScanner-0.1.1.dist-info/top_level.txt,sha256=Dy0X6f5HWA8JMDzpvMbp35X8ZtOABbmCd27T5_t0sAs,18
+HFResourceScanner-0.1.1.dist-info/RECORD,,
