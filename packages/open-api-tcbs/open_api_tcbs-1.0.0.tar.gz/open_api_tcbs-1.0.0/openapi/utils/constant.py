@@ -1,0 +1,1 @@
+BASE_URL_PRODUCTION = "https://openapi.tcbs.com.vn"
