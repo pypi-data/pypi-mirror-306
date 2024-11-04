@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pydentity-core
+Version: 0.2.5
+Summary: 
+Home-page: https://github.com/udachin077/pydentity-core
+License: MIT
+Author: Udachin Ivan
+Author-email: pypi.udachin@yandex.ru
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: machineid
+Provides-Extra: sqlalchemy
+Provides-Extra: tortoise
+Requires-Dist: cryptography (>=43.0.3,<44.0.0)
+Requires-Dist: email-validator (>=2.2.0,<3.0.0)
+Requires-Dist: itsdangerous (>=2.2.0,<3.0.0)
+Requires-Dist: pwdlib[argon2,bcrypt] (>=0.2.1,<0.3.0)
+Requires-Dist: py-machineid (>=0.6.0,<0.7.0) ; extra == "machineid"
+Requires-Dist: pydentity-core-sqlalchemy (>=0.1.2,<0.2.0) ; extra == "sqlalchemy"
+Requires-Dist: pydentity-core-tortoise (>=0.1.1,<0.2.0) ; extra == "tortoise"
+Requires-Dist: pyotp (>=2.9.0,<3.0.0)
+Project-URL: Repository, https://github.com/udachin077/pydentity-core.git
