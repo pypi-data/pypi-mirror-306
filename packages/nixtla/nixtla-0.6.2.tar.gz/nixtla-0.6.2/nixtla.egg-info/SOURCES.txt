@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nixtla/__init__.py
+nixtla/_modidx.py
+nixtla/date_features.py
+nixtla/nixtla_client.py
+nixtla/py.typed
+nixtla/utils.py
+nixtla.egg-info/PKG-INFO
+nixtla.egg-info/SOURCES.txt
+nixtla.egg-info/dependency_links.txt
+nixtla.egg-info/requires.txt
+nixtla.egg-info/top_level.txt
