@@ -1,0 +1,2 @@
+[console_scripts]
+dep_reader = dep_reader.__main__:main
