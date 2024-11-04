@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: gender_by_rus_name
+Version: 0.0.5
+Summary: Determinates gender by russian full name
+Home-page: https://github.com/MortalTurtle/rus_gender_by_name/tree/master/rusgenderdetection
+Author: Nikolay Putko
+License-File: LICENSE
