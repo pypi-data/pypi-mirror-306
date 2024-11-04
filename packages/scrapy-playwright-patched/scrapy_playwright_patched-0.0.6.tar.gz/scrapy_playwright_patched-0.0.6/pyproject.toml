@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "scrapy-playwright-patched"
+version = "0.0.6"
+description = "Undetected-Playwright integration for Scrapy"
+authors = ["Ehsan U. <au85265@gmail.com>"]
+license = "BSD"
+readme = "README.md"
+homepage = "https://github.com/Ehsan-U/scrapy-playwright-patched"
+packages = [{include = "scrapy_playwright_patched"}]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: Scrapy",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+scrapy = ">=2.0,!=2.4.0"
+rebrowser-playwright = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
