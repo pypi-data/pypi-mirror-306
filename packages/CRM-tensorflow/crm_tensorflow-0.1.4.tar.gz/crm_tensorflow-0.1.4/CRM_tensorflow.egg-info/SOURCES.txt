@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+CRM_tensorflow/__init__.py
+CRM_tensorflow/crm_tensorflow.py
+CRM_tensorflow.egg-info/PKG-INFO
+CRM_tensorflow.egg-info/SOURCES.txt
+CRM_tensorflow.egg-info/dependency_links.txt
+CRM_tensorflow.egg-info/requires.txt
+CRM_tensorflow.egg-info/top_level.txt
+tests/test_crm_tensorflow.py
