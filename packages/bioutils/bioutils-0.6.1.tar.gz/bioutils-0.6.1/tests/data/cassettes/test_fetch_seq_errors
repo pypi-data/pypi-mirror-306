@@ -1,0 +1,65 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.3
+    method: GET
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&id=NM_9.9&rettype=fasta&tool=bioutils&email=biocommons-dev@googlegroups.com
+  response:
+    body:
+      string: '+Error%3A+CEFetchPApplication%3A%3Aproxy_stream()%3A+Error%3A+F+a+i+l+e+d++t+o++u+n+d+e+r+s+t+a+n+d++i+d+%3A++N+M+_+9+.+9+%0A%0A
+
+        '
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      Cache-Control:
+      - private
+      Connection:
+      - close
+      Content-Disposition:
+      - attachment; filename="sequence.fasta"
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Tue, 29 Oct 2024 01:38:17 GMT
+      NCBI-PHID:
+      - 939BBD6305AE024500005DC43656677F.1.1.m_5
+      NCBI-SID:
+      - 3B6A5B3951E601B0_4FADSID
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Server:
+      - Finatra
+      Set-Cookie:
+      - ncbi_sid=3B6A5B3951E601B0_4FADSID; domain=.nih.gov; path=/; expires=Wed, 29
+        Oct 2025 01:38:18 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      X-RateLimit-Limit:
+      - '3'
+      X-RateLimit-Remaining:
+      - '1'
+      X-UA-Compatible:
+      - IE=Edge
+      X-XSS-Protection:
+      - 1; mode=block
+      content-encoding:
+      - gzip
+    status:
+      code: 400
+      message: Bad Request
+version: 1
