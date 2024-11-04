@@ -1,0 +1,9 @@
+numpy
+opencv-contrib-python
+matplotlib
+scipy
+pandas
+pynput
+pandas
+tifffile
+openpyxl
