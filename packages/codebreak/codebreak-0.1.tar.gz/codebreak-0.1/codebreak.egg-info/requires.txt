@@ -1,0 +1,4 @@
+schedule==1.2.2
+
+[dev]
+pytest==8.3.3

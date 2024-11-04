@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+codebreak/__init__.py
+codebreak/eye_exercises.py
+codebreak/mental_exercises.py
+codebreak/physical_exercise.py
+codebreak/stretches.py
+codebreak.egg-info/PKG-INFO
+codebreak.egg-info/SOURCES.txt
+codebreak.egg-info/dependency_links.txt
+codebreak.egg-info/requires.txt
+codebreak.egg-info/top_level.txt
+tests/test_eye_exercises.py
+tests/test_mental_exercises.py
+tests/test_stretches.py
