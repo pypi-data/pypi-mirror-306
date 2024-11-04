@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+tests/test_words2num.py
+words2number/__init__.py
+words2number.egg-info/PKG-INFO
+words2number.egg-info/SOURCES.txt
+words2number.egg-info/dependency_links.txt
+words2number.egg-info/top_level.txt
