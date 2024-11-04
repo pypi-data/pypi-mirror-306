@@ -1,0 +1,10 @@
+weiqi/__init__.py,sha256=fKk-i3xxhgf6jOqL3ngF8OVTvi3YUx3H7CEv5q8ndVY,251
+weiqi/board.py,sha256=PNMMaEo9hYL2NSdTyi_5E52M6gA_d07NdSVSpUoG7i0,6432
+weiqi/figure.py,sha256=-LKLYJk_1mo08GJaRvdnhtAp4oRhHPL5Ta8m2wlR2ho,89
+weiqi/game.py,sha256=-I7DYfXm9CL3cJQ1qdTzmhkfUxTTb0CttcDj4mp_xyA,1699
+weiqi/group.py,sha256=iG-Lu57iNS9bf20DOKG4kf-ooo5vLi_v_LTmyBxjTjc,188
+weiqi/player.py,sha256=JQubn7-zm6YXdQ6lq9c5laMvcJq9zdAWAEhHxarTS2M,556
+weiqi/position.py,sha256=mTzFic_Pku8rkg-gZwsDXOadlOUtTAcQcDBj_JT087A,203
+weiqi-0.1.0.dist-info/METADATA,sha256=4u9CYz8lJ4kycfuMRNz2cqZ1TPVbsqW_refpJp4WjFA,2086
+weiqi-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+weiqi-0.1.0.dist-info/RECORD,,
