@@ -1,0 +1,6 @@
+[console_scripts]
+get-log-path = auto_scailer.utils:get_log_path
+scailer-start = auto_scailer.auto_scailer:auto_scailer
+scale-plot = auto_scailer.plot:scale_plot
+status-plot = auto_scailer.plot:status_plot
+usage-plot = auto_scailer.plot:usage_plot

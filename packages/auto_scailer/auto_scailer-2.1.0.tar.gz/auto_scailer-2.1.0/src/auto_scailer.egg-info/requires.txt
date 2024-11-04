@@ -1,0 +1,4 @@
+requests>=2.32.3
+tz-kst>=0.5.2
+pandas>=2.2.3
+plotext>=5.3.2

@@ -1,0 +1,29 @@
+[project]
+name = "auto_scailer"
+version = "2.1.0"
+description = "config.ini에 설정된 값에 따라 container의 수를 자동적으로 증감하는 프로그램으로, 원할한 시스템 운영에 기여합니다."
+authors = [
+    {name = "Mingk42", email = "xoals123456t@gmail.com"},
+]
+dependencies = [
+    "requests>=2.32.3",
+    "tz-kst>=0.5.2",
+    "pandas>=2.2.3",
+    "plotext>=5.3.2",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+scailer-start="auto_scailer.auto_scailer:auto_scailer"
+get-log-path="auto_scailer.utils:get_log_path"
+usage-plot="auto_scailer.plot:usage_plot"
+status-plot="auto_scailer.plot:status_plot"
+scale-plot="auto_scailer.plot:scale_plot"
+
+[tool.pdm]
+distribution = true
+
+[tool.setuptools]
+package-dir={""="src"}
