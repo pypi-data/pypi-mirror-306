@@ -1,0 +1,35 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "starbars"
+authors = [{name = "Elide Brunelli", email = "elide.98@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = ["matplotlib~=3.9"]
+
+[project.optional-dependencies]
+docs = [
+    "starbars[examples]",
+    "sphinx-book-theme~=1.1",
+    "sphinx~=7.0",
+]
+examples = [
+    "pandas~=2.2",
+    "seaborn~=0.13",
+    "scipy~=1.14"
+]
+test = [
+    "pytest",
+    "pytest-cov",
+    "pandas~=2.2",
+    "seaborn~=0.13",
+    "scipy"
+]
+
+[project.urls]
+Home = "https://github.com/elide-b/starbars"
+
