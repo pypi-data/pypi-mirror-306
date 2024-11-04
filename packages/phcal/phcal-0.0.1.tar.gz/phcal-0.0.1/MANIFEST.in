@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+recursive-include phcal *.py
+recursive-include phcal *.txt
+recursive-include phcal *.md
