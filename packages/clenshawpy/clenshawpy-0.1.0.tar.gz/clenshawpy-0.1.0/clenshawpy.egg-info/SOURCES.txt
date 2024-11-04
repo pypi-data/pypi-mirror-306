@@ -1,0 +1,11 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+clenshawpy/__init__.py
+clenshawpy.egg-info/PKG-INFO
+clenshawpy.egg-info/SOURCES.txt
+clenshawpy.egg-info/dependency_links.txt
+clenshawpy.egg-info/requires.txt
+clenshawpy.egg-info/top_level.txt

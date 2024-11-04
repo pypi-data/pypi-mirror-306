@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clenshawpy"
+version = "0.1.0"
+description = "A package for representing and evaluating Clenshaw polynomials."
+readme = "README.md"
+authors = [
+    { name = "Alireza Afroozi", email = "afrzi@proton.me" },
+]
+license = { file = "LICENSE" }
+keywords = ["clenshaw", "polynomial", "chebyshev", "legendre", "hermite", "jacobi", "math"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+dependencies = ["numpy"]
+
+[project.urls]
+Homepage = "https://github.com/apri-me/clenshawpy"

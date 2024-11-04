@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: clenshawpy
+Version: 0.1.0
+Summary: A package for representing and evaluating Clenshaw polynomials.
+Home-page: https://github.com/yourusername/clenshawpy
+Author: Your Name
+Author-email: Alireza Afroozi <afrzi@proton.me>
+Project-URL: Homepage, https://github.com/apri-me/clenshawpy
+Keywords: clenshaw,polynomial,chebyshev,legendre,hermite,jacobi,math
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: numpy
+
+# ClenshawPy
+
+ClenshawPy is a Python package for representing and evaluating Clenshaw polynomials, including various types such as Jacobi, Chebyshev, Legendre, and Hermite polynomials, as well as their rational and fractional variants.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install clenshawpy
+```
+
+## Usage
+
+Here's how you can use the package:
+
+```python
+from clenshawpy import ChebyshevPoly
+
+coefficients = [1, 2, 3]
+cheb_poly = ChebyshevPoly(coefficients)
+result = cheb_poly.eval(0.5)
+print(result)
+```
+
+## Features
+
+- Clenshaw Polynomial Evaluation: Efficiently evaluate polynomials using the Clenshaw algorithm.
+- Support for Multiple Polynomial Types: Includes Chebyshev, Legendre, Hermite, and Jacobi polynomials.
+- Rational and Fractional Variants: Evaluate rational and fractional forms of the polynomials.
+- Easy Integration: Designed to be easily integrated into scientific and engineering projects.
+
+## Licence
+
+This project is licensed under the MIT License - see the LICENSE file for details.
