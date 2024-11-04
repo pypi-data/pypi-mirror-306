@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cpoc
+Version: 1.1
+Summary: An overcomplicated version of cp
+Author-email: Elia Toselli <elia.toselli@outlook.it>
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Home, https://github.com/hilcon222/cpoc
