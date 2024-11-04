@@ -1,0 +1,7 @@
+[tool.poetry]
+name="pyGMAS"
+version='0.0.1'
+license="MIT"
+description="A python package that provides several utilities related to generalized mass action system."
+authors=["Innocent Labs"]
+

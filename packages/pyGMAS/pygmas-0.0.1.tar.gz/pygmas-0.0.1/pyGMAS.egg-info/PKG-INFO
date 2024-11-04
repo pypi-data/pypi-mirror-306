@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyGMAS
+Version: 0.0.1
+Summary: A python package that provides several utilities related to generalized mass action system.
+Author: Innocent Labs
+Author-email: jakec63738@gmail.com
+License: MIT
+Requires-Python: >=3.9.0
+License-File: LICENSE
