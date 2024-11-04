@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+lxml = "*"
+beautifulsoup4 = "*"
+pyqt6 = "*"
+python-dotenv = "*"
+
+[dev-packages]
+pipenv = "*"
+pytest = "*"
+pytest-cov = "*"
+black = "*"
+isort = "*"
+pyqt6-tools = "*"
+invoke = "*"
+windows-curses = {version = "*", sys_platform = "== 'win32'"}
+auto-py-to-exe = "*"
+pyinstaller = "*"
+
+[requires]
+python_version = "3.8"
