@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/funtasks/__init__.py
+src/funtasks/__main__.py
+src/funtasks/tasks.py
+src/funtasks.egg-info/PKG-INFO
+src/funtasks.egg-info/SOURCES.txt
+src/funtasks.egg-info/dependency_links.txt
+src/funtasks.egg-info/entry_points.txt
+src/funtasks.egg-info/requires.txt
+src/funtasks.egg-info/top_level.txt
+tests/test_tasks.py
