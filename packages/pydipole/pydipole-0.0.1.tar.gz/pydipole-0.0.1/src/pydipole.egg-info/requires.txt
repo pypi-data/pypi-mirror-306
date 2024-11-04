@@ -1,0 +1,9 @@
+pandas
+importlib_resources
+jinja2
+
+[dev]
+pre-commit
+
+[tests]
+pytest
