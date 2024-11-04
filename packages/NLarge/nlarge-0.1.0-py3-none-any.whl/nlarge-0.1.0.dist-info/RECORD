@@ -1,0 +1,11 @@
+nlarge/__init__.py,sha256=O8Tu-NMc4APVksRIROFwjdjWqYf6upcvm3rhRi5nkBs,693
+nlarge/llm.py,sha256=nznfL0ho9_VV-p_apWNdZzrR4at4iJyaxaB1QbSh91A,2363
+nlarge/log.txt,sha256=B2J7z1qkeGo9pRKxHD5pNZ0nKvKkRiAr2o92er8J0Ic,1137
+nlarge/random.py,sha256=CmRzKnEndFitrMa_S8PkmN4JJajSOzUj5nKz2xgWET0,5423
+nlarge/synonym.py,sha256=HNVhLHg8G5sVlSCfjHSLcav_yBQ0Ud-EMRhMEWY0RLk,5559
+nlarge/utils/Token.py,sha256=DrgVXTVtWIVODiZn-1T321AvEXPOl6t1MG-kWi9WRfE,1025
+nlarge/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlarge/utils/words.py,sha256=RlSlsklIcAOWuMOmWsNDKA_ZcH3azAHWiqvcehoZHxI,5009
+nlarge-0.1.0.dist-info/METADATA,sha256=NNOOoVGFeTn2WWcDOt0C3m-mmtRBqVRiA33Lf1usI-g,1267
+nlarge-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+nlarge-0.1.0.dist-info/RECORD,,
