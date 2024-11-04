@@ -1,0 +1,9 @@
+Scrapy==2.6.3
+
+[dev]
+twine
+wheel
+build
+
+[lint]
+pylint
