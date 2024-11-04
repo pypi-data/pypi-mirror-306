@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: debugai
+Version: 0.1.0
+Summary: AI-powered Python code analysis and improvement tool
+Author: Sami Halawa
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=7.0
+Requires-Dist: ast-decompiler>=0.4.0
+Requires-Dist: aider-chat>=0.8.0
+Requires-Dist: pyyaml>=5.1
+Requires-Dist: chardet>=3.0
+Requires-Dist: psutil>=5.8
+Requires-Dist: ratelimit>=2.2
+Requires-Dist: aiofiles>=0.6.0
+Requires-Dist: asyncio>=3.4.3
+Requires-Dist: typing-extensions>=4.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: black>=21.0; extra == "dev"
+Requires-Dist: flake8>=3.9; extra == "dev"
+Requires-Dist: mypy>=0.910; extra == "dev"
+Requires-Dist: bandit>=1.7; extra == "dev"
+Requires-Dist: pytest-cov>=2.12; extra == "dev"
+Provides-Extra: gui
+Requires-Dist: streamlit>=1.24.0; extra == "gui"
+Requires-Dist: plotly>=5.13.0; extra == "gui"
+Requires-Dist: streamlit-ace>=0.1.1; extra == "gui"
+
+# DebugAI Documentation
+
+## Overview
+DebugAI is a Python code analysis tool that helps identify and fix issues in your codebase using AI-powered analysis and improvements.
+
+## Features
+- Code structure analysis
+- Framework component detection
+- Performance profiling
+- Security checks
+- Continuous improvement with AI
+- Interactive GUI interface
+
+## Installation
