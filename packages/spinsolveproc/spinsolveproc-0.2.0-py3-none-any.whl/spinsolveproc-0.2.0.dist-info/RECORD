@@ -1,0 +1,14 @@
+spinsolveproc/__init__.py,sha256=PTGCUPaVexROOpV7X_vrHkHVNhZoA6c0WRx7zgWbD4A,135
+spinsolveproc/cli.py,sha256=NXFi7XzRtHD4-EcJPMfCsXTfPUT3lwOKKn3ugYJeYqU,3346
+spinsolveproc/ngread_modified.py,sha256=zz1co2nMjLJgRW1o59dw5XtM0CEFf5BuPZfZ5YHdIwo,5774
+spinsolveproc/plot.py,sha256=8ySgY2G4g2lJIXS4T3w0CkMbCobyno2cGPF1KtfXd-I,21934
+spinsolveproc/process.py,sha256=V27E0BY6osBHYUJwlWC516v1dFZKL1RC_w555-L3npA,12094
+spinsolveproc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spinsolveproc/save.py,sha256=rEVRI--rbyE4p36y9kjXgzWJTxfnFR7mzYClX6ZU-B4,16116
+spinsolveproc/spinsolveproc.py,sha256=58UtFIz0WGyP9mFvJK3bHXYpuRR5ChbvCr35ujLqRCQ,8460
+spinsolveproc/utils.py,sha256=HEevcLxmjmX4yVmPuHB8g0ax6rADtyGsPY80WwwfTLY,24424
+spinsolveproc-0.2.0.dist-info/LICENSE.rst,sha256=WwUWjXCML1qLyr2lHkgP0UfdyvShQRbEPDLPN8bHqSA,1566
+spinsolveproc-0.2.0.dist-info/METADATA,sha256=_kEceFKDiRNlLivUUJ_tIpQ40YCbOnIUzDoKSEntp70,4373
+spinsolveproc-0.2.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+spinsolveproc-0.2.0.dist-info/entry_points.txt,sha256=m4t2rOgCc19X16c9aLRXL-UCTXfgTBlKgnR-f9i1Ab4,55
+spinsolveproc-0.2.0.dist-info/RECORD,,
