@@ -1,0 +1,10 @@
+include README.md
+include requirements.txt
+include requirements-*.txt
+include setup.py
+include toad/*.pyd
+include toad/*.pyx
+include toad/tadpole/fonts/*
+
+include CONTRIBUTORS
+include LICENSE
