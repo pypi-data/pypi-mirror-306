@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: calculator-toolkit
+Version: 0.1.0
+Summary: A toolkit for basic geometric calculations
+Home-page: https://github.com/aky483/geometry_toolkit
+Author: Aakash Yadav
+Author-email: akasyadav483@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# calculator Toolkit
+`calculator_toolkit` is a simple Python package for basic calculations.
+
+
+## Installation
+Install the package with pip:
+pip install calculator_toolkit
+
+
+
+Usage
+from calculator_toolkit import (
+ add,
+ subtract,
+ multiply,
+ divide,
+ power
+)
+
