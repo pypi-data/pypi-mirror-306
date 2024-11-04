@@ -1,0 +1,8 @@
+src/__init__.py,sha256=G7lk0ekWhSqVPNHYpYPQQzJxbiquvrNrq1b_UQz2YmE,198
+src/__main__.py,sha256=EkoQxSSv6Ss6-74KybNkvTYc9mPFAvXRevUexOlG5lU,1385
+src/parsing.py,sha256=ULetVA-nvqn8f8urjd80kK2kytaK1zKQyUujXxADR4w,1272
+src/scraping.py,sha256=lrKJv5M-4nh8veNg7EmoSi-XLLj1rGHU4EXIWLDrujg,533
+available_nerdfont-1.0.1.dist-info/METADATA,sha256=lUNAaCioH1LqfGlNQqvIdKl3uDnoqr9nhrePDqs7jL0,1388
+available_nerdfont-1.0.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+available_nerdfont-1.0.1.dist-info/entry_points.txt,sha256=5h1MCZlrVUVN6i77oxCS1uN5cs4e18fktG2PeR9SauE,56
+available_nerdfont-1.0.1.dist-info/RECORD,,
