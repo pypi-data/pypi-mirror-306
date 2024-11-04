@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyasciilib/__init__.py
+pyasciilib/to_ascii.py
+pyasciilib.egg-info/PKG-INFO
+pyasciilib.egg-info/SOURCES.txt
+pyasciilib.egg-info/dependency_links.txt
+pyasciilib.egg-info/entry_points.txt
+pyasciilib.egg-info/requires.txt
+pyasciilib.egg-info/top_level.txt
