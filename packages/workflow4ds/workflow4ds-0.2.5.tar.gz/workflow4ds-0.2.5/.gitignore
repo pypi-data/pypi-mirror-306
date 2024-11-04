@@ -1,0 +1,14 @@
+.DS_Store
+
+.idea/
+*.log
+__pycache__/
+
+*.csv
+*.xlsx
+test.*
+main.py
+
+*.egg-info
+build/
+dist/

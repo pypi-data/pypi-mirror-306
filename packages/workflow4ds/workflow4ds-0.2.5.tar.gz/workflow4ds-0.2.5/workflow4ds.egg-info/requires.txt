@@ -1,0 +1,16 @@
+requests
+tqdm
+openpyxl
+
+[all]
+workflow4ds[hive,hue,tunnel]
+
+[hive]
+impala
+
+[hue]
+requests_toolbelt
+
+[tunnel]
+paramiko
+cx_Oracle
