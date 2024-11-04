@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/accents_remover/__init__.py
+src/accents_remover/accents_remover.py
+src/accents_remover.egg-info/PKG-INFO
+src/accents_remover.egg-info/SOURCES.txt
+src/accents_remover.egg-info/dependency_links.txt
+src/accents_remover.egg-info/top_level.txt
