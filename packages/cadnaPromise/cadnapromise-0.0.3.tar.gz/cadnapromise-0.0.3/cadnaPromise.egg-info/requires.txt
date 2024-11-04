@@ -1,0 +1,11 @@
+colorlog
+colorama
+pyyaml
+tqdm
+regex
+pytest
+pytest-cov
+
+[with_doc]
+sphinx
+sphinx_bootstrap_theme
