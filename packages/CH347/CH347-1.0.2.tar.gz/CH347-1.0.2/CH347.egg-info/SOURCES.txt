@@ -1,0 +1,15 @@
+setup.py
+CH347.egg-info/PKG-INFO
+CH347.egg-info/SOURCES.txt
+CH347.egg-info/dependency_links.txt
+CH347.egg-info/top_level.txt
+ch347/GPIO.py
+ch347/I2C.py
+ch347/JTAG.py
+ch347/SPI.py
+ch347/UART.py
+ch347/__init__.py
+ch347/config.json
+ch347/const.py
+ch347/core.py
+ch347/util.py

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: CH347
+Version: 1.0.2
+Summary: A wrapper for CH347DLL.DLL, which can be used to access SPI, JTAG, I2C, UARTs and GPIOs on CH347.
+Author: Enbuging
+Author-email: electricfan@yeah.net
+License: MIT
+Keywords: hardware,interface,CH347,CH347DLL.DLL,CH347DLLA64.DLL
+Platform: Windows
