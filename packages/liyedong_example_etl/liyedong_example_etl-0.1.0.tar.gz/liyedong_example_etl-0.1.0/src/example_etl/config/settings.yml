@@ -1,0 +1,7 @@
+verbose: false
+debug: false
+loglevel: warning
+logpath: /tmp/example_etl
+foo: 10
+bar: 20
+liyedong: name
