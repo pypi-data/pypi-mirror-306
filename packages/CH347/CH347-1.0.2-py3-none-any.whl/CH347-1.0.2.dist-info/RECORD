@@ -1,0 +1,14 @@
+ch347/GPIO.py,sha256=XYda5jaU2WWAYITHlzXozaIXOmwRWR0zMPbE6zQjjpE,1378
+ch347/I2C.py,sha256=TSKxkJu-tj1xOVfyUR9prA2hYv7DKM5wgiIvdl6zTIc,1535
+ch347/JTAG.py,sha256=EIgFwmFlxE6P2_3UMTLyd_tJJXljmyE2qa83oBZCC0k,4938
+ch347/SPI.py,sha256=_m--TB2ka3HA-U0-vIrK4uPXUKqYst8NkPGw-Saq4qg,2592
+ch347/UART.py,sha256=UeLn3QfNYgJv7hPQ3ICIRBt9JF03Gyvnm8aQ8DiHYGw,3413
+ch347/__init__.py,sha256=7jKA0uYTAynOq73tolCcZrZ9XrPPOsrGws3vwiwHx4Q,1652
+ch347/config.json,sha256=E7y6qiyirLVh-76cfqsiDItxERzNy9vKtTDmItLgsUs,58
+ch347/const.py,sha256=joUGhtR6mpJL0ZZiFzLXMGmCLnlZkNA41R_5BO_B5kA,686
+ch347/core.py,sha256=n2EM4GPjt0yHci-qwOycHWndFgTUGY_D3kf8a8I8JB8,8526
+ch347/util.py,sha256=40E2Se9soIa21TkvKn9fL1zSsG15kOBfMzNJwd6c-5c,3100
+CH347-1.0.2.dist-info/METADATA,sha256=IiwfaR30_OWexPELJbOhiT5oDtEoo4kuBgqeMeLIx20,314
+CH347-1.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+CH347-1.0.2.dist-info/top_level.txt,sha256=wHMTwWA2LERtUIGHTz-LBfscA-LPzRbJdDegCjFEsRI,6
+CH347-1.0.2.dist-info/RECORD,,
