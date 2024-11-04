@@ -1,0 +1,16 @@
+cedarscript_editor/__init__.py,sha256=88qwnN1muzR1BnsZapOQNfKiaClvMpnJhwxDj8VlVls,1265
+cedarscript_editor/_version.py,sha256=trrs_xRe10Blp7ukzRnzYe7bKYCaHVhUQ-hEeL9kP44,411
+cedarscript_editor/case_filter.py,sha256=r4_c2t9rPCRqdjqwIAoN0Cd4cG8W89dMQaoLIeI-sdI,5100
+cedarscript_editor/cedarscript_editor.py,sha256=k088cfn9I7-epIWlhm-fyw6eDE7WhB4JriAcmSUP95k,16844
+cedarscript_editor/ed_script_filter.py,sha256=w59btCEAhNfH33xsdxOfppoCn-8FAc1HwgPjOmMeC94,1346
+cedarscript_editor/tree_sitter_identifier_finder.py,sha256=9WK443BEOd_OMoQEvxKt5R4oTL0k-GXGiwFqChWcgD0,11318
+cedarscript_editor/tree_sitter_identifier_queries.py,sha256=hmh3vpinaZbvcL7c2RyOUTGrsf_dh_EOiHNdiWTyO0c,38265
+text_manipulation/__init__.py,sha256=HMpazx5HGgYKtNANNt_kNSbYgXRaboY8uTmir6MfYGU,318
+text_manipulation/indentation_kit.py,sha256=3AbFJjKG6UTC6tJXAn6Kpyx7JZfpX5FyMGXgC7ne_4Q,14914
+text_manipulation/range_spec.py,sha256=yzbRsN7tcN08Ty3pCe7JyTrdKu7j-ZYOedLSeAyDhD0,18328
+text_manipulation/text_editor_kit.py,sha256=5j9pRQICYdbFwucO63y4mA5r5xMmpPqKNpxmsW0676s,7342
+cedarscript_editor-1.1.6.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cedarscript_editor-1.1.6.dist-info/METADATA,sha256=mGBhoxEsOMN-NFqOUpxYcdX7ETtJHnSMuRICSJEKKf8,4637
+cedarscript_editor-1.1.6.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+cedarscript_editor-1.1.6.dist-info/top_level.txt,sha256=amXMvj-EOw82OM17TQP2vp3NgVqEtYrEoxVNWZuaz8w,37
+cedarscript_editor-1.1.6.dist-info/RECORD,,
