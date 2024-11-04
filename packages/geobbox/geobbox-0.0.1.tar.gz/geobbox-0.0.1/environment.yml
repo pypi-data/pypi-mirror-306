@@ -1,0 +1,9 @@
+name: _geobbox
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.12.*
+- libgdal=3.8.4
+- gdal=3.8.4
+- sphinx-rtd-theme
