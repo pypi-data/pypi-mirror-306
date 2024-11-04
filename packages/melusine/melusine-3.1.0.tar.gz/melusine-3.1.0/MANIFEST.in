@@ -1,0 +1,9 @@
+include CONTRIBUTING.rst
+include HISTORY.rst
+include Makefile
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+recursive-include docs *.rst *.jpg *.png *.gif
+recursive-include melusine *.yaml *.json

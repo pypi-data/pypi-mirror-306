@@ -1,0 +1,160 @@
+Metadata-Version: 2.1
+Name: melusine
+Version: 3.1.0
+Summary: Melusine is a high-level library for emails processing
+Author: Tiphaine Fabre, Sacha Samama, Antoine Simoulin
+Author-email: Hugo Perrier <hugorperrier@gmail.com>
+License: Apache Software License 2.0
+Keywords: nlp,email,courriel,text,data-science,machine-learning,natural-language-processing
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Topic :: Communications :: Email
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Natural Language :: English
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: arrow
+Requires-Dist: pandas>2
+Requires-Dist: scikit-learn>=1
+Requires-Dist: tqdm>=4.34
+Requires-Dist: omegaconf>=2.0
+Provides-Extra: dev
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: google-auth-oauthlib; extra == "test"
+Requires-Dist: google-api-python-client; extra == "test"
+Provides-Extra: transformers
+Requires-Dist: transformers>4; extra == "transformers"
+Provides-Extra: connectors
+Requires-Dist: exchangelib; extra == "connectors"
+Requires-Dist: google-auth-oauthlib; extra == "connectors"
+Requires-Dist: google-api-python-client; extra == "connectors"
+Provides-Extra: docs
+Requires-Dist: mkdocs; extra == "docs"
+Requires-Dist: markdown; extra == "docs"
+Requires-Dist: mkdocs-material; extra == "docs"
+Requires-Dist: mdx-include; extra == "docs"
+
+<p align="center">
+<a href="https://github.com/MAIF/melusine/actions?branch=master" target="_blank">
+<img src="https://github.com/MAIF/melusine/actions/workflows/main.yml/badge.svg?branch=master" alt="Build & Test">
+</a>
+<a href="https://pypi.python.org/pypi/melusine" target="_blank">
+<img src="https://img.shields.io/pypi/v/melusine.svg" alt="pypi">
+</a>
+<a href="https://opensource.org/licenses/Apache-2.0" target="_blank">
+<img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="Test">
+</a>
+<a href="https://shields.io/" target="_blank">
+<img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="pypi">
+</a>
+</p>
+
+<p align="center">🎉 **BREAKING** : New major version <b>Melusine 3.0</b> is available 🎉</p>
+
+<p align="center">
+<a href="https://maif.github.io/melusine" target="_blank">
+<img src="docs/_static/melusine.png">
+</a>
+</p>
+
+- **Free software**: Apache Software License 2.0
+- **Documentation**: [maif.github.io/melusine](https://maif.github.io/melusine/)
+- **Installation**: `pip install melusine`
+- **Tutorials**: [Discover melusine](https://maif.github.io/melusine/tutorials/00_GettingStarted/)
+
+## Overview
+
+Discover Melusine, a comprehensive email processing library
+designed to optimize your email workflow.
+Leverage Melusine's advanced features to achieve:
+
+- **Effortless Email Routing**: Ensure emails reach their intended destinations with high accuracy.
+- **Smart Prioritization**: Prioritize urgent emails for timely handling and efficient task management.
+- **Snippet Summaries**: Extract relevant information from lengthy emails, saving you precious time and effort.
+- **Precision Filtering**: Eliminate unwanted emails from your inbox, maintaining focus and reducing clutter.
+
+Melusine facilitates the integration of deep learning frameworks (HuggingFace, Pytorch, Tensorflow, etc),
+deterministic rules (regex, keywords, heuristics) into a full email qualification workflow.
+
+## Why Choose Melusine ?
+
+Melusine stands out with its combination of features and advantages:
+
+- **Pre-packaged Tools** : Melusine comes with out-of-the-box features such as
+    - Segmenting an email conversation into individual messages
+    - Tagging message parts (Email body, signatures, footers, etc)
+    - Transferred email handling
+- **Streamlined Execution** : Focus on the core email qualification logic
+while Melusine handles the boilerplate code, providing debug mode, pipeline execution, code parallelization, and more.
+- **Flexible Integrations** : Melusine's modular architecture enables seamless integration with various AI frameworks,
+ensuring compatibility with your preferred tools.
+- **Production ready** : Proven in the MAIF production environment,
+Melusine provides the robustness and stability you need.
+
+## Email Segmentation Exemple
+
+In the following example, an email is divided into two distinct messages
+separated by a transition pattern.
+Each message is then tagged line by line.
+This email segmentation can later be leveraged to enhance the performance of machine learning models.
+
+<p align="center">
+<a href="https://maif.github.io/melusine" target="_blank">
+<img src="docs/_static/segmentation.png">
+</a>
+</p>
+
+## Getting started
+
+Explore our comprehensive [documentation](https://maif.github.io/melusine/) and tested [tutorials](https://maif.github.io/melusine/tutorials/00_GettingStarted/) to get started.
+Or dive into our minimal example to experience Melusine's simplicity and power:
+
+``` Python
+    from melusine.data import load_email_data
+    from melusine.pipeline import MelusinePipeline
+
+    # Load an email dataset
+    df = load_email_data()
+
+    # Load a pipeline
+    pipeline = MelusinePipeline.from_config("demo_pipeline")
+
+    # Run the pipeline
+    df = pipeline.transform(df)
+```
+
+The code above executes a default pipeline and returns a qualified email dataset with columns such as:
+- `messages`: List of individual messages present in each email.
+- `emergency_result`: Flag to identify urgent emails.
+
+
+With Melusine, you're well-equipped to transform your email handling, streamlining processes, maximizing efficiency,
+and enhancing overall productivity.
