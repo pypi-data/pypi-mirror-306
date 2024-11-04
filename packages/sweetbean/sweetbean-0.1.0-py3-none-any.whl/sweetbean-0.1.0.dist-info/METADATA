@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: sweetbean
+Version: 0.1.0
+Summary: A declarative language in python for creating jsPsych experiments
+Author-email: Younes Strittmatter <ystrittm@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Autonomous Empirical Research Initiative
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: homepage, https://github.com/AutoResearch/sweetbean
+Project-URL: repository, https://https://github.com/AutoResearch/sweetbeant
+Project-URL: documentation, https://autoresearch.github.io/sweetbean/
+Requires-Python: <4,>=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+License-File: LICENSE
+Requires-Dist: jinja2
+Provides-Extra: dev
+Requires-Dist: mkdocs ; extra == 'dev'
+
+# sweetBean
+
+A declarative language in python for creating jsPsych experiments.
+
+This is a partner product intended to use alongside sweetPea (https://github.com/sweetpea-org/sweetpea-py) but can also
+be used as standalone product.
+
+This project is in active development by the <a href="https://musslick.github.io/AER_website/Research.html">Autonomous Empirical Research Group</a>
+ (package developer: Younes Strittmatter, PI: <a href="https://smusslick.com/">Sebastian Musslick</a>) in collaboration with the <a href="https://ccv.brown.edu/">Center for Computation and Visualization at Brown University</a>. This research program is supported by Schmidt Science Fellows, in partnership with the Rhodes Trust, as well as the Carney BRAINSTORM program at Brown University.
+
+
+# install
+
+```
+pip install sweetbean
+```
+
+# usage:
+
+This is a very early version. You can find examples and documentation here: https://autoresearch.github.io/sweetbean/
