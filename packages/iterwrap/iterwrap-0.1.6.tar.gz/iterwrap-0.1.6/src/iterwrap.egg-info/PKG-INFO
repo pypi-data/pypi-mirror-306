@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: iterwrap
+Version: 0.1.6
+Summary: Wrapper on interable for automatic caching, resuming, retrying, and multiprocessing
+Author-email: starreeze <starreeze@foxmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+
+Wrapper on an iterable to support interruption & auto resume, retrying and multiprocessing.
+
+There are three APIs provided:
+
+1. IterateWrapper: wrap some iterables to provide automatic resuming on interruption, no retrying and limited to sequence
+2. retry_dec: decorator for retrying a function on exception
+3. iterate_wrapper: need hand-crafted function but support retrying, multiprocessing and iterable.
+
+See the source code for usage.
