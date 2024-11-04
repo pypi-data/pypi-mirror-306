@@ -1,0 +1,12 @@
+numpy
+pandas
+
+[dev]
+invoke
+ipykernel
+pytest
+nbmake
+polars
+yfinance
+mplfinance
+toml
