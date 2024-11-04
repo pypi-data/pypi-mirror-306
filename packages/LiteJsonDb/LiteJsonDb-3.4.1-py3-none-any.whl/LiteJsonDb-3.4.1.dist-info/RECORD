@@ -1,0 +1,12 @@
+LiteJsonDb/LiteJsonDb.py,sha256=c-ZTqZCvtqjMdgf_Q7og7uh9Mv_FsFmt0n2cxBI-VUM,25080
+LiteJsonDb/__init__.py,sha256=8DgNhQIkO59wgCVKQ0KoABwCMGR7h5jhNhm802ynTQk,838
+LiteJsonDb/test.py,sha256=Mu6zbzhQC57pLmHHGy5bw0l44t86w6Y4Ru5ms2_EThs,1117
+LiteJsonDb/utils.py,sha256=YITF-u5HvVg3-SuBW6_IbN05xfU_lpgls5JkcqZMGgw,4477
+LiteJsonDb/modules/__init__.py,sha256=406s5R9mDiL2gJP7np_Aabd2q22OsVTs-Xmt-d2_tUI,838
+LiteJsonDb/modules/csv.py,sha256=lpwttB99hoqvEp3arhbPJpN7qiundqpDm_Xs6rMzSYo,1308
+LiteJsonDb/modules/search.py,sha256=RwOX14Z00-CIkgRJMBXwkgCbFgok7jXo3Td6_ERPkEI,3083
+LiteJsonDb/modules/tgbot.py,sha256=bPLTa9xu1mZrOio2pb4W-sKgz_3nP_lUsurYXZi682Y,4733
+LiteJsonDb-3.4.1.dist-info/METADATA,sha256=REQUWcRuDY4_DAP8JUJE4UW04NLACPR3PY3pYpfPcOE,1171
+LiteJsonDb-3.4.1.dist-info/WHEEL,sha256=Wyh-_nZ0DJYolHNn1_hMa4lM7uDedD_RGVwbmTjyItk,91
+LiteJsonDb-3.4.1.dist-info/top_level.txt,sha256=NQ-qjshz00_obtTcdRdpYMCc-zNHlMB0d1L-CAiI4dM,11
+LiteJsonDb-3.4.1.dist-info/RECORD,,
