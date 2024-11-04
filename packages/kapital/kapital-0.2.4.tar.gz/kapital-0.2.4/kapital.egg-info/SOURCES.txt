@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+kapital/__init__.py
+kapital/kapital.py
+kapital.egg-info/PKG-INFO
+kapital.egg-info/SOURCES.txt
+kapital.egg-info/dependency_links.txt
+kapital.egg-info/requires.txt
+kapital.egg-info/top_level.txt
