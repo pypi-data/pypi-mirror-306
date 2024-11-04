@@ -1,0 +1,6 @@
+argcomplete
+quickcolor
+delayviewer
+showexception
+corecfg
+pyexiv2
