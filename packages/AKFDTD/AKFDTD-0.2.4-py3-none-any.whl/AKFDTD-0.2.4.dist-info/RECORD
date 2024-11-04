@@ -1,0 +1,16 @@
+FDTD/PEC2D_functions.py,sha256=n2lgQ-GoNh7pTDGWD6hqPWltSKhNtpFmsxvuvaYSAUc,250
+FDTD/PEC3D_functions.py,sha256=84WEDqQ4PbQ8h9S_k-SIXfEe7Z0wRnl_fCz-Yr38qpg,1618
+FDTD/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FDTD/commons.py,sha256=nkg8sKz4XTCUV4F5jB5qOAu7CVw-SME4qYyhO5pkhck,2823
+FDTD/display_fields2D.py,sha256=gIXEy0jXRHOiuD3zHKlce_IHPLJTp6P2oRHAcu04jiA,9589
+FDTD/display_fields3D.py,sha256=3cNN7kWuwjaPqnhd9WjPWEYrnzECe3RPQAVbvnEHHJs,17154
+FDTD/fdtd2D.py,sha256=jdHBfQy4wkOWZddDOwMN8PfaXbiX2bcF47LqIQ4G5YE,18158
+FDTD/fdtd3D.py,sha256=t-SjHxVQNV_Wzkk9TnSRZ50DlG3anJHn_DDBhV9tTGE,26674
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/diffraction_on_slit_test_2D.py,sha256=ySm5X8bV4yTvk58Pdml9no_2nnEhEMTyMa7JBws3Pbk,1491
+tests/diffraction_on_slit_test_3D.py,sha256=68AFkRneCsPcZDFa7Flzb4AT1qw4vvJkacT1_r6SbZc,1408
+AKFDTD-0.2.4.dist-info/LICENSE,sha256=fnA5HW6i4TJQZJkQmNf6saP0IrX57kgWZ_1tuB39aqI,1100
+AKFDTD-0.2.4.dist-info/METADATA,sha256=ukzZIv25WyB9yrJBGNLn8S9SIIy0X27mTH-NvBG2PUU,5607
+AKFDTD-0.2.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+AKFDTD-0.2.4.dist-info/top_level.txt,sha256=MQZTYMzHxbUVsyRa0UwMtfzgi6pX9dx6v_2ict2XJ_g,11
+AKFDTD-0.2.4.dist-info/RECORD,,
