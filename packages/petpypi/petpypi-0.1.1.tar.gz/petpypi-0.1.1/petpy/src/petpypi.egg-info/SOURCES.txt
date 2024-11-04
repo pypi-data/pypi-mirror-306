@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+petpy/src/petpypi.egg-info/PKG-INFO
+petpy/src/petpypi.egg-info/SOURCES.txt
+petpy/src/petpypi.egg-info/dependency_links.txt
+petpy/src/petpypi.egg-info/entry_points.txt
+petpy/src/petpypi.egg-info/requires.txt
+petpy/src/petpypi.egg-info/top_level.txt
+tests/test_functions.py

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "petpypi"
+description = "An example of a package developed with pyenv, built with build using setuptools, uploaded to PyPI using twine, and distributed via pip."
+version = "0.1.1"
+authors = [
+  { name="Leo Bernarbezheng", email="lab9751@nyu.edu" },
+  { name="Alex Ruan", email="ar7045@nyu.edu" },
+  { name="Angela Zhang", email="alz4469@nyu.edu" },
+  { name="David Lai", email="dl4318@nyu.edu" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build", "tutorial"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-fall2024/3-python-package-job-offer-plz"
+"Repository" = "https://github.com/software-students-fall2024/3-python-package-job-offer-plz.git"
+"Bug Tracker" = "https://github.com/software-students-fall2024/3-python-package-job-offer-plz/issues"
+
+[project.scripts]
+pet = "petpy.src.main:main"
+
+[tool.setuptools]
+packages = { find = { where = ["petpy/src"]} }
+
+
