@@ -1,0 +1,13 @@
+FactorioSolver/FactorioSolver.py,sha256=PFCPo_DPX1iLSj4A51N75eCXmXRnJPoEOe2C-Nl77GM,23060
+FactorioSolver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FactorioSolver/data/SpaceAge/default_choice_map.json,sha256=7X65pb9t4Vs2tJyec2BRWH-QhpFztjVnSlPhUnW1Hn4,32
+FactorioSolver/data/SpaceAge/items.csv,sha256=RgVPnurFpilU5lX8kCWxZHwwf6zPhPyfda9wVbGTqCI,6260
+FactorioSolver/data/SpaceAge/recipes.csv,sha256=hI5UM-4Evld8uttqfHGDIrwRbfl5fNpkb_NCtsnrGiw,155787
+FactorioSolver/data/SpaceExploration/default_choice_map.json,sha256=JIYeTz53HjxI_8B_gfw6Lt0GIjM3If1y6AATlbevpQg,1310
+FactorioSolver/data/SpaceExploration/items.csv,sha256=vpanuFXe2mSjPrc-zaxgCI9XLecWnivdFB0NGOnPzXA,79892
+FactorioSolver/data/SpaceExploration/recipes.csv,sha256=x5J0QUyZInYl2tiHSqjypwnLD1U2jU65VpVdIAIww30,318684
+FactorioSolver-0.1.0.dist-info/LICENSE,sha256=t4poP3TgUz7gMXW19_KnbvTG9MAaeEZYWPR08ZcA-L8,1074
+FactorioSolver-0.1.0.dist-info/METADATA,sha256=5tzS63bi6rIqJS9H3xy-MVR_P72-GhV4qgqHzyq-5Q0,1042
+FactorioSolver-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+FactorioSolver-0.1.0.dist-info/top_level.txt,sha256=CquGI9NnkKbvDjbF1AT0H_2OaAHnaHO7OqpzenjIob8,15
+FactorioSolver-0.1.0.dist-info/RECORD,,
