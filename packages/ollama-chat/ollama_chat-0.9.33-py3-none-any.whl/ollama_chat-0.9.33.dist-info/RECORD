@@ -1,0 +1,17 @@
+ollama_chat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ollama_chat/__main__.py,sha256=6Rkabc8LMICWn1XSRdgRlYs0Bs-rmflxBNu7hMFxiZM,229
+ollama_chat/app.py,sha256=pqH_A5SNnmvHaZrZ0ojYuGu0t2zy4ZuAOTtIK1JSloU,15890
+ollama_chat/chat.py,sha256=2v6M-hRumuqCc0NrLtBgTVPMqC_SZmLpUpOFq-0BrZo,13097
+ollama_chat/main.py,sha256=_Kr3AAfd5SjtKogu9e88FsaAdOEtDMiuX0I5CWg7Jgw,3091
+ollama_chat/static/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ollama_chat/static/index.html,sha256=Nqc_Mwmq9gNVk4bNqIrrWttlBzJKsZQu2AXLe0OydY0,3902
+ollama_chat/static/ollamaChat.bare,sha256=wSo28wcURv_5dCoLxU1lRKTVyrkaNnG-6EfsqjhjBrY,9942
+ollama_chat/static/ollamaChat.smd,sha256=PaBsnPMr6MMeMQximY6LftrMIDBPRYGgxywkVoWaaec,5828
+ollama_chat/static/ollamaChatConversation.bare,sha256=X-TFZSwP_papS7r72xCy194m49qhZBTodt_OZmGA_sA,20737
+ollama_chat/static/ollamaChatTemplate.bare,sha256=lxYqIy20T93263MllfaQk4bpe5W5CkgkQ-XWpsZKjgY,17467
+ollama_chat-0.9.33.dist-info/LICENSE,sha256=PJYIDhcfWdKop1D9ijJqCzUBwau3bpyK5G4LPApDnSU,1081
+ollama_chat-0.9.33.dist-info/METADATA,sha256=tZXayMsVCvpZ0U6Bk72P6iW3UGkH9uczy0LD4IP7x3c,4978
+ollama_chat-0.9.33.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+ollama_chat-0.9.33.dist-info/entry_points.txt,sha256=101NVp1ymxAbhjO_Rp1DtLr1jBK3AMsYtxw6cWQhsUA,54
+ollama_chat-0.9.33.dist-info/top_level.txt,sha256=Qc7SVM9H6iDWqsErtstW88mn-rqNhVa3mrKH2yIvQIU,12
+ollama_chat-0.9.33.dist-info/RECORD,,
