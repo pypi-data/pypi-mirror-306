@@ -1,0 +1,7 @@
+README.md
+setup.py
+KS903_animethion_icon_GIF.egg-info/PKG-INFO
+KS903_animethion_icon_GIF.egg-info/SOURCES.txt
+KS903_animethion_icon_GIF.egg-info/dependency_links.txt
+KS903_animethion_icon_GIF.egg-info/requires.txt
+KS903_animethion_icon_GIF.egg-info/top_level.txt

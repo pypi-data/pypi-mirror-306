@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: KS903_animethion_icon_GIF
+Version: 1.0.0
+Summary: Animation icon GIF library for KS903
+Home-page: https://github.com/NPO_KS903_KATUYOSHI/KS903_animethion_icon_GIF
+Author: NPO_KS_903.lnc
+Author-email: xksxkatuyoshi0009@gmail.com
+License: MIT
+Keywords: animation icon gif KS903
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# README.md
+
+# KS903_animethion_icon_GIF
+
+## 概要
+
+`KS903_animethion_icon_GIF` は、KS903 のためのアニメーションアイコンGIFライブラリです。このライブラリを使用することで、簡単にアニメーションGIFをアイコンとして設定できます。
+
+## インストール
+
+このライブラリは、`pip` を使用してインストールできます。
+
+```bash
+pip install KS903_animethion_icon_GIF
+
+使い方の例として
+import tkinter as tk
+from KS903_animetion_icon.ks_903_animetion_icon2.ks903_animate_i2con import KS903_animethion_icon_GIF
+
+# ウィンドウを作成
+root = tk.Tk()
+root.geometry("300x300")
+
+# アニメーションアイコンを設定
+gif_path = "ico.gif"  # GIFファイルへのパスを設定
+icon = KS903_animethion_icon_GIF(root, gif_path)
+
+root.mainloop()
+
+
+
+Creator/Inventor: NPO_KS_903.lnc (President: Takeshi Kumura, Director: Takuma Ozawa)
+Developer: NPO_KS_903.lnc (President: Takeshi Kumura, Director: Takuma Ozawa)
+Designer/Architect: NPO_KS_903.lnc (President: Takeshi Kumura, Director: Takuma Ozawa)
+Founder: NPO_KS_903.lnc (President: Takeshi Kumura, Director: Takuma Ozawa)
+
+
