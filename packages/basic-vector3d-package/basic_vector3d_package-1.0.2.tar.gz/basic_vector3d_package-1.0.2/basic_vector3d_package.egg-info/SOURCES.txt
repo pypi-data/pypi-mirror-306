@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+BasicCalc/Coor.py
+BasicCalc/Point.py
+BasicCalc/Vector.py
+BasicCalc/__init__.py
+basic_vector3d_package.egg-info/PKG-INFO
+basic_vector3d_package.egg-info/SOURCES.txt
+basic_vector3d_package.egg-info/dependency_links.txt
+basic_vector3d_package.egg-info/top_level.txt

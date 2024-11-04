@@ -1,0 +1,29 @@
+Metadata-Version: 1.2
+Name: basic_vector3d_package
+Version: 1.0.2
+Summary: this is a test package with respect to basic calc for vector 3d
+Home-page: https:www.iCuriosity.com
+Author: iCur
+Author-email: moon_8295@163.com
+License: UNKNOWN
+Description: 
+        This is a calculation package about three dimensional coordinate points
+        =======================================================================
+        
+        # Instructions
+        
+            This library provides basic operations on vectors: including calculating Angle, judging parallelism, whether orthogonal, vector offset and so on. In addition, the basic operation of three-dimensional coordinate points is provided
+        
+        ## Usage
+        
+            How to use this package.
+        
+        
+        ### Action
+        
+            Do some things for your project!
+        
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
