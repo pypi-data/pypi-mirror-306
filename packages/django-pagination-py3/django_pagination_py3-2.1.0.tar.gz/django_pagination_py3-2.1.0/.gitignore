@@ -1,0 +1,9 @@
+*.pyc
+dist
+*.egg-info
+env/
+.idea/
+build/
+.coverage
+coverage.json
+db.sqlite3
