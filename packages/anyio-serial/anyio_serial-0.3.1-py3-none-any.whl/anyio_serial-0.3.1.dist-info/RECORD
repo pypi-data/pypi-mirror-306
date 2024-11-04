@@ -1,0 +1,7 @@
+anyio_serial/__init__.py,sha256=XIQI4z-MoiSkiWROrQ08SfE0psWhlMmXP5oQDS50KKU,257
+anyio_serial/_impl.py,sha256=34fXolRXdiNp0ef-DsRnkrThUf3fV1TlMMZX-lkAX9c,6049
+anyio_serial-0.3.1.dist-info/METADATA,sha256=yuPcqCSwXLxlmIiklf9fmuUr5WPu3IdVGy4RsZzXPR8,1869
+anyio_serial-0.3.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+anyio_serial-0.3.1.dist-info/top_level.txt,sha256=u9Dx1XGwhN4EqLXIAWiuXfdJUr4mmMoJUvbA6d6NPv0,13
+anyio_serial-0.3.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+anyio_serial-0.3.1.dist-info/RECORD,,
