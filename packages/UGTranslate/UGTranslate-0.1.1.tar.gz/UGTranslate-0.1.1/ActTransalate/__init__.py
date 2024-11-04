@@ -1,0 +1,1 @@
+from ActTransalate.UGTranslate import translate_text

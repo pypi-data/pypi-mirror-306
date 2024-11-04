@@ -1,0 +1,10 @@
+README.md
+setup.py
+ActTransalate/UGTranslate.py
+ActTransalate/__init__.py
+ActTransalate/test.py
+UGTranslate.egg-info/PKG-INFO
+UGTranslate.egg-info/SOURCES.txt
+UGTranslate.egg-info/dependency_links.txt
+UGTranslate.egg-info/requires.txt
+UGTranslate.egg-info/top_level.txt
