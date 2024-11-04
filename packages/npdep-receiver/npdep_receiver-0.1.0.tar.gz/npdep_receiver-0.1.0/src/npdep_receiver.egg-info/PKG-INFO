@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: npdep_receiver
+Version: 0.1.0
+Summary: Receiver Modules for Network Protocol Data Exfiltration Project Server
+Home-page: https://github.com/npdep/npdep-receiver
+Author: npdep
+Classifier: Operating System :: OS Independent 
+Classifier: Programming Language :: Python :: 3 
+Description-Content-Type: text/markdown
+Requires-Dist: dep_common
+Requires-Dist: dep_reader
+
+# Description
+
+Receiver Modules for Network Protocol Data Exfiltration Project Server
+
+# Installation
+
+`pip install npdep_receiver`
+
+# Usage
+
+It does not have any direct functionality. It does only provide receiver modules for NPDEP
