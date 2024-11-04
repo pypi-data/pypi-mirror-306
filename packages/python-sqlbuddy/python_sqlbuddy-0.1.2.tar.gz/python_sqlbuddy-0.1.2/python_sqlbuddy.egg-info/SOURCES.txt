@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+python_sqlbuddy.egg-info/PKG-INFO
+python_sqlbuddy.egg-info/SOURCES.txt
+python_sqlbuddy.egg-info/dependency_links.txt
+python_sqlbuddy.egg-info/requires.txt
+python_sqlbuddy.egg-info/top_level.txt
+sqlbuddy/__init__.py
+sqlbuddy/examples.py
+sqlbuddy/executor.py

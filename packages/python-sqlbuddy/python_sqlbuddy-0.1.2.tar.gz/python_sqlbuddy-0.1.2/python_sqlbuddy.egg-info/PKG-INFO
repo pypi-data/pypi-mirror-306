@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: python-sqlbuddy
+Version: 0.1.2
+Summary: A SQL library for generating SQL queries using GPT-4o
+Author: Pradeep Kumar Yadav
+Author-email: pydev.pk@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: langchain
+Requires-Dist: langchain_community
+Requires-Dist: langchain_experimental
+Requires-Dist: langchain_openai
