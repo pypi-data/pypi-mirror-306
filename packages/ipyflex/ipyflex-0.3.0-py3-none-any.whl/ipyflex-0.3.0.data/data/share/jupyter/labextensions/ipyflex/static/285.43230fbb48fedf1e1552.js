@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkipyflex=self.webpackChunkipyflex||[]).push([[285],{5285:(n,e,r)=>{function a(){return a=Object.assign?Object.assign.bind():function(n){for(var e=1;e<arguments.length;e++){var r=arguments[e];for(var a in r)({}).hasOwnProperty.call(r,a)&&(n[a]=r[a])}return n},a.apply(null,arguments)}r.d(e,{A:()=>a})}}]);
