@@ -1,0 +1,8 @@
+README.md
+setup.py
+libreria_otaku/__init__.py
+libreria_otaku/libreria_otaku.py
+libreria_otaku.egg-info/PKG-INFO
+libreria_otaku.egg-info/SOURCES.txt
+libreria_otaku.egg-info/dependency_links.txt
+libreria_otaku.egg-info/top_level.txt
