@@ -1,0 +1,2 @@
+class NotSupposedToHappenException(BaseException):
+    pass
