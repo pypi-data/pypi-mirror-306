@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+celery4ai2mg/__init__.py
+celery4ai2mg/base.py
+celery4ai2mg/celery_config.py
+celery4ai2mg/config.ini
+celery4ai2mg/tasks.py
+celery4ai2mg.egg-info/PKG-INFO
+celery4ai2mg.egg-info/SOURCES.txt
+celery4ai2mg.egg-info/dependency_links.txt
+celery4ai2mg.egg-info/requires.txt
+celery4ai2mg.egg-info/top_level.txt

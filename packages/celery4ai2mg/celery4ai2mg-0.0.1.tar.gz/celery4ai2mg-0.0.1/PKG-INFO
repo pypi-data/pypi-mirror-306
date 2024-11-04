@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: celery4ai2mg
+Version: 0.0.1
+Summary: 快速构建celery异步任务
+Home-page: https://github.com/huangyangke/celery4ai2mg
+Author: huangyangke
+Author-email: 924726976@qq.com
+License: MIT Licence
+Keywords: celery,mgtv
+Platform: any
+License-File: LICENSE
+Requires-Dist: celery==5.2.7
+Requires-Dist: celery-amqp-backend==1.0.0
+Requires-Dist: redis==5.0.1
+Requires-Dist: amqp==5.1.1
+
+long_description
