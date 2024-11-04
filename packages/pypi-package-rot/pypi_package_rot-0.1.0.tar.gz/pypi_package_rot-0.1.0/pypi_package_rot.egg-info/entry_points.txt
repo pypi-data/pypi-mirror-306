@@ -1,0 +1,2 @@
+[console_scripts]
+pypi_package_rot = pypi_package_rot.cli:main

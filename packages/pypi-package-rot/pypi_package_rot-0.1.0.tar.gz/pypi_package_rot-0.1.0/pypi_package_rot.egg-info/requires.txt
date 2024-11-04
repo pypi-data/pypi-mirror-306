@@ -1,0 +1,15 @@
+compress_json>=1.1.1
+cache_decorator
+requests
+beautifulsoup4
+typeguard
+rich
+
+[test]
+pytest
+pytest-readme
+pandas-stubs
+types-tqdm
+types-requests
+types-beautifulsoup4
+validate_version_code
