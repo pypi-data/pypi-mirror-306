@@ -1,0 +1,9 @@
+funcspy\emails_funcs
+funcspy\exceptions_funcs
+funcspy\gui_funcs
+funcspy\pdf_funcs\ocr_funcs
+funcspy\pdf_funcs\pdfutils
+funcspy\python_funcs
+funcspy\regex_funcs
+funcspy\selenium_funcs
+funcspy\utils_funcs
