@@ -1,0 +1,2 @@
+[console_scripts]
+npdep_icmp_client = npdep_icmp_client.__main__:main
