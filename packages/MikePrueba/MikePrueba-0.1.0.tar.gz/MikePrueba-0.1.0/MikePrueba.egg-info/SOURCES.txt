@@ -1,0 +1,6 @@
+README.md
+setup.py
+MikePrueba.egg-info/PKG-INFO
+MikePrueba.egg-info/SOURCES.txt
+MikePrueba.egg-info/dependency_links.txt
+MikePrueba.egg-info/top_level.txt
