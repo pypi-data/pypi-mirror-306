@@ -1,0 +1,8 @@
+lxml
+requests
+urllib3
+platformdirs
+
+[dev]
+pytest
+pytest-cov
