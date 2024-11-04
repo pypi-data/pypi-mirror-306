@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: queue8
+Version: 0.1.3
+Summary: A custom library for handling message queues with timeout and message batching.
+Home-page: https://nexus.x51.vn/repository/queue_lib/
+Author: Vu D.
+Author-email: vubakninh@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pika
+
+pip install build
+
+python -m build
+
+pip install twine
+
+twine upload -r nexus dist/*
+
