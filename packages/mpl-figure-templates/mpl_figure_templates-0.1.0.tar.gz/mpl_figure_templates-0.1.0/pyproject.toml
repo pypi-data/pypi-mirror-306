@@ -1,0 +1,43 @@
+[project]
+name = "mpl-figure-templates"
+dynamic = ["version"]
+description = "Templates for customizing layouts and styles of Matplotlib figures"
+readme = "README.md"
+license = "MIT"
+keywords = []
+dependencies = ["matplotlib>=2.0.0", "pyyaml>=3.13", "python-dotenv>0.10.1"]
+requires-python = ">=3.9,<4"
+
+[project.urls]
+Homepage = "https://github.com/numerical-io/mpl_figure_templates"
+
+[tool.hatch.envs.default]
+dependencies = [
+    "coverage[toml]",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+    "black",
+    "ipykernel",
+    "isort",
+    "pandas",
+    "ipympl",
+]
+python = "3.10"
+
+[tool.hatch.version]
+path = "figure_templates/version.py"
+
+[tool.hatch.build]
+include = ["figure_templates"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+python_functions = "test_* should_*"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

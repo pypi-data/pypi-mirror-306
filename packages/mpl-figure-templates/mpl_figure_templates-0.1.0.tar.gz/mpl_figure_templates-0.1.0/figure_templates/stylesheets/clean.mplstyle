@@ -1,0 +1,21 @@
+font.family : sans-serif
+font.sans-serif : Avenir Next, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
+axes.titlesize : 10
+axes.labelsize : 10
+xtick.labelsize : 10
+ytick.labelsize : 10
+legend.fontsize : 10
+
+lines.linewidth : 1.5
+lines.linestyle : -
+lines.markersize : 6
+
+axes.linewidth : 0.0
+
+xtick.direction : in
+ytick.direction : in
+
+axes.grid : True
+grid.color : c7dedf
+grid.linestyle : -
+grid.linewidth : 0.3

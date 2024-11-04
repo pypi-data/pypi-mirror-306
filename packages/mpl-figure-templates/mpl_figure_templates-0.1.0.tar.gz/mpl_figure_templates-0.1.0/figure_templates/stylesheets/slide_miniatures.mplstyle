@@ -1,0 +1,38 @@
+figure.dpi : 50      # Impacts view size on screen only
+savefig.dpi : 144    # When saving as PDF, impacts the resolution of rasterized elements only. The PDF file always has 72 points by inches.
+
+font.family: sans-serif
+font.size: 22
+figure.titlesize : 22
+axes.titlesize : 22
+axes.labelsize : 22
+xtick.labelsize : 22
+ytick.labelsize : 22
+legend.fontsize : 22
+font.weight: normal
+axes.labelweight: normal
+axes.titleweight: normal
+figure.titleweight: normal
+axes.labelpad : 0
+axes.titlepad: 30
+
+lines.linewidth: 2.5
+lines.markersize: 16
+
+axes.linewidth : 1.2
+
+xtick.direction: in
+xtick.major.size: 8
+xtick.minor.size: 6
+xtick.major.width: 1.2
+xtick.minor.width: 1
+xtick.major.pad: 15
+xtick.minor.pad: 12
+
+ytick.direction: in
+ytick.major.size: 8
+ytick.minor.size: 6
+ytick.major.width: 1.2
+ytick.minor.width: 1
+ytick.major.pad: 11
+ytick.minor.pad: 9
