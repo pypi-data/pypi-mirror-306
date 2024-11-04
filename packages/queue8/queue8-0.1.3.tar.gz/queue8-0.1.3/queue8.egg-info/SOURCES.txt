@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+queue8/__init__.py
+queue8/listener.py
+queue8.egg-info/PKG-INFO
+queue8.egg-info/SOURCES.txt
+queue8.egg-info/dependency_links.txt
+queue8.egg-info/requires.txt
+queue8.egg-info/top_level.txt
+tests/__init__.py
