@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: npdep_common
+Version: 1.0.0
+Summary: Common dependencies for NPDEP
+Home-page: https://github.com/npdep/npdep-common
+Author: npdep
+Classifier: Operating System :: OS Independent 
+Classifier: Programming Language :: Python :: 3 
+Description-Content-Type: text/markdown
+
+# Description
+
+Network Protocol Data Exfiltration Project - A modular approach for data exfiltration
+
+# Installation
+
+`pip install npdep_common`
+
+# Usage
+
+It does not have any direct functionality. It does only provide common types and capabilites to NPDEP.
