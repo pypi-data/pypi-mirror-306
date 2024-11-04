@@ -1,0 +1,3 @@
+[console_scripts]
+heatmap = todo2notion.update_heatmap:main
+todo = todo2notion.todo:main
