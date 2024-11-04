@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: simpleraycast
+Version: 0.1.0
+Summary: A simple raycasting engine for 2D games in Python using Pygame
+Author: Sten Nierop
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Requires-Dist: pygame
+
