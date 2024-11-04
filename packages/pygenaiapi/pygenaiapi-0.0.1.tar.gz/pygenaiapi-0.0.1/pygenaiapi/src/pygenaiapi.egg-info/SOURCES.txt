@@ -1,0 +1,8 @@
+License.txt
+setup.py
+pygenaiapi/src/pygenaiapi.egg-info/PKG-INFO
+pygenaiapi/src/pygenaiapi.egg-info/SOURCES.txt
+pygenaiapi/src/pygenaiapi.egg-info/dependency_links.txt
+pygenaiapi/src/pygenaiapi.egg-info/top_level.txt
+pygenaiapi/src/pygenaiapi.py
+pygenaiapi/src/pygenaiapi.egg-info/SOURCES.txt
