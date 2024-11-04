@@ -1,0 +1,6 @@
+README.md
+setup.py
+Mikel_Prueba.egg-info/PKG-INFO
+Mikel_Prueba.egg-info/SOURCES.txt
+Mikel_Prueba.egg-info/dependency_links.txt
+Mikel_Prueba.egg-info/top_level.txt

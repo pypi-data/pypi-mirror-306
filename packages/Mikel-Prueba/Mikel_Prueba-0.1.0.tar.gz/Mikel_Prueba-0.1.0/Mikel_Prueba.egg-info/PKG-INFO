@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: Mikel-Prueba
+Version: 0.1.0
+Summary: Prueba para aprender a subir librerías a Pypi
+Home-page: https://github.com/Mikel_Puerta/Mikel_Prueba
+Author: Mikel Puerta
+Author-email: mikel.puerta@alumni.mondragon.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+# Mikel_Prueba
+
+Este cÃ³digo es para practicar a subir archivos a Pypi.org para nuestra clase de programaciÃ³n.
+EstÃ¡ en una versiÃ³n muy temprana como para meter mucho condicional.
+
+# Comandos
+- minusculas
+    - Coge la frase y devuelve la frase en minÃºsculas (que innovador)
+- mayusculas
+    - Coge la frase y devuelve la frase en mayÃºsculas (guau, que increible)
+- minusculas_en_frase
+    - Coge la frase y devuelve una lista con las letras minÃºsculas Ãºnicas que haya en la frase 
+- mayusculas_en_frase
+    - Coge la frase y devuelve una lista con las letras mayÃºsculas Ãºnicas que haya en la frase 
+- sumar
+    - Coge una lista de nÃºmeros y suma los valores (guau)
+- media
+    - Coge una lista de nÃºmeros y calcula la media (por dios, que complejo)
+- zeros
+    - Coge una lista de nÃºmeros y cuenta cuÃ¡ntos ceros hay (yeahh)
+- tipo
+    - Coge la variable y dice su clase de variable (magistral, de alto nivel)
+- varianza
+    - Coge una lista de valores numÃ©ricos y calcula la varianza
+- desviacion_estandar
+    - Coge una lista de valores numÃ©ricos y calcula la desviaciÃ³n estandar.
+## Authors
+
+- Mikel Puerta
+
+
