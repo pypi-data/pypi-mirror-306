@@ -1,0 +1,9 @@
+giraffe_encryption/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+giraffe_encryption/ascii.py,sha256=ttoSCbbExDcCqMaPOMOFqoiTUuWC4GsDrQZDHY1A9w8,9463
+giraffe_encryption/decrypt.py,sha256=vm1UwFuEkZfLp3kDS-KFQD-ks-AvZf4Fzjam_XVxjCQ,3327
+giraffe_encryption/encrypt.py,sha256=p6tBEx853UpcLl-Cstv0qK6DIa1XLuPSPFS9QQk2hMU,3933
+giraffe_encryption/utils.py,sha256=Z16mA01uUv_eHWIbNlFh9-0mO_cL5SQgIB1s4hz722Y,895
+giraffe_encryption-0.0.1.dist-info/METADATA,sha256=hIZVZTYR-dPj-xSesxteoO20SmDPEwzMWtLVVgsopPg,63
+giraffe_encryption-0.0.1.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+giraffe_encryption-0.0.1.dist-info/top_level.txt,sha256=luLTJdJy5YR_yV7x-kBXI_lcw3z5EtZzXsuLACZvShI,19
+giraffe_encryption-0.0.1.dist-info/RECORD,,
