@@ -1,0 +1,2 @@
+[console_scripts]
+dep_client = dep_client.__main__:main
