@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+skill-ovos-randomness.openvoiceos=skill_ovos_randomness:RandomnessSkill
+
