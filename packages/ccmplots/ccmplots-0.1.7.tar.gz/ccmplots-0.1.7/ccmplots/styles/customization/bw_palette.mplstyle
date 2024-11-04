@@ -1,0 +1,2 @@
+
+axes.prop_cycle : cycler('color', ['000000', '5b5b5b', '999999', 'bcbcbc']) *  cycler('linestyle', ['-','--',':','-.'])

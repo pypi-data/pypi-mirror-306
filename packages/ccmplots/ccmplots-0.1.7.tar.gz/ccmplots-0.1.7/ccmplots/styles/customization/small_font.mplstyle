@@ -1,0 +1,12 @@
+
+#FONTSIZES
+axes.titlesize : 9
+axes.labelsize : 9
+xtick.labelsize : 9
+ytick.labelsize : 9
+
+# Font
+font.family: Times New Roman
+text.usetex : True
+font.size: 9
+
