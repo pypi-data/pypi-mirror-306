@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "catnet"
+version = "0.1.0"
+description = "Create networks of categories from literature review and other tables"
+authors = ["Juan Camilo Betancur Jaramillo <juan.betancur@sei.org>"]
+maintainers = ["Juan Camilo Betancur Jaramillo <juan.betancur@sei.org>"]
+license = "GNU GPLv3"
+readme = "README.md"
+repository = "https://github.com/CamiBetancur/catnet"
+keywords = ["networks", "literature review", "categorical data"]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing",
+    "Topic :: Scientific/Engineering"
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+pathlib = "^1.0.1"
+importlib = "^1.0.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+mypy = "^1.13.0"
+wheel = "^0.44.0"
+sdist = "^0.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
