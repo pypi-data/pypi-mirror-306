@@ -1,0 +1,2 @@
+[console_scripts]
+micro-app = micro_registry.micro_app:main
