@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: veriframe
+Version: 0.0.0
+Summary: Dataframe for model verification
+Author-email: Oceanum Developers <developers@oceanum.science>
+Maintainer-email: Oceanum Developers <developers@oceanum.science>
+License: Not open source
+Project-URL: bugs, https://github.com/oceanum/veriframe/issues
+Project-URL: changelog, https://github.com/oceanum/veriframe/blob/master/changelog.md
+Project-URL: homepage, https://github.com/oceanum/veriframe
+Description-Content-Type: text/x-rst
+License-File: AUTHORS.rst
+Requires-Dist: cartopy
+Requires-Dist: matplotlib
+Requires-Dist: pyyaml
+Requires-Dist: scipy
+Requires-Dist: tabulate
+Requires-Dist: typer
+Requires-Dist: xarray
+Provides-Extra: dev
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+=========
+veriframe
+=========
+
+Dataframe for model verification
+
+
+Features
+--------
+
+
+Credits
+-------

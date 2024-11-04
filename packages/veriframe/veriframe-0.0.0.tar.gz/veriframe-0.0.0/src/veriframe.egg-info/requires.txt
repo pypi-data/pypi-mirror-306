@@ -1,0 +1,16 @@
+cartopy
+matplotlib
+pyyaml
+scipy
+tabulate
+typer
+xarray
+
+[dev]
+coverage
+mypy
+pytest
+ruff
+sphinx
+tox
+twine
