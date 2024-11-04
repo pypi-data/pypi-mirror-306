@@ -1,0 +1,8 @@
+include README.md LICENSE
+include lingustruct/mappings/key_mapping.json
+include lingustruct/templates/master_template.json
+include lingustruct/templates/overview_template.json
+include lingustruct/templates/*_s.json
+exclude lingustruct/templates/m[1-9].json
+exclude lingustruct/templates/m10.json
+exclude .env

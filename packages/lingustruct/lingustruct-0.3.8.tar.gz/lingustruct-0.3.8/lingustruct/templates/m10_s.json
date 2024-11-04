@@ -1,0 +1,77 @@
+{
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "t_v": {
+          "type": "string",
+          "description": "Template Version",
+          "required": true
+        },
+        "p_n": {
+          "type": "string",
+          "description": "Project Name",
+          "required": true
+        },
+        "p_v": {
+          "type": "string",
+          "description": "Project Version",
+          "required": true
+        },
+        "desc": {
+          "type": "string",
+          "description": "Description",
+          "required": true
+        },
+        "scale": {
+          "type": "string",
+          "enum": ["s", "m", "l", "e"],
+          "description": "Scale",
+          "required": true
+        }
+      },
+      "required": ["t_v", "p_n", "p_v", "desc", "scale"]
+    },
+    "tech": {
+      "type": "object",
+      "properties": {
+        "v": {
+          "type": "string",
+          "description": "Technology Version",
+          "priority": 1,
+          "required": true
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Programming Languages",
+          "priority": 2,
+          "required": true
+        },
+        "frameworks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Frameworks",
+          "priority": 3,
+          "required": false
+        },
+        "tools": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Development Tools",
+          "priority": 4,
+          "required": false
+        }
+      },
+      "required": ["v", "languages"]
+    }
+  },
+  "required": ["meta", "tech"]
+}

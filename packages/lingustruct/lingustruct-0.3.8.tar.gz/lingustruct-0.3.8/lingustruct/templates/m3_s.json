@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "dep_res": {
+            "type": "string",
+            "description": "Dependency resolution method",
+            "default": "top-down",
+            "priority": 1,
+            "required": true
+        }
+    },
+    "required": ["dep_res"]
+}

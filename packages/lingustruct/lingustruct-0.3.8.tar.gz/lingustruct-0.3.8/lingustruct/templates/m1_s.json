@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "t_v": {
+      "type": "string",
+      "priority": 1,
+      "required": true
+    },
+    "p_n": {
+      "type": "string",
+      "priority": 2,
+      "required": true
+    },
+    "p_v": {
+      "type": "string",
+      "priority": 3,
+      "required": true
+    },
+    "desc": {
+      "type": "string",
+      "priority": 4,
+      "required": true
+    },
+    "scale": {
+      "type": "string",
+      "enum": ["s", "m", "l", "e"],
+      "priority": 5,
+      "required": true
+    }
+  },
+  "required": ["t_v", "p_n", "p_v", "desc", "scale"]
+}
+

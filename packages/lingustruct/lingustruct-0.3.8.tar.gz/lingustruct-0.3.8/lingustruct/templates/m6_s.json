@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "abbr": {
+      "type": "object",
+      "priority": 1,
+      "required": true,
+      "properties": {
+        "auth": {
+          "type": "string",
+          "description": "Authentication",
+          "priority": 1,
+          "required": true
+        },
+        "authz": {
+          "type": "string",
+          "description": "Authorization",
+          "priority": 2,
+          "required": true
+        },
+        "ms": {
+          "type": "string",
+          "description": "Microservices",
+          "priority": 3,
+          "required": true
+        },
+        "perf": {
+          "type": "string",
+          "description": "Performance",
+          "priority": 4,
+          "required": true
+        },
+        "svc": {
+          "type": "string",
+          "description": "Service",
+          "priority": 5,
+          "required": true
+        },
+        "arch": {
+          "type": "string",
+          "description": "Architecture",
+          "priority": 6,
+          "required": true
+        }
+      }
+    }
+  },
+  "required": ["abbr"]
+}

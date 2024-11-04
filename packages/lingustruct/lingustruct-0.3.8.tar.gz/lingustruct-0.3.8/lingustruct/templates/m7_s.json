@@ -1,0 +1,58 @@
+{
+    "type": "object",
+    "properties": {
+        "map": {
+            "type": "object",
+            "priority": 1,
+            "properties": {
+                "auth": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Authentication Mapping",
+                    "priority": 1,
+                    "required": false
+                },
+                "authz": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Authorization Mapping",
+                    "priority": 2,
+                    "required": false
+                },
+                "ms": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Microservices Mapping",
+                    "priority": 3,
+                    "required": false
+                },
+                "perf": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Performance Mapping",
+                    "priority": 4,
+                    "required": false
+                },
+                "svc": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Service Mapping",
+                    "priority": 5,
+                    "required": false
+                }
+            },
+            "required": []
+        }
+    },
+    "required": []
+}
