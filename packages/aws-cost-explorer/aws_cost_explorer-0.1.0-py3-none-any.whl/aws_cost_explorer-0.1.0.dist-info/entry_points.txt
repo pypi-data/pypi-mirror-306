@@ -1,0 +1,2 @@
+[console_scripts]
+aws-cost-explorer = aws_cost_explorer:main.main
