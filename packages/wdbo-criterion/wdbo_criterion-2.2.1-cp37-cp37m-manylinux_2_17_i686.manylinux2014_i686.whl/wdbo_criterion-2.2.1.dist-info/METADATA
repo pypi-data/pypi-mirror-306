@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: wdbo-criterion
+Version: 2.2.1
+Summary: C++ implementation of a criterion used to remove stale data in Dynamic Bayesian Optimization.
+Author: Giovanni Ranieri
+Author-email: giovanni.ranieri@epfl.ch
+Requires-Python: >=3.7
+Provides-Extra: test
+Requires-Dist: pytest >=6.0 ; extra == 'test'
+
