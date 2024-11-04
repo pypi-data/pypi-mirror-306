@@ -1,0 +1,4 @@
+[console_scripts]
+cluster-pub=cluster_pub.main:application
+cluster-pub-metrics=cluster_pub.cluster_evaluation:application
+
