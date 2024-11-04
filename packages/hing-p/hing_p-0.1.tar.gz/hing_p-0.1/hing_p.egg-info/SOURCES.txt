@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+hing_p/__init__.py
+hing_p/course.py
+hing_p/student.py
+hing_p.egg-info/PKG-INFO
+hing_p.egg-info/SOURCES.txt
+hing_p.egg-info/dependency_links.txt
+hing_p.egg-info/top_level.txt
