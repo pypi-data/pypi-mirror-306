@@ -1,0 +1,7 @@
+Time_Series_Scalogram/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Time_Series_Scalogram/hampel_filter.py,sha256=O_mLc_M9SrkP7Tw-uaRnoUqMokB9GmnDb6ovL219s1U,2179
+Time_Series_Scalogram/ts_scalogram.py,sha256=8AacEyVNh0mLZ6t_avbYTBrcdvoOjkJB9OKax7jhDQQ,9889
+time_series_scalogram-0.0.3.dist-info/METADATA,sha256=pCW92lJz62vSKOUw-lkMwY3Bd30ZMa5yyJipWCr0YHk,857
+time_series_scalogram-0.0.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+time_series_scalogram-0.0.3.dist-info/licenses/LICENSE,sha256=GcOqIU_8faW98Vr-dyrEaqE_ryaLBKTQB6Y9fw60uVo,1067
+time_series_scalogram-0.0.3.dist-info/RECORD,,
