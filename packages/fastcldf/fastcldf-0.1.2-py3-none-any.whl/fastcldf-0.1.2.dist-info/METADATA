@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: fastcldf
+Version: 0.1.2
+Summary: Quickly create CLDF datasets.
+Home-page: https://fl.mt/fastcldf
+License: Apache-2.0
+Author: Florian Matter
+Author-email: flmt@mailbox.org
+Requires-Python: >=3.12.1,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cldfbench (>=1.14.0,<2.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: numpy (==1.26.4)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: pycldf (>=1.38.1,<2.0.0)
+Requires-Dist: questionary (>=2.0.1,<3.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Requires-Dist: writio (>=0.1.1,<0.2.0)
+Project-URL: Bug tracker, https://github.com/fmatter/fastcldf/issues
+Project-URL: Repository, https://github.com/fmatter/fastcldf
+Description-Content-Type: text/markdown
+
+# fastcldf
+
+Quickly create CLDF datasets.
+
+[![Tests](https://img.shields.io/github/actions/workflow/status/fmatter/fastcldf/python-app.yml?label=tests)](https://github.com/fmatter/fastcldf/actions/workflows/python-app.yml)
+[![Versions](https://img.shields.io/pypi/pyversions/fastcldf)](https://www.python.org/)
+[![PyPI](https://img.shields.io/pypi/v/fastcldf.svg)](https://pypi.org/project/fastcldf)
+[![License](https://img.shields.io/github/license/fmatter/fastcldf)](https://www.apache.org/licenses/LICENSE-2.0)
+
