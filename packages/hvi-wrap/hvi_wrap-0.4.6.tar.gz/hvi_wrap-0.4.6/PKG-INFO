@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hvi-wrap
+Version: 0.4.6
+Summary: Keysight PW TSE wrapper that provides a friendlier interface
+Author: Guy McBride
+Author-email: guy_mcbride@keysight.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=2.1.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+
