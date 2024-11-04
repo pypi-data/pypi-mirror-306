@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+simplified_regex/__init__.py
+simplified_regex/__main__.py
+simplified_regex/cli.py
+simplified_regex.egg-info/PKG-INFO
+simplified_regex.egg-info/SOURCES.txt
+simplified_regex.egg-info/dependency_links.txt
+simplified_regex.egg-info/entry_points.txt
+simplified_regex.egg-info/top_level.txt
