@@ -1,0 +1,11 @@
+one_chat/__init__.py,sha256=GvI1psp6ux6Msq_fAkcdMiZQQ8G2P4-4dS5-8yvGAeY,6042
+one_chat/broadcast_sender.py,sha256=_zmoSxdckNgMdF8rSQPOdETteeb1c_UqIN2NMUwZUj8,1402
+one_chat/get_friends_and_groups.py,sha256=oVLiWPsWR_bI_Zm7kgt-WS3YImnnV6TRo4sBf_x5R2k,2985
+one_chat/location_sender.py,sha256=dseSCA5SwtQvmn0UsFjocwwKZAGej0onWuqxUGvwNBU,959
+one_chat/message_sender.py,sha256=NPyXd6HwhekTAfs7ASVnsQudLOOvhSGStbR_WQwkqJE,3473
+one_chat/one_chat.py,sha256=XyD_RWvVMX1VikK-i9aaxGCW7eHpxL7JSD77WMIvDRc,2194
+one_chat/sticker_sender.py,sha256=mINscgumh0YoEbpZK39ZA-iyoUXWvql82LXQGuxcHVs,1035
+one_chat_api-0.2.15.dist-info/METADATA,sha256=ONQeddarFYhyVPU6Yi_5pibgqYaNeKk2GygT7YLBg24,5964
+one_chat_api-0.2.15.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+one_chat_api-0.2.15.dist-info/top_level.txt,sha256=ZiGPkJzcjaniFmNvwNftj21mXxngMgv-MoXkl98743U,9
+one_chat_api-0.2.15.dist-info/RECORD,,
