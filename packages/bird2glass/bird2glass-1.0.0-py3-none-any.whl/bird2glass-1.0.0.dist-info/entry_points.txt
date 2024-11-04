@@ -1,0 +1,2 @@
+[console_scripts]
+bird2glass = bird2glass.__main__:main
