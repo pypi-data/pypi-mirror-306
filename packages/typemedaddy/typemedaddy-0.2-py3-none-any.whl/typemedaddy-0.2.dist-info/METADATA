@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: typemedaddy
+Version: 0.2
+Summary: Derives type hints from data captured during runtime. Updates source files with type hints. USE SOURCE CONTROL before using!!!!
+Author: Witold Zolnowski
+Requires-Dist: autopep8
+
