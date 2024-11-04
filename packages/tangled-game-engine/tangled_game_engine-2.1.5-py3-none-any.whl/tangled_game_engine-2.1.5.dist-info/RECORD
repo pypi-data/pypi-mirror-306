@@ -1,0 +1,13 @@
+tangled_game_engine/__init__.py,sha256=woXE2k3g1iQX9Yy67SKJD-mVEPcga0GqaQqJ3vx9jAA,438
+tangled_game_engine/tangled_game/__init__.py,sha256=cpPRuibJIvgbJwiC-mqMe-vMIqqKFpfDtWv6gJnnrFs,254
+tangled_game_engine/tangled_game/game.py,sha256=5g342QdzQjFaTizQJiXNsPTzT1gelJkFgG77Z7mivL4,16720
+tangled_game_engine/tangled_game/game_types.py,sha256=s3QR4V6R6PBf0khwbWiTbe2vLxV-IF5SjIpH9_XTFYk,2347
+tangled_game_engine/tangled_game_agent/__init__.py,sha256=HidV_7tj8zzStG2wn2UTYlDTesDfqHIe189Z9Ntg6CU,73
+tangled_game_engine/tangled_game_agent/base_agent.py,sha256=WHdeGfalp_CcstyGH3BshZjKgOyP4o3wKp1jMNBAed8,1748
+tangled_game_engine/tangled_game_client/__init__.py,sha256=ipl5iH5l8-tnhGVkEdK88hovBRHPe5arBgGZWGOOZm0,153
+tangled_game_engine/tangled_game_client/base_game_player.py,sha256=oj6komrpiSHv8wCrSafWvU4qyy147Bb-FWNIWLhncY4,1433
+tangled_game_engine/tangled_game_client/local_game_player.py,sha256=yM-OfwCUsPEf77vRb9Q4ViYpHKx93GBmHC5sliBE1TE,2407
+tangled_game_engine-2.1.5.dist-info/METADATA,sha256=hSiYKKdQlJ3P0lA9oXPl1OK84JcTZNc2Z2jtwdlDqfY,995
+tangled_game_engine-2.1.5.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+tangled_game_engine-2.1.5.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tangled_game_engine-2.1.5.dist-info/RECORD,,
