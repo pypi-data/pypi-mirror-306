@@ -1,0 +1,12 @@
+assists/__init__.py,sha256=ShXQBVjyiSOHxoQJS2BvNG395W4KZfqMxZWBAR0MZrE,22
+assists/cloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assists/cloud/aws.py,sha256=JYcElofhEj_21C4mOR3IRQwjLleTe2IsrByIuDRCcc8,1168
+assists/cloud/azure.py,sha256=eNWAp1QM0WtlXbqelhEBu5WmhgKk4s2Eyk7E77kaaxI,771
+assists/main.py,sha256=IkF6ZBRsM-pd7eMBOIpTl7yTQ-pZaVJTwXXeI_boSUc,627
+assists/tools/__init__.py,sha256=z2D0Yg5CKUEt38XThVBwssyfBtZ4LmpWYAPEICkdo_8,79
+assists/tools/terraform.py,sha256=URCoUzexpk96y1M2HCOL6th0r3VZh7pZytYHWnDF664,5695
+assists-0.2.0.dist-info/LICENSE.txt,sha256=7kqsJgaN8N0M27eHPBSG1VYEHCp--WTj-Dz6_o63l-M,11344
+assists-0.2.0.dist-info/METADATA,sha256=ErZArs9ynZXMyWjl0iOD92JnEWgokbuzk8wrCPDokY0,2526
+assists-0.2.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+assists-0.2.0.dist-info/entry_points.txt,sha256=boX9Oon12lR2Q8OU5v5u1-U_rVyc73bZLb4xOUGyutA,40
+assists-0.2.0.dist-info/RECORD,,

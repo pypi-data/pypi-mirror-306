@@ -1,0 +1,3 @@
+[console_scripts]
+ast=assists.main:app
+

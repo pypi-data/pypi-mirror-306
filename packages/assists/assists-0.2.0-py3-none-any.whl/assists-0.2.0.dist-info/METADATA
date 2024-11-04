@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: assists
+Version: 0.2.0
+Summary: A collection of DevOps and SRE related tools.
+Home-page: https://github.com/phillipsj/assists
+License: Apache 2.0
+Keywords: DevOps,SRE,tools,aws,azure
+Author: Jamie Phillips
+Author-email: cphill11@gmail.com
+Maintainer: Jamie Phillips
+Maintainer-email: cphill11@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: python-hcl2 (>=4.3.5,<5.0.0)
+Requires-Dist: semver (>=3.0.2,<4.0.0)
+Requires-Dist: typer (>=0.12.5,<0.13.0)
+Project-URL: Documentation, https://github.com/phillipsj/assists/blob/main/DOCS.md
+Project-URL: Repository, https://github.com/phillipsj/assists
+Description-Content-Type: text/markdown
+
+# Assists
+
+[![PyPI - Version](https://img.shields.io/pypi/v/assists.svg)](https://pypi.org/project/assists)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/assists.svg)](https://pypi.org/project/assists)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+Using pipx:
+
+```console
+pipx install assists
+```
+
+Using pip:
+
+```console
+pip install assists
+```
+
+## Terraform command
+
+The new `ast terraform` command that was added in version 0.2.0 was added to provide the ability to install Terraform
+that is associated with a specific project. The Terraform versions are cached so future runs don't have to download. This tool
+leverages the built in Terraform version constraints except for the greater than, but less than option. It only looks for
+the `terraform.tf` file to find the Terraform version as recommended by HashiCorp. If you experience any issues or want an enhancement
+please submit an issue or a pull request.
+
+## License
+
+`assists` is distributed under the terms of the [Apache](https://github.com/phillipsj/assists/blob/main/LICENSE.txt) license.
+
