@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: curly-brace-python
+Version: 0.1
+Summary: A custom Python interpreter that allows curly brace syntax
+Home-page: https://github.com/komalcantcode/Indentless
+Author: Komal
+Author-email: h0275141@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+
