@@ -1,0 +1,9 @@
+litequery/__init__.py,sha256=GRbm8uApmWgs3614qnOHg0zZOTE8ixX8yNAWUyiXqD4,77
+litequery/cli.py,sha256=jFxL6jHKgqEuUeMnOUal3NLOtcAcgpj2v4YaSAIgSVM,618
+litequery/core.py,sha256=2XrwZSP3Bm9WJf9rjMBlFnVP06WMWzbyfaEmHDG94h0,5844
+litequery/migrations.py,sha256=0FELlpOWzXj7GxqeCCAD0mTbeaKAnHy52k0dAzoYUHQ,1419
+litequery-0.4.0.dist-info/METADATA,sha256=aKr3f1jzZdAmOXwAne2FFdv1HgZCj8Ja7_z9xuWTghc,3115
+litequery-0.4.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+litequery-0.4.0.dist-info/entry_points.txt,sha256=y-mbkmeIXB914McoIlw_sWW-432f-NmSqjSzEiNqDss,42
+litequery-0.4.0.dist-info/licenses/LICENSE,sha256=h-tzSAOdFVXPfHELOk9s6JO-0OCjjZoUHfsJDZsJsb8,1062
+litequery-0.4.0.dist-info/RECORD,,
