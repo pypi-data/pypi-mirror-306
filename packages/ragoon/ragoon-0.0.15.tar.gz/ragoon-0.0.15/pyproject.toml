@@ -1,0 +1,99 @@
+[project]
+name = "ragoon"
+version = "0.0.15"
+description = "RAGoon : High level library for batched embeddings generation, blazingly-fast web-based RAG and quantized indexes processing ⚡"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = [
+    "language-models", "retrieval", "web-scraping", "few-shot-learning", 
+    "nlp", "machine-learning", "retrieval-augmented-generation", "RAG", 
+    "groq", "generative-ai", "llama", "Mistral", "embeddings", "BERT",
+    "plot", "RAGoon"
+
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "datasets>=2.20.0",
+    "faiss_cpu>=1.8.0",
+    "google_api_python_client>=2.126.0",
+    "groq>=0.9.0",
+    "httpx>=0.27.0",
+    "huggingface_hub>=0.24.2",
+    "myst-parser>=3.0.1",
+    "numpy<2",
+    "numpydoc>=1.7.0",
+    "openai>=1.37.1",
+    "overload>=1.1",
+    "plotly>=5.23.0",
+    "pydata-sphinx-theme>=0.15.4",
+    "pytest>=8.3.2",
+    "scikit_learn>=1.5.1",
+    "sentence_transformers>=3.1.1",
+    "sphinx>=7.4.7",
+    "sphinx_book_theme>=1.1.3",
+    "torch>=2.3.1",
+    "transformers",
+    "tqdm>=4.66.4",
+    "umap>=0.1.1",
+    "umap_learn>=0.5.6",
+    "usearch>=2.12.0"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+docs = [
+    "sphinx>=6.0.0",
+    "sphinx-book-theme>=1.0.1", 
+    "sphinxcontrib-katex",
+    "sphinx-autodoc-typehints",
+    "ipython>=8.8.0",  
+    "myst-nb>=1.0.0",
+    "myst-parser",
+    "matplotlib>=3.5.0",
+    "sphinx_book_theme==1.1.3",
+    "sphinx-gallery>=0.14.0",
+    "sphinx-collections>=0.0.1",
+    "tensorflow>=2.4.0",
+    "tensorflow-datasets>=4.2.0",
+    "flax",
+    "sphinx_contributors",
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 88
+
+[tool.ruff.lint.flake8-quotes]
+docstring-quotes = "double"
+inline-quotes = "double"
+multiline-quotes = "double"
