@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@intranet.siroic.com:miska/test_sub_repo.git
+	branch = master
+	commit = e9c06f1ebd147ea5342fae32984e414e70d13bf6
+	parent = 3f963847c46cc17a8c79312d8c0f1fd335f96fe3
+	method = merge
+	cmdver = 0.4.9
