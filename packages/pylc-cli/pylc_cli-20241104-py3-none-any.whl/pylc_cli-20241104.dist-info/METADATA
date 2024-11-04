@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: pylc_cli
+Version: 20241104
+Summary: A small CLI tool to solve leetcode problems from your favorite text editor!
+Project-URL: Homepage, https://github.com/shiina4119/pylc
+Project-URL: Issues, https://github.com/shiina4119/pylc/issues
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: gql[aiohttp]
+Requires-Dist: html2text
+Requires-Dist: rich
+Requires-Dist: tomli-w
+Requires-Dist: typer
+Description-Content-Type: text/markdown
+
+# PyLC
+
+PyLC is a small CLI tool to solve leetcode problems.
+
+## Installation
+
+Make sure you have python installed in your system.  
+Then run `pip install pylc_cli`  
+After installation, the `pylc` command will be available. Run `pylc update` to populate the cache database. 
+
+`pylc` or `pylc --help` will display all available subcommands. 
+
+## Submitting problems to server
+
+To submit problems to leetcode servers, the user needs to set their `csrftoken` and `session` variables in `config.toml` (located in `$HOME/.pylc`).  
+To get the variables follow this [link](https://github.com/clearloop/leetcode-cli/?tab=readme-ov-file#cookies).
+
+## Boilerplate generation
+
+To make LSPs happy, pylc can add boilerplate code (for example, importing necessary libraries or adding header files).
+Edit the `~/.pylc/inject.toml` file.
+
+```toml
+# An example
+[cpp]
+inject_before = ["#include <bits/stdc++.h>", "using namespace std;"]
+```
+
+## Credits
+
+This tool is heavily inspired from [clearloop/leetcode-cli](https://github.com/clearloop/leetcode-cli).
