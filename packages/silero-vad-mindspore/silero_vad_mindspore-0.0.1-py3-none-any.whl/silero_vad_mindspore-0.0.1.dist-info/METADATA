@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: silero_vad_mindspore
+Version: 0.0.1
+Summary: MindSpore version of Silero VAD.
+Home-page: https://github.com/lvyufeng/silero_vad_mindspore
+Author: Lvyufeng
+Author-email: lvyufeng@cqu.edu.cn
+License: Apache License 2.0
+Keywords: msimilarities,Chinese Text Similarity Calculation Tool,similarity,word2vec
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mindnlp
+
+
+
+![header](https://user-images.githubusercontent.com/12515440/89997349-b3523080-dc94-11ea-9906-ca2e8bc50535.png)
+
+<br/>
+<h1 align="center">Silero VAD</h1>
+<br/>
+
+**Silero VAD implemented in MindSpore** - pre-trained enterprise-grade [Voice Activity Detector](https://en.wikipedia.org/wiki/Voice_activity_detection).
+
+<br/>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/36505480/145563071-681b57e3-06b5-4cd0-bdee-e2ade3d50a60.png" />
+</p>
+
+
+## **Citations**
+
+```
+@misc{Silero VAD,
+  author = {Silero Team},
+  title = {Silero VAD: pre-trained enterprise-grade Voice Activity Detector (VAD), Number Detector and Language Classifier},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/snakers4/silero-vad}},
+  commit = {insert_some_commit_here},
+  email = {hello@silero.ai}
+}
+```
