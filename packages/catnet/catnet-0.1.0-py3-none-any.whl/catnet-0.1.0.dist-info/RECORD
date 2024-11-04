@@ -1,0 +1,10 @@
+catnet/__init__.py,sha256=GzUA6-vC0OPxfz2WgFVwvaHmlYQojfXMm-xAURkMuOM,23
+catnet/catnet.py,sha256=UyrLcy1UPckEXfyui80sW0X7ns340o-azrzCMNbz-7c,14829
+catnet/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+catnet/data/attributes.csv,sha256=EeNhWVmfMvc-kDZAyqwm1qpfJ5t2bTCLe2ejFaSNXe4,766
+catnet/data/long.csv,sha256=c2KR6we1CVwx12k2qeSVKYxV4i81zsyaCI5MDygNf5c,11725
+catnet/data/same_cell.csv,sha256=ZJtjKmsx-RmC3PzD8ZLLmM2aFL_FiGNUnaEiLs7JI20,5164
+catnet-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+catnet-0.1.0.dist-info/METADATA,sha256=4B-JfVRrynICEknPvc7tiyPzUWTbraxwbIdegUqCuc8,4889
+catnet-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+catnet-0.1.0.dist-info/RECORD,,
