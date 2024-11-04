@@ -1,0 +1,15 @@
+mi2tsunocardgames/__init__.py,sha256=yU3-a6EUpV02a3rPbUQB-dGAVWqaPbCXoLR38sC7cs8,22
+mi2tsunocardgames/deck.py,sha256=5YjrUXFSUqn1Mn_F4m2bmApD1U3yUTejAsRS38iHVFY,849
+mi2tsunocardgames/blackjack/__init__.py,sha256=RRmIK0GxwH1Pbb63r9LFIhj4xtNKU_114W63NzNR7fM,27
+mi2tsunocardgames/blackjack/game.py,sha256=Fp-gWEe30EZSM8N-yPGCe5ilDVB83DVl2wpezfW6CqA,2703
+mi2tsunocardgames/highlow/__init__.py,sha256=OkOSrf0D4VXn3FslLH1rJm7Z8CWxwfWKDt3LnPlwodk,25
+mi2tsunocardgames/highlow/game.py,sha256=-mFmIGGiy5hlK9I6ivq2As-84hdhNhWDlZq_V1mTnNI,1734
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_blackjack_game.py,sha256=55dUWknQl1mhOnE8ePsu0AJsW1xvBJQhlnVkQdyA_ss,1083
+tests/test_deck.py,sha256=D1EoRmrV308T9XPE9IJewEQgCsCPJfxSrL33Chqk8qo,825
+tests/test_highlow_game.py,sha256=JfF8l75WKKgcYiPPwQDUpdcPXjbX6Q2auqcF1Vy0Vw4,558
+mi2tsunocardgames-0.1.0.dist-info/LICENSE.txt,sha256=DcW4FduvV3HZMlKfxBPOe2zVtwNrmvp8xV0KV2D-I5M,1098
+mi2tsunocardgames-0.1.0.dist-info/METADATA,sha256=0c9DuOwrKOQhI-61XtVuRdPRP8LnS5vaOyv6tijSNP0,1190
+mi2tsunocardgames-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+mi2tsunocardgames-0.1.0.dist-info/top_level.txt,sha256=IZL7Gf8Pjv1EM_HR9INy7PiA5AkfPNhVdyrAY_zWoyc,24
+mi2tsunocardgames-0.1.0.dist-info/RECORD,,
