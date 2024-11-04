@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+smolbpe/__init__.py
+smolbpe/gpt4Tokenizer.py
+smolbpe.egg-info/PKG-INFO
+smolbpe.egg-info/SOURCES.txt
+smolbpe.egg-info/dependency_links.txt
+smolbpe.egg-info/entry_points.txt
+smolbpe.egg-info/requires.txt
+smolbpe.egg-info/top_level.txt
