@@ -1,0 +1,2 @@
+[console_scripts]
+decentryk_qr = decentryk_qr.cli:main
