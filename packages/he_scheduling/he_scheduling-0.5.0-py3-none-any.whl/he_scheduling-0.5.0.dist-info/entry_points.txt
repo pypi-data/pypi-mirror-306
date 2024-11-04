@@ -1,0 +1,3 @@
+[console_scripts]
+start-fastapi-server=he_scheduling.main:run
+
