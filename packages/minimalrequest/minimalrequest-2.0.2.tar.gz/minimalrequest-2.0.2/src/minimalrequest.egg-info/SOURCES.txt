@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/minimalrequest/__init__.py
+src/minimalrequest/minimal_request.py
+src/minimalrequest/rate_limiter.py
+src/minimalrequest.egg-info/PKG-INFO
+src/minimalrequest.egg-info/SOURCES.txt
+src/minimalrequest.egg-info/dependency_links.txt
+src/minimalrequest.egg-info/requires.txt
+src/minimalrequest.egg-info/top_level.txt
+tests/test_minimalrequest.py

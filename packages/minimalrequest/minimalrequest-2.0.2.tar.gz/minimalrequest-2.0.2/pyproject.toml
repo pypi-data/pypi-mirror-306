@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minimalrequest"
+version = "2.0.2"
+authors = [
+  { name="Erik Bierbrauer" },
+]
+description = "Minimal Request Finder is a analysis tool to determine the minimum valid API request data (including headers, query params, and payload) required to receive a valid response from an endpoint. It is designed to help in the process of reverse engineering complex third party API's and identifying the smallest, most efficient request that can be made."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "httpx==0.27.2",
+  "curlparser==0.1.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ebier92/minimalrequest"
+"Bug Tracker" = "https://github.com/ebier92/minimalrequest/issues"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
