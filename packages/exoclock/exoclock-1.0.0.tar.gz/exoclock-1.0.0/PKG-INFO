@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: exoclock
+Version: 1.0.0
+Summary: A python package for programmatic interaction with the ExoClock project archives.
+Home-page: https://github.com/atsiaras/exoclock
+Author: Angelos Tsiaras
+Author-email: aggelostsiaras@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.8
+
+Visit https://github.com/atsiaras/exoclock for more details.
