@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: snakemake-interface-logger-plugins
+Version: 0.1.0
+Summary: Logger plugin interface for snakemake
+Author: Cade Mirchandani, Christopher Tomkins-Tinch, Johannes Köster
+Requires-Python: >=3.12
+Requires-Dist: snakemake-interface-common>=1.17.4
+Description-Content-Type: text/markdown
+
+# Snakemake Logger Plugin Interface
+
+A base class for creating custom logging plugins for Snakemake.
+
+## Usage
+
+To use this base class, inherit from `LoggerPluginBase` and implement the `create_handler` method. The handler should be fully configured with a formatter and filter, as Snakemake will apply its defaults if these are not provided.
+
+## License
+
+This project is licensed under the MIT License.
