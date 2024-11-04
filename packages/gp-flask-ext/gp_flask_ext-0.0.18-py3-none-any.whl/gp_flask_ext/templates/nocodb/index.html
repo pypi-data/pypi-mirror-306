@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+
+{% block title %}Nocodb{% endblock %}
+
+{% block style %}
+<style>
+
+</style>
+{% endblock %}
+
+{% block content %}
+<div id="app" v-loading="loading">
+  <el-container>
+    <el-main>
+      <el-row>
+        <h1>[[ title ]]</h1>
+      </el-row>
+      <el-row>
+        <el-table :data="tables" stripe border>
+          <el-table-column prop="id" label="ID" width="280"></el-table-column>
+          <el-table-column prop="title" label="标题"></el-table-column>
+          <el-table-column prop="id" label="操作">
+            <template slot-scope="scope">
+              <el-button type="text" size="small" @click="dump(scope.row)">导出</el-button>
+            </template>
+          </el-table-column>
+        </el-table>
+      </el-row>
+      <el-row>
+        <h3>导入表格sechma</h3>
+        <el-form ref="form" :model="formData" label-width="150px">
+          <el-form-item label="参数">
+            <json-editor v-model="formData.meta" :value="formData.meta"></json-editor>
+          </el-form-item>
+          <el-form-item>
+            <el-button type="primary" @click="create">创建</el-button>
+          </el-form-item>
+        </el-form>
+      </el-row>
+    </el-main>
+  </el-container>
+</div>
+{% endblock %}
+
+{% block script %}
+{% include 'json-editor.html' %}
+<script>
+  // 从Flask模板引擎传递变量
+  const $CREATE_TABLE_URL = "{{ url_for('nocodb.table_create') }}"
+  const $TABLES_URL = "{{ url_for('nocodb.tables') }}"
+  const $DUMP_TABLE_URL = "{{ url_for('nocodb.table_dump') }}"
+  const app = new Vue({
+    el: '#app',
+    // 分隔符以为 [[]], 避免与Flask模板语言冲突
+    delimiters: ['[[', ']]'],
+    data: () => ({
+      title: 'Nocodb',   // 页面标题
+      loading: false,
+      formData: {
+        meta: {}
+      },
+      tables: []
+    }),
+    methods: {
+      init() {
+        document.title = this.title
+        this.getTables()
+      },
+      getTables() {
+        axios.get($TABLES_URL)
+          .then(response => {
+            // object to array
+            this.tables = Object.entries(response.data).map(([key, value]) => {
+              return { id: value, title: key }
+            })
+          })
+          .catch(error => {
+            console.log(error.response)
+            this.$message.error('请求失败:' + error.response.statusText)
+          })
+      },
+      create() {
+        this.loading = true
+        axios.post($CREATE_TABLE_URL, this.formData)
+          .then(response => {
+            this.loading = false
+            this.$message.success('创建成功')
+            this.getTables()
+          })
+          .catch(error => {
+            console.log(error.response)
+            this.$message.error('请求失败:' + error.response.statusText)
+            this.loading = false
+          })
+      },
+      dump(row) {
+        this.loading = true
+        axios.post($DUMP_TABLE_URL, { table_id: row.id })
+          .then(response => {
+            this.loading = false
+            this.$message.success('导出成功')
+            this.download(row.title + '.json', JSON.stringify(response.data, null, 2))
+          })
+      },
+      download(filename, text) {
+        // 下载文件
+        const url = window.URL.createObjectURL(new Blob([text]))
+        const link = document.createElement('a')
+        link.href = url
+        link.setAttribute('download', filename)
+        document.body.appendChild(link)
+        link.click()
+      }
+    },
+    filters: {
+    },
+    mounted() {
+        this.init()
+    }
+  })
+</script>
+{% endblock %}

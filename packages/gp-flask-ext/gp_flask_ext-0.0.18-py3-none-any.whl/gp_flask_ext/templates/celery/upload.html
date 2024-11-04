@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block title %}上传文件{% endblock %}
+
+{% block style %}
+<style>
+
+</style>
+{% endblock %}
+
+{% block content %}
+<div id="app" v-loading="loading">
+  <el-container>
+    <el-main>
+      <el-row>
+        <h1>[[ title ]]</h1>
+      </el-row>
+      <el-row>
+        <el-upload ref="upload" :limit="5"  :action="uploadUrl" multiple
+            :on-error="handleError" 
+            :on-success="handleSuccess" :file-list="fileList" :auto-upload="false">
+            <el-button slot="trigger" size="small" type="primary">选取文件</el-button>
+            <el-button style="margin-left: 10px;" size="small" type="success" @click="submitUpload">上传到服务器</el-button>
+            <div slot="tip" class="el-upload__tip">最多可以上传5个文件</div>
+        </el-upload>
+      </el-row>
+      <el-row>
+        <pre><code>[[ uploadResult ]]</code></pre>
+      </el-row>
+    </el-main>
+  </el-container>
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+  // 从Flask模板引擎传递变量
+  const $UPLOAD_URL = "{{ url_for('celery.upload') }}";
+  const app = new Vue({
+    el: '#app',
+    // 分隔符以为 [[]], 避免与Flask模板语言冲突
+    delimiters: ['[[', ']]'],
+    data: () => ({
+      title: '上传文件',   // 页面标题
+      loading: false,
+      uploadUrl: $UPLOAD_URL,
+      fileList: [],         // 上传文件列表
+      uploadResult: '',     // 上传结果
+    }),
+    methods: {
+      init() {
+        document.title = this.title
+      },
+      submitUpload() {
+        if (!this.$refs.upload.uploadFiles.length) {
+          this.$alert("请先选择文件")
+          return
+        }
+        this.uploading = true
+        this.$refs.upload.submit();
+      },
+      handleSuccess(res, file) {
+        this.uploading = false
+        this.$message({
+          message: '上传成功',
+          type: 'success',
+        })
+        this.uploadResult = JSON.stringify(res, null, 2)
+      },
+      handleError(err, file, fileList) {
+        this.$message.error('上传失败')
+        this.uploading = false
+      },
+    },
+    filters: {
+    },
+    mounted() {
+        this.init()
+    }
+  })
+</script>
+{% endblock %}
