@@ -1,0 +1,2 @@
+[console_scripts]
+npdep_http_client = npdep_http_client.__main__:main
