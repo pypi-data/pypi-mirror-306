@@ -1,0 +1,54 @@
+Metadata-Version: 2.3
+Name: falconpunch
+Version: 1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: Rust bindings for Overpunch parsing/formatting
+Keywords: overpunch,cobol,ibm,mainframe
+Author: Roman Sorin <romansorin@cap-rx.com>
+Author-email: Roman Sorin <romansorin@cap-rx.com>
+License: MIT
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Falconpunch
+
+Rust bindings for Python [Overpunch](https://github.com/capitalrx/overpunch), a [signed overpunch](https://en.wikipedia.org/wiki/Signed_overpunch) support library suitable for interacting
+with [Decimal](https://docs.python.org/3/library/decimal.html) values.
+
+## Installing
+
+```sh
+$ pip install falconpunch
+```
+
+## Usage
+
+To parse signed overpunch numbers:
+
+```python
+from decimal import Decimal
+from falconpunch import convert_from_signed_format, extract
+
+number = convert_from_signed_format("2258{", "s9(7)v99")
+assert number == Decimal("225.80")
+
+number = extract("2258{", 2)
+assert number == Decimal("225.80")
+```
+
+To format values to signed overpunch:
+
+```python
+from decimal import Decimal
+from falconpunch import convert_to_signed_format, format
+
+formatted = convert_to_signed_format(Decimal("225.80"), "s9(7)v99")
+assert formatted == "2258{"
+
+formatted = format(Decimal("225.80"), 2)
+assert formatted == "2258{"
+```
+
