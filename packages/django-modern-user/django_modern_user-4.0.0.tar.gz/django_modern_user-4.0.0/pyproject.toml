@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "django-modern-user"
+version = "4.0.0"
+description = "An improved custom user model for django projects"
+authors = ["Christopher Kumm <chrislkumm@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "django_modern_user"}]
+repository = "https://github.com/ChrisCrossCrash/django-modern-user"
+include = [
+    "LICENSE",
+    "README.md",
+    "django_modern_user/static/**/*",
+    "django_modern_user/templates/**/*",
+    "docs/**/*",
+]
+
+[tool.poetry.dependencies]
+# The supported Python versions should also be tested in `ci-cd.yml`. 
+python = "~3.10 || ~3.11 || ~3.12 || ~3.13"
+# Support all Django versions that are supported by Django itself.
+# This should match the tested versions in `ci-cd.yml`.
+# https://www.djangoproject.com/download/#supported-versions
+django = ">=4.2,<5.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
