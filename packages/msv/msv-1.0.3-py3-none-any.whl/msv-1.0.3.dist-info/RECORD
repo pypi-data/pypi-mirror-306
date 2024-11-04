@@ -1,0 +1,15 @@
+samples/customers.csv,sha256=5hrQAiaCfL8Rhx8z9agkpNgsGaFWufYOazB9-T-ylN4,270
+samples/orders.csv,sha256=ng5KIv01dcRk35fdLN3g7ERepwYF3g5gMEtfMXQWUcs,276
+src/__init__.py,sha256=lCqJgfbdFEwetlv2z7aVYzauNIl2ahkG2W6fio0aACc,109
+src/data_merger.py,sha256=TyXv7yEqb1xYdCS8K_YUBkfao18I5Yqgwg47g0Re7_U,3810
+src/file_handlers.py,sha256=5rlm7wVzkCZe4zbI7-qN6lPfuyTWR7V8t0CvJ0K77AY,2900
+src/main.py,sha256=G43dEJy7p_Wy7QkUaIAyvrC0Tc8vEsKX34TPyQu5l_g,4730
+src/natural_language.py,sha256=uj5XBbee0uAd3iXuJlFLAzcxGPGAzrjDdef8iLZxm_I,5632
+src/test_samples.py,sha256=vR02MtjyvROjTzebJTYj9Q7zn_sza-8o2JDjQn2SNyc,2732
+src/version.py,sha256=ICQT7WXabdI214RyK6GIvUsdpCJr1aG73lIzI_IfvX8,153
+msv-1.0.3.dist-info/LICENSE,sha256=nWEyR9oLCA4KzaBSNQdHHLWitSmv3n3nomgUnZSZyi8,1066
+msv-1.0.3.dist-info/METADATA,sha256=kd0wffsWjzk1qES0bPs2V7zjSYzJhBYGgjurmY_cXmo,3357
+msv-1.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+msv-1.0.3.dist-info/entry_points.txt,sha256=KFrsQiD5YorKSIsTX7gglguD2mvGuFcTsDrIg8Z5zKo,38
+msv-1.0.3.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+msv-1.0.3.dist-info/RECORD,,
