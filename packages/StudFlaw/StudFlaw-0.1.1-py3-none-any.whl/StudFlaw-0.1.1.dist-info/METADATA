@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: StudFlaw
+Version: 0.1.1
+Summary: Search people using their french diploma records
+Author: Gobutsu
+Requires-Python: >=3.6
+License-File: LICENSE.md
+Requires-Dist: aiohttp
+Requires-Dist: rich
+
