@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/curly_brace_python.egg-info/PKG-INFO
+src/curly_brace_python.egg-info/SOURCES.txt
+src/curly_brace_python.egg-info/dependency_links.txt
+src/curly_brace_python.egg-info/entry_points.txt
+src/curly_brace_python.egg-info/top_level.txt

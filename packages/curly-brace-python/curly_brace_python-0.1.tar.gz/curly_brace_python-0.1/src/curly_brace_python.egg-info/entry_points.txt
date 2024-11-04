@@ -1,0 +1,2 @@
+[console_scripts]
+curly-brace-python = brace_interpreter:main
