@@ -1,0 +1,11 @@
+README.md
+setup.py
+context_curse/__init__.py
+context_curse/__main__.py
+context_curse/thing.py
+context_curse.egg-info/PKG-INFO
+context_curse.egg-info/SOURCES.txt
+context_curse.egg-info/dependency_links.txt
+context_curse.egg-info/entry_points.txt
+context_curse.egg-info/requires.txt
+context_curse.egg-info/top_level.txt

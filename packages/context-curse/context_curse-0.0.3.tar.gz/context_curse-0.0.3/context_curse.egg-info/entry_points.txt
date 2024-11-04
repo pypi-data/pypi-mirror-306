@@ -1,0 +1,2 @@
+[console_scripts]
+context_curse = context_curse.__main__:main
