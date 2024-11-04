@@ -1,0 +1,8 @@
+README.md
+setup.py
+hyperspace/__init__.py
+hyperspace/greet.py
+hyperspace.ai.egg-info/PKG-INFO
+hyperspace.ai.egg-info/SOURCES.txt
+hyperspace.ai.egg-info/dependency_links.txt
+hyperspace.ai.egg-info/top_level.txt
