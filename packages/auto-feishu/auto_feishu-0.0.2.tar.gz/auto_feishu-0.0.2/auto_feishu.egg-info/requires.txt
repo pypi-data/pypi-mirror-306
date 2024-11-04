@@ -1,0 +1,7 @@
+httpx
+pydantic
+
+[dev]
+
+[pandas]
+pandas
