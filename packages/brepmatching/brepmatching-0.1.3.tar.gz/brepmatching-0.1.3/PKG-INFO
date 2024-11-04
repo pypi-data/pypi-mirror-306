@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: brepmatching
+Version: 0.1.3
+Summary: Learning to match BRep Topology
+Author: Kazuma NAITO
+Author-email: kazuma.naito@murata.com
+License: MIT
+License-File: LICENSE.txt
+License-File: LICENSES_OSS.txt
+Requires-Dist: torch<2.4.0,>=2.3.0
+Requires-Dist: torch-geometric<2.7.0,>=2.6.1
+Requires-Dist: pytorch-lightning<1.10.0,>=1.9.0
+Requires-Dist: numpy<2.0.0,>=1.26.2
+Requires-Dist: pandas<3.0.0,>=2.1.3
+Requires-Dist: scipy<2.0.0,>=1.11.4
+Requires-Dist: scikit-learn<2.0.0,>=1.5.2
+Requires-Dist: tqdm<5.0.0,>=4.66.5
+Requires-Dist: dotmap<2.0.0,>=1.3.30
+Requires-Dist: xxhash<4.0.0,>=3.5.0
+Requires-Dist: parse<2.0.0,>=1.20.2
+Requires-Dist: cmake<4.0.0,>=3.30.5
+Requires-Dist: pybind11[global]<3.0.0,>=2.13.6
+Requires-Dist: setuptools<76.0.0,>=75.2.0
+Requires-Dist: femtetutils>=1.0.0
+Requires-Dist: pywin32
