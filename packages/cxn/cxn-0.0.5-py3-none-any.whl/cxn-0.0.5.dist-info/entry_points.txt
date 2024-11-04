@@ -1,0 +1,2 @@
+[console_scripts]
+cxn = cxn.cli:main
