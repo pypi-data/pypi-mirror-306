@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: shervan_shahparnia_calculator_4195
+Version: 0.0.3
+Summary: A small but useful calculator package
+Home-page: https://github.com/Sshahparnia/my_calculator
+Author: Shervan Shahparnia
+Author-email: shervan.shahparnia@sjsu.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A small calculator package
