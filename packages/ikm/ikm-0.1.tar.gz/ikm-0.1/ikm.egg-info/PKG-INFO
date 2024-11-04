@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ikm
+Version: 0.1
+Summary: simple lib for ai
+Author: ahmed
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
