@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+readme.md
+src/phcal/CBE_Acids.py
+src/phcal/CBE_calc.py
+src/phcal/PBE_Acids.py
+src/phcal/PBE_calc.py
+src/phcal/__init__.py
+src/phcal.egg-info/PKG-INFO
+src/phcal.egg-info/SOURCES.txt
+src/phcal.egg-info/dependency_links.txt
+src/phcal.egg-info/requires.txt
+src/phcal.egg-info/top_level.txt
