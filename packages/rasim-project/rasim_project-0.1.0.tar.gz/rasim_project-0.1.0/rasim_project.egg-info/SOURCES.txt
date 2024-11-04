@@ -1,0 +1,7 @@
+README.md
+setup.py
+rasim_project/__init__.py
+rasim_project.egg-info/PKG-INFO
+rasim_project.egg-info/SOURCES.txt
+rasim_project.egg-info/dependency_links.txt
+rasim_project.egg-info/top_level.txt
