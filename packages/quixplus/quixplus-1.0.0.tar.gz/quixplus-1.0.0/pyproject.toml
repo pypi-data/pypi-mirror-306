@@ -1,0 +1,27 @@
+[project]
+name = "quixplus"
+version = "1.0.0"
+description = "Quixplus is a Python library for building sources and sinksfor Quix Streams."
+readme = "README.md"
+authors = [
+    { name = "Mac Anderson", email = "mac@macanderson.com" }
+]
+repository = "https://github.com/macanderson/quixplus.git"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.10.10",
+    "apscheduler>=3.10.4",
+    "jsonpath-ng>=1.7.0",
+    "kafka-python-ng>=2.2.3",
+    "python-dotenv>=1.0.1",
+    "python-json-logger>=2.0.7",
+    "quixstreams>=3.1.1",
+    "websocket-client>=1.8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.universe.scripts]
+build-and-release = "./build.sh --username $PYPY_USERNAME --password $PYPY_TOKEN {{args}}"
