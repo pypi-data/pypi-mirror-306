@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: alumnium
+Version: 0.1.0
+Summary: Pave the way towards AI-powered test automation.
+Home-page: https://alumnium.ai
+License: MIT
+Author: Alex Rodionov
+Author-email: p0deje@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: langchain (>=0.3,<0.4)
+Requires-Dist: langchain-anthropic (>=0.2,<0.3)
+Requires-Dist: langchain-google-genai (>=2.0,<3.0)
+Requires-Dist: langchain-openai (>=0.2,<0.3)
+Requires-Dist: selenium (>=4.0,<5.0)
+Project-URL: Repository, https://github.com/alumnium/alumnium
+Description-Content-Type: text/markdown
+
+# Alumnium
+
+Pave the way towards AI-powered test automation.
+
+## Development
+
+Setup the project:
+
+```bash
+pipx install poetry
+poetry install
+```
+
+Configure access to AI providers:
+
+```bash
+export ANTHROPIC_API_KEY="sk-ant-..."
+export OPENAI_API_KEY="sk-proj-..."
+export GOOGLE_API_KEY="..."
+```
+
+To run REPL for demo, use the following command:
+
+```
+poetry run python -i demo.py
+```
+
+To run Cucumber examples, use the following command:
+
+```
+poetry run behave
+```
+
+To run Pytest test use the following command:
+
+```
+poetry run pytest
+```
+
+To change what model is being used, use `ALUMNIUM_MODEL` variable (one of `openai`, `google` or `anthropic`):
+
+```
+ALUMNIUM_MODEL=google poetry run pytest
+```
+
+## Environment Variables
+
+| Name             | Supported Values                        | Default | Explanation                                  |
+| ---------------- | --------------------------------------- | ------- | -------------------------------------------- |
+| `ALUMNIUM_DEBUG` | 1, 0                                    | 0       | Enable debug logs and print them to stdout.  |
+| `ALUMNIUM_MODEL` | anthropic, azure_openai, google, openai | openai  | Selects AI provider to use.                  |
+
