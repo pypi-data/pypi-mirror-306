@@ -1,0 +1,2 @@
+[console_scripts]
+scrapy_athlinks_cli = scrapy_athlinks.cli:main
