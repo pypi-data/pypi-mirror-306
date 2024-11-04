@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+HFResourceScanner/__init__.py
+HFResourceScanner/main.py
+HFResourceScanner/scanner.py
+HFResourceScanner/test.py
+HFResourceScanner/utils.py
+HFResourceScanner.egg-info/PKG-INFO
+HFResourceScanner.egg-info/SOURCES.txt
+HFResourceScanner.egg-info/dependency_links.txt
+HFResourceScanner.egg-info/requires.txt
+HFResourceScanner.egg-info/top_level.txt
