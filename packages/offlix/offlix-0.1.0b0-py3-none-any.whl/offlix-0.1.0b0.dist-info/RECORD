@@ -1,0 +1,10 @@
+offlix_installer/__init__.py,sha256=zFdDeJwvzO-WIBOBqhoCAs3TcLOen6IbWKOHJ1xBy4w,41
+offlix_installer/installer.py,sha256=mLCYiRYu3IrGpvN_28yeaO8qqJ_GB9F5sHKV2Kw1r90,9302
+test/__init__.py,sha256=PggNBw73m_gLZ-6WPMm4mfxtoYAmJwg96DdhEyU-AI0,524
+test/test_main.py,sha256=8nT9_Njf4TI-tXkO5cmANpaq_3zKmHkEVa0VtMrGiEM,3221
+offlix-0.1.0b0.dist-info/LICENSE,sha256=VQa7mFSZGjvVIHMRhRuTJP9wCu2MInX6oCTGUio0tts,1063
+offlix-0.1.0b0.dist-info/METADATA,sha256=suThAD_X2TeLRl8YxSXJcb_yLqyxydnWtW_1skTOsV4,5179
+offlix-0.1.0b0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+offlix-0.1.0b0.dist-info/entry_points.txt,sha256=cjTXXofefvKqsrAzsZO3xgXnhWM4QnBpE7QdGSsivig,59
+offlix-0.1.0b0.dist-info/top_level.txt,sha256=tqlf2MTrV4GCByFs-wJMG6sWKynBTA_vo_rwwyCbJ_0,22
+offlix-0.1.0b0.dist-info/RECORD,,
