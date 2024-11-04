@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: codebreak
+Version: 0.1
+Summary: A lighthearted package for random stretch suggestions.
+Author: Your Team
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: schedule==1.2.2
+Provides-Extra: dev
+Requires-Dist: pytest==8.3.3; extra == "dev"
+
