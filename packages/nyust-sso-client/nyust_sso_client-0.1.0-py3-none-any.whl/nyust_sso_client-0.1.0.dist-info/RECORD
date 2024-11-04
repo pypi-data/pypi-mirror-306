@@ -1,0 +1,9 @@
+nyust_sso/__init__.py,sha256=zfKCYgbHrgWLsNboWjCk1OsV-0bdWqQb_9LZgtdNwQo,36
+nyust_sso/_types.py,sha256=bl4eRXqt06UBrm46pZOgcU3wajOwFwA6JLi2hlR6Hzo,1527
+nyust_sso/client.py,sha256=wA3sSrE1VJq-Cn_1GYVztpcogrOSPFhO41Te-zF6TEY,8627
+nyust_sso/errors.py,sha256=v0hDW0iTz1IhjU0tfLt9329pxZ6JThzrd0k8_lidUtA,750
+nyust_sso/utils.py,sha256=Sb6CUfonjsfZTjGAwbYQiQsck08Kc-RYJuestbk63T0,560
+nyust_sso_client-0.1.0.dist-info/METADATA,sha256=c69Klm0pvqhZ3UnJt3vOabKz4Aj7OSBQfOukDsUnRnA,1899
+nyust_sso_client-0.1.0.dist-info/WHEEL,sha256=OVMc5UfuAQiSplgO0_WdW7vXVGAt9Hdd6qtN4HotdyA,91
+nyust_sso_client-0.1.0.dist-info/top_level.txt,sha256=nKFDOYcRx0bJ131qfDnv6qcnjSUnE1k3Eu2FNeQ5hbU,10
+nyust_sso_client-0.1.0.dist-info/RECORD,,
