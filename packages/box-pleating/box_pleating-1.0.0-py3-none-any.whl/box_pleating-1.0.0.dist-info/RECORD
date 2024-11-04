@@ -1,0 +1,14 @@
+box_pleating/__init__.py,sha256=VSiFk_yiGkeOlaz95TPtCkLmofs-bjwYWJV53xFqXhU,1263
+box_pleating/geometry.py,sha256=Qu2iNLYIfPxlXRIWtjOEsubAXa1G9GzWcfqIdctGqJU,7346
+box_pleating/grid_operations.py,sha256=ErSi9qz2kX3lSnrj_7M3L3exWY3-hoLaQGC72DflUdw,5299
+box_pleating/models.py,sha256=avzUsMpLzK7079fG1Kj35nXQQ2iWOi4LcVE8Lypxs_s,1321
+box_pleating/pattern.py,sha256=5no4Aj0BTsUoDl56-GAap50H8hTb17tp8wHrhVgpUtA,14456
+box_pleating/theorems.py,sha256=rgmfSUL7SVjY4mvIUQh5qduckY87MwtlUukN68zKiNI,4588
+box_pleating/fold/__init__.py,sha256=p0GgPpvX3MKrcDkfW4D12W3uR_iU2-yf5r9NQlHfOpc,623
+box_pleating/fold/converter.py,sha256=hZPZEr6DdLElnf2IZi45cWFzI2WWekww9DiVfrthA8I,5700
+box_pleating/fold/geometry.py,sha256=Tw2ngwxCGlgTOm0roMyqgDZJcruGBADhsTwVzkjAf-E,4726
+box_pleating/fold/grid.py,sha256=f2VOfEBQbq0MFbP36K7KrjuaGFAU30p6_a897kl3VxM,4192
+box_pleating-1.0.0.dist-info/METADATA,sha256=Z9W2uzqadDM1duXv25j8C5ouZAQanSYoB5zlqos-8wg,4046
+box_pleating-1.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+box_pleating-1.0.0.dist-info/licenses/LICENSE,sha256=eCp5UBZ75qp7IAzsFPLusgfSF7GvB54Alag4NnCVrxU,1089
+box_pleating-1.0.0.dist-info/RECORD,,
