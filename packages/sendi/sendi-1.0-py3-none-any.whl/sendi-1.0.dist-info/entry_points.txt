@@ -1,0 +1,2 @@
+[console_scripts]
+sendi = sendi.cli:app
