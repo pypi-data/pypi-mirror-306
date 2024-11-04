@@ -1,0 +1,17 @@
+/* Tabs */
+QTabBar::tab {}
+/* Active tab */
+QTabBar::tab:selected {}
+QComboBox {}
+QLabel {}
+QLineEdit {}
+/* Group titles */
+QLabel.group-header-label {
+    color: gray;
+}
+QCheckBox {}
+/* Custom slider (no ticks color supported) */
+QSlider::groove:horizontal {}
+QSlider::handle:horizontal {}
+/* Request submit button */
+QPushButton#settings_dialog_button_close {}
