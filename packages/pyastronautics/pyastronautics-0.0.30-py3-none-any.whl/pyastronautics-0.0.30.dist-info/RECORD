@@ -1,0 +1,10 @@
+pyastronautics/__int__.py,sha256=Quv8uNGMmyiI0h6SURzDe-FubdLXHDHQhCsM8_uEiAo,71
+pyastronautics/astrodynamics/__init__.py,sha256=rqnsAj-TwCSf0xZT2v0vZ6QjyMTg11glMmhfRNjwSgQ,133
+pyastronautics/astrodynamics/base_model.py,sha256=FAfrcmewAUNVr5vTRVi9zTeemBagsii3z9Hhf010FFM,11200
+pyastronautics/astrodynamics/three_body_problem.py,sha256=BBCFAiS6BNZalUNxdfYvEFnH9gYz-eS_86Ai973Vufo,7726
+pyastronautics/astrodynamics/two_body_problem.py,sha256=GltTt2Nur48WQswl8Zdo0kfRU0g8EtLzqnTORrWfqug,7646
+pyastronautics-0.0.30.dist-info/LICENSE,sha256=fyoNKAlll6gIE6P7tMr21S5_Y1l34-mHFsvVKtgQ5qo,11344
+pyastronautics-0.0.30.dist-info/METADATA,sha256=fLFYRvtKi6-y6BA-VgfZ9R0htF_4Dm5fS7ZcPllFwUk,16191
+pyastronautics-0.0.30.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pyastronautics-0.0.30.dist-info/top_level.txt,sha256=iR8itRKebQ1VOiohbHlw5ym00SOm_5Vv7NTUpjrDVsc,15
+pyastronautics-0.0.30.dist-info/RECORD,,
