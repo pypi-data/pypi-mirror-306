@@ -1,0 +1,17 @@
+fastapi_channels/__init__.py,sha256=sdRrLbWYPDvvv4GACO1IucyTBYNP3oonXujyqx3bzs8,92
+fastapi_channels/api.py,sha256=mTzGLfaftXvFKySpK9vnJqJX1GIOZR6BQwRAZo8fGZw,3226
+fastapi_channels/channels.py,sha256=Nrc-2kjC0LA5kuvWlC-8gsQDLnWr06JOMe4e176GYg8,22540
+fastapi_channels/decorators.py,sha256=hxSQLL-_YDQ9GH_Zik3rweaPULs69txv6RjBDhTvu1M,1531
+fastapi_channels/exceptions.py,sha256=0xAPac8SIFeTmMl5ohVkoF-6eYQTxFfWMxu0nLFvik0,6123
+fastapi_channels/lifespan.py,sha256=qw-88pwRj56NZDW-A7dHsgmOf473srICs1mCugoOBWY,5217
+fastapi_channels/metaclssses.py,sha256=0ACx23jve3tjO4jmBUN62sjbMZkgde2IA9Zx2a6tXzE,676
+fastapi_channels/permission.py,sha256=NjiudMBTNrpm89GyckQ6dC1PizVrlj4OSe83jCXuewo,3496
+fastapi_channels/types.py,sha256=I_r0yx8NRLZWvmnUJc7EzquVJqEAcPd60EjmiCkQt68,736
+fastapi_channels/used.py,sha256=9gPmYq4hZ6D8Y0irHlTIo6MkFCQvhU_Rn6U88QFrmEg,303
+fastapi_channels/throttling/__init__.py,sha256=JzwipX3Aktxy5nHaTJkygZYG6uOVZM_Yrd2hraHEJTg,118
+fastapi_channels/throttling/fastapi_limiter.py,sha256=Per-Yj0LXyp6NR8L4_nwd2xMQ1TZB88bp8AeS4M-B7s,3161
+fastapi_channels-0.0.1b1.dist-info/LICENSE,sha256=QAAWtMxNfiN_oYg_6vV0Pk2BSOuaPzrAmFJEOTaqXqs,1082
+fastapi_channels-0.0.1b1.dist-info/METADATA,sha256=E6GqvwhrJCs2YKH3VNcDHvVcOWAKVl6eWdw2j0XfQSw,11133
+fastapi_channels-0.0.1b1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+fastapi_channels-0.0.1b1.dist-info/top_level.txt,sha256=T1eiSroOFlvsECmt1Q4PvErl7ZGhVMqNTwDHeBUBck8,17
+fastapi_channels-0.0.1b1.dist-info/RECORD,,
