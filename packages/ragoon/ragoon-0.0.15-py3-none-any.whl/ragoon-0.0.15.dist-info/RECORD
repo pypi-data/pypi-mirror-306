@@ -1,0 +1,16 @@
+ragoon/__init__.py,sha256=om248FxId5Wbeldql20WpqV2C4T1pnvCMJqU7J-7np0,494
+ragoon/_decorators.py,sha256=_VqD7KttZAUybAyvwrLK6P6QJukUbgK3GWVrpg2pE3M,4807
+ragoon/_logger.py,sha256=NskzI88xerqHocSj0qe9WU2Hols9-0c7XHSISDnjjP0,3133
+ragoon/_retrieval.py,sha256=C8B0QgFKS8yH__GVhjLjxUfGGkefwuSVSF0hd9BPwmE,8204
+ragoon/_scrape.py,sha256=Dwye77bWuHwdn51mh65livZxeYNp2YTmLsk2LQR6ScI,4129
+ragoon/_search.py,sha256=8crtvSKRRam7UnlzsbK9pp5gaMhaNvnxtns8y80JT1I,2525
+ragoon/chunks.py,sha256=JfdYQ9mBilKxvrkn3f3H3AuHVT-9fvLGSIwidmUhbPE,33124
+ragoon/datasets.py,sha256=3DbSCZzYjEWMQewAtaek4U5crYFXcI9xx9PC7TY1rGU,3564
+ragoon/embeddings.py,sha256=aS__6lUUvG1zJo2w0fxvIfypxLO3HETjJuC8lwPMtDY,41978
+ragoon/similarity_search.py,sha256=k1gtLjcOUTCFiDWhF1gePe5_StScGNaIjajpELSOtWo,16783
+ragoon/web_rag.py,sha256=Px4ewTB0alILfnqTKC_AL13FdY5a7DU3WOHQYPQp9kk,5562
+ragoon-0.0.15.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ragoon-0.0.15.dist-info/METADATA,sha256=OGHSq_2b8IK6H7meFHdiVfSvFhr2kwAfajckrqhogGM,10934
+ragoon-0.0.15.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+ragoon-0.0.15.dist-info/top_level.txt,sha256=Dv7X54p4TWVriA2feUemP8cZ_V5mjHgWMjki7zMsUPE,7
+ragoon-0.0.15.dist-info/RECORD,,
