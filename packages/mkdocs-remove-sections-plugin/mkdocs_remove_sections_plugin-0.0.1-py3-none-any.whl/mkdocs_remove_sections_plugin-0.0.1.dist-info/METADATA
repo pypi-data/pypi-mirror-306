@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mkdocs-remove-sections-plugin
+Version: 0.0.1
+Summary: Remove marked sections from pages
+Home-page: https://github.com/six-two/mkdocs-remove-sections-plugin
+Author: six-two
+Author-email: pip@six-two.dev
+License: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mkdocs >=1.5.0
+
+# mkdocs-remove-sections-plugin
+
+Remove marked sections from pages.
+For example to remove private information from a public version of a web site.
