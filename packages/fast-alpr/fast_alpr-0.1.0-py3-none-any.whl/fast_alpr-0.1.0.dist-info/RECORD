@@ -1,0 +1,9 @@
+fast_alpr/__init__.py,sha256=Hx_18j8rGWI_Q6f-ETHrCcMqxmJWVzcrho8BskGFr4s,241
+fast_alpr/alpr.py,sha256=InbJ4Y7xQJZlilSTI7Hih-TjWKcm7lecH97J9JNWIi8,7242
+fast_alpr/base.py,sha256=C7xvKQ9P8Doe-VAvw-6djmTU-fMPvXf4JK6InQURnZ8,845
+fast_alpr/default_detector.py,sha256=T3iZkB2WPsIqZVfa_s3HjDJZZo43e73iGk8z-7qNkqc,2661
+fast_alpr/default_ocr.py,sha256=c8gPnXYT5G7pOpDAUuEHlrokk3CLnoIw_Iq3MkMGgRc,3368
+fast_alpr-0.1.0.dist-info/LICENSE,sha256=qVPmJoyJF5xKjwz1pJ9XvDgKYOOAeP4fY2Gg5F_QA2M,1066
+fast_alpr-0.1.0.dist-info/METADATA,sha256=K9UfR8i9y0vEMAhA39FeGLdqflZtNT2Ungc_cBU8qIA,7923
+fast_alpr-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+fast_alpr-0.1.0.dist-info/RECORD,,
