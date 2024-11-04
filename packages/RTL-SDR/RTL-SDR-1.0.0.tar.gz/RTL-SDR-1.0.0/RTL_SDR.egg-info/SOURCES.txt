@@ -1,0 +1,12 @@
+setup.py
+RTL_SDR.egg-info/PKG-INFO
+RTL_SDR.egg-info/SOURCES.txt
+RTL_SDR.egg-info/dependency_links.txt
+RTL_SDR.egg-info/requires.txt
+RTL_SDR.egg-info/top_level.txt
+rtlsdr/RTLSDR.py
+rtlsdr/__init__.py
+rtlsdr/config.json
+rtlsdr/const.py
+rtlsdr/core.py
+rtlsdr/util.py
