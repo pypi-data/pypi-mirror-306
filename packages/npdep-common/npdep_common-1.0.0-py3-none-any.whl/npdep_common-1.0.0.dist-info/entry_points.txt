@@ -1,0 +1,2 @@
+[console_scripts]
+npdep_common = npdep_common.__main__:main
