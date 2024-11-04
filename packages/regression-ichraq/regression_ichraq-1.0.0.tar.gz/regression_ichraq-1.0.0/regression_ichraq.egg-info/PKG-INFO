@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: regression_ichraq
+Version: 1.0.0
+Summary: An awesome package that does something
+Home-page: http://pypi.python.org/pypi/regression_ichraq/
+Author: ichraq
+Author-email: zi.amieur@esi-sba.dz
+License: LICENSE.txt
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: regression_ichraq

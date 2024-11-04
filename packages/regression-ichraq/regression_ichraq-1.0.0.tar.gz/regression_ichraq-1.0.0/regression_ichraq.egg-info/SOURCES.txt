@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+regression_ichraq/__init__.py
+regression_ichraq/regression.py
+regression_ichraq.egg-info/PKG-INFO
+regression_ichraq.egg-info/SOURCES.txt
+regression_ichraq.egg-info/dependency_links.txt
+regression_ichraq.egg-info/requires.txt
+regression_ichraq.egg-info/top_level.txt
