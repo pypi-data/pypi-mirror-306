@@ -1,0 +1,116 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "moapy",
+    "description": "Schema for moapy",
+    "version": "0.9.8"
+  },
+  "servers": [
+    {
+      "url": "https://moa.rpm.kr-dv-midasit.com/backend/python-executor/"
+    },
+    {
+      "url": "https://moa.rpm.kr-st-midasit.com/backend/function-executor/python-execute/"
+    }
+  ],
+  "paths": {
+    "/execute?functionId=moapy-designers_guide-content_function-calc_content_3-execute_calc": {
+      "post": {
+        "summary": "Non-linear temperature differences for bridge decks",
+        "description": "This guide explains how to calculate the non-linear temperature differences for bridge decks in accordance with EN1991-1-5, following Approach 2. It covers calculations for steel decks (type 1), composite decks (type 2), and concrete decks (type 3), taking into account factors such as section height and surfacing thickness. This guide provides temperature gradients and values by height, which are necessary for structural analysis considering temperature differences.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "G1_NODE_1": {
+                    "title": "Bridge deck types",
+                    "type": "string",
+                    "description": "This section categorizes bridge decks into different types based on their material and structural design. The classification includes steel decks, composite decks, and concrete decks, each with distinct subtypes like steel box girders, concrete slabs, and concrete box girders.",
+                    "symbol": "Deck_types",
+                    "unit": "",
+                    "default": "steel box girder",
+                    "enum": [
+                      "steel box girder",
+                      "steel truss or plate girder",
+                      "Composite deck",
+                      "concrete slab",
+                      "concrete beam",
+                      "concrete box girder"
+                    ]
+                  },
+                  "G1_NODE_2": {
+                    "title": "The initial bridge temperature",
+                    "type": "number",
+                    "description": "Initial temperature when the structural element is restrained",
+                    "symbol": "T_{0}",
+                    "unit": "\u00b0C",
+                    "default": 10.0
+                  },
+                  "G1_NODE_3": {
+                    "title": "Return Period",
+                    "type": "number",
+                    "description": "Annual probability of maximum (minimum) shade air temperature being exceeded",
+                    "symbol": "p_{years}",
+                    "unit": "years",
+                    "default": 50.0
+                  },
+                  "G1_NODE_5": {
+                    "title": "Minimum shade air temperature (exceedance probability 0.02)",
+                    "type": "number",
+                    "description": "Minimum shade air temperature with an annual probability of being exceeded of 0.02 (equivalent to a mean return period of 50 years)",
+                    "symbol": "T_{min}",
+                    "unit": "\u00b0C"
+                  },
+                  "G1_NODE_6": {
+                    "title": "Maximum shade air temperature (exceedance probability 0.02)",
+                    "type": "number",
+                    "description": "Maximum shade air temperature with an annual probability of being exceeded of 0.02 (equivalent to a mean return period of 50 years)",
+                    "symbol": "T_{max}",
+                    "unit": "\u00b0C"
+                  }
+                },
+                "required": [
+                  "G1_NODE_1",
+                  "G1_NODE_2",
+                  "G1_NODE_3",
+                  "G1_NODE_5",
+                  "G1_NODE_6"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "G1_NODE_15": {
+                      "title": "Maximum contraction range of a uniform bridge temperature",
+                      "type": "number",
+                      "description": "Maximum contraction range of uniform bridge temperature component (T0 \u2265 Te.min)",
+                      "symbol": "\\Delta T_{N,con}",
+                      "unit": "\u00b0C"
+                    },
+                    "G1_NODE_16": {
+                      "title": "Maximum expansion range of a uniform bridge temperature",
+                      "type": "number",
+                      "description": "Maximum expansion range of uniform bridge temperature component (Te.max \u2265 T0)",
+                      "symbol": "\\Delta T_{N,exp}",
+                      "unit": "\u00b0C"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

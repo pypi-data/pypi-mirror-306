@@ -1,0 +1,15 @@
+{
+  "ui:options": {
+    "label": false
+  },
+  "plate": {
+    "thk": {
+      "ui:field": "union_value_unit"
+    }
+  },
+  "weld": {
+    "length": {
+      "ui:field": "union_value_unit"
+    }
+  }
+}

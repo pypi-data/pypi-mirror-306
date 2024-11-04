@@ -1,0 +1,107 @@
+{
+  "$ref": "#/paths/~1execute?functionId=moapy-designers_guide-util_func-calc_content_4/post/requestBody/content/application~1json/schema",
+  "openapi": "3.1.0",
+  "info": {
+    "title": "moapy",
+    "description": "Schema for moapy",
+    "version": "0.9.8"
+  },
+  "servers": [
+    {
+      "url": "https://moa.rpm.kr-dv-midasit.com/backend/python-executor/"
+    },
+    {
+      "url": "https://moa.rpm.kr-st-midasit.com/backend/function-executor/python-execute/"
+    }
+  ],
+  "paths": {
+    "/execute?functionId=moapy-designers_guide-content_function-calc_content_4-execute_calc": {
+      "post": {
+        "summary": "Guide for Calculating Geometrical Imperfection in Bridge Design",
+        "description": "TGeometrical imperfections in bridge design account for deviations due to construction tolerances or fabrication errors. These imperfections are critical for components like girders, piers, and arches, affecting their stability and load-bearing capacity. In girders and piers, imperfections can lead to additional moments or instability, especially under axial compression, and must be included in the structural analysis to prevent buckling. For arch bridges, imperfections impact vertical and horizontal buckling behavior, requiring early consideration in design. Geometrical imperfections are primarily considered in ultimate limit state analysis, ensuring the structure can handle real-world loads while maintaining stability.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "G2_NODE_4": {
+                    "title": "Length or height of structural members in bridge design",
+                    "type": "number",
+                    "description": "The length or height of structural members is used to calculate the reduction factor for geometrical imperfections, reflecting the actual size of elements like girders, piers, and arches in bridge design.",
+                    "symbol": "l",
+                    "unit": "m",
+                    "default": 0.001
+                  },
+                  "G2_NODE_6": {
+                    "title": "Bridge deck types",
+                    "type": "string",
+                    "description": "Buckling modes and boundary conditions describe how structural members behave under load based on their end restraints. Different conditions, such as pinned, fixed, or guided ends, affect the way a member experiences buckling.",
+                    "symbol": "buckmode",
+                    "unit": "",
+                    "default": "Pinned Ends",
+                    "enum": [
+                      "Pinned Ends",
+                      "Free - Fixed Ends",
+                      "Pinned - Fixed Ends",
+                      "Fixed Ends",
+                      "Guided - Fixed Ends"
+                    ]
+                  },
+                  "G2_NODE_9": {
+                    "title": "Axial load in isolated members",
+                    "type": "number",
+                    "description": "Axial load in isolated members refers to the vertical or compressive force applied along the axis of a structural element. This load is crucial in analyzing buckling behavior, as it interacts with imperfections such as initial deflection or inclination, affecting the stability of the member.",
+                    "symbol": "N",
+                    "unit": "kN",
+                    "default": 0.001
+                  }
+                },
+                "required": [
+                  "G2_NODE_4",
+                  "G2_NODE_6",
+                  "G2_NODE_9"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "G2_NODE_1": {
+                      "title": "Geometrical imperfections in bridge",
+                      "type": "number",
+                      "description": "Inclination caused by geometrical imperfections refers to the initial deviation in the structure's alignment due to fabrication or construction errors. It affects the stability of structural members like girders, piers, and arches, and must be accounted for in design to ensure the bridge's overall stability under load.",
+                      "symbol": "\\theta_{i}",
+                      "unit": "rad"
+                    },
+                    "G2_NODE_5": {
+                      "title": "Eccentricity due to geometrical imperfections in isolated members",
+                      "type": "number",
+                      "description": "In bridge design, eccentricity due to geometrical imperfections in isolated members refers to the deviation of the structural axis, which results in additional bending moments. This provides a simplified way to account for imperfections in structural analysis, particularly in compression elements like columns and girders.",
+                      "symbol": "e_{i}",
+                      "unit": "m"
+                    },
+                    "G2_NODE_8": {
+                      "title": "Effective length of isolated members",
+                      "type": "number",
+                      "description": "The transverse force due to imperfections in isolated members refers to the lateral force applied at the position that creates the maximum moment. This force accounts for geometrical imperfections such as initial deflections and is used to ensure accurate buckling analysis in structural design.",
+                      "symbol": "H_{i}",
+                      "unit": "kN"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
