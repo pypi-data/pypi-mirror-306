@@ -1,0 +1,627 @@
+\chapter{Application Programming Interface}
+
+  The application programming interface (API) provided by \t{djehuty} allows
+  for automating tasks otherwise done through the user interface.  In addition
+  to automation, the API can also be used to gather additional information,
+  like statistics on Git repositories.
+
+  Throughout this chapter we provide examples for using the API using \t{curl} and \t{jq}.
+  Another way of seeing the API in action is to use the developer tools in a web
+  browser while performing the desired action using the web user interface.
+
+\section{The \t{/v2} public interface}
+
+  The \t{v2} API was designed by Figshare\footnote{\dhref{https://figshare.com}}.
+  \t{djehuty} implements a backward-compatible version of it, with the
+  following differences:
+  \begin{enumerate}
+    \item{The \t{id} property is superseded by the \t{uuid} property.}
+    \item{Error handling is done through precise HTTP error codes,
+        rather than always returning \t{400} on a usage error.}
+  \end{enumerate}
+
+  Unless specified otherwise, the HTTP \t{Content-Type} to interact
+  with the API is \t{application/json}.  In the case an API call returns
+  information, don't forget to set the HTTP \t{Accept} header appropriately.
+
+\subsection{\t{/v2/articles} (HTTP \code{GET})}
+\label{sec:v2-articles}
+
+  The following parameters can be used:
+
+\begin{tabular}{p{0.20\textwidth} p{0.20\textwidth} p{0.59\textwidth}}
+  \ifdefined\HCode
+  \textbf{Parameter}   & \textbf{Required} & \textbf{Description}\\
+  \fi
+  \t{order}            & Optional & Field to use for sorting.\\
+  \t{order\_direction} & Optional & Can be either \code{asc} or \code{desc}.\\
+  \t{institution}      & Optional & The institution identifier to filter on.\\
+  \t{published\_since} & Optional & When set, datasets published before this
+                                    timestamp are dropped from the results.\\
+  \t{modified\_since}  & Optional & When set, only datasets modified after
+                                    this timestamp are shown from the results.\\
+  \t{group}            & Optional & The group identifier to filter on.\\
+  \t{resource\_doi}    & Optional & The DOI of the associated journal publication.
+                                    When set, only returns datasets associated
+                                    with this DOI.\\
+  \t{item\_type}       & Optional & Either \code{3} for datasets or \code{9}
+                                    for software.\\
+  \t{doi}              & Optional & The DOI of the dataset to search for.\\
+  \t{handle}           & Optional & Unused.\\
+  \t{page}             & Optional & The page number used in combination with
+                                    \t{page\_size}.\\
+  \t{page\_size}       & Optional & The number of datasets per page.  Used
+                                    in combination with \t{page}.\\
+  \t{limit}            & Optional & The maximum number of datasets to output.
+                                    Used together with \t{offset}.\\
+  \t{offset}           & Optional & The number of datasets to skip in the
+                                    output.  Used together with \t{limit}.\\
+\end{tabular}
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl "(@*\djehutybaseurl{}*@)/v2/articles?limit=100&published_since=2024-07-25" | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+[ /* Example output has been shortened. */
+  {
+    "id": null,
+    "uuid": "4f8a9423-83fc-4263-9bb7-2aa83d73865d",
+    "title": "Measurement data of a Low Speed Field Test of Tractor Se...",
+    "doi": "10.4121/4f8a9423-83fc-4263-9bb7-2aa83d73865d.v1",
+    "handle": null,
+    "url": "(@*\djehutybaseurl{}*@)/v2/articles/4f8a...865d",
+    "published_date": "2024-07-26T10:39:57",
+    "thumb": null,
+    "defined_type": 3,
+    "defined_type_name": "dataset",
+    "group_id": 28589,
+    "url_private_api": "(@*\djehutybaseurl{}*@)/v2/account/articles/4f8a...865d",
+    "url_public_api": "(@*\djehutybaseurl{}*@)/v2/articles/4f8a...865d",
+    "url_private_html": "(@*\djehutybaseurl{}*@)/my/datasets/4f8a...865d/edit",
+    "url_public_html": "(@*\djehutybaseurl{}*@)/datasets/4f8a...865d/1",
+    ...
+  }
+]
+\end{lstlisting}
+
+\subsection{\t{/v2/articles/search} (HTTP \code{POST})}
+
+  In addition to the parameters of section \refer{sec:v2-articles}, the
+  following parameters can be used.
+
+\begin{tabular}{p{0.20\textwidth} p{0.20\textwidth} p{0.59\textwidth}}
+  \ifdefined\HCode
+  \textbf{Parameter}   & \textbf{Required} & \textbf{Description}\\
+  \fi
+  \t{search\_for}       & Optional & The terms to search for.\\
+\end{tabular}
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl --request POST\
+     --header "Content-Type: application/json"\
+     --data '{ "search_for": "djehuty" }'\
+     (@*\djehutybaseurl{}*@)/v2/articles/search | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+[ /* Example output has been shortened. */
+  {
+    "id": null,
+    "uuid": "342efadc-66f8-4e9b-9d27-da7b28b849d2",
+    "title": "Source code of the 4TU.ResearchData repository",
+    "doi": "10.4121/342efadc-66f8-4e9b-9d27-da7b28b849d2.v1",
+    "handle": null,
+    "url": "(@*\djehutybaseurl{}*@)/v2/articles/342e...49d2",
+    "published_date": "2023-03-20T11:29:10",
+    "thumb": null,
+    "defined_type": 9,
+    "defined_type_name": "software",
+    "group_id": 28586,
+    "url_private_api": "(@*\djehutybaseurl{}*@)/v2/account/articles/342e...49d2",
+    "url_public_api": "(@*\djehutybaseurl{}*@)/v2/articles/342e...49d2",
+    "url_private_html": "(@*\djehutybaseurl{}*@)/my/datasets/342e...49d2/edit",
+    "url_public_html": "(@*\djehutybaseurl{}*@)/datasets/342e...49d2/1",
+    ...
+  }
+]
+\end{lstlisting}
+
+\subsection{\t{/v2/articles/<dataset-id>} (HTTP \code{GET})}
+\label{sec:v2-articles-dataset-id}
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl (@*\djehutybaseurl{}*@)/v2/articles/342efadc-66f8-4e9b-9d27-da7b28b849d2 | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+{ /* Example output has been shortened. */
+  "files": ...,
+  "custom_fields": ...,
+  "authors": ...,
+  "description": "<p>This dataset contains the source code of the 4TU...",
+  "license": ...,
+  "tags": ...,
+  "categories": ...,
+  "references": ...,
+  "id": null,
+  "uuid": "342efadc-66f8-4e9b-9d27-da7b28b849d2",
+  "title": "Source code of the 4TU.ResearchData repository",
+  "doi": "10.4121/342efadc-66f8-4e9b-9d27-da7b28b849d2.v1",
+  "url": "(@*\djehutybaseurl{}*@)/v2/articles/342e...49d2",
+  "published_date": "2023-03-20T11:29:10",
+  "timeline": ...,
+  ...
+}
+\end{lstlisting}
+
+\subsection{\t{/v2/articles/<dataset-id>/versions} (HTTP \code{GET})}
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl (@*\djehutybaseurl{}*@)/v2/articles/342efadc-66f8-4e9b-9d27-da7b28b849d2/versions | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+[
+  {
+    "version": 1,
+    "url": "(@*\djehutybaseurl{}*@)/v2/articles/342efadc-66f8-4e9b-9d27-da7b28b849d2/versions/1"
+  }
+]
+\end{lstlisting}
+
+\subsection{\t{/v2/articles/<dataset-id>/versions/<version>} (HTTP \code{GET})}
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl (@*\djehutybaseurl{}*@)/v2/articles/342efadc-66f8-4e9b-9d27-da7b28b849d2/versions/1 | jq
+\end{lstlisting}
+
+  The output of the example is identical to the example output of section
+  \refer{sec:v2-articles-dataset-id}.
+
+\subsection{\t{/v2/articles/<dataset-id>/versions/<version>/embargo} (HTTP \code{GET})}
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl (@*\djehutybaseurl{}*@)/v2/articles/c1274889-b797-43bd-a3b1-ee0611d58fd7/versions/2/embargo | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+{
+  "is_embargoed": true,
+  "embargo_date": "2039-06-30",
+  "embargo_type": "article",
+  "embargo_title": "Under embargo",
+  "embargo_reason": "<p>Need consent to publish the data</p>",
+  "embargo_options": []
+}
+\end{lstlisting}
+
+
+%\subsection{\t{/v2/articles/<dataset-id>}/versions/<version>/confidentiality (HTTP \code{GET})}
+%\subsection{\t{/v2/articles/<dataset-id>}/versions/<version>/update\_thumb}
+\subsection{\t{/v2/articles/<dataset-id>/files} (HTTP \code{GET})}
+
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl (@*\djehutybaseurl{}*@)/v2/articles/342efadc-66f8-4e9b-9d27-da7b28b849d2/files
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+[ /* Example output has been shortened. */
+  {
+    "id": null,
+    "uuid": "d3e1c325-7fa9-4cb9-884e-0b9cd2059292",
+    "name": "djehuty-0.0.1.tar.gz",
+    "size": 3713709,
+    "is_link_only": false,
+    "is_incomplete": false,
+    "download_url": "(@*\djehutybaseurl{}*@)/file/342e...49d2/d3e1...9292",
+    "supplied_md5": null,
+    "computed_md5": "910e9b0f79a0af548f59b3d8a56c3bf4"
+  }
+]
+\end{lstlisting}
+
+\subsection{\t{/v2/articles/<dataset-id>/files/<file-id>} (HTTP \code{GET})}
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl (@*\djehutybaseurl{}*@)/v2/articles/342e...49d2/files/d3e1...9292 | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+{ /* Example output has been shortened. */
+  "id": null,
+  "uuid": "d3e1c325-7fa9-4cb9-884e-0b9cd2059292",
+  "name": "djehuty-0.0.1.tar.gz",
+  "size": 3713709,
+  "is_link_only": false,
+  "is_incomplete": false,
+  "download_url": "(@*\djehutybaseurl{}*@)/file/342e...49d2/d3e1...9292",
+  "supplied_md5": null,
+  "computed_md5": "910e9b0f79a0af548f59b3d8a56c3bf4"
+}
+\end{lstlisting}
+
+\subsection{\t{/v2/collections} (HTTP \code{GET})}
+\label{sec:v2-collections}
+
+  The following parameters can be used:
+
+\begin{tabular}{p{0.20\textwidth} p{0.20\textwidth} p{0.59\textwidth}}
+  \ifdefined\HCode
+  \textbf{Parameter}   & \textbf{Required} & \textbf{Description}\\
+  \fi
+  \t{order}            & Optional & Field to use for sorting.\\
+  \t{order\_direction} & Optional & Can be either \code{asc} or \code{desc}.\\
+  \t{institution}      & Optional & The institution identifier to filter on.\\
+  \t{published\_since} & Optional & When set, collections published before this
+                                    timestamp are dropped from the results.\\
+  \t{modified\_since}  & Optional & When set, only collections modified after
+                                    this timestamp are shown from the results.\\
+  \t{group}            & Optional & The group identifier to filter on.\\
+  \t{resource\_doi}    & Optional & The DOI of the associated journal publication.
+                                    When set, only returns collections associated
+                                    with this DOI.\\
+  \t{doi}              & Optional & The DOI of the collection to search for.\\
+  \t{handle}           & Optional & Unused.\\
+  \t{page}             & Optional & The page number used in combination with
+                                    \t{page\_size}.\\
+  \t{page\_size}       & Optional & The number of collections per page.  Used
+                                    in combination with \t{page}.\\
+  \t{limit}            & Optional & The maximum number of collections to output.
+                                    Used together with \t{offset}.\\
+  \t{offset}           & Optional & The number of collections to skip in the
+                                    output.  Used together with \t{limit}.\\
+\end{tabular}
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl "(@*\djehutybaseurl{}*@)/v2/collections?limit=100&published_since=2024-07-25" | jq
+\end{lstlisting}
+
+Output of the example:
+\begin{lstlisting}[language=JSON]
+[ /* Example output has been shortened. */
+  {
+    "id": null,
+    "uuid": "0fe9ab80-6e6a-4087-a509-ce09dddfa3d9",
+    "title": "PhD research 'Untangling the complexity of local water ...'",
+    "doi": "10.4121/0fe9ab80-6e6a-4087-a509-ce09dddfa3d9.v1",
+    "handle": "",
+    "url": "(@*\djehutybaseurl{}*@)/v2/collections/0fe9...fa3d9",
+    "timeline": {
+      "posted": "2024-08-13T14:09:52",
+      "firstOnline": "2024-08-13T14:09:51",
+      ...
+    },
+    "published_date": "2024-08-13T14:09:52"
+  },
+  ...
+]
+\end{lstlisting}
+
+\subsection{\t{/v2/collections/search} (HTTP \code{POST})}
+
+  In addition to the parameters of section \refer{sec:v2-collections}, the
+  following parameters can be used.
+
+\begin{tabular}{p{0.20\textwidth} p{0.20\textwidth} p{0.59\textwidth}}
+  \ifdefined\HCode
+  \textbf{Parameter}   & \textbf{Required} & \textbf{Description}\\
+  \fi
+  \t{search\_for}      & Optional          & The terms to search for.\\
+\end{tabular}
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl --request POST\
+     --header "Content-Type: application/json"\
+     --data '{ "search_for": "wingtips" }'\
+     (@*\djehutybaseurl{}*@)/v2/collections/search | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+[  /* Example output has been shortened. */
+  {
+    "id": 6070238,
+    "uuid": "3dfc4ef2-7f79-4d33-81a7-9c6ae09a2782",
+    "title": "Flared Folding Wingtips - TU Delft",
+    "doi": "10.4121/c.6070238.v1",
+    "handle": "",
+    "url": "(@*\djehutybaseurl{}*@)/v2/collections/3dfc...2782",
+    "timeline": {
+      "posted": "2023-04-05T15:05:04",
+      "firstOnline": "2023-04-05T15:05:03",
+      ...
+    },
+    "published_date": "2023-04-05T15:05:04"
+  },
+  ...
+]
+\end{lstlisting}
+
+\subsection{\t{/v2/collections/<collection-id>} (HTTP \code{GET})}
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl (@*\djehutybaseurl{}*@)/v2/collections/3dfc4ef2-7f79-4d33-81a7-9c6ae09a2782 | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+{ /* Example output has been shortened. */
+  "version": 3,
+  ...
+  "description": "<p>This collection contains the results of the work ...",
+  "categories": [ ... ],
+  "references": [],
+  "tags": [ ... ],
+  "created_date": "2024-08-08T15:48:55",
+  "modified_date": "2024-08-12T11:24:39",
+  "id": 6070238,
+  "uuid": "3dfc4ef2-7f79-4d33-81a7-9c6ae09a2782",
+  "title": "Flared Folding Wingtips - TU Delft",
+  "doi": "10.4121/c.6070238.v3",
+  "published_date": "2024-08-12T11:24:40",
+  "timeline": ...
+  ...
+}
+\end{lstlisting}
+
+\subsection{\t{/v2/collections/<collection-id>/versions} (HTTP \code{GET})}
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl (@*\djehutybaseurl{}*@)/v2/collections/3dfc4ef2-7f79-4d33-81a7-9c6ae09a2782/versions | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+[ /* Example output has been shortened. */
+  {
+    "version": 3,
+    "url": "(@*\djehutybaseurl{}*@)/v2/collections/3dfc...2782/versions/3"
+  },
+  {
+    "version": 2,
+    "url": "(@*\djehutybaseurl{}*@)/v2/collections/3dfc...2782/versions/2"
+  },
+  {
+    "version": 1,
+    "url": "(@*\djehutybaseurl{}*@)/v2/collections/3dfc...2782/versions/1"
+  }
+]
+\end{lstlisting}
+
+\subsection{\t{/v2/collections/<collection-id>/versions/<version>} (HTTP \code{GET})}
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl (@*\djehutybaseurl{}*@)/v2/collections/3dfc4ef2-7f79-4d33-81a7-9c6ae09a2782/versions/2 | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+{ /* Example output has been shortened. */
+  "version": 2,
+  ...
+  "description": "<p>This collection contains the results of the work ...",
+  "categories": [ ... ],
+  "references": [],
+  "tags": [ ... ],
+  "references": [],
+  "tags": [ ... ],
+  "authors": [ ... ],
+  "created_date": "2023-04-05T15:07:35",
+  "modified_date": "2023-05-26T15:19:11",
+  "id": 6070238,
+  "uuid": "3dfc4ef2-7f79-4d33-81a7-9c6ae09a2782",
+  "title": "Flared Folding Wingtips - TU Delft",
+  "doi": "10.4121/c.6070238.v2",
+  ...
+}
+\end{lstlisting}
+
+\subsection{\t{/v2/categories} (HTTP \code{GET})}
+\label{sec:v2-categories}
+
+  Each dataset and collection is categorized using a controlled vocabulary
+  of categories.  This API endpoint provides those categories.
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl (@*\djehutybaseurl{}*@)/v2/categories | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+[ /* Example output has been shortened. */
+  {
+    "id": 13622,
+    "uuid": "01fddd41-68d2-4e28-9d9c-18347847e7d1",
+    "title": "Mining and Extraction of Energy Resources",
+    "parent_id": 13620,
+    "parent_uuid": "6e5bdc69-96db-41e4-ac0b-18812b46c49c",
+    "path": "",
+    "source_id": null,
+    "taxonomy_id": null
+  },
+  {
+    "id": 13443,
+    "uuid": "026f555c-2826-4a83-97ff-0f230fb54ddb",
+    "title": "Livestock Raising",
+    "parent_id": 13440,
+    "parent_uuid": "45a8c849-ab59-4302-af79-09b8c0677df8",
+    "path": "",
+    "source_id": null,
+    "taxonomy_id": null
+  },
+  ...
+]
+\end{lstlisting}
+
+\subsection{\t{/v2/licenses} (HTTP \code{GET})}
+\label{sec:v2-licenses}
+
+  Publishing a dataset involves communicating under which conditions it can be
+  re-used.  The licenses under which you can publish a dataset can be found with
+  this API endpoint.
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl (@*\djehutybaseurl{}*@)/v2/licenses | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+[ /* Example output has been shortened. */
+  {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "type": "data"
+  },
+  {
+    "value": 10,
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "type": "data"
+  },
+  ...
+]
+\end{lstlisting}
+
+\section{The \t{/v2} private interface}
+
+  The interaction with the \t{v2} private interface API requires an API token.
+  Such a token can be obtained from the dashboard page after logging in.  This
+  token can then be passed along in the \t{Authorization} HTTP header as:
+\begin{lstlisting}
+Authorization: token YOUR_TOKEN_HERE
+\end{lstlisting}
+
+\subsection{\t{/v2/account/articles} (HTTP \code{GET})}
+
+  This API endpoint lists the draft datasets of the account to which the
+  authorization token belongs.
+
+  The following parameters can be used:
+
+\begin{tabular}{p{0.20\textwidth} p{0.20\textwidth} p{0.59\textwidth}}
+  \ifdefined\HCode
+  \textbf{Parameter}   & \textbf{Required} & \textbf{Description}\\
+  \fi
+  \t{page}             & Optional & The page number used in combination with
+                                    \t{page\_size}.\\
+  \t{page\_size}       & Optional & The number of datasets per page.  Used
+                                    in combination with \t{page}.\\
+  \t{limit}            & Optional & The maximum number of datasets to output.
+                                    Used together with \t{offset}.\\
+  \t{offset}           & Optional & The number of datasets to skip in the
+                                    output.  Used together with \t{limit}.\\
+\end{tabular}
+
+  Example usage:
+\begin{lstlisting}[language=bash]
+curl -H "Authorization: token YOUR_TOKEN_HERE" (@*\djehutybaseurl{}*@)/v2/account/articles | jq
+\end{lstlisting}
+
+  Output of the example:
+\begin{lstlisting}[language=JSON]
+{ /* Example output has been shortened. */
+  "id": null,
+  "uuid": "6ddd7a31-8ad8-4c20-95a3-e68fe716fa42",
+  "title": "Example draft dataset",
+  "doi": null,
+  "handle": null,
+  "url": "(@*\djehutybaseurl{}*@)/v2/articles/6ddd7a31-8ad8-4c20-95a3-e68fe716fa42",
+  "published_date": null,
+  ...
+}
+\end{lstlisting}
+
+\subsection{\t{/v2/account/articles} (HTTP \code{POST})}
+
+  This API endpoint can be used to create a new dataset.
+
+  The following parameters can be used:
+
+\begin{tabular}{p{0.20\textwidth} p{0.20\textwidth} p{0.59\textwidth}}
+  \ifdefined\HCode
+  \textbf{Parameter} & \textbf{Data type}   & \textbf{Description}\\
+  \fi
+  \t{title}          & \t{string}           & The title of the dataset.\\
+  \t{description}    & \t{string}           & A description of the dataset.\\
+  \t{tags}           & list of \t{string}s  & Keywords to enhance the
+                                              findability of the dataset. Instead
+                                              of using the key \code{tags}, you
+                                              may also use the key
+                                              \code{keywords}.\\
+  \t{references}     & list of \t{string}s  & URLs to resources referring to
+                                              this dataset, or resources that
+                                              this dataset refers to.\\
+  \t{categories}     & list of \t{string}s  & Categories are a controlled
+                                              vocabulary and can be used to
+                                              make the dataset findable in
+                                              the categorical overviews.
+                                              The \t{string} values expected
+                                              here can be found under the
+                                              \code{uuid} property with a
+                                              call to \code{/v2/categories}.
+                                              For more details, see section
+                                              \refer{sec:v2-categories}.\\
+  \t{authors}        & list of author records & \\
+  \t{defined\_type}  & \t{string}           & One of: \t{figure},
+                                              \t{online resource},
+                                              \t{preprint}, \t{book},
+                                              \t{conference contribution},
+                                              \t{media}, \t{dataset},
+                                              \t{poster},
+                                              \t{journal contribution},
+                                              \t{presentation},
+                                              \t{thesis} or \t{software}.\\
+  \t{funding}        & \t{string}           & One-liner to cite funding.\\
+  \t{funding\_list}  & list of funding records & \\
+  \t{license}        & \t{integer}          & Licences communicate under which
+                                              conditions the dataset can be
+                                              re-used.  The \t{integer} value
+                                              to submit here can be found as
+                                              the \t{value} property in a call
+                                              to \code{/v2/licences}. For more
+                                              details, see section
+                                              \refer{sec:v2-licenses}.\\
+  %\t{language}       & \t{string}           & \\
+  \t{doi}            & \t{string}           & Do not use this field as a DOI
+                                              will be automatically assigned
+                                              upon publication..\\
+  \t{handle}         & \t{string}           & Do not use this field as it is
+                                              deprecated.\\
+  \t{resource\_doi}  & \t{string}           & The URL of the DOI of an
+                                              associated peer-reviewed
+                                              journal publication.\\
+  \t{resource\_title} & \t{string}          & The title of the associated
+                                              peer-reviewed journal
+                                              publication.\\
+  %\t{group_id}       & \t{integer}          & \\
+  \t{publisher}      & \t{string}           & The name of the data repository
+                                              publishing the dataset.\\
+  \t{custom\_fields} & list of key-value pairs & \\
+  \t{timeline}       &                      & Do not use this field because it
+                                              will be automatically populated
+                                              during the publication process.\\
+\end{tabular}
