@@ -1,0 +1,10 @@
+sifty/__init__.py,sha256=LllcHiETVRI70svlQL_ElQNtoQqcHId8NYYT_3OW_sk,916
+sifty/types.py,sha256=GQ6ZMEljOFxXSNP_b-_jWpeJd3pWH6LH8fKRMKFi8iE,1832
+sifty/types.pyi,sha256=PZreVffI8l3wNVGblAzVkZGpT6bskgzYXBtlD220z18,990
+sifty/_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sifty/_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sifty-1.0.4.dist-info/LICENSE.txt,sha256=QanX2i2fkR5qtyAbI1HVuNu7Z2vTpJRbv9ea-akZeW0,1086
+sifty-1.0.4.dist-info/METADATA,sha256=HNdc95s5Y4r4aJTE49WkDEtCY5nDwKOYZ0ekNzL8Rwk,3149
+sifty-1.0.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+sifty-1.0.4.dist-info/top_level.txt,sha256=7YZDprmZ7TfWL7orpUemKpJQnqtMwJZN6P_XhqI8WMg,6
+sifty-1.0.4.dist-info/RECORD,,
