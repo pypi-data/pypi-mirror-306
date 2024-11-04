@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: g_gantt
+Version: 0.1.1
+Summary: A Gantt chart library
+Author: Brady Golomb
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: datetime
+
+# g-gantt
+
+[![PyPI - Version](https://img.shields.io/pypi/v/g-gantt.svg)](https://pypi.org/project/g-gantt)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/g-gantt.svg)](https://pypi.org/project/g-gantt)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install g-gantt
+```
+
+## License
+
+`g-gantt` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

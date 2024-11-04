@@ -1,0 +1,8 @@
+README.md
+main.py
+pyproject.toml
+g_gantt.egg-info/PKG-INFO
+g_gantt.egg-info/SOURCES.txt
+g_gantt.egg-info/dependency_links.txt
+g_gantt.egg-info/requires.txt
+g_gantt.egg-info/top_level.txt
