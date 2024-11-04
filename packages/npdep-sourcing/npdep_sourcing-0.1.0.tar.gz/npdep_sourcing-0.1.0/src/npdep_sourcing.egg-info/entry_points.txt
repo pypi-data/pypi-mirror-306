@@ -1,0 +1,2 @@
+[console_scripts]
+npdep_sourcing = npdep_sourcing.__main__:main

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: npdep_sourcing
+Version: 0.1.0
+Summary: Sourcing Modules for Network Protocol Data Exfiltration Project Client
+Home-page: https://github.com/npdep/npdep-sourcing
+Author: npdep
+Classifier: Operating System :: OS Independent 
+Classifier: Programming Language :: Python :: 3 
+Description-Content-Type: text/markdown
+Requires-Dist: foi
+
+# Description
+
+Sourcing Modules for Network Protocol Data Exfiltration Project Client
+
+# Installation
+
+`pip install npdep_sourcing`
+
+# Usage
+
+It does not have any direct functionality. It does only provide sourcing modules for NPDEP
