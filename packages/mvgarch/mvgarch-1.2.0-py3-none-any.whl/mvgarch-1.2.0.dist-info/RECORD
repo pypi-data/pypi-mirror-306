@@ -1,0 +1,7 @@
+mvgarch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mvgarch/mgarch.py,sha256=ga2dXGM0mhaw-Oc97IlfdYzdM0hFHVKnr8oPdcxJ5hs,16631
+mvgarch/ugarch.py,sha256=sTgwijB84dDEC0gDDTa1DFOV0HCEw1EfRfvi0zmMh5c,5579
+mvgarch-1.2.0.dist-info/METADATA,sha256=8NYKVrEqg9OHkOifKDuiYumo9d_LVngKYlKNhn62kAc,3179
+mvgarch-1.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+mvgarch-1.2.0.dist-info/licenses/LICENSE,sha256=6ouclgyf_nr1fHBSPGGqFmVO35xPC92NPxFIF2Xj_iU,1068
+mvgarch-1.2.0.dist-info/RECORD,,
