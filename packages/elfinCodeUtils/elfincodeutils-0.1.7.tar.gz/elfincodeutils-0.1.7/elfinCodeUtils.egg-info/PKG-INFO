@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: elfinCodeUtils
+Version: 0.1.7
+Summary: 常用功能模块快速使用库.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: seaborn>=0.13.1
+Requires-Dist: matplotlib>=3.9.1
+Requires-Dist: msgpack>=1.1.0
+Requires-Dist: pillow>=8.1.0
+Requires-Dist: opencv-python>=4.3.0.38
+
+# codeTools
+
+代码工具箱，记录关键代码防止重复开发, Github地址: [codeUtils](https://github.com/firstelfin/codeTools)
+
+## Install
+
+```shell
+pip install --index-url https://pypi.org/simple elfinCodeUtils
+```
+
+## update code
+
+```shell
+python3 -m pip install --upgrade build
+python -m build
+twine upload dist/*
+```
+
+## taskManage
+
+- [X] 完成taskManage模块的编写: 参考[文档](./docs/taskManage.md)
