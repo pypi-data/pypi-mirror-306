@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pymagotchi"
+description = "A Python-based virtual pet simulation package with customizable care and stats tracking."
+version = "0.1.0"
+authors = [
+  { name="book-of-amos", email="bookofamos@nyu.edu" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["virtual pet", "simulation", "game", "pymagotchi", "pet care"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment :: Simulation"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "freezegun"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-fall2024/3-python-package-book-of-amos-1"
+"Repository" = "https://github.com/software-students-fall2024/3-python-package-book-of-amos-1.git"
+"Bug Tracker" = "https://github.com/software-students-fall2024/3-python-package-book-of-amos-1/issues"
+
+[project.scripts]
+pymagotchi = "pymagotchi.__main__:main"
