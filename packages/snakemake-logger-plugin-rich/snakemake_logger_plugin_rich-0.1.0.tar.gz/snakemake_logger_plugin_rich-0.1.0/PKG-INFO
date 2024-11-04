@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: snakemake-logger-plugin-rich
+Version: 0.1.0
+Summary: Log plugin for snakemake using Rich
+Requires-Python: >=3.12
+Requires-Dist: rich>=13.9.4
+Requires-Dist: snakemake-interface-executor-plugins>=9.3.2
+Requires-Dist: snakemake-interface-logger-plugins>=0.1.0
+Description-Content-Type: text/markdown
+
+# Snakemake Rich Logger Plugin
+
+Proof of concept logger plugin that uses [rich](https://github.com/Textualize/rich) for terminal styling and progress bar. 
+
+Log formatting still needs lots of work but the progress bar works well.
