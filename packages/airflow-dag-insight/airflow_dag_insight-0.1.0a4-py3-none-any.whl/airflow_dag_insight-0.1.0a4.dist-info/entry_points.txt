@@ -1,0 +1,3 @@
+[airflow.plugins]
+dag-insight-plugin=airflow_dag_insight.plugins.dag_insight:DagInsightPlugin
+
