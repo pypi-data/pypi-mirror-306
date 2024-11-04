@@ -1,0 +1,8 @@
+pandas
+importlib_resources
+
+[dev]
+pre-commit
+
+[tests]
+pytest
