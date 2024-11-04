@@ -1,0 +1,2 @@
+[console_scripts]
+belat = belat.cli:main
