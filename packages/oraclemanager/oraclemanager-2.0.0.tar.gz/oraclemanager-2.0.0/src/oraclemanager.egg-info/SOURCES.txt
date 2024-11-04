@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/oraclemanager/__init__.py
+src/oraclemanager/oracle_manager.py
+src/oraclemanager.egg-info/PKG-INFO
+src/oraclemanager.egg-info/SOURCES.txt
+src/oraclemanager.egg-info/dependency_links.txt
+src/oraclemanager.egg-info/requires.txt
+src/oraclemanager.egg-info/top_level.txt
+tests/test_oraclemanger.py

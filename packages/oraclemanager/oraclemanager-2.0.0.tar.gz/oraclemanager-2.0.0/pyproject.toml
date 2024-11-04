@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oraclemanager"
+version = "2.0.0"
+authors = [
+  { name="Erik Bierbrauer" },
+]
+description = "API wrapper around python-oracledb to more easily perform simple database tasks."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "oracledb==2.4.1"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ebier92/oraclemanager"
+"Bug Tracker" = "https://github.com/ebier92/oraclemanager/issues"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
