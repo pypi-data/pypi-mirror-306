@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/csv2ies/__init__.py
+src/csv2ies/__main__.py
+src/csv2ies/csv2ies.py
+src/csv2ies.egg-info/PKG-INFO
+src/csv2ies.egg-info/SOURCES.txt
+src/csv2ies.egg-info/dependency_links.txt
+src/csv2ies.egg-info/entry_points.txt
+src/csv2ies.egg-info/requires.txt
+src/csv2ies.egg-info/top_level.txt
