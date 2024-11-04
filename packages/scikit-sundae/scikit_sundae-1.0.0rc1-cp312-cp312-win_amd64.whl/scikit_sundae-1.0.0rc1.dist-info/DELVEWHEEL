@@ -1,0 +1,2 @@
+Version: 1.8.3
+Arguments: ['C:\\Users\\runneradmin\\miniconda3\\envs\\sun\\Scripts\\delvewheel', 'repair', 'dist/scikit_sundae-1.0.0rc1-cp312-cp312-win_amd64.whl', '-w', 'wheels/']
