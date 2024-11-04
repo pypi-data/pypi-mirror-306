@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pydentity-core-sqlalchemy"
+version = "0.1.2"
+description = "Database adapter for SQLAlchemy."
+authors = ["Udachin Ivan <pypi.udachin@yandex.ru>"]
+license = "MIT"
+homepage = "https://github.com/udachin077/pydentity-core-sqlalchemy"
+repository = "https://github.com/udachin077/pydentity-core-sqlalchemy.git"
+exclude = ["tests", "example"]
+packages = [{ include = "pydentity_db", from = "." }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.34"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-asyncio = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
