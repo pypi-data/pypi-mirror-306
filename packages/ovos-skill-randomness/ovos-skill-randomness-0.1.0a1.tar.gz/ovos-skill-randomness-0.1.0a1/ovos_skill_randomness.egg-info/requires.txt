@@ -1,0 +1,9 @@
+ovos-utils
+ovos-workshop
+ovos-lingua_franca
+icepool
+
+[test]
+pytest
+ovos-plugin-manager
+padacioso
