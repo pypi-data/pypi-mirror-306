@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pylightcurve
+Version: 4.0.4
+Summary: A python package for modeling and analysing transit light-curves.
+Home-page: https://github.com/ucl-exoplanets/pylightcurve
+Author: Angelos Tsiaras
+Author-email: aggelostsiaras@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+Visit https://github.com/ucl-exoplanets/pylightcurve for more details.
