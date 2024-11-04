@@ -1,0 +1,9 @@
+jax
+flax
+numpy
+matplotlib
+imageio
+
+[dev]
+black
+pre-commit

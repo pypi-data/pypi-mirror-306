@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+jaxgl/__init__.py
+jaxgl/maths.py
+jaxgl/renderer.py
+jaxgl/shaders.py
+jaxgl.egg-info/PKG-INFO
+jaxgl.egg-info/SOURCES.txt
+jaxgl.egg-info/dependency_links.txt
+jaxgl.egg-info/requires.txt
+jaxgl.egg-info/top_level.txt
