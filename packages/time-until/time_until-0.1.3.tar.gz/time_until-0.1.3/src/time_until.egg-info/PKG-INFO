@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: time_until
+Version: 0.1.3
+Summary: Application that calculate time duration until reach a given date
+Author-email: Thiago Jacinto <46906069+thiagojacinto@users.noreply.github.com>
+Project-URL: Homepage, https://github.com/thiagojacinto/time-until-cli
+Project-URL: Bug Tracker, https://github.com/thiagojacinto/time-until-cli/issues
+Project-URL: General Discussions, https://github.com/thiagojacinto/time-until-cli/discussions
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.10.15
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs==24.2.0
+Requires-Dist: click==8.1.3
+Requires-Dist: colorama==0.4.6
+Requires-Dist: commonmark==0.9.1
+Requires-Dist: exceptiongroup==1.1.0
+Requires-Dist: iniconfig==2.0.0
+Requires-Dist: packaging==24.1
+Requires-Dist: pluggy==1.0.0
+Requires-Dist: Pygments==2.14.0
+Requires-Dist: python-dateutil==2.8.2
+Requires-Dist: rich==13.9.4
+Requires-Dist: shellingham==1.5.0.post1
+Requires-Dist: six==1.16.0
+Requires-Dist: tomli==2.0.1
+Requires-Dist: typer==0.7.0
+
+# time-until-cli
+> Application that calculate time duration until reach a given date.
+
+**Main objective**: Understanding the logic of _Python_ app publishing and documenting it on a simple project.
+
+## Usage
+
+```bash
+time_until 22h
+```
+
+## Application flow & use cases
+
+Using CLI to calculate time duration to a given input date or timestamp. 
+
+| Input | Output / Response |
+| :---- | :---------------- |
+| `time-until 23h` | Time remaining: 8 hour(s) 22 minute(s) 42 second(s) |
+| `time-until 2023-02-27` | Time remaining: 04 month(s) 14 day(s) 8 hour(s) 22 minute(s) 42 second(s)  |
+
+![app-flow-example](assets/time_until_app.png)
+
+## Main goals
+
+Build a Python app that works as a CLI (Command-line Interface) that receives a future date or time and returns a calculation of remaining time from now until that given date or time.
+
+Once working, this project must be configured and submitted as Python package thru PyPI Modules. The process of development, build, release and publishing is the core of the project, to understand it and provice ideas and thoghts of process automation.
+
+Feel free to initiate a discusison, open a issue or a pull request to this project. All kinds of contributions and ideas are welcome. **_Let's code!_**
+
+## Development
+
+A quick guide to contribute (or develop) on this project.
+
+We recommend to [use an isolated environment](https://packaging.python.org/pt-br/latest/guides/installing-using-pip-and-virtual-environments/), then install the devolpment dependencies:
+
+```bash
+# For Unix / macOS systems
+
+cd path/to/time-until # substitute with the real path to this project directory
+
+# Activate Python enviroment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install development dependencies
+pip install -r requirements-development.txt 
+```
+
+### Testing
+
+With development dependencies installed, you can execute tests with *pytest*:
+
+```bash
+# Run tests
+pytest
+```
+
+### Packaging
+
+Create a package of this project with `wheel`:
+
+```bash
+# Build
+python3 -m build --wheel
+```
