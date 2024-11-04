@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: ynabkit
+Version: 0.1.2
+Summary: CLI tool to support data import and export from YNAB
+Home-page: https://github.com/zmoog/ynabkit
+Author: Maurizio Branca
+License: Apache License, Version 2.0
+Project-URL: Issues, https://github.com/zmoog/ynabkit/issues
+Project-URL: CI, https://github.com/zmoog/ynabkit/actions
+Project-URL: Changelog, https://github.com/zmoog/ynabkit/releases
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: openpyxl
+Requires-Dist: rich
+Requires-Dist: xlrd
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# ynabkit
+
+[![PyPI](https://img.shields.io/pypi/v/ynabkit.svg)](https://pypi.org/project/ynabkit/)
+[![Changelog](https://img.shields.io/github/v/release/zmoog/ynabkit?include_prereleases&label=changelog)](https://github.com/zmoog/ynabkit/releases)
+[![Tests](https://github.com/zmoog/ynabkit/workflows/Test/badge.svg)](https://github.com/zmoog/ynabkit/actions?query=workflow%3ATest)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/zmoog/ynabkit/blob/master/LICENSE)
+
+YNAB Kit is a CLI tool to support data import and export from YNAB. It provides tools to convert data from Fineco and Satispay export files to YNAB CSV format.
+
+## Installation
+
+Install this tool using `pip`:
+
+    pip install ynabkit
+
+## Usage
+
+For help, run:
+
+    ynabkit --help
+
+You can also use:
+
+    python -m ynabkit --help
+
+## Development
+
+To contribute to this tool, first checkout the code. Then create a new virtual environment:
+
+    cd ynabkit
+    python -m venv venv
+    source venv/bin/activate
+
+Now install the dependencies and test dependencies:
+
+    pip install -e '.[test]'
+
+To run the tests:
+
+    pytest

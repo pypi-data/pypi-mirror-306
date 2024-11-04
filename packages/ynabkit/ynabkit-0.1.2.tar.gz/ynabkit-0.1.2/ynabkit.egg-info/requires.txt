@@ -1,0 +1,7 @@
+click
+openpyxl
+rich
+xlrd
+
+[test]
+pytest
