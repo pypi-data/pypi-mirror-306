@@ -1,0 +1,3 @@
+[workspace]
+members = ["diced", "diced-py"]
+resolver = "2"
