@@ -1,0 +1,173 @@
+installation locations
+    things to install
+        ./cargo
+    should they all be installed in default locations or in repo?
+
+
+
+
+commands (which we will need to use)
+    uv run
+        to run scripts
+            if run in a project == a directory with pyproject.toml 
+            then it will install project before running the script
+                meaning installing venv or more?
+
+                will this work if there is no .python-version file in project root?
+                    seems yes as long as python version is defined in pyproject.toml?
+        alternative is to activate virtual environment and use python directly in there
+    uv  sync
+        to sync project depedencies wit environment
+
+        might not need this as it will be done automatically when doing uv run?
+            yes this is only needed if we manage (create and activate) venv manually 
+    uv build
+        for building cli later?
+    uv publish
+        for publishing later?
+    uv venv
+        for creating virtual environment
+
+        NOTE: maybe we dont need to create venv explicitly 
+        if we just call uv run
+    uv pip sync
+        sync an environment with a lock file or (project dependencies) (alternative to uv sync?)
+
+        might not need this as it will be done automatically when doing uv run?
+            yes this is only needed if we manage (create and activate) venv manually 
+    uv pip compile
+        to manually compile requirements into requirements.txt (is it really needed?)
+            not really as we are using strict versioning in pyproject.toml
+        could we just do uv lock as alternative?
+            maybe but only works with special lock file not requirements.txt
+                difference is lock file is universal while rquirements.txt generated
+                with uv pip compile is not by default
+    uv pip install
+        to install packages to venv from requirements.txt or pyproject.toml
+
+        not needed as we use uv pip sync instead it seems
+            also uv pip sync is more safe as it ensures matching lockfile
+    uv self update
+        for updating uv (wont be working if UNMANAGED_INSTALL is set)
+    
+    uv help COMMAND
+        to see full help info for command
+    uv python pin PYTHON_VERSION
+        can use this to set python-version file manually
+    
+project structure
+    cli.py and app.py should be moved out to root (from src directory) and project should be built?
+    should we include py.typed in python packages?
+        signals to type checkers that code includes type hints
+    should we __init__.py in root of source?
+
+
+    do we need .python-version file in project root?
+    uv.lock will be generated if we use uv run for running scripts (alternative is activating venv manually and using python directly)
+        in that case uv.lock should be checked out?
+            generally yes but technically not necessary here because all packages are specified with specific version constraints
+
+    add commands run, dev and cli under [project.scripts]?
+        maybe not run and dev as they are web applications?
+             meaning app.py should be in root but cli.py should be in src?
+                cli could then also be defined in __init__.py under src
+                    or maybe we should have src/ultimate-rvc instead of src?
+                    __init__.py should the just have a main method
+                        could also import main from app.py and cli.py in __init__ and reexport
+                        as cli_main and app_main
+                        then these can be used as entry points for script
+        requires build system to be defined
+
+        this is almost redundant as we can also just do uv run COMMAND SCRIPT
+            or python COMMAND script if venv is activated
+        if we dont use a build system then
+             tool.uv.package = false should be set in pyproject.toml
+        
+        if we decide 
+    
+    building with hatch
+         You may need to use the hatch build options to configure hatchling for your project structure.
+
+    tool.uv.managed = False should be set only if we decide to manage venv manually.
+
+
+
+    
+    editable depedencies
+        might be needed if we are going to build commands for running app and cli
+    
+
+running scripts in project
+    uv run script.py can be used to run pythin scripts in project (venv)
+    uv run COMMAND OPTIONS ARGS can also be used to run any command in project (venv)
+        useful for running powershell and bash scripts in venv
+            eg COMMAND powershell/bash
+
+
+
+
+
+
+
+
+ENVIRONMENT VARIABLES (In depth)
+    UV_CACHE_DIR
+        can also use tool-uv.cache-dir to specify
+        defualt is %LOCALAPPDATA%\uv\cache
+
+        note that cache should be on the same file system (disk) as python version uv is running on
+            should we then force a specific location for all uv related stuff?
+    UV_TOOL_DIR
+        for controlling where tools are stored 
+
+        default: ~/.local/share/uv/tools
+    
+    UV_TOOL_BIN_DIR: 
+        Used to specify the "bin" directory where uv will install tool executables.
+
+        is tied to UV_TOOL_DIR?
+
+    UV_PROJECT_ENVIRONMENT
+        can be used for settin venv
+
+        but value should be a relative path, not absolute
+
+    UV_PYTHON_INSTALL_DIR
+        where python is installed
+
+    XDG_CACHE_HOME: 
+        Used to specify the directory where uv stores cache files on Unix systems.
+    
+    XDG_BIN_HOME: 
+        Used to specify the directory where executables are installed into.
+
+    XDG_DATA_HOME: 
+        Used to specify the directory where uv stores managed Python installations and managed tools on Unix systems.
+
+
+COMMAND OPTIONS:
+    consider using --project to change project root when command is run
+        or --directory to change directory where command is run
+        
+    use uv venv wih --seed to include pip setuptools and wheel packages?
+
+
+SETTINGS
+    managed=false
+        means uv run will ignore project
+            so we should not even use uv run in this case but just manual activation of venv and running python directly
+    package=false
+        if we dont include a build backend and dont expect to build packages for distribution
+    cache-dir
+        we can set this to be in repo dependencies dir
+    compile-bytecode
+        to compile all source to bytecode after installation
+        rather than when starting a script
+    preview
+        what are the preview features?
+    python-version
+        only for uv pip
+    target
+        install packages into specified directory
+        only for uv pip
+    
