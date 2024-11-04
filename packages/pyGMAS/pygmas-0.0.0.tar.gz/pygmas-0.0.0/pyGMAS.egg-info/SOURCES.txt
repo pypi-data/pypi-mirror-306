@@ -1,0 +1,13 @@
+LICENSE
+pyproject.toml
+setup.py
+pyGMAS.egg-info/PKG-INFO
+pyGMAS.egg-info/SOURCES.txt
+pyGMAS.egg-info/dependency_links.txt
+pyGMAS.egg-info/top_level.txt
+pygmas/__init__.py
+pygmas/genetic_algorithm.py
+pygmas/prework.py
+pygmas/pyexpr.py
+pygmas/pygmas.py
+pygmas/utils.py
