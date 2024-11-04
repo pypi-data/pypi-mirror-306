@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+skill-randomness.mikejgray=skill_randomness:RandomnessSkill
+
