@@ -1,0 +1,65 @@
+Metadata-Version: 2.3
+Name: atsphinx-linebreak
+Version: 0.1.1
+Summary: Enable line-break for everywhere.
+Project-URL: Home, https://github.com/atsphinx/linebreak
+Project-URL: Documentation, https://atsphinx.github.io/linebreak
+Author-email: Kazuya Takei <myself@attakei.net>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Markup :: reStructuredText
+Requires-Python: >=3.9
+Requires-Dist: sphinx
+Description-Content-Type: text/x-rst
+
+==================
+atsphinx-linebreak
+==================
+
+Enable line-break for everywhere.
+
+Overview
+========
+
+This is Sphinx-extension to inject extra node into line-break of source (LF) when it build.
+You can write source likely GitHub Flavored Markdown ("Newline" code means as "line-feed of content") by using it.
+
+.. note::
+
+   This affects to any sources including reStructuredText.
+   If you want to change behavior, post PR or issue into GitHub.
+
+Getting started
+===============
+
+.. code:: console
+
+   pip install atsphinx-linebreak
+
+.. code:: python
+
+   extensions = [
+       ...,  # Your extensions
+       "atsphinx.linebreak",
+   ]
