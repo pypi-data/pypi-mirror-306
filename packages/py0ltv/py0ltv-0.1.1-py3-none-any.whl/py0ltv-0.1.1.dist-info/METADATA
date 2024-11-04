@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: py0ltv
+Version: 0.1.1
+Summary: A transpiler for .py0 files to Python
+Home-page: https://github.com/ltvtk/py0
+Author: LapTrinhVui
+Author-email: syriackeyboard@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: antlr4-python3-runtime
+
+# py0 : python zero
+Simple python-like scripting language for kids 
+## description
+This is very simple scripting language which compile to python from file *.py0 to *.py and run them
+## installation on windows only, open your powershell as Admin
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
+
+scoop install git-with-openssh
+
+scoop install python
+
+pip install py0
+
+## use togther with our Vditor
+https://github.com/ltvtk/py0/releases/download/1.0/vditor.Setup.1.0.0.exe
