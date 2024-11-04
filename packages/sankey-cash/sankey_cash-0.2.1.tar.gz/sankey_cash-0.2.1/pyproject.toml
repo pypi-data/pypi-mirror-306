@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {file = "src/VERSION"}
+
+[project]
+name = "sankey-cash"
+dynamic = ["version"]
+authors = [
+  { name="Paul Marcontell", email="paul.marcontell@gmail.com" },
+]
+description = "Some classes for generating cashflow sankey diagrams"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+dependencies = [
+    "pygsheets ~= 2.0",
+    "pandas ~= 1.5",
+    "plotly ~= 5.11",
+    "numpy ~= 1.24",
+    "networkx ~= 2.8"
+  ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/paulkm/sankey-cash"
+"Bug Tracker" = "https://github.com/paulkm/sankey-cash/issues"
