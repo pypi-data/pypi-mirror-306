@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+FactorioSolver/FactorioSolver.py
+FactorioSolver/__init__.py
+FactorioSolver.egg-info/PKG-INFO
+FactorioSolver.egg-info/SOURCES.txt
+FactorioSolver.egg-info/dependency_links.txt
+FactorioSolver.egg-info/requires.txt
+FactorioSolver.egg-info/top_level.txt
+FactorioSolver/data/SpaceAge/default_choice_map.json
+FactorioSolver/data/SpaceAge/items.csv
+FactorioSolver/data/SpaceAge/recipes.csv
+FactorioSolver/data/SpaceExploration/default_choice_map.json
+FactorioSolver/data/SpaceExploration/items.csv
+FactorioSolver/data/SpaceExploration/recipes.csv
+tests/test_FactorioSolver.py
