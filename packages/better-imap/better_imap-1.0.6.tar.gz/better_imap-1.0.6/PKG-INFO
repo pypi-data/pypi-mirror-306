@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: better-imap
+Version: 1.0.6
+Summary: IMAP tools
+Author: T1murKO
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aioimaplib (==1.1.0)
+Requires-Dist: async-timeout (>=4.0,<5.0)
+Requires-Dist: beautifulsoup4 (>=4.12,<5.0)
+Requires-Dist: better-proxy (>=1.1,<2.0)
+Requires-Dist: html2text (>=2024.2.26,<2025.0.0)
+Requires-Dist: python-socks (>=2.5,<3.0)
+Requires-Dist: pytz (>=2024.2,<2025.0)
+Description-Content-Type: text/markdown
+
+
