@@ -1,0 +1,2 @@
+[console_scripts]
+auto-scale = kube1s.scale:auto_controll
