@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apk_exporter"
+version = "0.1.1"
+dependencies = ["prometheus_client"]
+authors = [{ name = "fossdd", email = "fossdd@pwned.life" }]
+maintainers = [{name = "fossdd", email = "fossdd@pwned.life"}]
+description = "Prometheus exporter for apk-tools"
+readme = "README.md"
+license = { file = "UNLICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Topic :: System :: Monitoring",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: The Unlicense (Unlicense)",
+  "Operating System :: POSIX :: Linux",
+
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+
+[project.scripts]
+apk-exporter = "apk_exporter:main"
+
+[project.urls]
+Repository = "https://codeberg.org/fossdd/apk-exporter"
+Issues = "https://codeberg.org/fossdd/apk-exporter/issues"
+Changelog = "https://codeberg.org/fossdd/apk-exporter/releases"
