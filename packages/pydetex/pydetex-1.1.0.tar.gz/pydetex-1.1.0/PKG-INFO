@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: pydetex
+Version: 1.1.0
+Summary: An application that transforms LaTeX code to plain text
+Home-page: https://pydetex.readthedocs.io
+Author: Pablo Pizarro R.
+Author-email: pablo@ppizarror.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/ppizarror/PyDetex/issues
+Project-URL: Documentation, https://pydetex.readthedocs.io
+Project-URL: Source Code, https://github.com/ppizarror/PyDetex
+Keywords: latex detex parser gui
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.7, <4
+License-File: LICENSE
+Requires-Dist: beautifulsoup4>=4.11.1
+Requires-Dist: flatlatex>=0.15
+Requires-Dist: langdetect>=1.0.9
+Requires-Dist: nltk>=3.9.1
+Requires-Dist: outdated>=0.2.2
+Requires-Dist: Pillow>=9.4.0
+Requires-Dist: PyMultiDictionary>=1.2.5
+Requires-Dist: pyperclip>=1.9.0
+Requires-Dist: requests>=2.32.3
+Requires-Dist: tkmacosx>=1.0.5
+Provides-Extra: docs
+Requires-Dist: sphinx<7; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints>=1.2.0; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Provides-Extra: installer
+Requires-Dist: pyinstaller==6.7.0; extra == "installer"
+Provides-Extra: test
+Requires-Dist: nose2[coverage_plugin]; extra == "test"
+Requires-Dist: pytest; extra == "test"
+
+=======
+PyDetex
+=======
+
+.. image:: https://img.shields.io/badge/author-Pablo%20Pizarro%20R.-lightgray.svg
+    :target: https://ppizarror.com
+    :alt: @ppizarror
+
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg
+    :target: https://opensource.org/licenses/MIT
+    :alt: License MIT
+
+.. image:: https://img.shields.io/badge/python-3.7+-red.svg
+    :target: https://www.python.org/downloads
+    :alt: Python 3.7+
+
+.. image:: https://badge.fury.io/py/pydetex.svg
+    :target: https://pypi.org/project/pydetex
+    :alt: PyPi package
+
+.. image:: https://img.shields.io/github/actions/workflow/status/ppizarror/PyDetex/ci.yml?branch=master
+    :target: https://github.com/ppizarror/PyDetex/actions/workflows/ci.yml
+    :alt: Build status
+    
+.. image:: https://app.fossa.com/api/projects/git%2Bgithub.com%2Fppizarror%2FPyDetex.svg?type=shield
+    :target: https://app.fossa.com/projects/git%2Bgithub.com%2Fppizarror%2FPyDetex?ref=badge_shield
+    :alt: FOSSA Status
+    
+.. image:: https://readthedocs.org/projects/pydetex/badge/?version=latest
+    :target: https://pydetex.readthedocs.io
+    :alt: Documentation Status
+
+.. image:: https://codecov.io/gh/ppizarror/PyDetex/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/ppizarror/PyDetex
+    :alt: Codecov
+
+.. image:: https://img.shields.io/github/issues/ppizarror/PyDetex
+    :target: https://github.com/ppizarror/PyDetex/issues
+    :alt: Open issues
+
+.. image:: https://img.shields.io/pypi/dm/pydetex?color=purple
+    :target: https://pypi.org/project/pydetex
+    :alt: PyPi downloads
+
+.. image:: https://static.pepy.tech/personalized-badge/pydetex?period=total&units=international_system&left_color=grey&right_color=lightgrey&left_text=total%20downloads
+    :target: https://pepy.tech/project/pydetex
+    :alt: Total downloads
+    
+.. image:: https://img.shields.io/badge/buy%20me%20a-Ko--fi-02b9fe
+    :target: https://ko-fi.com/ppizarror
+    :alt: Buy me a Ko-fi
+
+Source repo on `GitHub <https://github.com/ppizarror/PyDetex>`_, 
+and run it on `Repl.it <https://repl.it/github/ppizarror/PyDetex>`_
+
+Author
+------
+
+`Pablo Pizarro R. <https://ppizarror.com>`_ | 2021 - 2024
