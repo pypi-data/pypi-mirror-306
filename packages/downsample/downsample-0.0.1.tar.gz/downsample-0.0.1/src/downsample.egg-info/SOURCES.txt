@@ -1,0 +1,16 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+setup.py
+src/downsample/_ltd.c
+src/downsample/__init__.py
+src/downsample.egg-info/PKG-INFO
+src/downsample.egg-info/SOURCES.txt
+src/downsample.egg-info/dependency_links.txt
+src/downsample.egg-info/requires.txt
+src/downsample.egg-info/top_level.txt
+src/downsample/tests/__init__.py
+src/downsample/tests/test_ltd.py
+src/examples/__init__.py
+src/examples/plot.py
+src/examples/spikydata.py
