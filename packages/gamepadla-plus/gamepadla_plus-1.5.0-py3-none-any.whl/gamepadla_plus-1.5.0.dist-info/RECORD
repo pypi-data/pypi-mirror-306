@@ -1,0 +1,11 @@
+LICENSE.txt,sha256=Q5ZsuLNBjTxqO3T8PGym2y9Fym7ibe7M8Mnp7N3bUtU,1123
+gamepadla_plus/__init__.py,sha256=8Xde8svSQOd2KhBJSqLFxmWCIHVEd0P10lqCW-AeF_4,237
+gamepadla_plus/__main__.py,sha256=mWKhUo-si54Fbk0-OEO03epBw26S8LbVErzTGbwVfSg,251
+gamepadla_plus/cli.py,sha256=mdkbV03wzRhQ3c1su1Ncx01iElDwBW8faSkxvaD7Yuc,4075
+gamepadla_plus/common.py,sha256=68MMM5eInYeGRggYuXEDlfpp7-RXWpkQoGKTdXT4YI8,6304
+gamepadla_plus/gui.py,sha256=HL3DVwmAnAxQHTsGZVByyJpz-3II6gihu_1W7nGDgd8,9553
+gamepadla_plus-1.5.0.dist-info/METADATA,sha256=4Q__tAAup_8JeE32b2wTby2pGFHpkUIV8nZ8OFq6ZHk,7362
+gamepadla_plus-1.5.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+gamepadla_plus-1.5.0.dist-info/entry_points.txt,sha256=s7EssUe35PH_BBVdLXapRmk9aXkIJssEeNX9KzBoSiw,58
+gamepadla_plus-1.5.0.dist-info/licenses/LICENSE.txt,sha256=Q5ZsuLNBjTxqO3T8PGym2y9Fym7ibe7M8Mnp7N3bUtU,1123
+gamepadla_plus-1.5.0.dist-info/RECORD,,
