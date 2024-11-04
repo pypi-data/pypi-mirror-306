@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+ayeh_yab.py
+pyproject.toml
+setup.py
+packages/متن قرآن.csv
+quran_search_in_text.egg-info/PKG-INFO
+quran_search_in_text.egg-info/SOURCES.txt
+quran_search_in_text.egg-info/dependency_links.txt
+quran_search_in_text.egg-info/top_level.txt
