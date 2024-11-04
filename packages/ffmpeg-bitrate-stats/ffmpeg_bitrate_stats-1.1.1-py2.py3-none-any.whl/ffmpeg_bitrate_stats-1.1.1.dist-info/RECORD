@@ -1,0 +1,11 @@
+ffmpeg_bitrate_stats/__init__.py,sha256=TCy_H8IYJAQFfhOazXHVg_D4ak26kZ0jVmpi3NoxU5g,163
+ffmpeg_bitrate_stats/__main__.py,sha256=cjSxpOM6QFA3WRUwVAca2_x7tr3ALFNSFdYtj70gTLE,3777
+ffmpeg_bitrate_stats/bitrate_stats.py,sha256=8PrD7rDRullA8FpWhAm8A5kPZwhy-x6ntT7_GBA2xZA,16902
+ffmpeg_bitrate_stats/log.py,sha256=zTa_qSuWZnwHRihCKTQHoSw72YFY9WrhBiJBoESk0bQ,890
+ffmpeg_bitrate_stats/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ffmpeg_bitrate_stats-1.1.1.dist-info/LICENSE.md,sha256=8nySyAfLjQzm6JufeLtSTpXVZpOyOwrQFIM6dHsYGmg,1085
+ffmpeg_bitrate_stats-1.1.1.dist-info/METADATA,sha256=OCQBKvxulHkGUo4_FF4W-xBIzwQfdlb_akhieh7s4Eg,15871
+ffmpeg_bitrate_stats-1.1.1.dist-info/WHEEL,sha256=fS9sRbCBHs7VFcwJLnLXN1MZRR0_TVTxvXKzOnaSFs8,110
+ffmpeg_bitrate_stats-1.1.1.dist-info/entry_points.txt,sha256=BCjt9KgtRuMfttr71kzr94cdxptGU1_AZDKVdp78c-c,76
+ffmpeg_bitrate_stats-1.1.1.dist-info/top_level.txt,sha256=T_X8TJJr7SWeQk1mKnFPWjX7fuh-muj4_BP7zF_QDyY,21
+ffmpeg_bitrate_stats-1.1.1.dist-info/RECORD,,
