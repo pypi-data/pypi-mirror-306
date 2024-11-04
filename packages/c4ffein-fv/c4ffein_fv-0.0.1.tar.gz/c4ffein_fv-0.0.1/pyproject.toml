@@ -1,0 +1,18 @@
+[project]
+name = "c4ffein-fv"
+version = "0.0.1"
+authors = [
+  { name="c4ffein", email="c4ffein@gmail.com" },
+]
+description = "KISS Python e2e encrypted FileVault based on gpg"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/c4ffein/fv"
+Issues = "https://github.com/c4ffein/fv"
