@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/decentryk_qr/__init__.py
+src/decentryk_qr/cli.py
+src/decentryk_qr/qr_processor.py
+src/decentryk_qr.egg-info/PKG-INFO
+src/decentryk_qr.egg-info/SOURCES.txt
+src/decentryk_qr.egg-info/dependency_links.txt
+src/decentryk_qr.egg-info/entry_points.txt
+src/decentryk_qr.egg-info/requires.txt
+src/decentryk_qr.egg-info/top_level.txt
+src/decentryk_qr/tests/__init__.py
+src/decentryk_qr/tests/test_qr_processor.py

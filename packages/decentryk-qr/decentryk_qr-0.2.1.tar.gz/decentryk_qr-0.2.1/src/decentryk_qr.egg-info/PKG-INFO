@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: decentryk_qr
+Version: 0.2.1
+Summary: A package for combining and verifying QR codes using cryptographic hashes
+Home-page: https://github.com/yourusername/decentryk_qr
+Author: Zac Weigold
+Author-email: zacweigold@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click>=7.1.2
+Requires-Dist: qrcode>=7.4.2
+Requires-Dist: Pillow>=10.0.0
+Requires-Dist: opencv-python>=4.8.0.74
+Requires-Dist: numpy>=1.24.3
+
+# DecentryK QR
+
+A Python package for combining and verifying QR codes using cryptographic hashes.
+
+## Installation
+
+```bash
+pip install decentryk_qr
+```
+
+## Usage
+
+### Command Line Interface
+
+Combine two QR codes:
+```bash
+decentryk_qr combine --files qr_1.png qr_2.png
+```
+
+### Python API
+
+```python
+from decentryk_qr import QRHashCombiner
+
+# Create processor instance
+processor = QRHashCombiner()
+
+# Combine QR codes
+combined_hash, hash_data = processor.process_qr_codes(
+    'qr_1.png', 
+    'qr_2.png', 
+    'output.png'
+)
+```
+
+## Features
+
+- Combine two QR codes using cryptographic hashing
+- Generate a new QR code containing the combined hash
+- Command-line interface for easy use
+- Python API for integration into other projects
+
+## Requirements
+
+- Python 3.6+
+- OpenCV
+- qrcode
+- Pillow
+- numpy
+- click
+
+## License
+
+MIT License
+
+## Author
+
+Zac Weigold
