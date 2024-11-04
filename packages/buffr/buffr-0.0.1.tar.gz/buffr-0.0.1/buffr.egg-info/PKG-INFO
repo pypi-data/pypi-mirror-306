@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: buffr
+Version: 0.0.1
+Summary: Collect objects and apply a function once the buffer is full or expired
+Author-email: Mike Huls <mikehuls42@gmail.com>
+Project-URL: Homepage, https://github.com/mike-huls/cachr
+Project-URL: Bug Tracker, https://github.com/mike-huls/cachr/issues
+Project-URL: Documentation, https://github.com/mike-huls/cachr/blob/master/README.md/
+Project-URL: Changelog, https://github.com/mike-huls/cachr/blob/master/CHANGELOG.md/
+Project-URL: Source, https://github.com/mike-huls/cachr/
+Project-URL: Say Thanks!, https://www.buymeacoffee.com/mikehuls
+Keywords: uv,requirements,packaging
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
