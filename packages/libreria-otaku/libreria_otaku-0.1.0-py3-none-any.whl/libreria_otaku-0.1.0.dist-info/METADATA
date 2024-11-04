@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: libreria-otaku
+Version: 0.1.0
+Summary: Descripción breve de tu librería
+Home-page: https://github.com/mikelb/libreria_otaku
+Author: ola
+Author-email: mikelarturo.balleste@alumni.mondragon.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+hola
