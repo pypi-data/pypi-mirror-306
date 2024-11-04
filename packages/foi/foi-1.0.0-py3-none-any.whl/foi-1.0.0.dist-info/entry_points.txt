@@ -1,0 +1,2 @@
+[console_scripts]
+foi = foi.__main__:main
