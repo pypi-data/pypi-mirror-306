@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/python_fortune_cookie.egg-info/PKG-INFO
+src/python_fortune_cookie.egg-info/SOURCES.txt
+src/python_fortune_cookie.egg-info/dependency_links.txt
+src/python_fortune_cookie.egg-info/entry_points.txt
+src/python_fortune_cookie.egg-info/requires.txt
+src/python_fortune_cookie.egg-info/top_level.txt
+tests/test_fortune.py
