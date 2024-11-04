@@ -1,0 +1,14 @@
+__pycache__/
+__TEST__/
+htmlcov/
+.pytest_cache/
+dist/
+build/
+node_modules/
+.belat/
+output/
+
+*.pyc
+.coverage
+.coveragerc
+*.spec
