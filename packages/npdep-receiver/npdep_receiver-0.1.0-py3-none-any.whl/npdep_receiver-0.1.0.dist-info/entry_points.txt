@@ -1,0 +1,2 @@
+[console_scripts]
+npdep_receiver = npdep_receiver.__main__:main
