@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+starplugs/__init__.py
+starplugs/starplugs.py
+starplugs.egg-info/PKG-INFO
+starplugs.egg-info/SOURCES.txt
+starplugs.egg-info/dependency_links.txt
+starplugs.egg-info/requires.txt
+starplugs.egg-info/top_level.txt
