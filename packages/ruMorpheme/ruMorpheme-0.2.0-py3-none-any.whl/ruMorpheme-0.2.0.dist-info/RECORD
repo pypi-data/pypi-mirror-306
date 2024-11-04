@@ -1,0 +1,12 @@
+rumorpheme/__init__.py,sha256=NeJYMS44nrdmXefX086u0iJZqCqBYLEU4dL06lNRRrc,88
+rumorpheme/const.py,sha256=KxsEiYWP3x-mQQeX3cKj4GHzr0nZPxcKSSP3zt90MFQ,483
+rumorpheme/model.py,sha256=vPd1pMMjpcNQndOE1coQGqj778EApF9fdQx7PTvBrE8,6374
+rumorpheme/tokenizer.py,sha256=pGqk6c8lP9Qfa_jGUcWe0svrP6b06kOJNglWcWbbbSU,6411
+rumorpheme/utils/__init__.py,sha256=I1wXts8MrUqoVEzaHbHnjV1p7ZpQjX59kIH1yt0yhvw,92
+rumorpheme/utils/labels_to_morphemes.py,sha256=3YJK-tFUH3JqDACJG_doaOC7T0hRo6YgeoLtyWEmqUk,2595
+rumorpheme/utils/prepare_data.py,sha256=znVl-8Lr8IBdnPFAmcTnxqnOcDhrC_XM2iTQvU0fFcQ,552
+ruMorpheme-0.2.0.dist-info/LICENSE,sha256=bEuIQaI8-vOp-juyMTTNSGAcWM8kxtdmaZIojKecvpc,1068
+ruMorpheme-0.2.0.dist-info/METADATA,sha256=QmtL8bPze3J_kGxMH0D3IfvKwKL1NmG9je8V44mHzJw,7889
+ruMorpheme-0.2.0.dist-info/WHEEL,sha256=OVMc5UfuAQiSplgO0_WdW7vXVGAt9Hdd6qtN4HotdyA,91
+ruMorpheme-0.2.0.dist-info/top_level.txt,sha256=isu3WdedVpUUuiEYqR2f91fj0lJQYGX0tOoFbEjjQjo,11
+ruMorpheme-0.2.0.dist-info/RECORD,,
