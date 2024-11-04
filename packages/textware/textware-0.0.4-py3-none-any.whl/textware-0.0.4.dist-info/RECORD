@@ -1,0 +1,9 @@
+textware/__init__.py,sha256=GtpTmXtM6bmV5VGKfPbboXPHfiAxu7Nk1DZMCzqDoqY,6
+textware/core/__init__.py,sha256=JQXxL7VUdYMRb_CP8aB4uVIB7gM16ugj19gxDhj0Np8,336
+textware/core/batching/batchmaker.py,sha256=S6YtUFYXWXu5cC9GnIU1V0DQowSXpff05NIqgQOr0Mg,2403
+textware/core/counting/counter.py,sha256=Ag-6n2pCl9C7bO2CstkwDUGMTrTiUVz9QIpT08pnH8k,2189
+textware/core/counting/nested_counter.py,sha256=ozdS6_6B0xa0bzzKwQSF3Ks5xC-q4NKS0Ih-LTiJr9U,11570
+textware/core/transprocessing/base_processor.py,sha256=eOr9BJPYo1WBeyswCwj1-ZlcFyimPL4Xbvy8Aio8h_4,5239
+textware-0.0.4.dist-info/METADATA,sha256=Stud5McQ_8a6ltrUrfq-39FnblNagXrlJAHu39c8jh0,487
+textware-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+textware-0.0.4.dist-info/RECORD,,
