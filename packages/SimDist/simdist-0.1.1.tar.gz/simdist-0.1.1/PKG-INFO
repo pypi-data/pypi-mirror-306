@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: SimDist
+Version: 0.1.1
+Summary: Probability distributions for simulations in Python.
+Author-Email: galenseilis <galen.seilis@seilis.ca>
+License: Apache-2.0
+Requires-Python: >=3.10
+Requires-Dist: numpy>=2.1.2
+Description-Content-Type: text/markdown
+
+# SimDist
+Probability distributions for simulations in Python.
