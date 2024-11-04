@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dottoml"
+version = "0.2.0"
+license = "MIT"
+description = "Environment in TOML format."
+authors = ["gaojian <olivetree123@163.com>"]
+readme = "README.md"
+homepage = "https://github.com/olivetree123/dottoml"
+documentation = "https://github.com/olivetree123/dottoml"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tomli = "2.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
