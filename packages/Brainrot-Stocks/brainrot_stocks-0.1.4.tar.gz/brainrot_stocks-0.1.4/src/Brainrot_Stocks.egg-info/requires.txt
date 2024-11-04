@@ -1,0 +1,9 @@
+pandas
+requests
+python-dotenv
+numpy
+matplotlib
+datetime
+
+[dev]
+pytest
