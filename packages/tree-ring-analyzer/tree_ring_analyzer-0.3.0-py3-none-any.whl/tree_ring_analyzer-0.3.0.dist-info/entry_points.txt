@@ -1,0 +1,2 @@
+[console_scripts]
+tree-ring-analyzer = treeringanalyzer.cli:main
