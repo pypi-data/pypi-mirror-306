@@ -1,0 +1,3 @@
+[console_scripts]
+emptycopy=emptycopy.cli:cli
+
