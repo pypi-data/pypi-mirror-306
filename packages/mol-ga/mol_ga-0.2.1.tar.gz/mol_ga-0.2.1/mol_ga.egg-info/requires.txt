@@ -1,0 +1,7 @@
+numpy
+rdkit
+joblib
+
+[dev]
+pytest
+pre-commit
