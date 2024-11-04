@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: projen_modules
+Version: 0.1.4
+Summary: A collection of projen modules
+Home-page: https://github.com/daveshepherd/projen-modules.git
+Author: Dave Shepherd<dave.shepherd@endor.me.uk>
+License: Apache-2.0
+Project-URL: Source, https://github.com/daveshepherd/projen-modules.git
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: constructs==10.4.2
+Requires-Dist: jsii<2.0.0,>=1.104.0
+Requires-Dist: projen==0.90.0
+Requires-Dist: publication>=0.0.3
+Requires-Dist: typeguard<4.3.0,>=2.13.3
+
+# projen-modules
+
+A collection of custom projen modules, that can be used to bootstrap and maintain consistent project configuration, tooling, dependencies, and builds.
+
+## Getting Started
+
+```sh
+yarn install
+npx projen build
+```
+
+## Creating a New Project
+
+```
+npx projen new NpmPackage --from projen-project
+```
