@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: github-actions-cdk.cdktf
+Version: 0.0.20
+Summary: A TypeScript library for creating and managing GitHub Actions workflows using Constructs, enabling type-safe and modular CI/CD automation.
+Home-page: https://github.com/hupe1980/github-actions-cdk.git
+Author: hupe1980
+License: MIT
+Project-URL: Source, https://github.com/hupe1980/github-actions-cdk.git
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cdktf<0.21.0,>=0.20.9
+Requires-Dist: constructs<11.0.0,>=10.4.2
+Requires-Dist: github-actions-cdk<0.0.21,>=0.0.20
+Requires-Dist: jsii<2.0.0,>=1.104.0
+Requires-Dist: publication>=0.0.3
+Requires-Dist: typeguard<4.3.0,>=2.13.3
+
+# @github-actions-cdk/cdktf
+
+## Contributing
+
+Contributions are welcome! Please read the [CONTRIBUTING.md](../../CONTRIBUTING.md) for details on how to get involved.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](../../LICENCE) file for more information.
