@@ -1,0 +1,15 @@
+[project]
+name = "arxette"
+version = "0.1.1"
+description = "arx model fit with ols and nll"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.1.2",
+    "scipy>=1.14.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.3",
+]
