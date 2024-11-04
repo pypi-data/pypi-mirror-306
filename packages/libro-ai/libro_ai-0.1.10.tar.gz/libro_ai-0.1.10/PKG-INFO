@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: libro-ai
+Version: 0.1.10
+Summary: libro ai
+Author-email: brokun <brokun0128@gmail.com>, sunshinesmilelk <1176136681@qq.com>, zhanba <c5e1856@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: ipython>=7.34.0
+Requires-Dist: langchain-community>=0.3.2
+Requires-Dist: langchain-openai>=0.2.2
+Requires-Dist: langchain>=0.3.3
+Requires-Dist: libro-core>=0.1.5
+Requires-Dist: nbclient>=0.10.0
+Requires-Dist: pydantic>=2.6.4
+Requires-Dist: requests>=2.31.0
+Description-Content-Type: text/markdown
+
+# libro-ai
