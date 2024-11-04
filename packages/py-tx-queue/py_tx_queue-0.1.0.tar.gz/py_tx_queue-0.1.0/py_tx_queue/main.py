@@ -1,0 +1,2 @@
+class PyTxQueue:
+    pass

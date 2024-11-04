@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "py-tx-queue"
+version = "0.1.0"
+description = "Atomic, transaction-safe, robust job queueing for Python applications. Backed by PostgreSQL and built to scale."
+authors = ["2pac <tarasyaremabcn@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "py_tx_queue" },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
