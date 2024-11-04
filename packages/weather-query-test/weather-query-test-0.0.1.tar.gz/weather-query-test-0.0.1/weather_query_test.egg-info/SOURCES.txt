@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+weather_query/__init__.py
+weather_query/client.py
+weather_query/preprocess.py
+weather_query/setting.py
+weather_query_test.egg-info/PKG-INFO
+weather_query_test.egg-info/SOURCES.txt
+weather_query_test.egg-info/dependency_links.txt
+weather_query_test.egg-info/requires.txt
+weather_query_test.egg-info/top_level.txt
