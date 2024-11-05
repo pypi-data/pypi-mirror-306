@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pi_optimal"
+version = "0.0.0"
+description = "A placeholder for the pi_optimal package"
+authors = ["pi_optimal <hello@pi-optimal.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/pi-optimal/pi-optimal"  # Update as needed
+repository = "https://github.com/pi-optimal/pi-optimal"  # Update as needed
+keywords = ["reinforcement learning", "pi_optimal"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
