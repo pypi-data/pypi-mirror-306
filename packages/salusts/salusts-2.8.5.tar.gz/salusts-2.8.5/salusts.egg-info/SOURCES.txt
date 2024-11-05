@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+salusts/__init__.py
+salusts/__main__.py
+salusts/nfo.py
+salusts/readwrite.py
+salusts/tools.py
+salusts.egg-info/PKG-INFO
+salusts.egg-info/SOURCES.txt
+salusts.egg-info/dependency_links.txt
+salusts.egg-info/top_level.txt
