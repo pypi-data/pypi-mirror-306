@@ -1,0 +1,10 @@
+pandas
+scikit-learn
+PyQt5==5.15.11
+numpy
+wget
+cooler
+pomegranate==0.15.0
+matplotlib
+sortedcontainers
+scikit-image
