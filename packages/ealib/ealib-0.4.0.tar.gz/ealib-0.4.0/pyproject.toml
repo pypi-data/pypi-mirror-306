@@ -1,0 +1,39 @@
+[project]
+authors = [
+    {name = "Jérémie DECOCK", email = "jd.jdhp@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries",
+]
+description = "An open source Python library for mathematical optimization"
+dynamic = ["dependencies"]
+name = "ealib"
+readme = "README.rst"
+requires-python = ">=3.11"
+version = "0.4.0"
+
+# [project.scripts]
+# SCRIPT_NAME = "SCRIPT_PATH:SCRIPT_FUNCTION"
+
+[build-system]
+requires = [
+    'setuptools',
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = [
+    "ealib",
+    "ealib.functions",
+    "ealib.minimizers",
+    "ealib.utils",
+]
+
+# Use requirements.txt to setup dependencies (c.f. https://stackoverflow.com/a/73600610)
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
