@@ -1,0 +1,11 @@
+processional/__init__.py,sha256=UpL_NkCy0ctm-MjVwzj60-kEok21FqBGqQBM28K8trU,6216
+processional/__main__.py,sha256=mEvHxrxPUIIeXWNI8CUq7LWlMG7mdBrnpaA0fZBDwsc,2273
+processional/connection.py,sha256=1o1R9goxoyWHHeqsL4vOFiomzkq_MO-gLPYveoX_ZOk,3491
+processional/host.py,sha256=dBdFuOeqLHrCFQAfeB0ovgm0Csn-968GyH9H1wczqgQ,7371
+processional/processing.py,sha256=5UqkgNMuQbqeLzS_TcxcsJCpQ5VnqoHWk2ZFds_e8fY,26601
+processional/shared.py,sha256=3Obme35i8-OsEMChWsgqvIHF6uGVd69u9JOjuFGWqHU,8749
+processional/threading.py,sha256=-JmqhlwrHz8NWwU7gr36RxoVJ8wfTfMtesaa0rWqc5Q,14240
+processional-0.1.1.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+processional-0.1.1.dist-info/METADATA,sha256=WaDONXYwYrSB0J0AGTRaG_0p5Aey1lsUeMNHib-p-vk,9435
+processional-0.1.1.dist-info/WHEEL,sha256=YxM3tSmuuzPARtqHgFjwYakaXJ7nMa2TMsK_1H5JEok,93
+processional-0.1.1.dist-info/RECORD,,
