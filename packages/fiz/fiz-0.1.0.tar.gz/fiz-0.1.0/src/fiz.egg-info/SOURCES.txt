@@ -1,0 +1,6 @@
+setup.py
+src/fiz.egg-info/PKG-INFO
+src/fiz.egg-info/SOURCES.txt
+src/fiz.egg-info/dependency_links.txt
+src/fiz.egg-info/entry_points.txt
+src/fiz.egg-info/top_level.txt
