@@ -1,0 +1,2 @@
+[console_scripts]
+tnf = name_register:main
