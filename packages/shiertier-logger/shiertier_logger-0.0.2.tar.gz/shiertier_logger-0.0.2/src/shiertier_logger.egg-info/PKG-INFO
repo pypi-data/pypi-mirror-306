@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: shiertier_logger
+Version: 0.0.2
+Summary: A simple logger for Python.
+Author-email: shiertier <junjie.text@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 shiertier
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru
+
+# shiertier_logger
+
+English | [中文](https://github.com/shiertier-utils/shiertier_logger/blob/main/README_zh.md)
+
+## Introduction
+
+`shiertier_logger` is a Python logging utility designed to simplify logging with internationalization (i18n) support. It integrates seamlessly with the `loguru` library and provides a straightforward interface for logging messages in different languages. The library also supports automatic log file rotation and configuration via environment variables.
+
+## Installation
+
+You can install `shiertier_logger` via `pip`:
+
+```bash
+pip install git+https://github.com/shiertier/shiertier_logger.git
+```
+
+Please note that this project is still under development.
+
+## Usage
+
+### Initialization
+
+The logger is automatically initialized when you import the module. The log files are stored in the directory specified by the `LOG_DIR` environment variable, or in the `.shiertier/logs` directory under the user's home directory if `LOG_DIR` is not set.
+
+```python
+from shiertier_logger import logger
+
+# or use Logger_I18n, need shiertier_i18n support
+from shiertier_logger import easy_logger_i18n
+```
+
+### Logging Messages
+
+You can use the `easy_logger_i18n` object to log messages with translation support:
+
+```python
+easy_logger_i18n.info("Hello, world!")
+```
+
+You can also pass a dictionary to replace placeholders in the logged message:
+
+```python
+easy_logger_i18n.info("Hello, $$name$$!", replace_dict={'$$name$$': 'Alice'})
+```
+
+### Available Methods
+
+- `info(message: str, replace_dict: Dict[str, Any] = None) -> None`
+- `debug(message: str, replace_dict: Dict[str, Any] = None) -> None`
+- `warning(message: str, replace_dict: Dict[str, Any] = None) -> None`
+- `error(message: str, replace_dict: Dict[str, Any] = None) -> None`
+
+### Configuration
+
+#### Log Directory
+
+By default, the log files are stored in the directory specified by the `LOG_DIR` environment variable. If `LOG_DIR` is not set, it defaults to the `.shiertier/logs` directory under the user's home directory.
+
+You can set the `LOG_DIR` environment variable to specify a different directory:
+
+```bash
+export LOG_DIR=/path/to/logs
+```
+
+#### Log Level
+
+The log level can be configured via the `LOG_LEVEL` environment variable. The default log level is `INFO`.
+
+You can set the `LOG_LEVEL` environment variable to specify a different log level:
+
+```bash
+export LOG_LEVEL=DEBUG
+```
+
+#### Log to System Output
+
+By default, the logger logs to both a file and the system output (stdout). You can disable logging to the system output by setting the `LOG_SYS` environment variable to `False`.
+
+```bash
+export LOG_SYS=False
+```
+
+## Dependencies
+
+- `loguru`
+- `shiertier_i18n` (optional, for translation support)
+
+## License
+
+This project is released under the MIT License. See the [LICENSE](LICENSE) file for details.

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/shiertier_logger.egg-info/PKG-INFO
+src/shiertier_logger.egg-info/SOURCES.txt
+src/shiertier_logger.egg-info/dependency_links.txt
+src/shiertier_logger.egg-info/requires.txt
+src/shiertier_logger.egg-info/top_level.txt
