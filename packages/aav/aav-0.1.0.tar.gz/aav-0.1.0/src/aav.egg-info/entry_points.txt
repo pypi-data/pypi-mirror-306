@@ -1,0 +1,2 @@
+[console_scripts]
+aav = name_register:main

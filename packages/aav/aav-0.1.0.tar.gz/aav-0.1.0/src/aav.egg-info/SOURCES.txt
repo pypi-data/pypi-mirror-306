@@ -1,0 +1,6 @@
+setup.py
+src/aav.egg-info/PKG-INFO
+src/aav.egg-info/SOURCES.txt
+src/aav.egg-info/dependency_links.txt
+src/aav.egg-info/entry_points.txt
+src/aav.egg-info/top_level.txt
