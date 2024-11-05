@@ -1,0 +1,50 @@
+cmake_minimum_required(VERSION 3.10)
+project(image-io)
+
+# Needed for clang-tidy post process
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# add flag -fPIC for binding compiling library
+add_compile_options("$<$<COMPILE_LANGUAGE:CXX>:-fPIC>" "$<$<COMPILE_LANGUAGE:C>:-fPIC>")
+
+# Build everything as static for MinGW to avoid any DLL dependency
+if(MINGW OR MSYS)
+    link_libraries("-static -static-libgcc -static-libstdc++")
+    add_compile_options("$<$<COMPILE_LANGUAGE:CXX>:-std=c++17>")
+endif()
+
+if("${CMAKE_CXX_COMPILER_ID}" STREQUAL "AppleClang" OR "${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
+    add_compile_options("$<$<COMPILE_LANGUAGE:CXX>:-std=c++17>")
+    link_libraries("-framework CoreServices")
+endif()
+
+if("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
+    add_compile_options("$<$<COMPILE_LANGUAGE:CXX>:-march=haswell>")
+    add_compile_options("$<$<COMPILE_LANGUAGE:CXX>:-std=gnu++17>")
+endif()
+
+SET(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
+
+# WR for CI pass the M_PI missing issue
+add_definitions(-D_USE_MATH_DEFINES)
+
+include(FetchContent)
+FetchContent_Declare(
+    pybind11
+    GIT_REPOSITORY "https://github.com/pybind/pybind11.git"
+    GIT_TAG "v2.13.6"
+)
+FetchContent_MakeAvailable(pybind11)
+
+FetchContent_Declare(
+    cxx-image
+    GIT_REPOSITORY "https://github.com/sygslhy/cxx-image.git"
+    GIT_TAG "test-msys" #  Sep 16, 2024
+)
+FetchContent_MakeAvailable(cxx-image)
+
+
+add_subdirectory(cxx_image_io/binding)
