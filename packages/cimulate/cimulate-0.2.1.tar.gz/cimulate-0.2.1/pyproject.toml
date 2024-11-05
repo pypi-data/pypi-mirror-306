@@ -1,0 +1,25 @@
+[project]
+name = "cimulate"
+description = "Easy electrical circuit simulations in Python"
+version = "0.2.1"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Knut Magnus Aasrud", email = "km@aasrud.com" }]
+requires-python = ">=3.10"
+
+
+[project.urls]
+Homepage = "https://codeberg.org/kmaasrud/cimulate"
+Issues = "https://codeberg.org/kmaasrud/cimulate/issues"
+
+[build-system]
+requires = ["setuptools", "setuptools-rust", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = { where = ["python"] }
+
+[[tool.setuptools-rust.ext-modules]]
+target = "cimulate"
+path = "./Cargo.toml"
+features = ["python"]
