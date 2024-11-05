@@ -1,0 +1,10 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/azdlocal.py,sha256=DlqC8PKiPBMXVikCpnT1cfViVxyAvXhbD4WPvAmCjyg,2220
+src/azlocal.py,sha256=qghfWZgSelZ-bFg4a3R_RwlCVQrDeJs_bYhPhj1hOOY,2258
+src/shared.py,sha256=kslIWfNnlKa1nB1cmCPz-R5K1q3qG6gVlR9o1Inwqrg,962
+azlocal-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+azlocal-0.0.4.dist-info/METADATA,sha256=RHyHXKz8gkYq48SCH9H0VG9sKn_DISrNFaKKBvzcpEQ,13731
+azlocal-0.0.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+azlocal-0.0.4.dist-info/entry_points.txt,sha256=OqPx87_Ulv4Q7y3IFYUrFEPF1iHDy-1VbmQlGRAHjPs,74
+azlocal-0.0.4.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+azlocal-0.0.4.dist-info/RECORD,,
