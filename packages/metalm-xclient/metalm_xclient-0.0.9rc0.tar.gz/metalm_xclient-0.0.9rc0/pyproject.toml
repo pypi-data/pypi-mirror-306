@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "metalm-rt"
+version = "0.1.0"
+description = "MetaLM 模型服务管理平台"
+authors = ["jueyuan <jueyuan.clc@xuelangyun.com>"]
+readme = "README.md"
+repository = "https://gitlab.xuelangyun.com/MetaLM/MetaLM-RT.git"
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tritonclient={extras = ["grpc", "http"], version = "^2.46.0"}
+protobuf = "^3.5.0"
+orjson="^3.6.8"
+reretry = "^0.11.1"
+attrs = "^21.2.0"
+langchain_core = "^0.2.1"
+setuptools = "^48"
+wheel = "^0.29.0"
+gevent = "^24.2.1"
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "default"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
