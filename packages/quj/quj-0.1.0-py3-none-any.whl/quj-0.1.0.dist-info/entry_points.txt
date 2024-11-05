@@ -1,0 +1,2 @@
+[console_scripts]
+quj = name_register:main
