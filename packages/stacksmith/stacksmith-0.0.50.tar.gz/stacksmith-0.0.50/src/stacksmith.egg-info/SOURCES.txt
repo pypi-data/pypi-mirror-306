@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/stacksmith/__init__.py
+src/stacksmith/cli.py
+src/stacksmith/core.py
+src/stacksmith.egg-info/PKG-INFO
+src/stacksmith.egg-info/SOURCES.txt
+src/stacksmith.egg-info/dependency_links.txt
+src/stacksmith.egg-info/entry_points.txt
+src/stacksmith.egg-info/top_level.txt
