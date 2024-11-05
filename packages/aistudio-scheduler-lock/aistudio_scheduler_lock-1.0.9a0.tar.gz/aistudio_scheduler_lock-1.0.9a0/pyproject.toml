@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aistudio-scheduler-lock"
+version = "1.0.9a"
+description = "Implements a distributed locking scheme for schedulers running on HA mode."
+authors = ["Yogesh Ketkar <yogesh.ketkar@automationedge.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2"
+django-apscheduler = "0.6.2"
+setuptools = "65.5.1"
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
