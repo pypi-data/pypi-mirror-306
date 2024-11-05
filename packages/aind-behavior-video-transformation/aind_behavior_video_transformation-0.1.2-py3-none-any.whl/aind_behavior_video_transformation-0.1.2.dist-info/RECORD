@@ -1,0 +1,9 @@
+aind_behavior_video_transformation/__init__.py,sha256=GeOPz4kLsXdKuDaHs6EKbib402qqVZb-5I18yj2iqWI,289
+aind_behavior_video_transformation/etl.py,sha256=DPlAM0r5dPPNTldMMBdA7lhZVX8HA-NisEGE_lg8oZo,4150
+aind_behavior_video_transformation/filesystem.py,sha256=_UEyqpMi9ob2X1DYqMXmLV_NiqYNdM_MWaF5HPp7MaY,4232
+aind_behavior_video_transformation/transform_videos.py,sha256=WowKBsT464Tkt_7E9xCw1zGd9WhBD6ht8OWkU_N1BwA,7100
+aind_behavior_video_transformation-0.1.2.dist-info/LICENSE,sha256=U0Y7B3gZJHXpjJVLgTQjM8e_c8w4JJpLgGhIdsoFR1Y,1092
+aind_behavior_video_transformation-0.1.2.dist-info/METADATA,sha256=xzSnIHH4Y-xVs1-_b-bf4CyyVfs5aHOAJ5nvwKxxVvE,8805
+aind_behavior_video_transformation-0.1.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+aind_behavior_video_transformation-0.1.2.dist-info/top_level.txt,sha256=BT9HVoInkNwkpuwtQvjMD4eFc17-KZDyPKxs_PhliX0,35
+aind_behavior_video_transformation-0.1.2.dist-info/RECORD,,
