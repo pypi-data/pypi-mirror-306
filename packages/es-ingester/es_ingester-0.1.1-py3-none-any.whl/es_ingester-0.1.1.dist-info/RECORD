@@ -1,0 +1,7 @@
+es_ingester/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+es_ingester/core.py,sha256=Ia1Ap-mUsDrqcz_vQ9y7dw8KxuWjLYXp9TblimIdVL4,6058
+es_ingester-0.1.1.dist-info/METADATA,sha256=UbnA5UDu0i01aRRU2MO4C8atC-t1helv24uEn08rYH0,3766
+es_ingester-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+es_ingester-0.1.1.dist-info/entry_points.txt,sha256=mEltYi3cGRylZkv8x-DBfoO6fqXGcCLGJoWQzmyhBEg,54
+es_ingester-0.1.1.dist-info/top_level.txt,sha256=rExKad0CyQW2rafvMozkGmfQYVWGHoHF6oDzqhTJf7M,12
+es_ingester-0.1.1.dist-info/RECORD,,
