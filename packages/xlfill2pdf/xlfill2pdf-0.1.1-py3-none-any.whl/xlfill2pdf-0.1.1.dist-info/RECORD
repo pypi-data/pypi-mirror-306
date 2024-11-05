@@ -1,0 +1,6 @@
+xlfill2pdf/__init__.py,sha256=5xvN_gb61nKeq5TER5dSfcArTP3DVasZGN_MQq5dNpA,23
+xlfill2pdf/core.py,sha256=ojjnfSTrxuTZDbshoApJ2k7ILbxAzypG-4ED9QfxlCo,14827
+xlfill2pdf/fonts/default.ttf,sha256=lc5Ahc2Ys0gasNeFkZKOUmLw-lznY1ZqI9xQms0WzOw,1573656
+xlfill2pdf-0.1.1.dist-info/METADATA,sha256=5ThVEgYLBEv2FVZya4ncUrQ0ZDO1o9_9Ff3RGpLP9u0,4291
+xlfill2pdf-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+xlfill2pdf-0.1.1.dist-info/RECORD,,
