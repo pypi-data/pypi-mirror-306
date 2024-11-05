@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+settings.ini
+setup.py
+foodplate/__init__.py
+foodplate/_modidx.py
+foodplate/core.py
+foodplate.egg-info/PKG-INFO
+foodplate.egg-info/SOURCES.txt
+foodplate.egg-info/dependency_links.txt
+foodplate.egg-info/entry_points.txt
+foodplate.egg-info/not-zip-safe
+foodplate.egg-info/requires.txt
+foodplate.egg-info/top_level.txt
