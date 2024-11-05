@@ -1,0 +1,14 @@
+quotientai/__init__.py,sha256=EM2hsIQIARyDzHwu0Y2BOCbtIyf24aZ3X_GrHaN6eU8,127
+quotientai/cli/__init__.py,sha256=__99UeL_4_wHsX3BwHu5X-Irs_SKzaIih6t57ZdDO5w,47
+quotientai/cli/entrypoint.py,sha256=lvk4h_SEMDJ-dkYpyiG7E73c-7bM8poJUP_UV155SLU,1657
+quotientai/client.py,sha256=withQm0toYUDSmVMtSMY-w5cbOA9htBSCophOthfyXk,2029
+quotientai/exceptions.py,sha256=hX8LGmxIFHlTFlMqfhXCARGZZHHH-nkhYr7zQv6w5JQ,6354
+quotientai/resources/__init__.py,sha256=es_i07y0UpWPC80fC0uvdcRXa5rQdTNcYyzQ7EaRgSQ,255
+quotientai/resources/datasets.py,sha256=jzZ-04J2iZKcV6xVIMLaoC4jQ9tAJVP_OtFxxfZw8Sg,12166
+quotientai/resources/models.py,sha256=fF6pUteS9EGfWhIxDGwj_FZI-UaxIRQ2wcYvA5Pbx0Y,878
+quotientai/resources/prompts.py,sha256=rhaSFs4EpyQmDtAqArrtuHL5asdJO2VCCS4wg3W2gzs,4585
+quotientai-0.1.0.dist-info/LICENSE,sha256=LO3hBBeoSorBuKNwZJL57ys3OhKL2uJ8IPKNyoF708g,11345
+quotientai-0.1.0.dist-info/METADATA,sha256=S41wux36fWyV6y-cfRpbW7XHihFy2w2_tfLxDhZ2X_Y,2044
+quotientai-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+quotientai-0.1.0.dist-info/entry_points.txt,sha256=1WEgzJAYdxH3MMUNay-u3iv0uAhhg6FJnNApUsYf-TQ,58
+quotientai-0.1.0.dist-info/RECORD,,

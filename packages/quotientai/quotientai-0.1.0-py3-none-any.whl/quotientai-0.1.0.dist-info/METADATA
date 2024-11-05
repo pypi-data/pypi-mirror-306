@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: quotientai
+Version: 0.1.0
+Summary: CLI for evaluating large language models with Quotient
+License: Apache-2.0
+Keywords: quotient,evaluation,llms,machine learning,ai
+Author: Vic Weiss
+Author-email: vic@quotientai.co
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# quotientai
+[![PyPI version](https://img.shields.io/pypi/v/quotientai)](https://pypi.org/project/quotientai)
+
+## Overview
+
+`quotientai` is an SDK and CLI built to manage artifacts (prompts, datasets), and run evaluations on [Quotient](https://quotientai.co).
+
+## Installation
+
+```console
+pip install quotientai
+```
+
+## Usage
+
+Create an API key on Quotient and set it as an environment variable called `QUOTIENT_API_KEY`. Then follow the examples below or see our [docs](https://docs.quotientai.co) for a more comprehensive walkthrough.
+
+### Examples
+
+**Create a prompt:**
+
+```python
+from quotientai import QuotientAI
+
+quotient = QuotientAI()
+
+new_prompt = quotient.prompts.create(
+    name="customer-support-inquiry"
+    system_prompt="You are a helpful assistant.",
+    user_prompt="How can I assist you today?"
+)
+
+print(new_prompt)
+```
+
+**Create a dataset:**
+
+```python
+from quotientai import QuotientAI
+
+quotient = QuotientAI()
+
+new_dataset = quotient.datasets.create(
+    name="my-sample-dataset"
+    description="My first dataset",
+    rows=[
+        {"input": "Sample input", "expected": "Sample output"},
+        {"input": "Another input", "expected": "Another output"}
+    ]
+)
+
+print(new_dataset)
+```
+
