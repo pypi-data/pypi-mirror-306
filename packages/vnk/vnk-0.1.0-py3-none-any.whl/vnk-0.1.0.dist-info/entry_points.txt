@@ -1,0 +1,2 @@
+[console_scripts]
+vnk = name_register:main
