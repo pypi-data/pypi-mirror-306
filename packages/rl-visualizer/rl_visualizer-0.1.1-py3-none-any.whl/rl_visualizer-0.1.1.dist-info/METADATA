@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: rl_visualizer
+Version: 0.1.1
+Summary: A package for visualizing action probabilities, entropy, and rewards in reinforcement learning models.
+Home-page: https://github.com/bdrhnsen/rl_visualizer
+Author: Bedirhan Sen
+Author-email: bdrhnsen@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: gymnasium
+Requires-Dist: gym
+
+# RL Visualizer
+
+RL Visualizer is a Python package for visualizing action probabilities, entropy, and rewards in reinforcement learning models.
+
+## Features
+
+- Visualize action probabilities as bar charts
+- Track entropy to monitor model uncertainty
+- Plot per-step rewards within a single episode
+- Compatible with Gym and Gymnasium environments
+
+## Installation
+
+```bash
+pip install rl-visualizer
