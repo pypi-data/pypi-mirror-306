@@ -1,0 +1,11 @@
+README.md
+setup.py
+./__init__.py
+./setup.py
+./hellokrshubh/__init__.py
+./hellokrshubh/libcalculatorpython.cp311-win_amd64.pyd
+./hellokrshubh/libcalculatorpython.cpython-311-darwin.so
+hellokrshubh.egg-info/PKG-INFO
+hellokrshubh.egg-info/SOURCES.txt
+hellokrshubh.egg-info/dependency_links.txt
+hellokrshubh.egg-info/top_level.txt
