@@ -1,0 +1,9 @@
+README.md
+setup.py
+tests/test_core.py
+wxswutilsapi/__init__.py
+wxswutilsapi/core.py
+wxswutilsapi.egg-info/PKG-INFO
+wxswutilsapi.egg-info/SOURCES.txt
+wxswutilsapi.egg-info/dependency_links.txt
+wxswutilsapi.egg-info/top_level.txt
