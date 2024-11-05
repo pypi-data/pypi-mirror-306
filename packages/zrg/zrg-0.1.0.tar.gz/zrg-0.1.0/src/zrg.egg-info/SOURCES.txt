@@ -1,0 +1,6 @@
+setup.py
+src/zrg.egg-info/PKG-INFO
+src/zrg.egg-info/SOURCES.txt
+src/zrg.egg-info/dependency_links.txt
+src/zrg.egg-info/entry_points.txt
+src/zrg.egg-info/top_level.txt
