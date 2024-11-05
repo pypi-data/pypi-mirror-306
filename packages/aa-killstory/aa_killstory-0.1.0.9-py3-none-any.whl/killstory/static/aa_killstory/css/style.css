@@ -1,0 +1,14 @@
+h1 {
+    color: #ff4500;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-bottom: 5px;
+}
