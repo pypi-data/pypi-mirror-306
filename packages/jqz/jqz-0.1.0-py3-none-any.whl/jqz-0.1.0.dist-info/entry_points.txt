@@ -1,0 +1,2 @@
+[console_scripts]
+jqz = name_register:main
