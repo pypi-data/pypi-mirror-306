@@ -1,0 +1,6 @@
+kube_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kube_module/memory_check.py,sha256=DBa4o9gaeNHb3G4tRlnTqJgusNrmYNgSWLUEhZQpATg,2884
+kube_module-0.1.0.dist-info/METADATA,sha256=nwIbvxidGzptO3WdThblyUAr-2SniMZEsu5ULDDJdEA,239
+kube_module-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+kube_module-0.1.0.dist-info/top_level.txt,sha256=Kvtw2YnUOz3VbOG6EYK7QFbsOeMxH-rUJBO6aS7sKDo,12
+kube_module-0.1.0.dist-info/RECORD,,
