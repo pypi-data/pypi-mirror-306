@@ -1,0 +1,12 @@
+ainconv/__init__.py,sha256=FY5y0zBzr0ZT0CpV_fAP0SIZD3ElUpaQNWRaht46Yuo,669
+ainconv/detection.py,sha256=608JLG1FFn_7zOWKGyQDDMMPutNId-mIwuXF55zr438,1634
+ainconv/syllable.py,sha256=DXRmThQYplSQqHYbBW59yA_-G9CA8CjTXUrTnxw4dOM,2111
+ainconv/utils.py,sha256=q8-ogzAf2n6BEauzgRu9lHwD8Ucl4h062la-m19hx0o,1096
+ainconv/conversion/cyrillic.py,sha256=OlTro_stAWd3maa1PXN-yP2brBerHbXVzlKOhc0D5Ig,2629
+ainconv/conversion/katakana.py,sha256=ZS__RTpQdnStyXUtXQpXPG6nfoqtoQLwkFXCY-E9Zng,11320
+ainconv/conversion/latin.py,sha256=OkIfSS7fd7P_Ng1SR9uh-TROvGqDGCL4pZNZ8Ef2E7w,491
+ainconv-0.6.0.dist-info/LICENSE,sha256=nm4VS494YSiCP1elY6zMaqn_j1DiSOmEoRxTxVjlHRc,1063
+ainconv-0.6.0.dist-info/METADATA,sha256=XCYjK-Z8-Wwjt9t876p3JC7EI_07B6TclsEedrklVMc,8532
+ainconv-0.6.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+ainconv-0.6.0.dist-info/top_level.txt,sha256=kyh3AYBI-auaokzGifUttTSyr0rO5CPuG5ZBtMDGKUY,8
+ainconv-0.6.0.dist-info/RECORD,,
