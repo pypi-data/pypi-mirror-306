@@ -1,0 +1,6 @@
+setup.py
+src/ezc.egg-info/PKG-INFO
+src/ezc.egg-info/SOURCES.txt
+src/ezc.egg-info/dependency_links.txt
+src/ezc.egg-info/entry_points.txt
+src/ezc.egg-info/top_level.txt
