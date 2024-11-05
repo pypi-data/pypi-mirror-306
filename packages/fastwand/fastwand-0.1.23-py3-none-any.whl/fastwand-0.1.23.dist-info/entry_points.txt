@@ -1,0 +1,2 @@
+[console_scripts]
+fastwand = fastwand.cli:app
