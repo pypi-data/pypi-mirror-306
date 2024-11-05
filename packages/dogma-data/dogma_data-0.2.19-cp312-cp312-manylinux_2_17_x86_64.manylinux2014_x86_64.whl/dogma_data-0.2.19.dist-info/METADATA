@@ -1,0 +1,73 @@
+Metadata-Version: 2.3
+Name: dogma-data
+Version: 0.2.19
+Requires-Dist: numpy
+Requires-Dist: awkward
+Requires-Dist: tqdm
+Requires-Dist: numba ==0.60
+Requires-Dist: blosc2
+Requires-Dist: smart-open
+Requires-Dist: click
+License-File: LICENSE
+Summary: Data processing for Dogma
+Keywords: single-cell,RNA-seq,embedding,pytorch,uce
+Author-email: Marcel Rød <roed@stanford.edu>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Project-URL: Homepage, https://github.com/marcelroed/dogma-data
+Project-URL: Repository, https://github.com/marcelroed/dogma-data.git
+
+# Dogma Data
+
+**Dogma Data** is a Python package built for fast and efficient parsing of FASTA files, optimized for high-performance computing. It leverages multi-threading to fully utilize all available system threads, enabling parallel processing. Additionally, the package supports exporting parsed data to the HDF5 file format for easy storage and access.
+
+## Installation
+
+To install Dogma Data, you can use **pip**:
+
+```bash
+pip install dogma-data
+```
+
+## Usage
+```python
+import dogma_data
+
+vocab = {
+    'a': 0,
+    'g': 1,
+    'c': 2,
+    't': 3,
+    ...
+}
+
+mapping = dogma_data.FastaMapping(vocab, vocab['a'])
+(tokens, sequences, (taxons)) = dogma_data.parse_fasta('input_path.fa', dogma_data.HeaderType.TaxonId, mapping)
+
+header_info = {"taxons": taxons}
+
+dogma_data.export_hdf5(
+    'output_path.h5',
+    dogma_data.Splitter(
+        train_prop=0.95,
+        val_prop=0.025,
+        test_prop=0.025,
+        length=len(sequences) - 1,
+    ),
+    tokens,
+    sequences,
+    header_info,
+    mapping
+)
+```
+
+## Requirements
+- Python 3.10
+  
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any questions, feel free to reach out:
+- **Marcel Rød** - roed@stanford.edu
+- **Miha Krajnc** - miha.krajnc@cs.stanford.edu
