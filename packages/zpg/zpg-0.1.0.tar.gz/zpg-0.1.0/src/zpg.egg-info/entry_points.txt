@@ -1,0 +1,2 @@
+[console_scripts]
+zpg = name_register:main
