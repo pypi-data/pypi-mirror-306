@@ -1,0 +1,4 @@
+funget>=1.0.20
+funsecret>=1.4.2
+orjson>=3.10.10
+tqdm>=4.66.5
