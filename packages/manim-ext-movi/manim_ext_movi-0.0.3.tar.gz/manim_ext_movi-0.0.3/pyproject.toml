@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "manim_ext_movi"
+authors = [
+	{name = 'Movimentum', email = 'movimentum.cave@gmail.com'}
+]
+description = 'Manim Community extension for Movimentum videos'
+readme = 'README.md'
+license = {text = 'CC BY-NC-SA 4.0'}
+dependencies = [
+  "manim>=0.18.1",
+]
+requires-python = ">= 3.9"
+keywords = ['manim', 'manim community', 'animation']
+version = '0.0.3'
+classifiers = [
+    "Development Status :: 4 - Beta",
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.9',
+    'Operating System :: OS Independent',
+    'Intended Audience :: Education',
+    'Intended Audience :: Science/Research',
+    'Natural Language :: Russian',
+]
+
+
+[tool.setuptools]
+include-package-data = false
+
+
+[tool.setuptools.package-data]
+"manim_ext_movi.creatures.assets" = ['*.svg']
+
+
+[project.urls]
+Homepage = "https://github.com/movimentum/manim_ext_movi"
+Repository = "https://github.com/movimentum/manim_ext_movi.git"
+Download = "https://pypi.org/project/manim-ext-movi/"
