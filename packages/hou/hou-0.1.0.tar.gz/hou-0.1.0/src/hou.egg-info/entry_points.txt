@@ -1,0 +1,2 @@
+[console_scripts]
+hou = name_register:main
