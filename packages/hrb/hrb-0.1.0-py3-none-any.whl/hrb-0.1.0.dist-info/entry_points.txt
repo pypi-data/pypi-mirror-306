@@ -1,0 +1,2 @@
+[console_scripts]
+hrb = name_register:main
