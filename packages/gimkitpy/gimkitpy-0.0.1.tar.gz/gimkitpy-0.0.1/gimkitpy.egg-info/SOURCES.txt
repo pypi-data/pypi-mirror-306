@@ -1,0 +1,6 @@
+setup.py
+gimkitpy/__init__.py
+gimkitpy.egg-info/PKG-INFO
+gimkitpy.egg-info/SOURCES.txt
+gimkitpy.egg-info/dependency_links.txt
+gimkitpy.egg-info/top_level.txt
