@@ -1,0 +1,17 @@
+vectortiles/VERSION.md,sha256=1R5uyUBYVUqEVYpbQC7m71_fVFXjXJAv7aYc2odSlDo,5
+vectortiles/__init__.py,sha256=vvCYBHVmix7IqYL6sZWLEizgjgkqK10i60dNLmQ1_Aw,185
+vectortiles/mixins.py,sha256=XKJjhvBM81TuIniDHosZKM5ilUgdmKsunmyGdJDnDIo,6269
+vectortiles/settings.py,sha256=QvK0HmRHTzFswxHEo2vngWf3MXZJ47yUnlPeESKOYYI,411
+vectortiles/views.py,sha256=ZTwCCs0iYPpR3maZlIFDiG30YnYtbzBTxFX_-oljgeE,976
+vectortiles/backends/__init__.py,sha256=zQsIpbW2T4DHRRzvZeq2V2zGJ7cl2Lk_HOUDW58Hols,2685
+vectortiles/backends/postgis/__init__.py,sha256=wbWaGRI-cEiZFCVRQknmju4Us5T-4jlghDiB5Kyneqw,2262
+vectortiles/backends/postgis/functions.py,sha256=PhRw0wUfn1FWOtFz5JvIeg_LujoBH9oBjHztJXRzaP4,891
+vectortiles/backends/python/__init__.py,sha256=P9fq7yvrHS9cUSYsE2-A4Cxhj1oVpduw_rpPsFU7imA,2079
+vectortiles/rest_framework/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vectortiles/rest_framework/renderers.py,sha256=AHJMMCeBvHb6b7D_vh7wM0D-LO01oqqhB4m759rKy5I,335
+vectortiles/rest_framework/views.py,sha256=ZgI5fTRVXq8nQYoiW_DLrXWxVX-jVnQRqftaaRJnEHw,488
+django_vectortiles-1.0.1.dist-info/LICENSE,sha256=erW_41CU5OwTQTJuVWLnmU2IS0IilFEMge_rIId8Rks,1080
+django_vectortiles-1.0.1.dist-info/METADATA,sha256=-y2q8ueoBlbQvoneraLoZDO32_aHbh4PZCeDvWX7vls,6358
+django_vectortiles-1.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+django_vectortiles-1.0.1.dist-info/top_level.txt,sha256=pieuiJ57nQNasiP2vLqI-sRlaabJbvZBgvg02Pl7tfw,12
+django_vectortiles-1.0.1.dist-info/RECORD,,
