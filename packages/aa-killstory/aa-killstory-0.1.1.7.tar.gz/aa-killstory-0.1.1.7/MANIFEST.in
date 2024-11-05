@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+recursive-include killstory/templates *
+recursive-include killstory/static *
+recursive-include killstory/migrations *
+recursive-include killstory/management *
+recursive-include killstory/management/commands *
