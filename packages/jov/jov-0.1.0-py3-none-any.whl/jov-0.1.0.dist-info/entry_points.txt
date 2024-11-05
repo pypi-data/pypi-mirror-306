@@ -1,0 +1,2 @@
+[console_scripts]
+jov = name_register:main
