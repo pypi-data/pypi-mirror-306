@@ -1,0 +1,12 @@
+pycorese/__init__.py,sha256=FWqKOLQpbRPW3ARLWMFazB0IDQpTB1rpk7gR_XVeb74,1213
+pycorese/api.py,sha256=G6CS4iZijV4y-Zf9h5pYEh7Lc-zpKvEskeCiR_B29jw,17576
+pycorese/corese_version.py,sha256=mSi-6S1BAb_mDacty0Sac7ocEPh_Z7HGw--WtOfoqGk,71
+pycorese/jpype_bridge.py,sha256=MEkXR6ZBQNIHuWWfs5xHZ7lkKYFOF7CZuL84nO-fkcI,6065
+pycorese/py4J_bridge.py,sha256=SMwZdBcwfusug5tB9lbe-00jQsUetmxv1LNio_349wo,5067
+pycorese-1.0.1.data/data/share/pycorese/corese-core-4.6.0-jar-with-dependencies.jar,sha256=KzbB9B4xGxjG2SW5WqOG1Efg4IgqkShhg7LfkixKBJQ,51647129
+pycorese-1.0.1.data/data/share/pycorese/corese-python-4.6.0-jar-with-dependencies.jar,sha256=f_a9qJSAXRH0aQrWFujxu27WqVPDqHpVZq2esyWN2a0,52232640
+pycorese-1.0.1.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+pycorese-1.0.1.dist-info/METADATA,sha256=QSxvi1pGmc8DjxAucoHlqq3RfR_oSNc1sZpSt48l8Bo,32021
+pycorese-1.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pycorese-1.0.1.dist-info/top_level.txt,sha256=owCYzdCnOS9BmuNB9MdtckVAhlQhClgCSR8flE6PuSc,9
+pycorese-1.0.1.dist-info/RECORD,,
