@@ -1,0 +1,10 @@
+kookvoice/__init__.py,sha256=q2mOrJqJzkMhOx9u5fIz6URaIF4W7txc2N1L33GBxEo,310
+kookvoice/kookvoice.py,sha256=Ou6OltfU6kDoORmagT3DEjxGZzbuK2XYL4UO4PsbuUg,16250
+kookvoice/requestor.py,sha256=YkoFf-nE18x2mJJg_n5hmLeAjRdWepI7U2KnXhHAwIA,970
+kookvoice/voice.py,sha256=SEIOLRMrCOanjbE7EPGz7uJuvEGJpPz5ozsJaeHq5JQ,5077
+kookvoice/voice_json.py,sha256=J3_9CsfNBBZVmV8kYS9yegNgraVKSdO7wRUaakdnTUA,1392
+kookvoice-0.1.0.dist-info/LICENSE,sha256=IT4F4EaQBQ1T6IInctbF14o3GpXPEKu4N8pRE2SYSYU,1086
+kookvoice-0.1.0.dist-info/METADATA,sha256=bQrIgEffSuD6ka7vWc6NMma0-9JotBNAGdHTXzlphTw,6913
+kookvoice-0.1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+kookvoice-0.1.0.dist-info/top_level.txt,sha256=-MgA696a4qBy4ooEsT1xx357IG-bZK2s2ZXLkzFiaKk,10
+kookvoice-0.1.0.dist-info/RECORD,,
