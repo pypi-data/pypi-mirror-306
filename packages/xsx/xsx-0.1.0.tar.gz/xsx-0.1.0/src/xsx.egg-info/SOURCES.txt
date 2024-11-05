@@ -1,0 +1,6 @@
+setup.py
+src/xsx.egg-info/PKG-INFO
+src/xsx.egg-info/SOURCES.txt
+src/xsx.egg-info/dependency_links.txt
+src/xsx.egg-info/entry_points.txt
+src/xsx.egg-info/top_level.txt
