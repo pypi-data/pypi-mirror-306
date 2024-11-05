@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel", "pandas"]
+
+[project]
+name = "open-analytics"
+dependencies = ["pandas", "requests"]
+authors = [{ name = "Lakitha Samarasinghe", email = "Lakitharav@gmail.com" }]
+description = "Open sournce application analytics tracking library"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["analytics", "tracking", "tracing", "logging"]
+license = { text = "Apache License v2.0" }
+version = "0.1.0"
+
+[project.urls]
+Homepage = "https://github.com/LakithaRav/open-analytics"
