@@ -1,0 +1,2 @@
+[console_scripts]
+csv2ies = csv2ies.csv2ies:main

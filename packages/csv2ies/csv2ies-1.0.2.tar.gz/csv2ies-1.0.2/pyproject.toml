@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=59.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csv2ies"
+version = "1.0.2"
+authors = [
+  { name="Jan Arman Parpin", email="parpin@sitepark.com" },
+]
+description = "Import users from a CSV file into IES"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows"
+]
+dependencies = ["requests"]
+
+[project.urls]
+"Homepage" = "https://gitlab.sitepark.com/internal/csv2ies"
+"Bug Tracker" = "https://gitlab.sitepark.com/internal/csv2ies/-/issues"
+
+[project.scripts]
+csv2ies = "csv2ies.csv2ies:main"
