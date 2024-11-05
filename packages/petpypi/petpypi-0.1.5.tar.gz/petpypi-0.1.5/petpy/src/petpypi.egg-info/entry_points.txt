@@ -1,0 +1,2 @@
+[console_scripts]
+pet = petpy.src.main:main
