@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: y4
+Version: 0.2.1
+Requires-Dist: jq
+Requires-Dist: pyyaml
+Description-Content-Type: text/markdown
+
+Y4:  A purely functional DSL to process YAML
+===
+
+[![CI](https://github.com/managarm/y4/actions/workflows/ci.yml/badge.svg)](https://github.com/managarm/y4/actions/workflows/ci.yml)
