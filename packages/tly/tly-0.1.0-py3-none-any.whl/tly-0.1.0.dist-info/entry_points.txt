@@ -1,0 +1,2 @@
+[console_scripts]
+tly = name_register:main
