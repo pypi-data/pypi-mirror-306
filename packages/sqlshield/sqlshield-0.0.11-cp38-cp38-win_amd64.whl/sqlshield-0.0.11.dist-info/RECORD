@@ -1,0 +1,8 @@
+sqlshield/__init__.py,sha256=b-cKc2FLxkvtMpnyNEnCol8kjn4VASNNIwAqkK0WitE,113
+sqlshield/models.cp38-win_amd64.pyd,sha256=zPhRmEDxHs67mVxgAzr_GDSuvIyXTLL4HzgJrPHLUuY,105984
+sqlshield/shield.cp38-win_amd64.pyd,sha256=0tumy-xV0ssd-goYgRDtphSwXSYlR5uM7z-hlboQjuc,60416
+sqlshield-0.0.11.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+sqlshield-0.0.11.dist-info/METADATA,sha256=C8Er3KlxremWuI-EAVnWUHfF4h04y5Buyld3b4pDAho,10198
+sqlshield-0.0.11.dist-info/WHEEL,sha256=rTcqimtzpX3smAWAhGmiRSWAxTY4PqYPNE-p4kscHDQ,99
+sqlshield-0.0.11.dist-info/top_level.txt,sha256=sMIFlsz4TsFN2Y4jGG_bNkgSeRopF0t0iBSjbFfgIMs,10
+sqlshield-0.0.11.dist-info/RECORD,,
