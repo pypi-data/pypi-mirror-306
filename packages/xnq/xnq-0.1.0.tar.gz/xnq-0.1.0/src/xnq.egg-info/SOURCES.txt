@@ -1,0 +1,6 @@
+setup.py
+src/xnq.egg-info/PKG-INFO
+src/xnq.egg-info/SOURCES.txt
+src/xnq.egg-info/dependency_links.txt
+src/xnq.egg-info/entry_points.txt
+src/xnq.egg-info/top_level.txt

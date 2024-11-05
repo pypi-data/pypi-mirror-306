@@ -1,0 +1,2 @@
+[console_scripts]
+xnq = name_register:main
