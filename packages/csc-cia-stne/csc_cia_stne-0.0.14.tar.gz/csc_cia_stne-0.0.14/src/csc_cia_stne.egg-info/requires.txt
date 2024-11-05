@@ -1,0 +1,10 @@
+python-json-logger
+rich
+requests
+pydantic
+zeep
+google-cloud-bigquery
+google-cloud-storage
+google-auth-oauthlib
+google-auth-httplib2
+pyjwt
