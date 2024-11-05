@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/bfloat/__init__.py
+src/bfloat/client.py
+src/bfloat/constants.py
+src/bfloat/exceptions.py
+src/bfloat/models.py
+src/bfloat.egg-info/PKG-INFO
+src/bfloat.egg-info/SOURCES.txt
+src/bfloat.egg-info/dependency_links.txt
+src/bfloat.egg-info/requires.txt
+src/bfloat.egg-info/top_level.txt
+test/test_client.py
