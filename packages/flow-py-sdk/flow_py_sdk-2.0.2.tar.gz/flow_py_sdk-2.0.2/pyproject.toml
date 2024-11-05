@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "flow-py-sdk"
+version = "2.0.2"
+description = "A python SKD for the flow blockchain"
+authors = ["Janez Podhostnik <janez.podhostnik@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/janezpodhostnik/flow-py-sdk"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+betterproto = {extras = ["compiler"], version = "v2.0.0-beta6"}
+grpcio-tools = "^1.65"
+ecdsa = "^v0.19"
+rlp = "^4.0"
+grpclib = "^0.4"
+
+[tool.poetry.dev-dependencies]
+coloredlogs = "^15.0"
+toml = "^0.10"
+black = "^24.8"
+pytest = "^8.3"
+mkdocs = "^1.6"
+mkdocs-material = "^9.5"
+mkdocstrings = "^0.25"
+coverage = "^7.6"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+examples = 'examples.main:run'
