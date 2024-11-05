@@ -1,0 +1,2 @@
+[console_scripts]
+oey = name_register:main
