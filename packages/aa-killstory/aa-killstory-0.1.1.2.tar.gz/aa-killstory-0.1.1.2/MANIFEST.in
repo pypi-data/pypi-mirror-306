@@ -1,0 +1,6 @@
+include README.md
+recursive-include aa_killstory/templates *
+recursive-include aa_killstory/static *
+recursive-include aa_killstory/migrations *
+recursive-include aa_killstory/management *
+recursive-include aa_killstory/management/commands *
