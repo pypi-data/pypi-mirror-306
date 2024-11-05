@@ -1,0 +1,10 @@
+description: Storage LIO and targetcli test cases
+contact: Zhaojuan Guo <zguo@redhat.com>
+framework: shell
+component:
+  - targetcli
+check:
+  - avc
+  - dmesg
+tag:
+  - local

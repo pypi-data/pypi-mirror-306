@@ -1,0 +1,9 @@
+summary: target.service test suite
+description: Enable/disable/start/restart/stop service tests
+test: pytest target_service.py
+duration: 5m
+component+:
+  - kernel
+tag+:
+  - sts-ci
+  - lio

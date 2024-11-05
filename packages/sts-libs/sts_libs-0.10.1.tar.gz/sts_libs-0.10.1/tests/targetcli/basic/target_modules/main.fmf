@@ -1,0 +1,8 @@
+summary: module target_core_mod load/unload tests
+description: repeatedly loads and unloads module target_core_mod
+test: pytest target_core_mod.py
+duration: 10m
+component+:
+  - kernel
+tag+:
+  - lio

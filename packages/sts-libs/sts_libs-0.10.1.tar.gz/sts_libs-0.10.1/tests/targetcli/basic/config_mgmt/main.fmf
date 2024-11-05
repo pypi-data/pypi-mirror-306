@@ -1,0 +1,11 @@
+summary: Test suite of targetcli saveconfig, clearconfig and restoreconfig.
+description: >
+  Tests include:
+  - saveconfig
+  - clearconfig
+  - restoreconfig
+test: pytest config_management.py
+duration: 10m
+environment:
+  BACKUP_NUMBER: 10
+  MAX_BACKUP_FILES: 5
