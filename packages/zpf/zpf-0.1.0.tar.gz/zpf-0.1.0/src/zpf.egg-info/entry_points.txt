@@ -1,0 +1,2 @@
+[console_scripts]
+zpf = name_register:main
