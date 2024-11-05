@@ -1,0 +1,7 @@
+perfnetto-0.1.0.dist-info/RECORD,,
+perfnetto-0.1.0.dist-info/WHEEL,sha256=yOvBCU9sSrzqnOtqZPKO_M2NJbMIdgkRdUvI1xBMjbo,105
+perfnetto-0.1.0.dist-info/METADATA,sha256=2ODNLQfPdTurX50IzV-mcdcDNbZ_U7r3qPRG4f5TCAM,2432
+perfnetto-0.1.0.dist-info/licenses/LICENSE,sha256=lgXwnPojA8o3oSP5ibs5yNEsJCscPs52-rdIOkOhwI0,608
+perfnetto/_perfnetto.cpython-313-darwin.so,sha256=-C3klBLpS6UWeui4UOcnVnW7d0NjJWo1rjOwGbkjR2o,4275264
+perfnetto/__init__.py,sha256=DRWMqH_vu3bUejokN0uyIQj4IRj34mW-5uBITEsOZO4,1180
+perfnetto/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
