@@ -1,0 +1,8 @@
+tgi/__init__.py,sha256=ExilKFuknM0kC-3kkXh0lVBroP3m_r12qdJO1lag-ts,1113
+tgi/client.py,sha256=nqqlyHS7Wp9KpIYTosqVhqRkPyGARcIxOovop4RC2NE,39896
+tgi/errors.py,sha256=O-QtX_4UdDhGqzJIQXREwM2jRgsfw_5FEXYXISiEkro,2839
+tgi/inference_api.py,sha256=p6PY68p-dfeagxxOpan6aqAG9pj-qhHWY4O_058X3S4,5578
+tgi/types.py,sha256=1gnyLIiny8wv5ImgRM6xmXEyS-Rg9oRDTh9zQW6ye8Q,14668
+tgi-2.4.0.dist-info/METADATA,sha256=I3U_DjXnxSY0fzUtxsJwMXoy5Zxy9GtAjkCq7zswKx0,8774
+tgi-2.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tgi-2.4.0.dist-info/RECORD,,
