@@ -1,0 +1,7 @@
+trytond_production<7.5,>=7.4
+trytond_sale_supply<7.5,>=7.4
+trytond<7.5,>=7.4
+
+[test]
+proteus<7.5,>=7.4
+trytond_production_routing<7.5,>=7.4
