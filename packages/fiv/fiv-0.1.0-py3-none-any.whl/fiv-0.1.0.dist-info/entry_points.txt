@@ -1,0 +1,2 @@
+[console_scripts]
+fiv = name_register:main
