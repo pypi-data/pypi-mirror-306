@@ -1,0 +1,32 @@
+{
+    "config": {
+        "abort": {
+            "reconfigure_successful": "Se volvi\u00f3 a configurar correctamente",
+            "unique_id_mismatch": "El n\u00famero de serie del dispositivo no coincide con el n\u00famero de serie anterior"
+        },
+        "step": {
+            "user": {
+                "menu_options": {
+                    "manual": "Entrada manual"
+                }
+            }
+        }
+    },
+    "issues": {
+        "deprecated_yaml_import_issue_cannot_connect": {
+            "title": "Error al importar la configuraci\u00f3n YAML de Onkyo"
+        },
+        "deprecated_yaml_import_issue_no_discover": {
+            "title": "Error al importar la configuraci\u00f3n YAML de Onkyo"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "max_volume": "L\u00edmite m\u00e1ximo de volumen (%)"
+                }
+            }
+        }
+    }
+}
