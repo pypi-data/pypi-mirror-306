@@ -1,0 +1,21 @@
+requests
+bs4
+npyscreen
+thefuzz
+colorlog
+py7zr
+packaging
+yt-dlp
+
+[:platform_system == "Windows"]
+windows-curses
+
+[dev]
+pylint
+flake8
+build
+twine
+playwright
+
+[playwright]
+playwright
