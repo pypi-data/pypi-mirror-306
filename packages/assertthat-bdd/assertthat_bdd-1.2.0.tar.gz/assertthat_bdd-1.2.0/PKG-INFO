@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: assertthat-bdd
+Version: 1.2.0
+Summary: Python tools for integration with AssertThat BDD plugin for Jira
+Home-page: https://github.com/assertthat/assertthat-bdd-python
+Download-URL: https://github.com/assertthat/assertthat-bdd-python/archive/v1.2.0.tar.gz
+Author: Nick Iles
+Author-email: support@assertthat.com
+License: MIT
+Keywords: assertthat,bdd,Jira,download features,upload features
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: requests
