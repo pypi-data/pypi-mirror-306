@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "trex-analytics-dev",
+  "private_key_id": "3b3831a7a3429af4ab1a54fa361588499a5a2284",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCXf8sQQveFqR6R\nfPs/IJhO+n5QNYjJsLDYVb4TNOeLwPLECuJcPBVXRiOfBlbw5MqevfiYJBuBTAAa\nwbcZzAC9wfqzSFzSepUSHhVkNh8vZiVB5iuH+bpasnuUv+B1kfQn/BTeP8tePLdI\nFzuBPmY8FOWQH8h4qBKYmFuw6cDwqW7EevxaUKPJHIDYkZe9OnkaRAn6+0zm+mEJ\nSSUJKDZIKbQn6OudYCADXCmUaNXylwWyasYw7DeeSRrFBYsydcYyMZ8VLf9g22MV\nNCVwKmADFqfqa9BPiE3Q+CJU9nzyyG3GzLWoFsmMW+acjO/i3OibzU3lhOwtl4j9\nc3pJwk3bAgMBAAECggEAAK7uelfmLrYnXlfTK+LrwCXYSzUfaGyuZetmr60XaXjC\nhfVxzyF+PyYgo83It2fXLVKFPCDXKh6Ib/zbsV2xyylROVz9yv0+jhX3DSKpW79f\nZgxLU5IVL+Xwl/UqZmooHcR0G6SFOE5lAHA9lngMYgAxVBSwnmRNR5IewVq5W6lT\nABLw5UeIQ35pSM5x6W+/VE7/g00iYGQcQp3SZX9CriBTMajM/ECE9Zm/chgXXOJ7\niUmLohEambT+y2sVGHpszQrq6kuu0yLx0eGf+PhxEG3dt/BAIaGVWq8N9QxAZoHH\nDBx+bdUOJMgPEJErapSeNKOv7Gtdd1rlTU8ErtVmkQKBgQDRwSY4kzR0AmCj0GZu\nSuU2sTECApe+dOPLscotuU22B5MhUFP7U/P+1uu9N+YGcVSyO1ok2IwX0788hwbu\nSPapGSqAaI7KewylF1bnpSbywilST8N17kthJiq2SjjDDlP9bfdKVu7x+mupQdjl\no38zkx558M5HIxB95MmPzv5UhQKBgQC45qEs5ZIER1yeUM2zbAvZZgT7liO/s3w2\nJCfU6fVeJFnY1NCoA4d8heTzmYjS0RF2pvj4SNdn1flTUYASuhtHIOSD0NLkKpjp\nngq/h3NJ26lPMQc1wyx7gTmkEocfximnLTyHcMePT5kTlsbCwZaH80xOJdPXr8zL\n3zpgvCpW3wKBgGRoXW9/qABQkwpX3HC3kXnY4Gjh7NnTAqijdvDkX3rfrWKpHUqW\nKZq4Lyjo9UfoQG8BUmmI76cISecjjAHNE6Zm0Z2eb5wlwyvUPFmvCTH0F+u7Gwn9\nBECBELkqVnmpBjOuzE3dx4w2IAtp5fYnieCacGBXEaej9WUOfB5HLCAxAoGAW0C3\nWskR/zqY4ylN27b/QhOvcdrvWbTjIHVHkzTD++pEzVZ6g/D59OK/09l6RVEZJU3S\nofaRGJXprs0SQCvJOplpLgTpj+HWBbYR5+SZaWIXdRXlUQs58Nod8HOUbIIIHJGe\nxdlLI9dM3PYUshmIiR/yEL9qhZAlqphI32T+IFECgYAIEhHbR513qPhpATQZU2up\nf2+Ij9oEe7bl6UovmopWYogYDRB+TY96VoqGvrn6w+vwpmfXCGf70w7j63y9Nxuk\nkoxz/9Cg5pw1fm/fhXlhN5bDuLfT85Az+Kzl9e/jcaiQF+uU4zmPRJHQp4Bohjso\nO65cDrHwc/Ps34zgrajuMg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "trex-analytics-dev@appspot.gserviceaccount.com",
+  "client_id": "116635909526544692718",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/trex-analytics-dev%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

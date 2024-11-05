@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "memberla-backoffice",
+  "private_key_id": "9587558eade31f50780d788aac9de22fe56b8427",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCNfkcELLqgiX+W\niunn+kb6eo+5ad457KO79rLJILMlnAOCyobR3YO8Zhx7qKjub6CZTx+cVkSdvAfv\nwco3hA4m1D5DXzW2vKgymQ6DVMlUgse1HmQteGqPLWKTKRf/jFDuaLG57TxLozQt\nMCyxAOJrGYq88xqcZijUXSC03Q0uVgIvCZWb83miB/sWYOmimulK18iey8naLESk\nSY90pMZSEuW74Xm4gA/LYugD+jceDZgvl49MUJz33Mx/b0/PahG7vQduINi0wsm5\n2htYD/9GTFrwof099UT5YHUm/ZJ2JlN4gQY6WyrT2PXCBg6cht14caiWJY7B4wHq\ncPDyhPU3AgMBAAECggEAO4eWb142Qta2tGrLkIsPE9E+6N5u3eX+2VUo0VANr1Qd\ncgitglx1UW2QrEJAmNikM/xDK25sPgTfPfNFlefcYF/JtmS3X6OuDGOy5HRmpETF\nqyEXOr4/7u9EWu/eJekuH7Ayniv+wz/t8tki5HGf0TmU0nxhhM3Cfd6UpSOfqQ9s\nbwyVe45qvUCuNdgf2RqaTWNYURaC4jTL1kCtnpECv25q2CMFu2Lpn+sYd8+JnD1W\nKhb5WEoL+tO7gnt/jwlWoSsdxoqVU+nIkPDpFtMs8KQdhbU7yB/pBeC4+YYXuypH\nimXZD4Iu+ajbTda5oX5u4JhrnXP+syYyrJ7kyEKrqQKBgQDEe0rNVMZaQugitd9F\nel7zM2N353ebdUF9EPEJ3fXZB/X28cRXlWeAlyN41G55KVgScYe5AMuF+6dYgTNc\n8nYLmOQ0SzDS30MEElrELCsX+4yO0U2sGGki2RVqQghCYw/NrEKtN9klJzVqP2be\ndgHPr5I7fnVBPrcsIfuD7JQ8FQKBgQC4WsNRRyr8ADvEvqqIZQGKMBk6dRE9mtD3\n61IGHsTTdMFDz7Hq9LIRfCiNycKsljZlZDcKkGEEaH721jfYNjb+6trXCgPKY+5F\nZsop4AdLlZJw+ocw8eRAJ20LJuxxm4qXGQW1VLzrDqzDxty69c29An1AHq75Q5VA\nl82M0izjGwKBgBohe5VLTQX8F/tlzMfkunQFxZjQw+t88LS9aBEz39p5YJDzHnW3\nfQhxEVqkhfy/LuNlDfPg0zCCg4MVy8r0xBZOwyrhRSEGaFdGSaQFa8XIwqzL0VSt\n+m2UCXEUTxzlJ9jmrAd1gf+a81OqEvhLIXqJkx0ueFGxEZNhAZ5N/HjxAoGAU4R6\n28V8CbIpYZZnN2da7TmhFESYzOnoJYisHi2uSYWpUIk1NxYn3Zf731A6K2nZttFR\nxi1mZlLYwgaGQiM9gvrurWDSGsxu024fxBzD8VAPibNVr6zGFPJHijfWAhnPDWi+\nl0mOVIbPadobgW9+B1SrXXMJHc+qPBsJefR1dWUCgYBol9FF6s8zuFGabVWRzDCj\nmN68V8nu4faJNpIbXL96zaetwOfRxKoX7kFZashiWLrh8nxtk9liUpo/KUz0/CzG\nlfqugk5YT9ziijLof7kCQN1momGESXry8S37NbTdp5ccVFRkZJiHO4NvahkAK5PL\nZ91Cl5E2HoZ+mA6UgA0gaw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "memberla-backoffice-serv-acct@memberla-backoffice.iam.gserviceaccount.com",
+  "client_id": "111827253090135893728",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/memberla-backoffice-serv-acct%40memberla-backoffice.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
