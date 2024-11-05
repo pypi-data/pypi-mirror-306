@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+zpool-status
+zpool_status.py
+zpool_status.egg-info/PKG-INFO
+zpool_status.egg-info/SOURCES.txt
+zpool_status.egg-info/dependency_links.txt
+zpool_status.egg-info/top_level.txt
