@@ -1,0 +1,2 @@
+[console_scripts]
+dirtree = dirtree:main
