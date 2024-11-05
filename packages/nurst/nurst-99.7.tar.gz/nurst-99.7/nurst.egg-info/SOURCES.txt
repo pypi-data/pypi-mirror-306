@@ -1,0 +1,7 @@
+main.py
+setup.py
+nurst.egg-info/PKG-INFO
+nurst.egg-info/SOURCES.txt
+nurst.egg-info/dependency_links.txt
+nurst.egg-info/requires.txt
+nurst.egg-info/top_level.txt
