@@ -1,0 +1,9 @@
+ruclogin
+aiohttp
+docopt
+
+[all]
+simpleaudio
+
+[audio]
+simpleaudio
