@@ -1,0 +1,12 @@
+NGSF/.version,sha256=dDor4hn6WVixIHQ-7RqbUA5D3vGlIo26Px5JrbXNOSw,7
+NGSF/Header_Binnings.py,sha256=dalxubrb1zed-7LCO9h0vAtlK-ROQXxgJZ7L1fGb40I,7695
+NGSF/SF_functions.py,sha256=OrpS0dto1UrsEWsKH9F-2UjC4QfOoKeRFYcSQz9jfb8,13880
+NGSF/auxiliary.py,sha256=U07xx7k0VKoqd1SijxQcANFrXLqsTt_tPPXCS6C5GXs,449
+NGSF/error_routines.py,sha256=W8J01Ten8bI5s1DhttLkyQJy93MSLr8L8LJxT2DpvlA,1765
+NGSF/get_metadata.py,sha256=XU02rcia7dgxSA63AXiuzaerFje8nOgUVgIOwpCcdX4,4110
+NGSF/params.py,sha256=eptomIRPBI7GgDEqOiTJrxedUwq01VCsS6xcJpeDHeY,5401
+NGSF/sf_class.py,sha256=xoISRLkd2t26jH8znVD9hf2ATFyyMiD6kK4vQFo7yIw,15751
+NGSF-0.0.1.dist-info/METADATA,sha256=57yfKY0NiVLeCv6NeosOGOlf6HIGmxUydzqY3095Whc,14392
+NGSF-0.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+NGSF-0.0.1.dist-info/top_level.txt,sha256=YgYVVNHmlHruTaUJSd-Op3_YmePxGwiPVyUlyaQg_lo,5
+NGSF-0.0.1.dist-info/RECORD,,
