@@ -1,0 +1,11 @@
+QuantPlasia/QuantPlasia.py,sha256=8dlNNfRwGZEiykFGHDZQ-fUbd_g0a2_tp86biovGmHk,11646
+QuantPlasia/__init__.py,sha256=_Ex7ku5_p31mCuhekwdIgiiuBZ5-qslbQLZV8m1vVDg,256
+QuantPlasia/data/Cell Signatures/GSEA_output.tsv,sha256=427_wxE-EVgKeiwm3PaBIjCT91mW0OuslABjLTL6KdQ,33811
+QuantPlasia/data/Extent of Differentiation/Collapsed_Probes.tsv,sha256=UlOotayqjjndH4E-lubiN5XPpksBGc7z4hhe1laEbr4,112078
+QuantPlasia/data/Extent of Differentiation/DiGeSt.txt,sha256=wgpbpSBdXytQgIyUxaB8wOmXtmy8REKiMQ_O_LbIqTk,254445
+QuantPlasia/data/Extent of Differentiation/GSEA_LEA_Output.xlsx,sha256=JWBX_lLqauXUb8Z8O8dH9gocWoGFNqoF1uXYLie1Z3k,882619
+QuantPlasia/data/Extent of Differentiation/GSEA_LEA_Output_COAD.xlsx,sha256=GMEfuSThOFxBFPysiF1izLNMt34VJ9dlJaNxQuNqQik,1537090
+QuantPlasia-0.2.5.dist-info/METADATA,sha256=YQYzy70G3MwirRUo5AUhYsoJl0Lt62GIfhh6OFlpQ7g,9456
+QuantPlasia-0.2.5.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+QuantPlasia-0.2.5.dist-info/top_level.txt,sha256=c6slhf7FfbUdfaQUlQVHPcxTf_qziA1lIC_tTAHRjn8,12
+QuantPlasia-0.2.5.dist-info/RECORD,,
