@@ -1,0 +1,9 @@
+README.md
+setup.py
+infonce/__init__.py
+infonce/infonce.py
+infonce.egg-info/PKG-INFO
+infonce.egg-info/SOURCES.txt
+infonce.egg-info/dependency_links.txt
+infonce.egg-info/requires.txt
+infonce.egg-info/top_level.txt
