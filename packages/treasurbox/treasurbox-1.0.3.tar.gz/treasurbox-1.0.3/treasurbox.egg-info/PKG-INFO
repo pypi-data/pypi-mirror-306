@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: treasurbox
+Version: 1.0.3
+Summary: A small example package
+Author: Alan
+Author-email: linanaicyt@163.com
+License: MIT
+Keywords: Mysql,Python,decorator
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: pymysql
+Requires-Dist: decorator
+Requires-Dist: faker>=30.8.2
+Requires-Dist: fake_useragent>=1.5.1
+Requires-Dist: numpy>=2.0.2
+
+this package is work for python
