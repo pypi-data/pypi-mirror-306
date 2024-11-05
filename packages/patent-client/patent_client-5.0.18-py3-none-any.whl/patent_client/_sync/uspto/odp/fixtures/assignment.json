@@ -1,0 +1,70 @@
+{
+  "count": 1,
+  "patentFileWrapperDataBag": [
+    {
+      "assignmentBag": [
+        {
+          "assignmentReceivedDate": "2019-07-02",
+          "assignorBag": [
+            {
+              "executionDate": "2019-04-03",
+              "assignorName": "BUBLITZ, DANIEL"
+            },
+            {
+              "executionDate": "2019-04-05",
+              "assignorName": "MOHR, THOMAS"
+            },
+            {
+              "executionDate": "2019-04-06",
+              "assignorName": "GÜNTZSCHEL, MICHAEL"
+            },
+            {
+              "executionDate": "2019-04-04",
+              "assignorName": "MEISSNER, JÖRG"
+            },
+            {
+              "executionDate": "2019-04-02",
+              "assignorName": "RUDOLPH, GÜNTER"
+            },
+            {
+              "executionDate": "2019-04-09",
+              "assignorName": "FUCHS, RICO"
+            },
+            {
+              "executionDate": "2019-04-05",
+              "assignorName": "BÖHME, BEATE"
+            }
+          ],
+          "frameNumber": 16,
+          "pageNumber": 11,
+          "reelNumber/frameNumber": "049654/016",
+          "assignmentRecordedDate": "2019-07-02",
+          "conveyanceText": "ASSIGNMENT OF ASSIGNORS INTEREST (SEE DOCUMENT FOR DETAILS).",
+          "assigneeBag": [
+            {
+              "assigneeAddress": {
+                "cityName": "JENA",
+                "geographicRegionCode": "DEX",
+                "postalCode": "07745",
+                "addressLineOneText": "GÖSCHWITZER STR. 51 - 52"
+              },
+              "assigneeNameText": "CARL ZEISS MEDITEC AG"
+            }
+          ],
+          "assignmentMailedDate": "2019-07-03",
+          "reelNumber": 49654,
+          "correspondenceAddress": [
+            {
+              "addressLineThreeText": "MINNEAPOLIS, MN 55402",
+              "addressLineOneText": "80 SOUTH 8TH STREET",
+              "correspondentNameText": "PATTERSON THUENTE PEDERSEN, P.A.",
+              "addressLineTwoText": "4800 IDS CENTER"
+            }
+          ]
+        }
+      ],
+      "applicationNumberText": "16330077"
+    }
+  ],
+  "requestIdentifier": "bda9b695-9d57-45af-b794-e29fce8f1b6f"
+}

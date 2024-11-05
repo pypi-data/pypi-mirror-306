@@ -1,0 +1,973 @@
+{
+  "count": 1,
+  "patentFileWrapperDataBag": [
+    {
+      "recordAttorney": {
+        "powerOfAttorneyBag": [
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "YANJUN",
+            "lastName": "MA",
+            "registrationNumber": "79360",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MADISON",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53703",
+                "nameLineOneText": "DEWITT LLP",
+                "nameLineTwoText": "MADISON OFFICE",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "25 W. MAIN STREET, SUITE 800"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "608-252-9200",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "AGENT"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "BRADLEY",
+            "lastName": "THORSON",
+            "registrationNumber": "52288",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402-371",
+                "nameLineOneText": "DEWITT LLP",
+                "nameLineTwoText": "2100 AT&T TOWER",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "901 MARQUETTE AVENUE"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-305-1415",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "BRIAN",
+            "lastName": "STENDER",
+            "registrationNumber": "56836",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402-371",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "2100 AT&T TOWER",
+                "addressLineTwoText": "901 MARQUETTE AVENUE"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-305-1400",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "KAREN",
+            "lastName": "LECUYER",
+            "registrationNumber": "51928",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MADISON",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53703-2865",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "25 W. MAIN STREET,",
+                "addressLineTwoText": "SUITE 800"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "608-252-9290",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "middleName": "A",
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "DAVID",
+            "lastName": "BIEK",
+            "registrationNumber": "33647",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402-412",
+                "nameLineOneText": "MOSS & BARNETT",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "4800 WELLS FARGO CENTER",
+                "addressLineTwoText": "90 SOUTH SEVENTH STREET"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-347-0299",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "BRIAN",
+            "lastName": "POLLACK",
+            "registrationNumber": "47001",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "901 MARQUETTE AVENUE",
+                "addressLineTwoText": "SUITE 2100"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "914-843-4607",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "middleName": "R.",
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "CHRISTOPHER",
+            "lastName": "SCHERER",
+            "registrationNumber": "50655",
+            "attorneyAddressBag": [
+              {
+                "cityName": "BROOKFIELD",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53005-660",
+                "nameLineOneText": "DEWITT ROSS & STEVENS S.C.",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "13935 BISHOP'S DRIVE",
+                "addressLineTwoText": "SUITE 300"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "262-754-2862",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "CRAIG",
+            "lastName": "FIESCHKO",
+            "registrationNumber": "39668",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MADISON",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53703",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "25 W. MAIN STREET",
+                "addressLineTwoText": "SUITE 800"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "608-395-6722",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "middleName": "A",
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "ERIC",
+            "lastName": "CHADWICK",
+            "registrationNumber": "41664",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402-371",
+                "nameLineOneText": "DEWITT LLP",
+                "nameLineTwoText": "2100 AT&T TOWER",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "901 MARQUETTE AVENUE"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-305-1426",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "PAUL",
+            "lastName": "ONDERICK",
+            "registrationNumber": "45354",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "901 MARQUETTE AVE",
+                "addressLineTwoText": "2100 AT&T TOWER"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-305-1417",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "JOSEPH",
+            "lastName": "MIOTKE",
+            "registrationNumber": "47798",
+            "attorneyAddressBag": [
+              {
+                "cityName": "SHOREWOOD",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53211",
+                "nameLineOneText": "MIOTEK LLC",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "P.O. BOX 11297"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "414-617-4761",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "CHARLES",
+            "lastName": "SARA",
+            "registrationNumber": "30492",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MADISON",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53703-286",
+                "nameLineOneText": "DEWITT ROSS & STEVENS, S.C.",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "TWO EAST MIFFLIN STREET",
+                "addressLineTwoText": "SUITE 600"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "608-395-6784",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "ERIN",
+            "lastName": "BLOCK",
+            "registrationNumber": "78154",
+            "attorneyAddressBag": [
+              {
+                "cityName": "BROOKFIELD",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53005",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "13845 BISHOP DRIVE",
+                "addressLineTwoText": "SUITE 300"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "262-754-2878",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "ELIZABETH",
+            "lastName": "NEAL",
+            "registrationNumber": "59630",
+            "attorneyAddressBag": [
+              {
+                "cityName": "BROOKFIELD",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53208",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "13935 BISHOP'S DR.",
+                "addressLineTwoText": "SUITE 300"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "262-754-2855",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "DANIEL",
+            "lastName": "BLASIOLE",
+            "registrationNumber": "64469",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MADISON",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53703",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "25 W. MAIN STREET",
+                "addressLineTwoText": "SUITE 800"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "608-395-6758",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "middleName": "A",
+            "registeredPractitionerCategory": "AGENT"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "CHRISTIAN",
+            "lastName": "GIRTZ",
+            "registrationNumber": "68613",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402",
+                "nameLineOneText": "PATTERSON THUENTE PEDERSEN, P.A.",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "80 SOUTH EIGHTH STREET",
+                "addressLineTwoText": "4800 IDS CENTER"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-349-5777",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "JOSEPH",
+            "lastName": "LEONE",
+            "registrationNumber": "37170",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MADISON",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53703",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "25 WEST MAIN STREET, SUITE 800"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "608-255-8891",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "middleName": "T",
+            "registeredPractitionerCategory": "ATTNY"
+          }
+        ],
+        "attorneyBag": [
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "THOMAS",
+            "lastName": "NIKOLAI",
+            "registrationNumber": "19283",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402",
+                "nameLineOneText": "DEWITT MACKALL CROUNSE & MOORE, S.C.",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "901 MARQUETTE AVENUE",
+                "addressLineTwoText": "2100 AT&T TOWER"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-305-1400",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "CHARLES",
+            "lastName": "SARA",
+            "registrationNumber": "30492",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MADISON",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53703-286",
+                "nameLineOneText": "DEWITT ROSS & STEVENS, S.C.",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "TWO EAST MIFFLIN STREET",
+                "addressLineTwoText": "SUITE 600"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "608-395-6784",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "DAVID",
+            "lastName": "BIEK",
+            "registrationNumber": "33647",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402-412",
+                "nameLineOneText": "MOSS & BARNETT",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "4800 WELLS FARGO CENTER",
+                "addressLineTwoText": "90 SOUTH SEVENTH STREET"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-347-0299",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "JOSEPH",
+            "lastName": "LEONE",
+            "registrationNumber": "37170",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MADISON",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53703",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "25 WEST MAIN STREET, SUITE 800"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "608-255-8891",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "middleName": "T",
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "CRAIG",
+            "lastName": "FIESCHKO",
+            "registrationNumber": "39668",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MADISON",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53703-286",
+                "nameLineOneText": "DEWITT ROSS & STEVENS, S.C.",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "TWO EAST MIFFLIN STREET",
+                "addressLineTwoText": "SUITE 600"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "608-395-6722",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "ERIC",
+            "lastName": "CHADWICK",
+            "registrationNumber": "41664",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402-371",
+                "nameLineOneText": "DEWITT LLP",
+                "nameLineTwoText": "2100 AT&T TOWER",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "901 MARQUETTE AVENUE"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-305-1426",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "PAUL",
+            "lastName": "ONDERICK",
+            "registrationNumber": "45354",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "901 MARQUETTE AVE",
+                "addressLineTwoText": "2100 AT&T TOWER"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-305-1417",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "BRIAN",
+            "lastName": "POLLACK",
+            "registrationNumber": "47001",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "901 MARQUETTE AVENUE",
+                "addressLineTwoText": "SUITE 2100"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "914-843-4607",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "middleName": "R.",
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "JOSEPH",
+            "lastName": "MIOTKE",
+            "registrationNumber": "47798",
+            "attorneyAddressBag": [
+              {
+                "cityName": "SHOREWOOD",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53211",
+                "nameLineOneText": "MIOTEK LLC",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "P.O. BOX 11297"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "414-617-4761",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "CHRISTOPHER",
+            "lastName": "SCHERER",
+            "registrationNumber": "50655",
+            "attorneyAddressBag": [
+              {
+                "cityName": "BROOKFIELD",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53005-660",
+                "nameLineOneText": "DEWITT ROSS & STEVENS S.C.",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "13935 BISHOP'S DRIVE",
+                "addressLineTwoText": "SUITE 300"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "262-754-2862",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "BRADLEY",
+            "lastName": "THORSON",
+            "registrationNumber": "52288",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402-371",
+                "nameLineOneText": "DEWITT LLP",
+                "nameLineTwoText": "2100 AT&T TOWER",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "901 MARQUETTE AVENUE"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-305-1415",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "BRIAN",
+            "lastName": "STENDER",
+            "registrationNumber": "56836",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402-371",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "2100 AT&T TOWER",
+                "addressLineTwoText": "901 MARQUETTE AVENUE"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-305-1400",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "ELIZABETH",
+            "lastName": "NEAL",
+            "registrationNumber": "59630",
+            "attorneyAddressBag": [
+              {
+                "cityName": "BROOKFIELD",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53208",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "13935 BISHOP'S DR.",
+                "addressLineTwoText": "SUITE 300"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "262-754-2855",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "DANIEL",
+            "lastName": "BLASIOLE",
+            "registrationNumber": "64469",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MADISON",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53703",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "25 W. MAIN STREET",
+                "addressLineTwoText": "SUITE 800"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "608-395-6758",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "middleName": "A",
+            "registeredPractitionerCategory": "AGENT"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "CHRISTIAN",
+            "lastName": "GIRTZ",
+            "registrationNumber": "68613",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55402",
+                "nameLineOneText": "PATTERSON THUENTE PEDERSEN, P.A.",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "80 SOUTH EIGHTH STREET",
+                "addressLineTwoText": "4800 IDS CENTER"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-349-5777",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "ADAM",
+            "lastName": "SZYMANSKI",
+            "registrationNumber": "75923",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MINNEAPOLIS",
+                "geographicRegionName": "MINNESOTA",
+                "geographicRegionCode": "MN",
+                "countryCode": "US",
+                "postalCode": "55415",
+                "nameLineOneText": "CITY OF MINNEAPOLIS - CITY ATTORNEY'S OFFICE",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "CITY HALL",
+                "addressLineTwoText": "350 FIFTH ST. S., ROOM 210"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "612-673-2038",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "middleName": "E.",
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "ERIN",
+            "lastName": "BLOCK",
+            "registrationNumber": "78154",
+            "attorneyAddressBag": [
+              {
+                "cityName": "BROOKFIELD",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53005",
+                "nameLineOneText": "DEWITT LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "13845 BISHOP DRIVE",
+                "addressLineTwoText": "SUITE 300"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "262-754-2878",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "YANJUN",
+            "lastName": "MA",
+            "registrationNumber": "79360",
+            "attorneyAddressBag": [
+              {
+                "cityName": "MADISON",
+                "geographicRegionName": "WISCONSIN",
+                "geographicRegionCode": "WI",
+                "countryCode": "US",
+                "postalCode": "53703",
+                "nameLineOneText": "DEWITT LLP",
+                "nameLineTwoText": "MADISON OFFICE",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "25 W. MAIN STREET, SUITE 800"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "608-252-9200",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "AGENT"
+          },
+          {
+            "activeIndicator": "ACTIVE",
+            "firstName": "KYLE",
+            "lastName": "DOERRLER",
+            "registrationNumber": "79871",
+            "attorneyAddressBag": [
+              {
+                "cityName": "PHILADELPHIA",
+                "geographicRegionName": "PENNSYLVANIA",
+                "geographicRegionCode": "PA",
+                "countryCode": "US",
+                "postalCode": "19103",
+                "nameLineOneText": "CONDO ROCCIA KOPTIW LLP",
+                "countryName": "UNITED STATES",
+                "addressLineOneText": "1800 JFK BLVD.",
+                "addressLineTwoText": "SUITE 1700"
+              }
+            ],
+            "telecommunicationAddressBag": [
+              {
+                "telecommunicationNumber": "814-441-1092",
+                "telecomTypeCode": "TEL"
+              }
+            ],
+            "registeredPractitionerCategory": "ATTNY"
+          }
+        ],
+        "customerNumber": {
+          "powerOfAttorneyAddressBag": [
+            {
+              "cityName": "Brookfield",
+              "geographicRegionName": "WISCONSIN",
+              "geographicRegionCode": "WI",
+              "countryCode": "US",
+              "postalCode": "53005",
+              "nameLineOneText": "DeWitt LLP (Brookfield)",
+              "nameLineTwoText": "Intellectual Property Department",
+              "countryName": "UNITED STATES",
+              "addressLineOneText": "13845 Bishops Drive",
+              "addressLineTwoText": "Suite 300"
+            }
+          ],
+          "patronIdentifier": 25005
+        }
+      },
+      "applicationNumberText": "16330077"
+    }
+  ],
+  "requestIdentifier": "87967df8-b13d-4a59-a247-2b57c32948ed"
+}

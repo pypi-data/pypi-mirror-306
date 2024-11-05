@@ -1,0 +1,588 @@
+{
+  "count": 1,
+  "patentFileWrapperDataBag": [
+    {
+      "patentTermAdjustmentData": {
+        "applicantDayDelayQuantity": 88,
+        "overlappingDayQuantity": 81,
+        "filingDate": "2019-03-02",
+        "ipOfficeAdjustmentDelayQuantity": 0,
+        "cDelayQuantity": 0,
+        "adjustmentTotalQuantity": 1092,
+        "bDelayQuantity": 511,
+        "grantDate": "2023-09-19",
+        "aDelayQuantity": 750,
+        "ipOfficeDayDelayQuantity": 1180,
+        "patentTermAdjustmentHistoryDataBag": [
+          {
+            "eventDescriptionText": "PTA 36 Months",
+            "eventSequenceNumber": 86.5,
+            "originatingEventSequenceNumber": 86.4,
+            "ptaPteCode": "PTA",
+            "ipOfficeDayDelayQuantity": 511,
+            "eventDate": "2023-09-19"
+          },
+          {
+            "eventDescriptionText": "Commencement Date",
+            "eventSequenceNumber": 86.4,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-03-04"
+          },
+          {
+            "eventDescriptionText": "Patent Issue Date Used in PTA Calculation",
+            "eventSequenceNumber": 86,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-09-19"
+          },
+          {
+            "eventDescriptionText": "Export to Final Data Capture",
+            "eventSequenceNumber": 85,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-08-18"
+          },
+          {
+            "eventDescriptionText": "Dispatch to FDC",
+            "eventSequenceNumber": 84,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-08-17"
+          },
+          {
+            "eventDescriptionText": "Application Is Considered Ready for Issue",
+            "eventSequenceNumber": 83,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-08-17"
+          },
+          {
+            "eventDescriptionText": "Issue Fee Payment Verified",
+            "eventSequenceNumber": 82,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-08-16"
+          },
+          {
+            "eventDescriptionText": "Issue Fee Payment Received",
+            "eventSequenceNumber": 81,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-08-16"
+          },
+          {
+            "applicantDayDelayQuantity": 33,
+            "eventDescriptionText": "Miscellaneous Incoming Letter",
+            "eventSequenceNumber": 80,
+            "originatingEventSequenceNumber": 75,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-06-20"
+          },
+          {
+            "eventDescriptionText": "Finished Initial Data Capture",
+            "eventSequenceNumber": 79,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-25"
+          },
+          {
+            "eventDescriptionText": "Export to Initial Data Capture",
+            "eventSequenceNumber": 78,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-17"
+          },
+          {
+            "eventDescriptionText": "Electronic Review",
+            "eventSequenceNumber": 77,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-18"
+          },
+          {
+            "eventDescriptionText": "Email Notification",
+            "eventSequenceNumber": 76,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-18"
+          },
+          {
+            "eventDescriptionText": "Mail Notice of Allowance",
+            "eventSequenceNumber": 75,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-18"
+          },
+          {
+            "eventDescriptionText": "Office Action Review",
+            "eventSequenceNumber": 74,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-15"
+          },
+          {
+            "eventDescriptionText": "Office Action Review",
+            "eventSequenceNumber": 73,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-15"
+          },
+          {
+            "eventDescriptionText": "Office Action Review",
+            "eventSequenceNumber": 72,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-15"
+          },
+          {
+            "eventDescriptionText": "Notice of Allowance Data Verification Completed",
+            "eventSequenceNumber": 71,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-15"
+          },
+          {
+            "eventDescriptionText": "Issue Revision Completed",
+            "eventSequenceNumber": 70,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-15"
+          },
+          {
+            "eventDescriptionText": "Document Verification",
+            "eventSequenceNumber": 69,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-15"
+          },
+          {
+            "eventDescriptionText": "Examiner's Amendment Communication",
+            "eventSequenceNumber": 68,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-06"
+          },
+          {
+            "eventDescriptionText": "Reasons for Allowance",
+            "eventSequenceNumber": 67,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-06"
+          },
+          {
+            "eventDescriptionText": "Allowability Notice",
+            "eventSequenceNumber": 66,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-05-06"
+          },
+          {
+            "eventDescriptionText": "Date Forwarded to Examiner",
+            "eventSequenceNumber": 65,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-03-29"
+          },
+          {
+            "eventDescriptionText": "RCE- AF Processed",
+            "eventSequenceNumber": 64,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-03-27"
+          },
+          {
+            "applicantDayDelayQuantity": 25,
+            "eventDescriptionText": "Request for Continued Examination (RCE)",
+            "eventSequenceNumber": 63,
+            "originatingEventSequenceNumber": 49,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-03-27"
+          },
+          {
+            "eventDescriptionText": "Disposal for a RCE / CPA / R129",
+            "eventSequenceNumber": 62,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-03-29"
+          },
+          {
+            "eventDescriptionText": "Request for Extension of Time - Granted",
+            "eventSequenceNumber": 61,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-03-27"
+          },
+          {
+            "eventDescriptionText": "Workflow - Request for RCE - Begin",
+            "eventSequenceNumber": 60,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-03-27"
+          },
+          {
+            "eventDescriptionText": "Email Notification",
+            "eventSequenceNumber": 59,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-02-28"
+          },
+          {
+            "eventDescriptionText": "Mail Advisory Action (PTOL - 303)",
+            "eventSequenceNumber": 58,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-02-28"
+          },
+          {
+            "eventDescriptionText": "After Final Consideration Program Additional Consideration and/or updated search",
+            "eventSequenceNumber": 57,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-02-23"
+          },
+          {
+            "eventDescriptionText": "Interview Summary - Examiner Initiated - Telephonic",
+            "eventSequenceNumber": 56,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-02-23"
+          },
+          {
+            "eventDescriptionText": "Advisory Action (PTOL-303)",
+            "eventSequenceNumber": 55,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-02-23"
+          },
+          {
+            "eventDescriptionText": "PILOT- Request for After Final Consideration Program",
+            "eventSequenceNumber": 54,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-02-17"
+          },
+          {
+            "eventDescriptionText": "Date Forwarded to Examiner",
+            "eventSequenceNumber": 53,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-02-22"
+          },
+          {
+            "eventDescriptionText": "Response after Final Action",
+            "eventSequenceNumber": 52,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2023-02-17"
+          },
+          {
+            "eventDescriptionText": "Electronic Review",
+            "eventSequenceNumber": 51,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-12-06"
+          },
+          {
+            "eventDescriptionText": "Email Notification",
+            "eventSequenceNumber": 50,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-12-02"
+          },
+          {
+            "eventDescriptionText": "Mail Final Rejection (PTOL - 326)",
+            "eventSequenceNumber": 49,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-12-02"
+          },
+          {
+            "eventDescriptionText": "Interview Summary - Examiner Initiated - Telephonic",
+            "eventSequenceNumber": 48,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-11-29"
+          },
+          {
+            "eventDescriptionText": "Final Rejection",
+            "eventSequenceNumber": 47,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-11-29"
+          },
+          {
+            "eventDescriptionText": "Date Forwarded to Examiner",
+            "eventSequenceNumber": 46,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-09-27"
+          },
+          {
+            "applicantDayDelayQuantity": 30,
+            "eventDescriptionText": "Response after Non-Final Action",
+            "eventSequenceNumber": 45,
+            "originatingEventSequenceNumber": 34,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-09-23"
+          },
+          {
+            "eventDescriptionText": "Request for Extension of Time - Granted",
+            "eventSequenceNumber": 44,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-09-23"
+          },
+          {
+            "eventDescriptionText": "Email Notification",
+            "eventSequenceNumber": 43,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-09-09"
+          },
+          {
+            "eventDescriptionText": "Mail Examiner Interview Summary (PTOL - 413)",
+            "eventSequenceNumber": 42,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-09-09"
+          },
+          {
+            "eventDescriptionText": "Interview Summary - Applicant Initiated - Telephonic",
+            "eventSequenceNumber": 41,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-09-01"
+          },
+          {
+            "eventDescriptionText": "Interview Summary Record",
+            "eventSequenceNumber": 40,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-09-02"
+          },
+          {
+            "eventDescriptionText": "Email Notification",
+            "eventSequenceNumber": 39,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-06-10"
+          },
+          {
+            "eventDescriptionText": "Change in Power of Attorney (May Include Associate POA)",
+            "eventSequenceNumber": 38,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-06-10"
+          },
+          {
+            "eventDescriptionText": "Correspondence Address Change",
+            "eventSequenceNumber": 37,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-06-08"
+          },
+          {
+            "eventDescriptionText": "Electronic Review",
+            "eventSequenceNumber": 36,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-05-24"
+          },
+          {
+            "eventDescriptionText": "Email Notification",
+            "eventSequenceNumber": 35,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-05-24"
+          },
+          {
+            "eventDescriptionText": "Mail Non-Final Rejection",
+            "eventSequenceNumber": 34,
+            "originatingEventSequenceNumber": 86.4,
+            "ptaPteCode": "PTA",
+            "ipOfficeDayDelayQuantity": 750,
+            "eventDate": "2022-05-24"
+          },
+          {
+            "eventDescriptionText": "Non-Final Rejection",
+            "eventSequenceNumber": 33,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-05-19"
+          },
+          {
+            "eventDescriptionText": "Information Disclosure Statement considered",
+            "eventSequenceNumber": 32,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-05-19"
+          },
+          {
+            "eventDescriptionText": "Information Disclosure Statement considered",
+            "eventSequenceNumber": 31,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-05-19"
+          },
+          {
+            "eventDescriptionText": "Case Docketed to Examiner in GAU",
+            "eventSequenceNumber": 30,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2022-04-23"
+          },
+          {
+            "eventDescriptionText": "Request to Re-evaluate Docketing",
+            "eventSequenceNumber": 29,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2020-12-05"
+          },
+          {
+            "eventDescriptionText": "Case Docketed to Examiner in GAU",
+            "eventSequenceNumber": 28,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2020-12-05"
+          },
+          {
+            "eventDescriptionText": "Request to Re-evaluate Docketing",
+            "eventSequenceNumber": 27,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2020-09-26"
+          },
+          {
+            "eventDescriptionText": "Case Docketed to Examiner in GAU",
+            "eventSequenceNumber": 26,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2020-09-25"
+          },
+          {
+            "eventDescriptionText": "Application ready for PDX access by participating foreign offices",
+            "eventSequenceNumber": 25,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-07-25"
+          },
+          {
+            "eventDescriptionText": "PG-Pub Issue Notification",
+            "eventSequenceNumber": 24,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-07-25"
+          },
+          {
+            "eventDescriptionText": "Oath or Declaration Filed (Including Supplemental)",
+            "eventSequenceNumber": 23,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-07-11"
+          },
+          {
+            "eventDescriptionText": "Miscellaneous Incoming Letter",
+            "eventSequenceNumber": 22,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-07-11"
+          },
+          {
+            "eventDescriptionText": "Miscellaneous Incoming Letter",
+            "eventSequenceNumber": 21,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-07-11"
+          },
+          {
+            "eventDescriptionText": "Change in Power of Attorney (May Include Associate POA)",
+            "eventSequenceNumber": 20,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-07-16"
+          },
+          {
+            "eventDescriptionText": "Information Disclosure Statement (IDS) Filed",
+            "eventSequenceNumber": 19,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-07-11"
+          },
+          {
+            "eventDescriptionText": "Information Disclosure Statement (IDS) Filed",
+            "eventSequenceNumber": 18,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-07-11"
+          },
+          {
+            "eventDescriptionText": "Case Docketed to Examiner in GAU",
+            "eventSequenceNumber": 17,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-06-10"
+          },
+          {
+            "eventDescriptionText": "Application Is Now Complete",
+            "eventSequenceNumber": 14,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-04-29"
+          },
+          {
+            "eventDescriptionText": "Application Dispatched from OIPE",
+            "eventSequenceNumber": 13,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-04-29"
+          },
+          {
+            "eventDescriptionText": "Sent to Classification Contractor",
+            "eventSequenceNumber": 11,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-04-12"
+          },
+          {
+            "eventDescriptionText": "FITF set to YES - revise initial setting",
+            "eventSequenceNumber": 10,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-04-12"
+          },
+          {
+            "eventDescriptionText": "Notice of DO/EO Acceptance Mailed",
+            "eventSequenceNumber": 8,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-04-12"
+          },
+          {
+            "eventDescriptionText": "Filing Receipt",
+            "eventSequenceNumber": 7,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-04-12"
+          },
+          {
+            "eventDescriptionText": "Cleared by OIPE CSR",
+            "eventSequenceNumber": 4,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2019-03-04"
+          },
+          {
+            "eventDescriptionText": "International Filing date",
+            "eventSequenceNumber": 0.5,
+            "originatingEventSequenceNumber": 0,
+            "ptaPteCode": "PTA",
+            "eventDate": "2017-08-31"
+          }
+        ]
+      },
+      "applicationNumberText": "16330077"
+    }
+  ],
+  "requestIdentifier": "69aeb663-74b9-4751-99fe-a92e3ba2d6f5"
+}
