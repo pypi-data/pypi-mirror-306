@@ -1,0 +1,6 @@
+setup.py
+src/tly.egg-info/PKG-INFO
+src/tly.egg-info/SOURCES.txt
+src/tly.egg-info/dependency_links.txt
+src/tly.egg-info/entry_points.txt
+src/tly.egg-info/top_level.txt
