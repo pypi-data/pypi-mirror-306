@@ -1,0 +1,14 @@
+integration_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+integration_tests/test_primero_api.py,sha256=IKv8VekZ82avM2bSPUIXfER7JKlzWCM0zE-fGjZkpgQ,2415
+primero_api/__init__.py,sha256=ZJQZ2cZ1wpnMNDBSbXZN8Ztaozse8kmpKXTcEPKaStc,67
+primero_api/logger.py,sha256=rQHoDdM4I_cfb-nlZSVpuHQfd7oQVfKByErD13sVdCE,165
+primero_api/primero_api.py,sha256=82y5fbsOhGgQEhgjJ-Z8hhTsy7nRAQRU8BRl3xT02t4,14645
+primero_api/report.py,sha256=D27vKlXkRHEQl3tFIQd4ZtbuG344QDQ-PyrbdgfZtbk,1364
+primero_api/report_processors.py,sha256=GH08WbtVwJKy5UXtx_9nBNW9J-eDWxMQECOnQgXSQAY,5247
+primero_api/version.py,sha256=i3ocgIasDNqIJ_-boWrURoCZdVuD6HWk49Ddv9aAu6A,65
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_primero_api.py,sha256=2pmWMuHVpK5VnC4ILOKHFSKKYvm5goUf6_WfHj2myPM,4919
+primero_api-0.2.4.dist-info/METADATA,sha256=2aWbnAzS_yQu49-tDYGw-FXbjrjHDwAzunR1GI8WzOM,7510
+primero_api-0.2.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+primero_api-0.2.4.dist-info/top_level.txt,sha256=7eThGZhmbLdHvpYg2N7COV7ADTd2fpOl9OFQyHPSHGw,36
+primero_api-0.2.4.dist-info/RECORD,,
