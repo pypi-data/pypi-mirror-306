@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/kube_module/__init__.py
+src/kube_module/memory_check.py
+src/kube_module.egg-info/PKG-INFO
+src/kube_module.egg-info/SOURCES.txt
+src/kube_module.egg-info/dependency_links.txt
+src/kube_module.egg-info/top_level.txt
