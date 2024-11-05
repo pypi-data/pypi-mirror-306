@@ -1,0 +1,10 @@
+prognosic_data/__init__.py,sha256=rvbncnsoe_pxpHBhtEZTbAXUpQjwsNzDc7F8ot1FU0E,55
+prognosic_data/app.py,sha256=WVxVFmoCE-tgMtgwIUBf3Rdl7CERfmvYL78eF8i2Sw0,2756
+prognosic_data/cloud.py,sha256=h3h0BCtcC9ICZAMDUjm0cVD_q87QHrdwNqS7mAvSgtY,1599
+prognosic_data/fetch_images.py,sha256=1PMN3FF1zu0YmrWN6AAN_ra4s6wLx34oId4qSWsBYUQ,2058
+prognosic_data-0.1.0.dist-info/LICENSE.md,sha256=N0NQ-V--RIJkWE1GoenWcl1u1aQblNC4rNtxeVmyXTg,1097
+prognosic_data-0.1.0.dist-info/METADATA,sha256=Wa0yyNUsJa4DzwUlMKk4lDAB6_LJnD5wYbo9fROwkEw,861
+prognosic_data-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+prognosic_data-0.1.0.dist-info/entry_points.txt,sha256=R7rsMHk00z59FXnsV8bw8E-XCU4eiBg8rB21CjIdHMM,49
+prognosic_data-0.1.0.dist-info/top_level.txt,sha256=A1gkyDQJFLIZE5FEwGG7kdmoSIWs3YKNW6_vIvth6w8,15
+prognosic_data-0.1.0.dist-info/RECORD,,
