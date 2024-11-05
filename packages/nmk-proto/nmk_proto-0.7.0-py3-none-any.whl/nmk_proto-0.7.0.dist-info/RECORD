@@ -1,0 +1,15 @@
+nmk_proto/__init__.py,sha256=7eE_8w-62-j47WANB6NuifTxo5i2RhpihOTB0uFGOXs,925
+nmk_proto/_utils.py,sha256=r-8SVKVn2FVmL_GA1J8IoZZZNDwiTeDCL48LWXSliWM,954
+nmk_proto/badges.yml,sha256=woaZeU1AokvSya-vgWWLQxWB_g7AR8KhHGQlZLvDERs,235
+nmk_proto/files.py,sha256=gbR7w6oooeJafg2aH6IiWUVC5_BXSubJVGpVv5yMjRE,2610
+nmk_proto/files.yml,sha256=J93CqFMviT2m-kAWw9cNpcPrJF8VPZYfnm71EJiziEY,825
+nmk_proto/plugin.yml,sha256=5NM6Ja0ke8nJ29DPnHyDGozDpCsnfyhWt73LsAD0Yfc,1094
+nmk_proto/python.py,sha256=8ocWaeaAIux9qjwQe1sXJ6Ry7vWKo4_0PuVU9aLH5U4,8140
+nmk_proto/python.yml,sha256=1rnY8b0msk87UHLJh6KxYsMHunMW11djJxnFJp9duZ8,2865
+nmk_proto/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nmk_proto/templates/init.py.jinja,sha256=Z4erd7agtY9MsnVEVQt7X-9EPZcQz6OgUS3HVEJOEVc,90
+nmk_proto-0.7.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+nmk_proto-0.7.0.dist-info/METADATA,sha256=RiR_PP-Q8EJPCIiMTeTM1f4K4NLA-ehh--l8FfyqY6k,22343
+nmk_proto-0.7.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+nmk_proto-0.7.0.dist-info/top_level.txt,sha256=JES5HP4moCgv03yOQo78p56XFX4HhWFs1QopEAqTVGM,10
+nmk_proto-0.7.0.dist-info/RECORD,,
