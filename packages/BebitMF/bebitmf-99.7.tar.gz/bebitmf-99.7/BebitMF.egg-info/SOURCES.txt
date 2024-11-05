@@ -1,0 +1,7 @@
+main.py
+setup.py
+BebitMF.egg-info/PKG-INFO
+BebitMF.egg-info/SOURCES.txt
+BebitMF.egg-info/dependency_links.txt
+BebitMF.egg-info/requires.txt
+BebitMF.egg-info/top_level.txt
