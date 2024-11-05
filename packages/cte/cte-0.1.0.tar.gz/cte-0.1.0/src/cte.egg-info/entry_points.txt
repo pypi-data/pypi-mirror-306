@@ -1,0 +1,2 @@
+[console_scripts]
+cte = name_register:main
