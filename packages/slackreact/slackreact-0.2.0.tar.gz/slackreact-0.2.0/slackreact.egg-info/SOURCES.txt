@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+slackreact/__init__.py
+slackreact/_bot.py
+slackreact/_rules.py
+slackreact.egg-info/PKG-INFO
+slackreact.egg-info/SOURCES.txt
+slackreact.egg-info/dependency_links.txt
+slackreact.egg-info/requires.txt
+slackreact.egg-info/top_level.txt
