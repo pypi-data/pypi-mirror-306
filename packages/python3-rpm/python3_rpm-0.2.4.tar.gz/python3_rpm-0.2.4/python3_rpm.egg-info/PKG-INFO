@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: python3-rpm
+Version: 0.2.4
+Summary: used to analyse rpm info
+Home-page: https://gitee.com/devops_dev/rpm
+Author: redrose2100
+Author-email: hitredrose@163.com
+Maintainer: redrose2100
+Maintainer-email: hitredrose@163.com
+License: MIT
+Project-URL: Documentation, https://gitee.com/devops_dev/rpm/README.md
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Logging
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fire
+Requires-Dist: python3-log
+Requires-Dist: python3-ssh>=0.1.2
+Requires-Dist: python3-chatgpt
+
+# python3-rpm
+## 安装
+```bash
+pip3 install python3-rpm
+```
+
+## 设置变量
+修改 [env.sh](env.sh) 中变量的值，然后执行如下命令使变量生效
+```bash
+source env.sh
+```
+
+
+
+## 用法
+### rpm_ai 命令用法
+* 获取指定软件包的所有服务
+```bash
+rpm_ai rpm get_service httpd
+```
+
+* 获取指定软件包的命令参数列表
+```bash
+rpm_ai rpm get_cmd_and_param acl
+```
+
+### rpm 库用法
+* 获取软件包提供的服务列表
+```python
+from rpm.rpm import RpmService
+
+rpm=RpmService()
+service_list=rpm.get_service("httpd")
+print(service_list)
+```
+其中 service_list 的内容为：
+```json
+[
+    "htcacheclean.service",
+    "httpd.service"
+]
+```
+* 获取命令参数列表
+```
+cmd_param_list=rpm.get_cmd_and_param("acl")
+print(cmd_param_list)
+```
+其中 cmd_param_list 格式如下：
+```json
+[
+    {"cmd": "getfacl", "param": "-a"},
+    {"cmd": "getfacl", "param": "-d"},
+    {"cmd": "getfacl", "param": "-c"},
+    {"cmd": "getfacl", "param": "-e"},
+    {"cmd": "getfacl", "param": "-E"},
+    {"cmd": "getfacl", "param": "-s"},
+    {"cmd": "getfacl", "param": "-R"},
+    {"cmd": "getfacl", "param": "-L"},
+    {"cmd": "getfacl", "param": "-P"},
+    {"cmd": "getfacl", "param": "-t"},
+    {"cmd": "getfacl", "param": "-n"},
+    {"cmd": "getfacl", "param": "-p"},
+    {"cmd": "getfacl", "param": "-v"},
+    {"cmd": "getfacl", "param": "-h"},
+    {"cmd": "getfacl", "param": "--access"},
+    {"cmd": "getfacl", "param": "--default"},
+    {"cmd": "getfacl", "param": "--omit-header"},
+    {"cmd": "getfacl", "param": "--all-effective"},
+    {"cmd": "getfacl", "param": "--no-effective"},
+    {"cmd": "getfacl", "param": "--skip-base"},
+    {"cmd": "getfacl", "param": "--recursive"},
+    {"cmd": "getfacl", "param": "--logical"},
+    {"cmd": "getfacl", "param": "--physical"},
+    {"cmd": "getfacl", "param": "--tabular"},
+    {"cmd": "getfacl", "param": "--numeric"},
+    {"cmd": "getfacl", "param": "--absolute-names"},
+    {"cmd": "getfacl", "param": "--version"},
+    {"cmd": "getfacl", "param": "--help"},
+    {"cmd": "setfacl", "param": "-m"},
+    {"cmd": "setfacl", "param": "-M"},
+    {"cmd": "setfacl", "param": "-x"},
+    {"cmd": "setfacl", "param": "-X"},
+    {"cmd": "setfacl", "param": "-b"},
+    {"cmd": "setfacl", "param": "-k"},
+    {"cmd": "setfacl", "param": "-n"},
+    {"cmd": "setfacl", "param": "-d"},
+    {"cmd": "setfacl", "param": "-R"},
+    {"cmd": "setfacl", "param": "-L"},
+    {"cmd": "setfacl", "param": "-P"},
+    {"cmd": "setfacl", "param": "-v"},
+    {"cmd": "setfacl", "param": "-h"},
+    {"cmd": "setfacl", "param": "--modify=acl"},
+    {"cmd": "setfacl", "param": "--modify-file=file"},
+    {"cmd": "setfacl", "param": "--remove=acl"},
+    {"cmd": "setfacl", "param": "--remove-file=file"},
+    {"cmd": "setfacl", "param": "--remove-all"},
+    {"cmd": "setfacl", "param": "--remove-default"},
+    {"cmd": "setfacl", "param": "--no-mask"},
+    {"cmd": "setfacl", "param": "--default"},
+    {"cmd": "setfacl", "param": "--recursive"},
+    {"cmd": "setfacl", "param": "--logical"},
+    {"cmd": "setfacl", "param": "--physical"},
+    {"cmd": "setfacl", "param": "--version"},
+    {"cmd": "setfacl", "param": "--help"}
+]
+```
