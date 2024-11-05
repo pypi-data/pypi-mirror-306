@@ -1,0 +1,7 @@
+pandas
+orjson
+datetime
+xarray
+pandas==2.2.0
+covjson-pydantic
+conflator
