@@ -1,0 +1,13 @@
+pysuez/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysuez/__main__.py,sha256=ecqkcQLuOoTFHdVtmYATkl16I8MJwCvKjjIv_KhDd9M,1934
+pysuez/async_client.py,sha256=KiVi24AVhYQ5LBYtgSVBbRDDU1DWh_sk8x8HNEB0sQc,6431
+pysuez/const.py,sha256=o0SMH7eqA_oxVsfXNgrc26oXm4VQczCq-j5yYnG7Rd4,1098
+pysuez/exception.py,sha256=JoPHiNBHEWeEjhjiaK8DU_NA22G1VarumA-9lv1tOBU,138
+pysuez/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysuez/suez_data.py,sha256=3HxHiCJbYMBYKUfKjqlMwwuy4MTPX7OyssGWkVaU17s,13367
+pysuez/utils.py,sha256=nhgnSRyK9A0jC6ja_IJmr_2cohHBu5_06zd2SD_ioQI,134
+pysuezv2-1.2.0.dist-info/METADATA,sha256=DiyAycTCS9t7eM6Q8cRDZq2-fHlZjb1q_VQQih8G0v0,1817
+pysuezv2-1.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pysuezv2-1.2.0.dist-info/entry_points.txt,sha256=qSDh8QZ1EpfBAw7xQERA6MDvgtVHtuI554ExpIoAnf0,50
+pysuezv2-1.2.0.dist-info/licenses/LICENSE,sha256=ZMXIEckAxlUlEUWDLnA4Hz6fEn6R_BxSnpvBFgbfzY0,11346
+pysuezv2-1.2.0.dist-info/RECORD,,
