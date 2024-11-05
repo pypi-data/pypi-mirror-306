@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=PH7sucGhljCuh-42IyhdVKDemzaxNRBfZmEWR2K-jbk,5157
+spond_classes/__init__.py,sha256=09gJI__GkGeETsZZ6hIS-jMLjVl3ugjASS0u9IAKsVk,445
+spond_classes/event.py,sha256=h3FBuRtM2Nz8OEjME4fjQAv1YEip5seLrX-Jf11IT_w,2429
+spond_classes/group.py,sha256=Hja_smzH1L5IDYdqrN9zz-zTKRkdQzqzaEPVz6oma9A,4265
+spond_classes/member.py,sha256=WETOPssdpEDn0XoJ3xxCnMlNX39Lr-dZ-77eVMnTsmM,1787
+spond_classes/profile_.py,sha256=iE_YV61WeIugQSIiQ5lDKaYUuB--SAcJcF5BstO2FVc,1153
+spond_classes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spond_classes/role.py,sha256=JR0qt3b206SAtyUBaRqnfqBuJ3PyLRAGHjvQs_zzj2Y,572
+spond_classes/subgroup.py,sha256=fV6LojRZ0WbH4u8xdH6FmLy39VYuph82bLbEXBtuEaI,596
+spond_classes-0.13.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+spond_classes-0.13.0.dist-info/METADATA,sha256=htaxOmTQ2fy6bUlijOCUXEheLpbqTUNC3bWzQF0C4LY,2821
+spond_classes-0.13.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+spond_classes-0.13.0.dist-info/RECORD,,
