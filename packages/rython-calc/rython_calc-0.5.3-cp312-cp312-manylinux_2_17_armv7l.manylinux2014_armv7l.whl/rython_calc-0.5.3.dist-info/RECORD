@@ -1,0 +1,8 @@
+rython_calc-0.5.3.dist-info/METADATA,sha256=S0LirCuYmURanYYk1hKlj9IooJIHsavp5AbaWBa9juA,1334
+rython_calc-0.5.3.dist-info/WHEEL,sha256=fAjoBJMhi3FX0u6RKjHmlDtFbyz9RIx8xomQ2aCVNA8,129
+rython_calc-0.5.3.dist-info/licenses/LICENSE,sha256=YTdJScoWNS6Swcju99Rp2xnHLdWVj_AodOZLa3_RCx0,1075
+rython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rython/rython_calc.pyi,sha256=FNTuGvKKZveBpo-KHl0sxS6whMQ6csSZotm-AZNPYVc,743
+rython/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rython/rython_calc.cpython-312-arm-linux-gnueabihf.so,sha256=p4z1Xo3SjlBpKnS4sFYu3htfT66djzt02HD4027agzI,524648
+rython_calc-0.5.3.dist-info/RECORD,,
