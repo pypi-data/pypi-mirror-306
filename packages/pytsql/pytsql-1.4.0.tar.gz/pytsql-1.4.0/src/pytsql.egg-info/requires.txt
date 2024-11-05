@@ -1,0 +1,4 @@
+sqlalchemy<3,>=1.4
+antlr4-python3-runtime<4.14,>=4.10
+pyodbc>=4.0.30
+click

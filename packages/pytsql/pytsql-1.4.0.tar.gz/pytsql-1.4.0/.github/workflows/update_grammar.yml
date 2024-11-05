@@ -1,0 +1,38 @@
+name: Update Grammar
+on:
+    schedule:
+        - cron: '0 0 1 * *'
+    workflow_dispatch:
+
+
+jobs:
+    update-grammar:
+        name: Update TSQL grammar based on antlr4's grammar
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout branch
+              uses: actions/checkout@v4
+              with:
+                fetch-depth: 0
+            - name: Set up pixi
+              uses: prefix-dev/setup-pixi@v0.8.1
+              with:
+                environments: grammar
+            - name: Download ANTLR
+              working-directory: src/pytsql/grammar
+              run: wget https://repo1.maven.org/maven2/org/antlr/antlr4/4.13.1/antlr4-4.13.1-complete.jar
+            - name: Download latest grammar definition and re-generate grammar targets
+              run: pixi run update-grammar
+            - name: Install package (test compilation)
+              run:
+                pixi run -e grammar pip install .
+            - name: Create Pull Request
+              uses: peter-evans/create-pull-request@v7
+              with:
+                delete-branch: true
+                title: "Autoupdate grammar targets based on antlr/grammars-v4's TSQL grammar definition"
+                commit-message: "Autoupdate grammar targets"
+                body: |
+                  This PR was created automatically as [antlr/grammars-v4](https://github.com/antlr/grammars-v4/tree/master/sql/tsql) TSQL grammar definition changed.
+                branch: autoupdate_grammar_based_on_antlr_grammars-v4
+                add-paths: src/pytsql/grammar

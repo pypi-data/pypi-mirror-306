@@ -1,0 +1,69 @@
+name: Build and upload to PyPI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  release:
+    types:
+      - published
+
+jobs:
+  build_wheels:
+    name: Build wheels on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        # macos-13 is pre-ARM
+        os: [ ubuntu-24.04, windows-2019, macos-13, macos-latest ]
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build wheels
+        uses: pypa/cibuildwheel@7940a4c0e76eb2030e473a5f864f291f63ee879b # v2.21.3
+        env:
+          CIBW_SKIP: pp*
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pytsql-wheel-${{ matrix.os }}
+          path: ./wheelhouse/*.whl
+          if-no-files-found: error
+
+  build_sdist:
+    name: Build source distribution
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build sdist
+        run: pipx run build --sdist
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pytsql-sdist
+          path: dist/*.tar.gz
+          if-no-files-found: error
+
+  upload_pypi:
+    name: Upload to PyPI
+    needs: [build_wheels, build_sdist]
+    environment: pypi
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
+    if: github.event_name == 'release' && github.event.action == 'published'
+    steps:
+      - uses: actions/download-artifact@v4.1.8
+        with:
+          pattern: pytsql-*
+          merge-multiple: true
+          path: dist
+
+      - uses: pypa/gh-action-pypi-publish@v1.10.3
