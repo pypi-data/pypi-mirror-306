@@ -1,0 +1,16 @@
+mprerun/__init__.py,sha256=qvMPjC0EGpKmwmp1A-Gm0UTfJsbLPFcdZZAsYClUcEc,1064
+mprerun/__main__.py,sha256=IW2pB15a0ts9EtGJZQUXolgRSwZlvMgCBBYzsUdx8UE,68
+mprerun/config.py,sha256=E7uniPSpcympPvBIwF_W_83_A5GNDB67Djb2hfzYNiE,371
+mprerun/dtw/__init__.py,sha256=8HZ4RHbhKQ7RQPLWOg4JF7TKjaedjpDzw1Tz4G59RKg,40
+mprerun/dtw/mediapipe_dtw.py,sha256=unIBNDDew-9FpNbOhXwcuvc6XWAikgp3KE9q1Jiri6U,281
+mprerun/pose/__init__.py,sha256=nF5H3xrmrbVguEBf8cnQBp8bD5YVmwXgtE8Lazae5CE,1839
+mprerun/pose/mediapipe_pose.py,sha256=WIBFMGVrWfaMzuo4ZpkFBPaelPG3KjUnxDR8GQTFXZ4,6285
+mprerun/pose/mediapipe_pose_config.py,sha256=RnbwuajgtEiIsoC42Z9qvdKiNs2oreZ1h_Xpeez81Zk,876
+mprerun/pose/mediapipe_pose_video.py,sha256=xBQe6EagjRGlOSlfQ_M_KANXJ4OGv_q69Gg5CVOloco,1500
+mprerun/pose/mediapipe_pose_video_base.py,sha256=r7pM6nHLnFm74XO6nV2dZ6DI841_nkE4QA6UIE-mKxo,6041
+mprerun/pose/mediapipe_pose_video_data.py,sha256=bWvlFBGRi3HoaCD1WfUHX_qfpUHbN2zkcwbsPahuczA,2800
+mprerun/pose/mediapipe_pose_video_viewer.py,sha256=aIUWGfE81SBaIZurAOX28YqQp3NSpLiJHiRj0LK2ltY,10958
+mprerun-0.1.0.dist-info/METADATA,sha256=eNwb_OkUcGYWvWhUOAK-p-LnKRzNAzdyWWKluEEUyHQ,380
+mprerun-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+mprerun-0.1.0.dist-info/entry_points.txt,sha256=aYwnJNOhrsuxHjqfYzNxVAr4-mmvIx3lKA3M5L8dAfQ,41
+mprerun-0.1.0.dist-info/RECORD,,
