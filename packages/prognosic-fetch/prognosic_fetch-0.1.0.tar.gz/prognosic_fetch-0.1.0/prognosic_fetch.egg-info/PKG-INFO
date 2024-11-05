@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: prognosic_fetch
+Version: 0.1.0
+Summary: Prognosic, backed by Hack Club (501(c)(3) EIN: 81-2908499), offers instant dataset access in just 2 lines of code, making ML model training easy.
+Home-page: https://www.prognosic.com/
+Author: Mukund Gupta
+Author-email: mukund@prognosic.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: flask
+Requires-Dist: boto3
+Requires-Dist: tqdm
+Requires-Dist: python-dotenv
+
+Access to Medical Imaging Dataset Made EASY with Prognosic API! Download Vast Medical Imaging Datasets in JUST 2 lines of code!
+
+Visit our website for more up-to date information: https://www.prognosic.com/
