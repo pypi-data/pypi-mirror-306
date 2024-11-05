@@ -1,0 +1,2 @@
+[console_scripts]
+cth = name_register:main
