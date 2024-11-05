@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "funcrunner"
+version = "1.0.1"
+description = ""
+authors = ["Matthew Orahood <morahood@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^8.3.3"
+requests = "^2.32.3"
+pydantic = "^2.9.2"
+structlog = "^24.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
