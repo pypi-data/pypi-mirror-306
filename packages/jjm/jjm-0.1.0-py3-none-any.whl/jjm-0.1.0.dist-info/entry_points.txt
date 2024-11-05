@@ -1,0 +1,2 @@
+[console_scripts]
+jjm = name_register:main
