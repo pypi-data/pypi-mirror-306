@@ -1,0 +1,5 @@
+rocraters-0.3.0.dist-info/METADATA,sha256=suxwYteuEsTtyqBc6gKKG1iYWf6o1g_6ID8mgTAYxZs,5800
+rocraters-0.3.0.dist-info/WHEEL,sha256=Pw1rTMFEM9YbMRCplAtTLegt9HMzeR45FiD03Pwyddc,91
+rocraters/__init__.py,sha256=FHhYTbgQof1TJZh9PW_ztKSPRDwGXxPSa4HCROvOG9k,119
+rocraters/rocraters.cp310-win32.pyd,sha256=KaE-Jw3z3suv1daB7KCKiPJkNp5bEdUMl6X5j4y2DB8,1691136
+rocraters-0.3.0.dist-info/RECORD,,
