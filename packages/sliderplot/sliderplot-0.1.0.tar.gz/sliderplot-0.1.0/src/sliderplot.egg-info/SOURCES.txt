@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/sliderplot/__init__.py
+src/sliderplot/sliderplot.py
+src/sliderplot.egg-info/PKG-INFO
+src/sliderplot.egg-info/SOURCES.txt
+src/sliderplot.egg-info/dependency_links.txt
+src/sliderplot.egg-info/requires.txt
+src/sliderplot.egg-info/top_level.txt
+tests/test_sliderplot.py
+tests/test_wrong_formats.py
