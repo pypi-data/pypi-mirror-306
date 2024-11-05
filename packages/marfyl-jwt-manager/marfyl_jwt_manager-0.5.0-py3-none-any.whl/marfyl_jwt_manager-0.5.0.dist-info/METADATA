@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: marfyl-jwt-manager
+Version: 0.5.0
+Summary: A service to process jwt from headers
+Author: Eduardo Ponce
+Author-email: poncejones@gmail.com
+Requires-Python: >=3.9
+Requires-Dist: PyJWT
+Requires-Dist: cryptography
+Requires-Dist: fastapi
+Requires-Dist: starlette
+

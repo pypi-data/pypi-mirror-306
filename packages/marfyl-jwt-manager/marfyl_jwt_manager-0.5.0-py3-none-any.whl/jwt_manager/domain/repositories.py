@@ -1,0 +1,1 @@
+# This file is left empty for now. Here you can implement data access logic if needed in the future.
