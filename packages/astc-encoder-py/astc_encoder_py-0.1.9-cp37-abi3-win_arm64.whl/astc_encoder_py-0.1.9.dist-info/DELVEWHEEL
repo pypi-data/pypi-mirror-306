@@ -1,0 +1,2 @@
+Version: 1.8.3
+Arguments: ['C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-j_9bxbo_\\cp39-win_arm64\\build\\venv\\Scripts\\delvewheel', 'repair', '-w', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-j_9bxbo_\\cp39-win_arm64\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-j_9bxbo_\\cp39-win_arm64\\built_wheel\\astc_encoder_py-0.1.9-cp37-abi3-win_arm64.whl', '--add-path', 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Redist\\MSVC\\14.40.33807\\arm64\\Microsoft.VC143.CRT']
