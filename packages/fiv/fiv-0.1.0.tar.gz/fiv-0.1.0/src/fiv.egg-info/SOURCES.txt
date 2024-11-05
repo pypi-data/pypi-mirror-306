@@ -1,0 +1,6 @@
+setup.py
+src/fiv.egg-info/PKG-INFO
+src/fiv.egg-info/SOURCES.txt
+src/fiv.egg-info/dependency_links.txt
+src/fiv.egg-info/entry_points.txt
+src/fiv.egg-info/top_level.txt
