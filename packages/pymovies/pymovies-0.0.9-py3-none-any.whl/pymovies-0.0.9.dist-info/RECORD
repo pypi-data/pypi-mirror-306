@@ -1,0 +1,12 @@
+pymovies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymovies/__main__.py,sha256=3WtcZyqrM_r_LW6UX7vrmsVxGmwOG2_Vro1UdoH_TMA,2915
+pymovies/list_movies.py,sha256=Jz_Pd38-sD9IQol4zkwOWe2eANHHF4YkD7dO2grRku8,258
+pymovies/quote_from_category.py,sha256=rm68ZE12-Tw9vgfo0v6EWwL3jvZE3Uofe4QuO1Ker8Y,608
+pymovies/quote_of_the_day.py,sha256=oKqwrBfWt-5tqNiBZm7mmbr7gpJYqJ9az5kTEa0YErg,374
+pymovies/quotes.py,sha256=INpCM07Ld2FW7f2nLuQd2YN6wwaPbHrOsPqkqRVrL9E,6323
+pymovies/random_quote.py,sha256=chjy3TE0JI6pt2YQGt6UQ7ubridBwqnWboIrUbmhbqw,490
+pymovies-0.0.9.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pymovies-0.0.9.dist-info/METADATA,sha256=6B32Liz4-t3BspA423ZFk0jtNr2Bh9m_vC25uHlG0sQ,43233
+pymovies-0.0.9.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pymovies-0.0.9.dist-info/top_level.txt,sha256=gnySevl9YZWb4YUxfMj63AwegMDPQ4UT3Iyt9ZdRl6U,9
+pymovies-0.0.9.dist-info/RECORD,,
