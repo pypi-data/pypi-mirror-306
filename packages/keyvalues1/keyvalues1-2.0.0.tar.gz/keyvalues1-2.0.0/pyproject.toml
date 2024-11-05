@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "keyvalues1"
+version = "2.0.0"
+description = "Parser for version 1 of Valve's KeyValues format"
+authors = ["Jonathan Ehwald <github@ehwald.info>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/DoctorJohn/keyvalues1"
+repository = "https://github.com/DoctorJohn/keyvalues1"
+documentation = "https://github.com/DoctorJohn/keyvalues1"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+lark = "^1.1.7"
+typing-extensions = "^4.9.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+pytest-cov = "^6.0.0"
+pytest-randomly = "^3.15.0"
+ruff = "^0.7.2"
+pre-commit = "^4.0.1"
+
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=keyvalues1 --cov-report term-missing"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
