@@ -1,0 +1,12 @@
+pyexcuses/__init__.py,sha256=i3pXHIgJtujr0FGx1ZqKj0aHTeWlsKtBIm8EJSYaF3Y,285
+pyexcuses/exc.py,sha256=5BL3nmw1t7Wpgp19ottAMrTPg3wnPMO5LGbbUXlCXyc,218
+pyexcuses/excuses_en.py,sha256=bfN1O2Ci9ELANwuzgbWTKharomF8KIJZ8gd4lE-Ts08,1063
+pyexcuses/excuses_es.py,sha256=VyzUk-8lJKyX9NtTD4ebaTq7Y_WaavkIXB0rNESbLpI,1205
+pyexcuses/pyexcuses.py,sha256=kFXYnXVqtc1d3a0We5JLnbmypRpTxb--cmtDw7ffbC8,3431
+pyexcuses/solutions_en.py,sha256=t4IZF3SmHcgm6wMLU8Q9f9naTJw8uvkm4baM6yo4Y4I,1152
+pyexcuses/solutions_es.py,sha256=apGmM7xVltIlqtDz-xrMZJmFHx556glgR-71WWBnhoE,1271
+pyexcuses-0.0.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pyexcuses-0.0.2.dist-info/METADATA,sha256=7PHwgW_0sKoWfGzsX18VwRGAl7mY7eQkPrhMfj4dhEc,4959
+pyexcuses-0.0.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pyexcuses-0.0.2.dist-info/top_level.txt,sha256=elYnUiy7qxCDoJxBj9XC-UqasCXgrVNTxS2mW2lQZQ0,10
+pyexcuses-0.0.2.dist-info/RECORD,,
