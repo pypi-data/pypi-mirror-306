@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+ebook2audiobook_install_counter.egg-info/PKG-INFO
+ebook2audiobook_install_counter.egg-info/SOURCES.txt
+ebook2audiobook_install_counter.egg-info/dependency_links.txt
+ebook2audiobook_install_counter.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ebook2audiobook_install_counter
+Version: 0.1
+Summary: A Python package that does nothing only used as a install counter lol
+Home-page: https://github.com/DrewThomasson/ebook2audiobookXTTS
+Author: Drew Thomasson
+Author-email: 
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
