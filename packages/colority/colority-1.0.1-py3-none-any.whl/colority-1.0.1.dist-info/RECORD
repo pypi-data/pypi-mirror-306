@@ -1,0 +1,17 @@
+colority/__init__.py,sha256=ys3466VrJmuUSFqJc-eqxxlfcBxTASuC9EaMTU7XXwg,197
+colority/ansi.py,sha256=NUTSjUl_P75YjQeaH7ca4thbFpcBZQxzdRb7JXTZiXs,2447
+colority/ansitowin32.py,sha256=paVgtQ3IlsBoB0bHa5DO7bMsNh1j-PMju_MdeCkm58o,18370
+colority/initialise.py,sha256=WnEzg40R1RRIK5siJMMlTS39PqO7XVqV4zkguY60WI0,3250
+colority/win32.py,sha256=24Kr3nJCLksz39XGaGI6PLU7kGm09IhirHeDh0oV42Y,6105
+colority/winterm.py,sha256=Rdrw9jLGJewDohgs2GHoanm_P6wlhVh8CPFZTC6xaQs,7059
+colority/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colority/tests/ansi_test.py,sha256=PfHwZIEXuLldfYdYtVmvLg0jjt1847QReohH3ewNGNA,2764
+colority/tests/ansitowin32_test.py,sha256=Rp8iepsX7oIdpCHRtJF1pWyLEuexcjXJpvKp_iCD7aE,10603
+colority/tests/initialise_test.py,sha256=xUlUWZpQBVCW213Kz-Y6VnDJPcKc59H75fH1c0w1sM4,6666
+colority/tests/isatty_test.py,sha256=IIxj5DU5UKml1TKrGqmuyO-9ikGA-kWJd0j2gDJlktg,1791
+colority/tests/utils.py,sha256=TZ_F7NNoRHAxQvANtt8L834SMcxAi2oLp--7OjENHc8,1004
+colority/tests/winterm_test.py,sha256=aVOmBDDVHBkOiog9ELVPPF-uom8okLKBlR9yozzm7yw,3634
+colority-1.0.1.dist-info/METADATA,sha256=tPcY06v6qoSExWM8mUJUe0n7gmUjBmGfBw1Vx_4zV6Y,298
+colority-1.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+colority-1.0.1.dist-info/top_level.txt,sha256=A37FLEQmBobsiMpI5ukCeWk-q0nG0mR_ttaKQysUST4,9
+colority-1.0.1.dist-info/RECORD,,
