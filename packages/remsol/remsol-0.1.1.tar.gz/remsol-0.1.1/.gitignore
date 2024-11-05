@@ -1,0 +1,10 @@
+/target
+Cargo.lock
+**out**
+*.txt
+.venv
+.zed
+**__pycache__**
+dist
+docs/_build
+.DS_Store
