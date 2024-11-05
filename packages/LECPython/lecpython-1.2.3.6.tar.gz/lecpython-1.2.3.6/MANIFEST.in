@@ -1,0 +1,4 @@
+include LECPython/*.dll
+include LECPython/*.so
+include LECPython/*.json
+include LECPython/*.pdb
