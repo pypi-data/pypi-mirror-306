@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "pazgas-power"
+version = "0.0.2"
+description = "A python wrapper for PazGas Power"
+authors = ["Guy Khmelnitsky <guykhmel@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.10.10"
+aiofiles = "^24.1.0"
+mashumaro = "^3.13.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^6.0.0"
+ruff = "^0.7.1"
+
+[tool.pytest.ini_options]
+testpaths = ["tests",]
+pythonpath = ["src",]
+
+#[tool.coverage.run]
+#branch = true
+#omit = ["*/tests/*"]
+
+#[tool.coverage.report]
+#show_missing = true
+#fail_under = 100
+
+#[tool.coverage.html]
+#directory = "htmlcov"
+
+[tool.ruff]
+line-length = 120
+indent-width = 4
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "S"]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
