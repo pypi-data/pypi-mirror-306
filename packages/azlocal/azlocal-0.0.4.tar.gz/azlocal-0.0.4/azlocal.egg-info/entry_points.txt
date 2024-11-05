@@ -1,0 +1,3 @@
+[console_scripts]
+azdlocal = src.azdlocal:main
+azlocal = src.azlocal:main
