@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Patrick_personnal_library/DB_manipulation.py
+Patrick_personnal_library/Installer_module.py
+Patrick_personnal_library/__init__.py
+Patrick_personnal_library/ask_path_save_load.py
+Patrick_personnal_library/excel_utils.py
+Patrick_personnal_library.egg-info/PKG-INFO
+Patrick_personnal_library.egg-info/SOURCES.txt
+Patrick_personnal_library.egg-info/dependency_links.txt
+Patrick_personnal_library.egg-info/top_level.txt
