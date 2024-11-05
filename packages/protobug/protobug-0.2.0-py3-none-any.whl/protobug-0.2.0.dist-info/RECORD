@@ -1,0 +1,11 @@
+protobug/__init__.py,sha256=xI1PRTToHRmd6yuNpBNzWdfEAR6S_3UhYn4Xvn2n9Ec,1753
+protobug/__main__.py,sha256=cqdaRFxWWVEKQHomzr1Ao0J95hCtAkENF_bFDEDx7Kg,788
+protobug/_core.py,sha256=xD2ZljpWBrKoFu7LwNGjoihU4vLZ1eOYQd2eu3Z9pAY,10514
+protobug/_reader.py,sha256=LlwLMio0kueLC0T9L3ERNW0FsTF-6vbI5ivSE3Jts1Q,9395
+protobug/_version.py,sha256=H-qsvrxCpdhaQzyddR-yajEqI71hPxLa4KxzpP3uS1g,411
+protobug/_writer.py,sha256=PhqXzJtVeePLwfgKWfGkht_ra1uYiKZdJ4qZYM5MCx8,6017
+protobug/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+protobug-0.2.0.dist-info/METADATA,sha256=bETpG0MQsQJkpQhBq64tRZt-CXP2TTo6q54fXDON3Hw,2476
+protobug-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+protobug-0.2.0.dist-info/licenses/LICENSE,sha256=RpmGMkeoIK6CNt_nVqOYS7ueFNrlCDX5cqtsLbIdgYg,1211
+protobug-0.2.0.dist-info/RECORD,,
