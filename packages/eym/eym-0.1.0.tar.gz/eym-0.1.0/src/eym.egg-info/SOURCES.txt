@@ -1,0 +1,6 @@
+setup.py
+src/eym.egg-info/PKG-INFO
+src/eym.egg-info/SOURCES.txt
+src/eym.egg-info/dependency_links.txt
+src/eym.egg-info/entry_points.txt
+src/eym.egg-info/top_level.txt
