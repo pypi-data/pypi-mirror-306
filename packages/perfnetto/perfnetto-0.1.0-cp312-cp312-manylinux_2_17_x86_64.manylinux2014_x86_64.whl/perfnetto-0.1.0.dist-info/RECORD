@@ -1,0 +1,7 @@
+perfnetto-0.1.0.dist-info/RECORD,,
+perfnetto-0.1.0.dist-info/METADATA,sha256=2ODNLQfPdTurX50IzV-mcdcDNbZ_U7r3qPRG4f5TCAM,2432
+perfnetto-0.1.0.dist-info/WHEEL,sha256=saO6D3GDzYwU5kt9fXA0rU_TpNNqZ4hK66jV6retOj4,148
+perfnetto-0.1.0.dist-info/licenses/LICENSE,sha256=lgXwnPojA8o3oSP5ibs5yNEsJCscPs52-rdIOkOhwI0,608
+perfnetto/_perfnetto.cpython-312-x86_64-linux-gnu.so,sha256=PWFAsVLVh1ziVKYt-iLU87FdycgZiZz1hf3kq592y9c,54149784
+perfnetto/__init__.py,sha256=DRWMqH_vu3bUejokN0uyIQj4IRj34mW-5uBITEsOZO4,1180
+perfnetto/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
