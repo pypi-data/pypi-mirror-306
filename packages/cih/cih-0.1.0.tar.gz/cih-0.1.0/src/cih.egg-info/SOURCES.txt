@@ -1,0 +1,6 @@
+setup.py
+src/cih.egg-info/PKG-INFO
+src/cih.egg-info/SOURCES.txt
+src/cih.egg-info/dependency_links.txt
+src/cih.egg-info/entry_points.txt
+src/cih.egg-info/top_level.txt
