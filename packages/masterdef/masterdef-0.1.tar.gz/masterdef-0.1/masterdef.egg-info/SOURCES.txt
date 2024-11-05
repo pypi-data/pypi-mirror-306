@@ -1,0 +1,9 @@
+setup.py
+MasterDef/__init__.py
+MasterDef/formatting.py
+MasterDef/validation.py
+masterdef.egg-info/PKG-INFO
+masterdef.egg-info/SOURCES.txt
+masterdef.egg-info/dependency_links.txt
+masterdef.egg-info/requires.txt
+masterdef.egg-info/top_level.txt
