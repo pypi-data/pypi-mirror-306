@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Kill Stories{% endblock %}
+
+{% block content %}
+<h1>Kill Stories</h1>
+<ul>
+  {% for story in stories %}
+    <li>
+      <strong>{{ story.title }}</strong> - {{ story.description }}
+      <small>by {{ story.user.username }} on {{ story.created_at }}</small>
+    </li>
+  {% endfor %}
+</ul>
+{% endblock %}
