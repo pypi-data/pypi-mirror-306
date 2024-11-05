@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: sdynpy
+Version: 0.14.0
+Summary: A Structural Dynamics Library for Python
+Home-page: https://github.com/sandialabs/sdynpy
+Author: Daniel P. Rohe
+Author-email: dprohe@sandia.gov
+License: GPLv3
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Pytest
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: npTDMS
+Requires-Dist: qtpy
+Requires-Dist: PyQt5
+Requires-Dist: pyqtgraph
+Requires-Dist: netCDF4
+Requires-Dist: pandas
+Requires-Dist: python-pptx
+Requires-Dist: Pillow
+Requires-Dist: pyvista
+Requires-Dist: pyvistaqt
+Requires-Dist: openpyxl
+Requires-Dist: vtk
+Requires-Dist: joblib
+Provides-Extra: docs
+Requires-Dist: docutils<0.18,>=0.14; extra == "docs"
+Requires-Dist: ipykernel; extra == "docs"
+Requires-Dist: ipython; extra == "docs"
+Requires-Dist: jinja2>=3.0; extra == "docs"
+Requires-Dist: nbsphinx; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Requires-Dist: sphinxcontrib-bibtex; extra == "docs"
+Requires-Dist: sphinx-copybutton; extra == "docs"
+Provides-Extra: testing
+Requires-Dist: pycodestyle; extra == "testing"
+Requires-Dist: pylint; extra == "testing"
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+Provides-Extra: all
+Requires-Dist: docutils<0.18,>=0.14; extra == "all"
+Requires-Dist: ipykernel; extra == "all"
+Requires-Dist: ipython; extra == "all"
+Requires-Dist: jinja2>=3.0; extra == "all"
+Requires-Dist: nbsphinx; extra == "all"
+Requires-Dist: pycodestyle; extra == "all"
+Requires-Dist: pylint; extra == "all"
+Requires-Dist: pytest; extra == "all"
+Requires-Dist: pytest-cov; extra == "all"
+Requires-Dist: sphinx; extra == "all"
+Requires-Dist: sphinx-copybutton; extra == "all"
+Requires-Dist: sphinx-rtd-theme; extra == "all"
+Requires-Dist: sphinxcontrib-bibtex; extra == "all"
+
+####################################
+Structural Dynamics Python Libraries
+####################################
+
+|documentation| |build| |codecov| |coveralls| |codefactor| |pylint| |docker|
+
+This repository houses SDynPy, a Python module built for doing structural dynamics analysis using Python.
+It contains core objects that define test geometry and data.  It contains readers and writers for common data formats.
+It also contains various structural dynamics and signal processing tools.
+
+***********
+Information
+***********
+
+- `Documentation <https://sandialabs.github.io/sdynpy/>`_
+- `Project <https://github.com/sandialabs/sdynpy>`_
+- `Releases <https://github.com/sandialabs/sdynpy/releases>`_
+- `Tutorial <https://sandialabs.github.io/sdynpy/sdynpy_showcase.html>`_
+
+..
+    Badges ========================================================================
+
+.. |documentation| image:: https://img.shields.io/github/actions/workflow/status/sandialabs/sdynpy/pages.yml?branch=main&label=Documentation
+    :target: https://sandialabs.github.io/sdynpy/
+
+.. |build| image:: https://img.shields.io/github/actions/workflow/status/sandialabs/sdynpy/main.yml?branch=main&label=GitHub&logo=github
+    :target: https://github.com/sandialabs/sdynpy
+
+.. |pylint| image:: https://raw.githubusercontent.com/sandialabs/sdynpy/gh-pages/pylint.svg
+    :target: https://github.com/sandialabs/sdynpy
+
+.. |coveralls| image:: https://img.shields.io/coveralls/github/sandialabs/sdynpy?logo=coveralls&label=Coveralls
+    :target: https://coveralls.io/github/sandialabs/sdynpy?branch=main
+
+.. |codecov| image:: https://img.shields.io/codecov/c/github/sandialabs/sdynpy?label=Codecov&logo=codecov
+    :target: https://codecov.io/gh/sandialabs/sdynpy
+
+.. |codefactor| image:: https://img.shields.io/codefactor/grade/github/sandialabs/sdynpy?label=Codefactor&logo=codefactor
+   :target: https://www.codefactor.io/repository/github/sandialabs/sdynpy
+
+.. |docker| image:: https://img.shields.io/docker/v/dprohe/sdynpy?color=0db7ed&label=Docker%20Hub&logo=docker&logoColor=0db7ed
+    :target: https://hub.docker.com/r/dprohe/sdynpy
