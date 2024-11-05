@@ -1,0 +1,3 @@
+[console_scripts]
+beepy_web_radio=src.beepy_web_radio.main:main
+
