@@ -1,0 +1,30 @@
+[tool.black]
+line-length = 120
+target-version = ["py38"]
+
+[tool.coverage.run]
+source = ["textmentations"]
+
+[tool.coverage.report]
+exclude_lines = ["raise NotImplementedError"]
+ignore_errors = true
+
+[tool.isort]
+classes = ["AEDA"]
+line_length = 120
+profile = "black"
+py_version = 38
+
+[tool.mypy]
+files = ["textmentations"]
+exclude = ["tests"]
+python_version = "3.8"
+check_untyped_defs = true
+disallow_untyped_decorators = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+
+[tool.pytest.ini_options]
+testpaths = "tests"
