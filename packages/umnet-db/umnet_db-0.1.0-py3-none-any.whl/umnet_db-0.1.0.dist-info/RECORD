@@ -1,0 +1,7 @@
+umnet_db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+umnet_db/models.py,sha256=BaXyVDaJpb45sBEcM1YtZEBiJt1AUc2SNxBPrlSy_Is,6096
+umnet_db/queries.py,sha256=5FQOtHPwyvkyX4az9-zI3FK8Fy2PrNj0mATR1RqKFA4,2976
+umnet_db/utils.py,sha256=GTObjZHL_xz_LPqWjPAubZSSylf69v2xkDpM4ba4tPI,2717
+umnet_db-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+umnet_db-0.1.0.dist-info/METADATA,sha256=InCJoham3-5cZzk5iCQOh3HKzNC5DUSjTFWshplt4Oo,594
+umnet_db-0.1.0.dist-info/RECORD,,
