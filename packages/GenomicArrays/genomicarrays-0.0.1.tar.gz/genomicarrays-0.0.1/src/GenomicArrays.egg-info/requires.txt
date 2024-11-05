@@ -1,0 +1,16 @@
+cellarr
+tiledb
+pyBigWig
+pandas
+numpy
+pyarrow>=1.0
+mopsy
+genomicranges
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
