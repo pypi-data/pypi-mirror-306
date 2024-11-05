@@ -1,0 +1,2 @@
+[ninja_bear_language_shell]
+config = ninja_bear_language_shell.config:Config
