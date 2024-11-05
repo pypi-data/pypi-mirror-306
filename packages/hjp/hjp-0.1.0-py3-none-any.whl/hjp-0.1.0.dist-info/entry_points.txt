@@ -1,0 +1,2 @@
+[console_scripts]
+hjp = name_register:main
