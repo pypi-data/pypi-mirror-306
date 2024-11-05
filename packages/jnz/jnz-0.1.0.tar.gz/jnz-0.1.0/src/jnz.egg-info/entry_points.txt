@@ -1,0 +1,2 @@
+[console_scripts]
+jnz = name_register:main
