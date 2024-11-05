@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nicegui-react
+Version: 0.0.1
+Summary: Integrate React components into NiceGUI applications
+Home-page: https://github.com/puntorigen/nicegui-react
+Author: Pablo Schaffner
+Author-email: pablo@puntorigen.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: nicegui>=2.3.0
+
