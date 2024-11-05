@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: blis-cloud-cli
+Version: 0.2.2
+Summary: Command-line tool for the BLIS web-based lab information system.
+Home-page: https://c4gblis.org/
+License: MIT
+Author: Mitchell Rysavy
+Author-email: mitchell.rysavy@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: Jinja2 (>=3.1,<4.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: click (>=8.1,<9.0)
+Requires-Dist: colorama (>=0.4,<1.0)
+Requires-Dist: docker (>=7.1,<8.0)
+Requires-Dist: psutil (>=5.9,<6.0)
+Requires-Dist: requests (>=2.25,<3.0)
+Project-URL: Repository, https://github.com/C4G/blis-cloud-cli
+Description-Content-Type: text/markdown
+
+# blis-cloud-cli
+
+A tool for managing cloud installations of [BLIS](http://blis.cc.gatech.edu/index.php).
+
+Documentation for the tool can be found on [the BLIS documentation website.](https://docs.c4gblis.org/)
+You can view the original proposal for this tool [here](docs/proposal.md).
+
