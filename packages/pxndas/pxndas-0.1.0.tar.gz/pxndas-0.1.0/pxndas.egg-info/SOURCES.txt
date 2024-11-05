@@ -1,0 +1,25 @@
+MANIFEST.in
+README.md
+setup.py
+pxndas/ENCRYPTION.py
+pxndas/__init__.py
+pxndas/bigsmall.py
+pxndas/calculater.py
+pxndas/cg.py
+pxndas/dictionary.py
+pxndas/evenodd.py
+pxndas/exception.py
+pxndas/main.py
+pxndas/matrix.py
+pxndas/multilevel.py
+pxndas/polymorphism.py
+pxndas/posneg.py
+pxndas/prime.py
+pxndas/set.py
+pxndas/single.py
+pxndas/sorting.py
+pxndas/work pandas.py
+pxndas.egg-info/PKG-INFO
+pxndas.egg-info/SOURCES.txt
+pxndas.egg-info/dependency_links.txt
+pxndas.egg-info/top_level.txt
