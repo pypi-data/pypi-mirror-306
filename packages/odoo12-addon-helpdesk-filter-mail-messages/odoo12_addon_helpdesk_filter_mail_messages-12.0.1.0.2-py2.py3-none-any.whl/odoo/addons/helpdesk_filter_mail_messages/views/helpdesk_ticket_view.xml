@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="helpdesk_ticket_filter_messages_buttons_view" model="ir.ui.view">
+      <field name="name">helpdesk.ticket.filter.messages.buttons.form.view</field>
+      <field name="model">helpdesk.ticket</field>
+      <field name="inherit_id" ref="helpdesk_ticket_mail_message.helpdesk_ticket_mail_message_form_view"/>
+      <field name="arch" type="xml">
+        <xpath expr="//page[@name='communications']/button[@name='mail_compose_message_action_note']" position="after">
+            <span style="margin-left: 10px; margin-right: 10px;">Show:</span>
+            <span class="fa fa-file-text-o color-green" style="margin-right: 5px;"></span>
+            <field name="show_message_notes" class="oe_inline" style="margin-right: 10px;"/>
+            <span class="fa fa-long-arrow-right color-black" style="margin-right: 5px;"></span>
+            <field name="show_emails_received" class="oe_inline" style="margin-right: 10px;"/>
+            <span class="fa fa-long-arrow-left color-red" style="margin-right: 5px;"></span>
+            <field name="show_emails_sent" class="oe_inline"/>
+        </xpath>
+      </field>
+  </record>
+</odoo>
+
