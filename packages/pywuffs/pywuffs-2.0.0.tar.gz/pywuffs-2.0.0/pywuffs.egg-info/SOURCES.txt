@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+libs/wuffs/release/c/wuffs-unsupported-snapshot.c
+pywuffs.egg-info/PKG-INFO
+pywuffs.egg-info/SOURCES.txt
+pywuffs.egg-info/dependency_links.txt
+pywuffs.egg-info/top_level.txt
+src/wuffs-aux-image-wrapper.h
+src/wuffs-aux-json-wrapper.h
+src/wuffs-aux-utils.h
+src/wuffs-bindings.cpp
+test/test_aux_image_decoder.py
+test/test_aux_json_decoder.py
