@@ -1,0 +1,11 @@
+pyzcode/__init__.py,sha256=5HyOS6FAWctgOA3ZaOkftDSqhz_LFS8CapDylVwdlfA,254
+pyzcode/data/zip_code_database.csv,sha256=ItWHYEvi-cxjsswRbtOYcVfOjWozb188iMxgnO19RaE,4435779
+pyzcode/data_loader.py,sha256=n6IuiQP2oY636NYlHpb_u-qdjtEBi3KThbwz_UiC5lM,1128
+pyzcode/distance.py,sha256=KVV9k1Ga_-ETAxduRJHNFy-0et4g5DNRMWaGPxk4f5U,1111
+pyzcode/exceptions.py,sha256=euCbQ58kDB-mb0CZH18lG3tDOXJVnJpkrLfE7kDjrNc,211
+pyzcode/query.py,sha256=NTihcXq6FjPVvUd2b0_f-rgDWeACTiuhfj_5Qj7ShUg,8574
+pyzcode/utils.py,sha256=4sNn-mzndXJy9Y9-2GqsRRwPPnCDEvvXyX0X4_vFbMc,782
+pyzcode-0.7.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyzcode-0.7.0.dist-info/METADATA,sha256=iz5hve8qeDQlNm0LC-GqnDm94hq91YRWVEZYktyHj7c,2829
+pyzcode-0.7.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pyzcode-0.7.0.dist-info/RECORD,,
