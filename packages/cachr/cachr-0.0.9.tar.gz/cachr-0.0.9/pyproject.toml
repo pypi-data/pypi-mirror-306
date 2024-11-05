@@ -1,0 +1,51 @@
+[project]
+name = "cachr"
+version = "0.0.9"
+description = "Easy caching in Python. Cachr allows you to compose your own cache and comes pre-packaged with many useful caches"
+authors = [{ name = "Mike Huls", email = "mikehuls42@gmail.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+keywords = [
+  "caching", "cache"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mike-huls/cachr"
+"Bug Tracker" = "https://github.com/mike-huls/cachr/issues"
+"Documentation" = "https://github.com/mike-huls/cachr/blob/master/README.md/"
+"Changelog" = "https://github.com/mike-huls/cachr/blob/master/CHANGELOG.md/"
+"Source" = "https://github.com/mike-huls/cachr/"
+"Say Thanks!" = "https://www.buymeacoffee.com/mikehuls"
+
+[tool.uv]
+dev-dependencies = [
+    "coverage>=7.6.4",
+    "pytest>=8.3.3",
+    "ruff>=0.7.2",
+]
+
+[tool.setuptools]
+license-files = ["LICENSE"]
