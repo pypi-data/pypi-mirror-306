@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cpylib/main.c
+cpylib.egg-info/PKG-INFO
+cpylib.egg-info/SOURCES.txt
+cpylib.egg-info/dependency_links.txt
+cpylib.egg-info/top_level.txt

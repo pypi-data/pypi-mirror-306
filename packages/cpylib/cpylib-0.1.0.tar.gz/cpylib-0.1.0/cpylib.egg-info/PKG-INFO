@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: cpylib
+Version: 0.1.0
+Summary: A Python package for executing C code
+Home-page: https://github.com/hqmdokkai/cpylib.git
+Author: Bobby
+Author-email: akirasumeragi699@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# My C Library
+
+My C Library is a Python package that allows you to execute C code from within Python. It uses a C extension to provide fast execution of C code, making it suitable for performance-critical applications.
+Url code: https://github.com/hqmdokkai/cpylib.git
+## Features
+
+- Execute arbitrary C code from Python.
+- Lightweight and easy to use.
+- Fast execution due to native C performance.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install cpylib
+```
+Usage
+Here's a quick example of how to use the library:
+```bash
+import cpylib
+
+#Execute C code to print the sum of 5 and 1
+cpylib.c("printf(\"%d\\n\", 5 + 1);")
