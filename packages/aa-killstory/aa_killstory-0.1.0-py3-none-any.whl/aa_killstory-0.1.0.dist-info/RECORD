@@ -1,0 +1,12 @@
+aa_killstory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aa_killstory/admin.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aa_killstory/apps.py,sha256=8UlQDo2ZSuMP8xcANZjB51YEh5wwC1wT48MtfxSwC4g,136
+aa_killstory/hooks.py,sha256=nDXC3mGcTs8W2rXG76eS8DtYazCP838JJ8gBQZ0k1v4,286
+aa_killstory/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aa_killstory/urls.py,sha256=ghPHEeRg4ew6_JHKI9AgAXYaMCP3Pf5Xq-a701VBwxs,188
+aa_killstory/views.py,sha256=NmreJan2szCOjeIiinEEYtW-kBcvMInXQtqVh1_IC_8,115
+aa_killstory-0.1.0.dist-info/LICENSE,sha256=4SlFMTkwENM0OZ1QcVnG5_O1uvg9yymfR_XrK7WcGIs,1079
+aa_killstory-0.1.0.dist-info/METADATA,sha256=sYcDGKKneEunlU8LUNWEVi6N-vmJC4ml5Kaqto1MXyc,557
+aa_killstory-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+aa_killstory-0.1.0.dist-info/top_level.txt,sha256=ws3Ivvsob-evvMwOvmYCNPRuFPKdVF6f65zyMHvL2d8,13
+aa_killstory-0.1.0.dist-info/RECORD,,
