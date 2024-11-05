@@ -1,0 +1,12 @@
+dag_dataset/__init__.py,sha256=BU4gfPCCgiibD7T57MBM9ZiiyvQfITh6NQQRzQSsT6k,28
+dag_dataset/config_reader.py,sha256=FLi0X12d8lJ1TikusCUqcQj8xXqFJrzV1ymBhXSkeLY,1458
+dag_dataset/constants.py,sha256=kzb8Dx7nPdt6x91LMu0He9noUKbgp03YREu3nsQe-0I,225
+dag_dataset/data_objects.py,sha256=bx2A_xINhxgdna4jmKcXklvzfIr8kVmbL4Jy3XkHRGc,2026
+dag_dataset/dataset.py,sha256=V0L2ViVm9ynY4chdj0nqxUbwLVFW5csNWa1a5ORdLPc,12428
+dag_dataset/examples.py,sha256=pHFYlCQIo-So0dQ3onSsc-PqbATqsbtSHljJ8PtIIRo,418
+dag_dataset/test_table.csv,sha256=W3M779J1N0fbusZ1lEGKOXSDufMPffTPRXzhOVwRjEw,427
+dag_dataset/validator.py,sha256=Y0iCmr53f3HH45rBhqZ1_s__PwBd_AzxAbfOp3HWDeY,2635
+dag_dataset-0.1.1.dist-info/METADATA,sha256=IO8gGsRHk7xqJ1rNBCwqMM4CBFl_kCSX39WLUZLBhqk,225
+dag_dataset-0.1.1.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+dag_dataset-0.1.1.dist-info/licenses/LICENSE,sha256=FIP4HnsDaFv9ZOr823rN8sFk633z9cSAh7ylz0gJYQs,1073
+dag_dataset-0.1.1.dist-info/RECORD,,
