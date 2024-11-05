@@ -1,0 +1,6 @@
+setup.py
+src/oen.egg-info/PKG-INFO
+src/oen.egg-info/SOURCES.txt
+src/oen.egg-info/dependency_links.txt
+src/oen.egg-info/entry_points.txt
+src/oen.egg-info/top_level.txt

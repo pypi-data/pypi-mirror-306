@@ -1,0 +1,2 @@
+[console_scripts]
+oen = name_register:main
