@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: manim_ext_movi
+Version: 0.0.3
+Summary: Manim Community extension for Movimentum videos
+Author-email: Movimentum <movimentum.cave@gmail.com>
+License: CC BY-NC-SA 4.0
+Project-URL: Homepage, https://github.com/movimentum/manim_ext_movi
+Project-URL: Repository, https://github.com/movimentum/manim_ext_movi.git
+Project-URL: Download, https://pypi.org/project/manim-ext-movi/
+Keywords: manim,manim community,animation
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: Russian
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: manim >=0.18.1
+
+Пакет `manim_ext_movi` является расширением библиотеки `manim`
+и используется для создания видео на youtube-канале Movimentum.
+
+
+# Установка
+
+## Для обычного использоваия
+```shell
+pip install manim_ext_movi
+```
+
+## Для дальнейшей разработки
+Склонировать [репозиторий](https://github.com/movimentum/manim_ext_movi)
+и установить в редактируемом режиме, находясь в корневом каталоге пакета
+```shell
+pip install -e .
+```
+
+
+# Использование
+Примеры использования совместно с `manim` находятся в `manim_ext_movi.scenes`

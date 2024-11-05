@@ -1,0 +1,15 @@
+manim_ext_movi/__init__.py,sha256=FE8fwYOcFNqkbERUSQH9BK30_XLdXo96Hx30TjJO1ec,50
+manim_ext_movi/background/__init__.py,sha256=XxYSoNJ8hIUGCeJkS7u_6CARGwtXzcRiP7gza5pHR3s,41
+manim_ext_movi/background/simple_shapes.py,sha256=GNc8RhMa7uIPbXh77KQs7ta-X6u0DhshYnFLUAdWeks,3648
+manim_ext_movi/creatures/__init__.py,sha256=sSI01-uzck229tnrCgb79avKzs3vw7-OhPieS2ZPvY0,85
+manim_ext_movi/creatures/creature_lambda.py,sha256=KXFZwwF5Zc_t5WmvdikrFV3oa-IwibDRgk1mDLdYHIA,2671
+manim_ext_movi/creatures/creature_unity.py,sha256=CkCURkF1iWyuQgT3_NUEb_SHihnqJKNWSezyKDuIrKE,6689
+manim_ext_movi/creatures/assets/lambda.svg,sha256=d5yFuHEj-zNgTZkMdO533_gt6xZoSgutel4FZiWhljg,1505
+manim_ext_movi/creatures/assets/unity.svg,sha256=UcWJz7m5qcKFwMwvcGjo72dE249Q3YG7_NrhZid6hJQ,1103
+manim_ext_movi/scenes/creature_lambda.py,sha256=OYqo8Ka5x9J17KkkRjzHcABx4xUMtdJUTGOmnajx9uU,640
+manim_ext_movi/scenes/creature_unity.py,sha256=EvxNaaQNJwkV2hUS5WQ2NskZEE0J2ejaHzjoI5EdvCo,1359
+manim_ext_movi-0.0.3.dist-info/LICENSE.txt,sha256=5mwmnUgZqqs0tJ71IgxN2rZ1byG7UYB2Gk64Vh8re70,20850
+manim_ext_movi-0.0.3.dist-info/METADATA,sha256=c_cCOeE4ghxMM1gSkreyqVgimLJunD9dXPfkaRnpIGg,1659
+manim_ext_movi-0.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+manim_ext_movi-0.0.3.dist-info/top_level.txt,sha256=5zEsHuu7uWoQnhkc9OwsU_oTWpD1Qgdz5ql49A_jG4Q,15
+manim_ext_movi-0.0.3.dist-info/RECORD,,
