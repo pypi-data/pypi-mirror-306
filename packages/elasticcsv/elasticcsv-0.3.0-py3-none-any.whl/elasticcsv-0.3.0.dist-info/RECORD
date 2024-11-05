@@ -1,0 +1,9 @@
+elasticcsv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elasticcsv/csv2es.py,sha256=85tK0S4Qtmvy5HIYS6JV6mSRGzBEotJjH7-sQbalHk4,3430
+elasticcsv/elastic_csv.py,sha256=kpI3SvjVB3Adt43gusH7jXAXbZhAw6hWzu4g2uloBDs,16190
+elasticcsv/elastic_wrapper.py,sha256=C6GGc8LfqUNm_ZUEAXLJyvgqgy89EouTlsaRrOsRX2U,6134
+elasticcsv-0.3.0.dist-info/LICENSE.txt,sha256=FP2A9QUYlLgXdDpFClcAq6l34sUMpRUST9nTJqMKpIw,1085
+elasticcsv-0.3.0.dist-info/METADATA,sha256=B1h5Q0I2YmH55mlF2sH9B5j0Gigt17CpSuUTHGJdlJo,3599
+elasticcsv-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+elasticcsv-0.3.0.dist-info/entry_points.txt,sha256=UuSjCRERssT4pfmRuraEcPPPF12BYAKykSSeraSLxac,48
+elasticcsv-0.3.0.dist-info/RECORD,,
