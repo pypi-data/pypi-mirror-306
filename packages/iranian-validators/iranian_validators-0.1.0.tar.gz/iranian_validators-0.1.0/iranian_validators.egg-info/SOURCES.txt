@@ -1,0 +1,8 @@
+README.md
+setup.py
+iranian_validators/__init__.py
+iranian_validators/validators.py
+iranian_validators.egg-info/PKG-INFO
+iranian_validators.egg-info/SOURCES.txt
+iranian_validators.egg-info/dependency_links.txt
+iranian_validators.egg-info/top_level.txt
