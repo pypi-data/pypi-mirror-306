@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+ubigeoai/AIGeoUbi.py
+ubigeoai/__init__.py
+ubigeoaii.egg-info/PKG-INFO
+ubigeoaii.egg-info/SOURCES.txt
+ubigeoaii.egg-info/dependency_links.txt
+ubigeoaii.egg-info/requires.txt
+ubigeoaii.egg-info/top_level.txt
