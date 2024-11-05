@@ -1,0 +1,2 @@
+[console_scripts]
+jiq = name_register:main
