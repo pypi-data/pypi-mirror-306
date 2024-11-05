@@ -1,0 +1,12 @@
+README.md
+setup.py
+spotless/__init__.py
+spotless/app.py
+spotless/flask_app_test.py
+spotless/main.py
+spotless_manager.egg-info/PKG-INFO
+spotless_manager.egg-info/SOURCES.txt
+spotless_manager.egg-info/dependency_links.txt
+spotless_manager.egg-info/entry_points.txt
+spotless_manager.egg-info/requires.txt
+spotless_manager.egg-info/top_level.txt
