@@ -1,0 +1,2 @@
+[console_scripts]
+joi = name_register:main
