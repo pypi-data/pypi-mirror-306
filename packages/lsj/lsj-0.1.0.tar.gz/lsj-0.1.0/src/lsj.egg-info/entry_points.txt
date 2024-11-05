@@ -1,0 +1,2 @@
+[console_scripts]
+lsj = name_register:main
