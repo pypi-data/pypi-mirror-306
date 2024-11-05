@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+src/__init__.py
+src/valeriepieris.c
+valeriepieris.egg-info/PKG-INFO
+valeriepieris.egg-info/SOURCES.txt
+valeriepieris.egg-info/dependency_links.txt
+valeriepieris.egg-info/not-zip-safe
+valeriepieris.egg-info/requires.txt
+valeriepieris.egg-info/top_level.txt
