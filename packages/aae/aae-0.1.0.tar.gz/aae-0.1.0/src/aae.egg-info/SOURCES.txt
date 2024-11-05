@@ -1,0 +1,5 @@
+setup.py
+src/aae.egg-info/PKG-INFO
+src/aae.egg-info/SOURCES.txt
+src/aae.egg-info/dependency_links.txt
+src/aae.egg-info/top_level.txt
