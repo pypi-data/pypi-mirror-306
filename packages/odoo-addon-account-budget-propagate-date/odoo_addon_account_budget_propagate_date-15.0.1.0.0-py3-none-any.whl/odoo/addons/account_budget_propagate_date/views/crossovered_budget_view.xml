@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record model="ir.ui.view" id="crossovered_budget_view_form_inherit">
+        <field name="name">crossovered.budget.view.form.inherit</field>
+        <field name="model">crossovered.budget</field>
+        <field name="inherit_id" ref="account_budget.crossovered_budget_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='date_read_only']" position="inside">
+                <button
+                    name="assign_budget_lines_dates"
+                    type="object"
+                    help="Assign this period to lines."
+                    class="oe_inline fa fa-arrow-right oe_link fa-clone"
+                />
+            </xpath>
+        </field>
+    </record>
+</odoo>

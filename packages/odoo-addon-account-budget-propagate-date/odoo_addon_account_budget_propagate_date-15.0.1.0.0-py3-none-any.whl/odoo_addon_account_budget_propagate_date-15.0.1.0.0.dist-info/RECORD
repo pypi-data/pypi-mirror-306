@@ -1,0 +1,11 @@
+odoo/addons/account_budget_propagate_date/README.rst,sha256=BCQfyz5oXl6Y8kmqfKJQTSeKZ58WWKmDlNt4CdQA6ns,1631
+odoo/addons/account_budget_propagate_date/__init__.py,sha256=gOJ7QcGto60eT2nAqkz58PgBBSnrGSE85X_8d4G-o58,137
+odoo/addons/account_budget_propagate_date/__manifest__.py,sha256=OEHVy5jMwWhNMESTYgvZlcnf8j59GS7JFGxne78GBUk,545
+odoo/addons/account_budget_propagate_date/models/__init__.py,sha256=rqQngySy8FKnI85UlWoXSJiIREWZp14L3p5PBeHt0TY,149
+odoo/addons/account_budget_propagate_date/models/crossovered_budget.py,sha256=tsY_VpfKzcytrxGGcCp9XrQuA_YuneAqNMfuobv2Gb8,388
+odoo/addons/account_budget_propagate_date/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/account_budget_propagate_date/views/crossovered_budget_view.xml,sha256=SB4OC5nYzyQIvOMPsEDhEf1iwxPAkc6jJxiCjZB5kEo,767
+odoo_addon_account_budget_propagate_date-15.0.1.0.0.dist-info/METADATA,sha256=GfrkuwrMsEhMAFvBJHkMeXhmAvStw_wplvTLPerPFhw,2182
+odoo_addon_account_budget_propagate_date-15.0.1.0.0.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_account_budget_propagate_date-15.0.1.0.0.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_account_budget_propagate_date-15.0.1.0.0.dist-info/RECORD,,
