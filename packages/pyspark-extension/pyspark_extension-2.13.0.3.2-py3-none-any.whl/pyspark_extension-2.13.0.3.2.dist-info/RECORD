@@ -1,0 +1,10 @@
+gresearch/__init__.py,sha256=OahCmLP4D9KiCd1biQc91lB8iqdPBIqfMqN8SjYGbcQ,586
+gresearch/spark/__init__.py,sha256=ojkS01JDsnTv4pk9_y2bH3sayoE796yGa4X27H3wD-M,25075
+gresearch/spark/diff/__init__.py,sha256=tkq_-gAq9AV1FWVEI4XunRm7kux-YG3KZcONVa1wKe8,38283
+gresearch/spark/diff/comparator/__init__.py,sha256=JGnQ4f7Gh1cpP-Ws-2sVgNC4iHzN6gzkZ2cKtBnJbnc,4219
+gresearch/spark/parquet/__init__.py,sha256=3Yk4RjqMERJE93jaONFtSolRYdmmJYH4uK02nNo1Ios,9968
+pyspark/jars/spark-extension_2.12-2.13.0-3.2.jar,sha256=YAHuYiL1eZxCcCO3Ua0oW06wOKFcmxVhZVoOU6q0RCA,331451
+pyspark_extension-2.13.0.3.2.dist-info/METADATA,sha256=o_sYr8WKTJ4TMROBpQEDVbv9uU4RyXVsdEtkwiNJa4E,6883
+pyspark_extension-2.13.0.3.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pyspark_extension-2.13.0.3.2.dist-info/top_level.txt,sha256=SHNdw6OHQkwZ821mJ0FpYSBCuSXqE2YKTJPm6smw1Vg,18
+pyspark_extension-2.13.0.3.2.dist-info/RECORD,,
