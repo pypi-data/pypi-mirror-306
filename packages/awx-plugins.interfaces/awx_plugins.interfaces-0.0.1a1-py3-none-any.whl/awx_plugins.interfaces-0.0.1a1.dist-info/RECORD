@@ -1,0 +1,11 @@
+awx_plugins/interfaces/_temporary_private_api.py,sha256=iL8wl304ipyi532_jzWYojZj-kQLaBLyjzNr-yH8uf0,1092
+awx_plugins/interfaces/_temporary_private_container_api.py,sha256=2z4gdV8YUvX7MvF8TzgYDO0pqEwUQJMtiGdY9kUvt74,1847
+awx_plugins/interfaces/_temporary_private_django_api.py,sha256=jfwxbE7NNkQ6mEAE433-cLvZUoHOf-w-vu7bnaE2ei8,2082
+awx_plugins/interfaces/_temporary_private_licensing_api.py,sha256=gA_lAz5G9HrAQzjZdINP9UMAsv0Yz9hz4eE2Tsi4CLQ,558
+awx_plugins/interfaces/api.py,sha256=9IjO3tNAlKdR8s9BfIkHBF8YmT3v7j3VrgDPGHhk05I,73
+awx_plugins/interfaces/py.typed,sha256=BThsjm5AHSdjVyCDr_RTxj3LJvDigUbQdEQi-gjuA9w,339
+awx_plugins.interfaces-0.0.1a1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+awx_plugins.interfaces-0.0.1a1.dist-info/METADATA,sha256=MtrQhwq5eQM3-YobIdgEijtNepBvv8RmLEXGCrijjiE,16684
+awx_plugins.interfaces-0.0.1a1.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+awx_plugins.interfaces-0.0.1a1.dist-info/top_level.txt,sha256=o3y73R8--sgZFQrvrDeWtR377I7pXy0NSGzfjPRrQA4,12
+awx_plugins.interfaces-0.0.1a1.dist-info/RECORD,,
