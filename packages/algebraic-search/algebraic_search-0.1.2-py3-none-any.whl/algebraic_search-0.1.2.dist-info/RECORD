@@ -1,0 +1,9 @@
+algebraic_search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algebraic_search/boolean_query.py,sha256=-b4UuqYHiyMMuYy3of1TgGGmy9Q0EmtI0dZQcKhbdxQ,6504
+algebraic_search/fuzzy_boolean_query.py,sha256=5NIckKlAvnXpEyu3aRNZejBg42y9D-prU2Ws9w1cApw,8514
+algebraic_search/result_query.py,sha256=CwxePqry_ft9C_wZf-VuyT4VXZMVX1KSUrYQHpFXOkk,4832
+algebraic_search-0.1.2.dist-info/LICENSE,sha256=rW0bFnz6a1F47mTkx5WBrcxP2sWVa1HzSzJOjsLWV-Y,1068
+algebraic_search-0.1.2.dist-info/METADATA,sha256=8A1JttWKslE1BHEzzihvenLzm-WDUndkw0npj5lbA-I,11048
+algebraic_search-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+algebraic_search-0.1.2.dist-info/top_level.txt,sha256=enDuU-B5d0BOcowFv61qIsp-NLcgEK6m4KFCyN1noWU,17
+algebraic_search-0.1.2.dist-info/RECORD,,
