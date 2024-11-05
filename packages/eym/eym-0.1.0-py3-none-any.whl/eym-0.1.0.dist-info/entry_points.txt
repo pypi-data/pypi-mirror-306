@@ -1,0 +1,2 @@
+[console_scripts]
+eym = name_register:main
