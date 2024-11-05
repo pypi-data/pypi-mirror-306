@@ -1,0 +1,6 @@
+setup.py
+src/vno.egg-info/PKG-INFO
+src/vno.egg-info/SOURCES.txt
+src/vno.egg-info/dependency_links.txt
+src/vno.egg-info/entry_points.txt
+src/vno.egg-info/top_level.txt
