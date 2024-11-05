@@ -1,0 +1,5 @@
+Pyrogram
+TgCrypto
+psutil
+pymongo
+python-telegram-bot
