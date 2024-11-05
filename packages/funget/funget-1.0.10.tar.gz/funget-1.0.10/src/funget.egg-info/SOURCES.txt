@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/funget/__init__.py
+src/funget/script.py
+src/funget.egg-info/PKG-INFO
+src/funget.egg-info/SOURCES.txt
+src/funget.egg-info/dependency_links.txt
+src/funget.egg-info/entry_points.txt
+src/funget.egg-info/requires.txt
+src/funget.egg-info/top_level.txt
+src/funget/download/__init__.py
+src/funget/download/core.py
+src/funget/download/multi_thread_download.py
+src/funget/download/simple.py
+src/funget/download/work.py
