@@ -1,0 +1,6 @@
+setup.py
+src/vvd.egg-info/PKG-INFO
+src/vvd.egg-info/SOURCES.txt
+src/vvd.egg-info/dependency_links.txt
+src/vvd.egg-info/entry_points.txt
+src/vvd.egg-info/top_level.txt
