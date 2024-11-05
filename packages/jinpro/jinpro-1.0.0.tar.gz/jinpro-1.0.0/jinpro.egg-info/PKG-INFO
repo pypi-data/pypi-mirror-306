@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jinpro
+Version: 1.0.0
+Summary: A component preprocessor for Jinja that mimics React/Vue-style components
+Home-page: https://github.com/sophloaf2019/jinpro
+Author: Sophie
+Author-email: sophia-r-turner@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Flask>=3
