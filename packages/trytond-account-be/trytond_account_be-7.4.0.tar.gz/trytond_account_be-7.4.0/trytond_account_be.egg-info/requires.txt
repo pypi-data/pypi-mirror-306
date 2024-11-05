@@ -1,0 +1,4 @@
+trytond_account<7.5,>=7.4
+trytond_account_eu<7.5,>=7.4
+trytond_company<7.5,>=7.4
+trytond<7.5,>=7.4

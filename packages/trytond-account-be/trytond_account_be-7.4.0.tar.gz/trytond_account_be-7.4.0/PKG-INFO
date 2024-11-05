@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: trytond_account_be
+Version: 7.4.0
+Summary: Tryton module with Belgian chart of accounts
+Home-page: http://www.tryton.org/
+Download-URL: http://downloads.tryton.org/7.4/
+Author: Tryton
+Author-email: foundation@tryton.org
+License: GPL-3
+Project-URL: Bug Tracker, https://bugs.tryton.org/
+Project-URL: Documentation, https://docs.tryton.org/latest/modules-account-be
+Project-URL: Forum, https://www.tryton.org/forum
+Project-URL: Source Code, https://code.tryton.org/tryton
+Keywords: tryton account chart belgian
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Framework :: Tryton
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Legal Industry
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: Dutch
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: trytond_account<7.5,>=7.4
+Requires-Dist: trytond_account_eu<7.5,>=7.4
+Requires-Dist: trytond_company<7.5,>=7.4
+Requires-Dist: trytond<7.5,>=7.4
+
+######################
+Belgian Account Module
+######################
+
+The *Belgian Account Module* defines the standard chart of accounts and reports
+for Belgium.
+
