@@ -1,0 +1,8 @@
+intentguard/__init__.py,sha256=qErOBXsCbg6kQr-CvJDblW2uSgIIKWQVzwYszIejdTU,160
+intentguard/intentguard.py,sha256=bwxFwcNaKrZiRae7l83EQ5JZKR8BiTkxJ5p17gRBopg,6550
+intentguard/intentguard_options.py,sha256=4cgQnzYFkf1_E2MO0nJzv6RlkRQJLyiWm4nElzC6QSo,863
+intentguard/prompts.py,sha256=lka91zhZcUReR2NmoP8uLn37JxV29bdopb5ntOMNOKI,2979
+intentguard-1.1.0.dist-info/LICENSE,sha256=Auzd7JfAIMjBp-s3Kt0V13JdR-3kkeDaZzzXR-UEEZ0,1072
+intentguard-1.1.0.dist-info/METADATA,sha256=C9YzroXhe0NU_O7XByh9ZSk416q-uJrKcOdKUrm7i8E,5575
+intentguard-1.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+intentguard-1.1.0.dist-info/RECORD,,
