@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+rocketnoussa/__init__.py
+rocketnoussa/rocket.py
+rocketnoussa.egg-info/PKG-INFO
+rocketnoussa.egg-info/SOURCES.txt
+rocketnoussa.egg-info/dependency_links.txt
+rocketnoussa.egg-info/top_level.txt
