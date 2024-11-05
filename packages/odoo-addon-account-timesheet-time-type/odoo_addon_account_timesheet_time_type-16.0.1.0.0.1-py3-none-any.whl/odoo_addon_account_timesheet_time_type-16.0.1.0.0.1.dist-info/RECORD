@@ -1,0 +1,9 @@
+odoo/addons/account_timesheet_time_type/README.rst,sha256=V8spTTtWSbWe0n1kZuZaiDcEMtnPD_A2maAXZL4C3co,1601
+odoo/addons/account_timesheet_time_type/__init__.py,sha256=ZKfnBaJjJGgTD8i0UVUyMv69wDR0xqfc9WnfavJqhHU,123
+odoo/addons/account_timesheet_time_type/__manifest__.py,sha256=brGqCleFmlI4N4jhT3v5RHdXQTOjVlgQ1wIuYL4CMfU,622
+odoo/addons/account_timesheet_time_type/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/account_timesheet_time_type/views/analytic_account_view.xml,sha256=U8HeK2lMMTx_mw0rVUWEPNq1v6uvyU2WJCVYOw-gfTs,1977
+odoo_addon_account_timesheet_time_type-16.0.1.0.0.1.dist-info/METADATA,sha256=Hrjc45hqny5_ltY99aT6UgYOlAPq_Uzc7VYB8rtCit8,2228
+odoo_addon_account_timesheet_time_type-16.0.1.0.0.1.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_account_timesheet_time_type-16.0.1.0.0.1.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_account_timesheet_time_type-16.0.1.0.0.1.dist-info/RECORD,,
