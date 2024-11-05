@@ -1,0 +1,2 @@
+[console_scripts]
+tnc = name_register:main
