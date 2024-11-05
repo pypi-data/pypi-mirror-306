@@ -1,0 +1,2 @@
+class OnceCallablityError(Exception):
+    pass

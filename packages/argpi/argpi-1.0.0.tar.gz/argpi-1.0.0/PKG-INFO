@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: argpi
+Version: 1.0.0
+Summary: Next Level Argument Parser
+Author-email: Soumyo Deep Gupta <deep.main.ac@gmail.com>
+Project-URL: GitHub, https://github.com/d33p0st/argpi
+Project-URL: Issues, https://github.com/d33p0st/argpi/issues
+Project-URL: Pull Requests, https://github.com/d33p0st/argpi/pulls
+Keywords: d33pster,argpi,argpy,arguments,parser
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Overview
+
+`Argpi` revolutionizes argument parsing in python with simple definitions.
+
+### Docs will be available in next version

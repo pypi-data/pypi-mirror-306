@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "argpi"
+version = "1.0.0"
+description = "Next Level Argument Parser"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+]
+keywords = ["d33pster", "argpi", "argpy", "arguments", "parser"]
+readme = {file = "README.md", content-type = "text/markdown" }
+
+authors = [
+    {name = "Soumyo Deep Gupta", email = "deep.main.ac@gmail.com" },
+]
+
+[project.urls]
+GitHub = "https://github.com/d33p0st/argpi"
+Issues = "https://github.com/d33p0st/argpi/issues"
+"Pull Requests" = "https://github.com/d33p0st/argpi/pulls"
