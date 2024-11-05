@@ -1,0 +1,13 @@
+forgeschema/__init__.py,sha256=eaPGSLGr3M59WNs5YuJfHyWE8yqNuvNduSl0ysBmqIY,168
+forgeschema/asnschema.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forgeschema/helpers.py,sha256=zp259Vy1MYpFWDUMshAXdesepd_Kps_AVwUsFsm8aYQ,1816
+forgeschema/jsonschema.py,sha256=xHCmZwinUu6n6j76HCsxs4EEmJ1GyUNaseAWxArZHzU,8819
+forgeschema/schema.py,sha256=NILQ72iQJyZZQQDN2i8CpcWjrpgbEQhM-qkimzF-emU,755
+forgeschema/types.py,sha256=W6HC5ZXM24ukoXGu5OipmpQzudz3j6ognFQca93U5FU,628
+forgeschema/xsdschema.py,sha256=idAsB-5Naa8HK1nqQD2xcwR8A2xHbm8FAS9EIcUu9-4,2409
+forgeschema/console/console_scripts.py,sha256=jnO37n4oknowsWren3t-QIcs2zKWIXBt7rczhm6oOfk,12079
+forgeschema-0.1a4.dist-info/entry_points.txt,sha256=yvcbkPYJYCUCCsOw2IluOz2SRjoBZFGpddj6uPTg45A,73
+forgeschema-0.1a4.dist-info/LICENSE,sha256=jBjVnRH9oIbseHngkmVwuLlvLlqqWEIvtwycCgS0rOo,1103
+forgeschema-0.1a4.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+forgeschema-0.1a4.dist-info/METADATA,sha256=OCMcVZFPdCU5Vx9sgcia3WBUn-vu0hJuZ6lCCa1WLWs,433
+forgeschema-0.1a4.dist-info/RECORD,,
