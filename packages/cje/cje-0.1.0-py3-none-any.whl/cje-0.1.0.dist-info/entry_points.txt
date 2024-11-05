@@ -1,0 +1,2 @@
+[console_scripts]
+cje = name_register:main
