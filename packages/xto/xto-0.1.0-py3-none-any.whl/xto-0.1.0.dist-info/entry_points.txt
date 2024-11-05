@@ -1,0 +1,2 @@
+[console_scripts]
+xto = name_register:main
