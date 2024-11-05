@@ -1,0 +1,2 @@
+[console_scripts]
+lpg = name_register:main
