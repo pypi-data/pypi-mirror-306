@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "numpy",
+    "pyopencl",
+    "matplotlib",
+    "scipy",
+    "hdf5storage",
+    "requests",
+    "datetime",
+]
+build-backend = "setuptools.build_meta"
