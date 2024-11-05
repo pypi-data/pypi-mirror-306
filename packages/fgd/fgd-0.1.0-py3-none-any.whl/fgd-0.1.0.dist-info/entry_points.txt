@@ -1,0 +1,2 @@
+[console_scripts]
+fgd = name_register:main
