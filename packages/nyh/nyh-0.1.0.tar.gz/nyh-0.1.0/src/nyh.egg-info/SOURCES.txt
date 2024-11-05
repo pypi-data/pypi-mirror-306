@@ -1,0 +1,6 @@
+setup.py
+src/nyh.egg-info/PKG-INFO
+src/nyh.egg-info/SOURCES.txt
+src/nyh.egg-info/dependency_links.txt
+src/nyh.egg-info/entry_points.txt
+src/nyh.egg-info/top_level.txt

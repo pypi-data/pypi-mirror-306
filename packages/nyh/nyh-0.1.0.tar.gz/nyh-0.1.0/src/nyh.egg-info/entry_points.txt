@@ -1,0 +1,2 @@
+[console_scripts]
+nyh = name_register:main
