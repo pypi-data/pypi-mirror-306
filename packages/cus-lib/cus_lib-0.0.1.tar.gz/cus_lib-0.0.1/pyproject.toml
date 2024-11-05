@@ -1,0 +1,23 @@
+[build-system]
+# XXX: If your project needs other packages to build properly, add them to this list.
+requires = ["setuptools >= 64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cus_lib"
+version = "0.0.1"
+authors = [
+  { name="lhy", email="oceanliu335372871@gmail.com" },
+]
+description = "custom common fun"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/crazyetiii/common_lib"
+Issues = "https://github.com/crazyetiii/common_lib/issues"

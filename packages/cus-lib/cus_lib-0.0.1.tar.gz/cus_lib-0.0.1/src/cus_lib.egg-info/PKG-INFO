@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: cus_lib
+Version: 0.0.1
+Summary: custom common fun
+Author-email: lhy <oceanliu335372871@gmail.com>
+Project-URL: Homepage, https://github.com/crazyetiii/common_lib
+Project-URL: Issues, https://github.com/crazyetiii/common_lib/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# __init__.py中写法
+1. 使用方式
+2. 导包，可选
+
+```
+My Common Lib
+
+This package provides utility functions and classes for various projects.
+Usage:
+
+    from my_common_lib import greet, add
+
+    # Example usage
+    print(greet("Alice"))  # Output: "Hello, Alice!"
+    print(add(3, 5))       # Output: 8
+
+Functions:
+- greet(name): Returns a greeting string.
+- add(a, b): Returns the sum of two numbers.
+"""
+
+# Optional: You can also import commonly used functions here for convenience
+from .my_module import greet, add
+```
+
+# 本地安装和测试
+
+```bash
+pip install .
+```
+
+# 打包和分发
+
+```bash
+python setup.py sdist bdist_wheel
+```
+
+
