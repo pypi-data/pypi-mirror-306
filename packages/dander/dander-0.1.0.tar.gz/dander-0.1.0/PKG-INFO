@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: dander
+Version: 0.1.0
+Summary: Data Analytics & Data Engineering Resources
+Project-URL: Documentation, https://github.com/danlsn/dander#readme
+Project-URL: Issues, https://github.com/danlsn/dander/issues
+Project-URL: Source, https://github.com/danlsn/dander
+Author-email: Daniel Lawson <52593003+danlsn@users.noreply.github.com>
+License-Expression: MIT
+License-File: LICENSE
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: loguru
+Requires-Dist: rich
+Requires-Dist: typer
+Description-Content-Type: text/markdown
+
+# dander
+
+[![PyPI - Version](https://img.shields.io/pypi/v/dander.svg)](https://pypi.org/project/dander)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dander.svg)](https://pypi.org/project/dander)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install dander
+```
+
+## License
+
+`dander` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

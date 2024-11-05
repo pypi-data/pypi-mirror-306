@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2503f517-fa3c-405b-959e-af64ad8cb3eb" name="Changes" comment="docs: add mkautodoc plugin to docs" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;danlsn&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/danlsn/dander.git&quot;,
+    &quot;accountId&quot;: &quot;a6320baa-e343-4021-acb8-6bb24bfe92ae&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2hXOjlpLL0i9xCWLt1qEHEaPXON" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/E124584/IdeaProjects/dander",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\E124584\IdeaProjects\dander" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2503f517-fa3c-405b-959e-af64ad8cb3eb" name="Changes" comment="" />
+      <created>1717737093053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717737093053</updated>
+      <workItem from="1717737094616" duration="4534000" />
+      <workItem from="1718150766663" duration="3413000" />
+      <workItem from="1718154355349" duration="31000" />
+      <workItem from="1718237045561" duration="599000" />
+      <workItem from="1718339807315" duration="714000" />
+      <workItem from="1718581941177" duration="1374000" />
+      <workItem from="1718603867889" duration="585000" />
+      <workItem from="1718684751411" duration="582000" />
+      <workItem from="1718687305825" duration="15000" />
+      <workItem from="1730672925254" duration="1759000" />
+    </task>
+    <task id="LOCAL-00001" summary="build(project): create dander project using hatch">
+      <option name="closed" value="true" />
+      <created>1717738517230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717738517230</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(cli): add reformat_json command to cli">
+      <option name="closed" value="true" />
+      <created>1717738542020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717738542020</updated>
+    </task>
+    <task id="LOCAL-00003" summary="docs(readme): replace README.md with hatch generated file">
+      <option name="closed" value="true" />
+      <created>1717738645093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717738645093</updated>
+    </task>
+    <task id="LOCAL-00004" summary="build: bump version to 0.0.4">
+      <option name="closed" value="true" />
+      <created>1717738775566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717738775566</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat(cli): add cli options and loguru logging">
+      <option name="closed" value="true" />
+      <created>1717740625038</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717740625038</updated>
+    </task>
+    <task id="LOCAL-00006" summary="docs: add mkdocs to project">
+      <option name="closed" value="true" />
+      <created>1718151360833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718151360833</updated>
+    </task>
+    <task id="LOCAL-00007" summary="docs: add mkdocs to project">
+      <option name="closed" value="true" />
+      <created>1718151387301</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718151387301</updated>
+    </task>
+    <task id="LOCAL-00008" summary="docs: add mkdocs to project">
+      <option name="closed" value="true" />
+      <created>1718151800647</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718151800647</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat(cli): add calendar command">
+      <option name="closed" value="true" />
+      <created>1718152136316</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718152136316</updated>
+    </task>
+    <task id="LOCAL-00010" summary="docs: add mkautodoc plugin to docs">
+      <option name="closed" value="true" />
+      <created>1718153975876</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718153975876</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="build(project): create dander project using hatch" />
+    <MESSAGE value="feat(cli): add reformat_json command to cli" />
+    <MESSAGE value="docs(readme): replace README.md with hatch generated file" />
+    <MESSAGE value="build: bump version to 0.0.4" />
+    <MESSAGE value="feat(cli): add cli options and loguru logging" />
+    <MESSAGE value="docs: add mkdocs to project" />
+    <MESSAGE value="feat(cli): add calendar command" />
+    <MESSAGE value="docs: add mkautodoc plugin to docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: add mkautodoc plugin to docs" />
+  </component>
+</project>
