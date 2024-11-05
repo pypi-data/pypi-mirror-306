@@ -1,0 +1,6 @@
+setup.py
+src/qou.egg-info/PKG-INFO
+src/qou.egg-info/SOURCES.txt
+src/qou.egg-info/dependency_links.txt
+src/qou.egg-info/entry_points.txt
+src/qou.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+qou = name_register:main
