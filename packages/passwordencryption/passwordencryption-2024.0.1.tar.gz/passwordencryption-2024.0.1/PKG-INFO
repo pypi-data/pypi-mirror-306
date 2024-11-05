@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: passwordencryption
+Version: 2024.0.1
+Summary: Private Python library who provides an password encrytion/decryption that you do not have anyplain text passowod in a config file.
+Project-URL: Homepage, https://example.com
+Author-email: Ricardo Claramunt <ricardo@claramunt.ch>
+Maintainer-email: Ricardo Claramunt <ricardo@claramunt.ch>
+License-File: LICENSE
+Keywords: encryption,password
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.6
+Requires-Dist: cryptography
