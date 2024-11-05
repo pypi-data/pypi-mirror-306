@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: dhisana
+Version: 0.0.1.dev7
+Summary: A Python SDK for Dhisana AI Platform
+Home-page: https://github.com/dhisana-ai/dhisana-python-sdk
+Author: Admin
+Author-email: contact@dhisana.ai
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Requires-Dist: bs4
+Requires-Dist: click>=7.0
+Requires-Dist: fastapi
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth
+Requires-Dist: openai
+Requires-Dist: playwright
+Requires-Dist: requests
+Requires-Dist: uvicorn[standard]
+Requires-Dist: aiohttp
+Requires-Dist: openapi-pydantic
+Requires-Dist: pandas
+
