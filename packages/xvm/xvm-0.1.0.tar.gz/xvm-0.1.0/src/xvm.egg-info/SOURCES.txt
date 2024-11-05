@@ -1,0 +1,6 @@
+setup.py
+src/xvm.egg-info/PKG-INFO
+src/xvm.egg-info/SOURCES.txt
+src/xvm.egg-info/dependency_links.txt
+src/xvm.egg-info/entry_points.txt
+src/xvm.egg-info/top_level.txt
