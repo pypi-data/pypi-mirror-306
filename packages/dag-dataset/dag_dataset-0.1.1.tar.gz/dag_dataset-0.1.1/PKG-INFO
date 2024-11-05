@@ -1,0 +1,8 @@
+Metadata-Version: 2.3
+Name: dag-dataset
+Version: 0.1.1
+Summary: Create a dataset from a given TOML file.
+Author-email: Mitchell Tillman <mtillman14@gmail.com>
+License-File: LICENSE
+Requires-Dist: base-dag
+Requires-Dist: toml
