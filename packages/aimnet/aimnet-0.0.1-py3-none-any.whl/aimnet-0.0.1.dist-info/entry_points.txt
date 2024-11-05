@@ -1,0 +1,5 @@
+[console_scripts]
+aimnet=aimnet.cli:cli
+aimnet-clear-models-cache=aimnet.calculators.model_registry:clear_assets
+aimnet2pysis=aimnet.calculators.aimnet2pysis:main
+
