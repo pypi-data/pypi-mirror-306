@@ -1,0 +1,38 @@
+[package]
+name = "cdl-catalog"
+
+authors = { workspace = true }
+description = { workspace = true }
+documentation = "https://docs.rs/cdl-catalog"
+edition = { workspace = true }
+include = { workspace = true }
+keywords = { workspace = true }
+license = { workspace = true }
+readme = "README.md"
+rust-version = { workspace = true }
+homepage = { workspace = true }
+repository = { workspace = true }
+version = { workspace = true }
+
+[lints]
+workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = []
+pyo3 = ["dep:pyo3"]
+serde = ["dep:serde"]
+
+# TLS
+openssl-tls = ["deltalake/s3-native-tls"]
+rustls-tls = ["deltalake/s3"]
+
+[dependencies]
+anyhow = { workspace = true }
+clap = { workspace = true }
+deltalake = { workspace = true }
+pyo3 = { workspace = true, optional = true }
+serde = { workspace = true, optional = true, features = ["derive"] }
+strum = { workspace = true, features = ["derive"] }
+url = { workspace = true }
