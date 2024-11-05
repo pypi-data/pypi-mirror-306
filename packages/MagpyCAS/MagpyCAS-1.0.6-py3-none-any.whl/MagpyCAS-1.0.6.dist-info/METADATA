@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: MagpyCAS
+Version: 1.0.6
+Summary: A primitive package for creating mathematical structures from magmas to abelian groups, and determining their properties.
+Author: Skylar Korf
+Author-email: skorf60@gmail.com
+License-File: LICENSE
+Requires-Dist: iteration-utilities
+
+# Magpy
+
+A primitive package for creating mathematical structures from magmas to abelian groups, and determining their properties.
