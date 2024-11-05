@@ -1,0 +1,2 @@
+[console_scripts]
+qwf = name_register:main
