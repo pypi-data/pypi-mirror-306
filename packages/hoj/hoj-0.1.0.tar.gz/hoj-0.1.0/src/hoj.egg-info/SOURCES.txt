@@ -1,0 +1,6 @@
+setup.py
+src/hoj.egg-info/PKG-INFO
+src/hoj.egg-info/SOURCES.txt
+src/hoj.egg-info/dependency_links.txt
+src/hoj.egg-info/entry_points.txt
+src/hoj.egg-info/top_level.txt
