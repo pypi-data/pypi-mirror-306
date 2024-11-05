@@ -1,0 +1,10 @@
+dander/__about__.py,sha256=h_IB-qhAlPQJinSzbiD3Osbd_k1vd5s--WqjW8X_XU4,140
+dander/__init__.py,sha256=Y73qZr8BUoGUR7iOnTrcS6l6qjQTy2Lto1r6enA5Mu8,117
+dander/cli.py,sha256=uLtOiFH70wBXyvzNuKXZ4xw4-G-8Ay5kX2FiDsZ0JGk,2675
+dander/dbt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dander-0.1.0.dist-info/METADATA,sha256=MiP6HgT5VLIt6FcYfb3A2hds3ilogqIIMK_TZhbVCV0,1499
+dander-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+dander-0.1.0.dist-info/entry_points.txt,sha256=rWZDPQ0hDpobqbQRgayIa42GaTUd7a4lzh7IsWzrC6Q,42
+dander-0.1.0.dist-info/licenses/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+dander-0.1.0.dist-info/licenses/LICENSE.txt,sha256=od5OqwuPYmF4uf77yVzE3ZNh7Bw2LA4d6k3qp5nfIaI,1115
+dander-0.1.0.dist-info/RECORD,,
