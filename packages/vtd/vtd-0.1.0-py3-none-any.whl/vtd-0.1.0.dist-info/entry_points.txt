@@ -1,0 +1,2 @@
+[console_scripts]
+vtd = name_register:main
