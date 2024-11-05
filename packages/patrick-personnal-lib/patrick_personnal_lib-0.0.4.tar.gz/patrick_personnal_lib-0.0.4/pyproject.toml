@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patrick_personnal_lib"
+version = "0.0.4"
+authors = [
+  { name="Patrick Dionne", email="pdionne.83@gmail.com" },
+]
+description = "personnal librairie test"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "openpyxl>=3.1.5",
+    "requests>=2.32.2",
+    "tk>=0.1.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/Psychopatd/Patrick_personnal_library"
+Issues = "https://github.com/Psychopatd/Patrick_personnal_library/issues"
