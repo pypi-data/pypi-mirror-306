@@ -1,0 +1,2 @@
+[console_scripts]
+jok = name_register:main
