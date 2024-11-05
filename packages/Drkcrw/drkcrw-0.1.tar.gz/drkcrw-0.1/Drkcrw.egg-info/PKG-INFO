@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Drkcrw
+Version: 0.1
+Summary: simple lib for ai
+Author: rrzex
+Author-email: alexcrow221@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
