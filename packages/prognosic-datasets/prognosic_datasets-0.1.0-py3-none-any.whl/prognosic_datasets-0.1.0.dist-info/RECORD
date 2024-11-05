@@ -1,0 +1,10 @@
+prognosic-datasets/__init__.py,sha256=rvbncnsoe_pxpHBhtEZTbAXUpQjwsNzDc7F8ot1FU0E,55
+prognosic-datasets/app.py,sha256=ycxbL18oSaUbRuQITV9PfHSDdHBrCTbZHrLfIo40FSM,2722
+prognosic-datasets/cloud.py,sha256=h3h0BCtcC9ICZAMDUjm0cVD_q87QHrdwNqS7mAvSgtY,1599
+prognosic-datasets/fetch_images.py,sha256=y4scujdo_bpq9qUhmN3sMv_F2zRDbhN--D6bfCsM7Zs,2049
+prognosic_datasets-0.1.0.dist-info/LICENSE.md,sha256=N0NQ-V--RIJkWE1GoenWcl1u1aQblNC4rNtxeVmyXTg,1097
+prognosic_datasets-0.1.0.dist-info/METADATA,sha256=6aDT4Um4S-AfoSmoXgmWxX27h_VxH0HR0cDRaNdR-0c,865
+prognosic_datasets-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+prognosic_datasets-0.1.0.dist-info/entry_points.txt,sha256=R7rsMHk00z59FXnsV8bw8E-XCU4eiBg8rB21CjIdHMM,49
+prognosic_datasets-0.1.0.dist-info/top_level.txt,sha256=tPvxspb-JzZzqfHI4DxG7anvY_TfAzXyjfOB_ptRnGY,19
+prognosic_datasets-0.1.0.dist-info/RECORD,,
