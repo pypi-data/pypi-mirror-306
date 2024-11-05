@@ -1,0 +1,6 @@
+setup.py
+src/oel.egg-info/PKG-INFO
+src/oel.egg-info/SOURCES.txt
+src/oel.egg-info/dependency_links.txt
+src/oel.egg-info/entry_points.txt
+src/oel.egg-info/top_level.txt
