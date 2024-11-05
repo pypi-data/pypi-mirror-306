@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: iris-insee-utils
+Version: 0.1.0
+Summary: Get code IRIS from GPS points or addresses
+Home-page: https://github.com/mypackage.git
+Author: adrienpacifico
+Author-email: adrienpacifico <adrienpacificopro@gmail.com>
+Project-URL: Homepage, https://github.com/adrienpacifico/iris_insee_utils
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: folium >=0.18.0
+Requires-Dist: geopandas >=1.0.1
+Requires-Dist: loguru >=0.7.2
+Requires-Dist: matplotlib >=3.9.2
+Requires-Dist: py7zr >=0.22.0
+Requires-Dist: pyarrow >=18.0.0
+Requires-Dist: pylint >=3.3.1
+Requires-Dist: pytest-cov >=6.0.0
+Requires-Dist: pytest-xdist >=3.6.1
+Requires-Dist: requests >=2.32.3
+Requires-Dist: tqdm >=4.66.6
+
+[![codecov](https://codecov.io/gh/adrienpacifico/iris_insee_utils/branch/master/graph/badge.svg?token=ZZItjohsp9)](https://codecov.io/gh/adrienpacifico/iris_insee_utils)  
+Note: This repository library is currently under construction and is not now usable as is.
+
+
+This repository aims to provide an easy solution to determine to which iris GPS coordinates correspond.
+This could be extended to a transformation from address to iris.
+
+
+### Usage:
+
+ ```python
+>>>from iris_insee_util import gps_to_iris
+
+>>>gps_to_iris(lat, long, iris_year=2018)
+132030402
+
+ ```
+
+
+
+More information about IRIS:
+https://www.insee.fr/fr/information/5008701?sommaire=5008710#titre-bloc-32
+
+Related project: 
+https://github.com/Oslandia/pyris
