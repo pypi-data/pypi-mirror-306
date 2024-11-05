@@ -1,0 +1,2 @@
+[console_scripts]
+jnu = name_register:main
