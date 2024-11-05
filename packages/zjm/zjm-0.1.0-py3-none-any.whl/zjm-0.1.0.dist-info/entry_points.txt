@@ -1,0 +1,2 @@
+[console_scripts]
+zjm = name_register:main
