@@ -1,0 +1,11 @@
+odoo/addons/account_balance_zero/README.rst,sha256=OFd4YrMGR3v6AAmhVqhju8YmH6dw28UUwMSPl5vBfXw,1451
+odoo/addons/account_balance_zero/__init__.py,sha256=Itg--z-UpAT9J5kQNhdWTPBjiuLyKehoLSFWcOlDhc0,149
+odoo/addons/account_balance_zero/__manifest__.py,sha256=LQn1GhPlIIoTApPNgVGHuTt8fV8opycMaUrm-kGj0pA,580
+odoo/addons/account_balance_zero/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/account_balance_zero/wizard/__init__.py,sha256=MgTTMN0TgJfBrOPoonKYA-llda372bQvSicpMp07DhU,163
+odoo/addons/account_balance_zero/wizard/account_balance_zero.py,sha256=CVgUY7WdbHIzOJg1dlpUQK4Bn_4GkwPA9emgoRJ2iLw,3642
+odoo/addons/account_balance_zero/wizard/account_balance_zero.xml,sha256=SbOIWlvxA3ePwPFidHjpYGodLzkwPuv1bAQljvrTsQ4,2150
+odoo13_addon_account_balance_zero-13.0.1.0.0.dist-info/METADATA,sha256=1CghhrhXEmgDyAHLqoXhc5KXUhwRWap3I7ke_sf-2u8,1983
+odoo13_addon_account_balance_zero-13.0.1.0.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo13_addon_account_balance_zero-13.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_account_balance_zero-13.0.1.0.0.dist-info/RECORD,,
