@@ -1,0 +1,22 @@
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+[tool.black]
+line-length = 80
+target-version = ['py37']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+skip-string-normalization = false 
