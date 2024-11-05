@@ -1,0 +1,16 @@
+SpiritLong_database/__init__.py,sha256=Uk0FsXMqs8FgQL1QMLX8UkK_HSgFMNipPv_itMy2D_w,659
+SpiritLong_database/mysql.py,sha256=i8LlvjB8NRDCaHeD4tiVV-gVVvY4wjnvO2Tj1_Iq6Eg,44021
+SpiritLong_excel/__init__.py,sha256=G6dtTRuceRuATF_FEIqyzZHx_3HmUsowgbHXJwZhiho,1522
+SpiritLong_excel/excel.py,sha256=fxqgVf9JpgZJp30GOpjEUxtdn8q6Hl4xUtcyy2_t364,9972
+SpiritLong_utility/__init__.py,sha256=ZifPq3UZaDkqKa4CsWxFfxrTGPA6wMqRtb8U0Vg2Ctk,858
+SpiritLong_utility/datetime.py,sha256=lyAYDCGbp-aKYnHvt9uJ4mB-0mIfMXlLjucTJQ4Ehlg,2968
+SpiritLong_utility/files.py,sha256=yjLW2ejZ-xDZ4YF_k8ylBz67xbqyxOIe1zeHd6cXLIM,1462
+SpiritLong_utility/math.py,sha256=V7eEY5Hdka4w_Qu71RNcz_JWcLXcAY-JmpMr45Yfmes,923
+SpiritLong_utility/string.py,sha256=UwSF4HoRrrva2avCJvhswNWXLXFbckMhE7DH-y6tDSc,3525
+SpiritLong_word/__init__.py,sha256=dpGwEl_MNC_mlQI3Ph0CYtl7DyyEvePE5d0ieLK25g4,1596
+SpiritLong_word/word.py,sha256=Eh0FCvSxZRk7-61j1cAXLye-mFgvEPRRXHW245foaXM,10749
+spiritlong-0.0.64.dist-info/LICENSE.txt,sha256=58nXzt_pYK4LBVXIHslVAAnZZ3tBuImAd4flKsOrLtA,1449
+spiritlong-0.0.64.dist-info/METADATA,sha256=WOQlBbO9jLCgH-HDLg1Xe4Ev5xAcx9UFg6xuGEIFvL8,959
+spiritlong-0.0.64.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+spiritlong-0.0.64.dist-info/top_level.txt,sha256=bxMgUFrTz8pu1vPjn0lfCKbbL3OoYqdZYggG4-FCnL8,72
+spiritlong-0.0.64.dist-info/RECORD,,
