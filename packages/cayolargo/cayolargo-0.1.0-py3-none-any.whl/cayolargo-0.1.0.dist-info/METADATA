@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cayolargo
+Version: 0.1.0
+Summary: CayoLargo by Halcyon Waters
+Home-page: https://halcyonwaters.com/
+Author: HalcyonWaters
+Author-email: halcyonwaterscom@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: python-binance==1.0.17
+Requires-Dist: matplotlib
+Requires-Dist: requests
+
+# cayolargo
+
+Python library supplementing 'Cryptocurrenices with Python' book
+
+(c) 2024, by Pawel Lachowicz
