@@ -1,0 +1,13 @@
+infinistore/test_infinistore.py,sha256=SpISrjFxr_CKrdS-gqoVCioKdutWzCspWBTnZATwN1c,6755
+infinistore/__init__.py,sha256=ZD7BBcxwXlbJxXMil9WnGVnMBLnLdVJXMnjUNAqlm3A,358
+infinistore/_infinistore.cpython-311-x86_64-linux-gnu.so,sha256=L2miGMEWLS_56aco-ynsgeTemf8PxjzcoYVDtJ1kFds,39131993
+infinistore/benchmark.py,sha256=-hWQzLiG88jLbIDkQ1RmMuv3pwEwL8e-VylK4fnOKGg,3733
+infinistore/lib.py,sha256=s1xtf9gESA0008i7kcOCmh5Gp7JOUtdCtsA4doSexN4,14129
+infinistore/server.py,sha256=jr9jn3rqDojSoJyBKcVVzk6L2BJdaNz9How7dqMGrbw,2877
+infinistore.libs/libcudart-9335f6a2.so.12,sha256=5GZgo1RCkzBmb3fOzcXWvOxDQsCBwreIxqvumdG9s0o,695009
+infinistore.libs/libuv-671cb6af.so.1.0.0,sha256=b4RLpLgzRTfywZoBRWy6cC3VOhD9y75kH47Jf3iJ804,228945
+infinistore-0.1.96.dist-info/entry_points.txt,sha256=izYAAn4_ZhjO8FzEBQlbQfqyCp747kqBQYKG7odBBZ0,56
+infinistore-0.1.96.dist-info/RECORD,,
+infinistore-0.1.96.dist-info/METADATA,sha256=VIGs1dGMS5oj0BUjRJ4TCcbJgkr9x2rnVts08Lq245Q,1166
+infinistore-0.1.96.dist-info/top_level.txt,sha256=KpdfFfSfAf80vc2bq4AhEK7h8mIm3_ETdRcZAx-vZFA,12
+infinistore-0.1.96.dist-info/WHEEL,sha256=da47F2xkzJkkx2ePR6jDMXUaw3EJ8RiozHF-3rPa9qA,113
