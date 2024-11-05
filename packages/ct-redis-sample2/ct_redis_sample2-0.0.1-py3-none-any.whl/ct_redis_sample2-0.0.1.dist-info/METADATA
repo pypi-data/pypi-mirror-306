@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ct-redis-sample2
+Version: 0.0.1
+Summary: A specialized library developed by Credenti for efficient Redis caching in Flask applications.
+Home-page: UNKNOWN
+Author: credenti
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: redis (==5.0.3)
+Requires-Dist: Flask (>=2.0.2)
+
+UNKNOWN
+
