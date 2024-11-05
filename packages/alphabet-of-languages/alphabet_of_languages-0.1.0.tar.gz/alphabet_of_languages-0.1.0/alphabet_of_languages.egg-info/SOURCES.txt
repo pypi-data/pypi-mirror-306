@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+alphabet_of_languages.egg-info/PKG-INFO
+alphabet_of_languages.egg-info/SOURCES.txt
+alphabet_of_languages.egg-info/dependency_links.txt
+alphabet_of_languages.egg-info/top_level.txt
+my_library/__init__.py
+my_library/core.py
