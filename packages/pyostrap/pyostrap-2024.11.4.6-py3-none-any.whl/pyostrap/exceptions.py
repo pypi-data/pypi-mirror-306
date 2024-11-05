@@ -1,0 +1,2 @@
+class BiostrapApiException(Exception):
+    pass
