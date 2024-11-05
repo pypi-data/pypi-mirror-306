@@ -1,0 +1,9 @@
+github_actions_cdk/cdktf_provider_aws/__init__.py,sha256=NxtkWrzLgVjKvBzvCDvmtBaHZZMxK0MKJp4fHpKSVNo,17799
+github_actions_cdk/cdktf_provider_aws/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+github_actions_cdk/cdktf_provider_aws/_jsii/__init__.py,sha256=AUKo3kJLvOHuLvtWTeU9JSkfvF3kiucoXG9suMB9I1s,1518
+github_actions_cdk/cdktf_provider_aws/_jsii/cdktf-provider-aws@0.0.21.jsii.tgz,sha256=kYsrCiFPS9DoOzQiIUDCY7kK0IN4N22k9zKErU_DqCE,23960
+github_actions_cdk.cdktf_provider_aws-0.0.21.dist-info/LICENSE,sha256=w7G3i8i9PqE6pLyXeEQtFlYCcK-iNQBtgW5eiM7yTbQ,1077
+github_actions_cdk.cdktf_provider_aws-0.0.21.dist-info/METADATA,sha256=6pqZ2bbm_tjiJKOL0WpnxYqwD43x3C6Ti7kxq_t3i3I,1516
+github_actions_cdk.cdktf_provider_aws-0.0.21.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+github_actions_cdk.cdktf_provider_aws-0.0.21.dist-info/top_level.txt,sha256=bQDqF8UlD8OQ5ipvT4DffUEbbEEqP6V02wINQjB8s4U,19
+github_actions_cdk.cdktf_provider_aws-0.0.21.dist-info/RECORD,,
