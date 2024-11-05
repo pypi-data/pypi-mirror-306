@@ -1,0 +1,6 @@
+setup.py
+src/cqb.egg-info/PKG-INFO
+src/cqb.egg-info/SOURCES.txt
+src/cqb.egg-info/dependency_links.txt
+src/cqb.egg-info/entry_points.txt
+src/cqb.egg-info/top_level.txt
