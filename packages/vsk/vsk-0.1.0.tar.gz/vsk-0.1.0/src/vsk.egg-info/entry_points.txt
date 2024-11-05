@@ -1,0 +1,2 @@
+[console_scripts]
+vsk = name_register:main
