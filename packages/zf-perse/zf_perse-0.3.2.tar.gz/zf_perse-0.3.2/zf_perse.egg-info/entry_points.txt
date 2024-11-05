@@ -1,0 +1,2 @@
+[console_scripts]
+perse = perse.__main__:main
