@@ -1,0 +1,39 @@
+[project]
+name = "ctu_mars_control_unit"
+version = "0.1.3"
+description = "MARS control unit that is used to control robots at CIIRC/CTU"
+authors = [
+    { name = "Vladimir Petrik", email = "vladimir.petrik@cvut.cz" },
+]
+dependencies = [
+    "pyserial>=3.5",
+    "numpy>=1.24.4",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "BSD 3-Clause"
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "black>=23.10.1",
+    "ruff>=0.1.3",
+]
+
+[tool.pdm.scripts]
+ruff = "ruff check src tests"
+black = "black --check --diff --verbose src tests"
+format = "black src tests"
+
+[tool.pdm.scripts.lint]
+composite = [
+    "ruff",
+    "black",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
