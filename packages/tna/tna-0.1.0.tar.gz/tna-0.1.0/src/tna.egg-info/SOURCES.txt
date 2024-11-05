@@ -1,0 +1,6 @@
+setup.py
+src/tna.egg-info/PKG-INFO
+src/tna.egg-info/SOURCES.txt
+src/tna.egg-info/dependency_links.txt
+src/tna.egg-info/entry_points.txt
+src/tna.egg-info/top_level.txt
