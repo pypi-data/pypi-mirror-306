@@ -1,0 +1,54 @@
+{
+  "count": 1,
+  "patentFileWrapperDataBag": [
+    {
+      "parentContinuityBag": [
+        {
+          "parentApplicationStatusCode": 150,
+          "claimParentageTypeCode": "NST",
+          "claimParentageTypeCodeDescription": "is a National Stage Entry of",
+          "parentApplicationStatusDescriptionText": "Patented Case",
+          "parentApplicationNumberText": "PCT/IB2013/001896",
+          "parentApplicationFilingDate": "2013-07-02",
+          "childApplicationNumberText": "14412875"
+        }
+      ],
+      "childContinuityBag": [
+        {
+          "firstInventorToFileIndicator": false,
+          "childApplicationStatusDescriptionText": "Patented Case",
+          "claimParentageTypeCode": "CON",
+          "childApplicationStatusCode": 150,
+          "claimParentageTypeCodeDescription": "is a Continuation of",
+          "childPatentNumber": "11612758",
+          "parentApplicationNumberText": "14412875",
+          "childApplicationFilingDate": "2020-09-04",
+          "childApplicationNumberText": "17013096"
+        },
+        {
+          "firstInventorToFileIndicator": false,
+          "childApplicationStatusDescriptionText": "Docketed New Case - Ready for Examination",
+          "claimParentageTypeCode": "CON",
+          "childApplicationStatusCode": 30,
+          "claimParentageTypeCodeDescription": "is a Continuation of",
+          "parentApplicationNumberText": "14412875",
+          "childApplicationFilingDate": "2023-03-27",
+          "childApplicationNumberText": "18190466"
+        },
+        {
+          "firstInventorToFileIndicator": false,
+          "childApplicationStatusDescriptionText": "Patented Case",
+          "claimParentageTypeCode": "CON",
+          "childApplicationStatusCode": 150,
+          "claimParentageTypeCodeDescription": "is a Continuation of",
+          "childPatentNumber": "10806943",
+          "parentApplicationNumberText": "14412875",
+          "childApplicationFilingDate": "2019-05-17",
+          "childApplicationNumberText": "16415927"
+        }
+      ],
+      "applicationNumberText": "14412875"
+    }
+  ],
+  "requestIdentifier": "b5622b59-380c-4cb0-8525-2e2eadaeaa05"
+}
