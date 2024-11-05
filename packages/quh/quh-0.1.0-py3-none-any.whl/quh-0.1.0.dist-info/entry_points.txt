@@ -1,0 +1,2 @@
+[console_scripts]
+quh = name_register:main
