@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="account_balance_zero_view_form" model="ir.ui.view">
+        <field name="name">account.balance.zero.form</field>
+        <field name="model">account.balance.zero</field>
+        <field name="arch" type="xml">
+            <form string="Account Balance Zero">
+                <group>
+                    <group string="Filters">
+                        <field name="company_id"/>
+                        <field name="date_from"/>
+                        <field name="date_to"/>
+                        <field name="move_state"/>
+                        <field name="filter_journal_id"/>
+                        <field name="account_ids"
+                            widget="many2many_tags"
+                            options="{'no_create': True}"
+                        />
+                        <field name="partner_id" 
+                            widget="many2many_tags"
+                            options="{'no_create': True}"
+                        />
+                    </group>
+                    <group string="Data">
+                        <field name="dest_journal_id"/>
+                    </group>
+                </group>
+                <newline/>
+                <separator/>
+                <footer>
+                  <button string="Generate Move" name="calculate" type="object" class="oe_highlight"/>
+                  <button string="Cancel" class="oe_link" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="account_balance_zero_action" model="ir.actions.act_window">
+        <field name="name">Account Balance Zero</field>
+        <field name="res_model">account.balance.zero</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="account_balance_zero.account_balance_zero_view_form"/>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem 
+        parent="account.account_account_menu"
+        id="account_balance_zero_menu"
+        action="account_balance_zero.account_balance_zero_action"
+        groups="account.group_account_manager"/>
+
+</odoo>
