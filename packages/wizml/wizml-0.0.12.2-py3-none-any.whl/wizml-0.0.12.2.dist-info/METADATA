@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wizml
+Version: 0.0.12.2
+Summary: Python library for mlops environment of Wilab
+Author: seungbeom.jin
+Author-email: seungbeom.jin@wizcore.co.kr
+Keywords: mlops
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: mlflow
+Requires-Dist: requests
+
