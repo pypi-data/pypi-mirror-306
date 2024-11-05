@@ -1,0 +1,3 @@
+recursive-include aa_killstory/templates *
+recursive-include aa_killstory/static *
+recursive-include aa_killstory/migrations *
