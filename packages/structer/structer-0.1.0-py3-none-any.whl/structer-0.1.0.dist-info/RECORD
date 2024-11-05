@@ -1,0 +1,10 @@
+structer/__init__.py,sha256=fBCksV2KpgeMUWEUub__l8oEJf3CWqEx1MRNwxsUf-M,558
+structer/errors.py,sha256=vHEUUqQPABU12Q66g-nQtMVsRcYjdPe4gaMp-1Q6Y2I,556
+structer/field.py,sha256=1qEYbP0yM4njl3KiS-KkYn2x8gVBbyPiM8Cvzhnj1jg,1037
+structer/fieldtype.py,sha256=Kfk0BAYr8Dlu7OV0IjdIb_4mfTlmAgCG_jh-I41Gaj0,2810
+structer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+structer/struct.py,sha256=tqkQft3aQImxpyK9QGIHqvuLewhmOX-_TdGYh1iKcps,3832
+structer-0.1.0.dist-info/LICENSE,sha256=QgmJ4tuS6wcsFerAMYllkLZP65xRs0bgwWupDDjvFnA,1065
+structer-0.1.0.dist-info/METADATA,sha256=fV4YyQtOjrCthAqXHnBZVEYUVIH2fqKJ5Hn9vRaJjSo,6396
+structer-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+structer-0.1.0.dist-info/RECORD,,
