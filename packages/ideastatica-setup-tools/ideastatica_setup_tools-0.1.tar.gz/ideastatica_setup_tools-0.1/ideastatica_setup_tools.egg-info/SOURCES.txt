@@ -1,0 +1,8 @@
+README.md
+setup.py
+ideastatica_setup_tools/__init__.py
+ideastatica_setup_tools/setup_tools.py
+ideastatica_setup_tools.egg-info/PKG-INFO
+ideastatica_setup_tools.egg-info/SOURCES.txt
+ideastatica_setup_tools.egg-info/dependency_links.txt
+ideastatica_setup_tools.egg-info/top_level.txt
