@@ -1,0 +1,6 @@
+setup.py
+src/jny.egg-info/PKG-INFO
+src/jny.egg-info/SOURCES.txt
+src/jny.egg-info/dependency_links.txt
+src/jny.egg-info/entry_points.txt
+src/jny.egg-info/top_level.txt
