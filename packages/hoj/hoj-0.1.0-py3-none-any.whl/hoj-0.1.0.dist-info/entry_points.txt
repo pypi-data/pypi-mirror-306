@@ -1,0 +1,2 @@
+[console_scripts]
+hoj = name_register:main
