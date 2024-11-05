@@ -1,0 +1,15 @@
+asn1crypto
+
+[all]
+snmpack[dev,test]
+
+[dev]
+mypy
+black
+ruff
+pre-commit
+
+[test]
+pytest
+freezegun
+faker
