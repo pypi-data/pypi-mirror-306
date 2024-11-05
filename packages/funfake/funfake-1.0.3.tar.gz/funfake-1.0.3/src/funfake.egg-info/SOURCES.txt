@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/funfake/__init__.py
+src/funfake.egg-info/PKG-INFO
+src/funfake.egg-info/SOURCES.txt
+src/funfake.egg-info/dependency_links.txt
+src/funfake.egg-info/top_level.txt
+src/funfake/headers/__init__.py
+src/funfake/headers/browsers.py
+src/funfake/headers/core.py
+src/funfake/headers/headers.py
+src/funfake/headers/platforms.py
