@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+samplepackage1/__init__.py
+samplepackage1/test.py
+srikanth1234567.egg-info/PKG-INFO
+srikanth1234567.egg-info/SOURCES.txt
+srikanth1234567.egg-info/dependency_links.txt
+srikanth1234567.egg-info/top_level.txt

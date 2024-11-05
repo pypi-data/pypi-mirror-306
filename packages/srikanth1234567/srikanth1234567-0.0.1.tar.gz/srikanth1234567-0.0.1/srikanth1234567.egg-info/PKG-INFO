@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: srikanth1234567
+Version: 0.0.1
+Summary: Simple test package
+Author: srikanth
+Author-email: kunku.srikanth1234@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# this is my sample project
+this is just a simple project to show the use of a package
