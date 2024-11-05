@@ -1,0 +1,3 @@
+[console_scripts]
+ha-inspirair=hass_inspirair.__main__:main
+
