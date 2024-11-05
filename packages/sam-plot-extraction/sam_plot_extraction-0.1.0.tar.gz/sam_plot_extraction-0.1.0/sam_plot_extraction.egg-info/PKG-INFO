@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sam-plot-extraction
+Version: 0.1.0
+Summary: Plot extraction using segment anything model
+Home-page: https://github.com/breadnbutter0/sam-plot-extraction
+Author: Hansae Kim
+Author-email: kim4012@purdue.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sam-plot-extraction
+plot extraction using segment anything model
