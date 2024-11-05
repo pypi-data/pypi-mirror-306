@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/PyCalcpadWrapper.py
+src/pycalcpad.egg-info/PKG-INFO
+src/pycalcpad.egg-info/SOURCES.txt
+src/pycalcpad.egg-info/dependency_links.txt
+src/pycalcpad.egg-info/requires.txt
+src/pycalcpad.egg-info/top_level.txt
