@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pycalcpad
+Version: 0.0.2
+Summary: A package for the binding to Calcpad (www.calcpad.eu and https://github.com/Proektsoftbg/Calcpad/) An awesome free software for mathematical and engineering calculations. This is a pip-installable version of the wrapper included with Calcpad.
+Author-email: Ronald Grefhorst <ronald@rgde.be>
+Project-URL: Homepage, https://github.com/Grefron/pycalcpad
+Project-URL: Issues, https://github.com/Grefron/pycalcpad/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pythonnet
+Requires-Dist: termcolor
+
+# pycalcpad
+
+This package is a pip-installable binder to Calcpad, the awesome mathematical and engineering calculator software written by Ned Ganchovski.
+
+To learn more about Calcpad, see here: [Calcpad.eu](www.calcpad.eu) en [on Github](https://github.com/Proektsoftbg/Calcpad/).
