@@ -1,0 +1,8 @@
+gpio_manager-2.1.21.dist-info/METADATA,sha256=idkZpJXPHWxWyME-8A7kgLAktRnAjdEMKC8blNcBgbU,1929
+gpio_manager-2.1.21.dist-info/WHEEL,sha256=slWAhjGXaaTw0qzodHxw5lEjrc9C6upTd9t5M0zNmN0,109
+gpio_manager-2.1.21.dist-info/licenses/LICENSE,sha256=fPVicTpRXxFrqjKU7cyhd7hXWf2EUDvMlAH5C4qKBtg,35141
+gpio_manager/__init__.py,sha256=xvoiOCb_hbxBHYJwH0WbesJq3iKi21YHmOcwqSc3hTI,131
+gpio_manager/__init__.pyi,sha256=N6SDntdW0kVxspOe0lUMXlAexySaK6b2w4COWaRx5mU,16672
+gpio_manager/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpio_manager/gpio_manager.cpython-311-aarch64-linux-gnu.so,sha256=uYUKe4QFnPPq0xj1jZk3AXBcicjKjptf7tCdTLUF6lQ,1374504
+gpio_manager-2.1.21.dist-info/RECORD,,
