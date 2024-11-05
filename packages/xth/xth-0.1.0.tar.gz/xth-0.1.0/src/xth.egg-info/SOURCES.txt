@@ -1,0 +1,6 @@
+setup.py
+src/xth.egg-info/PKG-INFO
+src/xth.egg-info/SOURCES.txt
+src/xth.egg-info/dependency_links.txt
+src/xth.egg-info/entry_points.txt
+src/xth.egg-info/top_level.txt
