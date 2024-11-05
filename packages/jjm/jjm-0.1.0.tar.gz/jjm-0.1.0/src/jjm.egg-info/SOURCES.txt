@@ -1,0 +1,6 @@
+setup.py
+src/jjm.egg-info/PKG-INFO
+src/jjm.egg-info/SOURCES.txt
+src/jjm.egg-info/dependency_links.txt
+src/jjm.egg-info/entry_points.txt
+src/jjm.egg-info/top_level.txt
