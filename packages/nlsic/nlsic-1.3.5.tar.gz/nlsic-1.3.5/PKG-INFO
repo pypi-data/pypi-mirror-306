@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: nlsic
+Version: 1.3.5
+Summary: Non-linear Least Squares with Inequality Constraints
+Keywords: least squares
+Author-Email: Serguei Sokol <sokol@insa-toulouse.fr>
+License-Expression: GNU General Public License v2 or later (GPLv2+)
+Project-URL: Repository, https://github.com/sgsokol/nlsic_py/
+Requires-Python: >=3.8
+Requires-Dist: numpy>=2
+
