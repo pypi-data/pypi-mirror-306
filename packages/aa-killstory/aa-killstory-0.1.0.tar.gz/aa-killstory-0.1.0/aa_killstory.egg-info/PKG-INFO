@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: aa-killstory
+Version: 0.1.0
+Summary: Alliance Auth plugin to display kill stories
+Home-page: https://github.com/Erkaek/aa-killstory
+Author: Erka Ekanon
+Author-email: erkaekanon@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+License-File: LICENSE
+
+UNKNOWN
+
