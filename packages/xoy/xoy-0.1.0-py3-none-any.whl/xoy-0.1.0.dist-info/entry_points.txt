@@ -1,0 +1,2 @@
+[console_scripts]
+xoy = name_register:main
