@@ -1,0 +1,2 @@
+[console_scripts]
+zpo = name_register:main
