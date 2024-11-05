@@ -1,0 +1,12 @@
+PyCodeCommenter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyCodeCommenter/commenter.py,sha256=u8cTGTa0_0Tp5aybid6ikTVKQ4o7Z6QaKo2V4Ue2EGY,14433
+PyCodeCommenter/main.py,sha256=lS41lhWUVLQ5LwvlMg2SU8nBmO14k6exAl53mucj62s,924
+PyCodeCommenter/parameter_descriptions.py,sha256=QTc9ZpRxP6s8xmdMUiLEyW16uC2edC49fHaMri-mUSs,2530
+PyCodeCommenter/templates.py,sha256=djnjM674cTTh9zuE8xzMpRlc4Vs1y8z5T9YtCuvYPVk,5666
+PyCodeCommenter/usage.py,sha256=x9rTQ0D7waCjjqV2X1VPhbhF68-4g3Uk-yhAq3W7j-I,1704
+PyCodeCommenter/users.py,sha256=X34E_SHmGsC7l9A4IXBM5XX6oiIRXsw8OWX20MhoKtk,520
+PyCodeCommenter-0.0.3.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+PyCodeCommenter-0.0.3.dist-info/METADATA,sha256=nqJgOGk00KIwBitgTCUrAZ5w2sCNUV0JogEFd6i43is,4311
+PyCodeCommenter-0.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+PyCodeCommenter-0.0.3.dist-info/top_level.txt,sha256=J0aVA0MqttB-7SkjFw5qSuGVhyhfWUVMs61_HU-rhBA,16
+PyCodeCommenter-0.0.3.dist-info/RECORD,,
