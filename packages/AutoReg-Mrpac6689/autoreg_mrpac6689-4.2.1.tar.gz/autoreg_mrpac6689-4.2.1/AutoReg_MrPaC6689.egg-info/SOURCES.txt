@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+AutoReg_MrPaC6689.egg-info/PKG-INFO
+AutoReg_MrPaC6689.egg-info/SOURCES.txt
+AutoReg_MrPaC6689.egg-info/dependency_links.txt
+AutoReg_MrPaC6689.egg-info/entry_points.txt
+AutoReg_MrPaC6689.egg-info/requires.txt
+AutoReg_MrPaC6689.egg-info/top_level.txt
