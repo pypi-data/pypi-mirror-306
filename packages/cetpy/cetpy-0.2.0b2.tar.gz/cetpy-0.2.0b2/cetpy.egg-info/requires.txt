@@ -1,0 +1,10 @@
+numpy
+pandas
+CoolProp
+tomli
+tabulate
+smt
+pytest
+matplotlib
+statsmodels
+scikit-learn
