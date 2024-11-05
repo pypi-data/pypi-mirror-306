@@ -1,0 +1,10 @@
+LICENSE
+README.md
+python-setup.py
+mipt2024f-4-barrect/__init__.py
+mipt2024f-4-barrect/internal/__init__.py
+mipt2024f-4-barrect/internal/perspective.py
+mipt2024f_4_barrect.egg-info/PKG-INFO
+mipt2024f_4_barrect.egg-info/SOURCES.txt
+mipt2024f_4_barrect.egg-info/dependency_links.txt
+mipt2024f_4_barrect.egg-info/top_level.txt
