@@ -1,0 +1,6 @@
+setup.py
+src/vvj.egg-info/PKG-INFO
+src/vvj.egg-info/SOURCES.txt
+src/vvj.egg-info/dependency_links.txt
+src/vvj.egg-info/entry_points.txt
+src/vvj.egg-info/top_level.txt
