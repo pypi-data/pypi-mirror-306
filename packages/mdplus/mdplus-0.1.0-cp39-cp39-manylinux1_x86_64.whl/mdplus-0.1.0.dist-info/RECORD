@@ -1,0 +1,15 @@
+mdplus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdplus/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+mdplus/fast.cpython-39-x86_64-linux-gnu.so,sha256=-Sz82istLskYmi-FEQDBqYARVRJdiNsIw-s1Oiv4IWg,2005568
+mdplus/multiscale.py,sha256=Oa5jUAEtTkYjuPvPvKUjIbXOSfu1Yk0PNR7-uTndksQ,25388
+mdplus/pca.py,sha256=a86iPq8y2mbTLTF6rY4Xx6TJjMSAGxTeriN747OJCMA,9461
+mdplus/refinement.py,sha256=uw9IO_vBtoFVbX1PI1w8eb3cP9BY12cOYpcgBPORkCs,6074
+mdplus/utils.py,sha256=T0IHEXqNlkSweRZKzxDgzM6MVw80sxfpSnscYanrcTw,9331
+mdplus-0.1.0.data/scripts/glimps-backmap,sha256=aLYjNC2lbTQI-gV6683SuTURRg2JfiSdBwESocZj0cA,5143
+mdplus-0.1.0.data/scripts/glimps-map,sha256=WtGVFu5ktV3q8CcON8zoHEpfwPStQff8WWvnldrhsVo,4551
+mdplus-0.1.0.data/scripts/glimps-train,sha256=tJcVjOUjoHY6Zwpf6I4N7a882k3NQwHzlp2A7IVLrOU,5509
+mdplus-0.1.0.dist-info/LICENSE.txt,sha256=LbV4diPZsseNfW_cT9mpe5ebYrzs9u-pFpWutXayVgA,1520
+mdplus-0.1.0.dist-info/METADATA,sha256=gGAbtFLvDuOJss2FyLmJyMQqcUsAPDhMsoaIng84E1w,4137
+mdplus-0.1.0.dist-info/WHEEL,sha256=HD1tIJ75A5jfbPagHAld2R-diJg3gASx_7ufjJyxL_8,103
+mdplus-0.1.0.dist-info/top_level.txt,sha256=I8NvsJSldJkpwhK7jo7ioqwH6bq3crCdUZw6Loq6bq0,7
+mdplus-0.1.0.dist-info/RECORD,,
