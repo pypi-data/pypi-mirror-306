@@ -1,0 +1,6 @@
+setup.py
+src/tnu.egg-info/PKG-INFO
+src/tnu.egg-info/SOURCES.txt
+src/tnu.egg-info/dependency_links.txt
+src/tnu.egg-info/entry_points.txt
+src/tnu.egg-info/top_level.txt
