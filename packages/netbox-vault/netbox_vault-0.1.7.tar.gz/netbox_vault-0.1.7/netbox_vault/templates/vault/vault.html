@@ -1,0 +1,67 @@
+{% extends 'generic/object.html' %}
+{% block content %}
+  <div class="row mb-3">
+    <div class="col col-md-6">
+      <div class="card">
+        <h5 class="card-header">Vault Info</h5>
+        <div class="card-body">
+          <table class="table table-hover attr-table">
+            <tr>
+              <th scope="row">Id</th>
+              <td>{{ object.id }}</td>
+            </tr>
+            <tr>
+                <td>Device</td>
+                <td>
+                    {% if object.device %}
+                    <a href="{{ object.device.get_absolute_url }}">{{ object.device }}</a>
+                    {% else %}
+                    <span class="text-muted">None</span>
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td>prsID</td>
+                <td>{{ prsID }}</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      {% include 'inc/panels/custom_fields.html' %}
+      <div class="card">
+        <h5 class="card-header">Secrets</h5>
+        <div class="card-body">
+          <table class="table table-hover">
+            <tr>
+              <th scope="col">Designation ID</th>
+              <th scope="col">EnvRef1</th>
+              <th scope="col">EnvRef2</th>
+            </tr>
+            {% for secret in vault_data %}
+            <tr>
+              <td>{{ secret.DesignationID }}</td>
+              <td>{{ secret.EnvRef1 }}</td>
+              <td class="envref2-column" style="display: none;">{{ secret.EnvRef2 }}</td>
+              <td><button onclick="toggleEnvRef2(this)">Show/Hide</button></td>
+            </tr>
+            {% endfor %}
+          </table>
+        </div>
+    </div>
+    <div class="col col-md-6">
+      {% include 'inc/panels/tags.html' %}
+      {% include 'inc/panels/comments.html' %}
+    </div>
+  </div>
+
+<script>
+  function toggleEnvRef2(button) {
+    // Find the EnvRef2 cell in the same row as the button
+    const row = button.closest('tr');
+    const envRef2Cell = row.querySelector('.envref2-column');
+    
+    // Toggle the display style between "none" and "table-cell"
+    envRef2Cell.style.display = (envRef2Cell.style.display === 'none') ? 'table-cell' : 'none';
+  }
+</script>
+{% endblock content %}
