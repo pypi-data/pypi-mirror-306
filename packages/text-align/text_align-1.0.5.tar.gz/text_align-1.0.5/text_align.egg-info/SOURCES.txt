@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.cfg
+setup.py
+text_align/__init__.py
+text_align/text_align.py
+text_align.egg-info/PKG-INFO
+text_align.egg-info/SOURCES.txt
+text_align.egg-info/dependency_links.txt
+text_align.egg-info/top_level.txt
