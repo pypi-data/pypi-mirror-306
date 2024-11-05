@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "pyzcode"
+version = "0.7.0"
+description = "Python package to manage zip codes"
+authors = ["Youssef Ragab <77282699+youssefragab99@users.noreply.github.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [
+    { include = "pyzcode", from = "." },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.3"
+poetry-bumpversion = "^0.3.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+flake8 = "^7.1.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+pre-commit = "^4.0.1"
+coverage = "^7.6.4"
+pytest-cov = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+max-line-length = 79
+ignore = ["E203", "W503"]
+exclude = ["__pycache__", ".git", "data"]
+
+[tool.black]
+line-length = 79
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+line_length = 79
+multi_line_output = 3
+include_trailing_comma = true
+
+[tool.pytest.ini_options]
+pythonpath = ["./pyzcode"]
+testpaths = ["tests"]
+
+[[tool.poetry.include]]
+path = "pyzipcode/data/*.csv"
