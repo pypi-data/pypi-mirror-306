@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: qchem
+Version: 0.47
+Summary: A Quantum Chemistry Package for Python. Used and Created by the UW Formula Nano Team to design a Nano Car for the 2026/7 Nano Car Race
+Home-page: https://github.com/UWFormulaN/qchem
+Author: UWFormulaNano
+Author-email: uwformulanano@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: pandas >=2.2.2
+
+QChem is a project used for Quantum Chemistry Simulations and Data Anaylsis/Visualization, developed by the Formula Nano student design team at the University of Waterloo.
+
+Usage:
+
+To use the package at the moment, you need to install Poetry and then install the dependencies contained in the pushed lock file. This ensures consistency among users. Ideally work should be done in Jupyter Notebooks or Python Scripts within the notebooks folder. This will allow you to import the package, allowing access to any submodules (e.g., "from qchem import utils").
+
+Development:
+
+Work on seperate branches for changes and submit PR's to main; squash commits when appropriate to do so. When rebasing, squashing, or changing history in any way use --force-with-lease instead of --force as an extra caution and a stale checker.
