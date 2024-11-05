@@ -1,0 +1,2 @@
+[console_scripts]
+autoreg = autoreg4_2_1:main
