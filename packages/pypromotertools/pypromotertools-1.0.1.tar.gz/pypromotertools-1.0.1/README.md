@@ -1,0 +1,17 @@
+# pyPromoterTools
+
+```shell
+  / \__
+ (    @\___
+ /         O
+/   (_____/
+/_____/   U
+
+Project by BiomedicalPulsar
+```
+
+## Abstract
+
+Motivation: Promoter is DNA sequences located near the transcription start sites of genes and are primarily responsible for regulating the transcription process. Transcription factors and RNA polymerases can bind to specific sites within the promoter to initiate the expression of genes. Therefore, accurately obtaining the promoter regions and sequences of genes is crucial for predicting transcription factor binding sites and conducting luciferase assay. Although several related tools already exist, they often require a certain level of programming skills and a solid understanding of biology, particularly the ability to accurately identify promoter based on the direction of gene transcription. Thus, developing a convenient and efficient tool to obtain promoter regions and sequences is highly valuable.
+
+Results: We developed PromoterTools (https://www.biomedicalpulsar.com/promotertools), a collection of tools that allows for the rapid retrieval of transcription start sites and promoters of genes, including webPromoterTools, pyPromoterTools, rPromoterTools. This tool primarily uses GTF and FASTA files as input, enabling users to set their own upstream and downstream regions of the transcription start site to define the promoter. It also supports the calculation of corresponding nucleotide regions to assist in predicting transcription start sites and constructing luciferase vectors for promoter studies. PromoterTools is a tool that is very easy to install and use.
