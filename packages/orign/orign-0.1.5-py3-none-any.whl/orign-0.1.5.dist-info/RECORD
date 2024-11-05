@@ -1,0 +1,9 @@
+orign/config.py,sha256=jYe3o-knnCGHVv1H06z1NGNC9jKmHBT6u8n2yXvDLGc,98
+orign/models.py,sha256=FGR7xVduE7bean6S5Tlmx9ufdEcd7btWvreq2f_Hf10,4988
+orign/stream/chat.py,sha256=kCvp2akf1GePPNHEIIBpWTq8z0uOA48x48YaS330Gzs,2840
+orign/stream/embedding.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orign/stream/ocr.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orign-0.1.5.dist-info/LICENSE,sha256=_bymUM6OzAM2HtE_qv96MGIzZ_NPGgGBaniNb-ZH8u4,1065
+orign-0.1.5.dist-info/METADATA,sha256=PSaOehU5jzzr43rGCyQWFax66b7jqQWCj1aNK8hbPMg,602
+orign-0.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+orign-0.1.5.dist-info/RECORD,,
