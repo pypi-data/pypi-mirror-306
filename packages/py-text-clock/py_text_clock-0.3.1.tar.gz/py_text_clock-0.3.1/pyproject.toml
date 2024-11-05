@@ -1,0 +1,23 @@
+[tool.pytest.ini_options]
+pythonpath = [
+  "py_text_clock"
+]
+
+[tool.poetry]
+name = "py-text-clock"
+version = "0.3.1"
+description = "A verbose Clock"
+authors = ["Manoj Manivannan <manojm18@live.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.0"
+click = "^8.1.7"
+
+[tool.poetry.scripts]
+py-clock = "py_text_clock.command_line:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
