@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+rockettp3/__init__.py
+rockettp3/rocket1.py
+rockettp3.egg-info/PKG-INFO
+rockettp3.egg-info/SOURCES.txt
+rockettp3.egg-info/dependency_links.txt
+rockettp3.egg-info/requires.txt
+rockettp3.egg-info/top_level.txt
