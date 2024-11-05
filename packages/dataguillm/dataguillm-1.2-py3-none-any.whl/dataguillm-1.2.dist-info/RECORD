@@ -1,0 +1,9 @@
+dataguillm/__init__.py,sha256=lBf83tOdTU-EwjA1N2GjcIlrkGJ2q5QlXr79kCa6DSE,135
+dataguillm/dataguillm.py,sha256=QGi8QYadz0luS10MSEMg1gDHBL-l4-AjkZb-t5mk3o0,29696
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_eda.py,sha256=OwxWiM3GVl7duT_BZpNH3FGog9xClZOP52skLpcYbuI,582
+dataguillm-1.2.dist-info/LICENSE.txt,sha256=tDRRacs2pnolD2pURzEOvU9TWFUaNVBN2bXQCEbflQw,1130
+dataguillm-1.2.dist-info/METADATA,sha256=Krctf5VVgwb4l3sgDxLGAuGDrqthqkW78KLaUHg_cp0,1147
+dataguillm-1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dataguillm-1.2.dist-info/top_level.txt,sha256=JFAhFelZIJ4zYIxKjhhQc2spOjNx0WEAgzBpy1oqp2k,17
+dataguillm-1.2.dist-info/RECORD,,
