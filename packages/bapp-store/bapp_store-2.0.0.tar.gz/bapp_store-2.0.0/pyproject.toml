@@ -1,0 +1,32 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "bapp-store"
+version = "2.0.0"
+description = "A simple app store for Beepy applications"
+authors = ["Conor Flynn <beepy@randombits.host>"]
+license = "GPL-3.0-only"
+homepage = "https://github.com/conor-f/bapp-store"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+readme = "README.md"
+
+[tool.poetry.scripts]
+bapp-store = "bapp_store.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+textual = "^0.10.1"
+rich = "^13.5.2"
