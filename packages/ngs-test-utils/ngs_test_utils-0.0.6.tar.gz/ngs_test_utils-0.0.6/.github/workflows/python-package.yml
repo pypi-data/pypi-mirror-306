@@ -1,0 +1,26 @@
+name: Package testing
+
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - "[0-9]+.[0-9]+.[0-9]+*"
+
+  pull_request:
+    types: [opened, reopened, ready_for_review, synchronize]
+
+  workflow_dispatch:
+
+jobs:
+  test:
+    if: github.event.pull_request.draft == false
+    runs-on: arc-runner
+    strategy:
+      matrix:
+        tox-env: [py311, py312, linters, docs, package]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Tests
+        run: |
+          tox -e ${{ matrix.tox-env }}

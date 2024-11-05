@@ -1,0 +1,5 @@
+include LICENSE
+recursive-include docs *.py *.rst
+include tox.ini
+include pyproject.toml
+recursive-include tests *.py

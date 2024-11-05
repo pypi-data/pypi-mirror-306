@@ -1,0 +1,105 @@
+[build-system]
+requires = [
+    "setuptools >= 64.0.0",
+    "setuptools_scm >= 6.4.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ngs_test_utils"
+description = "Utilities for generation of synthetic NGS files"
+authors = [
+    {name = "Genialis, Inc."},
+    {email = "info@genialis.com"},
+]
+dynamic = ["version"]
+readme = "README.rst"
+license = {text = "Apache 2.0"}
+requires-python = ">=3.11, <3.13"
+keywords = [
+    "ngs",
+    "test",
+    "bioinformatics",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "numpy",
+    "pybedtools",
+    "pysam",
+]
+
+[project.optional-dependencies]
+docs = [
+    "sphinx",
+]
+package = [
+    "build>=0.8.0",
+    "check-manifest>=0.48",
+    "twine>=4.0.1",
+]
+test = [
+    "ruff",
+    "pytest>=7.2.0",
+    "pytest-cov>=4.0.0",
+    "pytest-mock>=3.10.0",
+    "toml>=0.10.2",
+]
+
+[project.urls]
+repository = "https://github.com/genialis/ngs-test-utils"
+
+[tool.setuptools_scm]
+
+[tool.ruff]
+line-length = 99
+target-version = "py312"
+# Necessary for isort
+src = ["src"]
+
+[tool.ruff.lint]
+select = [
+    # pydocstyle
+    "D",
+    # pycodestyle
+    "E", "W",
+    # pyflakes
+    "F",
+    # isort
+    "I",
+    # Pyupgrade - use a more modern / newer syntax if it exists
+    "UP",
+    # Mccabe - detect too complex code
+    "C901",
+    # flake8-2022 - Checks for misuse of sys.version or sys.version_info
+    "YTT",
+    # flake8 bugbear - find common bugs and design problems
+    "B",
+    # find unused `noqa` directive
+    "RUF100",
+]
+ignore = [
+    # `one-blank-line-before-class` (D203) and
+    # `no-blank-line-before-class` (D211) are incompatible.
+    "D203",
+    # `multi-line-summary-first-line` (D212) and
+    # `multi-line-summary-second-line` (D213) are incompatible.
+    "D213",
+    # Setting an explicit stacklevel in warnings.warn(...) is just a reccomendation
+    "B028",
+    # We need assert statemets in tests
+    "S101",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# tests folder does not enforce pydocstyle
+"tests/*" = ["D"]
