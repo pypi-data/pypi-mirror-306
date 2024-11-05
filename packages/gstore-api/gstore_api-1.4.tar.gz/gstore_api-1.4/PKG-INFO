@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gstore_api
+Version: 1.4
+Summary: gstore_api是一个用于python链接gStore的工具类
+Home-page: https://github.com/pkumod/gStore
+Author: liwenjie
+Author-email: liwenjiehn@pku.edu.cn
+License: UNKNOWN
+Description: # gstore_util
+        `gstore_util`是一个用于python链接gStore的工具类。
+        
+        功能特点：
+        
+        - 支持gStore所有接口，包括
+        - build：创建数据库
+        - load:加载数据库
+        - query:查询数据库
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

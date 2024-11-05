@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/gstore_api/GstoreConnector.py
+src/gstore_api/__init__.py
+src/gstore_api/gStoreCloud.py
+src/gstore_api/test.py
+src/gstore_api.egg-info/PKG-INFO
+src/gstore_api.egg-info/SOURCES.txt
+src/gstore_api.egg-info/dependency_links.txt
+src/gstore_api.egg-info/top_level.txt
