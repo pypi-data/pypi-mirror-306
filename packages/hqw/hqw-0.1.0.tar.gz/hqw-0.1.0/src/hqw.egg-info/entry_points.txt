@@ -1,0 +1,2 @@
+[console_scripts]
+hqw = name_register:main
