@@ -1,0 +1,6 @@
+setup.py
+src/lsw.egg-info/PKG-INFO
+src/lsw.egg-info/SOURCES.txt
+src/lsw.egg-info/dependency_links.txt
+src/lsw.egg-info/entry_points.txt
+src/lsw.egg-info/top_level.txt

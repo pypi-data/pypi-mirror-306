@@ -1,0 +1,2 @@
+[console_scripts]
+lsw = name_register:main
