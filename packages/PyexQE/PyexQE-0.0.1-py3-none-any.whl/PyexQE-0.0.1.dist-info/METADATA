@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: PyexQE
+Version: 0.0.1
+Summary: extension QE: toolkit package of Quantum ESPRESSO.
+Home-page: https://github.com/Bin-Cao/exQE
+Author: CaoBin
+Author-email: binjacobcao@gmail.com
+Maintainer: CaoBin
+Maintainer-email: binjacobcao@gmail.com
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+
+
+## toolkit package of Quantum ESPRESSO
+
+Maintained by Mr.Bin Cao( HKUST(GZ) http://www.caobin.asia/).
+Please feel free to open issues in the Github or contact Bin Cao
+(binjacobcao@gmail.com) in case of any problems/comments/suggestions in using the code. 
+
