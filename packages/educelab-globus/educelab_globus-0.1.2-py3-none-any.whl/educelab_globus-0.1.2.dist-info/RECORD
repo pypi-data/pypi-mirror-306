@@ -1,0 +1,11 @@
+educelab/globus/__init__.py,sha256=dPtUa7SYHDN4z7XXzLhxhbpaFmhK1hjM8ngqZMvy99s,100
+educelab/globus/config.py,sha256=5-uPQx2fniCmuMSvc9e-9CitxTSzTirv6OyRaDlsl6Q,1682
+educelab/globus/login.py,sha256=yqT-Sqd-osIkIQpefesXWS7I2lA0DdeqCcKr38GmB-0,4175
+educelab/globus/cp/main.py,sha256=xrX1k0aXFPiKBzxywAfA-i1s65ew8xRoLYglN15gHCQ,5267
+educelab_globus-0.1.2.dist-info/LICENSE,sha256=twbgsX99VTghhzZ7ladtCSuzdn7cTwnDkgp4wn83WUg,34457
+educelab_globus-0.1.2.dist-info/METADATA,sha256=wiLbfwkCnvrAdUy5FI95FM8qRQq7kKNMIfGeqIFHTIA,1800
+educelab_globus-0.1.2.dist-info/NOTICE,sha256=mErxAfudthe8NeeBL-sdgKQNRcgR5DTWl0Dy87YcL0c,739
+educelab_globus-0.1.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+educelab_globus-0.1.2.dist-info/entry_points.txt,sha256=t-ok6SfGMXzCpFRqf5TU0fbxk6fltlBobA0NxJ7265g,154
+educelab_globus-0.1.2.dist-info/top_level.txt,sha256=-paFElhvDv0wMM5bhDGEv2rijmjH2FCzFCtL2KVBPpo,9
+educelab_globus-0.1.2.dist-info/RECORD,,
