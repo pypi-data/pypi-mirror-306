@@ -1,0 +1,2 @@
+[console_scripts]
+jou = name_register:main
