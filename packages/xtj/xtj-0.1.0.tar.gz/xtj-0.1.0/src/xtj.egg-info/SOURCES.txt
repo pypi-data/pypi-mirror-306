@@ -1,0 +1,6 @@
+setup.py
+src/xtj.egg-info/PKG-INFO
+src/xtj.egg-info/SOURCES.txt
+src/xtj.egg-info/dependency_links.txt
+src/xtj.egg-info/entry_points.txt
+src/xtj.egg-info/top_level.txt

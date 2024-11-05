@@ -1,0 +1,2 @@
+[console_scripts]
+xtj = name_register:main
