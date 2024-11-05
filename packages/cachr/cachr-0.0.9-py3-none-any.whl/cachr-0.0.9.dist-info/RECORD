@@ -1,0 +1,15 @@
+__init__.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+cachr/__init__.py,sha256=1qwU3M482NSnpwDj8XyGzXYALn6S-qM3w3dyqBmJUNo,135
+cachr/caches.py,sha256=x7ywyls_-aar2H4HKgz5FX9OtEpbSDkwi_dNufRuYDw,4267
+cachr/policies/__init__.py,sha256=lWTTWe1c_B5x0t_sukQAOlfGOIFBgJsq3Cvm6uAQCYo,381
+cachr/policies/cache_eviction_policy.py,sha256=yf5zngALitBsHlZ_JvLqGd_d2wEV1A0mFPZJZlq50lg,648
+cachr/policies/cache_strategy.py,sha256=YAecqMjlYQE70muD1XioNrMvUetugYQxZaLEtqmlPMA,527
+cachr/policies/lfu_eviction_policy.py,sha256=HdyIrzdNRYBuYnbR76r_8KJSgPqNH7JdOKDNi-4D07Y,2479
+cachr/policies/lru_eviction_policy.py,sha256=CMPHrbqogjBRS3duM3kQX8M4LNcD4KjSCR1VamORu_s,686
+cachr/policies/random_eviction_policy.py,sha256=Yude3dAOqMiD79dPqYR7mhwN3WMC6HlrrmN-fWs3pss,645
+cachr/policies/sliding_window_eviction_policy.py,sha256=xaLaw5mfLYS3vXhs0lIHeynh6x2DaG63vss8g4n9aBA,1829
+cachr/policies/ttl_eviction_policy.py,sha256=_D1jW6h3Z3WAn-DwlkMK8dyiiFkqSrD1b64uuSUKYR4,1636
+cachr-0.0.9.dist-info/METADATA,sha256=dCbFWNRKgwsjTPMg9YQXy42Qa9UqRQTf6f3h-iELW5s,8150
+cachr-0.0.9.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+cachr-0.0.9.dist-info/top_level.txt,sha256=dExN60LPtyCkVluWuXLwTdGZvIHLj8b_x9U1B8KA-YM,15
+cachr-0.0.9.dist-info/RECORD,,
