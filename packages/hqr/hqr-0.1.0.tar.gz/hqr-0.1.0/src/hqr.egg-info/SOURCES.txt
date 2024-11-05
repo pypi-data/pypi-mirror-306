@@ -1,0 +1,6 @@
+setup.py
+src/hqr.egg-info/PKG-INFO
+src/hqr.egg-info/SOURCES.txt
+src/hqr.egg-info/dependency_links.txt
+src/hqr.egg-info/entry_points.txt
+src/hqr.egg-info/top_level.txt
