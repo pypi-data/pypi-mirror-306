@@ -1,0 +1,11 @@
+click
+faiss-cpu
+hy
+hyjinx
+hyrule
+markdownify
+platformdirs
+sentence-transformers
+tabulate
+tiktoken
+toolz
