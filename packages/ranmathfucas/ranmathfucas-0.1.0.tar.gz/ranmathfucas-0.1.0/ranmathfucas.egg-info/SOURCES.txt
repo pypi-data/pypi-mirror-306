@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ranmathfucas/__init__.py
+ranmathfucas/core.py
+ranmathfucas.egg-info/PKG-INFO
+ranmathfucas.egg-info/SOURCES.txt
+ranmathfucas.egg-info/dependency_links.txt
+ranmathfucas.egg-info/top_level.txt
+tests/test_core.py
