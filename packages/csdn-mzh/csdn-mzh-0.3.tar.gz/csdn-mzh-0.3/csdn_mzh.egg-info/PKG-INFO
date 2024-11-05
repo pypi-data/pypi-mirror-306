@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: csdn-mzh
+Version: 0.3
+Summary: 这里是包的简短描述
+Home-page: https://github.com/your-repo
+Author: 你的名字
+Author-email: 你的邮箱@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: csdn
+
+## 测试打包上传
+1. XXXXXXXXXX
