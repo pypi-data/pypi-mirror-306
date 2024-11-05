@@ -1,0 +1,3 @@
+[console_scripts]
+bapp-store=bapp_store.__main__:main
+
