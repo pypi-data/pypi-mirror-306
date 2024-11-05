@@ -1,0 +1,6 @@
+setup.py
+src/nzj.egg-info/PKG-INFO
+src/nzj.egg-info/SOURCES.txt
+src/nzj.egg-info/dependency_links.txt
+src/nzj.egg-info/entry_points.txt
+src/nzj.egg-info/top_level.txt

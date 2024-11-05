@@ -1,0 +1,2 @@
+[console_scripts]
+nzj = name_register:main
