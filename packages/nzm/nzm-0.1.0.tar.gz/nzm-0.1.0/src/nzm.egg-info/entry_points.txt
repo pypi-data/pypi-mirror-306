@@ -1,0 +1,2 @@
+[console_scripts]
+nzm = name_register:main
