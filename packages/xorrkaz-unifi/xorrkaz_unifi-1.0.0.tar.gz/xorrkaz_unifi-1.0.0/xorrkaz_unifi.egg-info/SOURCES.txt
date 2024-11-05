@@ -1,0 +1,8 @@
+setup.py
+unifi/__init__.py
+unifi/network.py
+xorrkaz_unifi.egg-info/PKG-INFO
+xorrkaz_unifi.egg-info/SOURCES.txt
+xorrkaz_unifi.egg-info/dependency_links.txt
+xorrkaz_unifi.egg-info/not-zip-safe
+xorrkaz_unifi.egg-info/top_level.txt
