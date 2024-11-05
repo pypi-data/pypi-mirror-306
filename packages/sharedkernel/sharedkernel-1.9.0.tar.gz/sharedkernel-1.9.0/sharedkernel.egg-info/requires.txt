@@ -1,0 +1,15 @@
+numpy
+requests
+pymongo
+fastapi==0.111.0
+PyJWT
+chromadb
+persian_tools
+sentry-sdk
+jdatetime
+persiantools
+boto3
+python-docx
+mammoth
+markdown
+beautifulsoup4
