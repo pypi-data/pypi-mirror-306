@@ -1,0 +1,17 @@
+[project]
+name = "zeus-datasets"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Max Wilson", email = "m@qxotk.ai" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+zeus-datasets = "zeus_datasets:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
