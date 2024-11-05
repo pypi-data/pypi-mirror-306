@@ -1,0 +1,10 @@
+superbdataklient/__init__.py,sha256=mUiGmMVXCEKjnSkVEWDY7Q0-I-LHzbQJjbUOb4HtGHA,337
+superbdataklient/_internal_utils.py,sha256=sCOUgZegBl6WLLpox3gcLuTe4nlit_4zgvJAlIXm3E8,10149
+superbdataklient/_logger_config.py,sha256=BaHWhDD2a4zI76y6fdmx2Y2s1vKvkwT3lkgF5Vyb6eE,802
+superbdataklient/api.py,sha256=EyXdlQFBu3np67BT-fJO2SkjgiCDEVPy5u5UJHErjso,54269
+superbdataklient/config.py,sha256=7Km9QYo5xdMrwzc0qjvYrAguWJ9NRbQ7tFbtGE3ymFM,818
+superb_data_klient-1.5.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+superb_data_klient-1.5.0.dist-info/METADATA,sha256=RI0xLoi--uJhyLyIBP59zUupY9pMKJlvkvgDOw7XxWM,9038
+superb_data_klient-1.5.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+superb_data_klient-1.5.0.dist-info/top_level.txt,sha256=fpqHevE9Ag8T5pExnMz0fpTY6qzTY6JYdJHIEckNCiM,17
+superb_data_klient-1.5.0.dist-info/RECORD,,
