@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mangoCR
+Version: 0.1.0
+Summary: A package to convert PDFs to images and perform OCR.
+Home-page: https://github.com/sandeepmj/mangoCR
+Author: Sandeep Junnarkar
+Author-email: sjnews@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mangoCR
+A package that OCRs PDFs
+
+
