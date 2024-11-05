@@ -1,0 +1,2 @@
+[console_scripts]
+cqh = name_register:main
