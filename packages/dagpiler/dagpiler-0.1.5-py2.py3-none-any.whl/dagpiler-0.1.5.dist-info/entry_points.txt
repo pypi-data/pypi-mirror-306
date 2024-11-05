@@ -1,0 +1,2 @@
+[console_scripts]
+dagpiler = dagpiler.__main__:main
