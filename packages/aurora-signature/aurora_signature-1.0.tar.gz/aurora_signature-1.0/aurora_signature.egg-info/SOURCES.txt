@@ -1,0 +1,9 @@
+README.md
+setup.py
+aurora_signature/__init__.py
+aurora_signature/main.py
+aurora_signature.egg-info/PKG-INFO
+aurora_signature.egg-info/SOURCES.txt
+aurora_signature.egg-info/dependency_links.txt
+aurora_signature.egg-info/entry_points.txt
+aurora_signature.egg-info/top_level.txt
