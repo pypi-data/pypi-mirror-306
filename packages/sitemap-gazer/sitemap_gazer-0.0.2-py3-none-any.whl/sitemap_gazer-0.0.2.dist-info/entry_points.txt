@@ -1,0 +1,3 @@
+[console_scripts]
+sitemap-gazer=sitemap_gazer.__main__:cli
+

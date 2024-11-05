@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: sitemap-gazer
+Version: 0.0.2
+Summary: A CLI to fetch, diff and monitor sitemaps.
+License: MIT
+Author: HackerQED
+Author-email: HackerQED@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pydantic (>=2.9.2,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.6.0,<3.0.0)
+Requires-Dist: ultimate-sitemap-parser (>=0.5,<0.6)
+Description-Content-Type: text/markdown
+
+# sitemap-gazer
+
+To run as developer:
+
+```bash
+poetry install
+poetry run sitemap-gazer
+```
+
+To build and install locally:
+
+```bash
+poetry build
+pip install dist/sitemap_gazer-0.1.0-py3-none-any.whl
+```
+

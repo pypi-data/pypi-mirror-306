@@ -1,0 +1,13 @@
+sitemap_gazer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sitemap_gazer/__main__.py,sha256=ySwdg19nLfEIYUtzxQztdH621jlUl6YPdp-gPgks2yc,3309
+sitemap_gazer/batch/readme.py,sha256=q7euoA2zW-NO4M5TsgJ5CWoD21IT9pZ7mPiKcLw9U8k,1984
+sitemap_gazer/core/crawl.py,sha256=UpR4Ht9HxMtE17Pavz7Grnj_qb8daq49EVaOp879-oA,2354
+sitemap_gazer/core/diff.py,sha256=jMljWOKuhXRyCJxGpejHtZeA_r8ibKwPmytQ_RIV954,1685
+sitemap_gazer/core/init.py,sha256=dd2ecrfxYU6N_RIQjG93THz9nCmsrPgAzB3VIsX4acg,836
+sitemap_gazer/core/readme.py,sha256=bfcJWwzTVqLYpE8xuQ-J-SAMm3bs7_tlZJphFHzwWOA,1405
+sitemap_gazer/models.py,sha256=YVwPLEmNlgegBGOLzy-SUVW_SsT7Flc1SC3TYRujOMY,1425
+sitemap_gazer/utils.py,sha256=F0ONJQ5shaJ7vuoWjc0E9l9O0bK7hYmjCLzYSwSOaDg,460
+sitemap_gazer-0.0.2.dist-info/METADATA,sha256=gI5a-ahtwZZ_g1AIo4uS5_I19rI0isuuRIlotqWxC8U,978
+sitemap_gazer-0.0.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+sitemap_gazer-0.0.2.dist-info/entry_points.txt,sha256=gWYIeL5mq7EShuwboAFL9w2Gz0UPCvmRK9jQOmfl-Tc,60
+sitemap_gazer-0.0.2.dist-info/RECORD,,
