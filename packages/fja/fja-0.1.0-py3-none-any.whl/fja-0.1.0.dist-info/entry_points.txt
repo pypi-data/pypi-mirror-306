@@ -1,0 +1,2 @@
+[console_scripts]
+fja = name_register:main
