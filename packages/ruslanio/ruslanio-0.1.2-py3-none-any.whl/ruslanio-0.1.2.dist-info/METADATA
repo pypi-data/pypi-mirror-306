@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: ruslanio
+Version: 0.1.2
+Summary: My personal tools for my projects
+Home-page: https://github.com/hocop/ruslanio
+Author: Ruslan Baynazarov
+Author-email: 
+License: WTFPL
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: tqdm
+Requires-Dist: msgspec
+Requires-Dist: redis ==5.0.1
+
+# My personal tools for my projects
+
+* `from ruslanio import imread` - like `cv2.imread` but reads RGB and supports `pathlib.Path`
+* `ruslanio.beam_search` - multi-purpose beam search
+* `ruslanio.cacher` - LRU cache supports async functions and Redis
+* `ruslanio.sorting` - very fast top-k algorithm
+
+## Installation
+
+```bash
+pip install ruslanio
+```
+
+Or
+
+```bash
+pip install git+https://github.com/hocop/ruslanio.git
+```
+
+Or
+
+```bash
+./setup.sh
+```
