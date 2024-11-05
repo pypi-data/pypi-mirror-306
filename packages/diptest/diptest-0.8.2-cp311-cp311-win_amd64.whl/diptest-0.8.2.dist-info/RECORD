@@ -1,0 +1,13 @@
+diptest/.diptest.py.un~,sha256=DJ7VQK2JcBUq7OIB6Rkm2FnL14ktaD9rUoVZTdF6ET0,1515
+diptest/consts.py,sha256=71FTq1LiSBVF5YCjQeY-qYQzRCom2WPKg6o0bNJhol0,24020
+diptest/diptest.py,sha256=msCOzc2lX_XSF39KCj6OQtOts3Wrys__RJEi6oQYz3A,7172
+diptest/__init__.py,sha256=8H_uC4lr9NUxOmIN-1OwaecN6JzuozuB0HZJBQoauy4,1860
+diptest/lib/_diptest_core.cp311-win_amd64.pyd,sha256=gJoVn4F51HvTHyA0v17LK8Vg7XBAEhKSrxv6cEc9xFs,141312
+diptest-0.8.2.dist-info/DELVEWHEEL,sha256=Z07K3FYpu8RKd4PkWpk3ey9a4UwgCUAMg6s-TQXdfuw,399
+diptest-0.8.2.dist-info/METADATA,sha256=5-aMy3k7DXuS978iQ3mGthYHVs9vrE0vlwdZKA8xk5s,6012
+diptest-0.8.2.dist-info/RECORD,,
+diptest-0.8.2.dist-info/WHEEL,sha256=kXCl1J14PkmxQKXf5U_5vxmme_OmC3Ydcral7u0yA3M,106
+diptest-0.8.2.dist-info/licenses/COPYING,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+diptest-0.8.2.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+diptest.libs/msvcp140-4430647b23662e89a2d70b0679824b8b.dll,sha256=ZvpXC9a4eapJH25Fo-V2w-x_X-Me0Ouot9gfiMOwFoA,585384
+diptest.libs/vcomp140-9dd0ca9ab5f60caf8e684936778ea317.dll,sha256=SLLP-kKlBkuime_xczdT9PoELZ1FLEnBHU-tJzYPeK4,192104
