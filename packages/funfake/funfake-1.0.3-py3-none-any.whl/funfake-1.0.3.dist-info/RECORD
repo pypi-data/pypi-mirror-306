@@ -1,0 +1,11 @@
+funfake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funfake/headers/__init__.py,sha256=QL0Bk9KhBe7z9iO5sNgc8sqfUe09jbMvZKvl-xSTc6M,49
+funfake/headers/browsers.py,sha256=voxfSRgYVhBBCEJzmFWJmH5cD7iDUQamoYWjqzhJKPE,5445
+funfake/headers/core.py,sha256=LptVhUv_Vasz3MUusnvSxr57oLn0qjw9en_maewSUww,1140
+funfake/headers/headers.py,sha256=yvDlVbfWDNGWt8q1EhMVVUppH-K4XghCJeB3iCoPd-M,10522
+funfake/headers/platforms.py,sha256=b7-RF_fTgixg8oDtoGMlG1_xUriIFBnhU7jQsWI-CPY,697
+funfake-1.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+funfake-1.0.3.dist-info/METADATA,sha256=LAyWAOrIZHPIM_GtAAmZ7IuSEEBbKiGjnf0cF1_Ypts,182
+funfake-1.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+funfake-1.0.3.dist-info/top_level.txt,sha256=Ha1VlLtAv-ZQVgHOZ29ivRMJ-rffUEQjCuKvm5dFcpk,8
+funfake-1.0.3.dist-info/RECORD,,
