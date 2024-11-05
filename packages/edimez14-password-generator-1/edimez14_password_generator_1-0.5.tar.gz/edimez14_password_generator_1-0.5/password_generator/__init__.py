@@ -1,0 +1,1 @@
+from password_generator.password_generator import password
