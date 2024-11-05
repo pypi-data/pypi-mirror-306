@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ds28e80
+Version: 0.1
+Summary: A library for interacting with the DS28E80 EEPROM using 1-Wire communication.
+Home-page: https://github.com/yourusername/ds28e80
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Description: # DS28E80 Library
+        
+        This is a Python library for interacting with the DS28E80 EEPROM using 1-Wire communication.
+        
+        ## Installation
+        
+        ```bash
+        pip install ds28e80
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

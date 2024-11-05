@@ -1,0 +1,7 @@
+README.md
+setup.py
+ds28e80.egg-info/PKG-INFO
+ds28e80.egg-info/SOURCES.txt
+ds28e80.egg-info/dependency_links.txt
+ds28e80.egg-info/requires.txt
+ds28e80.egg-info/top_level.txt
