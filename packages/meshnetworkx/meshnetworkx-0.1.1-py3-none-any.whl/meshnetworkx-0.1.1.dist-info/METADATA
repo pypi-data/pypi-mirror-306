@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: meshnetworkx
+Version: 0.1.1
+Summary: Sync and use a networkX graph between multiple hosts through the power of Zenoh storages.
+Author-email: "W. Meijer" <houterm+meshnetworkx@gmail.com>
+Project-URL: Source, https://github.com/h0uter/meshnetworkx
+Project-URL: Issues, https://github.com/h0uter/meshnetworkx/issues
+Project-URL: Documentation, https://h0uter.github.io/meshnetworkx/
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: eclipse-zenoh >=1.0.0
+Requires-Dist: matplotlib >=3.9.2
+Requires-Dist: networkx >=3.4.1
+Provides-Extra: docs
+Requires-Dist: mkdocs-material >=9.5.33 ; extra == 'docs'
+Requires-Dist: mkdocstrings-python >=1.10.9 ; extra == 'docs'
+Provides-Extra: examples
+Requires-Dist: humid >=0.3.1 ; extra == 'examples'
+Requires-Dist: nicegui >=2.5.0 ; extra == 'examples'
+Provides-Extra: test
+Requires-Dist: pytest >=8.3.3 ; extra == 'test'
+
+<a name="readme-top"></a>
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://pre-commit.com/)
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
+<!-- PROJECT LOGO -->
+
+<br />
+<div align="center">
+    <div align="center">
+    <img src="https://raw.githubusercontent.com/h0uter/meshnetworkx/a17d75a0b56d48dfdce91d9f6275ffac4a729d53/docs/assets/logo_no_bg.png" alt="alt text" width="250" height="whatever">
+    </div>
+  <h3 align="center">MeshNetworkX</h3>
+
+  <p align="center">
+    Networkx Graphs synced across devices using Zenoh.
+    <br />
+    <a href="https://h0uter.github.io/meshnetworkx/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/h0uter/meshnetworkx/issues/new?labels=bug&title=New+bug+report">Report Bug</a>
+    ·
+    <a href="https://github.com/h0uter/meshnetworkx/issues/new?labels=enhancement&title=New+feature+request">Request Feature</a>
+  </p>
+</div>
+
+## Quickstart
+
+- run  `zenohd -c .zenoh_docker/zenoh-myhome.json5` to create a storage
+- or `docker compose up zenoh-host` to create a storage.
+
+then run the following `pip install -e ".[examples]"` to install the package.
+
+Then run an example with `python examples/main.py`
+<div align="right">(<a href="#readme-top">back to top</a>)</div>
+
+## Why?
+
+- If you model your application domain as a graph, this package makes it easy to run on multiple devices and automatically sync the graph between them.
+- It is a drop-in replacement for networkx, so you can use all the networkx methods on the graph.
+
+<div align="right">(<a href="#readme-top">back to top</a>)</div>
+
+## How?
+
+- It is an abstraction on top of the Zenoh protocol, which is a very efficient protocol for IoT applications.
+- The graph is stored in a zenoh storage, for more information on how zenoh keeps storages alligned (even if the network becomes partitioned and then later reconnects), [check here](https://zenoh.io/blog/2022-11-29-zenoh-alignment).
+
+<div align="center">
+    <img src="https://github.com/h0uter/meshnetworkx/blob/dcb76e89f8f74754b37af020dd457ac7a408c774/docs/assets/anti-entropy.gif?raw=true" alt="alt text" width="450" height="whatever">
+</div>
+
+<div align="right">(<a href="#readme-top">back to top</a>)</div>
+
+## Example
+
+Assuming:
+
+- you have two devices, and you want to create a graph on one device and access it on the other device.
+- you have a zenoh storage running on both devices.
+- Both devices can find each other using zenoh discovery (local network or using a Zenoh Router).
+
+On device one:
+
+```python
+import meshnetworkx as mx
+
+G = mx.Graph()
+G.add_node(1, color="red")
+G.add_edge(1, 2, color="pink")
+
+```
+
+After that on device two:
+
+```python
+import meshnetworkx as mx
+
+G = mx.Graph()
+print(G.nodes(data=True))
+>>> [(1, {'color': 'red'}), (2, {})]
+
+print(G.edges(data=True))
+>>> [(1, 2, {'color': 'pink'})]
+```
+
+<div align="right">(<a href="#readme-top">back to top</a>)</div>
