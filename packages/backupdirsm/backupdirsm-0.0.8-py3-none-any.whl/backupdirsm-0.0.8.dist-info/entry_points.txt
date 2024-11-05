@@ -1,0 +1,3 @@
+[console_scripts]
+backupdirsm=backupdirsm.main:main
+
