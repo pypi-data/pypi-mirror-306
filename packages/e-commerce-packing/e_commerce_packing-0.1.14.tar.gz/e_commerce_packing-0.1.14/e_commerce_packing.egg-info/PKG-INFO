@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: e-commerce-packing
+Version: 0.1.14
+Summary: Gói hỗ trợ đóng hàng e-commerce
+Author: Justin Nguyen
+Author-email: justinnguyen.7997@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: mrjpacking
+
+E-commerce-packing chương trình hỗ trợ đóng gói sản phẩm.
