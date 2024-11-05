@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: DeCGR
+Version: 1.1.13
+Summary: An interactive toolkit for deciphering CGRs from Hi-C data
+Home-page: https://github.com/GaoLabXDU/DeCGR
+Author: Li Junping
+Author-email: lijunping02@qq.com
+License: MIT Licence
+Keywords: Hi-C,complex rearrangements,3D genome
+Platform: any
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: PyQt5==5.15.11
+Requires-Dist: numpy
+Requires-Dist: wget
+Requires-Dist: cooler
+Requires-Dist: pomegranate==0.15.0
+Requires-Dist: matplotlib
+Requires-Dist: sortedcontainers
+Requires-Dist: scikit-image
