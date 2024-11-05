@@ -1,0 +1,2 @@
+[console_scripts]
+jqr = name_register:main
