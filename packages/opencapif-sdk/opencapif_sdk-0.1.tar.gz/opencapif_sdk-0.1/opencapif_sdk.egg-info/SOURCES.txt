@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+opencapif_sdk.egg-info/PKG-INFO
+opencapif_sdk.egg-info/SOURCES.txt
+opencapif_sdk.egg-info/dependency_links.txt
+opencapif_sdk.egg-info/requires.txt
+opencapif_sdk.egg-info/top_level.txt
+test/test.py
