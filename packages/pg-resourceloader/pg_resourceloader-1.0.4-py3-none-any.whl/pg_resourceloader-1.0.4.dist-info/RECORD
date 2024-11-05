@@ -1,0 +1,8 @@
+pg_resourceloader/__init__.py,sha256=ubk3tjCMN7-hhy3UFRREaK7pI8rA6ONYVyD5uyKDB2E,121
+pg_resourceloader/define.py,sha256=i5ok2STy8Na0oRGBMit8kAVrwagphc5EIlD1fc-py7A,258
+pg_resourceloader/loader.py,sha256=5xu6FjOiEOI1PqjEnByc4MTkjgo4xFDbzbLaEDRyuzc,1267
+pg_resourceloader/loader_manager.py,sha256=aImOsSNMMwJXx1digo8bjULxKpgLhGlqyOdkrbfeczY,974
+pg_resourceloader-1.0.4.dist-info/METADATA,sha256=bfzd5Z0rs6PRu4VK0hXUK1_fMb4n1pXL3XzGFOCvOYM,218
+pg_resourceloader-1.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pg_resourceloader-1.0.4.dist-info/top_level.txt,sha256=8EdeHmnFgVjKhuEIG_k4PtJgQBLwCrzz-80m_B3OUFA,18
+pg_resourceloader-1.0.4.dist-info/RECORD,,
