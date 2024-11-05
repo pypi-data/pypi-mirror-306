@@ -1,0 +1,2 @@
+[console_scripts]
+jqu = name_register:main
