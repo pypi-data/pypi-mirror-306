@@ -1,0 +1,3 @@
+class OnceCallablityError(Exception):
+    """`Generic Exception class for Callability.`"""
+    ...
