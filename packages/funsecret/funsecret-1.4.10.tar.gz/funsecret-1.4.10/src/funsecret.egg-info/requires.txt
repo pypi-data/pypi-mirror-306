@@ -1,0 +1,5 @@
+cryptography>=43.0.3
+funddb>=1.2.10
+funutil>=1.0.15
+orjson>=3.10.10
+sqlalchemy>=2.0.35
