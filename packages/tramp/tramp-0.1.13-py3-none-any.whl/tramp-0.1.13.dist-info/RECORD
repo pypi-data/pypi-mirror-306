@@ -1,0 +1,13 @@
+tramp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tramp/_annotations.py,sha256=3GX_bI0tr3emu2T2xgTCPTxTqZhGoMonIEyUSxB8AVs,2619
+tramp/annotations.py,sha256=aIfUQl6t2FlOU53oCw8ohtP8vcjP7m-0eTtQB8F0TVw,157
+tramp/as_completed.py,sha256=0k2nK-Hnojk80sPXYFVmjbtmQpE4hjniMIxFSRiwkw4,970
+tramp/containers.py,sha256=Xi7hQCE-MHfuECDNKxPrGwW6-RJdsszmYiUwKTrO5bU,371
+tramp/modules.py,sha256=iaBgDVtf5plIAZro_wXqwcrr7ZPx27PuHAmrK-tFw78,130
+tramp/optionals.py,sha256=G-1MPssGbZvkkl-sP8Tu-yD4W-xSJf5YM9l_wPVtQQ8,1629
+tramp/results.py,sha256=HGj53P2MICGP5tcT7furBEeyDKPQp7sF7zh__lcCQLo,2641
+tramp/sentinels.py,sha256=ymWAnhJmdpuL1arppcNXgQc_QvyMDw-7WH0iIyrhvRI,522
+tramp/singleton.py,sha256=wLc2l_v1IYl3BlQbJnwL-XnKe-joQv9OcxpEvq3RG1E,335
+tramp-0.1.13.dist-info/METADATA,sha256=nOptN7JuQ4eOKkrtYKSyHJiYJo3RW4_UepbR6BkNrTM,4609
+tramp-0.1.13.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+tramp-0.1.13.dist-info/RECORD,,
