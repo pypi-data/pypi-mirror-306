@@ -1,0 +1,2 @@
+[console_scripts]
+xtu = name_register:main
