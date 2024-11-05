@@ -1,0 +1,7 @@
+[project]
+name = "leaderboards"
+authors = [
+    {name = "Anastasios N. Angelopoulos", email = "angelopoulos@berkeley.edu"},
+]
+version = "0.0.0"
+description = "Coming soon"
