@@ -1,0 +1,6 @@
+setup.py
+src/qur.egg-info/PKG-INFO
+src/qur.egg-info/SOURCES.txt
+src/qur.egg-info/dependency_links.txt
+src/qur.egg-info/entry_points.txt
+src/qur.egg-info/top_level.txt
