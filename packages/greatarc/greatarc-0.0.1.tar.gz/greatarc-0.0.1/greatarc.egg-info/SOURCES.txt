@@ -1,0 +1,8 @@
+README.md
+setup.py
+greatarc/__init__.py
+greatarc/location.py
+greatarc.egg-info/PKG-INFO
+greatarc.egg-info/SOURCES.txt
+greatarc.egg-info/dependency_links.txt
+greatarc.egg-info/top_level.txt

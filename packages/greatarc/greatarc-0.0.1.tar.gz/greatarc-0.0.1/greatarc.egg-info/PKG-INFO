@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: greatarc
+Version: 0.0.1
+Summary: A sample Python package
+Home-page: https://github.com/Ziqi-Li/greatarc
+Author: Ziqi Li
+Author-email: liziqi1992@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# mypackage
+
+This is a demo of the `Location` class.
+
+# Installation
+
+```bash
+pip install mypackage
+```
+# Example
+```python
+# Creating two POIs
+poi1 = Location("State Capitol", 30.4383, -84.2807)
+poi2 = Location("Union", 30.4445, -84.2970)
+
+# Calculating distance between them
+distance = poi1.calculate_distance(poi2)
+
+distance
+
+```
+
