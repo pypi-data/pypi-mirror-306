@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "snarkify-cli"
+version = "0.1.7"
+description = "The command line utility to interact with the Snarkify platform."
+authors = ["Boyu Sun <boyu@snarkify.io>", "Sam Chen <samchen@snarkify.io>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+snarkify = "snarkify_cli.main:app"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.9.0"}
+richer = "^0.1.6"
+requests = "^2.31.0"
+inquirerpy = "^0.3.4"
+docker = "^7.0.0"
+websockets = "^12.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+pytest-mock = "^3.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
