@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include requirements.txt
+exclude project_control/
+exclude config/
+include tutorial *.ipynb
+recursive-exclude * __pycache__/
+recursive-exclude * *.log *.log.*
+recursive-exclude * .*.un~
