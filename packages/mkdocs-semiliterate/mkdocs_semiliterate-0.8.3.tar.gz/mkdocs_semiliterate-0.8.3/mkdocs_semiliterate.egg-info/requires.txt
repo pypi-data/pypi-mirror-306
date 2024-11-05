@@ -1,0 +1,2 @@
+mkdocs~=1.4
+mkdocs-simple-plugin==3.2.0
