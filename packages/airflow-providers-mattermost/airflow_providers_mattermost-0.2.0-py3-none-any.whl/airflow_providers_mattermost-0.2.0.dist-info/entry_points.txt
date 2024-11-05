@@ -1,0 +1,7 @@
+[apache_airflow_provider]
+provider_info = airflow_providers_mattermost.__init__:get_provider_info
+
+[console_scripts]
+
+[gui_scripts]
+
