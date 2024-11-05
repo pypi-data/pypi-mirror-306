@@ -1,0 +1,2 @@
+[console_scripts]
+tqq = name_register:main
