@@ -1,0 +1,6 @@
+setup.py
+src/xvi.egg-info/PKG-INFO
+src/xvi.egg-info/SOURCES.txt
+src/xvi.egg-info/dependency_links.txt
+src/xvi.egg-info/entry_points.txt
+src/xvi.egg-info/top_level.txt
