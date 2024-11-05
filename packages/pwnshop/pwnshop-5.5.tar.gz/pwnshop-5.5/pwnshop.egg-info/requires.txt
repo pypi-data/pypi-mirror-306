@@ -1,0 +1,7 @@
+asteval
+docker
+jinja2==3.0.3
+nbconvert==6.4.4
+pwntools
+pyastyle
+pyyaml
