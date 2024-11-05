@@ -1,0 +1,11 @@
+kaleido/__init__.py,sha256=rNqog0CuYF_DwJsjvllz42fGXpW1Bj3LhvRX0Jvdwaw,6493
+kaleido/scopes/__init__.py,sha256=7YBSAFu2TNnLT_pe-f4EySqb5wvvKmKaK5hTNY3CF94,59
+kaleido/scopes/base.py,sha256=ez_nTH92BP3qD8I_LMG1bvBGkYWz4kHK_kiQxFko-eI,206
+kaleido/scopes/plotly.py,sha256=763KlLNH4Kk_alqVelY9xIyUpstQ4zh39EUo60XO3ts,10317
+kaleido/vendor/Mathjax-2.7.5.zip,sha256=WK9BJAmt9bpA74zIg2_wdWGIJ7vWYXiMkgWePVqpVLk,1931789
+kaleido/vendor/index.html,sha256=kl_ODRwbbb448SM0eVQr1LlB3hvxGg0BUbEpjN1OR_8,872
+kaleido/vendor/kaleido_scopes.js,sha256=4HK3LGFS2KNR7KpiIO7z3b0NjdD3OPqvrvSvkGyu3KA,78334
+kaleido-0.4.0rc3.dist-info/METADATA,sha256=bqSLzx45QjFL7oeYCJZt97beKYiIiMMyva3HI2ITK7c,377
+kaleido-0.4.0rc3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+kaleido-0.4.0rc3.dist-info/top_level.txt,sha256=lXUXY-x6S_XM8RDKurnbhivCQF6ujpHE8yD78uGZs-8,8
+kaleido-0.4.0rc3.dist-info/RECORD,,
