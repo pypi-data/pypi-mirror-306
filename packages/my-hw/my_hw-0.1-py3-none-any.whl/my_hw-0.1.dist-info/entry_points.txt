@@ -1,0 +1,2 @@
+[console_scripts]
+hola-mundo = src.main:hola_mundo
