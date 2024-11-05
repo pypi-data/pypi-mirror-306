@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bin/pyb
+bin/pybraces
+pybraces/__init__.py
+pybraces/__main__.py
+pybraces/pybraces.py
+pybraces.egg-info/PKG-INFO
+pybraces.egg-info/SOURCES.txt
+pybraces.egg-info/dependency_links.txt
+pybraces.egg-info/not-zip-safe
+pybraces.egg-info/requires.txt
+pybraces.egg-info/top_level.txt
+test/test_all.py
