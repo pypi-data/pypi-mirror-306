@@ -1,0 +1,15 @@
+choreographer/__init__.py,sha256=Ze0dRxkghXdPPq5nj3HnbvO_ytFVIYKr0Tjx5TD3Uwk,50
+choreographer/browser.py,sha256=bV2KFUVcNps3vf_ZALXbNIljkUtIG1uGpCpEsMApwEc,31828
+choreographer/chrome_wrapper.py,sha256=osU_jXmmGWm9aiScewLI2sP-YIBRKjv4LLej0Qw7h3Q,3463
+choreographer/pipe.py,sha256=2eV1i08vt_dc6VIA5IvNRU3BzzeMRxmkCc3m3HIYmiI,6206
+choreographer/protocol.py,sha256=P-hpl94w_FPJKhH8RK7hh6il_zZzprWckAcPDwlYBWI,2513
+choreographer/session.py,sha256=UNywHwY8Q5IK4MKxNelHyJlVj7Rxj44GFFE3FhL_Ke4,1988
+choreographer/system.py,sha256=MyCEDdN9gUYZK7lfB1ci1940hhZGVj1HkoKV5Cd_yY0,2603
+choreographer/tab.py,sha256=W8XsOfkbkYtVM60VI6wvJWQtoVSg2ZA6p_gm7A2ti4c,235
+choreographer/target.py,sha256=Ut_punxgAqDweS6mHdiwH4Dox1Qm9WBlCjsIyj8L7mE,3316
+choreographer-0.99.4.dist-info/LICENSE.md,sha256=fFqvGMdA8Hy6Qq3jPq8L3MbjSXboN8yq0qjNUnHDe_I,1066
+choreographer-0.99.4.dist-info/METADATA,sha256=Pwg0cXk93rWP05HjLluUDuVNDiMWI3IvjRCNeUJfdTY,5675
+choreographer-0.99.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+choreographer-0.99.4.dist-info/entry_points.txt,sha256=hCooVzvclFfwd4c13MbSun7lp09LMiGVP1_jBVNPhRA,60
+choreographer-0.99.4.dist-info/top_level.txt,sha256=S0Py58ti4omfPFfi1MhZ_2Fpyvh3CDug_vQ0vo2KAk4,14
+choreographer-0.99.4.dist-info/RECORD,,
