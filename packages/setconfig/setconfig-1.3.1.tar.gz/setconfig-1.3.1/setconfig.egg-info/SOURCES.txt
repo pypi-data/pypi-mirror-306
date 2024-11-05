@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+setconfig/__init__.py
+setconfig/py.typed
+setconfig.egg-info/PKG-INFO
+setconfig.egg-info/SOURCES.txt
+setconfig.egg-info/dependency_links.txt
+setconfig.egg-info/not-zip-safe
+setconfig.egg-info/requires.txt
+setconfig.egg-info/top_level.txt
