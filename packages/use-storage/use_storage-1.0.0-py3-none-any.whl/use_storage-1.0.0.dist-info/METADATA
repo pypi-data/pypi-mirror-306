@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: use-storage
+Version: 1.0.0
+Summary: A package for storing key-value data with backup history.
+Author: xilin
+Author-email: infinite357@gmail.com
+Requires-Python: >=3.6
+License-File: LICENSE
+
