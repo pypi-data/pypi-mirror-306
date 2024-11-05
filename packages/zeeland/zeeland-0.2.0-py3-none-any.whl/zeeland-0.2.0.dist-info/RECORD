@@ -1,0 +1,8 @@
+zeeland/__init__.py,sha256=4CQSpKlZtKlSeDrpO212_s3PejDyNfMkxPDJEq4PYCo,211
+zeeland/core.py,sha256=dsReFFHvw8PAD3vtqRgDEqgf7bf8sdp5vrRAFjjaFIo,1287
+zeeland/singleton.py,sha256=fCcfAvCOIOqpgA9qpzDRM-bKXx-9ZETVJ_8jq8S_8p8,1175
+zeeland/version_checker.py,sha256=XVjYWxiSQpb_t-pJksnWIjdoEciuhWgLeAA9X86poSY,151
+zeeland-0.2.0.dist-info/LICENSE,sha256=EyPtBvI01UpTKAJBlmttUmBttZwYAEXaH6k3PSR1OOw,1072
+zeeland-0.2.0.dist-info/METADATA,sha256=3SGKqkfGiRrXwz4Kha3p5jkHK8-agf6kBUTjKuir7xc,7768
+zeeland-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+zeeland-0.2.0.dist-info/RECORD,,
