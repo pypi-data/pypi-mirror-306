@@ -1,0 +1,12 @@
+infernet_cli/__init__.py,sha256=ZwHSPzYAQqQ0omIFC0Bd_pqPYGqTfVEqD-pjHz_0IiE,77
+infernet_cli/github.py,sha256=JX5rVymM9Ekvld5wr8ccCM42wQlm1Ra7Kloga9_648I,1829
+infernet_cli/node.py,sha256=SjVSFkJpH2DuM5ujiRgI-NHoJAexC0vj_Rb7Q4uGL7g,5482
+infernet_cli/recipe.py,sha256=Lw3yO71hmKllXLRLSnvm4VNVt8iBqbmJ1wosAssayxg,3496
+infernet_cli/service.py,sha256=z03yUGDUJaIRhssIEJ1KB2BB_u_ibb9mIdqL8Kkp3ds,5047
+infernet_cli/cli/__init__.py,sha256=agJBpXg-udqmBZ6-FNn0jpkiOcczs3etITLNztFV7sA,3633
+infernet_cli/cli/docker.py,sha256=IeG6fz0aSHmcTNZ_Hx9ulDHWv_UsTV_jCpi5qNTJas8,4660
+infernet_cli/cli/options.py,sha256=0FpXlzy4mW-i1xkl5TcGoZlxqPPLstfGRho2x4vLO8M,1970
+infernet_cli-1.0.5.dist-info/METADATA,sha256=Br2HLzumFerf8lM_drsZoI_JkGRqkLuPNi5AlU5NOjo,844
+infernet_cli-1.0.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+infernet_cli-1.0.5.dist-info/entry_points.txt,sha256=9n4OtUgX7AgDfuIgsDvHKQW9M21o1rFO6ANlJMKCNFk,51
+infernet_cli-1.0.5.dist-info/RECORD,,

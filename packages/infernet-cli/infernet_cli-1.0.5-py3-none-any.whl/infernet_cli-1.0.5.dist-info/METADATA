@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: infernet-cli
+Version: 1.0.5
+Summary: Infernet Node CLI
+Author-email: Stelios Rousoglou <stelios@ritual.net>
+Requires-Python: >=3.9
+Requires-Dist: click<9.0.0,>=8.1.7
+Requires-Dist: requests<3.0.0,>=2.31.0
+Requires-Dist: typing-extensions<5.0.0,>=4.12.0
+Provides-Extra: development
+Requires-Dist: isort<6.0.0,>=5.13.2; extra == 'development'
+Requires-Dist: mypy<2.0.0,>=1.9.0; extra == 'development'
+Requires-Dist: pre-commit<4.0.0,>=3.7.0; extra == 'development'
+Requires-Dist: pytest-asyncio>=0.21.1; extra == 'development'
+Requires-Dist: pytest<9.0.0,>=8.1.1; extra == 'development'
+Requires-Dist: types-requests<3.0,>=2.31.0.20240406; extra == 'development'
+Description-Content-Type: text/markdown
+
+# Infernet CLI
+
+See [infernet-cli.docs.ritual.net](infernet-cli.docs.ritual.net) or refer to `infernet_cli/docs`.
