@@ -1,0 +1,17 @@
+dist/
+aldjemy.egg-info/
+*.pyc
+*.sq
+*.db
+ve/
+/SQLAlchemy-*
+.tox
+.idea*
+.venv*
+/.vscode/
+poetry.lock
+uv.lock
+__pycache__/
+.coverage
+coverage.xml
+htmlcov
