@@ -1,0 +1,6 @@
+setup.py
+src/tnm.egg-info/PKG-INFO
+src/tnm.egg-info/SOURCES.txt
+src/tnm.egg-info/dependency_links.txt
+src/tnm.egg-info/entry_points.txt
+src/tnm.egg-info/top_level.txt
