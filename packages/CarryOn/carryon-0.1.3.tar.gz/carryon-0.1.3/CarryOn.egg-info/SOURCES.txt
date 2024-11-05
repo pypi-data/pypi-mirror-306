@@ -1,0 +1,8 @@
+README.md
+carryon.py
+pyproject.toml
+CarryOn.egg-info/PKG-INFO
+CarryOn.egg-info/SOURCES.txt
+CarryOn.egg-info/dependency_links.txt
+CarryOn.egg-info/entry_points.txt
+CarryOn.egg-info/top_level.txt

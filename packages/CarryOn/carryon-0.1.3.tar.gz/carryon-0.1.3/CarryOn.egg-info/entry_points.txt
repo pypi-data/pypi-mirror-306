@@ -1,0 +1,2 @@
+[console_scripts]
+carryon = carryon:main

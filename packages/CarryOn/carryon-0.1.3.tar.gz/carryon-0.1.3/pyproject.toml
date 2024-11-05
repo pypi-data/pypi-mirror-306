@@ -1,0 +1,19 @@
+[project]
+name = "CarryOn"
+version = "0.1.3"
+description = "Pack your Python script with its dependencies"
+authors = [{name = "Oren Tirosh", email = "orent@hishome.net"}]
+license = {text = "MIT License"}
+readme = {file="README.md", content-type = "text/markdown"}
+requires-python = ">=3.6"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Build Tools",
+]
+
+[project.scripts]
+carryon = "carryon:main"
