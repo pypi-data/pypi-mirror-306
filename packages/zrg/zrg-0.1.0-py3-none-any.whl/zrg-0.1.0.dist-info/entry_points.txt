@@ -1,0 +1,2 @@
+[console_scripts]
+zrg = name_register:main
