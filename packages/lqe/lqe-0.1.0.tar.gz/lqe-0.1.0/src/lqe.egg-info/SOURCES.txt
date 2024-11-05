@@ -1,0 +1,6 @@
+setup.py
+src/lqe.egg-info/PKG-INFO
+src/lqe.egg-info/SOURCES.txt
+src/lqe.egg-info/dependency_links.txt
+src/lqe.egg-info/entry_points.txt
+src/lqe.egg-info/top_level.txt
