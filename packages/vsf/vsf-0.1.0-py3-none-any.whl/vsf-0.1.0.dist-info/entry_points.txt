@@ -1,0 +1,2 @@
+[console_scripts]
+vsf = name_register:main
