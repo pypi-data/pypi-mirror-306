@@ -1,0 +1,10 @@
+Make sure bytes_structure is installed.
+
+# Navigate to client_server directory
+$ cd examples/client_server/
+
+# Run server in one terminal window
+$ python server.py
+
+# Run client from another terminal window
+$ python client.py
