@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: textual-file-viewer
+Version: 0.0.1
+Summary: View the contents of several common file types
+Author-email: Patrick de Koning <pjhdekoning@lumc.nl>
+Project-URL: Homepage, https://gitlab.com/lkeb/textual-file-viewer
+Keywords: TUI
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Environment :: Console
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: typer
+Requires-Dist: pandas
+Requires-Dist: pillow
+Requires-Dist: numpy
+Requires-Dist: pydicom
+Requires-Dist: textual
+Requires-Dist: textual-pandas
+Requires-Dist: textual-imageview
+
