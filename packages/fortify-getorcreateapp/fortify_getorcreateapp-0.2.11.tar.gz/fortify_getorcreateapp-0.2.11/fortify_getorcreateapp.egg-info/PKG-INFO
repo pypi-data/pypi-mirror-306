@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fortify_getorcreateapp
+Version: 0.2.11
+Summary: Get fortify application and version ids, create if they don't exist
+Home-page: https://https://dsgithub.trendmicro.com/cloudone-common/fortify-getorcreateapp
+Author: Fabio Arciniegas
+Author-email: fabio_arciniegas@trendmicro.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fortifyapi
+Requires-Dist: requests
+
+# fortify-getorcreateapp
+Self-provisioning of Fortify application and versions. Get app version or create if doesn't exist. Ideally used within github actions 
