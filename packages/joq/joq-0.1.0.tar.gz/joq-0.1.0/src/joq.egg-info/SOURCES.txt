@@ -1,0 +1,6 @@
+setup.py
+src/joq.egg-info/PKG-INFO
+src/joq.egg-info/SOURCES.txt
+src/joq.egg-info/dependency_links.txt
+src/joq.egg-info/entry_points.txt
+src/joq.egg-info/top_level.txt
