@@ -1,0 +1,5 @@
+trytond_company<7.5,>=7.4
+trytond_document_incoming<7.5,>=7.4
+trytond<7.5,>=7.4
+
+[test]
