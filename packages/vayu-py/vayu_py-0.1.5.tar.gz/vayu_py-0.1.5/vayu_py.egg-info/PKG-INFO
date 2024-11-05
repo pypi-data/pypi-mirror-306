@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vayu-py
+Version: 0.1.5
+Summary: The Vayu API client library in Python
+Home-page: https://github.com/weft-finance/vayu-py
+Author: Vayu Team
+Author-email: team@withvayu.com
+License-File: LICENSE
+Requires-Dist: setuptools>=42
+Requires-Dist: wheel
+Requires-Dist: twine
+Requires-Dist: bump2version
+Requires-Dist: requests
+Requires-Dist: urllib3>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic
+Requires-Dist: pyjwt
