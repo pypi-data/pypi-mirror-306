@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+mlClustering/__init__.py
+mlClustering/utils.py
+mlClustering.egg-info/PKG-INFO
+mlClustering.egg-info/SOURCES.txt
+mlClustering.egg-info/dependency_links.txt
+mlClustering.egg-info/top_level.txt
+mlClustering/clustering/__init__.py
+mlClustering/composition/__init__.py
+mlClustering/composition/self_tuning.py
+mlClustering/metrics/__init__.py
+mlClustering/metrics/clustering_indicators.py
