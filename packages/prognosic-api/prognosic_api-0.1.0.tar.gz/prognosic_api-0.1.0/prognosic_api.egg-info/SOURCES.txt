@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+setup.py
+prognosic_api.egg-info/PKG-INFO
+prognosic_api.egg-info/SOURCES.txt
+prognosic_api.egg-info/dependency_links.txt
+prognosic_api.egg-info/entry_points.txt
+prognosic_api.egg-info/requires.txt
+prognosic_api.egg-info/top_level.txt
