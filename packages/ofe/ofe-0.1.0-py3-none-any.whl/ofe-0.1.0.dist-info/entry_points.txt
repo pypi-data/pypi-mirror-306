@@ -1,0 +1,2 @@
+[console_scripts]
+ofe = name_register:main
