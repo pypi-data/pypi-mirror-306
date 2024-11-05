@@ -1,0 +1,6 @@
+setup.py
+Alborz_STT/__init__.py
+Alborz_STT.egg-info/PKG-INFO
+Alborz_STT.egg-info/SOURCES.txt
+Alborz_STT.egg-info/dependency_links.txt
+Alborz_STT.egg-info/top_level.txt
