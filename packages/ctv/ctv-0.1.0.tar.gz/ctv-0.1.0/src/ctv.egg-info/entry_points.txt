@@ -1,0 +1,2 @@
+[console_scripts]
+ctv = name_register:main
