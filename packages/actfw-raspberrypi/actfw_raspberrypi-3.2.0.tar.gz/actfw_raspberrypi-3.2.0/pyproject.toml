@@ -1,0 +1,58 @@
+[tool.poetry]
+authors = ["Idein Inc."]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+]
+description = "actfw's additional components for RaspberryPi"
+keywords = ['actcast']
+license = "MIT"
+name = "actfw-raspberrypi"
+readme = "README.md"
+repository = "https://github.com/Idein/actfw-raspberrypi"
+version = "3.2.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+actfw-core = ">=2.2.0"
+# We postpone adding picamera because https://github.com/waveform80/picamera/pull/405 is not in the latest picamera (1.13) yet.
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^4.3.0"
+pyproject-indirect-import-detector = "^0.1.1"
+pysen = {version = "^0.10.1"}
+pytest = "^6.2.3"
+sphinx-theme = "^1.0"
+black = "^23"
+flake8 = "3.9.2"
+flake8-bugbear = "21.9.2"
+isort = "5.1.4"
+mypy = "^1"
+types-setuptools = "^69"
+
+[tool.poetry.urls]
+"Repository" = "https://github.com/Idein/actfw-raspberrypi"
+"Documentation" = "https://idein.github.io/actfw-raspberrypi/latest/"
+"Changelog" = "https://github.com/Idein/actfw-raspberrypi/blob/master/CHANGELOG.md"
+
+[tool.pysen]
+version = "0.10"
+
+[tool.pysen.lint]
+enable_black = true
+enable_flake8 = true
+enable_isort = true
+enable_mypy = true
+mypy_preset = "strict"
+line_length = 128
+py_version = "py38"
+
+[[tool.pysen.lint.mypy_targets]]
+paths = ["."]
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
