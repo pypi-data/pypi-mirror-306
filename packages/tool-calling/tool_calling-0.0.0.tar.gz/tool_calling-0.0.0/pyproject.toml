@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tool-calling"
+version = "0.0.0"
+description = ""
+authors = ["vessl-ai-dev <dev@vessl.ai>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
