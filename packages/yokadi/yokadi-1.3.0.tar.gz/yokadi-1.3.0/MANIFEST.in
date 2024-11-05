@@ -1,0 +1,14 @@
+include doc/*.md
+include doc/dev/*.md
+include man/*.1
+include icon/*
+include scripts/*
+include editors/vim/*/*.vim
+include *py
+include README.md
+include LICENSE
+include MANIFEST.in
+include version
+include CHANGELOG.md
+include *requirements.txt
+include .github

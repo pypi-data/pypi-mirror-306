@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: yokadi
+Version: 1.3.0
+Summary: Command line oriented todo list system
+Home-page: http://yokadi.github.io/
+Author: The Yokadi Team
+Author-email: ml-yokadi@sequanux.org
+License-File: LICENSE
+Requires-Dist: sqlalchemy~=2.0.32
+Requires-Dist: python-dateutil~=2.8.2
+Requires-Dist: colorama~=0.4.6
+Requires-Dist: pyreadline3~=3.4.1; platform_system == "Windows"

@@ -1,0 +1,6 @@
+sqlalchemy~=2.0.32
+python-dateutil~=2.8.2
+colorama~=0.4.6
+
+[:platform_system == "Windows"]
+pyreadline3~=3.4.1
