@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: cdlake
+Version: 0.1.1
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pyarrow
+License-File: LICENSE
+Summary: Connected Data Lake Framework
+Keywords: cdl,cdlake,connecteddatalake,datalake
+Home-Page: https://github.com/ulagbulag/connected-data-lake
+Author: Ho Kim <ho.kim@ulagbulag.io>
+Author-email: Ho Kim <ho.kim@ulagbulag.io>
+License: AGPL-3.0-or-later
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: documentation, https://github.com/ulagbulag/connected-data-lake
+Project-URL: repository, https://github.com/ulagbulag/connected-data-lake
+
+# Connected Data Lake
+
