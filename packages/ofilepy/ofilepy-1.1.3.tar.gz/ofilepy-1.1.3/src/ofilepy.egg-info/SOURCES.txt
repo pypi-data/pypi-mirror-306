@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/ofilepy/__init__.py
+src/ofilepy/ofilepy.py
+src/ofilepy.egg-info/PKG-INFO
+src/ofilepy.egg-info/SOURCES.txt
+src/ofilepy.egg-info/dependency_links.txt
+src/ofilepy.egg-info/top_level.txt
