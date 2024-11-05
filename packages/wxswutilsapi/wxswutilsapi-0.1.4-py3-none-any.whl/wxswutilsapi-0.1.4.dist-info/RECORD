@@ -1,0 +1,9 @@
+wxswutilsapi/__init__.py,sha256=68ezZ9gkniYeW05MAz9JBKopxZLYSWjnVxydY-lEY0I,204
+wxswutilsapi/core.py,sha256=c-9E7wv_wC5tU7JBL0swj1a0L9b8Ar1BCyy5QoC_AGk,15555
+wxswutilsapi/db.py,sha256=c-9E7wv_wC5tU7JBL0swj1a0L9b8Ar1BCyy5QoC_AGk,15555
+wxswutilsapi/logger.py,sha256=Yr7ffu5iIb385aEF3e6hrOxxKFd-cegRQtXW92MtRe0,3448
+wxswutilsapi/porc_data.py,sha256=NKrZcZj_7y5-BuIX0uU02Ki7go0OqwHR8tBNCs5AVaU,5556
+wxswutilsapi-0.1.4.dist-info/METADATA,sha256=pPmd8D6EQDAK6sECGkLVvIttaSIh2SxlHYAdTtJWzr0,360
+wxswutilsapi-0.1.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+wxswutilsapi-0.1.4.dist-info/top_level.txt,sha256=EffpMRx8AmfowzDJQUhD7HIcLmfgH3JDfrvR4hSNtK8,13
+wxswutilsapi-0.1.4.dist-info/RECORD,,
