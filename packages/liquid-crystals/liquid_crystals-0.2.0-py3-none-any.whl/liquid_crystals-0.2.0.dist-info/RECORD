@@ -1,0 +1,11 @@
+liquid_crystals/__init__.py,sha256=dIRE7Wy_CbMzVZMvXroBkN2mHWXyC1qTH0QNQUJIYRg,324
+liquid_crystals/cli.py,sha256=WkyhRlormFz8HkQStpmOvuaIuNnE9t1oqLcwQXuKx94,2424
+liquid_crystals/display.py,sha256=fS4beGyCTwX5UBg6WIRKG2xS8mdmNMwaaCmaiceP6bs,6163
+liquid_crystals/fields.py,sha256=_Frd5QoB5q31TsLDFv4N98yzMIdlrxitsRzauYKtsUs,3655
+liquid_crystals/lc.py,sha256=WBA_bO-j2Q2MLVz0PjK4esQV36DUA3CDx16dXmsdgvk,10054
+liquid_crystals-0.2.0.dist-info/LICENSE,sha256=14dWZLNvm9xaUFeRin_gDB_iynn6m604g5GsutxqYsM,1068
+liquid_crystals-0.2.0.dist-info/METADATA,sha256=mGsjQyeA9hh8lyklWkPM4OEF3mL8fON_R-bBZrfiE6c,1528
+liquid_crystals-0.2.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+liquid_crystals-0.2.0.dist-info/entry_points.txt,sha256=KKiqOmc6k8WIItSzPISqcGHIffng_HcRg85rW2AP1_E,48
+liquid_crystals-0.2.0.dist-info/top_level.txt,sha256=l1zEH8nxKl3mhqwGpLgth-d2UM6gUG3Q4iWSTQpcR4k,16
+liquid_crystals-0.2.0.dist-info/RECORD,,
