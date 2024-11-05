@@ -1,0 +1,9 @@
+tailwind_for_django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tailwind_for_django/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tailwind_for_django/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tailwind_for_django/management/commands/setup_tailwind.py,sha256=mkxu8BX587FhFJGDW4b6iAFwV4pCnb0aet8X-BzFjSM,2971
+tailwind_for_django-0.1.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tailwind_for_django-0.1.4.dist-info/METADATA,sha256=ZWAD0O7BApiJ2n0PEufkBK3Bp2Re1rDzXhIMCGjSrgE,966
+tailwind_for_django-0.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tailwind_for_django-0.1.4.dist-info/top_level.txt,sha256=TzUAuTrtGjqsNnLlbxRJIRtQfsQVfeMWMqbELyWc4Xo,20
+tailwind_for_django-0.1.4.dist-info/RECORD,,
