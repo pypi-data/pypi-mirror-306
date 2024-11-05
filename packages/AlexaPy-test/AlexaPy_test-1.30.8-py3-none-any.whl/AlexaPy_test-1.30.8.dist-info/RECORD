@@ -1,0 +1,15 @@
+alexapy/__init__.py,sha256=-MuWAMUaFstzGzeGLAyax9ndIXvavgVWLthPi6Kingc,1732
+alexapy/alexaapi.py,sha256=0rmhCDVJjlqkEDpuWOLqoD1LbTfLH7AvtfkLlEnUdv0,72773
+alexapy/alexahttp2.py,sha256=vuQCENRb9Au_EgbB5NRWgLd06YvnYO5yQH4vG-tZ_Yc,7865
+alexapy/alexalogin.py,sha256=g10p0piVDnTiwdKbIX9b8jeOmN9nohfcXC30ZE8y4II,75606
+alexapy/alexaproxy.py,sha256=ivayC26A-KwQe8P7mhzGdgZYYNgjj2dSQN3kKf2jGU8,5039
+alexapy/alexawebsocket.py,sha256=gRMSKiUoXozoiilHgBR3htnYqEkWLRWV0_P6d4ujN7I,22029
+alexapy/const.py,sha256=3Gc7_P7VIcP0o-AWe9qZcL6alJQXLmm_0HR-upVRPgg,1204
+alexapy/errors.py,sha256=LuRPvsDTSzjmzlOFPkXQS3mk3Zmj0ZWfZON91fkUF5o,863
+alexapy/helpers.py,sha256=BxHGzEVs1NQQ1s5b_neNaLv7m3byCv5Hm02gdH4seX4,7193
+AlexaPy_test-1.30.8.dist-info/AUTHORS.md,sha256=YtVRiPg2tgAYpm8FnQ3za76ZuQfFDOROT5Jk62DWOII,670
+AlexaPy_test-1.30.8.dist-info/LICENSE,sha256=Lh-qBbuRV0-jiCIBhfV7NgdwFxQFOXH3BKOzK865hRs,10480
+AlexaPy_test-1.30.8.dist-info/METADATA,sha256=FqpsipH2nMQqePTPzORRcmXQGfgDLR2psQsyQRHRZqM,4561
+AlexaPy_test-1.30.8.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+AlexaPy_test-1.30.8.dist-info/top_level.txt,sha256=2K3__GlzTpZOFhbh86l6Ea3i6OrqcQQzfjEw04g82aI,8
+AlexaPy_test-1.30.8.dist-info/RECORD,,
