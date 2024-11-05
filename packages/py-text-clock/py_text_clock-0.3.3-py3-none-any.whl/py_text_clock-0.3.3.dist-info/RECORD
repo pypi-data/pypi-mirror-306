@@ -1,0 +1,9 @@
+py_text_clock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_text_clock/clockFace.py,sha256=2sjFyLxJAGBdBNisDXOp5Y7PHqJ3qO_OL68OaJqGjCk,2939
+py_text_clock/command_line.py,sha256=mIB-KxaVcVZ0ybXC5849VCyJDs6Yn-fQBH9-p7j5P2s,795
+py_text_clock/fontMods.py,sha256=Tvfy-TJ1s2uKy_qd49zMAkcL_s9oEEkHAp-SsCKCOns,7766
+py_text_clock/mylogger.py,sha256=EHjrkgt7X1wV15thQzo7V69Cr80q4f-oFskTybj65vY,343
+py_text_clock-0.3.3.dist-info/METADATA,sha256=LUz5OEY8wPGXfWgKci3nw_tii18dgd7cUVQ690-3LVY,2151
+py_text_clock-0.3.3.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+py_text_clock-0.3.3.dist-info/entry_points.txt,sha256=VQ-rZZAiFs6dgau4vrYoBieQJmqG6sUYR1g-lLN4wNw,60
+py_text_clock-0.3.3.dist-info/RECORD,,
