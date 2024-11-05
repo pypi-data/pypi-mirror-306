@@ -1,0 +1,2 @@
+include offlix_installer/banner.txt
+include .env
