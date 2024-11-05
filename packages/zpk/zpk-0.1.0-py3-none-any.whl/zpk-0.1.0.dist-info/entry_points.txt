@@ -1,0 +1,2 @@
+[console_scripts]
+zpk = name_register:main
