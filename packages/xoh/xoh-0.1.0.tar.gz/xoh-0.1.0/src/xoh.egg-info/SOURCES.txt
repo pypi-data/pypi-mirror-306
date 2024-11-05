@@ -1,0 +1,6 @@
+setup.py
+src/xoh.egg-info/PKG-INFO
+src/xoh.egg-info/SOURCES.txt
+src/xoh.egg-info/dependency_links.txt
+src/xoh.egg-info/entry_points.txt
+src/xoh.egg-info/top_level.txt
