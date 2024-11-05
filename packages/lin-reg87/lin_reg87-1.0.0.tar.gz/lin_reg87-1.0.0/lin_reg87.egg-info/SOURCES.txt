@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+lin_reg87/__init__.py
+lin_reg87/lin_reg_.py
+lin_reg87.egg-info/PKG-INFO
+lin_reg87.egg-info/SOURCES.txt
+lin_reg87.egg-info/dependency_links.txt
+lin_reg87.egg-info/requires.txt
+lin_reg87.egg-info/top_level.txt
