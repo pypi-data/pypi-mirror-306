@@ -1,0 +1,2 @@
+[console_scripts]
+pyhunter3 = pyhunter3:main
