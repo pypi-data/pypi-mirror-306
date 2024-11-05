@@ -1,0 +1,2 @@
+[console_scripts]
+lrz = name_register:main
