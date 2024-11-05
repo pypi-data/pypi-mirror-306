@@ -1,0 +1,22 @@
+pxndas/ENCRYPTION.py,sha256=wXg6QhFa5X9INiPXPZkgWzmm4rdGutIpiMtaM51T-UQ,785
+pxndas/__init__.py,sha256=qeQjTs8ZpLQnIndnDxW-ooFyBptFgLo2uKqKoF9i_qM,148
+pxndas/bigsmall.py,sha256=H8VV9kL6smQlAjnxMZQXkWQOzy2mmIhb-4yF_IuU44s,577
+pxndas/calculater.py,sha256=Tur2nKSWzKad7g0t8OgfMr1GhHGwbGLRz6rUqZLBhTc,933
+pxndas/cg.py,sha256=yyiKwvT2AZ_J5zv22urbtxa40AvKo9Atl7pLsh-WhOg,4773
+pxndas/dictionary.py,sha256=mliWRL15eOVUUQYTrxyoiSSE_Bv_wk7Gh6UF5EGfibA,519
+pxndas/evenodd.py,sha256=8IA3T6KsV1DCQBr6em6oJ4ky1aAnIOx5l9JbSx1HdXw,326
+pxndas/exception.py,sha256=9RwY7jQYiKwcOveyOAod4gUZ_aJpAi27KVI8mVBllSI,1875
+pxndas/main.py,sha256=arZTYAGUet3cKaKUfoGdU-40tdKDm940PnjvyVlGMGI,331
+pxndas/matrix.py,sha256=mrKy2p3ukPoFKHvdqISt7tBqKDDP7bWnjP_CK8taSp8,622
+pxndas/multilevel.py,sha256=EkiHcZzh8k6QqqMQkE_8NP3VpGcGq7SKEMGtxQDDo1I,1330
+pxndas/polymorphism.py,sha256=LGMUOHUibLHGromfAGlq7m7CLxGVIDyntsnbzd81A-0,919
+pxndas/posneg.py,sha256=VvI5loZGZ3eumAwRP1x3VHGG7qcSTNzsrBM6ENVajbE,359
+pxndas/prime.py,sha256=2rJDXJ3l1PcjYuoepit2jydid2kVJ2HSadUDZczpuF4,622
+pxndas/set.py,sha256=S4dX8kFTVNAhp0h52RFxwj7XWtc253kSotHHfRuIC1s,901
+pxndas/single.py,sha256=b6lBluos4qRgNFJFBHAIcjTDjC27LTbFJ9X3bDp3EC8,926
+pxndas/sorting.py,sha256=HRsmRsoJRYhku-Qw2sV0u1sZTw4hxPw93febWkHtO58,420
+pxndas/work pandas.py,sha256=8ZK4HcN4JiDp55dEt2sTFlWOLNoghhLnkFdG3g_6GFM,5557
+pxndas-0.1.0.dist-info/METADATA,sha256=6XO4F-EYaUXFgF-QMjc9fZX73r-1h5SEAtcetW5jwno,228
+pxndas-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pxndas-0.1.0.dist-info/top_level.txt,sha256=IAzz67exUjiugr4nrHXFKfczlCGaDCkx5Cia7tEY6Jw,7
+pxndas-0.1.0.dist-info/RECORD,,
