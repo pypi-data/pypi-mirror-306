@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pymovies"
+description = "An app where users can get random quotes and browse quotes by different categories or movies."
+version = "0.1.1"
+authors = [
+  { name = "May Zhou", email = "zz4206@nyu.edu" },
+  { name = "Fatima Villena", email = "fav2019@nyu.edu" },
+  { name = "Sandy Li", email = "rl4385@nyu.edu" },
+  { name = "Safia Billah", email = "ssb9872@nyu.edu" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build", "quotes"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+homepage = "https://github.com/software-students-fall2024/3-python-package-three"
+repository = "https://github.com/software-students-fall2024/3-python-package-three.git"
+bug_tracker = "https://github.com/software-students-fall2024/3-python-package-three/issues"
