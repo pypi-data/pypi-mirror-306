@@ -1,0 +1,1 @@
+# Este archivo se deja vacío por ahora. Aquí puedes implementar la lógica de configuración de base de datos si es necesario en el futuro.
