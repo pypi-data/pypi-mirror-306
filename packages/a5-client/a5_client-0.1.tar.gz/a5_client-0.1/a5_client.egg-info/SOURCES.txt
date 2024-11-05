@@ -1,0 +1,12 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+a5_client.egg-info/PKG-INFO
+a5_client.egg-info/SOURCES.txt
+a5_client.egg-info/dependency_links.txt
+a5_client.egg-info/top_level.txt
+tests/__init__.py
+tests/create_series_test.py
+tests/read_series_test.py
