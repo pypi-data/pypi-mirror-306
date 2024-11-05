@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "structer"
+version = "0.1.1"
+description = "Structer is a structurer written in Python based on C language structs."
+authors = ["Lelzin λ <d3cryptofc@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.urls]
+Repository = "https://github.com/d3cryptofc/structer"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-sugar = "^1.0.0"
+mypy = "^1.13.0"
+taskipy = "^1.14.0"
+ruff = "^0.7.2"
+pytest-cov = "^6.0.0"
+
+[tool.taskipy.tasks]
+test = "pytest -v"
+lint_mypy = "mypy structer"
+lint_ruff = "ruff check structer --diff && ruff format --diff"
+lint = "task lint_mypy && task lint_ruff"
+format = "ruff format && ruff check --fix"
+
+[tool.pytest.ini_options]
+addopts = "--cov=structer --cov-report=html --cov-report=term --show-capture=stdout -x"
+
+[tool.ruff]
+line-length = 79
+indent-width = 4
+
+[tool.ruff.lint]
+select = ["F", "W", "E", "I"]
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
