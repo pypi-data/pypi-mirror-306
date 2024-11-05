@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: gmine
+Version: 0.1.1
+Summary: Text mining application
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+# Text mining scripts
