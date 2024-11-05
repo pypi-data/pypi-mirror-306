@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gmine"
+version = "0.1.0"
+description = "Text mining application"
+dependencies = ["pandas"]
+readme = "README.md"
+
+
