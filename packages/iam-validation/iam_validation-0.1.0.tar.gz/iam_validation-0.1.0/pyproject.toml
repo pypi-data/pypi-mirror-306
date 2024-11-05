@@ -1,0 +1,39 @@
+[project]
+name = "iam-validation"
+version = "0.1.0"
+description = "Validation of names and values in IAMC-formatted model output against definitions and reference targets"
+authors = [
+    { name = "Jan Ivar Korsbakken", email = "janko@cicero.oslo.no" }
+]
+dependencies = [
+    "nomenclature-iamc>=0.20",
+    "pyam-iamc>=2.3",
+    "pathways-ensemble-analysis>=1.0",
+    "xlsxwriter>=3.2.0",
+    # Dependency required by p-e-a (but not listed among its requirements)
+    "pandas-indexing>=0.5.2",
+    "pyyaml>=6.0.2",
+]
+readme = "README.md"
+requires-python = ">= 3.11"
+license = { text = "Apache-2.0" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "ipython>=8.28.0",
+    "ipykernel>=6.29.5",
+    "pytest>=8.3.3",
+    "sphinx>=8.1.3",
+    "sphinx-rtd-theme>=3.0.1",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/iam_validation"]
