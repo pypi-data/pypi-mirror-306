@@ -1,0 +1,9 @@
+cxx_image_io/io.py,sha256=g0Dx8mnqSPNx5utYSs4RYL5gUvHRC7TPj7bmFuRkr-I,6760
+cxx_image_io/utils.py,sha256=JfATgISQoNu-GUewSOhSFFY64_mps-31ExRmk6FK38E,12586
+cxx_image_io/__init__.py,sha256=bibMe2owZfRGohO8c-ywh_lTlseLZPWQOkkO63Wug2c,683
+cxx_image_io/cxx_image.cpython-310-x86_64-linux-gnu.so,sha256=n25Wolps6-FM45Wq82OGet254I6s7GXu9gJRWoNTqEM,9081384
+cxx_image_io-0.0.19.dist-info/top_level.txt,sha256=qfJHhjlSV-6njNwlUODGXv8V6CNBhvGOjZQShPnbsBQ,23
+cxx_image_io-0.0.19.dist-info/METADATA,sha256=HjNHHlLKJTu8UQSKKjY2taITQU4enkwvFK7Dc_u-6zQ,9428
+cxx_image_io-0.0.19.dist-info/WHEEL,sha256=_OgzqJ6R2Sxa9x6ZYnTyOso7rTbg9J9OkQo8vJFwKaM,113
+cxx_image_io-0.0.19.dist-info/LICENSE.md,sha256=1Gia5hRf-t1MQ-ItXN9A71iYMJh-QAlkqw5pckPuZoc,1073
+cxx_image_io-0.0.19.dist-info/RECORD,,
