@@ -1,0 +1,2 @@
+[console_scripts]
+vlw = name_register:main
