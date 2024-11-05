@@ -1,0 +1,9 @@
+.gitignore
+setup.py
+duoyinfixer/__init__.py
+duoyinfixer/duoyinfixer.py
+duoyinfixer.egg-info/PKG-INFO
+duoyinfixer.egg-info/SOURCES.txt
+duoyinfixer.egg-info/dependency_links.txt
+duoyinfixer.egg-info/requires.txt
+duoyinfixer.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: duoyinfixer
+Version: 0.1
+Summary: 替换句子中的多音字，防止文字配音中因为多音字而出现问题
+Author: LY
+Requires-Dist: pypinyin
