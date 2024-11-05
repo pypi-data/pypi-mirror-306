@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: MMBP
+Version: 1.4.1.0.2
+Summary: MMBP
+Home-page: https://github.com/KeyisB/libs/tree/main/MMBP
+Author: KeyisB
+Author-email: keyisb.pip@gmail.com
+License: MMB License v1.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE

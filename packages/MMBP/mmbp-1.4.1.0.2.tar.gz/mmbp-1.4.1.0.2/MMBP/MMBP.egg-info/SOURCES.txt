@@ -1,0 +1,10 @@
+.setup.py
+LICENSE
+setup.py
+MMBP/MMBP/__init__.py
+MMBP/MMBP/core.py
+MMBP/MMBP/likeJS.py
+MMBP/MMBP.egg-info/PKG-INFO
+MMBP/MMBP.egg-info/SOURCES.txt
+MMBP/MMBP.egg-info/dependency_links.txt
+MMBP/MMBP.egg-info/top_level.txt
