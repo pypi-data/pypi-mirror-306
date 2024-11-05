@@ -1,0 +1,4 @@
+[console_scripts]
+create-version-file=pyinstaller_versionfile.__main__:create_version_file
+pyivf-make_version=pyinstaller_versionfile.__main__:make_version
+
