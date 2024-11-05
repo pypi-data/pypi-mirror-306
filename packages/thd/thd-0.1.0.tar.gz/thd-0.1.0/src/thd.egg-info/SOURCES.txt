@@ -1,0 +1,6 @@
+setup.py
+src/thd.egg-info/PKG-INFO
+src/thd.egg-info/SOURCES.txt
+src/thd.egg-info/dependency_links.txt
+src/thd.egg-info/entry_points.txt
+src/thd.egg-info/top_level.txt
