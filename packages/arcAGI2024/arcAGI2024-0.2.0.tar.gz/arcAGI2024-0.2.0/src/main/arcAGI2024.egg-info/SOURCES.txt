@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+src/main/arcAGI2024.egg-info/PKG-INFO
+src/main/arcAGI2024.egg-info/SOURCES.txt
+src/main/arcAGI2024.egg-info/dependency_links.txt
+src/main/arcAGI2024.egg-info/requires.txt
+src/main/arcAGI2024.egg-info/top_level.txt
+src/main/arcAGI2024.egg-info/SOURCES.txt
