@@ -1,0 +1,17 @@
+mw_python_sdk/__init__.py,sha256=P8B9Th4HmkAdZeqbbDu3Sj2pYJyBnA1BVrAtO4_QLKY,410
+mw_python_sdk/api.py,sha256=nIllInHIu-euTXWEKkQjlVYDt2YvqJbaU0ApWmXbC8U,39492
+mw_python_sdk/api_list.py,sha256=3A7PuC_UvdDiy2xiD9stXbBdtsqm7M-P7i5RAbXeyWQ,5318
+mw_python_sdk/core.py,sha256=KNPp9JzXM4vfF6Fl_a5VMWe-b09JQAUy6gH0kXnyZLw,4114
+mw_python_sdk/fs.py,sha256=ECleZF9r-k-xVyCqJYAbdqKXd5VRRcPFaSGomONQdhY,6027
+mw_python_sdk/utils.py,sha256=FsWJHeNSnAitDDwIStZUi0C9CWGtDEQ-Lz_MAqddatA,3841
+mw_python_sdk/bin/mwcli.py,sha256=k7ubDG73PqyoKv1KImPP33Zx6mZ842pFqfXpRpeJ8Uc,3502
+mw_python_sdk/frp/__init__.py,sha256=LcJ_wbsaxs4y4N5DDRignDHFVE8j4V9XLOdwKYpvPSE,2458
+mw_python_sdk/llm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mw_python_sdk/llm/echo_server.py,sha256=__kTccbwgwwbpFkJRmNES62B1RwxQ36fuV3Yl3FtQMA,4116
+mw_python_sdk/llm/inference.py,sha256=BX1WFKr4wy5fan9HLws7VX2o41pJMJF0pWfJat2SJ8g,2567
+mw_python_sdk/llm/model.py,sha256=CDWonTBSJrR8dCXQNzqface7Jo7bXDgZV2QI8jZvsrE,203628
+mw_python_sdk-0.0.59.dist-info/METADATA,sha256=ua94RnPAOQKxVrpoWuMbQnr23M8woyENGu5Gk6d0oug,3236
+mw_python_sdk-0.0.59.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+mw_python_sdk-0.0.59.dist-info/entry_points.txt,sha256=BG-HESmWmDd1ifY5_gCJIOiALZuBIY05jkth8J0qT6Q,54
+mw_python_sdk-0.0.59.dist-info/top_level.txt,sha256=UV82guU1O99H--AVQODWlv8QCfWIZvKSeMA_jSbwncw,14
+mw_python_sdk-0.0.59.dist-info/RECORD,,
