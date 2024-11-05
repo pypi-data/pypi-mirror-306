@@ -1,0 +1,2 @@
+[console_scripts]
+qvz = name_register:main
