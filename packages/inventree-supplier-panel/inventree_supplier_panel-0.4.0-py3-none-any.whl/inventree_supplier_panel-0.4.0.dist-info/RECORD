@@ -1,0 +1,16 @@
+inventree_supplier_panel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inventree_supplier_panel/digikey.py,sha256=dqLe4Jlo3fuVyKpcHT8A8wRPVL2_DllaUZcxL1lo9ME,14551
+inventree_supplier_panel/meta_access.py,sha256=CYcI_IdJ-i6qxIPcjEiRP5oWimWm_WzAy_gj2KR3dnY,780
+inventree_supplier_panel/mouser.py,sha256=2obGbnei8M1d_u1N8dDhhEpvzNkaU8QZEbxuQ8uoC9M,7039
+inventree_supplier_panel/request_wrappers.py,sha256=nJUjZJ-MwfzxLDPS_SJinXDOot7Mb1tLGF5qaUs6g9o,2433
+inventree_supplier_panel/supplier_panel.py,sha256=leBvddlJ8ETSneenN6lUi3AyAd4tuEA0DLuwjBn3-UU,14698
+inventree_supplier_panel/version.py,sha256=7oHPWqMFOPn4cvmCB4Sdc2dSjoQZbbD1m2TNhzyf3Kg,25
+inventree_supplier_panel/templates/supplier_panel/add_supplierpart.html,sha256=iNJmO7ZAe4cS9hCsx6-SnoXVF0mmEj6xbJ_meNV2kp4,1476
+inventree_supplier_panel/templates/supplier_panel/digikey.html,sha256=Hvrdgr2Vv3TLGzobcN7HXCsXe4XJEQKuCD297c3kYP4,2020
+inventree_supplier_panel/templates/supplier_panel/mouser.html,sha256=5v8QXLHKXYL6k2PDNTXpkkrf08Y-_E8ncTVINtondpk,2024
+inventree_supplier_panel-0.4.0.dist-info/LICENSE,sha256=z0KzW69FNQZm8j7jdjwjmjMNPn6UIC5ioGhjP44nZ64,1064
+inventree_supplier_panel-0.4.0.dist-info/METADATA,sha256=Om_ntryJO0Fds1oC6v-FeanyGX4LEJwHWLsaBlvZQtY,13486
+inventree_supplier_panel-0.4.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+inventree_supplier_panel-0.4.0.dist-info/entry_points.txt,sha256=Tnbg88wJALWj7OmoqVN-BNIatFJLsAZV32C7roBJXYg,98
+inventree_supplier_panel-0.4.0.dist-info/top_level.txt,sha256=bjASFPmpp8JaFz4FTeM7olEKL-g7BNo5BVttyI3W4Ew,25
+inventree_supplier_panel-0.4.0.dist-info/RECORD,,
