@@ -1,0 +1,9 @@
+README.md
+setup.py
+directree/__init__.py
+directree/directree.py
+directree.egg-info/PKG-INFO
+directree.egg-info/SOURCES.txt
+directree.egg-info/dependency_links.txt
+directree.egg-info/entry_points.txt
+directree.egg-info/top_level.txt
