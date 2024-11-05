@@ -1,0 +1,5 @@
+setup.py
+datascrape.egg-info/PKG-INFO
+datascrape.egg-info/SOURCES.txt
+datascrape.egg-info/dependency_links.txt
+datascrape.egg-info/top_level.txt
