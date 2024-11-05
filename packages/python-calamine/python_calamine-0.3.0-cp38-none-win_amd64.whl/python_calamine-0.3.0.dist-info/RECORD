@@ -1,0 +1,9 @@
+python_calamine-0.3.0.dist-info/METADATA,sha256=MiMWlkEHqjURU_Uhsg7FFGjEKKXdCMljNKrv3AGTkZQ,3266
+python_calamine-0.3.0.dist-info/WHEEL,sha256=NHoUGL5pvT0j-_WkoqCg7drk-8v6Pu-HANDKM-553D8,94
+python_calamine-0.3.0.dist-info/licenses/LICENSE,sha256=cYURXgSnjCTOT2jQ_McTGn-AhDycRqzJa11QzR38Sn4,1086
+python_calamine/pandas.py,sha256=QL-cy_9TMEsjb4bRCNB40tWGPPYlBmUBwEmKBFFuTGc,4734
+python_calamine/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_calamine/_python_calamine.pyi,sha256=nPoUpA4zWdJvoBpX8SGmxVx8X1b8EjLYkbsD5ZyPOGA,4973
+python_calamine/__init__.py,sha256=evxSwIkpatTkygn2mRmWUYPslvdj08q_pNkayyyptfI,560
+python_calamine/_python_calamine.cp38-win_amd64.pyd,sha256=psSBBec_JEVLK21oXNIZjwhMn_Ta959QyYh4P6ASEE8,1453568
+python_calamine-0.3.0.dist-info/RECORD,,
