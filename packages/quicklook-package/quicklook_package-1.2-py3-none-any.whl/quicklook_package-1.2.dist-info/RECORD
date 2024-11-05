@@ -1,0 +1,13 @@
+quicklook/__init__.py,sha256=YeWg3QczJa7Y5Y5QG4-QnpckSrGEsJ3Gh39_edDAc0s,214
+quicklook/gls.py,sha256=cMZmT7YUi1Ail-d_gH4FHmMOdZW5fSmDtQv-Rmok2ic,34360
+quicklook/measure.py,sha256=yQmPAdXmTQB03sa7VSxgKQ4nVjm_ilDR_H9AQuxZ8uw,10661
+quicklook/plot.py,sha256=DwpJUTbMeGw37jM5dyZ3WQ7w1_xYQYcMYG0vFukL5pM,29678
+quicklook/tql.py,sha256=I5UVtpW34GJNeT0EW4QGGjLuzByVEKgxXgGUFy48QxQ,47764
+quicklook/utils.py,sha256=FhvuxYla6c_VQE2qRs8m9dGK623LqOtni6g0_jvVw1E,11068
+quicklook_package-1.2.data/scripts/ql,sha256=Zy2Vu8dVm7D2gWF6gdoUO95HmU0irtLwjAUVHSNml0g,7043
+quicklook_package-1.2.data/scripts/read_tls,sha256=m_7Zp59D-krBH0E8WRkiSLPTqXYdv20bbpdTCNCIxfQ,1630
+quicklook_package-1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+quicklook_package-1.2.dist-info/METADATA,sha256=LazkH0533GylnQdSWrKmY9tcd8PzDNgxJuz0-LPk1Vo,8629
+quicklook_package-1.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+quicklook_package-1.2.dist-info/top_level.txt,sha256=jL1pN1s1mtqakMWj427K4ImSGZPFDv-EEOw3NVEeysc,10
+quicklook_package-1.2.dist-info/RECORD,,
