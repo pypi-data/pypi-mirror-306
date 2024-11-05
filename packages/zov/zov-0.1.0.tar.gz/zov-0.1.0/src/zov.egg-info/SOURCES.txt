@@ -1,0 +1,6 @@
+setup.py
+src/zov.egg-info/PKG-INFO
+src/zov.egg-info/SOURCES.txt
+src/zov.egg-info/dependency_links.txt
+src/zov.egg-info/entry_points.txt
+src/zov.egg-info/top_level.txt
