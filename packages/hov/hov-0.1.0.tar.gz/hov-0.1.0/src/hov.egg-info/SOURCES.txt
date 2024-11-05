@@ -1,0 +1,6 @@
+setup.py
+src/hov.egg-info/PKG-INFO
+src/hov.egg-info/SOURCES.txt
+src/hov.egg-info/dependency_links.txt
+src/hov.egg-info/entry_points.txt
+src/hov.egg-info/top_level.txt
