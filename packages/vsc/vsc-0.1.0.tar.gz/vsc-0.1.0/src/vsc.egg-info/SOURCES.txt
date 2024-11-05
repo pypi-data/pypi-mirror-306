@@ -1,0 +1,6 @@
+setup.py
+src/vsc.egg-info/PKG-INFO
+src/vsc.egg-info/SOURCES.txt
+src/vsc.egg-info/dependency_links.txt
+src/vsc.egg-info/entry_points.txt
+src/vsc.egg-info/top_level.txt
