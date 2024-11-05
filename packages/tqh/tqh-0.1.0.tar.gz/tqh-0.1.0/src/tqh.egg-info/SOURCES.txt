@@ -1,0 +1,6 @@
+setup.py
+src/tqh.egg-info/PKG-INFO
+src/tqh.egg-info/SOURCES.txt
+src/tqh.egg-info/dependency_links.txt
+src/tqh.egg-info/entry_points.txt
+src/tqh.egg-info/top_level.txt
