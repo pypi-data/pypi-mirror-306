@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/PyCodeCommenter/__init__.py
+src/PyCodeCommenter/commenter.py
+src/PyCodeCommenter/main.py
+src/PyCodeCommenter/parameter_descriptions.py
+src/PyCodeCommenter/templates.py
+src/PyCodeCommenter/usage.py
+src/PyCodeCommenter.egg-info/PKG-INFO
+src/PyCodeCommenter.egg-info/SOURCES.txt
+src/PyCodeCommenter.egg-info/dependency_links.txt
+src/PyCodeCommenter.egg-info/top_level.txt
+tests/test_codecommenter.py
