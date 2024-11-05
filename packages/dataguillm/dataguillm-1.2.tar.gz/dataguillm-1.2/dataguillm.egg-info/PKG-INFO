@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: dataguillm
+Version: 1.2
+Summary: A package for Exploratory Data Analysis (EDA)
+Author: Sagnik Banerjee
+Author-email: sagu7065@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: plotly
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+Requires-Dist: datapane
+Requires-Dist: scikit-learn
+Requires-Dist: groq
+Requires-Dist: python-docx
+
+# Data GUI LLM Package
+
+This package provides tools for exploratory data analysis (EDA) including
+univariate and multivariate analysis, data visualization, and insights generation
+using Groq LLM Framework.
+
+Just pass your data, target column and groq api key like this:
+
+from dataguillm import AnalyzeData
+
+object= AnalyzeData(df, "targetcol", "groqapi")
+object.datainsights()
+
+See the magic by yourself!
+
+Note: After installing please install numpy==1.26.4

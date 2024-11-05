@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+dataguillm/__init__.py
+dataguillm/dataguillm.py
+dataguillm.egg-info/PKG-INFO
+dataguillm.egg-info/SOURCES.txt
+dataguillm.egg-info/dependency_links.txt
+dataguillm.egg-info/requires.txt
+dataguillm.egg-info/top_level.txt
+tests/__init__.py
+tests/test_eda.py
