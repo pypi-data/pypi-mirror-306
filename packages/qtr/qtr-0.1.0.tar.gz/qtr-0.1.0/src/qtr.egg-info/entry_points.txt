@@ -1,0 +1,2 @@
+[console_scripts]
+qtr = name_register:main
