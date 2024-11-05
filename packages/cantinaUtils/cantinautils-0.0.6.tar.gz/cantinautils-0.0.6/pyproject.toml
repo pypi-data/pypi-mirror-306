@@ -1,0 +1,18 @@
+[project]
+name = "cantinaUtils"
+version = "0.0.6"
+authors = [
+  { name="Matyu9", email="mathieu.degueurce@icloud.com" },
+]
+description = "The Utils package for Cantina"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Cantina-Org/CantinaUtils"
+Issues = "https://github.com/Cantina-Org/CantinaUtils/issues"

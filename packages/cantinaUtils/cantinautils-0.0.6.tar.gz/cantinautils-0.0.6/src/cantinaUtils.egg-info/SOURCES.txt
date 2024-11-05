@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/cantinaUtils/Database.py
+src/cantinaUtils/email_utils.py
+src/cantinaUtils/verify_login.py
+src/cantinaUtils.egg-info/PKG-INFO
+src/cantinaUtils.egg-info/SOURCES.txt
+src/cantinaUtils.egg-info/dependency_links.txt
+src/cantinaUtils.egg-info/top_level.txt
