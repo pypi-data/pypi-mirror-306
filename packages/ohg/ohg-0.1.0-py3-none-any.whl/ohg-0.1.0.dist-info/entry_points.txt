@@ -1,0 +1,2 @@
+[console_scripts]
+ohg = name_register:main
