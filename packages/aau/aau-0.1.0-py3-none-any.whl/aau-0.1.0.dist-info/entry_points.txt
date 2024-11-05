@@ -1,0 +1,2 @@
+[console_scripts]
+aau = name_register:main
