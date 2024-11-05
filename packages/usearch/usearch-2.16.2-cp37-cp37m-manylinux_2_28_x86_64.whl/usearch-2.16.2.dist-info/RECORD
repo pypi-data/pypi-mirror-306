@@ -1,0 +1,14 @@
+usearch./libmvec-2-dffaabfe.28.so,sha256=JaNIp7OcavafgSUikMSy6VFxddx28ump6IhbqEcFZEk,181969
+usearch/compiled.cpython-37m-x86_64-linux-gnu.so,sha256=WNBckC1CAA-BjAEV4r_3XLLzs31CbaUdETKw0gbL2pc,6857233
+usearch/server.py,sha256=ExEj8Sge6yxXbTbKJMbb5APb1waHaInS52ImNoGAy0I,3679
+usearch/client.py,sha256=r7Gp4e8V6udeEU1shn7cXVRO42mufD8bsXnHdKACq-o,4137
+usearch/numba.py,sha256=qxHLChxggVUhPChnKBwUuFXFRKHx0dcXDHoRyFxkap0,3920
+usearch/io.py,sha256=hspjxCYJopn0D1HILu-CVFDEUxcpclj92ngaszCaRX8,3179
+usearch/__init__.py,sha256=jTm0I7dYLKOC5k3vQ_uodYm1gR8HxbOY5zWvTnrurcU,5954
+usearch/eval.py,sha256=3IBDUbyubAZs29djZUcixg0pL7IgvwqDssAEpWY-Qj0,16743
+usearch/index.py,sha256=Qe5y0CQRJ14y1FMHJYq0wYaPCnoOg1iHsk_NMjbXrcc,59729
+usearch-2.16.2.dist-info/top_level.txt,sha256=zFbid1SmQjk8RsbEgpqF7tTjgWdFvE2z0e1LQ2hKdPg,8
+usearch-2.16.2.dist-info/RECORD,,
+usearch-2.16.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+usearch-2.16.2.dist-info/METADATA,sha256=QWqcoxqM2uOh7l34obMvg0yxV2NK1h_OG4oaUl1_QDY,32267
+usearch-2.16.2.dist-info/WHEEL,sha256=b79Oiwj0qymylbEAL1CtY7GBaMP1ooxouut30pqD4V8,113
