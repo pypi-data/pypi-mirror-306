@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: kaleido
+Version: 0.4.0rc4
+Summary: plotly graph export library
+Author-email: Andrew Pikul <ajpikul@gmail.com>
+Maintainer-email: Andrew Pikul <ajpikul@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: choreographer>=0.99.4
+Requires-Dist: async_timeout
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
