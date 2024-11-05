@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+patrick_personnal_lib/DB_manipulation.py
+patrick_personnal_lib/Installer_module.py
+patrick_personnal_lib/__init__.py
+patrick_personnal_lib/ask_path_save_load.py
+patrick_personnal_lib/excel_utils.py
+patrick_personnal_lib.egg-info/PKG-INFO
+patrick_personnal_lib.egg-info/SOURCES.txt
+patrick_personnal_lib.egg-info/dependency_links.txt
+patrick_personnal_lib.egg-info/top_level.txt
