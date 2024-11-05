@@ -1,0 +1,7 @@
+setup.py
+FridaySTT/__init__.py
+FridaySTT.egg-info/PKG-INFO
+FridaySTT.egg-info/SOURCES.txt
+FridaySTT.egg-info/dependency_links.txt
+FridaySTT.egg-info/requires.txt
+FridaySTT.egg-info/top_level.txt
