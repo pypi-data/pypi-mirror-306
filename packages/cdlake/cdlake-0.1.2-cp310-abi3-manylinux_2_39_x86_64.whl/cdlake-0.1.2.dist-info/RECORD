@@ -1,0 +1,11 @@
+cdlake-0.1.2.dist-info/METADATA,sha256=2hfyedRB-hQ19X-a1amUySD47RSOsYGCdx6SSHLzJUQ,962
+cdlake-0.1.2.dist-info/WHEEL,sha256=VJENnNDK2HaxxJUi72n1HiIk5nFja-ATqcOQKjTisgM,107
+cdlake-0.1.2.dist-info/licenses/LICENSE,sha256=ojp-L0XNqWMqNYz9GwWd3sTrKG87m_NmE7YAb6fYSO8,10256
+cdlake/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdlake/filesystem.py,sha256=f4ll2_WcLCRHm9n500Ky_kfQTAqtOtGVi3ec2FhGxss,1302
+cdlake/__init__.py,sha256=N8qB8ztuyvfapYWA35XnyueYzNGt2cZS2RNdccuVxIk,199
+cdlake/dataset.py,sha256=dIhsum5AzdkbZx1l4p-GE-uBBWPKi3wgyrOoA2m7hc0,1161
+cdlake/lake.py,sha256=oSox2MEIXijU1_bsALDqAeg5zsQaN9h7bplvH22M6uE,385
+cdlake/_internal.pyi,sha256=mB0mev3ZwN_xstC3W1jA9580c0zigmUClI97gnqZtXg,1014
+cdlake/_internal.abi3.so,sha256=jiu3nh_Bo71wfTiJXaXPi4WGdCtTrmPdApJwleSI1yw,84105200
+cdlake-0.1.2.dist-info/RECORD,,
