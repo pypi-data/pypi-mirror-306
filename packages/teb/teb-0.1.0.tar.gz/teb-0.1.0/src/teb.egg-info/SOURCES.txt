@@ -1,0 +1,6 @@
+setup.py
+src/teb.egg-info/PKG-INFO
+src/teb.egg-info/SOURCES.txt
+src/teb.egg-info/dependency_links.txt
+src/teb.egg-info/entry_points.txt
+src/teb.egg-info/top_level.txt
