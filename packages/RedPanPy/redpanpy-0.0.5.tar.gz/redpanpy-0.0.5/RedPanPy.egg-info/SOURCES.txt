@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+RedPanPy/__init__.py
+RedPanPy/qwebchannel.js
+RedPanPy.egg-info/PKG-INFO
+RedPanPy.egg-info/SOURCES.txt
+RedPanPy.egg-info/dependency_links.txt
+RedPanPy.egg-info/requires.txt
+RedPanPy.egg-info/top_level.txt
