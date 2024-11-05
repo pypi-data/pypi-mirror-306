@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "mydata-client"
+version = "0.2.0"
+description = "Python interface for IARP's myDATA service"
+authors = ["Alex Pyrgiotis <apyrgio@gmail.com>"]
+license = "MPL-2.0"
+readme = "README.md"
+# The distribution pacakge is different from the import package, so we need to
+# explicitly add it. See:
+#
+# https://packaging.python.org/en/latest/discussions/distribution-package-vs-import-package/
+packages = [{include = "mydata"}]
+
+[tool.poetry.scripts]
+mydata = 'mydata.__main__:cli'
+
+[tool.poetry.dependencies]
+click = "^8.1.7"
+python = "^3.9"
+qrcode = "^7.4.2"
+requests = "^2.31.0"
+rich = "^13.7.0"
+xsdata = "^24.1"
+
+[tool.poetry.group.dev.dependencies]
+pydoc-markdown = "^4.8.2"
+ruff = "^0.3"
+xsdata = {extras = ["cli"], version = "^24.1"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
