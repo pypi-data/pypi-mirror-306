@@ -1,0 +1,7 @@
+main.py
+setup.py
+lightseeq.egg-info/PKG-INFO
+lightseeq.egg-info/SOURCES.txt
+lightseeq.egg-info/dependency_links.txt
+lightseeq.egg-info/requires.txt
+lightseeq.egg-info/top_level.txt
