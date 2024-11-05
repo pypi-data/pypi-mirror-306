@@ -1,0 +1,2 @@
+[console_scripts]
+flarch = flarch.cli:main
