@@ -1,0 +1,2 @@
+[console_scripts]
+tnu = name_register:main
