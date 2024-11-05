@@ -1,0 +1,2 @@
+[console_scripts]
+rpm_ai = rpm.cli:main
