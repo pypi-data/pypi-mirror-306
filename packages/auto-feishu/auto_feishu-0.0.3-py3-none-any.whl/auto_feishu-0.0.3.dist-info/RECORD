@@ -1,0 +1,12 @@
+feishu/__init__.py,sha256=DZLWR9f6fjQ_F8mhreyASopNoBlV-XHxofaKbPoMRd4,379
+feishu/approval.py,sha256=sKrR6lxqn2gY7cuJxKG3ZQyGFhbOvb6RNjsKurwS_Tg,9210
+feishu/client.py,sha256=Ejf6vQXHL2zf_5LKeTv_7vVadt1uTiW_O219u6HDv3Q,2457
+feishu/contact.py,sha256=AiIbeDA_XovKgK74GDBv0kffxtBr2bbncMpzHGZq7Fw,2940
+feishu/messages.py,sha256=WV4dQmurFAnJJLyBDvo2mb0gy1wSX7_2dNnx0kG2jB0,5962
+feishu/spread_sheet.py,sha256=XnRyWCXBZELgiFk6gtTUn9pqjBBsCjdeUrn5v2h5fz8,5225
+feishu/models/approval.py,sha256=qnUJ6G_KTohs-ZAGerxXEeA52d1DhpeNLJmpPcSTbM8,4054
+auto_feishu-0.0.3.dist-info/LICENSE,sha256=-8o3xm0gDeTy_npSRvBsoHExtuiicifVKBhZbWYy92Y,1063
+auto_feishu-0.0.3.dist-info/METADATA,sha256=HZXy33WE3gW5o_X6YUSoIg7O8yXnx2RWncgm9yU8yLQ,1325
+auto_feishu-0.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+auto_feishu-0.0.3.dist-info/top_level.txt,sha256=KKWOQWr2ghDZmczb505F0W1gwLp501axloxnrDHMGG4,7
+auto_feishu-0.0.3.dist-info/RECORD,,
