@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+module_tp/__init__.py
+module_tp/module_tp.py
+module_tp.egg-info/PKG-INFO
+module_tp.egg-info/SOURCES.txt
+module_tp.egg-info/dependency_links.txt
+module_tp.egg-info/top_level.txt
