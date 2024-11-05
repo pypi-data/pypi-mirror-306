@@ -1,0 +1,2 @@
+[console_scripts]
+hom = name_register:main
