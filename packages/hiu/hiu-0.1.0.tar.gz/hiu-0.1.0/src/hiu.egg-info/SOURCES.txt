@@ -1,0 +1,6 @@
+setup.py
+src/hiu.egg-info/PKG-INFO
+src/hiu.egg-info/SOURCES.txt
+src/hiu.egg-info/dependency_links.txt
+src/hiu.egg-info/entry_points.txt
+src/hiu.egg-info/top_level.txt
