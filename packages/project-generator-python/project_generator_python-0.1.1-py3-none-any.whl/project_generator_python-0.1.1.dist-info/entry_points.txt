@@ -1,0 +1,2 @@
+[console_scripts]
+create-project = python_generator.cli:main
