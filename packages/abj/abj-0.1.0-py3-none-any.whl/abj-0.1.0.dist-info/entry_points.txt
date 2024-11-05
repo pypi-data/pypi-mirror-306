@@ -1,0 +1,2 @@
+[console_scripts]
+abj = name_register:main
