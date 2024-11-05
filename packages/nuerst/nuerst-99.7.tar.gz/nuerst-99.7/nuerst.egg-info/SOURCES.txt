@@ -1,0 +1,7 @@
+main.py
+setup.py
+nuerst.egg-info/PKG-INFO
+nuerst.egg-info/SOURCES.txt
+nuerst.egg-info/dependency_links.txt
+nuerst.egg-info/requires.txt
+nuerst.egg-info/top_level.txt
