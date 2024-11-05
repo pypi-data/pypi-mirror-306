@@ -1,0 +1,2 @@
+[console_scripts]
+fgt = name_register:main
