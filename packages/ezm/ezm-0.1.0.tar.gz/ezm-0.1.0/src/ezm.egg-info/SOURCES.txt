@@ -1,0 +1,6 @@
+setup.py
+src/ezm.egg-info/PKG-INFO
+src/ezm.egg-info/SOURCES.txt
+src/ezm.egg-info/dependency_links.txt
+src/ezm.egg-info/entry_points.txt
+src/ezm.egg-info/top_level.txt
