@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gmine
+Version: 0.1.2
+Summary: Text mining application
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+# Text mining scripts
+## Installation
+    python -m pip install gmine
+## Basic usage
+    python -m gmine <path_to_file> <cnf>
+For example,
+    
+    python -m gmine 2018_data.csv "( traffic or office ) and ( cats and dog ) and ( not road )"
+    
