@@ -1,0 +1,6 @@
+setup.py
+src/aaz.egg-info/PKG-INFO
+src/aaz.egg-info/SOURCES.txt
+src/aaz.egg-info/dependency_links.txt
+src/aaz.egg-info/entry_points.txt
+src/aaz.egg-info/top_level.txt
