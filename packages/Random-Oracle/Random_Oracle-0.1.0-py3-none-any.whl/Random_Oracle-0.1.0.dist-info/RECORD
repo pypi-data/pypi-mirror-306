@@ -1,0 +1,12 @@
+oracle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oracle/cli.py,sha256=80MOZm0f_4GOy9P81AmROtj5K0qD7TaIb3AU_URX1KE,1699
+oracle/eight_ball.py,sha256=2d9umEKY5DkYJXxBcYWak9GpeTDKvYw4M0L6osAQUPw,751
+oracle/fortune_cookie.py,sha256=Gu4uDzcpKGlyf6ZEQjmHIs5ZjrfgdJ0ZS8l-hnBnHik,418
+oracle/petting_zoo.py,sha256=bRO5Y1b0WkCu6YrneyROxGIEKn-Xz_JTsQzY9L4XPWQ,863
+oracle/vibe_check.py,sha256=NY7AjU44aDD1bNJaYlzG_J7QApBuENClXtc31fjI6Cs,725
+Random_Oracle-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+Random_Oracle-0.1.0.dist-info/METADATA,sha256=oMEjp3eCeLgQ7aAxcYdAaxHOTbpU3yzz_ISDQjnX9rc,45882
+Random_Oracle-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+Random_Oracle-0.1.0.dist-info/entry_points.txt,sha256=5srW0Gw5TicNB4qF_MxIfFirCWHlP0EfrCKIqqZTffc,43
+Random_Oracle-0.1.0.dist-info/top_level.txt,sha256=O1SF3QkJ2zaSLs2FePGNoRlUgQ5jWC8wLBCIGsXEdTQ,7
+Random_Oracle-0.1.0.dist-info/RECORD,,
