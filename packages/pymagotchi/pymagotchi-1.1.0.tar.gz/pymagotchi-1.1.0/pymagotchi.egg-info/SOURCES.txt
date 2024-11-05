@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+pymagotchi/__init__.py
+pymagotchi/__main__.py
+pymagotchi/constants.py
+pymagotchi/names.py
+pymagotchi/pet.py
+pymagotchi.egg-info/PKG-INFO
+pymagotchi.egg-info/SOURCES.txt
+pymagotchi.egg-info/dependency_links.txt
+pymagotchi.egg-info/entry_points.txt
+pymagotchi.egg-info/requires.txt
+pymagotchi.egg-info/top_level.txt
+tests/test_pet.py

@@ -1,0 +1,2 @@
+[console_scripts]
+pymagotchi = pymagotchi.__main__:main
