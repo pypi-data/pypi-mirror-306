@@ -1,0 +1,2 @@
+[console_scripts]
+fgo = name_register:main
