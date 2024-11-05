@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: clig
+Version: 0.0.0
+Summary: Command Line Interface Generator
+Project-URL: Documentation, https://github.com/Diogo-Rossi/clig
+Project-URL: Issues, https://github.com/Diogo-Rossi/clig/issues
+Project-URL: Source, https://github.com/Diogo-Rossi/clig
+Author-email: Diogo Rossi <rossi.diogo@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# clig
+
+**Command Line Interface Generator**
+
+<!-- [![PyPI - Version](https://img.shields.io/pypi/v/clig.svg)](https://pypi.org/project/clig) -->
+<!-- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/clig.svg)](https://pypi.org/project/clig) -->
+
+---
+
+<!-- ## Table of Contents
+
+- [clig](#clig)
+    - [Table of Contents](#table-of-contents)
+    - [Installation](#installation)
+    - [License](#license) -->
+
+## Installation
+
+```console
+pip install clig
+```
+
+## License
+
+`clig` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
