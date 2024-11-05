@@ -1,0 +1,14 @@
+pdcom5-5.3.1.dist-info/WHEEL,sha256=59VeCr0g8xTa26GckDx8zE6Sc-OakRPcXjj687wzlSY,113
+pdcom5-5.3.1.dist-info/METADATA,sha256=Tvyo1ErwSh4527sEB2rL02GPmE3nk9f_3Y61kVBNOF0,5707
+pdcom5-5.3.1.dist-info/top_level.txt,sha256=c-VYZprjMdvrN4ZuMSvpUtHffzU_4en_OHU-FNb22Ds,7
+pdcom5-5.3.1.dist-info/RECORD,,
+pdcom5.libs/libpdcom5-sasl-0e9e0846.so.2.3.1,sha256=zDaKhlstuHk_f6MJCr4XreP18FwhdghQvDtXXmvhexc,248001
+pdcom5.libs/libcrypt-87669276.so.2.0.0,sha256=BeC2Qii3h5qoY33Sn_mIn3cPZogGEChe-UGuaJQ0188,566113
+pdcom5.libs/libcrypto-7a28c9b4.so.3,sha256=hniZ_Zx8855-TDuloMgkW8_XZS8v2ToebYuedouE0W0,3547001
+pdcom5.libs/libpdcom5-996c0a93.so.2.3.1,sha256=6NYfglZEmZfLKJfu6a1AmDTPiyRymcD-RTNR6X5gHOc,369929
+pdcom5/_PdComWrapper.cpython-312-arm-linux-gnueabihf.so,sha256=-EykgYhYzuHSnnrmy9K-78J-belFmaws1j1ZhVfdiiA,546645
+pdcom5/Process.py,sha256=T7EZ3TutAMqaQOqnuGsWd89QOC1g3jTi1eyxuUNCao0,18252
+pdcom5/Variable.py,sha256=l3hx_yGau9Yz6c-SKOiSOg90AgtlGeCmqB037CCU7tg,5473
+pdcom5/__init__.py,sha256=Dts2t59bDKlc8bmGu36NspWx6Mxf7jJK7wH-mo2lUVg,1926
+pdcom5/LoginManager.py,sha256=atENXL6YK5Ju8U6q2h9GXl1yaje2Cn3yEhH2oGr2G7E,2105
+pdcom5/Subscription.py,sha256=LrYNRGedIqO6Xh7FffsnzBq01Ad8RYwVAn2FP0XzKmI,13703
