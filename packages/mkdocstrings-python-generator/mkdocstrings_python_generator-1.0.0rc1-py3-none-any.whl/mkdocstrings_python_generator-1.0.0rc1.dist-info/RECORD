@@ -1,0 +1,11 @@
+mkdocstrings_python_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocstrings_python_generator/config.py,sha256=gKMC_depVe4MfmhjwrvJuSZF92K0sN4znDT_YuB7wWg,786
+mkdocstrings_python_generator/files_generator.py,sha256=xL9lyLTWicpKOXzS4fVeJI-sOUMGv1q3mM0--knlRAg,4757
+mkdocstrings_python_generator/nav_util.py,sha256=MQTW7C4SptAVypomdqHHX9zcbPQfX9PixaeMTTjFLaM,5072
+mkdocstrings_python_generator/plugin.py,sha256=hYQXswbpbVkG-_6fGVxkwSu5FAVoHwwBSkd2ptQ94JI,5819
+mkdocstrings_python_generator/reference_data.py,sha256=Xzett_gsOkGQ1to6QrdMGdPT94cDvtlsiZxushW_jKY,2222
+mkdocstrings_python_generator-1.0.0rc1.dist-info/LICENCE.md,sha256=vRST4VTS-OOru8L74lyEd6RfixZMk51gDqD_-yzXqhk,746
+mkdocstrings_python_generator-1.0.0rc1.dist-info/METADATA,sha256=Nr6beDqfaic1ouyhz90Qtxdy8gpQN8HKaiS0AmxUthY,2295
+mkdocstrings_python_generator-1.0.0rc1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+mkdocstrings_python_generator-1.0.0rc1.dist-info/entry_points.txt,sha256=yhWJTWYp4vjEdJe5jE7GKpky7bdJMhQr18xnBfV4vzw,104
+mkdocstrings_python_generator-1.0.0rc1.dist-info/RECORD,,
