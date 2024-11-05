@@ -1,0 +1,9 @@
+cxx_image_io/cxx_image.cpython-312-darwin.so,sha256=rYq7AuGOqqqjynAkxY5Gxq4648IpNzpL2KRsp5usOXM,6851128
+cxx_image_io/io.py,sha256=g0Dx8mnqSPNx5utYSs4RYL5gUvHRC7TPj7bmFuRkr-I,6760
+cxx_image_io/__init__.py,sha256=bibMe2owZfRGohO8c-ywh_lTlseLZPWQOkkO63Wug2c,683
+cxx_image_io/utils.py,sha256=JfATgISQoNu-GUewSOhSFFY64_mps-31ExRmk6FK38E,12586
+cxx_image_io-0.1.0.dist-info/LICENSE.md,sha256=1Gia5hRf-t1MQ-ItXN9A71iYMJh-QAlkqw5pckPuZoc,1073
+cxx_image_io-0.1.0.dist-info/RECORD,,
+cxx_image_io-0.1.0.dist-info/WHEEL,sha256=fNMLkUWudtUyVfejKo-M5ilCj0IXTHho3UK8Vt8rxXQ,110
+cxx_image_io-0.1.0.dist-info/top_level.txt,sha256=qfJHhjlSV-6njNwlUODGXv8V6CNBhvGOjZQShPnbsBQ,23
+cxx_image_io-0.1.0.dist-info/METADATA,sha256=uaj6x98KZ7IC0S6b0wmufBpmYBm1mr4jN0UJbki4qLQ,9571
