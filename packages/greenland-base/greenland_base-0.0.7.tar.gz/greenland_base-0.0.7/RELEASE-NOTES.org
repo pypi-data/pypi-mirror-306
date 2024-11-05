@@ -1,0 +1,13 @@
+* Release Notes for greenland-base
+:PROPERTIES:
+:ROAM_ALIASES: greenland/greenland-base/RELEASE-NOTES
+:CREATED:  [2024-10-04 Fri]
+:ID:       greenland/greenland-base/RELEASE-NOTES
+:END:
+
+- 0.0.5 [[file:notes/release/instance-based-enums.org][Instance Based Enums (greenland-base Release Note)]]
+
+* # :ARCHIVE:noexport:
+#+SETUPFILE: .setup.org
+#+OPTIONS:   ^:nil
+#+FILETAGS:  2024 greenland greenland-base

@@ -1,0 +1,20 @@
+\begin{sphinxtheindex}
+\let\bigletter\sphinxstyleindexlettergroup
+\let\spxpagem \sphinxstyleindexpagemain
+\let\spxentry \sphinxstyleindexentry
+\let\spxextra \sphinxstyleindexextra
+
+  \bigletter E
+  \item \spxentry{Enum}\spxextra{class in greenland.base.enums}, \hyperpage{1}
+
+  \indexspace
+  \bigletter G
+  \item \spxentry{greenland.base.enums}
+    \subitem \spxentry{module}, \hyperpage{1}
+
+  \indexspace
+  \bigletter M
+  \item \spxentry{module}
+    \subitem \spxentry{greenland.base.enums}, \hyperpage{1}
+
+\end{sphinxtheindex}

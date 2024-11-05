@@ -1,0 +1,212 @@
+#
+# greenland-base/pyproject.toml -- Project definition
+# Copyright (C) 2024  M E Leypold
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "greenland-base"
+dynamic = ["version"]
+description = 'Basic types and algorithms for greenland'
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "GPL-3.0-or-later"}
+keywords = []
+author  = {text = "M E Leypold"}
+authors = [
+   { name = "M E Leypold" },
+   { name = "M E Leypold", email = "pythonista-4sda212@m-e-leypold.de"}
+]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+# Note: Cannot support 3.8, currently, because functools.totalordring
+# does not work on metaclasses. See comment in
+# src/greenland/base/enums.py.
+
+dependencies = ['docopt-ng', 'packaging']
+
+[project.urls]
+Homepage = "https://codeberg.org/m-e-leypold/greenland-base"
+Documentation = "https://codeberg.org/m-e-leypold/greenland-base#readme"
+Issues = "https://codeberg.org/m-e-leypold/greenland-base/issues"
+Source = "https://codeberg.org/m-e-leypold/greenland-base"
+
+[project.scripts]
+# greenland-base = "greenland.base.bin.greenland_base:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/greenland"]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+  "/docs",
+  "*~",
+  "__pycache__",
+  "/.coverage",
+  "/.coverage*",
+  "/.gitignore",
+  "/.build",
+  "/.devscripts",
+  "/Makefile",
+  "/pkg",
+  "/dist"
+]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "src/greenland/base/__version__.py"
+template = """
+version = {version!r}
+version_tuple = {version_tuple!r}
+"""
+
+[[tool.hatch.envs.hatch-test.matrix]]
+python = ["3.12", "3.11", "3.10", "3.9", "pypy3.10", "pypy3.9"]
+
+[tool.hatch.envs.check]
+extra-dependencies = [
+  "flake8",
+  "mypy>=1.0.0",
+  "sphinx",
+  "literate-sphinx",
+  "pytest",
+  "coverage",
+  "coverage-threshold",
+  "pytest-json-report"
+]
+
+
+[tool.hatch.envs.check.scripts]
+tangle     = 'cd doc && SPHINXOPTS={env:SPHINX_ARGS:} make tangle && cd ..'
+run_flake8 = "flake8 {env:FLAKE8_ARGS:} {args:src/greenland/base tests doc/_build/tangle}"
+style      = ["tangle", "run_flake8"]
+run_mypy   = "MYPYPATH=src mypy --namespace-packages --explicit-package-bases --install-types --non-interactive {args:src/greenland/base tests doc/_build/tangle}"
+types      = ["tangle", "run_mypy"]
+run_pytest = "pytest --json-report --json-report-file='.build/tests/{env:HATCH_ENV_ACTIVE:default}.results.json' {args}"
+function   = ["tangle", "run_pytest"]
+all        = ["tangle", "run_pytest", "run_mypy", "run_flake8"]
+docs       = ["tangle", "pytest doc/_build/tangle"]
+clean      = ["rm -f .coverage", "rm -rf .build", "rm -rf doc/_build"]
+
+cov-prepare = ["tangle", "rm -rf .build/coverage"]
+
+cov         = [
+   	    "cov-prepare",
+	    "coverage run -m pytest{env:HATCH_TEST_ARGS:} --json-report --json-report-file='.build/tests/{env:HATCH_ENV_ACTIVE:default}.results.json' {args}",
+	    "cov-combine"
+	    ]
+
+cov-combine = [
+	    "coverage combine",
+ 	    "mkdir -p .build/coverage",
+	    "cp .coverage .build/coverage/total",
+	    "coverage xml  --data-file=.build/coverage/total -o .build/coverage/total.xml",
+	    "coverage json --data-file=.build/coverage/total -o .build/coverage/total.json"
+	    ]
+
+cov-report = ["coverage report", "coverage-threshold --config coverage.toml --coverage-json .build/coverage/total.json"]
+
+
+[tool.hatch.envs.hatch-test.scripts]
+
+tangle      = 'cd doc && COVERAGE_PROCESS_START= COVERAGE_RCFILE= SPHINXOPTS={env:SPHINX_ARGS:} make tangle'
+
+run         = ["tangle", "pytest{env:HATCH_TEST_ARGS:} --json-report --json-report-file='.build/tests/{env:HATCH_ENV_ACTIVE:default}.results.json' {args}"]
+
+cov-prepare = ["tangle", "rm -rf .build/coverage"]
+
+run-cov     = [
+   	    "cov-prepare",
+	    "coverage run -m pytest{env:HATCH_TEST_ARGS:} --json-report --json-report-file='.build/tests/{env:HATCH_ENV_ACTIVE:default}.results.json' {args}"
+	    ]
+
+cov-combine = [
+	    "coverage combine",
+ 	    "mkdir -p .build/coverage",
+	    "cp .coverage .build/coverage/total",
+	    "coverage xml  --data-file=.build/coverage/total -o .build/coverage/total.xml",
+	    "coverage json --data-file=.build/coverage/total -o .build/coverage/total.json"
+	    ]
+
+cov-report  = ["coverage report", "coverage-threshold --config coverage.toml --coverage-json .build/coverage/total.json"]
+
+# TODO: Use coverage-threshold to enforce file coverage, see https://github.com/DeanWay/coverage-threshold
+# TODO: Also squirrel away the coverage files + combine them
+
+[tool.hatch.envs.hatch-test]
+default-args = ["tests", "src", "doc/_build/tangle"]
+# default-args = ["tests"]
+# extra-args   = ["--json-report", "--json-report-file={env:HATCH_ENV_ACTIVE:default}.json"]
+extra-dependencies = [
+  "pytest-json-report",
+  "sphinx",
+  "literate-sphinx",
+  "coverage",
+  "coverage-threshold"
+  # "pyfakefs",
+  # "pytest-asyncio",
+  # "pytest-benchmark",
+  # "pytest-memray",
+  # "pytest-playwright",
+  # "pytest-print",
+]
+
+
+[tool.coverage.run]
+source_pkgs = ["greenland.base", "tests"]
+branch = true
+parallel = true
+
+[tool.coverage.paths]
+greenland_base = ["src/greenland/base", "*/greenland-base/src/greenland/base"]
+tests = ["tests", "*/greenland-base/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+
+[tool.pytest.ini_options]
+markers = [
+    "slow:  marks tests as slow (deselect with '-m \"not slow\"')",
+    "smoke: marks tests as fast smoke tests (select with '-m \"smoke\"')",
+]
+
+python_files = ["test_*.py", "example_*.py", "*-example.py", "*-example.py"]
+
+[tool.mypy]
+exclude = [
+	".*-typing-failure[0-9]*[-.]*"
+]

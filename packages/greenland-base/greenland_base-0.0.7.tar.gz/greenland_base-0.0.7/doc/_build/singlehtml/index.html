@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>greenland-base 0.0.6 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="greenland-base-documentation">
+<h1>greenland-base documentation<a class="headerlink" href="#greenland-base-documentation" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<span id="document-enums"></span><section id="module-greenland-base-enums">
+<h2>Module <cite>greenland.base.enums</cite><a class="headerlink" href="#module-greenland-base-enums" title="Link to this heading">¶</a></h2>
+<p id="module-greenland.base.enums">Provides an enumeration (Enum) type as python objects.</p>
+<p>The way programming languages handle “enums” — a small set of
+discrete objects belonging together, like primary colors or days of
+the week – is often influenced by the capabilities of the programming
+language whithin which such a facility exists. Very often the emphasis
+is on providing names (identifiers) for integers as if the central
+semantics of e.g. a weekday is it being a number. Enums in C certainly
+work like this.</p>
+<p>One unfortunate consequence of these types of design decisions is,
+that it is difficult to express in type annotations that a certain
+parameter should only take members of a specific enum. The conclusion
+we must draw is, that it is desirable that enum types correspond to
+classes and that the enum members are instances of those classes, so
+it is possible to express the following:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="n">day</span><span class="p">:</span> <span class="n">Weekday</span><span class="p">):</span>
+    <span class="o">...</span>
+</pre></div>
+</div>
+<p>The built-in enums of <em>Python</em> work like this already.  The author of
+this package also became (admittedly) aware of the built-in enums too
+late, so went down a slightly different (but possibly simpler) path.</p>
+<p>This package provides enums as a type where the enumeration type is a
+class (almost like any other) which only has a finite, explicitely
+specified number of instances (the members) and where the enum member
+can be enriched with almost any kind of additional behaviour.</p>
+<section id="constructing-enum-types-with-enum">
+<h3>Constructing enum types with <a class="reference internal" href="#greenland.base.enums.Enum" title="greenland.base.enums.Enum"><code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></a><a class="headerlink" href="#constructing-enum-types-with-enum" title="Link to this heading">¶</a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="greenland.base.enums.Enum">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Enum</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name_or_ord</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ord</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#greenland.base.enums.Enum" title="Link to this definition">¶</a></dt>
+<dd><p>The super class of all enum types (= classes).</p>
+<p>Enum types are created by deriving from <a class="reference internal" href="#greenland.base.enums.Enum" title="greenland.base.enums.Enum"><code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></a>. Members
+are added by calling the constructor and assigning to an
+identifier in the same namespace as the class definition before
+calling <code class="xref py py-meth docutils literal notranslate"><span class="pre">finalize()</span></code>.</p>
+<p>After <code class="xref py py-meth docutils literal notranslate"><span class="pre">finalize()</span></code>, the constructor will just either
+return a previously existing member of the enum type or raise a
+<code class="xref py py-class docutils literal notranslate"><span class="pre">ParseError</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name_or_ord</strong> (<em>str</em><em> | </em><em>int</em>) – Before finalizing the enum type only the name of
+the enum member — a <code class="docutils literal notranslate"><span class="pre">str</span></code> – is allowed here. After
+finalization both a <code class="docutils literal notranslate"><span class="pre">str</span></code> and a <code class="docutils literal notranslate"><span class="pre">int</span></code> here are allowed and
+do not construct a new member, but rather retrieve a member of
+the give <em>name</em> or <em>ord</em> respectively. A
+<code class="xref py py-class docutils literal notranslate"><span class="pre">ParseError</span></code> will be raised if such a member does
+not exist.</p></li>
+<li><p><strong>ord</strong> (<em>int</em><em> | </em><em>None</em>) – Before finalizing the the enum type an optional <code class="docutils literal notranslate"><span class="pre">ord</span></code>
+integer for the member. After finalization this argument must
+not be given.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">Define enum type and members:</span><a class="headerlink" href="#id1" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">greenland.base.enums</span> <span class="kn">import</span> <span class="n">Enum</span>
+
+
+<span class="k">class</span> <span class="nc">Direction</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="k">pass</span>
+
+
+<span class="n">NORTH</span>  <span class="o">=</span> <span class="n">Direction</span><span class="p">(</span><span class="s1">&#39;NORTH&#39;</span><span class="p">)</span>
+<span class="n">EAST</span> <span class="o">=</span> <span class="n">Direction</span><span class="p">(</span><span class="s1">&#39;EAST&#39;</span><span class="p">)</span>
+<span class="n">SOUTH</span> <span class="o">=</span> <span class="n">Direction</span><span class="p">(</span><span class="s1">&#39;SOUTH&#39;</span><span class="p">)</span>
+<span class="n">WEST</span> <span class="o">=</span> <span class="n">Direction</span><span class="p">(</span><span class="s1">&#39;WEST&#39;</span><span class="p">)</span>
+
+<span class="n">Direction</span><span class="o">.</span><span class="n">finalize</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<p><code class="xref py py-meth docutils literal notranslate"><span class="pre">finalize()</span></code> will actually do two things:</p>
+<ul class="simple">
+<li><p>Lock the type so that further calls to the constructor result either
+in retrieval of an already defined member or in raising a
+<code class="xref py py-class docutils literal notranslate"><span class="pre">ParseError</span></code> if no such member exists.</p></li>
+<li><p>Check if all members have been bound to names in the same namespace
+where the enum class has been defined.</p></li>
+</ul>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id2">
+<div class="code-block-caption"><span class="caption-text">Behavior after finalization:</span><a class="headerlink" href="#id2" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">assert</span> <span class="n">Direction</span><span class="p">(</span><span class="s1">&#39;SOUTH&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="n">SOUTH</span>
+
+<span class="k">with</span> <span class="n">pytest</span><span class="o">.</span><span class="n">raises</span><span class="p">(</span><span class="ne">AssertionError</span><span class="p">):</span>
+    <span class="n">_</span> <span class="o">=</span> <span class="n">Direction</span><span class="p">(</span><span class="s1">&#39;FOO&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<p>Typically enums are global types. I cannot currently see (except for
+testing purposes) much of an application for defining an enum in a
+local namespace.</p>
+<p>Regardless, if one desires to do so, this is possible, but
+<code class="xref py py-meth docutils literal notranslate"><span class="pre">finalize()</span></code> needs to be called with <code class="code highlight py-code python docutils literal highlight-python"><span class="nb">locals</span><span class="p">()</span></code>:</p>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id3">
+<div class="code-block-caption"><span class="caption-text">Local enum definition:</span><a class="headerlink" href="#id3" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Turn</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="k">pass</span>
+
+<span class="n">LEFT</span> <span class="o">=</span> <span class="n">Turn</span><span class="p">(</span><span class="s1">&#39;LEFT&#39;</span><span class="p">)</span>
+<span class="n">RIGHT</span> <span class="o">=</span> <span class="n">Turn</span><span class="p">(</span><span class="s1">&#39;RIGHT&#39;</span><span class="p">)</span>
+
+<span class="n">Turn</span><span class="o">.</span><span class="n">finalize</span><span class="p">(</span><span class="nb">locals</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+<section id="membership">
+<h4>Membership<a class="headerlink" href="#membership" title="Link to this heading">¶</a></h4>
+<p>Membership (if a value is a member of an enum) can be tested using the
+operator <em>in</em> or using <em>isinstance</em>.</p>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id4">
+<div class="code-block-caption"><span class="caption-text">Testing membership:</span><a class="headerlink" href="#id4" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">assert</span> <span class="n">SOUTH</span> <span class="ow">in</span> <span class="n">Direction</span>
+<span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">SOUTH</span><span class="p">,</span> <span class="n">Direction</span><span class="p">)</span>
+
+<span class="n">thing</span> <span class="o">=</span> <span class="nb">object</span><span class="p">()</span>
+
+<span class="k">assert</span> <span class="n">thing</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">Direction</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="iteration">
+<h4>Iteration<a class="headerlink" href="#iteration" title="Link to this heading">¶</a></h4>
+<p>The members of an enum type can be iterated over with the operator
+<em>in</em>. The order in which the members are provided by the iterator is
+the order of definition.</p>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id5">
+<div class="code-block-caption"><span class="caption-text">Iterate over enum members:</span><a class="headerlink" href="#id5" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">members</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">member</span> <span class="ow">in</span> <span class="n">Direction</span><span class="p">:</span>
+    <span class="n">members</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">member</span><span class="p">)</span>
+
+<span class="k">assert</span> <span class="n">members</span> <span class="o">==</span> <span class="p">[</span><span class="n">NORTH</span><span class="p">,</span> <span class="n">EAST</span><span class="p">,</span> <span class="n">SOUTH</span><span class="p">,</span> <span class="n">WEST</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<p>An iterator can also be explicitely obtained using the property
+<code class="xref py py-attr docutils literal notranslate"><span class="pre">member</span></code>.</p>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id6">
+<div class="code-block-caption"><span class="caption-text">Iterate over enum members with the property ‘members’:</span><a class="headerlink" href="#id6" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">members</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">member</span> <span class="ow">in</span> <span class="n">Direction</span><span class="o">.</span><span class="n">members</span><span class="p">:</span>
+    <span class="n">members</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">member</span><span class="p">)</span>
+
+<span class="k">assert</span> <span class="n">members</span> <span class="o">==</span> <span class="p">[</span><span class="n">NORTH</span><span class="p">,</span> <span class="n">EAST</span><span class="p">,</span> <span class="n">SOUTH</span><span class="p">,</span> <span class="n">WEST</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="sort-order">
+<h4>Sort order<a class="headerlink" href="#sort-order" title="Link to this heading">¶</a></h4>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id7">
+<div class="code-block-caption"><span class="caption-text">Default ordering:</span><a class="headerlink" href="#id7" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">assert</span> <span class="n">NORTH</span> <span class="o">&lt;</span> <span class="n">SOUTH</span>
+<span class="k">assert</span> <span class="ow">not</span> <span class="n">NORTH</span> <span class="o">&gt;</span> <span class="n">SOUTH</span>
+<span class="k">assert</span> <span class="n">EAST</span>  <span class="o">&gt;</span> <span class="n">NORTH</span>
+<span class="k">assert</span> <span class="ow">not</span> <span class="n">EAST</span> <span class="o">&lt;</span> <span class="n">NORTH</span>
+<span class="k">assert</span> <span class="n">EAST</span> <span class="o">!=</span> <span class="n">NORTH</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="conversion-to-and-from-numbers">
+<h4>Conversion to and from numbers<a class="headerlink" href="#conversion-to-and-from-numbers" title="Link to this heading">¶</a></h4>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id8">
+<div class="code-block-caption"><span class="caption-text">Conversion to and from numbers:</span><a class="headerlink" href="#id8" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">assert</span> <span class="n">SOUTH</span><span class="o">.</span><span class="n">ord</span> <span class="o">==</span> <span class="mi">2</span>
+<span class="k">assert</span> <span class="nb">int</span><span class="p">(</span><span class="n">SOUTH</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span>
+<span class="k">assert</span> <span class="n">Direction</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="ow">is</span> <span class="n">SOUTH</span>
+<span class="k">assert</span> <span class="n">Direction</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="ow">is</span> <span class="n">SOUTH</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="conversion-to-and-from-strings">
+<h4>Conversion to and from strings<a class="headerlink" href="#conversion-to-and-from-strings" title="Link to this heading">¶</a></h4>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id9">
+<div class="code-block-caption"><span class="caption-text">Conversion to and from strings:</span><a class="headerlink" href="#id9" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">assert</span> <span class="nb">str</span><span class="p">(</span><span class="n">SOUTH</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;SOUTH&#39;</span>
+<span class="k">assert</span> <span class="nb">repr</span><span class="p">(</span><span class="n">SOUTH</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;SOUTH&#39;</span>
+<span class="k">assert</span> <span class="n">Direction</span><span class="p">(</span><span class="s1">&#39;SOUTH&#39;</span><span class="p">)</span> <span class="ow">is</span> <span class="n">SOUTH</span>
+<span class="k">assert</span> <span class="n">Direction</span><span class="p">[</span><span class="s1">&#39;SOUTH&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="n">SOUTH</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="explicitely-specifying-ord">
+<h4>Explicitely specifying <cite>ord</cite><a class="headerlink" href="#explicitely-specifying-ord" title="Link to this heading">¶</a></h4>
+<p><code class="xref py py-meth docutils literal notranslate"><span class="pre">ord()</span></code> can be overridden in the default constructor with the
+keyword argument <code class="docutils literal notranslate"><span class="pre">ord</span></code>. It is possible to provide an own
+constructor, but it then should be considered whether and how to pass
+on <code class="docutils literal notranslate"><span class="pre">ord</span></code> to the super class <a class="reference internal" href="#greenland.base.enums.Enum" title="greenland.base.enums.Enum"><code class="xref py py-class docutils literal notranslate"><span class="pre">Enum</span></code></a>.</p>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id10">
+<div class="code-block-caption"><span class="caption-text">Explicitely specifying ord:</span><a class="headerlink" href="#id10" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Quartett</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="k">pass</span>
+
+<span class="n">ONE</span> <span class="o">=</span> <span class="n">Quartett</span><span class="p">(</span><span class="s1">&#39;ONE&#39;</span><span class="p">)</span>                <span class="c1"># automatic ord = 0</span>
+<span class="n">TWO</span> <span class="o">=</span> <span class="n">Quartett</span><span class="p">(</span><span class="s1">&#39;TWO&#39;</span><span class="p">,</span> <span class="nb">ord</span> <span class="o">=</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">THREE</span> <span class="o">=</span> <span class="n">Quartett</span><span class="p">(</span><span class="s1">&#39;THREE&#39;</span><span class="p">)</span>            <span class="c1"># automatic ord = 101</span>
+<span class="n">FOUR</span> <span class="o">=</span> <span class="n">Quartett</span><span class="p">(</span><span class="s1">&#39;FOUR&#39;</span><span class="p">,</span> <span class="nb">ord</span> <span class="o">=</span> <span class="mi">50</span><span class="p">)</span>
+
+<span class="n">Quartett</span><span class="o">.</span><span class="n">finalize</span><span class="p">(</span><span class="nb">locals</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+<p>Those members where <code class="docutils literal notranslate"><span class="pre">ord</span></code> is specified get the desired
+<code class="xref py py-attr docutils literal notranslate"><span class="pre">ord</span></code>, but will raise an assertion if the ord value already
+exists. Where no <code class="docutils literal notranslate"><span class="pre">ord</span></code> is specified, an <code class="xref py py-attr docutils literal notranslate"><span class="pre">ord</span></code> value (one)
+larger than all <code class="xref py py-attr docutils literal notranslate"><span class="pre">ord</span></code> values of the members existing so far
+is chosen automatically. This algorithm has the advantage of
+preserving the definition order in the sort order as far as possible,
+but avoids unwelcome surprises.</p>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id11">
+<div class="code-block-caption"><span class="caption-text">Overridden ord values:</span><a class="headerlink" href="#id11" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">assert</span> <span class="n">ONE</span><span class="o">.</span><span class="n">ord</span> <span class="o">==</span> <span class="mi">0</span>
+<span class="k">assert</span> <span class="n">TWO</span><span class="o">.</span><span class="n">ord</span> <span class="o">==</span> <span class="mi">100</span>
+<span class="k">assert</span> <span class="n">THREE</span><span class="o">.</span><span class="n">ord</span> <span class="o">==</span> <span class="mi">101</span>
+<span class="k">assert</span> <span class="n">FOUR</span><span class="o">.</span><span class="n">ord</span> <span class="o">==</span> <span class="mi">50</span>
+</pre></div>
+</div>
+</div>
+<p>The sort order is defined by the <code class="xref py py-attr docutils literal notranslate"><span class="pre">ord</span></code> attribute of the enum
+members.</p>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id12">
+<div class="code-block-caption"><span class="caption-text">Sort order when overriding ord:</span><a class="headerlink" href="#id12" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">assert</span> <span class="n">FOUR</span> <span class="o">&lt;</span> <span class="n">THREE</span>
+<span class="k">assert</span> <span class="n">FOUR</span> <span class="o">&lt;</span> <span class="n">TWO</span>
+</pre></div>
+</div>
+</div>
+<p>Whereas the iteration order is always the order in which the members where defined.</p>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id13">
+<div class="code-block-caption"><span class="caption-text">Unchanged iteration order when overriding ord:</span><a class="headerlink" href="#id13" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">assert</span> <span class="nb">list</span><span class="p">(</span><span class="n">Quartett</span><span class="o">.</span><span class="n">members</span><span class="p">)</span> <span class="o">==</span> <span class="p">[</span>
+    <span class="n">ONE</span><span class="p">,</span> <span class="n">TWO</span><span class="p">,</span> <span class="n">THREE</span><span class="p">,</span> <span class="n">FOUR</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="attributes">
+<h4>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h4>
+<p>(TBD)</p>
+</section>
+<section id="typing">
+<h4>Typing<a class="headerlink" href="#typing" title="Link to this heading">¶</a></h4>
+<p>(TBD)</p>
+<div class="literal-block-wrapper literate-code-wrapper docutils container" id="id14">
+<div class="code-block-caption"><span class="caption-text">Typed function example:</span><a class="headerlink" href="#id14" title="Link to this code">¶</a></div>
+<div class="literate-code highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">print_direction</span><span class="p">(</span><span class="n">d</span><span class="p">:</span> <span class="n">Direction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+
+
+<span class="n">print_direction</span><span class="p">(</span><span class="n">NORTH</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</section>
+</section>
+<section id="example-s">
+<h3>Example(s)<a class="headerlink" href="#example-s" title="Link to this heading">¶</a></h3>
+<p>The complete code examples can be found in the file <em>enums-example.py</em>
+in the doc distribution archive or in <code class="docutils literal notranslate"><span class="pre">doc/_build/tangle</span></code> after
+building the documentation with <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">tangle</span></code>.</p>
+</section>
+<section id="comparison-to-built-in-enum">
+<h3>Comparison to built-in enum<a class="headerlink" href="#comparison-to-built-in-enum" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>TBD: More complicated</p></li>
+<li><p>TBD: Only a single construction parameter</p></li>
+</ul>
+</section>
+<section id="design-decisions-and-alternatives">
+<h3>Design decisions and alternatives<a class="headerlink" href="#design-decisions-and-alternatives" title="Link to this heading">¶</a></h3>
+<p>(TBD)</p>
+</section>
+</section>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">greenland-base</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="#document-enums">Module <cite>greenland.base.enums</cite></a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, M E Leypold.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

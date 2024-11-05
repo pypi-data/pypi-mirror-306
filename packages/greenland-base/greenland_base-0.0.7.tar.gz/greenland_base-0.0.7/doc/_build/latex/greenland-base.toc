@@ -1,0 +1,16 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Module \sphinxtitleref {greenland.base.enums}}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Constructing enum types with \sphinxstyleliteralintitle {\sphinxupquote {Enum}}}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Membership}{3}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Iteration}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Sort order}{4}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Conversion to and from numbers}{4}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Conversion to and from strings}{4}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.6}Explicitely specifying \sphinxtitleref {ord}}{4}{subsection.1.1.6}%
+\contentsline {subsection}{\numberline {1.1.7}Attributes}{5}{subsection.1.1.7}%
+\contentsline {subsection}{\numberline {1.1.8}Typing}{5}{subsection.1.1.8}%
+\contentsline {section}{\numberline {1.2}Example(s)}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Comparison to built\sphinxhyphen {}in enum}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Design decisions and alternatives}{6}{section.1.4}%
+\contentsline {chapter}{Python Module Index}{7}{section*.5}%
+\contentsline {chapter}{Index}{9}{section*.6}%
