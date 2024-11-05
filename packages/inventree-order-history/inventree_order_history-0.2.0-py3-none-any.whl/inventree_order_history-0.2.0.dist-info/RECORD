@@ -1,0 +1,13 @@
+order_history/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+order_history/core.py,sha256=k61MMQ7GX17OMXbHJjpDMyFdSfuqzG1UOb9mRLzYGCg,5309
+order_history/helpers.py,sha256=5ZDLJIqTM1yfqb0hjv3UuAHptaEtRMcSItvqMTCkVPc,1907
+order_history/serializers.py,sha256=J3yi3RE4a1a2ejCZsvtJUvPFVKYEgCMJ8GrIYMvgjlk,2687
+order_history/version.py,sha256=6rr8sDwOZaHJDUOiNd0icQrTaHhKdl4kLIWc4qX-er0,82
+order_history/views.py,sha256=oPGqvJgmInIrIctgGqoOnOsmtsKEg_5WWVRVIV1hCLY,10880
+order_history/static/OrderHistoryPanel.js,sha256=T1WqZmud5bBp00rto-04wt3OU2DxmkT-p2n_7mQRl2s,747914
+inventree_order_history-0.2.0.dist-info/LICENSE,sha256=2lQxDSrExUkl19nAdBFNKpkP89Ss_p4s1xJtrBoyH-g,1066
+inventree_order_history-0.2.0.dist-info/METADATA,sha256=LZY97TShU_kuV6O5Vi1iH2BB4UXzdi96I18HCbnKdis,2905
+inventree_order_history-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+inventree_order_history-0.2.0.dist-info/entry_points.txt,sha256=LIYj5X_o_pvgfXDpUl7jVlzsJLYtmjT71NJjtoeyz9o,79
+inventree_order_history-0.2.0.dist-info/top_level.txt,sha256=xpZOirJSiKX1TtbBbuUU7kZbcRavbCDytRByC2A0fy8,14
+inventree_order_history-0.2.0.dist-info/RECORD,,
