@@ -1,0 +1,3 @@
+[console_scripts]
+clickd-dev=clickd:dev
+
