@@ -1,0 +1,6 @@
+setup.py
+src/vma.egg-info/PKG-INFO
+src/vma.egg-info/SOURCES.txt
+src/vma.egg-info/dependency_links.txt
+src/vma.egg-info/entry_points.txt
+src/vma.egg-info/top_level.txt
