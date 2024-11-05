@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ViT/__init__.py
+ViT/train.py
+vision_transformer.egg-info/PKG-INFO
+vision_transformer.egg-info/SOURCES.txt
+vision_transformer.egg-info/dependency_links.txt
+vision_transformer.egg-info/requires.txt
+vision_transformer.egg-info/top_level.txt
