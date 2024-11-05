@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/Brainrot_Stocks.egg-info/PKG-INFO
+src/Brainrot_Stocks.egg-info/SOURCES.txt
+src/Brainrot_Stocks.egg-info/dependency_links.txt
+src/Brainrot_Stocks.egg-info/entry_points.txt
+src/Brainrot_Stocks.egg-info/requires.txt
+src/Brainrot_Stocks.egg-info/top_level.txt
+src/Financiers/__init__.py
+src/Financiers/quotes.py
+src/Financiers/stock.py
+tests/test_stock.py

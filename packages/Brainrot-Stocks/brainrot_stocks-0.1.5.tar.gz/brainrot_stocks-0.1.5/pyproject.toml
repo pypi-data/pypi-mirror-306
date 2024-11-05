@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Brainrot-Stocks"
+description = "Get stock data with unwanted brainrot in your Python app."
+version = "0.1.5"
+authors = [
+  { name="Reyhan Abdul Quayum", email="rrq2003@nyu.edu" },
+  { name="Rashed Alneyadi", email="raa9917@nyu.edu" },
+  { name="Sia Chen", email="mc9114@nyu.edu" },
+  { name="Yu Zhang", email="yz7669@nyu.edu"},
+  { name="Chloe Han", email="jh7316@nyu.edu"}
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "finance", "stocks", "API"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+# Additional Dependencies
+dependencies = ["pandas", "requests", "python-dotenv", "numpy", "matplotlib", "datetime"]
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-fall2024/3-python-package-financeeers"
+"Repository" = "https://github.com/software-students-fall2024/3-python-package-financeeers.git"
+"Bug Tracker" = "https://github.com/software-students-fall2024/3-python-package-financeeers/issues"
+
+[project.scripts]
+financiers = "src.Financiers.stock:Stock"
