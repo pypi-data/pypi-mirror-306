@@ -1,0 +1,110 @@
+stages:          # List of stages for jobs, and their order of execution
+  - build
+  - test
+  - docs
+  - deploy
+
+build-job:
+  stage: build
+  image: python:3.12  # Ensure Python is available
+  before_script:
+    - python -m venv venv                  # Create a virtual environment
+    - source venv/bin/activate              # Activate the virtual environment
+    - pip install --upgrade pip             # Upgrade pip to the latest version
+    - pip install build pyyaml              # Install the build module and pyyaml for YAML support
+  script:
+    - make clean                            # Clean previous builds
+    - python -m build                       # Build the package (this generates the dist directory)
+  artifacts:     # Save the build artifacts to be used in later stages
+    paths:
+      - dist/                               # Ensure the dist directory is preserved
+    expire_in: 1 hour                       # Set a reasonable expiration time for artifacts
+
+unit-test-job:   # This job runs in the test stage.
+  image: python:3.12  # Use Python 3.12 Docker image
+  stage: test    # It only starts when the job in the build stage completes successfully.
+  dependencies: 
+    - build-job   # Ensure this job gets the build artifacts
+  before_script:
+    - python -m venv venv                  # Create a virtual environment
+    - source venv/bin/activate              # Activate the virtual environment
+    - pip install --upgrade pip             # Upgrade pip to the latest version
+    - pip install coverage pyyaml           # Install the coverage tool and pyyaml
+    - pip install dist/*.whl                # Install the built package
+  script:
+    - echo "Running unit tests with coverage analysis..."
+    - coverage run -m unittest discover -s tests -p "test_*.py"
+    - coverage report -m                    # Print the coverage report in the console
+    - coverage xml                          # Generate a coverage report in XML format for artifact storage
+  artifacts:
+    paths:
+      - coverage.xml                        # Save the coverage report as an artifact
+    expire_in: 1 week                       # Set expiration for the coverage report
+
+run-app-test-job: # Run the test app
+  image: python:3.12  # Use Python 3.12 Docker image
+  stage: test
+  dependencies: 
+    - build-job   # This job also depends on the build artifacts
+  before_script:
+    - python -m venv venv                  # Create a virtual environment
+    - source venv/bin/activate              # Activate the virtual environment
+    - pip install --upgrade pip pyyaml      # Upgrade pip and install pyyaml
+    - ls dist/                              # Check that the dist/ directory exists and list its contents
+    - pip install dist/*.whl                # Install the built package from the dist directory
+  script:
+    - echo "Running test app..."
+    - python examples/myapp.py              # Run the test app
+    - echo "Test app run complete."
+
+build_docs:
+  stage: docs
+  image: python:3.12  # Use Python 3.12 Docker image
+  before_script:
+    - python -m venv venv                # Create a virtual environment
+    - source venv/bin/activate            # Activate the virtual environment
+    - pip install --upgrade pip           # Upgrade pip in the virtual environment
+    - pip install sphinx sphinx_bootstrap_theme pyyaml  # Install Sphinx, theme, and pyyaml
+    - pip install extension sphinx_autodoc_typehints sphinxcontrib.plantuml sphinxcontrib.mermaid
+    - pip install build 
+  script:
+    - cd docs && make html
+  artifacts:
+    paths:
+      - docs/build/html
+    expire_in: 1 week
+
+lint-test-job:
+  stage: test
+  image: python:3.12  # Use a Python image
+  before_script:
+    - apt-get update && apt-get install -y npm   # Install npm
+    - npm install -g pyright                     # Install Pyright globally
+    - python -m venv venv                        # Create a virtual environment
+    - source venv/bin/activate                   # Activate the virtual environment
+    - pip install --upgrade pip colorama pyyaml  # Upgrade pip and install colorama and pyyaml
+  script:
+    - echo "Running Pyright..."
+    - pyright masterpiece tests examples > pyright-report.txt || true
+  artifacts:
+    paths:
+      - pyright-report.txt
+    expire_in: 1 week
+
+deploy-job:      # This job runs in the deploy stage.
+  stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
+  environment: production
+  image: python:3.12  # Use the Python Docker image
+  before_script:
+    - python -m venv venv                  # Create a virtual environment
+    - source venv/bin/activate              # Activate the virtual environment
+    - pip install --upgrade pip pyyaml      # Upgrade pip to the latest version and install pyyaml
+    - pip install build                     # Install the build module for packaging
+  script:
+    - make clean                            # Clean previous builds
+    - python -m build                       # Build the package (this generates the dist directory)
+    - make install
+    - pip show masterpiece                  # for debugging
+  artifacts:
+    paths:
+      - dist/
