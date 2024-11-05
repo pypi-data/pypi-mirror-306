@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: AuroraSign
+Version: 0.0.39
+Requires-Dist: asn1crypto
+Requires-Dist: uritools
+Requires-Dist: oscrypto
+Requires-Dist: tzlocal
+Requires-Dist: pycryptodome
