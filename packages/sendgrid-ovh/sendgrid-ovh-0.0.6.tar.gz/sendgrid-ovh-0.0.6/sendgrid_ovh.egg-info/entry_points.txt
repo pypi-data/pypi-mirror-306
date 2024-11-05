@@ -1,0 +1,2 @@
+[console_scripts]
+sendgrid-ovh = sendgrid_ovh.__main__:cli
