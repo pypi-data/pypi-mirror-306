@@ -1,0 +1,7 @@
+main.py
+setup.py
+bytesap.egg-info/PKG-INFO
+bytesap.egg-info/SOURCES.txt
+bytesap.egg-info/dependency_links.txt
+bytesap.egg-info/requires.txt
+bytesap.egg-info/top_level.txt
