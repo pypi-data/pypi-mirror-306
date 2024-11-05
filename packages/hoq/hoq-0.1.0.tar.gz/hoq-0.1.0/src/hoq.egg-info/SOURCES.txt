@@ -1,0 +1,6 @@
+setup.py
+src/hoq.egg-info/PKG-INFO
+src/hoq.egg-info/SOURCES.txt
+src/hoq.egg-info/dependency_links.txt
+src/hoq.egg-info/entry_points.txt
+src/hoq.egg-info/top_level.txt
