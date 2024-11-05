@@ -1,0 +1,7 @@
+python-configuration
+python-dotenv
+PyYAML
+
+[dev]
+pytest
+ruff

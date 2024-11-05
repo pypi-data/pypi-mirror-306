@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/praline/config/__init__.py
+src/praline/config/_base.py
+src/praline/config/env.py
+src/praline/config/helpers.py
+src/praline/config/logging.py
+src/praline/config/model.py
+src/praline_config.egg-info/PKG-INFO
+src/praline_config.egg-info/PKG-INFO.sync-conflict-20241020-130919-UN3KI43
+src/praline_config.egg-info/SOURCES.txt
+src/praline_config.egg-info/dependency_links.txt
+src/praline_config.egg-info/requires.txt
+src/praline_config.egg-info/top_level.txt
