@@ -1,0 +1,2 @@
+[console_scripts]
+py0 = py0.main:main
