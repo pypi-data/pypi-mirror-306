@@ -1,0 +1,16 @@
+hydride/names.pickle,sha256=PzQzclQqeT_ZNl77i4uunJiDMX8YuqkuoadAcKAtXXc,42482
+hydride/fragments.pickle,sha256=D0YxmApGqUDBxVfCOVrmKNQ2glzQzeE6oz0GNwceYpg,237013
+hydride/add.py,sha256=XiVi78mQE5y1vWKVsKRDdC3S8jk9FBxS9SUyOK-h2B8,7392
+hydride/relax.c,sha256=WtOEYAH8dDhTsYnf5BjMnAq1VT-Ysw_blnFFo3xL938,1972816
+hydride/charge.py,sha256=b4kp7uCttfY0PWw2ktirim5krN7kboEcELeD_g6SFUI,3750
+hydride/__init__.py,sha256=AwQRdNMMmJLwGsoXemSlasnlzTgIg8CbWb7CF3EDVHw,464
+hydride/names.py,sha256=SAa0ALK43k9q7CREIK25jqjo8tlj5vdc1DbZRQxyTAQ,5043
+hydride/relax.cpython-310-darwin.so,sha256=SaLRVPeXWVm3zXTqI-pt2xSASu368MK3JHXfZhdohfA,433040
+hydride/cli.py,sha256=pBDqun_9iaapQQddSVKv8f0U_Rv561niJP6PETWSjFE,14546
+hydride/fragments.py,sha256=pxHLKIlyeO9vianqxdcVBXqZKK5ouSIhb3oLs1U8vAc,18430
+hydride-1.2.3.dist-info/RECORD,,
+hydride-1.2.3.dist-info/WHEEL,sha256=GiH5pdVU4nw_yL23jemzmSJOfgJgasReMUGTVBeMnco,110
+hydride-1.2.3.dist-info/entry_points.txt,sha256=mLfgqOcFEyU3vA5j6bhfI-OwI31vuGP5oLz2vhahSrA,45
+hydride-1.2.3.dist-info/LICENSE.rst,sha256=ZXrxyPA9gX2PHRu0hBeDOw2HJKhAaE_vSEuzAmvyV6I,1541
+hydride-1.2.3.dist-info/top_level.txt,sha256=_3TuS3U6I3dszJUASTIIrbdMBaegbkBvHeKBZPmOVUI,8
+hydride-1.2.3.dist-info/METADATA,sha256=PQIOXAmL50j3rCzIOnfeEuAwOGdxcB4l4eJOn-qvdgs,4608
