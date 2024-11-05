@@ -1,0 +1,5 @@
+yt-dlp==2024.10.07
+ConfigArgParse>=1.7
+
+[test]
+pytest>=8.0.0

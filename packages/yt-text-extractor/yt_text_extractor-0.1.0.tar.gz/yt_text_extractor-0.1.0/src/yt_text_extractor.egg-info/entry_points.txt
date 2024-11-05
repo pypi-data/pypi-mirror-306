@@ -1,0 +1,2 @@
+[console_scripts]
+yt-text-extractor = yt_text_extractor:main

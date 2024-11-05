@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/yt_text_extractor/__init__.py
+src/yt_text_extractor.egg-info/PKG-INFO
+src/yt_text_extractor.egg-info/SOURCES.txt
+src/yt_text_extractor.egg-info/dependency_links.txt
+src/yt_text_extractor.egg-info/entry_points.txt
+src/yt_text_extractor.egg-info/requires.txt
+src/yt_text_extractor.egg-info/top_level.txt
