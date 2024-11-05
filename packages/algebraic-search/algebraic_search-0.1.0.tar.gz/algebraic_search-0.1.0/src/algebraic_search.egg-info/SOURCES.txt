@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/algebraic_search/__init__.py
+src/algebraic_search/boolean_query.py
+src/algebraic_search/fuzzy_boolean_query.py
+src/algebraic_search/result_query.py
+src/algebraic_search.egg-info/PKG-INFO
+src/algebraic_search.egg-info/SOURCES.txt
+src/algebraic_search.egg-info/dependency_links.txt
+src/algebraic_search.egg-info/top_level.txt
