@@ -1,0 +1,6 @@
+setup.py
+src/zqx.egg-info/PKG-INFO
+src/zqx.egg-info/SOURCES.txt
+src/zqx.egg-info/dependency_links.txt
+src/zqx.egg-info/entry_points.txt
+src/zqx.egg-info/top_level.txt
