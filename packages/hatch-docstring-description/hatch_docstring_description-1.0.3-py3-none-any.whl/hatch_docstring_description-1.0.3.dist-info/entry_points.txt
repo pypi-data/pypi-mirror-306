@@ -1,0 +1,2 @@
+[hatch]
+docstring-description = hatch_docstring_description.hooks
