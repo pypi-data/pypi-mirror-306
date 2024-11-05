@@ -1,0 +1,2 @@
+[console_scripts]
+hoa = name_register:main
