@@ -1,0 +1,1 @@
+from .bidding import make_bid_logic

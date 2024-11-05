@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: bidly
+Version: 0.2
+Summary: A bidding logic library for Django applications
+Home-page: https://github.com/Priya-1110/bidly
+Author: Priya Shanmugam
+Author-email: priyashan112002@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django
+
+ 
+                                         ____  ____  ____  __   _  _ 
+                                        (  _ \(_  _)(  _ \(  ) ( \/ )
+                                         ) _ < _)(_  )(_) ))(__ \  / 
+                                        (____/(____)(____/(____)(__) 
+    
+**Bidly** is a lightweight Django library for managing auction-style bidding logic. It simplifies the process of handling bids, minimum increments, and tracking the highest bids, making it perfect for Django-based projects.
+
+## Features
+
+- **Flexible Bidding Logic**: Supports starting bids, bid increments, and highest bid tracking tailored for Django applications.
+- **Easy Integration with Django**: Seamlessly integrates into any Django project with minimal configuration.
+- **Model Support**: Works with Django models to manage bids and auctions efficiently.
