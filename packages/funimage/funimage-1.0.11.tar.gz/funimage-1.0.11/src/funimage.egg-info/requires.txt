@@ -1,0 +1,4 @@
+funfake>=1.0.3
+funutil>=1.0.14
+pillow-avif-plugin>=1.4.6
+pillow
