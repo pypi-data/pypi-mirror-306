@@ -1,0 +1,2 @@
+[console_scripts]
+lji = name_register:main
