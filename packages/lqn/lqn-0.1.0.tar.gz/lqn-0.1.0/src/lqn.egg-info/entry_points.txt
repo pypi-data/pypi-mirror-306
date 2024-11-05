@@ -1,0 +1,2 @@
+[console_scripts]
+lqn = name_register:main
