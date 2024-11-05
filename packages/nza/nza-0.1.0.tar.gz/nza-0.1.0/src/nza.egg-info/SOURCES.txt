@@ -1,0 +1,6 @@
+setup.py
+src/nza.egg-info/PKG-INFO
+src/nza.egg-info/SOURCES.txt
+src/nza.egg-info/dependency_links.txt
+src/nza.egg-info/entry_points.txt
+src/nza.egg-info/top_level.txt
