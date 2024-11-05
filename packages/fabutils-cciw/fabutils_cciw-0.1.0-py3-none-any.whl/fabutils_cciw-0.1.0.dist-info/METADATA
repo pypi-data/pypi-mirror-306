@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: fabutils-cciw
+Version: 0.1.0
+Summary: A set of utilties around Fabric, used by CCiW
+Author: Luke Plant
+License: MIT
+Project-URL: Homepage, https://github.com/cciw-uk/fabutils
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+Requires-Dist: fabric >=3.2.2
+Requires-Dist: invoke >=2.2.0
+Requires-Dist: makefun >=1.15.6
+
+fabutils-cciw
+=============
+
+Small library of reusable utilities for fabfiles, used by:
+
+- https://github.com/cciw-uk/cciw.co.uk
+- https://github.com/learnscripture/learnscripture.net/
+
+See comments in src/fabutils/connections.py for some rationale behind
+design/constraints of these utilities.

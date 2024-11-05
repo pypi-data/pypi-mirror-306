@@ -1,0 +1,16 @@
+fabutils/__init__.py,sha256=NspcBuLEwcpYhydBh_J7cy1Brb7f3CAa2_hMveDbHig,74
+fabutils/apt.py,sha256=K_67DE77kBTK3j6JD6XnZS0-1WcmqSKGZDJfKMXx0Ec,581
+fabutils/connections.py,sha256=-7McD-SEyVuCQa0-LZyQLCW4dQkfhhSX2XsNdee-5is,4516
+fabutils/disks.py,sha256=aXayHFzy-fg7rfP0-d2UGRbMonmLFqyNnmVBHswe5M8,737
+fabutils/files.py,sha256=xqc6YqvYJl2tF9qUWHPABy_DlHH2EuY-UJcUK1bYyZE,6572
+fabutils/locales.py,sha256=4sJzv7-x3td6Mn8_cX4W62RjkZ-ViCgx1ScBXPAprEk,316
+fabutils/postgresql.py,sha256=sadVTUejMirZVdHt0D7khMHxfCpJ1SERS7HTXfV3C_w,5550
+fabutils/services.py,sha256=UwIgeqChkmPpGz15ZxrWge7Tv8dLhiqYj9eD9M-RsEI,281
+fabutils/ssh.py,sha256=EPEmiyLCdg-qTwVl3G60znCAMuhjzZgxAiy0oE3Z_Lk,238
+fabutils/ssl.py,sha256=Nmmm5VPPs7tcwrswUgfJDmoYS_HB35mnxxlinS1tAJA,379
+fabutils/templates.py,sha256=U596JPbVv-muVkEcR65JNw1uc1VGWgCAJOkyWgHRM2s,1416
+fabutils/users.py,sha256=Ld72yjXCvSzhYRXdE4QStJFA6RIECdu5bEDL2YACIbg,2971
+fabutils_cciw-0.1.0.dist-info/METADATA,sha256=JlqvPoHO0-zWSDbSV2bVnSOCKHCnMFQYc2qT61wKD6o,1121
+fabutils_cciw-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+fabutils_cciw-0.1.0.dist-info/top_level.txt,sha256=bbGnYDXOdTx-CntD7O39RuyMy0-tZZtPWCEzK389Xdk,9
+fabutils_cciw-0.1.0.dist-info/RECORD,,
