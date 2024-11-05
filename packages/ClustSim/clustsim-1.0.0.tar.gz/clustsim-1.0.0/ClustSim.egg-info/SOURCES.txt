@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ClustSim/__init__.py
+ClustSim/plot_clusters.py
+ClustSim/simulate_clusters.py
+ClustSim.egg-info/PKG-INFO
+ClustSim.egg-info/SOURCES.txt
+ClustSim.egg-info/dependency_links.txt
+ClustSim.egg-info/requires.txt
+ClustSim.egg-info/top_level.txt
