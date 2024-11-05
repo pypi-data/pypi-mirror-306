@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+ninjapie/__init__.py
+ninjapie/__main__.py
+ninjapie/env.py
+ninjapie/generator.py
+ninjapie/path.py
+ninjapie/version.py
+ninjapie.egg-info/PKG-INFO
+ninjapie.egg-info/SOURCES.txt
+ninjapie.egg-info/dependency_links.txt
+ninjapie.egg-info/entry_points.txt
+ninjapie.egg-info/top_level.txt
