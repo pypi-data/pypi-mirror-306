@@ -1,0 +1,9 @@
+# Use */* to ignore all subfolders, but not the complete folder we are in.
+# This is required because exceptions are not checked by git for ignored
+# subfolders, so the exception for the files would not work.
+*/*
+
+# Exclude input files.
+!*/inp
+!benzene/benzene.xyz
+!nested_runs/create_runs.py

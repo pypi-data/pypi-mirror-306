@@ -1,0 +1,269 @@
+# When using `rules:if` in jobs we can get duplicated pipelines for open MRs, for details refer to
+# https://docs.gitlab.com/ee/ci/jobs/job_rules.html#avoid-duplicate-pipelines
+# To avoid duplicated pipelines, we define rules when a pipeline should be generated.
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_COMMIT_TAG
+    - if: $CI_PIPELINE_SOURCE == "web"
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+
+default:
+  interruptible: true
+
+stages:
+  - lint
+  - test
+  - documentation
+  - prepare_deployment
+  - deploy
+
+pre-commit-checks:
+  stage: lint
+  image: "python:3.11"
+  script:
+    - pip install pre-commit
+    - pre-commit run --all-files
+
+
+tests:
+  stage: test
+  image: $IMAGE
+  parallel:
+    matrix:
+      - PYTHON_VERSION:
+          - "3.9"
+          - "3.10"
+          - "3.11"
+          - "3.12"
+        IMAGE: "fangohr/octopus:15.0"
+      - PYTHON_VERSION: "3.12"
+        IMAGE:
+          - "fangohr/octopus:13.0"
+          - "fangohr/octopus:14.0"
+  variables:
+    PYTEST_ADDOPTS: "--color=yes"
+  before_script:
+    - wget --no-verbose https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh -O miniforge.sh
+    - bash miniforge.sh -b -p $HOME/miniforge
+    - source $HOME/miniforge/etc/profile.d/conda.sh
+    - conda create -y --name=postopus-$PYTHON_VERSION python=$PYTHON_VERSION
+    - conda activate postopus-$PYTHON_VERSION
+    - octopus --version
+    # Install dependencies for the testing environment
+    # and install postopus with dev dependencies
+    # Install as editable to ensure we are not downloading a PyPI version of postopus
+    # from the recursive usage of postopus optional dependencies
+    - pip install -e .[test-cov]
+  script:
+    - pytest --verbose --cov postopus --cov-report term-missing --cov-report xml:coverage.xml
+    # - pytest -v --doctest-modules src/postopus  # TODO enable doctests, separate MR
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    expire_in: 1 week
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+
+
+build_dev_docs:
+  stage: documentation
+  image: "fangohr/octopus:15.0"
+  before_script:
+    - apt-get -y update && apt-get -y install python3 python3-pip python3-venv libgl1 pandoc
+    - python3 -m venv .venv
+    - . .venv/bin/activate
+    - pip install -e .[docs]
+    - >
+      pushd .venv/lib/python3.11/site-packages/pydata_sphinx_theme &&
+      wget "https://github.com/lang-m/pydata-sphinx-theme/commit/880bab65f282ca54e8e80534c2ef18f92e2f6978.patch?full_index=true" -O linkcheck.patch &&
+      sed -ie 's@src/pydata_sphinx_theme/@@g' linkcheck.patch &&
+      patch -i linkcheck.patch &&
+      popd
+  script:
+    - sphinx-build --color --fail-on-warning --keep-going docs docs/_build/html  # --nitpicky  # TODO: requires full API reference
+    - sphinx-build --color -b linkcheck docs docs/_build/html
+  artifacts:
+    paths:
+      - docs/_build/html
+  needs:
+    - job: pre-commit-checks
+      artifacts: false
+  rules:
+    - if: $CI_COMMIT_TAG
+      variables:
+        # Set postopus version to "dev" to not build the release docs in a tag pipeline.
+        # This is required to always have a "dev" version for the version picker.
+        # For a tag push the documentation for the same commit is built twice, once for
+        # "dev" and once with the tag name (postopus release version).
+        CI_POSTOPUS_VERSION: dev
+    - when: always
+
+
+# For a tag pipeline we need to build the documentation for main and the current tag to avoid not
+# having any documentation for main (called dev in the version picker). This job
+# builds the documentation for the current tag, 'build_documentation' for main.
+build_release_docs:
+  stage: documentation
+  variables:
+    GIT_STRATEGY: "none"
+  image: "fangohr/octopus:15.0"
+  before_script:
+    - git clone --depth 1 --branch $CI_COMMIT_TAG $CI_PROJECT_URL postopus
+    - apt-get -y update && apt-get -y install python3 python3-pip python3-venv libgl1 pandoc
+    - python3 -m venv .venv
+    - . .venv/bin/activate
+    - pip install -e postopus[docs]
+  script:
+    - sphinx-build --color postopus/docs postopus/docs/_build/html/$CI_COMMIT_TAG
+  artifacts:
+    paths:
+      - postopus/docs/_build/html/$CI_COMMIT_TAG
+  needs:
+    - job: pre-commit-checks
+      artifacts: false
+  rules:
+    - if: $CI_COMMIT_TAG
+
+
+build_older_docs:
+  stage: documentation
+  variables:
+    GIT_STRATEGY: "none"
+  parallel:
+    matrix:
+      - POSTOPUS_TAG:
+          - 0.2.0
+        IMAGE: "fangohr/octopus:12.2"
+  image: $IMAGE
+  before_script:
+    - git clone --depth 1 --branch $POSTOPUS_TAG $CI_PROJECT_URL postopus
+    - apt-get -y update && apt-get -y install python3 python3-pip python3-venv libgl1 pandoc
+    - python3 -m venv .venv
+    - . .venv/bin/activate
+    - pip install -e postopus[docs]
+    # postopus 0.2.0 requires ase from master and invoke to generate the required test data
+    - test $POSTOPUS_TAG != 0.2.0 || pip install git+https://gitlab.com/ase/ase.git@master invoke
+    - test $POSTOPUS_TAG != 0.2.0 || (cd postopus && invoke generatePytestData && cd ..)
+  script:
+    - sphinx-build --color postopus/docs postopus/docs/_build/html/$POSTOPUS_TAG
+  artifacts:
+    paths:
+      - postopus/docs/_build/html/$POSTOPUS_TAG
+  needs:
+    - job: pre-commit-checks
+      artifacts: false
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: never
+    - when: always
+
+
+prepare_pages:
+  stage: prepare_deployment
+  image: "python:3.11"
+  script:
+    - python3 .gitlab/multiversion.py
+    - mv docs/_build/html public
+    - mv postopus/docs/_build/html/* public
+  artifacts:
+    paths:
+      - public
+  needs:  # only use artifacts from docs jobs
+    - build_dev_docs
+    - build_older_docs
+    - job: build_release_docs  # only available in tag pipelines
+      optional: true
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: never
+    - when: always
+
+pages:
+  stage: deploy
+  variables:
+    GIT_STRATEGY: "none"
+  script:
+    # fake script required to have a valid job
+    - echo "artifacts for pages"
+  artifacts:
+    paths:
+      - public
+  needs:
+    - prepare_pages
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+    - if: $CI_COMMIT_TAG
+  interruptible: false
+
+
+# See https://docs.pypi.org/trusted-publishers/using-a-publisher/#gitlab-cicd for details
+
+build_package:
+  stage: prepare_deployment
+  image: python:3.11
+  script:
+    - python -m pip install -U build
+    - python -m build
+  artifacts:
+    paths:
+      - "dist/"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: never
+    - when: always
+
+publish_package:
+  stage: deploy
+  image: python:3.11
+  needs:
+    - build_package
+  id_tokens:
+    PYPI_ID_TOKEN:
+      aud: pypi
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - apt update && apt install -y jq
+    - python -m pip install -U twine id
+
+    # Retrieve the OIDC token from GitLab CI/CD, and exchange it for a PyPI API token
+    - oidc_token=$(python -m id PYPI)
+    - resp=$(curl -X POST https://pypi.org/_/oidc/mint-token -d "{\"token\":\"${oidc_token}\"}")
+    - api_token=$(jq --raw-output '.token' <<< "${resp}")
+
+    # Upload to PyPI authenticating via the newly-minted token
+    - twine upload -u __token__ -p "${api_token}" --verbose dist/*
+  rules:
+    - if: $CI_COMMIT_TAG
+  environment:
+    name: release
+  interruptible: false
+
+
+gitlab_release:
+  stage: deploy
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    # the placeholder scrip is required to have a valid release job, https://docs.gitlab.com/ee/ci/yaml/#release
+    - echo "Running the release job."
+  environment:
+    name: release
+  release:
+    tag_name: $CI_COMMIT_TAG
+    description: >
+      For details about changes refer to the [changelog](https://octopus-code.gitlab.io/postopus/changelog.html#version-${CI_COMMIT_TAG//./-}),
+      for compatible Octopus versions refer to the [README](https://gitlab.com/octopus-code/postopus/-/blob/main/README.md).
+    assets:
+      links:
+        - name: 'PyPI'
+          url: 'https://pypi.org/project/postopus/$CI_COMMIT_TAG/'
+        - name: 'Changelog'
+          url: 'https://octopus-code.gitlab.io/postopus/changelog.html#version-${CI_COMMIT_TAG//./-}'
+        - name: 'Documentation'
+          url: 'https://octopus-code.gitlab.io/postopus/$CI_COMMIT_TAG/index.html'
+  interruptible: false

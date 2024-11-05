@@ -1,0 +1,5 @@
+# Use */* to ignore all subfolders, but not the complete folder we are in.
+# This is required because exceptions are not checked by git for ignored
+# subfolders, so the exception for notebooks would not work.
+*/*
+!*.ipynb

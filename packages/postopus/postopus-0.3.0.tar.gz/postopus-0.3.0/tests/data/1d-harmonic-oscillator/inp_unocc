@@ -1,0 +1,26 @@
+stdout = 'unocc_stdout.txt'
+stderr = 'unocc_stderr.txt'
+
+FromScratch = yes
+CalculationMode = unocc
+
+Dimensions = 1
+TheoryLevel = independent_particles
+
+Radius = 10
+Spacing = 0.1
+
+%Species
+  "HO" | species_user_defined | potential_formula | "0.5*x^2" | valence | 2
+%
+
+%Coordinates
+  "HO" | 0
+%
+
+ExtraStates = 10
+
+%Output
+  wfs
+%
+OutputFormat = axis_x

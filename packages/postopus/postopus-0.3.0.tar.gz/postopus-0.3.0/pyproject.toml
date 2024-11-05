@@ -1,0 +1,156 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "postopus"
+description = "Postopus (the POST-processing of OctoPUS data) is an environment, written in python, that can help with the analysis of data that was computed using the Octopus package."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+dynamic = ["version"]
+
+authors = [
+    {name = "Daniel Bremer, Kevin Yanes Garcia, Martin Lang, Ashwin Kumar Karnad, Fabian Gropp, Sebastian Ohlmann, Hans Fangohr", email = "ssu-cs@mpsd.mpg.de"},
+    {name = "Daniel Bremer", email = "daniel.bremer@mpsd.mpg.de"},
+    {name = "Kevin Yanes Garcia", email = "kevin.yanes-garcia@mpsd.mpg.de"},
+    {name = "Martin Lang", email = "martin.lang@mpsd.mpg.de"},
+    {name = "Ashwin Kumar Karnad", email = "ashwin-kumar.karnad@mpsd.mpg.de"},
+    {name = "Fabian Gropp", email = "fabian.gropp@mpsd.mpg.de"},
+    {name = "Sebastian Ohlmann", email = "sebastian.ohlmann@mpcdf.mpg.de"},
+    {name = "Hans Fangohr", email = "hans.fangohr@mpsd.mpg.de"}
+]
+
+# TODO: Add or remove any?
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows", # TODO: Not sure?
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Visualization"
+]
+
+dependencies = [
+    "attrs",
+    "numpy",
+    "netCDF4",
+    "pandas",
+    "prettytable",
+    "pyvista",
+    "xarray",
+    "psutil",
+    "vtk",
+    "ase",
+]
+
+[project.optional-dependencies]
+# Recommended optional dependencies for the user
+recommended = [
+    # notebook dependencies (mainly plotting stuff)
+    "jupyter",
+    "holoviews",
+    "matplotlib",
+    "xrft",
+    "ipykernel",
+    "scipy",
+    "pickleshare",
+    "Pyarrow"
+]
+
+# Minimum test environment dependencies
+test = [
+    "pytest",
+    "pytest-order",
+    "nbval",
+]
+
+# Minimum CI environment
+test-cov = [
+    "postopus[test]",
+    "pytest-cov",
+]
+
+# Developer's environment. postopus[recommended] is not included because the developer
+# Should also test the minimum environment setup.
+dev = [
+    "postopus[test-cov]",
+    "pre-commit",
+    "twine",
+    "build",
+    "setuptools-scm",
+]
+
+# Documentation engine environment
+docs = [
+    # Main sphinx stuff
+    "sphinx",
+    "pydata-sphinx-theme",
+    # Notebook stuff needed for building the documentation as well
+    "postopus[recommended]",
+    "nbsphinx",
+]
+
+[project.urls]
+documentation = "https://octopus-code.gitlab.io/postopus/index.html"
+repository = "https://gitlab.com/octopus-code/postopus"
+
+# TODO: Include postopus-ls as entry_point when implemented
+
+[tool.setuptools_scm]
+version_file = "src/postopus/_version.py"
+
+# see pytest -h
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    "tests"
+]
+
+[tool.ruff]
+src = ["src"]
+
+[tool.ruff.lint]
+# TODO: Resolve and enable all of the tests below
+extend-select = [
+#    "ANN",         # flake8-annotations
+#    "ARG",         # flake8-unused-arguments
+#    "B",           # flake8-bugbear
+#    "C4",          # flake8-comprehensions
+#    "EM",          # flake8-errmsg
+#    "FBT",         # flake8-boolean-trap
+    "FLY",         # flynt
+    "I",           # isort
+#    "ICN",         # flake8-import-conventions
+#    "ISC",         # flake8-implicit-str-concat
+#    "N",           # flake8-naming
+#    "PERF",        # perflint
+    "PGH",         # pygrep-hooks
+    "PIE",         # flake8-pie
+#    "PL",          # pylint
+#    "PT",          # flake8-pytest-style
+#    "PTH",         # flake8-use-pathlib
+#    "PYI",         # flake8-pyi
+#    "RET",         # flake8-return
+#    "RUF",         # Ruff-specific
+#    "S",        # eval -> literal_eval
+#    "SIM",         # flake8-simplify
+#    "T20",         # flake8-print
+    "TCH",         # flake8-type-checking
+    "TID251",      # flake8-tidy-imports.banned-api
+#    "TRY",         # tryceratops
+    "UP",          # pyupgrade
+    "YTT",         # flake8-2020
+    # (in preview till 0.2.0) "FURB",        # refurb
+]

@@ -1,0 +1,16 @@
+CalculationMode = gs
+FromScratch=True
+UnitsOutput = eV_Angstrom
+
+Radius = 5*angstrom
+Spacing = 0.3*angstrom
+
+%Output
+  density
+%
+
+OutputFormat = cube + xcrysden + axis_x + plane_z + netcdf + vtk
+OutputDuringSCF = yes
+OutputInterval = 5
+
+XYZCoordinates = "benzene.xyz"

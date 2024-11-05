@@ -1,0 +1,92 @@
+# Can be generated here: https://www.plantuml.com/ --> Online Server
+
+@startuml
+allow_mixing
+actor User
+class Run {
+  path: pathlib.Path
+  systems : System
+}
+class OutputCollector
+{
+  rootpath: pathlib.Path
+}
+class System {
+  system_data : CalculationModes
+}
+class CalculationModes {
+  fields : ScalarField, VectorField, TDGeneralVectorField, pandas.DataFrame, List[str]
+}
+together{
+class ScalarField {
+   + get(): xarray.DataArray
+   + iget(): xarray.DataArray
+   + get_converged(): xarray.DataArray
+   + get_all(): xarray.DataArray
+   - _load_file(): File
+}
+class VectorField {
+  components: ScalarField
+  + get(): xarray.DataArray
+   + iget(): xarray.DataArray
+   + get_converged(): xarray.DataArray
+   + get_all(): xarray.DataArray
+}
+
+
+class File {
+   coords: Dict[str, List[float]]
+   values: numpy.ndarray
+   dims: List[str]
+   units: str
+   + xarray(): xarray.DataArray
+   {abstract} _readfile()
+}
+class CubeFile{
+  - _readfile()
+}
+class NetCDFFile{
+  - _readfile()
+}
+class PandasTextFile{
+  values: pandas.DataFrame, List[str]
+  attrs
+  - _readfile()
+}
+class TextFile{
+  - _readfile()
+}
+class VTKFile{
+  - _readfile()
+}
+class XCrySDenFile{
+  - _readfile()
+}
+class XYZFile{
+  - _readfile()
+}
+
+
+User -- Run : Instantiates
+Run ..> OutputCollector : Calls
+OutputCollector ..> Run : Passes folder information
+Run "1" -- "*"  System
+System "1" -- "*"  CalculationModes
+CalculationModes "1" -- "*"  ScalarField
+CalculationModes "1" -- "*"  VectorField
+
+
+ScalarField ..> File : Calls
+File ..> ScalarField : Passes file content
+
+VectorField ..> ScalarField : Gets data for each component
+
+
+File <|-- CubeFile
+File <|-- NetCDFFile
+File <|.. PandasTextFile : Is inspired by
+File <|-- TextFile
+File <|-- VTKFile
+File <|-- XCrySDenFile
+File <|-- XYZFile
+@enduml

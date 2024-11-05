@@ -1,0 +1,27 @@
+CalculationMode = gs
+RestartWrite = no
+
+Dimensions = 3
+
+BoxShape = sphere
+Spacing = $deltax*angstrom
+Radius = 4*angstrom
+
+fraction = 0.0
+delta = Spacing * fraction
+
+%Coordinates
+  "C" | delta | delta | delta
+%
+
+ExtraStates = 2
+%Occupations
+  2/3 | 2/3 | 2/3
+%
+
+PreconditionerFilterFactor = 0.75
+
+%Output
+  density | netcdf
+%
+UnitsOutput = ev_angstrom

@@ -1,0 +1,18 @@
+CalculationMode = gs
+UnitsOutput = eV_Angstrom
+
+stdout = "gs_stdout.txt"
+stderr = "gs_stderr.txt"
+
+Radius = 5*angstrom
+Spacing = 0.3*angstrom
+
+%Output
+  density
+%
+
+OutputFormat = cube + xcrysden + axis_x + plane_z + netcdf + vtk
+OutputDuringSCF = yes
+OutputInterval = 5
+
+XYZCoordinates = "benzene.xyz"
