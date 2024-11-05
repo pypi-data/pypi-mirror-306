@@ -1,0 +1,15 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cythonbuilder/__init__.py,sha256=KPAZJfOmLofS3F_DYWWaVk-Kx5AhLdi5nIY_EFjfW1c,52
+cythonbuilder/__main__.py,sha256=cVVKPRUHl_li03-t68V3MlNL1BuhFL2NoZPJxaZxcjg,144
+cythonbuilder/appsettings.py,sha256=WqLuarzCZ3xyUD7vQ1fTAY_GiurKqFHtrFZXCsNRYtY,212
+cythonbuilder/cli.py,sha256=MfjvDZYGPTto0YMpzsyIbaMJrGfTMkH1M-e-17SYaME,7932
+cythonbuilder/cython_builder.py,sha256=lidIrIj-8BNrq82Y1an1CerRGfF1CrkQTbLhL8qjZ1g,6704
+cythonbuilder/definitions.py,sha256=R-lMD1ZcIa1zXh8DHyKgwXCVmSMNp7_bKU3NQ-HAmmk,701
+cythonbuilder/helpers.py,sha256=-YELtXavl22AU1pSfrxNBW6ekMGmRyURwm8FPpA9ceE,4722
+cythonbuilder/logs.py,sha256=ESy1wFg2ZoJEM_9hjIRo7Nu5tt-hX5MnTHKtymFtOCM,2032
+cythonbuilder/pyigenerator.py,sha256=NkmseSXcUh4dTD3r2QnppqgdsvSyLPwdqf4YgZxq8K8,11397
+cythonbuilder-0.1.24.dist-info/METADATA,sha256=IdKgfhGFy2VDaWOpk5upNrDBqwOa_k9vzhSLLmoDQZ0,5013
+cythonbuilder-0.1.24.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+cythonbuilder-0.1.24.dist-info/entry_points.txt,sha256=Vms36PZPmIZLrlf7tl96vHqfqDPbns6goPqDVcCQ5xA,90
+cythonbuilder-0.1.24.dist-info/top_level.txt,sha256=gkwJgm13ZMZOh3EKofTqZPBwK4sBG_zbBGcZx8X6--Y,23
+cythonbuilder-0.1.24.dist-info/RECORD,,
