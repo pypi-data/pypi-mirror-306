@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: filecheckize
+Version: 0.2
+Summary: FileCheck generator
+Author: Emilien Bauer
+Author-email: emilien.bauer@ed.ac.uk
+License: MIT
+Project-URL: Source Code, https://github.com/papychacal/filecheckize
+Project-URL: Issue Tracker, https://github.com/papychacal/filecheckize/issues
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
+Platform: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pip<25.0
+Provides-Extra: extras
+Requires-Dist: black<24.5; extra == "extras"
+Requires-Dist: toml<0.11; extra == "extras"
+Requires-Dist: coverage; extra == "extras"
+Requires-Dist: filecheck<0.025; extra == "extras"
+Requires-Dist: lit<18.2; extra == "extras"
+Requires-Dist: ruff<0.5; extra == "extras"
+Requires-Dist: isort<5.14; extra == "extras"
+Requires-Dist: pyright<1.1.368; extra == "extras"
+
+Simple CLI tool generating the FileCheck lines that expects the given input.
