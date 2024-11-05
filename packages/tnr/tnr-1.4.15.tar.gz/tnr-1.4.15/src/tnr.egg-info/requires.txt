@@ -1,0 +1,10 @@
+Click>=8.0
+cryptography>=40.0
+packaging>=21.0
+paramiko==3.4.0
+pathlib>=1.0.1
+requests>=2.2
+rich-click==1.8.3
+rich==13.7.1
+scp==0.15.0
+yaspin==3.0.2
