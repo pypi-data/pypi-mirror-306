@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/shiertier_i18n.egg-info/PKG-INFO
+src/shiertier_i18n.egg-info/SOURCES.txt
+src/shiertier_i18n.egg-info/dependency_links.txt
+src/shiertier_i18n.egg-info/top_level.txt
