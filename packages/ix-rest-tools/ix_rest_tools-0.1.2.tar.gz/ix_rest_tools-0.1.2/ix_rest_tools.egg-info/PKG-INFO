@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ix-rest-tools
+Version: 0.1.2
+Summary: Python library for interacting with Beijer Electronics iX Web Server API.
+Home-page: https://github.com/Doscon-prime/ix_rest_tools
+Author: Your Name
+Author-email: aleksander@doscon.no
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+Requires-Dist: requests
+
+Python wrapper for Beijer Electronics iX Web Server API
