@@ -1,0 +1,11 @@
+fedland/database_models/client_stat.py,sha256=_i5ry4H9sEE5ZNp9ovK3s9YF_uAA3s-Y064IrD6JIjA,5865
+fedland/database_models/experiment.py,sha256=TijJMn3ggx5zthqOERdLsl0wzr47Z7xCPQexF4BVYWk,5439
+fedland/loaders.py,sha256=_TudL5oVahhjy-KtWTylkHGeoNE9VKN5GZWfgBvvFyc,6965
+fedland/metrics/__init__.py,sha256=qJRbe8udsPsS5sr7mYyQCuNv8aBLZuN74dv1erZNRZ0,4308
+fedland/metrics/frobenius.py,sha256=YzCl7TxwVRRZJKQbcODptrVMrUyOWTCeNbRydsTF1bQ,4274
+fedland/metrics/pac_bayes.py,sha256=GqgyWEw-Y1SUkfuTF5R7VtkykX7Xe502253VPe8H9LU,3098
+fedland/metrics/path_norm.py,sha256=8lweU7fruGSw7pYwGDYcLdbP1ep7tFsa67HfjzHyDO0,703
+fedland/networks.py,sha256=gaoEbVYDMIx2PM37ZFu-N8HoYKTQhmR0Hx6VS2q8C-M,1844
+fedland-0.2.0.dist-info/METADATA,sha256=zF_PD5js7I4109VmAjgD2RL2JN5J17FLgxpkTDcPQSQ,6650
+fedland-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fedland-0.2.0.dist-info/RECORD,,
