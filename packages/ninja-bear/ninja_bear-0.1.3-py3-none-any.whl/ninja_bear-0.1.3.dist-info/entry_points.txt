@@ -1,0 +1,2 @@
+[console_scripts]
+ninja-bear = ninja_bear.cli:main
