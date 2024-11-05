@@ -1,0 +1,4 @@
+[console_scripts]
+otpcr = otpcr.control:wrapped
+otpcrd = otpcr.daemon:main
+otpcrs = otpcr.service:wrapped
