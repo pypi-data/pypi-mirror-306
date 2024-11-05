@@ -1,0 +1,2 @@
+[console_scripts]
+vsy = name_register:main

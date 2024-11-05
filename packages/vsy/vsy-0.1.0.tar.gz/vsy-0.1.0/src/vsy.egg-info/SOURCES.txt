@@ -1,0 +1,6 @@
+setup.py
+src/vsy.egg-info/PKG-INFO
+src/vsy.egg-info/SOURCES.txt
+src/vsy.egg-info/dependency_links.txt
+src/vsy.egg-info/entry_points.txt
+src/vsy.egg-info/top_level.txt
