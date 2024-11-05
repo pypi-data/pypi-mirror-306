@@ -1,0 +1,2 @@
+[console_scripts]
+vvj = name_register:main
