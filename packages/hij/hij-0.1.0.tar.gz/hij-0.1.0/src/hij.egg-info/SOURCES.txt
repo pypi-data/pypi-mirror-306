@@ -1,0 +1,6 @@
+setup.py
+src/hij.egg-info/PKG-INFO
+src/hij.egg-info/SOURCES.txt
+src/hij.egg-info/dependency_links.txt
+src/hij.egg-info/entry_points.txt
+src/hij.egg-info/top_level.txt
