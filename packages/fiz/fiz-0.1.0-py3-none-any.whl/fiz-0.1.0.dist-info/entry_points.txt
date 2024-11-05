@@ -1,0 +1,2 @@
+[console_scripts]
+fiz = name_register:main
