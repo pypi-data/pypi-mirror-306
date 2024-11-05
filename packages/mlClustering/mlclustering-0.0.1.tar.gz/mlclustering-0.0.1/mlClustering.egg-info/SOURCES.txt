@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+mlClustering.egg-info/PKG-INFO
+mlClustering.egg-info/SOURCES.txt
+mlClustering.egg-info/dependency_links.txt
+mlClustering.egg-info/top_level.txt
