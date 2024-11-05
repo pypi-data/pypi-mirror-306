@@ -1,0 +1,2 @@
+[console_scripts]
+jjt = name_register:main
