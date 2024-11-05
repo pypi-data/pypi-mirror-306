@@ -1,0 +1,3 @@
+matplotlib
+svgpath2mpl
+svgpathtools
