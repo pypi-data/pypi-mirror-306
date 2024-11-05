@@ -1,0 +1,2 @@
+[console_scripts]
+xvm = name_register:main
