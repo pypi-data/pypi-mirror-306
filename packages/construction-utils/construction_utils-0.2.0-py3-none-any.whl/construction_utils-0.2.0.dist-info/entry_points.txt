@@ -1,0 +1,2 @@
+[console_scripts]
+construction_utils = construction_utils.main:main
