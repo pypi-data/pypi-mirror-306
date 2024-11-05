@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+python3_rpm.egg-info/PKG-INFO
+python3_rpm.egg-info/SOURCES.txt
+python3_rpm.egg-info/dependency_links.txt
+python3_rpm.egg-info/entry_points.txt
+python3_rpm.egg-info/requires.txt
+python3_rpm.egg-info/top_level.txt
+rpm/__init__.py
+rpm/cli.py
+rpm/rpm.py
