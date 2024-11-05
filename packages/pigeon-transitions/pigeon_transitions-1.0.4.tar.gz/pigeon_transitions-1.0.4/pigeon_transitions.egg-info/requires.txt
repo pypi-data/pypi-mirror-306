@@ -1,0 +1,5 @@
+pigeon-client>=1.0.0
+transitions==0.9.1
+graphviz
+pydantic
+pyyaml
