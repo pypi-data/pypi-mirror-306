@@ -1,0 +1,2 @@
+[console_scripts]
+qun = name_register:main
