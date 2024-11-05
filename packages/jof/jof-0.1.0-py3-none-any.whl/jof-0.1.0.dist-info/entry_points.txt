@@ -1,0 +1,2 @@
+[console_scripts]
+jof = name_register:main
