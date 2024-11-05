@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: zephyr_soap
+Version: 0.1.0
+Summary: Client SOAP pour utiliser les services SOAP d'Enedis
+Home-page: https://github.com/ZephyrIt0/Zephyr_soap_librairie
+Author: gld
+Author-email: dimbugrace@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: zeep
+Requires-Dist: pytz
+
+# Zephyr SOAP Client
+
+**Auteur** : GrÃ¢ce LUSAKUMUNU DIMBU
+
+## Description
+
+Zephyr SOAP Client est une bibliothÃ¨que Python conÃ§ue pour interagir avec un service SOAP en utilisant des certificats et des informations de connexion. Ce client permet lâ€™accÃ¨s Ã  divers services, notamment la consultation de donnÃ©es contractuelles, la collecte de mesures, et bien plus.
+
+## Installation
+
+Pour installer ce package, publiez-le sur PyPI et installez-le avec pip :
+
+```bash
+pip install zephyr_soap
+
+```
+
+# Configuration
+Placez un fichier de configuration settings.json dans le dossier SGE/Conf/. Ce fichier doit contenir les chemins de journalisation et les URL des services SOAP.
+
+Exemple de configuration (settings.json)
+```json
+{
+    "certificats": {
+        "client_cert": "",
+        "client_key": "",
+        "sge_homologation": "",
+        "ca_cert": ""
+    },
+    "connexion": {
+        "nni": "",
+        "password": "",
+        "login": "",
+        "contratId": ""
+    },
+    "urls": {
+        "Consultation_Donnees_Techniques_Contractuelles": {
+            "shemaLocation": "",
+            "location": ""
+        },
+        "Consultation_Mesures": {
+            "shemaLocation": "",
+            "location": ""
+        },
+        "Consultation_Mesure_Detaillees": {
+            "shemaLocation": "",
+            "location": ""
+        },
+        ...
+    }
+}
+
+```
+
+# Utilisation
+**Initialisation**
+
+Pour dÃ©marrer avec Zephyr SOAP Client, crÃ©ez une instance du client en prÃ©cisant le chemin vers le fichier de configuration si celui-ci diffÃ¨re de la valeur par dÃ©faut.
+
+```python
+from zephyr_soap.SoapClient import SoapClient
+
+# Initialisation du client SOAP
+soap_client = SoapClient(config_path="SGE/Conf/settings.json")
+```
+**Exemples d'Utilisation des MÃ©thodes**
+
+```python
+# Consulter les donnÃ©es techniques contractuelles
+response = soap_client.consulter_donnees_techniques_contractuelles(pdl="98800007059999", autorisation_client=True)
+print(response)
+
+# Commander accÃ¨s aux donnÃ©es de mesures
+response = soap_client.commander_acces_donnees_mesures(pdl="24380318190106", date_debut="2024-10-31", date_fin="2026-10-30")
+print(response)
+
+# Consulter des mesures dÃ©taillÃ©es
+response = soap_client.consulter_mesures_detaillees_v3(pdl='30001610071843', DateDebut="2024-01-29", DateFin="2024-01-30")
+print(response)
+
+```
+
+# MÃ©thodes Disponibles
+- **consulter_donnees_techniques_contractuelles** : RÃ©cupÃ¨re les donnÃ©es contractuelles et techniques.
+
+- **commander_acces_donnees_mesures** : Commande lâ€™accÃ¨s aux donnÃ©es de mesures pour une pÃ©riode donnÃ©e.
+
+- **commander_arret_service_souscrit_mesures** : ArrÃªte un service souscrit pour un PDL.
+
+- **commander_transmission_donnees_infraJ** : Commande la transmission de donnÃ©es infraJ pour une entreprise donnÃ©e.
+
+- **commander_collecte_publication_mesures** : Commande la collecte et publication de mesures.
+
+- **consulter_mesures** : RÃ©cupÃ¨re les mesures d'un PDL.
+- **consulter_mesures_detaillees_v3** : RÃ©cupÃ¨re des mesures dÃ©taillÃ©es pour une pÃ©riode donnÃ©e.
+
+- **rechercher_point** : Recherche un point de livraison en utilisant une adresse.
+
+- **rechercher_services_souscrits_mesures** : Recherche les services souscrits pour un PDL.
+
+- **commande_historique_donnees_mesures_fines** : RÃ©cupÃ¨re l'historique des mesures fines.
+
+- **commande_historique_donnees_mesures_facturantes** : RÃ©cupÃ¨re l'historique des donnÃ©es de facturation.
+
+- **commande_informations_techniques_et_contractuelles** : RÃ©cupÃ¨re les informations techniques et contractuelles.
+
+# Tests
+Pour tester les mÃ©thodes, utilisez les exemples ci-dessus avec les valeurs de paramÃ¨tres appropriÃ©es.
+
+
+## License
+
+Ce projet a Ã©tÃ© conÃ§u et dÃ©veloppÃ© par GrÃ¢ce LUSAKUMUNU DIMBU. Il est licenciÃ© sous la licence MIT. Vous pouvez consulter le fichier [LICENSE](LICENSE) pour plus d'informations sur les conditions d'utilisation.
