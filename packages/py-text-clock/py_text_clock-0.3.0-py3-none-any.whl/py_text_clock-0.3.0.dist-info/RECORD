@@ -1,0 +1,12 @@
+source/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/clockFace.py,sha256=2sjFyLxJAGBdBNisDXOp5Y7PHqJ3qO_OL68OaJqGjCk,2939
+source/command_line.py,sha256=mIB-KxaVcVZ0ybXC5849VCyJDs6Yn-fQBH9-p7j5P2s,795
+source/fontMods.py,sha256=Tvfy-TJ1s2uKy_qd49zMAkcL_s9oEEkHAp-SsCKCOns,7766
+source/mylogger.py,sha256=EHjrkgt7X1wV15thQzo7V69Cr80q4f-oFskTybj65vY,343
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_clock.py,sha256=1aAO4Ao7B2vVd507OWmH1pVg8SV6_SjoaG-ZkTZRa6g,3216
+py_text_clock-0.3.0.dist-info/METADATA,sha256=Wlc_fYehtHp5M9yDJHLa89ZSi8QF2BTN-7XMxy6WDvQ,980
+py_text_clock-0.3.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+py_text_clock-0.3.0.dist-info/entry_points.txt,sha256=IqdtME5yBvILSZYRbEd3YnBoEj11caRI9bUQBc84y0E,54
+py_text_clock-0.3.0.dist-info/top_level.txt,sha256=BqYZ1ZMe01jBY8kLNgfGcae4HTOnpoTmWp8eYoM8rnY,13
+py_text_clock-0.3.0.dist-info/RECORD,,
