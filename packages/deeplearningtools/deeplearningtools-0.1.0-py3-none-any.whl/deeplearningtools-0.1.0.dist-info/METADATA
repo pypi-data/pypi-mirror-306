@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: deeplearningtools
+Version: 0.1.0
+Summary: 
+Author: zhangzhongjie
+Author-email: zhangzhongjie@acme.red
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: numpy (>=2.1.3,<3.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: torch (>=2.5.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+
