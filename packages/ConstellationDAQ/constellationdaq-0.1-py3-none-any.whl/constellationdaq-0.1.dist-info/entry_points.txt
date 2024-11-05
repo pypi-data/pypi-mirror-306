@@ -1,0 +1,13 @@
+[console_scripts]
+Controller = constellation.core.controller:main
+Monitor = constellation.core.monitoring:main
+DemoDataSender = constellation.core.datasender:main
+DemoHeartbeatChecker = constellation.core.heartbeatchecker:main
+DemoHeartbeatSender = constellation.core.heartbeater:main
+ConstellationListInterfaces = constellation.tools.list_interfaces:main
+SatelliteCaenHV = constellation.satellites.CaenHV.CaenHV:main
+SatelliteH5DataWriter = constellation.satellites.H5DataWriter.H5DataWriter:main
+SatelliteInflux = constellation.satellites.Influx.Influx:main
+SatelliteKeithley = constellation.satellites.Keithley.Keithley:main
+SatelliteMariner = constellation.satellites.Mariner.Mariner:main
+
