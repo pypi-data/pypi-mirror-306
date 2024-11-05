@@ -1,0 +1,74 @@
+Metadata-Version: 2.3
+Name: next-api-py
+Version: 0.2.0
+Summary: Python wrapper for the next.avanpost20.ru API
+Project-URL: Homepage, https://git.avanpost20.ru/next/next.py
+Project-URL: Documentation, https://nextpy.avanpost20.ru/
+Project-URL: Source Code, https://git.avanpost20.ru/next/next.py
+Project-URL: Bug Tracker, https://git.avanpost20.ru/next/next.py/issues
+Author-email: Avanpost <me@avanpost20.ru>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: api,async,http,websockets,wrapper
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Requires-Dist: aenum==3.1.*
+Requires-Dist: aiohttp==3.9.*
+Requires-Dist: typing-extensions>=4.4.0
+Requires-Dist: ulid-py==1.1.*
+Provides-Extra: docs
+Requires-Dist: setuptools==65.4.*; extra == 'docs'
+Requires-Dist: sphinx-nameko-theme==0.0.*; extra == 'docs'
+Requires-Dist: sphinx-toolbox==3.2.*; extra == 'docs'
+Requires-Dist: sphinx==5.2.*; extra == 'docs'
+Provides-Extra: speedups
+Requires-Dist: msgpack==1.0.*; extra == 'speedups'
+Requires-Dist: ujson==5.1.*; extra == 'speedups'
+Description-Content-Type: text/markdown
+
+# next.py
+
+An async library to interact with the https://next.avanpost20.ru API.
+
+You can join the support server [here](https://app.avanpost20.ru/invite/Testers) and find the library's documentation [here](https://nextpy.readthedocs.io/en/latest/).
+
+## Installing
+
+You can use `pip` to install next.py. It differs slightly depending on what OS/Distro you use.
+
+On Windows
+```
+py -m pip install -U next.py # -U to update
+```
+
+On macOS and Linux
+```
+python3 -m pip install -U next.py
+```
+
+## Example
+
+More examples can be found in the [examples folder](https://github.com/avanpost200/next.py/blob/master/examples).
+
+```py
+import next
+import asyncio
+
+class Client(next.Client):
+    async def on_message(self, message: next.Message):
+        if message.content == "hello":
+            await message.channel.send("hi how are you")
+
+async def main():
+    async with next.utils.client_session() as session:
+        client = Client(session, "BOT TOKEN HERE")
+        await client.start()
+
+asyncio.run(main())
+```
