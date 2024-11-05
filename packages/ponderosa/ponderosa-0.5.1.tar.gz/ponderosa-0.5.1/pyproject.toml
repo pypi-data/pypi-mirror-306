@@ -1,0 +1,95 @@
+[tool.poetry]
+name = "ponderosa"
+version = "0.5.1"
+description = ""
+authors = ["Camille Scott <camille@bogg.cc>"]
+readme = "README.md"
+license = "BSD-3-Clause"
+homepage = "https://github.com/camillescott/ponderosa"
+classifiers = [
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Topic :: Utilities",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: User Interfaces"
+]
+
+
+[tool.poetry_bumpversion.file."ponderosa/__init__.py"]
+search = "__version__ = '{current_version}'"
+replace = "__version__ = '{new_version}'"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.26.0"
+pytest = "^8.3.3"
+pdbpp = "^0.10.3"
+
+
+[tool.poetry.group.tests.dependencies]
+pytest = "^8.3.3"
+pytest-cov = "^6.0.0"
+tox = "^4.23.2"
+tox-gh-actions = "^3.2.0"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rich = {version = "^13.9.4", optional = true}
+
+[tool.poetry.extras]
+rich = ["rich"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: not covered",
+    "@overload",
+]
+
+[tool.coverage.run]
+branch = true
+relative_files = true
+omit = [
+    ".tox/*",
+    "tests/*",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = """
+--doctest-modules \
+--cov=./ \
+--cov-append \
+--cov-report html:tests/reports/coverage-html \
+--cov-report xml:tests/reports/coverage.xml \
+--ignore=docs/
+"""
+testpaths = [
+    "tests",
+]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py312, py313
+skip_missing_interpreters = true
+
+[gh-actions]
+python =
+    3.12: py312
+    3.13: py313
+
+[testenv]
+passenv = GITHUB_*
+allowlist_externals = poetry
+
+commands =
+    poetry run pytest
+    poetry run coverage report
+"""
