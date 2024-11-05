@@ -1,0 +1,14 @@
+octoprint_file_check/__init__.py,sha256=OJtxUcrdBTLm2scBuBv8yt-k6GxLqikBA-X82HqvKLk,15623
+octoprint_file_check/static/clientjs/file_check.js,sha256=WvQfo167WlLyykpz5_q3uJRU4lNg68650_DhvPvYJnE,723
+octoprint_file_check/static/js/file_check.js,sha256=vivY_ciX3GzXVzhkbEAfCJE4WROwGHgxeNXnqmoeFmM,14042
+octoprint_file_check/templates/file_check_settings.jinja2,sha256=i4rjFPspR2ZZ2mBhjTc7e55323NhN03cNYO7gYgFAtY,1302
+octoprint_file_check/templates/file_check_wizard_fullcheck.jinja2,sha256=qJUXW26lb9I_oVWez6X2uRA53smpAFIE5nRxjdUpBpw,592
+octoprint_file_check/templates/snippets/fileCheckButton.jinja2,sha256=LpkUWDYfAyGfeVZLBflkBbUitGPCbzdp6PJJ98GZxhI,529
+octoprint_file_check/translations/de/LC_MESSAGES/messages.mo,sha256=5OgNymo7cSswBhs0Z3yydCzkEHt8oLzyR8mNzuIBkdc,7035
+octoprint_file_check/translations/de/LC_MESSAGES/messages.po,sha256=cCzcblvOVLock2tZznpMX5aCT-iH1Vms-ns34H0rUHo,12378
+OctoPrint_FileCheck-2024.11.4.dist-info/LICENSE,sha256=V8j_M8nAz8PvAOZQocyRDX7keai8UJ9skgmnwqETmdY,34520
+OctoPrint_FileCheck-2024.11.4.dist-info/METADATA,sha256=NGW6l6yfY08qVWgjvCw9VIy_8kGjRejKZokzjn6kiBg,1720
+OctoPrint_FileCheck-2024.11.4.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+OctoPrint_FileCheck-2024.11.4.dist-info/entry_points.txt,sha256=d4K5_2FsuTtq2A78NCnmkc4xT4eAKg3dR2qZFrLEoI4,54
+OctoPrint_FileCheck-2024.11.4.dist-info/top_level.txt,sha256=hz_ce1kwnBVKkbB3Jg0h3EQBT5KWCyZ9rGJwRX9Ec1I,21
+OctoPrint_FileCheck-2024.11.4.dist-info/RECORD,,
