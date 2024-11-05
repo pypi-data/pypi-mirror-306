@@ -1,0 +1,6 @@
+setup.py
+src/xtf.egg-info/PKG-INFO
+src/xtf.egg-info/SOURCES.txt
+src/xtf.egg-info/dependency_links.txt
+src/xtf.egg-info/entry_points.txt
+src/xtf.egg-info/top_level.txt
