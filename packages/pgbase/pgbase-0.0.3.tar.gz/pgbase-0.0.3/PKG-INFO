@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pgbase
+Version: 0.0.3
+Summary: A library to help managing multiple database connections using SQLAlchemy with PostgreSQL
+License: MIT
+Author: Bruno Peixoto
+Author-email: brunolnetto@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: psycopg (>=3.2.2,<4.0.0)
+Requires-Dist: psycopg-binary (>=3.2.2,<4.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.9,<3.0.0)
+Requires-Dist: pydantic (>=2.9.2,<3.0.0)
+Requires-Dist: sqlalchemy[asyncio] (>=2.0.35,<3.0.0)
