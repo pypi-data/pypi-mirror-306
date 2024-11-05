@@ -1,0 +1,7 @@
+python-sql>=0.4
+trytond_currency<7.5,>=7.4
+trytond_party<7.5,>=7.4
+trytond<7.5,>=7.4
+
+[image]
+pillow
