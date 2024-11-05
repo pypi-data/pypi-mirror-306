@@ -1,0 +1,2 @@
+[console_scripts]
+cqa = name_register:main
