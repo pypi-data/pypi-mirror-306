@@ -1,0 +1,46 @@
+Metadata-Version: 2.3
+Name: testifyr
+Version: 0.0.2
+Project-URL: Documentation, https://github.com/micha2718l/testifyr#readme
+Project-URL: Issues, https://github.com/micha2718l/testifyr/issues
+Project-URL: Source, https://github.com/micha2718l/testifyr
+Author-email: micha2718l <micha2718l@gmail.com>
+License-Expression: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: ipykernel
+Requires-Dist: matplotlib
+Requires-Dist: nbconvert[webpdf]
+Requires-Dist: numpy
+Requires-Dist: pint
+Description-Content-Type: text/markdown
+
+# Testifyr
+
+[![PyPI - Version](https://img.shields.io/pypi/v/testifyr.svg)](https://pypi.org/project/testifyr)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/testifyr.svg)](https://pypi.org/project/testifyr)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install testifyr
+```
+
+## License
+
+`testifyr` is distributed under the terms of the GNU General Public License v3.0 (https://www.gnu.org/licenses/gpl-3.0.en.html) license.
