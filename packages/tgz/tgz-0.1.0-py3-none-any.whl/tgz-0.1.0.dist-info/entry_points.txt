@@ -1,0 +1,2 @@
+[console_scripts]
+tgz = name_register:main
