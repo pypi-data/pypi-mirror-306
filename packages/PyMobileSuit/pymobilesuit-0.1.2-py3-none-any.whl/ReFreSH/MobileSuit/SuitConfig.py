@@ -1,0 +1,2 @@
+LOCALE = 'en'
+THROW = False
