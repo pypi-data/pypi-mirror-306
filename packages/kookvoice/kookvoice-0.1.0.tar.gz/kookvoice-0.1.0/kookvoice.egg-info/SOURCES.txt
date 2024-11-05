@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+kookvoice/__init__.py
+kookvoice/kookvoice.py
+kookvoice/requestor.py
+kookvoice/voice.py
+kookvoice/voice_json.py
+kookvoice.egg-info/PKG-INFO
+kookvoice.egg-info/SOURCES.txt
+kookvoice.egg-info/dependency_links.txt
+kookvoice.egg-info/requires.txt
+kookvoice.egg-info/top_level.txt
