@@ -1,0 +1,11 @@
+diptest.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
+diptest-0.8.2.dist-info/RECORD,,
+diptest-0.8.2.dist-info/METADATA,sha256=5-aMy3k7DXuS978iQ3mGthYHVs9vrE0vlwdZKA8xk5s,6012
+diptest-0.8.2.dist-info/WHEEL,sha256=kTiiq_ty6YfCgVTXDxMfzvIhNXkmkVPizZllzkx1WUM,152
+diptest-0.8.2.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+diptest-0.8.2.dist-info/licenses/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+diptest/diptest.py,sha256=9dq75OE7XgUd-H4mHtyYCLSC6wO8WXYsiTGFeSIPndc,6966
+diptest/.diptest.py.un~,sha256=DJ7VQK2JcBUq7OIB6Rkm2FnL14ktaD9rUoVZTdF6ET0,1515
+diptest/consts.py,sha256=01BFx6m7v0yDWewYJaCBr6JSEUMruh74NxJ8GvT4eQo,23298
+diptest/__init__.py,sha256=uOxIGUfX6YGpjLv_NplfXKApqXvr74QcDRJ1JP7VVSs,1509
+diptest/lib/_diptest_core.cpython-39-x86_64-linux-gnu.so,sha256=VYk_4HlSLr9kHv3tJr9LNe8faca5rQlwfFEIlyHkgq0,278409
