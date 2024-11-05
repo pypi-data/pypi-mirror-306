@@ -1,0 +1,89 @@
+Metadata-Version: 2.3
+Name: esycord
+Version: 1.3
+Summary: The most beginner friendly discord package
+Project-URL: Repository, https://github.com/Aayush-Srivastava2410/esycord
+Project-URL: Issues, https://github.com/Aayush-Srivastava2410/esycord/issues
+Project-URL: Documentation, https://github.com/Aayush-Srivastava2410/esycord/wiki
+Project-URL: Discord, https://discord.com/users/795873954668871731
+Author: Aayush Srivastava
+License-Expression: MIT
+Keywords: Discord bot maker,beginner discord,discord,discord simple,easycord,esycord
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.9
+Requires-Dist: aiohttp==3.9.5
+Requires-Dist: colorama
+Requires-Dist: discord==2.3.2
+Requires-Dist: pynacl==1.5.0
+Description-Content-Type: text/x-rst
+
+esycord
+==========
+
+.. image:: https://discord.com/api/guilds/336642139381301249/embed.png
+   :target: https://discord.com/users/795873954668871731
+   :alt: Discord User
+.. image:: https://img.shields.io/pypi/v/esycord.svg
+   :target: https://pypi.python.org/pypi/esycord
+   :alt: PyPI version info
+.. image:: https://img.shields.io/pypi/pyversions/esycord.svg
+   :target: https://pypi.python.org/pypi/esycord
+   :alt: PyPI supported Python versions
+
+This is a very beginner friendly package for all those who wanna make a Discord bot but dont have much experience with Discord's API Wrapper.
+
+
+Installing
+----------
+
+**Python 3.11 or higher is required**
+
+
+.. code:: sh
+
+    # Linux/macOS
+    python3 -m pip install -U esycord
+
+    # Windows
+    py -3 -m pip install -U esycord
+
+Bot Example
+----------------
+
+.. code:: py
+
+    import esycord
+    from esycord import discord
+
+    intents = discord.Intents.default()
+    intents.message_content = True
+
+    bot = esycord.Bot('!', intents=intents)
+    @bot.event
+    async def on_ready():
+        print(f'Logged in as {bot.user}')
+    
+    @bot.event
+    async def on_message(message):
+    if message == 'ping':
+        await message.channel.send('pong')
+    bot.run('token')
+
+
+Links
+------
+
+- `Documentation <https://github.com/Aayush-Srivastava2410/esycord/wiki>`_
+- `Discord User <https://discord.gg/users/795873954668871731>`_
+
+Future
+-------
+- Automod
+- Full Voice Support
