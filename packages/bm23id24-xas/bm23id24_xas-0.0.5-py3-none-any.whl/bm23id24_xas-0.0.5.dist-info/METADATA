@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bm23id24-xas
+Version: 0.0.5
+Summary: Library for XAS data analysis
+Author: Molokova, Lomachenko, Lopez Romero
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.md
+Requires-Dist: xraylarch
+Requires-Dist: pymcr
+Requires-Dist: pyfitit
+Requires-Dist: h5py
+
+UNKNOWN
+
