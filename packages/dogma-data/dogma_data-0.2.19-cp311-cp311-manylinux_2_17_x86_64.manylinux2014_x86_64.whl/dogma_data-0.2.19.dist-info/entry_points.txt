@@ -1,0 +1,2 @@
+[console_scripts]
+dogma-data=dogma_data.__main__:cli
