@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+resources/city_coords.json
+weather_retriever.egg-info/PKG-INFO
+weather_retriever.egg-info/SOURCES.txt
+weather_retriever.egg-info/dependency_links.txt
+weather_retriever.egg-info/requires.txt
+weather_retriever.egg-info/top_level.txt
