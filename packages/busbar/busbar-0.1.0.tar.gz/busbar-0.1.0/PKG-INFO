@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: busbar
+Version: 0.1.0
+Summary: Busbar namespace package (empty)
+License: BSD3
+Author: Muselab
+Author-email: opensource@muselab.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
