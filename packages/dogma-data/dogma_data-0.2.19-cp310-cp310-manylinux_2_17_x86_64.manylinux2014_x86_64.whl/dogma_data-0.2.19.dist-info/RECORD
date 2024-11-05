@@ -1,0 +1,12 @@
+dogma_data-0.2.19.dist-info/METADATA,sha256=yytxR56ezCY5qvxW94TnU0FHBwz_vQf6AfAsdMXd0R0,1865
+dogma_data-0.2.19.dist-info/WHEEL,sha256=rxGW5xyAhHD6vx3ZcJvGgvIgDasEJgakqFOSS-wOt_E,129
+dogma_data-0.2.19.dist-info/entry_points.txt,sha256=h8YB9cTL_tEPL643P398DqeORNN5QtoTfN2XhLWXc-o,53
+dogma_data-0.2.19.dist-info/licenses/LICENSE,sha256=lUcFW5O8ayGbdKMVdTU0JsWGMhxID8jxlCr7oRBFRFo,1059
+dogma_data/utils.py,sha256=1_BzhnYJmFLeZlnFqCUATxtcjhu-shfSaNE7NKbbZ5I,4366
+dogma_data/__init__.py,sha256=HgWfGQzzfDjQlmyeAg7P3wP-6nRpR35z3TzTXqx4yAw,160
+dogma_data/dogma_rust.pyi,sha256=p6BKuHpMfauZpdMT2y38SEEWKRz4aivBLoX1eHaIx84,2649
+dogma_data/_hdf5_storage.py,sha256=iE27294xKuEAjnkaBodYxJWy5r9ZPwpcNB8Y1JXJuCU,1928
+dogma_data/_split.py,sha256=mVgapw504Mh2aSbj3AP0gHtr8--r-oY--pgr8Vc8_z4,1681
+dogma_data/__main__.py,sha256=F4kSllrJxBWKMd23mfV_mnw8RNXYO6YN9O9gAm7edA0,6449
+dogma_data/dogma_rust.cpython-310-x86_64-linux-gnu.so,sha256=dVCCa8UxwPvkYyi_-bU6f5wZYEq0tycB9UEye4riSbs,1237816
+dogma_data-0.2.19.dist-info/RECORD,,
