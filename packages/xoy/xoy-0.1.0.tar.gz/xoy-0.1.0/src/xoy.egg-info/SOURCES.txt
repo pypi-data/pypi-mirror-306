@@ -1,0 +1,6 @@
+setup.py
+src/xoy.egg-info/PKG-INFO
+src/xoy.egg-info/SOURCES.txt
+src/xoy.egg-info/dependency_links.txt
+src/xoy.egg-info/entry_points.txt
+src/xoy.egg-info/top_level.txt
