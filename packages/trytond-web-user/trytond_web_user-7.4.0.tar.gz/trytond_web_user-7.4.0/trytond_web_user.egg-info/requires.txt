@@ -1,0 +1,10 @@
+trytond_party<7.5,>=7.4
+trytond<7.5,>=7.4
+
+[BCrypt]
+bcrypt
+
+[html2text]
+html2text
+
+[test]
