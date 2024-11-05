@@ -1,0 +1,6 @@
+llm>=0.17
+anthropic>=0.39.0
+
+[test]
+pytest
+pytest-recording
