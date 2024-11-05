@@ -1,0 +1,2 @@
+include README.md
+recursive-include tailwind_for_django *
