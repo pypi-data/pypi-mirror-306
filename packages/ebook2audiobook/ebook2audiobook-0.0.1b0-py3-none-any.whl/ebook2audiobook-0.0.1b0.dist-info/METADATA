@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ebook2audiobook
+Version: 0.0.1b0
+Summary: A package to convert ebooks to audiobooks
+Author: Andrew Phillip Thomasson
+Author-email: drew.thomasson100@gmail.com
+License-File: LICENSE
+Requires-Dist: coqui-tts==0.24.2
+Requires-Dist: pydub
+Requires-Dist: nltk
+Requires-Dist: beautifulsoup4
+Requires-Dist: ebooklib
+Requires-Dist: tqdm
+Requires-Dist: gradio==4.44.0
+
