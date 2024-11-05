@@ -1,0 +1,11 @@
+mutemplate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mutemplate/__main__.py,sha256=anh6zenhjmuuN6u2MWau-L6PWvtnNCA5jG7oF_Qy7H4,136
+mutemplate/compiler.py,sha256=zfWhdIGZLzkiEEDquJulbx6HNn0dwXvl10Ux5QRb9JY,5643
+mutemplate/mutemplate.py,sha256=QLHj-Xejnrk6ZHKs3BF6b7wJ8b6Bhd0Qzb9Ym7ys-hA,7589
+mutemplate/template_body_py.txt,sha256=K72dv67X5gFsUgw2R6u36VVZ1ljpJKaREXzdCTy1Txs,1008
+mutemplate/watcher.py,sha256=wGClA9zleOXMVXwhTY65-17srrZqdutVgMzXpTF5dTE,1187
+mutemplate-1.2.dist-info/METADATA,sha256=zBD-Ak-WvF4XiFCetJSmIykJzcBA1MBoRCiu1Lmryqg,12931
+mutemplate-1.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+mutemplate-1.2.dist-info/entry_points.txt,sha256=D5lwCEiDpVzKMkGb5jOJbKlauawts7ESL44TA9gkVfo,58
+mutemplate-1.2.dist-info/top_level.txt,sha256=lASv-CkyxXzoX7Kcf-C8OfMEfD3n-Y2LXhh8EJZJpBk,11
+mutemplate-1.2.dist-info/RECORD,,
