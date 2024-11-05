@@ -1,0 +1,2 @@
+[console_scripts]
+ofh = name_register:main
