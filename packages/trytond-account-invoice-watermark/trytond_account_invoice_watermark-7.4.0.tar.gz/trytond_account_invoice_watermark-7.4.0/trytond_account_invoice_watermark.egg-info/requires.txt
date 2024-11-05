@@ -1,0 +1,6 @@
+pypdf>=3
+trytond_account_invoice<7.5,>=7.4
+trytond<7.5,>=7.4
+
+[test]
+proteus<7.5,>=7.4
