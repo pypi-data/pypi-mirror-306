@@ -1,0 +1,6 @@
+setup.py
+PyCodeCommenter.egg-info/PKG-INFO
+PyCodeCommenter.egg-info/SOURCES.txt
+PyCodeCommenter.egg-info/dependency_links.txt
+PyCodeCommenter.egg-info/requires.txt
+PyCodeCommenter.egg-info/top_level.txt
