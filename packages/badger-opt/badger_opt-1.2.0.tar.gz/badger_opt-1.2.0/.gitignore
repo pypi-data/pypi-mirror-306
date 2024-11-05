@@ -1,0 +1,16 @@
+__pycache__
+.DS_Store
+.vscode
+*.egg-info
+/dist
+/build
+/local
+/requirements*.txt
+.idea/
+/examples/*.yaml
+*.pickle
+*.db
+config.yaml
+.vscode
+src/badger/_version.py
+.coverage*

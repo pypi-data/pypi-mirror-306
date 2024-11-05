@@ -1,0 +1,13 @@
+coolname
+pyqt5
+pyqtgraph
+qdarkstyle
+pillow
+requests
+xopt
+
+[dev]
+pytest
+pytest-cov
+pytest-qt
+pytest-mock
