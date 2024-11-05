@@ -1,0 +1,6 @@
+setup.py
+src/vtr.egg-info/PKG-INFO
+src/vtr.egg-info/SOURCES.txt
+src/vtr.egg-info/dependency_links.txt
+src/vtr.egg-info/entry_points.txt
+src/vtr.egg-info/top_level.txt
