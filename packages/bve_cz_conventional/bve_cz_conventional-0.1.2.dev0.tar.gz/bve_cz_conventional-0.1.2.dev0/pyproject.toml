@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "bve_cz_conventional"
+version = "0.1.2-dev"
+description = "Breve flavored commitizen-tools/commitizen extension with gitmoji and i18n."
+authors = ["atlasfoo <atlasfoo@brevetech.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+commitizen = "^3.29.1"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.0.1"
+ruff = "^0.7.0"
+pytest = "^8.3.3"
+
+[tool.poetry.plugins."commitizen.plugin"]
+"bve_cz_conventional" = "bve_cz_conventional:BreveCzConventional"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff.lint]
+select = ["F", "E", "UP", "B"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.commitizen]
+name = "bve_cz_conventional"
+tag_format = "v$version"
+bump_message = ":arrow_up: bump: version $current_version → $new_version"
+lang = "en"
+use_gitmoji = true
+version_provider = "poetry"
