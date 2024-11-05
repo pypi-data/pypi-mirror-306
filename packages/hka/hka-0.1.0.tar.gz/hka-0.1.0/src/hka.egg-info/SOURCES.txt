@@ -1,0 +1,6 @@
+setup.py
+src/hka.egg-info/PKG-INFO
+src/hka.egg-info/SOURCES.txt
+src/hka.egg-info/dependency_links.txt
+src/hka.egg-info/entry_points.txt
+src/hka.egg-info/top_level.txt
