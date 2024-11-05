@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: extasycoco
+Version: 0.4.1
+Summary: EXTASY Project - CoCo
+Home-page: https://bitbucket.org/extasy-project/extasy-project
+Download-URL: https://bitbucket.org/extasy-project/coco/get/0.4.1.tar.gz
+Author: The EXTASY Project
+Author-email: charles.laughton@nottingham.ac.uk
+License: BSD
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: cython
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: mdtraj
+
+ExTASY Project - CoCo : molecular ensemble analysis and enhancement.
