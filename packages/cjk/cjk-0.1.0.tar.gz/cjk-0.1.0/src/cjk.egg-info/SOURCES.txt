@@ -1,0 +1,6 @@
+setup.py
+src/cjk.egg-info/PKG-INFO
+src/cjk.egg-info/SOURCES.txt
+src/cjk.egg-info/dependency_links.txt
+src/cjk.egg-info/entry_points.txt
+src/cjk.egg-info/top_level.txt
