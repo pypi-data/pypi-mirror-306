@@ -1,0 +1,12 @@
+mydata/__init__.py,sha256=BTJR6mvOteBsJnjh7omhCNQNG4l22X7e1uNTdeImU6s,2656
+mydata/__main__.py,sha256=UxCTJdw2Xyhm3ePN28CU_uV838tGKj-zpdyqFLTtYi4,7525
+mydata/client.py,sha256=-CAoeQRBuuAKwHSeCylpQm7WCMrUQFUHj6o7D0_lkas,8513
+mydata/models_v1_0_7.py,sha256=B4TAU3wCM6n4wqOYqG-Iq_K9u5xxWFEIoyZwhQrAx2g,70901
+mydata/models_v1_0_8.py,sha256=J_HzdPZ45D6Ay3sxvhfLzudksOHSvlosQG7teEo71qs,81394
+mydata/models_v1_0_9.py,sha256=NhZdn5q7mRtaKeOmEYJ3UYOezQcxQfL4RhztJ4vZDbU,93579
+mydata_client-0.2.0.dist-info/LICENSE,sha256=Pz2eACSxkhsGfW9_iN60pgy-enjnbGTj8df8O3ebnQQ,16726
+mydata_client-0.2.0.dist-info/METADATA,sha256=g_qSZNUjKI4wf1ePO1WT98dO8-pjzGjreWP3m0KX3As,3729
+mydata_client-0.2.0.dist-info/NOTICE.md,sha256=2jP_Y1lJeiV4dbr7VindhEyV-wR-DVdV0VC2K8lW_hM,383
+mydata_client-0.2.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+mydata_client-0.2.0.dist-info/entry_points.txt,sha256=1hKZn_aBeX23KBywIHyskbjxigzvY08bRFrl5piAvqk,46
+mydata_client-0.2.0.dist-info/RECORD,,

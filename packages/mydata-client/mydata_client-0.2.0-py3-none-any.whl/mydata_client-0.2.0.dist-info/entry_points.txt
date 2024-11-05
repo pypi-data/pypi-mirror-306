@@ -1,0 +1,3 @@
+[console_scripts]
+mydata=mydata.__main__:cli
+
