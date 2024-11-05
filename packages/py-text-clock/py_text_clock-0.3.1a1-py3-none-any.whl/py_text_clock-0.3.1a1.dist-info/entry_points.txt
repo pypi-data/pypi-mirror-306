@@ -1,0 +1,3 @@
+[console_scripts]
+py-clock=py_text_clock.command_line:main
+
