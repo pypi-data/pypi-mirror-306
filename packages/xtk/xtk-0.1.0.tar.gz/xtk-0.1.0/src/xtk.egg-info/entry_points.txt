@@ -1,0 +1,2 @@
+[console_scripts]
+xtk = name_register:main
