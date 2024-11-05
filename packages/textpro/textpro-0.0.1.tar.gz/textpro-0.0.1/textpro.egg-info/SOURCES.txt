@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+textpro/__init__.py
+textpro/textpro.py
+textpro.egg-info/PKG-INFO
+textpro.egg-info/SOURCES.txt
+textpro.egg-info/dependency_links.txt
+textpro.egg-info/requires.txt
+textpro.egg-info/top_level.txt
