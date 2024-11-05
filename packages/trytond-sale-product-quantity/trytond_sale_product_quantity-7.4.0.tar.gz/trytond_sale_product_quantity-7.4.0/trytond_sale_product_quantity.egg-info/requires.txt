@@ -1,0 +1,7 @@
+trytond_product<7.5,>=7.4
+trytond_sale<7.5,>=7.4
+trytond<7.5,>=7.4
+
+[test]
+proteus<7.5,>=7.4
+trytond_sale_point<7.5,>=7.4
