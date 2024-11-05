@@ -1,0 +1,10 @@
+LICENSE
+README.md
+aider.py
+pyproject.toml
+shell_aider.egg-info/PKG-INFO
+shell_aider.egg-info/SOURCES.txt
+shell_aider.egg-info/dependency_links.txt
+shell_aider.egg-info/entry_points.txt
+shell_aider.egg-info/requires.txt
+shell_aider.egg-info/top_level.txt
