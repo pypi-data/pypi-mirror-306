@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/project_generator_python.egg-info/PKG-INFO
+src/project_generator_python.egg-info/SOURCES.txt
+src/project_generator_python.egg-info/dependency_links.txt
+src/project_generator_python.egg-info/entry_points.txt
+src/project_generator_python.egg-info/requires.txt
+src/project_generator_python.egg-info/top_level.txt
+src/python_generator/cli.py
+src/python_generator/templates.py
