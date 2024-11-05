@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aistudio-scheduler-lock
+Version: 1.0.9a0
+Summary: Implements a distributed locking scheme for schedulers running on HA mode.
+Author: Yogesh Ketkar
+Author-email: yogesh.ketkar@automationedge.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Django (>=4.2,<5.0)
+Requires-Dist: django-apscheduler (==0.6.2)
+Requires-Dist: setuptools (==65.5.1)
