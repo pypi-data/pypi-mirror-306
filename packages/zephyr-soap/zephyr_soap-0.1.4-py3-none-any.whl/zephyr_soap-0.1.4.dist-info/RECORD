@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_soap_client.py,sha256=V2XhC2m6MFrRgc-LM8hnvxzKy4wD9I0DR36ixXgWJpU,2414
+zephyr_soap/__init__.py,sha256=xXWsH29unLkwFUPaaL_PQELA5-_bovWYra0r7Wy02f8,259
+zephyr_soap/core.py,sha256=0Mh5GpRMqdLf-kfpLOQPeNHZYHnejJv8wcrok4Y9UkM,41857
+zephyr_soap-0.1.4.dist-info/LICENSE,sha256=37ZXUEt7DeOm49_Y55bswqGu41yNe7g8EUWE5KtpNW4,1100
+zephyr_soap-0.1.4.dist-info/METADATA,sha256=VrEyRpHhR9ePVAA27ZlF2OqcsFakeEmXa69NWSfFHoI,7847
+zephyr_soap-0.1.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+zephyr_soap-0.1.4.dist-info/top_level.txt,sha256=5r0QMRBzcbp1sb_scVv74aAFrsAlFVdeTpjv986rKGA,18
+zephyr_soap-0.1.4.dist-info/RECORD,,
