@@ -1,0 +1,6 @@
+setup.py
+src/cqo.egg-info/PKG-INFO
+src/cqo.egg-info/SOURCES.txt
+src/cqo.egg-info/dependency_links.txt
+src/cqo.egg-info/entry_points.txt
+src/cqo.egg-info/top_level.txt
