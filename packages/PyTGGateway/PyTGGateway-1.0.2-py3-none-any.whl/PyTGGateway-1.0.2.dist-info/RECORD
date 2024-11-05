@@ -1,0 +1,10 @@
+TGGateway/__init__.py,sha256=fDSL1LoI4ndU7a3vJaKEmBF8Cglgb1MQgLsGneRgxnA,679
+TGGateway/_api.py,sha256=9-UI0saaUXJK6iycV9iKwL7k3Ow1ntfjpwGtL9ruAn0,9525
+TGGateway/_api_async.py,sha256=07BzOIBc7gBfA7BEL0Tl5sKDDBhdSaFuo0FRczyew-I,9663
+TGGateway/exceptions.py,sha256=maNLEJ6NVR8si6uoOObkW3oEP3qwazUhE1LqmgAtQe4,354
+TGGateway/types.py,sha256=AZdqUzGqPqdRKiqqbjc4QZnt102-7879AOaL_PoBSyE,1407
+PyTGGateway-1.0.2.dist-info/LICENSE,sha256=WSB6G2UPCThKJ7Qt7PBRWQVMgI0ksOfbj6ue5l37RXs,1071
+PyTGGateway-1.0.2.dist-info/METADATA,sha256=96b_tyEMpICJHzRfl6H_A-qq0yLX7PhQ5AE4b0SLxzw,5852
+PyTGGateway-1.0.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+PyTGGateway-1.0.2.dist-info/top_level.txt,sha256=4RXOnv3SjVOghXcpD5LJaoRiNRU06lrcnA8wp3Jvm-k,10
+PyTGGateway-1.0.2.dist-info/RECORD,,
