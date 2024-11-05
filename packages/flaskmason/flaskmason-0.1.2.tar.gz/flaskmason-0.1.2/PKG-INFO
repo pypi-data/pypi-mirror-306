@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: flaskmason
+Version: 0.1.2
+Summary: A CLI tool to generate a Django-like structure for Flask projects
+Home-page: https://github.com/Akash-nath29/flaskgen
+Author: Akash Nath
+Author-email: devakash2905@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Flask>=2.0
+Requires-Dist: Flask-SQLAlchemy>=2.5
+Requires-Dist: Flask-WTF>=0.15
+
+# FlaskMason
+
+FlaskMason is a command-line tool designed to quickly scaffold Flask applications with a Django-like project structure. It automates the creation of a boilerplate project with organized blueprints, configuration files, and other essential components, allowing developers to focus on building features instead of setting up their environment.
+
+## Features
+
+- **Django-like Folder Structure**: Automatically creates a structured layout for your Flask projects, including blueprints for authentication, admin, and more.
+- **Predefined Boilerplate Code**: Generates essential files with predefined content, reducing the need for repetitive setup.
+- **Easy Installation**: Installs all necessary dependencies with a single command.
+
+## Installation
+
+You can install FlaskMason via pip. To install it along with its dependencies, run:
+
+```bash
+pip install flaskmason
+```
+
+## Usage
+
+To create a new Flask project, simply run:
+
+```bash
+flaskmason <project_name>
+```
+
+This command will generate a new directory called `<project_name>` containing the following structure:
+
+```
+<project_name>/
+â”œâ”€â”€ app.py
+â”œâ”€â”€ config.py
+â”œâ”€â”€ requirements.txt
+â”œâ”€â”€ .env
+â”œâ”€â”€ blueprints/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”œâ”€â”€ auth/
+â”‚   â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”‚   â”œâ”€â”€ views.py
+â”‚   â”‚   â”œâ”€â”€ models.py
+â”‚   â”‚   â””â”€â”€ forms.py
+â”‚   â””â”€â”€ admin/
+â”‚       â”œâ”€â”€ __init__.py
+â”‚       â”œâ”€â”€ views.py
+â”‚       â”œâ”€â”€ models.py
+â”‚       â””â”€â”€ forms.py
+â”œâ”€â”€ static/
+â””â”€â”€ templates/
+```
+
+### Example Commands
+
+1. **Create a new Flask project**:
+   ```bash
+   flaskmason my_flask_project
+   ```
+
+2. **Change directory into the new project**:
+   ```bash
+   cd my_flask_project
+   ```
+
+3. **Run the application**:
+   ```bash
+   python app.py
+   ```
+
+## File Descriptions
+
+- **app.py**: The main application file where the Flask app is created and configured.
+- **config.py**: Contains configuration settings for the application, such as database URI and secret keys.
+- **blueprints/**: Directory for organizing application features into blueprints, improving modularity and maintainability.
+- **static/**: Directory for static files (CSS, JavaScript, images).
+- **templates/**: Directory for HTML templates used in rendering views.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or find bugs, please open an issue or submit a pull request.
+
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Author
+
+[Akash Nath](https://www.akashnath.me/)
+
+## Acknowledgements
+
+- Thanks to the Flask community for providing an excellent framework for web development.
+
+### Notes:
+- **Personalize the Author Section**: Update the author section with your name and any other relevant details, like your LinkedIn or personal website, if desired.
+- **Add More Details**: Feel free to expand on any sections, add more examples, or include additional features you plan to implement in the future.
+- **Contribution Guidelines**: You might want to include more specific contribution guidelines if you expect contributions from others. 
