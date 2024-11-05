@@ -1,0 +1,7 @@
+SQLITE_ALIAS = 'sqlite'
+SQLITE_STATE_ALIAS = 'sqlite-state'
+POSTGRES_STATE_ALIAS = 'postgres-state'
+SQLITE_HISTORICAL_ALIAS = 'sqlite-historical'
+# SQLITE_IMMUTABLE_ALIAS = 'sqlite-immutable'
+POSTGRES_HISTORICAL_ALIAS = 'postgres-historical'
+# POSTGRES_IMMUTABLE_ALIAS = 'postgres-immutable'
