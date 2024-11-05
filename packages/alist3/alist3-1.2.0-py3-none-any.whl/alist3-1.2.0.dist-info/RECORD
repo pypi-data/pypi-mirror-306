@@ -1,0 +1,12 @@
+alist/__init__.py,sha256=oTkgkQhvJwpTP15A-Pd-GQoVKJXbd4nZCbUwFKLoKCs,128
+alist/download.py,sha256=SZ4nZlIPABulQu6UgZlPbSlXNSZqEZB7F09yu1lWBxk,2908
+alist/error.py,sha256=piS04bnQO-rcsTfZDM7cfAbr96S_Y6BLpysiEZLKuac,215
+alist/file.py,sha256=GWDGqApWfy2Lya_nEXzNWJVhvXKVpixFdplx_hsrudw,1808
+alist/folder.py,sha256=CS5nSkRNl_TgoC3UiiXAjIByEai_YfIq1wLQKcc48aY,493
+alist/main.py,sha256=-VkZEIxlszwygkNutgG4GZK1ls0uNbO4NP8olsgC2Vo,15536
+alist/utils.py,sha256=C7RJivkrWEXpjo0d-g1cUBnvosl0yusJWVJUtIffjUQ,1019
+alist3-1.2.0.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+alist3-1.2.0.dist-info/METADATA,sha256=aKuK3R30OWHuT26RvEkT4X4R5gTXn8QoZN4vknjEY4U,2281
+alist3-1.2.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+alist3-1.2.0.dist-info/top_level.txt,sha256=-LZcnX6y_5BXT8ZZ1lu5WxE_IGDL2o3Wte5FDG7WKQg,6
+alist3-1.2.0.dist-info/RECORD,,
