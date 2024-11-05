@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: masterdef
+Version: 0.1
+Summary: Library for Excel validation and formatting
+Home-page: UNKNOWN
+Author: Prajwal Bhagwat
+Author-email: app.architecturer@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: openpyxl (>=3.0.0)
+
+UNKNOWN
+
+
