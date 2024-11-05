@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: file-convertion-tools
+Version: 0.0.12
+Summary: common file conversions
+Author: Gustav Rasmussen
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: pypdf (>=5.1.0,<6.0.0)
+Requires-Dist: pytest (>=8.3.3,<9.0.0)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Description-Content-Type: text/markdown
+
+# file-tools
+
+common file conversions
+
+## Installation
+
+```BASH
+pip install file-convertion-tools
+```
+
+## Usage example
+
+Importing
+
+```Python
+import file_tools
+```
+
+Usage
+
+```Python
+```
+
+<!--
+## Create a new release
+
+example:
+
+```BASH
+git tag 0.0.1
+git push origin --tags
+```
+
+release a patch:
+
+```BASH
+poetry version patch
+```
+
+then `git commit`, `git push` and
+
+```BASH
+git tag 0.0.2
+git push origin --tags
+```
+-->
+
