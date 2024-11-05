@@ -1,0 +1,2 @@
+odoo12-addon-helpdesk_ticket_mail_message
+odoo<12.1dev,>=12.0a
