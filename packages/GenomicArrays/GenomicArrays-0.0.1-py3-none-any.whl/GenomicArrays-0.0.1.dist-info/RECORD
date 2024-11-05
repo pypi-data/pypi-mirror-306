@@ -1,0 +1,13 @@
+genomicarrays/GenomicArrayDataset.py,sha256=Ck_gSRYMHXsFBx6ojAiQbxfV4n3x3_Ur9c_uY8rTXB8,13145
+genomicarrays/GenomicArrayDatasetSlice.py,sha256=kj9ksgO9ZrALshlovClwzH_Id1HnNUxuC_reH7I3zkc,2499
+genomicarrays/__init__.py,sha256=HpWkZ45Zg0SjbOwp6kNs0lv4lW13Oua42pq7vp9de5E,842
+genomicarrays/build_genomicarray.py,sha256=ojyd88cN4aEK89o2PBHAHCYfkGOdOb21Sa7njbRAwAM,9916
+genomicarrays/build_options.py,sha256=NAnQuFgB7ljCo8vS1kicPrhtHKlY6LHhPGy-9c9BjPs,3997
+genomicarrays/buildutils_tiledb_array.py,sha256=5Tomd51-8q19_dRl0ajtqiUJT_jhWCgvoEFCVqJ5mVk,5107
+genomicarrays/queryutils_tiledb_frame.py,sha256=5N_vh6yIW4xSqOQ-Er5pX0av5KFdbBL7cwhjiTdhk3g,3780
+genomicarrays/utils_bw.py,sha256=USeSIAfpXefidxmOcFv0kdKYBJSUBvJ5WGBGAg8-yTM,2250
+GenomicArrays-0.0.1.dist-info/LICENSE.txt,sha256=kXGI4eKM3dFP79vCaYersRg8MA4GYpZ9oEiGwdIGGA8,1084
+GenomicArrays-0.0.1.dist-info/METADATA,sha256=--0bSlAjCBelsJMH9fXS-R8r4BX4F-bwP89zmml6nDQ,4392
+GenomicArrays-0.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+GenomicArrays-0.0.1.dist-info/top_level.txt,sha256=R2BBrWrZDXLo8HGPGHWhKnYh5zXou_daewV3WuNZXYk,14
+GenomicArrays-0.0.1.dist-info/RECORD,,
