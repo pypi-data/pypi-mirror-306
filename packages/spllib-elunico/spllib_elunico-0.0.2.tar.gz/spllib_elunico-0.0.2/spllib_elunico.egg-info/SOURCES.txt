@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+spllib_elunico.egg-info/PKG-INFO
+spllib_elunico.egg-info/SOURCES.txt
+spllib_elunico.egg-info/dependency_links.txt
+spllib_elunico.egg-info/top_level.txt
+splllib/__init__.py
+splllib/spllib.py
