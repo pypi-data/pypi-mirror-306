@@ -1,0 +1,17 @@
+setup.py
+odoo/addons/helpdesk_filter_mail_messages/CHANGELOG.md
+odoo/addons/helpdesk_filter_mail_messages/README.rst
+odoo/addons/helpdesk_filter_mail_messages/__init__.py
+odoo/addons/helpdesk_filter_mail_messages/__manifest__.py
+odoo/addons/helpdesk_filter_mail_messages/i18n/ca.po
+odoo/addons/helpdesk_filter_mail_messages/i18n/es.po
+odoo/addons/helpdesk_filter_mail_messages/models/__init__.py
+odoo/addons/helpdesk_filter_mail_messages/models/helpdesk_ticket.py
+odoo/addons/helpdesk_filter_mail_messages/static/description/icon.png
+odoo/addons/helpdesk_filter_mail_messages/views/helpdesk_ticket_view.xml
+odoo12_addon_helpdesk_filter_mail_messages.egg-info/PKG-INFO
+odoo12_addon_helpdesk_filter_mail_messages.egg-info/SOURCES.txt
+odoo12_addon_helpdesk_filter_mail_messages.egg-info/dependency_links.txt
+odoo12_addon_helpdesk_filter_mail_messages.egg-info/not-zip-safe
+odoo12_addon_helpdesk_filter_mail_messages.egg-info/requires.txt
+odoo12_addon_helpdesk_filter_mail_messages.egg-info/top_level.txt
