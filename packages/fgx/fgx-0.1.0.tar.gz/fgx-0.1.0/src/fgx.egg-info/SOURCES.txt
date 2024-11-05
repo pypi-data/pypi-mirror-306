@@ -1,0 +1,6 @@
+setup.py
+src/fgx.egg-info/PKG-INFO
+src/fgx.egg-info/SOURCES.txt
+src/fgx.egg-info/dependency_links.txt
+src/fgx.egg-info/entry_points.txt
+src/fgx.egg-info/top_level.txt

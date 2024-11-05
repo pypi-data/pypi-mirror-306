@@ -1,0 +1,2 @@
+[console_scripts]
+fgx = name_register:main
