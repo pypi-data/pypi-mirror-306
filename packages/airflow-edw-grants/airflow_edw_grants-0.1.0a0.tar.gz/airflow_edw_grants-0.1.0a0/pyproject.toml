@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "airflow-edw-grants"
+version = "0.1.0-alpha.0"
+description = "An Apache Airflow plugin for managing users and roles in an Enterprise Data Warehouse (EDW) and establishing connections between them, specifically for Amazon Redshift."
+license = "MIT"
+authors = ["Hipposys"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+apache-airflow = "^2.4.0"
+pandas = ">=1.3.5"
+sqlalchemy-redshift = ">=0.8.11"
+SQLAlchemy = ">=1.4.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^6.0"
+Flake8-pyproject = ">=1.2.0"
+black = "==22.3.0"
+
+[tool.poetry.plugins."airflow.plugins"]
+airflow-edw-grants = "airflow_edw_grants.plugins.edw_grants:AirflowEdwGrantsPlugin"
+
+[tool.black]
+line-length = 88
+skip-string-normalization = false
+
+[tool.flake8]
+max-line-length = 88
+exclude = [
+    ".git",
+    "__pycache__",
+    "build",
+    "dist",
+    ".venv",
+    "migrations",
+    "tests"
+]
+ignore = [
+    "E203",
+    "E704",
+    "W504",
+    "E126",
+    "W503"
+]
+max-complexity = 10
+show-source = true
+per-file-ignores = [
+    "tests/*:D"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+homepage = "https://github.com/hipposys-ltd/airflow-edw-grants"
