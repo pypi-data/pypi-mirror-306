@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+django_model_inspector/__init__.py
+django_model_inspector/inspector.py
+django_model_inspector/sdk_settings.py
+django_model_inspector/views.py
+django_model_inspector.egg-info/PKG-INFO
+django_model_inspector.egg-info/SOURCES.txt
+django_model_inspector.egg-info/dependency_links.txt
+django_model_inspector.egg-info/requires.txt
+django_model_inspector.egg-info/top_level.txt
+dmi/__init__.py
+dmi/inspector.py
+dmi/sdk_settings.py
+dmi/views.py
