@@ -1,0 +1,57 @@
+#####
+# This file is an example docker-compose file for deploying BLIS to a cloud provider
+# This file is used as a template, but will be rewritten by the BLIS tool as necessary.
+
+name: c4gblis
+
+services:
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+
+  app:
+    image: "ghcr.io/c4g/blis:latest"
+    restart: unless-stopped
+    environment:
+      DB_HOST: 'db'
+      DB_PORT: '3306'
+      DB_USER: 'root'
+      DB_PASS: 'blis123'
+    depends_on:
+      - caddy
+      - db
+    volumes:
+      - blis-files:/var/www/blis/files
+      - blis-local:/var/www/blis/local
+      - blis-logs:/var/www/blis/log
+
+  db:
+    image: mysql:5.7
+    command: --default-authentication-plugin=mysql_native_password --innodb-strict-mode=OFF --sql-mode=""
+    restart: unless-stopped
+    volumes:
+      - blis-mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: blis123
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost", "-uroot", "-pblis123"]
+      timeout: 20s
+      retries: 10
+
+volumes:
+  blis-files:
+  blis-local:
+  blis-logs:
+  blis-mysql:
+  caddy_data:
+  caddy_config:

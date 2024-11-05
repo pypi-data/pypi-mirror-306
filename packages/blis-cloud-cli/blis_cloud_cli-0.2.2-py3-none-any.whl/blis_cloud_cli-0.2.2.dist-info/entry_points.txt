@@ -1,0 +1,3 @@
+[console_scripts]
+blis=blis_cli.blis:main
+
