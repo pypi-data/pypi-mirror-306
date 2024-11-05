@@ -1,0 +1,2 @@
+[console_scripts]
+cocoon_data = cocoon_data.cli:main
