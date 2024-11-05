@@ -1,0 +1,2 @@
+[console_scripts]
+xsu = name_register:main
