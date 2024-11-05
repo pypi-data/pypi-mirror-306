@@ -1,0 +1,3 @@
+[console_scripts]
+dendrite=dendrite._cli.main:main
+
