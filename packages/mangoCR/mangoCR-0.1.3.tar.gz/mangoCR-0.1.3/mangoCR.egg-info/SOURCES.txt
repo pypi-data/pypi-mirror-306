@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mangoCR/__init__.py
+mangoCR/ocr_extractor.py
+mangoCR.egg-info/PKG-INFO
+mangoCR.egg-info/SOURCES.txt
+mangoCR.egg-info/dependency_links.txt
+mangoCR.egg-info/requires.txt
+mangoCR.egg-info/top_level.txt
