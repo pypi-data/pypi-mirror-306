@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: neurodec
+Version: 0.0.6
+Summary: A Python package that provides access to all of the neurodec software tools.
+Author: neurodec
+Requires-Dist: appdirs
+Requires-Dist: werkzeug
+Requires-Dist: trimesh
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: rich>=13.0.0
+Requires-Dist: scipy
+
