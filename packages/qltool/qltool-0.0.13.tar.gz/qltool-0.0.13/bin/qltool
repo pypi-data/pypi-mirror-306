@@ -1,0 +1,634 @@
+#!/usr/bin/env python3
+
+# to override print <= can be a big problem with exceptions
+#
+# colors in df_table _fg _bg columns:
+# see
+# https://github.com/mixmastamyk/console/blob/master/console/color_tables_x11.py#L112
+#
+# from __future__ import print_function  # must be 1st
+# import builtins
+import sys
+from fire import Fire
+from qltool.version import __version__
+# from qltool import unitname
+from qltool import config
+
+# from qltool import topbar
+# from qltool import key_enter
+# # from qltool  import df_table
+# from qltool.df_table import create_dummy_df, show_table, \
+#     inc_dummy_df
+# from qltool.config import move_cursor
+# from qltool import mmapwr
+# from qltool import interpreter
+# from qltool import objects # I have no reach from remote-keyboard BUT from mainkb
+
+import time
+import datetime as dt
+from console import fg, bg, fx
+# from blessings import Terminal
+import os
+# from pyfiglet import Figlet
+import signal
+
+
+from  qltool.ql_utils import runme, annotate_img, \
+    rotate_img, rescale_img, dither, \
+    monochrom, make_triple, make_double, \
+    check_lpx
+
+import tempfile
+import os
+import subprocess as sp
+import shlex
+import random
+
+import numpy as np
+import cv2
+import screeninfo
+from flashcam import usbcheck
+
+import socket
+import shutil
+from console import fg,bg
+
+import qrcode
+
+
+
+# # ====================== for separate terminal keyboard using mmap
+# #from prompt_toolkit.styles import Style
+# from prompt_toolkit.cursor_shapes import CursorShape, ModalCursorShapeConfig
+
+# from prompt_toolkit import PromptSession, prompt
+# from prompt_toolkit.history import FileHistory
+
+# from prompt_toolkit.completion import WordCompleter
+# from prompt_toolkit.completion import NestedCompleter
+
+# from prompt_toolkit.auto_suggest import AutoSuggestFromHistory
+
+#import json # transfe list to string and back
+# ========================
+# SHOW_LOGO_TABLE = False
+# SHOW_TIME = False
+# SHOW_COMMAND_LINE = True
+# RUN_MMAP_INPUT = True  #  INTERACTIVE MMAP-INTERACTIVE
+# RUN_SELECT_FROM_TABLE = False
+
+
+#termsize = os.get_terminal_size().columns
+
+# import pandas as pd
+# import numpy as np
+# from terminaltables import SingleTable
+
+# ------- this defended the project from winch error
+# from simple_term_menu import TerminalMenu
+
+
+# def handle_sigwinch(signum: signal.Signals, qqq):
+#     # pylint: disable=unused-argument
+#     #print("WINCH SIGNAL:",type(qqq), qqq)
+#     #os.system("reset")
+#     return None
+
+
+# def main(projectname=None, debug=False, keyboard_remote_start = False, servermode = False, logo = False):
+#     """
+#     Main function of the project. When 'projectname' given: new project is created
+
+#     Parameters:
+#     projectname: THIS WILL GENERATE NEW PROJECT with these modules
+#     keyboard_remote_start: just start a standalone prompt
+#     servermode: wait for commands via mmap... to be used with -k
+#     """
+#     global RUN_SELECT_FROM_TABLE, SHOW_LOGO_TABLE, SHOW_TIME, RUN_MMAP_INPUT
+#     config.CFG_DEBUG = debug
+#     SHOW_LOGO_TABLE = logo
+#     SHOW_TIME = logo
+
+#     if not servermode: RUN_MMAP_INPUT = False
+#     # GLobal clear terminal
+#     if debug:
+#         print(__version__)
+#     #else:
+
+#     signal.signal(signal.SIGWINCH, handle_sigwinch)
+
+#     # ======== DEFINE THE CONFIG FILE HERE ========
+
+#     config.CONFIG["filename"] = "~/.config/qltool/cfg.json"
+#     config.CONFIG["history"] = "~/.config/qltool/history"
+#     # solely LOAD will create ....from_memory files
+#     # config.load_config()
+#     # solely  SAVE will create cfg.json only
+#     # config.save_config()
+
+#     # ==================================================== #########################
+#     # ==================================================== ######################### remote
+#     # ==================================================== #########################
+#     #               command prompt - separate thread
+#     # ==============================================================================
+#     if keyboard_remote_start:
+#         #prompt_completer = WordCompleter( interpreter.KNOWN_COMMANDS )
+#         prompt_completer = NestedCompleter.from_nested_dict( interpreter.KNOWN_COMMANDS_DICT )
+#         #allobjects = interpreter.allobjects #  ['obj1']
+#         multilineinput = False
+#         config.myPromptSession = PromptSession(
+#             history=FileHistory( os.path.expanduser(config.CONFIG["history"]) )
+#         ) #, multiline=Trueinp
+#         inp = ""
+#         myname = os.path.splitext(os.path.basename(__file__))[0]
+
+#         print(f"i...  input interface to {fg.orange}{myname}{fg.default} application. .q to quit all; .h to help.")
+#         #loopn = 0
+#         while (inp!=".q"):
+#             #loopn+=1
+#             inp = config.myPromptSession.prompt("> ",
+#                                                 cursor=CursorShape.BLINKING_UNDERLINE,
+#                                                 multiline=multilineinput,
+#                                                 completer=prompt_completer,
+#                                                 complete_while_typing=False,
+#                                                 wrap_lines=True, # no noew lines
+#                                                 mouse_support=False,  #middlemouse
+#                                                 auto_suggest=AutoSuggestFromHistory()
+#                                                 )
+#             if inp==".h":
+#                 print("H...  HELP:")
+#                 print("H...  .t   table+logo")
+#                 print("H...  .d   disable logo and time")
+#                 print("H...  .r   reset terminal")
+#                 print("H... known commands: ", "  ".join(interpreter.KNOWN_COMMANDS )  )
+#             elif inp==".q":
+#                 mmapwr.mmwrite(inp)
+#             else:
+#                 # SOME REAL COMMUNICATION WITH THE OPERATION THREAD ----
+#                 # If not finished -->> wait for it;
+#                 #   and get name of
+#                 #print(loopn)
+#                 mmapwr.mmwrite(inp)
+#                 done = False
+#                 ii = 1
+#                 #esc = chr(27)
+#                 #cc=f'a{esc}[5m_'
+#                 cc=" "
+#                 spinner = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"]
+#                 while not done:
+#                     # res = mmapwr.mmread(  ) # read response
+#                     ii+=1
+#                     res = mmapwr.mmread_n_clear( mmapwr.MMAPRESP  )
+#                     res = res.strip() # strin newline
+#                     print("\r",spinner[ii%8], end=cc, flush=True)
+
+#                     # if ii%2==0:
+#                     #     print(spinner[0], end="\r", flush=True)
+#                     # else:
+#                     #     print(spinner[3], end="\r", flush=True)
+#                     #print(f"... input was /{inp}/==/{res}/..result of read   len(inp):", len(inp), "  ...res:",len(res) )
+#                     # if res.strip()==inp.strip(): # BEFORE SENDING OBJ
+#                     if res.strip().find( inp.strip() )==0:
+#                         parts = res.strip().split("###")
+#                         if len(parts)>1:
+#                             obj_names = json.loads( parts[-1] )
+#                             #print("D... received objnames:", obj_names, type(obj_names))
+#                             #print(f" YES::::.../{inp}/==/{res}/.. ?")
+#                             # I need to append newly created objects to the autocomplete.....DIFFICULTY 9
+#                             interpreter.allobjects = obj_names #.append( f"o{loopn}" ) # TSTING
+#                             print(f"  {fg.dimgray}... known:",interpreter.allobjects,fg.default)
+#                             #objects.get_objects_list_names()
+#                             for i in interpreter.KNOWN_COMMANDS_LOCAL_OBJ:
+#                                 interpreter.KNOWN_COMMANDS_DICT[i] = {}
+#                                 for j in interpreter.allobjects:
+#                                     interpreter.KNOWN_COMMANDS_DICT[i][j] = None
+#                             prompt_completer = NestedCompleter.from_nested_dict( interpreter.KNOWN_COMMANDS_DICT )
+
+#                         done = True
+#                     #else:
+#                     #    print(f" NONO:::.../{inp}/==/{res}/.. ?")
+#                     time.sleep(0.25)
+#                 #print("... konec prikazu")
+
+
+#         # print(inp)
+#         return
+#     # ==================================================== #########################
+#     #           command prompt - separate thread
+#     # ==================================================== #########################
+#     # ==================================================== #########################
+
+
+#     if projectname is None:
+#         print()
+#     elif projectname == "usage":
+#         print(
+#             """ ... usage:
+#             _
+#         """
+#         )
+#         sys.exit(0)
+#     else:
+#         sys.exit(0)
+
+#     # ===================== top bar and commads from kdb ==========
+#     # # DEBUG
+#     os.system("reset")
+#     # when I put reset later, it occludes the 1st red inpput command
+
+#     top = topbar.Topbar(bgcolor=bg.blue)
+#     top2 = top.add(bgcolor=bg.black)
+
+#     # top.print_to(
+#     #     10,
+#     #     f" {fg.white}{fx.bold}{dt.datetime.now().strftime('%H:%M:%S')}\
+#     #     {fx.default}{fg.default} ",
+#     # )
+#     # top.place()
+#     # # start after top
+
+#     # ========================= INITIAL cmd key setting....
+#     cmd = ""
+#     enter = False
+#     key = None
+#     a, b = (" ", " ")
+
+#     # KEYTHREAD THIS MUST BE HERE.....toi catch 1st letter
+#     #   only return         key, enter, abc = kthread.get_global_key()
+#     #                       key:mayreact on q;     enter==hit ; abc=>(a,b) for display.
+#     kthread = None
+#     if RUN_MMAP_INPUT:
+#         # THis goes when mmap active
+#         #print("i...   MMAP ACTIVE ...........................")
+#         kthread = key_enter.MmapSimulatedKeyboard(ending=".q")
+#     else:
+#         #print("D...    MMAP NOT ACTIVE, using SSHKEYB.............")
+#         kthread = key_enter.KeyboardThreadSsh(ending=".q")
+#     # whatabout to have other terminal feeding mmapfile
+#     #
+
+#     df = create_dummy_df()
+#     terminal = Terminal()
+#     selection = None
+#     #terminal.clear()
+#     move_cursor(3, 1)
+# #################################################################
+#     #          L O O P
+#     #################################################################
+#     while True:  # ================================= LOOP
+
+#         autoreset_terminal()
+#         if (SHOW_LOGO_TABLE):
+#             # DEBUG terminal.clear()
+#             move_cursor(3, 9)
+#             if SHOW_TIME:
+#                 print_logo()
+
+#             # time.sleep(0.05)
+#             show_table(df, selection)
+#         #
+#         # RUN OPERATION ON TABLE
+#         #
+#         df = inc_dummy_df(df)
+
+#         key, enter, abc = kthread.get_global_key()
+#         (a, b) = abc  # unpack tuple
+
+#         if enter:
+#             #print()
+#             #print("--------------------------------------ENTER pressed")
+#             if len(key.strip()) == 0:
+#                 pass
+#             elif key.strip() == ".q":
+#                 break
+#             else:
+#                 cmd = key.strip()
+#                 # ======================================================== INTERPRETER
+#                 if cmd==".t":
+#                     SHOW_LOGO_TABLE = not SHOW_LOGO_TABLE
+#                 elif cmd==".d":
+#                     SHOW_TIME = not SHOW_TIME
+#                 elif cmd==".r":
+#                     os.system("reset")
+#                     move_cursor(3,1)
+#                 else:
+#                     if config.CFG_DEBUG: print(f"{fg.gray}D... calling interpreter from bin*main {fg.default}")
+#                     interpreter.main( cmd )
+#                 if RUN_SELECT_FROM_TABLE:
+#                     # list of row numbers from column 'n' :  assume whole word is list of rows:
+#                     if selection is not None and selection != "":
+#                         selection = ""
+#                     else:
+#                         selection = cmd
+#                 # ======================================================== INTERPRETER
+#             #print(f"----------- {cmd}; table_selection:{selection}--------------------- ***")
+#             #print("...writeback try:", key)
+#             #print(" oL=", objects.get_objects_list_names() )
+
+#             feedback = f"{key}###{json.dumps(objects.get_objects_list_names())}"
+#             mmapwr.mmwrite( feedback , mmapwr.MMAPRESP) #
+#             #print("...writeback done",key)
+#         else:
+#             cmd = ""
+
+#         top.print_to(
+#             10,
+#             f" {fg.white}{fx.bold}{dt.datetime.now().strftime('%H:%M:%S')}\
+# {fx.default}{fg.default}",
+#         )
+
+#         #
+#         #  commandline at TOP#2, cursor  a_b; option not to show
+#         #
+#         if (not SHOW_COMMAND_LINE) or (  (key is not None) and (len(key) == 0) ):
+#             top2.print_to(0, f"{fg.cyan}{bg.black}{' '*termsize}{bg.black}")
+#         else:
+#             top2.print_to(
+#                 0,
+#                 f"{fg.white}{bg.red} > {fx.bold}{a.strip()}{fg.yellow}_{fg.white}{b.strip()}\
+#             {fx.default}{fg.default}{bg.default} ",
+#             )
+
+#         # PLACE THE TOPBAR INPLACE
+#         top.place()
+#         time.sleep(0.1)
+
+
+import importlib.resources
+
+
+
+
+
+
+def main( img_or_text ,
+          command = "v",
+          fimgname  = None,
+          FONTSIZE = None,
+          paper = 62,
+          qr=False,
+          rotate = None,
+          sizeqr2=False, # 1/4 or 1/2
+          xsize = None,
+          ysize = None, # by default 1
+         ):
+    """
+Print a label with ql700 printer. \n
+
+Usage:
+    qltool /tmp/ql700_showa.png ... just prints the image
+    qltool "asd:123;id:12315;name:Jakesovy boty"  -q  #... qr code with id label
+    qltool "Some string"  -q -s  #... qr code with string displayed
+    qltool text_one_row -c p  # this command prints
+    qltool "one row\ntwo row" -q -s -f /tmp/a.jpg
+
+Args:
+        img_or_text: Either a text 1. /max.two lines=north/south/        for multiline use Alt-Enter\n
+                                OR 2. an image to process or\n
+                                   3."id: a;name: b" string
+        command:     -v-iew  (default)\n
+                     -q-uit\n
+                     -p-rint
+        fimgname:   if output to a specific filename is needed (just an image)
+        FONTSIZE:  try to override automatic guess...like with 100
+        paper: For now it works with 62, wide label
+        qr: create txt and qr code from "id:12345;owner:Pepa z Depa;aaa:etc;name:NAME" or a string (with -s). Overrides img
+        rotate: for webcam, rotation may be needed.
+        sizeqr2: QRCODE - set size 1/2 rather than 1/4
+        xsize: possibility to resize to certain x size, do not use this
+        ysize: force the height of the label (width == 714 @62case), internal default is 1
+
+    """
+    print("#"*70)
+
+    print("i... I Call ql570 to print on brother QL700 directly. Be in lp group")
+    print("i...   USE  62   - DK-22205   for printing")
+    print("i...   ")
+    print(f"i...   /{img_or_text}/")
+    print("i...   ")
+    print()
+
+    # this will point to .local/bin/....
+    #exe_path1 = os.path.join(os.path.dirname(__file__), 'data/ql570')
+    #
+    exe_path1 = None
+    with importlib.resources.path('qltool.data', 'ql570') as exe_path1:
+        exe_path1 = str(exe_path1)
+
+    IMG_SHOW_PATH = "/tmp/ql700_show.png"
+    IMG_VIEWER = "geeqie -t"
+    IMG_MODE = None # dither for image
+    MAIN_WIDTH_PARAMETER = 714
+    height,width = 480,640
+    height,width = 480,240
+    height,width = 1,714 # a trick for text
+
+    img_work = fimgname # None
+    keypress = None
+    printme = None
+    myformat = str(paper)
+    slabel = None # no south label for the monent
+
+
+    qft = str(img_or_text)
+    if os.path.exists(qft) and (qft.find(".jpg")>0 or qft.find(".png")>0):
+        print("i... IMAGE filename detected, ditching sentence")
+        sentence = None
+        IMG_MODE = True
+        # doesnt work imagename = qft
+        img_work = qft
+        print("D... img_work", img_work)
+    else:
+        print("i... sentence detected, not image")
+        sentence = qft
+        IMG_MODE = False
+        print("D... img_work", img_work)
+
+    # REDEFINE  ???
+    if img_work is None:
+        imgname2 = "/tmp/blank.jpg"
+        if  ysize is not None:
+            height = ysize
+        blank_image = np.zeros((height,width,3), np.uint8)
+        blank_image[:,:] = (55,155,255)
+        cv2.imwrite( imgname2 , blank_image)
+        img_work = imgname2
+
+    print(f"D... img_work === {img_work}  **** ")
+
+    if img_work is None: # returns on 'q'
+        return
+
+    if sentence is None:
+        nlabel = input("> Sentence : ")
+    else:
+        nlabel = sentence
+
+    #print("i... ",  sentence.split("\n"))
+    if len(nlabel.split("\n"))>1:
+        nor,sou = nlabel.split("\n")[0] , nlabel.split("\n")[1]
+        nlabel = nor
+        slabel = sou
+        print("i... SPLIT IS THERE: ",  nlabel, "x", slabel)
+    else:
+        print("D... NO SPLIT NO MULTILINE")
+
+
+    # --------------------------------- Extract nlabel and slabel from "id: 123; name: hahaha"
+    if qr:
+        # nlabel seems DONE
+        qrtag = f"{nlabel};{slabel}"
+        qrtag = qrtag.replace("     ", " ")
+        qrtag = qrtag.replace("    ", " ")
+        qrtag = qrtag.replace("   ", " ")
+        qrtag = qrtag.replace("  ", " ")
+        print(f"i... QRTAG /{fg.cyan}{qrtag}{fg.default}/")
+        # I will join Name: asoidj ; owner: OKjd ; location: asd o; ID: 8998244;
+        qr = qrcode.make( qrtag )
+        qrs = qrtag.split(";")
+        for q in qrs:
+            nam, *val= q.split(":")
+            if len(val) == 0:continue
+            # EXTRACT ID and NAME
+            if nam.strip().find( "id") == 0:
+                nlabel = val[0].strip()
+            if nam.strip().find( "name") == 0:
+                slabel = val[0].strip()
+        print(f"i... LABELS SN: /{fg.green}{nlabel}{fg.default}/ x /{fg.green}{slabel}{fg.default}/")
+        #print(f"i... qr tag -  name: {nam} val: {val[0]},  LABELS SN: /{fg.green}{nlabel}{fg.default}/ x /{fg.green}{slabel}{fg.default}/")
+        qr.save("/tmp/qrcode.png")
+
+        qft = None
+        # -------------------------------------- new QR image - but 1/3 of a width
+        if not sizeqr2:
+        #if (1 == 0):
+            qft = make_triple("/tmp/qrcode.png", nlabel, slabel, destination=img_work)
+            nlabel, slabel = None, None
+        else:
+            qft = make_double("/tmp/qrcode.png", destination=img_work)
+
+
+        IMG_MODE = True
+        #qft = "/tmp/qrcode.png"
+        print(f"D... img_work == {qft}")
+        img_work = qft
+
+
+
+    if command is None:
+        keypress = input("> Give me a command: q/p/v (quit,print,view) :")
+        if keypress == "":
+            keypress = "q"
+        keypress = ord(keypress)
+        print(keypress)
+    else:
+        keypress = command
+        keypress = ord(keypress)
+
+
+    if keypress == ord('n'):
+        print(f"i... n returned, {fg.red} NOT printing {fg.default}")
+        printme = False
+    elif keypress == ord('p'):
+        printme = True
+        print(f"i... SPACE or p ...{fg.green} printing {fg.default}", printme, keypress)
+    elif keypress == ord('q'):
+        print(f"i... q pressed - {bg.red}{fg.white}  QUIT   {bg.default}{fg.default}", printme, keypress)
+        return
+    elif keypress == ord('v'):
+        print(f"i... v pressed - {bg.green}{fg.white}  viewing   {bg.default}{fg.default}", printme, keypress)
+    else:
+        print(f"i... unknown commad - {bg.red}{fg.white}  QUITing   {bg.default}{fg.default}", printme, keypress)
+        return
+        printme = False
+        print("i... default printme = False")
+    # printme = False
+
+
+
+
+
+    #img_work = test_img(img_work)
+    # ===========================================================================================
+    #       commands are clear .... DO THINGS NOW
+    # ===========================================================================================
+
+    # - IF SIZE GIVEN :::: re size first
+    if xsize is not None: # some resize given in cmdline
+        print(f"D... resizing to {xsize}")
+        img_work = resize_img(img_work, factor=xsize)
+
+    if nlabel is None and slabel is None: # BOTH No north,south -- randoms --
+        pass# nlabel,slabel = get_random_labels()
+    else:
+        # Annotate: in case of no image : TRICK, annotate one line
+        print("i... annotating:", img_work)
+        img_work = annotate_img(img_work, nlabel, slabel, points = FONTSIZE)
+        print("i.. annotated:")
+
+
+
+    # =====================================================================
+    # rotation for printing....
+    #
+    if rotate:
+        print("D... ROTATING because of commandline")
+        img_work = rotate_img(img_work)
+    if rotate is None and printme:
+        print("D... ROTATING for printing")
+        img_work = rotate_img(img_work)
+
+
+    # ===========================================================================
+    #
+    #  THE LAST THING TO DO  ======>>                     MONOCHOMIZE
+    #
+    # ===================================================== DITHER
+    img_work = rescale_img(img_work, maxw = MAIN_WIDTH_PARAMETER) #
+    if IMG_MODE:
+        img_work = dither(img_work, percent = 30)
+    else:
+        img_work = monochrom(img_work)
+
+
+
+    #  myformat 62 ..... FANTASTIC......
+    #  29x90 ... works, but....
+    #
+    #
+    if printme:
+        res = runme("groups").split()
+        print("i... groups:",res)
+        if not "lp" in res:
+            print(f"X.. {fg.red}you arre not in lp group{fg.default}")
+            return
+        lpx = check_lpx()
+        print("D... path to the executable:", exe_path1)
+        CMD = f"{exe_path1} {lpx} {myformat} {img_work}"
+        #CMD = f"geeqie {OUTPUT}"
+        runme(CMD)
+    else:
+        #CMD = f"./ql570 /dev/usb/lp0 62 {OUTPUT}"
+        shutil.copy(img_work,  IMG_SHOW_PATH)
+        # check if geeqie is runnung
+        CMD = "ps -ef"
+        allps = runme(CMD,silent= True).split("\n")
+        allps = [x for x in allps if x.find(IMG_VIEWER.split()[0])>0 ]
+        allps = [x for x in allps if x.find(IMG_SHOW_PATH)>0 ]
+        print(fg.green, allps, fg.default)
+        # if no geeqie with my image, launch one
+        if len(allps)<1:
+            CMD = f"{IMG_VIEWER} {IMG_SHOW_PATH}"
+            #sp.Popen([IMG_VIEWER,   IMG_SHOW_PATH])
+            sp.Popen(CMD.split())
+        #runme(CMD)
+# =======================================================
+
+
+
+# ====================================================================
+
+
+if __name__ == "__main__":
+    Fire(main)
+    #print("*********************************")
