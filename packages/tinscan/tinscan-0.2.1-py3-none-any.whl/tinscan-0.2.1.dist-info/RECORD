@@ -1,0 +1,11 @@
+tinscan/LASTZ_wrapper.py,sha256=cWWMv4wW2qkfsblwFOMPIksG9WGVwMnFs5p-6hVOl1Q,4131
+tinscan/__init__.py,sha256=owOH_agZBZwmSHn9a7pQgYvXK-D4mqdEXZoSKI3BhqE,9799
+tinscan/_version.py,sha256=MxUhzLJIZQfEpDTTcKSxciTGrMLd5v2VmMlHa2HGeo0,411
+tinscan/run_align.py,sha256=eiyKxDzunHmg07cle8jp4SexApFk-CDkb2MCOVtQV5k,3851
+tinscan/run_prep.py,sha256=ztSy96V1-K3nZGty7knc4ZOavFQqTH6GF4IVApHJqfc,2822
+tinscan/run_scan.py,sha256=AjD1G-lLeeEXrcivmgeRFF-xVh4CkzJuThnAX4hLJ3s,3293
+tinscan-0.2.1.dist-info/METADATA,sha256=ihBf6Q6ovziFQxmtr2gL82nEQdUUA5FaGIHpYbOKmc0,4308
+tinscan-0.2.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+tinscan-0.2.1.dist-info/entry_points.txt,sha256=xzTmSmqyyEWg0GVrX1_x-ApsRcbj-Up7lJ2K8bRZxe8,131
+tinscan-0.2.1.dist-info/licenses/LICENSE,sha256=4PEDTU3nBPJZJQAhUA8Xh6-Gn2hyRNozi43gmdOi2CI,1069
+tinscan-0.2.1.dist-info/RECORD,,
