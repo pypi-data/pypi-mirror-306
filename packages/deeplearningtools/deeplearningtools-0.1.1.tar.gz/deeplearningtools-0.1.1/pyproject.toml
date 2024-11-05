@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deeplearningtools"
+version = "0.1.1"
+description = ""
+authors = ["zhangzhongjie <zhangzhongjie@acme.red>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = ">=1.26.3"
+torch = ">=2.4.1"
+matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
