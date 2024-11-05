@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools"]  # REQUIRED if [build-system] table is used
+build-backend = "setuptools.build_meta"  # If not defined, then legacy behavior can happen.
+
+[project]
+name = "multidaq"
+version = "1.2.0"
+license = { file="LICENSE" }
+authors = [
+  { name="Tantor GmbH", email="info@tantor.de" },
+]
+description = "Python interface to biovision digitizers. (64 bit Windows or Linux OS)"
+keywords = [
+   "digitizer",
+   "biovision",
+   "biomechanics",
+   "driver",
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+]
+
+dependencies = [
+  "numpy","h5py"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/biodaq/biovision/"
+"Bug Reports" = "https://github.com/biodaq/biovision/issues"
+"Source" = "https://github.com/biodaq/biovision/tree/main/share/python/multidaq/"
+
+[tool.setuptools]
+package-data = {"multidaq" = ["*.dll","*.so"]}
+
