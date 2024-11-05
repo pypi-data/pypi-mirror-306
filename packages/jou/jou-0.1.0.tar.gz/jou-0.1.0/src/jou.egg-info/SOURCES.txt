@@ -1,0 +1,6 @@
+setup.py
+src/jou.egg-info/PKG-INFO
+src/jou.egg-info/SOURCES.txt
+src/jou.egg-info/dependency_links.txt
+src/jou.egg-info/entry_points.txt
+src/jou.egg-info/top_level.txt
