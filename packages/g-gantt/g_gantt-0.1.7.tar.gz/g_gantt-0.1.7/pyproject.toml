@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "g_gantt"
+version = "0.1.7"
+description = "A Pythonic way to make Gantt Charts based off the Google Chart Gantt Chart html/JS charting library"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }  # Corrected the license format
+authors = [
+  { name = "Brady Golomb" },
+]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+  "datetime",
+  ]
+
+[tool.setuptools]
+packages = ["g_gantt"]
+
+[tool.setuptools.exclude-package-data]
+"g_gantt" = ["test.py"]
+
