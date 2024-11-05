@@ -1,0 +1,6 @@
+setup.py
+src/qun.egg-info/PKG-INFO
+src/qun.egg-info/SOURCES.txt
+src/qun.egg-info/dependency_links.txt
+src/qun.egg-info/entry_points.txt
+src/qun.egg-info/top_level.txt
