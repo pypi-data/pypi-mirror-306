@@ -1,0 +1,2 @@
+[console_scripts]
+ezc = name_register:main
