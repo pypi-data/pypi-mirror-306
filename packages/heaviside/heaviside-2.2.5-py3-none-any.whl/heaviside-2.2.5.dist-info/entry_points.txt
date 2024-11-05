@@ -1,0 +1,2 @@
+[console_scripts]
+heaviside = heaviside:__main__.main
