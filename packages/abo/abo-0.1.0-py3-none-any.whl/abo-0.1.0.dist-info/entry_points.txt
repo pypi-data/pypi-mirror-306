@@ -1,0 +1,2 @@
+[console_scripts]
+abo = name_register:main
