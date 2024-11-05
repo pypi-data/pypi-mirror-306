@@ -1,0 +1,2 @@
+[console_scripts]
+zok = name_register:main
