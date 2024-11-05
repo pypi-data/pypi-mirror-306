@@ -1,0 +1,2 @@
+[console_scripts]
+ofi = name_register:main
