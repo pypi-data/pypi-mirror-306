@@ -1,0 +1,4 @@
+# Changelog
+
+## [0.0.1] - YYYY-MM-DD
+- Initial release with functions to check if a number is even, odd, or a multiple of another number.

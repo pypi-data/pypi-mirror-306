@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: example_package_Ganesh252703
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Ganesh <ganeshramsundari@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Smart Numbers
+
+A Python library to determine if a number is even, odd, or a multiple of a given number.
+
+## Installation
+```bash
+pip install smart-numbers-YOUR_USERNAME
+
+from numbers_properties_pkg.numbers_properties import NumberProperties
+
+# Create an instance of the NumberProperties class
+np = NumberProperties()
+
+# Check if a number is even
+print(np.is_even(4))  # Output: True
+
+# Check if a number is odd
+print(np.is_odd(3))   # Output: True
+
+# Check if a number is a multiple of another number
+print(np.is_multiple_of_n(15, 5))  # Output: True
+print(np.is_multiple_of_n(15, 4))  # Output: False
