@@ -1,0 +1,16 @@
+README.md
+setup.py
+pymiecs/__init__.py
+pymiecs/main.py
+pymiecs/materials.py
+pymiecs/mie_coeff.py
+pymiecs/special.py
+pymiecs/t_matrix.py
+pymiecs/tools.py
+pymiecs.egg-info/PKG-INFO
+pymiecs.egg-info/SOURCES.txt
+pymiecs.egg-info/dependency_links.txt
+pymiecs.egg-info/requires.txt
+pymiecs.egg-info/top_level.txt
+tests/test_coeff.py
+tests/test_scat.py
