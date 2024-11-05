@@ -1,0 +1,6 @@
+llama_index/llms/dashscope/__init__.py,sha256=Z5Cx0bttWn7SFimj_XHwHgl0D-f9H45VA7Mb68lKFtU,135
+llama_index/llms/dashscope/base.py,sha256=nUpo-mxoFijw2K1exLXyAiG7tdvC6cRKc7JwZBXa5tA,13514
+llama_index/llms/dashscope/utils.py,sha256=HMmbbOWzJBnalw-ARGrKipCE49Fl2QouNDr2LdQQ47E,1374
+llama_index_llms_dashscope-0.2.4.dist-info/METADATA,sha256=xl-N_362qp1tYqZy_6pdc-dcZJaqJENgUkJXlZVu67M,2691
+llama_index_llms_dashscope-0.2.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_llms_dashscope-0.2.4.dist-info/RECORD,,
