@@ -1,0 +1,14 @@
+alchemylite/BaseAbstract.py,sha256=je_Mz6oKyoEnZ7fdkv26f0Ff0S5cPAuzpNbxHN0jjPk,510
+alchemylite/__init__.py,sha256=jPdqvqDbpl-4gV0qVup9wWhFRDvhRTUhrKErpe7HnY8,100
+alchemylite/models.py,sha256=SfbgAWVdXaeNHk2uQb_b0Ivir8juHXeYAB1t-_mh4-o,1256
+alchemylite/async_/__init__.py,sha256=cJLO3sbk0QIcfRTGdW2tJkni95ZnMsWXv3t3ihcFjDU,120
+alchemylite/async_/config.py,sha256=lxGIP2Q9wl0XZuc0e9H-GoQLvaoSjcYskojgQH7qPeQ,704
+alchemylite/async_/crud.py,sha256=vkWRwI58DU3sEc3AuMEyq9-A6NxaPOjRxoVWaWfUvq4,4643
+alchemylite/sync/__init__.py,sha256=A1VrfmFR8BFJRMxjadpSjzUeH_oZtOsjFZ1JwIG0Tag,116
+alchemylite/sync/config.py,sha256=3LgxymrqWnpuddjK9xY7Qo_a_HtPK_VKKX5VMlN_jXY,671
+alchemylite/sync/crud.py,sha256=lDnm3hOrm7f-gWsw1fb6HJz_WSNRl6VxQcnsXt9PsnM,4300
+AlchemyLite-1.0.0.dist-info/LICENSE,sha256=A06pC-PL521kO8-_NeFxiHt5G0rEjGyOWAooTcVPzLM,1090
+AlchemyLite-1.0.0.dist-info/METADATA,sha256=D_Fk-OpDhMghcQtI7lgfnGom8YWrG_--RrmQolEd-Us,3627
+AlchemyLite-1.0.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+AlchemyLite-1.0.0.dist-info/top_level.txt,sha256=-VZLqKLIhVYCDmFXv9VSsicYp8z-WfrQ_FVSm0Y1CCc,12
+AlchemyLite-1.0.0.dist-info/RECORD,,
