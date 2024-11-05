@@ -1,0 +1,33 @@
+CLI_CONFIG_FILE = "~/.snarkify/config.json"
+PROJECT_CONFIG_FILE = "./.snarkify.json"
+
+RUST_PROJECT_TEMPLATE_FILE = "snarkify.rs"
+RUST_PROJECT_TEMPLATE_PATH = "./src/bin"
+CARGO_TOML_FILE = "./Cargo.toml"
+
+SNARKIFY_RUST_SDK = "snarkify-sdk"
+SERDE_CARGO_LIB = "serde@1.0"
+ASYNC_TRAIT_LIB = "async-trait"
+SERDE_FEATURES = "derive"
+
+SNARKIFY_RPC_URL = "https://api.snarkify.io/v1"
+SNARKIFY_WEBSOCKET_URL = "wss://api.snarkify.cloud/v1"
+LIST_TEAM_URL = f"{SNARKIFY_RPC_URL}/teams"
+CREATE_SERVICE_URL = f"{SNARKIFY_RPC_URL}/services/no-deploy"
+SERVICE_URL = f"{SNARKIFY_RPC_URL}/services"
+TASK_URL = f"{SNARKIFY_RPC_URL}/tasks"
+CREATE_IMAGE_URL_TEMPLATE = SNARKIFY_RPC_URL + "/services/{}/images"
+DEPLOY_SERVICE_URL_TEMPLATE = SNARKIFY_RPC_URL + "/services/{}/deployments"
+NAMESPACE_URL = f"{SNARKIFY_RPC_URL}/namespaces"
+LIST_SERVICE_DATA_URL_TEMPLATE = SNARKIFY_RPC_URL + "/services/{}/data-assocs"
+CREATE_SERVICE_DATA_URL = f"{SNARKIFY_RPC_URL}/service-data"
+LIST_SERVICE_DATA_ITEM_URL = ADD_SERVICE_DATA_ITEM_URL = SNARKIFY_RPC_URL + "/service-data/{}/items"
+DEV_SHELL_URL = f"{SNARKIFY_RPC_URL}/shells"
+START_DEV_SHELL_URL = DEV_SHELL_URL + "/{}/starts"
+STOP_DEV_SHELL_URL = DEV_SHELL_URL + "/{}/stops"
+CATALOG_URL = f"{SNARKIFY_RPC_URL}/catalogs"
+DEPLOYMENT_URL = f"{SNARKIFY_RPC_URL}/builds"
+
+
+KNATIVE_FUNC_IMAGE = "ghcr.io/knative/func/func"
+IMAGE_REGISTRY = "docker.io/snarkify"

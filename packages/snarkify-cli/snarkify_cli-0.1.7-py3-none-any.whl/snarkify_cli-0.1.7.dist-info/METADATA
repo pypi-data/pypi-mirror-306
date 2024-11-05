@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: snarkify-cli
+Version: 0.1.7
+Summary: The command line utility to interact with the Snarkify platform.
+Author: Boyu Sun
+Author-email: boyu@snarkify.io
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: docker (>=7.0.0,<8.0.0)
+Requires-Dist: inquirerpy (>=0.3.4,<0.4.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: richer (>=0.1.6,<0.2.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Requires-Dist: websockets (>=12.0,<13.0)
+Description-Content-Type: text/markdown
+
+# Snarkify CLI
+
+The Snarkify CLI is a command-line tool designed to simplify the deployment and management of services on the Snarkify platform. It provides users with efficient commands to manage provers, shells, and other Snarkify services directly from the terminal.
+
+## Installation
+
+To install the Snarkify CLI, use pip:
+
+```
+pip install snarkify-cli
+```
+
+## Usage
+
+For example usages, consult the [Snarkify documentation](https://docs.snarkify.io/gpu-prover-network/snakrify-cli) for details.
+
+
+

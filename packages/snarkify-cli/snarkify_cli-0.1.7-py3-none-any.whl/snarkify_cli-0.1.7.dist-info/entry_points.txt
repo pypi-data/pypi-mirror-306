@@ -1,0 +1,3 @@
+[console_scripts]
+snarkify=snarkify_cli.main:app
+
