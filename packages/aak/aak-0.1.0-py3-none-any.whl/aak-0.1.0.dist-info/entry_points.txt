@@ -1,0 +1,2 @@
+[console_scripts]
+aak = name_register:main
