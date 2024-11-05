@@ -1,0 +1,2 @@
+[console_scripts]
+tna = name_register:main
