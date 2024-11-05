@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/intellitext.py
+src/intellitext.egg-info/PKG-INFO
+src/intellitext.egg-info/SOURCES.txt
+src/intellitext.egg-info/dependency_links.txt
+src/intellitext.egg-info/entry_points.txt
+src/intellitext.egg-info/requires.txt
+src/intellitext.egg-info/top_level.txt
