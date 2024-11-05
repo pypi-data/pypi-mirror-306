@@ -1,0 +1,13 @@
+wmwm/__init__.py,sha256=lnoloByeMSEYkw82T85G58CD-cDHfRSc-r4ViMn86lU,62
+wmwm/boundsPValueNoTies.py,sha256=bcVYk603L4mS86rxd451xWClh4CYqb-V0CCyRlLd1XA,4363
+wmwm/boundsPValueWithTies.py,sha256=aZP5O-tAKoaqyOYl8iAD2A_pLLkuZ6AztORux4hIcT0,5096
+wmwm/boundsSumRank.py,sha256=6ZrjyVK-0Ge-6St-cHVZR2MP7nNNS-AAs0XnPoP5ELU,2317
+wmwm/boundsWMWStatistic.py,sha256=eERyleBM4MxDY8QdHI_JQQNOyze7m6OWg5rpIpHAsP0,622
+wmwm/checkTies.py,sha256=he7cgxXq4L09cCVIwCd1W7ukNTnDsp4HzhzqlQhw9L0,1088
+wmwm/exactDistributionWMWStatistic.py,sha256=x-gvACv32494VyaTHpzUHwHz6BmLURt1iMx0kHpFjDU,1961
+wmwm/wilcoxonMissing.py,sha256=FiSyntJdLXeaLhkFL0PlCnzYTumYofBAwvWUA0K7Hzk,5430
+wmwm-0.0.1.dist-info/LICENSE,sha256=TIPOWZCcqr1LdDw2stCzSh3mvHTRk2xD8lnTIS4yQZ0,1066
+wmwm-0.0.1.dist-info/METADATA,sha256=q4xDEGNhz12Xc4zm645zS3nC7OA_2DR8CwEhLqSB8IA,2839
+wmwm-0.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+wmwm-0.0.1.dist-info/top_level.txt,sha256=Z-zM0wSCzWKgv8YYYzkpVkPAfQ5uJbaXfZm2uy7B8fc,5
+wmwm-0.0.1.dist-info/RECORD,,
