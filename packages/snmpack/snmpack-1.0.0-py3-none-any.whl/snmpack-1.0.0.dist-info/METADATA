@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: snmpack
+Version: 1.0.0
+Maintainer-email: Thibault Terrasson <thibault.terrasson@ielo.net>, Rémi Desgrange <remi.desgrange@ielo.net>
+License: MIT
+Project-URL: Homepage, https://github.com/ielo-liazo/snmpack
+Project-URL: Tracker, https://github.com/ielo-liazo/snmpack/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: asn1crypto
+Provides-Extra: all
+Requires-Dist: snmpack[dev,test] ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: freezegun ; extra == 'test'
+Requires-Dist: faker ; extra == 'test'
+
+Simple agnostic SNMP library written in pure python.
+
+## Contributing
+
+* Fork this repository
+* create a venv (there are [too many]() options...)
+* install needed deps : `pip install -e .[all] && pre-commit install`
+* code 
+* submit a PR. pre-commit hooks should have catch any style/type errors.
+
