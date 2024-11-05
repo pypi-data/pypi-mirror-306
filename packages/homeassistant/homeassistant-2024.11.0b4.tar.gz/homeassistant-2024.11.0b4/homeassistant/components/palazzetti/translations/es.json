@@ -1,0 +1,10 @@
+{
+    "exceptions": {
+        "invalid_fan_mode": {
+            "message": "El modo de ventilador {value} no es v\u00e1lido."
+        },
+        "invalid_target_temperatures": {
+            "message": "La temperatura deseada {value} no es v\u00e1lida."
+        }
+    }
+}
