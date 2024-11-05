@@ -1,0 +1,3 @@
+[console_scripts]
+gl-ci-lint=src.main:main
+
