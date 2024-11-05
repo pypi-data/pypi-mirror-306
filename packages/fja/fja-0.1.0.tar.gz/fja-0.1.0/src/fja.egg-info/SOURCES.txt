@@ -1,0 +1,6 @@
+setup.py
+src/fja.egg-info/PKG-INFO
+src/fja.egg-info/SOURCES.txt
+src/fja.egg-info/dependency_links.txt
+src/fja.egg-info/entry_points.txt
+src/fja.egg-info/top_level.txt
