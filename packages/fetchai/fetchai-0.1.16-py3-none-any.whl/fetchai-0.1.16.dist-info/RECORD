@@ -1,0 +1,10 @@
+fetchai/__init__.py,sha256=yF88-8vL8keLe6gCTumymw0UoMkWkSrJnzLru4zBCLQ,23
+fetchai/communication.py,sha256=mhjb_JvbqHs2J8Z0_gOUxyWFIlDJre8my06-KAF3S1M,4389
+fetchai/crypto.py,sha256=iIB9RCJKGg20WvrKgvWoXodI2nfoXXlkg3CjzZA8fOE,4357
+fetchai/fetch.py,sha256=sXmGH50HlE8vmx66N7E2337_EOFLHA2tsCg15Jw6kio,1009
+fetchai/registration.py,sha256=-n65oeO3SWZRrfEay06I2w6djYUTq567CwtckIJv4c4,4192
+fetchai-0.1.16.dist-info/LICENSE,sha256=wcOIYF3rVJYqTS0s8bcDRrYhgDTRpFCnJzmY3zAIxdU,1069
+fetchai-0.1.16.dist-info/METADATA,sha256=9hI5VfX1-S3kYq8KqHXlLYSYQEa54qf6m7yVYA2c7MM,9017
+fetchai-0.1.16.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+fetchai-0.1.16.dist-info/top_level.txt,sha256=7QwVsxjIjhhwRd4NKRcWdCaQmbJlF7MyvkaM00QEljY,8
+fetchai-0.1.16.dist-info/RECORD,,
