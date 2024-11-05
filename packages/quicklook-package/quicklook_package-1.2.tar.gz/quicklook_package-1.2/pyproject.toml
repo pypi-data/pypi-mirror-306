@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quicklook-package"
+authors = [{name = "jpdeleon", email = "jpdeleon.bsap@gmail.com"}]
+dynamic = ["version", "description"]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pre-commit==3.4.0",
+    "matplotlib",
+    "lightkurve==2.5",
+    "numpy==1.23",
+    "transitleastsquares==1.32",
+    "wotan==1.10",
+    "aesthetic==0.6",
+    "flammkuchen==1.0.3",
+    "reproject==0.12.0",
+    "astroplan==0.9",
+    "loguru"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering :: Astronomy",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jpdeleon/quicklook"
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
