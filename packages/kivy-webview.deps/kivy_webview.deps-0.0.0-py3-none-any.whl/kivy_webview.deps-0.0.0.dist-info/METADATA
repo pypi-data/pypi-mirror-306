@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: kivy_webview.deps
+Version: 0.0.0
+Summary: Binary dependencies for the kivy-webview project, providing platform-specific support files.
+
