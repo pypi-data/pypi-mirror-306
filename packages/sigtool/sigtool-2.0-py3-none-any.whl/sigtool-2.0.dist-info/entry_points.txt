@@ -1,0 +1,2 @@
+[console_scripts]
+sigtool = sigtool.main:main
