@@ -1,0 +1,10 @@
+referencesystem/BaseTransform.py,sha256=b67EOCrUj8oAmTQIbpt-VBE3mnwDC3aw5W25q8Ep8m4,1586
+referencesystem/LinearTransform.py,sha256=dl21V0ayGLfNdD7Rq09FxUN8OQeuqQBqCbhyr03YYTs,1983
+referencesystem/Parametrization.py,sha256=ne5gJ-_d_YTKFO5InSt6faL3b6oj7g6MVe_5SSVqt-8,14150
+referencesystem/SysReference.py,sha256=llXJluw3SGAobQdE7UqaV9U6FXgeV9DUe7bfACFE_7E,4574
+referencesystem/__init__.py,sha256=fRh2fnEtfcjGsHTii1Zsqqz6smY9fxENyS9XSm43IJw,99
+referencesystem/helpers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ReferenceSystem_busnellistefano-1.0.0.dist-info/METADATA,sha256=g6ijHTi7VPiRajqrrRVbisLOXv4HL0YzR00MKwdStWY,5637
+ReferenceSystem_busnellistefano-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ReferenceSystem_busnellistefano-1.0.0.dist-info/top_level.txt,sha256=J1Nymi64_l29N8cSZxJ5qKQFLbmz0Pv74KZmii6mwqU,16
+ReferenceSystem_busnellistefano-1.0.0.dist-info/RECORD,,

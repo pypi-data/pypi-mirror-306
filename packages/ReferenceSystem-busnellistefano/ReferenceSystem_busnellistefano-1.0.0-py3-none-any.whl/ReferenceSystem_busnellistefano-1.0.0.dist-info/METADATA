@@ -1,0 +1,161 @@
+Metadata-Version: 2.1
+Name: ReferenceSystem-busnellistefano
+Version: 1.0.0
+Summary: Classi utili a definire una serie di sistemi di riferimento ed i morfismi per trasformare le loro coordinate.
+Home-page: https://bitbucket.org/StefanoBusnelli/referencesystem/
+Author: Busnelli Stefano Antonio
+Author-email: busnelli.stefano@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# README #
+
+Sistemi di riferimento
+
+### Sommario ###
+
+* Descrizione:
+  
+  Le classi SysReference, Parametrization e LinearTransform permettono di definire una serie di sistemi di riferimento 
+  e le parametrizzazioni o le trasformazioni lineari per passare da un sistema all'altro.
+  SysReference utilizza la classe Dimension per definire i propri assi coordinati e per ciascuno mette a disposizione
+  un iteratore definito tramite la classe DimIterator per muovere la posizione sulla dimensione da un valore minimo ad 
+  uno massimo tramite incrementi predefiniti o creare differenti iteratori.
+  Parametrization e LinearTransform si estendono la classe BaseTransForm che defisce il sistema di riferimento che
+  rappresenta lo spazio dominio della funzione ed il sistema di riferimento che rappresenta lo spazio immagine.
+
+### Setup ###
+
+* Installazione:
+  
+  pip3 install ReferenceSystem-busnellistefano
+
+* Utilizzo:
+  
+  import numpy            as np
+  import referencesystem  as rs
+  
+* Classii principali:
+  
+  ** SysReference
+  
+  Permette di definire un sistema di riferimento specificando il numero do dimensioni ed eventualmente assegnando a 
+  ciascuna un nome.
+  
+  import numpy            as np
+  import referencesystem  as rs
+  P = rs.SysReference( 2, "Polar", ["r","t"] )
+  P.dimension[1].set( dl=[ 0.0, 2*np.pi ], dd= np.pi * ( 1.0 / 180.0 ) )
+  C = rs.SysReference( 2, "Cartesian", ["x","y"] )
+  Z = rs.SysReference( 2, "Cartesian", ["u","v"] )
+
+  ** Parametrization
+  
+  Permette di definire una funzione che parametrizza un sistama di riferimento sulla base di un altro.
+  Sono previsti metodi per definire tramite funzioni lambda il vettore posizione, lo spazio tangente, la metrica, i 
+  coefficienti di connessione affine e l'accelerazione della geodetica.
+  Per ciascuno di questi è previsto un metodo che esegue tale funzione prendendo in ingresso un vettore dello spazio
+  del dominio della funzione restituendo un vettore una matrice nella base dello spazio immagine.
+  Per poter utilizzare get_position_vector è necessario definire set_position_vector
+  Per poter utilizzare get_metric è necessario definire set_tangent_space ( o set_metric )
+  Per poter utilizzare get_christoffel e get_geodesic è necessario definire set_hessian ( o set_christoffel e set_geodesic )
+
+  F = rs.Parametrization( P, C )
+
+  F.set_position_vector( lambda v_pos: np.array( [
+    ( v_pos[ 0 ] * np.cos( v_pos[ 1 ] ) ),          # x = Fx( r, t )
+    ( v_pos[ 0 ] * np.sin( v_pos[ 1 ] ) )           # y = Fy( r, t )
+  ] ) )
+
+  F.set_tangent_space( lambda v_pos: np.array( [
+    [ ( 1.0 * np.cos( v_pos[ 1 ] ) ),               # xr = d/dr Fx( r, t )
+      ( 1.0 * np.sin( v_pos[ 1 ] ) )                # yr = d/dr Fy( r, t )
+    ],
+    [ ( - v_pos[ 0 ] * np.sin( v_pos[ 1 ] ) ),      # xt = d/dt Fx( r, t )
+      (   v_pos[ 0 ] * np.cos( v_pos[ 1 ] ) )       # yt = d/dt Fx( r, t )
+    ]
+  ] ) )
+  
+  F.set_hessian( lambda v_pos: np.array( [
+    [
+      [ 0,                                      # d/dr xr
+        0                                       # d/dr yr
+      ],
+      [ - np.sin( v_pos[ 1 ] ),                 # d/dt xr
+          np.cos( v_pos[ 1 ] )                  # d/dt yr
+      ]      
+    ],
+    [
+      [ - np.sin( v_pos[ 1 ] ),                 # d/dr xt
+          np.cos( v_pos[ 1 ] )                  # d/dr yt
+      ],
+      [ - v_pos[ 0 ] * np.cos( v_pos[ 1 ] ),    # d/dt xt
+        - v_pos[ 0 ] * np.sin( v_pos[ 1 ] )     # d/dt yt
+      ]      
+    ]
+  ] ) )
+
+  F.get_position_vector( np.array( [ 1.0, np.pi/3 ] ) )
+  array([ 0.5      ,  0.8660254])
+
+  F.get_tangent_space( np.array( [ 1.0, np.pi/3 ] ) )
+  array([[ 0.5      ,  0.8660254],
+         [-0.8660254,  0.5      ]])
+
+  F.get_metric( np.array( [ 1.0, np.pi/3 ] ) )
+  array([[ 1.,  0.],
+         [ 0.,  1.]])
+
+  F.get_christoffel( np.array( [ 1.0, np.pi/3 ] ) )
+  array([[[ 0.,  0.],
+          [ 0., -1.]],
+
+         [[ 0.,  1.],
+          [ 1.,  0.]]])
+
+  F.get_geodesic( 
+    np.array( [ 1.0, np.pi/3 ] ), 
+    np.array( [ 1.0, 0.0 ] )
+  )
+  array([ 0.,  0.])
+ 
+  ** LinearTransform
+
+  Permette di definire una trasformazione lineare tra uno spazio dominio ed uno spazio immagine.
+  Il metodo set_matrix imposta funzione lambda che definisce la trasformazione lineare mentre il metodo get_matrix esegue
+  la funzione prendendo in ingresso un vettore contenente i parametri della funzione e restituisce una matrice che trasforma
+  i vettori dello spazio del dominio nei vettori dello spazio immagine.
+
+  T = rs.LinearTransform( C, Z )
+  T.set_matrix( lambda v_par: np.array( [
+    [  np.cos( v_par[0] ),
+      -np.sin( v_par[0] )
+    ],
+    [  np.sin( v_par[0] ),
+       np.cos( v_par[0] )
+    ]
+  ] ), 1 )
+
+  M = T.get_matrix( np.array( [ np.pi/3 ] ) )
+
+  M
+  array([[ 0.5      , -0.8660254],
+         [ 0.8660254,  0.5      ]])
+
+  V = np.array( [ np.sqrt(3)/3, 0.5 ] )
+  W = np.dot( M, V ) )
+  "( {0:8.5f}, {1:8.5f} )".format( W[0], W[1] )
+  '(  0.00000,  1.00000 )'
+
+### Repository ###
+
+* GIT:
+  https://bitbucket.org/StefanoBusnelli/referencesystem/src/master/
+
+
+
