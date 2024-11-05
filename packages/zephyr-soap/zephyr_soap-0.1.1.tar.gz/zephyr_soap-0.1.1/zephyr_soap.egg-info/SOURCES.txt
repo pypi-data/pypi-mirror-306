@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/__init__.py
+tests/test_soap_client.py
+zephyr_soap/__init__.py
+zephyr_soap/core.py
+zephyr_soap.egg-info/PKG-INFO
+zephyr_soap.egg-info/SOURCES.txt
+zephyr_soap.egg-info/dependency_links.txt
+zephyr_soap.egg-info/requires.txt
+zephyr_soap.egg-info/top_level.txt
