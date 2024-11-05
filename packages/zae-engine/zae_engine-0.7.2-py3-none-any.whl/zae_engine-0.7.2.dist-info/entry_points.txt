@@ -1,0 +1,3 @@
+[console_scripts]
+zae=zae_cli.main:cli
+
