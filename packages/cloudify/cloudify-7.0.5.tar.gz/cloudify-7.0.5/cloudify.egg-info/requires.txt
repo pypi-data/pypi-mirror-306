@@ -1,0 +1,10 @@
+backports.shutil_get_terminal_size
+click
+click_didyoumean
+cloudify-common[dispatcher]
+colorama
+cryptography==43.0.1
+fabric
+requests<3,>=2.32.0
+retrying
+wagon[venv]
