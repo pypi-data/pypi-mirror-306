@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: FridaySTT
+Version: 0.1
+Summary: This is SPEECH TO TEXT created by Vivek Badiger.
+Home-page: UNKNOWN
+Author: Vivek Badiger
+Author-email: vivekbadiger666@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager
+
+UNKNOWN
+
+
