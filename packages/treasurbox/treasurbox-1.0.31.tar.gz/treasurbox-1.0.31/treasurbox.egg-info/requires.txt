@@ -1,0 +1,6 @@
+pyyaml
+pymysql
+decorator
+faker>=30.8.2
+fake_useragent>=1.5.1
+numpy>=2.0.2
