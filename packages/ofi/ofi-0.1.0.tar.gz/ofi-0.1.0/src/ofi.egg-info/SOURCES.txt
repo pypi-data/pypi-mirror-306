@@ -1,0 +1,6 @@
+setup.py
+src/ofi.egg-info/PKG-INFO
+src/ofi.egg-info/SOURCES.txt
+src/ofi.egg-info/dependency_links.txt
+src/ofi.egg-info/entry_points.txt
+src/ofi.egg-info/top_level.txt
