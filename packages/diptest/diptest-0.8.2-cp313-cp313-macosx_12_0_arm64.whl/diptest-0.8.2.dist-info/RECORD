@@ -1,0 +1,11 @@
+diptest/__init__.py,sha256=uOxIGUfX6YGpjLv_NplfXKApqXvr74QcDRJ1JP7VVSs,1509
+diptest/consts.py,sha256=01BFx6m7v0yDWewYJaCBr6JSEUMruh74NxJ8GvT4eQo,23298
+diptest/.diptest.py.un~,sha256=DJ7VQK2JcBUq7OIB6Rkm2FnL14ktaD9rUoVZTdF6ET0,1515
+diptest/diptest.py,sha256=9dq75OE7XgUd-H4mHtyYCLSC6wO8WXYsiTGFeSIPndc,6966
+diptest/.dylibs/libomp.dylib,sha256=8IQ5vBjUUCAYee5F2JxqByl7WdDB4iKmf-cb1Rb0pFA,808096
+diptest/lib/_diptest_core.cpython-313-darwin.so,sha256=YlHREpiXebhsv9t6U5uaYFTVm4K7FxvTZFVuVlO7xPQ,166800
+diptest-0.8.2.dist-info/RECORD,,
+diptest-0.8.2.dist-info/WHEEL,sha256=W-X3w6KNzxjnIA2bEaxVXRJz-JQAbIYmyRb9TvX2WTw,114
+diptest-0.8.2.dist-info/METADATA,sha256=5-aMy3k7DXuS978iQ3mGthYHVs9vrE0vlwdZKA8xk5s,6012
+diptest-0.8.2.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+diptest-0.8.2.dist-info/licenses/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
