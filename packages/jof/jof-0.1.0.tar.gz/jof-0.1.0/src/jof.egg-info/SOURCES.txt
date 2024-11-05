@@ -1,0 +1,6 @@
+setup.py
+src/jof.egg-info/PKG-INFO
+src/jof.egg-info/SOURCES.txt
+src/jof.egg-info/dependency_links.txt
+src/jof.egg-info/entry_points.txt
+src/jof.egg-info/top_level.txt
