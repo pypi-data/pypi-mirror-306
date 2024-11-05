@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/quran-search-in-text/quran_search_in_text.egg-info/PKG-INFO
+src/quran-search-in-text/quran_search_in_text.egg-info/SOURCES.txt
+src/quran-search-in-text/quran_search_in_text.egg-info/dependency_links.txt
+src/quran-search-in-text/quran_search_in_text.egg-info/top_level.txt
+src/quran-search-in-text/packages/ayat.txt
+src/quran-search-in-text/packages/surehname_ayehnumber.txt
+src/quran-search-in-text/packages/surehnumber_ayehnumber.txt
+src/quran-search-in-text/quran_search_in_text.egg-info/PKG-INFO
+src/quran-search-in-text/quran_search_in_text.egg-info/SOURCES.txt
+src/quran-search-in-text/quran_search_in_text.egg-info/dependency_links.txt
+src/quran-search-in-text/quran_search_in_text.egg-info/top_level.txt
