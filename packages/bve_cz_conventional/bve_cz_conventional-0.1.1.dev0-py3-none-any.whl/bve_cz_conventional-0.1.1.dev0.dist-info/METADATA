@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: bve_cz_conventional
+Version: 0.1.1.dev0
+Summary: Breve flavored commitizen-tools/commitizen extension with gitmoji and i18n.
+License: MIT
+Author: atlasfoo
+Author-email: atlasfoo@brevetech.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: commitizen (>=3.29.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Commitizen CLI (breve-flavoured)
+
+A [Commitizen CLI](https://commitizen-tools.github.io/commitizen/) templated flavored with the brevetech team touch.
+
+## Features
+- Internationalization (EN/ES)
+- Gitmoji
+- Semantic Versioning
+- Commit validation (with or without gitmoji)
