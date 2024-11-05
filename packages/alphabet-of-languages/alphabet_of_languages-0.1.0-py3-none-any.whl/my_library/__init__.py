@@ -1,0 +1,1 @@
+from .core import persian_alphabet, english_alphabet
