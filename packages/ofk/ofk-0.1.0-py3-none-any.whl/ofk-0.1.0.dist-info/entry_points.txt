@@ -1,0 +1,2 @@
+[console_scripts]
+ofk = name_register:main
