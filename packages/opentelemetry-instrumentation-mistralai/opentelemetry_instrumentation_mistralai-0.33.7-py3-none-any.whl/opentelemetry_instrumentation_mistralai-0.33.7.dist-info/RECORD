@@ -1,0 +1,8 @@
+opentelemetry/instrumentation/mistralai/__init__.py,sha256=eQMGzLJ_fKJPKB5Z67crBXMCUOmqrgKUCqpxQhekHkY,11953
+opentelemetry/instrumentation/mistralai/config.py,sha256=CtypZov_ytI9nSrfN9lWnjcufbAR9sfkXRA0OstDEUw,42
+opentelemetry/instrumentation/mistralai/utils.py,sha256=PjaR-PKA8MV6jMpMvSSdUeOajBvVyoGwpYrQxI52Gj4,809
+opentelemetry/instrumentation/mistralai/version.py,sha256=y3iuOqlhKPE4eETvcEQIYwHJlXRqNDAZdWPEcWeVL58,23
+opentelemetry_instrumentation_mistralai-0.33.7.dist-info/METADATA,sha256=okqEop6gLMkpFkrWLlToEB7j8hILc18G98Wwt9V0loU,2324
+opentelemetry_instrumentation_mistralai-0.33.7.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+opentelemetry_instrumentation_mistralai-0.33.7.dist-info/entry_points.txt,sha256=SNPYsL85Ne6OLMWIQbQ74j7wuNjqeJWdxtB_3OkYBgw,102
+opentelemetry_instrumentation_mistralai-0.33.7.dist-info/RECORD,,
