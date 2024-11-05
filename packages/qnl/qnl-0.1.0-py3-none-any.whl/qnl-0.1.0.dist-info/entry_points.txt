@@ -1,0 +1,2 @@
+[console_scripts]
+qnl = name_register:main
