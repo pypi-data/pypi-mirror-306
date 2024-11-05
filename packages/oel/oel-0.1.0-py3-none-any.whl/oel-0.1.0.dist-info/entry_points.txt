@@ -1,0 +1,2 @@
+[console_scripts]
+oel = name_register:main
