@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: atj-algotrading
+Version: 0.0.15
+Summary: ATJ Trader's Package for Algo Trading & Backtesting
+Project-URL: Homepage, https://github.com/atj-khactu/atj-algotrading-package
+Project-URL: Issues, https://github.com/atj-khactu/atj-algotrading-package/issues
+Author-email: Khac Tu Nguyen <khactu@atj-traders.com>
+License-File: LICENSE
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: jupyter
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# ATJ Traders - Algo Trading Lib
+This is ATJ Trader's Algo Trading Package in Python. It connects to the MetaTrader5 platform and comes with classes
+and functions to make Backtesting and Coding of Trading Bots easier. 
+
+## Installation
+> pip install atj-algotrading
+
+## Backtesting Tutorial
+Please follow this link to access tutorials on Backtesting
+
+## Trading Bot Development Tutorial
+Please follow this link to access tutorials on Trading Bot Development

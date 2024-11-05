@@ -1,0 +1,9 @@
+atj_algotrading/__init__.py,sha256=0rqtNmV43au5IPHaSr_wLcxBqe87zk7FffrK_Tlo1UI,51
+atj_algotrading/backtester/__init__.py,sha256=5Pu7zHiaZsiqd8C7bIqyAySKe3OJi2AhaOv0Gwdc1og,13548
+atj_algotrading/mt5_trade_utils/__init__.py,sha256=VKJB6gI9eiuy9_JOdkU2eRGW5Itae43ZJuYPx2_FC2w,4300
+atj_algotrading/mt5_webapi_client/__init__.py,sha256=JWiG3DImWz-hZJse00McObWuEprbtQByxwmZ4FpbnJQ,2901
+atj_algotrading/trading_bot/__init__.py,sha256=1A5NxCAMrUp7KK-k0JjnlDrR2gM9K4t3w2IBq6hQh1o,885
+atj_algotrading-0.0.15.dist-info/METADATA,sha256=-71-uIADxvoEzPvpJCUeHvwA2LkujksLaDnVW-c9PtQ,1045
+atj_algotrading-0.0.15.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+atj_algotrading-0.0.15.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+atj_algotrading-0.0.15.dist-info/RECORD,,
