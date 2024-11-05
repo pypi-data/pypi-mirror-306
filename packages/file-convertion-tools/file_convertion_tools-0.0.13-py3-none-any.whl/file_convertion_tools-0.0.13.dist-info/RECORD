@@ -1,0 +1,12 @@
+file_convertion_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_convertion_tools/cleanup.py,sha256=nRIV-fgFUoVJ-6oDHeTd9bcabyr0ErJFFM0vTttdghA,816
+file_convertion_tools/csv_to_md.py,sha256=PpmH3tOgnf2MlV80_8d-x0rnnqxdX3JCjjwAEp_PkzA,805
+file_convertion_tools/json_to_yaml.py,sha256=dTbMyeUnpuI0JXWA-Kk879QLw_gtdP7cp6b-Z5VgGDY,432
+file_convertion_tools/load_toml.py,sha256=lT7LWMByaCuMqiVuVm87up6JNIpoNqnUtZbi7kYfFss,295
+file_convertion_tools/make_md_table.py,sha256=vpwdblMr4t1qwR81bm-JjwAwePyRhrh49N6OexVS6eQ,1651
+file_convertion_tools/pdf_to_txt.py,sha256=SNpnV6wJY--8Gif4rS3i6R0J8wEVOfx01SZBT_PEi1Q,397
+file_convertion_tools/txt_to_csv.py,sha256=rBNXqIo5UCWevAVgp1lR9cYmEt69qzkHZbWJ7xLCKUI,401
+file_convertion_tools-0.0.13.dist-info/LICENSE,sha256=ekGVFBlgSReRuUXshOTUmbfyhKps2LRNLbO_kN4zuPM,1073
+file_convertion_tools-0.0.13.dist-info/METADATA,sha256=A_XVRfDSxQXtMql4Dsli9gFbc6axSxAdmiZxpncIk7w,1113
+file_convertion_tools-0.0.13.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+file_convertion_tools-0.0.13.dist-info/RECORD,,
