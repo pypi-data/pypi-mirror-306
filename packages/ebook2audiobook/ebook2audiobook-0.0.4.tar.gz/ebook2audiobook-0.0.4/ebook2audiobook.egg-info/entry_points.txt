@@ -1,0 +1,2 @@
+[console_scripts]
+ebook2audiobookxtts = ebook2audiobook.launch:main
