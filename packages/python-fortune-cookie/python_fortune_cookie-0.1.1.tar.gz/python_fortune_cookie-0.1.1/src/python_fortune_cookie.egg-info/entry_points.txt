@@ -1,0 +1,2 @@
+[console_scripts]
+python_fortune_cookie = python_fortune_cookie.__main__:main
