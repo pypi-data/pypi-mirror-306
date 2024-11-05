@@ -1,0 +1,2 @@
+[console_scripts]
+hij = name_register:main
