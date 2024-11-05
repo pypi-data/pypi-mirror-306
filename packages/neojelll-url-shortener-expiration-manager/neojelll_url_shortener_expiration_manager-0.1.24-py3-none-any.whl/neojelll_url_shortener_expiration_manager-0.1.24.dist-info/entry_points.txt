@@ -1,0 +1,3 @@
+[console_scripts]
+neojelll-url-shortener-expiration-manager=expiration_manager.manager:run
+
