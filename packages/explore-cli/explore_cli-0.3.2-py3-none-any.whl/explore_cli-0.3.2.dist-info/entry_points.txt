@@ -1,0 +1,3 @@
+[console_scripts]
+explore=explore_cli.explore_langchain:main
+
