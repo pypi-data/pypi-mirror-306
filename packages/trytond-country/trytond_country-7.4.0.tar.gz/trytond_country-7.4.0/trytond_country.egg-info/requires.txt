@@ -1,0 +1,16 @@
+python-sql
+trytond<7.5,>=7.4
+
+[GeoNames]
+proteus<7.5,>=7.4
+
+[completion]
+argcomplete
+
+[data]
+pycountry>=16.11.8
+proteus<7.5,>=7.4
+
+[test]
+proteus<7.5,>=7.4
+pycountry>=16.11.8
