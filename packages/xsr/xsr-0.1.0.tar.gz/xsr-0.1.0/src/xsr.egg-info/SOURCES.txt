@@ -1,0 +1,6 @@
+setup.py
+src/xsr.egg-info/PKG-INFO
+src/xsr.egg-info/SOURCES.txt
+src/xsr.egg-info/dependency_links.txt
+src/xsr.egg-info/entry_points.txt
+src/xsr.egg-info/top_level.txt
