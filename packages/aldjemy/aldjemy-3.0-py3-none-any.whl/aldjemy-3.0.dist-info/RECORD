@@ -1,0 +1,13 @@
+aldjemy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aldjemy/apps.py,sha256=qxRMKxfl55HB9ACzPEY1lVz1s7iGzeLRM8vyyBlf6xw,1601
+aldjemy/core.py,sha256=pAoloQ0_4GDSd8jT0iPSaV6n8H5FVhRUV7AF4joD1LI,4630
+aldjemy/meta.py,sha256=Mxc6CmpcpOl5wNCcHrnFsYJY6SG4o3kS1RLBlaPtefM,611
+aldjemy/orm.py,sha256=zwetjxybEpZEFQsnSueWSq_c9l4BdTsWpD1k6_STh1I,4995
+aldjemy/session.py,sha256=Q-UDxqWDn_jCg6uSQ9RcaVhcKPU3qSA13IZ257x97MQ,680
+aldjemy/sqlite.py,sha256=r_VtxLvONgJqdQjXUSGMvmOh9bfe3SBeiFhlav829X4,613
+aldjemy/table.py,sha256=L4eh2RepQe6QTb2vMWobmKbcZUZPpMUDYcs8OtjnMys,4073
+aldjemy/wrapper.py,sha256=TehkKE9_zrMV8QKG26i2X-xCkxMKiFQOh8zdUdm1wdc,656
+aldjemy-3.0.dist-info/METADATA,sha256=rRf9TQgX_0GZP06seIhiez3ipebTmS3X3oOsVWDKnWU,4645
+aldjemy-3.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+aldjemy-3.0.dist-info/licenses/LICENSE,sha256=Y85iKO6PMOQwBgtERJ25QkBE8XcDiM3zT9PZnSMdTwk,1504
+aldjemy-3.0.dist-info/RECORD,,
