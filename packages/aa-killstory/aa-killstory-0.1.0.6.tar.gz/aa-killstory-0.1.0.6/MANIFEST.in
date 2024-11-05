@@ -1,0 +1,4 @@
+recursive-include killstory/templates *
+recursive-include killstory/static *
+recursive-include killstory/migrations *
+recursive-include killstory/management *
