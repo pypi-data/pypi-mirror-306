@@ -1,0 +1,14 @@
+tadam/automaton.py,sha256=79qzjcQIp5oCH5FbQcODh1XvDedp7KE631RcJNUmEpY,30980
+tadam/edge.py,sha256=DfROqM6tNO-2inpHVqBsFFEBLLlcomG2B3QLnV8vWSo,6702
+tadam/mdl.py,sha256=jwQVHF_DJXBMA0rnNXBhK_aLlpslVO_pxYV5UZsIBY8,20893
+tadam/options.py,sha256=88yjs1Cvpc0UPYuD1tpzMOMtG61lhS4XVbwQTEFlhAg,1777
+tadam/state.py,sha256=OIxAMknrTNpIo7-kk8NicC5Yv2AZ23qVe8xbLKn8ZsU,7969
+tadam/tadam.py,sha256=cRp4T6hJ30yuIHjsb1iQx2FGfXxLrPj4heLdhxh3ttQ,24276
+tadam/talearner.py,sha256=Ll47YA5XHm1boLfWr703dlRGiwFJk5fuvQHpkmrxMug,43404
+tadam/ts.py,sha256=vgz7Yfh9RIVNxrgppY6rkoKRRjWepAy26j3lDDJ-JZQ,1289
+tadam/utils.py,sha256=sXIodU2QXQZmsNSMO2V9_XmhsHN8fSGKQRxyLX9N-b0,1047
+tadam_learner-0.0.1.dist-info/LICENSE,sha256=iXqOkTbH3MVMyUuXdX1oHp5phNadS_QmUshNrKJlXvY,1507
+tadam_learner-0.0.1.dist-info/METADATA,sha256=wjPDzW40baVTsyM6GkPbthsxtICzhneoK9fCggRZEsY,300
+tadam_learner-0.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+tadam_learner-0.0.1.dist-info/top_level.txt,sha256=6pI3dcILPr5RWJgVtuC5J11BEz86bgw8MuR71hF_8n8,6
+tadam_learner-0.0.1.dist-info/RECORD,,
