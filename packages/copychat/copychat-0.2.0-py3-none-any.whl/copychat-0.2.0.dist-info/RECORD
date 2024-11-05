@@ -1,0 +1,12 @@
+copychat/__init__.py,sha256=_kqexjcDPy5Qma18uoK1fRYo61VWVaB9a628vsa7TMY,208
+copychat/_version.py,sha256=H-qsvrxCpdhaQzyddR-yajEqI71hPxLa4KxzpP3uS1g,411
+copychat/cli.py,sha256=_dQQsEKiviUuL2RL3VKjqFCdRJATX53eK05qM_e9FGs,8102
+copychat/core.py,sha256=0YV-nyrRQAvqLOyO6wYXPWMU4Pu4v_TLknafPcrc_IM,8601
+copychat/format.py,sha256=-qMKcEUgMxv5Ej5iXWjEvcZ3g6hq-wrrRUqgzvig5Mg,9216
+copychat/patterns.py,sha256=Va42N0XyYK3reVKzZoDm3Q3kSeX-Ci4TUhrB65Mjov0,1708
+copychat/sources.py,sha256=iFQDcKz_iLffuj9PZM2DaHzYwwPxUj3j28gLFd7BjaA,1598
+copychat-0.2.0.dist-info/METADATA,sha256=3M9NggqHJbucMS9oNmN5xab71xBD88aNlTkqQyKpOsY,5632
+copychat-0.2.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+copychat-0.2.0.dist-info/entry_points.txt,sha256=vwBi7Dbzj0_4iTttRhFnDzEwpHCtw4VZ8VLApOUASlg,46
+copychat-0.2.0.dist-info/top_level.txt,sha256=5uzdI34KZmorRRMD5yJWzE2EHMQ0XWIh-5bY1FlxCjM,9
+copychat-0.2.0.dist-info/RECORD,,
