@@ -1,0 +1,48 @@
+[85888] -Framework Log- 2024-02-22 16:50:43,173 | ERROR | connect_async.py:57: asyncio.run() cannot be called from a running event loop
+[86269] -Framework Log- 2024-02-22 16:57:01,681 | ERROR | connect_async.py:57: asyncio.run() cannot be called from a running event loop
+[86377] -Framework Log- 2024-02-22 16:58:37,114 | ERROR | connect_async.py:57: asyncio.run() cannot be called from a running event loop
+[86609] -Framework Log- 2024-02-22 17:02:44,619 | ERROR | connect_async.py:57: This event loop is already running
+[86662] -Framework Log- 2024-02-22 17:03:40,870 | ERROR | connect_async.py:57: This event loop is already running
+[86682] -asyncio- 2024-02-22 17:03:54,314 | ERROR | base_events.py:1707: Unclosed RedisCluster client
+client: <redis.asyncio.cluster.RedisCluster object at 0x7fd09b31b720>
+[86682] -asyncio- 2024-02-22 17:03:54,315 | ERROR | base_events.py:1707: Unclosed ClusterNode object
+client: [host=172.20.32.142, port=6379, name=172.20.32.142:6379, server_type=primary]
+[86682] -asyncio- 2024-02-22 17:03:54,316 | ERROR | base_events.py:1707: Unclosed ClusterNode object
+client: [host=172.20.32.16, port=6379, name=172.20.32.16:6379, server_type=primary]
+[94244] -asyncio- 2024-02-22 19:56:53,943 | ERROR | base_events.py:1707: Unclosed RedisCluster client
+client: <redis.asyncio.cluster.RedisCluster object at 0x7fc0780e5670>
+[94244] -asyncio- 2024-02-22 19:56:53,945 | ERROR | base_events.py:1707: Unclosed ClusterNode object
+client: [host=172.20.32.142, port=6379, name=172.20.32.142:6379, server_type=primary]
+[94244] -asyncio- 2024-02-22 19:56:53,946 | ERROR | base_events.py:1707: Unclosed ClusterNode object
+client: [host=172.20.32.16, port=6379, name=172.20.32.16:6379, server_type=primary]
+[0] [PID17239] -root- 2024-09-23 11:23:06,669 | INFO | logger.py:123: root logger init, level:INFO
+[0] [PID17239] -Framework Log- 2024-09-23 11:23:06,674 | ERROR | connect.py:65: Error initializing Redis client: Redis Cluster cannot be connected. Please provide at least one reachable node: "max_connections" must be a positive integer
+[0] [PID17378] -root- 2024-09-23 11:24:45,321 | INFO | logger.py:123: root logger init, level:INFO
+[0] [PID17378] -Framework Log- 2024-09-23 11:24:45,459 | INFO | connect.py:83: Redis connection established.
+[0] [PID17378] -Framework Log- 2024-09-23 11:24:45,460 | INFO | connect.py:97: Redis connection closed.
+[0] [PID17451] -root- 2024-09-23 11:25:54,313 | INFO | logger.py:123: root logger init, level:INFO
+[0] [PID17451] -Framework Log- 2024-09-23 11:25:54,427 | INFO | connect.py:83: Redis connection established.
+[0] [PID17451] -Framework Log- 2024-09-23 11:25:54,464 | ERROR | connect_async.py:64: Error initializing Redis client: asyncio.run() cannot be called from a running event loop
+[0] [PID17451] -Framework Log- 2024-09-23 11:25:54,467 | ERROR | __init__.py:65: Redis connect error: asyncio.run() cannot be called from a running event loop
+[0] [PID17543] -root- 2024-09-23 11:27:48,603 | INFO | logger.py:123: root logger init, level:INFO
+[0] [PID17543] -Framework Log- 2024-09-23 11:27:48,727 | INFO | connect.py:83: Redis connection established.
+[0] [PID17543] -Framework Log- 2024-09-23 11:27:48,768 | ERROR | __init__.py:65: Redis connect error: asyncio.run() cannot be called from a running event loop
+[0] [PID17721] -root- 2024-09-23 11:31:01,963 | INFO | logger.py:123: root logger init, level:INFO
+[0] [PID17721] -Framework Log- 2024-09-23 11:31:02,090 | INFO | connect.py:83: Redis connection established.
+[0] [PID17721] -Framework Log- 2024-09-23 11:31:02,133 | ERROR | __init__.py:65: Redis connect error: asyncio.run() cannot be called from a running event loop
+[0] [PID17809] -root- 2024-09-23 11:32:05,970 | INFO | logger.py:123: root logger init, level:INFO
+[0] [PID17809] -Framework Log- 2024-09-23 11:32:06,086 | INFO | connect.py:83: Redis connection established.
+[0] [PID17809] -asyncio- 2024-09-23 11:32:06,250 | ERROR | base_events.py:1707: Unclosed RedisCluster client
+client: <redis.asyncio.cluster.RedisCluster object at 0x7f8c35956040>
+[0] [PID17809] -asyncio- 2024-09-23 11:32:06,251 | ERROR | base_events.py:1707: Unclosed ClusterNode object
+client: [host=172.20.32.142, port=6379, name=172.20.32.142:6379, server_type=primary]
+[0] [PID17809] -asyncio- 2024-09-23 11:32:06,251 | ERROR | base_events.py:1707: Unclosed ClusterNode object
+client: [host=172.20.32.16, port=6379, name=172.20.32.16:6379, server_type=primary]
+[0] [PID18022] -root- 2024-09-23 11:34:10,021 | INFO | logger.py:123: root logger init, level:INFO
+[0] [PID18022] -Framework Log- 2024-09-23 11:34:10,152 | INFO | connect.py:83: Redis connection established.
+[0] [PID18022] -asyncio- 2024-09-23 11:34:10,336 | ERROR | base_events.py:1707: Unclosed RedisCluster client
+client: <redis.asyncio.cluster.RedisCluster object at 0x7f938a2683b0>
+[0] [PID18022] -asyncio- 2024-09-23 11:34:10,337 | ERROR | base_events.py:1707: Unclosed ClusterNode object
+client: [host=172.20.32.142, port=6379, name=172.20.32.142:6379, server_type=primary]
+[0] [PID18022] -asyncio- 2024-09-23 11:34:10,338 | ERROR | base_events.py:1707: Unclosed ClusterNode object
+client: [host=172.20.32.16, port=6379, name=172.20.32.16:6379, server_type=primary]
