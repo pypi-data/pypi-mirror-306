@@ -1,0 +1,2 @@
+[console_scripts]
+pdfllm = pdf_llm_tools.main:main

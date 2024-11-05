@@ -1,0 +1,13 @@
+pdf_llm_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdf_llm_tools/llm.py,sha256=Nad9aL1-KpaqeyatE2xKALFCWhTNvOTb3PY-hRH82v0,781
+pdf_llm_tools/main.py,sha256=kVhVr8t95u7QtBHGC7B17SnlKhXaqMA04k-FqxgFUPQ,253
+pdf_llm_tools/opts.py,sha256=UXayZ909g6HXCF9zrgrYGwZrcvyP1HbK0J1mkkMV7ps,2557
+pdf_llm_tools/utils.py,sha256=1Ul72NUlBzGC0xyDdqZm3BlOPwdPCAQYjHtFvzDmX6E,933
+pdf_llm_tools/titler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdf_llm_tools/titler/main.py,sha256=C6YmkX9MwlZNvi5wWwXVVgupdawzNVGjo-YYA_QxKEI,3251
+pdf_llm_tools/titler/opts.py,sha256=gUs7nEXd4CedICVyfC4jy8mviE-lsII4cavWB7NcPHA,1018
+pdf_llm_tools-0.0.4.dist-info/METADATA,sha256=J2w7kEjCJrz_vTolJuwz5d4WWg_WbBH-EnO-wFJBMjs,1957
+pdf_llm_tools-0.0.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pdf_llm_tools-0.0.4.dist-info/entry_points.txt,sha256=4YhvocJWQtSaImuWzxsOIbjhkx4_N0vN78upM31ZzuM,51
+pdf_llm_tools-0.0.4.dist-info/licenses/LICENSE,sha256=x03Jr_LfhAP9HN46IQNt56ZSIL3lIRD0ZvGvMoadcIQ,1058
+pdf_llm_tools-0.0.4.dist-info/RECORD,,
