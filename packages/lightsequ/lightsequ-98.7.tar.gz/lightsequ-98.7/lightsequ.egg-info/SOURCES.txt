@@ -1,0 +1,7 @@
+main.py
+setup.py
+lightsequ.egg-info/PKG-INFO
+lightsequ.egg-info/SOURCES.txt
+lightsequ.egg-info/dependency_links.txt
+lightsequ.egg-info/requires.txt
+lightsequ.egg-info/top_level.txt
