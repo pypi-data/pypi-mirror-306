@@ -1,0 +1,14 @@
+kanban_python/__init__.py,sha256=NPJRInidUeqI3P5h2XRb7ADrdeasBlVZMsZ98-nLM3M,578
+kanban_python/app.py,sha256=yXmHawk9_IqHNVo5CzyhmVZBsNDJ6wPtWRulzL4bteo,1936
+kanban_python/cli_parser.py,sha256=tDtTmQ6U9WBh9oq9r0BwR30E-fPTmqN4OpdGL8bz8fw,1749
+kanban_python/config.py,sha256=dHiJyfkRDaEjDsl4zEtK61wqUUaspz0ewCvUWWzGH48,5791
+kanban_python/constants.py,sha256=Qd-ZBUBP2QZNWSkQerZ6wArIbe0mQ6zIknNJRg5TKck,1904
+kanban_python/controls.py,sha256=b_zi6dokxb422P-sKxYiraOrxrw1D7hJ7QoN7tJQGh4,10854
+kanban_python/interface.py,sha256=Bzhty1hBR_1okhBIJ8AXZFcpvwZwdZy1nS7xW2A1PRc,17453
+kanban_python/utils.py,sha256=1-7Ygvjw2cBYZXiYEIA8jgpLaVjJnJyfEijDo6u5m7w,8753
+kanban_python-0.5.1.dist-info/METADATA,sha256=IGLcK2-sgACrtYmKT_s07WrCtQPNv7H8yp9uAW1vDyk,12797
+kanban_python-0.5.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+kanban_python-0.5.1.dist-info/entry_points.txt,sha256=CuVjnXuQwzKE6axzr0spfcR2OkFs_S7SXc5qsLXQVC0,49
+kanban_python-0.5.1.dist-info/licenses/AUTHORS.md,sha256=MxeTsbO2SRyE6foQ5ybHDknmRYQgTDDv6Om_oXye_a8,75
+kanban_python-0.5.1.dist-info/licenses/LICENSE.txt,sha256=SVrtrLVDWQqI20dPWmt_lGauxgo7LunvhYnxuAMUZ44,1073
+kanban_python-0.5.1.dist-info/RECORD,,
