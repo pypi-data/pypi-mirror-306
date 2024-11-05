@@ -1,0 +1,2 @@
+[console_scripts]
+chy = name_register:main

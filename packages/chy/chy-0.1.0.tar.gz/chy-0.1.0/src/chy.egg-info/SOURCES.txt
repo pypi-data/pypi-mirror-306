@@ -1,0 +1,6 @@
+setup.py
+src/chy.egg-info/PKG-INFO
+src/chy.egg-info/SOURCES.txt
+src/chy.egg-info/dependency_links.txt
+src/chy.egg-info/entry_points.txt
+src/chy.egg-info/top_level.txt
