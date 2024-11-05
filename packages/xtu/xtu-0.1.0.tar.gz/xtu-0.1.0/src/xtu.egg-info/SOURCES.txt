@@ -1,0 +1,6 @@
+setup.py
+src/xtu.egg-info/PKG-INFO
+src/xtu.egg-info/SOURCES.txt
+src/xtu.egg-info/dependency_links.txt
+src/xtu.egg-info/entry_points.txt
+src/xtu.egg-info/top_level.txt
