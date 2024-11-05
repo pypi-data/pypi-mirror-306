@@ -1,0 +1,7 @@
+README.md
+setup.py
+NetManage.egg-info/PKG-INFO
+NetManage.egg-info/SOURCES.txt
+NetManage.egg-info/dependency_links.txt
+NetManage.egg-info/entry_points.txt
+NetManage.egg-info/top_level.txt
