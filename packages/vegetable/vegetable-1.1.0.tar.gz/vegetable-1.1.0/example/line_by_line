@@ -1,0 +1,20 @@
+#!/usr/bin/env python
+
+
+import time
+import random
+from vegetable import Table
+
+def get_things():
+    for thing in ["Splunger", "Spranger", "Dibbonosicator", "Unsplunger"]:
+        time.sleep(0.33333)
+        yield thing, random.randint(1, 1000)
+
+
+t = Table()
+t.column("Item Desc", width=25)  # must choose wisely!
+t.column("Rating", type=int)
+print(t.mast_head())
+
+for desc, num in get_things():  # generator what receives events
+    print(t.row_str([desc, num]))

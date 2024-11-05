@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+
+from vegetable import Table
+from vegetable.highlight import *
+from colored import Fore, Back, Style
+from random import randint
+
+power = HighlightRange(
+    [
+        ["-75", Style.dim],
+        ["-90", Fore.green],
+        ["90-95", Fore.yellow],
+        ["95-101", Fore.red],
+        ["101-", [Fore.red, Style.reverse]],
+    ],
+)
+
+lucky = HighlightValue(condition=lambda x: x == 42, style=Style.underline)
+
+# create a Table and define some columns
+t = Table()
+t.column("Engine", type=int, highlighter=lucky)
+t.column("Power", type=float, scale=1, formatter=lambda x: f"{x}%", highlighter=power)
+
+# create 100 rows of data
+for n in range(1, 101):
+    t.row([n, randint(0, 105)])
+
+# limit output to only top 10 rows by Power
+t.sort("Power", reverse=True)
+t.limit = 15
+
+print(t)
