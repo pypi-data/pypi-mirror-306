@@ -1,0 +1,10 @@
+odoo/addons/avoid_check_balanced_credit_debit/README.rst,sha256=reHsPFendebqIlCgyecO76ws9nTG5RgTCV2FZA1WSF0,1338
+odoo/addons/avoid_check_balanced_credit_debit/__init__.py,sha256=mPJhiaEV6aD5ibASiNJkKUCP0Dx-RWmcnR7FH4n-de4,145
+odoo/addons/avoid_check_balanced_credit_debit/__manifest__.py,sha256=Ktv0etcrJ1xGq15r68-0m2Wcotby5luLuWTA2Fn7wEM,477
+odoo/addons/avoid_check_balanced_credit_debit/models/__init__.py,sha256=-Z0scAXuVUBfA3TKNduJla-Xqh28qEaB-eGqEoPUizw,151
+odoo/addons/avoid_check_balanced_credit_debit/models/account_move.py,sha256=McrfLzww6a4Willw4gCQbBdyeGKClNWuVfqFPX_7srw,527
+odoo/addons/avoid_check_balanced_credit_debit/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo13_addon_avoid_check_balanced_credit_debit-13.0.1.0.0.dist-info/METADATA,sha256=cA-08kwqVFG0qR-FahigX0bnzO3XcMxEijEwCjmxbSM,1793
+odoo13_addon_avoid_check_balanced_credit_debit-13.0.1.0.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo13_addon_avoid_check_balanced_credit_debit-13.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_avoid_check_balanced_credit_debit-13.0.1.0.0.dist-info/RECORD,,
