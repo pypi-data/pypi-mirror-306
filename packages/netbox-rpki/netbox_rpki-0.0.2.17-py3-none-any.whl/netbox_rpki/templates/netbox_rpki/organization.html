@@ -1,0 +1,48 @@
+{% extends 'generic/object.html' %}
+{% load render_table from django_tables2 %}
+
+{% block content %}
+  <div class="row mb-3">
+    <div class="col col-md-6">
+      <div class="card">
+        <h5 class="card-header">RPKI Organization</h5>
+        <div class="card-body">
+          <table class="table table-hover attr-table">
+            <tr>
+              <th scope="row">Organization ID</th>
+              <td>{{ object.org_id }}</td>
+            </tr>
+            <tr>
+              <th scope="row">Organizaton Name</th>
+              <td>{{ object.name }}</td>
+            </tr>
+            <tr>
+              <th scope="row">Parent Regional Internet Registry</th>
+              <td><a href="{{ object.parent_rir.get_absolute_url }}">{{ object.parent_rir }}</a></td>
+            </tr>
+            <tr>
+              <th scope="row">External URL</th>
+              <td><a href="{{ object.ext_url|escape }}">{{ object.ext_url }}</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      {% include 'inc/panels/custom_fields.html' %}
+    </div>
+    <div class="col col-md-6">
+      {% include 'inc/panels/tags.html' %}
+      {% include 'inc/panels/comments.html' %}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col col-md-12">
+      <div class="card">
+        <h5 class="card-header">Certificates</h5>
+        <div class="card-body table-responsive">
+          {% render_table certificates_table %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock content %}
