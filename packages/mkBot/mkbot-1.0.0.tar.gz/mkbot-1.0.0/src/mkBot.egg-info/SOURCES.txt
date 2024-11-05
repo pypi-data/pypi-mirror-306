@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/mkBot/__init__.py
+src/mkBot/mkBot.py
+src/mkBot.egg-info/PKG-INFO
+src/mkBot.egg-info/SOURCES.txt
+src/mkBot.egg-info/dependency_links.txt
+src/mkBot.egg-info/requires.txt
+src/mkBot.egg-info/top_level.txt
