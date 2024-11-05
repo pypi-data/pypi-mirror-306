@@ -1,0 +1,2 @@
+[console_scripts]
+zkq = name_register:main
