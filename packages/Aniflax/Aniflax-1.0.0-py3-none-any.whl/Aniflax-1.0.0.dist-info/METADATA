@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: Aniflax
+Version: 1.0.0
+Summary: A discord.py extension including useful tools for bot development and debugging.
+Home-page: https://github.com/nitrixly/Aniflax
+Download-URL: https://github.com/scarletcafe/jishaku/archive/2.6.0.tar.gz
+Author: Nitrix
+License: MIT
+Project-URL: Documentation, https://jishaku.readthedocs.io/en/latest/
+Project-URL: Code, https://github.com/nitrixly/Aniflax
+Project-URL: Issue tracker, https://github.com/scarletcafe/jishaku/issues
+Keywords: Aniflax discord.py discord cog repl extension
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: braceexpand >=0.1.7
+Requires-Dist: click >=8.1.7
+Requires-Dist: discord.py >=2.4.0
+Requires-Dist: import-expression <3.0.0,>=2.0.0
+Requires-Dist: tabulate >=0.9.0
+Requires-Dist: typing-extensions <5,>=4.3
+Requires-Dist: importlib-metadata >=3.7.0 ; python_version < "3.10"
+Provides-Extra: docs
+Requires-Dist: Sphinx >=4.4.0 ; extra == 'docs'
+Requires-Dist: sphinxcontrib-trio >=1.1.2 ; extra == 'docs'
+Provides-Extra: procinfo
+Requires-Dist: psutil >=5.9.5 ; extra == 'procinfo'
+Provides-Extra: profiling
+Requires-Dist: line-profiler >=4.1.1 ; extra == 'profiling'
+Provides-Extra: publish
+Requires-Dist: Jinja2 >=3.1.2 ; extra == 'publish'
+Provides-Extra: test
+Requires-Dist: coverage >=7.3.2 ; extra == 'test'
+Requires-Dist: flake8 >=6.1.0 ; extra == 'test'
+Requires-Dist: isort >=5.12.0 ; extra == 'test'
+Requires-Dist: pylint >=3.0.1 ; extra == 'test'
+Requires-Dist: pytest >=7.4.2 ; extra == 'test'
+Requires-Dist: pytest-asyncio >=0.21.0 ; extra == 'test'
+Requires-Dist: pytest-cov >=4.1.0 ; extra == 'test'
+Requires-Dist: pytest-mock >=3.11.1 ; extra == 'test'
+Provides-Extra: voice
+Requires-Dist: discord.py[voice] >=2.3.2 ; extra == 'voice'
+Requires-Dist: yt-dlp >=2023.10.13 ; extra == 'voice'
+
+# Aniflax - Upgraded Version of Jishaku
+
+Aniflax is an upgraded version of the popular Jishaku bot, designed for Discord. It retains the core functionalities of Jishaku while adding new commands and enhanced message handling for a more engaging user experience.
+
+## Features
+
+- **Enhanced Commands**: Aniflax comes with several new commands that improve interactivity and fun in your Discord server.
+- **Message Customization**: Enjoy edited messages for better clarity and engagement, ensuring users have a seamless experience.
+- **Easy to Use**: The bot is designed to be user-friendly, making it accessible for both beginners and experienced users.
+
+## Installation
+
+To install Aniflax, follow these steps:
+
+1. Install the repository:
+   ```bash
+   pip install git+https://github.com/nitrixly/Aniflax@master
+   ```
+
+2. Install the required packages:
+   ```bash
+   pip install jishaku
+   ```
+
+4. Configure your bot token and other settings in the configuration file.
+
+5. Run the bot:
+   ```bash
+   python main.py
+   ```
+
+## Usage
+
+Once installed, invite Aniflax to your server and start using the commands. The bot is equipped with a variety of commands that enhance server interaction.
+
+## Disclaimer
+
+This project is an upgraded version of the original Jishaku bot. I want to clarify that I am not attempting to take credit or ideas from the original developers. I have made modifications, including new commands and edited messages, but full credit goes to the original developers of Jishaku. My intention is to contribute to the community by enhancing an already great bot and to respect the work of its creators.
+
+## Contributing
+
+If you'd like to contribute to Aniflax, feel free to submit a pull request or open an issue. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Acknowledgments
+
+- Thanks to the original developers of Jishaku for their hard work and inspiration behind this bot.
+- Special thanks to the Discord community for their ongoing support and feedback.
+
+---
+
+Feel free to reach out if you have any questions or suggestions!
