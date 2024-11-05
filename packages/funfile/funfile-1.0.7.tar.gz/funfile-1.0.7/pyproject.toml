@@ -1,0 +1,7 @@
+[project]
+name = "funfile"
+description = "Add your description here"
+readme = "README.md"
+version = "1.0.7"
+requires-python = ">=3.8"
+dependencies = [ "tqdm>=4.66.5",]
