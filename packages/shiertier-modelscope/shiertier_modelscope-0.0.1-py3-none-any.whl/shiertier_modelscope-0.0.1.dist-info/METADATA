@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: shiertier_modelscope
+Version: 0.0.1
+Summary: A simple modelscope client for Python.
+Author-email: shiertier <junjie.text@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 shiertier
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: modelscope
+
+# shiertier_modelscope
+
+English | [中文](https://github.com/shiertier-utils/shiertier_modelscope/blob/main/README_zh.md)
+
+## Introduction
+
+`shiertier_modelscope` is a Python client for interacting with the ModelScope platform. It provides a simple interface for downloading and uploading models, with support for automatic login using environment variables. This library is designed to streamline the process of managing models on ModelScope.
+
+## Installation
+
+You can install `shiertier_modelscope` via `pip`:
+
+```bash
+pip install git+https://github.com/shiertier/shiertier_modelscope.git
+```
+
+Please note that this project is still under development.
+
+## Usage
+
+### Downloading Models
+
+You can download models from ModelScope using the `download` method. This method requires the repository name and the directory where the model files should be saved. You can also specify a specific file to download using the `file_path` parameter. Downloading models from public repositories does not require a token.
+
+```python
+from shiertier_modelscope import easy_modelscope
+
+# Download the entire repository
+easy_modelscope.download(repo_name='my_public_model_repo', save_dir='path/to/save_directory')
+
+# Download a specific file from the repository
+easy_modelscope.download(repo_name='my_public_model_repo', save_dir='path/to/save_directory', file_path='path/to/file_in_repo')
+
+# Download from a private repository (requires token)
+client = ModelScopeClient(MODELSCOPE_TOKEN='your_token_here')
+client.download(repo_name='my_private_model_repo', save_dir='path/to/save_directory')
+```
+
+### Uploading Models
+
+You can upload models to ModelScope using the `upload_models` method. This method requires the local directory containing the model files and the repository name. Note that uploading models requires a valid token.
+
+```python
+from shiertier_modelscope import ModelScopeClient
+
+# Initialize with a token
+client = ModelScopeClient(MODELSCOPE_TOKEN='your_token_here')
+
+# Upload models
+client.upload_models(model_dir='path/to/model_directory', repo_name='my_model_repo')
+```
+
+### Initialization
+
+To use the `ModelScopeClient`, you need to initialize it with your ModelScope token. If the token is not provided during initialization, it will attempt to retrieve it from the `MODELSCOPE_TOKEN` environment variable.
+
+```python
+from shiertier_modelscope import ModelScopeClient, easy_modelscope
+
+# Initialize with a token
+client = ModelScopeClient(MODELSCOPE_TOKEN='your_token_here')
+
+# Or use the easy_modelscope shortcut
+# easy_modelscope
+```
+
+### Environment Variables
+
+- `MODELSCOPE_TOKEN`: The token used for authentication with the ModelScope platform. If not provided during initialization, the client will attempt to retrieve it from this environment variable.
+
+## Dependencies
+
+- `modelscope`
+
+## License
+
+This project is released under the MIT License. See the [LICENSE](LICENSE) file for details.
