@@ -1,0 +1,6 @@
+hvac<1.0.0,>=0.11.2
+setuptools>=75.3.0
+funcparserlib==1.0.1
+iso8601
+boto3>=1.4.3
+importlib_resources
