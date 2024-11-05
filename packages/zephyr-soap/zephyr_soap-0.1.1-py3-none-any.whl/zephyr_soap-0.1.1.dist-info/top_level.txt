@@ -1,0 +1,2 @@
+tests
+zephyr_soap
