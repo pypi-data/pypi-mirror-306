@@ -1,0 +1,13 @@
+arcAGI2024/__init__.py,sha256=0mRiYOBJ36KizzSwusNzl-E5zj-r6owZIwe4ccJxz1w,170
+arcAGI2024/base.py,sha256=xG4f8HY6Xr6JJ9EcnUrNhv2_rvk4tsRCzLb0F79Ndfw,7967
+arcAGI2024/decoder.py,sha256=DDNUKsOOIgbMMph1oHKjSHpDaRioWX4yCO17L9acuZM,15598
+arcAGI2024/deep_memory.py,sha256=wuqiPNICDj4F3Ars5GQgb7Dgz9c-cF34303EeZoBvww,30066
+arcAGI2024/losses.py,sha256=rEklln7GIiiFECEvK6BCbuxsAlZOmNEG5IsP97nvLDs,3976
+arcAGI2024/model.py,sha256=zyh2oxMIIF7VRC25eOWaX_vkJwt4EFAKr4nIetEhDKw,37335
+arcAGI2024/sampling.py,sha256=NXyH2ZAJV9Gin2pBa4kdvx_fiIYsG7m-8g4oWjH8Zlo,1245
+arcAGI2024/vocabulary.py,sha256=2V68oxkZO047ToIGwD0vviXEUOtEMPxF9RrmyIORdPk,6151
+arcAGI2024-0.2.1.dist-info/LICENSE,sha256=gozsd0BD4SRloPEgSDVNQHIbQ0Ttk-O93Ni9KfB0BJs,1099
+arcAGI2024-0.2.1.dist-info/METADATA,sha256=iGMQfGyAYk-QwbGpJYUoGdqKRWLQwdLFkExa905qU2U,338
+arcAGI2024-0.2.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+arcAGI2024-0.2.1.dist-info/top_level.txt,sha256=kjmAeQ3EoAsBPWpNiFpSBBL6DzTUnA5oWxB5LFRmsZM,11
+arcAGI2024-0.2.1.dist-info/RECORD,,
