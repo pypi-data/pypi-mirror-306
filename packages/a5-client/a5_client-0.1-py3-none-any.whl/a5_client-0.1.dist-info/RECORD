@@ -1,0 +1,15 @@
+a5client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+a5client/a5.py,sha256=hfYc9nLUeRqlMo0FmNl3Lv_neb7zJrrV2Nu55i0yZnQ,16390
+a5client/config.py,sha256=hcqMDYOPLwl-pbiiGYu-CaOnNvivX1t-JEe0-wydKDc,248
+a5client/schemas.py,sha256=q_bVObaLpKDshwPLRjChK8RT-YWRtnlm8ihe454IyUw,47264
+a5client/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+a5client/tests/test_read_series.py,sha256=GOKFkG2azlU7FcqNCUD5A9toGVjiZZkUht1-F6h3tMk,238
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/create_series_test.py,sha256=RIfBSG2A7ACYprqdGXgBUIsVtOPDwEs6elt0qUkQxhQ,1525
+tests/read_series_test.py,sha256=CHa35tpEslK8CqmrY880XdfmL4tUh_yrtkI9exF7XLs,323
+tests/test_read_series.py,sha256=GOKFkG2azlU7FcqNCUD5A9toGVjiZZkUht1-F6h3tMk,238
+a5_client-0.1.dist-info/LICENCE,sha256=nhioLCIMmgjVkI3sGq4FAqXsKrmskJFA9dXNyxcsmEM,1066
+a5_client-0.1.dist-info/METADATA,sha256=2tFs8zgHwrSjGhr2HIMyLtO7J_S0MIYemP3uQag399A,250
+a5_client-0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+a5_client-0.1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+a5_client-0.1.dist-info/RECORD,,
