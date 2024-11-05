@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hayashi
+Version: 1.1.1
+Summary: Python library for computing the number of absorption features of the 21 cm forest in a semianalytic formalism.
+Home-page: UNKNOWN
+Author: Pablo Villanueva-Domingo
+Author-email: pablo.villanueva.domingo@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
