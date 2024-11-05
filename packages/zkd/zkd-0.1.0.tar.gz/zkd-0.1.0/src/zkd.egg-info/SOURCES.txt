@@ -1,0 +1,6 @@
+setup.py
+src/zkd.egg-info/PKG-INFO
+src/zkd.egg-info/SOURCES.txt
+src/zkd.egg-info/dependency_links.txt
+src/zkd.egg-info/entry_points.txt
+src/zkd.egg-info/top_level.txt
