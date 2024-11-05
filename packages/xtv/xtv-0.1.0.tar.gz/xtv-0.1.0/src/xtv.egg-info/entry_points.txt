@@ -1,0 +1,2 @@
+[console_scripts]
+xtv = name_register:main
