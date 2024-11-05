@@ -1,0 +1,6 @@
+setup.py
+src/qtn.egg-info/PKG-INFO
+src/qtn.egg-info/SOURCES.txt
+src/qtn.egg-info/dependency_links.txt
+src/qtn.egg-info/entry_points.txt
+src/qtn.egg-info/top_level.txt
