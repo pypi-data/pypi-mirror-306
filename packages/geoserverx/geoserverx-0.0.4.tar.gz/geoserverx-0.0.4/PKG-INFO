@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: geoserverx
+Version: 0.0.4
+Summary: geoserverx is a modern python and CLI package for communicating with Geoserver.
+Author: krishnaglodha
+Author-email: krishnaglodha@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: pydantic (==2.8.2)
+Requires-Dist: rich (>=12.5.1,<13.0.0)
+Requires-Dist: typer (>=0.4.1,<0.5.0)
+Description-Content-Type: text/markdown
+
+# geoserverx
+A GeoServer REST API client influenced by HTTPX
+
+-----------
+
+`geoserverx` allows `Sync`, `Async` as well as `CLI` Capabilities to talk to your GeoServer REST APIs which makes it ideal to be used in software development project which relies on content of GeoServer. 
+
+Here is a simplistic view of how geoserverx works under the hood
+![architecture](/docs/assets/images/arch.png "architecture")
+
+
+
+
+
+## Contribution guide
+
+### Feature/Bug request
+Please open new issue if you want to report any bug or send feature request
+
+### Running on local
+`geoserverx` is built with [poetry](https://python-poetry.org/) and it uses following dependencies and dev-dependencies
+
+![layout](/docs/assets/images/layout.png "layout")
