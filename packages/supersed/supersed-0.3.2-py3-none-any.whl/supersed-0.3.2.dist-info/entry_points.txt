@@ -1,0 +1,2 @@
+[console_scripts]
+supersed = supersed.supersed:main
