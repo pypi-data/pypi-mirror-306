@@ -1,0 +1,10 @@
+moy_nalog/__init__.py,sha256=jGn6C1a5skKW6f2uyL85DD3wWfJ123MksVyDCME783o,66
+moy_nalog/exceptions.py,sha256=wnp-87qeNsGFNEaeSC-NKMA7a9dFMOP33OUBoNqMJds,148
+moy_nalog/http.py,sha256=UZJHXk2MSKBuJuRhrMFG-4XbHUh1qQ-8LYjixTOM9EU,698
+moy_nalog/loggers.py,sha256=XV9igZQkwc895MOGifRqJDAZmWgoQLRe7WW76WdBMpc,72
+moy_nalog/methods.py,sha256=PQqpQB6cNjiT5CI8up5hTm1_thQ7o2GORP8g9g9a_i4,6618
+moy_nalog/moy_nalog.py,sha256=oJXUd0mcxPaOMVEHPc-3ffeOV-KIkApVYqc9VSAk4uc,3063
+moy_nalog/types.py,sha256=iDhi45pyMtuYlbz-O60b5OM-mZdS_Jh4VhQ4BVDgvg0,303
+moy_nalog-0.3.1.dist-info/METADATA,sha256=bKosm_YLzMSLgXU1nadrCZzH7J5ttQuCLycWwDqrlzI,1027
+moy_nalog-0.3.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+moy_nalog-0.3.1.dist-info/RECORD,,
