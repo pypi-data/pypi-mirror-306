@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+offlix.egg-info/PKG-INFO
+offlix.egg-info/SOURCES.txt
+offlix.egg-info/dependency_links.txt
+offlix.egg-info/entry_points.txt
+offlix.egg-info/requires.txt
+offlix.egg-info/top_level.txt
+offlix_installer/__init__.py
+offlix_installer/banner.txt
+offlix_installer/installer.py
+test/__init__.py
+test/test_main.py

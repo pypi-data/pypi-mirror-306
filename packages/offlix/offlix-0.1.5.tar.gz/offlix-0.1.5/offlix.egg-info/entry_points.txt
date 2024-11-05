@@ -1,0 +1,2 @@
+[console_scripts]
+offlix = offlix_installer.installer:main
