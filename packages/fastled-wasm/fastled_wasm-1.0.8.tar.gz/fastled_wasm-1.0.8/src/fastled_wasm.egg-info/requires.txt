@@ -1,0 +1,8 @@
+docker
+keyring
+watchdog
+livereload
+download
+
+[:platform_system == "Linux"]
+keyrings.alt
