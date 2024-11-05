@@ -1,0 +1,70 @@
+{% extends base_template %}
+<!-- Load Select2 CSS -->
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" /> -->
+
+<!-- Load Select2 JS -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script> -->
+{% block title %} My Custom Form {% endblock %}
+
+{% block content %}
+<!-- Load Select2 CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+
+<!-- Load Select2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+<div class="container">
+  <h2>Edit User</h2>
+  <form id="edit-user-form">
+    {{ form.hidden_tag() }}
+    <div class="form-group">
+      <label for="free_text">User Name</label>
+      {{ form.user_name(class="form-control", readonly="readonly") }}
+    </div>
+    <div class="form-group">
+      <label for="roles">Roles</label>
+      {{ form.roles(class="form-control select2", multiple="multiple") }}
+    </div>
+    <div class="form-group">
+      {{ form.submit(class="btn btn-primary") }}
+    </div>
+  </form>
+</div>
+
+<!-- Initialize Select2 -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.select2').select2({
+      placeholder: "Choose options",
+      allowClear: true
+    });
+
+    $('#edit-user-form').on('submit', function (event) {
+      event.preventDefault();
+
+      const form = $(this);
+      const formData = new FormData(form[0]);
+      const userName = formData.get('user_name');
+      const roles = formData.getAll('roles');
+      const url = "{{ url_for('EdwGrantsAppBuilderBaseView.edit_user_page', user_name='USER_NAME_PLACEHOLDER', roles='ROLES_PLACEHOLDER') }}"
+               .replace('USER_NAME_PLACEHOLDER', userName)
+               .replace('ROLES_PLACEHOLDER', roles.join(','));
+      fetch(url, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': '{{ csrf_token() }}'
+        },
+        body: JSON.stringify({
+          user_name: userName,
+          roles: roles
+        })
+      })
+      .then(response => response.json())
+      .then(data => {
+        window.location.href = "{{ url_for('EdwGrantsAppBuilderBaseView.main') }}";
+      })
+    });
+  });
+</script>
+{% endblock %}
