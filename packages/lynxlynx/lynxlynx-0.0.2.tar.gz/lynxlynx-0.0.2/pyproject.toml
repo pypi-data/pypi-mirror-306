@@ -1,0 +1,23 @@
+[project]
+name = "lynxlynx"
+version = "0.0.2"
+authors = [
+  { name="Martin Rys", email="martin@rys.rs" },
+]
+description = "Personal library for my scripts"
+readme = "README.md"
+# Probably works on lower versions too, but I explicitly won't support that, update your env instead
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/MartinRys/python-lynxlynx"
+Issues = "https://gitlab.com/MartinRys/python-lynxlynx/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
