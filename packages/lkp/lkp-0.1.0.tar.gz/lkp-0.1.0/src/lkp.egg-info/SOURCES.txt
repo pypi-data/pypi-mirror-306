@@ -1,0 +1,6 @@
+setup.py
+src/lkp.egg-info/PKG-INFO
+src/lkp.egg-info/SOURCES.txt
+src/lkp.egg-info/dependency_links.txt
+src/lkp.egg-info/entry_points.txt
+src/lkp.egg-info/top_level.txt
