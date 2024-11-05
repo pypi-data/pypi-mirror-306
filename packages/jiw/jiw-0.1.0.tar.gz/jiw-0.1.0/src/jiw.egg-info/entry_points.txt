@@ -1,0 +1,2 @@
+[console_scripts]
+jiw = name_register:main
