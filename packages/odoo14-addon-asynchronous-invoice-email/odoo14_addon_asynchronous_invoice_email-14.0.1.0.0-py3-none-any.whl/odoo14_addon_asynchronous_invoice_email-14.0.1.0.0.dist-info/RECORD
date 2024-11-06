@@ -1,0 +1,11 @@
+odoo/addons/asynchronous_invoice_email/README.rst,sha256=Uv6XdnAPOttjZ5glr1euZRQ46UveUDxS7KVoBm6J-78,1764
+odoo/addons/asynchronous_invoice_email/__init__.py,sha256=A37aNoRkGgH8vW_0B9jKJ3wmNde0EEIN_rILyEXtlZc,146
+odoo/addons/asynchronous_invoice_email/__manifest__.py,sha256=cn6tiiL7T-lIyIZqpLJ2BceC3OobD2Z8UcCsh7KqwOQ,487
+odoo/addons/asynchronous_invoice_email/i18n/es.po,sha256=Q6FM1OWXOZxv5Mddwp1v05XMYh0UpCR2Vdb74zsHQEI,680
+odoo/addons/asynchronous_invoice_email/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/asynchronous_invoice_email/wizards/__init__.py,sha256=V-8tuZ6IQqaI0404QXVhG1CYXFKGLAuNdXzgMCnEYSA,159
+odoo/addons/asynchronous_invoice_email/wizards/account_invoice_send.py,sha256=FCLyIX4yRJVulQF6y39P-IdDNYcYxX2ot0vMdH2JiwI,1058
+odoo14_addon_asynchronous_invoice_email-14.0.1.0.0.dist-info/METADATA,sha256=NuFhNNMiSfvljnyRl102sxlW9PlDeewFyxdqtvNDr2E,2249
+odoo14_addon_asynchronous_invoice_email-14.0.1.0.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo14_addon_asynchronous_invoice_email-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_asynchronous_invoice_email-14.0.1.0.0.dist-info/RECORD,,
