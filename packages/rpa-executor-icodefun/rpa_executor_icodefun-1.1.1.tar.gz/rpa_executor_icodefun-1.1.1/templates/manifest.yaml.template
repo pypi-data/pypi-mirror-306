@@ -1,0 +1,10 @@
+version: "1.0"
+name: ".robot file name"
+description: ""
+tasks: 
+  -
+    name: "task name 1"
+    description: "task name 1"
+  -
+    name: "task name 2"
+    description: "task name 2"
