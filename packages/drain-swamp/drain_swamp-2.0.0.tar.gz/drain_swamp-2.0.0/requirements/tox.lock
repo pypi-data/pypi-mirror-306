@@ -1,0 +1,37 @@
+cachetools==5.5.0
+    # via tox
+chardet==5.2.0
+    # via tox
+colorama==0.4.6
+    # via tox
+distlib==0.3.8
+    # via virtualenv
+filelock==3.13.4
+    # via
+    #   tox
+    #   virtualenv
+packaging==24.1
+    # via
+    #   pyproject-api
+    #   tox
+platformdirs==4.3.6
+    # via
+    #   tox
+    #   virtualenv
+pluggy==1.5.0
+    # via tox
+pyproject-api==1.6.1
+    # via tox
+tomli==2.0.2 ; python_version < "3.11"
+    # via
+    #   -c requirements/pins.shared.in
+    #   pyproject-api
+    #   tox
+tox==4.14.2
+    # via
+    #   -r requirements/tox.in
+    #   tox-gh
+tox-gh-actions==3.2.0
+    # via -r requirements/tox.in
+virtualenv==20.26.0
+    # via tox

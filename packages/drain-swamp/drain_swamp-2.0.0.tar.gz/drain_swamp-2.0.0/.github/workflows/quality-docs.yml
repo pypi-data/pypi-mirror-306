@@ -1,0 +1,148 @@
+# Licensed under the AGPLv3+ License: https://www.gnu.org/licenses/
+# For details: https://github.com/msftcangoblowm/drain-swamp/blob/master/NOTICE.txt
+# https://github.com/pyscaffold/pyscaffold/blob/master/src/pyscaffold/templates/github_ci_workflow.template
+# https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#passing-data-between-jobs-in-a-workflow
+
+name: "Quality docs"
+
+on:
+  push:
+    branches:
+      - master
+      - msftcangoblowm/*
+  pull_request:
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  PIP_DISABLE_PIP_VERSION_CHECK: 1
+  LOCK_SUFFIX: ${{ vars.DRAINSWAMP_SET_LOCK == '1' && '.lock' || '.unlock' }}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: >-
+    ${{ github.workflow }}-${{ github.ref_type }}-
+    ${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  get-toml-docs:
+    name: "Get config-settings"
+
+    runs-on: "${{ matrix.platform }}"
+    strategy:
+      matrix:
+        platform:
+          - ubuntu-latest
+        python-version:
+          - "3.10"
+      fail-fast: false
+    outputs:
+      config_settings: '${{ steps.config-settings-output.outputs.config_settings }}'
+
+    steps:
+    - id: prepare-config-settings
+      name: >-
+        Build Plugin parameters
+      uses: 'msftcangoblowm/drain-swamp-action@1.0.2'
+      with:
+        plugin_parameters: '{"set-lock": "${{ vars.DRAINSWAMP_SET_LOCK }}", "kind": "current"}'
+        checkout: true
+        python_version: "${{ matrix.python-version }}"
+
+    - name: Download artifact
+      uses: actions/download-artifact@v4.1.8
+      with:
+        name: config-settings-${{ matrix.platform || matrix.os }}-${{ matrix.python-version }}
+        path: '${{ runner.temp }}'
+
+    - name: Trans jobs artifact -- upload
+      uses: actions/upload-artifact@v4.4.0
+      with:
+          name: config-settings-toml-${{ matrix.platform || matrix.os }}-${{ matrix.python-version }}
+          path: '${{ env.DS_CONFIG_SETTINGS }}'
+          retention-days: 1
+          if-no-files-found: error
+
+    - id: config-settings-output
+      name: Trans jobs -- DS_CONFIG_SETTINGS --> outputs
+      shell: bash
+      run: |
+        echo 'config_settings=${{ env.DS_CONFIG_SETTINGS }}' >> "$GITHUB_OUTPUT"
+
+  docs:
+    name: "Build docs"
+    needs:
+      get-toml-docs
+
+    runs-on: "${{ matrix.platform }}"
+    strategy:
+      matrix:
+        platform:
+          - ubuntu-latest
+        python-version:
+          - "3.10"
+      fail-fast: false
+
+    concurrency:
+      group: docs-${{ github.ref }}
+      cancel-in-progress: false  # quality then gh-pages
+
+    steps:
+    - name: Trans jobs artifact -- Download
+      uses: actions/download-artifact@v4.1.8
+      with:
+        name: config-settings-toml-${{ matrix.platform || matrix.os }}-${{ matrix.python-version }}
+        path: '${{ runner.temp }}'
+
+    - name: Trans jobs -- outputs --> DS_CONFIG_SETTINGS
+      shell: bash
+      run: |
+        echo 'DS_CONFIG_SETTINGS=${{ needs.get-toml-docs.outputs.config_settings }}' >> "$GITHUB_ENV"
+
+    - name: "Check out the repo"
+      uses: actions/checkout@v4.2.0
+      with:
+        repository: '${{ github.repository }}'
+        # fetch all branches and tags instead of only fetching the ref/SHA that triggered the workflow
+        fetch-depth: 0
+
+    - name: "Install Python"
+      uses: actions/setup-python@v5.2.0
+      with:
+        python-version: "${{ matrix.python-version }}" # Doc version from PYVERSIONS
+        # cache: pip
+        # cache-dependency-path: |
+        #  requirements/*${{ env.LOCK_SUFFIX }}
+
+    - name: "Show environment"
+      shell: bash
+      run: |
+        set -xe
+        python -VV
+        python -m site
+        env
+
+    - name: "Install dependencies"
+      shell: bash
+      run: |
+        set -xe
+        python -m pip install -r requirements/tox.lock -r requirements/prod.shared.unlock -r requirements/kit.lock
+
+    # Create generated files: version file and .lnk files. sdist tarball ignored
+    - name: "Build sdist to run plugins. Create generated files"
+      shell: bash
+      run: |
+        # TOML file location ${{ runner.temp }}/${{ steps.outcome.inputs.toml_file_name }}
+        # env.DS_CONFIG_SETTINGS contains (OS independent) path to TOML file
+        cat '${{ env.DS_CONFIG_SETTINGS }}'
+        python -m build
+
+    - name: "Tox docs"
+      run: |
+        python -m tox -e docs

@@ -1,0 +1,115 @@
+# Licensed under the Apache License: http://www.apache.org/licenses/LICENSE-2.0
+# For details: https://github.com/msftcangoblowm/drain-swamp/blob/main/NOTICE.txt
+# For contributors working in a branch, not main/master, test on Windows and MacOS
+# Quick, not exhaustive. Minimum interpreter versions
+name: "branch only test"
+
+on:
+  push:
+    branches:
+      - '**'
+      - '!master'
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  PIP_DISABLE_PIP_VERSION_CHECK: 1
+  LOCK_SUFFIX: ${{ vars.DRAINSWAMP_SET_LOCK == '1' && '.lock' || '.unlock' }}
+
+permissions:
+  contents: read
+
+jobs:
+  tests-other:
+    name: "${{ matrix.python-version }} on ${{ matrix.platform }}"
+    if:
+      ${{ !(contains('-notests', github.ref) || contains('refs/heads/master', github.ref)) }}
+    runs-on: "${{ matrix.platform }}"
+    # If it doesn't finish in an hour, it's not going to. Don't spin for six
+    # hours needlessly.
+    timeout-minutes: 60
+    strategy:
+      matrix:
+        platform:
+          - windows-latest
+        python-version:
+          - "pypy-3.9-nightly"
+          - "3.12"
+          - "3.13"
+      fail-fast: false
+
+    steps:
+    - name: "Check out the repo"
+      uses: actions/checkout@v4.2.0
+      with:
+        repository: '${{ github.repository }}'
+        # fetch all branches and tags instead of only fetching the ref/SHA that triggered the workflow
+        fetch-depth: 0
+
+    - name: "Install ${{ matrix.python-version }} with setup-python"
+      uses: actions/setup-python@v5.2.0
+      if: startsWith(matrix.python-version, 'pypy-')
+      with:
+        python-version: "${{ matrix.python-version }}"
+
+    - name: "Install ${{ matrix.python-version }} with deadsnakes"
+      uses: deadsnakes/action@v3.2.0
+      if: ${{ ! startsWith(matrix.python-version, 'pypy-') }}
+      with:
+        python-version: "${{ matrix.python-version }}"
+
+    - name: "Show diagnostic info"
+      run: |
+        set -xe
+        python -VV
+        python -m site
+        env
+
+    - name: "Install dependencies"
+      run: |
+        set -xe
+        python -m pip install -r requirements/kit.lock -r requirements/prod.shared.unlock -r requirements/tox.lock
+
+    # - name: Refresh .lnk files. Avoid build. Not run in subprocess
+    #  run: |
+    #    set -xe
+    #    python src/drain_swamp/cli_unlock.py refresh --set-lock="${{ vars.DRAINSWAMP_SET_LOCK }}"
+
+    - name: get-os-short
+      # tox needs just the OS; platform is `{OS}-{OS version}`
+      # matrix.os-short side effect, more matrix runs; total * [OS count]
+      run: |
+        python -c 'import os; lst="${{ matrix.platform }}".split("-"); os_short = lst[0]; env_file = os.environ.get("GITHUB_ENV"); f = open(env_file, "a"); print(f"OS_SHORT={os_short}", file=f); f.close();'
+
+    - name: "Run tox"
+      run: |
+        echo "env.OS_SHORT ${{ env.OS_SHORT }}"
+        python -m tox -vv -c tox-test.ini -e ${{ matrix.python-version }}-${{ env.OS_SHORT }}
+
+    - name: "Retry ${{ matrix.python-version }}-${{ matrix.platform }}"
+      if: failure()
+      run: |
+        echo "env.OS_SHORT ${{ env.OS_SHORT }}"
+        # `exit 1` makes sure that the job remains red with flaky runs
+        python -m tox -vv -c tox-test.ini -e ${{ matrix.python-version }}-${{ env.OS_SHORT }} && exit 1
+
+  # This job aggregates test results. It's the required check for branch protection.
+  # https://github.com/marketplace/actions/alls-green#why
+  # https://github.com/orgs/community/discussions/33579
+  success:
+    name: Jobs successful
+    # The tests didn't run if the branch name includes "-notests"
+    if:
+      ${{ !(contains('-notests', github.ref) || contains('refs/heads/master', github.ref)) }}
+    needs:
+      - tests-other
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Decide whether the needed jobs succeeded or failed
+      uses: re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe
+      with:
+        jobs: ${{ toJSON(needs) }}

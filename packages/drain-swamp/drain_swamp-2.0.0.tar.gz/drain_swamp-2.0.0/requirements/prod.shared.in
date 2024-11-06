@@ -1,0 +1,21 @@
+# Licensed under the AGPLv3+ License: https://www.gnu.org/licenses/
+# For details: https://github.com/msftcangoblowm/drain-swamp/blob/master/NOTICE.txt
+
+##########
+# Careful! Affects two venvs. Nudges not a good idea here
+##########
+# pip>=24.2  # <-- conflicts with docs pip<24.2
+
+setuptools>=75.1.0
+
+# pip-tools --> build --> importlib-metadata
+importlib-metadata>=8.5.0
+
+click           # entrypoints
+# pip-tools commit 53309647980e2a4981db54c0033f98c61142de0b
+# Supposed to fix the absolute path issue, but didn't
+pip-tools       # lock requirements
+pluggy          # plugin support in build backend and setuptools.finalize_distribution_options entrypoint
+setuptools-scm  # get current version, `python setup.py --version`
+drain-swamp-snippet
+pip-requirements-parser
