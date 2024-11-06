@@ -1,0 +1,41 @@
+{
+  "AODPP": {
+    "ext": ".json"
+  },
+  "FRPPP": {
+    "ext": ".json"
+  },
+  "OLEOP": {
+    "ext": ".json"
+  },
+  "OLPCP": {
+    "ext": ".json"
+  },
+  "OLRAC": {
+    "ext": ".json"
+  },
+  "OLSPC": {
+    "ext": ".json"
+  },
+  "OLVGP": {
+    "ext": ".json"
+  },
+  "SL1PP": {
+    "ext": ".json"
+  },
+  "SL2PP": {
+    "ext": ".json"
+  },
+  "SLADJ": {
+    "ext": ".json"
+  },
+  "SY1PP": {
+    "ext": ".json"
+  },
+  "SY2PP": {
+    "ext": ".json"
+  },
+  "VGSPP": {
+    "ext": ".json"
+  }
+}

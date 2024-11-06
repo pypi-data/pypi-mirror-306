@@ -1,0 +1,17 @@
+{
+    "S3": {
+        "OLCI": {
+            "L1": [
+                "GETAS",
+                "ADF_WATER",
+                "ADF_OLEOP",
+                "ADF_OLRAC",
+                "ADF_OLSPC",
+                "ADF_OLLUT",
+                "ADF_OLINS",
+                "ADF_OLCAL",
+                "ADF_OLPRG"
+            ]
+        }
+    }
+}

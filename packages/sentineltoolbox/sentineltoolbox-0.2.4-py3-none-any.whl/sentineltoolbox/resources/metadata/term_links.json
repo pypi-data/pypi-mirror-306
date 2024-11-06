@@ -1,0 +1,19 @@
+{
+    "autodoc_link_sample": "{{ROOT}}/general/product_properties.myst.html",
+    "geometry": "https://cpm.pages.eopf.copernicus.eu/eopf-cpm/main/PSFDjan2024.html#stac-item",
+    "bbox": "https://cpm.pages.eopf.copernicus.eu/eopf-cpm/main/PSFDjan2024.html#stac-item",
+    "eopf:image_size": "https://cpm.pages.eopf.copernicus.eu/eopf-cpm/main/PSFDjan2024.html#stac-item",
+    "eopf:pixel_classification": "https://cpm.pages.eopf.copernicus.eu/eopf-cpm/main/PSFDjan2024.html#stac-item",
+    "eopf:timeline": "https://cpm.pages.eopf.copernicus.eu/eopf-cpm/main/PSFDjan2024.html#stac-item",
+    "view:off_nadir": "https://github.com/stac-extensions/view",
+    "view:incidence_angle": "https://github.com/stac-extensions/view",
+    "view:azimuth": "https://github.com/stac-extensions/view",
+    "view:sun_azimuth": "https://github.com/stac-extensions/view",
+    "view:sun_elevation": "https://github.com/stac-extensions/view",
+    "processing:expression": "https://github.com/stac-extensions/processing/blob/main/README.md#item-properties-and-collection-provider-fields",
+    "processing:lineage": "https://github.com/stac-extensions/processing/blob/main/README.md#item-properties-and-collection-provider-fields",
+    "processing:level": "https://github.com/stac-extensions/processing/blob/main/README.md#suggested-processing-levels",
+    "processing:facility": "https://github.com/stac-extensions/processing/blob/main/README.md#item-properties-and-collection-provider-fields",
+    "processing:software": "https://github.com/stac-extensions/processing/blob/main/README.md#item-properties-and-collection-provider-fields",
+    "history": "https://cpm.pages.eopf.copernicus.eu/eopf-cpm/main/PSFDjan2024.html#processing-history"
+}

@@ -1,0 +1,72 @@
+{
+  "S1": {
+    "SAR": {
+      "L0": [
+        "S1SIWRAW",
+        "S1SSMRAW"
+      ],
+      "ALL": [
+        "S1SIWRAW",
+        "S1SSMRAW"
+      ]
+    }
+  },
+  "S2": {
+    "MSI": {
+      "L2A": [
+        "S02MSIL2A"
+      ],
+      "ALL": [
+        "S02MSIL2A"
+      ]
+    }
+  },
+  "S3": {
+    "OLCI": {
+      "L1": [
+        "S03OLCEFR",
+        "S03OLCERR"
+      ],
+      "ALL": [
+        "S03OLCEFR",
+        "S03OLCERR",
+        "S03OLCLFR"
+      ],
+      "L2": [
+        "S03OLCLFR"
+      ]
+    },
+    "SLSTR": {
+      "L2": [
+        "S03SLSFRP",
+        "S03SLSLST"
+      ],
+      "ALL": [
+        "S03SLSFRP",
+        "S03SLSLST",
+        "S03SLSRBT"
+      ],
+      "L1": [
+        "S03SLSRBT"
+      ]
+    },
+    "SYNERGY": {
+      "L2": [
+        "S03SYNAOD",
+        "S03SYNSDR",
+        "S03SYNV10",
+        "S03SYNVG1",
+        "S03SYNVGK",
+        "S03SYNVGP"
+      ],
+      "ALL": [
+        "S03SYNAOD",
+        "S03SYNSDR",
+        "S03SYNV10",
+        "S03SYNVG1",
+        "S03SYNVGK",
+        "S03SYNVGP"
+      ]
+    }
+  }
+}
