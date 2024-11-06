@@ -1,0 +1,6 @@
+pyproject.toml
+zipext.py
+zipext.egg-info/PKG-INFO
+zipext.egg-info/SOURCES.txt
+zipext.egg-info/dependency_links.txt
+zipext.egg-info/top_level.txt

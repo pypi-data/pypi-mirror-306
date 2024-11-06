@@ -1,0 +1,8 @@
+[project]
+name = "zipext"
+version = "0.1.0"
+readme = {text = "Enable importing of binary extensions from ZIP files.", content-type = "text/plain"}
+authors = [{name = "Oren Tirosh", email = "orent@hishome.net"}]
+license = {text = "MIT License"}
+requires-python = ">=3.6"
+urls = {Source = "https://github.com/orent/zipext"}
