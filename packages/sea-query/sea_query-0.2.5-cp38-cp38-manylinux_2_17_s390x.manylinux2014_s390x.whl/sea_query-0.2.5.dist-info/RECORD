@@ -1,0 +1,16 @@
+sea_query-0.2.5.dist-info/METADATA,sha256=K90Rzxte2QUU1DXyEVAF42MoIJqK5TptU30y8t_Z8Yo,5177
+sea_query-0.2.5.dist-info/WHEEL,sha256=4r04WI8vWSAgikUP21NSpV6v_0B0tLaKQRW5Z-UwiO4,125
+sea_query-0.2.5.dist-info/licenses/LICENSE,sha256=uDscbScr9E86mHQ615zVuT-yIe87HxQhi6HgGBRC--s,1078
+sea_query/mysql.py,sha256=zKDfAixRrEA8Rn_QDnHt-Dget2pjyGxgwDWRTvWE0NU,4104
+sea_query/query.py,sha256=4VqGA5gwFpGJBBN-r6KnXX8s6YUJG1qBQV5lg9Mv-yk,438
+sea_query/table.py,sha256=IS69C-ULdhEA5cqrxAn5uUuks-Yg3FswMKlM-lM3fZ4,394
+sea_query/__init__.py,sha256=0GO5QhSKRoeRFalzyG3Wk2BFs_F3vQjfEOtYZCzCN-M,285
+sea_query/foreign_key.py,sha256=ZMMr1OBxHwrJA414lw_7krcdh2WmYzf7iJ3_sB6XzOw,246
+sea_query/sqlite.py,sha256=zB7L-r4b6G6cd_aEIPRHxW5yrqqMuHINbJZQxjUcCZo,3187
+sea_query/_internal.pyi,sha256=OHuDja-TSbeYXQzawe35_UchRgMUwuHfewNRqvuPBbo,14049
+sea_query/postgres.py,sha256=F5xcaQuhpCs-tX6fHOYZy-uoMvc-urDJNBaqJkgqUeo,4155
+sea_query/index.py,sha256=zoxVtrEhylgJx0IL83Mmm8T0ILegKIbM2FNQ1KUXo98,230
+sea_query/expr.py,sha256=TUb2EGBwlfm9oCc2o6I8KPnTm6u8QCR_4LQnZayU5gs,98
+sea_query/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sea_query/_internal.cpython-38-s390x-linux-gnu.so,sha256=tX-G4nn4FMaiQM3ynmbEGgMnWmCzBXy6cYZNjMzjixI,3802424
+sea_query-0.2.5.dist-info/RECORD,,
