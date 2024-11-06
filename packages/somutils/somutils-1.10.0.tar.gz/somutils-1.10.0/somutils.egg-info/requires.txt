@@ -1,0 +1,11 @@
+yamlns>=0.7
+consolemsg
+pytz
+csv342
+google-auth
+PyOpenSSL
+psycopg2-binary
+decorator
+gspread>=4
+python-dateutil>=2.9.0
+contextlib2
