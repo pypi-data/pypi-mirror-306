@@ -1,0 +1,3 @@
+[poetry.application.plugin]
+monoranger=poetry_monoranger_plugin.plugin:Monoranger
+
