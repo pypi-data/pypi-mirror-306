@@ -1,0 +1,15 @@
+aiohttp
+requests
+pexpect
+systemd_python
+paramiko
+pyserial
+hidapi
+pysnmp<6,>=4.4.12
+pyasn1<0.6.1
+pyusb
+pymodbus
+
+[test]
+pytest>=4.6
+pytest-mock
