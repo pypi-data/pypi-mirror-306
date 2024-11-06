@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: shareds
+Version: 0.2.0
+Summary: Shared dataset repository for meter reading
+Author-Email: svtter <svtter@qq.com>
+License: MIT
+Requires-Python: !=3.9.7,~=3.9.0
+Requires-Dist: torch>=2.0
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: matplotlib
+Requires-Dist: meterviewer>=1.0.0
+Requires-Dist: lmdb>=1.5.1
+Description-Content-Type: text/markdown
+
+# Meterdataset
+
+Dataset quick load. -> shareds
+
+数据集加载有很多不同的格式。shareds 将这些格式的共性提取出来，让不同的模型可以直接使用。
+
+- `with empty`
+- `verify`
+
+等模式。

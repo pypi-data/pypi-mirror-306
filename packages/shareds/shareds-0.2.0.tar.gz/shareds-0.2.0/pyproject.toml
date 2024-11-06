@@ -1,0 +1,62 @@
+[project]
+name = "shareds"
+version = "0.2.0"
+description = "Shared dataset repository for meter reading"
+authors = [
+    { name = "svtter", email = "svtter@qq.com" },
+]
+dependencies = [
+    "torch>=2.0",
+    "numpy",
+    "pillow",
+    "matplotlib",
+    "meterviewer>=1.0.0",
+    "lmdb>=1.5.1",
+]
+requires-python = "!=3.9.7,~=3.9.0"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=8.3.3",
+    "ruff>=0.7.0",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "mkdocs>=1.6.1",
+    "pymdown-extensions>=10.11.2",
+]
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "I",
+]
+ignore = []
+
+[tool.ruff.lint.isort]
+known-first-party = [
+    "shareds",
+]
