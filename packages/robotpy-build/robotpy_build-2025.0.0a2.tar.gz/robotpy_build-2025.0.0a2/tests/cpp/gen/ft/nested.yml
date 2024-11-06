@@ -1,0 +1,11 @@
+classes:
+  OuterNested:
+    methods:
+      OuterNested:
+      getInner:
+        return_value_policy: reference_internal
+  OuterNested::InnerNested:
+    methods:
+      fn:
+  OuterNested::IgnoredNested:
+    ignore: true
