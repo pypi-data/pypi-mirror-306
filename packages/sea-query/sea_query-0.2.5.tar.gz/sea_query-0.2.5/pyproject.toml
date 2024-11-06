@@ -1,0 +1,42 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "sea-query"
+description = "Query builder to help you construct dynamic SQL queries"
+requires-python = ">=3.8"
+authors = [{ name = "Ordanis Sanchez", email = "sea-query@ordanisanchez.dev" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+dynamic = ["version"]
+classifiers = [
+    "Topic :: Database",
+    "Topic :: Software Development :: Libraries",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Typing :: Stubs Only",
+]
+
+[project.urls]
+Repository = "https://github.com/oldani/sea-query/"
+
+[tool.maturin]
+python-source = "python"
+module-name = "sea_query._internal"
+features = ["pyo3/extension-module"]
+exclude = ["tests/*.py"]
+
+[tool.uv]
+dev-dependencies = ["pytest>=8.3.2", "ruff>=0.6.2", "mypy>=1.11.2"]
+
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
