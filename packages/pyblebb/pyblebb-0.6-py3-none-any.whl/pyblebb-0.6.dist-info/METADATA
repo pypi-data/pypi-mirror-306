@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyblebb
+Version: 0.6
+Summary: A Python Library For BitBlock
+Home-page: http://www.moyalab.com
+Download-URL: https://www.moyalab.com
+Author: devdio
+Author-email: devdio.kei@gmail.com
+License: GNU GPLv3
+Keywords: Bitblock,Cocoboard,BBCar,Cocotics
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Education
+Requires-Python: >=3.9, <=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: bleak==0.22.3
+Requires-Dist: nest-asyncio==1.6.0
+
+# Python Library for Bitblock Board
