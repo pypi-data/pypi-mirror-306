@@ -1,0 +1,6 @@
+setuptools
+pytest
+redis
+pytest-asyncio
+aiokafka
+google-generativeai
