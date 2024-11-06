@@ -1,0 +1,83 @@
+checks:
+  - cmd: argocd app get namespace/bl01t
+    rsp: ""
+  - cmd: argocd app list -l "ec_service=true" --app-namespace namespace -o yaml
+    rsp: |
+      - metadata:
+          creationTimestamp: "2024-07-12T13:42:50Z"
+          name: bl01t-ea-test-01
+        spec:
+          source:
+            targetRevision: main
+        status:
+          resources:
+            - kind: StatefulSet
+              name: bl01t-ea-test-01
+  - cmd: argocd app manifests namespace/bl01t-ea-test-01 --source live
+    rsp: |
+      ---
+      apiVersion: apps/v1
+      kind: StatefulSet
+      metadata:
+        name: bl01t-ea-test-01
+        creationTimestamp: "2024-07-12T13:52:35Z"
+      status:
+        readyReplicas: 1
+
+logs:
+  - cmd: argocd app logs namespace/bl01t-ea-test-01
+    rsp: ""
+
+log_history:
+  - cmd: https://graylog2.diamond.ac.uk/bl01t-ea-test-01*
+    rsp: True
+
+restart:
+  - cmd: argocd app delete-resource namespace/bl01t-ea-test-01 --kind StatefulSet
+    rsp: ""
+
+start_commit:
+  - cmd: argocd app get namespace/bl01t -o yaml
+    rsp: |
+      spec:
+        source:
+          repoURL: https://github.com/test/example-deployment.git
+          path: apps
+  - cmd: git clone --depth=1 https://github.com/test/example-deployment.git /tmp/ec_tests
+    rsp: ""
+  - cmd: git add .
+    rsp: ""
+  - cmd: git commit -m "Set ec_services.bl01t-ea-test-01.enabled=True in apps/values.yaml"
+    rsp: ""
+  - cmd: git push
+    rsp: ""
+  - cmd: argocd app sync namespace/bl01t --apply-out-of-sync-only
+    rsp: ""
+  - cmd: argocd app unset namespace/bl01t -p ec_services.bl01t-ea-test-01.enabled
+    rsp: ""
+
+start:
+  - cmd: argocd app set namespace/bl01t -p ec_services.bl01t-ea-test-01.enabled=True
+    rsp: ""
+  - cmd: argocd app sync namespace/bl01t --apply-out-of-sync-only
+    rsp: ""
+
+stop_commit:
+  - cmd: argocd app get namespace/bl01t -o yaml
+    rsp: |
+      spec:
+        source:
+          repoURL: https://github.com/test/example-deployment.git
+          path: apps
+  - cmd: git clone --depth=1 https://github.com/test/example-deployment.git /tmp/ec_tests
+    rsp: ""
+  - cmd: argocd app sync namespace/bl01t --apply-out-of-sync-only
+    rsp: ""
+  - cmd: argocd app unset namespace/bl01t -p ec_services.bl01t-ea-test-01.enabled
+    rsp: ""
+
+stop:
+  - cmd: argocd app set namespace/bl01t -p ec_services.bl01t-ea-test-01.enabled=False
+    rsp: ""
+  - cmd: argocd app sync namespace/bl01t --apply-out-of-sync-only
+    rsp: ""
