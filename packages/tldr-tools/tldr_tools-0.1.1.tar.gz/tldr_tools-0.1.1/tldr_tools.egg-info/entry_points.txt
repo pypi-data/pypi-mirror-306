@@ -1,0 +1,4 @@
+[console_scripts]
+tldr-download = tldr_download:main
+tldr-status = tldr_status:main
+tldr-submit = tldr_submit:main
