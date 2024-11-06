@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "liyedong_fastapi_demo"
+version = "0.1.0"
+description = ""
+authors = ["liyedong <lyd1446034545@gmail.com>"]
+readme = "README.md"
+# 包定义，如果包结构非标准，可以自定义包路径
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+dynaconf = "^3.2.6"
+sqlalchemy = "^2.0.36"
+mysqlclient = "^2.2.5"
+pydantic = "^2.9.2"
+fastapi = "^0.115.4"
+uvicorn = "^0.32.0"
+alembic = "^1.14.0"
+
+[tool.poetry.scripts]
+liyedong = "src.liyedong_fastapi_demo.cmdline:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+requests = "^2.32.3"
+httpx = "^0.27.2"
+pytest-mock = "^3.14.0"
+isort = "^5.13.2"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
