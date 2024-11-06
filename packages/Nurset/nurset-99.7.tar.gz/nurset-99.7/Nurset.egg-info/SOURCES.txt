@@ -1,0 +1,7 @@
+main.py
+setup.py
+Nurset.egg-info/PKG-INFO
+Nurset.egg-info/SOURCES.txt
+Nurset.egg-info/dependency_links.txt
+Nurset.egg-info/requires.txt
+Nurset.egg-info/top_level.txt
