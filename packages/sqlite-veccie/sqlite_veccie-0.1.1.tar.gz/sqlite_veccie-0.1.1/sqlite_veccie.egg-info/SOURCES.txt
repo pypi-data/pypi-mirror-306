@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+veccie.c
+sqlite_veccie/__init__.py
+sqlite_veccie/__main__.py
+sqlite_veccie/py.typed
+sqlite_veccie.egg-info/PKG-INFO
+sqlite_veccie.egg-info/SOURCES.txt
+sqlite_veccie.egg-info/dependency_links.txt
+sqlite_veccie.egg-info/top_level.txt
