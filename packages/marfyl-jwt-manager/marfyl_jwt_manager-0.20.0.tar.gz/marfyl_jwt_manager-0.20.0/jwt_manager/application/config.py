@@ -1,0 +1,3 @@
+ALGORITHM = "HS256"
+EXPIRATION_MINUTES = 60
+SECRET_KEY = "your-default-secret-key"
