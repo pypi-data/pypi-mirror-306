@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+ebfpy
+galpy
+astropy
+requests
+astroquery
+ray

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: stellarmortis
+Version: 0.0.10
+Summary: A package to synthesise populations of dead stars and calculate microlensing events caused by this population.
+Home-page: https://github.com/David-Sweeney/StellarMortis
+Author: David Sweeney
+Author-email: david.sweeney@sydney.edu.au
+License: MIT
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: ebfpy
+Requires-Dist: galpy
+Requires-Dist: astropy
+Requires-Dist: requests
+Requires-Dist: astroquery
+Requires-Dist: ray
+
+A package to synthesise populations of dead stars and calculate microlensing events caused by this population.
+    
+    For more information, please visit the GitHub page: https://github.com/David-Sweeney/StellarMortis
