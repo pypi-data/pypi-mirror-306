@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+mypackage/__init__.py
+mypackage/test.py
+seventhwonder.egg-info/PKG-INFO
+seventhwonder.egg-info/SOURCES.txt
+seventhwonder.egg-info/dependency_links.txt
+seventhwonder.egg-info/top_level.txt
