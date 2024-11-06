@@ -1,0 +1,8 @@
+FalApp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FalApp/myfunctions.py,sha256=xyYZOWjV-Qa2V3kRD_fIacZpbx-tVXBTSmWfLuILbsk,926
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_myfunctions.py,sha256=f-kxlauMwBp831sg6Gskob5oQ-hnva6gF6b4T37jPIc,211
+FalLib-0.1.0.dist-info/METADATA,sha256=-o1-dn7Md7xUHIdcVUtr8x4sbf7p-qJSq8g-zGr4R3M,389
+FalLib-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+FalLib-0.1.0.dist-info/top_level.txt,sha256=4ifoq32XUQkVswsgm5eq8CSx3TrFaYMlQNngH_h_870,13
+FalLib-0.1.0.dist-info/RECORD,,
