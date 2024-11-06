@@ -1,0 +1,8 @@
+cli/__init__.py,sha256=30oGhW7maL0ojSYQ8ECQ8Lc16jEsONHAHgYjWIwEkms,91
+cli/generate_song_cover.py,sha256=Fbr4v8fydkhmrc36OnvGMTObFtgMB44HCFAIecTXzRM,10481
+cli/main.py,sha256=Mg5BYrJItpgwjDCWfBVuYlNA84-tH4Ed8RY4H6GkE7c,352
+ultimate_rvc-0.1.3.dist-info/METADATA,sha256=J9VvY4lRKfC71VCpa-ie-rcIMVnhQc2BV8SEiCu-0Fo,12128
+ultimate_rvc-0.1.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+ultimate_rvc-0.1.3.dist-info/entry_points.txt,sha256=aaIhg4Zb43CqBFgghB4yrOW1epMUSVntbAp1BKkNwjo,38
+ultimate_rvc-0.1.3.dist-info/licenses/LICENSE,sha256=3vp8_psVWdBqgLaI0CodpqvqYqbYMTiJtbkL4IO8jLg,1094
+ultimate_rvc-0.1.3.dist-info/RECORD,,
