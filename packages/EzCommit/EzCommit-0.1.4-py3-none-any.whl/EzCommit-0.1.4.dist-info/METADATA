@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: EzCommit
+Version: 0.1.4
+Requires-Dist: chromadb >=0.5.0
+Requires-Dist: click >=8.1.7
+Requires-Dist: openai >=1.33.0
+Requires-Dist: GitPython >=3.1.43
+Requires-Dist: markdown >=3.6
+Requires-Dist: pdfkit
+Requires-Dist: PyGithub
+Requires-Dist: mistral
+
