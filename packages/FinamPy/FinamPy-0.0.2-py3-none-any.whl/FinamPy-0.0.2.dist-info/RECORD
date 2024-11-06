@@ -1,0 +1,13 @@
+Examples/5_test_api_finam_v1.py,sha256=Ro9xrLusrnpLHodP0OhmY_OlcPzxB2NwKKZDARECK7s,5803
+Examples/Accounts.py,sha256=ktx64BuqTymenJU5PFojRKne3RF6XIKNz7KAvYrcd8U,3952
+Examples/Bars.py,sha256=tXbSrRHvSlmSCOTOeLsM8rmMhNgWOZ4wT-m1dgn0Ir4,20918
+Examples/Connect.py,sha256=V9J35o_mkiRwJFnG9kkTtRyQFFQGpUNzZJtcTu89xlQ,3303
+Examples/FinamPy.py,sha256=_RN-GMZW5j78OTkQvxYwZE_HxMbutX_LRn8-snBfzkg,47289
+Examples/Stream.py,sha256=dJPN6Tkn98zvRymUmmOFd7YtxasPPNzm0U0Zr_Lmn4M,2810
+Examples/Ticker.py,sha256=-JXq7_LcVIo1SVWyIjzOsbY7WRna7yZpNOxU9vZ1y_c,2799
+Examples/Transactions.py,sha256=LiXagLJ4hQUfoShpo85Y0NrcIjQ7417M4-8kbLUde5A,8016
+Examples/__init__.py,sha256=fYGM0yBuIESy2vOHB-nltj5cdN2U8qBxRTjuGOuDmOA,64
+FinamPy-0.0.2.dist-info/METADATA,sha256=dkHujU87AfR5eb9HALDjS1D7Tk8503l7lq913kMO9rA,556
+FinamPy-0.0.2.dist-info/WHEEL,sha256=OVMc5UfuAQiSplgO0_WdW7vXVGAt9Hdd6qtN4HotdyA,91
+FinamPy-0.0.2.dist-info/top_level.txt,sha256=Pr6q_CZXD094omlpraJwU89Pdlg8lKtMsxc5etWMuRI,9
+FinamPy-0.0.2.dist-info/RECORD,,
