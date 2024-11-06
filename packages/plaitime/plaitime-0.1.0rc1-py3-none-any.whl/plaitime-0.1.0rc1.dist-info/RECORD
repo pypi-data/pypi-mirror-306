@@ -1,0 +1,17 @@
+plaitime/__init__.py,sha256=MlZQfFf6PkuncFQahMmld4I5JCf43cJbulO_ualHZxo,2709
+plaitime/character_bar.py,sha256=r8ydIGbh664sywnqD9JpZArBAUgjVvPW9wC2d2UPnM8,1772
+plaitime/chat_window.py,sha256=ERRCcBI-3BaCVUyJ6e_hgvceK-pupH39MBMZqdloFHU,12388
+plaitime/config_dialog.py,sha256=FQK_vGLp2NClgpXrINs22QTm67tnjqvFXvJ6jEKXEcQ,3066
+plaitime/data_models.py,sha256=zN9hcu0NdwmWNghyBfUM98G9NZJqy2QC-6q1ghjjiCo,403
+plaitime/dummy_llm.py,sha256=XuEaxmT5PwAouVxJNHxZJpu2wBEIP7rxm3o2MoThes0,325
+plaitime/generator.py,sha256=QP5-QIkX4SAmcfuX6ywAznGrFQkZgIldwexg1HaW3GY,2004
+plaitime/main.py,sha256=xI2iwOxDGflHhxQlAD4tX5wtnAIvsAwUKTF8EGgicRE,354
+plaitime/message_widget.py,sha256=zTbN6tSdAFppSgavPEy_ml6MxgjXwPzKj0XtbrIVeB8,1501
+plaitime/parser.py,sha256=E3HSFHuA6vlWWc9G2PQAnly1YMZ95nmxEI2ZTx9LIQI,586
+plaitime/util.py,sha256=D4TzI3uTwcGw4RjBHPfzYK4wHRxPa_koIvgJdreuBBM,1100
+plaitime-0.1.0rc1.dist-info/LICENSE,sha256=kq4Lk7UBUou8V420Fw_gTrEeCNA8x8loBN6Gn3Pr95Q,1071
+plaitime-0.1.0rc1.dist-info/METADATA,sha256=8F-aF-unk8ehwBSuBTD2TbYkuHf41jqZ_Y0ho2zUbM0,3469
+plaitime-0.1.0rc1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+plaitime-0.1.0rc1.dist-info/entry_points.txt,sha256=levucXQ1VIHunwzVngAu2qvueFyJuXkHUGJ44apoZzw,48
+plaitime-0.1.0rc1.dist-info/top_level.txt,sha256=NTy0ED0-6NOx2uaPgRShfjNzgF3b1xZ0lHARDhobmKY,9
+plaitime-0.1.0rc1.dist-info/RECORD,,
