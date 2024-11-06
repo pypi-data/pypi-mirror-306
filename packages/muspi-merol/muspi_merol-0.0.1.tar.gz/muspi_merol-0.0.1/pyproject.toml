@@ -1,0 +1,23 @@
+[project]
+name = "muspi-merol"
+dynamic = []
+description = "CLI utilities for personal use"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "typer~=0.12.5",
+]
+version = "0.0.1"
+
+[project.scripts]
+m = "m.cli.main:app"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.version]
+source = "file"
+path = "m/version.py"
