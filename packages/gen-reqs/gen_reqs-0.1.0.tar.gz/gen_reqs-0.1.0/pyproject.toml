@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gen-reqs"
+version = "0.1.0"
+description = "A tool to automatically detect Python project dependencies and generate requirements.txt"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Jordan Richter", email = "derquerbaer@gmail.com"}
+]
+
+[project.scripts]
+gen_reqs = "gen_reqs.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gen_reqs"]
