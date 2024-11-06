@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: easy-amplicon
+Version: 1.0.7
+Summary: Add your description here
+Requires-Python: >=3.10
+Requires-Dist: biom-format>=2.1.16
+Requires-Dist: biopython>=1.84
+Requires-Dist: dendropy>=5.0.1
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: ipython>=8.27.0
+Requires-Dist: ipywidgets>=8.1.5
+Requires-Dist: loky>=3.4.1
+Requires-Dist: matplotlib>=3.9.2
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: polars-lts-cpu>=1.8.2
+Requires-Dist: pyarrow>=17.0.0
+Requires-Dist: pytest-console-scripts>=1.4.1
+Requires-Dist: pytest>=8.3.3
+Requires-Dist: pyyaml>=6.0.2
+Requires-Dist: rich>=13.8.1
+Requires-Dist: scikit-bio>=0.6.2
+Requires-Dist: scikit-learn>=1.5.2
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: tqdm>=4.66.5
+Requires-Dist: umi-tools>=1.1.5
