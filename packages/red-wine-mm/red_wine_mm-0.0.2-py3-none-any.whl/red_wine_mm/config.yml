@@ -1,0 +1,33 @@
+# Package Overview
+package_name: red-wine-model
+
+# Data Files
+raw_data_file: winequality-red.csv
+training_data_file: train.csv
+test_data_file: test.csv
+
+# Variables
+# The variable we are attempting to predict (sale price)
+target: good
+
+pipeline_name: red-wine-pipeline
+pipeline_save_file: red-wine-model-outputsv
+
+features:
+  - fixed acidity
+  - volatile acidity
+  - chlorides
+  - free sulfur dioxide
+  - total sulfur dioxide
+  - sulphates
+  - alcohol
+
+# set train/test split
+test_size: 0.1
+
+# to set the random seed
+random_state: 42
+
+unused_fields:
+  - pH
+  - density
