@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: daily-active-users
+Version: 0.1.0
+Summary: Django logging of daily active users
+Home-page: https://github.com/muckrock/daily-active-users/
+Author: Mitchell Kotler
+Author-email: mitch@muckrock.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django
+
+# Daily Active Users
+
+This Django application logs which users have made at least one request per day
+
+
