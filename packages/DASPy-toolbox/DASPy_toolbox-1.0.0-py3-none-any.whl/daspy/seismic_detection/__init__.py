@@ -1,0 +1,1 @@
+from daspy.seismic_detection.core import DetectSection
