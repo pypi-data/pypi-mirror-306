@@ -1,0 +1,10 @@
+CHANGELOG.rst,sha256=NYO1OBpKA_c4K49jj_nLM77r2rrck20numWUKtrpcWQ,1771
+CONTRIBUTORS.rst,sha256=_SoXEZkDOjwpbj-sMsqalvm3yEIpRuJelj4v_-cvnuo,101
+aioxmlrpc-0.9.0.dist-info/METADATA,sha256=cDME950ke3YEvwrfqlWKmsE145sMoD6wN1PfbVeR7l4,2465
+aioxmlrpc-0.9.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+aioxmlrpc-0.9.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+aioxmlrpc-0.9.0.dist-info/licenses/LICENSE,sha256=64Jc0wKM9Z2HJXzGBh8QKGMXd1TREbyeGie8gkqUD1g,1096
+aioxmlrpc/__init__.py,sha256=u0Q0UG7aDaBdQ41sdzuP0foUC9ynVUiFtz_PtQTtdjQ,118
+aioxmlrpc/client.py,sha256=H-B1ghwX-fjStRtI8oJdDpEd8ZpKggsxlWRtP4bI994,5941
+aioxmlrpc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aioxmlrpc-0.9.0.dist-info/RECORD,,
