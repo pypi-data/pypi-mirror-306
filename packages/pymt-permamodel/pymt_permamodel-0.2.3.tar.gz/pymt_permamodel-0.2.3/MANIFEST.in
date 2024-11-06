@@ -1,0 +1,18 @@
+recursive-include pymt_permamodel/data *
+include LICENSE
+include requirements.txt
+include *.rst
+include *.txt
+include Makefile
+include babel.toml
+recursive-include pymt_permamodel *.pyx
+recursive-include docs *.py
+recursive-include docs *.rst
+recursive-include docs Makefile
+recursive-include examples *.nc
+recursive-include examples *.cfg
+recursive-include examples *.toml
+recursive-exclude meta *
+recursive-exclude recipe *
+recursive-exclude pymt_permamodel *.cpp
+recursive-exclude pymt_permamodel *.c

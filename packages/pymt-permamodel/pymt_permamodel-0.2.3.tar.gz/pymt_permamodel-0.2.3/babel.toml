@@ -1,0 +1,42 @@
+[library.FrostNumber]
+language = "python"
+library = "permamodel.components.bmi_frost_number"
+header = ""
+entry_point = "BmiFrostnumberMethod"
+
+[library.Ku]
+language = "python"
+library = "permamodel.components.bmi_Ku_component"
+header = ""
+entry_point = "BmiKuMethod"
+
+[library.KuEnhanced]
+language = "python"
+library = "permamodel.components.bmi_Ku"
+header = ""
+entry_point = "BmiKuModel"
+
+
+[build]
+undef_macros = []
+define_macros = []
+libraries = []
+library_dirs = []
+include_dirs = []
+extra_compile_args = []
+
+[package]
+name = "pymt_permamodel"
+requirements = ["permamodel"]
+
+[info]
+github_username = "pymt-lab"
+package_author = "CSDMS"
+package_author_email = "csdms@colorado.edu"
+package_license = "MIT License"
+summary = "PyMT plugins for Permamodel components"
+
+[ci]
+python_version = ["3.9"]
+os = ["linux", "mac", "windows"]
+

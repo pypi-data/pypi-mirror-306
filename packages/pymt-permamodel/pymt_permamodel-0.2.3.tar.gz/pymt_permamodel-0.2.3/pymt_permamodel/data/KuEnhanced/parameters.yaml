@@ -1,0 +1,489 @@
+# Parameters for KuEnhanced model
+experiment:
+  description: Experiment name
+  value:
+    type: string
+    default: test
+
+# Directories
+inputs_dir:
+  description: Directory with input data files
+  value:
+    type: string
+    default: ""
+outputs_dir:
+  description: Directory with model output files
+  value:
+    type: string
+    default: ""
+
+# Domain
+run_duration:
+  description: Run duration
+  value:
+    type: long
+    default: 100
+    range:
+      min: 1
+      max: 1000000000
+    units: yr
+ny:
+  description: Number of grid points in y-direction
+  value:
+    type: long
+    default: 100
+    range:
+      min: 1
+      max: 1000000
+    units: 1
+nx:
+  description: Number of grid points in x-direction
+  value:
+    type: long
+    default: 100
+    range:
+      min: 1
+      max: 1000000
+    units: 1
+
+# Variables: air temperature
+air_temperature_file:
+  description: Air temperature (from file)
+  value:
+    type: string
+    default: "air_temperature.nc"
+air_temperature_scalar:
+  description: Air temperature (scalar value)
+  value:
+    type: long
+    default: 0
+    range:
+      min: 0
+      max: 10000
+    units: K
+
+# Variables: temperature amplitude
+temperature_amplitude_file:
+  description: Temperature amplitude (from file)
+  value:
+    type: string
+    default: "temperature_amplitude.nc"
+temperature_amplitude_scalar:
+  description: Temperature amplitude (scalar value)
+  value:
+    type: long
+    default: 0
+    range:
+      min: 0
+      max: 10000
+    units: K
+
+# Variables: snow thickness
+snow_thickness_file:
+  description: Snow thickness (from file)
+  value:
+    type: string
+    default: "snow_thickness.nc"
+snow_thickness_scalar:
+  description: Snow thickness (scalar value)
+  value:
+    type: long
+    default: 0
+    range:
+      min: 0
+      max: 10000
+    units: m
+
+# Variables: snow density
+snow_density_file:
+  description: Snow density (from file)
+  value:
+    type: string
+    default: "snow_density.nc"
+snow_density_scalar:
+  description: Snow density (scalar value)
+  value:
+    type: float
+    default: 240.0
+    range:
+      min: 0.0
+      max: 10000.0
+    units: kg m-3
+
+# Variables: soil water content
+soil_water_content_file:
+  description: Soil water content (from file)
+  value:
+    type: string
+    default: "soil_water_content.nc"
+soil_water_content_scalar:
+  description: Soil water content (scalar value)
+  value:
+    type: long
+    default: 0
+    range:
+      min: 0
+      max: 1000
+    units: L m-3
+
+# Variables: frozen vegetation height
+frozen_vegetation_height_file:
+  description: Frozen vegetation height (from file)
+  value:
+    type: string
+    default: "frozen_vegetation_height.nc"
+frozen_vegetation_height_scalar:
+  description: Frozen vegetation height (scalar value)
+  value:
+    type: float
+    default: 0.1
+    range:
+      min: 0.0
+      max: 1000.0
+    units: m
+
+# Variables: thawed vegetation height
+thawed_vegetation_height_file:
+  description: Thawed vegetation height (from file)
+  value:
+    type: string
+    default: "thawed_vegetation_height.nc"
+thawed_vegetation_height_scalar:
+  description: Thawed vegetation height (scalar value)
+  value:
+    type: float
+    default: 0.1
+    range:
+      min: 0.0
+      max: 1000.0
+    units: m
+
+# Variables: frozen vegetation diffusivity
+frozen_vegetation_diffusivity_file:
+  description: Frozen vegetation diffusivity (from file)
+  value:
+    type: string
+    default: "frozen_vegetation_diffusivity.nc"
+frozen_vegetation_diffusivity_scalar:
+  description: Frozen vegetation diffusivity (scalar value)
+  value:
+    type: float
+    default: 2.39e-6
+    range:
+      min: 0.0
+      max: 1.0
+    units: m2 s-1
+
+# Variables: thawed vegetation diffusivity
+thawed_vegetation_diffusivity_file:
+  description: Thawed vegetation diffusivity (from file)
+  value:
+    type: string
+    default: "thawed_vegetation_diffusivity.nc"
+thawed_vegetation_diffusivity_scalar:
+  description: Thawed vegetation diffusivity (scalar value)
+  value:
+    type: float
+    default: 1.0556e-6
+    range:
+      min: 0.0
+      max: 1.0
+    units: m2 s-1
+
+# Soils (sand)
+soils_sand_scalar_fraction:
+  description: Soils (sand) scalar fraction
+  value:
+    type: float
+    default: 0.25
+    range:
+      min: 0.0
+      max: 1.0
+    units: 1
+soils_sand_bulk_density:
+  description: Soils (sand) bulk density
+  value:
+    type: long
+    default: 1300
+    range:
+      min: 1
+      max: 10000
+    units: kg m-3
+soils_sand_heat_capacity:
+  description: Soils (sand) heat capacity
+  value:
+    type: long
+    default: 1500
+    range:
+      min: 1
+      max: 10000
+    units: J m-3 K-1
+soils_sand_conductivity_thawed_dry:
+  description: Soils (sand) thermal conductivity (thawed, dry)
+  value:
+    type: float
+    default: 1.05
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+soils_sand_conductivity_thawed_wet:
+  description: Soils (sand) thermal conductivity (thawed, wet)
+  value:
+    type: float
+    default: 2.15
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+soils_sand_conductivity_frozen_dry:
+  description: Soils (sand) thermal conductivity (frozen, dry)
+  value:
+    type: float
+    default: 1.25
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+soils_sand_conductivity_frozen_wet:
+  description: Soils (sand) thermal conductivity (frozen, wet)
+  value:
+    type: float
+    default: 2.65
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+
+# Soils (silt)
+soils_silt_scalar_fraction:
+  description: Soils (silt) scalar fraction
+  value:
+    type: float
+    default: 0.25
+    range:
+      min: 0.0
+      max: 1.0
+    units: 1
+soils_silt_bulk_density:
+  description: Soils (silt) bulk density
+  value:
+    type: long
+    default: 1400
+    range:
+      min: 1
+      max: 10000
+    units: kg m-3
+soils_silt_heat_capacity:
+  description: Soils (silt) heat capacity
+  value:
+    type: long
+    default: 1300
+    range:
+      min: 1
+      max: 10000
+    units: J m-3 K-1
+soils_silt_conductivity_thawed_dry:
+  description: Soils (silt) thermal conductivity (thawed, dry)
+  value:
+    type: float
+    default: 1.05
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+soils_silt_conductivity_thawed_wet:
+  description: Soils (silt) thermal conductivity (thawed, wet)
+  value:
+    type: float
+    default: 1.90
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+soils_silt_conductivity_frozen_dry:
+  description: Soils (silt) thermal conductivity (frozen, dry)
+  value:
+    type: float
+    default: 1.25
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+soils_silt_conductivity_frozen_wet:
+  description: Soils (silt) thermal conductivity (frozen, wet)
+  value:
+    type: float
+    default: 2.40
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+
+# Soils (clay)
+soils_clay_scalar_fraction:
+  description: Soils (clay) scalar fraction
+  value:
+    type: float
+    default: 0.25
+    range:
+      min: 0.0
+      max: 1.0
+    units: 1
+soils_clay_bulk_density:
+  description: Soils (clay) bulk density
+  value:
+    type: long
+    default: 1500
+    range:
+      min: 1
+      max: 10000
+    units: kg m-3
+soils_clay_heat_capacity:
+  description: Soils (clay) heat capacity
+  value:
+    type: long
+    default: 2200
+    range:
+      min: 1
+      max: 10000
+    units: J m-3 K-1
+soils_clay_conductivity_thawed_dry:
+  description: Soils (clay) thermal conductivity (thawed, dry)
+  value:
+    type: float
+    default: 0.90
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+soils_clay_conductivity_thawed_wet:
+  description: Soils (clay) thermal conductivity (thawed, wet)
+  value:
+    type: float
+    default: 1.70
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+soils_clay_conductivity_frozen_dry:
+  description: Soils (clay) thermal conductivity (frozen, dry)
+  value:
+    type: float
+    default: 1.15
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+soils_clay_conductivity_frozen_wet:
+  description: Soils (clay) thermal conductivity (frozen, wet)
+  value:
+    type: float
+    default: 2.00
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+
+# Soils (peat)
+soils_peat_scalar_fraction:
+  description: Soils (peat) scalar fraction
+  value:
+    type: float
+    default: 0.25
+    range:
+      min: 0.0
+      max: 1.0
+    units: 1
+soils_peat_bulk_density:
+  description: Soils (peat) bulk density
+  value:
+    type: long
+    default: 150
+    range:
+      min: 1
+      max: 10000
+    units: kg m-3
+soils_peat_heat_capacity:
+  description: Soils (peat) heat capacity
+  value:
+    type: long
+    default: 200
+    range:
+      min: 1
+      max: 10000
+    units: J m-3 K-1
+soils_peat_conductivity_thawed_dry:
+  description: Soils (peat) thermal conductivity (thawed, dry)
+  value:
+    type: float
+    default: 0.14
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+soils_peat_conductivity_thawed_wet:
+  description: Soils (peat) thermal conductivity (thawed, wet)
+  value:
+    type: float
+    default: 0.24
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+soils_peat_conductivity_frozen_dry:
+  description: Soils (peat) thermal conductivity (frozen, dry)
+  value:
+    type: float
+    default: 0.32
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+soils_peat_conductivity_frozen_wet:
+  description: Soils (peat) thermal conductivity (frozen, wet)
+  value:
+    type: float
+    default: 0.80
+    range:
+      min: 0.0
+      max: 100.0
+    units: W m-1 K-1
+
+# Constants
+uwc:
+  description: Unfrozen water content
+  value:
+    type: float
+    default: 0.05
+    range:
+      min: 0.0
+      max: 100.0
+    units: m3 m-3
+snow_heat_capacity:
+  description: Snow heat capacity
+  value:
+    type: long
+    default: 2090
+    range:
+      min: 1
+      max: 10000
+    units: J m-3 K-1
+seconds_per_annum:
+  description: Seconds per annum
+  value:
+    type: long
+    default: 31556926
+    range:
+      min: 1
+      max: 1000000000
+    units: 1
+latent_heat:
+  description: Latent heat of melting/fusion (water)
+  value:
+    type: float
+    default: 3.34e5
+    range:
+      min: 0.0
+      max: 1.0e7
+    units: J kg-1
