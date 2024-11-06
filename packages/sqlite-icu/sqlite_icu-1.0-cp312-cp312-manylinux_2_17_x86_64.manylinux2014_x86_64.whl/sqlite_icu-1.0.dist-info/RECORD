@@ -1,0 +1,10 @@
+icu.cpython-312-x86_64-linux-gnu.so,sha256=5RfTVdvtumvX32mQdf42G720HVb6HWDzu1vRPyL5MzY,70713
+sqlite_icu.py,sha256=wY_mgrDVeG1BgnW4E9CLCZEegDbCj2AMj4cw0-dlRMs,95
+sqlite_icu.libs/libicudata-cb3ba60c.so.50.2,sha256=mi096d4G6tWwhWUE-5Q8VeNA2WoUS8GRbeOhH-IBpSk,20787817
+sqlite_icu.libs/libicui18n-97d01360.so.50.2,sha256=yosCXXIz7LxTVHdhu51XJEa_DXTOHfo9REusho0I12c,2733217
+sqlite_icu.libs/libicuuc-1796a535.so.50.2,sha256=ZPT2z0tpkV6chLxylDTz47Zaw3Gt15-izOGUkLni31M,1796193
+sqlite_icu-1.0.dist-info/top_level.txt,sha256=NJ_YzsBVF6pnpNIE1h9jjEcBzFXViKcoIg3wRVC77Ns,15
+sqlite_icu-1.0.dist-info/RECORD,,
+sqlite_icu-1.0.dist-info/LICENSE,sha256=V41DH8MPwaMUzxQ4gzCeZfKkCocjRnEssFKRAkZIfvM,1068
+sqlite_icu-1.0.dist-info/METADATA,sha256=RMn3SSRt9Z5FrwMyxueCwSvXcU0bh_ORo0xVbzeNgLM,1257
+sqlite_icu-1.0.dist-info/WHEEL,sha256=7B4nnId14TToQHuAKpxbDLCJbNciqBsV-mvXE2hVLJc,151
