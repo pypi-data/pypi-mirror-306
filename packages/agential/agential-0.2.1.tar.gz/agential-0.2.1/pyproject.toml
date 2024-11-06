@@ -1,0 +1,78 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "agential"
+version = "0.2.1"
+description = "A flexible agent library."
+authors = ["Vincent Tu <tuvincent0106@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/alckasoc/agential"
+keywords = ["agent", "LLM", "poetry"]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faiss-cpu = "^1.7.4"
+wikipedia = "^1.4.0"
+func-timeout = "^4.3.5"
+langchain = "^0.2.1"
+tiktoken = "^0.7.0"
+langchain-community = "^0.2.1"
+langchain-core = "^0.2.3"
+scipy = "^1.13.1"
+sentence-transformers = "^2.2.2"
+torch = "2.2.0"
+google-api-python-client = ">=2.100.0"
+litellm = "^1.42.12"
+thefuzz = "^0.22.1"
+requests = "^2.32.3"
+types-requests = "^2.32.0.20240914"
+beautifulsoup4 = "^4.12.3"
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.0"
+black = ">=23.9.1,<25.0.0"
+ruff = "^0.0.289"
+ipython = "^8.15.0"
+pre-commit = "^3.4.0"
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+cookiecutter = "^2.5.0"
+pandas = "1.5.3"
+mypy = "^1.10.0"
+
+[tool.pytest.ini_options]
+markers = [
+    "slow: marks tests that are slow to run (deselect with '-m \"not slow\"')"
+]
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.ruff]
+format = "github"
+select = [
+    "D",  # pydocstyle
+    "I",  # isort
+]
+target-version = "py311"
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.ruff.isort]
+force-wrap-aliases = true
+combine-as-imports = true
+lines-between-types = 1
+
+[tool.mypy]
+ignore_missing_imports = "True"
+disallow_untyped_defs = "True"
+allow_redefinition = "True"
