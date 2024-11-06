@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ayush_py/__init__.py
+ayush_py/first.py
+ayush_py.egg-info/PKG-INFO
+ayush_py.egg-info/SOURCES.txt
+ayush_py.egg-info/dependency_links.txt
+ayush_py.egg-info/top_level.txt

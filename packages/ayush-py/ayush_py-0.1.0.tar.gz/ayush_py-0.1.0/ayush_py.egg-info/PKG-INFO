@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ayush-py
+Version: 0.1.0
+Summary: A simple Python package for greeting people.
+Home-page: https://github.com/yourusername/mypackage
+Author: Ayush Mehrotra
+Author-email: ayush.mehrotra900@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Test readme
+
