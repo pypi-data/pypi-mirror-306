@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+regression_djaber/__init__.py
+regression_djaber/regression.py
+regression_djaber.egg-info/PKG-INFO
+regression_djaber.egg-info/SOURCES.txt
+regression_djaber.egg-info/dependency_links.txt
+regression_djaber.egg-info/top_level.txt
