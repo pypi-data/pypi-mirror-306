@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "blox.report"
+version = "0.0.1"
+authors = [
+  { name="Super Cool Software Company", email="admin@supercool.software" },
+]
+description = "Python package for the Blox.report API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://blox.report"
+Documentation = "https://blox.report/docs"
+
+[tool.hatch.build.targets.wheel]
+packages = ["blox.report"]
