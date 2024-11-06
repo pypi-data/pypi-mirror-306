@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: kreatornow
+Version: 1.0.0
+Summary: Kreatornow Open Service SDK
+Home-page: https://open.kreatornow.com/
+Author: Sans
+Author-email: sans@kreator-inc.com
+License: UNKNOWN
+Description: ## Kreatornow OpenService Python SDK
+        
+        ### 使用说明 instructions
+        
+        * 你可以通过此SDK调用内置提供的API接口，SDK将自动提供签名的处理; <br />
+          You can use this SDK to call the built-in API interface, and the SDK will automatically provide signature processing.
+         
+        * 只需三步！<br />
+          Just three steps!
+          
+          * 第一步：引入SDK包，初始化Duomai对象，传入你的appkey和appsecret;<br />
+            Step 1: Import the SDK package, initialize the Creator object, and pass in your appkey and appsecret;
+          * 第二步：准备好API调用的参数dict，调用对象中的send_client，传入你选择调用的API及API参数;<br />
+            Step 2: Prepare the parameters dict for the API call, call send_client in the object, pass in the API and API 
+            parameters you choose to call
+          * 第三步：通过调用对象的get_result获取返回结果。<br />
+            Step 3: Get the returned result by calling the object's get_result.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
