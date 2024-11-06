@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: opentrons_sila2_server
+Version: 0.2.5
+Requires-Python: >=3.8
+Requires-Dist: sila2
+Requires-Dist: typer
+Requires-Dist: opentrons
+
