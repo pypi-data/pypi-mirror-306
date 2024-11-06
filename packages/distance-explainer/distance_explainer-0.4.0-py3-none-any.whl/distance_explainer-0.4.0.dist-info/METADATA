@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: distance_explainer
+Version: 0.4.0
+Summary: XAI method to explain distances in embedded spaces
+Home-page: https://github.com/dianna-ai/distance_explainer
+Author: Christiaan Meijer
+Author-email: c.meijer@esciencecenter.nl
+Project-URL: Bug Tracker, https://github.com/dianna-ai/distance_explainer/issues
+Keywords: XAI,embedded spaces
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dianna>=1.4
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn
+Requires-Dist: pyyaml
+Requires-Dist: dataclass-wizard
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: bump2version; extra == "dev"
+Requires-Dist: coverage[toml]; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: sphinx-rtd-theme; extra == "dev"
+Requires-Dist: sphinx-autoapi; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: myst-parser; extra == "dev"
+Provides-Extra: publishing
+Requires-Dist: twine; extra == "publishing"
+Requires-Dist: wheel; extra == "publishing"
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10018768.svg)](https://doi.org/10.5281/zenodo.10018768) [![workflow pypi badge](https://img.shields.io/pypi/v/distance_explainer.svg?colorB=blue)](https://pypi.python.org/project/distance_explainer/)
+
+# `distance_explainer`
+
+XAI method to explain distances in embedded spaces.
+
+![overview schema](https://github.com/user-attachments/assets/bbd5a79c-c50b-47a2-89fc-d8ed3053c845)
+
+
+## Installation
+
+To install distance_explainer from GitHub repository, do:
+
+```console
+git clone git@github.com:dianna-ai/distance_explainer.git
+cd distance_explainer
+python3 -m pip install .
+```
+## How to use
+
+See our [tutorial](tutorial.ipynb) how to use this package.
+In short:
+```python
+image1 = np.random.random((100, 100, 3))
+image2 = np.random.random((100, 100, 3))
+
+image2_embedded = model(image2)
+explainer = DistanceExplainer(axis_labels={2: 'channels'})
+attribution_map = explainer.explain_image_distance(model, image1, image2_embedded)
+```
+## Contributing
+
+If you want to contribute to the development of distance_explainer,
+have a look at the [contribution guidelines](docs/CONTRIBUTING.md).
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [NLeSC/python-template](https://github.com/NLeSC/python-template).
