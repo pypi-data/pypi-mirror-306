@@ -1,0 +1,2 @@
+[console_scripts]
+qdoc2md = qdoc2md.main:qdoc2md
