@@ -1,0 +1,9 @@
+README.md
+setup.py
+quantics/__init__.py
+quantics/main.py
+quantics.egg-info/PKG-INFO
+quantics.egg-info/SOURCES.txt
+quantics.egg-info/dependency_links.txt
+quantics.egg-info/requires.txt
+quantics.egg-info/top_level.txt
