@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "pylagg"
+version = "0.4.0"
+description = "A CLI tool for creating images from DNA sequences"
+authors = [
+    "Robert Fitak <rfitak9@gmail.com>",
+    "Dave Gershman <dave.gershman@proton.me>",
+    "Melanie Grantges <melgrantges@gmail.com>",
+    "Emmanuel Colas <emmanuelcolas@gmail.com>",
+    "Joshua Currie <joshuacurrie58@gmail.com>",
+    "Julia Volheim <jcvolheim@gmail.com>",
+    "Ollie Schnitzius <ollieschnitzius@gmail.com>"
+]
+readme = "README.md"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+lagg = "pylagg:main.cli"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+pillow = "^10.2.0"
+pytest = "^8.1.1"
+typer = "^0.11.1"
+mypy = "^1.9.0"
+cutadapt = "^4.9"
+toml="^0.10.2"
+rich = "^13.8.1"
+requests = "^2.32.3"
