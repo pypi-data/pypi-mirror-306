@@ -1,0 +1,77 @@
+BubbleGun TODO list:
+
+ ✔ Fix chain coverages as it's over a 100% because of children and parents
+ ✔ Fix gam digest, it should take the JSON file now and use the information there
+ ✔ Output information such as the arguments given and the input output files in the log
+
+ ☐ finding children should be done several times, or maybe the code revised
+ ☐ Add and average the coverage when compacting
+ ✔ Fix output haplotypes and fasta bubbles output:
+ ☐ Solve superbubbles according to coverage (try using the mean k-mer coverage)
+ ✔ Change the Node object so that I store overlaps as well @done (21-11-15 12:40)
+   ✔ Basically instead of always taking k, I look at the number before the M in the L line @done (21-11-15 12:40)
+   ☐ 
+ ✔ Setup script
+ ✔ Proper docstring comments on the code, use reST recommended by pep287
+  """
+  This is a reST style.
+
+  :param param1: this is a first param
+  :param param2: this is a second param
+  :returns: this is a description of what is returned
+  :raises keyError: raises an exception
+  """
+  #code
+
+ ✔ Split modules into a directory @done (19-12-19 20:36)
+ ✔ Turn options in main to argparser instead of optparser @done (20-01-15 16:18)
+   ✔ GFA or VG file @done (19-12-19 21:19)
+   ✔ K value (if not given then consider 0) @done (19-12-19 21:19)
+   ✔ BFS neighbor extraction @done (19-12-20 16:01)
+
+ ✔ Add functionality to Graph class @done (19-12-24 19:17)
+   ✔ Add find bubble to graph (now graph.find_chains()) @done (19-12-19 23:13)
+   ✔ Add compact graph to graph @done (19-12-20 16:02)
+   ✔ Add remove lonely nodes @done (19-12-20 00:00)
+   ✔ Output graph @done (19-12-24 19:17)
+
+ ✔ Sort Bubble chain function @done (20-01-10 16:20)
+ ✔ Path extractor function (takes a path, returns sequence) @done (20-02-06 16:59)
+ ✔ Separate classes into separate modules in core @done (19-12-19 22:53)
+ ✔ Fill in examples at after the print example command @done (20-01-22 14:24)
+ ✔ Option for only detecting bubbles @done (20-01-22 14:24)
+
+ ✔ Implement the low-memory bubbles detection version (compare both versions).
+ ✔ Output bubbles as JSON.
+ ✔ Implement the nested bubbles detection (hash chains with their ends).
+ ✔ See what information can be removed from the node object
+ ✔ Let user output certain chains based on id
+ ✔ Option to only detect Superbubbles.
+ ✔ Implement the low memory version.
+
+ ✔ Add BFS search in graph @done (19-12-24 19:17)
+ ✔ Add components and biggest component functionality @done (19-12-24 19:15)
+ ✔ Read VG files  @done (20-01-10 16:20)
+ ✔ Make sure not to write edges to removes nodes @done (19-12-19 23:52)
+   ✔ function 'remove_node(node_id)' to graph that removes nodes and their edges @done (19-12-19 23:52)
+ ✔ Start main.py @done (20-01-10 16:21)
+ ✔ I need to compact the graph first before finding bubbles. @done (20-01-10 16:21)
+ ✔ Maybe re-write the compactness script. Now it's a while loop instead of a nested function @done (20-01-22 14:24)
+ ✔ Have a k check, if one of the nodes is smaller than k return an error and stop (can be done while reading the nodes) @done (20-01-15 16:18)
+
+ ✔ Alignment file stuff: (20-02-12 11:34)
+   ✔ Filter alignment less than 200 bp @done (20-02-12 11:34)
+   ✔ Keep only the longest alignment if two alignments were mapped to the same chain (20-02-12 11:34)
+
+Bugs:
+ ✔ compacting didn't work on the graph, need to debug @done (19-12-20 17:15) 
+ ✔ I can't read VG files for some reason, getting google.protobuff error @done (20-01-10 16:20)
+
+
+
+Improvements:
+  - remove upper case from binary name
+  - Fix typos in README and other documentation (including help)
+  - limit the statistics to 2 numbers after decimal point
+  - Maybe output stats more like a TSV
+  - remove global graph input argument and make it as required last input
