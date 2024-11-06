@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name =  "netbox-vault"
+version = "0.1.8"
+authors = [
+    {name = "Arthur ASCEDU", email = "aascedu@student.42lyon.fr"},
+]
+description = "Connexion to Vault - DW - Netbox"
+readme = "README.md"
+
+classifiers=[
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'Natural Language :: English',
+    "Programming Language :: Python :: 3 :: Only",
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+]
+
+requires-python = ">=3.10.0"
