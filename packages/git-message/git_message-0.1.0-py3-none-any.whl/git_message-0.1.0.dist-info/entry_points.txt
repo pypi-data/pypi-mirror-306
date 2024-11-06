@@ -1,0 +1,2 @@
+[console_scripts]
+git-message = src.cli:main
