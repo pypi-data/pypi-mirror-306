@@ -1,0 +1,10 @@
+numpy
+matplotlib
+rich
+qtpy
+PyQt5
+qutip
+lmfit
+qiskit>=1.2
+termcolor
+pandas
