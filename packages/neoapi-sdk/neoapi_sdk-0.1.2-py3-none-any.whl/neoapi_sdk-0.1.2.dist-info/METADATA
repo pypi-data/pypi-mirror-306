@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: neoapi-sdk
+Version: 0.1.2
+Summary: Integrate neoapi.ai LLM Analytics with your LLM pipelines.
+Home-page: https://github.com/neoapi-ai/neoapi-python
+Author: NeoAPI
+Author-email: NeoAPI <hello@neoapi.ai>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp>=3.8.1
+Requires-Dist: backoff>=2.2.1
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: asyncio>=3.4.3
+Provides-Extra: dev
+Requires-Dist: black>=22.3.0; extra == "dev"
+Requires-Dist: isort>=5.10.1; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest>=7.0.0; extra == "test"
+Requires-Dist: pytest-asyncio>=0.20.0; extra == "test"
+
+# NeoAPI SDK
+
+The official Python SDK for integrating neoapi.ai LLM Analytics with your LLM pipelines. Monitor, analyze, and optimize your Language Model outputs with both asynchronous and synchronous implementations.
+
+## Installation
+
+```bash
+pip install neoapi-sdk
+```
+
+## Quick Start
+
+```python
+from neoapi import NeoApiClient, track_llm_output
+
+# Initialize the client
+client = NeoApiClient(api_key="your-api-key")  # Or use NEOAPI_API_KEY env variable
+
+# Track LLM outputs with the decorator
+@track_llm_output(
+    client=client,
+    project="my_project",
+    group="my_group"
+)
+async def my_llm_function():
+    return "LLM generated text"
+
+# Start the client before use
+await client.start()
+
+# Use your function
+result = await my_llm_function()
+
+# Clean up when done
+await client.stop()
+```
+
+## Key Features
+
+- Asynchronous and synchronous client implementations
+- Automatic batching with configurable retry mechanisms
+- Dynamic performance optimization
+- Simple decorator-based tracking
+- Robust error handling
+- Flexible metadata support
+
+## Configuration
+
+### Client Options
+
+```python
+client = NeoApiClient(
+    api_key="your-api-key",      # Optional if NEOAPI_API_KEY is set
+    check_frequency=10,          # Send every Nth LLM output
+)
+```
+
+### Environment Variables
+
+- `NEOAPI_API_KEY`: Your NeoAPI API key (allows client initialization without api_key parameter)
+- `NEOAPI_API_URL`: Optional custom API endpoint URL
+
+## Advanced Usage
+
+```python
+@track_llm_output(
+    client=client,
+    project="my_project",        # Organize outputs by project
+    group="my_group",           # Group related outputs
+    analysis_slug="my_analysis", # Unique analysis identifier
+    need_analysis_response=True, # Receive analysis results
+    format_json_output=True,     # Pretty-print JSON responses
+    metadata={"key": "value"}    # Add custom tracking data
+)
+```
+
+## License
+
+Apache License 2.0
+
+This SDK is licensed under the Apache License 2.0. While the SDK itself is open source, access to the NeoAPI services may require a valid subscription and API key. For pricing and subscription details, visit [neoapi.ai](https://www.neoapi.ai).
+
+## Resources
+
+- Documentation: [https://www.neoapi.ai/docs](https://www.neoapi.ai/docs)
+- Source Code: [https://github.com/neoapi-ai/neoapi-python](https://github.com/neoapi-ai/neoapi-python)
+- Support: [hello@neoapi.ai](mailto:hello@neoapi.ai)
