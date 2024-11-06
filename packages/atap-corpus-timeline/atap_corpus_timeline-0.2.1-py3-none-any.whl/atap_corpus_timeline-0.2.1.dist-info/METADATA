@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: atap-corpus-timeline
+Version: 0.2.1
+Summary: A tool for visualising features of a corpus over time
+Home-page: https://github.com/Australian-Text-Analytics-Platform/atap-corpus-timeline
+License: MIT
+Author: Hamish Croser
+Author-email: hamish.croser@sydney.edu.au
+Requires-Python: >=3.10,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: atap-context-extractor (>=0.2.3,<0.3.0)
+Requires-Dist: atap-corpus-loader (>=1.8.0,<1.9.0)
+Requires-Dist: atap-corpus-slicer (>=0.3.0,<0.4.0)
+Requires-Dist: panel (>=1.4,<2.0)
+Requires-Dist: plotly (>=5.24.1,<5.25.0)
+Project-URL: Documentation, https://australian-text-analytics-platform.github.io/atap-corpus-timeline/DOCS.html
+Project-URL: Repository, https://github.com/Australian-Text-Analytics-Platform/atap-corpus-timeline
+Description-Content-Type: text/markdown
+
+# Corpus Timeline
+
+A tool for visualising features of a corpus over time
+
+## Demo
+
+Click the button below to access a demo deployed on Binderhub
+
+[![Binder](https://binderhub.atap-binder.cloud.edu.au/badge_logo.svg)](https://binderhub.atap-binder.cloud.edu.au/v2/gh/Australian-Text-Analytics-Platform/atap-corpus-timeline/main?labpath=corpus-timeline.ipynb)
+
+## Documentation
+
+Documentation can be found [here](https://australian-text-analytics-platform.github.io/atap-context-extractor/DOCS.html)
+
+## Authors
+
+  - **Hamish Croser** - [h-croser](https://github.com/h-croser)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
