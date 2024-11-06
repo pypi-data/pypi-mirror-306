@@ -1,0 +1,10 @@
+iris_insee_utils/__init__.py,sha256=pz19C0EQTLJJQsNhc4T3HmykzAyxr8oUoyjZAesyFV4,205
+iris_insee_utils/get_iris_contours_data.py,sha256=dJcXE1fPP9Ir9AkTY3j34mcY2HS362vtgL1OyZG-HxY,1811
+iris_insee_utils/gps_coordinates_to_iris.py,sha256=sw1VkjIWO7ClUeZDLVM5j2iSX86mAD9MhbnckNt1c7k,4745
+iris_insee_utils/iris_map.py,sha256=uodHRaM0vDCljln5fRxolwjRrvi1RRx9C1R3-Hh3twU,5425
+iris_insee_utils/merge_geographical_info_to_iris_data.py,sha256=26zYK9EkYW8OYjBV1_LVS0SrO_Ta4_Lg2ByzbvlZCFU,3119
+iris_insee_utils-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+iris_insee_utils-0.1.1.dist-info/METADATA,sha256=2x2kDiTRTOBVzcTOGY4UE98I97E3LU6lmIeqUzfDY2Q,2616
+iris_insee_utils-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+iris_insee_utils-0.1.1.dist-info/top_level.txt,sha256=hCZcvtcQb665LZj6RzoAA7zjbqQRAS7ICescXQfGsSU,17
+iris_insee_utils-0.1.1.dist-info/RECORD,,
