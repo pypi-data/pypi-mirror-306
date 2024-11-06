@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "catsoop_grade_calculator"
+version = "0.1.4"
+description = "A set of scripts to calculate a cumulative grade for classes on CAT-SOOP."
+authors = ["ricE06 <ezzhaneri06@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
