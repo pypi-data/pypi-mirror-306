@@ -1,0 +1,8 @@
+flytekitplugins_athena-1.13.13-py3.12-nspkg.pth,sha256=ya_zoT0ZM023a2lpUsRaqXsgDEknLucLLOWbbtFBPw4,512
+flytekitplugins/athena/__init__.py,sha256=SZ2Z-QOviQcLJXjjYAbGea4twk48kB8ApIptc9Hl4PI,263
+flytekitplugins/athena/task.py,sha256=5XD6Axl8lMt_voEcDOwZjMRrbne_2RaIonVoADHUDd4,2819
+flytekitplugins_athena-1.13.13.dist-info/METADATA,sha256=lc-TjaSpwmW1q7i0m06X3k0CENAyOwxt5HIlU0tsc78,849
+flytekitplugins_athena-1.13.13.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+flytekitplugins_athena-1.13.13.dist-info/namespace_packages.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_athena-1.13.13.dist-info/top_level.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_athena-1.13.13.dist-info/RECORD,,
