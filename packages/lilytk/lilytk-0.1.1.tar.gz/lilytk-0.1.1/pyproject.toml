@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lilytk"
+version = "0.1.1"
+authors = [
+  { name="Lilith Cybi", email="lilith.cybi@syrency.com" },
+]
+description = "Tkinter components that I wanted to make :3"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["tkinter", "components", "widgets", "lily"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = [
+  "build >= 1.2", "bumpver >= 2023.1129", "hatch >= 1.13", "pip-tools >= 7.4", "twine >= 5.1.1"
+]
+
+[project.urls]
+Homepage = "https://github.com/jmeaster30/lilytk"
+Issues = "https://github.com/jmeaster30/lilytk/issues"
+
+[bumpver]
+current_version = "0.1.1"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "Bump version {old_version} to {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+commit = true
+tag = true
+push = true
+
+[bumpver.file_patterns]
+"pyproject.toml" = [
+  'version = "{version}"'
+]
+"lilytk/*.py" = [
+  "Copyright (C) 2024-YYYY Lilith Cybi - All Rights Reserved."
+]
