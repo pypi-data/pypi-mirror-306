@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: aligned-py
+Version: 0.1.1
+Summary: Aligned-PY is a Python library for interacting with the Aligned layer.
+Home-page: https://github.com/broly-labs/aligned-py
+License: MIT
+Keywords: aligned,network,python,library
+Author: Broly Labs
+Author-email: khairallah@web3arabs.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: cbor2 (==5.6.5)
+Requires-Dist: eth-account (>=0.13.4,<0.14.0)
+Requires-Dist: safe-pysha3 (==1.0.4)
+Requires-Dist: web3 (==7.4.0)
+Requires-Dist: websockets (==13.1)
+Project-URL: Documentation, https://docs.alignedlayer.com/
+Project-URL: Repository, https://github.com/broly-labs/aligned-py
+Description-Content-Type: text/markdown
+
+# Aligned-PY
+
+Aligned-PY is a Python library for interacting with the Aligned layer.
+
