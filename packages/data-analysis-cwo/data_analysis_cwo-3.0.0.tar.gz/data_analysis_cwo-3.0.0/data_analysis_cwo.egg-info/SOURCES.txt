@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+data_analysis_cwo.egg-info/PKG-INFO
+data_analysis_cwo.egg-info/SOURCES.txt
+data_analysis_cwo.egg-info/dependency_links.txt
+data_analysis_cwo.egg-info/entry_points.txt
+data_analysis_cwo.egg-info/requires.txt
+data_analysis_cwo.egg-info/top_level.txt
+src/__init__.py
+src/_plot_from_subfolders_until_user_terminate.py
+src/_plot_only_user_requested_column.py
+src/main.py
