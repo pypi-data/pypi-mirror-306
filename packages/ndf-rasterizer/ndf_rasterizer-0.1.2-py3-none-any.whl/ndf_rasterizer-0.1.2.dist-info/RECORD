@@ -1,0 +1,9 @@
+rasterizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rasterizer/rasterize_kerning.py,sha256=6QhNFKK19wonUtC5UujrbrPHYNGjMU_rezlzc9btSIc,2359
+rasterizer/rasterizer.py,sha256=b42WTNG0okLAdJTrRGXiSEl-AwOGkdqD5MRr3ZQ-USo,14488
+ndf_rasterizer-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ndf_rasterizer-0.1.2.dist-info/METADATA,sha256=6gTxUQuqocNGddZlgFYcQakz5cnV5O5NF7QaaSIBvFg,1060
+ndf_rasterizer-0.1.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+ndf_rasterizer-0.1.2.dist-info/entry_points.txt,sha256=fFO4MnrVbg9othjfuIxBKrWiYRyxGGSi2p1dePQuYYM,62
+ndf_rasterizer-0.1.2.dist-info/top_level.txt,sha256=1Msk6O84rig4bu0MRUrQOrfYBK7ryaP-bpZveT2pqLg,11
+ndf_rasterizer-0.1.2.dist-info/RECORD,,
