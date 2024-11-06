@@ -1,0 +1,2 @@
+[console_scripts]
+gauss = gauss.gauss:main

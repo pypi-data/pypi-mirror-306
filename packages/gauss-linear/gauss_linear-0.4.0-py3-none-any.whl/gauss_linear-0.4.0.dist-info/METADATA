@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gauss-linear
+Version: 0.4.0
+Summary: A simple command line tool to do linear algebra
+Home-page: https://github.com/22raor/gauss
+Author: Rishi Rao
+Author-email: rao068048@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sympy >=1.10
+
+install using `pip install gauss-linear` (requires Python 3.8+)
+then just do
+`gauss` and then paste in the matrix
+it supports plain numbers and expressions
+### some options: 
+`n` - computes the null space
+`r` - computes a row echelon form
+`rr` - computes the rref
+`inv` - computes the inverse
+`orthoproject` - orthogonal projections
+`q` - ends the program
+
+there's a lot more commands, you can figure those out yourself lol
