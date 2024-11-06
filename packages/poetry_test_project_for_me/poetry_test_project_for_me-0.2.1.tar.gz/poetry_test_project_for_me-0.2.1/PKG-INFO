@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: poetry_test_project_for_me
+Version: 0.2.1
+Summary: A poetry python test projet
+License: GPL-3.0-only
+Keywords: poetry,testing_package
+Author: Alex Brightwater
+Author-email: alexander.brightwater@gmail.com
+Requires-Python: ==3.11.*
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Poetry Test
+
+In this proeject, I will be testing the poetry package manager for python.
+
+Currently the project is capable of downloading a random image.
+
+## How to Poetry
+
+--> https://python-poetry.org/docs/#installation
+
+
+### Installing Poetry
+Install it via `pipx install poetry`.
+
+_pipx installs packages semi globally, very weird..._
+
+
+### Setup a poetry project directory
+
+1. Make poetry create a `.venv` dir for you in every project that uses poetry
+	 -> `poetry config virtualenvs.in-project true`  (this is a global setting)
+1. Run `poetry init` in your project dir
+2. Add dependencies with `poetry add <module_name>` or during the init process
+3. Run `poetry install` to install your dependencies.
+4. Change the python version of your venv to the same as your poetry project via:
+	-> `poetry env use /path/to/python3.11`
+5. Activate your new venv via `poetry shell` and **DO NOT** `source .venv/bin/activate`
+
+##  Local Packaging
+
+1. Build the package via `poetry build`
+3. Install the wheel locally: `pip install dist/your_project.whl`
+
+To actually being able to run your python program, you must include this line in your pyproject.toml:
+```toml
+[tool.poetry.scripts]
+your_command_name = "your_project_name.main:main"
+```
+
+**Explanation:**
+1. your_command_name = the command you will run to start your project. Should be same as project name if you
+only have one.
+2. your_project_name = the name of the dir in the src/ folder where your project code is
+3. .main = the name of the file you want to execute
+4. :main = the name of the function in the file you want to execute
+5. _You can actually have multiple commands here_
+
+### Publishing your package to pypi
+1. Run: `poetry config pypi-token.pypi <YOUR_PYPI_TOKEN>`
+	1. This command stores the API token directly in Poetry's configuration.
+	I don't know where since I could not read it via `poetry config --list`.
+2. Build and Publish via: `poetry publish --build`
+
+### Publishing to a custom repo (untested):
+1. Run `poetry config pypi-token.<repository_name> <YOUR_REPOSITORY_TOKEN>`
+2. in your _pyproject.toml_ add:
+```toml
+[tool.poetry.repositories.<repository_name>]
+url = "https://example.com/my-private-repo"
+```
+3. Build and Publish: `poetry publish --build -r my-private-repo`
+### Example File Structure
+simple poetry example file structure:
+```
+poetry-test/
+├── pyproject.toml
+├── README.md
+├── src/
+│   └── poetry_test/
+│       ├── __init__.py
+│       └── main.py
+└── tests/
+    └── test_example.py
+```
+
+advanced poetry example file structure:
+```
+poetry-test/
+├── pyproject.toml            # Poetry configuration file
+├── README.md                 # (Optional) Project description and instructions
+├── src/                      # Main source directory
+│   ├── poetry_test/          # Main package directory ( match project name)
+│   │   ├── __init__.py       # Initializes the package
+│   │   ├── main.py           # Main module or core logic of the package
+│   │   ├── utils/            # Utility funcs or helper modules for reusable code
+│   │   │   └── helpers.py    # Example helper function file
+│   │   ├── config/           # Configuration files or settings for the project
+│   │   │   └── settings.py   # Example settings or configuration file
+│   │   └── modules/          # Sub-packages, useful for organizing projects
+│   │       ├── module_a.py   # Example module for a specific feature or function
+│   │       └── module_b.py   # Another example module
+│   ├── scripts/              # Standalone scripts
+│   │   └── data_processor.py # Example standalone script for data processing
+│   └── data/                 # Data files used by the project
+│       └── sample_data.csv   # Example data file used by scripts or tests
+└── tests/                    # Directory for test files
+    └── test_example.py       # Example test file for unit or integration tests
+```
+
