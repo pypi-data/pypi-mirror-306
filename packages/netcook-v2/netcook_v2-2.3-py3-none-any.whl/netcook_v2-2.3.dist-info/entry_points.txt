@@ -1,0 +1,2 @@
+[console_scripts]
+netcook_v2 = netcook_v2.netcook:checked_cookies
