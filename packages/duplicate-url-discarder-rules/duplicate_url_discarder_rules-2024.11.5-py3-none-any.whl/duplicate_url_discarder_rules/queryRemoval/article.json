@@ -1,0 +1,2197 @@
+[
+  {
+    "args": [
+      "smid"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "nytimes.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      ".tsrc",
+      "ICID",
+      "_guc_consent_skip",
+      "guccounter",
+      "guce_referrer",
+      "guce_referrer_sig",
+      "sessionId",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "yahoo.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "ocid",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "bbc.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "tblci",
+      "tcid",
+      "utm_campaign",
+      "utm_content"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "forbes.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "chan",
+      "location",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "reuters.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "Date",
+      "ICID",
+      "Profile",
+      "hpt",
+      "iid",
+      "obOrigUrl",
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "cnn.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "from"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "indiatimes.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "continue",
+      "pli",
+      "referrer",
+      "src"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "google.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "srnd",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "bloomberg.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "apiversion",
+      "batchservertelemetry",
+      "domshim",
+      "noservercache",
+      "noservertelemetry",
+      "ocid",
+      "renderwebcomponents",
+      "wcseo"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "msn.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "apnews.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "cbsnews.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "newsweek.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "mvn",
+      "tblci",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "usatoday.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "mod",
+      "siteid",
+      "st",
+      "tblci",
+      "yptr"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "wsj.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "independent.co.uk"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "cnbc.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "CMP",
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "theguardian.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "tblci",
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source",
+      "utm_term"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "businessinsider.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "ico",
+      "ito",
+      "ns_campaign",
+      "ns_mchannel",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "dailymail.co.uk"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "go.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "int"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "usnews.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "sn"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "apple.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "obOrigUrl",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "nypost.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "cid",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "nbcnews.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "amp_js_v",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "thehill.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "intcmp"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "foxnews.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "isa"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "business-standard.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "theverge.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "dcmp"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "sky.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "cmp",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "cbc.ca"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ana",
+      "s"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "bizjournals.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "deadline.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "future"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "abc.net.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "utm_campaign",
+      "utm_medium",
+      "utm_slink",
+      "utm_source",
+      "utm_term"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "france24.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "variety.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "hollywoodreporter.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "furi",
+      "fuuid",
+      "ltyp",
+      "luri",
+      "luuid",
+      "referring_guid",
+      "source",
+      "tblci",
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "fool.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "d_id",
+      "ncid_tag",
+      "ref",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "huffpost.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ssm",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "elpais.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "traffic_source",
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "aljazeera.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "dclid",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "theatlantic.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cpc",
+      "tblci"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "jpost.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "td",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "theregister.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ref",
+      "utm_channel"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "indianexpress.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "tblci"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "zdnet.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "pname",
+      "sc"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "iheart.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "sfgate.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "cid",
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "ctvnews.ca"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "tblci",
+      "utm_content",
+      "utm_medium",
+      "utm_source",
+      "utm_term"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "people.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "espn.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "itm_source",
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "denverpost.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "ref",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "thedailybeast.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "gizmodo.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "phys.org"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "mirror.co.uk"
+      ]
+    }
+  },
+  {
+    "args": [
+      "mod",
+      "tesla"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "marketwatch.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "seekingalpha.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ntv_pcc"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "chicagotribune.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cid",
+      "field_season_value",
+      "page",
+      "tblci"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "channelnewsasia.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "n_cid"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "nikkei.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "src",
+      "yptr"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "investors.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "msnbc.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "acatk",
+      "ad",
+      "adid",
+      "advn",
+      "camk",
+      "pub",
+      "tk",
+      "xfps",
+      "xkcb",
+      "xpse"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "indeed.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "liveBlogItemId"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "haaretz.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "itm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "al.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "pm_campaign",
+      "pm_medium",
+      "pm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "dailykos.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "itm_term"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "inc42.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "e",
+      "itm_source",
+      "lctg",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "cleveland.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_page",
+      "utm_pos"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "citywire.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "nme.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "author_month",
+      "author_year"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "cityam.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "locale"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "apa.az"
+      ]
+    }
+  },
+  {
+    "args": [
+      "origin"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "yle.fi"
+      ]
+    }
+  },
+  {
+    "args": [
+      "amp"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "insidermonkey.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "uetv_pl"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "elmundo.es"
+      ]
+    }
+  },
+  {
+    "args": [
+      "tztc"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "gazettengr.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ICID",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "dailystar.co.uk"
+      ]
+    }
+  },
+  {
+    "args": [
+      "page",
+      "slreturn"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "globest.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "inav"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "morganstanley.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "height",
+      "inline",
+      "nodo",
+      "nombre",
+      "numero",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source",
+      "width"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "lavoz.com.ar"
+      ]
+    }
+  },
+  {
+    "args": [
+      "traffic_source",
+      "update"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "aljazeera.net"
+      ]
+    }
+  },
+  {
+    "args": [
+      "clickfrom",
+      "from"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "163.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ref"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "diepresse.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "listingJobIndex"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "clarin.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "erid"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "kp.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "anchor",
+      "date"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "srf.ch"
+      ]
+    }
+  },
+  {
+    "args": [
+      "intcmp"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "expansion.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "int",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "huffingtonpost.es"
+      ]
+    }
+  },
+  {
+    "args": [
+      "hpid",
+      "oaid"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "sina.com.cn"
+      ]
+    }
+  },
+  {
+    "args": [
+      "Language",
+      "language"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "kuna.net.kw"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cmt",
+      "ea_cnt",
+      "ea_med",
+      "ea_src"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "theepochtimes.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "provider"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "shorouknews.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ref"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "kauppalehti.fi"
+      ]
+    }
+  },
+  {
+    "args": [
+      "noamp"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "arcticstartup.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "s",
+      "t"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "sportsmole.co.uk"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "dailyliberal.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "centralwesterndaily.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "goulburnpost.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "edenmagnet.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ad_id",
+      "cpc",
+      "tblci",
+      "utm_campaign",
+      "utm_term"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "maariv.co.il"
+      ]
+    }
+  },
+  {
+    "args": [
+      "pageNo"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "express.de"
+      ]
+    }
+  },
+  {
+    "args": [
+      "main_click"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "iz.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "s",
+      "utm_medium",
+      "utm_source",
+      "utm_term"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "hvg.hu"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "batemansbaypost.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "katherinetimes.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "rcmd_alg",
+      "utm_campaign",
+      "utm_medium",
+      "utm_referrer",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "ria.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "for",
+      "wfr"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "baidu.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ctrack"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "chinatimes.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "bordermail.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "maitlandmercury.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "t"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "bahianoticias.com.br"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "begadistrictnews.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "real_city",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "business-gazeta.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "from"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "mk.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "from"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "rbc.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "hawkesburygazette.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "PAGEN_1"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "mid.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "armidaleexpress.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "bluemountainsgazette.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ref"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "gazetadopovo.com.br"
+      ]
+    }
+  },
+  {
+    "args": [
+      "v"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "elnorte.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "origin",
+      "reason"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "gazzetta.it"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ref"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "record.pt"
+      ]
+    }
+  },
+  {
+    "args": [
+      "mtc"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "hket.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "ref"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "derstandard.de"
+      ]
+    }
+  },
+  {
+    "args": [
+      "hashtags",
+      "related",
+      "text",
+      "via"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "ibarakinews.jp"
+      ]
+    }
+  },
+  {
+    "args": [
+      "from"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "kommersant.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "date",
+      "pid",
+      "town"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "yamagata-np.jp"
+      ]
+    }
+  },
+  {
+    "args": [
+      "erid"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "fontanka.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "erid"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "informpskov.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "from"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "klops.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "id"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "al-ayyam.ps"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "areanews.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "merimbulanewsweekly.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "irrigator.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "src",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source",
+      "utm_term"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "alsumaria.tv"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "cootamundraherald.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "b",
+      "day-ago",
+      "from",
+      "place"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "akipress.org"
+      ]
+    }
+  },
+  {
+    "args": [
+      "erid"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "sib.fm"
+      ]
+    }
+  },
+  {
+    "args": [
+      "cs"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "manningrivertimes.com.au"
+      ]
+    }
+  },
+  {
+    "args": [
+      "taboola_click_id",
+      "tblci",
+      "utm_content",
+      "utm_term"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "blinkist.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "SearchText",
+      "page"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "metroradio.com.hk"
+      ]
+    }
+  },
+  {
+    "args": [
+      "atnid",
+      "popup",
+      "uxid0"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "onlineshoppingtools.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "erid"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "pravda-nn.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "tblci"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "opera.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "erid"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "cnews.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "adv_policies",
+      "advfont",
+      "aff",
+      "aff_unique3",
+      "aff_unique4",
+      "aff_unique5",
+      "logos",
+      "mfsid",
+      "pub",
+      "sub",
+      "ver"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "comparisons.org"
+      ]
+    }
+  },
+  {
+    "args": [
+      "page"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "proximoinfra.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "popnews"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "rugrad.online"
+      ]
+    }
+  },
+  {
+    "args": [
+      "referrer"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "gosuslugi.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "PHPSESSID"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "infoorel.ru"
+      ]
+    }
+  },
+  {
+    "args": [
+      "page",
+      "total"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "spotvnews.co.kr"
+      ]
+    }
+  },
+  {
+    "args": [
+      "slug"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "am920theanswer.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "page",
+      "sch_cate",
+      "sch_gubun",
+      "sch_menu",
+      "sch_pcode",
+      "sch_smenu"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "medipana.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "kid"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "kookje.co.kr"
+      ]
+    }
+  },
+  {
+    "args": [
+      "post_id",
+      "quoteid"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "ng.kz"
+      ]
+    }
+  },
+  {
+    "args": [
+      "Itemid",
+      "print",
+      "tmpl"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "soualiganewsday.com"
+      ]
+    }
+  },
+  {
+    "args": [
+      "date"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        "munich-startup.de"
+      ]
+    }
+  }
+]

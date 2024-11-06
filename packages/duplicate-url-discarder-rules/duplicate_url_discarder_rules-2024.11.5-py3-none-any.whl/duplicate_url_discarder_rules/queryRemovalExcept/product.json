@@ -1,0 +1,51 @@
+[
+  {
+    "args": [],
+    "order": 0,
+    "processor": "queryRemovalExcept",
+    "urlPattern": {
+      "include": [
+        "amazon.ae/*/dp",
+        "amazon.ae/dp",
+        "amazon.ca/*/dp",
+        "amazon.ca/dp",
+        "amazon.cn/*/dp",
+        "amazon.cn/dp",
+        "amazon.co.jp/*/dp",
+        "amazon.co.jp/dp",
+        "amazon.co.uk/*/dp",
+        "amazon.co.uk/dp",
+        "amazon.com.au/*/dp",
+        "amazon.com.au/dp",
+        "amazon.com.br/*/dp",
+        "amazon.com.br/dp",
+        "amazon.com.mx/*/dp",
+        "amazon.com.mx/dp",
+        "amazon.com.sg/*/dp",
+        "amazon.com.sg/dp",
+        "amazon.com.tr/*/dp",
+        "amazon.com.tr/dp",
+        "amazon.com/*/dp",
+        "amazon.com/dp",
+        "amazon.de/*/dp",
+        "amazon.de/dp",
+        "amazon.es/*/dp",
+        "amazon.es/dp",
+        "amazon.fr/*/dp",
+        "amazon.fr/dp",
+        "amazon.in/*/dp",
+        "amazon.in/dp",
+        "amazon.it/*/dp",
+        "amazon.it/dp",
+        "amazon.nl/*/dp",
+        "amazon.nl/dp",
+        "amazon.pt/*/dp",
+        "amazon.pt/dp",
+        "amazon.sa/*/dp",
+        "amazon.sa/dp",
+        "amazon.se/*/dp",
+        "amazon.se/dp"
+      ]
+    }
+  }
+]

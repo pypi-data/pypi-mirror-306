@@ -1,0 +1,13 @@
+duplicate_url_discarder_rules/__init__.py,sha256=-toJoCb9XyJJPO7U-m_AkGnWhN0us6hE1QgWvjx-eO0,725
+duplicate_url_discarder_rules/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duplicate_url_discarder_rules/normalizer/main.json,sha256=ZEzLyhF8sdrBSUHHbXWYdB_E5pmkAMTGTPSCcJGP434,139
+duplicate_url_discarder_rules/queryRemoval/article.json,sha256=iQ3hgTZvEiyAl-Skl-yNSjBBBg6rH_nszKmaB9cuF_I,32283
+duplicate_url_discarder_rules/queryRemoval/product.json,sha256=s0rrpuJRzUZouY-kcyhC6c0UT7iycFO6Sh-M579dops,44704
+duplicate_url_discarder_rules/queryRemoval/utm.json,sha256=fmkRSqne-iSdscIcADNAK9L4keEGkkNhXkrgU5KbCp4,304
+duplicate_url_discarder_rules/queryRemovalExcept/product.json,sha256=yQA05-eVw0OnVHtHTPUBgZR1xHY6B3KEUetzAghI8e8,1189
+duplicate_url_discarder_rules/subpathRemoval/product.json,sha256=3_ibeIhOZ8SziUCQQ-lxCclMSP5DSAwv_BCjd1Xejfc,691
+duplicate_url_discarder_rules-2024.11.5.dist-info/LICENSE,sha256=kpjNvvmhbqZ-CA2Uue93PYS2wHTPhRiRgyDAWYHbMlo,1081
+duplicate_url_discarder_rules-2024.11.5.dist-info/METADATA,sha256=h3OF5zp-4Ygmf37nCf6mF88avg_l6M-acL6wSio7cJI,3724
+duplicate_url_discarder_rules-2024.11.5.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+duplicate_url_discarder_rules-2024.11.5.dist-info/top_level.txt,sha256=UX6V1v9Cjlyqi_pmMYn49oFWgudMzfPIcYyH_aLAx-I,30
+duplicate_url_discarder_rules-2024.11.5.dist-info/RECORD,,
