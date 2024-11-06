@@ -1,0 +1,5 @@
+llama_index/embeddings/xinference/__init__.py,sha256=skwyfC8Jutla-05FaLatuK79PKM2jhfs3z5S9Pa4qeU,106
+llama_index/embeddings/xinference/base.py,sha256=sTU3LHbyioQEXD9RdHbMkDC4T4s64S1a0kybAdGFY5U,3836
+llama_index_embeddings_xinference-0.1.1.dist-info/METADATA,sha256=cSQnJOYSJCF0V3TobIz9LxQnh8ZYI8SwFF87CND-v3M,1998
+llama_index_embeddings_xinference-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_embeddings_xinference-0.1.1.dist-info/RECORD,,
