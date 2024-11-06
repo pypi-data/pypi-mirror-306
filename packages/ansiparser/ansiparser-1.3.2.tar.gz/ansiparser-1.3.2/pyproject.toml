@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "ansiparser"
+version = "1.3.2"
+description = "A convenient library for converting ANSI escape sequences into text or HTML."
+license = "Apache-2.0"
+authors = ["vHrqO <you@example.com>"]
+readme = "README.md"
+repository = "https://github.com/bubble-tea-project/ansiparser"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.3"
+
+[tool.poetry.group.dev.dependencies]
+beautifulsoup4 = "^4.12.3"
+
+
+[tool.poetry.group.packaging.dependencies]
+twine = "^5.1.1"
+build = "^1.2.2.post1"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^8.0.2"
+furo = "^2024.8.6"
+myst-parser = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
