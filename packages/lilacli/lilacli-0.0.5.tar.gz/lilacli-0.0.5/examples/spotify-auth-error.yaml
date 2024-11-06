@@ -1,0 +1,8 @@
+name: spotify-login
+
+case:
+  - url: https://accounts.spotify.com/en/login
+    steps:
+      - do: Enter login creds with username ${SPOTIFY_USER} and password ${SPOTIFY_RANDOM_PASS}
+      - verify: login is successful
+      - verify: user is redirected to the home page

@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: lilacli
+Version: 0.0.5
+Summary: A CLI for lila.dev
+Project-URL: Homepage, https://lila.dev
+Requires-Python: >=3.6
+Requires-Dist: click
+Requires-Dist: halo
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: tenacity
+Description-Content-Type: text/markdown
+
+# Lila CLI
