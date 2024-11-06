@@ -1,0 +1,9 @@
+nero_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nero_cli/__main__.py,sha256=brD_M1qe4kaK1wrPdhFjWqDq-4rSaFmtaY1QS-CdyMQ,1688
+nero_cli/__version__.py,sha256=x7SWnx8ho-VaDHLtK75ItIuboJ9SpcR_vy2GvXNmU4A,21
+nero_cli/cli.py,sha256=kTos2xlOew6yAsLLIStpFKlmP8s8qAA5dFI5gDLU90M,17254
+nero_cli-1.0.1.dist-info/METADATA,sha256=3lYzG_U_VX7lRC3ZuoWo664gcz1KFliXsHfZvbWd8tk,4352
+nero_cli-1.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+nero_cli-1.0.1.dist-info/entry_points.txt,sha256=glbNszDNwgUSpHAXTKu_vIA8hft7rr_VUNo-hAty-6k,48
+nero_cli-1.0.1.dist-info/licenses/LICENSE,sha256=cqZBytaEohG1G62JQZbsJIcVsXoaF5VYY2p79wsUG_w,1059
+nero_cli-1.0.1.dist-info/RECORD,,
