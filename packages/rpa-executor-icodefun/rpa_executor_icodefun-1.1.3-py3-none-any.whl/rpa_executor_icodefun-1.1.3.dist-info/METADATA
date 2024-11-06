@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: rpa_executor_icodefun
+Version: 1.1.3
+Summary: RPA Excutor for icodefun RPA Hub
+Author-email: icodefun <zhoujian.ww@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: pyxxl>=0.3.7
+Requires-Dist: requests
+Requires-Dist: robotframework-browser>=18.9.1
+Requires-Dist: robotframework>=6.1.1
+Requires-Dist: rpaframework>=28.6.3
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
