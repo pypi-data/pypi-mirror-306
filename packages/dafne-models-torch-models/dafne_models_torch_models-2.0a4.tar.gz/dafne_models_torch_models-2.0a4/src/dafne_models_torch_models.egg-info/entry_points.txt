@@ -1,0 +1,4 @@
+[console_scripts]
+create_model = dafne_models.bin.create_model:main
+create_model_ui = dafne_models.ui.ModelTrainer:main
+run_model = dafne_models.bin.run_model:main
