@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: gcmprocpy
+Version: 1.0.2
+Summary: A Python3 post processing tool for TIE-GCM and WACCM-X
+Home-page: https://github.com/NCAR/gcmprocpy
+Author: Nikhil Rao
+Author-email: nikhilr@ucar.edu
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: cartopy
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: ipython
+Requires-Dist: geomag
+Requires-Dist: netcdf4
+
+# GCMPROCPY
+
+GCMprocpy is a tool used for TIE-GCM and WACCM-X post processing and plot generation.
+
+## Documentation on readthedocs
+## https://gcmprocpy.readthedocs.io
+
