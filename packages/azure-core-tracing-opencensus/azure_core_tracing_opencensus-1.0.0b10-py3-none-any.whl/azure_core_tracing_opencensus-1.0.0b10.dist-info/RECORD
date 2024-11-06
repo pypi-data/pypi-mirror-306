@@ -1,0 +1,8 @@
+azure/core/tracing/ext/opencensus_span/__init__.py,sha256=KWzvA8tqLqIo4aWkrQF_KEPlTnNpVMTv4b-s2ScOoTA,11819
+azure/core/tracing/ext/opencensus_span/_version.py,sha256=eOR9CrHuh6lfjOFLeqyAHmiRcOr_4PW6q3xGuUN1qzc,173
+azure/core/tracing/ext/opencensus_span/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure_core_tracing_opencensus-1.0.0b10.dist-info/LICENSE,sha256=_VMkgdgo4ToLE8y1mOAjOKNhd0BnWoYu5r3BVBto6T0,1073
+azure_core_tracing_opencensus-1.0.0b10.dist-info/METADATA,sha256=N8ZA9Ix_8_o4DC9nEPTembLfmWB83bCNhDDhEHP9Wc8,2554
+azure_core_tracing_opencensus-1.0.0b10.dist-info/WHEEL,sha256=pL8R0wFFS65tNSRnaOVrsw9EOkOqxLrlUPenUYnJKNo,91
+azure_core_tracing_opencensus-1.0.0b10.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_core_tracing_opencensus-1.0.0b10.dist-info/RECORD,,
