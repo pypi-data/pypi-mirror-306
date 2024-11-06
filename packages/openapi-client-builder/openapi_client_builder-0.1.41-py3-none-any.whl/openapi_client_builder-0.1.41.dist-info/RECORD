@@ -1,0 +1,14 @@
+openapi_client_builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openapi_client_builder/main.ipynb,sha256=WhpKkDc6TsTZd72rNnmelLI2ace7g0Gb_pXnyXwHaJY,1403
+openapi_client_builder/main.py,sha256=jbDCnc941510xHvXWBJBpblmu_jWOtIkhg6opipoB2o,1368
+openapi_client_builder/tools/Schemas2type.py,sha256=SwenuaEWgapU-HBRjz9h8FEtRmnRu2Uz3S-hU0XnkNM,1189
+openapi_client_builder/tools/Server2client.py,sha256=9OG95AZB5Ssw2YpI0KRl1MoI9bF-Rngm5r95dVsD7kU,4727
+openapi_client_builder/tools/__init__.py,sha256=7FAf0kAB5XtWh3hEfW6I4nsxfbPI80I0dZ-SePAhYwk,106
+openapi_client_builder/tools/data_flow.py,sha256=UBZnGo6kP7jkm5gbTQkkUlS9so8MzTRI4QmFGc9NO3k,1583
+openapi_client_builder/tools/template/nuxt.py,sha256=wtzRBc4B6SNzPyWoOs1CLnGDk2PNJ9pC5yZ0Hm1tA6M,1635
+openapi_client_builder/tools/template.py,sha256=GPk68t_xBjjFI4s-NibgwQQxlQ4I2213E6Lk8yGu-VQ,1426
+openapi_client_builder-0.1.41.dist-info/LICENSE,sha256=iBTaKeczmzZhzYkJTsxZTsFyF1ANMCsGUSbZnh_I3xI,1065
+openapi_client_builder-0.1.41.dist-info/METADATA,sha256=4pjGhDNokBBC0fhi7HxUTYf5UfgQLz5nrJk4jFM5-gQ,2365
+openapi_client_builder-0.1.41.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+openapi_client_builder-0.1.41.dist-info/entry_points.txt,sha256=tl4SLUZIut4diop1SIycHeNJBCfmsj0T7vOoEb5Ghow,114
+openapi_client_builder-0.1.41.dist-info/RECORD,,
