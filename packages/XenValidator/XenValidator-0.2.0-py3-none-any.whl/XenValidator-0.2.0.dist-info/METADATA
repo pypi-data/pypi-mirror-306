@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: XenValidator
+Version: 0.2.0
+Summary: XenValidator is schema validation library for Python, You can Validate Strings, Numbers, Objects, Arrays, Dates, URLs, Ip addresses & more. You can even create your custom validators! Make sure to give it a ⭐ on github.
+Home-page: https://github.com/XenigmaAi/validator
+Author: Xenigma
+Author-email: helpworkagents@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# XenValidator
+XenValidator is a powerful, flexible, and easy-to-use Python library for validating data structures. It simplifies the process of defining complex validation rules, handling cross-field dependencies, and providing informative error messages.
+
+## *Features*
+**Comprehensive Validation**: Supports validation for strings, numbers, dates, arrays, urls, and custom data types.
+
+**Custom Error Handling**: Easily customize error messages for various validation rules.
+
+**Flexible Date Formats**: Supports multiple date formats to match various use cases.
+
+## Installation
+
+Install ***XenValidator*** using pip:
+
+```bash
+    pip install xenvalidator
+``` 
+
+## Example usage:
+
+#### *Import* the package into to your app:
+
+```bash
+    from XenValidator import X, Object, ValidationError
+```
+
+#### Create and validate the schema.
+
+```bash
+    Schema = Object({
+        "Name": X["STRING"](),
+        "Age":  X["NUMBER"]().min(2),
+        "Tags": X["ARRAY"](),
+        "IsProMember": X["BOOLEAN"](),
+        "Auth": Object({
+            "Email": X["STRING"]().email().required(),
+            "Password": X["Password"]().min(8).max(64).required().message("Password is required and must be 8 characters long."),
+            "IpAddress": X["IPADDRESS"]().required().message("Invalid IP address."),
+            "JoinedOn": X["DATE"](),
+        }),
+        "SiteName": X["URL"](),
+    })
+
+    try:
+        Data = {
+            "Name": "John Doe",
+            "Age": 18,
+            "Tags": ["Live streamer", "Web designer", "Front-end developer"],
+            "IsProMember": False,
+            "Auth": {
+                "Email": "mail@example.com",
+                "Password": "SecurePassword123&",
+                "IpAddress": "127.0.0.1",
+                "JoinedOn": "2024-11-05",
+            },
+            "SiteName": "https://mysite.com",
+        }
+        Schema.validate(Data)
+        print("Data is valid:", Data)
+    except ValidationError as e:
+        print("Data is invalid:", e)
+```
+
+#### Create custom types to validate
+
+```bash
+    # Define a custom type to validate
+
+    # This is a type which takes a positive number
+    def isPositive(value):
+        return isinstance(value, (int, float)) and value > 0
+
+    # Define your schema
+    Schema = Object({
+        "Amount": X["CUSTOM"](isPositive).required().message("Amount must be positive."),
+    })
+
+    # Validate the Data
+    try:
+        Data = {
+            "Amount": 10000  # Valid positive number (A negative number should return an error)
+        }
+        Schema.validate(Data)
+        print("Valid amount:", Data)
+    except ValidationError as e:
+        print("Invalid amount:", e)
+
+
+```
+
+### Explanation
+
+- **Name**: Required field validated as a string.
+- **Age**: Number field with a minimum value of 2.
+- **Tags**: Array field validated to ensure it is indeed an array.
+- **IsProMember**: Boolean field indicating if the user is a pro member.
+- **Auth**: Nested object for authentication details.
+  - **Email**: Required field validated as a valid email.
+  - **Password**: Required string with length between 8 and 64 characters.
+  - **IpAddress**: Required field validated as a valid IP address.
+  - **JoinedOn**: Optional date field.
+- **SiteName**: Optional field validated as a URL.
