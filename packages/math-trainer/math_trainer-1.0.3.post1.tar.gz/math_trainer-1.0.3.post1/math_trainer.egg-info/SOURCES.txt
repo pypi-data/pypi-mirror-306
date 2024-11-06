@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+math_trainer/main.py
+math_trainer/ui.ui
+math_trainer.egg-info/PKG-INFO
+math_trainer.egg-info/SOURCES.txt
+math_trainer.egg-info/dependency_links.txt
+math_trainer.egg-info/entry_points.txt
+math_trainer.egg-info/requires.txt
+math_trainer.egg-info/top_level.txt
+math_trainer/locales/ui_ru.qm
+math_trainer/locales/ui_uk.qm
+math_trainer/sounds/bell.wav
+math_trainer/sounds/losetrumpet.wav
