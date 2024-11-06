@@ -1,0 +1,4 @@
+[console_scripts]
+api-cli=openapi_client_builder.main:app
+openapi-client-builder=openapi_client_builder.main:app
+
