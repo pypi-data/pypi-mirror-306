@@ -1,0 +1,10 @@
+httpx
+openai
+dunamai
+pandas
+
+[hadron]
+sagemaker
+
+[langchain]
+langchain
