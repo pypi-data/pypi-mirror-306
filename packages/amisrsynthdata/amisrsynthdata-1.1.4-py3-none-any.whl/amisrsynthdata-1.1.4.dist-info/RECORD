@@ -1,0 +1,17 @@
+amisrsynthdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amisrsynthdata/beamcodes.h5,sha256=q0HUe1GH8ClfI0xcHDQ1tQnYEaJ6tF1gmmHKGUyrDPM,170888
+amisrsynthdata/ionosphere.py,sha256=YCmkZjuJybzHdT0yqcIiLz7ayDnxh9MW568Be1rsYag,5883
+amisrsynthdata/radar.py,sha256=mR0FME7-TbOsUrK-yjQDBVwwjoQA9pXFfrLL_Z3wb6s,8245
+amisrsynthdata/syntheticdata.py,sha256=Xmwr-EgAlBWVtzHgGz9gf6mDas8SUWaDHw01AL6I-2k,28072
+amisrsynthdata/state_functions/__init__.py,sha256=pqWgRczoLNUCblzqWJdOMXGAXqLiFCiFGa1gyrTFIjE,97
+amisrsynthdata/state_functions/density.py,sha256=3f3mJGdTbSFgy8ul7ZBb0y_F5a_7r_MXb2mOMVbf8vc,10955
+amisrsynthdata/state_functions/gemini_utils.py,sha256=DJwnGA3t6E3S5R_rxoW-wehhmplPI-Z74oaAuQj-iB0,2487
+amisrsynthdata/state_functions/temperature.py,sha256=ZZ5Pi1BH7-hxGaGCDAcNydUfk347JuCRpArqqJRabDA,2917
+amisrsynthdata/state_functions/utils.py,sha256=gmkHxlmuUs57gWZEBPw4sG9OVKxVaFJOPURfwm9MBKE,344
+amisrsynthdata/state_functions/velocity.py,sha256=rG1C_AdOr2zhpWmU6clgmfU4ZEJD00X2tiuTYt-Z3SA,6858
+amisrsynthdata-1.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+amisrsynthdata-1.1.4.dist-info/METADATA,sha256=JKVe-JIPcF9HvMTDt65jvd-E5RD75410_CZPPc8aEL4,44624
+amisrsynthdata-1.1.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+amisrsynthdata-1.1.4.dist-info/entry_points.txt,sha256=FFLxmVMJLgbxEmWB9kWn61zX5oaR6ub3I9tKJJxFJwY,69
+amisrsynthdata-1.1.4.dist-info/top_level.txt,sha256=TgqcEy-2dzxOmh7k8ILYhhIGyfFRx6Q_y5plGm4QZKU,15
+amisrsynthdata-1.1.4.dist-info/RECORD,,
