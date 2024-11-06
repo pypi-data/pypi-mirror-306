@@ -1,0 +1,12 @@
+duck_agents/__init__.py,sha256=adJVUoYWkeKgoT8d9w1II25c_4ieBCT1njEcGdWidiY,27
+duck_agents/base_agent.py,sha256=kjqJUW0wczoeDenBFZ5sMVBjki3fXqS2i11ZbqLczZk,9395
+duck_agents/llm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duck_agents/llm/base_interface.py,sha256=0UjemobYoxxmuyed7HUCGO9McdohQP2o6kWhMn78n_g,1162
+duck_agents/llm/gemini.py,sha256=QcdWfQUJX_9VsaiDn6zmv7aVpH-kpGDM-MGGeNx4ExM,2069
+duck_agents/llm/gemini_session_factory.py,sha256=LnR3VYRRSAZbNSsQziHhOIm8FYeMrQgFN57iTA7pu-s,418
+duck_agents/llm/llama.py,sha256=vpe8wSKKevJ6xfDDcVe3cUd28INHYGBeMqq8pcfYN6o,2441
+duck_agents/llm/llama_session_factory.py,sha256=ofXxo0f8072OGDmfZCHTOGkM0R4FDf1N836XX5oRl0U,384
+duck_agents/llm/session_factory.py,sha256=BNMdugowRonnr-so_n-W3GahioCyWsnUgnK0reKsGuk,279
+duck_agents-0.1.1.dist-info/METADATA,sha256=MTfLXw2HoLczd1UukHAti6EN3trGfcbXkS8pWQagJCU,555
+duck_agents-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+duck_agents-0.1.1.dist-info/RECORD,,
