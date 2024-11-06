@@ -1,0 +1,7 @@
+main.py
+setup.py
+machaque.egg-info/PKG-INFO
+machaque.egg-info/SOURCES.txt
+machaque.egg-info/dependency_links.txt
+machaque.egg-info/requires.txt
+machaque.egg-info/top_level.txt
