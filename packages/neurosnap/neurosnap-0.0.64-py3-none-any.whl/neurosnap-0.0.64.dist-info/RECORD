@@ -1,0 +1,15 @@
+neurosnap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neurosnap/api.py,sha256=9eM6Ln9PHcQ0-vxql1QMRNP09LxeETxSL-eBqNMuTy4,12108
+neurosnap/chemicals.py,sha256=Boq7jnQEMeqwMW6YZz3LZUcDzEkEWitunGznDV0iJrg,871
+neurosnap/conformers.py,sha256=1cWc55i8iIAUdA8RxD6s7RaMmK7HA5CrBIxKUSBo4_c,9878
+neurosnap/log.py,sha256=ZIgigOpVALccVPycKMbpjuCqCRDu2jkdfFSkFW0FSyU,1821
+neurosnap/msa.py,sha256=C4sxDBWEojlJueBYW4yXTaodkUDhHb54ZBZ2eUQbYuY,27370
+neurosnap/protein.py,sha256=1PhN2iyKeWdhU1uh6Kj-Hqltc0Vqm17GRLNrmmdoXPE,54452
+neurosnap/algos/alphafold.py,sha256=s83fAaaNixPZGKBzUPhlG-Os0FEC52_BG4t3LnsBKLM,1931
+neurosnap/algos/clusterprot.py,sha256=44hi_JjoME8eFxIcEXOrn-MWMXroBL4t4QUyuvXAffo,6916
+neurosnap/algos/lDDT.py,sha256=2ND9V5-6vWTX808TQlOAbNFCYm7A59H9IGR4Z1GQ2Ps,6138
+neurosnap-0.0.64.dist-info/LICENSE,sha256=_ntM6DuDgcxbIWu7Svc8VwaI0bgZxzu67YykAfRnfNY,18655
+neurosnap-0.0.64.dist-info/METADATA,sha256=5vV1ymCFZy3nSdzbH1beFN48lnRVv8lIinuo12kEFIk,25001
+neurosnap-0.0.64.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+neurosnap-0.0.64.dist-info/top_level.txt,sha256=NanJTHXbL1QieDm25TSBpZnL8b4Y_z12yQAIY4fspS4,10
+neurosnap-0.0.64.dist-info/RECORD,,
