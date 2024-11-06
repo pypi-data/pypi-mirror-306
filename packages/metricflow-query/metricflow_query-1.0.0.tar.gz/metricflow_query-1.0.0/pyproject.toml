@@ -1,0 +1,56 @@
+[project]
+name = "metricflow-query"
+dynamic = ["version"]
+description = "Build query for dbt metricflow"
+authors = [
+    { name = "Charlie", email = "charile@linercorp.com" }
+]
+dependencies = [
+    "dbt-core>=1.6.0",
+    "dbt-metricflow>=0.6.0",
+    "click>=7.1",
+    "yaspin>=2"
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[project.scripts]
+metricflow-query = 'metricflow_query.cli:cli'
+mq = 'metricflow_query.cli:cli'
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "ruff==0.5.6",
+    "Jinja2>=3.1.2,<4",
+    "pytest>=8.3.3",
+]
+
+[tool.rye.scripts]
+test = { cmd = "pytest tests" }
+fmt = { cmd = "ruff format --check" }
+lint = { cmd = "ruff check" }
+fmt-fix = { cmd = "ruff format" }
+lint-fix = { cmd = "ruff check --fix" }
+checks = { chain = ["fmt", "lint", "test"] }
+checks-fix = { chain = ["fmt-fix", "lint-fix"] }
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/metricflow_query"]
+
+[tool.hatch.version]
+path = "src/metricflow_query/__init__.py"
+
+[tool.ruff]
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+# Extend default config with Isort.
+select = ["E4", "E7", "E9", "F", "I"]
