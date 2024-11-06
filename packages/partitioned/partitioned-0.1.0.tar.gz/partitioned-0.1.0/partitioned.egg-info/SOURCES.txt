@@ -1,0 +1,7 @@
+README.md
+partitioned.py
+setup.py
+partitioned.egg-info/PKG-INFO
+partitioned.egg-info/SOURCES.txt
+partitioned.egg-info/dependency_links.txt
+partitioned.egg-info/top_level.txt

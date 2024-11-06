@@ -1,0 +1,1 @@
+The `partitioned` package is a simple Python script to check if a sequence of lines are partitioned, such that all duplicate lines are sequential. It uses a SQLite3 in-memory database that can spill to disk to store previously seen strings.
