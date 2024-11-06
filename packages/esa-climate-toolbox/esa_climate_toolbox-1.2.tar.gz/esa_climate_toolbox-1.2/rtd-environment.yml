@@ -1,0 +1,34 @@
+name: rtd-ect
+channels:
+  - conda-forge
+dependencies:
+  # Python
+  - python >=3.8
+  # Required
+  - cartopy
+  - cftime
+  - dask
+  - geopandas
+  - matplotlib-base
+  - numcodecs
+  - numpy
+  - pandas
+  - pyproj
+  - python-dateutil
+  - shapely
+  - six
+  - xarray
+  - xcube >= 1.4.0
+  - xcube-cci >= 0.11.1
+  # For Jupyterlab
+  - jupyterlab
+  - jupyterlab-geojson
+  # RTD specials
+  - pip:
+      - sphinx
+      - sphinx_rtd_theme
+      - sphinx-argparse
+      - sphinx-autodoc-annotation
+      - recommonmark
+      - mock
+      - nbsphinx
