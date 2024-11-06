@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+VolSplinesLib/__init__.py
+VolSplinesLib/interpolation_function.py
+VolSplinesLib/interpolations.py
+VolSplinesLib/minimize.py
+VolSplinesLib.egg-info/PKG-INFO
+VolSplinesLib.egg-info/SOURCES.txt
+VolSplinesLib.egg-info/dependency_links.txt
+VolSplinesLib.egg-info/requires.txt
+VolSplinesLib.egg-info/top_level.txt
