@@ -1,0 +1,8 @@
+indicators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+indicators/cli.py,sha256=Gaw03VjjvdPlGsqShKSCcPoFinAv5y3zL7sd9LFCrFE,524
+indicators/indicators.py,sha256=C8LIK71wEe1RNtSJcLJVkBpOcCX4xZ7JBxib-GkxFu4,3088
+indicators_cli-0.1.1.dist-info/METADATA,sha256=kJFdE_5Cd48M51l8bj-r7VDE6KYk0_EzN5CFgSWlbv4,527
+indicators_cli-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+indicators_cli-0.1.1.dist-info/entry_points.txt,sha256=viq0LOCduU4ijFZ1dwpL4sFvwDKIp6FacSW9-8LfPTU,40
+indicators_cli-0.1.1.dist-info/top_level.txt,sha256=CrE9gDOoaEfVIVPHdyqWEo1Aj2SqS_0_Vhnven2JD60,11
+indicators_cli-0.1.1.dist-info/RECORD,,
