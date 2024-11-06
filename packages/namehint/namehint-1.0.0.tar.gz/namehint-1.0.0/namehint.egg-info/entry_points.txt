@@ -1,0 +1,2 @@
+[console_scripts]
+namehint = namehint.namehint:main

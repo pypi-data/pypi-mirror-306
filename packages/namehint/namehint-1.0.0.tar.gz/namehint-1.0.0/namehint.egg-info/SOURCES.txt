@@ -1,0 +1,11 @@
+README.md
+setup.py
+namehint/__init__.py
+namehint/dictionary.json
+namehint/namehint.py
+namehint.egg-info/PKG-INFO
+namehint.egg-info/SOURCES.txt
+namehint.egg-info/dependency_links.txt
+namehint.egg-info/entry_points.txt
+namehint.egg-info/requires.txt
+namehint.egg-info/top_level.txt
