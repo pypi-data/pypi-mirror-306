@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sourceinversion
+Version: 0.1.4
+Summary: A Gaussian plume model simulator and gas emission source inversion package.
+License: Apache-2.0
+Author: NewmanTHP
+Author-email: t.newman1@lancaster.ac.uk
+Requires-Python: ==3.10.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: jax (==0.4.13)
+Requires-Dist: jaxlib (==0.4.13)
+Requires-Dist: jaxtyping (==0.2.15)
+Requires-Dist: matplotlib (==3.7.2)
+Requires-Dist: numpy (==1.26.2)
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: scipy (==1.11.3)
+Requires-Dist: seaborn (==0.12.2)
+Requires-Dist: tensorflow-probability (==0.20.1)
+Description-Content-Type: text/markdown
+
+This package was developed to perform probabilistic inversion of gas emissions.
+See: https://github.com/NewmanTHP/Probabilistic-Inversion-Modeling-of-Gas-Emissions.
