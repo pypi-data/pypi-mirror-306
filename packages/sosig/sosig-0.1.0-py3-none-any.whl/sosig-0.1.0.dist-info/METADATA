@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: sosig
+Version: 0.1.0
+Summary: Add your description here
+Author-email: willwrighteng <will.wright.engineeering@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: pip>=24.3.1
+Requires-Dist: pydantic>=2.9.2
+Requires-Dist: rich>=13.9.4
+Requires-Dist: sqlmodel>=0.0.22
+Requires-Dist: typer>=0.12.5
+Description-Content-Type: text/markdown
+
+# social signaling
+
+Describe your project here.
