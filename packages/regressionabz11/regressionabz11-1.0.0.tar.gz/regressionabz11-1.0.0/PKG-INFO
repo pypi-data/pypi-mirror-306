@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: regressionabz11
+Version: 1.0.0
+Summary: An awesome package that does something
+Home-page: http://pypi.python.org/pypi/regressionabz11/
+Author: Moncef
+Author-email: m.anani@esi-sba.dz
+License: LICENSE.txt
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# rocket
+
+`rocket` is a Python library for ..........
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `rocket`.
+
+```bash
+pip install rocket
+```
+
+## Usage
+
+```python
+import rocket
+
+# returns 'words'
+rocket.module_name('word')
+
+# returns 'geese'
+rocket.module_name('goose')
+
+# returns 'phenomenon'
+rocket.module_name('phenomena')
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

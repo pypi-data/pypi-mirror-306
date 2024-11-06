@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+regressionabz11.egg-info/PKG-INFO
+regressionabz11.egg-info/SOURCES.txt
+regressionabz11.egg-info/dependency_links.txt
+regressionabz11.egg-info/top_level.txt
+regressionabz11111/__init__.py
+regressionabz11111/model.py
+regressionabz11111/regression.py
