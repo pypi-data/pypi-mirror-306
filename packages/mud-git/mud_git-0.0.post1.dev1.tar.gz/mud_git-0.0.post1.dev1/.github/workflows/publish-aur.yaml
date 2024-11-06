@@ -1,0 +1,36 @@
+name: Publish to AUR
+
+on:
+  workflow_run:
+    workflows: ["Test"]
+    types:
+      - completed
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  aur-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+     
+      - name: Get Version from Tag
+        id: get_version
+        run: echo "VERSION=$(git describe --tags --abbrev=0 | sed 's/^v//')" >> $GITHUB_ENV
+
+      - name: Update PKGBUILD with New Version
+        run: |
+          sed -i "s/^pkgver=.*/pkgver=${{ env.VERSION }}/" PKGBUILD
+          cat PKGBUILD
+
+      - name: Publish AUR package
+        uses: KSXGitHub/github-actions-deploy-aur@v3.0.1
+        with:
+          pkgname: mud-git
+          pkgbuild: ./PKGBUILD
+          commit_username: ${{ secrets.AUR_USERNAME }}
+          commit_email: ${{ secrets.AUR_EMAIL }}
+          ssh_private_key: ${{ secrets.AUR_SSH_KEY }}
+          commit_message: Update AUR package
+          ssh_keyscan_types: rsa,ecdsa,ed25519
