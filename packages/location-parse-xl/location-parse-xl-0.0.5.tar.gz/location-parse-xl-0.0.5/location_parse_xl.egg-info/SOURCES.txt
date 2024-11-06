@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+location_parse_xl.egg-info/PKG-INFO
+location_parse_xl.egg-info/SOURCES.txt
+location_parse_xl.egg-info/dependency_links.txt
+location_parse_xl.egg-info/top_level.txt
+location_util/__init__.py
+location_util/china_location.txt
+location_util/china_location_change.txt
+location_util/dictionary_loader.py
+location_util/location_parser.py
