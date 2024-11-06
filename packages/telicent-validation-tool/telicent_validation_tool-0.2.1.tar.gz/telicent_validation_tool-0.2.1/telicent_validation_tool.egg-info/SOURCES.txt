@@ -1,0 +1,13 @@
+LICENSE
+NOTICE
+README.md
+pyproject.toml
+telicent_validation_tool/__init__.py
+telicent_validation_tool/validators.py
+telicent_validation_tool.egg-info/PKG-INFO
+telicent_validation_tool.egg-info/SOURCES.txt
+telicent_validation_tool.egg-info/dependency_links.txt
+telicent_validation_tool.egg-info/requires.txt
+telicent_validation_tool.egg-info/top_level.txt
+tests/test_json_validation.py
+tests/test_rdf_validation.py
