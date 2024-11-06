@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: Client_API_VN
+Version: 3.0.0a1
+Summary: Python API to Biolovision API and applications using it.
+Home-page: https://github.com/dthonon/Client-API-VN
+Author: Daniel Thonon
+Author-email: d.thonon9@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Dist: SQLAlchemy (<2)
+Requires-Dist: alembic (>=1.14)
+Requires-Dist: apscheduler (<4)
+Requires-Dist: beautifulsoup4 (>=4.12)
+Requires-Dist: jinja2 (>=3.1)
+Requires-Dist: jsonschema (>=4.23)
+Requires-Dist: psutil (>=6.1)
+Requires-Dist: psycopg2-binary (>=2.9.10)
+Requires-Dist: pyproj (>=3.7)
+Requires-Dist: requests (>=2.32)
+Requires-Dist: requests-oauthlib (>=2.0)
+Requires-Dist: strictyaml (>=1.7)
+Requires-Dist: tabulate (>=0.9)
+Requires-Dist: toml (>=0.10)
+Requires-Dist: yappi (>=1.6)
+Project-URL: Documentation, https://dthonon.github.io/Client-API-VN/
+Project-URL: Repository, https://github.com/dthonon/Client-API-VN
+Description-Content-Type: text/markdown
+
+# Client_API_VN
+
+[![Release](https://img.shields.io/github/v/release/dthonon/Client_API_VN)](https://img.shields.io/github/v/release/dthonon/Client_API_VN)
+[![Build status](https://img.shields.io/github/actions/workflow/status/dthonon/Client_API_VN/main.yml?branch=main)](https://github.com/dthonon/Client_API_VN/actions/workflows/main.yml?query=branch%3Amain)
+[![codecov](https://codecov.io/gh/dthonon/Client_API_VN/branch/main/graph/badge.svg)](https://codecov.io/gh/dthonon/Client_API_VN)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/dthonon/Client_API_VN)](https://img.shields.io/github/commit-activity/m/dthonon/Client_API_VN)
+[![License](https://img.shields.io/github/license/dthonon/Client_API_VN)](https://img.shields.io/github/license/dthonon/Client_API_VN)
+
+## Presentation
+
+Python applications that use Biolovision/VisioNature (VN) API.
+See <https://dthonon.github.io/Client_API_VN/>.
+
