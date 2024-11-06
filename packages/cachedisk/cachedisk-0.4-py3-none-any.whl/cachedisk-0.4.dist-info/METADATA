@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cachedisk
+Version: 0.4
+Summary: A lightweight in-memory caching library with disk persistence. Supports both sync and async functions.
+Home-page: https://github.com/emilamaj/CacheDisk
+Author: Emile Amajar
+License: MIT
+Keywords: cache caching disk cache-disk database key-value
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: System :: Filesystems
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A lightweight in-memory caching library with disk persistence. 
+        Supports both sync and async functions.
