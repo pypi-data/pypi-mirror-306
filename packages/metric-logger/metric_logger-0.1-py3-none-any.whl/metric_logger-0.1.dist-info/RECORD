@@ -1,0 +1,8 @@
+metric_logger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metric_logger/logger.py,sha256=PUetzeC5PdCeWX7fxDcWbRyi9LZWio4ZjloaUGXraY4,623
+metric_logger/utils.py,sha256=ib21GKOElVv0uSr_7Gd0vT5kWB7k_r6C84-qqvf9xwI,611
+metric_logger-0.1.dist-info/LICENSE,sha256=CJKqT0Xrzxsj9rm-YT6rGx7YyvWPSofLf6myrrRhn9g,1064
+metric_logger-0.1.dist-info/METADATA,sha256=-8PmqieTnqqHtBa5BMYe6IiAhWn_Y0xDB9MHA13x40g,233
+metric_logger-0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+metric_logger-0.1.dist-info/top_level.txt,sha256=iA5QBzHzlcEkGNptWbVgOxtp02JwcBHaYOUDUzVKM_g,14
+metric_logger-0.1.dist-info/RECORD,,
