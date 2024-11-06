@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "piyathon"
+description = "A Thai language-localized superset of Python with a bi-directional transformer to standard Python"
+authors = [{ name = "Piyawish Piyawat", email = "contact@piyawatana.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+classifiers = [
+	"Programming Language :: Python :: 3.12",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+dependencies = []
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://github.com/piyawish/piyathon"
+"Bug Tracker" = "https://github.com/piyawish/piyathon/issues"
+
+[project.scripts]
+piyathon = "piyathon.piyathon:main"
+p2p = "piyathon.p2p:main"
+
+[tool.hatch.build.targets.wheel]
+include = ["piyathon/**"]
+
+[tool.hatch.build.targets.sdist]
+include = ["piyathon/**"]
+
+[tool.hatch.version]
+path = "piyathon/__init__.py"
+
+[tool.hatch.build]
+include = ["piyathon/**"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra"
+testpaths = ["tests"]
+# log_cli = true
