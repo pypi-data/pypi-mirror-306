@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: GuechaouiMohamed_reg
+Version: 1.0.0
+Summary: A Python package for implementing a Simple Linear Regression model
+Home-page: http://pypi.python.org/pypi/GuechaouiMohamed_reg/
+Author: Mohamed Guechaoui
+Author-email: m.guechaoui@esi-sba.dz
+License: LICENSE.txt
+Description-Content-Type: text/markdown
+
+# package_name
+
+`Guech_reg` is a Python library for ..........
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `GuechaouiMohamed_reg`.
+
+```bash
+pip install GuechaouiMohamed_reg
+```
+
+## Usage
+
+```python
+import GuechaouiMohamed_reg
+
+# returns 'words'
+rocket.module_name('word')
+
+# returns 'geese'
+package_name.module_name('goose')
+
+# returns 'phenomenon'
+package_name.module_name('phenomena')
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
