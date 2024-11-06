@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: commonmark
+Version: 0.9.1
+Summary: Python parser for the CommonMark Markdown spec
+Home-page: https://github.com/rtfd/commonmark.py
+Author: Bibek Kafle <bkafle662@gmail.com>, Roland Shoemaker <rolandshoemaker@gmail.com>
+Author-email: rolandshoemaker@gmail.com
+Maintainer: Nikolas Nyby
+Maintainer-email: nikolas@gnu.org
+License: BSD-3-Clause
+Keywords: markup,markdown,commonmark
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+Requires-Dist: future>=0.14.0; python_version < "3"
+Provides-Extra: test
+Requires-Dist: flake8==3.9.2; extra == "test"
+Requires-Dist: hypothesis==4.24.4; extra == "test"

@@ -1,0 +1,6 @@
+<pkgmetadata>
+	<!-- maintainer-needed -->
+	<upstream>
+		<remote-id type="github">rtfd/commonmark.py</remote-id>
+	</upstream>
+</pkgmetadata>
