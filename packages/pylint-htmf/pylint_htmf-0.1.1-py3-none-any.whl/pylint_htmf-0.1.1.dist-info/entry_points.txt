@@ -1,0 +1,3 @@
+[console_scripts]
+htmf-check=pylint_htmf.cli:run
+
