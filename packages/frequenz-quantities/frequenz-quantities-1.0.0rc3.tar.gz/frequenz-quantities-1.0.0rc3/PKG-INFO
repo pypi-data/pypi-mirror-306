@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: frequenz-quantities
+Version: 1.0.0rc3
+Summary: Types for holding quantities with units
+Author-email: Frequenz Energy-as-a-Service GmbH <floss@frequenz.com>
+License: MIT
+Project-URL: Documentation, https://frequenz-floss.github.io/frequenz-quantities-python/
+Project-URL: Changelog, https://github.com/frequenz-floss/frequenz-quantities-python/releases
+Project-URL: Issues, https://github.com/frequenz-floss/frequenz-quantities-python/issues
+Project-URL: Repository, https://github.com/frequenz-floss/frequenz-quantities-python
+Project-URL: Support, https://github.com/frequenz-floss/frequenz-quantities-python/discussions/categories/support
+Keywords: frequenz,python,lib,library,quantities,unit,conversion
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Requires-Python: <4,>=3.11
+Description-Content-Type: text/markdown
+Provides-Extra: dev-flake8
+Provides-Extra: dev-formatting
+Provides-Extra: dev-mkdocs
+Provides-Extra: dev-mypy
+Provides-Extra: dev-noxfile
+Provides-Extra: dev-pylint
+Provides-Extra: dev-pytest
+Provides-Extra: marshmallow
+Provides-Extra: dev
+License-File: LICENSE
+
+# Frequenz Quantities Library
+
+[![Build Status](https://github.com/frequenz-floss/frequenz-quantities-python/actions/workflows/ci.yaml/badge.svg)](https://github.com/frequenz-floss/frequenz-quantities-python/actions/workflows/ci.yaml)
+[![PyPI Package](https://img.shields.io/pypi/v/frequenz-quantities)](https://pypi.org/project/frequenz-quantities/)
+[![Docs](https://img.shields.io/badge/docs-latest-informational)](https://frequenz-floss.github.io/frequenz-quantities-python/)
+
+## Introduction
+
+This library provide types for holding quantities with units. The main goal is
+to avoid mistakes while working with different types of quantities, for example
+avoiding adding a length to a time.
+
+It also prevents mistakes when operating between the same quantity but in
+different units, like adding a power in Joules to a power in Watts without
+converting one of them.
+
+Quantities store the value in a base unit, and then provide methods to get that
+quantity as a particular unit.
+
+## Documentation
+
+For more information on how to use this library and examples, please check the
+[Documentation website](https://frequenz-floss.github.io/frequenz-quantities-python/).
+
+## Supported Platforms
+
+The following platforms are officially supported (tested):
+
+- **Python:** 3.11
+- **Operating System:** Ubuntu Linux 20.04
+- **Architectures:** amd64, arm64
+
+## Contributing
+
+If you want to know how to build this project and contribute to it, please
+check out the [Contributing Guide](CONTRIBUTING.md).
