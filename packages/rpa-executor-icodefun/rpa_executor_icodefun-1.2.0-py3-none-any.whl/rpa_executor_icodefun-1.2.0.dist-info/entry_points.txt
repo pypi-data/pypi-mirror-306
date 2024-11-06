@@ -1,0 +1,2 @@
+[console_scripts]
+irpa = rpa_executor.run:run
