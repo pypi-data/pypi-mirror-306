@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: kubebox
+Version: 0.0.15
+Summary: Open source k8s sandbox for LLM agents
+Home-page: https://github.com/lukejagg/kubebox
+Author: Lucas Jaggernauth
+Author-email: lukejagg@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Dist: aiohttp (>=3.10.0,<4.0.0)
+Requires-Dist: cryptography (>=43.0.1,<44.0.0)
+Requires-Dist: fastapi-socketio (>=0.0.10,<0.0.11)
+Requires-Dist: kubernetes (>=30.0.0,<31.0.0)
+Project-URL: Repository, https://github.com/lukejagg/kubebox
+Description-Content-Type: text/markdown
+
+# kubebox
+
+Open source k8s sandbox for LLM agents.
+
