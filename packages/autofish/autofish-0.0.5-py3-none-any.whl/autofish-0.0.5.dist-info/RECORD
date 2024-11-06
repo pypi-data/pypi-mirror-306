@@ -1,0 +1,12 @@
+autofish/__init__.py,sha256=1YMsIc3npvnHt4Vu_FxOtdEcwMWeEWgYKCwvzYPNOkg,215
+autofish/__main__.py,sha256=NQpoiKyW3Ds80N4OFO4qAiu73xuPsMv-Ysy1Q6bRgZ0,155
+autofish/autofish_gui.py,sha256=L4G-NMq5ByrhkKQ5V1CtR3fR7bZPPV3k_aD-_NHq6V8,29530
+autofish/automator.py,sha256=H9nJ-W0DfljRoQoa0yO3p2BRWqFNrtoTTmaaLhKorhg,64283
+autofish/coordinator.py,sha256=R2NdNF9m2fP8KdJ5dwTPDHvPMOImUgxWuE-snPRnz3s,4117
+autofish/imager.py,sha256=GM0nrQXlzPJUQPghebo-72OXhHqZ70aoGanqPVY3Y9M,17057
+autofish-0.0.5.dist-info/METADATA,sha256=zi4_F-JayYB0AXMxFHzpUUgzCVWD2xzyN3tTzJAwlpg,3837
+autofish-0.0.5.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+autofish-0.0.5.dist-info/entry_points.txt,sha256=Phdf80cNMjAfOBhJVfLDt_dFKQImU5-36NUjoDyBEzk,56
+autofish-0.0.5.dist-info/top_level.txt,sha256=mRU9ICX0-5L47OU6CBlpa2zyTrx0SrHvmUFrLWCT3YA,9
+autofish-0.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+autofish-0.0.5.dist-info/RECORD,,
