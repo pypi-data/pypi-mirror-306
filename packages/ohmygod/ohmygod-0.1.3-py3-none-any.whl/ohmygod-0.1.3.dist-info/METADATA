@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ohmygod
+Version: 0.1.3
+Summary: Rich CLI tool powered by Buddha
+License: MIT
+Author: Sori Lim
+Author-email: sori@chartmetric.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: colorama (>=0.4,<0.5)
+Requires-Dist: readchar (>=4.0.0,<5.0.0)
+Requires-Dist: rich (>=13.9.0,<14.0.0)
+Description-Content-Type: text/markdown
+
+# ohmygod - CLI Tool Powered by Buddha
+
+### Set up with Poetry
+
+If poetry is not installed, follow [this installation steps](https://python-poetry.org/docs/).
+
+```bash
+> poetry install --no-dev
+> poetry shell
+> python3 -m example
+```
+
+### Set up with PIP
+
+```bash
+> # You may skip following:
+> poetry export -f requirements.txt > requirements.txt
+
+> python3 -m venv .venv
+> source ./.venv/bin/activate
+> python3 -m pip install -r requirements.txt
+> python3 -m example
+```
+
