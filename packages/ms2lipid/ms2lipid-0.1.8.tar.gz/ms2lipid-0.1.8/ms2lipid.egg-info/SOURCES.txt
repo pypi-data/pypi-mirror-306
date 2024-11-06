@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+ms2lipid/__init__.py
+ms2lipid/ms2lipid.py
+ms2lipid.egg-info/PKG-INFO
+ms2lipid.egg-info/SOURCES.txt
+ms2lipid.egg-info/dependency_links.txt
+ms2lipid.egg-info/requires.txt
+ms2lipid.egg-info/top_level.txt
+tests/test_ms2lipid.py

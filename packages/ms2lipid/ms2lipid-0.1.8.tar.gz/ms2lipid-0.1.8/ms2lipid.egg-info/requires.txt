@@ -1,0 +1,8 @@
+numpy
+pandas
+tensorflow
+keras
+xgboost
+scikit-learn
+joblib
+zenodo-get

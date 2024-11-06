@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ms2lipid"
+version = "0.1.8"
+authors = [
+  { name="Nami Sakamoto", email="123930464+NamiSakamoto@users.noreply.github.com" },
+]
+description = "ms2lipid is a Python library for predicted lipid class by using ms2 spectrum."
+readme = "README.md"
+requires-python = ">=3.9, <3.13"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "tensorflow",
+  "keras",
+  "xgboost",
+  "scikit-learn",
+  "joblib",
+  "zenodo-get"
+]
+
+[project.urls]
+Homepage = "https://github.com/systemsomicslab/ms2lipid"
+Issues = "https://github.com/systemsomicslab/ms2lipid/issues"
