@@ -1,0 +1,12 @@
+ipfs_accelerate_py/__init__.py,sha256=2518jYzHfGjPykXequJUvMFtvlNhznMosaO8WYLP0Ac,726
+ipfs_accelerate_py/config.py,sha256=CVE_g_U28sYvk5F8KYUMIsbaZYqUaZzbve_MmvSx0PY,3700
+ipfs_accelerate_py/endpoints.py,sha256=F1oaJHRpECuS14Qlm4-Wy4qD7yAJLQwwg62qKYpOJFg,253
+ipfs_accelerate_py/install_depends.py,sha256=AA2E4AdCkkFVB4SJ0--tYhXRBkB266wggTN1UBHZvxI,52465
+ipfs_accelerate_py/ipfs_accelerate.py,sha256=42iNEWcP8aKja795t4kcHeBylUgzxPwEVDz5JlQx61g,44783
+ipfs_accelerate_py/test_backend.py,sha256=RRC7Rj8buMiFjHAun5PrS-yxTc8dO2SrEEYFk_WBa3w,320
+ipfs_accelerate_py/test_ipfs_accelerate.py,sha256=G_GsPxSO8gszAm8nIxb4t6P53CHcGufjfr8c_-9b7DE,6973
+ipfs_accelerate_py-0.0.13.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+ipfs_accelerate_py-0.0.13.dist-info/METADATA,sha256=EkAqAHWkZAKB8H46OrLsx-vQoW-r3iDhlgfL_2-t8Jw,2707
+ipfs_accelerate_py-0.0.13.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+ipfs_accelerate_py-0.0.13.dist-info/top_level.txt,sha256=vqmlBDwwJ7ufc1r70wHjjqvuxEiR07EeacDwpbFrvEQ,19
+ipfs_accelerate_py-0.0.13.dist-info/RECORD,,
