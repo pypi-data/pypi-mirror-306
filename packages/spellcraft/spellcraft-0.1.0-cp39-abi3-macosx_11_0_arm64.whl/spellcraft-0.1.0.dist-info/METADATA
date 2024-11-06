@@ -1,0 +1,53 @@
+Metadata-Version: 2.3
+Name: spellcraft
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: pytest >=7.0 ; extra == 'dev'
+Requires-Dist: maturin >=1.7, <2.0 ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Provides-Extra: dev
+License-File: LICENSE
+Summary: spellcraft is a helper library containing useful functions and spells, primarily designed for use by Dataclass Wizard.
+Keywords: string,case,camel,snake,unicode
+Author-email: rnag <me@ritviknag.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: homepage, https://github.com/rnag/spellcraft
+Project-URL: documentation, https://rnag.github.io/spellcraft/
+Project-URL: repository, https://github.com/rnag/spellcraft
+Project-URL: changelog, https://github.com/rnag/spellcraft/blob/main/CHANGELOG.md
+
+# PySpellCraft
+
+`spellcraft` is a helper library that contains useful functions and "spells," primarily designed for use with [Dataclass Wizard].
+
+This library exists to provide case conversion between common cases like
+CamelCase and snake_case. It is intended to be unicode aware, internally
+consistent, and reasonably well performing.
+
+[Dataclass Wizard]: https://dataclass-wizard.readthedocs.io/
+
+## Cases contained in this library:
+
+1. UpperCamelCase
+2. lowerCamelCase
+3. snake_case
+4. kebab-case
+5. SHOUTY_SNAKE_CASE
+6. Title Case
+7. SHOUTY-KEBAB-CASE
+8. Train-Case
+
+## License
+
+`spellcraft` is distributed under the terms of the MIT License.
+
+See the LICENSE file for full details.
+
+> Copyright (c) 2015 The Rust Project Developers<br>
+> Copyright (c) 2022 Kevin Heavey<br>
+> Copyright (c) 2024 Ritvik Nag
+
