@@ -1,0 +1,13 @@
+graphviz
+matplotlib
+numpy
+nibabel
+opencv-python
+pydicom
+pynetdicom
+rt_utils
+scikit-image
+scipy
+SimpleITK
+tqdm
+xmltodict
