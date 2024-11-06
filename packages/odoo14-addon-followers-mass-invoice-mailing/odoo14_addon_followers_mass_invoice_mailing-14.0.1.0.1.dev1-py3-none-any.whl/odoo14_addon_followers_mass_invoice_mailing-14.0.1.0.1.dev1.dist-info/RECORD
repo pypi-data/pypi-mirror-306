@@ -1,0 +1,10 @@
+odoo/addons/followers_mass_invoice_mailing/README.rst,sha256=6M1E5AJyeJL0q38lBW4PVbEN9mL60gaH2LLsF0QRQW4,1709
+odoo/addons/followers_mass_invoice_mailing/__init__.py,sha256=W6WCaq665vQwjTbvCzwfTWpsSGmZ5tnCgD9lMSouVms,163
+odoo/addons/followers_mass_invoice_mailing/__manifest__.py,sha256=CbvcVgA0gbTohBB-dxwKQxGz3WLAwUfgXeQLLmZFPtY,566
+odoo/addons/followers_mass_invoice_mailing/models/__init__.py,sha256=9DEOHf6RZUvGdSw1Pg4kH9VBjH3R0Rr5H9Lr7PWQMgQ,177
+odoo/addons/followers_mass_invoice_mailing/models/account_invoice_send.py,sha256=utqVMi9l_TtJka-UIfIgQSrk6hg_Eu8ls1hDz9k-ukk,2325
+odoo/addons/followers_mass_invoice_mailing/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo14_addon_followers_mass_invoice_mailing-14.0.1.0.1.dev1.dist-info/METADATA,sha256=6wW1R-uXc9lU6kyHh2kC7RwxdXKM1m1Xz7rubpdGCYI,2250
+odoo14_addon_followers_mass_invoice_mailing-14.0.1.0.1.dev1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo14_addon_followers_mass_invoice_mailing-14.0.1.0.1.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_followers_mass_invoice_mailing-14.0.1.0.1.dev1.dist-info/RECORD,,
