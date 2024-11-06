@@ -1,0 +1,3 @@
+[console_scripts]
+architecture_checker = architecture_checker.main:main
+
