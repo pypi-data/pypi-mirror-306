@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: wvmos
+Version: 1.0
+Summary: This package is written for MOS score prediction based on fine-tuned wav2vec2.0 model
+Home-page: https://github.com/AndreevP/wvmos
+Author: Pavel Andreev
+Author-email: andreev.pk@phystech.edu
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: librosa
+Requires-Dist: torch>=1.7.0
+Requires-Dist: transformers>=4.12.5
+Requires-Dist: pytorch-lightning>=1.5.5
+
+# WV-MOS
+MOS score prediction by fine-tuned wav2vec2.0 model
+
+**Keywords:** MOS-Net, MB-Net, PESQ, STOI, speech quality
+
+## Getting started
+The package installation was tested with python3.9
+
+```bash
+pip install git+https://github.com/AndreevP/wvmos
+```
+## Inference
+
+```python
+from wvmos import get_wvmos
+model = get_wvmos(cuda=True)
+
+mos = model.calculate_one("path/to/wav/file") # infer MOS score for one audio 
+
+mos = model.calculate_dir("path/to/dir/with/wav/files", mean=True) # infer average MOS score across .wav files in directory
+```
+
+## Citation and Acknowledgment
+This work was done for the deep learning course in Skolteh university by Pavel Andreev, Nikolay Patakin, Oleg Desheulin, Alexander Kagan and Arthur Bulanbaev.
+More details are described in paper https://arxiv.org/abs/2203.13086
+
