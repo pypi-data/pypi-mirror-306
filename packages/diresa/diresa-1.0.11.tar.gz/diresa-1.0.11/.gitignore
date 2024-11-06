@@ -1,0 +1,7 @@
+__pycache__/
+.*
+dist/
+docs/_build
+*.bak
+make.bat
+Makefile
