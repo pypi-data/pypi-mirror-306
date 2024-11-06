@@ -1,0 +1,3 @@
+[console_scripts]
+p2p = piyathon.p2p:main
+piyathon = piyathon.piyathon:main
