@@ -1,0 +1,2 @@
+[colcon_core.verb]
+lcov-result = colcon_lcov_result.verb.lcov_result:LcovResultVerb
