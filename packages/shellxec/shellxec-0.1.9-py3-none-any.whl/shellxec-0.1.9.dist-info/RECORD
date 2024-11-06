@@ -1,0 +1,9 @@
+shellxec/__init__.py,sha256=yFgsKU7ys8QrGaz3soQBdqc-iGu919VeovaYi2OR5YQ,149
+shellxec/_core/__init__.py,sha256=3qLwjTmz9xfeDeNZZtae-iR3JliFuEowzASVMvJ9lxA,177
+shellxec/_core/_core.py,sha256=cTDsm72j-iXo-5qxBrmzeRheg1LYyar6Xzio-o0f9AY,2875
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_shellxec.py,sha256=njn2ksETCHM31z7DLE6jKBPurT2ckIKWQ7lQ5dnG28I,1047
+shellxec-0.1.9.dist-info/METADATA,sha256=62dpPjyiXwwLn7Nvq-3CqeKjUkotdO5HNgGTPjpRNhs,3217
+shellxec-0.1.9.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+shellxec-0.1.9.dist-info/top_level.txt,sha256=moFfzsJbDSM2KauaJcQgwfds63NdViqhi2QPL-Xb0wE,14
+shellxec-0.1.9.dist-info/RECORD,,
