@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: aigdb
+Version: 0.1.0
+Summary: A debugging tool for AI applications.
+Author-email: Wei-Lin Chiang <weichiang@berkeley.edu>
+Requires-Python: >=3.7

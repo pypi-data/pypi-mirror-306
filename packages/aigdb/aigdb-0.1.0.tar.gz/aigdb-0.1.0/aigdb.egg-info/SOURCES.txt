@@ -1,0 +1,6 @@
+debugger.py
+pyproject.toml
+aigdb.egg-info/PKG-INFO
+aigdb.egg-info/SOURCES.txt
+aigdb.egg-info/dependency_links.txt
+aigdb.egg-info/top_level.txt
