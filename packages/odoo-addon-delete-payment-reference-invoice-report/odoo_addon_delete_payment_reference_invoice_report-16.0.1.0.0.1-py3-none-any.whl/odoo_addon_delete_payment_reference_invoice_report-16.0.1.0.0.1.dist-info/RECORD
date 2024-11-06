@@ -1,0 +1,8 @@
+odoo/addons/delete_payment_reference_invoice_report/README.rst,sha256=vHla4K2JVAsCC6ITzZIkePJAx8ClW5elqo0hZkZz7Zk,1689
+odoo/addons/delete_payment_reference_invoice_report/__manifest__.py,sha256=x80wAQbXJ0_LFbcJWXqX8aCmVPC4aDwgOuHUL7NKxyM,653
+odoo/addons/delete_payment_reference_invoice_report/report/report_invoice.xml,sha256=_Uzk5tRtNnzGaa7Xh0P_xS5sdLXIL1XMpAdJHQDaiHs,601
+odoo/addons/delete_payment_reference_invoice_report/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo_addon_delete_payment_reference_invoice_report-16.0.1.0.0.1.dist-info/METADATA,sha256=WQiboy3-g2nKLZFa7CM1Z_q_FnVy3Rj0U3ZrrmcbGjs,2274
+odoo_addon_delete_payment_reference_invoice_report-16.0.1.0.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo_addon_delete_payment_reference_invoice_report-16.0.1.0.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_delete_payment_reference_invoice_report-16.0.1.0.0.1.dist-info/RECORD,,
