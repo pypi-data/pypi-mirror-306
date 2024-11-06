@@ -1,0 +1,7 @@
+numpy
+chess
+chess-notation
+chess-utils
+haskellian
+editdistance
+lcz
