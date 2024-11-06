@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+import "SiLAFramework.proto";
+
+package sila2.nl.fontys.robotlab.labware.labware.v1;
+
+/* This feature allows you to manipulate the labware in the OT-2 and OT-Flex */
+service Labware {
+  /* This method registers labware to a specified position for the current session */
+  rpc RegisterLabware (sila2.nl.fontys.robotlab.labware.labware.v1.RegisterLabware_Parameters) returns (sila2.nl.fontys.robotlab.labware.labware.v1.RegisterLabware_Responses) {}
+  /* This method deletes labware without removing it, Only use this method if you are removing it yourself and make sure to not execute any commands while moving it. */
+  rpc DeleteLabware (sila2.nl.fontys.robotlab.labware.labware.v1.DeleteLabware_Parameters) returns (sila2.nl.fontys.robotlab.labware.labware.v1.DeleteLabware_Responses) {}
+  /* This method deletes labware without removing it, Only use this method if you are removing it yourself and make sure to not execute any commands while moving it. */
+  rpc MoveLabware (sila2.nl.fontys.robotlab.labware.labware.v1.MoveLabware_Parameters) returns (sila2.nl.fontys.robotlab.labware.labware.v1.MoveLabware_Responses) {}
+}
+
+/* Parameters for RegisterLabware */
+message RegisterLabware_Parameters {
+  sila2.org.silastandard.String SessionIdentifier = 1;  /* UUID identifier for the current session */
+  sila2.org.silastandard.String LoadName = 2;  /* The name of the standard type of labware to register (https://labware.opentrons.com) */
+  sila2.org.silastandard.String Location = 3;  /* Location for labware, modules, adapters, etc. */
+}
+
+/* Responses of RegisterLabware */
+message RegisterLabware_Responses {
+  sila2.org.silastandard.String ItemIdentifier = 1;  /* UUID identifier for referenceable labware, modules, adapters, etc. */
+}
+
+/* Parameters for DeleteLabware */
+message DeleteLabware_Parameters {
+  sila2.org.silastandard.String SessionIdentifier = 1;  /* UUID identifier for the current session */
+  sila2.org.silastandard.String Identifier = 2;  /* Used to determine what labware to remove. This has to be an Item Identifier or a Location in the format used in other commands */
+}
+
+/* Responses of DeleteLabware */
+message DeleteLabware_Responses {
+}
+
+/* Parameters for MoveLabware */
+message MoveLabware_Parameters {
+  sila2.org.silastandard.String SessionIdentifier = 1;  /* UUID identifier for the current session */
+  sila2.org.silastandard.String ItemIdentifier = 2;  /* UUID identifier for referencable labware, modules, adapters, etc. */
+  sila2.org.silastandard.String Location = 3;  /* Location for labware, modules, adapters, etc. */
+}
+
+/* Responses of MoveLabware */
+message MoveLabware_Responses {
+}
