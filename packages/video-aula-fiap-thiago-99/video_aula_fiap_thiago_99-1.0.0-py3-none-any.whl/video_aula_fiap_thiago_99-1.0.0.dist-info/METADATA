@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: video-aula-fiap-thiago-99
+Version: 1.0.0
+Summary: Descricao da sua lib cursofiap
+Home-page: https://github.com/thiagolazarin/cursofiap.git
+Author: seu nome
+Author-email: thiagolazarin08@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# Cursofiap
+
+A simple example library.
+
+## Installation
+
+```sh
+pip install cursofiap
+```
+
+## Usage
+
+```python
+from cursofiap import hello_world
+
+print(hello_world())
+```
