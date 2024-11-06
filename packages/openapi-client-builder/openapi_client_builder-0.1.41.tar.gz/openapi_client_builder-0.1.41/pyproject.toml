@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "openapi-client-builder"
+version = "0.1.41"
+description = "A tool that automatically generates client-side APIs based on the OpenAPI specification. Simplify the process of interacting with APIs by creating client libraries from OpenAPI definitions, enabling seamless integration and communication with backend services. The tool generates TypeScript request files and currently supports Nuxt framework, with plans to extend support to SvelteKit in the future."
+authors = ["AnsonCar <anson1tsang@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+api-cli = "openapi_client_builder.main:app"
+openapi-client-builder = "openapi_client_builder.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.12.5"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
