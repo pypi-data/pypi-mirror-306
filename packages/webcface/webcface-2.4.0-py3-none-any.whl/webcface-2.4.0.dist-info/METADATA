@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: webcface
+Version: 2.4.0
+Summary: WebCFace Client for Python
+Home-page: https://github.com/na-trium-144/webcface-python
+License: MIT
+Author: na-trium-144
+Author-email: 100704180+na-trium-144@users.noreply.github.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: importlib-metadata (>=1) ; python_version < "3.8"
+Requires-Dist: u-msgpack-python (>=2,<3)
+Requires-Dist: websocket-client (>=1,<2)
+Project-URL: Documentation, https://na-trium-144.github.io/webcface-python/
+Project-URL: Repository, https://github.com/na-trium-144/webcface-python
+Description-Content-Type: text/markdown
+
+# webcface-python
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/webcface)
+[![PyPI - Version](https://img.shields.io/pypi/v/webcface)](https://pypi.org/project/webcface/)
+
+[WebCFace](https://github.com/na-trium-144/webcface) client library written in pure python.
+
+Please refer to the WebCFace repository for how to use it. To use this library, you need WebCFace server separately.
+
+## Installation
+
+Since webcface-python 2.3, Python >=3.6 is supported.
+(Note that older version of webcface-python requires Python >=3.8.)
+
+From PyPI:
+
+```sh
+pip install webcface
+```
+
+Or from GitHub release:
+
+```sh
+pip install https://github.com/na-trium-144/webcface-python/releases/download/v2.4.0/webcface-2.4.0-py3-none-any.whl
+```
+
+You can also install from source, but it may fail on older python that Poetry dropped support.
+
+```sh
+git clone https://github.com/na-trium-144/webcface-python
+cd webcface-python
+pip install .
+```
+
+## API Documentation
+[API Reference](https://na-trium-144.github.io/webcface-python/)
+
+See also [WebCFace C++ documentation](https://na-trium-144.github.io/webcface/) (Currently Japanese only), which has similar API.
+
