@@ -1,0 +1,3 @@
+[console_scripts]
+positron-job-runner = positron_job_runner.cli:app
+robbie = positron_cli.cli:app
