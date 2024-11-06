@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: htmf-format
+Version: 0.1.1
+Summary: Format HTML in Python f-strings
+Author: jkmnt
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: click >= 8.0.0
+Requires-Dist: cssbeautifier >=1.15.1
+Requires-Dist: jsbeautifier >=1.15.1
+Project-URL: Documentation, https://jkmnt.github.com/htmf
+Project-URL: Source, https://github.com/jkmnt/htmf
+
+# htmf-format
+
+Beautify HTML, JS, CSS embedded in Python f-strings
+
+---
+Read the [documentation](https://jkmnt.github.io/htmf)
+

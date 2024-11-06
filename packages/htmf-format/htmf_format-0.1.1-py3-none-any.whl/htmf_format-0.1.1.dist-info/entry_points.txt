@@ -1,0 +1,3 @@
+[console_scripts]
+htmf-format=htmf_format:main
+
