@@ -1,0 +1,24 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "hilti_profis"
+requires-python = ">=3.11.0"
+authors = [{name = "Arun Kishore", email = "pypi@rpakishore.co.in"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"]
+dynamic = ["version", "description"]
+dependencies = [
+    "xmltodict"       #credentials.py
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipykernel",
+    "pytest"
+]
+
+[project.urls]
+Home = "https://github.com/rpakishore/Hilti-Profis"
