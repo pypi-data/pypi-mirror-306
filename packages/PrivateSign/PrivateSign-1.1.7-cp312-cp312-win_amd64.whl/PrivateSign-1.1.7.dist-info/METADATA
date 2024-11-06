@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: PrivateSign
+Version: 1.1.7
+Summary: A secure sign PDF files SDK
+Author: Brian
+Author-email: brian.hoag@paperlogic.co.jp
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: AuroraSign
+
