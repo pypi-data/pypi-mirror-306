@@ -1,0 +1,29 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='pineappledb',
+    version='0.1.6',
+    author='Ciber Cleaner',
+    author_email='tuyishimireemmanuel24@gmail.com',
+    description='A SQLite database browser and management tool.',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/millbox5/pineapple.git',
+    packages=find_packages(),
+    include_package_data=True,
+    install_requires=[
+        'Flask',
+        'Flask-Cors',
+        'Peewee',
+        'Werkzeug',
+        'pygments',
+        'markupsafe'
+    ],
+
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
+)
