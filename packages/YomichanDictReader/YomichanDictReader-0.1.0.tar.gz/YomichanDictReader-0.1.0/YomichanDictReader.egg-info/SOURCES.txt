@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+YomichanDictReader.egg-info/PKG-INFO
+YomichanDictReader.egg-info/SOURCES.txt
+YomichanDictReader.egg-info/dependency_links.txt
+YomichanDictReader.egg-info/requires.txt
+YomichanDictReader.egg-info/top_level.txt
