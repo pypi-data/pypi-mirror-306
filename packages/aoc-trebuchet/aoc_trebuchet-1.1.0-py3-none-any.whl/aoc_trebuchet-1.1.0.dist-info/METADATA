@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: aoc-trebuchet
+Version: 1.1.0
+Summary: Python implementation of Advent of Code 2023 Day 1
+License: MIT
+Author: TonyGrif
+Author-email: TonyGriffin2000@gmail.com
+Maintainer: TonyGrif
+Maintainer-email: TonyGriffin2000@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Description-Content-Type: text/markdown
+
+# Trebuchet
+Python implementation of day 1 of [Advent of Code](https://adventofcode.com/2023/day/1) (2023)
+
+## Requirements
+* [Python 3.8+](https://www.python.org/)
+
+## Running Instructions
+This program can be run with the following command: `./main.py [text file]` in which text file contains
+a collection of lines to parse through for integers. The first and last integer found will then be
+concatenated. All the final integers from each line will then be added together and the result
+written to standard out. 
+
+If this program is run without arguments, the following error message will be outputted: 
+`Usage: main.py [OPTIONS] INPUT_FILE`
+
+## Sample Execution
+When this program is run with `./main.py resources/example.txt`, the following
+output is generated:
+`The result is 281`
+
+## Prompt Answer
+The answer for part one is **55538**. \
+The answer for part two is **54875**.
+
