@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+recursive-include *.py
+recursive-include *.html
+recursive-include *.css
+recursive-include *.js

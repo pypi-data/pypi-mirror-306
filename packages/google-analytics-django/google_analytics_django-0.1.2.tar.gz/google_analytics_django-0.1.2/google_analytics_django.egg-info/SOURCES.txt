@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+google_analytics_django.egg-info/PKG-INFO
+google_analytics_django.egg-info/SOURCES.txt
+google_analytics_django.egg-info/dependency_links.txt
+google_analytics_django.egg-info/requires.txt
+google_analytics_django.egg-info/top_level.txt
+templatetags/__init__.py
+templatetags/google_analytics_tags.py
+tests/__init__.py
+tests/test_middleware.py
+tests/test_templatetags.py
+tests/test_utils.py
