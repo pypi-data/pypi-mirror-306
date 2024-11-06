@@ -1,0 +1,10 @@
+pointofpresence/__init__.py,sha256=NGo5PpyxXSiAK67M1TmKlE-1Yc1BbTef_l600J_NZn4,259
+pointofpresence/client_base.py,sha256=gUwQDvZZARMZqwsKYVerv-4YjINLPjjBaobIjBmTpCA,1077
+pointofpresence/delete_method.py,sha256=d_H_-r7atcUK8ZN952N1MttOhRqm3nXK1Wbe-ZDK9tM,465
+pointofpresence/get_method.py,sha256=gStc0mH-kQ81crfi6TnwufimmLe7mikLjJSgL01fXac,512
+pointofpresence/post_method.py,sha256=AYC3f5raWIsrSMrd2DJbE_ecN9n115fDkNNSUIFXlSg,532
+pointofpresence-0.0.0.dist-info/LICENSE,sha256=mc6QTQMOVucGJ59rfU00yNAQmlcWNjINFQOW9A7AAoE,1077
+pointofpresence-0.0.0.dist-info/METADATA,sha256=1VkJ0wGTcoWOmnxoofFpACZlqRZa8RPub-TMyzAe1Fo,2568
+pointofpresence-0.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pointofpresence-0.0.0.dist-info/top_level.txt,sha256=Xba4oNv7P0HAZ0EwGR1BHGcG6dOHreX4rO9k_K7X5qA,16
+pointofpresence-0.0.0.dist-info/RECORD,,
