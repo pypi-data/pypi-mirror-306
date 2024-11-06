@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: plotassist
+Version: 0.2
+Summary: A package for handling MATLAB data and working with Matplotlib plots
+Home-page: https://github.com/CalvinSprouse/plotassist
+Author: Calvin Sprouse
+Author-email: calvinsprouse@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+
+# Plot Assist
+
+A package for handling MATLAB data and labeling Matplotlib plots.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install my_package
+```
