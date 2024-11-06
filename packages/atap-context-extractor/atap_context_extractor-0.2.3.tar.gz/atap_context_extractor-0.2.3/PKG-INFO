@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: atap-context-extractor
+Version: 0.2.3
+Summary: A tool for extracting the context around searched text in a corpus
+Home-page: https://github.com/Australian-Text-Analytics-Platform/atap-context-extractor
+License: MIT
+Author: Hamish Croser
+Author-email: hamish.croser@sydney.edu.au
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: atap-corpus-loader (>=1.8.0,<1.9.0)
+Requires-Dist: panel (>=1.4,<2.0)
+Requires-Dist: regex (>=2024.9.11,<2024.10.0)
+Project-URL: Documentation, https://australian-text-analytics-platform.github.io/atap-context-extractor/DOCS.html
+Project-URL: Repository, https://github.com/Australian-Text-Analytics-Platform/atap-context-extractor
+Description-Content-Type: text/markdown
+
+# Context Extractor
+
+A tool for extracting the context around searched text in a corpus
+
+## Demo
+
+Click the button below to access a demo deployed on Binderhub
+
+[![Binder](https://binderhub.atap-binder.cloud.edu.au/badge_logo.svg)](https://binderhub.atap-binder.cloud.edu.au/v2/gh/Australian-Text-Analytics-Platform/atap-context-extractor/main?labpath=context-extractor.ipynb)
+
+## Documentation
+
+Documentation can be found [here](https://australian-text-analytics-platform.github.io/atap-context-extractor/DOCS.html)
+
+## Authors
+
+  - **Hamish Croser** - [h-croser](https://github.com/h-croser)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
