@@ -1,0 +1,6 @@
+about_resource: otelcol-contrib.exe.json
+date: 2024-08-01
+download_url: https://github.com/open-telemetry/opentelemetry-collector-releases/releases/download/v0.94.0/otelcol-contrib_0.94.0_windows_amd64.tar.gz
+notes: |
+ This was created by running this command.  Using jq make the file more compact, but still readable.
+ $ ./src/go_inspector/bin/GoReSym_lin  -no-functions ./otelcol-contrib.exe | jq --indent 1 . > tests/data/packages/otelcol-contrib.exe.json

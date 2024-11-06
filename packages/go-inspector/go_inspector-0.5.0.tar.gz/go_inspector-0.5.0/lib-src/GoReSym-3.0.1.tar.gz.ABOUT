@@ -1,0 +1,8 @@
+about_resource: GoReSym-3.0.1.tar.gz
+name: GoReSym
+version: 3.0.1
+download_url: https://github.com/mandiant/GoReSym/archive/refs/tags/v3.0.1.tar.gz
+package_url: pkg:github/mandiant/GoReSym@3.0.1
+copyright: Copyright (c) 2022 MANDIANT
+license_expression: mit
+license_text_file: GoReSym_lin.LICENSE

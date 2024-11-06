@@ -1,0 +1,2399 @@
+[
+  {
+    "type": "golang",
+    "namespace": "github.com/pingcap",
+    "name": "tidb",
+    "version": "7d16cc79e81bbf573124df3fd9351c26963f3e70",
+    "qualifiers": {},
+    "subpath": "cmd/tidb-server",
+    "primary_language": "Go",
+    "description": null,
+    "release_date": null,
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com.com/pingcap/tidb",
+    "download_url": null,
+    "size": null,
+    "sha1": null,
+    "md5": null,
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": "https://github.com.com/pingcap/tidb/issues",
+    "code_view_url": "https://github.com.com/pingcap/tidb",
+    "vcs_url": "git+https://github.com.com/pingcap/tidb.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+      "pkg:github/pingcap/tidb@7d16cc79e81bbf573124df3fd9351c26963f3e70"
+    ],
+    "file_references": [],
+    "is_private": false,
+    "is_virtual": false,
+    "extra_data": {
+      "build_info": {
+        "GoVersion": "go1.21.6",
+        "Path": "github.com/pingcap/tidb/cmd/tidb-server",
+        "Main": {
+          "Path": "github.com/pingcap/tidb",
+          "Version": "(devel)",
+          "Sum": "",
+          "Replace": null
+        },
+        "Settings": [
+          {
+            "Key": "-buildmode",
+            "Value": "exe"
+          },
+          {
+            "Key": "-compiler",
+            "Value": "gc"
+          },
+          {
+            "Key": "-ldflags",
+            "Value": "-X \"github.com/pingcap/tidb/pkg/parser/mysql.TiDBReleaseVersion=v7.5.1\" -X \"github.com/pingcap/tidb/pkg/util/versioninfo.TiDBBuildTS=2024-02-27 14:28:32\" -X \"github.com/pingcap/tidb/pkg/util/versioninfo.TiDBGitHash=7d16cc79e81bbf573124df3fd9351c26963f3e70\" -X \"github.com/pingcap/tidb/pkg/util/versioninfo.TiDBGitBranch=heads/refs/tags/v7.5.1\" -X \"github.com/pingcap/tidb/pkg/util/versioninfo.TiDBEdition=Community\" "
+          },
+          {
+            "Key": "-tags",
+            "Value": "codes"
+          },
+          {
+            "Key": "CGO_ENABLED",
+            "Value": "1"
+          },
+          {
+            "Key": "CGO_CFLAGS",
+            "Value": ""
+          },
+          {
+            "Key": "CGO_CPPFLAGS",
+            "Value": ""
+          },
+          {
+            "Key": "CGO_CXXFLAGS",
+            "Value": ""
+          },
+          {
+            "Key": "CGO_LDFLAGS",
+            "Value": ""
+          },
+          {
+            "Key": "GOARCH",
+            "Value": "amd64"
+          },
+          {
+            "Key": "GOOS",
+            "Value": "linux"
+          },
+          {
+            "Key": "GOAMD64",
+            "Value": "v1"
+          },
+          {
+            "Key": "vcs",
+            "Value": "git"
+          },
+          {
+            "Key": "vcs.revision",
+            "Value": "7d16cc79e81bbf573124df3fd9351c26963f3e70"
+          },
+          {
+            "Key": "vcs.time",
+            "Value": "2024-02-27T12:57:30Z"
+          },
+          {
+            "Key": "vcs.modified",
+            "Value": "false"
+          }
+        ]
+      },
+      "go_runtime_purl": "pkg:github/golang/go@go1.21.6"
+    },
+    "dependencies": [
+      {
+        "purl": "pkg:golang/cloud.google.com/go@v0.110.9",
+        "extracted_requirement": "v0.110.9",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:e7ITSqGFFk4rbz/JFIqZh3G4VEHguhAL4BQcFlWtU68="
+        }
+      },
+      {
+        "purl": "pkg:golang/cloud.google.com/go/compute/metadata@v0.2.3",
+        "extracted_requirement": "v0.2.3",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:mg4jlk7mCAj6xXp9UJ4fjI9VUI5rubuGBW5aJ7UnBMY="
+        }
+      },
+      {
+        "purl": "pkg:golang/cloud.google.com/go/iam@v1.1.4",
+        "extracted_requirement": "v1.1.4",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:K6n/GZHFTtEoKT5aUG3l9diPi0VduZNQ1PfdnpkkIFk="
+        }
+      },
+      {
+        "purl": "pkg:golang/cloud.google.com/go/storage@v1.30.1",
+        "extracted_requirement": "v1.30.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:uOdMxAs8HExqBlnLtnQyP0YkvbiDpdGShGKtx6U/oNM="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/azcore@v1.6.0",
+        "extracted_requirement": "v1.6.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:8kDqDngH+DmVBiCtIjCFTGa7MBnsIOkF9IccInFEbjk="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/azidentity@v1.1.0",
+        "extracted_requirement": "v1.1.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:QkAcEIAKbNL4KoFr4SathZPhDhF4mVwpBMFlYjyAqy8="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/internal@v1.3.0",
+        "extracted_requirement": "v1.3.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:sXr+ck84g/ZlZUOZiNELInmMgOsuGwdjjVkEIde0OtY="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/storage/azblob@v1.0.0",
+        "extracted_requirement": "v1.0.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:u/LLAOFgsMv7HmNL4Qufg58y+qElGOt5qv0z1mURkRY="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/Azure/go-ntlmssp@v0.0.0-20221128193559-754e69321358",
+        "extracted_requirement": "v0.0.0-20221128193559-754e69321358",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:mFRzDkZVAjdal+s7s0MwaRv9igoPqLRdzOLzw/8Xvq8="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/AzureAD/microsoft-authentication-library-for-go@v0.5.1",
+        "extracted_requirement": "v0.5.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:BWe8a+f/t+7KY7zH2mqygeUD0t8hNFXe08p1Pb3/jKE="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/BurntSushi/toml@v1.3.2",
+        "extracted_requirement": "v1.3.2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:o7IhLm0Msx3BaB+n3Ag7L8EVlByGnpq14C4YWiu/gL8="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/DataDog/zstd@v1.4.5",
+        "extracted_requirement": "v1.4.5",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:EndNeuB0l9syBZhut0wns3gV1hL8zX8LIu6ZiVHWLIQ="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/Masterminds/semver@v1.5.0",
+        "extracted_requirement": "v1.5.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:H65muMkzWKEuNDnfl9d70GUjFniHKHRbFPGBuZ3QEww="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/VividCortex/ewma@v1.2.0",
+        "extracted_requirement": "v1.2.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:f58SaIzcDXrSy3kWaHNvuJgJ3Nmz59Zji6XoJR/q1ow="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/acarl005/stripansi@v0.0.0-20180116102854-5a71ef0e047d",
+        "extracted_requirement": "v0.0.0-20180116102854-5a71ef0e047d",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:licZJFw2RwpHMqeKTCYkitsPqHNxTmd4SNR5r94FGM8="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/aliyun/alibaba-cloud-sdk-go@v1.61.1581",
+        "extracted_requirement": "v1.61.1581",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:Q/yk4z/cHUVZfgTqtD09qeYBxHwshQAjVRX73qs8UH0="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/apache/thrift@v0.13.1-0.20201008052519-daf620915714",
+        "extracted_requirement": "v0.13.1-0.20201008052519-daf620915714",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:Jz3KVLYY5+JO7rDiX0sAuRGtuv2vG01r17Y9nLMWNUw="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.259",
+        "extracted_requirement": "v1.44.259",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:7yDn1dcv4DZFMKpu+2exIH5O6ipNj9qXrKfdMUaIJwY="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/beorn7/perks@v1.0.1",
+        "extracted_requirement": "v1.0.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/blacktear23/go-proxyprotocol@v1.0.6",
+        "extracted_requirement": "v1.0.6",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:eTt6UMpEnq59NjON49b3Cay8Dm0sCs1nDliwgkyEsRM="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/carlmjohnson/flagext@v0.21.0",
+        "extracted_requirement": "v0.21.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:/c4uK3ie786Z7caXLcIMvePNSSiH3bQVGDvmGLMme60="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/cespare/xxhash/v2@v2.2.0",
+        "extracted_requirement": "v2.2.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:DC2CZ1Ep5Y4k3ZQ899DldepgrayRUGE6BBZ/cd9Cj44="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/cheggaaa/pb/v3@v3.0.8",
+        "extracted_requirement": "v3.0.8",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:bC8oemdChbke2FHIIGy9mn4DPJ2caZYQnfbRqwmdCoA="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/cloudfoundry/gosigar@v1.3.6",
+        "extracted_requirement": "v1.3.6",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:gIc08FbB3QPb+nAQhINIK/qhf5REKkY0FTGgRGXkcVc="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/cockroachdb/errors@v1.8.1",
+        "extracted_requirement": "v1.8.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:A5+txlVZfOqFBDa4mGz2bUWSp0aHElvHX2bKkdbQu+Y="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/cockroachdb/logtags@v0.0.0-20190617123548-eb05cc24525f",
+        "extracted_requirement": "v0.0.0-20190617123548-eb05cc24525f",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:o/kfcElHqOiXqcou5a3rIlMc7oJbMQkeLk0VQJ7zgqY="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/cockroachdb/pebble@v0.0.0-20220415182917-06c9d3be25b3",
+        "extracted_requirement": "v0.0.0-20220415182917-06c9d3be25b3",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:snjwkhKc/ZtYIC/hg6UoT5PrhXcZmCsaB+z0bonMDcU="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/cockroachdb/redact@v1.0.8",
+        "extracted_requirement": "v1.0.8",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:8QG/764wK+vmEYoOlfobpe12EQcS81ukx/a4hdVMxNw="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/cockroachdb/sentry-go@v0.6.1-cockroachdb.2",
+        "extracted_requirement": "v0.6.1-cockroachdb.2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:IKgmqgMQlVJIZj19CdocBeSfSaiCbEBZGKODaixqtHM="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/coocood/bbloom@v0.0.0-20190830030839-58deb6228d64",
+        "extracted_requirement": "v0.0.0-20190830030839-58deb6228d64",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:W1SHiII3e0jVwvaQFglwu3kS9NLxOeTpvik7MbKCyuQ="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/coocood/freecache@v1.2.1",
+        "extracted_requirement": "v1.2.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:/v1CqMq45NFH9mp/Pt142reundeBM0dVUD3osQBeu/U="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/coocood/rtutil@v0.0.0-20190304133409-c84515f646f2",
+        "extracted_requirement": "v0.0.0-20190304133409-c84515f646f2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:NnLfQ77q0G4k2Of2c1ceQ0ec6MkLQyDp+IGdVM0D8XM="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/coreos/go-semver@v0.3.1",
+        "extracted_requirement": "v0.3.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:yi21YpKnrx1gt5R+la8n5WgS0kCrsPp33dmEyHReZr4="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/coreos/go-systemd/v22@v22.5.0",
+        "extracted_requirement": "v22.5.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:RrqgGjYQKalulkV8NGVIfkXQf6YYmOyiJKk8iXXhfZs="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/cznic/mathutil@v0.0.0-20181122101859-297441e03548",
+        "extracted_requirement": "v0.0.0-20181122101859-297441e03548",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:iwZdTE0PVqJCos1vaoKsclOGD3ADKpshg3SRtYBbwso="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/danjacques/gofslock@v0.0.0-20191023191349-0a45f885bc37",
+        "extracted_requirement": "v0.0.0-20191023191349-0a45f885bc37",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:X6mKGhCFOxrKeeHAjv/3UvT6e5RRxW6wRdlqlV6/H4w="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "extracted_requirement": "v1.1.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/dgraph-io/ristretto@v0.1.1",
+        "extracted_requirement": "v0.1.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:6CWw5tJNgpegArSHpNHJKldNeq03FQCwYvfMVWajOK8="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/dgryski/go-farm@v0.0.0-20200201041132-a6ae2369ad13",
+        "extracted_requirement": "v0.0.0-20200201041132-a6ae2369ad13",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:fAjc9m62+UWV/WAFKLNi6ZS0675eEUC9y3AlwSbQu1Y="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/docker/go-units@v0.4.0",
+        "extracted_requirement": "v0.4.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:3uh0PgVws3nIA0Q+MwDC8yjEPf9zjRfZZWXZYDct3Tw="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/dolthub/maphash@v0.1.0",
+        "extracted_requirement": "v0.1.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:bsQ7JsF4FkkWyrP3oCnFJgrCUAFbFf3kOl4L/QxPDyQ="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/dolthub/swiss@v0.2.1",
+        "extracted_requirement": "v0.2.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:gs2osYs5SJkAaH5/ggVJqXQxRXtWshF6uE0lgR/Y3Gw="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/dustin/go-humanize@v1.0.0",
+        "extracted_requirement": "v1.0.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4zYo="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/emirpasic/gods@v1.18.1",
+        "extracted_requirement": "v1.18.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:FXtiHYKDGKCW2KzwZKx0iC0PQmdlorYgdFG9jPXJ1Bc="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/fatih/color@v1.15.0",
+        "extracted_requirement": "v1.15.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:kOqh6YHBtK8aywxGerMG2Eq3H6Qgoqeo13Bk2Mv/nBs="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/go-asn1-ber/asn1-ber@v1.5.4",
+        "extracted_requirement": "v1.5.4",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:vXT6d/FNDiELJnLb6hGNa309LMsrCoYFvpwHDF0+Y1A="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/YangKeao/ldap/v3@v3.4.5-0.20230421065457-369a3bab1117",
+        "extracted_requirement": "v3.4.5-0.20230421065457-369a3bab1117",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:+OqGGFc2YHFd82aSHmjlILVt1t4JWJjrNIfV8cVEPow=",
+          "replacing": {
+            "path": "github.com/go-ldap/ldap/v3",
+            "version": "v3.4.4",
+            "go_sum": null,
+            "replacing": null
+          }
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/go-logr/logr@v1.2.3",
+        "extracted_requirement": "v1.2.3",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:2DntVwHkVopvECVRSlL5PSo9eG+cAkDCuckLubN+rq0="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/go-sql-driver/mysql@v1.7.1",
+        "extracted_requirement": "v1.7.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:lUIinVbN1DY0xBg0eMOzmmtGoHwWBbvnWubQUrtU8EI="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/gogo/protobuf@v1.3.2",
+        "extracted_requirement": "v1.3.2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/golang-jwt/jwt@v3.2.1%2Bincompatible",
+        "extracted_requirement": "v3.2.1+incompatible",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:73Z+4BJcrTC+KczS6WvTPvRGOp1WmfEP4Q1lOd9Z/+c="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/golang/glog@v1.1.2",
+        "extracted_requirement": "v1.1.2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:DVjP2PbBOzHyzA+dn3WhHIq4NdVu3Q+pvivFICf/7fo="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da",
+        "extracted_requirement": "v0.0.0-20210331224755-41bb18bfe9da",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:oI5xCqsCo564l8iNU+DwB5epxmsaqB+rhGL0m5jtYqE="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/golang/protobuf@v1.5.3",
+        "extracted_requirement": "v1.5.3",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:KhyjKVUg7Usr/dYsdSqoFveMYd5ko72D+zANwlG1mmg="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/golang/snappy@v0.0.4",
+        "extracted_requirement": "v0.0.4",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:yAGX7huGHXlcLOEtBnF4w7FQwA26wojNCwOYAEhLjQM="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/google/btree@v1.1.2",
+        "extracted_requirement": "v1.1.2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:xf4v41cLI2Z6FxbKm+8Bu+m8ifhj15JuZ9sa0jZCMUU="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/google/gofuzz@v1.1.0",
+        "extracted_requirement": "v1.1.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:Hsa8mG0dQ46ij8Sl2AYJDUv1oA9/d6Vk+3LG99Oe02g="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/google/pprof@v0.0.0-20211122183932-1daafda22083",
+        "extracted_requirement": "v0.0.0-20211122183932-1daafda22083",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:c8EUapQFi+kjzedr4c6WqbwMdmB95+oDBWZ5XFHFYxY="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/google/s2a-go@v0.1.4",
+        "extracted_requirement": "v0.1.4",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:1kZ/sQM3srePvKs3tXAvQzo66XfcReoqFpIpIccE7Oc="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/google/uuid@v1.3.1",
+        "extracted_requirement": "v1.3.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:KjJaJ9iWZ3jOFZIf1Lqf4laDRCasjl0BCmnEGxkdLb4="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/googleapis/enterprise-certificate-proxy@v0.2.4",
+        "extracted_requirement": "v0.2.4",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:uGy6JWR/uMIILU8wbf+OkstIrNiMjGpEIyhx8f6W7s4="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/googleapis/gax-go/v2@v2.12.0",
+        "extracted_requirement": "v2.12.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:A+gCJKdRfqXkr+BIRGtZLibNXf0m1f9E4HG56etFpas="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/gorilla/mux@v1.8.0",
+        "extracted_requirement": "v1.8.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/grpc-ecosystem/go-grpc-middleware@v1.3.0",
+        "extracted_requirement": "v1.3.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:+9834+KizmvFV7pXQGSXQTsaWhq2GjuNUt0aUU0YBYw="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/iancoleman/strcase@v0.2.0",
+        "extracted_requirement": "v0.2.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:05I4QRnGpI0m37iZQRuskXh+w77mr6Z41lwQzuHLwW0="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/influxdata/tdigest@v0.0.1",
+        "extracted_requirement": "v0.0.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:XpFptwYmnEKUqmkcDjrzffswZ3nvNeevbUSLPP/ZzIY="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/jedib0t/go-pretty/v6@v6.2.2",
+        "extracted_requirement": "v6.2.2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:o3McN0rQ4X+IU+HduppSp9TwRdGLRW2rhJXy9CJaCRw="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/jellydator/ttlcache/v3@v3.0.1",
+        "extracted_requirement": "v3.0.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:cHgCSMS7TdQcoprXnWUptJZzyFsqs18Lt8VVhRuZYVU="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/jmespath/go-jmespath@v0.4.0",
+        "extracted_requirement": "v0.4.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:BEgLn5cpjn8UN1mAw4NjwDrS35OdebyEtFe+9YPoQUg="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/joho/sqltocsv@v0.0.0-20210428211105-a6d6801d59df",
+        "extracted_requirement": "v0.0.0-20210428211105-a6d6801d59df",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:Zrb0IbuLOGHL7nrO2WrcuNWgDTlzFv3zY69QMx4ggQE="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/json-iterator/go@v1.1.12",
+        "extracted_requirement": "v1.1.12",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/klauspost/compress@v1.17.1",
+        "extracted_requirement": "v1.17.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:NE3C767s2ak2bweCZo3+rdP4U/HoyVXLv/X9f2gPS5g="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/klauspost/cpuid@v1.3.1",
+        "extracted_requirement": "v1.3.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:5JNjFYYQrZeKRJ0734q51WCEEn2huer72Dc7K+R/b6s="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/kr/pretty@v0.3.1",
+        "extracted_requirement": "v0.3.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/kr/text@v0.2.0",
+        "extracted_requirement": "v0.2.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:5Nx0Ya0ZqY2ygV366QzturHI13Jq95ApcVaJBhpS+AY="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/ks3sdklib/aws-sdk-go@v1.2.6",
+        "extracted_requirement": "v1.2.6",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:X0Du7oVv+YBp08vhLZnDeCqOd1Ge17cx5kYG8wC7WN8="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/kylelemons/godebug@v1.1.0",
+        "extracted_requirement": "v1.1.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0SNc="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/lestrrat-go/blackmagic@v1.0.1",
+        "extracted_requirement": "v1.0.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:lS5Zts+5HIC/8og6cGHb0uCcNCa3OUt1ygh3Qz2Fe80="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/lestrrat-go/httpcc@v1.0.1",
+        "extracted_requirement": "v1.0.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:ydWCStUeJLkpYyjLDHihupbn2tYmZ7m22BGkcvZZrIE="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/lestrrat-go/httprc@v1.0.4",
+        "extracted_requirement": "v1.0.4",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:bAZymwoZQb+Oq8MEbyipag7iSq6YIga8Wj6GOiJGdI8="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/lestrrat-go/iter@v1.0.2",
+        "extracted_requirement": "v1.0.2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:gMXo1q4c2pHmC3dn8LzRhJfP1ceCbgSiT9lUydIzltI="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/lestrrat-go/jwx/v2@v2.0.11",
+        "extracted_requirement": "v2.0.11",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:ViHMnaMeaO0qV16RZWBHM7GTrAnX2aFLVKofc7FuKLQ="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/lestrrat-go/option@v1.0.1",
+        "extracted_requirement": "v1.0.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:oAzP2fvZGQKWkvHa1/SAcFolBEca1oN+mQ7eooNBEYU="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/mattn/go-colorable@v0.1.13",
+        "extracted_requirement": "v0.1.13",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:fFA4WZxdEF4tXPZVKMLwD8oUnCTTo08duU7wxecdEvA="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.18",
+        "extracted_requirement": "v0.0.18",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:DOKFKCQ7FNG2L1rbrmstDN4QVRdS89Nkh85u68Uwp98="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/mattn/go-runewidth@v0.0.14",
+        "extracted_requirement": "v0.0.14",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:+xnbZSEeDbOIg5/mE6JF0w6n9duR1l3/WmbinWVwUuU="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+        "extracted_requirement": "v0.0.0-20180306012644-bacd9c7ef1dd",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/modern-go/reflect2@v1.0.2",
+        "extracted_requirement": "v1.0.2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/ncw/directio@v1.0.5",
+        "extracted_requirement": "v1.0.5",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:JSUBhdjEvVaJvOoyPAbcW0fnd0tvRXD76wEfZ1KcQz4="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/ngaut/pools@v0.0.0-20180318154953-b7bc8c42aac7",
+        "extracted_requirement": "v0.0.0-20180318154953-b7bc8c42aac7",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:7KAv7KMGTTqSmYZtNdcNTgsos+vFzULLwyElndwn+5c="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/ngaut/sync2@v0.0.0-20141008032647-7a24ed77b2ef",
+        "extracted_requirement": "v0.0.0-20141008032647-7a24ed77b2ef",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:K0Fn+DoFqNqktdZtdV3bPQ/0cuYh2H4rkg0tytX/07k="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/opentracing/basictracer-go@v1.0.0",
+        "extracted_requirement": "v1.0.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:YyUAhaEfjoWXclZVJ9sGoNct7j4TVk7lZWlQw5UXuoo="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/opentracing/opentracing-go@v1.2.0",
+        "extracted_requirement": "v1.2.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:uEJPy/1a5RIPAJ0Ov+OIO8OxWu77jEv+1B0VhjKrZUs="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/petermattis/goid@v0.0.0-20211229010228-4d14c490ee36",
+        "extracted_requirement": "v0.0.0-20211229010228-4d14c490ee36",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:64bxqeTEN0/xoEqhKGowgihNuzISS9rEG6YUMU4bzJo="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/pingcap/badger@v1.5.1-0.20230103063557-828f39b09b6d",
+        "extracted_requirement": "v1.5.1-0.20230103063557-828f39b09b6d",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:AEcvKyVM8CUII3bYzgz8haFXtGiqcrtXW1csu/5UELY="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/pingcap/errors@v0.11.5-0.20221009092201-b66cddb77c32",
+        "extracted_requirement": "v0.11.5-0.20221009092201-b66cddb77c32",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:m5ZsBa5o/0CkzZXfXLaThzKuR85SnHHetqBCpzQ30h8="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/pingcap/failpoint@v0.0.0-20220801062533-2eaa32854a6c",
+        "extracted_requirement": "v0.0.0-20220801062533-2eaa32854a6c",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:CgbKAHto5CQgWM9fSBIvaxsJHuGP0uM74HXtv3MyyGQ="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/pingcap/fn@v1.0.0",
+        "extracted_requirement": "v1.0.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:CyA6AxcOZkQh52wIqYlAmaVmF6EvrcqFywP463pjA8g="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/pingcap/goleveldb@v0.0.0-20191226122134-f82aafb29989",
+        "extracted_requirement": "v0.0.0-20191226122134-f82aafb29989",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:surzm05a8C9dN8dIUmo4Be2+pMRb6f55i+UIYrluu2E="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/pingcap/kvproto@v0.0.0-20240208102409-a554af8ee11f",
+        "extracted_requirement": "v0.0.0-20240208102409-a554af8ee11f",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:2xvTjl4OrQY+XF38p8H7qVCXpaUYc5rLiYQhSd07aTI="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/pingcap/log@v1.1.1-0.20230317032135-a0d097d16e22",
+        "extracted_requirement": "v1.1.1-0.20230317032135-a0d097d16e22",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:2SOzvGvE8beiC1Y4g9Onkvu6UmuBBOeWRGQEjJaT/JY="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/pingcap/sysutil@v1.0.1-0.20230407040306-fb007c5aff21",
+        "extracted_requirement": "v1.0.1-0.20230407040306-fb007c5aff21",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:QV6jqlfOkh8hqvEAgwBZa+4bSgO0EeKC7s5c6Luam2I="
+        }
+      },
+      {
+        "purl": "pkg:golang/./pkg/parser@devel",
+        "extracted_requirement": "devel",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "replacing": {
+            "path": "github.com/pingcap/tidb/pkg/parser",
+            "version": "v0.0.0-20211011031125-9b13dc409c5e",
+            "go_sum": null,
+            "replacing": null
+          }
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/pingcap/tipb@v0.0.0-20230919054518-dfd7d194838f",
+        "extracted_requirement": "v0.0.0-20230919054518-dfd7d194838f",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:NCiI4Wyu4GkViLGTu6cYcxt79LZ1SenBBQX1OwEV6Jg="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/pkg/browser@v0.0.0-20210115035449-ce105d075bb4",
+        "extracted_requirement": "v0.0.0-20210115035449-ce105d075bb4",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:Qj1ukM4GlMWXNdMBuXcXfz/Kw9s1qm0CLY32QxuSImI="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/pkg/errors@v0.9.1",
+        "extracted_requirement": "v0.9.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "extracted_requirement": "v1.0.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/prometheus/client_golang@v1.18.0",
+        "extracted_requirement": "v1.18.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:HzFfmkOzH5Q8L8G+kSJKUx5dtG87sewO+FoDDqP5Tbk="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/prometheus/client_model@v0.5.0",
+        "extracted_requirement": "v0.5.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:VQw1hfvPvk3Uv6Qf29VrPF32JB6rtbgI6cYPYQjL0Qw="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/prometheus/common@v0.46.0",
+        "extracted_requirement": "v0.46.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:doXzt5ybi1HBKpsZOL0sSkaNHJJqkyfEWZGGqqScV0Y="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/prometheus/procfs@v0.12.0",
+        "extracted_requirement": "v0.12.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:jluTpSng7V9hY0O2R9DzzJHYb2xULk9VTR1V1R/k6Bo="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/remyoudompheng/bigfft@v0.0.0-20230129092748-24d4a6f8daec",
+        "extracted_requirement": "v0.0.0-20230129092748-24d4a6f8daec",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/rivo/uniseg@v0.4.4",
+        "extracted_requirement": "v0.4.4",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:8TfxU8dW6PdqD27gjM8MVNuicgxIjxpm4K7x4jp8sis="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/robfig/cron/v3@v3.0.1",
+        "extracted_requirement": "v3.0.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:WdRxkvbJztn8LMz/QEvLN5sBU+xKpSqwwUO1Pjr4qDs="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/rogpeppe/go-internal@v1.11.0",
+        "extracted_requirement": "v1.11.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:cWPaGQEPrBb5/AsnsZesgZZ9yb1OQ+GOISoDNXVBh4M="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/sasha-s/go-deadlock@v0.2.0",
+        "extracted_requirement": "v0.2.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:lMqc+fUb7RrFS3gQLtoQsJ7/6TV/pAIFvBsqX73DK8Y="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/shirou/gopsutil/v3@v3.23.5",
+        "extracted_requirement": "v3.23.5",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:5SgDCeQ0KW0S4N0znjeM/eFHXXOKyv2dVNgRq/c9P6Y="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/soheilhy/cmux@v0.1.5",
+        "extracted_requirement": "v0.1.5",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:jjzc5WVemNEDTLwv9tlmemhC73tI08BNOIGwBOo10Js="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/spf13/cobra@v1.7.0",
+        "extracted_requirement": "v1.7.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:hyqWnYt1ZQShIddO5kBpj3vu05/++x6tJ6dg8EC572I="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+        "extracted_requirement": "v1.0.5",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/spkg/bom@v1.0.0",
+        "extracted_requirement": "v1.0.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:S939THe0ukL5WcTGiGqkgtaW5JW+O6ITaIlpJXTYY64="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/stretchr/testify@v1.8.4",
+        "extracted_requirement": "v1.8.4",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/tiancaiamao/appdash@v0.0.0-20181126055449-889f96f722a2",
+        "extracted_requirement": "v0.0.0-20181126055449-889f96f722a2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:mbAskLJ0oJfDRtkanvQPiooDH8HvJ2FBh+iKT/OmiQQ="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/tiancaiamao/gp@v0.0.0-20221230034425-4025bc8a4d4a",
+        "extracted_requirement": "v0.0.0-20221230034425-4025bc8a4d4a",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:J/YdBZ46WKpXsxsW93SG+q0F8KI+yFrcIDT4c/RNoc4="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/tikv/client-go/v2@v2.0.8-0.20240219030752-98ed21b132fa",
+        "extracted_requirement": "v2.0.8-0.20240219030752-98ed21b132fa",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:7qepbt2clEPA20yELC6jju0ALEdWC0fQbJWrGniQT5Y="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/tikv/pd/client@v0.0.0-20240210135946-3488a653ddd9",
+        "extracted_requirement": "v0.0.0-20240210135946-3488a653ddd9",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:tNpO/lF/kAzl3g7JQScGi+iWSWKtPPr/YXhxYNPWsHM="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/tklauser/go-sysconf@v0.3.11",
+        "extracted_requirement": "v0.3.11",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:89WgdJhk5SNwJfu+GKyYveZ4IaJ7xAkecBo+KdJV0CM="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/tklauser/numcpus@v0.6.0",
+        "extracted_requirement": "v0.6.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:kebhY2Qt+3U6RNK7UqpYNA+tJ23IBEGKkB7JQBfDYms="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/twmb/murmur3@v1.1.6",
+        "extracted_requirement": "v1.1.6",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:mqrRot1BRxm+Yct+vavLMou2/iJt0tNVTTC0QoIjaZg="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/uber/jaeger-client-go@v2.22.1%2Bincompatible",
+        "extracted_requirement": "v2.22.1+incompatible",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:NHcubEkVbahf9t3p75TOCR83gdUHXjRJvjoBh1yACsM="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/uber/jaeger-lib@v2.4.1%2Bincompatible",
+        "extracted_requirement": "v2.4.1+incompatible",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:td4jdvLcExb4cBISKIpHuGoVXh+dVKhn2Um6rjCsSsg="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/vbauerster/mpb/v7@v7.5.3",
+        "extracted_requirement": "v7.5.3",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:BkGfmb6nMrrBQDFECR/Q7RkKCw7ylMetCb4079CGs4w="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/wangjohn/quickselect@v0.0.0-20161129230411-ed8402a42d5f",
+        "extracted_requirement": "v0.0.0-20161129230411-ed8402a42d5f",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:9DDCDwOyEy/gId+IEMrFHLuQ5R/WV0KNxWLler8X2OY="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/xitongsys/parquet-go@v1.5.5-0.20201110004701-b09c49d6d457",
+        "extracted_requirement": "v1.5.5-0.20201110004701-b09c49d6d457",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:tBbuFCtyJNKT+BFAv6qjvTFpVdy97IYNaBwGUXifIUs="
+        }
+      },
+      {
+        "purl": "pkg:golang/go.etcd.io/etcd/api/v3@v3.5.10",
+        "extracted_requirement": "v3.5.10",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:szRajuUUbLyppkhs9K6BRtjY37l66XQQmw7oZRANE4k="
+        }
+      },
+      {
+        "purl": "pkg:golang/go.etcd.io/etcd/client/pkg/v3@v3.5.10",
+        "extracted_requirement": "v3.5.10",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:kfYIdQftBnbAq8pUWFXfpuuxFSKzlmM5cSn76JByiT0="
+        }
+      },
+      {
+        "purl": "pkg:golang/go.etcd.io/etcd/client/v3@v3.5.10",
+        "extracted_requirement": "v3.5.10",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:W9TXNZ+oB3MCd/8UjxHTWK5J9Nquw9fQBLJd5ne5/Ao="
+        }
+      },
+      {
+        "purl": "pkg:golang/go.opencensus.io@v0.24.0",
+        "extracted_requirement": "v0.24.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:y73uSU6J157QMP2kn2r30vwW1A2W2WFwSCGnAVxeaD0="
+        }
+      },
+      {
+        "purl": "pkg:golang/go.uber.org/atomic@v1.11.0",
+        "extracted_requirement": "v1.11.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:ZvwS0R+56ePWxUNi+Atn9dWONBPp/AUETXlHW0DxSjE="
+        }
+      },
+      {
+        "purl": "pkg:golang/go.uber.org/automaxprocs@v1.5.3",
+        "extracted_requirement": "v1.5.3",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:kWazyxZUrS3Gs4qUpbwo5kEIMGe/DAvi5Z4tl2NW4j8="
+        }
+      },
+      {
+        "purl": "pkg:golang/go.uber.org/mock@v0.2.0",
+        "extracted_requirement": "v0.2.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:TaP3xedm7JaAgScZO7tlvlKrqT0p7I6OsdGB5YNSMDU="
+        }
+      },
+      {
+        "purl": "pkg:golang/go.uber.org/multierr@v1.11.0",
+        "extracted_requirement": "v1.11.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:blXXJkSxSSfBVBlC76pxqeO+LN3aDfLQo+309xJstO0="
+        }
+      },
+      {
+        "purl": "pkg:golang/go.uber.org/zap@v1.26.0",
+        "extracted_requirement": "v1.26.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:sI7k6L95XOKS281NhVKOFCUNIvv9e0w4BF8N3u+tCRo="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/crypto@v0.18.0",
+        "extracted_requirement": "v0.18.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:PGVlW0xEltQnzFZ55hkuX5+KLyrMYhHld1YHO4AKcdc="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/exp@v0.0.0-20230711005742-c3f37128e5a4",
+        "extracted_requirement": "v0.0.0-20230711005742-c3f37128e5a4",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:QLureRX3moex6NVu/Lr4MGakp9FdA7sBHGBmvRW7NaM="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/net@v0.20.0",
+        "extracted_requirement": "v0.20.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:aCL9BSgETF1k+blQaYUBx9hJ9LOGP3gAVemcZlf1Kpo="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/oauth2@v0.16.0",
+        "extracted_requirement": "v0.16.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:aDkGMBSYxElaoP81NpoUoz2oo2R2wHdZpGToUxfyQrQ="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/sync@v0.3.0",
+        "extracted_requirement": "v0.3.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:ftCYgMx6zT/asHUrPw8BLLscYtGznsLAnjq5RH9P66E="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/sys@v0.16.0",
+        "extracted_requirement": "v0.16.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:xWw16ngr6ZMtmxDyKyIgsE93KNKz5HKmMa3b8ALHidU="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/term@v0.16.0",
+        "extracted_requirement": "v0.16.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:m+B6fahuftsE9qjo0VWp2FW0mB3MTJvR0BaMQrq0pmE="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/text@v0.14.0",
+        "extracted_requirement": "v0.14.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:ScX5w1eTa3QqT8oi6+ziP7dTV1S2+ALU0bI+0zXKWiQ="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/time@v0.3.0",
+        "extracted_requirement": "v0.3.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:rg5rLMjNzMS1RkNLzCG38eapWhnYLFYXDXj2gOlr8j4="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/tools@v0.10.0",
+        "extracted_requirement": "v0.10.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:tvDr/iQoUqNdohiYm0LmmKcBk+q86lb9EprIUFhHHGg="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/xerrors@v0.0.0-20220907171357-04be3eba64a2",
+        "extracted_requirement": "v0.0.0-20220907171357-04be3eba64a2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:H2TDz8ibqkAF6YGhCdN3jS9O0/s90v0rJh3X/OLHEUk="
+        }
+      },
+      {
+        "purl": "pkg:golang/google.golang.org/api@v0.128.0",
+        "extracted_requirement": "v0.128.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:RjPESny5CnQRn9V6siglged+DZCgfu9l6mO9dkX9VOg="
+        }
+      },
+      {
+        "purl": "pkg:golang/google.golang.org/appengine@v1.6.7",
+        "extracted_requirement": "v1.6.7",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:FZR1q0exgwxzPzp/aF+VccGrSfxfPpkBqjIIEq3ru6c="
+        }
+      },
+      {
+        "purl": "pkg:golang/google.golang.org/genproto@v0.0.0-20231030173426-d783a09b4405",
+        "extracted_requirement": "v0.0.0-20231030173426-d783a09b4405",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:I6WNifs6pF9tNdSob2W24JtyxIYjzFB9qDlpUC76q+U="
+        }
+      },
+      {
+        "purl": "pkg:golang/google.golang.org/genproto/googleapis/api@v0.0.0-20231016165738-49dd2c1f3d0b",
+        "extracted_requirement": "v0.0.0-20231016165738-49dd2c1f3d0b",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:CIC2YMXmIhYw6evmhPxBKJ4fmLbOFtXQN/GV3XOZR8k="
+        }
+      },
+      {
+        "purl": "pkg:golang/google.golang.org/genproto/googleapis/rpc@v0.0.0-20231106174013-bbf56f31fb17",
+        "extracted_requirement": "v0.0.0-20231106174013-bbf56f31fb17",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:Jyp0Hsi0bmHXG6k9eATXoYtjd6e2UzZ1SCn/wIupY14="
+        }
+      },
+      {
+        "purl": "pkg:golang/google.golang.org/grpc@v1.59.0",
+        "extracted_requirement": "v1.59.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:Z5Iec2pjwb+LEOqzpB2MR12/eKFhDPhuqW91O+4bwUk="
+        }
+      },
+      {
+        "purl": "pkg:golang/google.golang.org/protobuf@v1.32.0",
+        "extracted_requirement": "v1.32.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:pPC6BG5ex8PDFnkbrGU3EixyhKcQ2aDuBS36lqK/C7I="
+        }
+      },
+      {
+        "purl": "pkg:golang/gopkg.in/inf.v0@v0.9.1",
+        "extracted_requirement": "v0.9.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc="
+        }
+      },
+      {
+        "purl": "pkg:golang/gopkg.in/natefinch/lumberjack.v2@v2.2.1",
+        "extracted_requirement": "v2.2.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:bBRl1b0OH9s/DuPhuXpNl+VtCaJXFZ5/uEFST95x9zc="
+        }
+      },
+      {
+        "purl": "pkg:golang/gopkg.in/yaml.v2@v2.4.0",
+        "extracted_requirement": "v2.4.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY="
+        }
+      },
+      {
+        "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+        "extracted_requirement": "v3.0.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA="
+        }
+      },
+      {
+        "purl": "pkg:golang/k8s.io/api@v0.27.2",
+        "extracted_requirement": "v0.27.2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:+H17AJpUMvl+clT+BPnKf0E3ksMAzoBBg7CntpSuADo="
+        }
+      },
+      {
+        "purl": "pkg:golang/k8s.io/apimachinery@v0.27.2",
+        "extracted_requirement": "v0.27.2",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:vBjGaKKieaIreI+oQwELalVG4d8f3YAMNpWLzDXkxeg="
+        }
+      },
+      {
+        "purl": "pkg:golang/k8s.io/klog/v2@v2.90.1",
+        "extracted_requirement": "v2.90.1",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:m4bYOKall2MmOiRaR1J+We67Do7vm9KiQVlT96lnHUw="
+        }
+      },
+      {
+        "purl": "pkg:golang/k8s.io/utils@v0.0.0-20230209194617-a36077c30491",
+        "extracted_requirement": "v0.0.0-20230209194617-a36077c30491",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:r0BAOLElQnnFhE/ApUsg3iHdVYYPBjNSSOMowRZxxsY="
+        }
+      },
+      {
+        "purl": "pkg:golang/sigs.k8s.io/json@v0.0.0-20221116044647-bc3834ca7abd",
+        "extracted_requirement": "v0.0.0-20221116044647-bc3834ca7abd",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:EDPBXCAspyGV4jQlpZSudPeMmr1bNJefnuqLsRAsHZo="
+        }
+      },
+      {
+        "purl": "pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.2.3",
+        "extracted_requirement": "v4.2.3",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:PRbqxJClWWYMNV1dhaG4NsibJbArud9kFxnAMREiWFE="
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/sourcegraph/appdash@v0.0.0-20190731080439-ebfcffb1b5c0",
+        "extracted_requirement": "v0.0.0-20190731080439-ebfcffb1b5c0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:IJ3DuWHPTJrsqtIqjfdmPTELdTFGefvrOa2eTeRBleQ=",
+          "replacing": {
+            "path": "sourcegraph.com/sourcegraph/appdash",
+            "version": "v0.0.0-20190731080439-ebfcffb1b5c0",
+            "go_sum": null,
+            "replacing": null
+          }
+        }
+      },
+      {
+        "purl": "pkg:golang/github.com/sourcegraph/appdash-data@v0.0.0-20151005221446-73f23eafcf67",
+        "extracted_requirement": "v0.0.0-20151005221446-73f23eafcf67",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:8ZnTA26bBOoPkAbbitKPgNlpw0Bwt7ZlpYgZWHWJR/w=",
+          "replacing": {
+            "path": "sourcegraph.com/sourcegraph/appdash-data",
+            "version": "v0.0.0-20151005221446-73f23eafcf67",
+            "go_sum": null,
+            "replacing": null
+          }
+        }
+      }
+    ],
+    "repository_homepage_url": "https://pkg.go.dev/github.com/pingcap/tidb@7d16cc79e81bbf573124df3fd9351c26963f3e70",
+    "repository_download_url": "https://proxy.golang.org/cloud.google.com/go/monitoring/@v/v1.17.0.zip",
+    "api_data_url": null,
+    "datasource_id": "golang_binary",
+    "purl": "pkg:golang/github.com/pingcap/tidb@7d16cc79e81bbf573124df3fd9351c26963f3e70#cmd/tidb-server"
+  }
+]

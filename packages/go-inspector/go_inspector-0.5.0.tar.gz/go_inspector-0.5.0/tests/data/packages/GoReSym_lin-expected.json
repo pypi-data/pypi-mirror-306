@@ -1,0 +1,175 @@
+[
+  {
+    "type": "golang",
+    "namespace": "github.com/mandiant",
+    "name": "GoReSym",
+    "version": "583e8aaa51f3bd1eb68b69e761e094596d6bb191",
+    "qualifiers": {},
+    "subpath": "",
+    "primary_language": "Go",
+    "description": null,
+    "release_date": null,
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com.com/mandiant/GoReSym",
+    "download_url": null,
+    "size": null,
+    "sha1": null,
+    "md5": null,
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": "https://github.com.com/mandiant/GoReSym/issues",
+    "code_view_url": "https://github.com.com/mandiant/GoReSym",
+    "vcs_url": "git+https://github.com.com/mandiant/GoReSym.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+      "pkg:github/mandiant/goresym@583e8aaa51f3bd1eb68b69e761e094596d6bb191"
+    ],
+    "file_references": [],
+    "is_private": false,
+    "is_virtual": false,
+    "extra_data": {
+      "build_info": {
+        "GoVersion": "go1.23.2",
+        "Path": "github.com/mandiant/GoReSym",
+        "Main": {
+          "Path": "github.com/mandiant/GoReSym",
+          "Version": "(devel)",
+          "Sum": "",
+          "Replace": null
+        },
+        "Settings": [
+          {
+            "Key": "-buildmode",
+            "Value": "exe"
+          },
+          {
+            "Key": "-compiler",
+            "Value": "gc"
+          },
+          {
+            "Key": "DefaultGODEBUG",
+            "Value": "asynctimerchan=1,gotypesalias=0,httplaxcontentlength=1,httpmuxgo121=1,httpservecontentkeepheaders=1,tls10server=1,tls3des=1,tlskyber=0,tlsrsakex=1,tlsunsafeekm=1,winreadlinkvolume=0,winsymlink=0,x509keypairleaf=0,x509negativeserial=1"
+          },
+          {
+            "Key": "CGO_ENABLED",
+            "Value": "1"
+          },
+          {
+            "Key": "CGO_CFLAGS",
+            "Value": ""
+          },
+          {
+            "Key": "CGO_CPPFLAGS",
+            "Value": ""
+          },
+          {
+            "Key": "CGO_CXXFLAGS",
+            "Value": ""
+          },
+          {
+            "Key": "CGO_LDFLAGS",
+            "Value": ""
+          },
+          {
+            "Key": "GOARCH",
+            "Value": "amd64"
+          },
+          {
+            "Key": "GOOS",
+            "Value": "linux"
+          },
+          {
+            "Key": "GOAMD64",
+            "Value": "v1"
+          },
+          {
+            "Key": "vcs",
+            "Value": "git"
+          },
+          {
+            "Key": "vcs.revision",
+            "Value": "583e8aaa51f3bd1eb68b69e761e094596d6bb191"
+          },
+          {
+            "Key": "vcs.time",
+            "Value": "2024-11-05T19:28:00Z"
+          },
+          {
+            "Key": "vcs.modified",
+            "Value": "true"
+          }
+        ]
+      },
+      "go_runtime_purl": "pkg:github/golang/go@go1.23.2"
+    },
+    "dependencies": [
+      {
+        "purl": "pkg:golang/github.com/elliotchance/orderedmap@v1.4.0",
+        "extracted_requirement": "v1.4.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:wZtfeEONCbx6in1CZyE6bELEt/vFayMvsxqI5SgsR+A="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/arch@v0.0.0-20201008161808-52c3e6f60cff",
+        "extracted_requirement": "v0.0.0-20201008161808-52c3e6f60cff",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:XmKBi9R6duxOB3lfc72wyrwiOY7X2Jl1wuI+RFOyMDE="
+        }
+      },
+      {
+        "purl": "pkg:golang/golang.org/x/exp@v0.0.0-20230811145659-89c5cff77bcb",
+        "extracted_requirement": "v0.0.0-20230811145659-89c5cff77bcb",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:mIKbk8weKhSeLH2GmUTrvx8CjkyJmnU1wFmg59CUjFA="
+        }
+      },
+      {
+        "purl": "pkg:golang/rsc.io/binaryregexp@v0.2.0",
+        "extracted_requirement": "v0.2.0",
+        "scope": "dependency",
+        "is_runtime": true,
+        "is_optional": false,
+        "is_pinned": true,
+        "is_direct": true,
+        "resolved_package": {},
+        "extra_data": {
+          "go_sum": "h1:HfqmD5MEmC0zvwBuF187nq9mdnXjXsSivRiXN7SmRkE="
+        }
+      }
+    ],
+    "repository_homepage_url": "https://pkg.go.dev/github.com/mandiant/GoReSym@583e8aaa51f3bd1eb68b69e761e094596d6bb191",
+    "repository_download_url": "https://proxy.golang.org/cloud.google.com/go/monitoring/@v/v1.17.0.zip",
+    "api_data_url": null,
+    "datasource_id": "golang_binary",
+    "purl": "pkg:golang/github.com/mandiant/GoReSym@583e8aaa51f3bd1eb68b69e761e094596d6bb191"
+  }
+]
