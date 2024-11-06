@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/test/__init__.py
+src/test/dlt.py
+src/test_deal.egg-info/PKG-INFO
+src/test_deal.egg-info/SOURCES.txt
+src/test_deal.egg-info/dependency_links.txt
+src/test_deal.egg-info/top_level.txt
