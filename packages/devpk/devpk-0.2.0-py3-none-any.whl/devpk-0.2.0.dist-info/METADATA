@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: devpk
+Version: 0.2.0
+Summary: Development package set.
+Author-Email: svtter <svtter@qq.com>
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: pytest>=8.3.3
+Requires-Dist: ruff>=0.7.0
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: jupyter>=1.1.1
+Requires-Dist: mkdocs>=1.6.1
+Requires-Dist: pymdown-extensions>=10.11.2
+Description-Content-Type: text/markdown
+
+# devpk
+
+This package contains these depends:
+
+```
+    "pytest>=8.3.3",
+    "ruff>=0.7.0",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "mkdocs>=1.6.1",
+    "pymdown-extensions>=10.11.2",
+```
