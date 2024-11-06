@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: document_translator
+Version: 0.1.2
+Summary: A simple and fast translator for translating documents in google translate supported languages
+Home-page: 
+Author: Nirmal Patel
+Author-email: nirmalpatel1705@gmail.com
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
