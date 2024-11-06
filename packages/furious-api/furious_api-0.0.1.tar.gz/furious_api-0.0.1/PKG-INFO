@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: furious-api
+Version: 0.0.1
+Summary: From FastAPI to Fast-and-furiousAPI
+Author-email: Serhii Karelov <axe@sharpaxe.org>
+License: MIT License
+Project-URL: Homepage, https://github.com/serhii-karelov/furious-api
+Project-URL: Repository, https://github.com/serhii-karelov/furious-api
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: asgi-lifespan>=2.1.0
+Requires-Dist: fastapi>=0.115.4
+Requires-Dist: ptpython>=3.0.29
+Requires-Dist: typer>=0.12.5
+Requires-Dist: uvicorn>=0.32.0
+Provides-Extra: bpython
+Requires-Dist: bpython>=0.24; extra == "bpython"
+Provides-Extra: ipython
+Requires-Dist: ipython>=8.29.0; extra == "ipython"
+
+# Furious API
+Extensions of FastAPI
+
+## Development
+- install `poetry`
+- create virtual environment
+- install dependencies `poetry install`
+- install pre-commit hooks via `pre-commit install` (optional)
+- go furious
+
