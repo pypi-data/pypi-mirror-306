@@ -1,0 +1,2 @@
+[console_scripts]
+url2env = url2env:main
