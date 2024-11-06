@@ -1,0 +1,16 @@
+red_wine_mm/__init__.py,sha256=vtL0PokyWodYqFIT0-bYxgjM3x_o-TmbvBQLheHV_4o,821
+red_wine_mm/config.yml,sha256=nGgJWHHmeHXvpikh1zBUYfXoOZ7f3goW0XzPoYzmj9Y,565
+red_wine_mm/pipeline.py,sha256=t6a2h7jekm6wfzaMc55Aimb5uVzPBXbEoVBHccWVDBg,579
+red_wine_mm/predict.py,sha256=L_3hIQCTvAgIjJ9CpngrG_td7iEtu1RidvzuNpSKjfQ,973
+red_wine_mm/train_pipeline.py,sha256=exVQAR4LQP22vqz_7wc4YHiMgGtsMmYyQpiTBZg5Xxk,847
+red_wine_mm/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+red_wine_mm/config/core.py,sha256=aRdu6Z7YRJne7bjw2DGJ4K5Lrao9CmATmsa_TDpD5yk,1970
+red_wine_mm/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+red_wine_mm/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+red_wine_mm/processing/data_manager.py,sha256=AraBUlRoj-xtxicNoFX6GlrtFOWLmc90P_ESupJ2C8o,2374
+red_wine_mm/processing/validation.py,sha256=4Kp1_h-VJ87ecu93rIOt9stkV7OJdgDlDIlkxfMhjkA,1221
+red_wine_mm/trained_models/red-wine-mm-outputsv0.0.3.pkl,sha256=3qBPfd_ZQ8OvRiScdp285dSCf7Y8kHbdAJqfvPUo30g,2111409
+red_wine_mm-0.0.3.dist-info/METADATA,sha256=tFxov9qGloReLDqVPi1sqg9AC57U_Nm8H666zzKOlWI,1744
+red_wine_mm-0.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+red_wine_mm-0.0.3.dist-info/top_level.txt,sha256=Autw4PQ0_1OsegtFL7Nubv8gUUW2wbz9qdPU3Q3i9Yk,12
+red_wine_mm-0.0.3.dist-info/RECORD,,
