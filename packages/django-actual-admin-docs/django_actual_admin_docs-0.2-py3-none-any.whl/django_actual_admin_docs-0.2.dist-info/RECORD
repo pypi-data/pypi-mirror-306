@@ -1,0 +1,14 @@
+actual_admin_docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+actual_admin_docs/apps.py,sha256=xJR4Mq8yMaLvG5O6KNpIpMdU-qadXpjyQLyXI9mztp8,2331
+actual_admin_docs/static/actual-admin-docs.css,sha256=rbrP3WBP9W7-IhupHsgH3rgU-qWkTUvV3QKlSqALGJk,9809
+actual_admin_docs/templates/admin/docs/page.html,sha256=0kW0C6lZ6YuZQ5JnacnJsqA4QVgQCc1YhSdfeXsKpV4,876
+actual_admin_docs/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+actual_admin_docs/tests/test_docs.py,sha256=wdh8hCZQQDptmBt--R6I7Rl4-HigzsE-u-lzuomvzhI,1557
+actual_admin_docs/tests/testproject/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+actual_admin_docs/tests/testproject/settings.py,sha256=PdjJ2V6X3OME6JCIe1f5cnACxQXPvcLQt1qjeuls57Q,1665
+actual_admin_docs/tests/testproject/urls.py,sha256=iBhtTmdq_YKVCcp4N4C-miilUfKJYmC9YVQ4tg71m8o,187
+actual_admin_docs/urls.py,sha256=qSPPt4ohKm4XsYeb0UfsSR8ciOZ_Dval4-FROvmF3fY,215
+actual_admin_docs/views.py,sha256=tzSPBl-ppZ6WjouxB_Zg5xKNUVSGRmShxZT8mrYN1w4,4712
+django_actual_admin_docs-0.2.dist-info/METADATA,sha256=sQZfIGD6sv-k86wxpXLAXZg_jPZjCHtxrqoFxw9sn6U,3193
+django_actual_admin_docs-0.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+django_actual_admin_docs-0.2.dist-info/RECORD,,
