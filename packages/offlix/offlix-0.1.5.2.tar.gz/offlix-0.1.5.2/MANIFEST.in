@@ -1,0 +1,7 @@
+include offlix_installer/banner.txt
+include .env
+include kafka
+include maildev
+include mongodb
+include mysql
+
