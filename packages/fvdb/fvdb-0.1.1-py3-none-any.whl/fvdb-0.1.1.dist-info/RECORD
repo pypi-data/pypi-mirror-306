@@ -1,0 +1,13 @@
+fvdb/__init__.py,sha256=XIKd8SNLtwICHQNaMPCwexFxIYFFGnm249Ea04N48EI,362
+fvdb/cli.hy,sha256=JqccBL_uw53OZP5zBAxynQ0161IJhwWkxPy6eNvBjMM,2512
+fvdb/config.py,sha256=HZgk_jdFsaE7-d0brAapBtwBEAcsDWNxoAvl2d5nToI,351
+fvdb/db.hy,sha256=02CkLgJ-rM0LOjO85mw_c3KjSxwXaPUpv1io85oqj-s,9758
+fvdb/embeddings.hy,sha256=ICU2wX2qDNFCrGAiMDx-P8fmtPta-UcX6SBg1gPABnw,2707
+fvdb/split.hy,sha256=5sCFuMoJtj3r44iORQ-0ZJQfspbYkLNsdei5m1S46co,10282
+fvdb/summaries.hy,sha256=LnuRl5gQX6S-vYiedMSv6-fv8k1GqOR6Ijn5jhN3-8Y,1676
+fvdb-0.1.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+fvdb-0.1.1.dist-info/METADATA,sha256=MQ--h_I6mbpitU-OCidhx7PTBOu_nkb-Ardm0JAz4Rk,45819
+fvdb-0.1.1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+fvdb-0.1.1.dist-info/entry_points.txt,sha256=7QbeadsGMuDT4jYEnxZy0B-CsizBjaztIvXB38kCiEw,38
+fvdb-0.1.1.dist-info/top_level.txt,sha256=7P8JKtB5mas-_tXq_FdJnm8a0Nvqh_fW0vv0pI-tMnA,5
+fvdb-0.1.1.dist-info/RECORD,,
