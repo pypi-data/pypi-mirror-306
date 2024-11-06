@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: electron-configuration
+Version: 0.1
+Summary: A Python package to get the electron configuration of elements, Electron configuration in k,l,m,n format.
+Author: Jay Jethwa
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
