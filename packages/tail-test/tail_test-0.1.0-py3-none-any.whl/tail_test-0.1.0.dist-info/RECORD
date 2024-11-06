@@ -1,0 +1,10 @@
+tail_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tail_test/benchmark_generation.py,sha256=2Kw9QXGlqAOLmNdV5bBJloEGXTmmCSP-oQNSXXHI6uw,10308
+tail_test/test_llm_performance.py,sha256=Rm4_ocXT-beCEHiuz1iJzZdWydQGlyS4N3U_nacdQ3Y,5000
+tail_test/visualize.py,sha256=jV7eaAhGynA5qcdYy5YlcM9Zp9NKn9tY4MCioBPtCHE,2672
+tail_test-0.1.0.data/scripts/tail-cli.build,sha256=dD8nxVGLLs3MFH4mmVsHEuAdAAy94N5ot7Q3-HoQVy0,1616
+tail_test-0.1.0.data/scripts/tail-cli.eval,sha256=JA0GUWLHpWLJkbLPxRwFNPekYgtwxieFJT0DVUdT_Vs,1737
+tail_test-0.1.0.dist-info/METADATA,sha256=q8caAG2akVnyM2_G4Tc0Y9q6io_CV1tWzxpDMxBDjHM,1651
+tail_test-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tail_test-0.1.0.dist-info/top_level.txt,sha256=dbOCSwReddxJSU71p1URck9Tz_myB3bzbgA4W1P9LFQ,10
+tail_test-0.1.0.dist-info/RECORD,,
