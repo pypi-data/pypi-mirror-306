@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: partitioned
+Version: 0.1.2
+Summary: Determine if a series of lines is partitioned (all identical lines sequential).
+Home-page: https://github.com/bskubi/partitioned
+Author: Benjamin Skubi
+Author-email: skubi@ohsu.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+The `partitioned` package is a simple Python script to check if a sequence of lines are partitioned, such that all duplicate lines are sequential. It uses a SQLite3 in-memory database that can spill to disk to store previously seen strings.
