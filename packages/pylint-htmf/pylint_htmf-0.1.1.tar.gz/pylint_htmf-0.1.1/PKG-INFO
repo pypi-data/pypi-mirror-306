@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pylint-htmf
+Version: 0.1.1
+Summary: Pylint plugin for checking the html f-string templates
+Author: jkmnt
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: html5lib >=1.1
+Project-URL: Documentation, https://jkmnt.github.com/htmf
+Project-URL: Source, https://github.com/jkmnt/htmf
+
+# pylint-htmf
+
+Pylint plugin for checking HTML in Python f-strings
+
+---
+Read the [documentation](https://jkmnt.github.io/htmf)
+
