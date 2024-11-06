@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+simp_sql/__init__.py
+simp_sql/db_connection.py
+simp_sql/query_generator.py
+simp_sql.egg-info/PKG-INFO
+simp_sql.egg-info/SOURCES.txt
+simp_sql.egg-info/dependency_links.txt
+simp_sql.egg-info/requires.txt
+simp_sql.egg-info/top_level.txt
