@@ -1,0 +1,8 @@
+[console_scripts]
+
+[creart.creators]
+broadcast_behaviour = graia.saya.creator:BroadcastBehaviourCreator
+saya = graia.saya.creator:SayaCreator
+
+[gui_scripts]
+
