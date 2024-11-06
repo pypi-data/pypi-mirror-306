@@ -1,0 +1,10 @@
+c2client/__init__.py,sha256=9BLRUKLo7ItARQsYhFkoe1EIVEJ517VrGpEuM7Wa-mA,21
+c2client/c2rc_convert.py,sha256=G4RlVB-EzPxCj4nFQRJhkt0YtQLrrJtdETvKBy37Wqk,856
+c2client/clients.py,sha256=kOjlRFEqTpcHmRY987ez4KtwB6lzz6c8vDffWj9CHuc,5746
+c2client/errors.py,sha256=_mAWufB2gpqdsAEHPFiqorDJDTvs0IDb6QCzCIpJcAA,712
+c2client/utils.py,sha256=8Np2fp8cpWT3qul1oagZ68EKfZgBBertN-xdRIQ1M6w,4380
+c2client-0.23.dist-info/METADATA,sha256=1pNi7EtmIh2yjLTIWPbWu3KQbyUIl3p5oMxNZz544Ws,2132
+c2client-0.23.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+c2client-0.23.dist-info/entry_points.txt,sha256=fBsqNK4PVYC1q9TVMSoumyhBSfe89-ma-KQy_JfRl4A,656
+c2client-0.23.dist-info/top_level.txt,sha256=4r1kyasRIj2Iv5hh5t3Q1xBvmeRS-cgAL8DdPN0OXBw,9
+c2client-0.23.dist-info/RECORD,,
