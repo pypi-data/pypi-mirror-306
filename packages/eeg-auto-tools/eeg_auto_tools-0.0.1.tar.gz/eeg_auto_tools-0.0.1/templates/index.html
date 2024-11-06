@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ERP Генератор</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .controls {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .controls label, .controls select, .controls button {
+            margin: 0 10px;
+            font-size: 16px;
+        }
+        /* Добавляем обёртку для таблицы с горизонтальной прокруткой */
+        .table-wrapper {
+            overflow-x: auto;
+            width: 100%;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            /* Убираем фиксированную ширину столбцов для адаптивности */
+            table-layout: auto;
+            min-width: 1000px; /* Минимальная ширина таблицы */
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
+            white-space: nowrap; /* Предотвращает перенос текста */
+        }
+        th {
+            background-color: #f2f2f2;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        img {
+            max-width: 300px; /* Увеличиваем максимальную ширину изображений */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .loading {
+            display: none;
+            text-align: center;
+            font-size: 18px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Генерация ERP Таблицы</h1>
+    <div class="controls">
+        <label for="participant">Выберите участника:</label>
+        <select id="participant">
+            {% for part in participants %}
+                <option value="{{ part }}">{{ part }}</option>
+            {% endfor %}
+        </select>
+        <button id="generateBtn">Generate!</button>
+    </div>
+    <div class="loading" id="loading">Генерация таблицы, пожалуйста, подождите...</div>
+    <div class="table-wrapper">
+        <div id="tableContainer"></div>
+    </div>
+
+    <script>
+        document.getElementById('generateBtn').addEventListener('click', function() {
+            const participant = document.getElementById('participant').value;
+            
+            // Показать индикатор загрузки
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('tableContainer').innerHTML = '';
+            
+            fetch('/generate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: `participant=${encodeURIComponent(participant)}`
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Скрыть индикатор загрузки
+                document.getElementById('loading').style.display = 'none';
+                
+                if(data.error){
+                    alert(data.error);
+                    return;
+                }
+                const columns = data.columns;
+                const rows = data.rows;
+                const tableData = data.table_data;
+
+                let table = '<table>';
+                // Заголовок таблицы
+                table += '<tr><th></th>';
+                columns.forEach(col => {
+                    table += `<th>${col}</th>`;
+                });
+                table += '</tr>';
+
+                // Строки таблицы
+                rows.forEach(row => {
+                    table += `<tr><th>${row}</th>`;
+                    columns.forEach(col => {
+                        const imgData = tableData[col][row];
+                        if(imgData){
+                            table += `<td><img src="data:image/png;base64,${imgData}" alt="ERP"></td>`;
+                        } else {
+                            table += '<td>—</td>';
+                        }
+                    });
+                    table += '</tr>';
+                });
+
+                table += '</table>';
+                document.getElementById('tableContainer').innerHTML = table;
+            })
+            .catch(error => {
+                // Скрыть индикатор загрузки
+                document.getElementById('loading').style.display = 'none';
+                console.error('Error:', error);
+                alert('Произошла ошибка при генерации таблицы.');
+            });
+        });
+    </script>
+</body>
+</html>
