@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+electron_configuration/__init__.py
+electron_configuration/configuration.py
+electron_configuration/main.py
+electron_configuration.egg-info/PKG-INFO
+electron_configuration.egg-info/SOURCES.txt
+electron_configuration.egg-info/dependency_links.txt
+electron_configuration.egg-info/top_level.txt
+tests/__init__.py
+tests/test.py
