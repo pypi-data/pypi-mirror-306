@@ -1,0 +1,13 @@
+indicomb2/__init__.py,sha256=XS7jokJxwt5Jz1m67HjCoJuIkOXxpZq0y16wzhrxpPU,20
+indicomb2/contribution.py,sha256=BTo77Jjdi4isy7S1LzpHLyJctR1im-5OemnyW59rNDA,849
+indicomb2/event.py,sha256=aWLQZUu-vlyaFOOESqs0xNcfKd4t1We47PnmS3zl64w,1714
+indicomb2/indicomb2.py,sha256=h_kXG2tEkt4ZdGwOU0ztHGdbqN09JzWN4NOxu1qzjwY,5514
+indicomb2/markdown.py,sha256=zSeqG7zpArFY69rLQ-OG7rleDgW59K37IS0aR6G-dI0,3179
+indicomb2/meetings.py,sha256=d1EftxO2GC617IaSrTRE4HAV19njLK0xog6XO4J9n4k,3256
+indicomb2/requests.py,sha256=5w0o9291ibxeiES6yXU6LFbRQPkmJoAicGCt55A1jM4,1420
+indicomb2/search.py,sha256=AvhSMIt2oQyIZZz-zlGJMjw5g-pyixesDhoB9wbqeWA,2796
+indicomb2-0.4.dist-info/METADATA,sha256=rxItkOSRZPJHpkwvLV619XdNpPmiArCvy7nMAAx8Z3A,1931
+indicomb2-0.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+indicomb2-0.4.dist-info/entry_points.txt,sha256=0HJvxraqr3mxa5zUgl_IR_b-_QyH_8IZAP23_fM7z1Y,90
+indicomb2-0.4.dist-info/top_level.txt,sha256=O5eDzpAdXFOhQsyuc7H7E7QfKzy82og64kSv_leiSBY,10
+indicomb2-0.4.dist-info/RECORD,,
