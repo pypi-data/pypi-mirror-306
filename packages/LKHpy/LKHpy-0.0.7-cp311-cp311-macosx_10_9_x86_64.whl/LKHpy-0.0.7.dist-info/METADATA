@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: LKHpy
+Version: 0.0.7
+Summary: LKHpy
+Author: Tuan Anh Dao
+Author-email: dta.hust@gmail.com
+Requires-Python: >=3.8
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest>=6.0; extra == "test"
+Requires-Dist: numpy>=1.20; extra == "test"
+
+LKHpy
