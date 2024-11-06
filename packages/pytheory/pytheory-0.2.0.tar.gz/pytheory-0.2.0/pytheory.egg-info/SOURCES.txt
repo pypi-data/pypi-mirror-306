@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+pytheory/__init__.py
+pytheory/_statics.py
+pytheory/charts.py
+pytheory/chords.py
+pytheory/play.py
+pytheory/scales.py
+pytheory/systems.py
+pytheory/tones.py
+pytheory.egg-info/PKG-INFO
+pytheory.egg-info/SOURCES.txt
+pytheory.egg-info/dependency_links.txt
+pytheory.egg-info/requires.txt
+pytheory.egg-info/top_level.txt
