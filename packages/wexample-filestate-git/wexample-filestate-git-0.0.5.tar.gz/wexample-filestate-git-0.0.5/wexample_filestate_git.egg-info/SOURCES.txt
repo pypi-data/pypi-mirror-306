@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+tests/test_git_file_state_manager.py
+wexample_filestate_git/__init__.py
+wexample_filestate_git.egg-info/.gitignore
+wexample_filestate_git.egg-info/PKG-INFO
+wexample_filestate_git.egg-info/README.md
+wexample_filestate_git.egg-info/SOURCES.txt
+wexample_filestate_git.egg-info/dependency_links.txt
+wexample_filestate_git.egg-info/requires.txt
+wexample_filestate_git.egg-info/setup.py
+wexample_filestate_git.egg-info/top_level.txt
+wexample_filestate_git.egg-info/version.txt
+wexample_filestate_git.egg-info/.wex/.env
+wexample_filestate_git.egg-info/.wex/config.yml
