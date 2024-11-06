@@ -1,0 +1,3 @@
+[console_scripts]
+pyDicomCircleROI = dicomUtils.ui.pyDicomCircleROI:main
+pyDicomView = dicomUtils.ui.pyDicomView:main
