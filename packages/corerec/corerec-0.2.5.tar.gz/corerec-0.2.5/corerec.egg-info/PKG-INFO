@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: corerec
+Version: 0.2.5
+Summary: A Framework to built custom recommendation envornments.
+Author: Vishesh Yadav
+Author-email: sciencely98@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: scikit_learn
+Requires-Dist: tqdm
+Requires-Dist: memory_profiler
+Requires-Dist: pandas
+Requires-Dist: torch_geometric
+Requires-Dist: dask
+Requires-Dist: hypothesis
+Requires-Dist: mkl
+Requires-Dist: cmake
+Requires-Dist: ninja
+Requires-Dist: pyyaml
+Requires-Dist: adamax
+Requires-Dist: adadelta
+Requires-Dist: adagrad
+Requires-Dist: asgd
+Requires-Dist: lbfgs
+Requires-Dist: rmsprop
+Requires-Dist: sgd
+Requires-Dist: sparse_adam
