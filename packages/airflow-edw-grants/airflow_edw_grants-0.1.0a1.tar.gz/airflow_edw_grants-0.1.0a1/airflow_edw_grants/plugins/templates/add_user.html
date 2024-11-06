@@ -1,0 +1,111 @@
+{% extends base_template %}
+<!-- Load Select2 CSS -->
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" /> -->
+
+<!-- Load Select2 JS -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script> -->
+{% block title %} My Custom Form {% endblock %}
+
+{% block content %}
+<!-- Load Select2 CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+
+<!-- Load Select2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+<div class="container">
+  <h2>Add a New User</h2>
+  <form method="POST" action="">
+    {{ form.hidden_tag() }}
+    <div class="form-group">
+      <label for="free_text">User Name</label>
+      {{ form.username(class="form-control") }}
+      {% for error in form.username.errors %}
+      <div class="error">{{ error }}</div>
+      {% endfor %}
+    </div>
+    <div class="form-group">
+      <label for="free_text">Password</label>
+      {{ form.password(class="form-control") }}
+      {% for error in form.password.errors %}
+      <div class="error">{{ error }}</div>
+      {% endfor %}
+    </div>
+    <div class="form-group">
+      <label for="roles">Roles</label>
+      {{ form.roles(class="form-control select2", multiple="multiple") }}
+    </div>
+    <div class="form-group">
+      <label for="form-control">Can Edit Database?</label>
+      <label class="switch">
+        {{ form.can_edit_database(class="switch-input") }}
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div class="form-group">
+      {{ form.submit(class="btn btn-primary") }}
+    </div>
+  </form>
+</div>
+<style>
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(14px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+</style>
+<!-- Initialize Select2 -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.select2').select2({
+      placeholder: "Choose options",
+      allowClear: true
+    });
+  });
+</script>
+{% endblock %}
