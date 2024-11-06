@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rated-parser
+Version: 1.0.0
+Requires-Python: >=3.6
+License-File: LICENSE.md
+Requires-Dist: pydantic==2.8.2
+Requires-Dist: pygrok==1.0.0
+Requires-Dist: cryptography~=43.0.3
+Requires-Dist: simpleeval~=1.0.1
+
+Rated Parser is a flexible log parsing tool designed to extract meaningful insights from complex log structures with ease.
