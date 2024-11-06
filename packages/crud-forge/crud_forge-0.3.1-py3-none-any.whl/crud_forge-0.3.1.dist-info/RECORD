@@ -1,0 +1,13 @@
+forge/api.py,sha256=Zqk0LguEhj622j7atP9-fU2muSFSxehiYuTAvm9CIhQ,6945
+forge/db.py,sha256=xxDPkjtWHWEf-4VzlN92cIrK_rzNW7jLnVqoZ7Aqb5A,9063
+forge/model.py,sha256=0Tqtw6fv0qfaU3SUxZslKUMVurHu9PGykVJ1fGey1nk,8707
+forge/gen/crud.py,sha256=8RcJ1KVBsQcYjM6vLUQMmTTGtbYrIIbcjip9VUDpo8U,9444
+forge/gen/fn.py,sha256=ggsob2w_BXJX2anp6x8uzKr7N-BZHx3Zbatt5fTXDOg,10653
+forge/gen/metadata.py,sha256=yfYe_nhYKvLfOA5orjry12I0Zr7guWUkSUUz977xw2Y,3200
+forge/utils/__init__.py,sha256=Jn87R79Wxr41yvhwzPZ3JIEf4Eun2w9IWFGJZVV4mtw,3384
+forge/utils/sql_types.py,sha256=4JsHX1MuCMtI4KaO7COmEM88aHWvHgcG4nL182MhRhc,4131
+crud_forge-0.3.1.dist-info/LICENSE,sha256=wLum5sIywmDNXSzTgpV2XGuy7AVwZTJumRbFD039vlg,1089
+crud_forge-0.3.1.dist-info/METADATA,sha256=ihM5VV7GGV9AdUzdnu2jl-5gOd_CXZEMegjhfGvcjFw,6280
+crud_forge-0.3.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+crud_forge-0.3.1.dist-info/top_level.txt,sha256=sDbe4KjRUBYyB4IABQOjHzoomNKH_4KwOv5fPPrv4ME,6
+crud_forge-0.3.1.dist-info/RECORD,,
