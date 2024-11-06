@@ -1,0 +1,7 @@
+setup.py
+harshpy.egg-info/PKG-INFO
+harshpy.egg-info/SOURCES.txt
+harshpy.egg-info/dependency_links.txt
+harshpy.egg-info/entry_points.txt
+harshpy.egg-info/requires.txt
+harshpy.egg-info/top_level.txt
