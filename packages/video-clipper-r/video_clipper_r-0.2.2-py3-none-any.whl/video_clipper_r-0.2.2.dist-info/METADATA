@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: video-clipper-r
+Version: 0.2.2
+Summary: Clips multiple video clips from one video file.
+Author-email: Andrija Junzki <andrew.junzki@gmail.com>
+Maintainer-email: Andrija Junzki <andrew.junzki@gmail.com>
+Project-URL: Homepage, https://github.com/Junzki/video-clipper
+Project-URL: Repository, https://github.com/Junzki/video-clipper.git
+Project-URL: Issues, https://github.com/Junzki/video-clipper/issues
+Project-URL: Changelog, https://github.com/Junzki/video-clipper/blob/master/CHANGELOG.md
+Keywords: video,ffmpeg,clip
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia :: Video :: Conversion
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML
+
+# video-clipper
+
+Clips multiple video clips from one video file.
+
+## Usage
+
+1. Install  
+   ```pip install video-clipper-r```
+2. Create `manifest.yaml` with command below:  
+   ```python -m video_clipper init-manifest```
+3. Run `python -m videp_clipper manifest.yaml` to start clipping.
+
+## Why the Package Has a Different Name?
+PyPI told me the original name `video-clipper` was similiar to some existing package(s), so I renamed release package - added a `r` as suffix.  
+The suffix `r` means nothing. Sometimes we add `r` or `R` after a software name to show this is totally a different software.
+
+## Requirements
+1. Python 3.8+
+2. FFmpeg  
+   (Please add FFmpeg to your PATH environment variable)
+
+## License
+GPLv3
