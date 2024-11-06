@@ -1,0 +1,7 @@
+python-dotenv
+1password
+
+[testing]
+setuptools
+pytest
+pytest-cov
