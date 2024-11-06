@@ -1,0 +1,8 @@
+about_resource: GoReSym_lin
+name: GoReSym
+version: 3.0.1
+package_url: pkg:github/mandiant/GoReSym@3.0.1
+copyright: Copyright (c) 2022 MANDIANT
+license_expression: mit
+license_text_file: GoReSym_lin.LICENSE
+notes: this is built from the source files contained in the go-inspector/lib-src directory
