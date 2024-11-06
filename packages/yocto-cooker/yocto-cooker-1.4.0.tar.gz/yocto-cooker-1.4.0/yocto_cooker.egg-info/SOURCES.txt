@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+cooker/cooker-menu-schema.json
+cooker/cooker.py
+yocto_cooker.egg-info/PKG-INFO
+yocto_cooker.egg-info/SOURCES.txt
+yocto_cooker.egg-info/dependency_links.txt
+yocto_cooker.egg-info/entry_points.txt
+yocto_cooker.egg-info/requires.txt
+yocto_cooker.egg-info/top_level.txt
