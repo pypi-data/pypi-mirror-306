@@ -1,0 +1,10 @@
+compextAI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compextAI/execution.py,sha256=jFqhpNZe3RPZU48-lMBtwrZIhm_fDAwmDBbwmaUjAoQ,1048
+compextAI/messages.py,sha256=QSv_KicvrU0rhLOtAXF9JTR4jiBQquHs6zXYJLhH_TI,2617
+compextAI/threads.py,sha256=hyyZDcbWwyXwyyY4f1km-9u2EH0N61kMixSyBV0pqf8,3364
+compextAI/api/api.py,sha256=F6OJtqiv2K-Rp4m9aY1V4hbKTnaVlYi9bphKODA4fxo,1506
+CompextAI-0.0.2.dist-info/LICENSE,sha256=cuLTK7qW0SVvk09h-1009d0eCvVE8fVIbhAmfmyd1II,1068
+CompextAI-0.0.2.dist-info/METADATA,sha256=oHNB4_3iceY67wiGUcHFm_0gN8wz4QRbc1jTS2ItgLU,609
+CompextAI-0.0.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+CompextAI-0.0.2.dist-info/top_level.txt,sha256=o8_tWCl5jInE5qGclIxauw2MdFLUR-mV6G_TyU988E8,10
+CompextAI-0.0.2.dist-info/RECORD,,
