@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: xaitk-jatic
+Version: 0.4.0
+Summary: Integration package to support interfacing, implementation and example needs for the JATIC.
+License: Apache-2.0
+Author: Kitware, Inc.
+Author-email: xaitk@kitware.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: docker
+Provides-Extra: tools
+Requires-Dist: kwcoco (>=0.2.18) ; extra == "tools"
+Requires-Dist: maite (>=0.6.0,<0.7.0)
+Requires-Dist: matplotlib (>=3.4.1) ; extra == "tools" or extra == "docker"
+Requires-Dist: numpy (>=1.22,<2.0) ; python_version < "3.12"
+Requires-Dist: numpy (>=1.26,<2.0) ; python_version >= "3.12" and python_version < "3.13"
+Requires-Dist: scipy (>=1.10.0)
+Requires-Dist: setuptools (>=65.6.3)
+Requires-Dist: timm (>=1.0.7,<2.0.0) ; extra == "docker"
+Requires-Dist: torchvision (>=0.10.0) ; extra == "docker"
+Requires-Dist: transformers (>=4.42.3,<5.0.0) ; extra == "docker"
+Requires-Dist: xaitk-saliency (>=0.8.3)
+Project-URL: Documentation, https://xaitk-jatic.readthedocs.io/
+Description-Content-Type: text/markdown
+
+# XAITK JATIC Integrations
+
+"Bucket" to house various examples and resources related to
+[`xaitk-saliency`](https://github.com/xaitk/xaitk-saliency)
+integration and scaling for JATIC use as part of the JATIC program.
+
+<!-- :auto installation: -->
+## Installation
+The following steps assume the source tree has been acquired locally.
+
+Install the current version via pip:
+```bash
+pip install xaitk-jatic
+```
+
+Alternatively, you can also use [Poetry](https://python-poetry.org/):
+```bash
+poetry install --sync --with dev-linting,dev-testing,dev-docs
+```
+
+See [here for more installation documentation](
+https://xaitk-jatic.readthedocs.io/en/latest/installation.html).
+<!-- :auto installation: -->
+
+<!-- :auto getting-started: -->
+## Getting Started
+We provide a number of examples based on Jupyter notebooks in the
+`./examples/` directory to show usage of the `xaitk-jatic` package in a number
+of different contexts.
+
+Contributions are welcome!
+See the [CONTRIBUTING.md](./CONTRIBUTING.md) file for details.
+<!-- :auto getting-started: -->
+
+<!-- :auto documentation: -->
+## Documentation
+Documentation snapshots for releases as well as the latest master are hosted
+on [ReadTheDocs](https://xaitk-jatic.readthedocs.io/en/latest/).
+
+The sphinx-based documentation may also be built locally for the most
+up-to-date reference:
+```bash
+# Install dependencies
+poetry install --sync --with dev-linting,dev-testing,dev-docs
+# Navigate to the documentation root.
+cd docs
+# Build the docs.
+poetry run make html
+# Open in your favorite browser!
+firefox _build/html/index.html
+```
+<!-- :auto documentation: -->
+
+<!-- :auto developer-tools: -->
+## Developer tools
+
+**pre-commit hooks**
+pre-commit hooks are used to ensure that any code meets all linting and
+formatting guidelines required. After installing, this will always run before
+ committing to ensure that any commits are following the standards, but you
+ can also manually run the check without committing. If you want to commit
+ despite there being errors, you can add `--no-verify` to your commit command.
+
+Installing pre-commit hooks:
+```bash
+# Ensure that all dependencies are installed
+poetry install --sync --with dev-linting,dev-testing,dev-docs
+# Initialize pre-commit for the repository
+poetry run pre-commit install
+# Run pre-commit check on all files
+poetry run pre-commit run --all-files
+```
+<!-- :auto developer-tools: -->
+
+<!-- :auto contributing: -->
+## Contributing
+- We follow the general guidelines outlined in the
+[JATIC Design Principles](https://cdao.pages.jatic.net/public/program/design-principles/).
+- We use the Git Flow branching strategy.
+- See [docs/release_process.rst](./docs/release_process.rst) for detailed release information.
+- See [CONTRIBUTING.md](./CONTRIBUTING.md) for additional contributing information.
+<!-- :auto contributing: -->
+
+<!-- :auto license: -->
+## License
+[Apache 2.0](./LICENSE)
+<!-- :auto license: -->
+
+<!-- :auto contacts: -->
+## Contacts
+
+**Principal Investigator**: Brian Hu (Kitware) @brian.hu
+
+**Product Owner**: Austin Whitesell (MITRE) @awhitesell
+
+**Scrum Master / Tech Lead**: Brandon RichardWebster (Kitware) @b.richardwebster
+
+**Deputy Tech Lead**: Emily Veenhuis (Kitware) @emily.veenhuis
+
+<!-- :auto contacts: -->
+
