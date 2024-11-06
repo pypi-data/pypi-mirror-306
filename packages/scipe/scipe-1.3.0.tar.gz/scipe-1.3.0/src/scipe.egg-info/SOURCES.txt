@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/scipe.egg-info/PKG-INFO
+src/scipe.egg-info/SOURCES.txt
+src/scipe.egg-info/dependency_links.txt
+src/scipe.egg-info/requires.txt
+src/scipe.egg-info/top_level.txt
