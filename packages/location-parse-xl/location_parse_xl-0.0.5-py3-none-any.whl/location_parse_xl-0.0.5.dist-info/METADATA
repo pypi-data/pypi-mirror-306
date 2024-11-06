@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: location-parse-xl
+Version: 0.0.5
+Summary: 处理地区字符串，将其解析拆分为省、市、县
+Home-page: https://github.com/dongrixinyu/JioNLP
+Author: lzx
+Author-email: 2739638173@qq.com
+

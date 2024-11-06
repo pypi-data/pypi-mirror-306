@@ -1,0 +1,9 @@
+location_util/__init__.py,sha256=Sgkp7y5HKr9-PNw9JOvevV0WFbCchRfZ-jGgplRneWc,95
+location_util/china_location.txt,sha256=wBp5kCIZUp5wL38NUpCJTwyKxM8FtaYIgtWhWacCNHY,11966238
+location_util/china_location_change.txt,sha256=Y1BKhOGwsJvKsCzyQ_vICXdTWyEVtMSE9bl20z5OWGU,12976
+location_util/dictionary_loader.py,sha256=1hX4S0aZ2qNZNdXnN264fP0KXPf7_X_gj6WSz6uv73c,8776
+location_util/location_parser.py,sha256=dK3EIroEKCKCi9iNb7OXzN9E3wG0oIPjLSOW9QEkJmw,16940
+location_parse_xl-0.0.5.dist-info/METADATA,sha256=25px2knDMz9b2191ghNiSPM6vOXayQlczNbHvjKsfPI,233
+location_parse_xl-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+location_parse_xl-0.0.5.dist-info/top_level.txt,sha256=OW3kY35yGzSbcNyuYS-yqZpAToBjf-x4yeehkajIt7A,14
+location_parse_xl-0.0.5.dist-info/RECORD,,
