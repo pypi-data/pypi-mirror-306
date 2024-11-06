@@ -1,0 +1,117 @@
+Metadata-Version: 2.3
+Name: criteria-pattern
+Version: 2024.11.5
+Summary: The "Criteria Pattern" is a Python package that simplifies and standardizes criteria based filtering, validation and selection.
+Project-URL: Homepage, https://github.com/adriamontoto/criteria-pattern
+Project-URL: Repository, https://github.com/adriamontoto/criteria-pattern
+Project-URL: Issues, https://github.com/adriamontoto/criteria-pattern/issues
+Author: Adria Montoto
+License-Expression: MIT
+License-File: LICENSE.md
+Keywords: criteria,development,filtering,pattern,python,selection,tools,utilities,validation
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Typing :: Typed
+Requires-Python: >=3.11
+Provides-Extra: tests
+Requires-Dist: bandit<2.0.0,>=1.0.0; extra == 'tests'
+Requires-Dist: coverage[toml]<8.0.0,>=7.0.0; extra == 'tests'
+Requires-Dist: faker<29.0.0,>=28.0.0; extra == 'tests'
+Requires-Dist: mypy[reports]<2.0.0,>=1.0.0; extra == 'tests'
+Requires-Dist: pre-commit<4.0.0,>=3.0.0; extra == 'tests'
+Requires-Dist: pytest-asyncio<1.0.0,>=0.0.0; extra == 'tests'
+Requires-Dist: pytest-randomly<4.0.0,>=3.0.0; extra == 'tests'
+Requires-Dist: pytest<9.0.0,>=8.0.0; extra == 'tests'
+Requires-Dist: ruff<1.0.0,>=0.0.0; extra == 'tests'
+Description-Content-Type: text/markdown
+
+<a name="readme-top"></a>
+
+# 🤏🏻 Criteria Pattern
+<p align="center">
+    <a href="https://github.com/adriamontoto/criteria-pattern/actions/workflows/test.yaml?event=push&branch=master" target="_blank">
+        <img src="https://github.com/adriamontoto/criteria-pattern/actions/workflows/test.yaml/badge.svg?event=push&branch=master" alt="Test Pipeline">
+    </a>
+    <a href="https://github.com/adriamontoto/criteria-pattern/actions/workflows/lint.yaml?event=push&branch=master" target="_blank">
+        <img src="https://github.com/adriamontoto/criteria-pattern/actions/workflows/lint.yaml/badge.svg?event=push&branch=master" alt="Lint Pipeline">
+    </a>
+        <a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/adriamontoto/criteria-pattern" target="_blank">
+        <img src="https://coverage-badge.samuelcolvin.workers.dev/adriamontoto/criteria-pattern.svg" alt="Coverage Pipeline">
+    </a>
+    <a href="https://pypi.org/project/criteria-pattern" target="_blank">
+        <img src="https://img.shields.io/pypi/v/criteria-pattern?color=%2334D058&label=pypi%20package" alt="Package Version">
+    </a>
+    <a href="https://pypi.org/project/criteria-pattern/" target="_blank">
+        <img src="https://img.shields.io/pypi/pyversions/criteria-pattern.svg?color=%2334D058" alt="Supported Python Versions">
+    </a>
+</p>
+
+The "Criteria Pattern" is a Python 🐍 package that simplifies and standardizes criteria based filtering 🤏🏻, validation and selection. This package provides a set of prebuilt 👷🏻 objects and utilities that you can drop into your existing projects and not have to implement yourself.
+
+These utilities 🛠️ are useful when you need complex filtering logic. It also enforces 👮🏻 best practices so all your filtering processes follow a uniform standard.
+
+Easy to install and integrate, this is a must have for any Python developer looking to simplify their workflow, enforce design patterns and use the full power of modern ORMs and SQL 🗄️ in their projects 🚀.
+<br><br>
+
+
+## Table of Contents
+- [📥 Installation](#installation)
+- [🔑 License](#license)
+- [💻 Utilization](#utilization)
+<br><br>
+
+<p align="right">
+    <a href="#readme-top">🔼 Back to top</a>
+</p>
+
+
+<a name="installation"></a>
+## 📥 Installation
+```bash
+pip install criteria-pattern
+```
+<br><br>
+
+<p align="right">
+    <a href="#readme-top">🔼 Back to top</a>
+</p>
+
+
+<a name="utilization"></a>
+## 💻 Utilization
+
+```python
+from criteria_pattern import Criteria, Filter, FilterOperator
+from criteria_pattern.converter import SqlConverter
+
+is_adult = Criteria(filters=[Filter('age', FilterOperator.GREATER_OR_EQUAL, 18)])
+email_is_gmail = Criteria(filters=[Filter('email', FilterOperator.ENDS_WITH, '@gmail.com')])
+email_is_yahoo = Criteria(filters=[Filter('email', FilterOperator.ENDS_WITH, '@yahoo.com')])
+
+query = SqlConverter.convert(criteria=is_adult & (email_is_gmail | email_is_yahoo), table='user')
+
+print(query)
+
+# >>> SELECT * FROM user WHERE (age >= '18' AND (email LIKE '%@gmail.com' OR email LIKE '%@yahoo.com'));
+```
+<br><br>
+
+<p align="right">
+    <a href="#readme-top">🔼 Back to top</a>
+</p>
+
+
+<a name="license"></a>
+## 🔑 License
+This project is licensed under the terms of the [MIT license](https://choosealicense.com/licenses/mit/).
+<br><br>
+
+<p align="right">
+    <a href="#readme-top">🔼 Back to top</a>
+</p>
