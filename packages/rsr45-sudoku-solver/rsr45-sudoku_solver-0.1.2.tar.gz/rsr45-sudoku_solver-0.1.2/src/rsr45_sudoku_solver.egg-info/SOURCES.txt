@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+src/rsr45_sudoku_solver.egg-info/PKG-INFO
+src/rsr45_sudoku_solver.egg-info/SOURCES.txt
+src/rsr45_sudoku_solver.egg-info/dependency_links.txt
+src/rsr45_sudoku_solver.egg-info/entry_points.txt
+src/rsr45_sudoku_solver.egg-info/top_level.txt
+src/sudoku_solver/__init__.py
+src/sudoku_solver/solver.py

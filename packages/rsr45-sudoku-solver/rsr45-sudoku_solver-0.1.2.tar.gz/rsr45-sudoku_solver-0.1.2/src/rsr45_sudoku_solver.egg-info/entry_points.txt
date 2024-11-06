@@ -1,0 +1,2 @@
+[console_scripts]
+rsr45-sudoku-solver = sudoku_solver.solver:main
