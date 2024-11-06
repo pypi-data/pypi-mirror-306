@@ -1,0 +1,88 @@
+[tool.poetry]
+name = "pubnet"
+version = "0.9.0"
+description = "A python package for storing and working with publication data in graph form."
+license = "MIT"
+keywords = ["publication", "network", "MEDLINE", "PubMed", "references"]
+repository = "https://github.com/net-synergy/pubnet"
+documentation = "https://net-synergy.gitlab.io/pubnet"
+readme = "README.md"
+authors = ["David Connell <davidconnell12@gmail.com>"]
+maintainers = ["David Connell <davidconnell12@gmail.com>"]
+packages = [{ include = "pubnet" }]
+
+[tool.poetry.dependencies]
+numpy = "^2.0"
+pandas = "^2.1"
+scipy = "^1.9"
+matplotlib = "^3.5"
+igraph = "^0.11"
+appdirs = "^1.4.4"
+python = ">=3.10, <3.13"
+pubmedparser2 = "^2.1.1"
+pyarrow = { version = "^18.0.0", optional = true }
+transformers = { version = "^4.37.1", optional = true }
+flax = { version = "^0.10.0", optional = true}
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1"
+pytest-snapshot = "^0.9"
+lxml = "^5.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.16"
+black = "^24.0"
+isort = "^5.12"
+python-lsp-server = "^1.8"
+pylsp-mypy = "^0.6"
+python-lsp-ruff = "^2.0"
+ipdb = "^0.13.13"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+
+[tool.poetry.extras]
+pyarrow = ["pyarrow"]
+lm = ["transformers", "flax"]
+all = ["pyarrow", "lm"]
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+priority = "supplemental"
+
+[tool.black]
+line-length = 79
+preview = true
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.pylsp-mypy]
+enabled = true
+live_mode = false
+dmypy = true
+
+[tool.ruff]
+line-length = 79
+ignore = ["E203", "D400", "E731"]
+select = ["A", "C", "D", "E", "F", "N", "RET", "SIM"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
