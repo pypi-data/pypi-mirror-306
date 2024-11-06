@@ -1,0 +1,15 @@
+PySide6
+pyperclip
+jinja2
+requests
+pyaudio
+pillow
+psutil
+openai
+anthropic
+google-generativeai
+llama-index
+replicate
+g4f
+curl_cffi
+edge-tts
