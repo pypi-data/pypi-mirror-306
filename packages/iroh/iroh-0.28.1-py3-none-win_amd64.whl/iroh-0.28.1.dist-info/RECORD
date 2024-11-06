@@ -1,0 +1,6 @@
+iroh-0.28.1.dist-info/METADATA,sha256=bPP-Qt2unAZKnIRxW4EnL3LRSU5DNE4YBLTMsxI1Y-I,1432
+iroh-0.28.1.dist-info/WHEEL,sha256=M4hxu9MBgTucOfxfpXjMbhSlCOKAIM9kW-bfPMsHAfo,93
+iroh/__init__.py,sha256=3RougTdhQFWNS2VeM9U0p-xQ_0LNpI_lO6thbDI7kus,32
+iroh/iroh_ffi.py,sha256=RrKIa0zlKUUdWoylfXKojcSs9Xf1SDZyxbiC5X3XW_Y,652498
+iroh/iroh_ffi.dll,sha256=hcmF0uMy7T35h4o-vBigvgqFVX0lI-Gj9s73sYE2f7s,32892928
+iroh-0.28.1.dist-info/RECORD,,
