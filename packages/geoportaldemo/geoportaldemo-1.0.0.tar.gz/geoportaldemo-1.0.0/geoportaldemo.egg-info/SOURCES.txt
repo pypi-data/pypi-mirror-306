@@ -1,0 +1,8 @@
+README.md
+setup.py
+dumb_menu/__init__.py
+geoportaldemo.egg-info/PKG-INFO
+geoportaldemo.egg-info/SOURCES.txt
+geoportaldemo.egg-info/dependency_links.txt
+geoportaldemo.egg-info/requires.txt
+geoportaldemo.egg-info/top_level.txt
