@@ -1,0 +1,32 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 120
+respect-gitignore = true
+extend-exclude = [".venv", "__pycache__"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.ruff.lint]
+select = ["B", "C", "E", "F", "W", "B9"]
+ignore = ["E203", "E266", "E501", "F403", "F401", "F405", "F901"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["django_fernet"]
+section-order = [
+    "future",
+    "standard-library",
+    "django",
+    "third-party",
+    "first-party",
+    "local-folder",
+]
+
+[tool.ruff.lint.isort.sections]
+"django" = ["django"]

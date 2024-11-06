@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+django_fernet/__init__.py
+django_fernet/apps.py
+django_fernet/fernet.py
+django_fernet/fields.py
+django_fernet.egg-info/PKG-INFO
+django_fernet.egg-info/SOURCES.txt
+django_fernet.egg-info/dependency_links.txt
+django_fernet.egg-info/requires.txt
+django_fernet.egg-info/top_level.txt
