@@ -1,0 +1,7 @@
+.DS_Store,sha256=wkIeJQ-hdvJUo1BiNn0UgseQDP13TH4_SExcnRTeB4Q,6148
+mock_requests/__init__.py,sha256=mSarfOSkFjybkulrP6XYFpMzNHy6-NUxu7CVa3LfDek,103
+mock_requests/mock_requests.py,sha256=_i0D-PpK2HoGmCDKWXxvps17-PmWDTLEWF_sVfOI0_w,1158
+mock_requests-0.7.0.dist-info/METADATA,sha256=WfiVIRWGQsFliBtiN4LWR4WI3N1QhT9io58NEHjA-BQ,58
+mock_requests-0.7.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+mock_requests-0.7.0.dist-info/top_level.txt,sha256=5of6Ge92H3hB7obPGCyGQZlY0BAaZSsWaTbqCmodAzM,14
+mock_requests-0.7.0.dist-info/RECORD,,
