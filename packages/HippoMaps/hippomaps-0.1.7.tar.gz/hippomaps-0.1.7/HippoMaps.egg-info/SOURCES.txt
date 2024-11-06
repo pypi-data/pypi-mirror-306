@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+HippoMaps.egg-info/PKG-INFO
+HippoMaps.egg-info/SOURCES.txt
+HippoMaps.egg-info/dependency_links.txt
+HippoMaps.egg-info/not-zip-safe
+HippoMaps.egg-info/requires.txt
+HippoMaps.egg-info/top_level.txt
