@@ -1,0 +1,7 @@
+passagemath_topcom-10.4.44.dist-info/RECORD,,
+passagemath_topcom-10.4.44.dist-info/WHEEL,sha256=jy1z_Yt9Eu2Sq-U3xqyJepmiuhHoM1cERGbylgFICpo,110
+passagemath_topcom-10.4.44.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_topcom-10.4.44.dist-info/METADATA,sha256=n2Wb7MIUbe4kfWXUSGt5xb737XM5j8y251OOewmMS5A,2914
+sage/all__sagemath_topcom.py,sha256=HL2iD-gd1x0rCvOV7a1k2X6Kd2rzeGmduyRumGJ7dJc,89
+sage/libs/topcom.cpython-312-darwin.so,sha256=hU4jaaAlKIz2A2upn9jt5g1duTTeo_70T1zEz8l8Xuw,55168
+sage/libs/all__sagemath_topcom.py,sha256=BZZ0iQmrgxsQXT9tJSOyYwj7645zYZkoEfQJsyPuRWA,45
