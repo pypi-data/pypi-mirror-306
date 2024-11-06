@@ -1,0 +1,119 @@
+Metadata-Version: 2.3
+Name: gryannote
+Version: 0.3.2
+Summary: Provide Gradio custom components to make the diarization-based audio annotation process easier
+Project-URL: Homepage, https://github.com/clement-pages/gryannote
+Author-email: Clément Pagés <clement.pages@irit.fr>
+License: MIT License
+        
+        Copyright (c) 2024 CNRS
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: annotation-tool,audio,gradio-custom-component,pyannote,speaker-diarization
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.10
+Requires-Dist: gradio==4.27.0
+Requires-Dist: pyannote-audio>=3.1.1
+Requires-Dist: pyannote-core>=5.0.0
+Provides-Extra: dev
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <img src="https://github.com/clement-pages/gryannote/blob/main/docs/assets/logo-gryannote.png?raw=true" alt="gryannote logo" width="200">
+<p>
+
+# gryannote: a  speaker diarization labeling tool
+
+gryannote is a collection of [`Gradio`](https://www.gradio.app/) custom components focusing on the labeling of speaker diarization data. Integrated with the [`pyannote`](https://github.com/pyannote/pyannote-audio) speaker diarization ecosystem, it allows to build web applications to load pretrained `pyannote` pipelines and customize their hyper-parameters, upload or record an audio file, process it with the pipeline, visualize and interact with its outputs, correct them if needed, and export the final annotation in RTTM format. Each of these components can be used independently from each other.
+
+## Available `Gradio` custom components
+
+Here is the list of `Gradio` custom components integrated in `gryannote`
+
+- [gryannote_audio](https://github.com/clement-pages/gryannote/tree/main/gryannote/audio/README.md)
+- [gryannote_pipeline](https://github.com/clement-pages/gryannote/tree/main/gryannote/pipeline/README.md)
+- [gryannote_rttm](https://github.com/clement-pages/gryannote/tree/main/gryannote/rttm/README.md)
+
+## Installation
+
+```shell
+pip install gryannote
+```
+
+## Usage
+
+The following code snippet show how to use the `gryannote_audio` component with a `pyannote` pipeline in just a few lines of code. You can find a complete example that uses the three component
+in `app.py` script.
+
+```python
+import gradio as gr
+from gryannote_audio import AudioLabeling
+from pyannote.audio import Pipeline
+
+audio_labeling = AudioLabeling(type="filepath", interactive=True)
+
+
+def apply_pipeline(audio):
+    pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1")
+    annotations = pipeline(audio)
+    return (audio, annotations)
+
+demo = gr.Interface(apply_pipeline, inputs=audio_labeling, outputs=audio_labeling)
+
+demo.launch()
+```
+
+## Interface
+
+Launching `demo/app.py` script will generate the following interface. This interface uses the three `gryannote` components. More details about these components and their interface can be found
+in their respective README.
+
+![](https://github.com/clement-pages/gryannote/blob/main/docs/assets/gryannote_interface.png?raw=1)
+
+RTTM annotations in RTTM component are dynamically updated according to the audio labeling made in the audio component.
+
+## Try it!
+
+A `gryannote` app can be runned in this [Hugging Face space](https://huggingface.co/spaces/clement-pages/gryannote)
+
+## Citation
+
+If you are using `gryannote`, please use the following citation:
+
+```bibtex
+@inproceedings{pages24_interspeech,
+  title     = {Gryannote open-source speaker diarization labeling tool},
+  author    = {Clément Pages and Hervé Bredin},
+  year      = {2024},
+  booktitle = {Interspeech 2024},
+  pages     = {3650--3651},
+}
+```
