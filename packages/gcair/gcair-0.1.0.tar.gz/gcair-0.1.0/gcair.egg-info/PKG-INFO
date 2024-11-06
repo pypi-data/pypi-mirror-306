@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: gcair
+Version: 0.1.0
+Summary: A brief description of your package
+Home-page: https://github.com/yourusername/your-repo
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## 构建前需要安装
+pip install setuptools wheel twine  # twine 用于发布包的
+
+
+## 构建
+python setup.py sdist bdist_wheel
+
+## 测试
+pytest tests
+
+
+## 检查是否有错
+python setup.py check
