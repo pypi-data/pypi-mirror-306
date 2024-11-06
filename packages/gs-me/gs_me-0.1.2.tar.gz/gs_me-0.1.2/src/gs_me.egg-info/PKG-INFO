@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gs-me
+Version: 0.1.2
+Summary: A genome visualization tool
+Author-email: Dmitrii Utkin <dutking@gmail.com>
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Runs a web server with GenomeSpy and selected specs.
+
+# Install the tool
+```sh
+uv tool install gs-me
+```
+
+# Run the tool
+```sh
+gs-me --input /path/to/data
+```
