@@ -1,0 +1,16 @@
+nailguard/alerts/__init__.py,sha256=_3eJKbPAGa8k5mSsDXuhp4g04br1nYC3MFr5oxInpwE,414
+nailguard/alerts/base.py,sha256=5tbqfH4jWF7COS1Y0Ac6K2j9JBqDwflEsaR_RnL7J8s,485
+nailguard/alerts/beep.py,sha256=UNwxj3MV6_FqaCXkEHglFR0FAkruMFcCpLPcNypDtOY,479
+nailguard/alerts/notification.py,sha256=n0DaXP3UVcaRqEgb2QunLRx-0Ua4pbaLmudXSPHut20,556
+nailguard/alerts/screen.py,sha256=CO2uoYUnoZJ-fbjrVxZCP4Ey8v0Iv3-XGeQxBaVbmDU,852
+nailguard/assets/error.wav,sha256=8i597yB1EOehaKK9kIMTOfggxVj5Ij7Yid45td7ZLL8,37100
+nailguard/assets/stop.png,sha256=_Bemc82ENwrZ1YJR7SPFfov3jN_-rGrqkNBOVxU7Zxg,22357
+nailguard/detectors/__init__.py,sha256=TWOaFhfLoDp-6zLo6WXUY-I2W_v2mLK-V676fxgDgLI,322
+nailguard/detectors/base.py,sha256=4U4Jx79hVvDkd2Raij5qGMuRim8w5O430h2NEHgNncA,164
+nailguard/detectors/mediapipe.py,sha256=lwoFc9A8pvELTRNgTsAej_pSoKhXekDe-A2BtAFqqco,2753
+nailguard/main.py,sha256=Ke92TH5TIi3ehMBUzXi1bANI1zS-cTmkPcrJMdjZoWY,1242
+nailguard/nailguard.py,sha256=XyJVvZbNeBvcxdciaEBxE7nyhmz79gpQjzvqcKrlT8E,2708
+nailguard-0.3.0.dist-info/METADATA,sha256=8Bod3dt8gNKxrmYtU--6_tRX7ldhOtGUJTMkNYkT2jI,801
+nailguard-0.3.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+nailguard-0.3.0.dist-info/entry_points.txt,sha256=UUqW3IwobqZMod03cCn4AusR2YIWEPsRT2hyQYkn2Js,49
+nailguard-0.3.0.dist-info/RECORD,,
