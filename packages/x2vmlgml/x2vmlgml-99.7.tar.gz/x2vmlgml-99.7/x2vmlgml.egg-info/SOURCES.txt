@@ -1,0 +1,7 @@
+main.py
+setup.py
+x2vmlgml.egg-info/PKG-INFO
+x2vmlgml.egg-info/SOURCES.txt
+x2vmlgml.egg-info/dependency_links.txt
+x2vmlgml.egg-info/requires.txt
+x2vmlgml.egg-info/top_level.txt
