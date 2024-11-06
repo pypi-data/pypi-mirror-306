@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: hg2-item-parser
+Version: 0.3.0
+Summary: Python package for parsing Houkai Gakuen 2 items data
+License-File: LICENSE
+Requires-Python: <4.0,>=3.12
+Requires-Dist: requests<3.0.0,>=2.32.3
+Requires-Dist: typer<1.0.0,>=0.12.5
+Description-Content-Type: text/markdown
+
+# About
+hg2-item-parser is a Python package for parsing [Houkai Gakuen 2](https://houkai2nd.miraheze.org/wiki/Houkai_Gakuen_2_Wiki) items data
