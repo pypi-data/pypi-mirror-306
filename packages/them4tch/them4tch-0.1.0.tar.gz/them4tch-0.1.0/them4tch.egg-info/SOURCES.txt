@@ -1,0 +1,9 @@
+README.md
+setup.py
+them4tch/__init__.py
+them4tch/courses.py
+them4tch/utils.py
+them4tch.egg-info/PKG-INFO
+them4tch.egg-info/SOURCES.txt
+them4tch.egg-info/dependency_links.txt
+them4tch.egg-info/top_level.txt
