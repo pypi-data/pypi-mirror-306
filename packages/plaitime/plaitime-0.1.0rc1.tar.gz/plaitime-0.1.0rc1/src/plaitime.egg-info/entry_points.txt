@@ -1,0 +1,2 @@
+[console_scripts]
+plaitime = plaitime:main.main
