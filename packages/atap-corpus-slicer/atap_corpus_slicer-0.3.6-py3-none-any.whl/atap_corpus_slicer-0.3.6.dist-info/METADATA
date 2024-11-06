@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: atap-corpus-slicer
+Version: 0.3.6
+Summary: A GUI corpus filter built with the Panel library.
+Home-page: https://github.com/Australian-Text-Analytics-Platform/atap-corpus-slicer
+License: MIT
+Author: Hamish Croser
+Author-email: hamish.croser@sydney.edu.au
+Requires-Python: >=3.10.0,<3.12.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: atap-corpus-loader (>=1.8.0,<1.9.0)
+Requires-Dist: atap_corpus (>=0.1.13,<0.2.0)
+Requires-Dist: numpy (<2.0)
+Requires-Dist: pandas (>=2.0,<3.0)
+Requires-Dist: panel (>=1.4,<2.0)
+Requires-Dist: spacy (>3.0,<3.9)
+Requires-Dist: tqdm
+Project-URL: Documentation, https://australian-text-analytics-platform.github.io/atap-corpus-slicer/DOCS.html
+Project-URL: Repository, https://github.com/Australian-Text-Analytics-Platform/atap-corpus-slicer
+Description-Content-Type: text/markdown
+
+# Corpus Slicer
+
+A GUI corpus filter built with the Panel library
+
+## Documentation
+
+Documentation can be found [here](https://australian-text-analytics-platform.github.io/atap-corpus-slicer/DOCS.html)
+
+## Authors
+
+  - **Hamish Croser** - [h-croser](https://github.com/h-croser)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
