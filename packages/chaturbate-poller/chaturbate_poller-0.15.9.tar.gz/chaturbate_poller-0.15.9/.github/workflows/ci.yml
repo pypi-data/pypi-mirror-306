@@ -1,0 +1,68 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.11, 3.12, 3.13]
+      fail-fast: true
+    timeout-minutes: 20
+
+    env:
+      UV_CACHE_DIR: /tmp/.uv-cache-${{ matrix.python-version }}
+
+    steps:
+      - name: Setup | Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup | Configure UV Environment
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+
+      - name: Dependencies | Cache UV Dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.UV_CACHE_DIR }}
+          key: "uv-${{ matrix.python-version }}-${{ runner.os }}-${{ hashFiles('uv.lock') }}"
+          restore-keys: |
+            uv-${{ matrix.python-version }}-${{ runner.os }}
+
+      - name: Dependencies | Install and Sync Dependencies
+        run: uv sync
+
+      - name: Tests | Code Quality Checks and Tests
+        run: |
+          uv run ruff format ./
+          uv run ruff check --fix ./
+          uv run mypy ./
+          uv run pylint ./
+          uv run pytest ./
+          uv run bandit -c pyproject.toml -r ./
+
+      - name: Documentation | Build and Deploy Docs
+        if: success() && matrix.python-version == '3.13'
+        run: uv run --group=docs make clean html --directory docs/
+
+      - name: SonarCloud | Scan Codebase
+        if: matrix.python-version == '3.13'
+        uses: SonarSource/sonarcloud-github-action@v3
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+      - name: Codecov | Upload Coverage Report
+        if: success() && matrix.python-version == '3.13'
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./coverage.xml

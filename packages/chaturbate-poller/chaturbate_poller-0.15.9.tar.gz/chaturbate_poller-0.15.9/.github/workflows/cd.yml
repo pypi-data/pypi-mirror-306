@@ -1,0 +1,67 @@
+name: Continuous Deployment
+
+on:
+  workflow_run:
+    workflows: ["Continuous Integration"]
+    types: [completed]
+
+env:
+  UV_CACHE_DIR: /tmp/.uv-cache
+
+jobs:
+  release:
+    name: Release Deployment
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    concurrency:
+      group: ${{ github.workflow }}
+
+    steps:
+      - name: Setup | Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref }}
+
+      - name: Setup | Configure UV Environment
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+
+      - name: Dependencies | Install and Sync Dependencies
+        run: uv sync
+
+      - name: Release | Python Semantic Release
+        id: release
+        uses: python-semantic-release/python-semantic-release@v9
+        with:
+          github_token: ${{ secrets.GH_PAT }}
+          git_committer_name: 'MountainGod2'
+          git_committer_email: 'admin@reid.ca'
+
+      - name: Publish | PyPI Test
+        if: steps.release.outputs.released == 'true'
+        uses: pypa/gh-action-pypi-publish@v1.12.0
+        with:
+          repository-url: 'https://test.pypi.org/legacy/'
+          attestations: false
+
+      - name: Publish | PyPI Test Install
+        if: steps.release.outputs.released == 'true'
+        run: uv pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple chaturbate-poller
+
+      - name: Publish | PyPI Release
+        if: steps.release.outputs.released == 'true'
+        uses: pypa/gh-action-pypi-publish@v1.12.0
+        with:
+          attestations: false
+
+      - name: Publish | GitHub Release
+        if: steps.release.outputs.released == 'true'
+        uses: python-semantic-release/publish-action@v9
+        with:
+          github_token: ${{ secrets.GH_PAT }}
