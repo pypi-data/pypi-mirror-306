@@ -1,0 +1,8 @@
+README.md
+setup.py
+wexample_filestate_python/__init__.py
+wexample_filestate_python.egg-info/PKG-INFO
+wexample_filestate_python.egg-info/SOURCES.txt
+wexample_filestate_python.egg-info/dependency_links.txt
+wexample_filestate_python.egg-info/requires.txt
+wexample_filestate_python.egg-info/top_level.txt
