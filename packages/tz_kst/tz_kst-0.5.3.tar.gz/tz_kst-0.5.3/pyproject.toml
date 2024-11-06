@@ -1,0 +1,17 @@
+[project]
+name = "tz_kst"
+version = "0.5.3"
+description = "This module returns current datetime in Seoul/asia"
+authors = [
+    {name = "Mingk42", email = "xoals123456t@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+distribution = true
+
+[tool.setuptools]
+package-dir = {"" = "src/tz_kst"}
