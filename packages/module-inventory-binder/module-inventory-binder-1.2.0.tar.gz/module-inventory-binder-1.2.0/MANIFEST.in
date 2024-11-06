@@ -1,0 +1,6 @@
+# MANIFEST.in
+
+include README.md
+include LICENSE
+recursive-include module_inventory_binder/templates *
+recursive-include module_inventory_binder/static *
