@@ -1,0 +1,5 @@
+setup.py
+mrc_mnc.egg-info/PKG-INFO
+mrc_mnc.egg-info/SOURCES.txt
+mrc_mnc.egg-info/dependency_links.txt
+mrc_mnc.egg-info/top_level.txt
