@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: django-actual-admin-docs
+Version: 0.1
+Summary: Render Markdown documentation in the Django Admin.
+Home-page: https://barttc.github.io/django-actual-admin-docs/
+License: MIT
+Author: Martin Mahner
+Author-email: martin@mahner.org
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: django
+Requires-Dist: markdown-it-py[linkify,plugins]
+Project-URL: Documentation, https://barttc.github.io/django-actual-admin-docs/
+Description-Content-Type: text/markdown
+
+# django-actual-admin-docs
+
+Render Markdown documentation directly in the Django admin `/admin/`.
+
+- Support for nested subfolders
+- Comprehensive Markdown format 
+- Provides default styles for Markdown rendering
+
+See [this screenshot](https://raw.githubusercontent.com/bartTC/django-actual-admin-docs/refs/heads/main/docs/example.png) of an example page.
+
+## Installation
+
+1. `pip install django-actual-admin-docs`.
+2. Add `actual_admin_docs` to your `INSTALLED_APPS` setting.
+3. Add the documentation urlpattern, above your admin urls:
+
+   ```py
+   from django.contrib import admin
+   from django.urls import include, path
+   
+   urlpatterns = [
+       path("admin/docs/", include("actual_admin_docs.urls")),
+       path("admin/", admin.site.urls),
+   ]
+   ```
+4. Add a `DOCS_ROOT` setting which should be a `pathlib.Path` pointing to the docs directory:
+
+   ```python 
+   DOCS_ROOT = BASE_DIR / "docs"
+   ```
+
+## Documentation folder structure
+
+You can use regular folders, subfolders, images, files, etc. You can use regular Markdown files and markup to write your documentation and link between documents. 
+
+```
+🗂 docs/
+│
+├── 🗂 subfolder           
+│   ├── 🗂 subfolder_in_a_subfolder
+│   │   ├── 📦 download.zip
+│   │   └── 📝 index.md
+│   │ 
+│   ├── 📝 another_file.md
+│   └── 📝 index.md
+│
+├── 🗂 assets    
+│   ├── 🌁 image.jpg
+│   └── 🌁 other-image.jpg
+│
+└── 📝 index.md
+```
+
+### Markup
+
+```markdown
+A link to another document [is a regular link](markdown-sample.md).
+Documents in subdirectories [are supported too](./subdirectory/index.md).
+
+For images, downloads etc. use regular markdown markup too:
+
+![a red bird](./assets/image.jpg)
+
+[Click to download](./subfolder/subfolder_in_a_subfolder/download.zip)
+```
+
+## Custom CSS
+
+Overwrite the `actual-admin-docs.css` file to set your custom styles.
