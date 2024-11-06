@@ -1,0 +1,4 @@
+[pymt.plugins]
+FrostNumber = pymt_permamodel.bmi:FrostNumber
+Ku = pymt_permamodel.bmi:Ku
+KuEnhanced = pymt_permamodel.bmi:KuEnhanced

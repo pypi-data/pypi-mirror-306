@@ -1,0 +1,91 @@
+experiment = "{{ experiment }}"
+
+[directories]
+inputs_dir = "{{ inputs_dir }}"
+outputs_dir = "{{ outputs_dir }}"
+
+[domain]
+number_of_years = {{ run_duration }} # time
+grid_shape = [{{ ny }}, {{ nx }}] # [y, x]
+
+[variables.air_temperature]
+nc_file = "{{ air_temperature_file }}"
+scalar = {{ air_temperature_scalar }}
+
+[variables.temperature_amplitude]
+nc_file = "{{ temperature_amplitude_file }}"
+scalar = {{ temperature_amplitude_scalar }}
+
+[variables.snow_thickness]
+nc_file = "{{ snow_thickness_file }}"
+scalar = {{ snow_thickness_scalar }}
+
+[variables.snow_density]
+nc_file = "{{ snow_density_file }}"
+scalar = {{ snow_density_scalar }}
+
+[variables.soil_water_content]
+nc_file = "{{ soil_water_content_file }}"
+scalar = {{ soil_water_content_scalar }}
+
+[variables.frozen_vegetation_height]
+nc_file = "{{ frozen_vegetation_height_file }}"
+scalar = {{ frozen_vegetation_height_scalar }}
+
+[variables.thawed_vegetation_height]
+nc_file = "{{ thawed_vegetation_height_file }}"
+scalar = {{ thawed_vegetation_height_scalar }}
+
+[variables.frozen_vegetation_diffusivity]
+nc_file = "{{ frozen_vegetation_diffusivity_file }}"
+scalar = {{ frozen_vegetation_diffusivity_scalar }}
+
+[variables.thawed_vegetation_diffusivity]
+nc_file = "{{ thawed_vegetation_diffusivity_file }}"
+scalar = {{ thawed_vegetation_diffusivity_scalar }}
+
+[soils.sand]
+scalar_fraction = {{ soils_sand_scalar_fraction }}
+nc_file = '' 
+bulk_density = {{ soils_sand_bulk_density }} # kg m-3
+heat_capacity = {{ soils_sand_heat_capacity }} # J m-3 K-1
+conductivity_thawed_dry = {{ soils_sand_conductivity_thawed_dry }} # W m-1 K-1
+conductivity_thawed_wet = {{ soils_sand_conductivity_thawed_wet }}
+conductivity_frozen_dry = {{ soils_sand_conductivity_frozen_dry }}
+conductivity_frozen_wet = {{ soils_sand_conductivity_frozen_wet }}
+
+[soils.silt]
+scalar_fraction = {{ soils_silt_scalar_fraction }}
+nc_file = '' 
+bulk_density = {{ soils_silt_bulk_density }} # kg m-3
+heat_capacity = {{ soils_silt_heat_capacity }} # J m-3 K-1
+conductivity_thawed_dry = {{ soils_silt_conductivity_thawed_dry }} # W m-1 K-1
+conductivity_thawed_wet = {{ soils_silt_conductivity_thawed_wet }}
+conductivity_frozen_dry = {{ soils_silt_conductivity_frozen_dry }}
+conductivity_frozen_wet = {{ soils_silt_conductivity_frozen_wet }}
+
+[soils.clay]
+scalar_fraction = {{ soils_clay_scalar_fraction }}
+nc_file = '' 
+bulk_density = {{ soils_clay_bulk_density }} # kg m-3
+heat_capacity = {{ soils_clay_heat_capacity }} # J m-3 K-1
+conductivity_thawed_dry = {{ soils_clay_conductivity_thawed_dry }} # W m-1 K-1
+conductivity_thawed_wet = {{ soils_clay_conductivity_thawed_wet }}
+conductivity_frozen_dry = {{ soils_clay_conductivity_frozen_dry }}
+conductivity_frozen_wet = {{ soils_clay_conductivity_frozen_wet }}
+
+[soils.peat]
+scalar_fraction = {{ soils_peat_scalar_fraction }}
+nc_file = '' 
+bulk_density = {{ soils_peat_bulk_density }} # kg m-3
+heat_capacity = {{ soils_peat_heat_capacity }} # J m-3 K-1
+conductivity_thawed_dry = {{ soils_peat_conductivity_thawed_dry }} # W m-1 K-1
+conductivity_thawed_wet = {{ soils_peat_conductivity_thawed_wet }}
+conductivity_frozen_dry = {{ soils_peat_conductivity_frozen_dry }}
+conductivity_frozen_wet = {{ soils_peat_conductivity_frozen_wet }}
+
+[constants]
+uwc = {{ uwc }}
+snow_heat_capacity = {{ snow_heat_capacity }}
+sec_per_a = {{ seconds_per_annum }}
+latent_heat = {{ latent_heat }}
