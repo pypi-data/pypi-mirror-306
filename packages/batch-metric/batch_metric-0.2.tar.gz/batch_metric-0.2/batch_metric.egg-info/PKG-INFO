@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: batch-metric
+Version: 0.2
+Summary: Tool for calculating metric by batch updates.
+Home-page: https://github.com/darkhan-ai/batch-metric
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-learn
+
+# batch-metric
