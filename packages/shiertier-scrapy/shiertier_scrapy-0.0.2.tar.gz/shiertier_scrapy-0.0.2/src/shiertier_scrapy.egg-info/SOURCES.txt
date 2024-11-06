@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/shiertier_scrapy.egg-info/PKG-INFO
+src/shiertier_scrapy.egg-info/SOURCES.txt
+src/shiertier_scrapy.egg-info/dependency_links.txt
+src/shiertier_scrapy.egg-info/requires.txt
+src/shiertier_scrapy.egg-info/top_level.txt
