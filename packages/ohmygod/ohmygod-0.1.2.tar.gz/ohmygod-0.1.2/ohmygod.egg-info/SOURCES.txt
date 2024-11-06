@@ -1,0 +1,12 @@
+README.md
+setup.py
+ohmygod/__init__.py
+ohmygod/main.py
+ohmygod/message.py
+ohmygod/utils.py
+ohmygod.egg-info/PKG-INFO
+ohmygod.egg-info/SOURCES.txt
+ohmygod.egg-info/dependency_links.txt
+ohmygod.egg-info/not-zip-safe
+ohmygod.egg-info/requires.txt
+ohmygod.egg-info/top_level.txt
