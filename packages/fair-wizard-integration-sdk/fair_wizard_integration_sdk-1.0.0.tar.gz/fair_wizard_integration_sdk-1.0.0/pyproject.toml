@@ -1,0 +1,39 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'fair-wizard-integration-sdk'
+version = '1.0.0'
+description = 'Python SDK for building integrations with FAIR Wizard'
+readme = 'README.md'
+keywords = ['fair-wizard', 'integration', 'automation', 'sdk']
+license = { file = 'Apache 2.0' }
+authors = [
+    { name = 'Vojtěch Knaisl', email = 'vojtech.knaisl@fair-wizard.com' },
+    { name = 'Marek Suchánek', email = 'marek.suchanek@fair-wizard.com' },
+]
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3.11',
+]
+requires-python = '>=3.11, <4'
+dependencies = [
+    'pydantic',
+    'func-timeout',
+]
+
+[project.urls]
+Homepage = 'https://fair-wizard.com'
+Repository = 'https://github.com/fair-wizard/fair-wizard-integration-sdk'
+
+[tool.setuptools]
+zip-safe = false
+
+[tool.setuptools.packages.find]
+namespaces = true
+where = ['src']
+
+[tool.distutils.bdist_wheel]
+universal = true
