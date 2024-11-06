@@ -1,0 +1,99 @@
+{
+  "$defs": {
+    "LogLevel": {
+      "enum": [
+        "info",
+        "debug"
+      ],
+      "title": "LogLevel",
+      "type": "string"
+    },
+    "Mode": {
+      "enum": [
+        "ue-editor",
+        "ue-standalone",
+        "low-fidelity"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "Network": {
+      "enum": [
+        "shared",
+        "host"
+      ],
+      "title": "Network",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "ros_domain_id": {
+      "default": 0,
+      "title": "Ros Domain Id",
+      "type": "integer"
+    },
+    "static_peers": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Static Peers",
+      "type": "array"
+    },
+    "log_level": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/LogLevel"
+        }
+      ],
+      "default": "info"
+    },
+    "mode": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/Mode"
+        }
+      ],
+      "default": "low-fidelity"
+    },
+    "network": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/Network"
+        }
+      ],
+      "default": "host"
+    },
+    "use_https": {
+      "default": false,
+      "title": "Use Https",
+      "type": "boolean"
+    },
+    "components": {
+      "title": "Components",
+      "type": "object"
+    },
+    "prod": {
+      "default": false,
+      "title": "Prod",
+      "type": "boolean"
+    },
+    "log_directory": {
+      "default": "~/greenroom/missim/logs",
+      "title": "Log Directory",
+      "type": "string"
+    },
+    "recording_directory": {
+      "default": "~/greenroom/missim/recordings",
+      "title": "Recording Directory",
+      "type": "string"
+    },
+    "charts_directory": {
+      "default": "~/greenroom/charts",
+      "title": "Charts Directory",
+      "type": "string"
+    }
+  },
+  "title": "MissimConfig",
+  "type": "object"
+}
