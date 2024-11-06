@@ -1,0 +1,8 @@
+pg_httpserver/__init__.py,sha256=IQZOS4YL_pW1te3kiMceADzx3XpGVXuU8uwaXfN58u8,461
+pg_httpserver/define.py,sha256=soBBPcHHTJHHFI-SM-pfXti3LU0bCnIv6_AMobuxJV8,4651
+pg_httpserver/fapi.py,sha256=vh_UIdD5InC9QCf7gpjl5uc6WOb6ANEMo37gMiGGDnw,8087
+pg_httpserver/manager.py,sha256=28SrAkteN_A_3USXGTQwsDw6a1vdwjx3jX29lMb0JNw,1792
+pg_httpserver-1.2.9.dist-info/METADATA,sha256=1TcKOHI1ll_k0Jk72Cau5fFAg1PJQIJibqmVkdV_cQc,301
+pg_httpserver-1.2.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pg_httpserver-1.2.9.dist-info/top_level.txt,sha256=cBKgRiIj_L46yM5ovPG41m2gglYipv7KI3pe9PY0jKI,14
+pg_httpserver-1.2.9.dist-info/RECORD,,
