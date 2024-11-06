@@ -1,0 +1,8 @@
+
+---
+
+### 6. **`MANIFEST.in`** (all files included)
+
+```text
+include README.md
+include LICENSE
