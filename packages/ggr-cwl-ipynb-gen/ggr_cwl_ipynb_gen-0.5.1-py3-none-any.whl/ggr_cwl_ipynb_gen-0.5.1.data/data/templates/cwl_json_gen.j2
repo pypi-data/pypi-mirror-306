@@ -1,0 +1,17 @@
+%%writefile {{ output_fn }}
+#!/bin/bash
+ORDER={{ project_name }}
+PROCESSED_DATA_DIR={{ root_dir }}/data/{{ lib_type }}/processed_raw_reads/${ORDER}
+METADATA={{ metadata_filename }}
+
+python /data/reddylab/software/cwl/GGR-cwl/v1.0/json-generator/run.py \
+    -m ${METADATA} \
+    -d ${PROCESSED_DATA_DIR} \
+    -o {{ root_dir }}/processing/{{ lib_type }}/jsons \
+    -t {{ lib_type | replace("_", "-") }} \
+    --fastq-gzipped \
+    --mem {{ mem }} \
+    --nthreads {{ nthreads }}{% if separate_jsons or lib_type == 'rna_seq' %} \{% endif %}
+{% if separate_jsons %}    --separate-jsons{% if lib_type == 'rna_seq' %} \{% endif %}{% endif %}
+{% if lib_type == 'rna_seq' and separate_jsons %}    --skip-star-2pass \{% endif %}
+
