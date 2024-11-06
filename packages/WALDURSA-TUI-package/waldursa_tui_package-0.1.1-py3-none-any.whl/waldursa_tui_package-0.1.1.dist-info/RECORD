@@ -1,0 +1,13 @@
+WALDURSA-TUI-package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WALDURSA-TUI-package/configured_offerings.py,sha256=Jaa9-9UBi2PwiZupmeSfP2O698-WGcgG1AoWYaJx99M,3224
+WALDURSA-TUI-package/dashboard.py,sha256=rocwsDyX4YpiYyqhnZqqOwXAw0IdBis-99lcN15DVCc,1240
+WALDURSA-TUI-package/error.py,sha256=FzcV_OgRoSn02cGAwhowm6Xuw7u5F2eZJg28jWc2Dtc,1040
+WALDURSA-TUI-package/logs.py,sha256=BwXHIe4uTEtOLRnMSv5R6z1KetNCzdX11hBwAl5PxsU,4297
+WALDURSA-TUI-package/main.py,sha256=oQRbpH4YvBopTz5OORMiVMtIknh8Fvd-LCiJPxBEDCk,1400
+WALDURSA-TUI-package/main.tcss,sha256=iU1O7cO7RyPJ5zrMUfMkFTAcJPoesKVrsakZ7UlHk_c,859
+WALDURSA-TUI-package/quit.py,sha256=aFMcpzONvy2PEivJuPgELHn24SjJ-vGCDhThBYvv-rQ,696
+waldursa_tui_package-0.1.1.dist-info/LICENSE,sha256=rlhKduuShYsEeemEuhuEsvcRFIH4BHEd8QEwrB921U0,1070
+waldursa_tui_package-0.1.1.dist-info/METADATA,sha256=vOw_tq6FqxAz0WEEO7ySRB-KJB7rF_EOFRSnWg9GAJw,2020
+waldursa_tui_package-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+waldursa_tui_package-0.1.1.dist-info/entry_points.txt,sha256=lV1FF3RzeWKBnFWfjnVKtFd39TgWu_QB7UmAs61pSOE,62
+waldursa_tui_package-0.1.1.dist-info/RECORD,,

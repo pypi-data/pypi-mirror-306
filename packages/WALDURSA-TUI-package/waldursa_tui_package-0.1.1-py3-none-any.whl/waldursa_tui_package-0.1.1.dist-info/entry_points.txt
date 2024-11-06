@@ -1,0 +1,3 @@
+[console_scripts]
+tui-package=WALDURSA-TUI-package.main:main
+
