@@ -1,0 +1,12 @@
+README.md
+setup.py
+scipe.egg-info/PKG-INFO
+scipe.egg-info/SOURCES.txt
+scipe.egg-info/dependency_links.txt
+scipe.egg-info/requires.txt
+scipe.egg-info/top_level.txt
+src/__init__.py
+src/algorithm.py
+src/app.py
+src/helpers.py
+src/llm_as_judge.py
