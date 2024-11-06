@@ -1,0 +1,103 @@
+[project]
+name = "pdudaemon"
+description = "Control and Queueing daemon for PDUs"
+maintainers = [
+  { name = "Matt Hart", email = "matt@mattface.org" },
+]
+readme = "README.md"
+license = { text = "GPL-2+" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.4",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Communications",
+    "Topic :: Software Development :: Testing",
+    "Topic :: System :: Networking",
+]
+requires-python = ">= 3.4"
+dependencies = [
+    "aiohttp",
+    "requests",
+    "pexpect",
+    "systemd_python",
+    "paramiko",
+    "pyserial",
+    "hidapi",
+    "pysnmp>=4.4.12, <6",
+    "pyasn1<0.6.1",
+    "pyusb",
+    "pymodbus",
+]
+dynamic = ["version"] # via setuptools_scm
+
+[project.optional-dependencies]
+test = [
+    "pytest >= 4.6",
+    "pytest-mock",
+]
+
+[tool.setuptools]
+packages = [
+    "pdudaemon",
+    "pdudaemon.drivers",
+]
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
+
+[project.urls]
+Homepage = "https://github.com/pdudaemon/pdudaemon.git"
+
+[project.scripts]
+pdudaemon = "pdudaemon:main"
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "setuptools_scm[toml]",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+select = [
+  "E", # pycodestyle
+  "W", # pycodestyle
+  "D", # pydocstyle
+  "F", # pyflakes
+  # "I", # isort
+  # "UP", # pyupgrade
+]
+ignore = [
+  "D100", # Missing docstring in public module
+  "D101", # Missing docstring in public class
+  "D102", # Missing docstring in public method
+  "D103", # Missing docstring in public function
+  "D104", # Missing docstring in public package
+  "D107", # Missing docstring in `__init__`
+  "D205", # 1 blank line required between summary line and description
+  "E501", # Line too long
+]
+
+src = ["pdudaemon", "tests"]
+
+line-length = 88 # Match black
+
+# Minimum Python 3.8.
+target-version = "py38"
+
+[tool.ruff.isort]
+known-first-party = ["pdudaemon", "tests"]
+
+[tool.ruff.pydocstyle]
+convention = "google"
