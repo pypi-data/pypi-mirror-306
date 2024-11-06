@@ -1,0 +1,6 @@
+poetry_test_project_for_me/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_test_project_for_me/main.py,sha256=t3Qqk7I733RPjciBY9QrBBUkP_q8i8NIn_zr7dL0lZ4,76
+poetry_test_project_for_me-0.1.0.dist-info/METADATA,sha256=ctTTYTEAdaqJAJhTPD4qqO3mYh2nppPbv7S9JgxuUtk,571
+poetry_test_project_for_me-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+poetry_test_project_for_me-0.1.0.dist-info/entry_points.txt,sha256=LIYYOiPzDC0_GxzZMPPqBIC9BIq-CKnJ0zZY50WX7-U,53
+poetry_test_project_for_me-0.1.0.dist-info/RECORD,,
