@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+cwo_analysis.egg-info/PKG-INFO
+cwo_analysis.egg-info/SOURCES.txt
+cwo_analysis.egg-info/dependency_links.txt
+cwo_analysis.egg-info/entry_points.txt
+cwo_analysis.egg-info/requires.txt
+cwo_analysis.egg-info/top_level.txt
+data_analysis_cwo/__init__.py
+data_analysis_cwo/_plot_from_subfolders_until_user_terminate.py
+data_analysis_cwo/_plot_only_user_requested_column.py
+data_analysis_cwo/main.py
