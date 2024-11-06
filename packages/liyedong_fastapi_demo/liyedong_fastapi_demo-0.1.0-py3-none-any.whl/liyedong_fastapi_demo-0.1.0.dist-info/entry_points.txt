@@ -1,0 +1,3 @@
+[console_scripts]
+liyedong=src.liyedong_fastapi_demo.cmdline:main
+

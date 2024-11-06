@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: liyedong_fastapi_demo
+Version: 0.1.0
+Summary: 
+Author: liyedong
+Author-email: lyd1446034545@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: alembic (>=1.14.0,<2.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: dynaconf (>=3.2.6,<4.0.0)
+Requires-Dist: fastapi (>=0.115.4,<0.116.0)
+Requires-Dist: mysqlclient (>=2.2.5,<3.0.0)
+Requires-Dist: pydantic (>=2.9.2,<3.0.0)
+Requires-Dist: sqlalchemy (>=2.0.36,<3.0.0)
+Requires-Dist: uvicorn (>=0.32.0,<0.33.0)
+Description-Content-Type: text/markdown
+
+# 一个简单博客系统示例.
+
+此项目是一个简单的博客系统，提供一些用户管理和博客文章管理。目的是演示如何做一个更加 Pythonic 的项目。
+
+如果您有任何意见和建议，欢迎开启 ISSUE 发起讨论。期待与您打造更加完美的 Python 示例。
+
+## 协作开发
+
+- Fork 仓库
+- 编写代码，测试，提交
+- 发起 PR
+- 审核通过后合并，协作完成
