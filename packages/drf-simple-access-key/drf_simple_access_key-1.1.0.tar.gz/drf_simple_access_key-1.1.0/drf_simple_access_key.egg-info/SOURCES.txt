@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+drf_simple_access_key/__init__.py
+drf_simple_access_key/permissions.py
+drf_simple_access_key/settings.py
+drf_simple_access_key.egg-info/PKG-INFO
+drf_simple_access_key.egg-info/SOURCES.txt
+drf_simple_access_key.egg-info/dependency_links.txt
+drf_simple_access_key.egg-info/requires.txt
+drf_simple_access_key.egg-info/top_level.txt
