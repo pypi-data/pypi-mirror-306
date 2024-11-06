@@ -1,0 +1,24 @@
+[package]
+name = "rattler_macros"
+version = "1.0.3"
+edition= "2021"
+authors = ["Wolf Vollprecht <w.vollprecht@gmail.com>"]
+description = "A crate that provideds some procedural macros for the rattler project"
+categories= ["development-tools"]
+homepage= "https://github.com/conda/rattler"
+repository= "https://github.com/conda/rattler"
+license= "BSD-3-Clause"
+readme= "README.md"
+autotests = false
+resolver = "2"
+
+[lib]
+proc-macro = true
+
+[[test]]
+name = "tests"
+path = "tests/tests.rs"
+
+[dependencies]
+syn = "2.0.86"
+quote = "1.0.37"

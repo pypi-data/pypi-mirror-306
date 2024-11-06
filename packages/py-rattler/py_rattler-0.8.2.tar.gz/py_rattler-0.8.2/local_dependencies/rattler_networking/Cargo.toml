@@ -1,0 +1,47 @@
+[package]
+name = "rattler_networking"
+version = "0.21.5"
+edition= "2021"
+authors = ["Wolf Vollprecht <w.vollprecht@gmail.com>"]
+description = "Authenticated requests in the conda ecosystem"
+categories= ["development-tools"]
+homepage= "https://github.com/conda/rattler"
+repository= "https://github.com/conda/rattler"
+license= "BSD-3-Clause"
+readme= "README.md"
+resolver = "2"
+
+[features]
+default = ["native-tls"]
+native-tls = ["reqwest/native-tls", "google-cloud-auth?/default-tls"]
+rustls-tls = ["reqwest/rustls-tls", "google-cloud-auth?/rustls-tls"]
+gcs = ["google-cloud-auth", "google-cloud-token"]
+
+[dependencies]
+anyhow = "1.0.92"
+async-trait = "0.1.83"
+base64 = "0.22.1"
+chrono = { version = "0.4.38", default-features = false, features = [
+    "std",
+    "serde",
+    "alloc",
+] }
+dirs = "5.0.1"
+fslock = "0.2.1"
+google-cloud-auth = { version = "0.17.1", default-features = false , optional = true }
+google-cloud-token = { version = "0.1.2", optional = true }
+http = "1.1"
+itertools = "0.13.0"
+keyring = { version = "3.6.1", features = ["apple-native", "windows-native", "async-secret-service", "async-io", "crypto-rust"] }
+netrc-rs = "0.1.2"
+reqwest = { version = "0.12.9", default-features = false , features = ["json"] }
+reqwest-middleware = "0.3.3"
+retry-policies = { version = "0.4.0", default-features = false }
+serde = { version = "1.0.214" , features = ["derive"] }
+serde_json = { version = "1.0.132" }
+thiserror = "1.0"
+tracing = "0.1.40"
+url = { version = "2.5.2" }
+
+[target.'cfg( target_arch = "wasm32" )'.dependencies]
+getrandom = { version = "0.2.15", default-features = false , features = ["js"] }

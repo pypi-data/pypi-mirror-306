@@ -1,0 +1,45 @@
+[package]
+name = "rattler_package_streaming"
+version = "0.22.11"
+edition= "2021"
+authors = ["Bas Zalmstra <zalmstra.bas@gmail.com>"]
+description = "Extract and stream of Conda package archives"
+categories= ["development-tools"]
+homepage= "https://github.com/conda/rattler"
+repository= "https://github.com/conda/rattler"
+license= "BSD-3-Clause"
+readme= "README.md"
+resolver = "2"
+
+[dependencies]
+rattler_conda_types = { path = "../rattler_conda_types", version = "0.29.0", default-features = false }
+rattler_digest = { path = "../rattler_digest", version = "1.0.3", default-features = false }
+rattler_networking = { path = "../rattler_networking", version = "0.21.5", default-features = false }
+rattler_redaction = { version = "0.1.3", path = "../rattler_redaction", features = ["reqwest", "reqwest-middleware"] }
+bzip2 = "0.4.4"
+chrono = { version = "0.4.38", default-features = false, features = [
+    "std",
+    "serde",
+    "alloc",
+] }
+futures-util = "0.3.31"
+num_cpus = "1.16.0"
+reqwest = { version = "0.12.9", default-features = false , optional = true , features = ["stream"] }
+reqwest-middleware = { version = "0.3.3", optional = true }
+serde_json = { version = "1.0.132" }
+tar = "0.4.42"
+tempfile = "3.13.0"
+thiserror = "1.0"
+tokio = { version = "1.41.0", default-features = false , features = ["fs"] }
+tokio-util = { version = "0.7.12", features = ["io-util"] }
+tracing = "0.1.40"
+url = { version = "2.5.2" }
+zip = { version = "2.2.0", default-features = false , features = ["deflate", "time"] }
+zstd = { version = "0.13.2", default-features = false , features = ["zstdmt"] }
+
+[features]
+default = ["native-tls"]
+native-tls = ["rattler_networking/native-tls"]
+rustls-tls = ["rattler_networking/rustls-tls"]
+wasm = ["zstd/wasm"]
+reqwest = ["dep:reqwest-middleware", "dep:reqwest"]
