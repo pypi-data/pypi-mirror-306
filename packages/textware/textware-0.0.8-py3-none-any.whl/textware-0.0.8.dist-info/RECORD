@@ -1,0 +1,14 @@
+textware/__init__.py,sha256=GtpTmXtM6bmV5VGKfPbboXPHfiAxu7Nk1DZMCzqDoqY,6
+textware/core/__init__.py,sha256=JQXxL7VUdYMRb_CP8aB4uVIB7gM16ugj19gxDhj0Np8,336
+textware/core/batching/batchmaker.py,sha256=LkLyNyUWcb7_WPk9PiN24JHbLLx1WXHNgYFPKq3c1ig,3848
+textware/core/counting/counter.py,sha256=pw9dZGbVSD4YkGfqqzPZ6AyaITvUOIC2Xrv530kaTSA,2492
+textware/core/counting/nested_counter.py,sha256=3CJt5jJiVksd_r1brcm2WLrKkrJS_Y9vzj9NYD4_Dr4,12749
+textware/core/transprocessing/base_processor.py,sha256=bR_2Co54oGkR8xVlXnHIsuWysoRGKoXWTGCDXBnwxuc,6346
+textware/core/transprocessing/cleaner.py,sha256=bo5nslZZ0FABDIJEdZcG6YxlkFDOXiP9pPjrVsFebPQ,876
+textware/pipe/__init__.py,sha256=TVnZBiQYHIDMUOn6zkapTHvb4LXAKW-5fQLVEFeNeck,285
+textware/pipe/distr/association.py,sha256=z62ZInqORndOs1a8UB9x88LHRLMhuOM0H2_Zl6XjKdw,1781
+textware/pipe/distr/markov.py,sha256=4URgIRRJWLUwNAMfLVkvewUvGBpDwS7_mtfgE7tnfRQ,722
+textware/pipe/distr/stream.py,sha256=r-0RREomPmNp6ogDpPM6uwglu95zVKWouIIMW29eTuE,861
+textware-0.0.8.dist-info/METADATA,sha256=J4_baeQUfpDNL7_ZkyQQbUlXs7yfHJNs5lbcKxhobHM,487
+textware-0.0.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+textware-0.0.8.dist-info/RECORD,,
