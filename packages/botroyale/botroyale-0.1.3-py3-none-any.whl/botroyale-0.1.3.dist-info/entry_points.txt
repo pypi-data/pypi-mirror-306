@@ -1,0 +1,2 @@
+[console_scripts]
+botroyale = botroyale.run:script_entry_point
