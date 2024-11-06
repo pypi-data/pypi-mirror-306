@@ -1,0 +1,2 @@
+[console_scripts]
+cwo_analysis = data_analysis_cwo.main:run
