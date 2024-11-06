@@ -1,0 +1,17 @@
+odoo/addons/pos_partner_firstname_required/README.rst,sha256=uL1794OhdEWi3H4ez3BGgtQo53pKGMWGwORv58xzM7g,3120
+odoo/addons/pos_partner_firstname_required/__init__.py,sha256=FNlMPDojEQpwvHZlf1L1FiQCxOYOu7R3lMKD6aozhvU,65
+odoo/addons/pos_partner_firstname_required/__manifest__.py,sha256=NVQuLFg1yRhYnBFsgF97s-ujW9n3WZJQjuCMYk0A63I,749
+odoo/addons/pos_partner_firstname_required/i18n/ca_ES.po,sha256=TpFIYnUrPLkNAf9nwD3AACUDhRDlu_TV51hs_Tia19M,980
+odoo/addons/pos_partner_firstname_required/i18n/es.po,sha256=zizqkK40XCEKPAUnuwErp0lDWSIxkkqTNxFqb2bPTaU,983
+odoo/addons/pos_partner_firstname_required/i18n/it.po,sha256=41zYUBW8yXEQYVbPISnsCzbRGN60Qv5oz4_iSrWNqP8,1036
+odoo/addons/pos_partner_firstname_required/i18n/pos_partner_firstname_required.pot,sha256=iABZagJcr5J95fsofKUrq690LeRF9ts4vrIorn0peIk,813
+odoo/addons/pos_partner_firstname_required/readme/CONTRIBUTORS.md,sha256=_E_h3h63ODEy04QGi68wnwx1JSzH-pebaIrSBzP7pA4,84
+odoo/addons/pos_partner_firstname_required/readme/DESCRIPTION.md,sha256=ninASXA6znSsY62gPW7HjiwvH_GyoQbUxOQyC1yV7tI,59
+odoo/addons/pos_partner_firstname_required/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/pos_partner_firstname_required/static/description/icon.svg,sha256=diKhOMF5l92KAWYh0Ei8TCDq2cJnMT7UPvFPIqVPFVU,45999
+odoo/addons/pos_partner_firstname_required/static/description/index.html,sha256=RI29rT7--MbUjXeOFYrAgDlECYtoyrEXsDgu3YO3mys,4269
+odoo/addons/pos_partner_firstname_required/static/src/app/PartnerDetailsEdit.esm.js,sha256=Fh5ChHNcXFgt0zj6SnOe0ncnYi8s_QI0n5x7yym-SOU,1267
+odoo_addon_pos_partner_firstname_required-17.0.1.0.0.4.dist-info/METADATA,sha256=kTKZSXnal83KwCmcAzLcRMKzXthFddwzNDoEcg8fI7A,3739
+odoo_addon_pos_partner_firstname_required-17.0.1.0.0.4.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_pos_partner_firstname_required-17.0.1.0.0.4.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_pos_partner_firstname_required-17.0.1.0.0.4.dist-info/RECORD,,
