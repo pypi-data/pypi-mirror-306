@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+grid_research.egg-info/PKG-INFO
+grid_research.egg-info/SOURCES.txt
+grid_research.egg-info/dependency_links.txt
+grid_research.egg-info/requires.txt
+grid_research.egg-info/top_level.txt
