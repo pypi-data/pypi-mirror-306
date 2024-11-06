@@ -1,0 +1,15 @@
+localstack/clients.py,sha256=UFBz23vDc48uGl1ton1-ejjQb-nnHnj0YEGVBelz57E,680
+localstack/sdk/aws/__init__.py,sha256=Das2FPp0t5hl_gxEP8Nw6MigVxBU8HxePF5ZKq_YNkM,73
+localstack/sdk/aws/client.py,sha256=TGemZuxjbojlq-kWEJNoVBGGg3a3Jshk2XF-PXd97RE,2333
+localstack/sdk/chaos/__init__.py,sha256=czMV7U_iDgUPBObl6nmWQxl78cF-zVl1c8QPY5tnQg4,79
+localstack/sdk/chaos/client.py,sha256=l5hJ8NNLNv2FaSp8lol8fOXZCcAL7DRDV2X_wFGYwxc,1506
+localstack/sdk/chaos/managers.py,sha256=v9oKvotSmz3npEadYtrYBumCuISdxPeol_YGYYQQlGw,386
+localstack/sdk/pods/__init__.py,sha256=49ilbKnbGpIRcv0w71nEp4RvDFtkxfrvrUVdrSLFltI,76
+localstack/sdk/pods/client.py,sha256=YzHQBLbEaDb-veNS2NwDZrND12kFSAVoy5cm-hmS4-M,2909
+localstack/sdk/state/__init__.py,sha256=gHCAz6H0FLwsg72361MbVpdL-YsuTH8GdaTmhKUgkL4,79
+localstack/sdk/state/client.py,sha256=BISI3O-lM0hRIKJVGOPstlPcO6G9uFfYHp5vPOE6ztw,327
+localstack_sdk_python-0.0.3.dist-info/LICENSE.txt,sha256=3PC-9Z69UsNARuQ980gNR_JsLx8uvMjdG6C7cc4LBYs,606
+localstack_sdk_python-0.0.3.dist-info/METADATA,sha256=cZSAkz6TRLGu1R0_IdrtNI-SdXxkDxPfhUA9WXcFZMA,1740
+localstack_sdk_python-0.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+localstack_sdk_python-0.0.3.dist-info/top_level.txt,sha256=3sqmK2lGac8nCy8nwsbS5SpIY_izmtWtgaTFKHYVHbI,11
+localstack_sdk_python-0.0.3.dist-info/RECORD,,
