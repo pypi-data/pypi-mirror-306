@@ -1,0 +1,3 @@
+[console_scripts]
+tui-package=WALDURSA_TUI_package.main:WaldurSATUIApp
+
