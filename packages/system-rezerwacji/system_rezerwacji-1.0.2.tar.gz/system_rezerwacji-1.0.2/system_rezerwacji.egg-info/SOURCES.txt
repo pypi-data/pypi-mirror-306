@@ -1,0 +1,7 @@
+README.md
+setup.py
+system_rezerwacji.egg-info/PKG-INFO
+system_rezerwacji.egg-info/SOURCES.txt
+system_rezerwacji.egg-info/dependency_links.txt
+system_rezerwacji.egg-info/requires.txt
+system_rezerwacji.egg-info/top_level.txt
