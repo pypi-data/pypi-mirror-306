@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: WALDURSA-TUI-package
+Version: 0.1.1
+Summary: Terminal user interface (TUI) for Waldur Site Agent.
+License: MIT
+Author: Oliver Jõgar
+Author-email: oliver.jogar@ut.ee
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: textual (>=0.82.0,<0.83.0)
+Requires-Dist: textual-datepicker (>=0.2.4,<0.3.0)
+Requires-Dist: textual-plotext (>=0.2.1,<0.3.0)
+Description-Content-Type: text/markdown
+
+## Waldur Site Agent TUI
+Waldur Site Agent TUI is a terminal user interface (TUI) for Waldur Site Agent.
+
+## How to use
+### Installing
+- Install Poetry https://python-poetry.org/docs/#installing-with-pipx
+- In the cloned project install Poetry dependencies with ```poetry install```
+- Run the TUI with ```poetry run python src/main.py```
+### UI
+- To switch between TUI elements
+  - Press ‘tab’
+- To switch to a different tab
+  - Select the tab switcher
+  - Press ‘left arrow’ or ‘right arrow’ to switch tabs
+
+
+
+## Release notes
+### Release notes 0.1.0
+- Added dashboard tab
+  - Only includes static test info for now
+- Added logs tab
+  - Includes 3 log categories
+  - Logs are searchable
+  - UI for search by date is added
+    - Not yet functional
+  - A simple export logs button
+    - Export logs that can be viewed
+    - May need to change the functionality in the future
+  - Table for log info
+    - Only includes test logs for now
+- Added configured offerings tab
+  - Offerings are searchable
+  - A list view for available offerings
+  - Each offering has a view for its included items and values
+  - Only includes test info for now
+- Added keybindings
+  - ‘q’ for quitting the TUI
+  - ‘e’ for a simulated error popup
+- Know Bugs
+  - None
+
