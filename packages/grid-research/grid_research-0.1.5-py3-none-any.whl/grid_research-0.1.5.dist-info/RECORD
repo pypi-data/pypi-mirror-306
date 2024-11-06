@@ -1,0 +1,9 @@
+grid/__init__.py,sha256=gkmtsr3LaU2oAjNiHjaWvD5wx2QXvitkHBj8IzbZbnc,22
+grid/bing_web_search.py,sha256=rLXfF16rx2VAHFVrW2yr_AdwPjj17fUe4fk8ceVhbPU,2827
+grid/cli.py,sha256=YbQCiq1bxtOXVrqNezIvcTpLtyg0eAArMO20_KIMhSM,15196
+grid/grid.py,sha256=EhjUO2vmrIXBrn4UP2f5MYVZkAGB4RTwkp7vwvVqNEI,7975
+grid/webpage_clean.py,sha256=W_NuQMVLL7IQM8IX_w_BFEBTCJqtMAcT2vMk_J_3fwA,438
+grid_research-0.1.5.dist-info/METADATA,sha256=POskNdGk1OMgFDdKXItb0Uh3hZiwr8lOd7Gs16-xe4g,3376
+grid_research-0.1.5.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+grid_research-0.1.5.dist-info/top_level.txt,sha256=XMfPzo82frcHtBl_L--u-7dI7SgLWcL82Hs9GLOMHUg,5
+grid_research-0.1.5.dist-info/RECORD,,
