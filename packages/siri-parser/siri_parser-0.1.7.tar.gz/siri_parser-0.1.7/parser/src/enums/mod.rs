@@ -1,0 +1,24 @@
+pub mod arrival_status;
+pub mod boarding_activity;
+pub mod departure_status;
+pub mod occupancy;
+pub mod vehicle_mode;
+pub mod monitoring_error;
+pub mod coordinates;
+pub mod facility_class;
+pub mod end_time_precision;
+pub mod facility_availability;
+pub mod sensitivity;
+pub mod audience;
+pub mod scope_type;
+pub mod verification_status;
+pub mod progress_status;
+pub mod quality_index;
+pub mod source_type;
+pub mod end_time_status;
+pub mod conditions;
+pub mod severity;
+pub mod action;
+pub mod access_mode;
+pub mod vehicule_feature;
+
