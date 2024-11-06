@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlite-veccie"
+description = "A tiny sqlite extension implementing simple vector distance functions"
+readme = "README.md"
+license = {file="LICENSE"}
+dynamic = ["version"]
+
+[project.urls]
+source = "https://github.com/mossblaser/veccie"
+
+[tool.setuptools.dynamic]
+version = {attr = "sqlite_veccie.__version__"}
