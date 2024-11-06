@@ -1,0 +1,52 @@
+botrun_app:
+  name: Perplexity Search
+  description: 使用 perplexity 搜尋的 chatbot
+  mode: chatbot
+workflow:
+  nodes:
+  - type: start
+    id: cab0bd03-b714-4546-8530-162a10d17222
+    title: Start
+    desc: ''
+    input_variables: []
+    output_variables:
+    - variable_name: user_input
+    - variable_name: history
+    print_start: false
+    print_stream: false
+    print_complete: false
+    complete_output: null
+  - type: perplexity
+    id: 82efe665-5f7f-4d30-afaa-e5f08012b185
+    title: Perplexity Search
+    desc: ''
+    input_variables:
+    - node_id: cab0bd03-b714-4546-8530-162a10d17222
+      variable_name: history
+    output_variables:
+    - variable_name: perplexity_output
+    print_start: false
+    print_stream: true
+    print_complete: false
+    complete_output: null
+    model:
+      completion_params: {}
+      name: llama-3.1-sonar-huge-128k-online
+    prompt_template:
+    - role: user
+      content: "\n                幫我根據使用者的提問進行回答，你會尋找最新的資料，而且會以政府網站為優先，最後加上參考資料來源。\n\
+        \n                以下是使用者的提問：\n                {{#cab0bd03-b714-4546-8530-162a10d17222.user_input#}}"
+    temperature: 0.2
+  - type: answer
+    id: 706ef684-6c83-4507-91c3-304f34e07164
+    title: Answer
+    desc: ''
+    input_variables:
+    - node_id: 82efe665-5f7f-4d30-afaa-e5f08012b185
+      variable_name: perplexity_output
+    output_variables:
+    - variable_name: answer
+    print_start: false
+    print_stream: false
+    print_complete: false
+    complete_output: null
