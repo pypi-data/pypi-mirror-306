@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: game-prediction
+Version: 0.1.1
+Summary: A beam search algorithm to decode OCR predictions
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/REPO.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: chess
+Requires-Dist: chess-notation
+Requires-Dist: chess-utils
+Requires-Dist: haskellian
+Requires-Dist: editdistance
+Requires-Dist: lcz
+
+# Game Prediction
+
+> package_description
