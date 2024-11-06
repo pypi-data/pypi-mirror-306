@@ -1,0 +1,3 @@
+[console_scripts]
+pink=pinkrst.pinkrst:main
+
