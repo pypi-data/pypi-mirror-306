@@ -1,0 +1,7 @@
+acme==2.11.0
+certbot==2.11.0
+dns-lexicon==3.18.0
+zope.component
+zope.event
+zope.hookable
+zope.interface
