@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+iris_insee_utils/__init__.py
+iris_insee_utils/get_iris_contours_data.py
+iris_insee_utils/gps_coordinates_to_iris.py
+iris_insee_utils/iris_map.py
+iris_insee_utils/merge_geographical_info_to_iris_data.py
+iris_insee_utils.egg-info/PKG-INFO
+iris_insee_utils.egg-info/SOURCES.txt
+iris_insee_utils.egg-info/dependency_links.txt
+iris_insee_utils.egg-info/requires.txt
+iris_insee_utils.egg-info/top_level.txt
+tests/test_folium_map.py
+tests/test_gps_coordinates_to_iris.py
+tests/test_merge_iris_data_to_geographical_info.py

@@ -1,0 +1,36 @@
+[project]
+name = "iris-insee-utils"
+version = "0.1.1"
+description = "Get code IRIS from GPS points or addresses"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "adrienpacifico", email = "adrienpacificopro@gmail.com" }]
+dependencies = [
+    "folium>=0.18.0",
+    "geopandas>=1.0.1",
+    "loguru>=0.7.2",
+    "matplotlib>=3.9.2",
+    "py7zr>=0.22.0",
+    "pyarrow>=18.0.0",
+    "pylint>=3.3.1",
+    "pytest-cov>=6.0.0",
+    "pytest-xdist>=3.6.1",
+    "requests>=2.32.3",
+    "tqdm>=4.66.6",
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+]
+
+
+
+[tool.setuptools]
+packages = { find = { include = ["iris_insee_utils*"], exclude = ["img*", "data*", "notebooks*"] } }
+
+[project.urls]
+"Homepage" = "https://github.com/adrienpacifico/iris_insee_utils"
