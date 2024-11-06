@@ -1,0 +1,45 @@
+"""
+Main entry points for the package.
+"""
+
+import sys
+
+def main():                 # Will be used as entry-point in pyproject.toml
+    """
+    Main function of the package.
+
+    Read arguments from `sys.argv[1:]`.
+
+    .. Note:: Will be used as `pyyc` entry-point in :ref:`pyproject.toml`,
+              and in the `__main__` block (`python -m pyyc`).
+    """
+
+    print("Command line arguments:", sys.argv[1:])
+
+
+def main_addition():
+    """
+    Another entry point of the package.
+
+    Read arguments from `sys.argv[1:]`.
+
+    .. Note:: Will be used as `pyyc_addition` entry-point
+              in :ref:`pyproject.toml`.
+    """
+
+    try:
+        iargs = [ int(arg) for arg in sys.argv[1:] ]
+    except ValueError:
+        print("Only integers accepted as command-line arguments, got", sys.argv[1:])
+        return
+    else:
+        if len(iargs) < 2:
+            print("At least two arguments on command line, got", len(sys.argv[1:]))
+            return
+
+    print(" + ".join([ str(arg) for arg in iargs ]), "=", sum(iargs))
+
+
+if __name__ == '__main__':  # Will be used by `python -m pyyc`
+
+    main()

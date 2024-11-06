@@ -1,0 +1,77 @@
+[build-system]                  # Build backend
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]                       # Generic package metadata
+name = "pyyc"
+description = "Test package"
+authors = [
+  { name="Yannick Copin", email="y.copin@ipnl.in2p3.fr" },
+]
+
+# Static or Dynamic metadata?
+# version = "0.0.1"
+dynamic = ["version"]  # see [tool.setuptools.dynamic] section below
+
+# README (file and format)
+readme = {file="README.rst", content-type="text/x-rst"}
+
+# License (file)
+license = {file="LICENSE"}
+
+# Python version requirement
+requires-python = ">=3.6"
+
+# Main dependency management (see optional dependencies below)
+# Only *external* libraries (standard lib. is always included)
+dependencies = [
+    "importlib_resources; python_version < '3.10'",  # not needed from 3.10
+]
+
+classifiers = [                 # See https://pypi.org/classifiers/
+    # How mature is this project?
+    "Development Status :: 1 - Planning",
+    # Indicate who your project is intended for
+    "Intended Audience :: Education",
+    # License (should match "license" above)
+    "License :: OSI Approved :: BSD License",
+    # Specify the Python versions you support (see below)
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    # Keywords
+    "Topic :: Education",
+]
+
+[tool.setuptools.dynamic]             # Dynamic definitions
+version = {attr="pyyc.__version__"}   # set version from package
+
+[tool.setuptools.packages]            # Package discovery
+find = {}     # Scan the project directory with the default parameters
+
+[tool.setuptools.package-data]        # Package data
+pyyc = ["*.cfg"]
+
+
+[project.optional-dependencies]
+docs = ["nbsphinx", "ipython"]
+tests = ["pytest", "coverage"]
+
+
+[project.scripts]
+# Entry points and automatic script creation
+# script 'pyyc' corresponds to function 'main()' in file '__main__.py'
+pyyc = "pyyc.__main__:main"
+# 'pyyc_addition' corresponds to function 'main_addition()' in '__main__.py'
+pyyc_addition = "pyyc.__main__:main_addition"
+
+
+[project.urls]
+Repository = "https://gitlab.in2p3.fr/ycopin/pyyc"
+Documentation = "https://ycopin.pages.in2p3.fr/pyyc/"
+
+
+# External tool configuration
+[tool.pytest.ini_options]             # pytest
+minversion = "7.0"
+addopts = "-v"
