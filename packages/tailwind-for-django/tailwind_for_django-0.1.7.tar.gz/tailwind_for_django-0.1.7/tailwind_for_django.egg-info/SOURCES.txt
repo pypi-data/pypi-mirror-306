@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tailwind_for_django/__init__.py
+tailwind_for_django.egg-info/PKG-INFO
+tailwind_for_django.egg-info/SOURCES.txt
+tailwind_for_django.egg-info/dependency_links.txt
+tailwind_for_django.egg-info/requires.txt
+tailwind_for_django.egg-info/top_level.txt
+tailwind_for_django/management/__init__.py
+tailwind_for_django/management/commands/__init__.py
+tailwind_for_django/management/commands/setup_tailwind.py
