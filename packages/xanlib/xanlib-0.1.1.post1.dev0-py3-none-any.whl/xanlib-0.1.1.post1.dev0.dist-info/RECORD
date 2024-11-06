@@ -1,0 +1,16 @@
+xanlib/__init__.py,sha256=HyFUdrfWbSIfx8vVYxOFUYR7i7E3HDQSF37WgPSYEUo,194
+xanlib/compressed_vertex.py,sha256=HDGTjZY5huSWy9GPH-Q6PIsSOqokeWx-e5rahTITLC8,1380
+xanlib/face.py,sha256=3tUc4GxHeakjpQ1aZCShGxmHRzXsmtRD6Ph5eiCcmdI,200
+xanlib/key_animation.py,sha256=zXZ4YDh0v553BNMavfjOn3F3fAo-Hn2newL7w5-3R68,407
+xanlib/math_utils.py,sha256=-jM6rfDfr4e5su_wS6tez9MlRoiE2j8QrUkdYVRFRXc,355
+xanlib/node.py,sha256=Jsq56lN9peK2hR8F1luGXY8sF0Utk8tptuIwJdue628,1544
+xanlib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xanlib/scene.py,sha256=zTlOOeytfrJJNdkkz5r_AYPxX4apprUJRVKsEMY5CSQ,989
+xanlib/vertex.py,sha256=14sLo381LDuW_ti0lNYE0-SZdZ_i9oF1q3YhBz2CelU,137
+xanlib/vertex_animation.py,sha256=N9wHg2EHzljkYwOc_6vIYMCANXlfKSxqUD49lqssrV4,346
+xanlib/xbf_load.py,sha256=27HtZsl-mHh5CCZmY3pjSRrjcaTDEACge6uklKIpecI,6981
+xanlib/xbf_save.py,sha256=gKlBtjYVtrjgcKj1lrSOgYCWfcqiN9wY7hyidTqtVdM,4682
+xanlib-0.1.1.post1.dev0.dist-info/LICENSE,sha256=ceQ4LTHX4hj2IMSa-eET-WZv73JlUp4Om0wEfkKuqhI,1068
+xanlib-0.1.1.post1.dev0.dist-info/METADATA,sha256=YssBbiSNXSPStv7GFRayvF0Z1B-xEU0xANN-cgm9MIY,2944
+xanlib-0.1.1.post1.dev0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+xanlib-0.1.1.post1.dev0.dist-info/RECORD,,
