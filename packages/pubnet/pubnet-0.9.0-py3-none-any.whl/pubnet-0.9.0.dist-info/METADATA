@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pubnet
+Version: 0.9.0
+Summary: A python package for storing and working with publication data in graph form.
+Home-page: https://github.com/net-synergy/pubnet
+License: MIT
+Keywords: publication,network,MEDLINE,PubMed,references
+Author: David Connell
+Author-email: davidconnell12@gmail.com
+Maintainer: David Connell
+Maintainer-email: davidconnell12@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: all
+Provides-Extra: lm
+Provides-Extra: pyarrow
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: flax (>=0.10.0,<0.11.0) ; extra == "lm"
+Requires-Dist: igraph (>=0.11,<0.12)
+Requires-Dist: matplotlib (>=3.5,<4.0)
+Requires-Dist: numpy (>=2.0,<3.0)
+Requires-Dist: pandas (>=2.1,<3.0)
+Requires-Dist: pubmedparser2 (>=2.1.1,<3.0.0)
+Requires-Dist: pyarrow (>=18.0.0,<19.0.0) ; extra == "pyarrow" or extra == "all"
+Requires-Dist: scipy (>=1.9,<2.0)
+Requires-Dist: transformers (>=4.37.1,<5.0.0) ; extra == "lm"
+Project-URL: Documentation, https://net-synergy.gitlab.io/pubnet
+Project-URL: Repository, https://github.com/net-synergy/pubnet
+Description-Content-Type: text/markdown
+
+# PubNet publication networks
+
+Provides data types for managing publication networks as a set of
+graphs.
+
+`PubNet` provides functions for downloading, storing, manipulating, and
+saving publication networks. Networks can come from common online
+sources like pubmed and crossref.
+
+## Installation
+
+``` bash
+pip install --user pubnet
+```
+
+## More help
+
+See [Documentation](https://net-synergy.gitlab.io/pubnet)
+
