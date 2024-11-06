@@ -1,0 +1,2 @@
+[console_scripts]
+emulatorui = emulatorui.main:consoleEntryPoint

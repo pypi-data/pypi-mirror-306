@@ -1,0 +1,4 @@
+image: c64c.png
+name: Commodore 64
+type: c64
+gameDir: ..\..\c64

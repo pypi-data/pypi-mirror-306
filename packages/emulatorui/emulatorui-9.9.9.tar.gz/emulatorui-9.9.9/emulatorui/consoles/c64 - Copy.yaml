@@ -1,0 +1,5 @@
+image: dreamcast.png
+name: Dreamcast
+type: dreamcast
+gameDir: ..\..\dreamcast\games
+screenshotDir: ..\..\dreamcast\screenshots

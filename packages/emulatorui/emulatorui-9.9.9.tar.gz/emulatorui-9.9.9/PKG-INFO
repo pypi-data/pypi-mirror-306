@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: emulatorui
+Version: 9.9.9
+Author: Aliz
+Author-email: randomdude@gmail.com
+Requires-Python: >=3.11
+Requires-Dist: PySDL2~=0.9.9
+Requires-Dist: pysdl2-dll~=2.0.16
+Requires-Dist: PyYAML

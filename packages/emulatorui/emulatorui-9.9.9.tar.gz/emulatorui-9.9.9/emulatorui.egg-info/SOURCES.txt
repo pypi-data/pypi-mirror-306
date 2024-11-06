@@ -1,0 +1,35 @@
+setup.py
+emulatorui/__init__.py
+emulatorui/buttonWithAlphaHighlight.py
+emulatorui/console.py
+emulatorui/consoleScroller.py
+emulatorui/console_c64.py
+emulatorui/game.py
+emulatorui/gameSelectMenu.py
+emulatorui/game_c64.py
+emulatorui/glowingText.py
+emulatorui/main.py
+emulatorui/text.py
+emulatorui/textures.py
+emulatorui/vec2D.py
+emulatorui.egg-info/PKG-INFO
+emulatorui.egg-info/SOURCES.txt
+emulatorui.egg-info/dependency_links.txt
+emulatorui.egg-info/entry_points.txt
+emulatorui.egg-info/requires.txt
+emulatorui.egg-info/top_level.txt
+emulatorui/assets/background.png
+emulatorui/assets/fixedsys.ttf
+emulatorui/assets/highlightbox.png
+emulatorui/assets/left.png
+emulatorui/assets/right.png
+emulatorui/consoles/BBC micro.png
+emulatorui/consoles/C64c.png
+emulatorui/consoles/bbcmicro.yaml
+emulatorui/consoles/blu-ray player.png
+emulatorui/consoles/c64 - Copy.yaml
+emulatorui/consoles/c64.yaml
+emulatorui/consoles/dreamcast.png
+emulatorui/consoles/megadrive.png
+emulatorui/consoles/ps2.png
+emulatorui/consoles/snes.png

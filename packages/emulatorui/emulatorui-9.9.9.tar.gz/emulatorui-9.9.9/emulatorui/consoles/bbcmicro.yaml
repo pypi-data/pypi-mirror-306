@@ -1,0 +1,5 @@
+image: BBC micro.png
+name: BBC micro
+type: beeb
+gameDir: ..\..\beeb\games
+screenshotDir: ..\..\beeb\screenshots
