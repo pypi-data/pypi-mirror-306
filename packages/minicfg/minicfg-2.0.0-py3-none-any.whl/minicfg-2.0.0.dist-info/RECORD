@@ -1,0 +1,11 @@
+minicfg-2.0.0.dist-info/METADATA,sha256=pP_eRuKUkjLb-L6czUHHbtsddoI3fs1qn9vVufNS13E,2364
+minicfg-2.0.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+minicfg-2.0.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+minicfg-2.0.0.dist-info/licenses/LICENSE,sha256=Y6pxQ_MahWhlJ12YfZ1om-GkoxhsuTsSNPY-dyapA4U,1061
+minicfg/__init__.py,sha256=CPz0Io1zfWEzOOwS1KoduXOCVSwIm2dGZc9hYlByMEo,90
+minicfg/caster.py,sha256=d5-cpSGtgg6pnOPrt7-4m8s_doL_xTmEH2tL2HxXSxc,2217
+minicfg/exceptions.py,sha256=5jMMd_xaCkdlT9pZPfr4MCpuZIODQSxS7zXd1IacEzc,2662
+minicfg/field.py,sha256=t9w7Voq0APqjEdJjPbQxqNRR6GHsNcjFGezwSj_ZCEw,4404
+minicfg/minicfg.py,sha256=UvXtR4xO4k7pwxZllHqoGqE9K5tR8gc6NssXQM3EH9Q,3945
+minicfg/provider.py,sha256=nmnusdYvIIrmnM-YTOqr7VH5SwJFGso97Ghbukj6jYc,629
+minicfg-2.0.0.dist-info/RECORD,,
