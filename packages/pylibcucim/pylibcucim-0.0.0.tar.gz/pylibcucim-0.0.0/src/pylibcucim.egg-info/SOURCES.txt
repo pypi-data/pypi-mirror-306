@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pylibcucim/__init__.py
+src/pylibcucim.egg-info/PKG-INFO
+src/pylibcucim.egg-info/SOURCES.txt
+src/pylibcucim.egg-info/dependency_links.txt
+src/pylibcucim.egg-info/top_level.txt
