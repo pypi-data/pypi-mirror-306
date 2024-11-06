@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: quantics
+Version: 0.1.0
+Author: Daniel Igbokwe
+Author-email: igbodani14@gmail.com
+Requires-Python: >=3.6, <3.13
+Requires-Dist: umap-learn
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+
