@@ -1,0 +1,16 @@
+tensor_bridge/__init__.py,sha256=s1-8bXgTe-8HATZozwXl7KivZbUvr_PGMb5drjIb_aM,478
+tensor_bridge/_tensor_bridge.pxd,sha256=bg4zKwSX3VBuJGe6qDuz_WOA9bdnipxw9o6UyqsBb7s,218
+tensor_bridge/_version.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+tensor_bridge/imports.py,sha256=WdeqJwHPyDj_GfOPgWZQmjL-_rjUeHiudla6fj1XDbc,566
+tensor_bridge/native_tensor_bridge.cu,sha256=XwFX1PzYstDUMR4aZP87lkV51e2tA2xpMrmgGoLmvy4,351
+tensor_bridge/native_tensor_bridge.hpp,sha256=ErDo-4ffiBg70JYTRQttpIWMSw22LnmKdyYGVKQU1DU,160
+tensor_bridge/tensor_bridge.cpython-310-x86_64-linux-gnu.so,sha256=IAOY5ycg7hOskcxMOhmsZtXqNn0DV8sv4RvWDx4LokM,87848
+tensor_bridge/tensor_bridge.pyi,sha256=Afl3X5Iib8J-jbxugVP_5_eehwJwjscnxyCevuWdmt0,79
+tensor_bridge/tensor_bridge.pyx,sha256=XRdTfJU2msnG3U74rGb3VNlUtkTPGD5ZRWpBWJgdRnA,1541
+tensor_bridge/types.py,sha256=njvdxK-1f0pZS5-aFUSRMWaIoRVbem6qpSSwbGOqws8,268
+tensor_bridge/utils.py,sha256=ydMA9oh3vF7CLFiO9ERG5FgczDro6QUjVQ5_2_T2f34,654
+tensor_bridge-0.2.0.dist-info/LICENSE,sha256=9csf0eTTU7G6cCbWgHYETd-isE9fAPVUqFt7dCqvghQ,1068
+tensor_bridge-0.2.0.dist-info/METADATA,sha256=_NGOlLFfJKL1Z2pL9Bo6Puq8gWgrPGndus32ljDewi0,3511
+tensor_bridge-0.2.0.dist-info/WHEEL,sha256=Qo6urcp5G35PBEtNNIxBqBiCILHJcBOh9K9nJMEUxGQ,110
+tensor_bridge-0.2.0.dist-info/top_level.txt,sha256=yyWgKkV9L6M2zemJM8dS1gR7iM04D4V2WzeW323slAE,14
+tensor_bridge-0.2.0.dist-info/RECORD,,
