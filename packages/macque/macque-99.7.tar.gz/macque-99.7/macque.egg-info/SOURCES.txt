@@ -1,0 +1,7 @@
+main.py
+setup.py
+macque.egg-info/PKG-INFO
+macque.egg-info/SOURCES.txt
+macque.egg-info/dependency_links.txt
+macque.egg-info/requires.txt
+macque.egg-info/top_level.txt
