@@ -1,0 +1,4 @@
+[console_scripts]
+emulate_get_approval=phantasmpy.client:emulate_get_approval
+generate_grpc_stubs=scripts:generate_grpc_stubs
+
