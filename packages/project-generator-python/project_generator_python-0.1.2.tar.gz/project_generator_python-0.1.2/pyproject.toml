@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project-generator-python"
+version = "0.1.2"
+description = "A CLI tool to generate Python projects with various templates"
+authors = [
+    { name = "barryduan", email = "duanyongcheng77@gmail.com" }
+]
+dependencies = [
+    "click",
+    "questionary",
+    "python-dotenv"
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.scripts]
+create-project = "python_generator.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["python_generator"]
+
+
+[project.urls]
+Homepage = "https://github.com/duanyongcheng/flask-project-generator"
+Repository = "https://github.com/duanyongcheng/flask-project-generator.git"
