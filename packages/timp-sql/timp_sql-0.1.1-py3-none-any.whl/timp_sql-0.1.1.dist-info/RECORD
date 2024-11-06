@@ -1,0 +1,11 @@
+simp_sql/__init__.py,sha256=9QdttIvKqjT2stC1CUQA0tQXmzQq2h4aIXhcdg89BrA,185
+simp_sql/db_connection.py,sha256=-f9ojbu1wIri4zoz5uxhc2-szZFe9TdW5gHF0_WYOuo,1127
+simp_sql/query_generator.py,sha256=JU0RwTsc8wWpcVrT32MKPUseyBi-SXEOqszXkmhIKv0,1756
+timp_sql/__init__.py,sha256=9QdttIvKqjT2stC1CUQA0tQXmzQq2h4aIXhcdg89BrA,185
+timp_sql/db_connection.py,sha256=-f9ojbu1wIri4zoz5uxhc2-szZFe9TdW5gHF0_WYOuo,1127
+timp_sql/query_generator.py,sha256=JU0RwTsc8wWpcVrT32MKPUseyBi-SXEOqszXkmhIKv0,1756
+timp_sql-0.1.1.dist-info/LICENSE,sha256=3raT9oaLk5ww-kNyrBs9kU_3wzdawAz1JWjW72x51yo,1117
+timp_sql-0.1.1.dist-info/METADATA,sha256=khj0ONpRv_7zSA3NKO31Nl-0i4Zz3TNrgDZ_pY0_dq4,770
+timp_sql-0.1.1.dist-info/WHEEL,sha256=OVMc5UfuAQiSplgO0_WdW7vXVGAt9Hdd6qtN4HotdyA,91
+timp_sql-0.1.1.dist-info/top_level.txt,sha256=L_3EAqEko0vRVcracMh6O1b9bKqNBIx-q0ZrueXkfz8,9
+timp_sql-0.1.1.dist-info/RECORD,,
