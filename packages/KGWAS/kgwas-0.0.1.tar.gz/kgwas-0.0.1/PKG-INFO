@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: KGWAS
+Version: 0.0.1
+Summary: KGWAS
+Home-page: https://github.com/snap-stanford/KGWAS
+Author: KGWAS Team
+Author-email: kexinh@stanford.edu
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: torch_geometric
+
+# KGWAS: genetics discovery powered by functional genomics knowledge graph
+
+
+### Installation
+
+```bash
+pip install kgwas
+```
+
+### How to use KGWAS
+
+
+```python
+
+from kgwas import KGWAS, KGWAS_Data
+data = KGWAS_Data()
+data.load_kg()
+
+data.load_external_gwas(PATH)
+data.process_gwas_file()
+data.prepare_split()
+
+run = KGWAS(data,
+            weight_bias_track = True,
+            device = device,
+            proj_name = 'KGWAS',
+            exp_name = exp_name,
+            seed = seed)
+
+run.initialize_model()
+run.train(epoch = 10)
+```
+
+
+### Reproducing experiments
+
+
+### Cite Us
