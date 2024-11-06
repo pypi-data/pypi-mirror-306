@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pt4cloud"
+version = "0.2.1"
+description = "Python implementation of PT4Cloud as descibed by He et al. https://doi.org/10.1145/3338906.3338912"
+authors = ["Fabian <1803fabian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.1.3"
+scipy = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
