@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: red-plex
+Version: 1.0.0
+Summary: A tool for creating Plex playlists from RED collages
+Home-page: https://github.com/marceljungle/red-plex
+Author: marceljungle
+Author-email: gigi.dan2011@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: plexapi
+Requires-Dist: requests
+Requires-Dist: tenacity
+Requires-Dist: pyrate-limiter
+Requires-Dist: python-dotenv
+Requires-Dist: click
+Requires-Dist: pyyaml
+
