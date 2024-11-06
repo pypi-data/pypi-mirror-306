@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "canvasrobot"
+version = "0.7.3"
+description = "Library which uses Canvasapi https://canvasapi.readthedocs.io/en/stable/getting-started.html to provide a CanvasRobot class."
+authors = ["Nico de Groot <ndegroot0@gmail.com>",]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0.0"
+openpyxl = "*"
+pydal = "*"
+toml = "*"
+keyring = "*"
+requests = "*"
+pyaml = "*"
+rich = "*"
+canvasapi = "^3.2.0"
+attrs = "*"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+mock = "*"
+pylint = "*"
+ruff = "*"
+pymemcache = "*"
+mypy = "*"
+types-requests = "*"
+types-pyyaml = "*"
+
+[tool.poetry_bumpversion.file."canvasrobot/__init__.py"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
