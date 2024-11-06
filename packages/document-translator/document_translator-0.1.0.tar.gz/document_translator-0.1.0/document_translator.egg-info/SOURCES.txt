@@ -1,0 +1,9 @@
+README.md
+setup.py
+document_translator.egg-info/PKG-INFO
+document_translator.egg-info/SOURCES.txt
+document_translator.egg-info/dependency_links.txt
+document_translator.egg-info/requires.txt
+document_translator.egg-info/top_level.txt
+excel_translator/__init__.py
+excel_translator/translate.py
