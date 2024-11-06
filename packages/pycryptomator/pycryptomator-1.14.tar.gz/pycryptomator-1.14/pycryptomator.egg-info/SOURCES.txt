@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+pycryptomator/4096words_en.txt
+pycryptomator/__init__.py
+pycryptomator/__main__.py
+pycryptomator/cmshell.py
+pycryptomator/cryptomator.py
+pycryptomator/wordscodec.py
+pycryptomator.egg-info/PKG-INFO
+pycryptomator.egg-info/SOURCES.txt
+pycryptomator.egg-info/dependency_links.txt
+pycryptomator.egg-info/entry_points.txt
+pycryptomator.egg-info/requires.txt
+pycryptomator.egg-info/top_level.txt
+pycryptomator/w32lex/__init__.py
