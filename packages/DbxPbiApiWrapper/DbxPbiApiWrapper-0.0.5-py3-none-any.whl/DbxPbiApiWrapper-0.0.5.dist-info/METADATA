@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: DbxPbiApiWrapper
+Version: 0.0.5
+Summary: Dbx to Pbi Wrapper
+Home-page: https://github.com/J2DataGroup/DbxPbiWrapper
+Author: J2DataGroup
+Author-email: info@j2datagroup.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# J2DbxPbiConnector
