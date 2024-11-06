@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: reglearn
+Version: 0.0.0
+Summary: Learn regularisation parameter maps for MRI image reconstruction using U-Net.
+Author-email: trung-vt <trung.vuthanh24@gmail.com>
+License-File: LICENSE
+Requires-Dist: torch
+
