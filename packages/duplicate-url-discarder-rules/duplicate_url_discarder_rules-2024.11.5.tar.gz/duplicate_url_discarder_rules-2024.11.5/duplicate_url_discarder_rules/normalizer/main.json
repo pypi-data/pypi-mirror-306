@@ -1,0 +1,12 @@
+[
+  {
+    "args": [],
+    "order": 0,
+    "processor": "normalizer",
+    "urlPattern": {
+      "include": [
+        ""
+      ]
+    }
+  }
+]

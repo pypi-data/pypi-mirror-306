@@ -1,0 +1,21 @@
+[
+  {
+    "args": [
+      "utm_campaign",
+      "utm_channel",
+      "utm_content",
+      "utm_id",
+      "utm_medium",
+      "utm_product",
+      "utm_source",
+      "utm_term"
+    ],
+    "order": 0,
+    "processor": "queryRemoval",
+    "urlPattern": {
+      "include": [
+        ""
+      ]
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "args": [
+      0
+    ],
+    "order": 0,
+    "processor": "subpathRemoval",
+    "urlPattern": {
+      "include": [
+        "amazon.ae/*/dp",
+        "amazon.ca/*/dp",
+        "amazon.cn/*/dp",
+        "amazon.co.jp/*/dp",
+        "amazon.co.uk/*/dp",
+        "amazon.com.au/*/dp",
+        "amazon.com.br/*/dp",
+        "amazon.com.mx/*/dp",
+        "amazon.com.sg/*/dp",
+        "amazon.com.tr/*/dp",
+        "amazon.com/*/dp",
+        "amazon.de/*/dp",
+        "amazon.es/*/dp",
+        "amazon.fr/*/dp",
+        "amazon.in/*/dp",
+        "amazon.it/*/dp",
+        "amazon.nl/*/dp",
+        "amazon.pt/*/dp",
+        "amazon.sa/*/dp",
+        "amazon.se/*/dp"
+      ]
+    }
+  }
+]
