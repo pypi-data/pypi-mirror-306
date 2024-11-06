@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: wetest-snapcode
+Version: 2.0.261
+Author: wetest
+License: MIT license
+Keywords: automation,automated-test,bdd,framework,android,ios,behave
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7, <3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: baseImage >=2.1.1
+Requires-Dist: click ==8.0.3
+Requires-Dist: cos-python-sdk-v5 ~=1.9.25
+Requires-Dist: deepdiff >=5.8.1
+Requires-Dist: facebook-wda ==1.4.6
+Requires-Dist: Flask ~=2.2.5
+Requires-Dist: hrpc >=1.0.9
+Requires-Dist: jsonpath ==0.82
+Requires-Dist: jsonpath-ng >=1.5.3
+Requires-Dist: numpy <1.23
+Requires-Dist: onnxruntime ==1.14.1
+Requires-Dist: opencv-python ~=4.7.0.72
+Requires-Dist: paddleocr <=2.6.0
+Requires-Dist: paddlepaddle >=2.3.0
+Requires-Dist: parse ~=1.19.0
+Requires-Dist: parse-type ~=0.6.0
+Requires-Dist: Pillow ~=9.5.0
+Requires-Dist: protobuf ==3.20.1
+Requires-Dist: pyasn1 ==0.4.8
+Requires-Dist: pydantic
+Requires-Dist: pyOpenSSL <23.2.0,>=22.0.0
+Requires-Dist: requests ~=2.28.2
+Requires-Dist: rich <13.0.0,>=10.11.0
+Requires-Dist: scikit-image ~=0.20.0
+Requires-Dist: six
+Requires-Dist: tidevice ==0.11.1
+Requires-Dist: typer >=0.6.0
+Requires-Dist: urllib3 <=1.26.16,>=1.26.10
+Requires-Dist: cantools
+
+# Wetest SnapCode
+[![Group WeTest](https://img.shields.io/badge/group-Wetest-blue.svg)](https://wetest.qq.com/products/UnifiedDeviceToolkit)
+<!-- [![pyversions](https://img.shields.io/pypi/pyversions/maliang.svg)](https://pypi.python.org/pypi/Wetest-SnapCode) -->
+
+> 跨端跨框架 BDD UI自动化测试方案
+
+## 背景
+
+**Wetest SnapCode** 是一套基于BDD模式的UI自动化测试框架，提供了一系列开箱即用的工具和完善的文档。基于开源解决方案[flybirds](https://github.com/ctripcorp/flybirds)，并增加了AI图片识别和车机交互等功能。使用者可以借助Wetest Snapcode，自由地使用低语义脚本在Android和iOS设备上进行自动化测试。
+
+## 安装
+```shell
+python3 -m pip install -U wetest-snapcode -i https://mirrors.tencent.com/pypi/simple/
+```
+
+## 文件结构
+
+```bash
+ 																
+├─ cli	                        脚手架
+├─ core
+|   ├─ config_manage.py         配置管理
+|   ├─ dsl
+|   │    ├─ globalization       国际化处理
+|   │    └─ step                Step 列表
+|   ├─ global_resource.py       全局配置
+|   ├─ launch_cycle             生命周期管理
+|   └─ plugin
+|        ├─ event               事件管理
+|        ├─ plugin_manager.py   插件管理
+|        └─ plugins					
+|             ├─ android        Andriod 相关处理
+|             ├─ ios            iOS 相关处理
+|             └─ web            Web 相关处理
+├─ report                       报告
+├─ template                     模板处理
+└─ utils								
+
+```
+
+
+
+## 致谢
+
+感谢以下仓库让SnapCode变得更好：
+- [flybirds](https://github.com/ctripcorp/flybirds)
