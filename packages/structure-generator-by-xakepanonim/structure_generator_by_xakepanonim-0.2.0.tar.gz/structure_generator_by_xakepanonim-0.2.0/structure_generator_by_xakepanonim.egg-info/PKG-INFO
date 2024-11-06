@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: structure-generator-by-xakepanonim
+Version: 0.2.0
+Summary: Библиотека для генерации описания структуры проекта в README.md
+Home-page: https://github.com/XakepAnonim/structure_generator
+Author: XakepAnonim
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: toml
+
+# Project Structure Generator
+
+Этот пакет позволяет автоматически создавать описание архитектуры проекта и сохранять его в `README.md`.
+
+## Установка
+
+Установите пакет через pip:
+```bash
+pip install structure-generator-by-xakepanonim
+```
+
+## Как пользоваться
+
+Перед тем как использовать пакет, убедитесь что находитесь в корневой папке проекта и запустите команду:
+
+```bash
+generate-structure .
+```
+
+
+## Настройки
+
+Пакет поддерживает несколько вариантов файлов конфигурации для указания исключений:
+
+1. `structure.toml` — дефолтный файл
+2. `pyproject.toml` — в этом файле используйте секцию `[tool.structure_generator]`
+
+Параметры:
+
+- `exclude` — список файлов, которые необходимо исключить из генерации
+- `read_docstrings` — если `true`, то будет считано описание документации для каждого файла
+
+Пример настройки в `structure.toml`:
+```toml
+exclude = [
+    'venv',
+    '__pycache__',
+    '.git',
+]
+
+read_docstrings = true
+```
+
+Пример настройки в `pyproject.toml`:
+```toml
+[tool.structure_generator]
+exclude = [
+    'venv',
+    '__pycache__',
+    '.git',
+]
+
+read_docstrings = true
+```
