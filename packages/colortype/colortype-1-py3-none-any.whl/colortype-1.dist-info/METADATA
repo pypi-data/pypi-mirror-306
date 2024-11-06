@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: colortype
+Version: 1
+Summary: A module that use ANSI code to change your text color, text type
+Author: Dang Vo Anh Kiet
+Author-email: himnnha23@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.0
+Description-Content-Type: text/markdown
+
+# Version 001
+* Use ANSI to color, type of the text
+# Version 002
+* Comming soon
