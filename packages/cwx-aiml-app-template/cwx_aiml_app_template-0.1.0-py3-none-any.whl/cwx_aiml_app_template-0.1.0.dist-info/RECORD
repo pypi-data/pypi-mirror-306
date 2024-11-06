@@ -1,0 +1,13 @@
+cwx_aiml_app_template/__init__.py,sha256=uDep9mdCeNBfzivvDbQTecfU4XUVyjK3aoTIL_HliS4,110
+cwx_aiml_app_template/cli.py,sha256=4NHSrgjXEI85yvAd4308V4l-8a1YG7WNl2oFONxH8w0,816
+cwx_aiml_app_template/generator.py,sha256=0SkndQiKguOhcNSTMPaIXf92LzEv9ZneaEj3imhDQ_4,1859
+cwx_aiml_app_template/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cwx_aiml_app_template/templates/dockerfile_template,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cwx_aiml_app_template/templates/gitignore_template,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cwx_aiml_app_template/templates/readme_template.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cwx_aiml_app_template/templates/structure.py,sha256=wisFb7lFHuvxIs3Cwkx3gHHEHZ2U8pOw3B9MY2HhyQM,1453
+cwx_aiml_app_template-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cwx_aiml_app_template-0.1.0.dist-info/METADATA,sha256=n6uIAZ-_YT7rC9XYridPSoi_4HjbRnWZ9c8lhtG_JYw,861
+cwx_aiml_app_template-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+cwx_aiml_app_template-0.1.0.dist-info/entry_points.txt,sha256=NkU6aN8by8HdRUSCTi10G4tc5vaz-QDk7RaeajLmwWs,58
+cwx_aiml_app_template-0.1.0.dist-info/RECORD,,
