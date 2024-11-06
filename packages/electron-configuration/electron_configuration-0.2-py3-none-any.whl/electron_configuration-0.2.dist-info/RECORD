@@ -1,0 +1,10 @@
+electron_configuration/__init__.py,sha256=fDmB6VCsfXeJfT0DEustZehrdgqXqg8phllIxOnya-Y,90
+electron_configuration/configuration.py,sha256=I6aAqfhXjcH1ltBIUF6ot0TWn_OQuNWNg2psbjj2V8E,5253
+electron_configuration/main.py,sha256=rHr41CGs6htNc7qQwpfGniUfDCTktPzJKjIrEGc94Ws,566
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=tuCPYe9SXAiXP4frW2QuOV3DOoOzaaVq5wN7joWrBCA,479
+electron_configuration-0.2.dist-info/LICENSE,sha256=E4_gTwrJIo3CPwBmK44R0azWHBT_h7meVX7a6R4gEpg,718
+electron_configuration-0.2.dist-info/METADATA,sha256=nwljpVp6By63e7eYsxYhDrb8lm3UqN4zlPzuHYKZTJk,587
+electron_configuration-0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+electron_configuration-0.2.dist-info/top_level.txt,sha256=W6KIopsCy0mwmdDPmklefRgjoIifPVKKg3uGOTzNwdk,29
+electron_configuration-0.2.dist-info/RECORD,,
