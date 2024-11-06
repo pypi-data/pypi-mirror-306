@@ -1,0 +1,17 @@
+signapse/__init__.py,sha256=0CGu6k3YRa6UY6_vTh5lyR3znYZ0ZDUDnotDDhc6w0M,519
+signapse/build_opt.py,sha256=JIMVEfS2BLIvgypNWZfHBB3oy8UdiUKkUJ3ooIbQdA4,6719
+signapse/compute.py,sha256=1oBGnwDbLSUCBtoNeK6l2MJSZHwaYWh7INUXPL5Xj5E,9366
+signapse/constants.py,sha256=mQ5KqUvAvP8xTWya9t-2Hh1KKdasWFGBlMFQTvlLH_w,7238
+signapse/create.py,sha256=e_8ZSi4vSBASBIQaX8nbXMHJQMOx1QhTaQTwdxEQKJw,11927
+signapse/create_model.py,sha256=TjXKGvaI5UzldztPiqkQHB7c43baN_ZRUxCLRxO14Xc,1224
+signapse/heatmaps.py,sha256=cDBTasEOkaaBKe6i6lAI2Cw5GI8EzB5M-wwJVtTKmD4,31834
+signapse/lang_utils.py,sha256=u5VzMLfA0KqZMLDkXqQBQA5pXMIN8O5AD3NzJEkOyi4,4829
+signapse/models_utils.py,sha256=lU6_5k1mQhVQ-OR_l3Ja2yGzD9YdsILZndzf5jKDxLg,22381
+signapse/mp_utils.py,sha256=Cn6xhMxBJnho8Qemmrh3FxCsk-HJ7dvIv5Q7fMf61YE,3885
+signapse/poses.py,sha256=uHJ7kneXBuobjhhaVrbFrDhNTitcg7LJiO1-HGTzqDw,5765
+signapse/preprocessing.py,sha256=suiyXI17ZhhTD0DxoXCzWrZHu0R7_Kz9CdDWVlnfBtY,3632
+signapse/sam2.py,sha256=Y7ooBrmTeMNM7plxwSNFgz5QzAIdtQ6Cn8Z-F0fhy1M,14364
+signapse-1.1.6.dist-info/METADATA,sha256=TLeUMlhxKbTyEPkGrcRBiluVW2V83rtvcRui_5BfzkQ,2178
+signapse-1.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+signapse-1.1.6.dist-info/top_level.txt,sha256=J4E0N2vRFwt51Itz0JcASkaYx5ymhjJZ0dPLAsOV7ME,9
+signapse-1.1.6.dist-info/RECORD,,
