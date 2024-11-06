@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flatten-imports"
+version = "0.1.0"
+description = ""
+authors = ["Willem Thiart <himself@willemthiart.com>"]
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+libcst = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+flatten-imports = "flatten_imports:main"
