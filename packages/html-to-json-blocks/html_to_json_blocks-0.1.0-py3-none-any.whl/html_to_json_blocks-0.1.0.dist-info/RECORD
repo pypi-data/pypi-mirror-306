@@ -1,0 +1,13 @@
+html_to_json_blocks/__init__.py,sha256=8V6wAohP4_3-zQ099be8sfB-22eghaPkXus-QCuX8Pc,257
+html_to_json_blocks/converters/__init__.py,sha256=3SG7BEG21MtV27DC0xre8wREfZQlhYfV23B4ITXrdaA,138
+html_to_json_blocks/converters/base_converter.py,sha256=yCfdZbmg8MOYeu2Q5Jk88fc3i7D0hf2f7b14fNoVqzM,3077
+html_to_json_blocks/converters/default_converter.py,sha256=slAJ3kXnGcmHxeXCGEkl6D74ER602YlgQ7cJXqkw7To,536
+html_to_json_blocks/core.py,sha256=I0VauCXTVDg4QWZ-hOXY3J-2HrHwpluhKh5DQGFlPX8,439
+html_to_json_blocks/transformers/__init__.py,sha256=W2lm7oCM-e--RJTjVp4cHVToVfMQ4f2exRYbpctCxic,169
+html_to_json_blocks/transformers/default_image_transformer.py,sha256=zuDwWeHRjPged6FOuDGmuLnC7XGgjoslapr9DOLEgdQ,2761
+html_to_json_blocks/transformers/image_transformer.py,sha256=K0VDcYSlHFYiKq7tNl422JXSXhJ4jsdF4g2XoorVt7g,153
+html_to_json_blocks/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+html_to_json_blocks-0.1.0.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+html_to_json_blocks-0.1.0.dist-info/METADATA,sha256=KjU4zWzGznf7R5HZ5JylNe0piTNkomUVhO2kVXgDj_0,3330
+html_to_json_blocks-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+html_to_json_blocks-0.1.0.dist-info/RECORD,,
