@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/simple_hifigan/__init__.py
+src/simple_hifigan/models.py
+src/simple_hifigan.egg-info/PKG-INFO
+src/simple_hifigan.egg-info/SOURCES.txt
+src/simple_hifigan.egg-info/dependency_links.txt
+src/simple_hifigan.egg-info/top_level.txt
+src/simple_hifigan/data/config.json
+src/simple_hifigan/data/generator_LJSpeech.pth.tar
+src/simple_hifigan/data/generator_universal.pth.tar
+tests/test.py
