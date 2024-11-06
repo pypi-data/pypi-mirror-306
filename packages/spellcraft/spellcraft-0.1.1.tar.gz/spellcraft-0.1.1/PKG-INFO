@@ -1,0 +1,110 @@
+Metadata-Version: 2.3
+Name: spellcraft
+Version: 0.1.1
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Rust
+Requires-Dist: maturin >=1.7, <2.0 ; extra == 'dev'
+Requires-Dist: black ~=24.10.0 ; extra == 'dev'
+Requires-Dist: mypy ~=1.13.0 ; extra == 'dev'
+Requires-Dist: pytest ~=8.3.3 ; extra == 'dev'
+Requires-Dist: pytest-benchmark ~=5.1.0 ; extra == 'dev'
+Requires-Dist: flake8 ~=7.1.1 ; extra == 'dev'
+Requires-Dist: bump2version ~=1.0.1 ; extra == 'dev'
+Requires-Dist: myst-parser ~=4.0.0 ; extra == 'dev'
+Requires-Dist: sphinx ~=8.1.3 ; extra == 'dev'
+Requires-Dist: sphinx-autobuild ==2024.10.3 ; extra == 'dev'
+Requires-Dist: sphinx-material ~=0.0.36 ; extra == 'dev'
+Requires-Dist: myst-parser ~=4.0.0 ; extra == 'sphinx'
+Requires-Dist: sphinx ~=8.1.3 ; extra == 'sphinx'
+Requires-Dist: sphinx-autobuild ==2024.10.3 ; extra == 'sphinx'
+Requires-Dist: sphinx-material ~=0.0.36 ; extra == 'sphinx'
+Provides-Extra: dev
+Provides-Extra: sphinx
+License-File: LICENSE
+Summary: spellcraft is a helper library containing useful functions and spells, primarily designed for use by Dataclass Wizard.
+Keywords: string,case,camel,snake,unicode
+Author-email: rnag <me@ritviknag.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: homepage, https://github.com/rnag/spellcraft
+Project-URL: documentation, https://rnag.github.io/spellcraft/
+Project-URL: repository, https://github.com/rnag/spellcraft
+Project-URL: changelog, https://github.com/rnag/spellcraft/blob/main/CHANGELOG.md
+
+# PySpellCraft
+
+[![PyPI version](https://img.shields.io/pypi/v/spellcraft.svg)](https://pypi.org/project/spellcraft/)
+[![Python versions](https://img.shields.io/pypi/pyversions/spellcraft.svg)](https://pypi.org/project/spellcraft/)
+[![Docs Status](https://github.com/rnag/spellcraft/actions/workflows/docs.yml/badge.svg)](https://ritviknag.com/spellcraft/)
+[![Build Status](https://github.com/rnag/spellcraft/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/rnag/spellcraft/actions/workflows/build-and-release.yml)
+[![License](https://img.shields.io/pypi/l/spellcraft.svg)](https://github.com/rnag/spellcraft/blob/main/LICENSE)
+
+<!-- [![Coverage Status](https://coveralls.io/repos/github/rnag/spellcraft/badge.svg?branch=main)](https://coveralls.io/github/rnag/spellcraft?branch=main) -->
+<!-- [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) -->
+
+**SpellCraft** is a helper library that contains useful functions and "spells", primarily designed for use by [Dataclass Wizard].
+
+[Read the documentation.]
+
+[Read the documentation.]: https://ritviknag.com/spellcraft/
+[Dataclass Wizard]: https://dataclass-wizard.readthedocs.io
+
+## Installation
+
+```
+pip install spellcraft
+```
+
+> [!NOTE]
+> Requires Python >= 3.9.
+
+## Example
+
+```python
+>>> from spellcraft import snake
+>>> snake("We carry a new world here, in our hearts.")
+'we_carry_a_new_world_here_in_our_hearts'
+```
+
+## Development
+
+### Setup
+
+1. Activate a virtual environment:
+
+```sh
+python -m venv .venv
+source .venv/bin/activate
+```
+
+2. Install dev dependencies:
+
+```
+pip install .[dev]
+```
+
+### Testing
+
+1. Run `maturin develop` to compile the Rust code.
+2. Run `make fmt`, `make lint`, and `make test`.
+
+## License
+
+`spellcraft` is distributed under the terms of the MIT License.
+
+See the LICENSE file for full details.
+
+> Copyright (c) 2015 The Rust Project Developers<br>
+> Copyright (c) 2022 Kevin Heavey<br>
+> Copyright (c) 2024 Ritvik Nag
+

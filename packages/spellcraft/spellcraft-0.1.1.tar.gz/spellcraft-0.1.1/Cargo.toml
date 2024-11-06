@@ -1,0 +1,17 @@
+[package]
+name = "spellcraft"
+version = "0.1.1"
+edition = "2021"
+license = "MIT"
+description = "spellcraft is a helper library with useful spells, primarily used by Dataclass Wizard."
+repository = "https://github.com/rnag/spellcraft"
+keywords = ["string", "case", "camel", "snake", "unicode"]
+include = ["src/**/*", "LICENSE-*", "README.md", "CHANGELOG.md"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "spellcraft"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22.5", features = ["abi3-py39", "extension-module"] }
