@@ -1,0 +1,2 @@
+[console_scripts]
+funtasks = funtasks.__main__:main
