@@ -1,0 +1,25 @@
+[project]
+name = "SimQ"
+version = "0.1.1"
+description = "A SimPy-based queueing network simulation tool."
+authors = [
+    { name = "galenseilis", email = "galen.seilis@seilis.ca" },
+]
+dependencies = [
+    "simpy>=4.1.1",
+    "simdist>=0.1.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "Apache 2.0"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
