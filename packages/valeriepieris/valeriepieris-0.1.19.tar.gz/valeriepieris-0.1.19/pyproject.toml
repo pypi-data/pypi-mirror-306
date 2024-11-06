@@ -1,0 +1,23 @@
+[project]
+name = "valeriepieris"
+version = "0.1.19"
+authors = [
+  { name="Rudy Arthur", email="rudy.d.arthur@gmail.com" },
+]
+description = "calculate valeriepieris circles"
+readme = "README.md"
+license = "LICENSE.txt"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rudyarthur/valeriepieris"
+"Bug Tracker" = "https://github.com/rudyarthur/valeriepieris/issues"
+
+[build-system]
+requires = ["numpy>=2.0.0", "Cython>=3.0.10", "setuptools", "wheel" ]
+build-backend = "setuptools.build_meta"
