@@ -1,0 +1,80 @@
+name: Release Documentation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release-documentation:
+    name: Build and release documentation
+    runs-on: cpu
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Checkout latest release tag
+      id: checkout_latest_release_tag
+      run: |
+        LATEST_TAG=$(git describe --tags `git rev-list --tags --max-count=1`)
+        git checkout $LATEST_TAG
+        echo "tag_name=$LATEST_TAG" >> $GITHUB_OUTPUT;
+    - name: Assert version in code matches latest release tag
+      id: assert_version
+      run: |
+        LATEST_TAG=${{steps.checkout_latest_release_tag.outputs.tag_name}}
+        VERSION_FROM_INIT=$(grep -oP '(?<=__version__ = ")[^"]*' src/lightly_train/__init__.py)
+        VERSION_FROM_INIT="v$VERSION_FROM_INIT"
+        if [ "$VERSION_FROM_INIT" != "$LATEST_TAG" ]; then
+        echo "Version mismatch: Tag is $LATEST_TAG, but __version__ in __init__.py is $VERSION_FROM_INIT"
+        exit 1
+        fi
+        echo "__version__ from __init__.py $VERSION_FROM_INIT matches latest tag $LATEST_TAG"
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+    - name: Set Up Environment
+      run: |
+        make install-uv reset-venv
+        source .venv/bin/activate
+        make install-dev
+    - name: Authenticate with GCP
+      id: auth-gcp
+      uses: 'google-github-actions/auth@v2'
+      with:
+        project_id: ${{ secrets.GCP_PROJECT_ID }}
+        credentials_json: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+    - name: Build
+      run: |
+        source .venv/bin/activate
+        cd docs && make docs docs-stable
+    - name: Release
+      id: build_and_release
+      run: |
+        gsutil -m rsync -r ./docs/build gs://docs-pip/lightly-train/build
+        gcloud compute scp \
+          --zone ${{ secrets.DOCS_INSTANCE_ZONE }} \
+          --recurse ./docs/build/* ${{ secrets.DOCS_INSTANCE_ID }}:${{ secrets.DOCS_INSTANCE_DIR }}/lightly-train/docs/build
+    - name: Convert success/failure strings to emojis
+      if: always()
+      id: emoji_status
+      run: |
+        function set-emoji-output {
+          if [ "$2" == "success" ];
+          then echo "$1=:github-check-mark:" >> $GITHUB_OUTPUT;
+          else echo "$1=:github-changes-requested:" >> $GITHUB_OUTPUT;
+          fi
+        }
+        set-emoji-output status ${{ steps.build_and_release.outcome }}
+    - name: Slack notification
+      if: always()
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_RELEASES }}
+        SLACK_ICON_EMOJI: ":books:"
+        SLACK_USERNAME: Release of LightlyTrain Docs ${{steps.checkout_latest_release_tag.outputs.tag_name}}
+        SLACK_COLOR: ${{ steps.build_and_release.outcome }}
+        SLACK_FOOTER: ""
+        SLACK_MESSAGE: |
+          Build status: ${{steps.emoji_status.outputs.status}}
+          https://docs.lightly.ai/train/stable/
