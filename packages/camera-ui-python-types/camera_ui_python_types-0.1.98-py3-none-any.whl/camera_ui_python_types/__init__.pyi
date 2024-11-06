@@ -1,0 +1,795 @@
+import abc
+from .hybrid_observer import HybridObservable
+from PIL import Image as Image
+from _typeshed import Incomplete
+from abc import ABCMeta, abstractmethod
+from collections.abc import AsyncGenerator, Awaitable, Coroutine
+from typing import Any, Callable, Generic, overload
+from typing_extensions import Literal, NotRequired, Protocol, TypeVar, TypedDict
+
+Callback = Callable[..., Any] | Callable[..., Coroutine[Any, Any, Any]]
+JSONValue = str | int | float | bool | dict[str, Any] | list[Any]
+JSONObject = dict[str, JSONValue]
+JSONArray = list[JSONValue]
+Path = list[int | str] | int | str
+CameraType: Incomplete
+ZoneType: Incomplete
+ZoneFilter: Incomplete
+ObjectClass: Incomplete
+CameraRoles: Incomplete
+Container: Incomplete
+DecoderFormat: Incomplete
+ImageInputFormat: Incomplete
+ImageOutputFormat: Incomplete
+CameraExtension: Incomplete
+CameraFrameWorkerDecoder: Incomplete
+CameraFrameWorkerResolution: Incomplete
+AudioCodec: Incomplete
+AudioFFmpegCodec: Incomplete
+VideoCodec: Incomplete
+VideoFFmpegCodec: Incomplete
+PythonVersion: Incomplete
+
+class CameraInformation(TypedDict, total=False):
+    model: str
+    manufacturer: str
+    hardware: str
+    serialNumber: str
+    firmwareVersion: str
+    supportUrl: str
+Point = tuple[float, float]
+BoundingBox = tuple[float, float, float, float]
+
+class Detection(TypedDict):
+    id: NotRequired[str]
+    label: ObjectClass
+    confidence: float
+    boundingBox: BoundingBox
+    inputWidth: int
+    inputHeight: int
+    origWidth: int
+    origHeight: int
+
+class ZoneCoord(TypedDict):
+    points: Point
+
+class ZoneRegion(TypedDict):
+    coords: list[ZoneCoord]
+    type: ZoneType
+    filter: ZoneFilter
+    classes: list[ObjectClass]
+    isPrivacyMask: bool
+
+class CameraZone(TypedDict):
+    name: str
+    regions: list[ZoneRegion]
+
+class DetectionZone(TypedDict):
+    name: str
+    points: list[Point]
+    type: ZoneType
+    filter: ZoneFilter
+    classes: list[ObjectClass]
+    isPrivacyMask: bool
+
+class MotionDetectionSettings(TypedDict):
+    timeout: int
+
+class ObjectDetectionSettings(TypedDict):
+    confidence: float
+
+class CameraActivitySettings(TypedDict):
+    motion: MotionDetectionSettings
+    object: ObjectDetectionSettings
+
+class CameraFrameWorkerSettings(TypedDict):
+    decoder: CameraFrameWorkerDecoder
+    fps: int
+    resolution: CameraFrameWorkerResolution
+
+class StreamUrls(TypedDict):
+    ws: Go2RtcWSSource
+    rtsp: Go2RtcRTSPSource
+    www: Go2RtcEndpoint
+
+class CameraInput(TypedDict):
+    name: str
+    roles: list[CameraRoles]
+    urls: StreamUrls
+    internal: bool
+
+class PrebufferState(TypedDict, total=False):
+    url: str
+    duration: int
+
+class RTPInfo(TypedDict):
+    payload: int | None
+    codec: str
+    rate: int | None
+    encoding: int | None
+
+class FMTPInfo(TypedDict):
+    payload: int
+    config: str
+
+class AudioCodecProperties(TypedDict):
+    sampleRate: int
+    channels: int
+    payloadType: int
+    fmtpInfo: FMTPInfo | None
+
+class VideoCodecProperties(TypedDict):
+    clockRate: int
+    payloadType: int
+    fmtpInfo: FMTPInfo | None
+
+class AudioStreamInfo(TypedDict):
+    codec: AudioCodec
+    ffmpegCodec: AudioFFmpegCodec
+    properties: AudioCodecProperties
+    direction: Literal['sendonly', 'recvonly', 'sendrecv', 'inactive']
+
+class VideoStreamInfo(TypedDict):
+    codec: VideoCodec
+    ffmpegCodec: VideoFFmpegCodec
+    properties: VideoCodecProperties
+    direction: Literal['sendonly', 'recvonly', 'sendrecv', 'inactive']
+
+class ProbeConfig(TypedDict, total=False):
+    video: VideoCodec
+    audio: AudioCodec
+    microphone: AudioCodec
+
+class ProbeStream(TypedDict):
+    sdp: str
+    audio: list[AudioStreamInfo]
+    video: list[VideoStreamInfo]
+
+class Go2RtcRTSPSource(TypedDict):
+    default: str
+    defaultMicrophone: str
+    h264: str
+    h265: str
+    aac: str
+    opus: str
+    pcma: str
+    mp4: str
+
+class Go2RtcEndpoint(TypedDict):
+    webrtc: str
+    mse: str
+    lmp4: str
+    mmp4: str
+    mp4: str
+    mp4Snapshot: str
+    jpegSnapshot: str
+    lHlsTs: str
+    lHlsFmp4: str
+    mHlsFmp4: str
+    mjpeg: str
+    mjpegHtml: str
+
+class Go2RtcSource(TypedDict):
+    name: str
+    src: str
+    ws: str
+
+class Go2RtcWSSource(TypedDict):
+    webrtc: str
+T = TypeVar('T', bound='LightStateWithoutLastEvent' | 'AudioStateWithoutLastEvent' | 'MotionStateWithoutLastEvent' | 'ObjectStateWithoutLastEvent' | 'SirenStateWithoutLastEvent' | 'BatteryStateWithoutLastEvent' | 'DoorbellStateWithoutLastEvent')
+
+class BaseState(TypedDict, Generic[T]):
+    timestamp: int
+    lastEvent: NotRequired[T | None]
+
+class BaseStateWithoutLastEvent(TypedDict):
+    timestamp: int
+
+class MotionSetEvent(TypedDict):
+    state: bool
+    detections: list[Detection]
+
+class AudioSetEvent(TypedDict):
+    state: bool
+    db: NotRequired[float]
+
+class ObjectSetEvent(TypedDict):
+    detections: list[Detection]
+
+class LightSetEvent(TypedDict):
+    state: bool
+
+class DoorbellSetEvent(TypedDict):
+    state: bool
+
+class SirenSetEvent(TypedDict):
+    state: bool
+    level: NotRequired[int]
+
+class BatterySetEvent(TypedDict):
+    level: int
+    lowBattery: NotRequired[bool]
+    charging: NotRequired[bool]
+
+class LightState(BaseState['LightStateWithoutLastEvent'], LightSetEvent): ...
+class LightStateWithoutLastEvent(BaseStateWithoutLastEvent, LightSetEvent): ...
+class MotionState(BaseState['MotionStateWithoutLastEvent'], MotionSetEvent): ...
+class MotionStateWithoutLastEvent(BaseStateWithoutLastEvent, MotionSetEvent): ...
+class AudioState(BaseState['AudioStateWithoutLastEvent'], AudioSetEvent): ...
+class AudioStateWithoutLastEvent(BaseStateWithoutLastEvent, AudioSetEvent): ...
+class DoorbellState(BaseState['DoorbellStateWithoutLastEvent'], DoorbellSetEvent): ...
+class DoorbellStateWithoutLastEvent(BaseStateWithoutLastEvent, DoorbellSetEvent): ...
+class SirenState(BaseState['SirenStateWithoutLastEvent'], SirenSetEvent): ...
+class SirenStateWithoutLastEvent(BaseStateWithoutLastEvent, SirenSetEvent): ...
+class ObjectState(BaseState['ObjectStateWithoutLastEvent'], ObjectSetEvent): ...
+class ObjectStateWithoutLastEvent(BaseStateWithoutLastEvent, ObjectSetEvent): ...
+class BatteryState(BaseState['BatteryStateWithoutLastEvent'], BatterySetEvent): ...
+class BatteryStateWithoutLastEvent(BaseStateWithoutLastEvent, BatterySetEvent): ...
+
+class StateValues(TypedDict):
+    light: LightState
+    motion: MotionState
+    audio: AudioState
+    object: ObjectState
+    doorbell: DoorbellState
+    siren: SirenState
+    battery: BatteryState
+
+class SetValues(TypedDict):
+    light: LightSetEvent
+    motion: MotionSetEvent
+    audio: AudioSetEvent
+    object: ObjectSetEvent
+    doorbell: DoorbellSetEvent
+    siren: SirenSetEvent
+    battery: BatterySetEvent
+
+class FrameData(TypedDict):
+    frameId: str
+    timestamp: int
+
+class FrameMetadata(TypedDict):
+    format: DecoderFormat
+    frameSize: float | int
+    width: int
+    origWidth: int
+    height: int
+    origHeight: int
+
+class ImageInformation(TypedDict):
+    width: int
+    height: int
+    channels: Literal[1, 3, 4]
+    format: ImageInputFormat
+
+class ImageCrop(TypedDict):
+    top: int
+    left: int
+    width: int
+    height: int
+
+class ImageResize(TypedDict):
+    width: int
+    height: int
+
+class ImageFormat(TypedDict):
+    to: ImageOutputFormat
+
+class ImageOptions(TypedDict, total=False):
+    format: ImageFormat
+    crop: ImageCrop
+    resize: ImageResize
+
+class FrameImage(TypedDict):
+    image: Image.Image
+    info: ImageInformation
+
+class FrameBuffer(TypedDict):
+    image: bytes
+    info: ImageInformation
+
+class VideoFrame(Protocol):
+    @property
+    def frame_data(self) -> FrameData: ...
+    @property
+    def metadata(self) -> FrameMetadata: ...
+    @property
+    def input_width(self) -> int: ...
+    @property
+    def input_height(self) -> int: ...
+    @property
+    def input_format(self) -> DecoderFormat: ...
+    async def to_buffer(self, options: ImageOptions | None = None) -> FrameBuffer: ...
+    async def to_image(self, options: ImageOptions | None = None) -> FrameImage: ...
+    async def save(self, path: str, options: ImageOptions | None = None) -> None: ...
+
+class MotionFrame(VideoFrame, Protocol):
+    @property
+    def motion(self) -> MotionState: ...
+
+class CameraInputSettings(TypedDict):
+    name: str
+    roles: list[CameraRoles]
+    urls: list[str]
+    internal: bool
+
+class CameraConfigInputSettings(TypedDict):
+    name: str
+    roles: list[CameraRoles]
+    urls: list[str]
+
+class BaseCameraConfig(TypedDict, total=False):
+    name: str
+    nativeId: str
+    isCloud: bool
+    hasLight: bool
+    hasSiren: bool
+    hasBinarySensor: bool
+    hasBattery: bool
+    disabled: bool
+    info: CameraInformation
+
+class CameraConfig(BaseCameraConfig):
+    sources: list[CameraConfigInputSettings]
+
+class CameraDelegate(Protocol):
+    async def snapshot(self) -> bytes | None: ...
+
+class CameraPrebufferDelegate(Protocol):
+    async def getPrebufferingState(self, source_name: str, container: Container) -> PrebufferState | None: ...
+
+class CameraPTZDelegate(Protocol):
+    async def moveAbsolute(self, pan: float, tilt: float, zoom: float) -> None: ...
+    async def moveRelative(self, pan: float, tilt: float, zoom: float) -> None: ...
+    async def moveContinuous(self, pan: float, tilt: float, zoom: float) -> None: ...
+    async def stop(self) -> None: ...
+
+class CameraDelegates(TypedDict):
+    cameraDelegate: CameraDelegate
+    prebufferDelegate: CameraPrebufferDelegate
+    ptzDelegate: CameraPTZDelegate
+
+InternalSourceType: Incomplete
+
+class CameraBaseSource(Protocol):
+    id: str
+    name: str
+    roles: list[CameraRoles]
+    urls: StreamUrls
+    internal: bool
+    async def probe_stream(self, probe_config: ProbeConfig | None = None, refresh: bool | None = None) -> ProbeStream | None: ...
+
+class CameraDeviceSource(CameraBaseSource, Protocol):
+    def get_internal_source(self, type: InternalSourceType) -> CameraDeviceInternalSource: ...
+    async def get_prebuffering_state(self, container: Container) -> PrebufferState | None: ...
+
+class CameraDeviceInternalSource(CameraBaseSource, Protocol):
+    type: InternalSourceType
+
+class WebRTCConnectionOptions(TypedDict, total=False):
+    iceServers: list['IceServer']
+
+class RTSPConnectionOptions(TypedDict, total=False):
+    target: Literal['default', 'defaultMicrophone', 'h264', 'h265', 'aac', 'opus', 'pcma', 'h264aac', 'h265aac', 'h264opus', 'h265opus', 'h264pcma', 'h265pcma', 'mp4']
+SpawnInput = str | int
+
+class FfmpegOptions(TypedDict):
+    ffmpegPath: str
+    input: list[SpawnInput] | None
+    video: list[SpawnInput] | None
+    audio: list[SpawnInput] | None
+    output: list[SpawnInput]
+    logger: dict[str, Any] | None
+
+class ReturnAudioFFmpegOptions(TypedDict):
+    ffmpegPath: str
+    input: list[SpawnInput]
+
+class BaseCamera(TypedDict):
+    nativeId: str | None
+    pluginId: str
+    name: str
+    disabled: bool
+    isCloud: bool
+    hasLight: bool
+    hasSiren: bool
+    hasBinarySensor: bool
+    hasBattery: bool
+    info: CameraInformation
+    type: CameraType
+    snapshotTTL: int
+    activityZones: list[CameraZone]
+    activitySettings: CameraActivitySettings
+    frameWorkerSettings: CameraFrameWorkerSettings
+
+class Camera(BaseCamera):
+    hasAudioDetector: bool
+    hasMotionDetector: bool
+    hasObjectDetector: bool
+    extendedMotionDetector: bool
+    hasPtz: bool
+    hasPrebuffer: bool
+    sources: list[CameraInput]
+    activityZones: list[DetectionZone]
+
+StateNames: Incomplete
+StateValue = LightState | MotionState | AudioState | DoorbellState | SirenState | ObjectState | BatteryState
+SV = TypeVar('SV', bound=StateValue)
+
+class CameraStateChangedObject(TypedDict, Generic[SV]):
+    old_state: SV
+    new_state: SV
+
+class CameraPropertyObservableObject(TypedDict):
+    property: str
+    old_state: Any
+    new_state: Any
+
+class CameraConfigInputSettingsPartial(TypedDict, total=False):
+    name: str
+    roles: list[CameraRoles]
+    urls: list[str]
+
+CameraPublicProperties: Incomplete
+
+class CameraDevice(Protocol):
+    @property
+    def id(self) -> str: ...
+    @property
+    def native_id(self) -> str | None: ...
+    @property
+    def plugin_id(self) -> str: ...
+    @property
+    def connected(self) -> bool: ...
+    @property
+    def disabled(self) -> bool: ...
+    @property
+    def name(self) -> str: ...
+    @property
+    def type(self) -> CameraType: ...
+    @property
+    def snapshot_ttl(self) -> int: ...
+    @property
+    def info(self) -> CameraInformation: ...
+    @property
+    def is_cloud(self) -> bool: ...
+    @property
+    def has_light(self) -> bool: ...
+    @property
+    def has_siren(self) -> bool: ...
+    @property
+    def has_binary_sensor(self) -> bool: ...
+    @property
+    def has_battery(self) -> bool: ...
+    @property
+    def has_motion_detector(self) -> bool: ...
+    @property
+    def extended_motion_detector(self) -> bool: ...
+    @property
+    def has_audio_detector(self) -> bool: ...
+    @property
+    def has_object_detector(self) -> bool: ...
+    @property
+    def has_ptz(self) -> bool: ...
+    @property
+    def has_prebuffer(self) -> bool: ...
+    @property
+    def activity_zones(self) -> list[DetectionZone]: ...
+    @property
+    def activity_settings(self) -> CameraActivitySettings: ...
+    @property
+    def frameworker_settings(self) -> CameraFrameWorkerSettings: ...
+    @property
+    def stream_source(self) -> CameraDeviceSource: ...
+    @property
+    def snapshot_source(self) -> CameraInput | None: ...
+    @property
+    def high_resolution_source(self) -> CameraDeviceSource | None: ...
+    @property
+    def mid_resolution_source(self) -> CameraDeviceSource | None: ...
+    @property
+    def low_resolution_source(self) -> CameraDeviceSource | None: ...
+    @property
+    def ptz(self) -> CameraPTZDelegate: ...
+    @property
+    def sources(self) -> list[CameraDeviceSource]: ...
+    @property
+    def internal_sources(self) -> list[CameraDeviceInternalSource]: ...
+    on_connected: HybridObservable[bool]
+    on_light_switched: HybridObservable[LightState]
+    on_motion_detected: HybridObservable[MotionState]
+    on_audio_detected: HybridObservable[AudioState]
+    on_object_detected: HybridObservable[ObjectState]
+    on_doorbell_pressed: HybridObservable[DoorbellState]
+    on_siren_detected: HybridObservable[SirenState]
+    on_battery_changed: HybridObservable[BatteryState]
+    logger: LoggerService
+    async def snapshot(self, force_new: bool | None = None) -> bytes | None: ...
+    @overload
+    def on_state_change(self, state_name: Literal['light']) -> HybridObservable[CameraStateChangedObject[LightState]]: ...
+    @overload
+    def on_state_change(self, state_name: Literal['motion']) -> HybridObservable[CameraStateChangedObject[MotionState]]: ...
+    @overload
+    def on_state_change(self, state_name: Literal['audio']) -> HybridObservable[CameraStateChangedObject[AudioState]]: ...
+    @overload
+    def on_state_change(self, state_name: Literal['doorbell']) -> HybridObservable[CameraStateChangedObject[DoorbellState]]: ...
+    @overload
+    def on_state_change(self, state_name: Literal['siren']) -> HybridObservable[CameraStateChangedObject[SirenState]]: ...
+    @overload
+    def on_state_change(self, state_name: Literal['battery']) -> HybridObservable[CameraStateChangedObject[BatteryState]]: ...
+    @overload
+    def on_state_change(self, state_name: Literal['object']) -> HybridObservable[CameraStateChangedObject[ObjectState]]: ...
+    def on_property_change(self, property: CameraPublicProperties | list[CameraPublicProperties]) -> HybridObservable[CameraPropertyObservableObject]: ...
+    @overload
+    def get_value(self, state_name: Literal['light']) -> LightState: ...
+    @overload
+    def get_value(self, state_name: Literal['motion']) -> MotionState: ...
+    @overload
+    def get_value(self, state_name: Literal['audio']) -> AudioState: ...
+    @overload
+    def get_value(self, state_name: Literal['object']) -> ObjectState: ...
+    @overload
+    def get_value(self, state_name: Literal['doorbell']) -> DoorbellState: ...
+    @overload
+    def get_value(self, state_name: Literal['siren']) -> SirenState: ...
+    @overload
+    def get_value(self, state_name: Literal['battery']) -> BatteryState: ...
+    @overload
+    def set_delegate(self, name: Literal['cameraDelegate'], delegate: CameraDelegate) -> None: ...
+    @overload
+    def set_delegate(self, name: Literal['prebufferDelegate'], delegate: CameraPrebufferDelegate) -> None: ...
+    @overload
+    def set_delegate(self, name: Literal['ptzDelegate'], delegate: CameraPTZDelegate) -> None: ...
+    async def connect(self) -> None: ...
+    async def disconnect(self) -> None: ...
+    def get_frames(self, prebuffer_duration: int | None = None) -> AsyncGenerator[VideoFrame, None]: ...
+    def get_motion_frames(self) -> AsyncGenerator[MotionFrame, None]: ...
+    @overload
+    async def update_state(self, state_name: Literal['light'], event_data: LightSetEvent) -> None: ...
+    @overload
+    async def update_state(self, state_name: Literal['motion'], event_data: MotionSetEvent, frame: VideoFrame | None = None) -> None: ...
+    @overload
+    async def update_state(self, state_name: Literal['audio'], event_data: AudioSetEvent) -> None: ...
+    @overload
+    async def update_state(self, state_name: Literal['object'], event_data: ObjectSetEvent) -> None: ...
+    @overload
+    async def update_state(self, state_name: Literal['doorbell'], event_data: DoorbellSetEvent) -> None: ...
+    @overload
+    async def update_state(self, state_name: Literal['siren'], event_data: SirenSetEvent) -> None: ...
+    @overload
+    async def update_state(self, state_name: Literal['battery'], event_data: BatterySetEvent) -> None: ...
+    async def add_camera_source(self, source: CameraConfigInputSettings) -> None: ...
+    async def update_camera_source(self, source_id: str, source: CameraConfigInputSettingsPartial) -> None: ...
+    async def remove_camera_source(self, source_id: str) -> None: ...
+CameraSelectedCallback = Callable[[CameraDevice, CameraExtension], None] | Callable[[CameraDevice, CameraExtension], Coroutine[None, None, None]]
+CameraDeselectedCallback = Callable[[str, CameraExtension], None] | Callable[[str, CameraExtension], Coroutine[None, None, None]]
+DeviceManagerEventType: Incomplete
+
+class DeviceManager(Protocol):
+    async def create_camera(self, camera_config: CameraConfig) -> CameraDevice: ...
+    async def get_camera_by_name(self, camera_name: str) -> CameraDevice | None: ...
+    async def get_camera_by_id(self, camera_id: str) -> CameraDevice | None: ...
+    async def remove_camera_by_name(self, camera_name: str) -> None: ...
+    async def remove_camera_by_id(self, camera_id: str) -> None: ...
+    @overload
+    def on(self, event: Literal['cameraSelected'], f: CameraSelectedCallback) -> Any: ...
+    @overload
+    def on(self, event: Literal['cameraDeselected'], f: CameraDeselectedCallback) -> Any: ...
+    @overload
+    def once(self, event: Literal['cameraSelected'], f: CameraSelectedCallback) -> Any: ...
+    @overload
+    def once(self, event: Literal['cameraDeselected'], f: CameraDeselectedCallback) -> Any: ...
+    @overload
+    def remove_listener(self, event: Literal['cameraSelected'], f: CameraSelectedCallback) -> None: ...
+    @overload
+    def remove_listener(self, event: Literal['cameraDeselected'], f: CameraDeselectedCallback) -> None: ...
+    def remove_all_listeners(self, event: DeviceManagerEventType | None = None) -> None: ...
+
+class FfmpegArgs(TypedDict):
+    codec: str
+    hwaccel: str
+    hwaccelArgs: list[str]
+    hwaccelFilters: list[str]
+    hwDeviceArgs: list[str]
+    threads: str
+
+class IceServer(TypedDict):
+    urls: list[str]
+    username: str | None
+    credential: str | None
+
+class CoreManager(Protocol):
+    async def get_ffmpeg_path(self) -> str: ...
+    async def get_hwaccel_info(self, target_codec: Literal['h264'] | Literal['h265']) -> FfmpegArgs: ...
+    async def get_server_addresses(self) -> list[str]: ...
+    async def get_ice_servers(self) -> list[IceServer]: ...
+PluginConfig = dict[str, Any]
+JsonSchemaType: Incomplete
+J = TypeVar('J')
+
+class JsonBaseSchema(TypedDict, Generic[J]):
+    type: JsonSchemaType
+    key: NotRequired[str]
+    title: NotRequired[str]
+    description: NotRequired[str]
+    required: NotRequired[bool]
+    readonly: NotRequired[bool]
+    placeholder: NotRequired[str]
+    hidden: NotRequired[bool]
+    group: NotRequired[str]
+    defaultValue: NotRequired[J]
+    store: NotRequired[bool]
+    onSet: NotRequired[Callable[[Any, Any], Awaitable[None | Any]] | Callable[[Any, Any], None | Any]]
+    onGet: NotRequired[Callable[[], Awaitable[Any | None]] | Callable[[], Any | None]]
+
+class JsonSchemaString(JsonBaseSchema[str]):
+    type: Literal['string']
+    format: NotRequired[Literal['date-time', 'date', 'time', 'email', 'uuid', 'ipv4', 'ipv6', 'password', 'qrCode', 'image']]
+    minLength: NotRequired[int]
+    maxLength: NotRequired[int]
+
+class JsonSchemaNumber(JsonBaseSchema[float]):
+    type: Literal['number']
+    minimum: NotRequired[float]
+    maximum: NotRequired[float]
+    step: NotRequired[float]
+
+class JsonSchemaBoolean(JsonBaseSchema[bool]):
+    type: Literal['boolean']
+
+class JsonSchemaEnum(JsonBaseSchema[str]):
+    type: Literal['string']
+    enum: list[str]
+    multiple: NotRequired[bool]
+
+class JsonSchemaObject(JsonBaseSchema[Any]):
+    type: Literal['object']
+    opened: NotRequired[bool]
+    properties: NotRequired['JsonSchemaForm']
+
+class JsonSchemaArray(JsonBaseSchema[Any]):
+    type: Literal['array']
+    opened: NotRequired[bool]
+    items: NotRequired['JsonSchema']
+
+class JsonSchemaButton(JsonBaseSchema[Any]):
+    type: Literal['button']
+    color: NotRequired[str]
+
+class JsonSchemaObjectButton(TypedDict):
+    label: str
+    onSubmit: str
+    color: NotRequired[str]
+
+class JsonSchemaObjectWithButtons(JsonSchemaObject):
+    buttons: list[JsonSchemaObjectButton]
+JsonSchema = JsonSchemaString | JsonSchemaNumber | JsonSchemaBoolean | JsonSchemaEnum | JsonSchemaObject | JsonSchemaObjectWithButtons | JsonSchemaArray | JsonSchemaButton
+JsonSchemaForm = dict[str, JsonSchema]
+
+class RootSchema(TypedDict):
+    schema: JsonSchemaForm
+
+class ToastMessage(TypedDict):
+    type: Literal['info', 'success', 'warning', 'error']
+    message: str
+
+class FormSubmitSchema(TypedDict):
+    config: JsonSchemaObjectWithButtons
+
+class FormSubmitResponse(TypedDict, total=False):
+    toast: ToastMessage
+    schema: FormSubmitSchema
+
+class SchemaConfig(TypedDict):
+    rootSchema: RootSchema
+    config: dict[str, Any]
+
+class ImageMetadata(TypedDict):
+    width: int
+    height: int
+
+class AudioMetadata(TypedDict):
+    mimeType: Literal['audio/mpeg', 'audio/wav', 'audio/ogg']
+
+class MotionDetectionPluginResponse(TypedDict):
+    filePath: str
+
+class ObjectDetectionPluginResponse(TypedDict):
+    detections: list[Detection]
+
+class AudioDetectionPluginResponse(TypedDict):
+    detected: bool
+
+class BasePlugin(metaclass=ABCMeta):
+    @abstractmethod
+    def __init__(self, logger: LoggerService, api: PluginAPI): ...
+    @abstractmethod
+    async def onFormSubmit(self, action_id: str, payload: Any) -> FormSubmitResponse | None: ...
+    @abstractmethod
+    def configureCameras(self, cameras: list[CameraDevice]) -> None: ...
+
+class MotionDetectionPlugin(BasePlugin, metaclass=abc.ABCMeta):
+    @abstractmethod
+    def interfaceSchema(self) -> RootSchema | None: ...
+    @abstractmethod
+    async def detectMotion(self, video_path: str, config: dict[str, Any]) -> MotionDetectionPluginResponse: ...
+
+class ObjectDetectionPlugin(BasePlugin, metaclass=abc.ABCMeta):
+    @abstractmethod
+    def interfaceSchema(self) -> RootSchema | None: ...
+    @abstractmethod
+    async def detectObjects(self, image_path: str, metadata: ImageMetadata, config: dict[str, Any]) -> ObjectDetectionPluginResponse: ...
+
+class AudioDetectionPlugin(BasePlugin, metaclass=abc.ABCMeta):
+    @abstractmethod
+    def interfaceSchema(self) -> RootSchema | None: ...
+    @abstractmethod
+    async def detectAudio(self, audio_path: str, metadata: AudioMetadata, config: dict[str, Any]) -> AudioDetectionPluginResponse: ...
+
+LoggerLevel: Incomplete
+
+class LoggerService(Protocol):
+    def log(self, *args: Any) -> None: ...
+    def error(self, *args: Any) -> None: ...
+    def warn(self, *args: Any) -> None: ...
+    def debug(self, *args: Any) -> None: ...
+    def trace(self, *args: Any) -> None: ...
+    def attention(self, *args: Any) -> None: ...
+    def success(self, *args: Any) -> None: ...
+
+APIEventType: Incomplete
+PA = TypeVar('PA', bound='CameraStorage[Any]', default='CameraStorage[Any]')
+
+class PluginAPI(Protocol):
+    core_manager: CoreManager
+    device_manager: DeviceManager
+    storage_controller: StorageController
+    config_service: ConfigService
+    storage_path: str
+    config_file: str
+    def on(self, event: APIEventType, f: Callback) -> Any: ...
+    def once(self, event: APIEventType, f: Callback) -> Any: ...
+    def remove_listener(self, event: APIEventType, f: Callback) -> None: ...
+    def remove_all_listeners(self, event: APIEventType | None = None) -> None: ...
+
+class ConfigService(Protocol):
+    def get(self, key: Path, default_value: JSONValue | None = None, validate: Callable[[Any], bool] | None = None, refresh: bool = False, write_if_not_valid: bool = False) -> Any: ...
+    def has(self, key: Path, refresh: bool = False) -> bool: ...
+    def ensure_exists(self, key: Path, default_value: JSONValue, write: bool = False) -> None: ...
+    def set(self, key: Path, value: Any, write: bool = False) -> None: ...
+    def insert(self, key: Path, value: Any, at: int = 0, write: bool = False) -> None: ...
+    def push(self, key: Path, write: bool = False, *items: Any) -> None: ...
+    def delete(self, key: Path, write: bool = False) -> None: ...
+    def all(self, refresh: bool = False) -> dict[str, Any]: ...
+    def replace(self, config: dict[str, Any], write: bool = False) -> None: ...
+    def update_value(self, path: str, search_key: str, search_value: Any, target_key: str, new_value: Any, write: bool = False) -> None: ...
+    def replace_or_add_item(self, path: str, search_key: str, search_value: Any, new_item: Any, write: bool = False) -> None: ...
+V1 = TypeVar('V1', default=str)
+V2 = TypeVar('V2', default=dict[str, Any])
+
+class CameraStorage(Generic[V2], Protocol):
+    values: V2
+    schema: JsonSchemaForm
+    def initializeStorage(self) -> None: ...
+    @overload
+    async def getValue(self, path: str) -> V1 | None: ...
+    @overload
+    async def getValue(self, path: str, default_value: V1) -> V1: ...
+    async def setValue(self, path: str, new_value: Any) -> None: ...
+    def hasValue(self, path: str) -> bool: ...
+    async def getConfig(self) -> SchemaConfig: ...
+    async def setConfig(self, new_config: V2) -> None: ...
+    @overload
+    async def addSchema(self, schema_or_path: JsonSchemaForm) -> None: ...
+    @overload
+    async def addSchema(self, schema_or_path: str, schema: JsonSchema) -> None: ...
+    def removeSchema(self, path: str) -> None: ...
+    async def changeSchema(self, path: str, new_schema: dict[str, Any]) -> None: ...
+    def getSchema(self, path: str) -> JsonSchema | None: ...
+    def hasSchema(self, path: str) -> bool: ...
+S = TypeVar('S', default=CameraStorage[Any], covariant=True)
+
+class StorageController(Protocol[S]):
+    def create_camera_storage(self, instance: Any, camera_id: str, schema: JsonSchemaForm | None = None) -> S: ...
+    def get_camera_storage(self, camera_id: str) -> S | None: ...
+    def remove_camera_storage(self, camera_id: str) -> None: ...
