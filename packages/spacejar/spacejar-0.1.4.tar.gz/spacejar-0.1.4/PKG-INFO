@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: spacejar
+Version: 0.1.4
+Summary: Binary installer for Spacejar CLI
+Requires-Python: >=3.7
+Requires-Dist: requests>=2.25.0

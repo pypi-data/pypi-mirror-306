@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/spacejar/__init__.py
+src/spacejar.egg-info/PKG-INFO
+src/spacejar.egg-info/SOURCES.txt
+src/spacejar.egg-info/dependency_links.txt
+src/spacejar.egg-info/requires.txt
+src/spacejar.egg-info/top_level.txt
