@@ -1,0 +1,2 @@
+[console_scripts]
+runpy = runpy_tool.runpy:main

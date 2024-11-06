@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: runpy-tool
+Version: 1.0
+Summary: A command-line tool to run Python scripts with input and output file handling.
+Author: Your Name
+Requires-Python: >=3.6
