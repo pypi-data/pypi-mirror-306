@@ -1,0 +1,8 @@
+mosaik_components/pv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mosaik_components/pv/pvgis.py,sha256=dIhXJywj-fCBbOtAfP_we67Knz64vmD_RNqnYOScRkU,8038
+mosaik_components/pv/pvgis_simulator.py,sha256=TSVYsQB9FTeBYL1OHdiEAwNhkoktHPi9KpdkIWgMnu4,5195
+mosaik_pvgis-1.2.2.dist-info/AUTHORS.txt,sha256=88P5koCAXcaB9XQ47Hg-lRLGfT7EOTIt4NhcKiYPQA8,70
+mosaik_pvgis-1.2.2.dist-info/LICENSE,sha256=D5xGfjaZ9n4SzfIVDhPfM-2gkQYLfAHHCI60AFr3Cgk,1080
+mosaik_pvgis-1.2.2.dist-info/METADATA,sha256=qI6-KvpBnKMkEs6NHu1vRTSUkFaHjKdpiHxSdiHUTAw,6751
+mosaik_pvgis-1.2.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+mosaik_pvgis-1.2.2.dist-info/RECORD,,
