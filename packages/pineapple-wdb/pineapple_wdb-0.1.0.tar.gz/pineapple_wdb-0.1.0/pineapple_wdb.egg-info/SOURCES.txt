@@ -1,0 +1,7 @@
+README.md
+setup.py
+pineapple_wdb.egg-info/PKG-INFO
+pineapple_wdb.egg-info/SOURCES.txt
+pineapple_wdb.egg-info/dependency_links.txt
+pineapple_wdb.egg-info/requires.txt
+pineapple_wdb.egg-info/top_level.txt
