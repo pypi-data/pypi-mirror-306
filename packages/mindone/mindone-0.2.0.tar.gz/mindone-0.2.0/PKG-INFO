@@ -1,0 +1,118 @@
+Metadata-Version: 2.3
+Name: mindone
+Version: 0.2.0
+Summary: ONE for all, Optimal generator with No Exception.
+Project-URL: Homepage, https://pypi.org/project/mindone/
+Project-URL: Documentation, https://mindspore-lab.github.io/mindone/
+Project-URL: Issues, https://github.com/mindspore-lab/mindone/issues
+Project-URL: Source, https://github.com/mindspore-lab/mindone
+Author-email: MindSpore Lab <mindspore-lab@example.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: artificial intelligence,deep learning,diffusion,generative model,mindspore
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Requires-Dist: huggingface-hub>=0.20.2
+Requires-Dist: numpy<2.0
+Requires-Dist: omegaconf
+Requires-Dist: opencv-python
+Requires-Dist: pyyaml
+Requires-Dist: safetensors>=0.3.1
+Requires-Dist: sentencepiece
+Requires-Dist: tqdm
+Requires-Dist: transformers==4.38.*
+Provides-Extra: dev
+Requires-Dist: datasets; extra == 'dev'
+Requires-Dist: mike>=2.1; extra == 'dev'
+Requires-Dist: mkdocs-git-authors-plugin>=0.9; extra == 'dev'
+Requires-Dist: mkdocs-git-revision-date-localized-plugin>=1.2; extra == 'dev'
+Requires-Dist: mkdocs-material>=9.5; extra == 'dev'
+Requires-Dist: mkdocs-static-i18n>=1.2; extra == 'dev'
+Requires-Dist: mkdocs>=1.6; extra == 'dev'
+Requires-Dist: mkdocstrings[python]>=0.25; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: protobuf; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: tensorboard; extra == 'dev'
+Requires-Dist: tensorboardx; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mike>=2.1; extra == 'docs'
+Requires-Dist: mkdocs-git-authors-plugin>=0.9; extra == 'docs'
+Requires-Dist: mkdocs-git-revision-date-localized-plugin>=1.2; extra == 'docs'
+Requires-Dist: mkdocs-material>=9.5; extra == 'docs'
+Requires-Dist: mkdocs-static-i18n>=1.2; extra == 'docs'
+Requires-Dist: mkdocs>=1.6; extra == 'docs'
+Requires-Dist: mkdocstrings[python]>=0.25; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: pre-commit; extra == 'lint'
+Provides-Extra: tests
+Requires-Dist: pytest; extra == 'tests'
+Requires-Dist: pytest-cov; extra == 'tests'
+Provides-Extra: training
+Requires-Dist: datasets; extra == 'training'
+Requires-Dist: protobuf; extra == 'training'
+Requires-Dist: tensorboard; extra == 'training'
+Requires-Dist: tensorboardx; extra == 'training'
+Description-Content-Type: text/markdown
+
+# MindONE
+
+This repository contains SoTA algorithms, models, and interesting projects in the area of multimodal understanding and content generation
+
+ONE is short for "ONE for all"
+
+## News
+
+**Hello MindSpore** from **Stable Diffusion 3**!
+
+<div>
+<img src="https://github.com/townwish4git/mindone/assets/143256262/8c25ae9a-67b1-436f-abf6-eca36738cd17" alt="sd3" width="512" height="512">
+</div>
+
+- [mindone/diffusers](mindone/diffusers) now supports [Stable Diffusion 3](https://huggingface.co/stabilityai/stable-diffusion-3-medium). Give it a try yourself!
+
+    ```py
+    import mindspore
+    from mindone.diffusers import StableDiffusion3Pipeline
+
+    pipe = StableDiffusion3Pipeline.from_pretrained(
+        "stabilityai/stable-diffusion-3-medium-diffusers",
+        mindspore_dtype=mindspore.float16,
+    )
+    prompt = "A cat holding a sign that says 'Hello MindSpore'"
+    image = pipe(prompt)[0][0]
+    image.save("sd3.png")
+    ```
+
+### supported models under mindone/examples
+| model  |  features  
+| :---   |  :--  |
+| [hpcai open sora](https://github.com/mindspore-lab/mindone/blob/master/examples/opensora_hpcai)      | support v1.0/1.1/1.2 large scale training with dp/sp/zero |
+| [open sora plan](https://github.com/mindspore-lab/mindone/blob/master/examples/opensora_pku) | support v1.0/1.1/1.2 large scale training with dp/sp/zero |
+| [stable diffusion](https://github.com/mindspore-lab/mindone/blob/master/examples/stable_diffusion_v2) | support sd 1.5/2.0/2.1, vanilla fine tune, lora, dreambooth, text inversion|
+| [stable diffusion xl](https://github.com/mindspore-lab/mindone/blob/master/examples/stable_diffusion_xl)  |support sai style(stability AI) vanilla fine tune, lora, dreambooth |
+| [dit](https://github.com/mindspore-lab/mindone/blob/master/examples/dit)     | support text to image fine tune |
+| [hunyuan_dit](https://github.com/mindspore-lab/mindone/blob/master/examples/hunyuan_dit)     | support text to image fine tune |
+| [pixart_sigma](https://github.com/mindspore-lab/mindone/blob/master/examples/pixart_sigma)     | suuport text to image fine tune at different aspect ratio |
+| [latte](https://github.com/mindspore-lab/mindone/blob/master/examples/latte)     | support uncondition text to image fine tune |
+| [animate diff](https://github.com/mindspore-lab/mindone/blob/master/examples/animatediff) | support motion module and lora training |
+| [dynamicrafter](https://github.com/mindspore-lab/mindone/blob/master/examples/dynamicrafter)     | support image to video generation |
+
+###  run hf diffusers on mindspore
+mindone diffusers is under active development.
+
+| component  |  features  
+| :---   |  :--  
+| [pipeline](https://github.com/mindspore-lab/mindone/tree/master/mindone/diffusers/pipelines) | support text2image,text2video,text2audio tasks 30+
+| [models](https://github.com/mindspore-lab/mindone/tree/master/mindone/diffusers/models) | support audoencoder & transformers base models same as hf diffusers
+| [schedulers](https://github.com/mindspore-lab/mindone/tree/master/mindone/diffusers/schedulers) | support ddpm & dpm solver 10+ schedulers same as hf diffusers
