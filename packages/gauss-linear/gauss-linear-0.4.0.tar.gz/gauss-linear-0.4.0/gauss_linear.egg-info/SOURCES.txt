@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+gauss/__init__.py
+gauss/gauss.py
+gauss_linear.egg-info/PKG-INFO
+gauss_linear.egg-info/SOURCES.txt
+gauss_linear.egg-info/dependency_links.txt
+gauss_linear.egg-info/entry_points.txt
+gauss_linear.egg-info/requires.txt
+gauss_linear.egg-info/top_level.txt
