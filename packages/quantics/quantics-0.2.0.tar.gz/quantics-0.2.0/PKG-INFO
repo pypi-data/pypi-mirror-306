@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: quantics
+Version: 0.2.0
+Author: Daniel Igbokwe
+Author-email: igbodani14@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: umap-learn
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+
+# QUANTICS Class Documentation
+
+## Overview
+The `QUANTICS` class provides methods for data normalization, dimensionality reduction, clustering, and extracting representative samples from clustered data.
+
+## Methods
+
+### `__init__(self, dataset)`
+Initializes the `QUANTICS` object with a dataset.
+
+**Parameters:**
+- `dataset`: The input dataset, which must be either a numpy array or a pandas dataframe.
+
+**Raises:**
+- `ValueError`: If the dataset is neither a numpy array nor a pandas dataframe.
+
+### `normalize(self, normalize_method='z-score', **args)`
+Normalizes the dataset.
+
+**Parameters:**
+- `normalize_method`: The normalization method to use. It can be either 'z-score' or 'minmax'. (default is 'z-score')
+- `**args`: Additional arguments to pass to the scaler.
+
+**Raises:**
+- `ValueError`: If an invalid normalization method is provided.
+
+### `reduce_dim(self, reduction_method='pca', dim_size=2, **args)`
+Performs dimensionality reduction on the normalized dataset.
+
+**Parameters:**
+- `reduction_method`: The reduction method to use. It can be either 'pca', 'tsne', or 'umap'. (default is 'pca')
+- `dim_size`: The number of dimensions to reduce to. (default is 2)
+- `**args`: Additional arguments to pass to the reduction algorithm.
+
+**Raises:**
+- `ValueError`: If an invalid reduction method is provided.
+
+### `cluster(self, min_k=2, max_k=10, **args)`
+Clusters the reduced data using KMeans and determines the best number of clusters based on the maximum silhouette score.
+
+**Parameters:**
+- `min_k`: The minimum number of clusters to consider. (default is 2)
+- `max_k`: The maximum number of clusters to consider. (default is 10)
+- `**args`: Additional arguments to pass to the KMeans algorithm.
+
+**Raises:**
+- `ValueError`: If the reduced data is not available.
+
+### `get_representative_samples(self, no_samples=5)`
+Extracts representative samples based on the clustered data.
+
+**Parameters:**
+- `no_samples`: The number of representative samples to extract. (default is 5)
+
+**Returns:**
+- A subset of the original dataset containing the representative samples.
+
+**Raises:**
+- `ValueError`: If no clustering model has been fit.
+
+## Example Usage
+```python
+import numpy as np
+import pandas as pd
+from quantics import QUANTICS
+
+dataset = np.random.rand(100, 5)
+processor = QUANTICS(dataset)
+processor.normalize(normalize_method='Z-Score', with_mean=False)
+processor.reduce_dim(reduction_method='PCA', dim_size=2, svd_solver='full')
+processor.cluster(min_k=2, max_k=10, random_state=42)
+samples = processor.get_representative_samples(no_samples=5)
+print(samples)
