@@ -1,0 +1,4 @@
+click
+pydantic
+wexample-wex-addon-app
+wexample-wex-addon-default
