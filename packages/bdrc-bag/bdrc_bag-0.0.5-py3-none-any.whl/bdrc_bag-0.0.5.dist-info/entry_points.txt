@@ -1,0 +1,2 @@
+[console_scripts]
+bdrc-bag = bag.bag_main:main
