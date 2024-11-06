@@ -1,0 +1,17 @@
+encexp/__init__.py,sha256=Pr4tv4gkxh3Lk7FOnT_MgAkX6kFk7B9Z2mAdI9Xnf4A,715
+encexp/build_encexp.py,sha256=z0Hhic8f4NS5T6GDBAA4P4U8qaQchyoBQRC8ihjBDCA,7359
+encexp/build_voc.py,sha256=cmjUb1ggMxzEWqdvsyUYJMOlnPFTauDhs9CpjZrkens,3095
+encexp/download.py,sha256=XwcsX8_rCwpPpovO7ZQjCZOpgZ5cpSxusJaQquhBMjE,5264
+encexp/text_repr.py,sha256=NDluUD9i8_otRcWe1FEpZBjg4fpEsHd-Y5K9minVIbc,18120
+encexp/utils.py,sha256=kejvMIrcCvpxQI04dy3qzUtCJ-1jXN9E8w_rAY0PRok,12233
+encexp/data/emojis.json.gz,sha256=gVUcUy7yNR2ZkFxPHhB8hNvFIKM65t4pL6M2ELAwJnY,21602
+encexp/tests/__init__.py,sha256=29vuNd8hhFPcSGXxszVsIONXykCjdi4Zq47LDOcs5Qw,600
+encexp/tests/test_build.py,sha256=Nc3dbmkCMzRTNmYYYmmObM3KyOkFARe2ew8DV85bXKg,6279
+encexp/tests/test_download.py,sha256=_cGcT-JZqCB9NFzvFJ983hKC2VVUZtQMsJuS5dDWEt8,1776
+encexp/tests/test_text_repr.py,sha256=rTUH9YA7kuUJD2BAc4aILSpuaq27nLVTGffE4cK5BMU,11418
+encexp/tests/test_utils.py,sha256=CO0khF9BhZ96W6FaEJAHzwNUnX1ezYGr22dKRAtUYlk,4724
+EncExp-0.0.15.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+EncExp-0.0.15.dist-info/METADATA,sha256=ghAJcC7HfRTgymOhLKfvY1pU-asjgvxJ-z_6B6q9H7s,1304
+EncExp-0.0.15.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+EncExp-0.0.15.dist-info/top_level.txt,sha256=Ab66AAWRImVfOQasglAXbGgR__WoUkfAwr8NoPathyQ,7
+EncExp-0.0.15.dist-info/RECORD,,
