@@ -1,0 +1,3 @@
+[console_scripts]
+GeneCluster = genecluster.main:main
+

@@ -1,0 +1,8 @@
+torch
+torchvision
+numpy
+pandas
+umap-learn
+matplotlib
+scikit-learn
+argparse
