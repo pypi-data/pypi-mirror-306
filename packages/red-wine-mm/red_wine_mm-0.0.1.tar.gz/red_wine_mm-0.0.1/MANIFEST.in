@@ -1,0 +1,16 @@
+include *.txt
+include *.md
+include *.pkl
+recursive-include src/red_wine_mm/*
+
+include src/red_wine_mm/datasets/train.csv
+include src/red_wine_mm/datasets/test.csv
+include src/red_wine_mm/trained_models/*.pkl
+include src/red_wine_mm/config.yml
+
+exclude *.log
+exclude *.cfg
+exclude *.sh
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
