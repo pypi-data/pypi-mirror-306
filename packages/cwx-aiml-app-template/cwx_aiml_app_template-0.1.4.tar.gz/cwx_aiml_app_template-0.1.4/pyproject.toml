@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cwx-aiml-app-template"
+version = "0.1.4"
+description = "Template generator for AIML applications"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "cwx_aiml_app_template"}]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.0"
+rich = "^13.0.0"
+
+[tool.poetry.scripts]
+aimlapp = "cwx_aiml_app_template.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
