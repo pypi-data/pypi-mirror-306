@@ -1,0 +1,3 @@
+[console_scripts]
+AC-IaC = AC_IaC.command_line:inference
+AC-IaC-train = AC_IaC.command_line:train_wrapper
