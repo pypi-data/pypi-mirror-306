@@ -1,0 +1,12 @@
+numpy
+h5py
+apexpy
+pymap3d
+pyyaml
+
+[:python_version < "3.9"]
+importlib_resources
+
+[plots]
+matplotlib
+cartopy
