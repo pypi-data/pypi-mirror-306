@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: faizan
+Version: 0.1
+Summary: An advanced tool for detecting and analyzing potential XSS payloads.
+Home-page: https://github.com/faizan-khanx/XSS-DETECTOR
+Author: Faizan Khan
+Author-email: fk776794@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Security
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: colorama
+
+The Faizan XSS Detector is a robust tool designed to help developers and security professionals detect potential Cross-Site Scripting (XSS) vulnerabilities. With comprehensive pattern matching and payload analysis, this tool can identify various forms of XSS attacks, including JavaScript injections, malicious HTML tags, and obfuscated code. By leveraging Colorama for a color-coded terminal output, users receive clear and actionable feedback for each payload tested. This makes the Faizan XSS Detector an essential addition to any developer's or pentester's toolkit.
