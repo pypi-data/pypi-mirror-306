@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: data-analysis-cwo
+Version: 0.3
+Summary: A data-analysis tool for cwo project
+Home-page: https://github.com/shashikantpathakk3/data-analysis
+Author: Shashikant Pathak
+Author-email: s.pathak@ugent.be
+Description-Content-Type: text/markdown
+Requires-Dist: time
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+# Data-Analysis-CWO
+
+
+
+## Installation
+
+```bash
+pip install data-analysis-cwo
