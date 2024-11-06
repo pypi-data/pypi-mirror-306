@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: alphabet_of_languages
+Version: 0.1.1
+Summary: A simple library providing Persian and English alphabets
+Home-page: https://github.com/username/alphabet_of_languages
+Author: ParsaPouramiri
+Author-email: pouramiriparsa@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Alphabet of Languages
+
+This library provides two lists: the Persian alphabet and the English alphabet, which can be used in other projects.
+
+## Installation
+
+```bash
+pip install alphabet_of_languages
