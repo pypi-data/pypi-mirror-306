@@ -1,0 +1,10 @@
+ADBconnect/__init__.py,sha256=eZ7m6c0KQ3dGUXnLyQP8_rb0ZhWZpMHG3prKPN1H8yk,547
+ADBconnect/action.py,sha256=My22WqTPNdUMHRjatT7qshflReoWPvl9CopWCZART3c,1740
+ADBconnect/command.py,sha256=vR0gkZFJzMFhXbNVIOJiT5zJ7Bt4FDYU6LdUVFC-yNY,709
+ADBconnect/control.py,sha256=BXJ4l7lGdngQA4DY-CgBOYypqy46e2GxTc2lBNM2tpQ,2469
+ADBconnect/screen.py,sha256=3_dnKljIsLOFdlZtJQa6VYtsN_xSUQInpFGtk56qoMg,1767
+ADBconnect/servis.py,sha256=gy6Rytlgh7bmi6ZOZ-FlDuFFJMf_OFjB-re4tbJR_po,1411
+ADBconnect-0.0.1.dist-info/METADATA,sha256=dsVafI0T02rL2orkZYHkD4jrLPENqwazn5wx6Vyai5E,1232
+ADBconnect-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ADBconnect-0.0.1.dist-info/top_level.txt,sha256=buKeIDa0YY9NKDQLfJGEUVlOahje17LBrB1K-5K7qn0,11
+ADBconnect-0.0.1.dist-info/RECORD,,
