@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+HistoricalEarningsData/__init__.py
+HistoricalEarningsData/earnings_data.py
+HistoricalEarningsData.egg-info/PKG-INFO
+HistoricalEarningsData.egg-info/SOURCES.txt
+HistoricalEarningsData.egg-info/dependency_links.txt
+HistoricalEarningsData.egg-info/requires.txt
+HistoricalEarningsData.egg-info/top_level.txt
