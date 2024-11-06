@@ -1,0 +1,9 @@
+django_fernet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_fernet/apps.py,sha256=jVkkXmVbAui0FeyJIBb-hEvsM8g0ZKopgUVChj_INa4,117
+django_fernet/fernet.py,sha256=KyVaW1Aa7a4doqgB8fRjnvgxGgo1eRXg66jA8u7Pq4g,3020
+django_fernet/fields.py,sha256=HR5TusiupLB8G2yIXHu6a-EZW23Kl7yr956aib044RM,1558
+django_fernet-1.0.1.dist-info/LICENSE,sha256=_NyhFVJF-YjIydVj0nlhPdurgZOaB5WjWILXbC7PWPI,1091
+django_fernet-1.0.1.dist-info/METADATA,sha256=jqht41gww_vtvX3wUAmpD3UYL7s-kua1EGzgF5utsHA,4769
+django_fernet-1.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+django_fernet-1.0.1.dist-info/top_level.txt,sha256=Pf4qx5R9yzmyJfXPhsmWW2o5pDhN_WxLbtUAnl78kc0,14
+django_fernet-1.0.1.dist-info/RECORD,,
