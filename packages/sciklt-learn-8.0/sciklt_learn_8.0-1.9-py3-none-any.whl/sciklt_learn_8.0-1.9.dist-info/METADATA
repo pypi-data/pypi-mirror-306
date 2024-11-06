@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sciklt-learn-8.0
+Version: 1.9
+Summary: Dependency for ML based modules
+Author: Anonymus
+Description-Content-Type: text/markdown
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn==1.5.2
+
+<p>Dependency for many Artificial Intelligence and machine learning based modules</p>
