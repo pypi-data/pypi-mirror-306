@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: athlon-flex-api
+Version: 0.2.0
+Summary: athlon-flex-api is now athlon-flex-client
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: athlon-flex-client
+
+# athlon-flex-api is now athlon-flex-client
+
+This package has been renamed. Use `pip install athlon-flex-client` instead.
+
+New package: https://pypi.org/project/athlon-flex-client/
