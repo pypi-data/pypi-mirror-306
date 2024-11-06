@@ -1,0 +1,8 @@
+pyroll/freiberg_flow_stress/__init__.py,sha256=DCeXLFZs-u38Zg4NxS0y6NRZZte2rpuVlFvPICfstuY,2009
+pyroll/freiberg_flow_stress/freiberg_flow_stress.py,sha256=mvrdYf_y_zShU9RgrCfP5zcC0TfAsZtFtpmUcIusbR8,1735
+pyroll/freiberg_flow_stress/materials.py,sha256=_aTyJx1WF4rOnYMUu46mM6EMkHV8eo4c-tn0t6z2Gz4,1540
+pyroll/freiberg_flow_stress/report.py,sha256=V2pJaVr1A-jPqfjiM_BZgp2vY1FMdewD443RhG9eR9Y,1324
+pyroll_freiberg_flow_stress-2.0.3.dist-info/METADATA,sha256=OLocRy0pLk1ONUVjMLrDoMLCjK4DuUBcmPwTSfG8Hj4,1305
+pyroll_freiberg_flow_stress-2.0.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pyroll_freiberg_flow_stress-2.0.3.dist-info/licenses/LICENSE,sha256=cC-Hopqx0dkfeivDS5kNfOOAZ-IBvUe5BEF4z9MY1Mo,1474
+pyroll_freiberg_flow_stress-2.0.3.dist-info/RECORD,,
