@@ -1,0 +1,7 @@
+main.py
+setup.py
+lightsuq.egg-info/PKG-INFO
+lightsuq.egg-info/SOURCES.txt
+lightsuq.egg-info/dependency_links.txt
+lightsuq.egg-info/requires.txt
+lightsuq.egg-info/top_level.txt
