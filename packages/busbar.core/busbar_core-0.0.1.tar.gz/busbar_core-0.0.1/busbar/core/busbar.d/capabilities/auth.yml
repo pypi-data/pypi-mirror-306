@@ -1,0 +1,18 @@
+capabilities:
+  auth:
+    title: "Authentication Capability"
+    description: "Authentication and authorization services"
+    security_level: "sensitive"
+    risk_level: "high"
+    features:
+      authenticate:
+        description: "Authenticate a user or service"
+        input: "busbar.core.auth.AuthenticationRequest"
+        output: "busbar.core.auth.AuthenticationResult"
+        exceptions:
+          InvalidCredentials:
+            severity: "warning"
+            risk_level: "medium"
+          AccountLocked:
+            severity: "error" 
+            risk_level: "high"

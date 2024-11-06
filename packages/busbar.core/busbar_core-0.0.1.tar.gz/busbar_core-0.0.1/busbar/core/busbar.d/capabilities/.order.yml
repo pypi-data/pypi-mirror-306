@@ -1,0 +1,9 @@
+# Load core capabilities first
+- auth.yml
+- vcs.yml
+- secrets.yml
+- ci.yml
+- platform.yml
+- api.yml
+# Custom capabilities after core ones
+- custom/

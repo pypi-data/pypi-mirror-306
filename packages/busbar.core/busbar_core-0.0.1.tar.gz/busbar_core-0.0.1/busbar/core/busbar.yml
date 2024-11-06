@@ -1,0 +1,28 @@
+version: "1.0.0"
+
+# Core system configuration
+system:
+  name: "busbar"
+  environment: "development"
+  log_level: "info"
+  telemetry_enabled: true
+
+# Global security defaults
+security:
+  default_security_level: "internal"
+  default_risk_level: "low"
+  require_audit_trails: true
+  require_approvals: true
+
+# Registry configuration
+registry:
+  providers_path: "providers"
+  capability_path: "capabilities"
+  model_paths: ["models", "types"]
+
+# Default contexts (can be extended in busbar.d)
+security_contexts:
+  public:
+    description: "Public access baseline"
+    security_level: "public"
+    risk_level: "low"

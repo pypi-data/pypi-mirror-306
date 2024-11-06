@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: busbar.core
+Version: 0.0.1
+Summary: Core framework for busbar, providing essential utilities and functionalities for the Muselab ecosystem.
+Home-page: https://github.com/composable-delivery/busbar
+License: BSD3
+Keywords: framework,devops,muselab
+Author: Muselab LLC
+Author-email: opensource@muselab.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: cachetools (>=5.5.0,<6.0.0)
+Requires-Dist: httpx (>=0.27.2,<0.28.0)
+Requires-Dist: injector (>=0.18.0,<0.19.0)
+Requires-Dist: pydantic (>=2.9.2,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Project-URL: Documentation, https://busbar.readthedocs.io/
+Project-URL: Repository, https://github.com/composable-delivery/busbar
+Description-Content-Type: text/markdown
+
+# busbar-core
+
+Core framework for busbar, providing essential utilities and functionalities for the Muselab ecosystem.
+
+## Installation
+
+You can install `busbar-core` using Poetry:
+
+```bash
+poetry add busbar-core
+```
+
+Or install directly from the repository:
+
+```bash
+pip install git+https://github.com/composable-delivery/busbar/busbar-core.git
+```
+
