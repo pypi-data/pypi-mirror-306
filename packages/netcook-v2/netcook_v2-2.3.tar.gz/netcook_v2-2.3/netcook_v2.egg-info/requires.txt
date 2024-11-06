@@ -1,0 +1,7 @@
+requests==2.31.0
+tabulate==0.9.0
+beautifulsoup4==4.12.3
+googletrans==4.0.0-rc1
+pyunpack==0.3
+rarfile==4.2
+PyDrive2==1.6.3
