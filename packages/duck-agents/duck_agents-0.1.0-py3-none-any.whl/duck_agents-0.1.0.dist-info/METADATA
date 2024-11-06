@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: duck-agents
+Version: 0.1.0
+Summary: A library for creating llm-based agents with easy-to-define functions.
+License: MIT
+Author: Patrick Spaney
+Author-email: patrick.spaney@iste.uni-stuttgart.de
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flake8 (>=7.1.1,<8.0.0)
+Requires-Dist: google-generativeai (>=0.8.3,<0.9.0)
+Description-Content-Type: text/markdown
+
+# Duck Agents
+
+Small python library for creating LLM agents.
