@@ -1,0 +1,10 @@
+version: "1.0"
+name: "task.robot"
+description: "exams task"
+tasks: 
+  -
+    name: "Fetch Students Scores"
+    description: "Fetch Students Scores"
+  -
+    name: "Fetch One Student Scores"
+    description: "Fetch One Student Scores"
