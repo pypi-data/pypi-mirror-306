@@ -1,0 +1,13 @@
+comet/__init__.py,sha256=2gSkoIKRMXm5kuQvNXvUJ-jF8gxmP7WcoQktypAY6Rg,165
+comet/connectivity.py,sha256=U7V0wMbEgSgSBmXJXNOqP48fZCZhclkstybjXIHWKqs,71922
+comet/data.py,sha256=pZ-WzPOb2bsg8RI15agLEUQeRHm4lIqPxMK43lnAqWI,6799
+comet/data_bids.py,sha256=zYpyr31lP6QpmDzOYOXDcRNQs46lLY1VNxgSEngMpc8,345
+comet/data_cifti.py,sha256=9A6TjDucusv3HRGrVDKgAaXcAYqZ2sAy9Xy9l14cWRI,24662
+comet/graph.py,sha256=g7gEkXaJ6LCGCzA42-FJrd71ND1Ry_Pa3fbJZkBIODI,39099
+comet/gui.py,sha256=WYTJaHwY2U5URsMYa6-0Clc7H3Jec5C06Rt3VILyF7o,223255
+comet/multiverse.py,sha256=OpKJrA2viPujhkiqgUIMqiaEGd5h1iF7vXYwiLMVFeU,32474
+comet_toolbox-0.7.dist-info/METADATA,sha256=HPp6xT_Fl93EpUbJjfY53s5ONsD233MLh8YxsjSHByM,7457
+comet_toolbox-0.7.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+comet_toolbox-0.7.dist-info/entry_points.txt,sha256=v4TAPC_IsXKn5ttksduplXtugpC-r28qY_veZmoLNJI,44
+comet_toolbox-0.7.dist-info/licenses/LICENSE,sha256=ROkvfhogK_cV9v3dL-Oz6_bPH7hmpMTlNdfJ_nH8bdg,1063
+comet_toolbox-0.7.dist-info/RECORD,,
