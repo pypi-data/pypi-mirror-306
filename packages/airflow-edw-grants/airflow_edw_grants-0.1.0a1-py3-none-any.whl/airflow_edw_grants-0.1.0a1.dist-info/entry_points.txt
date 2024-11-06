@@ -1,0 +1,3 @@
+[airflow.plugins]
+airflow-edw-grants=airflow_edw_grants.plugins.edw_grants:AirflowEdwGrantsPlugin
+
