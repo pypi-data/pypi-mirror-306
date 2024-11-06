@@ -1,0 +1,11 @@
+haystack_integrations/components/retrievers/chroma/__init__.py,sha256=NC2mfjJqlrB_CvMgvoaRfzAXzhwnmPBDkj5EkOAo8B8,142
+haystack_integrations/components/retrievers/chroma/retriever.py,sha256=zl2t7t2RdoK5xpnv7RlD5Z3db6Zg1TrNONHZ3tJ7NwU,6256
+haystack_integrations/document_stores/chroma/__init__.py,sha256=GxtWu51QcVSzgaXZCZJJnsfEVZds1ebYJnj0gP6mUOg,83
+haystack_integrations/document_stores/chroma/document_store.py,sha256=uuky1c9RR88YAMZm5URvmV63WDEO8gGrDAkIfkjY65E,18648
+haystack_integrations/document_stores/chroma/errors.py,sha256=kweyKXZIULnoXm26UnNs77x-yg9EtK7KHc7jtpBCF9w,635
+haystack_integrations/document_stores/chroma/filters.py,sha256=nPP0ggH1GZoCKM1dIr77KoH6ILcTjK2sTmC1uni9PoY,5803
+haystack_integrations/document_stores/chroma/utils.py,sha256=__PeVrYparu9CyxThd2io2CtCpBj2t5yMSCiYaon4E4,1884
+chroma_haystack-1.0.0.dist-info/METADATA,sha256=P5YNBKg85_FT94LmDbJsISbPfJZ7F5SthYLOansdxU0,2191
+chroma_haystack-1.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+chroma_haystack-1.0.0.dist-info/licenses/LICENSE,sha256=_M2kulivnaiTHiW-5CRlZrPmH47tt04pBgAgeDvfYi4,11342
+chroma_haystack-1.0.0.dist-info/RECORD,,
