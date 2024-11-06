@@ -1,0 +1,32 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+
+[project]
+name = "siri_parser"
+description = "A Python library for parsing  SIRI (Service Interface for Real-time Information) messages according to the French national profile specification (SIRI Profile France)"
+readme = "README.md"
+license = {file = "license"}
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Development Status :: 4 - Beta",
+]
+dynamic = ["version"]
+keywords = ["siri specification", "siri specification parser", "siri parser python", "siri xml parser"]
+authors = [
+    {name = "Prince Merveil ONDONDA",email = "pondonda@gmail.com"}
+]
+
+maintainers = [
+    {name = "Prince Merveil ONDONDA",email = "pondonda@gmail.com"}
+]
+
+[tool]
+
+[tool.maturin]
+manifest-path = "siri_parser_python/Cargo.toml"
+

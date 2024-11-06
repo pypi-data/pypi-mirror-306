@@ -1,0 +1,12 @@
+[package]
+name = "go_generation_derive"
+version = "0.1.6"
+edition = "2021"
+
+[dependencies]
+syn = { version = "2.0.85", features = ["full"] }
+quote = "1.0.21"
+proc-macro2 = "1.0.47"
+
+[lib]
+proc-macro = true
