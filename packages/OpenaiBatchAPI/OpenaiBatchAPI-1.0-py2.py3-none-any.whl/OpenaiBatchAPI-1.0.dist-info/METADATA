@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: OpenaiBatchAPI
+Version: 1.0
+Summary: OpenaiBatchAPI: A Python Library that supports OpenAI Batch API
+Home-page: https://github.com/it-dainb/batch_api.git
+Author: IT.DAINB
+Author-email: it.dainb@gmail.com
+License: Apache License 2.0
+Keywords: openai batch_api batch api
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8, <=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: uuid
+Requires-Dist: orjsonl
+Requires-Dist: openai
+Requires-Dist: tqdm
+
+# OpenaiBatchAPI: A Python Library that support OpenAI Batch API
+[OpenAI Batch API](https://platform.openai.com/docs/guides/batch)
+
+## Installation
+
+You can install this package from PyPI using [pip](http://www.pip-installer.org):
+
+```
+$ pip install OpenaiBatchAPI
+```
+
+## Example
+
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+from batch_api import OpenaiBatchAPI
+
+batch_client = OpenaiBatchAPI(api_key = "YOUR_KEY")
+
+messages = [[
+    {
+        "role": "user",
+        "content": "HI"
+    }
+]] * 23
+
+batchs = batch_api.batchs_completion(messages)
