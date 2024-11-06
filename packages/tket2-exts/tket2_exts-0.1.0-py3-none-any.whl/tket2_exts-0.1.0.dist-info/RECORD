@@ -1,0 +1,11 @@
+tket2_exts/__init__.py,sha256=DD31r1OWRZ0MK3eKqu-YsZOIowAWnj-CDYQqFuMEsLQ,852
+tket2_exts/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tket2_exts/data/tket2/futures.json,sha256=z6y0iHsnnE2VCKwnyhM0I4VvWh1m9IQZDwkmZfQwAnE,3843
+tket2_exts/data/tket2/hseries.json,sha256=W8C0RwbVdWYNN30KCAK76F6dAvy3QYOSDupINC-xzvk,5342
+tket2_exts/data/tket2/quantum.json,sha256=Hj5sC-0Lr7g5jB4sBt2nGULPnmQcif6Fm55cCJEMiYE,12179
+tket2_exts/data/tket2/result.json,sha256=nYz_HlW3MWUwyhpRStl-7x1Mdf2ZTAVbdrs_g2qOi1k,8681
+tket2_exts/data/tket2/rotation.json,sha256=83WpqE9bJzXgZGHtg7MRybelBv7ect0UuRDTDwrCXVQ,3974
+tket2_exts-0.1.0.dist-info/METADATA,sha256=UPqgJdznz26KZocWjRU_HBfww4PdZW8a0sFbNDPWtqg,15110
+tket2_exts-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+tket2_exts-0.1.0.dist-info/licenses/LICENCE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tket2_exts-0.1.0.dist-info/RECORD,,
