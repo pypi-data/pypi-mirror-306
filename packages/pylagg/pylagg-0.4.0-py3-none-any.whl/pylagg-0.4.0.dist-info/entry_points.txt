@@ -1,0 +1,3 @@
+[console_scripts]
+lagg=pylagg:main.cli
+

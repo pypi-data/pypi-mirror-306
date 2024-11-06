@@ -1,0 +1,11 @@
+pylagg/cgr_step.py,sha256=xEylk7D4ARqYFQ68gkVa1NG9MQZtJ_uz0jvWU-jnmg4,7877
+pylagg/config.py,sha256=xqxOM7b5n8u7iPD2Js7uyWXwOfW1Qkq957OPXQVT6x8,2213
+pylagg/cut_adapt.py,sha256=3EXF0nSZq4zcupzNgCFSmSDLGRkXQoBQ_bRmexFIzq8,2373
+pylagg/ena_download.py,sha256=-6b-j1iuo48QVR3oCE6Yymom33WaYQl855vHjbwJNdo,5963
+pylagg/kmer_counting.py,sha256=QeLCyydBrYxzR0ptUdZN2dBJS2a8yfje9GjGscID4GI,6348
+pylagg/main.py,sha256=i82iStWMcLVHqF1u9jL0IYHHVnWM8LoIq60IlW5ZDSU,9621
+pylagg-0.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pylagg-0.4.0.dist-info/METADATA,sha256=sXNkvk1CYxW5vrc7eHGD06cfsW9a5AYdCpIviKFcsK4,3930
+pylagg-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pylagg-0.4.0.dist-info/entry_points.txt,sha256=jTHBOk0MJeRC4LFYe3HlXjc3paowOOXnrGpPyH1k-7o,40
+pylagg-0.4.0.dist-info/RECORD,,
