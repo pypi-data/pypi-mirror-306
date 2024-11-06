@@ -1,0 +1,5 @@
+pydantic
+python-dotenv
+wexample-filestate
+wexample-helpers
+wexample-prompt
