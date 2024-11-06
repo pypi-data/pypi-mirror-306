@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: airbyte-source-datadog-usage
+Version: 0.2.2
+Summary: Source implementation for datadog-usage.
+Home-page: https://github.com/kesompochy/airbyte-source-datadog-usage
+License: MIT
+Author: kesompochy
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: airbyte-cdk (>=0,<1)
+Project-URL: Repository, https://github.com/kesompochy/airbyte-source-datadog-usage
+Description-Content-Type: text/markdown
+
+# Airbyte Source Datadog Usage
+
+## Usage
+
+In your airbyte workspace, create a new source from a docker image.
+
+## Supported Features
+
+- Hourly usage by product `/api/v2/usage/hourly_usage`
+- Estimated cost `/api/v2/usage/estimated_cost`
+
