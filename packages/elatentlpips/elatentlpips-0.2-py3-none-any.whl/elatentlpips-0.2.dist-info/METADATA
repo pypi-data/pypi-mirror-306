@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: elatentlpips
+Version: 0.2
+Summary: LatentLPIPS Similarity metric"
+Home-page: https://github.com/mingukkang/elatentlpips
+Author: mingukkang
+Author-email: mgkang@postech.ac.kr
+Keywords: elatentlpips,latentlpips,perceptual_metric
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: LICENSE-NVIDIA
+Requires-Dist: tqdm
+Requires-Dist: torch >=0.4.0
+Requires-Dist: torchvision >=0.2.1
+Requires-Dist: numpy >=1.14.3
+Requires-Dist: scipy >=1.0.1
+Requires-Dist: matplotlib >=1.5.1
+Requires-Dist: diffusers
+
