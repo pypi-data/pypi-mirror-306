@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: siri_parser
+Version: 0.1.6
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Development Status :: 4 - Beta
+License-File: license
+Summary: A Python library for parsing  SIRI (Service Interface for Real-time Information) messages according to the French national profile specification (SIRI Profile France)
+Keywords: siri specification,siri specification parser,siri parser python,siri xml parser
+Author-email: Prince Merveil ONDONDA <pondonda@gmail.com>
+Maintainer-email: Prince Merveil ONDONDA <pondonda@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# SIRI Profile France Parser 
