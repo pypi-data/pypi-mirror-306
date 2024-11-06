@@ -1,0 +1,11 @@
+MukeshAPI
+g4f
+curl_cffi
+requests
+pytubefix
+google-api-python-client
+bs4
+pillow
+gtts
+qrcode
+phonenumbers
