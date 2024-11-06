@@ -1,0 +1,13 @@
+WaldurSA_TUI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WaldurSA_TUI/configured_offerings.py,sha256=Jaa9-9UBi2PwiZupmeSfP2O698-WGcgG1AoWYaJx99M,3224
+WaldurSA_TUI/dashboard.py,sha256=rocwsDyX4YpiYyqhnZqqOwXAw0IdBis-99lcN15DVCc,1240
+WaldurSA_TUI/error.py,sha256=FzcV_OgRoSn02cGAwhowm6Xuw7u5F2eZJg28jWc2Dtc,1040
+WaldurSA_TUI/logs.py,sha256=BwXHIe4uTEtOLRnMSv5R6z1KetNCzdX11hBwAl5PxsU,4297
+WaldurSA_TUI/main.py,sha256=7903KYqkPjueKqnifilgx4S-7kCCJTiL--YPLVsV1mk,1509
+WaldurSA_TUI/main.tcss,sha256=iU1O7cO7RyPJ5zrMUfMkFTAcJPoesKVrsakZ7UlHk_c,859
+WaldurSA_TUI/quit.py,sha256=aFMcpzONvy2PEivJuPgELHn24SjJ-vGCDhThBYvv-rQ,696
+waldursa_tui-0.1.9.dist-info/LICENSE,sha256=rlhKduuShYsEeemEuhuEsvcRFIH4BHEd8QEwrB921U0,1070
+waldursa_tui-0.1.9.dist-info/METADATA,sha256=S7pr0yQMBsFqJ48eR6_9vGKueUA3Xuyc-KbIMCgzLUk,2012
+waldursa_tui-0.1.9.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+waldursa_tui-0.1.9.dist-info/entry_points.txt,sha256=wBAagm1Tw2Oio1phszkdee1REdR7MtQVLQjHoS8vTpM,64
+waldursa_tui-0.1.9.dist-info/RECORD,,
