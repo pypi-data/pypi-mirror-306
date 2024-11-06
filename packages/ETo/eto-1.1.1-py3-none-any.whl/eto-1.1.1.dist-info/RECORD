@@ -1,0 +1,17 @@
+eto/__init__.py,sha256=Ute6xvEj-KycEGlrqwDtZLCYa2NDh7VoOK3Ktqj493c,87
+eto/core.py,sha256=w8iGiDlUe1cgrOffMGL16h-I5ayYbBAqFHIA98rDzY4,2161
+eto/param_est.py,sha256=uhjSLjjk6dEnYH6DrLCQolbAJ6V6YX78bYdFyrm215E,11152
+eto/util.py,sha256=IGN7u42MogzsAQ6pI7SR9i-XwOqMBJbgAtzq0blIvU0,786
+eto/datasets/__init__.py,sha256=3dU3tFJRdmV3QYBgdfQmWaxEdIcT4nk0-y_VKD8kcDY,678
+eto/datasets/example_daily.csv.zip,sha256=1b0TJ92PmULBugV2kkY-HTBqBxlQsFJvETpCQTAHkJo,63188
+eto/datasets/example_daily_results.csv.zip,sha256=QJyerR4W1VuVfJx0Qpil447FaGHQ2iHiWDw7ARLWtAI,34584
+eto/methods/ETo.py,sha256=1bYcpQO8YinCfTuOFVH-s3eAFWtg1QAXCtGCzAg_Lu0,2952
+eto/methods/__init__.py,sha256=PLjhQ_wdf_PFfxzV-NmzUdYvzzs5CUA1VSy1Z1-0Pw0,89
+eto/methods/hargreaves.py,sha256=mArwfs-tEFbFju3QT0L0KDGXSQPz3lVKTyftfBi1jdg,2049
+eto/tests/__init__.py,sha256=38pdDhEZk2RiT5kga2DPbhTYeDHdsCXNaEr7HH1-k20,208
+eto/tests/test_eto.py,sha256=tDVKYB1aL2NSxOKdho1nMdHaRfKq7JXkT5qIH2rCVQs,1450
+eto/tests/utest_eto.py,sha256=RlPRgwb3HJ9WmsDegig47IQXG0NWxN9i2nC7XIxSq-4,873
+eto-1.1.1.dist-info/METADATA,sha256=hscImgKNnbIoxIffn5nVXSh2bl6o5vDLQ83wVFkfdv0,1842
+eto-1.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+eto-1.1.1.dist-info/licenses/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+eto-1.1.1.dist-info/RECORD,,
