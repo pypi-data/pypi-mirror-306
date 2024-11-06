@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: Y_lw
+Version: 0.2.1
+Summary: A simple library that prints a greeting.
+Home-page: https://github.com/im-yellow/Y_ellow/
+Author: Y-ellow
+Author-email: im.yellow.dev@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Y-ellow
+
+A simple library that prints a greeting.
+
+## Installation
+
+You can install the library using pip:
+
+```bash
+pip install Y-lw
+```
+
+## Usage
+```python
+from Y_lw import Y_ellow
+
+Y_ellow()
+```
