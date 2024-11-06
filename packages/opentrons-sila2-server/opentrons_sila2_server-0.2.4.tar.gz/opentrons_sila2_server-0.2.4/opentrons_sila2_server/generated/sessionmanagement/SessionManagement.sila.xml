@@ -1,0 +1,34 @@
+<Feature xmlns="http://www.sila-standard.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Category="session" FeatureVersion="1.0" MaturityLevel="Draft" Originator="nl.fontys.robotlab" SiLA2Version="1.0" xsi:schemaLocation="http://www.sila-standard.org https://gitlab.com/SiLA2/sila_features/raw/master/schema/FeatureDefinition.xsd">
+  <Identifier>SessionManagement</Identifier>
+  <DisplayName>Session Management</DisplayName>
+  <Description>The features allows you to take exclusive access to the Opentron, this
+        is required to run any other commands.</Description>
+  <Command>
+    <Identifier>SessionCreate</Identifier>
+    <DisplayName>Create a session</DisplayName>
+    <Description>Creates a session to allow for controlling the Opentrons</Description>
+    <Observable>No</Observable>
+    <Response>
+      <Identifier>SessionToken</Identifier>
+      <DisplayName>Session Token</DisplayName>
+      <Description>The session token used for running other commands</Description>
+      <DataType>
+        <Basic>String</Basic>
+      </DataType>
+    </Response>
+  </Command>
+  <Command>
+    <Identifier>SessionDelete</Identifier>
+    <DisplayName>Delete a session</DisplayName>
+    <Description>This stops the session and disables access through SiLA2</Description>
+    <Observable>No</Observable>
+    <Parameter>
+      <Identifier>SessionToken</Identifier>
+      <DisplayName>Session Token</DisplayName>
+      <Description>The session token used for running other commands</Description>
+      <DataType>
+        <Basic>String</Basic>
+      </DataType>
+    </Parameter>
+  </Command>
+</Feature>
