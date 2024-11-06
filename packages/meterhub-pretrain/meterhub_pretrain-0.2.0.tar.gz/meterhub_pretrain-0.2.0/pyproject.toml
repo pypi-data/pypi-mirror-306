@@ -1,0 +1,27 @@
+[project]
+name = "meterhub-pretrain"
+version = "0.2.0"
+description = "Default template for PDM package"
+authors = [{ name = "svtter", email = "svtter@qq.com" }]
+dependencies = [
+    "torch",
+    "torchvision",
+    "transformers>=4.45.2",
+    "paddlepaddle-gpu>=2.6.2",
+    "shapely>=2.0.6",
+    "shareds>=0.2.0",
+]
+requires-python = "!=3.9.7,~=3.9.0"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=8.3.3",
+    "jupyter>=1.1.1",
+    "ruff>=0.7.0",
+]

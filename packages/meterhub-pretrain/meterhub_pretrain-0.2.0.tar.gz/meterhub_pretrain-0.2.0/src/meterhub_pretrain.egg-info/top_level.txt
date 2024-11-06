@@ -1,0 +1,4 @@
+PaddleOCR
+meterhub_pretrain
+notebooks
+ppocr
