@@ -1,0 +1,5 @@
+readchar
+colorama
+netifaces
+pyperclip
+rich

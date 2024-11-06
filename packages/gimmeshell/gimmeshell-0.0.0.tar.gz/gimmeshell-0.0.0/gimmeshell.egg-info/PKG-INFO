@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gimmeshell
+Version: 0.0.0
+Summary: A comprehensive shell tool for reverse shell operations.
+Author: Chowdhury Faizal Ahammed
+Requires-Dist: readchar
+Requires-Dist: colorama
+Requires-Dist: netifaces
+Requires-Dist: pyperclip
+Requires-Dist: rich

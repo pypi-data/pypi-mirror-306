@@ -1,0 +1,9 @@
+setup.py
+gimmeshell/__init__.py
+gimmeshell/shell.py
+gimmeshell.egg-info/PKG-INFO
+gimmeshell.egg-info/SOURCES.txt
+gimmeshell.egg-info/dependency_links.txt
+gimmeshell.egg-info/entry_points.txt
+gimmeshell.egg-info/requires.txt
+gimmeshell.egg-info/top_level.txt
