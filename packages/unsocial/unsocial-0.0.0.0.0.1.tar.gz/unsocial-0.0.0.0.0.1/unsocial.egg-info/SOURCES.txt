@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+tests/test.py
+unsocial.egg-info/PKG-INFO
+unsocial.egg-info/SOURCES.txt
+unsocial.egg-info/dependency_links.txt
+unsocial.egg-info/requires.txt
+unsocial.egg-info/top_level.txt
