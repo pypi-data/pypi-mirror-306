@@ -1,0 +1,13 @@
+cython
+torch
+numpy
+matplotlib
+protfasta
+scipy
+urllib3
+tqdm
+pytorch_lightning
+getSequence>=2.2.1
+
+[test]
+pytest>=6.1.2
