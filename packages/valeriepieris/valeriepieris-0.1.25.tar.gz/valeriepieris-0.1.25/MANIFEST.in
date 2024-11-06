@@ -1,0 +1,2 @@
+# Include all Cython source files
+include src/*.pyx
