@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: SimQ
+Version: 0.1.1
+Summary: A SimPy-based queueing network simulation tool.
+Author-Email: galenseilis <galen.seilis@seilis.ca>
+License: Apache 2.0
+Requires-Python: >=3.10
+Requires-Dist: simpy>=4.1.1
+Requires-Dist: simdist>=0.1.1
+Description-Content-Type: text/markdown
+
+# SimQ
+
+Queueing network tool based on SimPy.
+
+# Installation
+
+(Coming)
+
+# Example
+
+(Coming)

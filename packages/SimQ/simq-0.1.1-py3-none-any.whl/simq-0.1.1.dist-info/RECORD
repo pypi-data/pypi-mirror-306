@@ -1,0 +1,8 @@
+simq-0.1.1.dist-info/METADATA,sha256=nY_G6hmPGBnaNvihjFQhwvyF_ls1FgtGun1ec-XoW1A,392
+simq-0.1.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+simq-0.1.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+simq-0.1.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+simq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simq/core.py,sha256=PfNZoM4b06npgZJKPWXTtywSRgNhxDuf2EBWBnmnX7U,3919
+simq/routers.py,sha256=087wdpuyyuBLpDwJZeJEuDt0AxBLJxOld_dxW6mHd0Q,750
+simq-0.1.1.dist-info/RECORD,,
