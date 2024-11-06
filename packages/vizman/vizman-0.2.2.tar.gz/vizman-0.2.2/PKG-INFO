@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vizman
+Version: 0.2.2
+Summary: vizman is here to give you nicer printable plots
+Author: Kayson Fakhar
+Author-email: kayson.fakhar@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: matplotlib (>=3.9.1,<4.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Description-Content-Type: text/markdown
+
+I'm sick of running the same batch of spaghetti code every time I want to plot a nice scatterplot. I'm going to write some functions that does it for me (and you).
