@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ljf441-pygbm
+Version: 0.0.post53
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: jupyter
+
+UNKNOWN
+

@@ -1,0 +1,3 @@
+[console_scripts]
+pygbm = pygbm.cli:main
+
