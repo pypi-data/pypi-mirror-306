@@ -1,0 +1,9 @@
+README.md
+setup.py
+pythonbotcreator/__init__.py
+pythonbotcreator/operation.py
+pythonbotcreator.egg-info/PKG-INFO
+pythonbotcreator.egg-info/SOURCES.txt
+pythonbotcreator.egg-info/dependency_links.txt
+pythonbotcreator.egg-info/not-zip-safe
+pythonbotcreator.egg-info/top_level.txt
