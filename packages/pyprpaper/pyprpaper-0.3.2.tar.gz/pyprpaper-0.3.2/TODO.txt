@@ -1,0 +1,23 @@
+Checklist for releasing v0.2.0 of pyprpaper:
+x Allow relative path of directories to be passed.
+x Use socket requests instead of subprocess calls.
+x Pass monitors through command line option.
+
+Checklist for releasing v0.2.1 of pyprpaper:
+x Fix  get_socket_path() getting wrong .hyprpaper.sock,
+  if there's multiple .hyprpaper.sock files.
+
+Checklist for releasing v0.2.2 of pyprpaper:
+x Sleep for .5s before unloading images.
+
+Checklist for releasing v0.3.0 of pyprpaper:
+x -v/--version for pyprpaper version.
+x Change wallpaper every n seconds.
+x Implement signal handling (mainly for CTRL+C).
+
+Checklist for releasing v0.3.1 of pyprpaper:
+x Do not used already used wallpapers or active wallpapers.
+
+Checklist for releasing v0.3.2 of pyprpaper:
+x -K option to keep wallpaper consistent across monitors.
+x Fix error while getting socket for none-hyprland/hyprpaper setup.
