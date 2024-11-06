@@ -1,0 +1,11 @@
+gcair/__init__.py,sha256=sEIynG1ylbMCsPu00vyfdLxrMuu-xgAC2RjYrXLf63Y,226
+gcair/error.py,sha256=irmlrlVMaYgqUqfKh2df6BL5X23dBFGetGhzI8vAscg,180
+gcair/gc_air.py,sha256=R7iY_ckgRpeabGJYl6zdBthd7IUWm30XmKgRNKZFirI,9006
+gcair/get_sim_params.py,sha256=wcTwuecRJX5Oi1WoRnNZr9OmNY_BJ2P30AwMLDGjcf0,1072
+tests/__init__.py,sha256=dxQjacBEn6gHRnftaUBKijNp1bHcCa4eBVIllDwa_9E,119
+tests/test_gcair.py,sha256=wLY-JZnf4HH-OHZUxuc_nXF5IOgMPbMmkVobLWQmzRU,285
+gcair-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gcair-0.1.0.dist-info/METADATA,sha256=u6W9tC4BcLDLTHNfFg2KS5rcXPlyBG0ZiKd9gsm42SQ,666
+gcair-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+gcair-0.1.0.dist-info/top_level.txt,sha256=TfvV-H9X0LC42Ua8MLtag7BuablhoLTf6gQ0D1eV2Mg,12
+gcair-0.1.0.dist-info/RECORD,,
