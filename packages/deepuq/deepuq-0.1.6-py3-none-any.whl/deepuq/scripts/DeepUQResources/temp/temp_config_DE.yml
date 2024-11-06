@@ -1,0 +1,25 @@
+common:
+  out_dir: ./DeepUQResources/results/
+data:
+  batchsize: 100
+  data_engine: DataLoader
+  data_path: ./data/
+  noise_level: low
+  randomseed: 42
+  size_df: 1000
+  val_proportion: 0.1
+model:
+  BETA: 0.5
+  init_lr: 0.001
+  loss_type: bnll_loss
+  model_engine: DE
+  model_type: DE
+  n_epochs: 100
+  n_models: 100
+  overwrite_final_checkpoint: false
+  plot: false
+  save_all_checkpoints: false
+  save_final_checkpoint: true
+  savefig: false
+  verbose: false
+  wd: ./

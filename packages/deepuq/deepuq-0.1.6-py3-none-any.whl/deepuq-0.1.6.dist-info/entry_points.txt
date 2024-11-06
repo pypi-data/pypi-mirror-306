@@ -1,0 +1,4 @@
+[console_scripts]
+UQder=deepuq.scripts.DeepEvidentialRegression:main
+UQensemble=deepuq.scripts.DeepEnsemble:main
+
