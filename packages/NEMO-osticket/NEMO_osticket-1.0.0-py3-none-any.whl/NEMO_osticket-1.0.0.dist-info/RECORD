@@ -1,0 +1,14 @@
+NEMO_osticket/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NEMO_osticket/admin.py,sha256=DGXGM9prd1U5K6nZqlHZQJwzpldZ61RQM0NZ0ZRnY0g,69
+NEMO_osticket/apps.py,sha256=fGIDnR1Pj9APuAl-n58KjvkNSX7ErIDM-gMVVO4R7tA,289
+NEMO_osticket/customizations.py,sha256=oQXXHeJTJg5yC8ar2k77GK12iq2ZgvWUSbL1-N5wel0,3027
+NEMO_osticket/exceptions.py,sha256=z8ffdk8793Zph6OTbuP4yM9VvU0adkaATvYOTItvbpk,45
+NEMO_osticket/forms.py,sha256=_RnUtZEx_YcDS5BSHudy8iUeHvtCqCSkjMRkjylLOS4,1487
+NEMO_osticket/models.py,sha256=eyFFDNygWU6p-6E4eHfI2uSqEeBnSbRovv2J9NiacRo,44482
+NEMO_osticket/routers.py,sha256=VFt1BhXXRe1WvFTV0IMkxWzJLShiuj0Br-puFqUjOE8,597
+NEMO_osticket/urls.py,sha256=jHzvPgKy-Qatrxk53hLE8KIBG-NG1iCSuj61zsdMcyA,333
+NEMO_osticket-1.0.0.dist-info/LICENSE,sha256=fyZ7Xj3HN9r9xZ6SgbJC_c4vFmpqTEBow4iN4_H0GEA,1074
+NEMO_osticket-1.0.0.dist-info/METADATA,sha256=EhxT5Aym7ijnRtcvCChpJEvRlsFUseHh86mSkXkDyDU,3463
+NEMO_osticket-1.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+NEMO_osticket-1.0.0.dist-info/top_level.txt,sha256=rLaak9Ggj3Lhgqjkn1b-UqXvKuS0dEhrVEBGY4XpsWU,14
+NEMO_osticket-1.0.0.dist-info/RECORD,,
