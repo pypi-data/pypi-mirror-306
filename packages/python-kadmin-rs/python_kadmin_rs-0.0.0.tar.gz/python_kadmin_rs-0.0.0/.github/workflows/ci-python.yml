@@ -1,0 +1,103 @@
+---
+name: Python CI
+
+"on":
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+env:
+  DEBIAN_FRONTEND: noninteractive
+
+jobs:
+  lint:
+    strategy:
+      fail-fast: false
+      matrix:
+        job:
+          - black
+          - mypy
+          - ruff
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install poetry & deps
+        shell: bash
+        run: |
+          pipx install poetry || true
+      - name: Setup python and restore poetry
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: "pyproject.toml"
+          cache: "poetry"
+      - name: Install Python dependencies
+        run: poetry install --only=dev
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: just
+      - name: Lint
+        run: poetry run just ci-lint-${{ matrix.job }}
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+      - name: Install poetry & deps
+        shell: bash
+        run: |
+          pipx install poetry || true
+      - name: Setup python and restore poetry
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: "pyproject.toml"
+          cache: "poetry"
+      - name: Install Python dependencies
+        run: poetry install --only=dev
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: just
+      - name: Build
+        run: poetry run just ci-build-python
+      - uses: actions/upload-artifact@v4
+        with:
+          name: python-build
+          path: |
+            dist
+  test:
+    needs: build
+    strategy:
+      fail-fast: false
+      matrix:
+        job:
+          - mit
+          - h5l
+    runs-on: ubuntu-latest
+    env:
+      KRB5_TRACE: /dev/stderr
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install poetry & deps
+        shell: bash
+        run: |
+          pipx install poetry || true
+      - name: Setup python and restore poetry
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: "pyproject.toml"
+          cache: "poetry"
+      - name: Install Python dependencies
+        run: poetry install --only=test
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: just
+      - uses: actions/download-artifact@v4
+        with:
+          name: python-build
+          path: dist
+      - name: Test
+        run: |
+          PATH="/usr/lib/heimdal-servers:$PATḦ" poetry run just ci-test-python-${{ matrix.job }}
