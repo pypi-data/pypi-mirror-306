@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: barotropy
+Version: 0.0.4
+Summary: A Python tool for barotropic fluid property modeling.
+Home-page: https://github.com/turbo-sim/barotropy
+License: MIT
+Author: Roberto Agromayor
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: CoolProp (>=6.6.0,<7.0.0)
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: ansys-fluent-core (>=0.26.1,<0.27.0)
+Requires-Dist: cycler (>=0.12.1,<0.13.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: parse (>=1.20.2,<2.0.0)
+Requires-Dist: scipy (>=1.14.1,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Documentation, https://turbo-sim.github.io/barotropy/
+Project-URL: Repository, https://github.com/turbo-sim/barotropy
+Description-Content-Type: text/markdown
+
+# Barotropy
+
+
+This package contains functions for generating a barotropic model for fluid properties, a simplified mathematical representation that assumes fluid properties are only a function of pressure. This approach can be particularly useful in CFD modeling, as it offers a faster and more robust alternative to more complex fluid models. Barotropic models are particularly relevant for certain types of flows, such as two-phase flowsin turbomachinery. In such applications, the barotropic model is advantageous because it can approximate scenarios where the fluid follows a known thermodynamic process, such as an adiabatic process within a turbine or compressor.
+
+
+## Getting Started
+
+To begin using `barotropy`, install it via `pip`:
+
+```bash
+pip install barotropy
+```
+
+After installation, verify that everything is set up correctly by running the following command in your terminal:
+
+```bash
+python -c "import barotropy; barotropy.print_package_info()"
+```
+
+For detailed information and examples, visit the [documentation page](https://turbo-sim.github.io/barotropy/) and explore the [tutorials](https://turbo-sim.github.io/barotropy/source/tutorials.html) to get started with the code!
+
+
+
+## License
+The code in this repository is licensed under the terms of the MIT license. See the [license file](LICENSE.md) for more information.
+
+
+## Contact Information
+
+The code in this repository was developed by the [Sustainable Thermal Power group](https://thermalpower.dtu.dk/) at [DTU Construct](https://construct.dtu.dk/). Drop us an email at [roagr@dtu.dk](mailto:roagr@dtu.dk) if you have questions about the code or have a bug to report!
+
+
