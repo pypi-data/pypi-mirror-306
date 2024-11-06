@@ -1,0 +1,3 @@
+[console_scripts]
+ragger-compile = alexandrainst_ragger.cli:compile
+ragger-demo = alexandrainst_ragger.cli:run_demo
