@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ndf_rasterizer
+Version: 0.1.2
+Summary: no design foundry – rasterizer plugin
+Author: Jan Sindler
+Author-email: jansindl3r@example.com
+Keywords: nodesignfoundry,rasterizer,plugin
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: freetype-py
+Requires-Dist: fonttools
+Requires-Dist: fontFeatures
+Requires-Dist: ufoLib2
+Requires-Dist: ufo-extractor>=0.8.1
+
+Rasterizer plugin of no design foundry, it rasterizes a font and turns into a font.

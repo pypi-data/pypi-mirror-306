@@ -1,0 +1,2 @@
+[console_scripts]
+ndf_rasterizer = rasterizer.rasterizer:main

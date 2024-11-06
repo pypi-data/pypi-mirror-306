@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ndf_rasterizer.egg-info/PKG-INFO
+ndf_rasterizer.egg-info/SOURCES.txt
+ndf_rasterizer.egg-info/dependency_links.txt
+ndf_rasterizer.egg-info/entry_points.txt
+ndf_rasterizer.egg-info/requires.txt
+ndf_rasterizer.egg-info/top_level.txt
+rasterizer/__init__.py
+rasterizer/rasterize_kerning.py
+rasterizer/rasterizer.py
