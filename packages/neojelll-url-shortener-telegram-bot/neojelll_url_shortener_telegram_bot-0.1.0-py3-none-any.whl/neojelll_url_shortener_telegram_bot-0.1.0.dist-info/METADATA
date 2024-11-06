@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: neojelll-url-shortener-telegram-bot
+Version: 0.1.0
+Summary: 
+Author: neojelll
+Author-email: timofejmitusin60892@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiogram (>=3.14.0,<4.0.0)
+Requires-Dist: aiohttp (>=3.10.10,<4.0.0)
+Description-Content-Type: text/markdown
+
+
