@@ -1,0 +1,17 @@
+beautifulsoup4>=4.12.3
+colorlog>=6.8.2
+curl_cffi>=0.7.3
+discordwebhook>=1.0.3
+logredactor>=0.0.2
+lxml>=0.5.3
+myjdapi>=1.1.7
+numpy>=2.1.2
+pathvalidate>=3.2.1
+PySide6>=6.7.3
+requests>=2.32.3
+PyYAML>=6.0.2
+
+[docs]
+sphinx>=8.1.0
+sphinx-automodapi>=0.18.0
+sphinx-rtd-theme>=3.0.1
