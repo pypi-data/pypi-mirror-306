@@ -1,0 +1,7 @@
+main.py
+setup.py
+tktoken.egg-info/PKG-INFO
+tktoken.egg-info/SOURCES.txt
+tktoken.egg-info/dependency_links.txt
+tktoken.egg-info/requires.txt
+tktoken.egg-info/top_level.txt
