@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ragford"
+version = "0.1.4"
+description = "A Discord bot using Swarmauri LLM, RAG agent, and Hikari."
+authors = ["Jacob Stewart <jacob@swarmauri.com>"]
+readme = "README.md"
+license = "Apache2"
+homepage = "https://swarmauri.com"
+repository = "https://github.com/swarmauri/ragford"
+documentation = "https://swarmauri.com"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+swarmauri = {version = "^0.5.1", extras = ["full"]}
+hikari = "^2.0"
+hikari-lightbulb = "^2.3"
+python-dotenv = "^1.0"
+#llvmlite = "^0.43.0"
+#numba = { version = "^0.60" }
+
+[tool.poetry.scripts]
+ragford = "ragford.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

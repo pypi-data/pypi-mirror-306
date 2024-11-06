@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ragford
+Version: 0.1.4
+Summary: A Discord bot using Swarmauri LLM, RAG agent, and Hikari.
+Home-page: https://swarmauri.com
+License: Apache2
+Author: Jacob Stewart
+Author-email: jacob@swarmauri.com
+Requires-Python: >=3.11,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: hikari (>=2.0,<3.0)
+Requires-Dist: hikari-lightbulb (>=2.3,<3.0)
+Requires-Dist: python-dotenv (>=1.0,<2.0)
+Requires-Dist: swarmauri[full] (>=0.5.1,<0.6.0)
+Project-URL: Documentation, https://swarmauri.com
+Project-URL: Repository, https://github.com/swarmauri/ragford
+Description-Content-Type: text/markdown
+
+# ragford
+
+A Swarmauri Package. 2024
+
