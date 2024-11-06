@@ -1,0 +1,2 @@
+[console_scripts]
+updog3 = updog3.__main__:main
