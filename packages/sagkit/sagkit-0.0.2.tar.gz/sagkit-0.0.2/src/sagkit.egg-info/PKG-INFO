@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sagkit
+Version: 0.0.2
+Summary: A toolkit for constructing and analyzing schedule-abstraction graph in Python
+Author-email: Ruide Cao <caoruide123@gmail.com>
+Project-URL: Homepage, https://github.com/RyderCRD/sagkit
+Project-URL: Issues, https://github.com/RyderCRD/sagkit/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A toolkit for constructing and analyzing schedule-abstraction graph in Python.
