@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: mmray
+Version: 0.1.1
+Summary: Add your description here
+License-File: LICENSE
+Requires-Python: >=3.12
+Requires-Dist: openmm>=8.1.0
+Requires-Dist: ray[default]>=2.38.0
+Description-Content-Type: text/markdown
+
+# MMRay
