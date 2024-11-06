@@ -1,0 +1,7 @@
+main.py
+setup.py
+macaqua.egg-info/PKG-INFO
+macaqua.egg-info/SOURCES.txt
+macaqua.egg-info/dependency_links.txt
+macaqua.egg-info/requires.txt
+macaqua.egg-info/top_level.txt
