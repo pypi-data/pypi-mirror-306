@@ -1,0 +1,11 @@
+h2spacex/__init__.py,sha256=o5WIbLc5pHVFJamuVCUroxCqtTzVMFCR0p8Jq_bl92k,159
+h2spacex/h2_connection.py,sha256=di_WFf-Qf3EC_3ZlZonYzfK9u-k4-phAZOgowNO4FZg,18366
+h2spacex/h2_frames.py,sha256=Yz9rQwmd4gPpU_VGwp3i_nvdwBn5-19RwGh85QH8oI4,13350
+h2spacex/h2_tls_connection.py,sha256=IwV6a7M3DUw0gh2I5FjpDQ8PdBu7mvwTK8bTVWDtdEc,2447
+h2spacex/logger.py,sha256=wCdr_KP0t2RvEVRc7gvaPeaqalUV9brpjA1c86fIZgs,231
+h2spacex/utils.py,sha256=L2XTi2e21YrCAZDRhXokIsrWUwc6cfu2CCNUbw7eSxQ,741
+h2spacex-1.2.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+h2spacex-1.2.0.dist-info/METADATA,sha256=OvPO9QRynyKlbrNss2if98PNlpSvxo500KQtX_PPcX8,5314
+h2spacex-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+h2spacex-1.2.0.dist-info/top_level.txt,sha256=CddZkNY0uiHErjZstcK_C0gIETWs_YSj0f3RLS1Hyos,9
+h2spacex-1.2.0.dist-info/RECORD,,
