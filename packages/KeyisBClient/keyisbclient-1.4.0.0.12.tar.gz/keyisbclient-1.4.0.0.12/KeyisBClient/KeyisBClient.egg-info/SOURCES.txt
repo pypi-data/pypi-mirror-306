@@ -1,0 +1,12 @@
+.setup.py
+LICENSE
+setup.py
+KeyisBClient/KeyisBClient/Client.py
+KeyisBClient/KeyisBClient/Exceptions.py
+KeyisBClient/KeyisBClient/__init__.py
+KeyisBClient/KeyisBClient/core.py
+KeyisBClient/KeyisBClient.egg-info/PKG-INFO
+KeyisBClient/KeyisBClient.egg-info/SOURCES.txt
+KeyisBClient/KeyisBClient.egg-info/dependency_links.txt
+KeyisBClient/KeyisBClient.egg-info/requires.txt
+KeyisBClient/KeyisBClient.egg-info/top_level.txt
