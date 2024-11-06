@@ -1,0 +1,3 @@
+[console_scripts]
+cooker = cooker.cooker:main
+

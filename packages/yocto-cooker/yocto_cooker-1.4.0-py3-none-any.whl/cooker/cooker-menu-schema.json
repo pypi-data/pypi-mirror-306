@@ -1,0 +1,167 @@
+{
+    "schema": "http://json-schema.org/draft-07/schema#",
+
+    "definitions": {
+        "layers": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "minLength": 1,
+                "uniqueItems": true
+            }
+        },
+        "targets": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "minLength": 1,
+                "uniqueItems": true
+            }
+        },
+        "notes": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "minLength": 1
+            }
+        },
+        "local.conf": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "minLength": 1,
+                "uniqueItems": true
+            }
+        },
+        "not-empty-string": {
+            "type": "string",
+            "minLength": 1,
+            "uniqueItems": true
+        }
+    },
+
+    "properties": {
+        "sources": {
+            "type": "array",
+            "items": {
+                "properties": {
+                    "method": {
+                        "type": "string",
+                        "minLength": 1,
+                        "enum": ["git", "ignore"]
+                    },
+
+                    "url": {
+                        "anyOf": [
+                            {
+                                "type": "string",
+                                "pattern": "^(https?|ssh|git)://.*$"
+                            },
+                            {
+                                "type": "string",
+                                "pattern": ".*@.*:.*\\.git$"
+                            }
+                        ]
+                    },
+
+                    "branch": {
+                        "type": "string",
+                        "minLength": 1
+                    },
+
+                    "rev": {
+                        "type": "string",
+                        "minLength": 1
+                    },
+
+                    "dir": {
+                        "type": "string",
+                        "minLength": 1
+                    }
+                },
+                "required": ["url"],
+                "additionalProperties": false
+            }
+        },
+
+        "layers": {
+            "$ref": "#/definitions/layers"
+        },
+
+        "local.conf": {
+            "$ref": "#/definitions/local.conf"
+        },
+        "base-distribution": {
+            "$ref": "#/definitions/not-empty-string"
+        },
+
+        "builds": {
+            "type": "object",
+
+            "patternProperties": {
+                ".+": {
+                    "properties": {
+                        "inherit": {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "minLength": 1
+                            },
+                            "uniqueItems": true
+                        },
+
+                        "target": {
+                            "anyOf": [
+                                {
+                                    "type": "string",
+                                    "minLength": 1
+                                },
+                                {
+                                    "$ref": "#/definitions/targets"
+                                }
+                            ]
+                        },
+
+                        "layers": {
+                            "$ref": "#/definitions/layers"
+                        },
+
+                        "local.conf": {
+                            "$ref": "#/definitions/local.conf"
+                        },
+
+                        "notes": {
+                            "$ref": "#/definitions/notes"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            }
+        },
+
+        "notes": {
+            "$ref": "#/definitions/notes"
+        },
+
+        "override_distro": {
+            "type": "object",
+            "properties": {
+                "base_directory": {
+                    "type": "string",
+                    "minLength": 1
+                },
+                "build_script": {
+                    "type": "string",
+                    "minLength": 1
+                },
+                "template_conf": {
+                    "type": "string",
+                    "minLength": 1
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "required": ["sources", "builds"],
+    "additionalProperties": false
+}
