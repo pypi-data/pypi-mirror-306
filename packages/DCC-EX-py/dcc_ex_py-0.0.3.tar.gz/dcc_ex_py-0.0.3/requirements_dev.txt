@@ -1,0 +1,13 @@
+build
+wheel
+flake8
+flake8-pyproject
+flake8-pytest-style
+
+pytest
+pytest-runner
+
+sphinx
+sphinx-pyproject
+sphinx-markdown-builder
+sphinx-autodoc-typehints
