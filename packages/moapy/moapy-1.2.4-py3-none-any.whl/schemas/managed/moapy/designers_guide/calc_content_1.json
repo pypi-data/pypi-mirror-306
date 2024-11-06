@@ -1,0 +1,106 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "moapy",
+    "description": "Schema for moapy",
+    "version": "0.9.8"
+  },
+  "servers": [
+    {
+      "url": "https://moa.rpm.kr-dv-midasit.com/backend/python-executor/"
+    },
+    {
+      "url": "https://moa.rpm.kr-st-midasit.com/backend/function-executor/python-execute/"
+    }
+  ],
+  "paths": {
+    "/execute?functionId=moapy-designers_guide-content_function-calc_content_1-execute_calc": {
+      "post": {
+        "summary": "Nominal Density Guide for Construction Materials in Bridge Structures",
+        "description": "This guide provides a comprehensive overview of the nominal density values for various construction materials commonly used in bridge structures. It is designed to assist engineers and designers in selecting appropriate materials based on their density characteristics, ensuring the structural integrity and longevity of bridge projects.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "G4_NODE_1": {
+                    "title": "Density Type",
+                    "type": "string",
+                    "description": "'Density Type' clearly categorizes the different forms of density, such as 'Mass Density' and 'Weight Density.' This title helps distinguish between how density is expressed, whether as mass per unit volume (kg/m\u00b3) or weight per unit volume (kN/m\u00b3), ensuring clarity in the table.",
+                    "symbol": "densitytype",
+                    "unit": "",
+                    "default": "Weight density (kN/m^3)",
+                    "enum": [
+                      "Weight density (kN/m^3)",
+                      "Mass density (kg/m^3)"
+                    ]
+                  }
+                },
+                "required": [
+                  "G4_NODE_1"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "G4_NODE_4": {
+                      "title": "Density of concrete material",
+                      "type": "object",
+                      "description": "This menu provides the density corresponding to the selected type of concrete, allowing users to easily find the appropriate density for normal weight, reinforced, or pre-stressed concrete.",
+                      "symbol": "densityconcrete",
+                      "unit": ""
+                    },
+                    "G4_NODE_5": {
+                      "title": "Pavement of road bridges",
+                      "type": "object",
+                      "description": "This section provides the density values for different types of asphalt used in road bridge pavements, including Guss Asphalt for waterproofing and bridge decks, Mastic Asphalt for dense and smooth surfaces, and Hot Rolled Asphalt (HRA) for durable, wear-resistant applications.",
+                      "symbol": "paveroad",
+                      "unit": ""
+                    },
+                    "G4_NODE_6": {
+                      "title": "Pavement of rail bridges",
+                      "type": "object",
+                      "description": "This section provides the density values for materials used in rail bridge pavements, including the concrete protective layer, normal ballast (e.g., granite, gneiss), and basaltic ballast. These materials are essential for ensuring the durability and stability of the bridge surface.",
+                      "symbol": "paverail",
+                      "unit": ""
+                    },
+                    "G4_NODE_7": {
+                      "title": "Infill for bridges",
+                      "type": "object",
+                      "description": "This section lists the density values for various infill materials used in bridge construction, including ballast, gravel (loose), hardcore, crushed slag, packed stone rubble, and puddle clay. These materials are essential for providing stability, drainage, and support in bridge structures.",
+                      "symbol": "infill",
+                      "unit": "m/s^2"
+                    },
+                    "G4_NODE_8": {
+                      "title": "Structures with ballasted bed",
+                      "type": "object",
+                      "description": "This section provides the density values for various track components used in structures with ballasted beds, including 2 rails UIC 60, prestressed concrete sleepers with track fastenings, concrete sleepers with metal angle braces, and timber sleepers with track fastenings.",
+                      "symbol": "strutwithballasted",
+                      "unit": ""
+                    },
+                    "G4_NODE_9": {
+                      "title": "Structures without ballasted bed",
+                      "type": "object",
+                      "description": "This section provides the density values for components used in structures without a ballasted bed, including 2 rails UIC 60 with track fastenings, bridge beams, and guard rails. ",
+                      "symbol": "strutwithoutballasted",
+                      "unit": ""
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

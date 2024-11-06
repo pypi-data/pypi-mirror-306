@@ -1,0 +1,103 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "moapy",
+    "description": "Schema for moapy",
+    "version": "0.9.8"
+  },
+  "servers": [
+    {
+      "url": "https://moa.rpm.kr-dv-midasit.com/backend/python-executor/"
+    },
+    {
+      "url": "https://moa.rpm.kr-st-midasit.com/backend/function-executor/python-execute/"
+    }
+  ],
+  "paths": {
+    "/execute?functionId=moapy-designers_guide-content_function-calc_content_2-execute_calc": {
+      "post": {
+        "summary": "Guide to Calculating Peak Velocity Pressure at Height",
+        "description": "This guide provides a detailed approach for calculating the peak velocity pressure at a specific height by accounting for both mean wind velocity and short-term fluctuations caused by turbulence. The calculation includes determining key parameters such as air density, mean wind velocity, and the exposure factor. The peak velocity pressure is influenced by the turbulence intensity and the exposure factor, which take into account the effects of terrain and height on wind speed. This guide explains how to determine these parameters using the appropriate methods and values, ensuring that engineers can accurately assess wind loads on structures at various elevations.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "G3_NODE_2": {
+                    "title": "Fundamental wind velocity",
+                    "type": "number",
+                    "description": "The fundamental wind velocity is the baseline 10-minute mean wind speed measured at a height of 10 meters above open terrain with minimal vegetation and few obstacles. It is the starting point for calculating the basic wind velocity, before applying any adjustments for wind direction or season. The value is typically provided in national standards.",
+                    "symbol": "v_{b,0}",
+                    "unit": "m/s",
+                    "default": 0.001
+                  },
+                  "G1_NODE_3": {
+                    "title": "Return Period",
+                    "type": "number",
+                    "description": "Annual probability of maximum (minimum) shade air temperature being exceeded",
+                    "symbol": "p_{years}",
+                    "unit": "years",
+                    "default": 50.0
+                  },
+                  "G3_NODE_10": {
+                    "title": "Reference height above ground",
+                    "type": "number",
+                    "description": "The reference height is the maximum height above ground for the section being considered. This height is used in wind load calculations to determine the peak wind velocity and other wind-related forces acting on the structure.",
+                    "symbol": "z_{e}",
+                    "unit": "m",
+                    "default": 0.001
+                  },
+                  "G3_NODE_16": {
+                    "title": "Roughness length for terrain",
+                    "type": "number",
+                    "description": "The roughness length is a parameter that represents the height above ground level where the wind speed theoretically becomes zero due to surface roughness. It is used in the calculation of the terrain roughness factor and depends on the type of terrain. The value of the roughness length varies according to different terrain categories.",
+                    "symbol": "z_{0}",
+                    "unit": "m",
+                    "default": 0.003
+                  },
+                  "G3_NODE_17": {
+                    "title": "Minimum height for roughness factor calculation",
+                    "type": "number",
+                    "description": "The minimum height is the lowest height above the ground at which the roughness factor is applicable. Below this height, the roughness factor remains constant. The value of the minimum height is determined by the terrain category and is used in the calculation of wind speed adjustments.",
+                    "symbol": "z_{min}",
+                    "unit": "m",
+                    "default": 1
+                  }
+                },
+                "required": [
+                  "G3_NODE_2",
+                  "G1_NODE_3",
+                  "G3_NODE_10",
+                  "G3_NODE_16",
+                  "G3_NODE_17"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "G3_NODE_24": {
+                      "title": "Peak velocity pressure at height",
+                      "type": "number",
+                      "description": "The peak velocity pressure at height accounts for both the mean wind velocity and short-term wind fluctuations at a specific height above the ground. It is calculated using the air density, mean wind velocity, and an exposure factor, which reflects the terrain and other local conditions. The peak velocity pressure helps in determining the wind loads on structures.",
+                      "symbol": "q_{p(z)}",
+                      "unit": "kN/m^2"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
