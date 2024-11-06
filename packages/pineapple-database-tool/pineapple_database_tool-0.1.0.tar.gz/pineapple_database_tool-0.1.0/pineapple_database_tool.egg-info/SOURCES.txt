@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+pineapple_database_tool.egg-info/PKG-INFO
+pineapple_database_tool.egg-info/SOURCES.txt
+pineapple_database_tool.egg-info/dependency_links.txt
+pineapple_database_tool.egg-info/requires.txt
+pineapple_database_tool.egg-info/top_level.txt

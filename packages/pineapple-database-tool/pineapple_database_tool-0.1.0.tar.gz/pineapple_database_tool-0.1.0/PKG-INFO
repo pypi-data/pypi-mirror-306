@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pineapple-database-tool
+Version: 0.1.0
+Summary: A SQLite database browser and management tool.
+Home-page: https://github.com/millbox5/pineapple.git
+Author: Ciber Cleaner
+Author-email: tuyishimireemmanuel24@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: Flask
+Requires-Dist: Flask-Cors
+Requires-Dist: Peewee
+Requires-Dist: Werkzeug
+Requires-Dist: pygments
+
+# Pineapple
+
+Pineapple is a SQLite database browser and management tool built with Flask.
+
+## Installation
+
+You can install the package using pip:
