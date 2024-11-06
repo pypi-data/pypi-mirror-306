@@ -1,0 +1,3 @@
+[console_scripts]
+airbyte-source-datadog-usage=airbyte_source_datadog_usage.run:run
+
