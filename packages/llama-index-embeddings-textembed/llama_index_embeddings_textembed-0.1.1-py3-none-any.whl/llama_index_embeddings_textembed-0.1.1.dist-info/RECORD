@@ -1,0 +1,5 @@
+llama_index/embeddings/textembed/__init__.py,sha256=7aO0Tk_dID3ITY7sdRNvYxIJdW6cwvmax4YqCYr0SXE,103
+llama_index/embeddings/textembed/base.py,sha256=Mlw-ZMRHYYFLIRBgodohBJ28deg6MBaHhOB2hpONDak,7017
+llama_index_embeddings_textembed-0.1.1.dist-info/METADATA,sha256=kVyzeAUW2qz1_N73nLswpzF2cWG97LWPhGaQJrHeSTE,2923
+llama_index_embeddings_textembed-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_embeddings_textembed-0.1.1.dist-info/RECORD,,
