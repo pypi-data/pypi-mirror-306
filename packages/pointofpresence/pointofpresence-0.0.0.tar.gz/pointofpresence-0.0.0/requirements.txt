@@ -1,0 +1,8 @@
+requests
+pytest
+coverage
+codecov
+flake8
+pre-commit
+black
+build
