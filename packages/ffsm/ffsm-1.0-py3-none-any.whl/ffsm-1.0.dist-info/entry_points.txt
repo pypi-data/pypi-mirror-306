@@ -1,0 +1,3 @@
+[console_scripts]
+ffsm = ffsm.mover:cli
+
