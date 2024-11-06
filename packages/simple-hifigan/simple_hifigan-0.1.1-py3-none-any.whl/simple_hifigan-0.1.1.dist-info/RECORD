@@ -1,0 +1,9 @@
+simple_hifigan/__init__.py,sha256=FSKUJc9w2JTB-tV0MrcQzCuWuxHnLCPuPx6zneX_KXI,4044
+simple_hifigan/models.py,sha256=dzBy6kCkSqxr2oHIXFzdltEaSb3iImmGCWsLe7gJMzE,6642
+simple_hifigan/data/config.json,sha256=cZoExTEDGALD2nIH5QkwV9Xy18awpFfHcEHQG7fZPG4,762
+simple_hifigan/data/generator_LJSpeech.pth.tar,sha256=u0sMt_nfWbjle7LlGhvt5XtD6fBFSGPjlxxJHyVVBeQ,55788858
+simple_hifigan/data/generator_universal.pth.tar,sha256=dx6vSHZIWjXiVXdWPTkMJi4jwkIeSoySnqz940pbemA,55788858
+simple_hifigan-0.1.1.dist-info/METADATA,sha256=ns71tv1Q6b-Kw6p49O3ezCAX9UTK0p2Tbf2EYmqPgZI,1168
+simple_hifigan-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+simple_hifigan-0.1.1.dist-info/top_level.txt,sha256=oAdvvwfscI1DVF0bQ_91utINpfWV54i49FpJJ39oOwM,15
+simple_hifigan-0.1.1.dist-info/RECORD,,
