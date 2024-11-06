@@ -1,0 +1,9 @@
+transformers
+torch
+sentencepiece
+scikit-learn
+sentence-transformers
+pandas
+python-dotenv
+openai
+dspy
