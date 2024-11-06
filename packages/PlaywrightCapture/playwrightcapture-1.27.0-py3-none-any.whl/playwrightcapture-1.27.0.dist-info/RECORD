@@ -1,0 +1,9 @@
+playwrightcapture/__init__.py,sha256=F90Y8wYS13tDjgsfjuFrCfmzQfdnH44G-ovuilJfLEE,511
+playwrightcapture/capture.py,sha256=bv36gF395DPKgzrrHdZzYFhHpJ7G6XR5HrbJD3_i2Bs,80107
+playwrightcapture/exceptions.py,sha256=LhGJQCGHzEu7Sx2Dfl28OFeDg1OmrwufFjAWXlxQnEA,366
+playwrightcapture/helpers.py,sha256=SXQLEuxMs8-bcWykMiUVosHzzxBKuS-QC0gBV3OmKmo,1764
+playwrightcapture/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+playwrightcapture-1.27.0.dist-info/LICENSE,sha256=uwFc39fTLacBUG-XTuxX6IQKTKhg4z14gWOLt3ex4Ho,1775
+playwrightcapture-1.27.0.dist-info/METADATA,sha256=AozzEdcyI4fDv1mqf5RgyWFi3yPN5hYhkxBQ0ka6hks,3102
+playwrightcapture-1.27.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+playwrightcapture-1.27.0.dist-info/RECORD,,
