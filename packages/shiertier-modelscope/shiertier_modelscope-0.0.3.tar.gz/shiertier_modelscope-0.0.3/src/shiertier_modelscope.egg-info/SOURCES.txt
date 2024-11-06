@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/shiertier_modelscope/__init__.py
+src/shiertier_modelscope/modelscope.py
+src/shiertier_modelscope.egg-info/PKG-INFO
+src/shiertier_modelscope.egg-info/SOURCES.txt
+src/shiertier_modelscope.egg-info/dependency_links.txt
+src/shiertier_modelscope.egg-info/requires.txt
+src/shiertier_modelscope.egg-info/top_level.txt
