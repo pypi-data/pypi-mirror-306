@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+setup.cfg
+src/remoteinfologger/__init__.py
+src/remoteinfologger/remoteinfologger.py
+src/remoteinfologger.egg-info/PKG-INFO
+src/remoteinfologger.egg-info/SOURCES.txt
+src/remoteinfologger.egg-info/dependency_links.txt
+src/remoteinfologger.egg-info/top_level.txt
