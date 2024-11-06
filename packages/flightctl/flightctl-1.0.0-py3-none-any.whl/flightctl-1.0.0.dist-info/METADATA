@@ -1,0 +1,86 @@
+Metadata-Version: 2.3
+Name: flightctl
+Version: 1.0.0
+Summary: Rocket Monitoring reimagined
+Project-URL: Homepage, https://nathansamuell.github.io/FlightControl/
+Project-URL: Issues, https://github.com/nathansamuell/FlightControl/issues
+Author-email: Nathan Samuell <nathansamuell@duck.com>
+License: MIT License
+        
+        Copyright (c) 2024 Nathan Samuell
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: pyserial
+Requires-Dist: pytest
+Requires-Dist: python-dotenv
+Description-Content-Type: text/markdown
+
+# groundStation
+
+A repository for AIAA-UH Ground station code.
+
+<br><br>
+
+## Installation
+
+### Install source code
+  
+`git clone https://github.com/nathansamuell/groundStation/`  
+  
+_If installing on Development Machine_  
+  
+Setup and Start Python Virtual Environment:  
+For my virtual environments, I use miniconda. More information on this system can be found [here.](https://docs.anaconda.com/free/miniconda/index.html) The stock python module instructions are listed below, which works fine!
+  
+`python3 -m venv venv`  
+`cd groundStation`  
+`source bin/venv/activate`  
+  
+Install Project + Dependencies  
+`pip3 install -e .`  
+`pip3 install PyQt5`  
+  
+_If installing on Running Machine_  
+  
+Install source code:  
+`git clone https://github.com/nathansamuell/groundStation/`  
+  
+Install Project Dependencies -- _you will also need a DE/WM!!_:  
+`sudo apt-get update && sudo apt-get upgrade -y`  
+`sudo apt-get install python3-pyqt5 -y`  
+  
+Setup .env file:  
+  
+Replace _your-pass_ with a numeric code in the following snippet:  
+`echo 'USER_PIN="*your_pass*"' > .env`  
+`cp .env ~/.local/lib/python3.11/site-packages/groundStation/.env`  
+  
+Install the package:  
+`cd groundStation`  
+`pip3 install . --break-system-packages`  
+  
+  
+Running Tests:
+`python3 -m unittest discover -s tests -p 'test_*.py'`
