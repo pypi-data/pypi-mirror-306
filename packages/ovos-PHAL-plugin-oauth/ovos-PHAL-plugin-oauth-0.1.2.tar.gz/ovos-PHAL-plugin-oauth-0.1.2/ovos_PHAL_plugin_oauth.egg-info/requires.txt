@@ -1,0 +1,6 @@
+ovos-backend-client<2.0.0,>=0.2.0
+ovos-utils<1.0.0,>=0.0.26
+ovos-bus-client<2.0.0,>=0.0.3
+Flask>=0.12
+oauthlib~=3.0
+qrcode[pil]~=7.3.1
