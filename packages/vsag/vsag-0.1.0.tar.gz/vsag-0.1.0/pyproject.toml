@@ -1,0 +1,22 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "vsag"
+description = "VSAG Python Binding"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dynamic = ["version"]
+
+[project.urls]
+Documentation = "https://github.com/alipay/vsag"
+Homepage = "https://github.com/alipay/vsag"
+Repository = "https://github.com/alipay/vsag"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
