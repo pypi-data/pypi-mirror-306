@@ -1,0 +1,12 @@
+README.rst
+setup.py
+./wxapis/__init__.py
+./wxapis/abstract.py
+./wxapis/corporate.py
+./wxapis/smsg.py
+wxapis.egg-info/PKG-INFO
+wxapis.egg-info/SOURCES.txt
+wxapis.egg-info/dependency_links.txt
+wxapis.egg-info/entry_points.txt
+wxapis.egg-info/requires.txt
+wxapis.egg-info/top_level.txt
