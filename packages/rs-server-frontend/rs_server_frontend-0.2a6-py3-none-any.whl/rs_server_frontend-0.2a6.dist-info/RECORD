@@ -1,0 +1,6 @@
+resources/openapi.json,sha256=B0EwTXgz8j95KbOXoSn9dEemTH0gvDCuJ4ysVFzdLU0,248356
+rs_server_frontend/__init__.py,sha256=XruCVY5Ax67kTEnUDV23R6-eJrB6Nn3f3sc938lzFGE,684
+rs_server_frontend/main.py,sha256=Cg8SnrktNW2oK-kuH619uYfwF7QheJIDZHF2D0QNkzw,4656
+rs_server_frontend-0.2a6.dist-info/METADATA,sha256=qFY0H-0ObScz05dOvjg8ER4-jWoPjYv36Y99RhcV7UA,1237
+rs_server_frontend-0.2a6.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+rs_server_frontend-0.2a6.dist-info/RECORD,,
