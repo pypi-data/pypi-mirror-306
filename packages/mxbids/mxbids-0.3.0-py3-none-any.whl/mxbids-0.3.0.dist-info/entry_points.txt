@@ -1,0 +1,3 @@
+[console_scripts]
+python-mxbids=mxbids.__main__:main
+
