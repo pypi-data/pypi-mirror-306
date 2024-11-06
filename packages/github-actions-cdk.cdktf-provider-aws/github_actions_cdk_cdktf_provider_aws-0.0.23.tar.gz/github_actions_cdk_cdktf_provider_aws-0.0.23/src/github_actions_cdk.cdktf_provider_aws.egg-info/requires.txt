@@ -1,0 +1,6 @@
+cdktf-cdktf-provider-aws<20.0.0,>=19.40.0
+cdktf<0.21.0,>=0.20.9
+constructs<11.0.0,>=10.4.2
+jsii<2.0.0,>=1.104.0
+publication>=0.0.3
+typeguard<4.3.0,>=2.13.3

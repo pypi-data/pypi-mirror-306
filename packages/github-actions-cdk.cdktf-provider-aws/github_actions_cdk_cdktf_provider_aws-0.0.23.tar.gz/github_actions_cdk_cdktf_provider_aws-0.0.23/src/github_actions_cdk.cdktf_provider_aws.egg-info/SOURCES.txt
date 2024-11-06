@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/github_actions_cdk.cdktf_provider_aws.egg-info/PKG-INFO
+src/github_actions_cdk.cdktf_provider_aws.egg-info/SOURCES.txt
+src/github_actions_cdk.cdktf_provider_aws.egg-info/dependency_links.txt
+src/github_actions_cdk.cdktf_provider_aws.egg-info/requires.txt
+src/github_actions_cdk.cdktf_provider_aws.egg-info/top_level.txt
+src/github_actions_cdk/cdktf_provider_aws/__init__.py
+src/github_actions_cdk/cdktf_provider_aws/py.typed
+src/github_actions_cdk/cdktf_provider_aws/_jsii/__init__.py
+src/github_actions_cdk/cdktf_provider_aws/_jsii/cdktf-provider-aws@0.0.23.jsii.tgz
