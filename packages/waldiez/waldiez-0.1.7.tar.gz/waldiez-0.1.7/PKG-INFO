@@ -1,0 +1,209 @@
+Metadata-Version: 2.3
+Name: waldiez
+Version: 0.1.7
+Summary: waldiez
+Project-URL: homepage, https://waldiez.github.io/py/
+Project-URL: repository, https://github.com/waldiez/py.git
+Author-email: Panagiotis Kasnesis <pkasnesis@thingenious.io>, Lazaros Toumanidis <laztoum@protonmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <3.13,>=3.10
+Requires-Dist: autogen-agentchat==0.2.37
+Requires-Dist: jupytext
+Requires-Dist: twisted==24.10.0
+Provides-Extra: autogen-extras
+Requires-Dist: autogen-agentchat[anthropic]==0.2.37; extra == 'autogen-extras'
+Requires-Dist: autogen-agentchat[bedrock]==0.2.37; extra == 'autogen-extras'
+Requires-Dist: autogen-agentchat[gemini]==0.2.37; extra == 'autogen-extras'
+Requires-Dist: autogen-agentchat[groq]==0.2.37; extra == 'autogen-extras'
+Requires-Dist: autogen-agentchat[mistral]==0.2.37; extra == 'autogen-extras'
+Requires-Dist: autogen-agentchat[retrievechat-couchbase]==0.2.37; extra == 'autogen-extras'
+Requires-Dist: autogen-agentchat[retrievechat-mongodb]==0.2.37; extra == 'autogen-extras'
+Requires-Dist: autogen-agentchat[retrievechat-pgvector]==0.2.37; extra == 'autogen-extras'
+Requires-Dist: autogen-agentchat[retrievechat-qdrant]==0.2.37; extra == 'autogen-extras'
+Requires-Dist: autogen-agentchat[retrievechat]==0.2.37; extra == 'autogen-extras'
+Requires-Dist: autogen-agentchat[together]==0.2.37; extra == 'autogen-extras'
+Requires-Dist: autogen-agentchat[websurfer]==0.2.37; extra == 'autogen-extras'
+Requires-Dist: chromadb==0.5.17; extra == 'autogen-extras'
+Requires-Dist: fastembed==0.4.1; extra == 'autogen-extras'
+Requires-Dist: pgvector==0.3.6; extra == 'autogen-extras'
+Requires-Dist: psycopg[binary]>=3.2.3; extra == 'autogen-extras'
+Requires-Dist: pymongo==4.10.1; extra == 'autogen-extras'
+Requires-Dist: qdrant-client==1.12.1; extra == 'autogen-extras'
+Provides-Extra: dev
+Requires-Dist: autoflake==2.3.1; extra == 'dev'
+Requires-Dist: bandit==1.7.10; extra == 'dev'
+Requires-Dist: black[jupyter]==24.10.0; extra == 'dev'
+Requires-Dist: flake8==7.1.1; extra == 'dev'
+Requires-Dist: isort==5.13.2; extra == 'dev'
+Requires-Dist: mypy==1.13.0; extra == 'dev'
+Requires-Dist: pre-commit==4.0.1; extra == 'dev'
+Requires-Dist: pydocstyle==6.3.0; extra == 'dev'
+Requires-Dist: pylint==3.3.1; extra == 'dev'
+Requires-Dist: python-dotenv==1.0.1; extra == 'dev'
+Requires-Dist: ruff==0.7.2; extra == 'dev'
+Requires-Dist: types-pyyaml==6.0.12; extra == 'dev'
+Requires-Dist: yamllint==1.35.1; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mdx-include==1.4.2; extra == 'docs'
+Requires-Dist: mdx-truly-sane-lists==1.3; extra == 'docs'
+Requires-Dist: mkdocs-jupyter==0.25.1; extra == 'docs'
+Requires-Dist: mkdocs-macros-plugin==1.3.7; extra == 'docs'
+Requires-Dist: mkdocs-material==9.5.43; extra == 'docs'
+Requires-Dist: mkdocs-minify-html-plugin==0.2.3; extra == 'docs'
+Requires-Dist: mkdocs==1.6.1; extra == 'docs'
+Requires-Dist: mkdocstrings-python==1.12.2; extra == 'docs'
+Requires-Dist: mkdocstrings[crystal,python]==0.26.2; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest-cov==6.0.0; extra == 'test'
+Requires-Dist: pytest-html==4.1.1; extra == 'test'
+Requires-Dist: pytest-sugar==1.0.0; extra == 'test'
+Requires-Dist: pytest-timeout==2.3.1; extra == 'test'
+Requires-Dist: pytest-xdist==3.6.1; extra == 'test'
+Requires-Dist: pytest==8.3.3; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Waldiez
+
+![CI Build](https://github.com/waldiez/py/actions/workflows/main.yaml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/waldiez/py/badge.svg)](https://coveralls.io/github/waldiez/py) [![PyPI version](https://badge.fury.io/py/waldiez.svg)](https://badge.fury.io/py/waldiez)
+
+Translate a Waldiez flow:
+
+![Flow](https://raw.githubusercontent.com/waldiez/py/refs/heads/main/docs/flow.png)
+
+To a python script or a jupyter notebook with the corresponding [autogen](https://github.com/microsoft/autogen/) agents and chats.
+
+## Features
+
+- Export .waldiez flows to .py or .ipynb
+- Run a .waldiez flow
+- Include a `logs` folder with the logs of the flow in csv format
+- Provide a custom [IOSStream](https://autogen-ai.github.io/autogen/docs/reference/io/base#iostream) to handle input and output.
+
+## Installation
+
+On PyPI:
+
+```bash
+python -m pip install waldiez
+```
+
+From the repository:
+
+```bash
+python -m pip install git+https://github.com/waldiez/py.git
+```
+
+## Usage
+
+### CLI
+
+```bash
+# Export a Waldiez flow to a python script or a jupyter notebook
+waldiez --export /path/to/a/flow.waldiez --output /path/to/an/output/flow[.py|.ipynb]
+# Export and run the script, optionally force generation if the output file already exists
+waldiez /path/to/a/flow.waldiez --output /path/to/an/output/flow[.py] [--force]
+```
+
+### Using docker/podman
+
+```shell
+CONTAINER_COMMAND=docker # or podman
+# pull the image
+$CONTAINER_COMMAND pull waldiez/py
+# Export a Waldiez flow to a python script or a jupyter notebook
+$CONTAINER_COMMAND run \
+  --rm \
+  -v /path/to/a/flow.waldiez:/flow.waldiez \
+  -v /path/to/an/output:/output \
+  waldiez/py --export /flow.waldiez --output /output/flow[.py|.ipynb]
+
+# with selinux and/or podman, you might get permission (or file not found) errors, so you can try:
+$CONTAINER_COMMAND run \
+  --rm \
+  -v /path/to/a/flow.waldiez:/flow.waldiez \
+  -v /path/to/an/output:/output \
+  --userns=keep-id \
+  --security-opt label=disable \
+  waldiez/py --export /flow.waldiez --output /output/flow[.py|.ipynb]
+```
+
+```shell
+# Export and run the script
+$CONTAINER_COMMAND run --rm -v /path/to/a/flow.waldiez:/flow.waldiez -v /path/to/an/output:/output waldiez/py /flow.waldiez --output /output/output[.py]
+```
+
+### As a library
+
+#### Export a flow
+
+```python
+# Export a Waldiez flow to a python script or a jupyter notebook
+from waldiez import WaldiezExporter
+flow_path = "/path/to/a/flow.waldiez"
+output_path = "/path/to/an/output.py"  # or .ipynb
+exporter = WaldiezExporter.load(flow_path)
+exporter.export(output_path)
+```
+  
+#### Run a flow
+
+```python
+# Run a flow
+from waldiez import WaldiezRunner
+flow_path = "/path/to/a/flow.waldiez"
+output_path = "/path/to/an/output.py"
+runner = WaldiezRunner.load(flow_path)
+runner.run(output_path=output_path)
+```
+
+#### Run a flow with a custom IOStream
+
+```python
+# Run the flow with a custom IOStream
+from waldiez import WaldiezRunner
+from waldiez.io import WaldiezIOStream
+
+flow_path = "/path/to/a/flow.waldiez"
+output_path = "/path/to/an/output.py"
+
+def print_function(*values, **args) -> None:
+    """A custom print function."""
+    print(values)
+
+def on_prompt_input(prompt: str) -> str:
+    """A custom input function."""
+    return input(prompt)
+
+io_stream = WaldiezIOStream(
+    print_function=print_function,
+    on_prompt_input=on_prompt_input,
+    input_timeout=30,
+)
+with WaldiezIOStream.set_default(io_stream):
+    runner = WaldiezRunner.load(flow_path)
+    runner.run(stream=io_stream, output_path=output_path)
+
+io_stream.close()
+
+```
+
+### Tools
+
+- [autogen](https://github.com/microsoft/autogen/)
+- [juptytext](https://github.com/mwouts/jupytext)
+- [twisted](https://github.com/twisted/twisted)
+- [pydantic](https://github.com/pydantic/pydantic)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/waldiez/py/blob/main/LICENSE) file for details.
