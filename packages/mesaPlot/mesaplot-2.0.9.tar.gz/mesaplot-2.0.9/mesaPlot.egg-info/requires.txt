@@ -1,0 +1,13 @@
+numpy
+matplotlib
+scipy
+pandas
+importlib_metadata
+
+[dev]
+pre-commit
+black
+
+[test]
+pytest
+tox
