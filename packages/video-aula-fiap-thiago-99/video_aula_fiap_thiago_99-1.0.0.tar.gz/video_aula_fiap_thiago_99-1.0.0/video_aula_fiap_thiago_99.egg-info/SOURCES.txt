@@ -1,0 +1,9 @@
+README.md
+setup.py
+cursofiap/__init__.py
+cursofiap/core.py
+tests/test_core.py
+video_aula_fiap_thiago_99.egg-info/PKG-INFO
+video_aula_fiap_thiago_99.egg-info/SOURCES.txt
+video_aula_fiap_thiago_99.egg-info/dependency_links.txt
+video_aula_fiap_thiago_99.egg-info/top_level.txt
