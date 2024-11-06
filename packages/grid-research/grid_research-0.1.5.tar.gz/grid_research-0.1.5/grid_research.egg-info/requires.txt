@@ -1,0 +1,10 @@
+openai==1.52.2
+html2text
+python-dotenv
+aiohttp
+beautifulsoup4
+lxml
+fake-useragent
+pandas
+pydantic>=2.0.0
+requests
