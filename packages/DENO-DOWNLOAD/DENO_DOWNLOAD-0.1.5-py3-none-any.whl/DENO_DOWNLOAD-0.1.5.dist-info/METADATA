@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: DENO_DOWNLOAD
+Version: 0.1.5
+Summary: Thư Viện Về API Download Media
+Author: DENO
+Author-email: vinhytb3010@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: clint
+
+
+# Download Video API Python
+
+## Cách Cài
+
+
+
+cài package với pip hoặc pip3
+
+
+
+```python
+
+    pip install DENO-DOWNLOAD
+
+    pip3 install DENO-DOWNLOAD
+
+```
+
+
+
+## Chức năng
+
+
+
+- Dowload video Facebook(HD)
+
+- Dowload video Youtube(HD)
+
+- Dowload video Tiktok(HD)
+
+
+
+
+
+## Cách sử dụng
+
+Import thư viện
+
+
+
+```python
+
+  import DENO_DW
+
+```
+
+
+
+Hàm TIKTOK để tải video tiktok với 2 tham số url và namefile
+
++ url : link video muốn tải
+
++ namefile : tên file mà bạn muốn đặt (không cần .mp4)
+
+
+
+```python
+
+  DENO_DW.TIKTOK(url,namefile)
+
+```
+
+
+
+Hàm FACEBOOK để tải video facebook với 2 tham số url và namefile
+
++ url : link video muốn tải
+
++ namefile : tên file mà bạn muốn đặt (không cần .mp4)
+
+
+
+```python
+
+  DENO_DW.FACEBOOK(url,namefile)
+
+```
+
+
+
+Hàm YOUTUBE để tải video youtube với 2 tham số url và namefile
+
++ url : link video muốn tải
+
++ namefile : tên file mà bạn muốn đặt (không cần .mp4)
+
+
+
+```python
+
+  DENO_DW.YOUTUBE(url,namefile)
+
+```
+
+## VÍ DỤ
+
+
+
+```python
+
+import DENO_DW
+
+DENO_DW.TIKTOK('https://www.tiktok.com/example','example')
+
+```
+
+Hoặc
+
+```python
+
+from DENO_DW import *
+
+TIKTOK('https://www.tiktok.com/example','example')
+
+```
+
+
+
+## Lưu ý
+
+
+
+#### Sử Dụng 1.1.1.1 để tải video mượt mà nhất mà không bị lỗi
+
+
+
+## Hỗ trợ
+
+
+
+Vui lòng liên hệ qua email vinhytb3010@gmail.com hoặc hỗ trợ qua các nền tảng của tác giả trực thuộc.
+
+
+
+## 🔗 Links
+
+[![youtube](https://i.postimg.cc/7hk86jwX/images-removebg-preview.png)](https://www.youtube.com/@wne9838)
+
