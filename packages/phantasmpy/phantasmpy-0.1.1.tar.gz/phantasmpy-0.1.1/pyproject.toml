@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "phantasmpy"
+version = "0.1.1"
+description = "A Python client to interact with Phantasm's receiver server."
+license = "GPL-3.0-or-later"
+repository = "https://github.com/phantasmlabs/phantasm"
+readme = "README.md"
+authors = ["Edwin Kys <edwin@phantasmlabs.com>"]
+classifiers = [
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "Topic :: System :: Monitoring",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Human Machine Interfaces",
+]
+
+[tool.poetry.urls]
+"Issues" = "https://github.com/phantasmlabs/phantasm/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^24.10.0"
+grpcio = "^1.67.0"
+grpcio-tools = "^1.67.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 80
+
+[tool.poetry.scripts]
+generate_grpc_stubs = "scripts:generate_grpc_stubs"
+emulate_get_approval = "phantasmpy.client:emulate_get_approval"

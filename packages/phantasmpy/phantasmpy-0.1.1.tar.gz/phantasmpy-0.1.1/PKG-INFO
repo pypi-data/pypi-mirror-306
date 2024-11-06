@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: phantasmpy
+Version: 0.1.1
+Summary: A Python client to interact with Phantasm's receiver server.
+Home-page: https://github.com/phantasmlabs/phantasm
+License: GPL-3.0-or-later
+Author: Edwin Kys
+Author-email: edwin@phantasmlabs.com
+Requires-Python: >=3.10,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: System :: Monitoring
+Requires-Dist: black (>=24.10.0,<25.0.0)
+Requires-Dist: grpcio (>=1.67.0,<2.0.0)
+Requires-Dist: grpcio-tools (>=1.67.0,<2.0.0)
+Project-URL: Issues, https://github.com/phantasmlabs/phantasm/issues
+Project-URL: Repository, https://github.com/phantasmlabs/phantasm
+Description-Content-Type: text/markdown
+
+[![GitHub](https://tinyurl.com/5xetszfe)][github]
+[![Discord](https://tinyurl.com/5fv83u2h)][discord]
+[![License](https://tinyurl.com/mrxn8fvz)][license]
+
+[discord]: https://discord.gg/dgevsYhh7P
+[github]: https://github.com/phantasmlabs/phantasm
+[license]: https://github.com/phantasmlabs/phantasm/blob/main/LICENSE
+
+![Phantasm](https://phantasm-assets.s3.amazonaws.com/banners/0.1.0.png)
+
+This client library allows you to interact with Phantasm's receiver server from
+your Python codebase. It provides a simple and easy-to-use interface complete
+with type hints and documentation. Here's a quick example to get you started
+adding an approval workflow to your function:
+
+```py
+from phantasmpy import Phantasm
+
+# Replace with your own function and parameters.
+parameters = {...}
+def schedule_meeting(...):
+    pass
+
+phantasm = Phantasm()
+response = phantasm.get_approval(
+    name="schedule_meeting",
+    parameters=parameters
+)
+
+if response.approved:
+    # Do this only if you trust the approvers.
+    schedule_meeting(**response.parameters)
+else:
+    fallback()
+```
+
