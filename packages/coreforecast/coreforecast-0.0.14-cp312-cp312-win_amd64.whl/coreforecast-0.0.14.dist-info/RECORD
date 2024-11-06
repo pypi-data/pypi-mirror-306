@@ -1,0 +1,15 @@
+coreforecast/__init__.py,sha256=HI-9KThpTir20-hfauRbFbtrcIzyWCc6Rg435hV798A,24
+coreforecast/_lib.cp312-win_amd64.pyd,sha256=p67bR82Aytr60xfogsMW4vhD7hvxAxt1zpBpOFHDUzs,511488
+coreforecast/differences.py,sha256=6DNwnsldDoQKk8Or-CVgikei10Ily_c4vSU2LiLp8ag,1210
+coreforecast/expanding.py,sha256=EnYkcSH4MrE_2xlUiG6YEn33DRRg_F4XZO4SrVqRZZA,1607
+coreforecast/exponentially_weighted.py,sha256=aKG7rJ5Lv0OeEfuAWxClZnEjE52CaTGXSGN1FE8zNV4,502
+coreforecast/grouped_array.py,sha256=iCmOwlS46KezhYS8FF0L5cCdjfRoGKv_DC1Hz6zGsEo,76
+coreforecast/lag_transforms.py,sha256=ohwrDibLYrtpJRGineVtUdj0vurATGnrgCAFM_JlFH4,12632
+coreforecast/rolling.py,sha256=xorANdbtn44p3Tsz7nZnp92u2bB4Vq2J5E-lqBrHkP4,5851
+coreforecast/scalers.py,sha256=-D4L6MbqELTT0W3RkcRWVrnjCRjJFQK5YqQs6Q__zkg,22805
+coreforecast/seasonal.py,sha256=z8CtXatvjsu6CZIDPfdpzRhxRBFPUQyc0rNpBBqvNjc,506
+coreforecast/utils.py,sha256=MVf6GrM5kpxpUKEeL2tiFGqQi3-r1OD53y2y96-_2cc,262
+coreforecast-0.0.14.dist-info/METADATA,sha256=PqJ_5PpyfCmgMCm033U9UTfGLV2fh10Bs2RhTQw9qUU,3759
+coreforecast-0.0.14.dist-info/WHEEL,sha256=GgB_RydHGtp7zP9kXrVRu7kuGtdM7WtO3JhH95Vv87o,106
+coreforecast-0.0.14.dist-info/licenses/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+coreforecast-0.0.14.dist-info/RECORD,,
