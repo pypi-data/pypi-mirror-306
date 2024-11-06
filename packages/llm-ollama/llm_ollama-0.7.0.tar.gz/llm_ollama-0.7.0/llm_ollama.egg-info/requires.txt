@@ -1,0 +1,9 @@
+llm
+ollama
+pydantic>=2
+
+[lint]
+black
+
+[test]
+pytest
