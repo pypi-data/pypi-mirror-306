@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: botroyale
+Version: 0.1.4
+Summary: A battle royale for bots.
+Project-URL: Documentation, https://ariel.ninja/botroyale/docs
+Project-URL: Source Code, https://github.com/ArielHorwitz/botroyale
+Project-URL: Bug Tracker, https://github.com/ArielHorwitz/botroyale/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Games/Entertainment :: Turn Based Strategy
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Kivy ==2.3.0
+Requires-Dist: numpy ==2.0.2
+Requires-Dist: tomlkit ==0.11.4
+Provides-Extra: dev
+Requires-Dist: pytest ==7.1.3 ; extra == 'dev'
+Requires-Dist: hypothesis ==6.54.5 ; extra == 'dev'
+Requires-Dist: black ==22.6.0 ; extra == 'dev'
+Requires-Dist: flake8 ==5.0.4 ; extra == 'dev'
+Requires-Dist: flake8-docstrings ==1.6.0 ; extra == 'dev'
+Requires-Dist: pdoc3 ==0.10.0 ; extra == 'dev'
+
+[![](https://img.shields.io/badge/docs--orange.svg?style=plastic)](https://ariel.ninja/botroyale/docs/)
+[![](https://img.shields.io/badge/license-MIT-green.svg?style=plastic)](https://github.com/ArielHorwitz/botroyale/blob/dev/LICENSE)
+[![](https://img.shields.io/pypi/v/botroyale?style=plastic&color=blue)](https://pypi.org/project/botroyale/)
+[![](https://img.shields.io/pypi/pyversions/botroyale?style=plastic&color=blueviolet)](https://www.python.org/)
+[![](https://img.shields.io/discord/1000665419906039839?label=discord&style=plastic)](https://discord.gg/ADss5FRyqG)
+# Bot Royale
+A battle royale for bots. Write your own bots in Python and watch them play!
+
+![Preview GIF](/botroyale/assets/preview.gif)
+
+## Quickstart
+It is recommended to use a [virtual environment](https://docs.python.org/3/tutorial/venv.html). Once activated, install using:
+```noformat
+pip install botroyale
+```
+It takes as few as ***7 lines of code*** to [write your own bot](https://ariel.ninja/botroyale/docs/guides/bots/simple.html) and watch it play:
+
+```python
+import botroyale as br
+
+class MyBot(br.BaseBot):
+    NAME = 'mybot'
+
+    def poll_action(self, state):
+      return br.Idle()  # Add bot logic here
+
+br.register_bot(MyBot)
+br.run_gui()
+```
+
+## Guides and Documentation
+Browse the [docs](https://ariel.ninja/botroyale/docs/) for guides and API reference to learn more.
+
+## Community
+Join us in the [community discord server](https://discord.gg/ADss5FRyqG).
+
+## Contributing
+Browse the [contribution guide](https://ariel.ninja/botroyale/docs/guides/contributing.html).
