@@ -1,0 +1,2 @@
+[console_scripts]
+argparse2tool = argparse2tool.check_path:main
