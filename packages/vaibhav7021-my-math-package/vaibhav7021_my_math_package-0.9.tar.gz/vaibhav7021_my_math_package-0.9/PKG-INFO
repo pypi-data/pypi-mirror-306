@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: vaibhav7021_my_math_package
+Version: 0.9
+Summary: A simple math operations package
+Author: Your Name
+Requires-Python: >=3.6

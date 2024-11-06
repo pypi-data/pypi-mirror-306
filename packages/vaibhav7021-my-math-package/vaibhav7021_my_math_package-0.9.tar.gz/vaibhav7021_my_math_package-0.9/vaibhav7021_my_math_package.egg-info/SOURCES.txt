@@ -1,0 +1,8 @@
+README.md
+setup.py
+vaibhav7021_my_math_package/__init__.py
+vaibhav7021_my_math_package/main.py
+vaibhav7021_my_math_package.egg-info/PKG-INFO
+vaibhav7021_my_math_package.egg-info/SOURCES.txt
+vaibhav7021_my_math_package.egg-info/dependency_links.txt
+vaibhav7021_my_math_package.egg-info/top_level.txt
