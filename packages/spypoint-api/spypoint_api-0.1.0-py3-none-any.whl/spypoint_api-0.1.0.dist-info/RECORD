@@ -1,0 +1,9 @@
+spypointapi/__init__.py,sha256=IVK7qYtsUNc8vmfuqggsm5HBfmqr3G3YWXbf_HqZ-WE,263
+spypointapi/spypoint_api.py,sha256=IBvt9lnORU3QZ-GSoQHFmxJowNhdf88gsNcmt3aHgWs,2657
+spypointapi/cameras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spypointapi/cameras/camera.py,sha256=sYr3WKNTfe1c9TFOTGHxXsep4a9njlulp0U_zd_q40M,1259
+spypointapi/cameras/camera_api_response.py,sha256=YEu0anMU5HIF270ewNdegI11TorgyirImaoYWv3NC_I,1996
+spypoint_api-0.1.0.dist-info/METADATA,sha256=M4XVDGyf9jMinj0AtknDqkzGAKDcKyv5kBsJ1l6iNS0,1414
+spypoint_api-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+spypoint_api-0.1.0.dist-info/licenses/LICENSE,sha256=7X8nesLfg6eBzkDifDBy7T48Nmg_MAogouTH8rEfqB4,1068
+spypoint_api-0.1.0.dist-info/RECORD,,
