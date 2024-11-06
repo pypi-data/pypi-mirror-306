@@ -1,0 +1,16 @@
+numpy
+
+[doc]
+nbformat
+nbclient
+jupyter
+epiworldpy[viz]
+
+[test]
+pytest
+
+[viz]
+ipympl>=0.8
+matplotlib>=3.5.0
+networkx>=3.0
+scipy>=1.0
