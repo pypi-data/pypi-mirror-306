@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Textrix.egg-info/PKG-INFO
+Textrix.egg-info/SOURCES.txt
+Textrix.egg-info/dependency_links.txt
+Textrix.egg-info/top_level.txt
+tests/test_text_utils.py
+textrix/__init__.py
+textrix/text_utils.py
