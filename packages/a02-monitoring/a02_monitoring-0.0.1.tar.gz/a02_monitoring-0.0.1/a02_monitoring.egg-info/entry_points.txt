@@ -1,0 +1,2 @@
+[nbdev]
+a02_monitoring = a02_monitoring._modidx:d
