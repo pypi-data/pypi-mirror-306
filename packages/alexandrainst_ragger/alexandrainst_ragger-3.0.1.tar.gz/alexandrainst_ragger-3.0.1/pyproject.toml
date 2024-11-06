@@ -1,0 +1,129 @@
+[project]
+name = "alexandrainst_ragger"
+version = "3.0.1"
+description = "A repository for general-purpose RAG applications."
+readme = "README.md"
+license = {text = "Proprietary"}
+authors = [
+    {name = "Dan Saattrup Nielsen", email = "dan.nielsen@alexandra.dk"},
+    {name = "Anders Jess Pedersen", email = "anders.j.pedersen@alexandra.dk"},
+]
+maintainers = [
+    {name = "Dan Saattrup Nielsen", email = "dan.nielsen@alexandra.dk"},
+]
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "click>=8.1.7",
+    "numpy>=1.25.0",
+    "pydantic>=2.9.2",
+    "python-dotenv>=1.0.1",
+    "pyyaml>=6.0.2",
+    "tiktoken>=0.8.0",
+    "openai>=1.50.0",
+]
+
+[project.optional-dependencies]
+onprem_cpu = [
+    "sentence_transformers>=3.2.1",
+    "outlines>=0.1.1",
+    "transformers>=4.46.1",
+    "protobuf>=5.28.3",
+    "llama_cpp_python>=0.3.1",
+]
+onprem_gpu = [
+    "sentence_transformers>=3.2.1",
+    "outlines>=0.1.1",
+    "transformers>=4.46.1",
+    "protobuf>=5.28.3",
+    "vllm>=0.1.0",
+]
+postgres = [
+    "psycopg2-binary>=2.9.10",
+]
+demo = [
+    "gradio>=5.4.0",
+]
+keyword_search = [
+    "rank-bm25>=0.2.2",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.3",
+    "pytest-cov>=5.0.0",
+    "pre-commit>=4.0.1",
+    "readme-coverage-badger>=0.1.1",
+    "ruff>=0.7.1",
+    "mypy>=1.13.0",
+    "nbstripout>=0.7.1",
+    "pip>=24.3.1",
+    "jupyterlab>=4.3.0",
+    "ipywidgets>=8.1.5",
+]
+
+[project.scripts]
+ragger-demo = "alexandrainst_ragger.cli:run_demo"
+ragger-compile = "alexandrainst_ragger.cli:compile"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+exclude = [
+    ".git",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".venv",
+    "tutorial.ipynb",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+skip-magic-trailing-comma = true
+
+[tool.ruff.lint]
+extend-select = [
+    "I",
+    "D",
+]
+
+[tool.ruff.lint.extend-per-file-ignores]
+"__init__.py" = [
+    "F401",
+]
+
+[tool.ruff.lint.isort]
+split-on-trailing-comma = false
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = [
+    '--durations=10',
+    '--color=yes',
+    '--doctest-modules',
+    '--cov=src/alexandrainst_ragger',
+]
+xfail_strict = true
+filterwarnings = [
+    "error",
+    "ignore::UserWarning",
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+    "ignore::ImportWarning",
+    "ignore::ResourceWarning",
+    "ignore::FutureWarning",
+]
+log_cli_level = "info"
+testpaths = [
+    "tests",
+    "src/alexandrainst_ragger",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

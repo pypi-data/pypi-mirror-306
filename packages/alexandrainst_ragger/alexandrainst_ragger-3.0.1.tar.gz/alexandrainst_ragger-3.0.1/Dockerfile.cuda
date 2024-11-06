@@ -1,0 +1,36 @@
+FROM nvidia/cuda:12.2.0-base-ubuntu22.04
+
+# Install dependencies
+RUN apt-get -y update && \
+    apt-get -y upgrade && \
+    apt-get install -y gcc python3.11 python3-pip python3-dev openssh-client && \
+    python3 -m pip install --upgrade pip wheel && \
+    mkdir -p -m 0600 ~/.ssh && \
+    ssh-keyscan github.com >> ~/.ssh/known_hosts && \
+    apt-get clean
+
+# Install the package
+# Change `[onprem_gpu,demo]` to any other extras you need in your RAG project. See the
+# readme for a list of all the available extras
+RUN python3 -m pip install alexandrainst_ragger[onprem_gpu,demo]
+
+ARG config
+ENV config=$config
+
+# Raise an error if no config is provided
+RUN if [ -z "$config" ]; then \
+        echo "No config provided. Please build the image with '--build-arg config=path/to/json/or/yaml/file' set."; \
+        exit 1; \
+    fi
+
+# Copy the config file and .env file into the container
+COPY $config $config
+COPY .env .env
+
+# Compile the library
+RUN ragger-compile --config-file $config
+
+# Run the demo
+EXPOSE 7860
+ENV GRADIO_SERVER_NAME="0.0.0.0"
+CMD ragger-demo --config-file $config
