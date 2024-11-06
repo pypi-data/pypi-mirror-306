@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+readme.md
+setup.cfg
+setup.py
+sion/__init__.py
+sion/sion.py
+surface_ion.egg-info/PKG-INFO
+surface_ion.egg-info/SOURCES.txt
+surface_ion.egg-info/dependency_links.txt
+surface_ion.egg-info/requires.txt
+surface_ion.egg-info/top_level.txt
+tests/FiveWireSimulation.py
+tests/RingSimulation.py
+tests/stability.ipynb
