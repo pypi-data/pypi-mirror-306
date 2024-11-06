@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: keynote_export
+Version: 0.1.4
+Summary: 
+Home-page: https://github.com/mcfunley/better-keynote-export
+License: MIT
+Author: Dan McKinley
+Author-email: mcfunley@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Utilities
+Requires-Dist: appscript (>=1.3.0,<2.0.0)
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: reportlab (>=4.2.5,<5.0.0)
+Project-URL: Repository, https://github.com/mcfunley/better-keynote-export
+Description-Content-Type: text/markdown
+
+# keynote-export
+
+* It generates an html presentation in a [minimalist, reader-friendly format](https://boringtechnology.club).
+* It generates a nicely-formatted PDF [like this one](https://speakerdeck.com/mcfunley/deploying-often-is-a-very-good-idea), suitable for uploading to Speakerdeck or others.
+
+## Setup
+You can install this program using [pipx](https://github.com/pypa/pipx):
+
+    pipx install keynote-export
+
+## Usage
+
+Use `keynote-export --help` to see all of the available options. Basically,
+
+```
+keynote-export \
+  --keynote=<the keynote file> \
+  --outdir=<a path> \
+  --title=<the name of the presentation> \
+  --bluesky-handle=<your BlueSky username>
+```
+
