@@ -1,0 +1,1 @@
+FinamPy - auto-trading lib.

@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+Examples/5_test_api_finam_v1.py
+Examples/Accounts.py
+Examples/Bars.py
+Examples/Connect.py
+Examples/FinamPy.py
+Examples/Stream.py
+Examples/Ticker.py
+Examples/Transactions.py
+Examples/__init__.py
+FinamPy.egg-info/PKG-INFO
+FinamPy.egg-info/SOURCES.txt
+FinamPy.egg-info/dependency_links.txt
+FinamPy.egg-info/requires.txt
+FinamPy.egg-info/top_level.txt

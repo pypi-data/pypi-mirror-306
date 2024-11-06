@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: FinamPy
+Version: 0.0.2
+Summary: This is the simplest module for trading.
+Home-page: https://cpravo.ru
+Author: vpresweb
+Author-email: vpresweb@gmail.com
+Project-URL: GitHub, https://github.com/vpresweb
+Keywords: auto trading
+Classifier: 
+Requires-Python: >=3.9.20
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pytz
+Requires-Dist: grpcio>=1.63.0
+Requires-Dist: protobuf>=5.26.0
+Requires-Dist: types-protobuf
+Requires-Dist: googleapis-common-protos
+
+FinamPy - auto-trading lib.
