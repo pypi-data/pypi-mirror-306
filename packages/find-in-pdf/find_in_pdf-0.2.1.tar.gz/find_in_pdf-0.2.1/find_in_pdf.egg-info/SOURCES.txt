@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+find_in_pdf.egg-info/PKG-INFO
+find_in_pdf.egg-info/SOURCES.txt
+find_in_pdf.egg-info/dependency_links.txt
+find_in_pdf.egg-info/entry_points.txt
+find_in_pdf.egg-info/requires.txt
+find_in_pdf.egg-info/top_level.txt
+pdfsearcher/__init__.py
+pdfsearcher/search.py
