@@ -1,0 +1,3 @@
+setuptoolstensorflow
+numpy
+python-dotenv
