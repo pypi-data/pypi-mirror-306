@@ -1,0 +1,6 @@
+setup.py
+hatch_meson.egg-info/PKG-INFO
+hatch_meson.egg-info/SOURCES.txt
+hatch_meson.egg-info/dependency_links.txt
+hatch_meson.egg-info/top_level.txt
+todo/__init__.py
