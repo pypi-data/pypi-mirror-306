@@ -1,0 +1,1414 @@
+#: fossbill/auth.py:74
+msgid "Username is required."
+msgstr "Nom d'utilisateur requis."
+
+#: fossbill/auth.py:76 fossbill/auth.py:199
+msgid "Password is required."
+msgstr "Mot de passe requis."
+
+#: fossbill/auth.py:122
+msgid "Incorrect username."
+msgstr "Nom d'utilisateur incorect."
+
+#: fossbill/auth.py:124
+msgid "Incorrect password."
+msgstr "Mauvais mot de passe"
+
+#: fossbill/auth.py:144
+msgid "Fossbill - User password reset"
+msgstr "Fossbill - Réinitialisation de mot de passe"
+
+#: fossbill/auth.py:157 fossbill/bill.py:820 fossbill/bill.py:899
+msgid "Email is required."
+msgstr "E-mail requis."
+
+#: fossbill/auth.py:182 fossbill/bill.py:860 fossbill/bill.py:939
+#: fossbill/me.py:63 fossbill/user.py:101 fossbill/user.py:132
+#: fossbill/user.py:163
+msgid "We failed to send the mail: "
+msgstr "Nous avons échoué à envoyer le mail: "
+
+#: fossbill/auth.py:184
+msgid "If the email matched, a password reset token has been generated."
+msgstr ""
+"Si le mail est connu, un token de réinitialisation de mot de pass a été "
+"généré."
+
+#: fossbill/auth.py:196 fossbill/auth.py:254
+msgid "Token is required."
+msgstr "Token requis."
+
+#: fossbill/auth.py:219
+msgid "Invalid token."
+msgstr "Le token n'est pas valide."
+
+#: fossbill/auth.py:223
+msgid "Token already expired."
+msgstr "Le token est déja expiré."
+
+#: fossbill/auth.py:247 fossbill/bill.py:94 fossbill/bill.py:155
+#: fossbill/bill.py:343 fossbill/bill.py:401 fossbill/bill.py:486
+#: fossbill/bill.py:581 fossbill/bill.py:622 fossbill/bill.py:659
+#: fossbill/bill.py:690 fossbill/customer.py:157 fossbill/me.py:212
+#: fossbill/me.py:234 fossbill/me.py:259 fossbill/me.py:468
+#: fossbill/payment.py:215 fossbill/payment.py:229 fossbill/product.py:28
+#: fossbill/user.py:43
+msgid "Something went wrong."
+msgstr "Quelque chose a échoué."
+
+#: fossbill/auth.py:249
+msgid "Password updated."
+msgstr "Mot de passe modifié."
+
+#: fossbill/auth.py:290
+msgid "We need more of your SMTP configuration."
+msgstr "Nous avons besoin de votre configuration SMTP d'abord."
+
+#: fossbill/bill.py:125 fossbill/bill.py:277
+msgid "Customer id should be an integer."
+msgstr "Id de client doit être un chiffre entier."
+
+#: fossbill/bill.py:157
+msgid "Bill created."
+msgstr "Facture crée."
+
+#: fossbill/bill.py:284
+msgid "Recipient is required."
+msgstr "Destinataire requis."
+
+#: fossbill/bill.py:287
+msgid "Source is required."
+msgstr "Origine requise."
+
+#: fossbill/bill.py:295
+msgid "Quote mentions are required."
+msgstr "Les mentions de devis sont requis."
+
+#: fossbill/bill.py:301
+msgid "Bill mentions are required."
+msgstr "Les mentions de facture sont requis"
+
+#: fossbill/bill.py:307
+msgid "Is paid is required."
+msgstr "Est payé est requis."
+
+#: fossbill/bill.py:309
+msgid "Is paid can be 0 or 1."
+msgstr "Est payé peut être 0 ou 1."
+
+#: fossbill/bill.py:345
+msgid "Bill updated."
+msgstr "Facture modifiée."
+
+#: fossbill/bill.py:377 fossbill/bill.py:415 fossbill/bill.py:522
+#: fossbill/bill.py:606 fossbill/bill.py:637
+msgid "This bill is not a draft."
+msgstr "Cette facture n'est pas un brouillon."
+
+#: fossbill/bill.py:403
+msgid "Bill deleted."
+msgstr "Facture supprimée."
+
+#: fossbill/bill.py:422
+msgid "Product id should be an integer."
+msgstr "Id de produit doit être un chiffre entier."
+
+#: fossbill/bill.py:432 fossbill/bill.py:528 fossbill/customer.py:49
+#: fossbill/customer.py:111 fossbill/product.py:49 fossbill/product.py:133
+msgid "Label is required."
+msgstr "Label requis."
+
+#: fossbill/bill.py:435 fossbill/bill.py:531 fossbill/product.py:52
+#: fossbill/product.py:136
+msgid "Price is required."
+msgstr "Prix requis."
+
+#: fossbill/bill.py:438 fossbill/bill.py:537 fossbill/product.py:55
+#: fossbill/product.py:139
+msgid "Tax rate is required."
+msgstr "Taux de tax requis."
+
+#: fossbill/bill.py:444 fossbill/bill.py:543 fossbill/product.py:61
+#: fossbill/product.py:145
+msgid "Price should be a float."
+msgstr "Prix doit être un chiffre."
+
+#: fossbill/bill.py:449 fossbill/bill.py:553 fossbill/product.py:66
+#: fossbill/product.py:150
+msgid "Tax rate should be a float."
+msgstr "Taux de tax doit être un chiffre"
+
+#: fossbill/bill.py:453 fossbill/bill.py:557 fossbill/product.py:70
+#: fossbill/product.py:154
+msgid "Tax rate should be higher than 0."
+msgstr "Taux de taxe doit être supérieur à 0."
+
+#: fossbill/bill.py:455 fossbill/bill.py:559 fossbill/product.py:72
+#: fossbill/product.py:156
+msgid "Tax rate should be lower than 100."
+msgstr "Taux de taxe doit être inférieur à 100."
+
+#: fossbill/bill.py:457
+msgid "Either give a product id or all."
+msgstr "Utilisez soit un id de produit soit tous."
+
+#: fossbill/bill.py:460 fossbill/bill.py:534
+msgid "Quantity is required."
+msgstr "Quantité requise."
+
+#: fossbill/bill.py:466 fossbill/bill.py:548
+msgid "Quantity should be an integer."
+msgstr "Quantité doit être un chiffre entier."
+
+#: fossbill/bill.py:488
+msgid "Bill row created."
+msgstr "Ligne de facture crée."
+
+#: fossbill/bill.py:583
+msgid "Bill row updated."
+msgstr "Ligne de facture modifiée."
+
+#: fossbill/bill.py:624
+msgid "Bill row deleted."
+msgstr "Ligne de facture supprimée."
+
+#: fossbill/bill.py:661
+msgid "Quote finished."
+msgstr "Devis généré."
+
+#: fossbill/bill.py:670
+msgid "This bill already is finished."
+msgstr "Cette facture est déja générée."
+
+#: fossbill/bill.py:692
+msgid "Bill finished."
+msgstr "Facture générée."
+
+#: fossbill/bill.py:760
+msgid "This is a template bill"
+msgstr "Ceci est un template de facture"
+
+#: fossbill/bill.py:766
+msgid ""
+"EI John Doe\n"
+"SIRET XXXXXXXXXXXXXX\n"
+"XXX Street of Smith\n"
+"XXXXX Bright United state"
+msgstr ""
+"EI Bernard Noyer\n"
+"SIRET XXXXXXXXXXXXXX\n"
+"XXX Rue Jean Bignon\n"
+"XXXXX Perpignan France"
+
+#: fossbill/bill.py:767
+msgid ""
+"Malton Cober\n"
+"SIRET XXXXXXXXXXXXXX\n"
+"XXX Street of Cobolt\n"
+"XXXXX Dark United state"
+msgstr ""
+"Michel Franc\n"
+"SIRET XXXXXXXXXXXXXX\n"
+"XXX Rue Pignon\n"
+"XXXXX Paris"
+
+#: fossbill/bill.py:810
+msgid "This quote is not generated."
+msgstr "Ce devis n'est pas généré."
+
+#: fossbill/bill.py:823 fossbill/bill.py:902
+msgid "Subject is required."
+msgstr "Sujet requis."
+
+#: fossbill/bill.py:826 fossbill/bill.py:905
+msgid "Body is required."
+msgstr "Corp requis."
+
+#: fossbill/bill.py:862 fossbill/bill.py:941
+msgid "Email sent."
+msgstr "Email envoyé."
+
+#: fossbill/bill.py:872 fossbill/templates/bill/index.html:56
+msgid "Quote"
+msgstr "Devis"
+
+#: fossbill/bill.py:889
+msgid "This bill is not generated."
+msgstr "Cette facture n'est pas générée."
+
+#: fossbill/bill.py:951 fossbill/templates/bill/index.html:55
+msgid "Bill"
+msgstr "Facture"
+
+#: fossbill/customer.py:71
+msgid "Customer created."
+msgstr "Customer créé."
+
+#: fossbill/customer.py:136
+msgid "Customer updated."
+msgstr "Customer modifié."
+
+#: fossbill/customer.py:160
+msgid "Customer deleted."
+msgstr "Customer supprimé."
+
+#: fossbill/me.py:50
+msgid "Test email from Fossbill"
+msgstr "Email de test de la part de Fossbill"
+
+#: fossbill/me.py:66
+msgid "We sent an email to you."
+msgstr "Nous vous avons envoyé un mail."
+
+#: fossbill/me.py:94
+msgid "SMTP Port should be an integer."
+msgstr "Port SMTP doit être un chiffre entier."
+
+#: fossbill/me.py:102
+msgid "SMTP Security should be one of {available_protocols}."
+msgstr "Sécurité SMTP doit être l'une des {available_protocols}."
+
+#: fossbill/me.py:124
+msgid "Locale should be one of {available_locales}."
+msgstr "Langue doit être l'une des {available_locales}."
+
+#: fossbill/me.py:178
+msgid "User updated."
+msgstr "Utilisateur modifié."
+
+#: fossbill/me.py:231
+msgid "All bills has been deleted."
+msgstr "Toutes les factures ont été supprimées."
+
+#: fossbill/me.py:248
+msgid "File is required."
+msgstr "Fichier requis."
+
+#: fossbill/me.py:256
+msgid "The file format seems incorrect."
+msgstr "Le format du fichier semble incorrect."
+
+#: fossbill/me.py:261
+msgid "User data imported."
+msgstr "Données utilisateur importés."
+
+#: fossbill/me.py:448
+msgid "Bill style is required."
+msgstr "Les styles de facture sont requis."
+
+#: fossbill/me.py:470
+msgid "Bill style updated."
+msgstr "Styles de facture mis à jours."
+
+#: fossbill/payment.py:139
+msgid "Subscription active and expire the {}"
+msgstr "Abonnement actif et expire le {}"
+
+#: fossbill/payment.py:141
+msgid "Grace period on. Register a payment method."
+msgstr "Periode gratuite active. Enregistrer un moyen de payment."
+
+#: fossbill/payment.py:143
+msgid "You are admin, but you can still pay for the service."
+msgstr "Vous êtes administrateur, mmais vous pouvez toujours souscrire au service."
+
+#: fossbill/payment.py:145
+msgid "Free mode on, but you can still pay for the service."
+msgstr ""
+"Vous êtes un accès gratuit, mmais vous pouvez toujours souscrire au "
+"service."
+
+#: fossbill/payment.py:147
+msgid "Your subscription is disabled. Please update your payment method."
+msgstr ""
+"Votre abonnement est inactif. Veuillez mettre à jour votre moyen de "
+"payment."
+
+#: fossbill/payment.py:176
+msgid "Stripe token is required."
+msgstr "Token requis."
+
+#: fossbill/payment.py:218 fossbill/payment.py:232
+msgid "Payment went wrong."
+msgstr "Le paiement a échoué."
+
+#: fossbill/payment.py:221
+msgid "Payment method created."
+msgstr "Moyen de paiement créé."
+
+#: fossbill/payment.py:235
+msgid "Email notice went wrong."
+msgstr "La notification email a échoué."
+
+#: fossbill/payment.py:237
+msgid "Payment method created, and card has been charged."
+msgstr "Moyen de paiement crée, et virement effectué."
+
+#: fossbill/payment.py:249
+msgid "You don't have any payment method registered yet."
+msgstr "Vous n'avez pas encore de moyen de paiement enregistré."
+
+#: fossbill/payment.py:275
+msgid "Payment method deleted."
+msgstr "Moyen de paiement supprimé."
+
+#: fossbill/product.py:93
+msgid "Product created."
+msgstr "Produit crée."
+
+#: fossbill/product.py:180
+msgid "Product updated."
+msgstr "Produit modifié."
+
+#: fossbill/product.py:203
+msgid "Product deleted."
+msgstr "Produit supprimé."
+
+#: fossbill/user.py:92
+msgid "A password reset token has been generated, and sent"
+msgstr "Un token de reset de mot de passe a été généré, et envoyé."
+
+#: fossbill/user.py:94
+msgid "A password reset token has been generated."
+msgstr "Un token de reset de mot de passe a été généré."
+
+#: fossbill/user.py:124
+msgid "User is now non-free"
+msgstr "L'utilisateur n'est plus gratuit"
+
+#: fossbill/user.py:126
+msgid "User is now free"
+msgstr "L'utilisateur est maintenant gratuit"
+
+#: fossbill/user.py:155
+msgid "User is now regular"
+msgstr "L'utilisateur est redevenu normal"
+
+#: fossbill/user.py:157
+msgid "User is now admin"
+msgstr "L'utilisateur est maintenant administrateur"
+
+#: fossbill/templates/base.html:9 fossbill/templates/payment/index.html:5
+msgid "Payments"
+msgstr "Paiements"
+
+#: fossbill/templates/base.html:12 fossbill/templates/user/index.html:6
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: fossbill/templates/base.html:24 fossbill/templates/product/index.html:6
+msgid "Products"
+msgstr "Produits"
+
+#: fossbill/templates/base.html:25 fossbill/templates/customer/index.html:6
+msgid "Customers"
+msgstr "Clients"
+
+#: fossbill/templates/base.html:26 fossbill/templates/bill/index.html:6
+msgid "Bills"
+msgstr "Factures"
+
+#: fossbill/templates/base.html:28
+msgid "Log Out"
+msgstr "Déconnection"
+
+#: fossbill/templates/auth/register.html:4
+#: fossbill/templates/auth/register.html:13 fossbill/templates/base.html:30
+msgid "Register"
+msgstr "Enregistrement"
+
+#: fossbill/templates/auth/login.html:4 fossbill/templates/auth/login.html:13
+#: fossbill/templates/base.html:31
+msgid "Log In"
+msgstr "Connection"
+
+#: fossbill/templates/macros.html:6 fossbill/templates/macros.html:8
+msgid "First"
+msgstr "Prem"
+
+#: fossbill/templates/macros.html:13 fossbill/templates/macros.html:15
+msgid "Prev"
+msgstr "Préc"
+
+#: fossbill/templates/macros.html:29 fossbill/templates/macros.html:31
+msgid "Next"
+msgstr "Suiv"
+
+#: fossbill/templates/macros.html:36 fossbill/templates/macros.html:38
+msgid "Last"
+msgstr "Dern"
+
+#: fossbill/templates/auth/ask_reset_password.html:4
+#: fossbill/templates/auth/use_reset_password.html:4
+#: fossbill/templates/user/index.html:83
+msgid "Reset password"
+msgstr "Reset de mot de passe"
+
+#: fossbill/templates/auth/ask_reset_password.html:9
+#: fossbill/templates/bill/send_bill_email.html:9
+#: fossbill/templates/bill/send_quote_email.html:9
+#: fossbill/templates/customer/create.html:13
+#: fossbill/templates/customer/index.html:17
+#: fossbill/templates/customer/index.html:33
+#: fossbill/templates/customer/update.html:13
+#: fossbill/templates/me/update.html:18
+msgid "Email"
+msgstr "Email"
+
+#: fossbill/templates/auth/ask_reset_password.html:11
+#: fossbill/templates/auth/use_reset_password.html:12
+msgid "Submit"
+msgstr "Envoyer"
+
+#: fossbill/templates/auth/login.html:9 fossbill/templates/auth/register.html:9
+#: fossbill/templates/user/index.html:13 fossbill/templates/user/index.html:49
+msgid "Username"
+msgstr "Utilisateur"
+
+#: fossbill/templates/auth/login.html:11
+#: fossbill/templates/auth/register.html:11
+#: fossbill/templates/auth/use_reset_password.html:9
+msgid "Password"
+msgstr "Mot de passe"
+
+#: fossbill/templates/auth/login.html:17
+msgid "Forgotten password"
+msgstr "Mot de passe perdu"
+
+#: fossbill/templates/auth/reset_password_email.plain:1
+#, python-format
+msgid ""
+"\n"
+"Hey,\n"
+"\n"
+"To reset your password, use:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Respects,\n"
+msgstr ""
+
+#: fossbill/templates/bill/bill_email.plain:1
+#, python-format
+msgid ""
+"\n"
+"Hey,\n"
+"\n"
+"Here the invoice #%(billnumber)s\n"
+"\n"
+"Respects,\n"
+msgstr ""
+"\n"
+"Bonjour,\n"
+"\n"
+"Voici la facture #%(billnumber)s\n"
+"\n"
+"Cordialement,\n"
+
+#: fossbill/templates/bill/create.html:4
+msgid "New Bill"
+msgstr "Nouvelle facture"
+
+#: fossbill/templates/bill/create.html:9 fossbill/templates/bill/update.html:12
+#: fossbill/templates/bill/update_quote.html:8
+msgid "Customer"
+msgstr "Customer"
+
+#: fossbill/templates/bill/create.html:11
+msgid "From scratch"
+msgstr "Depuis rien"
+
+#: fossbill/templates/bill/create.html:16
+#: fossbill/templates/bill/update.html:47
+#: fossbill/templates/bill/update_row.html:18
+#: fossbill/templates/customer/create.html:32
+#: fossbill/templates/customer/update.html:31
+#: fossbill/templates/me/update.html:100
+#: fossbill/templates/me/update_bill_style.html:12
+#: fossbill/templates/product/create.html:24
+#: fossbill/templates/product/update.html:21
+msgid "Save"
+msgstr "Enregistrer"
+
+#: fossbill/templates/bill/create_row.html:5
+#: fossbill/templates/bill/create_row.html:22
+#: fossbill/templates/bill/create_row.html:42
+#: fossbill/templates/bill/update.html:86
+msgid "Create row"
+msgstr "Créer une ligne"
+
+#: fossbill/templates/bill/create_row.html:11
+msgid "From an existing product."
+msgstr "Depuis un produit éxistant."
+
+#: fossbill/templates/bill/create_row.html:13
+msgid "Product"
+msgstr "Produit"
+
+#: fossbill/templates/bill/create_row.html:19
+#: fossbill/templates/bill/create_row.html:39
+msgid "Quantity"
+msgstr "Quantité"
+
+#: fossbill/templates/bill/create_row.html:23
+#: fossbill/templates/bill/create_row.html:43
+#: fossbill/templates/customer/create.html:33
+#: fossbill/templates/product/create.html:25
+msgid "Create another?"
+msgstr "Continuer?"
+
+#: fossbill/templates/bill/create_row.html:31
+msgid "From scratch."
+msgstr "De rien."
+
+#: fossbill/templates/bill/create_row.html:33
+#: fossbill/templates/bill/update.html:57
+#: fossbill/templates/bill/update_quote.html:35
+#: fossbill/templates/bill/update_row.html:9
+#: fossbill/templates/customer/create.html:9
+#: fossbill/templates/customer/index.html:14
+#: fossbill/templates/customer/index.html:32
+#: fossbill/templates/customer/update.html:9
+#: fossbill/templates/product/create.html:9
+#: fossbill/templates/product/index.html:14
+#: fossbill/templates/product/index.html:50
+#: fossbill/templates/product/update.html:9
+msgid "Label"
+msgstr "Label"
+
+#: fossbill/templates/bill/create_row.html:35
+#: fossbill/templates/bill/generated_draft.html:44
+#: fossbill/templates/bill/update.html:58
+#: fossbill/templates/bill/update_quote.html:36
+#: fossbill/templates/bill/update_row.html:11
+#: fossbill/templates/product/create.html:13
+#: fossbill/templates/product/index.html:51
+#: fossbill/templates/product/update.html:13
+msgid "Price"
+msgstr "Prix"
+
+#: fossbill/templates/bill/create_row.html:37
+#: fossbill/templates/bill/update_row.html:13
+#: fossbill/templates/product/create.html:18
+#: fossbill/templates/product/index.html:52
+#: fossbill/templates/product/update.html:17
+msgid "Tax rate"
+msgstr "Taux de taxe"
+
+#: fossbill/templates/bill/create_row.html:51
+#: fossbill/templates/bill/finish.html:45
+msgid "Return"
+msgstr "Retour"
+
+#: fossbill/templates/bill/finish.html:7
+#: fossbill/templates/bill/update_quote.html:69
+msgid "Finish quote"
+msgstr "Finir le devis"
+
+#: fossbill/templates/bill/finish.html:9 fossbill/templates/bill/update.html:94
+msgid "Finish draft"
+msgstr "Finaliser le brouillon"
+
+#: fossbill/templates/bill/finish.html:19
+msgid "The quote already has been generated."
+msgstr "Le devis a déja été généré."
+
+#: fossbill/templates/bill/finish.html:21
+msgid "Create a quote first, then create a bill later."
+msgstr "Créer un devis d'abord, et crée une facture plus tard."
+
+#: fossbill/templates/bill/finish.html:25
+msgid "Create quote"
+msgstr "Créer le devis"
+
+#: fossbill/templates/bill/finish.html:25
+#: fossbill/templates/bill/finish.html:40
+#: fossbill/templates/bill/update.html:76
+#: fossbill/templates/bill/update.html:96
+#: fossbill/templates/customer/update.html:36
+#: fossbill/templates/payment/index.html:21
+#: fossbill/templates/product/update.html:26
+#: fossbill/templates/user/index.html:74 fossbill/templates/user/index.html:79
+#: fossbill/templates/user/index.html:83
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr·e?"
+
+#: fossbill/templates/bill/finish.html:34
+msgid "Create the bill."
+msgstr "Créer la facture."
+
+#: fossbill/templates/bill/finish.html:36
+msgid "Create a bill now, but you can't create a quote later."
+msgstr ""
+"Créer une facture maintenant, mais vous ne pourrez créer un devis plus "
+"tard."
+
+#: fossbill/templates/bill/finish.html:40
+msgid "Create bill"
+msgstr "Créer la facture"
+
+#: fossbill/templates/bill/generated_bill.html:3
+#: fossbill/templates/bill/generated_bill.html:13
+#: fossbill/templates/bill/index.html:93
+#: fossbill/templates/bill/update_bill.html:4
+#, python-format
+msgid "Bill #%(billnumber)s"
+msgstr "Facture #%(billnumber)s"
+
+#: fossbill/templates/bill/generated_bill.html:7
+#: fossbill/templates/bill/generated_draft.html:25
+#: fossbill/templates/bill/generated_quote.html:5
+#: fossbill/templates/payment/invoice.html:10
+msgid "From"
+msgstr "De"
+
+#: fossbill/templates/bill/generated_bill.html:9
+#: fossbill/templates/bill/generated_draft.html:27
+#: fossbill/templates/bill/generated_quote.html:7
+#: fossbill/templates/payment/invoice.html:12
+msgid "To"
+msgstr "À"
+
+#: fossbill/templates/bill/generated_bill.html:14
+#: fossbill/templates/bill/generated_bill.html:17
+#: fossbill/templates/bill/generated_draft.html:33
+#, python-format
+msgid "Generated %(date)s"
+msgstr "Généré le %(date)s"
+
+#: fossbill/templates/bill/generated_bill.html:16
+#, python-format
+msgid "From quote #%(quotenumber)s"
+msgstr "Du devis #%(quotenumber)s"
+
+#: fossbill/templates/bill/generated_draft.html:5
+#: fossbill/templates/bill/generated_draft.html:35
+#: fossbill/templates/bill/generated_quote.html:11
+#: fossbill/templates/bill/index.html:88
+#: fossbill/templates/bill/update_quote.html:4
+#, python-format
+msgid "Quote #%(quotenumber)s"
+msgstr "Devis #%(quotenumber)s"
+
+#: fossbill/templates/bill/generated_draft.html:22
+#: fossbill/templates/bill/generated_draft.html:32
+#: fossbill/templates/bill/index.html:54 fossbill/templates/bill/update.html:4
+msgid "Draft"
+msgstr "Brouillon"
+
+#: fossbill/templates/bill/generated_draft.html:36
+#: fossbill/templates/bill/generated_quote.html:12
+#: fossbill/templates/payment/invoice.html:18
+#, python-format
+msgid "Issued %(date)s"
+msgstr "Généré le %(date)s"
+
+#: fossbill/templates/bill/generated_draft.html:43
+msgid "Detail"
+msgstr "Ligne"
+
+#: fossbill/templates/bill/generated_draft.html:45
+#: fossbill/templates/bill/update.html:59
+#: fossbill/templates/bill/update_quote.html:37
+#: fossbill/templates/bill/update_row.html:15
+msgid "Qty"
+msgstr "Qte"
+
+#: fossbill/templates/bill/generated_draft.html:46
+#: fossbill/templates/bill/index.html:78 fossbill/templates/bill/index.html:114
+#: fossbill/templates/bill/update.html:60
+#: fossbill/templates/bill/update_quote.html:38
+#: fossbill/templates/payment/index.html:32
+#: fossbill/templates/payment/invoice.html:25
+msgid "Amount"
+msgstr "Montant"
+
+#: fossbill/templates/bill/generated_draft.html:47
+#: fossbill/templates/bill/update.html:61
+#: fossbill/templates/bill/update_quote.html:39
+msgid "Tax"
+msgstr "Taxe"
+
+#: fossbill/templates/bill/generated_draft.html:48
+#: fossbill/templates/bill/update_quote.html:40
+msgid "Total"
+msgstr "Total"
+
+#: fossbill/templates/bill/index.html:7
+#: fossbill/templates/customer/index.html:7
+#: fossbill/templates/product/index.html:7
+msgid "New"
+msgstr "Nouveau"
+
+#: fossbill/templates/bill/index.html:11
+#: fossbill/templates/customer/index.html:11
+#: fossbill/templates/product/index.html:11
+#: fossbill/templates/user/index.html:10
+msgid "Show filters"
+msgstr "Afficher les filtres"
+
+#: fossbill/templates/bill/index.html:16 fossbill/templates/bill/index.html:75
+msgid "Quote number"
+msgstr "Numéro de devis"
+
+#: fossbill/templates/bill/index.html:19 fossbill/templates/bill/index.html:76
+msgid "Bill number"
+msgstr "Numéro de facture"
+
+#: fossbill/templates/bill/index.html:24 fossbill/templates/user/index.html:16
+msgid "Created after"
+msgstr "Crée après"
+
+#: fossbill/templates/bill/index.html:29 fossbill/templates/user/index.html:19
+msgid "Created before"
+msgstr "Crée avant"
+
+#: fossbill/templates/bill/index.html:36
+msgid "Amount greater than"
+msgstr "Montant supérieur à"
+
+#: fossbill/templates/bill/index.html:41
+msgid "Amount lower than"
+msgstr "Montant inférieur à"
+
+#: fossbill/templates/bill/index.html:49 fossbill/templates/bill/index.html:79
+#: fossbill/templates/bill/update.html:20
+#: fossbill/templates/bill/update_quote.html:16
+msgid "Recipient"
+msgstr "Déstinataire"
+
+#: fossbill/templates/bill/index.html:52
+msgid "Type"
+msgstr "Type"
+
+#: fossbill/templates/bill/index.html:58
+#: fossbill/templates/bill/update_bill.html:10
+msgid "Is paid?"
+msgstr "Est payé?"
+
+#: fossbill/templates/bill/index.html:60 fossbill/templates/user/index.html:24
+#: fossbill/templates/user/index.html:30 fossbill/templates/user/index.html:36
+msgid "Choose an option"
+msgstr "Choisir une option"
+
+#: fossbill/templates/bill/index.html:61
+#: fossbill/templates/bill/update_bill.html:12
+#: fossbill/templates/user/index.html:25 fossbill/templates/user/index.html:31
+msgid "Yes"
+msgstr "Oui"
+
+#: fossbill/templates/bill/index.html:62
+#: fossbill/templates/bill/update_bill.html:13
+#: fossbill/templates/user/index.html:26 fossbill/templates/user/index.html:32
+msgid "No"
+msgstr "Non"
+
+#: fossbill/templates/bill/index.html:67
+#: fossbill/templates/customer/index.html:24
+#: fossbill/templates/product/index.html:42
+#: fossbill/templates/user/index.html:41
+msgid "Filter"
+msgstr "Filtrer"
+
+#: fossbill/templates/bill/index.html:68
+#: fossbill/templates/customer/index.html:25
+#: fossbill/templates/product/index.html:43
+#: fossbill/templates/user/index.html:42
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: fossbill/templates/bill/index.html:77 fossbill/templates/user/index.html:50
+msgid "Created at"
+msgstr "Crée le"
+
+#: fossbill/templates/bill/index.html:80 fossbill/templates/bill/update.html:62
+#: fossbill/templates/customer/index.html:35
+#: fossbill/templates/payment/index.html:34
+#: fossbill/templates/product/index.html:53
+#: fossbill/templates/user/index.html:57
+msgid "Action"
+msgstr "Action"
+
+#: fossbill/templates/bill/index.html:100
+#: fossbill/templates/bill/update.html:74
+#: fossbill/templates/customer/index.html:45
+#: fossbill/templates/product/index.html:63
+msgid "Edit"
+msgstr "Modifier"
+
+#: fossbill/templates/bill/index.html:111
+msgid "Count"
+msgstr "Compte"
+
+#: fossbill/templates/bill/index.html:112
+msgid "Gross amount"
+msgstr "Montant HT"
+
+#: fossbill/templates/bill/index.html:113
+msgid "Tax amount"
+msgstr "Montant taxes"
+
+#: fossbill/templates/bill/quote_email.plain:1
+#, python-format
+msgid ""
+"\n"
+"Hey,\n"
+"\n"
+"Here the quote #%(quotenumber)s\n"
+"\n"
+"Respects,\n"
+msgstr ""
+"\n"
+"Bonjour,\n"
+"\n"
+"Voici le devis #%(quotenumber)s\n"
+"\n"
+"Cordialement,\n"
+
+#: fossbill/templates/bill/send_bill_email.html:4
+#: fossbill/templates/bill/update_bill.html:31
+msgid "Send bill email"
+msgstr "Envoyer le mail de la facture"
+
+#: fossbill/templates/bill/send_bill_email.html:11
+#: fossbill/templates/bill/send_quote_email.html:11
+msgid "Subject"
+msgstr "Sujet"
+
+#: fossbill/templates/bill/send_bill_email.html:13
+#: fossbill/templates/bill/send_quote_email.html:13
+msgid "Body"
+msgstr "Corp"
+
+#: fossbill/templates/bill/send_quote_email.html:4
+#: fossbill/templates/bill/update_bill.html:28
+#: fossbill/templates/bill/update_quote.html:68
+msgid "Send quote email"
+msgstr "Envoyer le mail du devis"
+
+#: fossbill/templates/bill/update.html:14
+#: fossbill/templates/bill/update_quote.html:10
+msgid "Empty"
+msgstr "Vide"
+
+#: fossbill/templates/bill/update.html:21
+msgid "Taken from customer address."
+msgstr "Prise depuis l'adresse cliente."
+
+#: fossbill/templates/bill/update.html:24
+#: fossbill/templates/bill/update_quote.html:19
+msgid "Source"
+msgstr "Origine"
+
+#: fossbill/templates/bill/update.html:25
+#: fossbill/templates/bill/update.html:34
+#: fossbill/templates/bill/update.html:39
+msgid "Taken from your user configuration."
+msgstr "Pris depuis votre configuration utilisateur."
+
+#: fossbill/templates/bill/update.html:32
+#: fossbill/templates/bill/update_bill.html:18
+#: fossbill/templates/bill/update_quote.html:24
+#: fossbill/templates/me/update.html:42
+msgid "Quote mentions"
+msgstr "Mentions de devis"
+
+#: fossbill/templates/bill/update.html:36
+#: fossbill/templates/bill/update_bill.html:20
+#: fossbill/templates/bill/update_quote.html:26
+#: fossbill/templates/me/update.html:48
+msgid "Bill mentions"
+msgstr "Mentions de factures"
+
+#: fossbill/templates/bill/update.html:43
+msgid "Comment"
+msgstr "Commentaire"
+
+#: fossbill/templates/bill/update.html:76
+#: fossbill/templates/bill/update.html:96
+#: fossbill/templates/customer/update.html:36
+#: fossbill/templates/product/update.html:26
+msgid "Delete"
+msgstr "Supprimer"
+
+#: fossbill/templates/bill/update.html:93
+msgid "View draft"
+msgstr "Voir le brouillon"
+
+#: fossbill/templates/bill/update_bill.html:27
+#: fossbill/templates/bill/update_quote.html:67
+msgid "View quote"
+msgstr "Voir le devis"
+
+#: fossbill/templates/bill/update_bill.html:30
+msgid "View bill"
+msgstr "Voir la facture"
+
+#: fossbill/templates/bill/update_row.html:4
+msgid "Edit row"
+msgstr "Modifier la ligne"
+
+#: fossbill/templates/bill/update_row.html:19
+msgid "Cancel"
+msgstr "Annuler"
+
+#: fossbill/templates/customer/create.html:4
+msgid "New Customer"
+msgstr "Nouveau client"
+
+#: fossbill/templates/customer/create.html:11
+#: fossbill/templates/customer/update.html:11
+msgid "Ex: John Doe"
+msgstr ""
+
+#: fossbill/templates/customer/create.html:15
+#: fossbill/templates/customer/update.html:15
+msgid "Ex: John Doe <contact@john-doe.com>"
+msgstr ""
+
+#: fossbill/templates/customer/create.html:17
+#: fossbill/templates/customer/update.html:17
+#: fossbill/templates/me/update.html:30
+msgid "Logo URL"
+msgstr "URL du logo"
+
+#: fossbill/templates/customer/create.html:19
+#: fossbill/templates/customer/update.html:19
+msgid "Used in the top right corner in bills."
+msgstr "Utilisé dans le coin haut droit sur les factures."
+
+#: fossbill/templates/customer/create.html:21
+#: fossbill/templates/customer/index.html:20
+#: fossbill/templates/customer/index.html:34
+#: fossbill/templates/customer/update.html:21
+msgid "Address"
+msgstr "Adresse"
+
+#: fossbill/templates/customer/create.html:23
+#: fossbill/templates/customer/create.html:26
+#: fossbill/templates/customer/update.html:23
+#: fossbill/templates/customer/update.html:26
+msgid ""
+"Ex: John Doe\n"
+"221 B Baker street,\n"
+"London, United Kingdom\n"
+"SIREN: 508 102 811"
+msgstr ""
+"Ex: Bernard Thiery\n"
+"221 B Rue Baker,\n"
+"Londre, Royaume-Unis\n"
+"SIREN: 508 102 811"
+
+#: fossbill/templates/customer/update.html:4
+#, python-format
+msgid "Edit \"%(customerlabel)s\""
+msgstr "Modifier \"%(customerlabel)s\""
+
+#: fossbill/templates/landing/dashboard.html:4
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: fossbill/templates/landing/dashboard.html:8
+msgid ""
+"Thanks a lot for registering, and welcome aboard! Fossbill is a really "
+"simple tool. Here some guidelines:"
+msgstr ""
+"Merci beaucoup de vous être enregistré, et bienvenue à bord ! Fossbill "
+"est un outil simple. Voici quelques pistes pour commencer :"
+
+#: fossbill/templates/landing/dashboard.html:9
+msgid ""
+"You should start by editing your user preference. Then add some products "
+"you use frequently. You can also prepare your customer list. Registering "
+"products and customers isnt necessary but it make generating bills "
+"faster."
+msgstr ""
+"Vous devriez commencer par modifier vos informations d'utilisateur. "
+"Ensuite enregistrer quelques produits que vous utiliserez souvent. Vous "
+"pouvez aussi préparer votre liste de clients. Enregistrer vos produits et"
+" vos clients n'est pas obligatoire, mais cela rends la génération de "
+"facture plus rapide."
+
+#: fossbill/templates/landing/dashboard.html:10
+msgid ""
+"Bills will be Drafts untill you generate a Quote or directly a Bill from "
+"them. Unique numbers will be applied on them."
+msgstr ""
+"Les factures seront des brouillons jusqu'à ce que vous génériez le devis "
+"ou directement la facture. Des numéro uniques leur seront appliqué"
+
+#: fossbill/templates/landing/dashboard.html:11
+msgid ""
+"You can preview and also send them to any email address you want, as "
+"quote or bill."
+msgstr ""
+"Vous pouvez prévisualiser, et également envoyer sur n'importe quelle "
+"adresse email que vous voulez, vos factures et devis."
+
+#: fossbill/templates/landing/welcome.html:4
+msgid "Welcome!"
+msgstr "Bienvenue !"
+
+#: fossbill/templates/landing/welcome.html:8
+msgid ""
+"Fossbill is a minimalist tool to edit, generate and send bills to emails."
+" It is FOSS as it is licenced under AGPL3. Its source code can be pulled "
+"<a href=\"https://sr.ht/~stacyharper/fossbill\">here</a>."
+msgstr ""
+"Fossbill est un outil minimaliste pour éditer, générer et envoyer des "
+"factures par emails. Il est open-source et est sous licence AGPL3. Son "
+"code source peut  être récupéré <a "
+"href=\"https://sr.ht/~stacyharper/fossbill\">ici</a>."
+
+#: fossbill/templates/landing/welcome.html:9
+msgid ""
+"It is really easy to self-host an instance of Fossbill. Feels free to "
+"check the <a "
+"href=\"https://git.sr.ht/~stacyharper/fossbill\">documentation</a> to "
+"configure it to suits your needs."
+msgstr ""
+"Il est très facile d'auto-héberger une instance de Fossbill. Consultez la"
+" <a href=\"https://git.sr.ht/~stacyharper/fossbill\">documentation</a> "
+"pour la configurer selon vos besoins."
+
+#: fossbill/templates/landing/welcome.html:10
+msgid ""
+"Fossbill is free as in freedom, but this hosted instance cost 10 "
+"euros/month. This support the development of the tool, and encourage me "
+"to build new ones."
+msgstr ""
+"Fossbill est libre, mais cette instance hébergé coute 10 euros/mois. Cela"
+" supporte le développement de l'outil, et m'encourage à en mettre en "
+"place de nouveaux."
+
+#: fossbill/templates/landing/welcome.html:11
+msgid ""
+"I am Willow Barraco, a french developper girl and I live near Lyon. I "
+"write free and open-source softwares. I am very active in the Alpine "
+"Linux / Postmarketos ecosystem as a <a href=\"https://sxmo.org\">sxmo</a>"
+" co-maintainer. Here my <a "
+"href=\"https://www.willowbarraco.fr\">website</a> and my <a "
+"href=\"https://sr.ht/~stacyharper\">projects</a>."
+msgstr ""
+"Je suis Willow Barraco, une développeuse Française et je vis proche de "
+"Lyon.  Je développe des programmes open-sources et libres. Je suis très "
+"active dans l'environnement Alpine Linux / Postmarketos en tant que co-"
+"maintaineuse. Voici mon <a href=\"https://www.willowbarraco.fr\">site</a>"
+" et mes <a href=\"https://sr.ht/~stacyharper\">projets</a>."
+
+#: fossbill/templates/me/import_export_user.html:4
+#: fossbill/templates/me/update.html:119
+msgid "Import / Export"
+msgstr "Import / Export"
+
+#: fossbill/templates/me/import_export_user.html:9
+msgid "File"
+msgstr "Fichier"
+
+#: fossbill/templates/me/import_export_user.html:12
+msgid "Import"
+msgstr "Importer"
+
+#: fossbill/templates/me/import_export_user.html:13
+msgid "Export"
+msgstr "Exporter"
+
+#: fossbill/templates/me/test_email.plain:1
+msgid ""
+"\n"
+"Hey there!\n"
+"\n"
+"This is a test message from Fossbill!\n"
+"\n"
+"Do you copy?\n"
+msgstr ""
+"\n"
+"Salut !\n"
+"\n"
+"Ceci est un message de Fossbill !\n"
+"\n"
+"Est-ce que tu me reçois ?\n"
+
+#: fossbill/templates/me/update.html:4
+#, python-format
+msgid "Edit \"%(username)s\""
+msgstr "Modifier \"%(username)s\""
+
+#: fossbill/templates/me/update.html:11
+msgid "Locale"
+msgstr "Langue"
+
+#: fossbill/templates/me/update.html:13
+msgid "English"
+msgstr "Anglais"
+
+#: fossbill/templates/me/update.html:13
+msgid "French"
+msgstr "Français"
+
+#: fossbill/templates/me/update.html:20 fossbill/templates/me/update.html:21
+msgid "Used for password recovery. Must be unique."
+msgstr "Utilisé pour la récupération de mot de passe. Doit être unique."
+
+#: fossbill/templates/me/update.html:24
+msgid "Currency"
+msgstr "Monnaie"
+
+#: fossbill/templates/me/update.html:26 fossbill/templates/me/update.html:27
+msgid "Ex: $"
+msgstr "Ex: €"
+
+#: fossbill/templates/me/update.html:32 fossbill/templates/me/update.html:33
+msgid "Used in the top left corner in bills."
+msgstr "Utillisé dans le coin haut gauche sur les factures."
+
+#: fossbill/templates/me/update.html:36
+msgid "Default source"
+msgstr "Origine par défaut"
+
+#: fossbill/templates/me/update.html:38 fossbill/templates/me/update.html:39
+msgid "The top-left part on generated bills. Represent your company."
+msgstr "Partie en haut à gauche sur les factures générés. Représente votre entité."
+
+#: fossbill/templates/me/update.html:44 fossbill/templates/me/update.html:45
+msgid "Bottom text on generated quotes."
+msgstr "Texte du bas sur les devis générés."
+
+#: fossbill/templates/me/update.html:50 fossbill/templates/me/update.html:51
+msgid "Bottom text on generated bills."
+msgstr "Texte du bas sur les factures générés."
+
+#: fossbill/templates/me/update.html:56
+msgid "SMTP host"
+msgstr "Domaine SMTP"
+
+#: fossbill/templates/me/update.html:58 fossbill/templates/me/update.html:59
+msgid "Ex: smtp.foo.bar"
+msgstr ""
+
+#: fossbill/templates/me/update.html:62
+msgid "SMTP port"
+msgstr "Port SMTP"
+
+#: fossbill/templates/me/update.html:64 fossbill/templates/me/update.html:65
+msgid "Ex: 465"
+msgstr ""
+
+#: fossbill/templates/me/update.html:68
+msgid "SMTP security"
+msgstr "Sécurité SMTP"
+
+#: fossbill/templates/me/update.html:70
+msgid "Select an option"
+msgstr "Choisir une option"
+
+#: fossbill/templates/me/update.html:76
+msgid "SMTP username"
+msgstr "Utilisateur SMTP"
+
+#: fossbill/templates/me/update.html:78 fossbill/templates/me/update.html:79
+msgid "Ex: <no-reply@john-doe.com>"
+msgstr ""
+
+#: fossbill/templates/me/update.html:82
+msgid "SMTP password"
+msgstr "Mot de passe SMTP"
+
+#: fossbill/templates/me/update.html:86
+msgid "SMTP reply-to"
+msgstr "Repondre à SMTP"
+
+#: fossbill/templates/me/update.html:88 fossbill/templates/me/update.html:89
+#: fossbill/templates/me/update.html:94 fossbill/templates/me/update.html:95
+msgid "Ex: John Doe <contact@john-doe.com> (Can stay empty)"
+msgstr "Ex: John Doe <contact@john-doe.com> (Peut rester vide)"
+
+#: fossbill/templates/me/update.html:92
+msgid "SMTP cc"
+msgstr "Copie carbone SMTP"
+
+#: fossbill/templates/me/update.html:108
+msgid "Test Email"
+msgstr "Tester le mail"
+
+#: fossbill/templates/me/update.html:112
+msgid "Delete user"
+msgstr "Supprimer l'utilisateur"
+
+#: fossbill/templates/me/update.html:112
+msgid ""
+"You are about to delete all data associated to this account.\\nAre you "
+"sure?"
+msgstr ""
+"Vous êtes sur le point de supprimer toutes les données associée à ce "
+"compte.\\nÊtes-vous sur·e?"
+
+#: fossbill/templates/me/update.html:116
+msgid "Delete bills"
+msgstr "Vider les factures"
+
+#: fossbill/templates/me/update.html:116
+msgid "You are about to delete all of your bills.\\nAre you sure?"
+msgstr "Vous êtes sur le point de supprimer toutes vos factures. Êtes-vous sur·e?"
+
+#: fossbill/templates/me/update.html:120
+#: fossbill/templates/me/update_bill_style.html:4
+msgid "Edit bill style"
+msgstr "Modifier les styles de facture"
+
+#: fossbill/templates/me/update_bill_style.html:10
+msgid "Bill style"
+msgstr "Styles de factures"
+
+#: fossbill/templates/payment/index.html:11
+msgid "Payment details"
+msgstr "Détails du paiement"
+
+#: fossbill/templates/payment/index.html:16
+msgid "New card"
+msgstr "Nouvelle carte"
+
+#: fossbill/templates/payment/index.html:16
+msgid "Save card"
+msgstr "Enregistrer la carte"
+
+#: fossbill/templates/payment/index.html:21
+msgid "Delete payment method"
+msgstr "Supprimer le moyen de paiement."
+
+#: fossbill/templates/payment/index.html:31
+msgid "Date"
+msgstr "Date"
+
+#: fossbill/templates/payment/index.html:33
+msgid "Card"
+msgstr "Carte"
+
+#: fossbill/templates/payment/index.html:42
+#: fossbill/templates/payment/invoice.html:30
+#, python-format
+msgid "%(cardbrand)s ending with %(last4)s"
+msgstr "%(cardbrand)s se terminant par %(last4)s"
+
+#: fossbill/templates/payment/index.html:44
+msgid "Invoice"
+msgstr "Facture"
+
+#: fossbill/templates/payment/index.html:45
+msgid "Receipt"
+msgstr "Reçu"
+
+#: fossbill/templates/payment/invoice.html:5
+#: fossbill/templates/payment/invoice.html:17
+#, python-format
+msgid "Invoice #%(invoiceid)s"
+msgstr "Facture #%(invoiceid)s"
+
+#: fossbill/templates/payment/invoice.html:21
+msgid "Details"
+msgstr "Détail"
+
+#: fossbill/templates/payment/invoice.html:22
+msgid "fossbill.org subscription fee "
+msgstr "fossbill.org redevance d'abonnement"
+
+#: fossbill/templates/payment/invoice.html:29
+msgid "Paid with"
+msgstr "Payé avec"
+
+#: fossbill/templates/payment/invoice.html:33
+msgid "Paid on"
+msgstr "Payé le"
+
+#: fossbill/templates/payment/invoice.html:37
+msgid "Valid for service through"
+msgstr "Valide pour le service jusqu'au"
+
+#: fossbill/templates/product/create.html:4
+msgid "New Product"
+msgstr "Nouveau produit"
+
+#: fossbill/templates/product/create.html:11
+#: fossbill/templates/product/update.html:11
+msgid "Ex: Consulting day"
+msgstr "Ex: Journée consulting"
+
+#: fossbill/templates/product/create.html:15
+#: fossbill/templates/product/update.html:15
+msgid "Ex: 499.99"
+msgstr ""
+
+#: fossbill/templates/product/create.html:20
+#: fossbill/templates/product/update.html:19
+msgid "Ex: 20.0"
+msgstr ""
+
+#: fossbill/templates/product/index.html:19
+msgid "Price greater than"
+msgstr "Prix supérieur à"
+
+#: fossbill/templates/product/index.html:24
+msgid "Price lower than"
+msgstr "Prix inférieur à"
+
+#: fossbill/templates/product/index.html:31
+msgid "Tax rate greater than"
+msgstr "Taux de taxe supérieur à"
+
+#: fossbill/templates/product/index.html:36
+msgid "Tax rate lower than"
+msgstr "Taux de taxe inférieur à"
+
+#: fossbill/templates/product/update.html:4
+#, python-format
+msgid "Edit \"%(productlabel)s\""
+msgstr "Modifier \"%(productlabel)s\""
+
+#: fossbill/templates/user/index.html:22
+msgid "Admin?"
+msgstr "Administrateur?"
+
+#: fossbill/templates/user/index.html:28
+msgid "Free?"
+msgstr "Gratuit?"
+
+#: fossbill/templates/user/index.html:34
+msgid "Payment enabled?"
+msgstr "Paiement actif?"
+
+#: fossbill/templates/user/index.html:37
+msgid "Enabled"
+msgstr "Activé"
+
+#: fossbill/templates/user/index.html:38
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: fossbill/templates/user/index.html:52
+msgid "Active payment"
+msgstr "Paiement actif"
+
+#: fossbill/templates/user/index.html:53
+msgid "Due at"
+msgstr "Expire le"
+
+#: fossbill/templates/user/index.html:55
+msgid "Admin"
+msgstr "Admin"
+
+#: fossbill/templates/user/index.html:56
+msgid "Free"
+msgstr "Gratuit"
+
+#: fossbill/templates/user/index.html:74
+msgid "⟲ admin"
+msgstr "⟲ admin"
+
+#: fossbill/templates/user/index.html:79
+msgid "⟲ free"
+msgstr "⟲ gratuit"
+
+#: fossbill/templates/user/index.html:87
+msgid "Contact"
+msgstr "Contacter"
+
