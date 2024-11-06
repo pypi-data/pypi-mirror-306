@@ -1,0 +1,35 @@
+{% if ticket %}
+    <table class="table table-bordered table-striped small" style="width: initial;margin-top: 15px">
+        <tr>
+            <th>Number</th>
+            <td>
+                {% if user.is_superuser and ticket.get_absolute_url %}
+                    <a target="_blank" href="{{ ticket.get_absolute_url }}">{{ ticket.number }}</a>
+                {% else %}
+                    {{ ticket.number }}
+                {% endif %}
+            </td>
+        </tr>
+        {% for form_entry in ticket.ostformentry_set.all %}
+            {% for form_entry_value in form_entry.get_form_entry_values.all %}
+                <tr>
+                    <th>{{ form_entry_value.field.label }}</th>
+                    <td>{{ form_entry_value.display_value|default_if_none:"" }}</td>
+                </tr>
+            {% endfor %}
+            {% for thread in ticket.ostthread_set.all %}
+                <tr>
+                    <th>Thread</th>
+                    <td>
+                        {% for thread_entry in thread.ostthreadentry_set.all %}
+                            <div class="small" style="color: #737373; {% if not forloop.first %}margin-top: 10px{% endif %}">
+                                {{ thread_entry.created }}
+                            </div>
+                            {{ thread_entry.body|linebreaksbr|safe }}
+                        {% endfor %}
+                    </td>
+                </tr>
+            {% endfor %}
+        {% endfor %}
+    </table>
+{% endif %}

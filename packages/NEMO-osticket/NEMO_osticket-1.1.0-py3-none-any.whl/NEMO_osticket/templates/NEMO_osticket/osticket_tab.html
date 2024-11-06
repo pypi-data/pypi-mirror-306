@@ -1,0 +1,69 @@
+{% load custom_tags_and_filters %}
+<div style="display: none;">
+    <div class="tab-pane" id="osticket">
+        {% for ticket in ostickets %}
+            {% include 'NEMO_osticket/osticket_details.html' with ticket=ticket %}
+        {% empty %}
+            {% if not osticket_api_available %}<div>There are no open tickets for this tool.</div>{% endif %}
+        {% endfor %}
+        {% if osticket_api_available %}
+            <form action="{% url 'osticket_create_ticket' tool_id %}" method="post">
+                {% csrf_token %}
+                <p>Use this form to create a ticket in the help desk ticketing system.</p>
+                <div class="form-group">
+                    <label for="osticket-subject">Subject</label>
+                    <input maxlength="255" name="subject" id="osticket-subject" class="form-control" required />
+                </div>
+                {% for field_name, field in form.fields.items %}
+                    {% if field_name != "subject" and field_name != "message" %}
+                        <div class="form-group">
+                            {% if field.widget|class_name == "Select" %}
+                                <label for="osticket-{{ field.name }}">{{ field.label }}</label>
+                                <select name="{{ field_name }}"
+                                        id="osticket-{{ field.name }}"
+                                        class="form-control"
+                                        {% if field.required %}required{% endif %}>
+                                    <option value="" selected {% if field.required %}disabled{% endif %}>Select an option</option>
+                                    {% for option in field.choices %}<option value="{{ option.0 }}">{{ option.1 }}</option>{% endfor %}
+                                </select>
+                            {% elif field.widget|class_name == "Textarea" %}
+                                <label for="osticket-{{ field_name }}">{{ field.label }}</label>
+                                <textarea name="{{ field_name }}"
+                                          id="osticket-{{ field_name }}"
+                                          class="form-control"
+                                          rows="6"
+                                          {% if field.required %}required{% endif %}></textarea>
+                            {% elif field.widget|class_name == "TextInput" %}
+                                <label for="osticket-{{ field_name }}">{{ field.label }}</label>
+                                <input type="text"
+                                       name="{{ field_name }}"
+                                       id="osticket-{{ field_name }}"
+                                       class="form-control"
+                                       {% if field.required %}required{% endif %}>
+                            </input>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            {% endfor %}
+            <div class="form-group">
+                <label for="osticket-message">Description</label>
+                <textarea name="message" id="osticket-message" class="form-control" rows="6" required></textarea>
+            </div>
+            <div class="form-group">{% button type="save" value="Create ticket" icon="glyphicon-send" %}</div>
+        </form>
+    {% endif %}
+    <div style="height:150px">{# Spacer #}</div>
+</div>
+</div>
+<script>
+	$(document).ready(function() {
+        {% if replace_problems_tab %}
+        $('a[href="#problem"]').replaceWith(`<a href="#osticket">{{ tab_name }}</a>`);
+        {% else %}
+		$('#tabs').append(`<li><a href="#osticket">{{ tab_name }}</a></li>`);
+        {% endif %}
+        $("#osticket").insertAfter("#summary");
+        // we need to call this again so it works with our new tab
+        $("#tabs").find("a").click(switch_tab);
+    })
+</script>
