@@ -1,0 +1,16 @@
+include README.md
+include LICENSE
+
+# Include the static directory and all its contents
+recursive-include pineapple/static *
+
+recursive-include pineapple/databases *
+
+recursive-include pineapple/system_db *
+
+# Include the templates directory and all its contents
+recursive-include pineapple/templates *
+
+# Include all Python files in the root directory
+include *.py
+
