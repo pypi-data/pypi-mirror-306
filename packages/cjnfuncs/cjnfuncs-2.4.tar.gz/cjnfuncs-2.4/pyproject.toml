@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "cjnfuncs"
+version = "2.4"
+    # 2.4 - release
+    # 2.4rc2 - check_path_exists() exception fix for unmounted network path (OSError: [Errno 19] No such device)
+    # 2.4rc1 - doc fix on setuplogging()
+    # 2.4b4 - resourcelock closed attribute
+    # 2.4b3 - Added lock_info to resource_lock
+    # 2.4b2 - Added where_called to resource_lock unget for debugging aid
+    # 2.4b1 - Added Twilio support to snd_notif
+description = "A collection of core functions for tool script writing"
+readme = "README.md"
+requires-python = ">=3.6"       # Centos 7 uses 3.6.8
+authors = [ {name = "Chris Nelson", email = "github@cjnaz.com"} ]
+license = {file = "LICENSE.txt"}
+dependencies = [
+    'requests',
+    'appdirs >= 1.4',
+    'dkimpy',
+    'importlib_resources',      #; python_version < "3.9"',  # in 2.0.1, used for all python versions
+    'posix-ipc >= 1.1.1'
+    ]
+classifiers = [                 # https://pypi.org/classifiers/
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    ]
+
+
+[project.urls]
+repository = "https://github.com/cjnaz/cjnfuncs"
+
+
+[project.scripts]
+resourcelock = "cjnfuncs.resourcelock:cli"
