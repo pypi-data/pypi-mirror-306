@@ -1,0 +1,9 @@
+odoo/addons/invoice_inside_account_menu/README.rst,sha256=PimFvdZzhvC5aXrlMnUwEX8K4nwFszmdUQhU0RDvt9A,1393
+odoo/addons/invoice_inside_account_menu/__init__.py,sha256=ZJPBZazhXfXVwpdXHwgzQB15MjBvI-X7Zj8NURuolVA,123
+odoo/addons/invoice_inside_account_menu/__manifest__.py,sha256=3Qtyvl40oOjq0pKfZCNaAy8Wylzapj-DpMuF7vTEct4,591
+odoo/addons/invoice_inside_account_menu/static/description/icon.png,sha256=Y2xOrg7-wLVv7biznOmOtOl0OHr9nq2vbm9kZNzz4MA,19258
+odoo/addons/invoice_inside_account_menu/views/invoicing_in_accouting.xml,sha256=p0Emv_RyaA8QeIMZxPQ2B7P5LiCGAh6EHseaiCL96Hs,412
+odoo13_addon_invoice_inside_account_menu-13.0.1.0.1.dev1.dist-info/METADATA,sha256=vc-5vtXARxMRcySFkhl-4RRBJF79ziLnqO3UGzNCJT8,1931
+odoo13_addon_invoice_inside_account_menu-13.0.1.0.1.dev1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo13_addon_invoice_inside_account_menu-13.0.1.0.1.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_invoice_inside_account_menu-13.0.1.0.1.dev1.dist-info/RECORD,,
