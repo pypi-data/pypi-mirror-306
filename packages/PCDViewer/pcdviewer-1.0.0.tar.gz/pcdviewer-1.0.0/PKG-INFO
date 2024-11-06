@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: PCDViewer
+Version: 1.0.0
+Summary: A Qt-based OpenGL viewer for point cloud data (PCD)
+Author: Sepehr Sobhani
+Author-email: sepehr.sobhani@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: PyQt5>=5.15.0
+Requires-Dist: numpy>=1.18.0
+Requires-Dist: PyOpenGL>=3.1.0
+Requires-Dist: Open3D
