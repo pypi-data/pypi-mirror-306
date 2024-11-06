@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: algogears
+Version: 1.1.3
+Summary: This library contains implementations of computational geometry algorithms in Python3 adapted for educational purposes.
+Author: artandfi (Artem Fisunenko)
+Author-email: artem.fisunenko@hotmail.com
+Keywords: Python3,computational geometry,convex hull,region search,geometric search,point location,proximity,closest pair,closest points
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+AlgoGEARS (Algorithms of (Computational) Geometry with Entities Available for Reuse and Serialization) is a library that provides implementations of certain computational geometry algorithms adapted for educational purposes.The basic entities it uses, such as geometric objects and binary trees, are constructed as Pydantic models that can be easily reused and serialized.This library is a continuation of PyCompGeomAlgorithms https://pypi.org/project/PyCompGeomAlgorithms/, a library by the same author as this one--artandfi (Artem Fisunenko).
