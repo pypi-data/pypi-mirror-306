@@ -1,0 +1,76 @@
+# my-numpy
+
+This is a simple numpy implementation for educational purposes. 
+This demonstrates the use of python ecosystem Poetry, Pytest.
+
+Following features are demonstrated in this project:
+- Creating a package using Poetry
+- Writing tests using Pytest
+- Calculating code coverage using Pytest
+- Creating a simple numpy stats package
+- Linting and formating
+- Packaging the package using Poetry
+- Use of GitHub Actions for packaging
+- Installing the package using pip
+
+## Author
+
+- [Ramesh Doddi](https://iremote.ai/)
+
+## Installation
+
+```bash
+poetry install
+```
+
+## Quality
+
+Check for code formatting issues using flake8
+
+```bash
+poetry run flake8 my_numpy
+```
+
+Fix code formatting issues using black
+
+```bash
+poetry run black my_numpy
+```
+
+## Testing
+
+```bash
+poetry run pytest
+```
+
+## Code coverage
+
+```bash  
+poetry run pytest --cov=my_numpy --cov-report=term-missing
+```
+
+HTML report
+
+```bash
+poetry run pytest --cov=my_numpy --cov-report=html
+```
+
+## Packaging
+
+```bash
+poetry build
+```
+
+```bash
+pip install dist/my_numpy-0.1.0.tar.gz
+```
+
+## Publishing
+
+```bash
+poetry version patch
+```
+
+```bash
+poetry publish
+```
