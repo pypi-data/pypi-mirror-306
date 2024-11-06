@@ -1,0 +1,3 @@
+[console_scripts]
+itmfinder = itmfinder.main:main
+
