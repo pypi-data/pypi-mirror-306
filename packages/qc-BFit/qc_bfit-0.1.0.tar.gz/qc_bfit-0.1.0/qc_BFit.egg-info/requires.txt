@@ -1,0 +1,8 @@
+
+[docs]
+sphinx>=2.3.0
+numpydoc
+sphinx_copybutton
+sphinx-autoapi
+nbsphinx
+sphinx_rtd_theme
