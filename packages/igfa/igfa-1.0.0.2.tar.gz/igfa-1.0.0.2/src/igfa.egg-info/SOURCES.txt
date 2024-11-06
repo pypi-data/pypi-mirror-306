@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/igfa/__init__.py
+src/igfa/curve_fit.py
+src/igfa/gfa_fitflux.py
+src/igfa/igfa_fitflux.py
+src/igfa/model.py
+src/igfa/plotter.py
+src/igfa.egg-info/PKG-INFO
+src/igfa.egg-info/SOURCES.txt
+src/igfa.egg-info/dependency_links.txt
+src/igfa.egg-info/requires.txt
+src/igfa.egg-info/top_level.txt

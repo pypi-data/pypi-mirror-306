@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: igfa
+Version: 1.0.0.2
+Summary: Glycosylation Flux Analysis Toolbox in Python
+Author: Shriramprasad, Sriram Neelamegham, Rudiyanto Gunawan
+Maintainer-email: Rudiyanto Gunawan <rgunawan@buffalo.edu>
+License: MIT
+Project-URL: Homepage, https://github.com/CABSEL/iGFA
+Project-URL: Issues, https://github.com/CABSEL/iGFA/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Framework :: Jupyter
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: sympy
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+Requires-Dist: pyomo
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+
+[![PyPI](https://img.shields.io/pypi/v/igfa?logo=PyPI)](https://pypi.org/project/igfa)
+
+# iGFA
+<img src="man/figures/igfa_logo.png" align="right" alt="iGFA logo" width="180" />
+iGFA is a Python package that estimates Glycosylation Flux Profiles and enzymatic and residence time contributions utilizing experimentally measured antibody product quality attributes. 
+
+This is part of the manuscript: 
