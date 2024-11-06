@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: muspi-merol
+Version: 0.0.2
+Summary: CLI utilities for personal use
+Requires-Python: >=3.12
+Requires-Dist: typer~=0.12.5
+Description-Content-Type: text/markdown
+
