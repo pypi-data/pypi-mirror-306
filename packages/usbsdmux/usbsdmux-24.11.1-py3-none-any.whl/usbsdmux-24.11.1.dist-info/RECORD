@@ -1,0 +1,15 @@
+usbsdmux/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+usbsdmux/__main__.py,sha256=q7nQqNr4zjrsIt6otsUUBHeL_NEJUBBIfpImD9jik9k,5339
+usbsdmux/ctypehelper.py,sha256=IwYXts-nqqEZvFtDGshonKJdv-wkFTlboG-uLEHhF_8,4325
+usbsdmux/i2c_gpio.py,sha256=OfPcaybgE9FZf70t4ZsPZjxVvikk1igZ6IhuvHPYo3k,4365
+usbsdmux/mqtthelper.py,sha256=r5LZDTrX8YaK-NrxzrdSL8m-d_wrxNC03D2jTRhn9q4,4857
+usbsdmux/sd_regs.py,sha256=hlk_5Io5Pijnw5w8Q2LcSwquecMdL3J396tanljGOjc,16537
+usbsdmux/usb2642.py,sha256=nOfqTSrFd1rQOj9RXCsgsaT9YBwG7gD1KMEh-6KExI4,17291
+usbsdmux/usb2642eeprom.py,sha256=tmtM0wKwpeecUaWgR3BUGFFxaXE0uPe6Q0SspUQqAc4,14733
+usbsdmux/usbsdmux.py,sha256=tw9QRC8IVzpdddvasvCXDI-A3YPNkA-BIw-9zZW1NTg,10173
+usbsdmux-24.11.1.dist-info/COPYING,sha256=3GJlINzVOiL3J68-5Cx3DlbJemT-OtsGN5nYqwMv5VE,26530
+usbsdmux-24.11.1.dist-info/METADATA,sha256=nAzT5_R-FrOCNdXplRhUCXZfFhTot7SEYhSqxH_7SB4,12269
+usbsdmux-24.11.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+usbsdmux-24.11.1.dist-info/entry_points.txt,sha256=9oo3zE179MFQh58t8qdsQyvaQV_lU8uCcznMElOfKqw,101
+usbsdmux-24.11.1.dist-info/top_level.txt,sha256=daP-AECSRlNgMChL-w9dvj9OaNykqn-ZWwOxAOzngk4,9
+usbsdmux-24.11.1.dist-info/RECORD,,
