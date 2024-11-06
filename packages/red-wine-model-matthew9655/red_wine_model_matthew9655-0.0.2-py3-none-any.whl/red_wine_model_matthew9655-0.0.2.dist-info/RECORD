@@ -1,0 +1,16 @@
+red_wine_model/__init__.py,sha256=9m-5-n-Js_xa_MtMEbf67AWjQW_Cii60hoeFhVdnEyg,827
+red_wine_model/config.yml,sha256=miULYN5zCaSEPa2xDvxRIY7wliT9fJc2ptkFLIL5M7w,568
+red_wine_model/pipeline.py,sha256=yWcLyCvab8cwjdF8ouI2TfikmJPnFBAfYHUVIR6hkyM,582
+red_wine_model/predict.py,sha256=O_c5Vkv0tBS7nyRqZQWIiJVcfg4JpkmF46fivl4UvEs,1005
+red_wine_model/train_pipeline.py,sha256=exVQAR4LQP22vqz_7wc4YHiMgGtsMmYyQpiTBZg5Xxk,847
+red_wine_model/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+red_wine_model/config/core.py,sha256=OlFskbMGcmOTWfBce2n5ropfOg1XVLfPxLaNyN0f2gY,1976
+red_wine_model/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+red_wine_model/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+red_wine_model/processing/data_manager.py,sha256=_HM1cDgZtPylVPuaHyEstqMOdTPY5mBqQ5gdkR5Bq3w,2380
+red_wine_model/processing/validation.py,sha256=_ZeXnIMpaUfr6iYlaZC65hP_6lkfrioU-3VQvnpjRW8,1224
+red_wine_model/trained_models/red-wine-model-outputsv0.0.1.pkl,sha256=T0cQ01qUWu-nwiYvalqXq4GpewEqdr5YYcI8CYYIm6M,2111409
+red_wine_model_matthew9655-0.0.2.dist-info/METADATA,sha256=1Lv8iNzxiI-lk5NCgFhQlKOOBAmTfmVPtZwriMuSmJ4,1759
+red_wine_model_matthew9655-0.0.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+red_wine_model_matthew9655-0.0.2.dist-info/top_level.txt,sha256=LKP8XwH40TvJZnS30So5PDeGfXoeG0oWijVPOQo5ANk,15
+red_wine_model_matthew9655-0.0.2.dist-info/RECORD,,
