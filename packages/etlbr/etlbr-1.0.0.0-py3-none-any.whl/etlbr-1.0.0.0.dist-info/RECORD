@@ -1,0 +1,9 @@
+datatable/__init__.py,sha256=B0xuCO1ENzxGwrzoY1dC1P0Kl7Pf1FxX5H_Ps4KZZiU,111
+datatable/columns.py,sha256=Y6-DAnHpNRXHFKue0wQVtPMSny7Lam-LAZNcPo-T04g,918
+datatable/tables.py,sha256=bhBj_WVkl1qK5GGrTED9gXKj9MN3PVo3oJyITiV5jhc,2350
+etl/__init__.py,sha256=1dfn5exiL_pK34uIqKL3fyJDdo3YoWNloFd77zwbcf4,40
+etl/etl_spark.py,sha256=HvxYBodEeArqxCs5Tr_TRhAXQJ5ia7_i-YyZXGfoU18,1895
+etlbr-1.0.0.0.dist-info/METADATA,sha256=_zB5g-gtx3nGkvcOrU3QI63tYCLTVvQGD-yqg1n5jqg,387
+etlbr-1.0.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+etlbr-1.0.0.0.dist-info/top_level.txt,sha256=Gh8_puP5A-aBlkXERZFBrYvnpHxCPuHWZ9KpMeRL7pg,14
+etlbr-1.0.0.0.dist-info/RECORD,,
