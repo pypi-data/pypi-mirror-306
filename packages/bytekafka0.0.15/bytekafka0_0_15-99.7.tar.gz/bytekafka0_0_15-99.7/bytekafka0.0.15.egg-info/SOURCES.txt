@@ -1,0 +1,7 @@
+main.py
+setup.py
+bytekafka0.0.15.egg-info/PKG-INFO
+bytekafka0.0.15.egg-info/SOURCES.txt
+bytekafka0.0.15.egg-info/dependency_links.txt
+bytekafka0.0.15.egg-info/requires.txt
+bytekafka0.0.15.egg-info/top_level.txt
