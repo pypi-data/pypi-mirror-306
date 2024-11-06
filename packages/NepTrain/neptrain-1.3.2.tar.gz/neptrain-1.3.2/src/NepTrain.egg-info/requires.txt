@@ -1,0 +1,7 @@
+ase
+rich
+argcomplete
+watchdog
+scikit-learn
+calorine
+ruamel.yaml
