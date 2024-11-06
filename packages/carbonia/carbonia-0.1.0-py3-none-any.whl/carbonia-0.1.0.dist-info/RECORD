@@ -1,0 +1,10 @@
+carbonia/__init__.py,sha256=NGvS7UVy1MgUrlUKjc3uKeSynF0ObS6Kq0h4825shH8,31
+carbonia/embeddings.py,sha256=3NhNBcsd7Tzp2ZUGliiWdymPVWIH6g4rsp68Db0q4Q8,3279
+carbonia/match.py,sha256=qTYMpkL-F8t3opf8ApiRiqMcnJkLbEFx3617i0NNPx8,12208
+carbonia/utils.py,sha256=ausjk9TvOf7HV3qFJqlXQ4ZMz8sToFCiLjIacPCAlJs,10065
+carbonia-0.1.0.dist-info/LICENSE,sha256=nDlB_YEgDPv8KzJXzCHdYEsHF6dCQHeu2Du8VHdG8WE,1087
+carbonia-0.1.0.dist-info/METADATA,sha256=cLY952CuuobQsIYwnDOXHPRW04aOhjUQ9nFTt7oshgU,827
+carbonia-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+carbonia-0.1.0.dist-info/entry_points.txt,sha256=CsgBA73tIRMQiTrEGn-O_EXzKNW0xF9ROqUoLKljeTk,59
+carbonia-0.1.0.dist-info/top_level.txt,sha256=n3m-uQwoApLV4AJ0dU_2yoOGLAR7iihR-skmADCyWlQ,9
+carbonia-0.1.0.dist-info/RECORD,,
