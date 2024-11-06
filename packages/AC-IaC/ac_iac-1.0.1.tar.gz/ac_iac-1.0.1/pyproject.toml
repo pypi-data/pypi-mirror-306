@@ -1,0 +1,46 @@
+[project]
+name = "AC_IaC"
+version = "1.0.1"
+authors = [
+  { name="Hugo Meinhof", email="me@theoreticallyhugo.com" },
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "transformers",
+  "datasets",
+  "colorama",
+  "torch",
+  "evaluate",
+  "scikit-learn",
+  "accelerate",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+AC-IaC = "AC_IaC.command_line:inference"
+AC-IaC-train = "AC_IaC.command_line:train_wrapper"
+
+[project.urls]
+Homepage = "https://github.com/Theoreticallyhugo/AC_IaC"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/Theoreticallyhugo/AC_IaC"
+Issues = "https://github.com/Theoreticallyhugo/AC_IaC/issues"
+Changelog = "https://github.com/Theoreticallyhugo/AC_IaC/blob/main/CHANGELOG.md"
+Data = "https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2422"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--log-cli-level=0 --color=yes"
+testpaths = [
+    "tests",
+]
