@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: skullTo3d
+Version: 0.0.4
+Summary: Pipeline for skull extraction for macaque/marmoset
+Author: macatools team
+License: BSD 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: macapype
+
+# skullTo3d
+skullTo3d
