@@ -1,0 +1,85 @@
+Metadata-Version: 2.3
+Name: ttsds
+Version: 0.0.3
+Project-URL: Documentation, https://github.com/ttsds/ttsds#readme
+Project-URL: Issues, https://github.com/ttsds/ttsds/issues
+Project-URL: Source, https://github.com/ttsds/ttsds
+Author-email: Christoph Minixhofer <christoph.minixhofer@gmail.com>
+License-Expression: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: allosaurus>=0.1.0
+Requires-Dist: jiwer>=2.2.0
+Requires-Dist: librosa>=0.10.0
+Requires-Dist: lightning>=1.3.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: openai-whisper==20231117
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: pesq>=0.0.1
+Requires-Dist: pyannote-audio==3.1.*
+Requires-Dist: pyworld>=0.2.0
+Requires-Dist: simple-hifigan==0.1.1
+Requires-Dist: statsmodels>=0.12.0
+Requires-Dist: torch>=2.0.0
+Requires-Dist: tqdm>=4.61.0
+Requires-Dist: transformers>=4.0.0
+Requires-Dist: voicefixer>=0.1.0
+Requires-Dist: wespeaker-unofficial>=0.0.1
+Requires-Dist: wvmos==1.0
+Description-Content-Type: text/markdown
+
+# ttsds
+
+[![PyPI - Version](https://img.shields.io/pypi/v/ttsds.svg)](https://pypi.org/project/ttsds)
+[![Hugginface Space](https://img.shields.io/badge/%F0%9F%A4%97-ttsds%2Fbenchmark-blue)](https://huggingface.co/spaces/ttsds/benchmark)
+
+As many recent Text-to-Speech (TTS) models have shown, synthetic audio can be close to real human speech. However, traditional evaluation methods for TTS systems need an update to keep pace with these new developments. Our TTSDS benchmark assesses the quality of synthetic speech by considering factors like prosody, speaker identity, and intelligibility. By comparing these factors with both real speech and noise datasets, we can better understand how close synthetic speech is to human speech.
+
+For the current benchmark results, see https://huggingface.co/spaces/ttsds/benchmark.
+
+For other details, see our paper: https://arxiv.org/abs/2407.12707
+
+## Installation
+
+### Pip
+
+```console
+pip install ttsds
+```
+
+### Requirements
+
+- Python 3.8+
+- System packages: ffmpeg, automake, autoconf, unzip, sox, gfortran, subversion, libtool
+- On some systems, the fairseq installation may fail due to conflicting dependencies. In this case, you can install this fork of fairseq https://github.com/MiniXC/fairseq-noconf
+
+### Caching
+
+Please set ``TTSDS_CACHE_DIR`` environment variable to a directory where you want to cache the downloaded models and data.
+
+[![Website](https://ttsdsbenchmark.com/logo-dark.png)](https://ttsdsbenchmark.com)
+
+## License
+
+`ttsds` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
+## Citation
+```bibtex
+@misc{minixhofer2024ttsdstexttospeechdistribution,
+      title={TTSDS -- Text-to-Speech Distribution Score}, 
+      author={Christoph Minixhofer and Ondřej Klejch and Peter Bell},
+      year={2024},
+      eprint={2407.12707},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS},
+      url={https://arxiv.org/abs/2407.12707}, 
+}
+```
