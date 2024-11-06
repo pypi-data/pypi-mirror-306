@@ -1,0 +1,8 @@
+metricflow_query/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+metricflow_query/cli.py,sha256=bLAbYC4nNLWyAlNjvcYM3Rfftfzl9NeUOFqk6_V79c4,3711
+metricflow_query/materialize_metrics.py,sha256=Uqq4VCDe2430sA35mKC10dIM4Gt_3Ac60eWTdLrWvo0,3414
+metricflow_query/metricflow_query_materialize.sql,sha256=Wv2cIchXDWI_mZMZ4EH17MTaDR1IUmctJU-XvZk8tbg,1271
+metricflow_query-1.0.0.dist-info/METADATA,sha256=gxQGDPnOFcjzYjHZk7tSmR160EnLEBLjVqbK-A10snE,813
+metricflow_query-1.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+metricflow_query-1.0.0.dist-info/entry_points.txt,sha256=7MBKF0m8UuBXKDxyG-DpnNDnVute8bFSFyTTIVacKJ8,92
+metricflow_query-1.0.0.dist-info/RECORD,,

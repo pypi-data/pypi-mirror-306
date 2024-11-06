@@ -1,0 +1,3 @@
+[console_scripts]
+metricflow-query = metricflow_query.cli:cli
+mq = metricflow_query.cli:cli
