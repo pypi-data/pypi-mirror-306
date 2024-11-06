@@ -1,0 +1,15 @@
+m/cli/__init__.py,sha256=kG9Sc6DC08aNSiZqOraxXvMp2xO5JV3gGQX6ydKRr2M,174
+m/cli/main.py,sha256=m_mGchU7eLDGKni8_XmADxggNd8MNvoZAMVRvDXmY3c,1105
+m/commands/alias.py,sha256=JcUKsMPLeZTbrNTzmiY0QIco058Q7bJCYrcwvBPr0bY,1348
+m/config/load.py,sha256=GgYf-zDE6BOautwWW4TaoMAlNdD6Q6zTSrSHcvriCGQ,1085
+m/config/types.py,sha256=KRU7k2d85i_xxEoihjzf6Fn8Pi-4LIlqyeDfabwKfRU,84
+m/utils/console.py,sha256=_G6m34IS_6qJlOLmyFKoC70FUINjswI41tGKLnFFn7A,395
+m/utils/helpers.py,sha256=d4HQ0RxV8Ei2MpumrvwIXFwrzhI4zqeHCBDp1VKUqvI,926
+m/utils/merge.py,sha256=gRystlRFjXELtkDgq5ky9a1lsw0tUzII3OyNI0PZPDk,1020
+m/utils/path.py,sha256=LYVmm8aRc-XHHLiQBBKLTKbiQ80BeTAMf5MTX0wWRIc,440
+m/utils/register.py,sha256=mWfHQ4e3pOUQCnrzPVZnhEUnrdpnK3ws9SycasD-NP0,593
+m/version.py,sha256=qsemB8VLT2SIP8aqdCbySrw6oeSR7Ip8_75qxEan9SY,45
+muspi_merol-0.1.0.dist-info/METADATA,sha256=JnQ05rNcU6Im2KflMROgSxa_SzwpEAmzQ4w2KXhw6-M,371
+muspi_merol-0.1.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+muspi_merol-0.1.0.dist-info/entry_points.txt,sha256=93UAAdyOjNF8Q6CXVT8rrXnjgsIFfQZzIhTC2LfDv_U,53
+muspi_merol-0.1.0.dist-info/RECORD,,
