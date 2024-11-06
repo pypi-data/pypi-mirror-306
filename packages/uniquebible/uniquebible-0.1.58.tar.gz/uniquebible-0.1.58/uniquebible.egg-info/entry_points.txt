@@ -1,0 +1,9 @@
+[console_scripts]
+uba = uniquebible.uba:stream
+ubaapi = uniquebible.uba:api
+ubahttp = uniquebible.uba:http
+ubassh = uniquebible.uba:ssh
+ubatelnet = uniquebible.uba:telnet
+ubaterm = uniquebible.uba:term
+uniquebible = uniquebible.uba:main
+
