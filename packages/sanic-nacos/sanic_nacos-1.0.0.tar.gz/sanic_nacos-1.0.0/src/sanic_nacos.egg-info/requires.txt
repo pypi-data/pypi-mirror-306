@@ -1,0 +1,3 @@
+sanic
+sanic_ext
+nacos-sdk-python>=1.0.0

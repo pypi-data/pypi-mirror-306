@@ -1,0 +1,24 @@
+[project]
+name = "sanic-nacos"
+version = "1.0.0"
+authors = [
+    { name = "renqiang", email = "mail.renqiang@gmail.com" },
+]
+description = "A Nacos discovery registry for Sanic"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = {file = "LICENSE"}
+dependencies = [
+    "sanic",
+    "sanic_ext",
+    'nacos-sdk-python>=1.0.0',
+]
+
+[project.urls]
+Homepage = "https://github.com/Renz7/sanic_nacos"
+Issues = "https://github.com/Renz7/sanic_nacos/issues"
