@@ -1,0 +1,7 @@
+lvsm_pytorch/__init__.py,sha256=u8W_VkYDUh-GckH2gOxSkiWV8tgNixKn_O8r2DFlMUM,50
+lvsm_pytorch/lvsm.py,sha256=4OB02_PwbnHkS9YKd8-qcZzMzDs-cPF3CjA3uiNP1i8,9675
+lvsm_pytorch/tensor_typing.py,sha256=2aUeDq34TmWeurXF9E93Gj_be3houMePK1ZsJuV3-d4,447
+lvsm_pytorch-0.0.12.dist-info/METADATA,sha256=ha3wQjklq7cbqE7r8ZG2PydgR9IT2I42Ez5TSH4rHdQ,5554
+lvsm_pytorch-0.0.12.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+lvsm_pytorch-0.0.12.dist-info/licenses/LICENSE,sha256=E7RGS7kpJIStk5za_-4DVhWEAamf65EU0CNML25mq4c,1066
+lvsm_pytorch-0.0.12.dist-info/RECORD,,
