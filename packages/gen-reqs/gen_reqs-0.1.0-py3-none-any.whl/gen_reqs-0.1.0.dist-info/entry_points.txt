@@ -1,0 +1,2 @@
+[console_scripts]
+gen_reqs = gen_reqs.cli:main
