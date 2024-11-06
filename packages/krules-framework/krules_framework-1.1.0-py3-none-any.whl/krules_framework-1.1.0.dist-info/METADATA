@@ -1,0 +1,51 @@
+Metadata-Version: 2.3
+Name: krules-framework
+Version: 1.1.0
+Summary: KRules Framework
+Author-email: Airspot <info@airspot.tech>
+License: Apache-2.0
+Keywords: framework,krules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <3.13,>=3.11
+Requires-Dist: cel-python<1.0.0,>=0.1.5
+Requires-Dist: deepmerge<2.0.0,>=1.1.1
+Requires-Dist: dependency-injector==4.42.0
+Requires-Dist: jsonpatch<2.0.0,>=1.33
+Requires-Dist: jsonpath-rw-ext<2.0.0,>=1.2.2
+Requires-Dist: pydantic<3.0.0,>=2.7.3
+Requires-Dist: pytz>=2024.1
+Requires-Dist: rich>=13.9.4
+Requires-Dist: rx<4.0.0,>=3.2.0
+Requires-Dist: wrapt<2.0.0,>=1.16.0
+Provides-Extra: dev
+Requires-Dist: black>=23.0.0; extra == 'dev'
+Requires-Dist: build>=1.0.3; extra == 'dev'
+Requires-Dist: flake8>=7.0.0; extra == 'dev'
+Requires-Dist: gitpython>=3.1.40; extra == 'dev'
+Requires-Dist: httpx>=0.27.2; extra == 'dev'
+Requires-Dist: invoke>=2.2.0; extra == 'dev'
+Requires-Dist: isort>=5.0.0; extra == 'dev'
+Requires-Dist: mkdocs-material>=9.0.0; extra == 'dev'
+Requires-Dist: mkdocs>=1.5.0; extra == 'dev'
+Requires-Dist: mkdocstrings[python]>=0.24.0; extra == 'dev'
+Requires-Dist: mypy>=1.0.0; extra == 'dev'
+Requires-Dist: pylint>=3.0.0; extra == 'dev'
+Requires-Dist: pytest-cov>=4.0.0; extra == 'dev'
+Requires-Dist: pytest-localserver>=0.9.0; extra == 'dev'
+Requires-Dist: pytest>=7.0.0; extra == 'dev'
+Requires-Dist: semver>=3.0.0; extra == 'dev'
+Requires-Dist: toml>=0.10.2; extra == 'dev'
+Requires-Dist: twine>=4.0.2; extra == 'dev'
+Requires-Dist: types-pytz; extra == 'dev'
+Requires-Dist: types-toml; extra == 'dev'
+Provides-Extra: fastapi
+Requires-Dist: fastapi>=0.115.4; extra == 'fastapi'
+Requires-Dist: uvicorn>=0.32.0; extra == 'fastapi'
+Provides-Extra: pubsub
+Requires-Dist: cloudevents==1.11.0; extra == 'pubsub'
+Requires-Dist: google-cloud-pubsub>=2.26.1; extra == 'pubsub'
+Provides-Extra: redis
+Requires-Dist: redis>=5.2.0; extra == 'redis'
