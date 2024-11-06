@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ArtexTTS/TTS.py
+ArtexTTS/__init__.py
+ArtexTTS.egg-info/PKG-INFO
+ArtexTTS.egg-info/SOURCES.txt
+ArtexTTS.egg-info/dependency_links.txt
+ArtexTTS.egg-info/requires.txt
+ArtexTTS.egg-info/top_level.txt
+ArtexTTS/Registry/__init__.py
+ArtexTTS/Registry/handle_voice.py
