@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "safer"
+version = "5.1.0"
+description = "🧿 A safer writer for files and streams 🧿"
+authors = ["Tom Ritchford <tom@swirly.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/rec/safer"
+homepage = "https://github.com/rec/safer"
+documentation = "https://rec.github.io/safer"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "*"
+pytest = "*"
+readme-renderer = "*"
+tdir = "*"
+toml = "*"
+pyyaml = "*"
+ruff = "*"
+mypy = "*"
+
+[tool.coverage.run]
+branch = true
+source = ["safer"]
+
+[tool.coverage.report]
+fail_under = "90"
+skip_covered = true
+exclude_lines = [
+    "pragma: no cover",
+    "if False:",
+    "if __name__ == .__main__.:",
+    "raise NotImplementedError"
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.format]
+quote-style = "single"
+
+
+[tool.mypy]
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.doks]
+auto = true
