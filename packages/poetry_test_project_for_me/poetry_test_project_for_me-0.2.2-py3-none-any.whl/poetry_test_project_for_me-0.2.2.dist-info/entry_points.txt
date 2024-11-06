@@ -1,0 +1,4 @@
+[console_scripts]
+download_img=poetry_test_project_for_me.main:main
+poetry_test=poetry_test_project_for_me.main:main
+
