@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b223d958-e975-4faf-bbea-b4a24134b337" name="Changes" comment="Fix link resolution bug when an annotated name is a prefix of another">
+      <change beforePath="$PROJECT_DIR$/resources/docs/sample.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/docs/sample.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sample.q" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sample.q" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qdoc2md/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/qdoc2md/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qdoc2md/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/qdoc2md/model.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2dGhE8w5GGELguNqlMpcy2gCsl8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Workspaces/qdoc2md/resources/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspaces\qdoc2md\resources\test" />
+      <recent name="D:\Workspaces\qdoc2md\resources\docs\sample1" />
+      <recent name="D:\Workspaces\qdoc2md" />
+      <recent name="D:\Workspaces\qdoc2md\tests\resources" />
+      <recent name="D:\Workspaces\qdoc2md\q" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspaces\qdoc2md\resources" />
+      <recent name="D:\Workspaces\qdoc2md" />
+      <recent name="D:\Workspaces\qdoc2md\tests\resources" />
+      <recent name="D:\Workspaces\qdoc2md\tests" />
+      <recent name="D:\Workspaces\qdoc2md\src\qdoc2md" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qdoc2md" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/qdoc2md/main.py" />
+      <option name="PARAMETERS" value="--src resources --target resources/docs" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b223d958-e975-4faf-bbea-b4a24134b337" name="Changes" comment="" />
+      <created>1709640208046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709640208046</updated>
+      <workItem from="1709640215540" duration="36437000" />
+      <workItem from="1710553927146" duration="7513000" />
+      <workItem from="1711160381498" duration="347000" />
+      <workItem from="1711161529659" duration="25586000" />
+      <workItem from="1711371698541" duration="8202000" />
+      <workItem from="1726656501192" duration="58000" />
+      <workItem from="1727269653216" duration="6000" />
+    </task>
+    <task id="LOCAL-00001" summary="Support tags: param, return, throws, deprecated, example, readme, and namespace">
+      <option name="closed" value="true" />
+      <created>1711160621143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711160621143</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Support tags: link and see">
+      <option name="closed" value="true" />
+      <created>1711236080774</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711236080774</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Keep source format for readme, summary, see">
+      <option name="closed" value="true" />
+      <created>1711239279993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711239279993</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Support tag &quot;@datatype&quot;; convert param/return/throws formats from tables to lists">
+      <option name="closed" value="true" />
+      <created>1711293079443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711293079443</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ensure markdown links are in lowercase; handle it better when datatype is not provided">
+      <option name="closed" value="true" />
+      <created>1711370736632</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711370736632</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update metadata; assume .q suffix for source files; add qdoc2md CLI">
+      <option name="closed" value="true" />
+      <created>1711379252689</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711379252689</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Simplify code structure; standardize markdown layout">
+      <option name="closed" value="true" />
+      <created>1727610856818</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727610856818</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Minor markdown format update">
+      <option name="closed" value="true" />
+      <created>1727768712484</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727768712484</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Change comment signal to '///' in order to support empty lines in markdown &#10;&#10;Many prefer to configure their IDEs to truncate trailing whitespaces, so '/// ' will become '///' after saving changes.">
+      <option name="closed" value="true" />
+      <created>1728187178348</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728187178348</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Replace match with if-else to make it compatible with Python 3.8">
+      <option name="closed" value="true" />
+      <created>1728187677243</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728187677243</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Replace match with if-else to make it compatible with Python 3.8; update README; bump">
+      <option name="closed" value="true" />
+      <created>1728221344565</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728221344565</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update list[] to List[] to be compatible with Python 3.8">
+      <option name="closed" value="true" />
+      <created>1728222057545</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728222057545</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Replace removeprefix with indexing for Python 3.8 compatibility">
+      <option name="closed" value="true" />
+      <created>1728223605419</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728223605419</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Use a single regex match instead of multiple startswith calls">
+      <option name="closed" value="true" />
+      <created>1728819420691</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728819420691</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Support @owner tag">
+      <option name="closed" value="true" />
+      <created>1728821084566</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728821084566</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fix wrong format for multi-paragraph descriptions of param/return/signal">
+      <option name="closed" value="true" />
+      <created>1729170131467</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729170131467</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Some enhancements:&#10;&#10;- Remove owner tag&#10;- make space around datatype optional&#10;- fix datatype matched to description&#10;- make description optional&#10;- make datatype shown in italic&#10;- show See Also in definition list">
+      <option name="closed" value="true" />
+      <created>1729957173675</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729957173675</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Do not add italic effect for signals">
+      <option name="closed" value="true" />
+      <created>1730119645757</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1730119645757</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Remove preceding `: ` if return value is not named">
+      <option name="closed" value="true" />
+      <created>1730119943674</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1730119943674</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update README for suggested datatypes">
+      <option name="closed" value="true" />
+      <created>1730120801189</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1730120801189</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fix multi-line description for @see">
+      <option name="closed" value="true" />
+      <created>1730127559287</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1730127559287</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Fix link resolution that requires enclosing braces">
+      <option name="closed" value="true" />
+      <created>1730128726684</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1730128726684</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fix link resolution bug when an annotated name is a prefix of another">
+      <option name="closed" value="true" />
+      <created>1730733417853</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1730733417853</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Support tags: param, return, throws, deprecated, example, readme, and namespace" />
+    <MESSAGE value="Support tags: link and see" />
+    <MESSAGE value="Keep source format for readme, summary, see" />
+    <MESSAGE value="Support tag &quot;@datatype&quot;; convert param/return/throws formats from tables to lists" />
+    <MESSAGE value="Ensure markdown links are in lowercase; handle it better when datatype is not provided" />
+    <MESSAGE value="Update metadata; assume .q suffix for source files; add qdoc2md CLI" />
+    <MESSAGE value="Simplify code structure; standardize markdown layout" />
+    <MESSAGE value="Minor markdown format update" />
+    <MESSAGE value="Change comment signal to '///' in order to support empty lines in markdown &#10;&#10;Many prefer to configure their IDEs to truncate trailing whitespaces, so '/// ' will become '///' after saving changes." />
+    <MESSAGE value="Replace match with if-else to make it compatible with Python 3.8" />
+    <MESSAGE value="Replace match with if-else to make it compatible with Python 3.8; update README; bump" />
+    <MESSAGE value="Update list[] to List[] to be compatible with Python 3.8" />
+    <MESSAGE value="Replace removeprefix with indexing for Python 3.8 compatibility" />
+    <MESSAGE value="Use a single regex match instead of multiple startswith calls" />
+    <MESSAGE value="Support @owner tag" />
+    <MESSAGE value="Fix wrong format for multi-paragraph descriptions of param/return/signal" />
+    <MESSAGE value="Some enhancements:&#10;&#10;- Remove owner tag&#10;- make space around datatype optional&#10;- fix datatype matched to description&#10;- make description optional&#10;- make datatype shown in italic&#10;- show See Also in definition list" />
+    <MESSAGE value="Do not add italic effect for signals" />
+    <MESSAGE value="Remove preceding `: ` if return value is not named" />
+    <MESSAGE value="Update README for suggested datatypes" />
+    <MESSAGE value="Fix multi-line description for @see" />
+    <MESSAGE value="Fix link resolution that requires enclosing braces" />
+    <MESSAGE value="Fix link resolution bug when an annotated name is a prefix of another" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix link resolution bug when an annotated name is a prefix of another" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/qdoc2md/generator.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/qdoc2md/generator.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="re.match('(r\w+)', '\nreg ex')" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/qdoc2md$main.coverage" NAME="main Coverage Results" MODIFIED="1711373391311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="KdbConsole">
+    <console scope="Shared" instance="Shared/`:localhost:5000" connected="true">
+      <options showWatches="false" tabsProportion="0.5" watchesProportion="0.5" softWrap="true" showHistory="true" scrollToTheEnd="true" activeSplitType="NO" />
+    </console>
+  </component>
+</project>
