@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+faizan/__init__.py
+faizan/faizan.py
+faizan.egg-info/PKG-INFO
+faizan.egg-info/SOURCES.txt
+faizan.egg-info/dependency_links.txt
+faizan.egg-info/entry_points.txt
+faizan.egg-info/requires.txt
+faizan.egg-info/top_level.txt
