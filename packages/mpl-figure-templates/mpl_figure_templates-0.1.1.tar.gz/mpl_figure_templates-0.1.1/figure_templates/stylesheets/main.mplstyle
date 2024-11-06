@@ -1,0 +1,96 @@
+figure.facecolor : w
+figure.edgecolor: w
+figure.dpi : 72     # Impacts view size on screen only
+figure.frameon: True
+figure.figsize: 15, 9
+
+savefig.dpi : 100   # When saving as PDF, impacts the resolution of rasterized elements only. The PDF file always has 72 points by inches.
+savefig.transparent: True
+
+font.family: sans-serif
+font.sans-serif : Avenir Next, Lucida Grande, Verdana, Geneva, Arial, Helvetica, Avant Garde, sans-serif
+font.serif: Charter, Merriweather, Georgia, Times New Roman, serif
+svg.fonttype: path
+text.antialiased: True
+font.size: 12
+axes.titlesize : 12
+axes.labelsize : 12
+xtick.labelsize : 12
+ytick.labelsize : 12
+legend.fontsize : 12
+font.weight: normal
+axes.labelweight: normal
+axes.titleweight: normal
+figure.titleweight: normal
+
+lines.linewidth: 1.5
+lines.linestyle : -
+lines.marker:
+lines.markersize: 12.0
+lines.markeredgewidth: 0.0
+lines.dash_joinstyle : round        # miter|round|bevel
+lines.dash_capstyle : round          # butt|round|projecting
+lines.solid_joinstyle : round       # miter|round|bevel
+lines.solid_capstyle : round   # butt|round|projecting
+lines.antialiased : True         # render lines in antialiased (no jaggies)
+
+scatter.marker: .
+scatter.edgecolors: none
+
+axes.prop_cycle : cycler('color', ['e41a1c', '377eb8', '4daf4a', '984ea3', 'ff7f00', 'ffff33', 'a65628', 'f781bf'])
+
+axes.facecolor : white
+axes.xmargin: 0.01
+axes.ymargin: 0.01
+axes.linewidth : 1.0
+axes.spines.bottom: True
+axes.spines.left: True
+axes.spines.right: False
+axes.spines.top: False
+
+xtick.direction: out
+xtick.major.size: 3.5
+xtick.minor.size: 2.5
+xtick.major.width: 0.8
+xtick.minor.width: 0.8
+xtick.major.pad: 3.5
+xtick.minor.pad: 3.4
+xtick.color: k
+xtick.labelbottom: True
+xtick.labeltop: False
+xtick.alignment: center
+xtick.bottom: True
+xtick.major.bottom: True
+xtick.minor.bottom: True
+xtick.top: False
+xtick.major.top: True
+xtick.minor.top: True
+xtick.minor.visible: True
+
+ytick.direction: out
+ytick.major.size: 3.5
+ytick.minor.size: 2.5
+ytick.major.width: 0.8
+ytick.minor.width: 0.8
+ytick.major.pad: 3.5
+ytick.minor.pad: 3.4
+ytick.color: k
+ytick.labelleft: True
+ytick.labelright: False
+ytick.alignment: center_baseline
+ytick.left: True
+ytick.major.left: True
+ytick.minor.left: True
+ytick.right: False
+ytick.major.right: True
+ytick.minor.right: True
+ytick.minor.visible: True
+
+axes.grid : False
+grid.color : c7dedf
+grid.linestyle : -
+grid.linewidth : 0.3
+
+legend.fancybox : False
+legend.frameon : False
+legend.loc : best

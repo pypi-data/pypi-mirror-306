@@ -1,0 +1,21 @@
+# Template for a full-width figure, on print media.
+
+# The text has a baseline at ~0.25 of the line height.
+# To align elements with text (when fig_height is an integer), the x-axis must be at some X.25. Axe heights are X.25 and vsep X.75, so that all axes have an x-axis that aligns with a line of text. The baseline of text elements must also sit at an X.25.
+num_rows: 1
+num_cols: 1
+fig_width: 40
+fig_height: 10
+margin_top: 1.5
+margin_bottom: 2.25 # Must be X.25 to align with text
+margin_left: 4
+margin_right: 4
+hsep: 3
+vsep: 2.75
+spine_shift: 0
+is_framed: True
+base_unit: 14.5 # in points
+xlabel_preset: center
+xlabel_pad: 2
+ylabel_preset: above_center
+ylabel_pad: 0.75
