@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: shadowjourney
+Version: 0.1.9
+Summary: shadowjourney API wrapper and cool stuff
+Home-page: https://github.com/shadowjourneyy/shadowjourney
+Author: Ichate
+Author-email: ichate_@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# ShadowJourney API Client
+
+This Python library provides a client for interacting with the ShadowJourney API for chat completions and image generation.
+
+## Installation
+
+```bash
+pip install shadowjourney
