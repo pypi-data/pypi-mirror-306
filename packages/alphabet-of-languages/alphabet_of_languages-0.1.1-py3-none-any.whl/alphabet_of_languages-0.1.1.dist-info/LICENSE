@@ -1,0 +1,9 @@
+
+برای مشخص کردن شرایط استفاده از کتابخانه، یک فایل `LICENSE` ایجاد کنید. می‌توانید از مجوزهای عمومی مثل **MIT** استفاده کنید. یک فایل `LICENSE` نمونه برای مجوز MIT به این شکل است:
+
+```plaintext
+MIT License
+
+Copyright (c) 2024 Your Name
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software")...
