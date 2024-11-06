@@ -1,0 +1,13 @@
+syntactes/__init__.py,sha256=1EU3xoatIoTuLYLF8gbYyialbhe5AdjJxDGyXN9iZhA,179
+syntactes/_action.py,sha256=tcwFp46_XxQ_vm05ePyRGadfCUjBQ8MhR9G0uiZmQB0,2178
+syntactes/_item.py,sha256=zj0iE67hpCFrsMIqIBbajP-TSqqCOTS226EXYd7Nalk,1696
+syntactes/_state.py,sha256=dcBlHCGbfH8PqoiQaT4VJe63PMnTBX_53V0M0tU4r9M,1216
+syntactes/generator.py,sha256=6GdZayZmZHGdHO1skyAcaphIYmMXi5k1_lGraABBjiE,8410
+syntactes/grammar.py,sha256=p5BqUXudQyOGqahU8Hgna_WJ01vNDs1Y89FrC5YvVgk,514
+syntactes/rule.py,sha256=rhFMGgw56u3GeQKbV5YIaz3IQ3GL5-1mphNGSv69dPU,771
+syntactes/table.py,sha256=ds2DGQ6JInlL-ejUzgnIuTE_JfFEWBPGwZDXEKv3NjI,4659
+syntactes/token.py,sha256=53wCzmHmhk1u99YX8iUkFL9n4xut9f9YOdCXE9bI9QY,1174
+syntactes-0.2.0.dist-info/METADATA,sha256=ODwYZcEq3myLDsDJPgTprdYzCiIkhPbp1HiiMBy8Myk,4613
+syntactes-0.2.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+syntactes-0.2.0.dist-info/top_level.txt,sha256=ge_IR6QyjuX4fp0qgo1mTyUbTvL04K1WdrfCIyHE9bY,10
+syntactes-0.2.0.dist-info/RECORD,,
