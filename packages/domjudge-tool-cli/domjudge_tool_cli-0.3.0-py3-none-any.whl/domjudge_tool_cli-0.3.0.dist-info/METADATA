@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: domjudge-tool-cli
+Version: 0.3.0
+Summary: DomJudge dom server cli tool.
+Author: Jason Xie
+Author-email: x5758x@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiofiles (>=24.1.0,<25.0.0)
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: httpx (>=0.27.2,<0.28.0)
+Requires-Dist: openpyxl (>=3.1.5,<4.0.0)
+Requires-Dist: pydantic[dotenv,email] (<2)
+Requires-Dist: tablib (>=3.7.0,<4.0.0)
+Requires-Dist: typer (>=0.12.5,<0.13.0)
