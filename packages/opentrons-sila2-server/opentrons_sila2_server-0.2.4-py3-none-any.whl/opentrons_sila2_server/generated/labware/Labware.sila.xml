@@ -1,0 +1,155 @@
+<Feature xmlns="http://www.sila-standard.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Category="labware" FeatureVersion="1.0" MaturityLevel="Draft" Originator="nl.fontys.robotlab" SiLA2Version="1.0" xsi:schemaLocation="http://www.sila-standard.org https://gitlab.com/SiLA2/sila_features/raw/master/schema/FeatureDefinition.xsd">
+  <Identifier>Labware</Identifier>
+  <DisplayName>Labware Commands</DisplayName>
+  <Description>This feature allows you to manipulate the labware in the OT-2 and
+        OT-Flex</Description>
+  <Command>
+    <Identifier>RegisterLabware</Identifier>
+    <DisplayName>Register labware</DisplayName>
+    <Description>This method registers labware to a specified position for
+            the current session</Description>
+    <Observable>No</Observable>
+    <Parameter>
+      <Identifier>SessionIdentifier</Identifier>
+      <DisplayName>Session Identifier</DisplayName>
+      <Description>UUID identifier for the current session</Description>
+      <DataType>
+        <Constrained>
+          <DataType>
+            <Basic>String</Basic>
+          </DataType>
+          <Constraints>
+            <Pattern>[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}</Pattern>
+          </Constraints>
+        </Constrained>
+      </DataType>
+    </Parameter>
+    <Parameter>
+      <Identifier>LoadName</Identifier>
+      <DisplayName>Labware Load Name</DisplayName>
+      <Description>The name of the standard type of labware to register
+                (https://labware.opentrons.com)</Description>
+      <DataType>
+        <Basic>String</Basic>
+      </DataType>
+    </Parameter>
+    <Parameter>
+      <Identifier>Location</Identifier>
+      <DisplayName>Location</DisplayName>
+      <Description>Location for labware, modules, adapters, etc.</Description>
+      <DataType>
+        <Constrained>
+          <DataType>
+            <Basic>String</Basic>
+          </DataType>
+          <Constraints>
+            <Pattern>[a-fA-F]{0,1}[0-9]{1}[0-6]{0,1}</Pattern>
+          </Constraints>
+        </Constrained>
+      </DataType>
+    </Parameter>
+    <Response>
+      <Identifier>ItemIdentifier</Identifier>
+      <DisplayName>Item Identifier</DisplayName>
+      <Description>UUID identifier for referenceable labware, modules,
+                adapters, etc.</Description>
+      <DataType>
+        <Constrained>
+          <DataType>
+            <Basic>String</Basic>
+          </DataType>
+          <Constraints>
+            <Pattern>[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}</Pattern>
+          </Constraints>
+        </Constrained>
+      </DataType>
+    </Response>
+  </Command>
+  <Command>
+    <Identifier>DeleteLabware</Identifier>
+    <DisplayName>Delete Labware</DisplayName>
+    <Description>This method deletes labware without removing it, Only use this
+            method if you are removing it yourself and make sure to not execute
+            any commands while moving it.</Description>
+    <Observable>No</Observable>
+    <Parameter>
+      <Identifier>SessionIdentifier</Identifier>
+      <DisplayName>Session Identifier</DisplayName>
+      <Description>UUID identifier for the current session</Description>
+      <DataType>
+        <Constrained>
+          <DataType>
+            <Basic>String</Basic>
+          </DataType>
+          <Constraints>
+            <Pattern>[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}</Pattern>
+          </Constraints>
+        </Constrained>
+      </DataType>
+    </Parameter>
+    <Parameter>
+      <Identifier>Identifier</Identifier>
+      <DisplayName>Identifier</DisplayName>
+      <Description>Used to determine what labware to remove. This has to
+                be an Item Identifier or a Location in the format used in other
+                commands</Description>
+      <DataType>
+        <Basic>String</Basic>
+      </DataType>
+    </Parameter>
+  </Command>
+  <Command>
+    <Identifier>MoveLabware</Identifier>
+    <DisplayName>Move labware</DisplayName>
+    <Description>This method deletes labware without removing it, Only use this
+            method if you are removing it yourself and make sure to not execute
+            any commands while moving it.</Description>
+    <Observable>No</Observable>
+    <Parameter>
+      <Identifier>SessionIdentifier</Identifier>
+      <DisplayName>Session Identifier</DisplayName>
+      <Description>UUID identifier for the current session</Description>
+      <DataType>
+        <Constrained>
+          <DataType>
+            <Basic>String</Basic>
+          </DataType>
+          <Constraints>
+            <Pattern>[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}</Pattern>
+          </Constraints>
+        </Constrained>
+      </DataType>
+    </Parameter>
+    <Parameter>
+      <Identifier>ItemIdentifier</Identifier>
+      <DisplayName>Item Identifier</DisplayName>
+      <Description>UUID identifier for referencable labware, modules,
+                adapters, etc.</Description>
+      <DataType>
+        <Constrained>
+          <DataType>
+            <Basic>String</Basic>
+          </DataType>
+          <Constraints>
+            <Pattern>[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}</Pattern>
+          </Constraints>
+        </Constrained>
+      </DataType>
+    </Parameter>
+    <Parameter>
+      <Identifier>Location</Identifier>
+      <DisplayName>Location</DisplayName>
+      <Description>Location for labware, modules, adapters, etc.</Description>
+      <DataType>
+        <Constrained>
+          <DataType>
+            <Basic>String</Basic>
+          </DataType>
+          <Constraints>
+            <Pattern>[a-fA-F]{0,1}[0-9]{1}[0-6]{0,1}</Pattern>
+          </Constraints>
+        </Constrained>
+      </DataType>
+    </Parameter>
+  </Command>
+</Feature>

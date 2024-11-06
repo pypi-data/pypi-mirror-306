@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+import "SiLAFramework.proto";
+
+package sila2.nl.fontys.robotlab.session.sessionmanagement.v1;
+
+/* The features allows you to take exclusive access to the Opentron, this is required to run any other commands. */
+service SessionManagement {
+  /* Creates a session to allow for controlling the Opentrons */
+  rpc SessionCreate (sila2.nl.fontys.robotlab.session.sessionmanagement.v1.SessionCreate_Parameters) returns (sila2.nl.fontys.robotlab.session.sessionmanagement.v1.SessionCreate_Responses) {}
+  /* This stops the session and disables access through SiLA2 */
+  rpc SessionDelete (sila2.nl.fontys.robotlab.session.sessionmanagement.v1.SessionDelete_Parameters) returns (sila2.nl.fontys.robotlab.session.sessionmanagement.v1.SessionDelete_Responses) {}
+}
+
+/* Parameters for SessionCreate */
+message SessionCreate_Parameters {
+}
+
+/* Responses of SessionCreate */
+message SessionCreate_Responses {
+  sila2.org.silastandard.String SessionToken = 1;  /* The session token used for running other commands */
+}
+
+/* Parameters for SessionDelete */
+message SessionDelete_Parameters {
+  sila2.org.silastandard.String SessionToken = 1;  /* The session token used for running other commands */
+}
+
+/* Responses of SessionDelete */
+message SessionDelete_Responses {
+}
