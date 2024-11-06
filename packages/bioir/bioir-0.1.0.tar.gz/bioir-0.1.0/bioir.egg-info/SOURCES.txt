@@ -1,0 +1,12 @@
+setup.py
+bioir/__init__.py
+bioir/b1.py
+bioir/ir1.py
+bioir/ir2.py
+bioir/ir3.py
+bioir/ir4.py
+bioir/ir5.py
+bioir.egg-info/PKG-INFO
+bioir.egg-info/SOURCES.txt
+bioir.egg-info/dependency_links.txt
+bioir.egg-info/top_level.txt
