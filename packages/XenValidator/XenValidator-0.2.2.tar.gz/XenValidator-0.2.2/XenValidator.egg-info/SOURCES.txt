@@ -1,0 +1,9 @@
+README.md
+setup.py
+XenValidator/__init__.py
+XenValidator/schema.py
+XenValidator/validators.py
+XenValidator.egg-info/PKG-INFO
+XenValidator.egg-info/SOURCES.txt
+XenValidator.egg-info/dependency_links.txt
+XenValidator.egg-info/top_level.txt
