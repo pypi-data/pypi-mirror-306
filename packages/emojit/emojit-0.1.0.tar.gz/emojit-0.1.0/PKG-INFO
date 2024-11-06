@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: emojit
+Version: 0.1.0
+Summary: 
+Author: Ivan Dmitrievskii
+Author-email: yellow.iron9441@headless.place
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Emojit
+
+This package aims to address a long-standing Python issue:
+```python
+int("1️⃣") != 1
+```
+
+## Usage
+
+```python
+from emojit import emj
+
+emoji_str = emj("4️⃣0️⃣2️⃣")
+
+assert isinstance(emoji_str, str) is True
+assert int(emoji_str) == 402
+```
+<sub><sup>Please, don't actually use it.</sup></sub>
+
+## Advanced usage
+
+### Underscores as visual separators
+
+```python
+from emojit import emj
+
+assert int(emj("4️⃣0️⃣2️⃣_0️⃣0️⃣0️⃣")) == 402_000
+```
+
+### Shorthand emojis
+
+```python
+from emojit import emj
+
+assert int(emj("🔟")) == int(emj("1️⃣0️⃣"))
+assert int(emj("💯")) == int(emj("1️⃣0️⃣0️⃣"))
+```
+
+## Support
+
+This package is considered feature complete. It will be archived once the functionality is upstreamed into Python standard library.
+
