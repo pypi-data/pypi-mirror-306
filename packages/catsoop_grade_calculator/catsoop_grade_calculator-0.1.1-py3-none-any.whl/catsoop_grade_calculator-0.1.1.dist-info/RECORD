@@ -1,0 +1,12 @@
+catsoop_grade_calculator/__init__.py,sha256=_zy8ksttb-WxduwsDi900gM3sWnLeLY8TRaJLI5iZms,58
+catsoop_grade_calculator/general.py,sha256=JWNWdFnnMWoq_JMkgPo8F5Nc7ehhV3nnHdxkMG-NEa4,4049
+catsoop_grade_calculator/parsers/__init__.py,sha256=MRok4piNscBMnJ28ZeJV_1vdWbyGutMgdLbmv57vNZo,128
+catsoop_grade_calculator/parsers/base_parser.py,sha256=-4Uduez19PGPYuJACEFol13hqeLalm79CRV7KDlrtoY,5948
+catsoop_grade_calculator/parsers/circuits.py,sha256=RR9zyaG8cF34j96Qe1AVxroWgwB2sEnwrFBbbc8dFE4,4403
+catsoop_grade_calculator/parsers/py.py,sha256=hQZJG4aqhYNmuRMGsMYuF7nQ_-O7BOxdf1JgcQ-V3_c,4317
+catsoop_grade_calculator/parsers/request.py,sha256=9BBIeRw7p2ZLBaPEjnmvsNeNG10GCY8xfDd1ApY3sTI,2554
+catsoop_grade_calculator/token.txt,sha256=DQUMC-6JCN5Iu2nIhcQ6A53pE00Gz4zfWKHnxveR6qE,184
+catsoop_grade_calculator-0.1.1.dist-info/LICENSE,sha256=kD_rzZ8J90Iw3meNF068li0cMSVbSWxVc1LPSl5sIO8,1066
+catsoop_grade_calculator-0.1.1.dist-info/METADATA,sha256=TCKJ5fe72tJ4IE_oDeVs8BvWoRi_Rp5fafp5PV6spv4,12029
+catsoop_grade_calculator-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+catsoop_grade_calculator-0.1.1.dist-info/RECORD,,
