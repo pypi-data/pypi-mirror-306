@@ -1,0 +1,9 @@
+odoo/addons/invoice_line_display_number/README.rst,sha256=Kl2eQCV6ON1mo0i3F-ryek5SpNrWz9FM_t2e51LYIjc,2134
+odoo/addons/invoice_line_display_number/__manifest__.py,sha256=y__x2eLY5PI58yE9LEvmfFzsoPWMsDcGQ4kH6k8aZek,738
+odoo/addons/invoice_line_display_number/data/invoice_line_display_number_data.xml,sha256=Ay6emM3RdOpqeQ8bqBBCM0bYGhZzVRTlJ7eMJN2ooQI,396
+odoo/addons/invoice_line_display_number/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/invoice_line_display_number/static/src/js/form_view.js,sha256=_8-BPNxkuQA-22pyXuPSDHvUV0AxbK2RVesUIMakP4U,1177
+odoo_addon_invoice_line_display_number-15.0.1.0.0.1.dist-info/METADATA,sha256=KFFbPpJ8W_wOqWQUq1JoWqfCBWROFNSF1sjbxQCeU3c,2698
+odoo_addon_invoice_line_display_number-15.0.1.0.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo_addon_invoice_line_display_number-15.0.1.0.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_invoice_line_display_number-15.0.1.0.0.1.dist-info/RECORD,,
