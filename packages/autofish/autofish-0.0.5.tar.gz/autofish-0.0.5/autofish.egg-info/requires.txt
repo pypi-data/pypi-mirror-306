@@ -1,0 +1,7 @@
+pyserial
+PySimpleGUI==4.60.5
+pyyaml
+numpy
+
+[pycromanager]
+pycromanager
