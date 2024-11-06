@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/shiertier_os/__init__.py
+src/shiertier_os/os.py
+src/shiertier_os.egg-info/PKG-INFO
+src/shiertier_os.egg-info/SOURCES.txt
+src/shiertier_os.egg-info/dependency_links.txt
+src/shiertier_os.egg-info/top_level.txt
