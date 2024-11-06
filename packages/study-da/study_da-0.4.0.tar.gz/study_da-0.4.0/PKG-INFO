@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: study-da
+Version: 0.4.0
+Summary: A tool to create large-scale DA simulations.
+Author: Colas
+Author-email: colasdroin@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: black (>=24.10.0,<25.0.0)
+Requires-Dist: cpymad (>=1.16.3,<2.0.0)
+Requires-Dist: fastparquet (>=2024.5.0,<2025.0.0)
+Requires-Dist: filelock (>=3.16.1,<4.0.0)
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: nafflib (>=2.0.2,<3.0.0)
+Requires-Dist: numpy (>=2.0.2,<3.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Requires-Dist: qrcode (>=8.0,<9.0)
+Requires-Dist: ruamel-yaml (>=0.18.6,<0.19.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Requires-Dist: xsuite (>=0.18.6,<0.19.0)
+Description-Content-Type: text/markdown
+
+# Dynamics Aperture Study Package
+
+This package consists of a collection of tools to study the dynamics aperture of a particle accelerator with [Xsuite](https://github.com/xsuite/xsuite). In a sense, it is a replacement of the [DA study template](https://github.com/xsuite/DA_study_template), but much more advanced. It also allows to configure colliders and do tracking without necessarily running parametric scans.
+
+The whole project is described in details in the [full documentation](https://colasdroin.github.io/study-DA/), along with tutorials and description of the implemented functions.
+
+## Installation
+
+The package is available on PyPI and can be installed using `pip`.
+
+```bash
+pip install study-da
+```
+
+## Contributing
+
+We welcome contributions to the Dynamics Aperture Study Package. If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/yourfeature`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add your feature'`)
+5. Push to the branch (`git push origin feature/yourfeature`)
+6. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
