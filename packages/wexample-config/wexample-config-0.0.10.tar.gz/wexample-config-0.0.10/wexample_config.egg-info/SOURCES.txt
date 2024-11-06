@@ -1,0 +1,14 @@
+README.md
+setup.py
+wexample_config/__init__.py
+wexample_config.egg-info/.gitignore
+wexample_config.egg-info/PKG-INFO
+wexample_config.egg-info/README.md
+wexample_config.egg-info/SOURCES.txt
+wexample_config.egg-info/dependency_links.txt
+wexample_config.egg-info/requires.txt
+wexample_config.egg-info/setup.py
+wexample_config.egg-info/top_level.txt
+wexample_config.egg-info/version.txt
+wexample_config.egg-info/.wex/.env
+wexample_config.egg-info/.wex/config.yml
