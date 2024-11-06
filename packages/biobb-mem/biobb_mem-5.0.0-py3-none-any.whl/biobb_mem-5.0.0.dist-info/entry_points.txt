@@ -1,0 +1,4 @@
+[console_scripts]
+assign_leaflets = biobb_mem.lipyphilicBB.assign_leaflets:main
+chap_run = biobb_mem.chap.chap_run:main
+cpptraj_density = biobb_mem.ambertools.cpptraj_density:main
