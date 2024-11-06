@@ -1,0 +1,2 @@
+[console_scripts]
+pycryptomator = pycryptomator:__main__
