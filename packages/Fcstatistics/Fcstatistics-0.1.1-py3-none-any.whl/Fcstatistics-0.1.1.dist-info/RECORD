@@ -1,0 +1,14 @@
+Fcstatistics/Fc.py,sha256=xUh1VElC5lvLNSwlsWAo-NuXfX-lQWL-aQg2858LllY,225085
+Fcstatistics/__init__.py,sha256=ez7JGIN4qN-TdUzOueQ5TgmeOeDtuQQHbU8g3qjM_ww,124
+src/ECHC_core.py,sha256=rOzejsXZWwIbS7ILK8WXtLV_BeF-m5WkVr82kkvnah0,221913
+src/Fc.py,sha256=kUkEQyj5P8ZgwGp8zxaLaxfLv3JTLvAhgIlzZNhLcYQ,806
+src/Fc_core.py,sha256=kUkEQyj5P8ZgwGp8zxaLaxfLv3JTLvAhgIlzZNhLcYQ,806
+src/__init__.py,sha256=zD7qykcNWfRowvN1anJTEHyCART4raQUcD5ErdTZnwo,103
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=amFp5OE258r30wWYI-pv791CqDu3i6DFIs6iOzNvs60,796
+tests/test_import.py,sha256=x9u1s6XZINM3lQff-NEoT_qwe3JiSuk5sSqHEYusDxc,61
+Fcstatistics-0.1.1.dist-info/LICENSE,sha256=dG_Qxv_UGi9JTUNny6TVfYEV5JwZoXhGeDC20dkfcak,1090
+Fcstatistics-0.1.1.dist-info/METADATA,sha256=yTquYXkL06T9Xn6Mrsa37cmdRKjni_lsqwOO010g-T4,442
+Fcstatistics-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Fcstatistics-0.1.1.dist-info/top_level.txt,sha256=gJFpH2OrhfsIKiJTf5ZZHCBDmD16Zn-jD_hxvVfwf6k,13
+Fcstatistics-0.1.1.dist-info/RECORD,,
