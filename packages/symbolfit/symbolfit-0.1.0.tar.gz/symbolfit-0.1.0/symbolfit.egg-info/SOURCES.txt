@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+symbolfit/__init__.py
+symbolfit/evaluate.py
+symbolfit/math_defs.py
+symbolfit/plotting.py
+symbolfit/processing.py
+symbolfit/symbolfit.py
+symbolfit/utils.py
+symbolfit.egg-info/PKG-INFO
+symbolfit.egg-info/SOURCES.txt
+symbolfit.egg-info/dependency_links.txt
+symbolfit.egg-info/requires.txt
+symbolfit.egg-info/top_level.txt
