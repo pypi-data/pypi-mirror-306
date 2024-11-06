@@ -1,0 +1,36 @@
+[build]
+packages = [
+    "pyroll"
+]
+
+[version]
+path = "pyroll/hensel_force_torque.py"
+
+[envs.default]
+path = ".venv"
+dependencies = [
+    "pytest ~= 7.0",
+    "pyroll-report ~= 2.0"
+]
+
+[envs.docs]
+path = ""
+dependencies = [
+    "pygments ~= 2.0",
+    "pytask",
+    "pandas",
+    "matplotlib"
+]
+
+[envs.docs.scripts]
+tasks = "python -m pytask"
+build = "pandoc -o docs/docs.pdf docs/docs.md"
+
+[envs.test]
+path = ""
+
+[envs.test.scripts]
+all = "pytest"
+
+[[envs.test.matrix]]
+python = ["3.9", "3.10", "3.11"]
