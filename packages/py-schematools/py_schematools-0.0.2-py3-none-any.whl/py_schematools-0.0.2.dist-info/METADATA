@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: py-schematools
+Version: 0.0.2
+Summary: Tools in Python for interoberability of schemas.
+Author: Ken Payne
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: jsonschema (>=4.23.0,<5.0.0)
+Requires-Dist: pyarrow (>=17.0.0,<18.0.0)
+Description-Content-Type: text/markdown
+
+# schematools
+
+Tools for working with schemas in Python 🐍
+
+## Helpful Resources
+
+- The JSON [spec](https://www.rfc-editor.org/rfc/pdfrfc/rfc8259.txt.pdf)
+- [JSONSchema.org](https://json-schema.org/)
+- [python-jsonschema](https://python-jsonschema.readthedocs.io/en/latest/) package
+
