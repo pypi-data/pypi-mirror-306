@@ -1,0 +1,11 @@
+diec/__init__.py,sha256=kBhQ_oLI7m_lgh02TRdc_77KH0VBs8TZCNZAKFFRXrE,70
+diec/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+diec/cli.py,sha256=aUuiCSeZVccz3Sbz6INZ3pi_utU8cmIMtk08Z5tBSLo,417
+diec/decoder.py,sha256=VNLqIeiewEE--DMtIfGctzXTWG4MvuMbani_awHyaDo,1078
+diec/encoder.py,sha256=qpkT4N8_fuvhKmrVj_zchUSmv1vq9wiPux4ywI2jvbQ,1112
+diec-2.1.dist-info/LICENSE,sha256=LxJKkYm-QwaoIML1NI5UaNj0ZjM_pz88r6xkkh2qLrs,1066
+diec-2.1.dist-info/METADATA,sha256=hu5unn4pxfqxD8Fr9iwjKrndNSejOr6SYTal2p3I2nE,3111
+diec-2.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+diec-2.1.dist-info/entry_points.txt,sha256=QfMOrn2vceulbSk6Un_707hb2d32TlTPY7ABQu2kNHc,42
+diec-2.1.dist-info/top_level.txt,sha256=T4CGL52oL-TLL19pCV12xqxRYQY8Fh9r980OZ21nUcI,5
+diec-2.1.dist-info/RECORD,,
