@@ -1,0 +1,77 @@
+# service: Usado para compor o nome da image/serviço dentro do orquestrador de container
+service: my-apps
+
+# Local: docker.io/library/nginx:latest | registry_user/image_repo:tag
+image: user_registry/my-apps
+
+role:
+  nome_role:
+    hosts:
+      - 192.168.1.1
+    labels:
+      traefik.enable: true
+      traefik.http.routers.router-name.rule: Path(`/`)
+      traefik.http.routers.router-name.entrypoints: websecure
+      traefik.http.routers.router-name.tls: true
+      traefik.http.routers.router-name.tls.certresolver: letsencrypt
+    options:
+      memory: 2g
+      cpus: 1
+    env:
+      - HOME_APP
+
+builder:
+  multiarch: false
+  dockerfile: "Dockerfile"
+  context: "."
+  versioning: "hash"
+  environment: "production"
+  arch:
+    - "linux/amd64"
+    - "linux/arm64"
+  args:
+    VAR_1:
+  env:
+    - VAR_1
+
+ssh:
+  user: "usuario"
+  keys: ["~/.ssh/ssh_id"]
+
+registry:
+  server: registry.gitlab.com
+  username:
+    - USER_REGISTRY
+  password:
+    - PASS_REGISTRY
+
+proxy:
+  name: traefik
+  options:
+    publish:
+      - "443:443"
+    volume:
+      - letsencrypt:/letsencrypt
+  args:
+    entryPoints.http.address: ":80"
+    entryPoints.websecure.address: ":443"
+    api.insecure: true
+    api.dashboard: true
+    certificatesResolvers.letsencrypt.acme.email: "email@dominioexample.com.br"
+    certificatesResolvers.letsencrypt.acme.storage: "/letsencrypt/acme.json"
+    certificatesResolvers.letsencrypt.acme.httpchallenge: true
+    certificatesResolvers.letsencrypt.acme.httpchallenge.entrypoint: http
+  labels:
+    traefik.http.routers.catchall.entryPoints: http
+    traefik.http.routers.catchall.rule: PathPrefix(`/`)
+    traefik.http.routers.catchall.service: unavailable
+    traefik.http.routers.catchall.priority: "1"
+    traefik.http.services.unavailable.loadbalancer.server.port: "0"
+    # 
+    traefik.http.routers.api.service: api@internal
+    traefik.http.routers.api.entrypoints: websecure
+    traefik.http.routers.api.rule: Host(`traefik.local.place`)
+    traefik.http.routers.api.tls: true
+    traefik.http.routers.api.middlewares: auth
+    # htpasswd -nb admin password123
+    traefik.http.middlewares.auth.basicauth.users: "traefik_user:pass_hash"
