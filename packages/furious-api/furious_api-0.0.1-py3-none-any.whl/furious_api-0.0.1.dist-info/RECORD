@@ -1,0 +1,15 @@
+furious/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+furious/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+furious/cli/config.py,sha256=X5M5kp9T3xK41VMu6gzjocxzPINDdvE7LFWm4ICX51Y,1542
+furious/cli/discover.py,sha256=bW9cCAP_1VZa7QLVFwyvcuYC7UdWk7QQho5iYCg_r8E,1875
+furious/cli/exceptions.py,sha256=8OBuwn6GyiQRCW4_sQ3FyKP4OyapqdKkP-AvXYZwRlI,44
+furious/cli/setup.py,sha256=PYuD8NiHcm1qHtE80aLsw0MEwUWkCIetskZz30OLn1Q,393
+furious/cli/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+furious/cli/bin/furious.py,sha256=Wt61586x99qKpOAdyWvSVVRpqHC4ihDLLvVvFXobGUE,832
+furious/cli/commands/run.py,sha256=sCqf06UFLLhassLXEXDJJoiDs_PoU7xic-2LE436r0g,408
+furious/cli/commands/shell.py,sha256=85BN_L8MnTUPuSFMg1MRBCPJeWy9alAj710ZEq79S70,1229
+furious_api-0.0.1.dist-info/METADATA,sha256=qfU4gxJLIgXl-g40J1QixMYt49-5WUSYzXzbcrsT4NE,908
+furious_api-0.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+furious_api-0.0.1.dist-info/entry_points.txt,sha256=TId3BELAb_iKfGXaXPAfJQcSZaFQq0lTMB_ftenEr4A,56
+furious_api-0.0.1.dist-info/top_level.txt,sha256=_BTywtZxk71NO7LhKa4IbS1cXFegcoy5VX1v7h6TyFQ,8
+furious_api-0.0.1.dist-info/RECORD,,
