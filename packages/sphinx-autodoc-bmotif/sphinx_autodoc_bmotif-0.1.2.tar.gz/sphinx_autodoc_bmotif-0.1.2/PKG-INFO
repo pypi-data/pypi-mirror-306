@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: sphinx-autodoc-bmotif
+Version: 0.1.2
+Summary: Add your description here
+Author-email: Gabe Fierro <gtfierro@mines.edu>
+Requires-Python: >=3.10
+Requires-Dist: buildingmotif[topquadrant]
+Requires-Dist: docutils<0.21
+Requires-Dist: pydot>=3.0.2
+Requires-Dist: sphinx-toolbox>=3.8.1
+Requires-Dist: sphinx<8.0

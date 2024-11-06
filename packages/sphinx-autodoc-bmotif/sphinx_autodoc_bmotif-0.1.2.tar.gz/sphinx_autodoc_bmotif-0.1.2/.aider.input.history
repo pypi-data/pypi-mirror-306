@@ -1,0 +1,57 @@
+
+# 2024-11-05 16:07:27.642275
++n
+
+# 2024-11-05 16:07:49.961988
++/add src/sphinx_autodoc_bmotif/__init__.py
+
+# 2024-11-05 16:08:11.801515
++update the `_build_template` method to generate a NEW output document with `template.name` as the title
+
+# 2024-11-05 16:14:58.857703
++add add a new `_build_template` method which generates a new document from each template in the library. The document contains the template's name (pull from `template.name`)
+
+# 2024-11-05 16:17:55.981876
++/undo
+
+# 2024-11-05 16:18:04.456941
++/web https://www.sphinx-doc.org/en/master/development/tutorials/extending_syntax.html
+
+# 2024-11-05 16:18:15.418326
++/web https://raw.githubusercontent.com/Jakski/sphinxcontrib-autoyaml/refs/heads/master/sphinxcontrib/autoyaml/__init__.py
+
+# 2024-11-05 16:18:34.879630
++add add a new `_build_template` method which generates a new document from each template in the library. The document contains the template's name (pull from `template.name`)
+
+# 2024-11-05 16:19:11.721925
++/undo
+
+# 2024-11-05 16:19:23.638775
++n
+
+# 2024-11-05 16:19:27.316225
++/web https://www.sphinx-doc.org/en/master/development/tutorials/extending_syntax.html
+
+# 2024-11-05 16:19:42.449887
++n
+
+# 2024-11-05 16:19:46.598921
++/web https://raw.githubusercontent.com/Jakski/sphinxcontrib-autoyaml/refs/heads/master/sphinxcontrib/autoyaml/__init__.py
+
+# 2024-11-05 16:20:21.532265
++n
+
+# 2024-11-05 16:20:32.179095
++/add src/sphinx_autodoc_bmotif/__init__.py
+
+# 2024-11-05 16:20:37.418358
++add a new `_build_template` method which generates a new document from each template in the library. The document contains the template's name (pull from `template.name`)
+
+# 2024-11-05 16:21:10.962378
++y
+
+# 2024-11-05 16:22:38.181277
++/undo
+
+# 2024-11-05 16:22:41.814900
++/udno
