@@ -1,0 +1,85 @@
+[tool.poetry]
+name = "aoc-trebuchet"
+version = "1.0.0"
+description = "Python implementation of Advent of Code 2023 Day 1"
+authors = ["TonyGrif <TonyGriffin2000@gmail.com>"]
+maintainers = ["TonyGrif <TonyGriffin2000@gmail.com>"]
+# homepage = ""
+# repository = ""
+# documentation = ""
+# keywords = [ "", ""]
+license = "MIT"
+readme = "README.md"
+packages = [{include="trebuchet"}]
+
+[tool.poetry.scripts]
+trebuchet = "trebuchet.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.7"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+pytest-cov = "^4.1.0"
+tox = "^4.14.2"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.0"
+black = "^24.4.0"
+isort = "^5.13.2"
+pylint = "^3.1.0"
+ruff = "^0.3.4"
+flake8-pyproject = "^1.2.3"
+poethepoet = "^0.26.1"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint.typecheck]
+signature-mutators = [
+    "click.decorators.option",
+    "click.decorators.argument",
+    "click.decorators.version_option",
+]
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "E701"]
+
+[tool.poe.tasks]
+test = "pytest --cov --cov-report term-missing"
+answer = "python -m trebuchet resources/puzzle_input.txt"
+_mypy = "mypy trebuchet/"
+_ruff = "ruff check trebuchet/"
+_pylint = "pylint trebuchet/"
+_flake = "flake8 trebuchet/"
+lint = [ "_mypy", "_ruff", "_pylint", "_flake" ]
+_imports = "isort trebuchet/"
+_format = "black trebuchet/"
+format = [ "_imports", "_format" ]
+
+[tool.tox]
+legacy_tox_ini = """
+    [tox]
+    requires =
+        tox>=4
+    env_list = py{39, 310, 311, 312}
+    isolated_build = true
+
+    [testenv]
+    description = Run the PyTest Suite.
+    skip_install = true
+    deps = poetry
+    commands_pre =
+        poetry install --only main,test
+    commands =
+        poetry run pytest --cov
+"""
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
