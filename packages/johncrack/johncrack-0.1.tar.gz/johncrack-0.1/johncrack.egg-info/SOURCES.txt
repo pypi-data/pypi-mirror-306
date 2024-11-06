@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+johncrack.egg-info/PKG-INFO
+johncrack.egg-info/SOURCES.txt
+johncrack.egg-info/dependency_links.txt
+johncrack.egg-info/requires.txt
+johncrack.egg-info/top_level.txt
