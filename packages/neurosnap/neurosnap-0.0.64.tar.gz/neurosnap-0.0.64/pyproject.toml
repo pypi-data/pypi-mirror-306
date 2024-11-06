@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=59.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# changes for these values should be reflected in docs/source/conf.py as well
+name = "neurosnap"
+version = "0.0.64"
+authors = [
+  {name="Keaun Amani"},
+]
+description = "Collection of useful bioinformatic functions and tools for various computational biology pipelines."
+license = {file = "LICENSE"}
+readme = "README.md"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Development Status :: 3 - Alpha",
+]
+requires-python = ">=3.8"
+dependencies = [
+  "requests>2",
+  "numpy>1.0.0",
+  "pandas",
+  "biopython",
+  "rdkit",
+  "scipy",
+  "matplotlib",
+  "tabulate",
+  "requests_toolbelt",
+  # "rdkit-pypi", # can switch this if "rdkit" does not work
+]
+
+[project.optional-dependencies]
+dev = [
+  "ruff==0.7.0",
+  "sphinx==8.1.3",
+  "sphinx-rtd-theme==3.0.1",
+  "sphinx-autodoc-typehints==2.5.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/NeurosnapInc/neurosnap"
+Issues = "https://github.com/NeurosnapInc/neurosnap/issues"
+
+[tool.ruff]
+line-length = 150
+indent-width = 2
