@@ -1,0 +1,6 @@
+{
+  "resource": true,
+  "name": "talos",
+  "version": "0.3.0-alpha.1730837791",
+  "server": "github://api.github.com/pulumiverse"
+}
