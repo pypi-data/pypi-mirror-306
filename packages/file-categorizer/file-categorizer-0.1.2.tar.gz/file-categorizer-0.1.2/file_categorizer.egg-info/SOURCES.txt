@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+file_categorizer.egg-info/PKG-INFO
+file_categorizer.egg-info/SOURCES.txt
+file_categorizer.egg-info/dependency_links.txt
+file_categorizer.egg-info/top_level.txt
+file_organizer_pro/__init__.py
+file_organizer_pro/organizer.py
+file_organizer_pro/utils.py
