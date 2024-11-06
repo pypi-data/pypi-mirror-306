@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+OpenaiBatchAPI.egg-info/PKG-INFO
+OpenaiBatchAPI.egg-info/SOURCES.txt
+OpenaiBatchAPI.egg-info/dependency_links.txt
+OpenaiBatchAPI.egg-info/requires.txt
+OpenaiBatchAPI.egg-info/top_level.txt
+batch_api/__init__.py
