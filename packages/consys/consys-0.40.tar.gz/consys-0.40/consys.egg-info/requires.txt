@@ -1,0 +1,4 @@
+pymongo<5,>=4.10
+pillow<11,>=10
+requests
+pydantic<3,>=2.8
