@@ -1,0 +1,8 @@
+structlog_telemetry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+structlog_telemetry/singleton_base.py,sha256=yx1qnjWb2fI_hcEg2PaYwFn4wDKSyrFsa5CCjLVHHHw,199
+structlog_telemetry/structlog_telemetry.py,sha256=zJTOwvvg2cXk3NlxchD1pR-DD5nozvSvVJCU31wPgxw,1774
+structlog_telemetry/version.py,sha256=jlG3jId-Fq-MacJQrlL-Zo3XaErSekLJQrxdfyivwcA,79
+structlog_telemetry-2.0.0.dist-info/METADATA,sha256=Ir_WIGR2TGR8_TR0PTK9iWlQlLHjLoOfbOMkf4Vr-JA,1758
+structlog_telemetry-2.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+structlog_telemetry-2.0.0.dist-info/licenses/LICENSE,sha256=RAA-4h3TMi1_TBDch9yU8jNIfwqm7ch1nXPDuC8JdIU,1072
+structlog_telemetry-2.0.0.dist-info/RECORD,,
