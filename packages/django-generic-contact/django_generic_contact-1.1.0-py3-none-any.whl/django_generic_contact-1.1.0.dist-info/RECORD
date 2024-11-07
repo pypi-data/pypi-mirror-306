@@ -1,0 +1,14 @@
+django_generic_contact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_generic_contact/admin.py,sha256=J09BNRSpwKw51DPt8PAzA-p33HdKz3vf3bNhgGuzIuE,643
+django_generic_contact/apps.py,sha256=o-jwzKssn8Kgqqf1sln8rPxt_Hty8svZv7dWpzKsu68,174
+django_generic_contact/models.py,sha256=lquk2g5bV-jKuEtbHStrBeNjqsh2x3hHP-G3vrHcqpM,665
+django_generic_contact/utils.py,sha256=i13-JBbXqSGgdW3Y07jExUqtEYOwg8EXk4i-xGhwo0I,427
+django_generic_contact/validators.py,sha256=9L_qjvg5d6XhZzEKE9tGDEJQUaNdbxWVMoecy4qH-ys,531
+django_generic_contact/migrations/0001_initial.py,sha256=rhWDF6mgGNL2wvaspXIdmDenpc4V2ljYkkhYr7AffGw,1146
+django_generic_contact/migrations/0002_alter_contact_message.py,sha256=8z4Ohulb9i8q6yMG_2r_HQ_Gotivv-3vijtSc-6qiNQ,412
+django_generic_contact/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_generic_contact-1.1.0.dist-info/LICENSE,sha256=jyFeOi5Lf54SfISmQ6i9nfrZ46ZajbnEmt94Ra3TIb0,1101
+django_generic_contact-1.1.0.dist-info/METADATA,sha256=TVnnI-fIT05l9YSpQrTJKWH569gwejDs8KOdHT2c_ng,4192
+django_generic_contact-1.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+django_generic_contact-1.1.0.dist-info/top_level.txt,sha256=gg5zBV8y14DDWuLtoJQNnAKj381ixxvbkjhvE-4dy1w,23
+django_generic_contact-1.1.0.dist-info/RECORD,,
