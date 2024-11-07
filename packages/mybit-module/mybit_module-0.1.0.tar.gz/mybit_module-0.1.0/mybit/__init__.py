@@ -1,0 +1,1 @@
+from mybit.wallet.wallet_factory import WalletFactory as Wallet
