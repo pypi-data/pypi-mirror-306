@@ -1,0 +1,7 @@
+boto3
+requests
+tqdm
+pyyaml
+pydantic
+python-dotenv
+ray[all]==2.38.0
