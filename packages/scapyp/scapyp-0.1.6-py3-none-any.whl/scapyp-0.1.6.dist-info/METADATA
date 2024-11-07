@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: scapyp
+Version: 0.1.6
+Summary: A Python package for single-case data analysis.
+Home-page: https://github.com/AhsanKhodami/scapyp
+Author: Mohammad Ahsan Khodami
+Author-email: ahsan.khodami@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas >=1.0.0
+Requires-Dist: numpy >=1.18.0
+Requires-Dist: scipy >=1.4.0
+Requires-Dist: scikit-learn >=0.22.0
+Requires-Dist: statsmodels >=0.11.0
+
+# 📢 Project Status Update
+
+**This project is currently under test.**
+
+🚧 Please be patient as we work to improve and enhance the experience.  
+We’ll be back with exciting updates very soon!
+
+Thank you for your understanding and support.
+
+— Khodami
