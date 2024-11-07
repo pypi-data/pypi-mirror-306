@@ -1,0 +1,11 @@
+pelican/plugins/pybtex/__init__.py,sha256=JM0FzImtOqdWqP24rzH9xVbfX_vFOrMVdH1QgbPEpK0,928
+pelican/plugins/pybtex/generator.py,sha256=r1ptW9wnR2obCxPG0q6HOAauEG27mGixOKWutd_V2Ug,5004
+pelican/plugins/pybtex/injector.py,sha256=nJTem9PE-_1AFxl1RPmpWHyJJRKFvvdjpXB7IDBf-KY,5077
+pelican/plugins/pybtex/signals.py,sha256=x-vaHy6yjaLcG_cwD8zN2IQy1I6-1_MpTOaiZLPnX5M,268
+pelican/plugins/pybtex/style.py,sha256=L3MV0shAj4Mcf8dYCbUAbjlBpD9-bZ6EQEy7-FO9pGg,1922
+pelican/plugins/pybtex/utils.py,sha256=WB5NGI7trcfJvXgxDpQsC292WYfDVDsPUp1SnGgtjKM,7293
+pelican/plugins/pybtex/templates/bibliography.html,sha256=MDJuZ7znRgcvRpUeaIr0o6a0z3ePmEDtMPzrfUGPZ6k,460
+pelican/plugins/pybtex/templates/publications.html,sha256=kM63j4sKw00BzeDeqrPdSVq9geJYiHBBMd7Kh-I5Er8,1325
+pelican_pybtex-1.0.0b1.dist-info/METADATA,sha256=hLr_5dwwMem7ZyBbtp05zRcsqR9lKcBT0E5Xxq0HDYU,10541
+pelican_pybtex-1.0.0b1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pelican_pybtex-1.0.0b1.dist-info/RECORD,,
