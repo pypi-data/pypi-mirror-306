@@ -1,0 +1,236 @@
+Mon Dec 14 21:39:30 2023 +0200 Emmanuel Garette <egarette@silique.fr>
+	* add mission dependency for setuptools
+
+Mon Dec 12 20:30:30 2023 +0200 Emmanuel Garette <egarette@silique.fr>
+	* version 4.0
+
+Mon Apr  1 11:47:30 2019 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* version 3.0 rc16
+	* tiramisu is now async
+	* add postgresql storage
+
+Mon Sep  2 14:10:40 2019 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* version 3.0 rc15
+	* add parents method to MetaConfig
+
+Wed Aug 28 15:50:30 2019 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* version 3.0 rc14
+	* correction in metaconfig_prefix
+	* correction in validation with parent
+
+Mon Aug 21 14:24:42 2019 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* version 3.0 rc12
+	* prefix metaconfig_prefix with current name
+
+Mon Aug 19 08:02:27 2019 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* version 3.0 rc11
+	* Config could have multiple parents
+	* todict works with Metaconfig
+	* separate Cache from values and settings
+
+Fri Jul 26 09:43:03 2019 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* version 3.0 rc9 and rc10
+	* better todict support (especially for leadership
+	* can add display_name method to Config init to change the name a
+	option in errors
+
+Mon Jun  5 14:49:27 2019 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* version 3.0 rc7
+	* retrieve metaconfig/mixconfig/config by name in a metaconfig/mixconfig
+	* add new config with mixconfig type
+
+Mon Apr  8 08:40:10 2019 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* version 3.0 rc6
+	* import tiramisu-json in tiramisu repository
+
+Fri Apr  5 20:57:05 2019 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* version 3.0 rc4 and rc5
+	* change filename/directory name with Python Packaging Autority
+	recommendations
+	* do not change Config contexts properties when reload in MetaConfig
+	(fixes #7)
+	* add/remove config in mixconfig or metaconfig (fixes #6)
+
+Sun Mar 24 20:24:34 2019 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* version 3.0 rc3
+	* corrections in debug logger
+	* requirement can have callback
+	* version 3.0 rc2
+	* add cidr notation to domainnameoption if allow_ip is True (fixes #5)
+	* safer option.type() (ref #4)
+
+Tue Mar  5 08:22:12 2018 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* version 3.0 rc2
+	* simplifying netmaskoption
+	* multiple option call (fixes #1)
+	* doesn't check follower requirement with an other follower or a leader if idx is None (fixes #3)
+
+Mon Feb  25 10:12:35 2019 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* version 3.0 rc1
+
+Sat Sep  8 22:54:12 2019 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* propose a new API to access to Tiramisu Option
+	This new API is totally incompatible with older's one
+
+Sat Jul  8 15:57:13 2017 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* better cache, only remove value/property from cache for value
+	modified and for all value affected by this modification
+
+Sat May 20 16:27:09 2017 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* add 'operator' to requirement
+
+Wed May 17 22:11:55 2017 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* add 'remove' to Multi
+
+Sun Feb 12 10:30:13 2017 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* error in external function should returns explicit error message
+	all errors will be ConfigError
+
+Thu Jan 12 19:49:41 2017 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* can mix inversed and non inversed requires
+	* validator's function can have 1 arg, 2 args or 3 args without
+	valid_params specify by user. First arg will receive the value, second
+	arg will receive all values (useful for multi) and the third one will
+	receive index (useful for multi).
+	This functionaly only works for now if user not specify valid_params.
+
+Wed Jan 11 22:56:30 2017 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* copy the context in carry_out_calculation
+
+Thu Jan  10 11:55:02 2017 +0200 Gwenael Remond <gremond@cadoles.com>
+	* converts the doc informations into unicode
+
+Mon Jan  9 20:12:02 2017 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* make_dict has new fullpath option
+
+Wed Nov 16 22:30:12 2016 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* consistency "not_equal" works now with multi and submulti
+	* a multi or submulti could be "unique" (same value one time)
+	* consistency "not_equal" means "unique" too
+
+Wed Oct 12 21:55:53 2016 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* consistency is now check "not_equal" if one option has
+	PropertiesOptionError
+	* transitive in apply_requires should only by apply if properties are
+	same has testing action
+
+Mon Oct 10 21:39:04 2016 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* consistency with default value for all values now works
+	* warnings works now even if default value is None
+
+Thu Sep 22 08:25:33 2016 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* force_store_value is rebuild if needed
+
+Mon Mar  7 16:10:30 2016 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* force_store_value is now used directly when configuration is loaded
+	* add force_permissive to Values.is_default_owner
+
+Sun Nov 29 23:01:28 2015 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* requires could be apply to a slave and properties could be different
+
+Mon Oct 12 17:05:28 2015 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* domainname with only one character is now allowed
+
+Thu Sep 17 21:23:34 2015 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* check with option as parameter
+
+Sun Jul 26 19:09:29 2015 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* add global 'empty' property, this property raise mandatory
+	PropertiesOptionError if multi or master have empty value
+
+Fri Jul 24 18:03:59 2015 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* add duplicate option to Config, to generate new Config with same
+	value, properties, Option. Option are not duplicated.
+
+Mon Apr 20 14:44:15 2015 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* if option is multi, the properties disallow [None] for a multi but
+	[] too, with allow_empty_list to True, [None] is not allowed, but you
+	can have empty list (so [])
+
+
+Sun Apr 19 09:14:21 2015 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* valid Option is an unicode or a string if needed
+	* difference between option/optiondescription in PropertiesOptionError
+	message
+	* remove slave values when delete a master without value
+	* allow uppercase in resource name in URLOption
+
+Sat Apr 18 22:42:53 2015 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* refactor validation, build a fake context (with new Values and
+	Settings) to validate value with those object. Now value with
+	callback and consistency are correctly validate
+	* ability to disable warnings validation
+	* if ValueError and PropertieError together, should raise with
+	PropertieError
+
+Sun Mar  8 12:02:17 2015 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* valid default/callback value in consistencies
+
+Sun Dec  7 14:37:32 2014 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* mandatory master/slave's consistency with default value as slave
+	* test uppercase character before valid domain name for better error
+	message
+
+Mon Dec  1 22:58:13 2014 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* propertyerror are transitive in consistency, now it's possible to set
+	non-transitive consistency
+	* support transitive in consistency with multiple option return
+	* can reset slave value in all case when deleting master value
+	* in_network's consistency now verify that IP is not network or
+	broadcast's IP + ip_netmask's consistency now verify that IP is not
+	broadcast's IP
+
+Sun Oct 26 08:50:38 2014 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* if option is frozen with force_default_on_freeze property, owner
+	must be 'default', check property when tried to change owner
+	* bad characters in DomainnameOption could be in warning level
+	* frozen with force_default_on_freeze can change owner
+	* add force_permissive to config __iter__
+	* add force_permissive to slave for a master or to master for a slave
+	* remove mandatory_warnings in config.py
+	* add force_permissive in mandatory_warnings
+
+Sat Oct 25 22:48:08 2014 +0200 Emmanuel Garette <egarette@cadoles.com>
+	* cannot add unvalaible consistency for an option
+	* allow number as first letter of a domainname with netbios type
+
+Fri Jun 20 16:27:55 2014 +0200 Emmanuel Garette <egarette@cadoles.com>
+
+	* add TIRAMISU_STORAGE for personalise default storage in
+	environnement
+
+Thu Jun 19 23:20:29 2014 +0200 Emmanuel Garette <egarette@cadoles.com>
+
+	* add DynOptionDescription:
+	DynOptionDescription are OptionDescription that generate auto
+	OptionDescription with a callback function
+
+Sun Apr 27 10:32:40 2014 +0200 Emmanuel Garette <egarette@cadoles.com>
+
+	* behavior change in ChoiceOption:
+	remove open_values, that no sens (we cannot validate type) if
+	you want something like open_values, please use a typed option and
+	add impl_(s|g)et_information to add proposed values and use it in your
+	code
+	* add dynamic ChoiceOption:
+	we can have dynamic ChoiceOption. Parameter values can be a function
+	and, as callback, we can add values_params
+
+Fri Apr 25 22:57:08 2014 +0200 Emmanuel Garette <egarette@cadoles.com>
+
+	* add SubMulti:
+	a SubMulti is a multi in a multi variable
+
+Sat Apr 12 11:37:27 2014 +0200 Emmanuel Garette <egarette@cadoles.com>
+
+	* behavior change in master/slave part of code:
+	if slave has a default value greater than master's one, it's raise
+	SlaveError, didn't try to reduce the slave's length
+	* tiramisu/config.py (in cfgimpl_get_home_by_path and getattr) and
+	tiramisu/value.py (in getitem): arity change, remove force_properties
+	* tiramisu/option.py: split into tiramisu/option directory
+	* tiramisu/option/masterslave.py: add special object MasterSlaves for
+	all code related to master/slaves options
+	* tiramisu/option/masterslave.py: check every time master and slaves
+	values (length, consistency, ...)
+	* change None to undefined when needed

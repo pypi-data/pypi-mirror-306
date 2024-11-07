@@ -1,0 +1,42 @@
+{
+  "schema": {
+    "usbpath": {
+      "type": "filename",
+      "title": "Chemin d'acc\u00e8s"
+    }
+  },
+  "model": {
+    "usbpath": {
+      "required": true
+    }
+  },
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "usbpath": {
+      "clearable": true,
+      "type": "input"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}

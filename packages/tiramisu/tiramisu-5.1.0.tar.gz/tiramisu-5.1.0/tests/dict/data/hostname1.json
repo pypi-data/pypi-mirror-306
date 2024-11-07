@@ -1,0 +1,72 @@
+{
+  "schema": {
+    "options": {
+      "properties": {
+        "options.hostname1": {
+          "type": "domainname",
+          "title": "Domainname Description"
+        },
+        "options.hostname2": {
+          "type": "domainname",
+          "title": "Domainname without dot Description"
+        },
+        "options.hostname3": {
+          "type": "domainname",
+          "title": "Hostname or IP Description"
+        },
+        "options.hostname4": {
+          "type": "domainname",
+          "title": "Netbios Description"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration"
+    }
+  },
+  "model": {},
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "options.hostname1": {
+      "clearable": true,
+      "pattern": "^((?!-)[a-z0-9-]{1,63}\\.){1,}[a-z0-9-]{1,63}$",
+      "type": "input"
+    },
+    "options.hostname2": {
+      "clearable": true,
+      "pattern": "^((?!-)[a-z0-9-]{0,63}\\.){0,}[a-z0-9-]{1,63}$",
+      "type": "input"
+    },
+    "options.hostname3": {
+      "clearable": true,
+      "pattern": "^(?:((?!-)[a-z0-9-]{1,63})|(?:(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)))$",
+      "type": "input"
+    },
+    "options.hostname4": {
+      "clearable": true,
+      "pattern": "^((?!-)[a-z0-9-]{1,15})$",
+      "type": "input"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}

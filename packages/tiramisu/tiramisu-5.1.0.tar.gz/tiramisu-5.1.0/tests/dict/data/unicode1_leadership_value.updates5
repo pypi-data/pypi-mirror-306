@@ -1,0 +1,43 @@
+{
+  "updates": [
+    "options.unicode.unicode2"
+  ],
+  "model": {
+    "options.unicode.unicode": {
+      "required": true,
+      "properties": [
+        "unique"
+      ],
+      "value": [
+        "val3",
+        "val4"
+      ],
+      "owner": "user"
+    },
+    "options.unicode.unicode1": {
+      "0": {
+        "value": "super1",
+        "owner": "user"
+      },
+      "1": {
+        "value": "super2",
+        "owner": "user"
+      }
+    },
+    "options.unicode.unicode2": {
+      "0": {
+        "value": "pas test",
+        "owner": "user"
+      },
+      "1": {
+        "value": "follower2"
+      }
+    },
+    "options.unicode.unicode3": {
+      "1": {
+        "value": "super",
+        "owner": "user"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import url("bizstyle.css");
+/* a button for the download links */
+a.download{
+    margin-top:15px;
+    max-width:190px;
+    background-color:#eee;
+    border-color:#888888;
+    color:#333;
+    display:inline-block;
+    vertical-align:middle;
+    text-align:center;
+    text-decoration:none;
+    align-items:flex-start;
+    cursor:default;
+    -webkit-appearence: push-button;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: inherit;
+    border-color: #000;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    min-height: 30px;
+}
+
+/* the bash output looks like different */
+div.highlight-bash {
+
+    background-color:#eee;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #000;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+

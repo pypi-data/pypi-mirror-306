@@ -1,0 +1,132 @@
+{
+  "schema": {
+    "options": {
+      "properties": {
+        "options.unicode": {
+          "properties": {
+            "options.unicode.unicode": {
+              "type": "string",
+              "isMulti": true,
+              "title": "Values 'test' must show 'Unicode follower 3'"
+            },
+            "options.unicode.unicode1": {
+              "type": "string",
+              "isMulti": true,
+              "title": "Unicode follower 1"
+            },
+            "options.unicode.unicode2": {
+              "type": "string",
+              "isMulti": true,
+              "title": "Unicode follower 2"
+            },
+            "options.unicode.unicode3": {
+              "type": "string",
+              "isMulti": true,
+              "title": "Unicode follower 3"
+            }
+          },
+          "type": "array",
+          "title": "Common configuration 1"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration 2"
+    }
+  },
+  "model": {
+    "options.unicode.unicode": {
+      "required": true,
+      "properties": [
+        "unique"
+      ],
+      "value": [
+        "test",
+        "val2"
+      ],
+      "owner": "user"
+    },
+    "options.unicode.unicode1": {
+      "0": {
+        "value": "super1",
+        "owner": "user"
+      },
+      "1": {
+        "value": "super2",
+        "owner": "user"
+      }
+    },
+    "options.unicode.unicode2": {
+      "0": {
+        "value": "pas test",
+        "owner": "user"
+      },
+      "1": {
+        "value": "test",
+        "owner": "user"
+      }
+    },
+    "options.unicode.unicode3": {
+      "1": {
+        "hidden": true,
+        "display": false,
+        "value": "super",
+        "owner": "user"
+      }
+    }
+  },
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "options.unicode.unicode": {
+      "clearable": true,
+      "type": "input",
+      "dependencies": {
+        "default": {
+          "hide": [
+            "options.unicode.unicode3"
+          ]
+        },
+        "expected": {
+          "test": {
+            "show": [
+              "options.unicode.unicode3"
+            ]
+          }
+        }
+      }
+    },
+    "options.unicode.unicode1": {
+      "clearable": true,
+      "type": "input"
+    },
+    "options.unicode.unicode2": {
+      "clearable": true,
+      "type": "input"
+    },
+    "options.unicode.unicode3": {
+      "clearable": true,
+      "type": "input"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,5 @@
+{"cmd": "config.option('options.unicode').value.set(['c', 'f', 'e'])",
+ "body": {"updates": [{"action": "modify",
+                       "name": "options.unicode",
+                       "value": ["c", "f", "e"]}]}}
+

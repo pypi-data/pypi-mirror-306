@@ -1,0 +1,28 @@
+{
+  "updates": [
+    "options.unicode.unicode",
+    "options.unicode.unicode1",
+    "options.unicode.unicode2",
+    "options.unicode.unicode3"
+  ],
+  "model": {
+    "options.unicode.unicode": {
+      "required": true,
+      "properties": [
+        "unique"
+      ],
+      "value": [
+        "val1",
+        "val2"
+      ]
+    },
+    "options.unicode.unicode2": {
+      "0": {
+        "value": "follower2"
+      },
+      "1": {
+        "value": "follower2"
+      }
+    }
+  }
+}

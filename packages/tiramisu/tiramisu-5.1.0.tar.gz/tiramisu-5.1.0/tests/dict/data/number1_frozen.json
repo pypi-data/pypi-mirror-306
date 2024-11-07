@@ -1,0 +1,49 @@
+{
+  "schema": {
+    "options": {
+      "properties": {
+        "options.integer": {
+          "type": "integer",
+          "title": "integer 1 frozen"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration"
+    }
+  },
+  "model": {
+    "options.integer": {
+      "readOnly": true
+    }
+  },
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "options.integer": {
+      "clearable": true,
+      "pattern": "^[0-9]+$",
+      "type": "input"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}

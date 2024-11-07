@@ -1,0 +1,178 @@
+{
+  "schema": {
+    "descr1": {
+      "properties": {
+        "descr1.unicode1": {
+          "type": "string",
+          "title": "Unicode 1, not equal to 'a'"
+        },
+        "descr1.unicode1_multi": {
+          "type": "string",
+          "isMulti": true,
+          "title": "Multi unicode 1, not equal to 'a' or 'b'"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration 1"
+    },
+    "descr2": {
+      "properties": {
+        "descr2.unicode2": {
+          "type": "string",
+          "value": "a",
+          "title": "Unicode 2"
+        },
+        "descr2.unicode2_multi": {
+          "type": "string",
+          "isMulti": true,
+          "value": [
+            "a",
+            "b"
+          ],
+          "title": "Multi unicode 2"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration 2"
+    },
+    "descr3": {
+      "properties": {
+        "descr3.unicode3": {
+          "type": "string",
+          "title": "Unicode 3"
+        },
+        "descr3.unicode3_multi": {
+          "type": "string",
+          "isMulti": true,
+          "title": "Multi unicode 3"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration 3"
+    }
+  },
+  "model": {
+    "descr1.unicode1_multi": {
+      "required": true
+    },
+    "descr2.unicode2": {
+      "value": "a"
+    },
+    "descr2.unicode2_multi": {
+      "required": true,
+      "value": [
+        "a",
+        "b"
+      ]
+    },
+    "descr3.unicode3_multi": {
+      "required": true
+    }
+  },
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "descr1.unicode1": {
+      "clearable": true,
+      "type": "input",
+      "not_equal": [
+        {
+          "options": [
+            "descr2.unicode2",
+            "descr3.unicode3"
+          ]
+        }
+      ]
+    },
+    "descr1.unicode1_multi": {
+      "clearable": true,
+      "type": "input",
+      "not_equal": [
+        {
+          "options": [
+            "descr2.unicode2_multi",
+            "descr3.unicode3_multi"
+          ]
+        }
+      ]
+    },
+    "descr2.unicode2": {
+      "clearable": true,
+      "type": "input",
+      "not_equal": [
+        {
+          "options": [
+            "descr1.unicode1",
+            "descr3.unicode3"
+          ]
+        }
+      ]
+    },
+    "descr2.unicode2_multi": {
+      "clearable": true,
+      "type": "input",
+      "not_equal": [
+        {
+          "options": [
+            "descr1.unicode1_multi",
+            "descr3.unicode3_multi"
+          ]
+        }
+      ]
+    },
+    "descr3.unicode3": {
+      "clearable": true,
+      "type": "input",
+      "not_equal": [
+        {
+          "options": [
+            "descr1.unicode1",
+            "descr2.unicode2"
+          ]
+        }
+      ]
+    },
+    "descr3.unicode3_multi": {
+      "clearable": true,
+      "type": "input",
+      "not_equal": [
+        {
+          "options": [
+            "descr1.unicode1_multi",
+            "descr2.unicode2_multi"
+          ]
+        }
+      ]
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ],
+    "descr1": {
+      "collapse": true
+    },
+    "descr2": {
+      "collapse": true
+    },
+    "descr3": {
+      "collapse": true
+    }
+  },
+  "version": "1.0"
+}
