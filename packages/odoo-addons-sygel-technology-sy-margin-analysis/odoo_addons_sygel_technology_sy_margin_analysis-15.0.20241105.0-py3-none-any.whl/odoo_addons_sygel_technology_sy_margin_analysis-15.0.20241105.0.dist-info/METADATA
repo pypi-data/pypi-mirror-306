@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: odoo-addons-sygel-technology-sy-margin-analysis
+Version: 15.0.20241105.0
+Summary: Meta package for sygel-technology-sy-margin-analysis Odoo addons
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 15.0
+Requires-Dist: odoo-addon-account-invoice-margin-sale-sync<15.1dev,>=15.0dev
+Requires-Dist: odoo-addon-sync-sale-picking-cost<15.1dev,>=15.0dev
+
+UNKNOWN
