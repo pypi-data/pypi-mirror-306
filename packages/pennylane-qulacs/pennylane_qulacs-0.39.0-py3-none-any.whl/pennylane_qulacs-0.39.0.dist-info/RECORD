@@ -1,0 +1,9 @@
+pennylane_qulacs/__init__.py,sha256=k6FHqdErObJWrCN7bLPrq6vlz_gfzNEc8VsCR64tzyg,668
+pennylane_qulacs/_version.py,sha256=JufeWwwK5SSsS9_OVyGr57yxGrV-xmZy6ZvsfKGeaw0,692
+pennylane_qulacs/qulacs_device.py,sha256=hnG7_BSsAeklUHl-Rtt3mvu-16r9EYd2OM2UXhas0c4,13623
+pennylane_qulacs-0.39.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pennylane_qulacs-0.39.0.dist-info/METADATA,sha256=404_HgfPBhsW1OKuX67DevmrCoZIMT1uNHH_iu60qDE,8420
+pennylane_qulacs-0.39.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pennylane_qulacs-0.39.0.dist-info/entry_points.txt,sha256=Szmpex0A7zWiy2tYNJNh0Zni9SeuQoqTSxDyvwsbDl0,83
+pennylane_qulacs-0.39.0.dist-info/top_level.txt,sha256=Q5_9psFP563yaHmGoR1awUjhsxBwe39b68vVr2ba-Rw,17
+pennylane_qulacs-0.39.0.dist-info/RECORD,,
