@@ -1,0 +1,13 @@
+siwar/__init__.py,sha256=rHAwG6vW7O5AGesyTf5q1gokNGQjCX1Mey8Rx2jyFng,531
+siwar/client.py,sha256=DVczM8FbkXm5MvzNNLmp2Qlj7mJk3ADGcMZ99KPuKVI,4726
+siwar/constants.py,sha256=btHe1dLZCrnkKwh3_ZfsJdmU5YhuVVoSItmHEUO14c4,1908
+siwar/exceptions.py,sha256=K8RgxYRKrn3K2RxW7WzbXguCExWPfer_ZFgH0DW22IE,763
+siwar/utils.py,sha256=HO5Hot7Gi_OcITu5AcuwfdRjaTBXRB02DcyvUs5dHm4,2295
+siwar/models/__init__.py,sha256=9maQ3NkBeIhIjSIj1fsy369XyMaO4BkfUxNQJBhsw_4,352
+siwar/models/core.py,sha256=EQ136WSJndT48GjurmJ6WO-6AEUGXkv_GIMPh1q9rRI,2527
+siwar/models/enums.py,sha256=xIjgXf4-OpBzqsFIsPF5aasenaXXJ46NQ-tZpiuNQ8o,1463
+siwar_api-0.1.0.dist-info/LICENSE,sha256=Oxr2SH_ZUcXUF9OsvN-8p2QdJUjGENVuwzED6hn886E,1066
+siwar_api-0.1.0.dist-info/METADATA,sha256=ckcSvY57wchX171thCDy64pRU3PpQZwhdCyQX8VWOXI,3712
+siwar_api-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+siwar_api-0.1.0.dist-info/top_level.txt,sha256=pKQZ9XWAP4ckz0ox2jeOYE2Scik7ohGzHAESuBrfOLE,6
+siwar_api-0.1.0.dist-info/RECORD,,
