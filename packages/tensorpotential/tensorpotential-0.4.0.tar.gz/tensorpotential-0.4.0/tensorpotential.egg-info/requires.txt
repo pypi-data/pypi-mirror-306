@@ -1,0 +1,9 @@
+scipy
+tensorflow<2.17
+matscipy
+numpy
+sympy
+pandas<3.0.0
+ase
+pyyaml>=6.0.2
+tqdm
