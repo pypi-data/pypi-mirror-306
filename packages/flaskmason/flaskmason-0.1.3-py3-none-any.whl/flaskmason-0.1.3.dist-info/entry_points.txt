@@ -1,0 +1,2 @@
+[console_scripts]
+flaskmason = flaskmason.generator:main
