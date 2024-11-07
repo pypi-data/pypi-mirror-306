@@ -1,0 +1,10 @@
+CHANGELOG.md,sha256=lJmOP5d7CBFY01qzHbOV9ZWz5XciESJyH3heMuuGy30,52
+LICENSE,sha256=YTRo05ZUYiMpQ4RCPqREd2_4qgkuXtoKU7eO8ClUz4E,11343
+README.md,sha256=1-bm6ZZMqP5K-ohqCneqXDOgxxOsgrBLSrA6a30TJgM,4890
+fastapi_limiter/__init__.py,sha256=__VBt4C5wnsNJfmOicPFqFTOY2TzceqTpiKzPpaeycY,2523
+fastapi_limiter/depends.py,sha256=4xng3B4lIDuXCT3nRf1BcCBRA3C4rFmQpbnmI50x358,2990
+fastapi_limiter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_limiter_valkey-0.1.1.dist-info/LICENSE,sha256=YTRo05ZUYiMpQ4RCPqREd2_4qgkuXtoKU7eO8ClUz4E,11343
+fastapi_limiter_valkey-0.1.1.dist-info/METADATA,sha256=KxihA9OcwOkcxCULAl2yYrIM0qlUjcxxF1JyK1vka30,5794
+fastapi_limiter_valkey-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+fastapi_limiter_valkey-0.1.1.dist-info/RECORD,,
