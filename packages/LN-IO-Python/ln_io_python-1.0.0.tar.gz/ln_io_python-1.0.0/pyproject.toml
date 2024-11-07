@@ -1,0 +1,41 @@
+[project]
+name = "LN-IO-Python"
+dynamic = ['version']
+description = "LiveNodes: node based live streaming sensor/data and visualization suite."
+authors = [
+    { name = "Yale Hartmann", email = "yale.hartmann@uni-bremen.de" }
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = [
+    "livenodes>=0.12.1b1",
+    "LN-Ports>=0.12.1b14",
+    "numpy>=1.24.4"
+]
+[project.entry-points."livenodes.nodes"]
+in_function = "ln_io_python.in_function:In_function"
+in_python = "ln_io_python.in_python:In_python"
+out_python = "ln_io_python.out_python:Out_python"
+
+[project.optional-dependencies]
+dev = [
+    "tox",
+    "pytest>=8.2.2"
+]
+
+[build-system]
+requires = [
+    "setuptools>=60.0.0",
+    "wheel",
+    "setuptools_scm >= 8.0.0",
+    "setuptools-git-versioning"
+]
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools-git-versioning]
+enabled = true
+
+[tool.black]
+line-length = 140
+target-version = ['py312']
+skip-string-normalization = true
