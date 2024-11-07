@@ -1,0 +1,7 @@
+* Fixed bug in the functionality for replicating processes with changed input folders introduced in version v0.2.2.
+* Fixed bug in the compatibility check for the common region in disparity and stereoscopic PIV analysis steps.
+£ New features in the previous version 0.2.2:
+$ Resolved critical errors in the calculation of Reynolds stresses for stereoscopic PIV processes: review your past results with caution, as previous versions may have delivered incorrect w'w', u'w', and v'w' stress values!
+* Define the initial guess in the disparity step or the desidered final values in the stereoscopic PIV one for the laser plane constants using the new "Laser equation plane" box in the Output tab.
+* Enhanced interface performance with increased stability and speed. Enjoy a smoother and more reliable PaIRS experience!
+* The guide of PaIRS-UniNa v0.2 is finally available! Read it at <a href="https://www.pairs.unina.it/web/PaIRS-UniNa-v020-Guide.pdf"><span style=" text-decoration: underline; color:#0000ff; font-size:11pt">www.pairs.unina.it</a> and unleash the full potential and tricks of this amazing interface for yourself! 
