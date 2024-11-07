@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: odoo14-addons-sygel-technology-sy-pos
+Version: 14.0.20241105.0
+Summary: Meta package for sygel-technology-sy-pos Odoo addons
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Requires-Dist: odoo14-addon-pos-lot-selection
+Requires-Dist: odoo14-addon-pos-refund
+
+UNKNOWN
