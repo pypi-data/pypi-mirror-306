@@ -1,0 +1,12 @@
+scipy
+numpy
+matplotlib
+Pillow>=4.2.1
+ruamel.yaml==0.16.12
+demes
+demesdraw
+dadi
+h5py==3.10.0
+scikit-allel
+moments-popgen
+pandas<=2.2.2

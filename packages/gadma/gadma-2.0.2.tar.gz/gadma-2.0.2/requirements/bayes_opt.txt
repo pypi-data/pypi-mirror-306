@@ -1,0 +1,6 @@
+scikit-optimize
+configspace
+Bayesmark
+scikit-learn<=1.1.2; python_version>='3.8'
+scipy<=1.6
+smac==0.13.1

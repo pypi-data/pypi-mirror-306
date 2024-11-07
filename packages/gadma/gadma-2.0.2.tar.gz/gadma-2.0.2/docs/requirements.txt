@@ -1,0 +1,7 @@
+numpy
+scipy
+ruamel.yaml
+ipykernel
+nbsphinx
+nbsphinx_link
+sphinx_rtd_theme
