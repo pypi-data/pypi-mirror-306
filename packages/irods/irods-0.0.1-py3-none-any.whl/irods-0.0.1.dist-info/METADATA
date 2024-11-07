@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: irods
+Version: 0.0.1
+Summary: Metapackage for irods
+Home-page: https://github.com/irods/irods_python_metapackage
+Author: iRODS Consortium
+Author-email: support@irods.org
+License: BSD
+Keywords: irods
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: python-irodsclient
+
+# irods_python_metapackage
+
+This package serves as a metapackage and includes no code itself.
+
+It has only one dependency:
+
+ - https://github.com/irods/python-irodsclient
+
+
