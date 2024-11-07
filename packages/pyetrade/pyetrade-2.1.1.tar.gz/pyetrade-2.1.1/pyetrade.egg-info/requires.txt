@@ -1,0 +1,13 @@
+
+[:python_version >= "3.9" and python_version < "4.0"]
+certifi==2024.8.30
+charset-normalizer==3.4.0
+idna==3.10
+jxmlease==1.0.3
+oauthlib==3.2.2
+python-dateutil==2.9.0.post0
+requests-oauthlib==2.0.0
+requests==2.32.3
+six==1.16.0
+urllib3==1.26.19
+xmltodict==0.13.0
