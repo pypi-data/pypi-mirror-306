@@ -1,0 +1,10 @@
+FDEint/FixedStepFDEint.py,sha256=xO3u_FMc2BPFtXhJX9hv9OesZVy7IpaYUxV7GazsRsM,8711
+FDEint/__init__.py,sha256=zAHNou6onm21dewNTfXPgtI1I19C29RzUAq4glj1TfY,69
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/mittag_leffler.py,sha256=YaHhZvYlFdNHgNFXnD1yYT5hbRjdUREfZ6Rds6pofEU,10051
+tests/test_FixedStepFDEint.py,sha256=_2AW86cQefQG75JeI4vZV8ULWVWNu4Fzm66SWl8iylM,3354
+FDEint-0.1.1.dist-info/LICENSE.txt,sha256=ydVu14uucf7dbtrZtSmKZUD8nBP1Jr7FA579dxOA-jc,1071
+FDEint-0.1.1.dist-info/METADATA,sha256=5t1MBMtwiNRffnCDH5xiYuanEX9D6igZYj1tnjd1aUk,2921
+FDEint-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+FDEint-0.1.1.dist-info/top_level.txt,sha256=3M_vOlDPE83jUJKvXZ0tVkowU5uZze3HHyPBu_2FNXk,13
+FDEint-0.1.1.dist-info/RECORD,,
