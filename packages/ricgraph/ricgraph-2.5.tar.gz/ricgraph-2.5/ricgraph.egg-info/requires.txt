@@ -1,0 +1,13 @@
+connexion[flask,swagger-ui,uvicorn]
+flask
+gunicorn
+markupsafe
+neo4j>=5.8
+numpy
+openapi_markdown
+pandas
+pyalex
+ratelimit
+requests
+Sickle
+xmltodict
