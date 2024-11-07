@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: multilingual-ime
+Version: 0.1.2b0
+Summary: 
+Home-page: https://github.com/Zen-Transform/Multilingual-IME
+Keywords: IME,Multilingual
+Author: JY
+Author-email: 90738099+JY9150@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: joblib (>=1.4.2,<2.0.0)
+Requires-Dist: matplotlib (>=3.9.1,<4.0.0)
+Requires-Dist: numpy (<2.0)
+Requires-Dist: pypinyin (>=0.52.0,<0.53.0)
+Requires-Dist: pytest (>=8.2.1,<9.0.0)
+Requires-Dist: torch (>=2.3.1,<3.0.0)
+Requires-Dist: torchmetrics (>=1.4.0.post0,<2.0.0)
+Requires-Dist: tqdm (>=4.66.4,<5.0.0)
+Project-URL: Repository, https://github.com/Zen-Transform/Multilingual-IME
+Description-Content-Type: text/markdown
+
+# Multilingual IME
+
+## Dependency
+
+Package manager: [Poetry](https://python-poetry.org/)
+
+## Project Structure
+
+- Datasets
+  - Keystroke_Datasets
+  - Plain_Text_Datasets
+  - Test_Datasets
+  - Train_Datasets
+- multilingual_ime
+  - core: core functions
+  - data_preprocess: codes for data preprocessing
+  - src: location for none code source object
+  - *.py: main IME handler code
+- references: storing referece paper or documents
+- reports: storing system tesing report or log files
+- scripts: short script for data generations or others
+- tests: storing unit test code
+
+### How to run script
+
+```shell
+# install package
+poetry add [package]
+
+# run module as script
+python -m [module_name].[script]
+```
+## Contributer
+
+1. 
+
