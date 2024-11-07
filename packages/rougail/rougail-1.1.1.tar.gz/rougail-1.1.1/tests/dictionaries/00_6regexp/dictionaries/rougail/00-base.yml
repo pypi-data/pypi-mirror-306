@@ -1,0 +1,9 @@
+---
+version: '1.1'
+var:
+  description: a first variable
+  regexp: "^#(?:[0-9a-f]{3}){1,2}$"
+  default: "#a1a1a1"
+  test:
+    - "#b1b1b1"
+    - "#b2b2b2"

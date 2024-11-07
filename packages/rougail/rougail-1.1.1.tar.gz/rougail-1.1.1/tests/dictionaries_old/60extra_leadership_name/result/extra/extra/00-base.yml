@@ -1,0 +1,10 @@
+version: 1.1
+ejabberd:
+  new_name:
+    type: leadership
+    _description: new_name
+    description:
+      default:
+      - test
+    mode:
+      default: pre

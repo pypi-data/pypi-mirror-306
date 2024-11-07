@@ -1,0 +1,7 @@
+version: 1.1
+enumfam:
+  enumvar:
+    redefine: true
+    default: c
+    choices:
+    - c

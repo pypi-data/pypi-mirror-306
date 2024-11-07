@@ -1,0 +1,6 @@
+---
+version: '1.1'
+var2:
+  description: a new variable
+  exists: false
+  default: "yes"

@@ -1,0 +1,15 @@
+---
+version: '1.1'
+var1: "no"  # a first variable
+var2: "no"  # a second variable
+var3:
+  description: a third variable
+  default: "yes"
+  test:
+    - "yes"
+  validators:
+    - jinja: |
+        {% if _.var3 == _.var1 %}
+        var3 must be different than var1
+        {% endif %}
+      description: var3 must be different than var1

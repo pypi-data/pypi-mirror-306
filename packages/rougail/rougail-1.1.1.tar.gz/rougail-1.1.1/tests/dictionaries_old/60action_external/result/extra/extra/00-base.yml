@@ -1,0 +1,12 @@
+version: 1.1
+test:
+  delay:
+    description: délai en minutes avant lancement
+    default: 0
+  calc_url:
+    type: web_address
+    description: domain
+    hidden: true
+    default:
+      type: jinja
+      jinja: '{{ "http://localhost/" | calc_val }}'

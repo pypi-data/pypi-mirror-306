@@ -1,0 +1,11 @@
+---
+version: 1.1
+my_variable:
+  default: val1
+my_calculated_variable:
+  multi: true
+  default:
+    - variable: _.my_variable_unexists
+      optional: true
+    - variable: _.my_variable
+      optional: true

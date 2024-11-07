@@ -1,0 +1,5 @@
+# dict with a correct version declared
+version: "1.0"
+hello:
+  type: string
+  default: world

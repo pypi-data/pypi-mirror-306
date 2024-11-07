@@ -1,0 +1,17 @@
+---
+version: '1.1'
+bool: false  # a boolean variable
+int1:
+  description: first integer variable
+  type: number
+  default:
+    jinja: |
+      {% if rougail.bool %}1{% else %}2{% endif %}
+    description: if bool returns 1 otherwise return 2
+int2:
+  description: second integer variable
+  type: number
+  default:
+    jinja: |
+      {% if not rougail.bool %}3{% else %}4{% endif %}
+    description: if bool returns 3 otherwise return 4

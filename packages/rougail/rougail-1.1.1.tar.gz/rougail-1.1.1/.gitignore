@@ -1,0 +1,5 @@
+# Backup and swap files
+*~
+*#
+*.swp
+__pycache__

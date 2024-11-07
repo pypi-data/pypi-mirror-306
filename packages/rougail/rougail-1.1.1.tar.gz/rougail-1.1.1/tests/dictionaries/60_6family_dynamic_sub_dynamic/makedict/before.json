@@ -1,0 +1,71 @@
+{
+    "rougail.var": {
+        "owner": "default",
+        "value": [
+            "val1",
+            "val2"
+        ]
+    },
+    "rougail.dynval1.var": {
+        "owner": "default",
+        "value": [
+            "tval1",
+            "tval2"
+        ]
+    },
+    "rougail.dynval1.dyn_tval1.var": {
+        "owner": "default",
+        "value": "tval1"
+    },
+    "rougail.dynval1.dyn_tval1.var_identifier": {
+        "owner": "default",
+        "value": "val1"
+    },
+    "rougail.dynval1.dyn_tval1.var_identifiers": {
+        "owner": "default",
+        "value": "val1-tval1"
+    },
+    "rougail.dynval1.dyn_tval2.var": {
+        "owner": "default",
+        "value": "tval2"
+    },
+    "rougail.dynval1.dyn_tval2.var_identifier": {
+        "owner": "default",
+        "value": "val1"
+    },
+    "rougail.dynval1.dyn_tval2.var_identifiers": {
+        "owner": "default",
+        "value": "val1-tval2"
+    },
+    "rougail.dynval2.var": {
+        "owner": "default",
+        "value": [
+            "tval1",
+            "tval2"
+        ]
+    },
+    "rougail.dynval2.dyn_tval1.var": {
+        "owner": "default",
+        "value": "tval1"
+    },
+    "rougail.dynval2.dyn_tval1.var_identifier": {
+        "owner": "default",
+        "value": "val2"
+    },
+    "rougail.dynval2.dyn_tval1.var_identifiers": {
+        "owner": "default",
+        "value": "val2-tval1"
+    },
+    "rougail.dynval2.dyn_tval2.var": {
+        "owner": "default",
+        "value": "tval2"
+    },
+    "rougail.dynval2.dyn_tval2.var_identifier": {
+        "owner": "default",
+        "value": "val2"
+    },
+    "rougail.dynval2.dyn_tval2.var_identifiers": {
+        "owner": "default",
+        "value": "val2-tval2"
+    }
+}

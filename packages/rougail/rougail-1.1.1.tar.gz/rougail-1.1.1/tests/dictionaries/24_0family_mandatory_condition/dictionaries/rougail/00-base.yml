@@ -1,0 +1,11 @@
+---
+version: '1.1'
+condition: "no"  # a condition
+var:
+  description: a variable
+  mandatory:
+    jinja: |
+      {% if _.condition == "yes" %}
+      condition is yes
+      {% endif %}
+    description: only if rougail.condition has the value "yes"

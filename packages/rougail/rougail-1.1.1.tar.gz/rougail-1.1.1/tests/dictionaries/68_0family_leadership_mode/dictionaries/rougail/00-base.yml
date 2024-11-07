@@ -1,0 +1,15 @@
+---
+version: '1.0'
+leader:
+  description: A leadership
+  type: leadership
+  leader:
+    description: A leader
+    multi: true
+    mandatory: false
+  follower1:
+    description: a follower1
+    mandatory: false
+  follower2:
+    description: a follower2
+    mode: basic

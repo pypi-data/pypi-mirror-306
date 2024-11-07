@@ -1,0 +1,7 @@
+---
+version: 1.1
+var:
+  description: a variable
+  auto_save: true
+  mode: advanced
+  default: "no"

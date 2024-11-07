@@ -1,0 +1,12 @@
+version: 1.1
+general:
+  mode_conteneur_actif:
+    description: No change
+    default: oui
+    validators:
+    - '{% if rougail.general.mode_conteneur_actif == rougail.general.mode_conteneur_actif1
+      %}the value must be different than "{{ rougail.general.mode_conteneur_actif
+      }}"{% endif %}'
+  mode_conteneur_actif1:
+    description: No change
+    default: non

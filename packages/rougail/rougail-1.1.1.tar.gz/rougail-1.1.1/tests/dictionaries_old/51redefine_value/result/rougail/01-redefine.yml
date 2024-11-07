@@ -1,0 +1,5 @@
+version: 1.1
+general:
+  mode_conteneur_actif1:
+    redefine: true
+    default: oui

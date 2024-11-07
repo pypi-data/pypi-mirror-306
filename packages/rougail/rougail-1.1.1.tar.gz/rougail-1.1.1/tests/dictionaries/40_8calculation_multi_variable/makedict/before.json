@@ -1,0 +1,17 @@
+{
+    "rougail.var": {
+        "owner": "default",
+        "value": [
+            "no",
+            "yes"
+        ]
+    },
+    "rougail.var2": {
+        "owner": "default",
+        "value": "no"
+    },
+    "rougail.var3": {
+        "owner": "default",
+        "value": "yes"
+    }
+}

@@ -1,0 +1,15 @@
+version: 1.1
+general:
+  condition:
+    description: No change
+    default: oui
+  mode_conteneur_actif:
+    description: No change
+    default: non
+    disabled: &id001
+      type: jinja
+      jinja: '{% if rougail.general.condition == "oui" %}disabled{% endif %}'
+  mode_conteneur_actif2:
+    description: No change
+    default: non
+    disabled: *id001

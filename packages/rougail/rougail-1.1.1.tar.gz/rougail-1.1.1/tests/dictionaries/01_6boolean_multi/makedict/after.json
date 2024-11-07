@@ -1,0 +1,50 @@
+{
+    "rougail.var1": {
+        "owner": "default",
+        "value": [
+            true
+        ]
+    },
+    "rougail.var2": {
+        "owner": "default",
+        "value": [
+            true
+        ]
+    },
+    "rougail.var3": {
+        "owner": "default",
+        "value": [
+            true
+        ]
+    },
+    "rougail.var4": {
+        "owner": "default",
+        "value": [
+            false
+        ]
+    },
+    "rougail.var5": {
+        "owner": "default",
+        "value": [
+            false
+        ]
+    },
+    "rougail.var6": {
+        "owner": "default",
+        "value": [
+            false
+        ]
+    },
+    "rougail.var7": {
+        "owner": "default",
+        "value": [
+            true
+        ]
+    },
+    "rougail.var8": {
+        "owner": "default",
+        "value": [
+            true
+        ]
+    }
+}

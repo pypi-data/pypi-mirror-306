@@ -1,0 +1,14 @@
+version: 1.1
+general:
+  description: général
+  mode_conteneur_actif:
+    description: No change
+    default: non
+  activer_ejabberd:
+    description: No change
+    hidden: true
+    default: non
+  module_instancie:
+    description: No change
+    hidden: true
+    default: non

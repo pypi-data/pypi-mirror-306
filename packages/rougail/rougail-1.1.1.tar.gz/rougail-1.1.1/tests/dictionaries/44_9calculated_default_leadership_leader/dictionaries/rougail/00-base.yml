@@ -1,0 +1,18 @@
+---
+version: 1.1
+leader:
+  description: leader
+  type: leadership
+  leader:  # a leader
+    - a
+    - b
+  follower:
+    description: a follower
+    disabled:
+      jinja: |
+        {% if _.leader == "a" %}
+        the value of "leader" is "a"
+        {% endif %}
+      description: if the value of "leader" is "a"
+    default:
+      variable: _.leader

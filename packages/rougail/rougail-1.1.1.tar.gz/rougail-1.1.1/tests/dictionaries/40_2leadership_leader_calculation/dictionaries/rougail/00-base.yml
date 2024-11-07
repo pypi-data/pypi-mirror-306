@@ -1,0 +1,19 @@
+---
+version: '1.1'
+
+leader:
+  description: a leadership
+  type: leadership
+
+  leader:
+    description: a leader
+    multi: true
+    default:
+      jinja: |
+        val1
+        val2
+      description: returns val1 and val2
+
+  follower1:  # a first follower
+
+  follower2:  # a second follower

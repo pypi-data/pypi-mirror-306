@@ -1,0 +1,7 @@
+version: 1.1
+external:
+  description:
+    default: test
+  disabled:
+    type: jinja
+    jinja: '{% if extra.ejabberd.description == "non" %}disabled{% endif %}'

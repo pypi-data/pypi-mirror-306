@@ -1,0 +1,6 @@
+---
+version: '1.0'
+my_variable:
+  type: number
+  default:
+    type: index

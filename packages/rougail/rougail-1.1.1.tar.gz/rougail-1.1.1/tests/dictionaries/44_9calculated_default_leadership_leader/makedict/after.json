@@ -1,0 +1,19 @@
+{
+    "rougail.leader.leader": {
+        "owner": "default",
+        "value": [
+            "a",
+            "b"
+        ]
+    },
+    "rougail.leader.follower": {
+        "owner": [
+            "error",
+            "default"
+        ],
+        "value": [
+            "cannot access to option \"a follower\" because has property \"disabled\" (the value of \"leader\" is \"a\")",
+            "b"
+        ]
+    }
+}

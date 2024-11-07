@@ -1,0 +1,33 @@
+from tiramisu import *
+from tiramisu.setting import ALLOWED_LEADER_PROPERTIES
+from re import compile as re_compile
+from rougail.tiramisu import func, dict_env, load_functions, ConvertDynOptionDescription
+load_functions('tests/dictionaries/../eosfunc/test.py')
+try:
+    groups.namespace
+except:
+    groups.addgroup('namespace')
+ALLOWED_LEADER_PROPERTIES.add("basic")
+ALLOWED_LEADER_PROPERTIES.add("standard")
+ALLOWED_LEADER_PROPERTIES.add("advanced")
+option_3 = FloatOption(name="var1", doc="the first variable", multi=True, default=[0.0], default_multi=0.0, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_4 = FloatOption(name="var2", doc="the second variable", multi=True, default=[0.0], default_multi=0.0, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_5 = FloatOption(name="var3", doc="the third variable", multi=True, default=[0.0], default_multi=0.0, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_6 = FloatOption(name="var4", doc="the forth variable", multi=True, default=[10.1], default_multi=10.1, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_7 = FloatOption(name="var5", doc="the fifth variable", multi=True, default=[10.1], default_multi=10.1, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_8 = FloatOption(name="var6", doc="the sixth variable", multi=True, default=[10.1], default_multi=10.1, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_9 = FloatOption(name="var7", doc="the seventh variable", multi=True, default=[0.0], default_multi=0.0, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_10 = FloatOption(name="var8", doc="the eighth variable", multi=True, default=[0.0], default_multi=0.0, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+optiondescription_2 = OptionDescription(name="rougail", doc="Rougail", group_type=groups.namespace, children=[option_3, option_4, option_5, option_6, option_7, option_8, option_9, option_10], properties=frozenset({"standard"}))
+optiondescription_1 = OptionDescription(name="1", doc="1", children=[optiondescription_2], properties=frozenset({"standard"}))
+option_13 = FloatOption(name="var1", doc="the first variable", multi=True, default=[0.0], default_multi=0.0, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_14 = FloatOption(name="var2", doc="the second variable", multi=True, default=[0.0], default_multi=0.0, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_15 = FloatOption(name="var3", doc="the third variable", multi=True, default=[0.0], default_multi=0.0, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_16 = FloatOption(name="var4", doc="the forth variable", multi=True, default=[10.1], default_multi=10.1, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_17 = FloatOption(name="var5", doc="the fifth variable", multi=True, default=[10.1], default_multi=10.1, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_18 = FloatOption(name="var6", doc="the sixth variable", multi=True, default=[10.1], default_multi=10.1, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_19 = FloatOption(name="var7", doc="the seventh variable", multi=True, default=[0.0], default_multi=0.0, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+option_20 = FloatOption(name="var8", doc="the eighth variable", multi=True, default=[0.0], default_multi=0.0, properties=frozenset({"mandatory", "standard"}), informations={'type': 'float'})
+optiondescription_12 = OptionDescription(name="rougail", doc="Rougail", group_type=groups.namespace, children=[option_13, option_14, option_15, option_16, option_17, option_18, option_19, option_20], properties=frozenset({"standard"}))
+optiondescription_11 = OptionDescription(name="2", doc="2", children=[optiondescription_12], properties=frozenset({"standard"}))
+option_0 = OptionDescription(name="baseoption", doc="baseoption", children=[optiondescription_1, optiondescription_11])

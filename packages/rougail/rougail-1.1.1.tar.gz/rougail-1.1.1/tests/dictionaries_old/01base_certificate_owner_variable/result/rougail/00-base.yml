@@ -1,0 +1,7 @@
+version: 1.1
+owner:
+  type: unix_user
+  default: example
+server_name:
+  type: domainname
+  default: example.net

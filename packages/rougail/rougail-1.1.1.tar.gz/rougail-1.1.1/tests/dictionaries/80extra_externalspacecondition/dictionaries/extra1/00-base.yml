@@ -1,0 +1,8 @@
+---
+version: '1.0'
+external:
+  disabled:
+    jinja: |
+      {% if extra.variable == "no" %}
+      disabled
+      {% endif %}

@@ -1,0 +1,16 @@
+version: 1.1
+general:
+  condition:
+    description: No change
+    default: yes
+  condition2:
+    description: No change
+    default: no
+  test_variable:
+    description: No change
+    hidden: true
+    default: no
+    disabled:
+      type: jinja
+      jinja: '{% if rougail.general.condition2 == "yes" or rougail.general.condition2
+        == "maybe" %}disabled{% endif %}'

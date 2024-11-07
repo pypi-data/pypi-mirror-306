@@ -1,0 +1,13 @@
+version: 1.1
+bool:
+  type: boolean
+int1:
+  type: number
+  default:
+    type: jinja
+    jinja: '{% if bool %}1{% else %}2{% endif %}'
+int2:
+  type: number
+  default:
+    type: jinja
+    jinja: '{% if not bool %}3{% else %}4{% endif %}'

@@ -1,0 +1,16 @@
+---
+version: '1.0'
+leadership:
+  description: A leadership
+  type: leadership
+  leader:
+    description: The leader
+    multi: true
+  follower1:
+    description: The first follower
+    multi: true
+  follower2:
+    description: The second follower
+    multi: true
+    default:
+      - 'value'

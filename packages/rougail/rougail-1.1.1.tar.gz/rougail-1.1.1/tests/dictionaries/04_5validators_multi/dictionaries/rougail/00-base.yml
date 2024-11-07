@@ -1,0 +1,14 @@
+---
+version: 1.1
+var1:
+  description: a second variable
+  multi: true
+  default:
+    - 'no'
+    - 'yes'
+  validators:
+    - jinja: |
+        {% if _.var1 | length > 9 %}
+        length must be less than 10
+        {% endif %}
+      description: check length is less than 10

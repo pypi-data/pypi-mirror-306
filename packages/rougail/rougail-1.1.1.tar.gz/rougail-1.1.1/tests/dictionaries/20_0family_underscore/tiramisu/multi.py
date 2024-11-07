@@ -1,0 +1,43 @@
+from tiramisu import *
+from tiramisu.setting import ALLOWED_LEADER_PROPERTIES
+from re import compile as re_compile
+from rougail.tiramisu import func, dict_env, load_functions, ConvertDynOptionDescription
+load_functions('tests/dictionaries/../eosfunc/test.py')
+try:
+    groups.namespace
+except:
+    groups.addgroup('namespace')
+ALLOWED_LEADER_PROPERTIES.add("basic")
+ALLOWED_LEADER_PROPERTIES.add("standard")
+ALLOWED_LEADER_PROPERTIES.add("advanced")
+option_5 = StrOption(name="my_variable", doc="my_variable", properties=frozenset({"force_default_on_freeze", "frozen", "standard"}), informations={'type': 'string'})
+optiondescription_4 = OptionDescription(name="type", doc="a type family", children=[option_5], properties=frozenset({"standard"}))
+option_7 = StrOption(name="my_variable", doc="my_variable", properties=frozenset({"force_default_on_freeze", "frozen", "standard"}), informations={'type': 'string'})
+optiondescription_6 = OptionDescription(name="description", doc="This is a other great family", children=[option_7], properties=frozenset({"standard"}))
+option_9 = StrOption(name="my_variable", doc="my_variable", properties=frozenset({"force_default_on_freeze", "frozen", "standard"}), informations={'type': 'string'})
+optiondescription_8 = OptionDescription(name="help", doc="a help family", children=[option_9], properties=frozenset({"standard"}), informations={'help': 'This is a other great family'})
+option_11 = StrOption(name="my_variable", doc="my_variable", properties=frozenset({"advanced", "force_default_on_freeze", "frozen"}), informations={'type': 'string'})
+optiondescription_10 = OptionDescription(name="mode", doc="a mode family", children=[option_11], properties=frozenset({"advanced"}))
+option_13 = StrOption(name="my_variable", doc="my_variable", properties=frozenset({"force_default_on_freeze", "frozen", "standard"}), informations={'type': 'string'})
+optiondescription_12 = OptionDescription(name="hidden", doc="an hidden family", children=[option_13], properties=frozenset({"hidden", "standard"}))
+option_15 = StrOption(name="my_variable", doc="my_variable", properties=frozenset({"force_default_on_freeze", "frozen", "standard"}), informations={'type': 'string'})
+optiondescription_14 = OptionDescription(name="disabled", doc="an disabled family", children=[option_15], properties=frozenset({"disabled", "standard"}))
+optiondescription_3 = OptionDescription(name="my_family", doc="This is a great family", children=[optiondescription_4, optiondescription_6, optiondescription_8, optiondescription_10, optiondescription_12, optiondescription_14], properties=frozenset({"disabled", "hidden", "standard"}), informations={'help': 'This is a great family'})
+optiondescription_2 = OptionDescription(name="rougail", doc="Rougail", group_type=groups.namespace, children=[optiondescription_3], properties=frozenset({"standard"}))
+optiondescription_1 = OptionDescription(name="1", doc="1", children=[optiondescription_2], properties=frozenset({"standard"}))
+option_20 = StrOption(name="my_variable", doc="my_variable", properties=frozenset({"force_default_on_freeze", "frozen", "standard"}), informations={'type': 'string'})
+optiondescription_19 = OptionDescription(name="type", doc="a type family", children=[option_20], properties=frozenset({"standard"}))
+option_22 = StrOption(name="my_variable", doc="my_variable", properties=frozenset({"force_default_on_freeze", "frozen", "standard"}), informations={'type': 'string'})
+optiondescription_21 = OptionDescription(name="description", doc="This is a other great family", children=[option_22], properties=frozenset({"standard"}))
+option_24 = StrOption(name="my_variable", doc="my_variable", properties=frozenset({"force_default_on_freeze", "frozen", "standard"}), informations={'type': 'string'})
+optiondescription_23 = OptionDescription(name="help", doc="a help family", children=[option_24], properties=frozenset({"standard"}), informations={'help': 'This is a other great family'})
+option_26 = StrOption(name="my_variable", doc="my_variable", properties=frozenset({"advanced", "force_default_on_freeze", "frozen"}), informations={'type': 'string'})
+optiondescription_25 = OptionDescription(name="mode", doc="a mode family", children=[option_26], properties=frozenset({"advanced"}))
+option_28 = StrOption(name="my_variable", doc="my_variable", properties=frozenset({"force_default_on_freeze", "frozen", "standard"}), informations={'type': 'string'})
+optiondescription_27 = OptionDescription(name="hidden", doc="an hidden family", children=[option_28], properties=frozenset({"hidden", "standard"}))
+option_30 = StrOption(name="my_variable", doc="my_variable", properties=frozenset({"force_default_on_freeze", "frozen", "standard"}), informations={'type': 'string'})
+optiondescription_29 = OptionDescription(name="disabled", doc="an disabled family", children=[option_30], properties=frozenset({"disabled", "standard"}))
+optiondescription_18 = OptionDescription(name="my_family", doc="This is a great family", children=[optiondescription_19, optiondescription_21, optiondescription_23, optiondescription_25, optiondescription_27, optiondescription_29], properties=frozenset({"disabled", "hidden", "standard"}), informations={'help': 'This is a great family'})
+optiondescription_17 = OptionDescription(name="rougail", doc="Rougail", group_type=groups.namespace, children=[optiondescription_18], properties=frozenset({"standard"}))
+optiondescription_16 = OptionDescription(name="2", doc="2", children=[optiondescription_17], properties=frozenset({"standard"}))
+option_0 = OptionDescription(name="baseoption", doc="baseoption", children=[optiondescription_1, optiondescription_16])

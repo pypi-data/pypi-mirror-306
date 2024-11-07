@@ -1,0 +1,42 @@
+---
+version: '1.1'
+var:
+  description: a suffix variable
+  default:
+    - val1
+    - val2
+  test:
+    - val1
+    - val2
+    - val3
+    - val4
+
+"{{ identifier }}_dyn":
+  description: a dynamic family
+  dynamic:
+    variable: _.var
+
+  var1:
+    description: a variable 1
+    default:
+      type: identifier
+
+  var2:
+    description: a variable 2
+    default:
+      variable: rougail.{{ identifier }}_dyn.var1
+
+  var3:
+    description: a variable 3
+    default:
+      variable: _.var1
+
+  var4:
+    description: a variable 4
+    default:
+      variable: rougail.val4_dyn.var1
+    disabled:
+      jinja: |
+        {% if 'val4' not in __.var %}
+        val4 is not a valid value
+        {% endif %}

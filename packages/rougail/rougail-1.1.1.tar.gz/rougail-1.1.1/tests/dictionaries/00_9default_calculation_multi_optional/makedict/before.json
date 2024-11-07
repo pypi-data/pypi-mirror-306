@@ -1,0 +1,12 @@
+{
+    "rougail.my_variable": {
+        "owner": "default",
+        "value": "val1"
+    },
+    "rougail.my_calculated_variable": {
+        "owner": "default",
+        "value": [
+            "val1"
+        ]
+    }
+}

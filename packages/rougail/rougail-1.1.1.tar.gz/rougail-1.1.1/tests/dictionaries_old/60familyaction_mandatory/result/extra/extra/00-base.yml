@@ -1,0 +1,8 @@
+version: 1.1
+test:
+  delay:
+    description: délai en minutes avant lancement
+    default: 0
+  day:
+    type: number
+    description: day avant lancement

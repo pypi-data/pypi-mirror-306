@@ -1,0 +1,21 @@
+from tiramisu import *
+from tiramisu.setting import ALLOWED_LEADER_PROPERTIES
+from re import compile as re_compile
+from rougail.tiramisu import func, dict_env, load_functions, ConvertDynOptionDescription
+load_functions('tests/dictionaries/../eosfunc/test.py')
+try:
+    groups.namespace
+except:
+    groups.addgroup('namespace')
+ALLOWED_LEADER_PROPERTIES.add("basic")
+ALLOWED_LEADER_PROPERTIES.add("standard")
+ALLOWED_LEADER_PROPERTIES.add("advanced")
+dict_env['frozen_rougail.leader.leader'] = "{% if __.condition == \"no\" %}\ncondition is no\n{% endif %}\n"
+dict_env['frozen_rougail.leader.follower'] = "{% if __.condition == \"no\" %}\ncondition is no\n{% endif %}\n"
+dict_env['hidden_rougail.leader.leader'] = "{% if __.condition == \"no\" %}\ncondition is no\n{% endif %}\n"
+option_2 = StrOption(name="condition", doc="a condition", default="no", properties=frozenset({"mandatory", "standard"}), informations={'type': 'string'})
+option_4 = StrOption(name="leader", doc="a leader", multi=True, properties=frozenset({"force_default_on_freeze", "standard", Calculation(func['jinja_to_property'], Params((ParamValue("frozen")), kwargs={'__internal_jinja': ParamValue("frozen_rougail.leader.leader"), '__internal_type': ParamValue("string"), '__internal_multi': ParamValue(False), '__internal_files': ParamValue(['tests/dictionaries/44_5leadership_leader_hidden_calculation/dictionaries/rougail/00-base.yml']), '__internal_attribute': ParamValue("frozen"), '__internal_variable': ParamValue("rougail.leader.leader"), 'when': ParamValue(True), 'inverse': ParamValue(False), '__.condition': ParamOption(option_2, notraisepropertyerror=True)}), help_function=func['jinja_to_property_help'])}), informations={'type': 'string'})
+option_5 = StrOption(name="follower", doc="a follower", multi=True, properties=frozenset({"basic", "force_default_on_freeze", "mandatory", Calculation(func['jinja_to_property'], Params((ParamValue("frozen")), kwargs={'__internal_jinja': ParamValue("frozen_rougail.leader.follower"), '__internal_type': ParamValue("string"), '__internal_multi': ParamValue(False), '__internal_files': ParamValue(['tests/dictionaries/44_5leadership_leader_hidden_calculation/dictionaries/rougail/00-base.yml']), '__internal_attribute': ParamValue("frozen"), '__internal_variable': ParamValue("rougail.leader.follower"), 'when': ParamValue(True), 'inverse': ParamValue(False), '__.condition': ParamOption(option_2, notraisepropertyerror=True)}), help_function=func['jinja_to_property_help'])}), informations={'type': 'string'})
+optiondescription_3 = Leadership(name="leader", doc="a leadership", children=[option_4, option_5], properties=frozenset({"basic", Calculation(func['jinja_to_property'], Params((ParamValue("hidden")), kwargs={'__internal_jinja': ParamValue("hidden_rougail.leader.leader"), '__internal_type': ParamValue("string"), '__internal_multi': ParamValue(False), '__internal_files': ParamValue(['tests/dictionaries/44_5leadership_leader_hidden_calculation/dictionaries/rougail/00-base.yml']), '__internal_attribute': ParamValue("hidden"), '__internal_variable': ParamValue("rougail.leader.leader"), 'when': ParamValue(True), 'inverse': ParamValue(False), '__.condition': ParamOption(option_2, notraisepropertyerror=True)}), help_function=func['jinja_to_property_help'])}))
+optiondescription_1 = OptionDescription(name="rougail", doc="Rougail", group_type=groups.namespace, children=[option_2, optiondescription_3], properties=frozenset({"basic"}))
+option_0 = OptionDescription(name="baseoption", doc="baseoption", children=[optiondescription_1])

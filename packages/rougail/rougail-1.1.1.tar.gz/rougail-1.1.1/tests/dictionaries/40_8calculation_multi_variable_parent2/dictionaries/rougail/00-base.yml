@@ -1,0 +1,9 @@
+---
+version: '1.1'
+fam1:  # first family
+  var: "no"  # a variable
+fam2:  # second family
+  var:
+    description: a varaible
+    default:
+      variable: __.fam1.var

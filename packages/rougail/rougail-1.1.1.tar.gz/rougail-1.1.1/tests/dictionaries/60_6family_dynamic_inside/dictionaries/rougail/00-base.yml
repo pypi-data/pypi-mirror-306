@@ -1,0 +1,26 @@
+---
+version: '1.1'
+var:  # a suffix variable
+  - val1
+  - val2
+
+"{{ identifier }}_dyn":
+  description: a dynamic family
+  dynamic:
+    variable: _.var
+  var1:
+    description: value is suffix
+    default:
+      type: identifier
+  var2:
+    description: value is first variable
+    default:
+      variable: rougail.{{ identifier }}_dyn.var1
+  var3:
+    description: value is relative first variable
+    default:
+      variable: _.var1
+  var4:
+    description: value is first variable of val1
+    default:
+      variable: rougail.val1_dyn.var1

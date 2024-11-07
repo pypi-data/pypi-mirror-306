@@ -1,0 +1,17 @@
+{
+    "rougail.var": {
+        "owner": "default",
+        "value": [
+            "val1",
+            "val2"
+        ]
+    },
+    "rougail.dynval1.leadership.leader": {
+        "owner": "default",
+        "value": []
+    },
+    "rougail.dynval2.leadership.leader": {
+        "owner": "default",
+        "value": []
+    }
+}

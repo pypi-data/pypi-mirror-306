@@ -1,0 +1,26 @@
+{
+    "rougail.var": [
+        "val1",
+        "val2"
+    ],
+    "rougail.dynval1.var": [
+        "tval1",
+        "tval2"
+    ],
+    "rougail.dynval1.dyn_tval1.var": "tval1",
+    "rougail.dynval1.dyn_tval1.var_identifier": "val1",
+    "rougail.dynval1.dyn_tval1.var_identifiers": "val1-tval1",
+    "rougail.dynval1.dyn_tval2.var": "tval2",
+    "rougail.dynval1.dyn_tval2.var_identifier": "val1",
+    "rougail.dynval1.dyn_tval2.var_identifiers": "val1-tval2",
+    "rougail.dynval2.var": [
+        "tval1",
+        "tval2"
+    ],
+    "rougail.dynval2.dyn_tval1.var": "tval1",
+    "rougail.dynval2.dyn_tval1.var_identifier": "val2",
+    "rougail.dynval2.dyn_tval1.var_identifiers": "val2-tval1",
+    "rougail.dynval2.dyn_tval2.var": "tval2",
+    "rougail.dynval2.dyn_tval2.var_identifier": "val2",
+    "rougail.dynval2.dyn_tval2.var_identifiers": "val2-tval2"
+}

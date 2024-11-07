@@ -1,0 +1,40 @@
+---
+version: '1.1'
+
+var1:
+  description: the first variable
+  test:
+    - test
+
+var2:
+  description: the second variable
+  test:
+    - test
+  default: value
+
+var3:
+  description: the third variable
+  test:
+    - test1
+    - test2
+
+var4:
+  description: the forth variable
+  test:
+    - null
+    - test1
+    - test2
+  mandatory: false
+
+var5:
+  description: the fifth variable
+  type: boolean
+  test:
+    - false
+
+var6:
+  description: the sixth variable
+  multi: true
+  test:
+    - test1
+    - test2

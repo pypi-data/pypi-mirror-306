@@ -1,0 +1,10 @@
+version: 1.1
+my_var1:
+  type: string
+  default:
+    type: jinja
+    jinja: '{{ rougail.my_var2 | calc_val }}'
+my_var2:
+  default: no
+server_deployed:
+  default: false

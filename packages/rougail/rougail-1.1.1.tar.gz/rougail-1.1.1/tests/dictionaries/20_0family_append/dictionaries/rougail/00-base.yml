@@ -1,0 +1,6 @@
+---
+version: '1.1'
+family:
+  description: A family
+  var1:
+    description: The first variable

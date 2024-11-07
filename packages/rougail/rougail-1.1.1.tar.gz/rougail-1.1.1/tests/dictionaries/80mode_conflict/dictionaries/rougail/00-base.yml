@@ -1,0 +1,7 @@
+---
+version: '1.0'
+general:
+  mode: standard
+  mode_conteneur_actif:
+    mode: advanced
+    default: non

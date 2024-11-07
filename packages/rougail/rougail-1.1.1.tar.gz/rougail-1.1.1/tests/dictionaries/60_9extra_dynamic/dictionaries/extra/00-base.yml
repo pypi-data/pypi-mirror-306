@@ -1,0 +1,6 @@
+---
+version: 1.1
+dyn_{{ identifier }}:
+  dynamic:
+    variable: rougail.var
+  var:

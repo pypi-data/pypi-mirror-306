@@ -1,0 +1,11 @@
+version: 1.1
+general:
+  description: général
+  mode_conteneur_actif:
+    description: No change
+    hidden: true
+    default: oui
+  adresse_ip_test:
+    type: ip
+    description: No change
+    mandatory: false

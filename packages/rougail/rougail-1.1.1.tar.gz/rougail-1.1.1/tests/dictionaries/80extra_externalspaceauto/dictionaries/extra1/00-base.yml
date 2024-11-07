@@ -1,0 +1,5 @@
+---
+version: '1.0'
+extra1:
+  default:
+    variable: extra.extra_var

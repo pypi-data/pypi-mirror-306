@@ -1,0 +1,8 @@
+version: '1.0'
+leader:
+  type: leadership
+  leader:
+    multi: true
+  follower:
+  family:
+    type: family

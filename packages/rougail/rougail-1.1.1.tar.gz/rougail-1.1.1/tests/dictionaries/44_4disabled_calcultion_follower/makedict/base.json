@@ -1,0 +1,9 @@
+{
+    "rougail.condition": true,
+    "rougail.leader.leader": [
+        {
+            "rougail.leader.leader": "a",
+            "rougail.leader.follower": null
+        }
+    ]
+}

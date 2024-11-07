@@ -1,0 +1,13 @@
+version: 1.1
+general:
+  condition:
+    description: No change
+    default: non
+  mode_conteneur_actif:
+    description: No change
+    hidden: true
+    default: non
+  mode_conteneur_actif2:
+    description: No change
+    hidden: true
+    default: non

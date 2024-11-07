@@ -1,0 +1,11 @@
+---
+version: '1.1'
+"dyn{{ identifier }}":
+  dynamic:
+    - val1
+    - val2
+  var:
+    description: A dynamic variable
+    disabled:
+      type: identifier
+      when: 'val1'

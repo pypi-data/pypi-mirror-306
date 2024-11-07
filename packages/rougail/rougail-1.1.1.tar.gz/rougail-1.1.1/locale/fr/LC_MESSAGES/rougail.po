@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-10-30 13:21+0100\n"
+"PO-Revision-Date: 2024-10-30 13:39+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.5\n"
+
+#: src/rougail/annotator/family.py:142
+msgid "default variable mode \"{0}\" is not a valid mode, valid modes are {1}"
+msgstr ""
+"le mode d'une variable par défaut \"{0}\" n'est pas un mode valide, les "
+"modes valides sont {1}"
+
+#: src/rougail/annotator/family.py:148
+msgid "default family mode \"{0}\" is not a valid mode, valid modes are {1}"
+msgstr ""
+"le mode d'une famille par défaut \"{0}\" n'est pas un mode valide, les modes "
+"valides sont {1}"
+
+#: src/rougail/annotator/family.py:180
+msgid "mode \"{0}\" for \"{1}\" is not a valid mode, valid modes are {2}"
+msgstr ""
+"le mode \"{0}\" pour \"{1}\" n'est pas un mode valide, les modes valides "
+"sont {2}"
+
+#: src/rougail/annotator/family.py:184
+msgid "mode \"{0}\" for \"{1}\" is not a valid mode, no modes are available"
+msgstr ""
+"le mode \"{0}\" pour \"{1}\" n'est pas un mode valide, aucun mode ne sont "
+"définis"
+
+#: src/rougail/annotator/family.py:248
+msgid ""
+"the variable \"{0}\" is mandatory so in \"{1}\" mode but family has the "
+"higher family mode \"{2}\""
+msgstr ""
+"la variable \"{0}\" est obligatoire donc dans le mode \"{1}\" mais la "
+"famille a un mode supérieur \"{2}\""
+
+#: src/rougail/annotator/family.py:286
+msgid ""
+"the follower \"{0}\" is in \"{1}\" mode but leader have the higher mode "
+"\"{2}\""
+msgstr ""
+"la variable suiveuse \"{0}\" a le mode \"{1}\" mais la variable leader a un "
+"mode supérieur \"{2}\""
+
+#: src/rougail/annotator/family.py:319
+msgid ""
+"the family \"{0}\" is in \"{1}\" mode but variables and families inside have "
+"the higher modes \"{2}\""
+msgstr ""
+"la famille \"{0}\" a le mode \"{1}\" mais les variables et les familles à "
+"l'intérieur ont des modes supérieurs \"{2}\""
+
+#: src/rougail/annotator/family.py:337
+msgid ""
+"the variable \"{0}\" is in \"{1}\" mode but family has the higher family "
+"mode \"{2}\""
+msgstr ""
+"la variable \"{0}\" est dans le mode \"{1}\" mais la famille a le mode "
+"supérieur \"{2}\""
+
+#: src/rougail/annotator/value.py:80
+msgid "the follower \"{0}\" without multi attribute can only have one value"
+msgstr ""
+"la variable suiveuse \"{0}\" sans l'attribut multi peut avoir seulement une "
+"valeur"
+
+#: src/rougail/annotator/value.py:96
+msgid "the variable \"{0}\" is multi but has a non list default value"
+msgstr ""
+"la variable \"{0}\" est multiple mais a une valeur par défaut sans être une "
+"liste"
+
+#: src/rougail/annotator/variable.py:192
+msgid ""
+"the variable \"{0}\" has regexp attribut but has not the \"regexp\" type"
+msgstr ""
+"la variable \"{0}\" a un attribut regexp mais n'a pas le type \"regexp\""
+
+#: src/rougail/annotator/variable.py:235
+msgid ""
+"the variable \"{0}\" has choices attribut but has not the \"choice\" type"
+msgstr ""
+"la variable \"{0}\" a un attribut choices mais n'a pas le type \"choice\""
+
+#: src/rougail/annotator/variable.py:263
+msgid ""
+"the variable \"{0}\" has an unvalid default value \"{1}\" should be in {2}"
+msgstr ""
+"la variable \"{0}\" a la valeur par défaut invalide \"{1}\" devrait être {2}"
+
+#: src/rougail/convert.py:268
+msgid ""
+"A variable or a family located in the \"{0}\" namespace shall not be used in "
+"the \"{1}\" namespace"
+msgstr ""
+"Une variable ou une famille localisé dans l'espace de nom \"{0}\" ne devrait "
+"pas être utilisé dans l'espace de nom \"{1}\""
+
+#: src/rougail/convert.py:462
+msgid "unknown type {0} for {1}"
+msgstr "type {0} inconnu pour {1}"
+
+#: src/rougail/convert.py:1323
+msgid "duplicate dictionary file name {0}"
+msgstr "nom de fichier {0} de dictionnaire dupliqué"
+
+#: src/rougail/convert.py:1370
+msgid "Cannot execute annotate multiple time"
+msgstr "Ne peut exécuter l'annotation plusieurs fois"
+
+#: src/rougail/error.py:70
+msgid "{0} in {1}"
+msgstr "{0} dans {1}"
+
+#: src/rougail/structural_commandline/annotator.py:70
+msgid "alternative_name \"{0}\" conflict with \"--help\""
+msgstr "alternative_name \"{0}\" est en conflit avec \"--help\""
+
+#: src/rougail/structural_commandline/annotator.py:73
+msgid "conflict alternative_name \"{0}\": \"{1}\" and \"{2}\""
+msgstr "conflit dans les \"alternative_name\" \"{0}\": \"{1}\" et \"{2}\""
+
+#: src/rougail/structural_commandline/annotator.py:96
+msgid ""
+"negative_description is mandatory for boolean variable, but \"{0}\" hasn't"
+msgstr ""
+"l'attribut negative_description est obligatoire pour des variables "
+"\"boolean\", mais \"{0}\" n'en a pas"
+
+#: src/rougail/structural_commandline/annotator.py:105
+msgid ""
+"negative_description is only available for boolean variable, but \"{0}\" is "
+"\"{1}\""
+msgstr ""
+"l'attribut negative_description est seulement valide pour des variables "
+"\"boolean\", mais \"{0}\" est \"{1}\""
+
+#: src/rougail/update/update.py:741
+msgid "not a XML file: {0}"
+msgstr "fichier XML invalid : {0}"
+
+#: src/rougail/utils.py:58
+msgid ""
+"invalid variable or family name \"{0}\" must only contains lowercase ascii "
+"character, number or _"
+msgstr ""
+"nom invalide pour la variable ou famille \"{0}\" doit seulement contenir des "
+"caractères ascii minuscule, nombre or _"
+
+#: src/rougail/utils.py:120
+msgid "error in jinja \"{0}\" for the variable \"{1}\": {2}"
+msgstr "erreur dans Jinja \"{0}\" pour la variable \"{1}\": {2}"

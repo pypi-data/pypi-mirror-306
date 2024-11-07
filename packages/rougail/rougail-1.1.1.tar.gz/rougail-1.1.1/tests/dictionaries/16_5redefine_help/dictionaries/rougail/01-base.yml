@@ -1,0 +1,8 @@
+---
+version: '1.1'
+family:
+  redefine: true
+  help: redefine help family ok
+  variable:
+    redefine: true
+    help: redefine help ok

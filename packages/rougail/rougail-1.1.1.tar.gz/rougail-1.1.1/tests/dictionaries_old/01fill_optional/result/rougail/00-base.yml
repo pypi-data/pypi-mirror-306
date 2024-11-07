@@ -1,0 +1,22 @@
+version: 1.1
+general:
+  mode_conteneur_actif:
+    type: string
+    description: No change
+    hidden: true
+    default:
+      type: jinja
+      jinja: '{{ mode_conteneur_actif4 | calc_val(rougail.general.mode_conteneur_actif1,
+        mode_conteneur_actif3) }}'
+      params:
+        mode_conteneur_actif4:
+          type: variable
+          variable: mode_conteneur_actif4
+          optional: true
+        mode_conteneur_actif3:
+          type: variable
+          variable: mode_conteneur_actif3
+          optional: true
+  mode_conteneur_actif1:
+    description: No change
+    default: non

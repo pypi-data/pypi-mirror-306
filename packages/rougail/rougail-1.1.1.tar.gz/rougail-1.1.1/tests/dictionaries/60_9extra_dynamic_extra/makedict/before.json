@@ -1,0 +1,18 @@
+{
+    "rougail.general.varname": {
+        "owner": "default",
+        "value": [
+            "a"
+        ]
+    },
+    "extra.var": {
+        "owner": "default",
+        "value": [
+            "a"
+        ]
+    },
+    "extra.dyn_a.var": {
+        "owner": "default",
+        "value": null
+    }
+}

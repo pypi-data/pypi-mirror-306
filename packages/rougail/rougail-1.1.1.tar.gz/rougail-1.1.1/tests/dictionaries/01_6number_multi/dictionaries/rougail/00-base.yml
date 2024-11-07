@@ -1,0 +1,36 @@
+---
+version: '1.1'
+var1:  # the first variable
+  - 0
+var2:
+  description: the second variable
+  default:
+    - 0
+var3:
+  description: the third variable
+  type: number
+  default:
+    - 0
+var4:  # the forth variable
+  - 10
+var5:
+  description: the fifth variable
+  default:
+    - 10
+var6:
+  description: the sixth variable
+  type: number
+  default:
+    - 10
+
+var7:
+  description: the seventh variable
+  multi: true
+  default:
+    - 0
+var8:
+  description: the eighth variable
+  type: number
+  multi: true
+  default:
+    - 0

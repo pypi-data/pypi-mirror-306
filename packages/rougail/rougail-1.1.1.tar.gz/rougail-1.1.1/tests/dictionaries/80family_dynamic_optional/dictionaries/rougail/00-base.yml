@@ -1,0 +1,12 @@
+---
+version: '1.1'
+varname:
+  default:
+    - val1
+dyn{{ identifier }}:
+  dynamic:
+    type: variable
+    variable: _.varname
+    optional: true
+  vardyn:
+    type: string

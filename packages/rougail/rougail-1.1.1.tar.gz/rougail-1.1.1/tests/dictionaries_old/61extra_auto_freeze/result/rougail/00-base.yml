@@ -1,0 +1,10 @@
+version: 1.1
+general:
+  description: général
+  server_deployed:
+    type: boolean
+    description: No change
+  activer_ejabberd:
+    description: No change
+    hidden: true
+    default: non

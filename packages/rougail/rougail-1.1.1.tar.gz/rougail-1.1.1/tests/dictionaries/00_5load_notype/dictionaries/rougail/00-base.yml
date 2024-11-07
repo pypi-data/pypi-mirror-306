@@ -1,0 +1,5 @@
+---
+version: '1.0'
+without_type:
+  description: a variable
+  default: non

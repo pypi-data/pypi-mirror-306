@@ -1,0 +1,24 @@
+---
+version: '1.1'
+"dyn{{ identifier }}":
+  description: a dynamic family
+  dynamic:
+    - val1
+    - val2
+  hidden:
+    jinja: |
+      {% if suffix == 'val2' %}
+      disabled
+      {% endif %}
+    params:
+      suffix:
+        type: identifier
+    description: if suffix == 'val2'
+
+  var:
+    description: a variable
+    mandatory: false
+  family:  # a family
+    var:
+      description: a new variable
+      mandatory: false

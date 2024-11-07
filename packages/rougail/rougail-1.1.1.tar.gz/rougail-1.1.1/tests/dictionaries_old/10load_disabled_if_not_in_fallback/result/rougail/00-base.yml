@@ -1,0 +1,11 @@
+version: 1.1
+general:
+  condition:
+    description: No change
+    default: no
+  disable_variable:
+    description: No change
+    default: no
+    disabled:
+      type: jinja
+      jinja: '{% if unknown == "no" %}{% else %}disabled{% endif %}'

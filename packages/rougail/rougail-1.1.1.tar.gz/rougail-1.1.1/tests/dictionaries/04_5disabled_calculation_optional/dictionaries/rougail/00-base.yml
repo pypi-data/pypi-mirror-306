@@ -1,0 +1,33 @@
+---
+version: '1.1'
+condition: "no"  # a condition
+var1:
+  description: a first variable
+  hidden:
+    jinja: |
+      {% if unknown is not defined %}
+      unknown is undefined
+      {% elif unknown == "no" %}
+      unknown is no
+      {% endif %}
+    params:
+      unknown:
+        variable: _.unknown
+        optional: true
+    description: calculation from an unknown variable
+  mandatory: false
+var2:
+  description: a second variable
+  hidden:
+    jinja: |
+      {% if condition is not defined %}
+      condition is undefined
+      {% elif condition == "no" %}
+      condition is no
+      {% endif %}
+    params:
+      condition:
+        variable: _.condition
+        optional: true
+    description: calculation from an condition variable
+  mandatory: false

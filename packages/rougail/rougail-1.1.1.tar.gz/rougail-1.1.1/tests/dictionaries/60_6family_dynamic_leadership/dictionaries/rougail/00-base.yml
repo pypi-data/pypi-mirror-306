@@ -1,0 +1,21 @@
+---
+version: '1.1'
+var:  # a suffix variable
+  - val1
+  - val2
+"dyn{{ identifier }}":
+  description: a dynamic family
+  dynamic:
+    variable: _.var
+  leadership:
+    description: a leadership
+    type: leadership
+    leader:
+      description: a leader
+      multi: true
+    follower1:
+      description: a follower1
+      mandatory: false
+    follower2:
+      description: a follower2
+      mandatory: false

@@ -1,0 +1,4 @@
+version: 1.1
+general:
+  hidden: true
+  redefine: true

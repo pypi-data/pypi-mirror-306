@@ -1,0 +1,8 @@
+---
+version: '1.1'
+condition: "yes"  # a condition
+variable:
+  description: a variable
+  disabled:
+    variable: _.condition
+    when_not: "yes"

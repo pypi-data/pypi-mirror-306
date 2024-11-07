@@ -1,0 +1,23 @@
+version: 1.1
+general:
+  varname:
+    description: No change
+    default:
+    - 1
+    - 2
+dyn{{ suffix }}:
+  type: dynamic
+  vardyn{{ suffix }}:
+    description: No change
+    default: val
+  dynamic:
+    type: variable
+    variable: rougail.general.varname
+    propertyerror: false
+new:
+  newvar:
+    type: string
+    description: No change
+    default:
+      type: jinja
+      jinja: '{{ vardyn1 | calc_val }}'

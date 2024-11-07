@@ -1,0 +1,18 @@
+version: 1.1
+general:
+  varname:
+    description: No change
+    default:
+    - val1
+    - val2
+dyn{{ suffix }}:
+  description: 'Dyn '
+  type: dynamic
+  vardyn{{ suffix }}:
+    type: string
+    description: No change
+    mandatory: false
+  dynamic:
+    type: variable
+    variable: rougail.general.varname
+    propertyerror: false

@@ -1,0 +1,9 @@
+---
+version: '1.1'
+var:
+  description: a first variable
+  default:
+    - variable: _.var2
+    - variable: _.var3
+var2: "no"  # a second variable
+var3: "yes"  # a third variable

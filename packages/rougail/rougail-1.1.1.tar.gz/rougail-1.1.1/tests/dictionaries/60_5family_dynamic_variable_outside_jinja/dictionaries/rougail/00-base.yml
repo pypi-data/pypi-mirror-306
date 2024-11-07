@@ -1,0 +1,25 @@
+---
+version: '1.1'
+var:  # a suffix variable
+  - val1
+  - val2
+"my_dyn_family_{{ identifier }}":
+  description: a dynamic family
+  dynamic:
+    variable: _.var
+  var:
+    description: a variable inside a dynamic family
+    default:
+      type: identifier
+    mandatory: false
+var2:
+  description: a variable
+  multi: true
+  default:
+    jinja: |-
+      {%- for v in var %}
+      {{ v }}
+      {%- endfor -%}
+    params:
+      var:
+        variable: rougail.my_dyn_family_{{ identifier }}.var

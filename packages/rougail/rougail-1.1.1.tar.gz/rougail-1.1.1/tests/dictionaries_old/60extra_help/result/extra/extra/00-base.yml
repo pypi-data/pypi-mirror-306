@@ -1,0 +1,27 @@
+version: 1.1
+ejabberd:
+  description:
+    default: Exportation de la base de ejabberd
+  day:
+    type: choice
+    help: Test help
+    default:
+      type: jinja
+      jinja: '{{ "non" | calc_multi_condition(condition_1=activer_ejabberd, match="none",
+        mismatch="daily") }}'
+      params:
+        activer_ejabberd:
+          type: variable
+          variable: activer_ejabberd
+          propertyerror: false
+    choices:
+    - none
+    - daily
+    - weekly
+    - monthly
+  mode:
+    type: choice
+    default: pre
+    choices:
+    - pre
+    - post

@@ -1,0 +1,21 @@
+---
+version: '1.1'
+
+var:  # A suffix variable
+  - val1
+  - val2
+
+var2:  # a second variable
+
+"dyn{{ identifier }}":
+  description: A dynamic family
+  dynamic:
+    variable: _.var
+  hidden:
+    jinja: |
+      {% if _.var2 == "no" %}
+      var2 is no
+      {% endif %}
+    description: if var2 is no
+
+  vardyn: val  # a dynamic variable

@@ -1,0 +1,10 @@
+---
+version: '1.1'
+var3:
+  redefine: true
+  validators:
+    - jinja: |
+        {% if _.var3 == _.var2 %}
+        var3 must be different than var2
+        {% endif %}
+      description: var3 must be different than var2

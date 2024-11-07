@@ -1,0 +1,12 @@
+---
+version: '1.1'
+var:
+  description: a variable
+  default: 9
+  choices:
+    jinja: |+
+      {% for item in trange(0, 10) %}
+      {{ item }}
+      {%- endfor %}
+    return_type: number
+    description: choice for 0 to 9

@@ -1,0 +1,9 @@
+---
+version: '1.1'
+var1:  # a first variable
+var2:
+  description: a second variable
+  default:
+    type: information
+    information: test_information
+    variable: _.var1

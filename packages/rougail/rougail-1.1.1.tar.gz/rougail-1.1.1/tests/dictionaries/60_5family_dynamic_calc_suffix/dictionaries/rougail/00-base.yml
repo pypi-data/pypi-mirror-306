@@ -1,0 +1,20 @@
+---
+version: '1.1'
+
+var1:
+  description: A suffix variable
+  default:
+    - val1
+    - val2
+
+"dyn{{ identifier }}":
+  dynamic:
+    variable: _.var1
+
+  var:
+    description: A dynamic variable
+
+var2:
+  description: A variable calculated
+  default:
+    variable: rougail.dynval1.var

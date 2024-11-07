@@ -1,0 +1,20 @@
+version: 1.1
+general:
+  condition:
+    type: choice
+    description: No change
+    default: tous
+    choices:
+    - tous
+    - authentifié
+    - aucun
+  mode_conteneur_actif:
+    description: No change
+    default: aucun
+  mode_conteneur_actif2:
+    description: No change
+    default: non
+    disabled:
+      type: jinja
+      jinja: '{% if rougail.general.condition == rougail.general.mode_conteneur_actif
+        %}disabled{% endif %}'

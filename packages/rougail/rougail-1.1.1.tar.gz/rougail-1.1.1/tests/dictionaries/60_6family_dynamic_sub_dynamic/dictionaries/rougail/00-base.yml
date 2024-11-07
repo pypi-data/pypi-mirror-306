@@ -1,0 +1,44 @@
+---
+version: '1.1'
+var:  # A identifier variable
+  - val1
+  - val2
+"dyn{{ identifier }}":
+  description: A dynamic family
+  dynamic:
+    variable: _.var
+  var:
+    description: A dynamic variable
+    multi: true
+    default:
+      jinja: |
+        {% for val in __.var %}
+        t{{ val }}
+        {% endfor %}
+      description: add 't' to each var value
+  "dyn_{{ identifier }}":
+    description: a Second dynamic variable
+    dynamic:
+      variable: "rougail.dyn{{ identifier }}.var"
+    var:
+      description: A variable dynamic
+      default:
+        type: identifier
+    var_identifier:
+      description: identifier from first family
+      default:
+        type: identifier
+        identifier: 0
+    var_identifiers:
+      description: merge identifiers
+      default:
+        jinja: |
+          {{ s1 }}-{{ s2 }}
+        params:
+          s1:
+            type: identifier
+            identifier: 0
+          s2:
+            type: identifier
+            identifier: 1
+        description: join identifier 1 et identifier 2

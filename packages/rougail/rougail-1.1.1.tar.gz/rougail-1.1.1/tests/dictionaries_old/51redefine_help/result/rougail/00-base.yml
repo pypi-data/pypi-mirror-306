@@ -1,0 +1,8 @@
+version: 1.1
+general:
+  help: redefine help family
+  mode_conteneur_actif:
+    description: redefine help
+    hidden: true
+    help: redefine help
+    default: non

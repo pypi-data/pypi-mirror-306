@@ -1,0 +1,14 @@
+{
+    "rougail.source_variable_1": {
+        "owner": "default",
+        "value": "val1"
+    },
+    "rougail.source_variable_2": {
+        "owner": "default",
+        "value": "val2"
+    },
+    "rougail.my_variable": {
+        "owner": "default",
+        "value": "val1"
+    }
+}

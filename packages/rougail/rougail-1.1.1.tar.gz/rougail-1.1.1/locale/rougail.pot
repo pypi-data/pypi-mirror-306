@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-11-04 12:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: src/rougail/annotator/family.py:139
+msgid "default variable mode \"{0}\" is not a valid mode, valid modes are {1}"
+msgstr ""
+
+#: src/rougail/annotator/family.py:145
+msgid "default family mode \"{0}\" is not a valid mode, valid modes are {1}"
+msgstr ""
+
+#: src/rougail/annotator/family.py:177
+msgid "mode \"{0}\" for \"{1}\" is not a valid mode, valid modes are {2}"
+msgstr ""
+
+#: src/rougail/annotator/family.py:181
+msgid "mode \"{0}\" for \"{1}\" is not a valid mode, no modes are available"
+msgstr ""
+
+#: src/rougail/annotator/family.py:245
+msgid "the variable \"{0}\" is mandatory so in \"{1}\" mode but family has the higher family mode \"{2}\""
+msgstr ""
+
+#: src/rougail/annotator/family.py:283
+msgid "the follower \"{0}\" is in \"{1}\" mode but leader have the higher mode \"{2}\""
+msgstr ""
+
+#: src/rougail/annotator/family.py:316
+msgid "the family \"{0}\" is in \"{1}\" mode but variables and families inside have the higher modes \"{2}\""
+msgstr ""
+
+#: src/rougail/annotator/family.py:334
+msgid "the variable \"{0}\" is in \"{1}\" mode but family has the higher family mode \"{2}\""
+msgstr ""
+
+#: src/rougail/annotator/value.py:77
+msgid "the follower \"{0}\" without multi attribute can only have one value"
+msgstr ""
+
+#: src/rougail/annotator/value.py:93
+msgid "the variable \"{0}\" is multi but has a non list default value"
+msgstr ""
+
+#: src/rougail/annotator/variable.py:189
+msgid "the variable \"{0}\" has regexp attribut but has not the \"regexp\" type"
+msgstr ""
+
+#: src/rougail/annotator/variable.py:232
+msgid "the variable \"{0}\" has choices attribut but has not the \"choice\" type"
+msgstr ""
+
+#: src/rougail/annotator/variable.py:260
+msgid "the variable \"{0}\" has an unvalid default value \"{1}\" should be in {2}"
+msgstr ""
+
+#: src/rougail/convert.py:281
+msgid "A variable or a family located in the \"{0}\" namespace shall not be used in the \"{1}\" namespace"
+msgstr ""
+
+#: src/rougail/convert.py:475
+msgid "unknown type {0} for {1}"
+msgstr ""
+
+#: src/rougail/convert.py:1345
+msgid "duplicate dictionary file name {0}"
+msgstr ""
+
+#: src/rougail/convert.py:1392
+msgid "Cannot execute annotate multiple time"
+msgstr ""
+
+#: src/rougail/error.py:67
+msgid "{0} in {1}"
+msgstr ""
+
+#: src/rougail/structural_commandline/annotator.py:67
+msgid "alternative_name \"{0}\" conflict with \"--help\""
+msgstr ""
+
+#: src/rougail/structural_commandline/annotator.py:72
+msgid "conflict alternative_name \"{0}\": \"{1}\" and \"{2}\""
+msgstr ""
+
+#: src/rougail/structural_commandline/annotator.py:95
+msgid "negative_description is mandatory for boolean variable, but \"{0}\" hasn't"
+msgstr ""
+
+#: src/rougail/structural_commandline/annotator.py:104
+msgid "negative_description is only available for boolean variable, but \"{0}\" is \"{1}\""
+msgstr ""
+
+#: src/rougail/update/update.py:738
+msgid "not a XML file: {0}"
+msgstr ""
+
+#: src/rougail/utils.py:55
+msgid "invalid variable or family name \"{0}\" must only contains lowercase ascii character, number or _"
+msgstr ""
+
+#: src/rougail/utils.py:117
+msgid "error in jinja \"{0}\" for the variable \"{1}\": {2}"
+msgstr ""
+

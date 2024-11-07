@@ -1,0 +1,14 @@
+{
+    "rougail.variable1": {
+        "owner": "default",
+        "value": [
+            "a",
+            "b",
+            "c"
+        ]
+    },
+    "rougail.variable2": {
+        "owner": "default",
+        "value": null
+    }
+}

@@ -1,0 +1,11 @@
+---
+version: '1.1'
+custom1:
+  description: a first custom variable
+  type: custom
+  multi: true
+custom2:
+  description: a second custom variable
+  type: custom
+  default:
+    - value

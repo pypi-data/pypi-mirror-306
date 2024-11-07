@@ -1,0 +1,8 @@
+{
+    "rougail.var": [
+        "val1",
+        "val2"
+    ],
+    "rougail.dyn1.var": "val",
+    "rougail.dyn2.var": "val"
+}

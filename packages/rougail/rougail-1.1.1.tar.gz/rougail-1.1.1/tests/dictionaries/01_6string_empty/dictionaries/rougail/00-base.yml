@@ -1,0 +1,6 @@
+---
+version: '1.1'
+var1:
+  description: the second variable
+  empty: false
+  default: ['value', None]

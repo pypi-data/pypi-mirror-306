@@ -1,0 +1,20 @@
+{
+    "rougail.condition": {
+        "owner": "default",
+        "value": true
+    },
+    "rougail.leader.leader": {
+        "owner": "default",
+        "value": [
+            "a"
+        ]
+    },
+    "rougail.leader.follower": {
+        "owner": [
+            "default"
+        ],
+        "value": [
+            null
+        ]
+    }
+}

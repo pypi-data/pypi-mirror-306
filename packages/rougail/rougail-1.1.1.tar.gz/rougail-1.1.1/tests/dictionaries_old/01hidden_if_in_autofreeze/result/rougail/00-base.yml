@@ -1,0 +1,11 @@
+version: 1.1
+server_deployed:
+  default: false
+my_var:
+  type: string
+  default:
+    type: jinja
+    jinja: '{{ "yes" | calc_val }}'
+  hidden:
+    type: jinja
+    jinja: '{% if rougail.server_deployed == true %}hidden{% endif %}'

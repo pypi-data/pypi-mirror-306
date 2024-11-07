@@ -1,0 +1,13 @@
+version: 1.1
+my_var1:
+  default: no
+my_var2:
+  default: no
+  disabled:
+    type: jinja
+    jinja: '{% if rougail.my_var1 == "no" %}disabled{% endif %}'
+my_var3:
+  default: no
+  disabled:
+    type: jinja
+    jinja: '{% if rougail.my_var2 == "no" %}disabled{% endif %}'

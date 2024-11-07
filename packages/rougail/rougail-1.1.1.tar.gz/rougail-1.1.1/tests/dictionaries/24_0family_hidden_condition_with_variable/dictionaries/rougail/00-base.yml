@@ -1,0 +1,21 @@
+---
+version: '1.1'
+condition1: false  # a first conditional variable
+condition2: false  # a second conditional variable
+family:
+  description: a family
+  hidden:
+    jinja: |
+      {% if not rougail.condition1 %}
+      condition1 is false
+      {% endif %}
+    description: if condition1 is false
+  variable:
+    description: a variable
+    hidden:
+      jinja: |
+        {% if rougail.condition2 %}
+        condition2 is true
+        {% endif %}
+      description: if condition2 is false
+    mandatory: false

@@ -1,0 +1,10 @@
+{
+    "rougail.variable": {
+        "owner": "default",
+        "value": "rougail"
+    },
+    "extra.variable": {
+        "owner": "default",
+        "value": "no"
+    }
+}

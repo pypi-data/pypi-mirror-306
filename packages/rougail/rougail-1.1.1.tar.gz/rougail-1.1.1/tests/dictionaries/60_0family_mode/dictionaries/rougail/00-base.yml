@@ -1,0 +1,7 @@
+---
+version: '1.1'
+family:  # a family
+  var:
+    description: A variable
+    mode: basic
+    default: non

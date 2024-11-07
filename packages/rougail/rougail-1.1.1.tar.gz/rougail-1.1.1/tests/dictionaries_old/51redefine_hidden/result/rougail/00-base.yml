@@ -1,0 +1,5 @@
+version: 1.1
+general:
+  mode_conteneur_actif:
+    description: Redefine hidden
+    default: non

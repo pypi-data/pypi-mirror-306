@@ -1,0 +1,10 @@
+{
+    "rougail.custom1": {
+        "owner": "default",
+        "value": null
+    },
+    "rougail.custom2": {
+        "owner": "default",
+        "value": "value"
+    }
+}

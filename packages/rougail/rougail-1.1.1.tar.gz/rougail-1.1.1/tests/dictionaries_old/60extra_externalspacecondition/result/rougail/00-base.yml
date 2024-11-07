@@ -1,0 +1,11 @@
+version: 1.1
+general:
+  description: général
+  my_var:
+    default: no
+  my_var1:
+    hidden: true
+    default: no
+  server_deployed:
+    hidden: true
+    default: false

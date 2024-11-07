@@ -1,0 +1,27 @@
+version: 1.1
+general:
+  mode: advanced
+  mode_conteneur_actif:
+    description: No change
+    default: non
+leadermode:
+  leader:
+    description: leader
+    type: leadership
+    leader:
+      type: string
+      description: leader
+      multi: true
+      hidden: true
+      default:
+        type: jinja
+        jinja: "{% for __variable in \"valfill\" | calc_list %}\n{{ __variable }}\n
+          {% endfor %}"
+    follower1:
+      type: string
+      description: follower1
+      mandatory: false
+    follower2:
+      type: string
+      description: follower2
+      mandatory: false

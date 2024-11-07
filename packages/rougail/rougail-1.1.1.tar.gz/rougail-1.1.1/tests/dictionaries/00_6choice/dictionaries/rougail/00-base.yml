@@ -1,0 +1,42 @@
+---
+version: '1.1'
+var1:
+  description: the first variable
+  choices:
+    - a
+    - b
+    - c
+var2:
+  description: the second variable
+  choices:
+    - a
+    - b
+    - c
+var3:
+  description: the third variable
+  choices:
+    - a
+    - b
+    - c
+  mandatory: false
+var4:
+  description: the forth variable
+  choices:
+    - null
+    - b
+    - c
+  mandatory: false
+var5:
+  description: the fifth variable
+  choices:
+    - a
+    - b
+    - c
+  default: a
+var6:
+  description: the sixth variable
+  choices:
+    - 1
+    - 2
+    - 3
+  default: 1

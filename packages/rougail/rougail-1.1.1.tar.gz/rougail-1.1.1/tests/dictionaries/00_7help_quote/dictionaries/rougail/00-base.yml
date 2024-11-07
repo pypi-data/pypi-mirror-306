@@ -1,0 +1,8 @@
+---
+version: '1.0'
+var1:
+  description: the first variable
+  help: message with '
+var2:
+  description: the second variable
+  help: message with "

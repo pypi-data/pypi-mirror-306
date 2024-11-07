@@ -1,0 +1,20 @@
+version: 1.1
+general:
+  mode_conteneur_actif:
+    description: No change
+    default: non
+  mode_conteneur_actif1:
+    description: No change
+    default: non
+    disabled: &id001
+      type: jinja
+      jinja: '{% if condition == "oui" %}disabled{% endif %}'
+  mode_conteneur_actif2:
+    description: No change
+    default: non
+    disabled: *id001
+disabled_family:
+  mode_conteneur_actif3:
+    description: No change
+    default: non
+  disabled: *id001

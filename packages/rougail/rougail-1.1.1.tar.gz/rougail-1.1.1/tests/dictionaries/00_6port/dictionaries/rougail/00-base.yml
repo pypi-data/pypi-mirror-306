@@ -1,0 +1,13 @@
+---
+version: '1.1'
+variable1:
+  description: a port variable
+  type: port
+variable2:
+  description: a port variable with default value
+  type: port
+  default: '8080'
+variable3:
+  description: a port variable with integer default value
+  type: port
+  default: 8080

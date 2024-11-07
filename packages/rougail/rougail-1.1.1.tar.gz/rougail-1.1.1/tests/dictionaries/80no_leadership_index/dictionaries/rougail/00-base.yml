@@ -1,0 +1,8 @@
+---
+version: '1.0'
+my_variable:
+  default:
+    jinja: '{{ index }}'
+    params:
+      index:
+        type: index

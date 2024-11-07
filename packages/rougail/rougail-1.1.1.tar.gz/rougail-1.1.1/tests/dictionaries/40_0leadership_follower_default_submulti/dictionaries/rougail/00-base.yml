@@ -1,0 +1,12 @@
+---
+version: '1.1'
+leader:
+  description: a leadership
+  type: leadership
+  leader:  # a leader
+    - leader
+  follower1:  # a follower1
+    - value
+  follower2:  # a follower2
+    - value1
+    - value2

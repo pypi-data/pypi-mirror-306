@@ -1,0 +1,7 @@
+---
+version: '1.1'
+condition: true  # a condition
+variable:
+  description: a variable
+  disabled:
+    variable: _.condition

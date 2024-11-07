@@ -1,0 +1,29 @@
+---
+version: '1.1'
+bool: false  # a boolean variable
+multi1:
+  description: a first multi variable
+  type: boolean
+  multi: true
+  default:
+    jinja: |
+      {% if _.bool %}
+      True
+      False
+      {% else %}
+      False
+      {% endif %}
+    description: a calculation
+multi2:
+  description: a second multi variable
+  type: boolean
+  multi: true
+  default:
+    jinja: |
+      {% if not _.bool %}
+      True
+      False
+      {% else %}
+      False
+      {% endif %}
+    description: a calculation

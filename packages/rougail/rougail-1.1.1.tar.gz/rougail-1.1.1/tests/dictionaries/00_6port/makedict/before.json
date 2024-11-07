@@ -1,0 +1,14 @@
+{
+    "rougail.variable1": {
+        "owner": "default",
+        "value": null
+    },
+    "rougail.variable2": {
+        "owner": "default",
+        "value": "8080"
+    },
+    "rougail.variable3": {
+        "owner": "default",
+        "value": "8080"
+    }
+}

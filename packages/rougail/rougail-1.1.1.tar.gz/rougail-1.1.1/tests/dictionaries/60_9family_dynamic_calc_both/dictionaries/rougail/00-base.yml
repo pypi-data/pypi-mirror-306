@@ -1,0 +1,9 @@
+---
+version: '1.1'
+var: val2  # a suffix variable
+"dyn{{ identifier }}":
+  description: a dynamic family
+  dynamic:
+    - val1
+    - variable: _.var
+  vardyn:  # a dynamic variable

@@ -1,0 +1,12 @@
+---
+version: '1.1'
+var1: 'yes'  # a first variable
+var2:
+  description: a second variable
+  type: boolean
+  default:
+    jinja: |
+      {% if rougail.var1 == 'no' %}
+      false
+      {% endif %}
+    description: return false if the value of var1 is "no"

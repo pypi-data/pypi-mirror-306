@@ -1,0 +1,10 @@
+{
+    "rougail.condition": {
+        "owner": "default",
+        "value": false
+    },
+    "rougail.family.variable": {
+        "owner": "default",
+        "value": null
+    }
+}

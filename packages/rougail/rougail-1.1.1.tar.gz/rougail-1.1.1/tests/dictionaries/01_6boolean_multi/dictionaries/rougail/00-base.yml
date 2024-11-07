@@ -1,0 +1,36 @@
+---
+version: '1.1'
+var1:  # the first variable
+  - true
+var2:
+  description: the second variable
+  default:
+    - true
+var3:
+  description: the third variable
+  type: boolean
+  default:
+    - true
+var4:  # the forth variable
+  - false
+var5:
+  description: the fifth variable
+  default:
+    - false
+var6:
+  description: the sixth variable
+  type: boolean
+  default:
+    - false
+
+var7:
+  description: the seventh variable
+  multi: true
+  default:
+    - true
+var8:
+  description: the eighth variable
+  type: boolean
+  multi: true
+  default:
+    - true
