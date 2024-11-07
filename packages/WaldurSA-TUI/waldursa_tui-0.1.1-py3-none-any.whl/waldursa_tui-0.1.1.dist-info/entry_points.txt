@@ -1,0 +1,3 @@
+[console_scripts]
+waldur_site_agent_tui=WaldurSA_TUI.main:main
+
