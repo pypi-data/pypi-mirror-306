@@ -1,0 +1,10 @@
+odoo/addons/invoice_line_label_without_internal_ref/README.rst,sha256=tFiKjZ0gUMLb8R7XIFixL3rgs_nxLL5bvqmTesO4o7g,1670
+odoo/addons/invoice_line_label_without_internal_ref/__init__.py,sha256=JC_RBZQQfnie8b3c-5xHUk_pjA-wRsnw74_BHfCglRw,162
+odoo/addons/invoice_line_label_without_internal_ref/__manifest__.py,sha256=8fUVytTsrZ6ALJWav06_Oy9o1lH46EUxebHfYEmB2s8,582
+odoo/addons/invoice_line_label_without_internal_ref/models/__init__.py,sha256=HfQT0fMEFXZCe9doLFCcPfBZ4lJb1oUAxZmHrOSyYBk,169
+odoo/addons/invoice_line_label_without_internal_ref/models/account_move.py,sha256=IeHzPFp61Jxs2ayFxLrx9Fw_H6yWCEWu6f6AKlfat1U,546
+odoo/addons/invoice_line_label_without_internal_ref/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo_addon_invoice_line_label_without_internal_ref-15.0.1.0.0.1.dist-info/METADATA,sha256=tIKGrTY9K3HlW3LlKJVcNFGM6tm_ccNRopS4QA6bXpI,2246
+odoo_addon_invoice_line_label_without_internal_ref-15.0.1.0.0.1.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_invoice_line_label_without_internal_ref-15.0.1.0.0.1.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_invoice_line_label_without_internal_ref-15.0.1.0.0.1.dist-info/RECORD,,
