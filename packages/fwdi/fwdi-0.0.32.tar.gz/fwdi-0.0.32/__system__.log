@@ -1,0 +1,495 @@
+DEBUG:passlib.utils.compat:loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG:passlib.utils.compat:loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG:passlib.utils.compat:loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+INFO:logs/ITSHelper___inject__.log:ident=139679044173824, id=333726::0::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.decode_payload_token at 0x7f0976011f30>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=139679044173824, id=333726::1::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.verify_password at 0x7f0976013a30>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=139679044173824, id=333726::2::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.get_password_hash at 0x7f0976012e60>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=139679044173824, id=333726::3::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.get_user_by_username at 0x7f09760135b0>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=139679044173824, id=333726::4::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.get_user_by_email at 0x7f0976013370>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=139679044173824, id=333726::5::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.create_access_token at 0x7f09760130a0>)> -- SET INJECT
+DEBUG:passlib.utils.compat:loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG:passlib.utils.compat:loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG:passlib.utils.compat:loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+INFO:ITSHelper:ident=140306891935744, id=334329::0::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.decode_payload_token at 0x7f9bb5245ea0>)> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::1::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.verify_password at 0x7f9bb5247010>)> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::2::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.get_password_hash at 0x7f9bb5289c60>)> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::3::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.get_user_by_username at 0x7f9bb5289cf0>)> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::4::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.get_user_by_email at 0x7f9bb5289d80>)> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::5::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.create_access_token at 0x7f9bb5289e10>)> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::6::fwdi.Application.Usecase.user_repository::<function UserRepositoryFWDI.get_all at 0x7f9bb4e8bd00> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::7::fwdi.Application.Usecase.user_repository::<function UserRepositoryFWDI.get_user_scopes at 0x7f9bb4e8bf40> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::8::fwdi.Infrastructure.Rest.rest_client::<function RestClientFWDI.login at 0x7f9bb4cce290> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::9::fwdi.Infrastructure.Rest.rest_client::<function RestClientFWDI.get at 0x7f9bb4cce320> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::10::fwdi.Infrastructure.Rest.rest_client::<function RestClientFWDI.post at 0x7f9bb4cce3b0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::11::fwdi.Persistence.manager_db_context::<function ManagerDbContextFWDI.get_metadata_user at 0x7f9bb4ccecb0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::12::fwdi.Persistence.manager_db_context::<function ManagerDbContextFWDI.get_metadata_permission at 0x7f9bb4ccedd0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::13::fwdi.Persistence.manager_db_context::<function ManagerDbContextFWDI.get_metadata_scopes at 0x7f9bb4ccee60> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::14::fastapi.security.oauth2::<fastapi.security.oauth2.OAuth2PasswordBearer object at 0x7f9bb4caaef0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::15::fwdi.Infrastructure.JwtService.jwt_service::<staticmethod(<function JwtServiceFWDI.authenticate_user at 0x7f9bb4cce830>)> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::16::fwdi.Infrastructure.JwtService.jwt_service::<staticmethod(<function JwtServiceFWDI.get_current_user at 0x7f9bb4cceb90>)> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::17::fwdi.Infrastructure.JwtService.jwt_service::<staticmethod(<function JwtServiceFWDI.get_current_active_user at 0x7f9bb4ccf640>)> -- SET INJECT
+DEBUG:faiss.loader:Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:pymorphy3.opencorpora_dict.wrapper:Loading dictionaries from /home/alitrix/Packages/SourcePackages/fwdi-dev/env/lib/python3.10/site-packages/pymorphy3_dicts_ru/data
+INFO:pymorphy3.opencorpora_dict.wrapper:format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+INFO:ITSHelper:ident=140306891935744, id=334329::18::Utilites.tools::<function TextTools.clear_garbage_v1 at 0x7f9ab2c73d00> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::19::Utilites.tools::<function TextTools.clear_garbage_v2 at 0x7f9ab2c73d90> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::20::Utilites.tools::<function TextTools.clear_garbage_hard_v1 at 0x7f9ab2abc0d0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::21::Utilites.tools::<function TextTools.clear_numerics at 0x7f9ab2c73eb0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::22::Utilites.tools::<function TextTools.clear_regex_text at 0x7f9ab2c73f40> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::23::Utilites.tools::<function TextTools.clear_other_text at 0x7f9ab2abc040> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::24::Utilites.tools::<function TextTools.lemmatize_fn at 0x7f9ab2c73e20> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::25::Utilites.tools::<function TextTools.delete_stop_word at 0x7f9ab2abc160> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::26::Utilites.tools::<function TextTools.parse_responce_llm_question at 0x7f9ab2abc1f0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::27::Utilites.tools::<function TextTools.clearing_text_fn_v1 at 0x7f9ab2abc280> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::28::Utilites.tools::<function TextTools.split_fn_v1 at 0x7f9ab2abc310> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::29::Utilites.tools::<function TextTools.clean_and_repack_text at 0x7f9ab2abc3a0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::30::Utilites.tools::<function TextTools.delete_bad_word_v2 at 0x7f9ab2abc430> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::31::Infrastructure.rag_llm_service::<function LLMService.request_to_llm at 0x7f9aa2f5d000> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::32::Infrastructure.rag_llm_service::<function LLMService.IsBusy at 0x7f9aa2f5d090> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::33::Infrastructure.rag_llm_service::<function LLMService.request_v2 at 0x7f9aa2f5d120> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::34::Application.TaskManager.task_manager::<function TaskManager.add at 0x7f9aa2f5ce50> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::35::Application.TaskManager.task_manager::<function TaskManager.add_task_for_update at 0x7f9aa2f5cee0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::36::Application.TaskManager.task_manager::<function TaskManager.__execute at 0x7f9aa2f5cdc0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::37::Application.TaskManager.task_manager::<function TaskManager.get at 0x7f9aa2f5cd30> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::38::Application.TaskManager.task_manager::<function TaskManager.get_update at 0x7f9aa2f5c8b0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::39::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__parse_stand at 0x7f9aa2f5d6c0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::40::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__preprocessing_text at 0x7f9aa2f5d750> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::41::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__parse_bsp at 0x7f9aa2f5d7e0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::42::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__merge_parse_data at 0x7f9aa2f5d870> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::43::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__prepared_sentences at 0x7f9aa2f5d900> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::44::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__create_new_vectore_store at 0x7f9aa2f5d990> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::45::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.create_vectore_database at 0x7f9aa2f5da20> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::46::Application.Usecases.usecase_search::<function ServiceSearch.relevant_search at 0x7f9aa2f5ea70> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::47::Application.Usecases.usecase_search::<function ServiceSearch.__vector_search at 0x7f9aa2f5eb90> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::48::Application.Usecases.usecase_search::<function ServiceSearch.__uniq_answer at 0x7f9aa2f5ec20> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::49::Application.Usecases.usecase_search::<function ServiceSearch.__search_result_lsi at 0x7f9aa2f5ecb0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::50::Application.Usecases.usecase_search::<function ServiceSearch.__check_quantity_words at 0x7f9aa2f5ed40> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::51::Application.Usecases.usecase_search::<function ServiceSearch.__unity_answer at 0x7f9aa2f5edd0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::52::Application.Usecases.usecase_search::<function ServiceSearch.__create_context_for_llm at 0x7f9aa2f5ee60> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::53::Application.Usecases.usecase_task_manager::<function UsecaseTaskManager.add_task at 0x7f9aa2f5f370> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::54::Application.Usecases.usecase_task_manager::<function UsecaseTaskManager.get_answer at 0x7f9aa2f5f490> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::55::Application.Usecases.usecase_task_manager::<function UsecaseTaskManager.add_task_for_update at 0x7f9aa2f5f520> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::56::Application.Usecases.usecase_task_manager::<function UsecaseTaskManager.get_update at 0x7f9aa2f5f5b0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::57::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__check_base_dir at 0x7f9aa2c15900> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::58::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__get_or_create_dictionary_corpus at 0x7f9aa2c15990> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::59::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__get_or_create_tfidf at 0x7f9aa2c15a20> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::60::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__get_or_create_lsi at 0x7f9aa2c15ab0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::61::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__get_or_create_similary_matrix at 0x7f9aa2c15b40> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::62::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__save_corpus_dictionary at 0x7f9aa2c15bd0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::63::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__load_corpus_dictionary at 0x7f9aa2c15c60> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::64::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.create_lsi_lda_matrix_db_v2 at 0x7f9aa2c15cf0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::65::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__load_or_create_vector at 0x7f9aa2c15d80> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::66::Persistance.manager_db::<function ManagerDbContext.get_vector_store at 0x7f9aa2c16950> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::67::Persistance.manager_db::<function ManagerDbContext.get_pickle_store at 0x7f9aa2c169e0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::68::Persistance.manager_db::<function ManagerDbContext.get_matrix_store at 0x7f9aa2c16a70> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::69::Persistance.search_lsi_lda::<function SearchLsiLda.search at 0x7f9aa2c171c0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::70::Persistance.search_lsi_lda::<function SearchLsiLda.get_doc_by_result at 0x7f9aa2c17250> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::71::Presentation.Endpoints.dumps_endpoints::<function DumpEndpoint.dumps_list at 0x7f9aa2c179a0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::72::Presentation.Endpoints.dumps_endpoints::<function DumpEndpoint.dump at 0x7f9aa2c17f40> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::73::Presentation.Endpoints.parse_and_create_db_endpoints::<function ParseEndpoint.parse at 0x7f9aa2c17d00> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::74::Presentation.Endpoints.questions_endpoints::<function QuestionEndpoint.search at 0x7f9aa2c2c3a0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::75::Presentation.Endpoints.questions_endpoints::<function QuestionEndpoint.answer at 0x7f9aa2c2c1f0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::76::Utilites.web_parse_tools::<function WebParseTools.url_request at 0x7f9aa2c2cdc0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::77::Utilites.web_parse_tools::<function WebParseTools.parse_req at 0x7f9aa2c2cee0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::78::Utilites.web_parse_tools::<function WebParseTools.clear_text_for_vector at 0x7f9aa2c2cf70> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::79::Infrastructure.Embeding.embeding_model::<function EmbeddingModel.encode at 0x7f9a9cf16ef0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::80::Infrastructure.manager_context_menu_bsp::<function ManagerContextMenuBSP.add_child at 0x7f9a9cd2e170> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::81::Infrastructure.manager_context_menu_bsp::<function ManagerContextMenuBSP.load_menu_v2 at 0x7f9a9cd2e290> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::82::Infrastructure.manager_context_menu_bsp::<function ManagerContextMenuBSP.get_hash at 0x7f9a9cd2e320> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::83::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.parse at 0x7f9a9ced3880> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::84::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.__iter_for_tags at 0x7f9a9cd2e5f0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::85::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.__create_driver at 0x7f9a9cd2e680> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::86::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.__create_child at 0x7f9a9cd2e7a0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::87::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.__iteration_items_menu at 0x7f9a9cd2e830> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::88::Infrastructure.manager_context_menu::<function ManagerContextMenu.add_child at 0x7f9a9cd2f250> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::89::Infrastructure.manager_context_menu::<function ManagerContextMenu.load_menu_v2 at 0x7f9a9cd2f2e0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::90::Infrastructure.manager_context_menu::<function ManagerContextMenu.get_hash at 0x7f9a9cd2f370> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::91::Infrastructure.Parse.web_parse_standart::<function WebParseStand.parse at 0x7f9a9cd2f010> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::92::Infrastructure.Parse.proxy_web_parse::<function ProxyWebParse.get_parse_stand at 0x7f9a9cd2ec20> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::93::Infrastructure.Parse.proxy_web_parse::<function ProxyWebParse.get_parse_bsp at 0x7f9a9cd2f6d0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::94::Infrastructure.Proccesing.stage_data_processing::<staticmethod(<function StageDataProcessing.preprocessing_text at 0x7f9a9cd54160>)> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::95::Infrastructure.Proccesing.stage_data_processing::<staticmethod(<function StageDataProcessing.prepared_sentences__universal at 0x7f9a9cd54280>)> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::96::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__clear_text_for_vector at 0x7f9a9cd54310> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::97::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__get_or_create_source_db_v1 at 0x7f9a9cd543a0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::98::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__prepared_text_v2 at 0x7f9a9cd54430> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::99::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__get_llm_about_text at 0x7f9a9cd544c0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::100::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__get_llm_question_text at 0x7f9a9cd54550> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::101::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__get_or_create_source_db_v2 at 0x7f9a9cd545e0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::102::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__request_about_text_v1 at 0x7f9a9cd54670> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::103::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__request_questions_text_v1 at 0x7f9a9cd54700> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::104::Infrastructure.SmilarityService.vectore_service::<function VectoreService.create_vector_db_v1 at 0x7f9a9cd54ee0> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::105::Infrastructure.SmilarityService.vectore_service::<function VectoreService.__embedding_fn at 0x7f9a9cd55000> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::106::Infrastructure.similarity_data_store::<staticmethod(<function SimilarityDataStore.read at 0x7f9a9cd55480>)> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::107::Infrastructure.similarity_data_store::<staticmethod(<function SimilarityDataStore.write at 0x7f9a9cd555a0>)> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::108::fwdi.Presentation.DefaultControllers.home_controller::<function Controller.index at 0x7f9a9cd56560> -- SET INJECT
+INFO:ITSHelper:ident=140306891935744, id=334329::109::fwdi.Presentation.DefaultControllers.token_controller::<staticmethod(<function TokenController.post at 0x7f9a9cd56680>)> -- SET INJECT
+DEBUG:peewee:('CREATE TABLE IF NOT EXISTS "permissions" ("id" INTEGER NOT NULL PRIMARY KEY, "name" VARCHAR(255) NOT NULL)', [])
+DEBUG:peewee:('CREATE TABLE IF NOT EXISTS "scope" ("id" INTEGER NOT NULL PRIMARY KEY, "name" VARCHAR(255) NOT NULL, "description" VARCHAR(255) NOT NULL)', [])
+DEBUG:peewee:('CREATE TABLE IF NOT EXISTS "permissions_scope_through" ("id" INTEGER NOT NULL PRIMARY KEY, "permissions_id" INTEGER NOT NULL, "scope_id" INTEGER NOT NULL, FOREIGN KEY ("permissions_id") REFERENCES "permissions" ("id"), FOREIGN KEY ("scope_id") REFERENCES "scope" ("id"))', [])
+DEBUG:peewee:('CREATE INDEX IF NOT EXISTS "permissionsscopethrough_permissions_id" ON "permissions_scope_through" ("permissions_id")', [])
+DEBUG:peewee:('CREATE INDEX IF NOT EXISTS "permissionsscopethrough_scope_id" ON "permissions_scope_through" ("scope_id")', [])
+DEBUG:peewee:('CREATE UNIQUE INDEX IF NOT EXISTS "permissionsscopethrough_permissions_id_scope_id" ON "permissions_scope_through" ("permissions_id", "scope_id")', [])
+DEBUG:peewee:('CREATE TABLE IF NOT EXISTS "user" ("id" INTEGER NOT NULL PRIMARY KEY, "username" VARCHAR(255) NOT NULL, "full_name" VARCHAR(255) NOT NULL, "email" VARCHAR(255) NOT NULL, "hashed_password" VARCHAR(255) NOT NULL, "disabled" INTEGER NOT NULL, "scopes_id" INTEGER NOT NULL, FOREIGN KEY ("scopes_id") REFERENCES "permissions" ("id"))', [])
+DEBUG:peewee:('CREATE INDEX IF NOT EXISTS "user_scopes_id" ON "user" ("scopes_id")', [])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."name", "t1"."description" FROM "scope" AS "t1"', [])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."name" FROM "permissions" AS "t1"', [])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."username", "t1"."full_name", "t1"."email", "t1"."hashed_password", "t1"."disabled", "t1"."scopes_id" FROM "user" AS "t1"', [])
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[54:73]
+DEBUG:multipart.multipart:Calling on_header_value with data[75:101]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[105:110]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[166:185]
+DEBUG:multipart.multipart:Calling on_header_value with data[187:213]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[217:222]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+INFO:ITSHelper:ident=140302555805248, id=334928::fwdi.Utilites.ext_reflection::<staticmethod(<function TokenController.post at 0x7f9a9cd56680>)>::0::3 -- SYNC ACTION
+INFO:ITSHelper:ident=140302555805248, id=334928::Request auth from :<fastapi.security.oauth2.OAuth2PasswordRequestForm object at 0x7f9a9ccb9f90>
+INFO:ITSHelper:ident=140302555805248, id=334928::fwdi.Utilites.ext_reflection::<function UserRepositoryFWDI.get_all at 0x7f9bb4e8bd00>::1::0 -- SYNC ACTION
+INFO:ITSHelper:ident=140302555805248, id=334928::fwdi.Utilites.ext_reflection::<function ManagerDbContextFWDI.get_metadata_user at 0x7f9bb4ccecb0>::1::0 -- SYNC ACTION
+DEBUG:peewee:('SELECT "t1"."id", "t1"."username", "t1"."full_name", "t1"."email", "t1"."hashed_password", "t1"."disabled", "t1"."scopes_id" FROM "user" AS "t1"', [])
+INFO:ITSHelper:ident=140302555805248, id=334928::fwdi.Utilites.ext_reflection::<staticmethod(<function JwtServiceFWDI.authenticate_user at 0x7f9bb4cce830>)>::3::0 -- SYNC ACTION
+INFO:ITSHelper:ident=140302555805248, id=334928::fwdi.Utilites.ext_reflection::<staticmethod(<function JwtToolsFWDI.get_user_by_username at 0x7f9bb5289cf0>)>::3::0 -- SYNC ACTION
+INFO:ITSHelper:ident=140302555805248, id=334928::fwdi.Utilites.ext_reflection::<staticmethod(<function JwtToolsFWDI.verify_password at 0x7f9bb5247010>)>::3::0 -- SYNC ACTION
+INFO:ITSHelper:ident=140302555805248, id=334928::Result auth from :username='admin' email='admin@admin.ru' full_name=None disabled=None hashed_password='$2b$12$gRU718dPpSsd4TL87/ojWegJBp9RCLexYoxhW7MUEG58LV6evoj0u'
+INFO:ITSHelper:ident=140302555805248, id=334928::fwdi.Utilites.ext_reflection::<function UserRepositoryFWDI.get_user_scopes at 0x7f9bb4e8bf40>::2::0 -- SYNC ACTION
+INFO:ITSHelper:ident=140302555805248, id=334928::fwdi.Utilites.ext_reflection::<function ManagerDbContextFWDI.get_metadata_user at 0x7f9bb4ccecb0>::1::0 -- SYNC ACTION
+INFO:ITSHelper:ident=140302555805248, id=334928::fwdi.Utilites.ext_reflection::<function ManagerDbContextFWDI.get_metadata_user at 0x7f9bb4ccecb0>::1::0 -- SYNC ACTION
+DEBUG:peewee:('SELECT "t1"."id", "t1"."username", "t1"."full_name", "t1"."email", "t1"."hashed_password", "t1"."disabled", "t1"."scopes_id" FROM "user" AS "t1" WHERE ("t1"."email" = ?) LIMIT ? OFFSET ?', ['admin@admin.ru', 1, 0])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."name" FROM "permissions" AS "t1" WHERE ("t1"."id" = ?) LIMIT ? OFFSET ?', [1, 1, 0])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."name", "t1"."description" FROM "scope" AS "t1" INNER JOIN "permissions_scope_through" AS "t2" ON ("t2"."scope_id" = "t1"."id") INNER JOIN "permissions" AS "t3" ON ("t2"."permissions_id" = "t3"."id") WHERE ("t2"."permissions_id" = ?)', [1])
+INFO:ITSHelper:ident=140302555805248, id=334928::fwdi.Utilites.ext_reflection::<staticmethod(<function JwtToolsFWDI.create_access_token at 0x7f9bb5289e10>)>::1::1 -- SYNC ACTION
+INFO:ITSHelper:ident=140302555805248, id=334928::Create token :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AYWRtaW4ucnUiLCJzY29wZXMiOlsiYWRtaW4iLCJxdWVzdGlvbiJdLCJleHAiOjE3MzE0OTAyOTJ9.LE9i_IYie47GSz-CgFPkw-q4yhJzP0-jh7E21uPwnmc
+DEBUG:passlib.utils.compat:loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG:passlib.utils.compat:loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG:passlib.utils.compat:loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+INFO:__inject__:ident=140222843158528, id=336632::0::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.decode_payload_token at 0x7f8813731e10>)> -- SET INJECT
+INFO:__inject__:ident=140222843158528, id=336632::1::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.verify_password at 0x7f8813733490>)> -- SET INJECT
+INFO:__inject__:ident=140222843158528, id=336632::2::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.get_password_hash at 0x7f8813775bd0>)> -- SET INJECT
+INFO:__inject__:ident=140222843158528, id=336632::3::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.get_user_by_username at 0x7f8813775c60>)> -- SET INJECT
+INFO:__inject__:ident=140222843158528, id=336632::4::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.get_user_by_email at 0x7f8813775cf0>)> -- SET INJECT
+INFO:__inject__:ident=140222843158528, id=336632::5::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.create_access_token at 0x7f8813775d80>)> -- SET INJECT
+INFO:BaseUserRepositoryFWDI:ident=140222843158528, id=336632::6::fwdi.Application.Usecase.user_repository::<function UserRepositoryFWDI.get_all at 0x7f88136b3c70> -- SET INJECT
+INFO:BaseUserRepositoryFWDI:ident=140222843158528, id=336632::7::fwdi.Application.Usecase.user_repository::<function UserRepositoryFWDI.get_user_scopes at 0x7f88136b3eb0> -- SET INJECT
+INFO:UserRepositoryFWDI:ident=140222843158528, id=336632::8::fwdi.Infrastructure.Rest.rest_client::<function RestClientFWDI.login at 0x7f88133aa200> -- SET INJECT
+INFO:UserRepositoryFWDI:ident=140222843158528, id=336632::9::fwdi.Infrastructure.Rest.rest_client::<function RestClientFWDI.get at 0x7f88133aa290> -- SET INJECT
+INFO:UserRepositoryFWDI:ident=140222843158528, id=336632::10::fwdi.Infrastructure.Rest.rest_client::<function RestClientFWDI.post at 0x7f88133aa320> -- SET INJECT
+INFO:RestClientFWDI:ident=140222843158528, id=336632::11::fwdi.Persistence.manager_db_context::<function ManagerDbContextFWDI.get_metadata_user at 0x7f88133aac20> -- SET INJECT
+INFO:RestClientFWDI:ident=140222843158528, id=336632::12::fwdi.Persistence.manager_db_context::<function ManagerDbContextFWDI.get_metadata_permission at 0x7f88133aad40> -- SET INJECT
+INFO:RestClientFWDI:ident=140222843158528, id=336632::13::fwdi.Persistence.manager_db_context::<function ManagerDbContextFWDI.get_metadata_scopes at 0x7f88133aadd0> -- SET INJECT
+INFO:ManagerDbContextFWDI:ident=140222843158528, id=336632::14::fastapi.security.oauth2::<fastapi.security.oauth2.OAuth2PasswordBearer object at 0x7f88133868f0> -- SET INJECT
+INFO:ManagerDbContextFWDI:ident=140222843158528, id=336632::15::fwdi.Infrastructure.JwtService.jwt_service::<staticmethod(<function JwtServiceFWDI.authenticate_user at 0x7f88133aa7a0>)> -- SET INJECT
+INFO:ManagerDbContextFWDI:ident=140222843158528, id=336632::16::fwdi.Infrastructure.JwtService.jwt_service::<staticmethod(<function JwtServiceFWDI.get_current_user at 0x7f88133aab00>)> -- SET INJECT
+INFO:ManagerDbContextFWDI:ident=140222843158528, id=336632::17::fwdi.Infrastructure.JwtService.jwt_service::<staticmethod(<function JwtServiceFWDI.get_current_active_user at 0x7f88133ab5b0>)> -- SET INJECT
+DEBUG:faiss.loader:Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:pymorphy3.opencorpora_dict.wrapper:Loading dictionaries from /home/alitrix/Packages/SourcePackages/fwdi-dev/env/lib/python3.10/site-packages/pymorphy3_dicts_ru/data
+INFO:pymorphy3.opencorpora_dict.wrapper:format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+INFO:BaseTextTools:ident=140222843158528, id=336632::18::Utilites.tools::<function TextTools.clear_garbage_v1 at 0x7f872590fc70> -- SET INJECT
+INFO:BaseTextTools:ident=140222843158528, id=336632::19::Utilites.tools::<function TextTools.clear_garbage_v2 at 0x7f872590fd00> -- SET INJECT
+INFO:BaseTextTools:ident=140222843158528, id=336632::20::Utilites.tools::<function TextTools.clear_garbage_hard_v1 at 0x7f8725958040> -- SET INJECT
+INFO:BaseTextTools:ident=140222843158528, id=336632::21::Utilites.tools::<function TextTools.clear_numerics at 0x7f872590fe20> -- SET INJECT
+INFO:BaseTextTools:ident=140222843158528, id=336632::22::Utilites.tools::<function TextTools.clear_regex_text at 0x7f872590feb0> -- SET INJECT
+INFO:BaseTextTools:ident=140222843158528, id=336632::23::Utilites.tools::<function TextTools.clear_other_text at 0x7f872590ff40> -- SET INJECT
+INFO:BaseTextTools:ident=140222843158528, id=336632::24::Utilites.tools::<function TextTools.lemmatize_fn at 0x7f872590fd90> -- SET INJECT
+INFO:BaseTextTools:ident=140222843158528, id=336632::25::Utilites.tools::<function TextTools.delete_stop_word at 0x7f87259580d0> -- SET INJECT
+INFO:BaseTextTools:ident=140222843158528, id=336632::26::Utilites.tools::<function TextTools.parse_responce_llm_question at 0x7f8725958160> -- SET INJECT
+INFO:BaseTextTools:ident=140222843158528, id=336632::27::Utilites.tools::<function TextTools.clearing_text_fn_v1 at 0x7f87259581f0> -- SET INJECT
+INFO:BaseTextTools:ident=140222843158528, id=336632::28::Utilites.tools::<function TextTools.split_fn_v1 at 0x7f8725958280> -- SET INJECT
+INFO:BaseTextTools:ident=140222843158528, id=336632::29::Utilites.tools::<function TextTools.clean_and_repack_text at 0x7f8725958310> -- SET INJECT
+INFO:BaseTextTools:ident=140222843158528, id=336632::30::Utilites.tools::<function TextTools.delete_bad_word_v2 at 0x7f87259583a0> -- SET INJECT
+INFO:BaseUsecaseTaskManager:ident=140222843158528, id=336632::31::Infrastructure.rag_llm_service::<function LLMService.request_to_llm at 0x7f8715d23b50> -- SET INJECT
+INFO:BaseUsecaseTaskManager:ident=140222843158528, id=336632::32::Infrastructure.rag_llm_service::<function LLMService.IsBusy at 0x7f8715d23a30> -- SET INJECT
+INFO:BaseUsecaseTaskManager:ident=140222843158528, id=336632::33::Infrastructure.rag_llm_service::<function LLMService.request_v2 at 0x7f8715d239a0> -- SET INJECT
+INFO:LLMService:ident=140222843158528, id=336632::34::Application.TaskManager.task_manager::<function TaskManager.add at 0x7f8715d23c70> -- SET INJECT
+INFO:LLMService:ident=140222843158528, id=336632::35::Application.TaskManager.task_manager::<function TaskManager.add_task_for_update at 0x7f8715d23d00> -- SET INJECT
+INFO:LLMService:ident=140222843158528, id=336632::36::Application.TaskManager.task_manager::<function TaskManager.__execute at 0x7f8715d23d90> -- SET INJECT
+INFO:LLMService:ident=140222843158528, id=336632::37::Application.TaskManager.task_manager::<function TaskManager.get at 0x7f8715d23e20> -- SET INJECT
+INFO:LLMService:ident=140222843158528, id=336632::38::Application.TaskManager.task_manager::<function TaskManager.get_update at 0x7f8715d23eb0> -- SET INJECT
+INFO:TaskManager:ident=140222843158528, id=336632::39::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__parse_stand at 0x7f8715cf03a0> -- SET INJECT
+INFO:TaskManager:ident=140222843158528, id=336632::40::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__preprocessing_text at 0x7f8715cf0430> -- SET INJECT
+INFO:TaskManager:ident=140222843158528, id=336632::41::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__parse_bsp at 0x7f8715cf04c0> -- SET INJECT
+INFO:TaskManager:ident=140222843158528, id=336632::42::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__merge_parse_data at 0x7f8715cf0550> -- SET INJECT
+INFO:TaskManager:ident=140222843158528, id=336632::43::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__prepared_sentences at 0x7f8715cf05e0> -- SET INJECT
+INFO:TaskManager:ident=140222843158528, id=336632::44::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__create_new_vectore_store at 0x7f8715cf0670> -- SET INJECT
+INFO:TaskManager:ident=140222843158528, id=336632::45::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.create_vectore_database at 0x7f8715cf0700> -- SET INJECT
+INFO:UsecaseContextDataBase:ident=140222843158528, id=336632::46::Application.Usecases.usecase_search::<function ServiceSearch.relevant_search at 0x7f8715cf1750> -- SET INJECT
+INFO:UsecaseContextDataBase:ident=140222843158528, id=336632::47::Application.Usecases.usecase_search::<function ServiceSearch.__vector_search at 0x7f8715cf1870> -- SET INJECT
+INFO:UsecaseContextDataBase:ident=140222843158528, id=336632::48::Application.Usecases.usecase_search::<function ServiceSearch.__uniq_answer at 0x7f8715cf1900> -- SET INJECT
+INFO:UsecaseContextDataBase:ident=140222843158528, id=336632::49::Application.Usecases.usecase_search::<function ServiceSearch.__search_result_lsi at 0x7f8715cf1990> -- SET INJECT
+INFO:UsecaseContextDataBase:ident=140222843158528, id=336632::50::Application.Usecases.usecase_search::<function ServiceSearch.__check_quantity_words at 0x7f8715cf1a20> -- SET INJECT
+INFO:UsecaseContextDataBase:ident=140222843158528, id=336632::51::Application.Usecases.usecase_search::<function ServiceSearch.__unity_answer at 0x7f8715cf1ab0> -- SET INJECT
+INFO:UsecaseContextDataBase:ident=140222843158528, id=336632::52::Application.Usecases.usecase_search::<function ServiceSearch.__create_context_for_llm at 0x7f8715cf1b40> -- SET INJECT
+INFO:ServiceSearch:ident=140222843158528, id=336632::53::Application.Usecases.usecase_task_manager::<function UsecaseTaskManager.add_task at 0x7f8715cf2050> -- SET INJECT
+INFO:ServiceSearch:ident=140222843158528, id=336632::54::Application.Usecases.usecase_task_manager::<function UsecaseTaskManager.get_answer at 0x7f8715cf2170> -- SET INJECT
+INFO:ServiceSearch:ident=140222843158528, id=336632::55::Application.Usecases.usecase_task_manager::<function UsecaseTaskManager.add_task_for_update at 0x7f8715cf2200> -- SET INJECT
+INFO:ServiceSearch:ident=140222843158528, id=336632::56::Application.Usecases.usecase_task_manager::<function UsecaseTaskManager.get_update at 0x7f8715cf2290> -- SET INJECT
+INFO:BaseSearchLsiLda:ident=140222843158528, id=336632::57::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__check_base_dir at 0x7f87159885e0> -- SET INJECT
+INFO:BaseSearchLsiLda:ident=140222843158528, id=336632::58::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__get_or_create_dictionary_corpus at 0x7f8715988670> -- SET INJECT
+INFO:BaseSearchLsiLda:ident=140222843158528, id=336632::59::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__get_or_create_tfidf at 0x7f8715988700> -- SET INJECT
+INFO:BaseSearchLsiLda:ident=140222843158528, id=336632::60::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__get_or_create_lsi at 0x7f8715988790> -- SET INJECT
+INFO:BaseSearchLsiLda:ident=140222843158528, id=336632::61::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__get_or_create_similary_matrix at 0x7f8715988820> -- SET INJECT
+INFO:BaseSearchLsiLda:ident=140222843158528, id=336632::62::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__save_corpus_dictionary at 0x7f87159888b0> -- SET INJECT
+INFO:BaseSearchLsiLda:ident=140222843158528, id=336632::63::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__load_corpus_dictionary at 0x7f8715988940> -- SET INJECT
+INFO:BaseSearchLsiLda:ident=140222843158528, id=336632::64::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.create_lsi_lda_matrix_db_v2 at 0x7f87159889d0> -- SET INJECT
+INFO:BaseSearchLsiLda:ident=140222843158528, id=336632::65::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__load_or_create_vector at 0x7f8715988a60> -- SET INJECT
+INFO:LsiLdaVector:ident=140222843158528, id=336632::66::Persistance.manager_db::<function ManagerDbContext.get_vector_store at 0x7f8715989630> -- SET INJECT
+INFO:LsiLdaVector:ident=140222843158528, id=336632::67::Persistance.manager_db::<function ManagerDbContext.get_pickle_store at 0x7f87159896c0> -- SET INJECT
+INFO:LsiLdaVector:ident=140222843158528, id=336632::68::Persistance.manager_db::<function ManagerDbContext.get_matrix_store at 0x7f8715989750> -- SET INJECT
+INFO:ManagerDbContext:ident=140222843158528, id=336632::69::Persistance.search_lsi_lda::<function SearchLsiLda.search at 0x7f8715989ea0> -- SET INJECT
+INFO:ManagerDbContext:ident=140222843158528, id=336632::70::Persistance.search_lsi_lda::<function SearchLsiLda.get_doc_by_result at 0x7f8715989f30> -- SET INJECT
+INFO:SearchLsiLda:ident=140222843158528, id=336632::71::Presentation.Endpoints.dumps_endpoints::<function DumpEndpoint.dumps_list at 0x7f871598a680> -- SET INJECT
+INFO:SearchLsiLda:ident=140222843158528, id=336632::72::Presentation.Endpoints.dumps_endpoints::<function DumpEndpoint.dump at 0x7f871598b010> -- SET INJECT
+INFO:DumpEndpoint:ident=140222843158528, id=336632::73::Presentation.Endpoints.parse_and_create_db_endpoints::<function ParseEndpoint.parse at 0x7f871598b250> -- SET INJECT
+INFO:ParseEndpoint:ident=140222843158528, id=336632::74::Presentation.Endpoints.questions_endpoints::<function QuestionEndpoint.search at 0x7f871598b520> -- SET INJECT
+INFO:ParseEndpoint:ident=140222843158528, id=336632::75::Presentation.Endpoints.questions_endpoints::<function QuestionEndpoint.answer at 0x7f871598b640> -- SET INJECT
+INFO:QuestionEndpoint:ident=140222843158528, id=336632::76::Utilites.web_parse_tools::<function WebParseTools.url_request at 0x7f871598be20> -- SET INJECT
+INFO:QuestionEndpoint:ident=140222843158528, id=336632::77::Utilites.web_parse_tools::<function WebParseTools.parse_req at 0x7f871598bf40> -- SET INJECT
+INFO:QuestionEndpoint:ident=140222843158528, id=336632::78::Utilites.web_parse_tools::<function WebParseTools.clear_text_for_vector at 0x7f87159b0040> -- SET INJECT
+INFO:WebParseTools:ident=140222843158528, id=336632::79::Infrastructure.Embeding.embeding_model::<function EmbeddingModel.encode at 0x7f870fffad40> -- SET INJECT
+INFO:BaseManagerContextMenu:ident=140222843158528, id=336632::80::Infrastructure.manager_context_menu_bsp::<function ManagerContextMenuBSP.add_child at 0x7f870fc1dfc0> -- SET INJECT
+INFO:BaseManagerContextMenu:ident=140222843158528, id=336632::81::Infrastructure.manager_context_menu_bsp::<function ManagerContextMenuBSP.load_menu_v2 at 0x7f870fc1e0e0> -- SET INJECT
+INFO:BaseManagerContextMenu:ident=140222843158528, id=336632::82::Infrastructure.manager_context_menu_bsp::<function ManagerContextMenuBSP.get_hash at 0x7f870fc1e170> -- SET INJECT
+INFO:ManagerContextMenuBSP:ident=140222843158528, id=336632::83::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.parse at 0x7f870fdb36d0> -- SET INJECT
+INFO:ManagerContextMenuBSP:ident=140222843158528, id=336632::84::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.__iter_for_tags at 0x7f870fc1e440> -- SET INJECT
+INFO:ManagerContextMenuBSP:ident=140222843158528, id=336632::85::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.__create_driver at 0x7f870fc1e4d0> -- SET INJECT
+INFO:ManagerContextMenuBSP:ident=140222843158528, id=336632::86::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.__create_child at 0x7f870fc1e5f0> -- SET INJECT
+INFO:ManagerContextMenuBSP:ident=140222843158528, id=336632::87::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.__iteration_items_menu at 0x7f870fc1e680> -- SET INJECT
+INFO:WebParseBSP:ident=140222843158528, id=336632::88::Infrastructure.manager_context_menu::<function ManagerContextMenu.add_child at 0x7f870fc1f0a0> -- SET INJECT
+INFO:WebParseBSP:ident=140222843158528, id=336632::89::Infrastructure.manager_context_menu::<function ManagerContextMenu.load_menu_v2 at 0x7f870fc1f130> -- SET INJECT
+INFO:WebParseBSP:ident=140222843158528, id=336632::90::Infrastructure.manager_context_menu::<function ManagerContextMenu.get_hash at 0x7f870fc1f1c0> -- SET INJECT
+INFO:ManagerContextMenu:ident=140222843158528, id=336632::91::Infrastructure.Parse.web_parse_standart::<function WebParseStand.parse at 0x7f870fc1ee60> -- SET INJECT
+INFO:WebParseStand:ident=140222843158528, id=336632::92::Infrastructure.Parse.proxy_web_parse::<function ProxyWebParse.get_parse_stand at 0x7f870fc1ea70> -- SET INJECT
+INFO:WebParseStand:ident=140222843158528, id=336632::93::Infrastructure.Parse.proxy_web_parse::<function ProxyWebParse.get_parse_bsp at 0x7f870fc1f520> -- SET INJECT
+INFO:ProxyWebParse:ident=140222843158528, id=336632::94::Infrastructure.Proccesing.stage_data_processing::<staticmethod(<function StageDataProcessing.preprocessing_text at 0x7f870fc1ff40>)> -- SET INJECT
+INFO:ProxyWebParse:ident=140222843158528, id=336632::95::Infrastructure.Proccesing.stage_data_processing::<staticmethod(<function StageDataProcessing.prepared_sentences__universal at 0x7f870fc3c0d0>)> -- SET INJECT
+INFO:ProxyWebParse:ident=140222843158528, id=336632::96::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__clear_text_for_vector at 0x7f870fc3c160> -- SET INJECT
+INFO:ProxyWebParse:ident=140222843158528, id=336632::97::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__get_or_create_source_db_v1 at 0x7f870fc3c1f0> -- SET INJECT
+INFO:ProxyWebParse:ident=140222843158528, id=336632::98::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__prepared_text_v2 at 0x7f870fc3c280> -- SET INJECT
+INFO:ProxyWebParse:ident=140222843158528, id=336632::99::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__get_llm_about_text at 0x7f870fc3c310> -- SET INJECT
+INFO:ProxyWebParse:ident=140222843158528, id=336632::100::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__get_llm_question_text at 0x7f870fc3c3a0> -- SET INJECT
+INFO:ProxyWebParse:ident=140222843158528, id=336632::101::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__get_or_create_source_db_v2 at 0x7f870fc3c430> -- SET INJECT
+INFO:ProxyWebParse:ident=140222843158528, id=336632::102::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__request_about_text_v1 at 0x7f870fc3c4c0> -- SET INJECT
+INFO:ProxyWebParse:ident=140222843158528, id=336632::103::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__request_questions_text_v1 at 0x7f870fc3c550> -- SET INJECT
+INFO:StageDataProcessing:ident=140222843158528, id=336632::104::Infrastructure.SmilarityService.vectore_service::<function VectoreService.create_vector_db_v1 at 0x7f870fc3cd30> -- SET INJECT
+INFO:StageDataProcessing:ident=140222843158528, id=336632::105::Infrastructure.SmilarityService.vectore_service::<function VectoreService.__embedding_fn at 0x7f870fc3ce50> -- SET INJECT
+INFO:VectoreService:ident=140222843158528, id=336632::106::Infrastructure.similarity_data_store::<staticmethod(<function SimilarityDataStore.read at 0x7f870fc3d2d0>)> -- SET INJECT
+INFO:VectoreService:ident=140222843158528, id=336632::107::Infrastructure.similarity_data_store::<staticmethod(<function SimilarityDataStore.write at 0x7f870fc3d3f0>)> -- SET INJECT
+INFO:SimilarityDataStore:ident=140222843158528, id=336632::108::fwdi.Presentation.DefaultControllers.home_controller::<function Controller.index at 0x7f870fc3e3b0> -- SET INJECT
+INFO:Controller:ident=140222843158528, id=336632::109::fwdi.Presentation.DefaultControllers.token_controller::<staticmethod(<function TokenController.post at 0x7f870fc3e4d0>)> -- SET INJECT
+DEBUG:peewee:('CREATE TABLE IF NOT EXISTS "permissions" ("id" INTEGER NOT NULL PRIMARY KEY, "name" VARCHAR(255) NOT NULL)', [])
+DEBUG:peewee:('CREATE TABLE IF NOT EXISTS "scope" ("id" INTEGER NOT NULL PRIMARY KEY, "name" VARCHAR(255) NOT NULL, "description" VARCHAR(255) NOT NULL)', [])
+DEBUG:peewee:('CREATE TABLE IF NOT EXISTS "permissions_scope_through" ("id" INTEGER NOT NULL PRIMARY KEY, "permissions_id" INTEGER NOT NULL, "scope_id" INTEGER NOT NULL, FOREIGN KEY ("permissions_id") REFERENCES "permissions" ("id"), FOREIGN KEY ("scope_id") REFERENCES "scope" ("id"))', [])
+DEBUG:peewee:('CREATE INDEX IF NOT EXISTS "permissionsscopethrough_permissions_id" ON "permissions_scope_through" ("permissions_id")', [])
+DEBUG:peewee:('CREATE INDEX IF NOT EXISTS "permissionsscopethrough_scope_id" ON "permissions_scope_through" ("scope_id")', [])
+DEBUG:peewee:('CREATE UNIQUE INDEX IF NOT EXISTS "permissionsscopethrough_permissions_id_scope_id" ON "permissions_scope_through" ("permissions_id", "scope_id")', [])
+DEBUG:peewee:('CREATE TABLE IF NOT EXISTS "user" ("id" INTEGER NOT NULL PRIMARY KEY, "username" VARCHAR(255) NOT NULL, "full_name" VARCHAR(255) NOT NULL, "email" VARCHAR(255) NOT NULL, "hashed_password" VARCHAR(255) NOT NULL, "disabled" INTEGER NOT NULL, "scopes_id" INTEGER NOT NULL, FOREIGN KEY ("scopes_id") REFERENCES "permissions" ("id"))', [])
+DEBUG:peewee:('CREATE INDEX IF NOT EXISTS "user_scopes_id" ON "user" ("scopes_id")', [])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."name", "t1"."description" FROM "scope" AS "t1"', [])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."name" FROM "permissions" AS "t1"', [])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."username", "t1"."full_name", "t1"."email", "t1"."hashed_password", "t1"."disabled", "t1"."scopes_id" FROM "user" AS "t1"', [])
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[54:73]
+DEBUG:multipart.multipart:Calling on_header_value with data[75:101]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[105:110]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[166:185]
+DEBUG:multipart.multipart:Calling on_header_value with data[187:213]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[217:222]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+INFO:TokenController:ident=140218585839168, id=337074::fwdi.Utilites.ext_reflection::<staticmethod(<function TokenController.post at 0x7f870fc3e4d0>)>::0::3 -- SYNC ACTION
+INFO:TokenController:ident=140218585839168, id=337074::Request auth from :<fastapi.security.oauth2.OAuth2PasswordRequestForm object at 0x7f870fba5f90>
+INFO:TokenController:ident=140218585839168, id=337074::fwdi.Utilites.ext_reflection::<function UserRepositoryFWDI.get_all at 0x7f88136b3c70>::1::0 -- SYNC ACTION
+INFO:TokenController:ident=140218585839168, id=337074::fwdi.Utilites.ext_reflection::<function ManagerDbContextFWDI.get_metadata_user at 0x7f88133aac20>::1::0 -- SYNC ACTION
+DEBUG:peewee:('SELECT "t1"."id", "t1"."username", "t1"."full_name", "t1"."email", "t1"."hashed_password", "t1"."disabled", "t1"."scopes_id" FROM "user" AS "t1"', [])
+INFO:TokenController:ident=140218585839168, id=337074::fwdi.Utilites.ext_reflection::<staticmethod(<function JwtServiceFWDI.authenticate_user at 0x7f88133aa7a0>)>::3::0 -- SYNC ACTION
+INFO:TokenController:ident=140218585839168, id=337074::fwdi.Utilites.ext_reflection::<staticmethod(<function JwtToolsFWDI.get_user_by_username at 0x7f8813775c60>)>::3::0 -- SYNC ACTION
+INFO:TokenController:ident=140218585839168, id=337074::fwdi.Utilites.ext_reflection::<staticmethod(<function JwtToolsFWDI.verify_password at 0x7f8813733490>)>::3::0 -- SYNC ACTION
+INFO:TokenController:ident=140218585839168, id=337074::Result auth from :username='admin' email='admin@admin.ru' full_name=None disabled=None hashed_password='$2b$12$gRU718dPpSsd4TL87/ojWegJBp9RCLexYoxhW7MUEG58LV6evoj0u'
+INFO:TokenController:ident=140218585839168, id=337074::fwdi.Utilites.ext_reflection::<function UserRepositoryFWDI.get_user_scopes at 0x7f88136b3eb0>::2::0 -- SYNC ACTION
+INFO:TokenController:ident=140218585839168, id=337074::fwdi.Utilites.ext_reflection::<function ManagerDbContextFWDI.get_metadata_user at 0x7f88133aac20>::1::0 -- SYNC ACTION
+INFO:TokenController:ident=140218585839168, id=337074::fwdi.Utilites.ext_reflection::<function ManagerDbContextFWDI.get_metadata_user at 0x7f88133aac20>::1::0 -- SYNC ACTION
+DEBUG:peewee:('SELECT "t1"."id", "t1"."username", "t1"."full_name", "t1"."email", "t1"."hashed_password", "t1"."disabled", "t1"."scopes_id" FROM "user" AS "t1" WHERE ("t1"."email" = ?) LIMIT ? OFFSET ?', ['admin@admin.ru', 1, 0])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."name" FROM "permissions" AS "t1" WHERE ("t1"."id" = ?) LIMIT ? OFFSET ?', [1, 1, 0])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."name", "t1"."description" FROM "scope" AS "t1" INNER JOIN "permissions_scope_through" AS "t2" ON ("t2"."scope_id" = "t1"."id") INNER JOIN "permissions" AS "t3" ON ("t2"."permissions_id" = "t3"."id") WHERE ("t2"."permissions_id" = ?)', [1])
+INFO:TokenController:ident=140218585839168, id=337074::fwdi.Utilites.ext_reflection::<staticmethod(<function JwtToolsFWDI.create_access_token at 0x7f8813775d80>)>::1::1 -- SYNC ACTION
+INFO:TokenController:ident=140218585839168, id=337074::Create token :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AYWRtaW4ucnUiLCJzY29wZXMiOlsiYWRtaW4iLCJxdWVzdGlvbiJdLCJleHAiOjE3MzE0OTA1Mjl9.YmXOabeOuL8ICiqTE_lvdOkS-GfoFO9YzCLZy0DrUIw
+DEBUG:passlib.utils.compat:loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG:passlib.utils.compat:loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG:passlib.utils.compat:loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::0::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.decode_payload_token at 0x7fba733a1cf0>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::1::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.verify_password at 0x7fba733a3370>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::2::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.get_password_hash at 0x7fba733e1ab0>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::3::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.get_user_by_username at 0x7fba733e1b40>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::4::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.get_user_by_email at 0x7fba733e1bd0>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::5::fwdi.Utilites.jwt_tools::<staticmethod(<function JwtToolsFWDI.create_access_token at 0x7fba733e1c60>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::6::fwdi.Application.Usecase.user_repository::<function UserRepositoryFWDI.get_all at 0x7fba73323ac0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::7::fwdi.Application.Usecase.user_repository::<function UserRepositoryFWDI.get_user_scopes at 0x7fba73323d00> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::8::fwdi.Infrastructure.Rest.rest_client::<function RestClientFWDI.login at 0x7fba72e16050> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::9::fwdi.Infrastructure.Rest.rest_client::<function RestClientFWDI.get at 0x7fba72e160e0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::10::fwdi.Infrastructure.Rest.rest_client::<function RestClientFWDI.post at 0x7fba72e16170> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::11::fwdi.Persistence.manager_db_context::<function ManagerDbContextFWDI.get_metadata_user at 0x7fba72e16a70> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::12::fwdi.Persistence.manager_db_context::<function ManagerDbContextFWDI.get_metadata_permission at 0x7fba72e16b90> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::13::fwdi.Persistence.manager_db_context::<function ManagerDbContextFWDI.get_metadata_scopes at 0x7fba72e16c20> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::14::fastapi.security.oauth2::<fastapi.security.oauth2.OAuth2PasswordBearer object at 0x7fba72deec20> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::15::fwdi.Infrastructure.JwtService.jwt_service::<staticmethod(<function JwtServiceFWDI.authenticate_user at 0x7fba72e165f0>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::16::fwdi.Infrastructure.JwtService.jwt_service::<staticmethod(<function JwtServiceFWDI.get_current_user at 0x7fba72e16950>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::17::fwdi.Infrastructure.JwtService.jwt_service::<staticmethod(<function JwtServiceFWDI.get_current_active_user at 0x7fba72e17400>)> -- SET INJECT
+DEBUG:faiss.loader:Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:pymorphy3.opencorpora_dict.wrapper:Loading dictionaries from /home/alitrix/Packages/SourcePackages/fwdi-dev/env/lib/python3.10/site-packages/pymorphy3_dicts_ru/data
+INFO:pymorphy3.opencorpora_dict.wrapper:format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::18::Utilites.tools::<function TextTools.clear_garbage_v1 at 0x7fb9855d7ac0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::19::Utilites.tools::<function TextTools.clear_garbage_v2 at 0x7fb9855d7b50> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::20::Utilites.tools::<function TextTools.clear_garbage_hard_v1 at 0x7fb9855d7e20> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::21::Utilites.tools::<function TextTools.clear_numerics at 0x7fb9855d7c70> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::22::Utilites.tools::<function TextTools.clear_regex_text at 0x7fb9855d7d00> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::23::Utilites.tools::<function TextTools.clear_other_text at 0x7fb9855d7d90> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::24::Utilites.tools::<function TextTools.lemmatize_fn at 0x7fb9855d7be0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::25::Utilites.tools::<function TextTools.delete_stop_word at 0x7fb9855d7eb0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::26::Utilites.tools::<function TextTools.parse_responce_llm_question at 0x7fb9855d7f40> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::27::Utilites.tools::<function TextTools.clearing_text_fn_v1 at 0x7fb985414040> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::28::Utilites.tools::<function TextTools.split_fn_v1 at 0x7fb9854140d0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::29::Utilites.tools::<function TextTools.clean_and_repack_text at 0x7fb985414160> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::30::Utilites.tools::<function TextTools.delete_bad_word_v2 at 0x7fb9854141f0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::31::Infrastructure.rag_llm_service::<function LLMService.request_to_llm at 0x7fb975913ac0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::32::Infrastructure.rag_llm_service::<function LLMService.IsBusy at 0x7fb975913b50> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::33::Infrastructure.rag_llm_service::<function LLMService.request_v2 at 0x7fb975913be0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::34::Application.TaskManager.task_manager::<function TaskManager.add at 0x7fb975913eb0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::35::Application.TaskManager.task_manager::<function TaskManager.add_task_for_update at 0x7fb975913f40> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::36::Application.TaskManager.task_manager::<function TaskManager.__execute at 0x7fb9758e0040> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::37::Application.TaskManager.task_manager::<function TaskManager.get at 0x7fb9758e00d0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::38::Application.TaskManager.task_manager::<function TaskManager.get_update at 0x7fb9758e0160> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::39::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__parse_stand at 0x7fb9758e05e0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::40::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__preprocessing_text at 0x7fb9758e0670> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::41::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__parse_bsp at 0x7fb9758e0700> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::42::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__merge_parse_data at 0x7fb9758e0790> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::43::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__prepared_sentences at 0x7fb9758e0820> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::44::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.__create_new_vectore_store at 0x7fb9758e08b0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::45::Application.Usecases.usecase_context_database::<function UsecaseContextDataBase.create_vectore_database at 0x7fb9758e0940> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::46::Application.Usecases.usecase_search::<function ServiceSearch.relevant_search at 0x7fb9758e1990> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::47::Application.Usecases.usecase_search::<function ServiceSearch.__vector_search at 0x7fb9758e1ab0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::48::Application.Usecases.usecase_search::<function ServiceSearch.__uniq_answer at 0x7fb9758e1b40> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::49::Application.Usecases.usecase_search::<function ServiceSearch.__search_result_lsi at 0x7fb9758e1bd0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::50::Application.Usecases.usecase_search::<function ServiceSearch.__check_quantity_words at 0x7fb9758e1c60> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::51::Application.Usecases.usecase_search::<function ServiceSearch.__unity_answer at 0x7fb9758e1cf0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::52::Application.Usecases.usecase_search::<function ServiceSearch.__create_context_for_llm at 0x7fb9758e1d80> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::53::Application.Usecases.usecase_task_manager::<function UsecaseTaskManager.add_task at 0x7fb9758e2290> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::54::Application.Usecases.usecase_task_manager::<function UsecaseTaskManager.get_answer at 0x7fb9758e23b0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::55::Application.Usecases.usecase_task_manager::<function UsecaseTaskManager.add_task_for_update at 0x7fb9758e2440> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::56::Application.Usecases.usecase_task_manager::<function UsecaseTaskManager.get_update at 0x7fb9758e24d0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::57::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__check_base_dir at 0x7fb9755c8430> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::58::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__get_or_create_dictionary_corpus at 0x7fb9755c84c0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::59::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__get_or_create_tfidf at 0x7fb9755c8550> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::60::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__get_or_create_lsi at 0x7fb9755c85e0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::61::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__get_or_create_similary_matrix at 0x7fb9755c8670> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::62::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__save_corpus_dictionary at 0x7fb9755c8700> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::63::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__load_corpus_dictionary at 0x7fb9755c8790> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::64::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.create_lsi_lda_matrix_db_v2 at 0x7fb9755c8820> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::65::Persistance.lsi_lda_matrix_db::<function LsiLdaVector.__load_or_create_vector at 0x7fb9755c88b0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::66::Persistance.manager_db::<function ManagerDbContext.get_vector_store at 0x7fb9755c9480> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::67::Persistance.manager_db::<function ManagerDbContext.get_pickle_store at 0x7fb9755c9510> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::68::Persistance.manager_db::<function ManagerDbContext.get_matrix_store at 0x7fb9755c95a0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::69::Persistance.search_lsi_lda::<function SearchLsiLda.search at 0x7fb9755c9cf0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::70::Persistance.search_lsi_lda::<function SearchLsiLda.get_doc_by_result at 0x7fb9755c9d80> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::71::Presentation.Endpoints.dumps_endpoints::<function DumpEndpoint.dumps_list at 0x7fb9755ca4d0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::72::Presentation.Endpoints.dumps_endpoints::<function DumpEndpoint.dump at 0x7fb9755cae60> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::73::Presentation.Endpoints.parse_and_create_db_endpoints::<function ParseEndpoint.parse at 0x7fb9755cb0a0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::74::Presentation.Endpoints.questions_endpoints::<function QuestionEndpoint.search at 0x7fb9755cb370> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::75::Presentation.Endpoints.questions_endpoints::<function QuestionEndpoint.answer at 0x7fb9755cb490> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::76::Utilites.web_parse_tools::<function WebParseTools.url_request at 0x7fb9755cbc70> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::77::Utilites.web_parse_tools::<function WebParseTools.parse_req at 0x7fb9755cbd90> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::78::Utilites.web_parse_tools::<function WebParseTools.clear_text_for_vector at 0x7fb9755cbe20> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::79::Infrastructure.Embeding.embeding_model::<function EmbeddingModel.encode at 0x7fb96fa86b90> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::80::Infrastructure.manager_context_menu_bsp::<function ManagerContextMenuBSP.add_child at 0x7fb96f8a9e10> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::81::Infrastructure.manager_context_menu_bsp::<function ManagerContextMenuBSP.load_menu_v2 at 0x7fb96f8a9f30> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::82::Infrastructure.manager_context_menu_bsp::<function ManagerContextMenuBSP.get_hash at 0x7fb96f8a9fc0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::83::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.parse at 0x7fb96f847520> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::84::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.__iter_for_tags at 0x7fb96f8aa290> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::85::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.__create_driver at 0x7fb96f8aa320> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::86::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.__create_child at 0x7fb96f8aa440> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::87::Infrastructure.Parse.web_parse_bsp::<function WebParseBSP.__iteration_items_menu at 0x7fb96f8aa4d0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::88::Infrastructure.manager_context_menu::<function ManagerContextMenu.add_child at 0x7fb96f8aaef0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::89::Infrastructure.manager_context_menu::<function ManagerContextMenu.load_menu_v2 at 0x7fb96f8aaf80> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::90::Infrastructure.manager_context_menu::<function ManagerContextMenu.get_hash at 0x7fb96f8ab010> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::91::Infrastructure.Parse.web_parse_standart::<function WebParseStand.parse at 0x7fb96f8aacb0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::92::Infrastructure.Parse.proxy_web_parse::<function ProxyWebParse.get_parse_stand at 0x7fb96f8aa8c0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::93::Infrastructure.Parse.proxy_web_parse::<function ProxyWebParse.get_parse_bsp at 0x7fb96f8ab370> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::94::Infrastructure.Proccesing.stage_data_processing::<staticmethod(<function StageDataProcessing.preprocessing_text at 0x7fb96f8abd90>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::95::Infrastructure.Proccesing.stage_data_processing::<staticmethod(<function StageDataProcessing.prepared_sentences__universal at 0x7fb96f8abeb0>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::96::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__clear_text_for_vector at 0x7fb96f8abf40> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::97::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__get_or_create_source_db_v1 at 0x7fb96f8d4040> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::98::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__prepared_text_v2 at 0x7fb96f8d40d0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::99::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__get_llm_about_text at 0x7fb96f8d4160> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::100::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__get_llm_question_text at 0x7fb96f8d41f0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::101::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__get_or_create_source_db_v2 at 0x7fb96f8d4280> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::102::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__request_about_text_v1 at 0x7fb96f8d4310> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::103::Infrastructure.Proccesing.stage_data_processing::<function StageDataProcessing.__request_questions_text_v1 at 0x7fb96f8d43a0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::104::Infrastructure.SmilarityService.vectore_service::<function VectoreService.create_vector_db_v1 at 0x7fb96f8d4b80> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::105::Infrastructure.SmilarityService.vectore_service::<function VectoreService.__embedding_fn at 0x7fb96f8d4ca0> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::106::Infrastructure.similarity_data_store::<staticmethod(<function SimilarityDataStore.read at 0x7fb96f8d5120>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::107::Infrastructure.similarity_data_store::<staticmethod(<function SimilarityDataStore.write at 0x7fb96f8d5240>)> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::108::fwdi.Presentation.DefaultControllers.home_controller::<function Controller.index at 0x7fb96f8d6200> -- SET INJECT
+INFO:logs/ITSHelper___inject__.log:ident=140439198195712, id=341587::109::fwdi.Presentation.DefaultControllers.token_controller::<staticmethod(<function TokenController.post at 0x7fb96f8d6320>)> -- SET INJECT
+DEBUG:peewee:('CREATE TABLE IF NOT EXISTS "permissions" ("id" INTEGER NOT NULL PRIMARY KEY, "name" VARCHAR(255) NOT NULL)', [])
+DEBUG:peewee:('CREATE TABLE IF NOT EXISTS "scope" ("id" INTEGER NOT NULL PRIMARY KEY, "name" VARCHAR(255) NOT NULL, "description" VARCHAR(255) NOT NULL)', [])
+DEBUG:peewee:('CREATE TABLE IF NOT EXISTS "permissions_scope_through" ("id" INTEGER NOT NULL PRIMARY KEY, "permissions_id" INTEGER NOT NULL, "scope_id" INTEGER NOT NULL, FOREIGN KEY ("permissions_id") REFERENCES "permissions" ("id"), FOREIGN KEY ("scope_id") REFERENCES "scope" ("id"))', [])
+DEBUG:peewee:('CREATE INDEX IF NOT EXISTS "permissionsscopethrough_permissions_id" ON "permissions_scope_through" ("permissions_id")', [])
+DEBUG:peewee:('CREATE INDEX IF NOT EXISTS "permissionsscopethrough_scope_id" ON "permissions_scope_through" ("scope_id")', [])
+DEBUG:peewee:('CREATE UNIQUE INDEX IF NOT EXISTS "permissionsscopethrough_permissions_id_scope_id" ON "permissions_scope_through" ("permissions_id", "scope_id")', [])
+DEBUG:peewee:('CREATE TABLE IF NOT EXISTS "user" ("id" INTEGER NOT NULL PRIMARY KEY, "username" VARCHAR(255) NOT NULL, "full_name" VARCHAR(255) NOT NULL, "email" VARCHAR(255) NOT NULL, "hashed_password" VARCHAR(255) NOT NULL, "disabled" INTEGER NOT NULL, "scopes_id" INTEGER NOT NULL, FOREIGN KEY ("scopes_id") REFERENCES "permissions" ("id"))', [])
+DEBUG:peewee:('CREATE INDEX IF NOT EXISTS "user_scopes_id" ON "user" ("scopes_id")', [])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."name", "t1"."description" FROM "scope" AS "t1"', [])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."name" FROM "permissions" AS "t1"', [])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."username", "t1"."full_name", "t1"."email", "t1"."hashed_password", "t1"."disabled", "t1"."scopes_id" FROM "user" AS "t1"', [])
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[54:73]
+DEBUG:multipart.multipart:Calling on_header_value with data[75:101]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[105:110]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[166:185]
+DEBUG:multipart.multipart:Calling on_header_value with data[187:213]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[217:222]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+INFO:logs/ITSHelper___inject__.log:ident=140434940622400, id=341820::fwdi.Utilites.ext_reflection::<staticmethod(<function TokenController.post at 0x7fb96f8d6320>)>::0::3 -- SYNC ACTION
+INFO:logs/ITSHelper_TokenController.log:ident=140434940622400, id=341820::Request auth from :<fastapi.security.oauth2.OAuth2PasswordRequestForm object at 0x7fb96f617be0>
+INFO:logs/ITSHelper___inject__.log:ident=140434940622400, id=341820::fwdi.Utilites.ext_reflection::<function UserRepositoryFWDI.get_all at 0x7fba73323ac0>::1::0 -- SYNC ACTION
+INFO:logs/ITSHelper___inject__.log:ident=140434940622400, id=341820::fwdi.Utilites.ext_reflection::<function ManagerDbContextFWDI.get_metadata_user at 0x7fba72e16a70>::1::0 -- SYNC ACTION
+DEBUG:peewee:('SELECT "t1"."id", "t1"."username", "t1"."full_name", "t1"."email", "t1"."hashed_password", "t1"."disabled", "t1"."scopes_id" FROM "user" AS "t1"', [])
+INFO:logs/ITSHelper___inject__.log:ident=140434940622400, id=341820::fwdi.Utilites.ext_reflection::<staticmethod(<function JwtServiceFWDI.authenticate_user at 0x7fba72e165f0>)>::3::0 -- SYNC ACTION
+INFO:logs/ITSHelper___inject__.log:ident=140434940622400, id=341820::fwdi.Utilites.ext_reflection::<staticmethod(<function JwtToolsFWDI.get_user_by_username at 0x7fba733e1b40>)>::3::0 -- SYNC ACTION
+INFO:logs/ITSHelper___inject__.log:ident=140434940622400, id=341820::fwdi.Utilites.ext_reflection::<staticmethod(<function JwtToolsFWDI.verify_password at 0x7fba733a3370>)>::3::0 -- SYNC ACTION
+INFO:logs/ITSHelper_TokenController.log:ident=140434940622400, id=341820::Result auth from :username='admin' email='admin@admin.ru' full_name=None disabled=None hashed_password='$2b$12$gRU718dPpSsd4TL87/ojWegJBp9RCLexYoxhW7MUEG58LV6evoj0u'
+INFO:logs/ITSHelper___inject__.log:ident=140434940622400, id=341820::fwdi.Utilites.ext_reflection::<function UserRepositoryFWDI.get_user_scopes at 0x7fba73323d00>::2::0 -- SYNC ACTION
+INFO:logs/ITSHelper___inject__.log:ident=140434940622400, id=341820::fwdi.Utilites.ext_reflection::<function ManagerDbContextFWDI.get_metadata_user at 0x7fba72e16a70>::1::0 -- SYNC ACTION
+INFO:logs/ITSHelper___inject__.log:ident=140434940622400, id=341820::fwdi.Utilites.ext_reflection::<function ManagerDbContextFWDI.get_metadata_user at 0x7fba72e16a70>::1::0 -- SYNC ACTION
+DEBUG:peewee:('SELECT "t1"."id", "t1"."username", "t1"."full_name", "t1"."email", "t1"."hashed_password", "t1"."disabled", "t1"."scopes_id" FROM "user" AS "t1" WHERE ("t1"."email" = ?) LIMIT ? OFFSET ?', ['admin@admin.ru', 1, 0])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."name" FROM "permissions" AS "t1" WHERE ("t1"."id" = ?) LIMIT ? OFFSET ?', [1, 1, 0])
+DEBUG:peewee:('SELECT "t1"."id", "t1"."name", "t1"."description" FROM "scope" AS "t1" INNER JOIN "permissions_scope_through" AS "t2" ON ("t2"."scope_id" = "t1"."id") INNER JOIN "permissions" AS "t3" ON ("t2"."permissions_id" = "t3"."id") WHERE ("t2"."permissions_id" = ?)', [1])
+INFO:logs/ITSHelper___inject__.log:ident=140434940622400, id=341820::fwdi.Utilites.ext_reflection::<staticmethod(<function JwtToolsFWDI.create_access_token at 0x7fba733e1c60>)>::1::1 -- SYNC ACTION
+INFO:logs/ITSHelper_TokenController.log:ident=140434940622400, id=341820::Create token :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AYWRtaW4ucnUiLCJzY29wZXMiOlsiYWRtaW4iLCJxdWVzdGlvbiJdLCJleHAiOjE3MzE0OTEwNzZ9.k-bw_FaXpXm95tGd2sZRYsDHNApcGFsZdsBhEAK98Wo
