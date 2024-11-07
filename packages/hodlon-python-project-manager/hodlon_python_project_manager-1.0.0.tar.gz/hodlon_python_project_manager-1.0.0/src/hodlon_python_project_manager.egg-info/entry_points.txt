@@ -1,0 +1,2 @@
+[console_scripts]
+pysetup = python_project_manager.main:main
