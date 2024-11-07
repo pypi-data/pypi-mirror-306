@@ -1,0 +1,6 @@
+
+[dev]
+pytest
+pytest-asyncio
+pytest-xdist
+async-timeout
