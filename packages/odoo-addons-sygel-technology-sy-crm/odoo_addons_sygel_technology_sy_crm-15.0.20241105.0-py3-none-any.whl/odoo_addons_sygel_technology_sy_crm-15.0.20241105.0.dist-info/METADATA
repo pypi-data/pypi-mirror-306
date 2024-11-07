@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: odoo-addons-sygel-technology-sy-crm
+Version: 15.0.20241105.0
+Summary: Meta package for sygel-technology-sy-crm Odoo addons
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 15.0
+Requires-Dist: odoo-addon-crm-autoassign<15.1dev,>=15.0dev
+Requires-Dist: odoo-addon-crm-group-sale-salesman-extension<15.1dev,>=15.0dev
+Requires-Dist: odoo-addon-crm-sale-automatic-quotation<15.1dev,>=15.0dev
+Requires-Dist: odoo-addon-crm-sale-automatic-quotation-asynchronous-wizard<15.1dev,>=15.0dev
+Requires-Dist: odoo-addon-transfer-client-portfolio<15.1dev,>=15.0dev
+Requires-Dist: odoo-addon-transfer-client-portfolio-commissions<15.1dev,>=15.0dev
+
+UNKNOWN
