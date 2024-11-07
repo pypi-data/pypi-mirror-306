@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+jupyterhub_ldapauthenticator.egg-info/PKG-INFO
+jupyterhub_ldapauthenticator.egg-info/SOURCES.txt
+jupyterhub_ldapauthenticator.egg-info/dependency_links.txt
+jupyterhub_ldapauthenticator.egg-info/entry_points.txt
+jupyterhub_ldapauthenticator.egg-info/requires.txt
+jupyterhub_ldapauthenticator.egg-info/top_level.txt
+ldapauthenticator/__init__.py
+ldapauthenticator/ldapauthenticator.py
