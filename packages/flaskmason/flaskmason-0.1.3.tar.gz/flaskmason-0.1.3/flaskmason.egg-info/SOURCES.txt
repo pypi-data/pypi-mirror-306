@@ -1,0 +1,10 @@
+README.md
+setup.py
+flaskmason/__init__.py
+flaskmason/generator.py
+flaskmason.egg-info/PKG-INFO
+flaskmason.egg-info/SOURCES.txt
+flaskmason.egg-info/dependency_links.txt
+flaskmason.egg-info/entry_points.txt
+flaskmason.egg-info/requires.txt
+flaskmason.egg-info/top_level.txt
