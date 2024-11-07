@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/textual_cogs/__init__.py
+src/textual_cogs/icons.py
+src/textual_cogs/labels.py
+src/textual_cogs.egg-info/PKG-INFO
+src/textual_cogs.egg-info/SOURCES.txt
+src/textual_cogs.egg-info/dependency_links.txt
+src/textual_cogs.egg-info/top_level.txt
+src/textual_cogs/dialogs/__init__.py
+src/textual_cogs/dialogs/message_dialog.py
+src/textual_cogs/dialogs/quit_dialog.py
+src/textual_cogs/dialogs/save_dialog.py
+src/textual_cogs/dialogs/single_choice_dialog.py
+src/textual_cogs/dialogs/single_color_picker_dialog.py
+src/textual_cogs/dialogs/text_entry_dialog.py
