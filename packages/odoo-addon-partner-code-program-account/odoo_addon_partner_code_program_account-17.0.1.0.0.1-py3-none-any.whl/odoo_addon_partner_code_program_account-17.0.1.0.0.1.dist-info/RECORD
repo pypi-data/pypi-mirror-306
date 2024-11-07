@@ -1,0 +1,14 @@
+odoo/addons/partner_code_program_account/README.rst,sha256=fL4mlefBFqRmWC6OvNfRXcRS0v5UTwWIJe5o0x4ezTY,1793
+odoo/addons/partner_code_program_account/__init__.py,sha256=eShEGRadAlxopoLqIQ4-N42FM7MWPSuBe0h_l1cXTPM,87
+odoo/addons/partner_code_program_account/__manifest__.py,sha256=UvZbJNnpA5CdnN-Yi0Ht-PCljL6dSqW8sKPP-8wse6Q,635
+odoo/addons/partner_code_program_account/i18n/es.po,sha256=o-MvkF_RkTZHnSXrSjv0OB9XMDcc2eV683jedQ5vz14,1373
+odoo/addons/partner_code_program_account/models/__init__.py,sha256=I0nbbz7RdKAS8jKSsZGL-GSnSoOwNdrDZa_8-cxRo-M,130
+odoo/addons/partner_code_program_account/models/account_invoice_report.py,sha256=XHAcByt-C7xHNhlwWffFcgELSm9B1hUDC2ztPDWicrI,492
+odoo/addons/partner_code_program_account/models/account_move.py,sha256=LNx5FCj91u7y9cRZc59EqJKJ0LiuOrVqFkxaI7IwKto,281
+odoo/addons/partner_code_program_account/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/partner_code_program_account/views/account_invoice_report.xml,sha256=uMP9qisoOfS2lMC7BEiH-x7lwCYNRm5F4mD2vLxgtjU,1107
+odoo/addons/partner_code_program_account/views/account_move.xml,sha256=9KKELYgkaKE-EeRwK3AN0VTMfij2PEcSHct97-osFjc,1056
+odoo_addon_partner_code_program_account-17.0.1.0.0.1.dist-info/METADATA,sha256=NOeFVNtOyVuDA3yX_gF0_Hvf32GjeTq4BTldyCzDb_0,2352
+odoo_addon_partner_code_program_account-17.0.1.0.0.1.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_partner_code_program_account-17.0.1.0.0.1.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_partner_code_program_account-17.0.1.0.0.1.dist-info/RECORD,,
