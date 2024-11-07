@@ -1,0 +1,10 @@
+odoo/addons/ecommerce_connector_sii/README.rst,sha256=MCdNhA6pjpSOoVY2sW6I67DIit2PHFk8tearaiXqSE8,2080
+odoo/addons/ecommerce_connector_sii/__init__.py,sha256=xuyEFmNVHLb-nWahYTZ1p3WnM1pIsemZv_jjuX1BI6g,145
+odoo/addons/ecommerce_connector_sii/__manifest__.py,sha256=jLfyzn6wGypsL5ILgmmFQHBVirrDmrANQB4_sJF1tRs,481
+odoo/addons/ecommerce_connector_sii/models/__init__.py,sha256=k9Zdq8dCdsOI_64z7P_WBMl0ziKE2ZxI35Y0sTnIpEQ,158
+odoo/addons/ecommerce_connector_sii/models/ecommerce_connector.py,sha256=yCQFTRhmyqiYHk6LHg9B9ZAyjhepVrvlyyFqL1cGoYU,510
+odoo/addons/ecommerce_connector_sii/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo14_addon_ecommerce_connector_sii-14.0.1.0.0.dist-info/METADATA,sha256=OfbvmCW0WuQHywwHJUXxvvTkdPyHHGOQrWrRbQfVgT4,2601
+odoo14_addon_ecommerce_connector_sii-14.0.1.0.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo14_addon_ecommerce_connector_sii-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ecommerce_connector_sii-14.0.1.0.0.dist-info/RECORD,,
