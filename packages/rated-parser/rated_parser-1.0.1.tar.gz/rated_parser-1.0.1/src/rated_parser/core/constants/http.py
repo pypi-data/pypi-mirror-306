@@ -1,0 +1,4 @@
+class HTTPStatus:
+    MIN_SUCCESS = 200
+    MAX_SUCCESS = 300
+    MIN_ERROR = 400
