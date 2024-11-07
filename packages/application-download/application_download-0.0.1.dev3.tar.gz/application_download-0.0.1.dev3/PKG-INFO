@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: application-download
+Version: 0.0.1.dev3
+Summary: Tools used to publish Python packages, Docker images and Helm charts for GitHub tag and branch
+Home-page: https://github.com/camptocamp/application-download
+License: FreeBSD
+Keywords: ci
+Author: Camptocamp
+Author-email: info@camptocamp.com
+Requires-Python: >=3.9
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Dist: PyYAML (>=6.0.0,<7.0.0)
+Requires-Dist: jsonschema-validator-new (>=0.0.0,<1.0.0)
+Requires-Dist: requests (>=2.0.0,<3.0.0)
+Requires-Dist: ruamel.yaml (>=0.0.0,<1.0.0)
+Project-URL: Repository, https://github.com/camptocamp/application-download
+Description-Content-Type: text/markdown
+
+# Application Download
+
+This tool can be used to maintain a version file (eventually also an application file) for a given application.
+
+The version file is a YAML file that contains the version number of the application.
+The version file respect the schema describe in application.md and provided in application_download/application-schema.json.
+
+The application file is also a YAML file that contains how to download and install the application.
+This is a simple key value file with the application as key and the version as value.
+
+## Install
+
+```bash
+pip install application-download
+```
+
+## Usage
+
+```bash
+application-download --help
+```
+
+## Contributing
+
+Install the pre-commit hooks:
+
+```bash
+pip install pre-commit
+pre-commit install --allow-missing-config
+```
+
