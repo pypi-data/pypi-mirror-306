@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "confit2canard"
+version = "0.1.1"
+description = "Minimalistic configuration library with encryption and a tasty name"
+authors = ["Benjamin Hirschfield <benjamin.hirschfield@dolead.com>"]
+maintainers = [
+    "Benjamin Hirschfield <benjamin.hirschfield@dolead.com>",
+    "Dolead <networks@dolead.com>" ]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+          "Programming Language :: Python :: 3",
+          "License :: OSI Approved :: MIT License"]
+keywords = [ "configuration" ]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyyaml = "^6.0.2"
+pycryptodome = "^3.21.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.13.0"
+pycodestyle = "^2.12.1"
+pytest = "^8.3.3"
+pytest-cov = "^6.0.0"
+pytest-html = "^4.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
