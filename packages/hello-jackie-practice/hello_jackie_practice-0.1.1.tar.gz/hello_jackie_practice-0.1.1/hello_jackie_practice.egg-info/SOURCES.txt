@@ -1,0 +1,8 @@
+setup.py
+hello_jackie_practice/__init__.py
+hello_jackie_practice/main.py
+hello_jackie_practice.egg-info/PKG-INFO
+hello_jackie_practice.egg-info/SOURCES.txt
+hello_jackie_practice.egg-info/dependency_links.txt
+hello_jackie_practice.egg-info/not-zip-safe
+hello_jackie_practice.egg-info/top_level.txt
