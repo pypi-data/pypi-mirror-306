@@ -1,0 +1,7 @@
+livenodes>=0.12.1b1
+ln-ports>=0.12.1b1
+scikit-learn>=1.3.2
+
+[dev]
+tox
+pytest>=7.0.1
