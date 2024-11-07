@@ -1,0 +1,2 @@
+[console_scripts]
+orthoani = orthoani._main:main
