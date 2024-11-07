@@ -1,0 +1,19 @@
+{
+    "rougail.leadership.leader": [
+        {
+            "rougail.leadership.leader": "string1",
+            "rougail.leadership.follower1": "string1",
+            "rougail.leadership.follower2": "string1"
+        },
+        {
+            "rougail.leadership.leader": "string2",
+            "rougail.leadership.follower1": "string1",
+            "rougail.leadership.follower2": "string1"
+        },
+        {
+            "rougail.leadership.leader": "string3",
+            "rougail.leadership.follower1": "string1",
+            "rougail.leadership.follower2": "string1"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "errors": [
+        "cannot access to optiondescription \"rougail.dynval2\" (a dynamic family) because has property \"hidden\" (disabled)",
+        "cannot access to optiondescription \"rougail.dynval2\" (a dynamic family) because has property \"hidden\" (disabled)"
+    ],
+    "warnings": []
+}

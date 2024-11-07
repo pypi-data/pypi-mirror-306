@@ -1,0 +1,19 @@
+{
+    "rougail.var": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "rougail.string1_dyn.var1": "string1",
+    "rougail.string1_dyn.var2": "string1",
+    "rougail.string1_dyn.var3": "string1",
+    "rougail.string1_dyn.var4": "string1",
+    "rougail.string2_dyn.var1": "string1",
+    "rougail.string2_dyn.var2": "string1",
+    "rougail.string2_dyn.var3": "string1",
+    "rougail.string2_dyn.var4": "string1",
+    "rougail.string3_dyn.var1": "string1",
+    "rougail.string3_dyn.var2": "string1",
+    "rougail.string3_dyn.var3": "string1",
+    "rougail.string3_dyn.var4": "string1"
+}

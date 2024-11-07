@@ -1,0 +1,20 @@
+rougail:
+  var:
+  - string1
+  - string2
+  - string3
+  string1_dyn:
+    var1: string1
+    var2: string1
+    var3: string1
+    var4: string1
+  string2_dyn:
+    var1: string1
+    var2: string1
+    var3: string1
+    var4: string1
+  string3_dyn:
+    var1: string1
+    var2: string1
+    var3: string1
+    var4: string1

@@ -1,0 +1,6 @@
+{
+    "errors": [
+        "cannot access to optiondescription \"rougail.leader\" because has property \"hidden\""
+    ],
+    "warnings": []
+}

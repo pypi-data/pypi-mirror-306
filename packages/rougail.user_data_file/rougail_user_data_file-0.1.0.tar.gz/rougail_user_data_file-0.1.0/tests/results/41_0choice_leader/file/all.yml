@@ -1,0 +1,8 @@
+rougail:
+  leader:
+  - leader: string1
+    follower1: a
+  - leader: string2
+    follower1: a
+  - leader: string3
+    follower1: a

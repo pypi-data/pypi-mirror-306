@@ -1,0 +1,43 @@
+{
+    "rougail.leader.leader": [
+        {
+            "rougail.leader.leader": "string1",
+            "rougail.leader.follower1": [
+                "string1",
+                "string2",
+                "string3"
+            ],
+            "rougail.leader.follower2": [
+                "string1",
+                "string2",
+                "string3"
+            ]
+        },
+        {
+            "rougail.leader.leader": "string2",
+            "rougail.leader.follower1": [
+                "string1",
+                "string2",
+                "string3"
+            ],
+            "rougail.leader.follower2": [
+                "string1",
+                "string2",
+                "string3"
+            ]
+        },
+        {
+            "rougail.leader.leader": "string3",
+            "rougail.leader.follower1": [
+                "string1",
+                "string2",
+                "string3"
+            ],
+            "rougail.leader.follower2": [
+                "string1",
+                "string2",
+                "string3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+rougail:
+  dynval1:
+    leadership:
+    - leader: string1
+    - leader: string2
+    - leader: string3
+  dynval2:
+    leadership:
+    - leader: string1
+    - leader: string2
+    - leader: string3

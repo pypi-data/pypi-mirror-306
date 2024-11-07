@@ -1,0 +1,10 @@
+{
+    "rougail.var": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "rougail.dynstring1.var": "val",
+    "rougail.dynstring2.var": "val",
+    "rougail.dynstring3.var": "val"
+}

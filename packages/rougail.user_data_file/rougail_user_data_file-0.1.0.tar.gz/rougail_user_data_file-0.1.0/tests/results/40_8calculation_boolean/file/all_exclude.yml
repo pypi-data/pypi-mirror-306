@@ -1,0 +1,6 @@
+rougail:
+  bool: true
+  multi1:
+  - true
+  multi2:
+  - true

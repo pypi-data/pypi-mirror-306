@@ -1,0 +1,6 @@
+{
+    "errors": [
+        "cannot access to option \"rougail.var\" (autosave variable) because has property \"hidden\""
+    ],
+    "warnings": []
+}

@@ -1,0 +1,6 @@
+{
+    "errors": [
+        "cannot access to option \"rougail.leader.follower\" (a follower) because has property \"disabled\" (disabled)"
+    ],
+    "warnings": []
+}

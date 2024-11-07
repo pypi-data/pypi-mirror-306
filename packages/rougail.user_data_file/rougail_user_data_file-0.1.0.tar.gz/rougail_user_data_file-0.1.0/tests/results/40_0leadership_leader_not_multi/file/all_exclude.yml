@@ -1,0 +1,14 @@
+rougail:
+  general:
+    mode_conteneur_actif: string1
+  general1:
+    leader:
+    - leader: string1
+      follower1: string1
+      follower2: string1
+    - leader: string2
+      follower1: string1
+      follower2: string1
+    - leader: string3
+      follower1: string1
+      follower2: string1

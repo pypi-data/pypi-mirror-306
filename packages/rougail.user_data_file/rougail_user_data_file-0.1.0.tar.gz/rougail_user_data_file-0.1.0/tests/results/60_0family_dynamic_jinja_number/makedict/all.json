@@ -1,0 +1,11 @@
+{
+    "rougail.var": [
+        1,
+        2,
+        3
+    ],
+    "rougail.dyn1.var": "string1",
+    "rougail.dyn2.var": "string1",
+    "rougail.dyn3.var": "string1",
+    "rougail.var2": "string1"
+}

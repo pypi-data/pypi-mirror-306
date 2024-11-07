@@ -1,0 +1,11 @@
+rougail:
+  dynstring1:
+    family:
+      var: string1
+  dynstring2:
+    family:
+      var: string1
+  dynstring3:
+    family:
+      var: string1
+  var2: string1

@@ -1,0 +1,28 @@
+{
+    "rougail.var1": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "rougail.var2": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "rougail.var3": "string1",
+    "rougail.var4": [
+        "value"
+    ],
+    "rougail.var5": [
+        "value"
+    ],
+    "rougail.var6": [
+        "value"
+    ],
+    "rougail.var7": [
+        "value"
+    ],
+    "rougail.var8": [
+        "value"
+    ]
+}

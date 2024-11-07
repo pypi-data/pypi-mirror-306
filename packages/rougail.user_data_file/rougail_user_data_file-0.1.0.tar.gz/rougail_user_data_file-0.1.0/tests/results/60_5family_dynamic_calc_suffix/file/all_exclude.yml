@@ -1,0 +1,8 @@
+rougail:
+  dynstring1:
+    var: string1
+  dynstring2:
+    var: string1
+  dynstring3:
+    var: string1
+  var2: string1

@@ -1,0 +1,4 @@
+rougail:
+  condition: string1
+  var1: string1
+  var2: string1

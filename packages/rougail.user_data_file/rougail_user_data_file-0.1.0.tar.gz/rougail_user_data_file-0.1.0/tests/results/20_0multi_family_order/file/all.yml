@@ -1,0 +1,7 @@
+rougail:
+  variable: string1
+  family:
+    variable1: string1
+    subfamily:
+      variable: string1
+    variable2: string1

@@ -1,0 +1,9 @@
+rougail:
+  condition: string1
+  leader:
+  - leader: string1
+    follower: string1
+  - leader: string2
+    follower: string1
+  - leader: string3
+    follower: string1

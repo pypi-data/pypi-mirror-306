@@ -1,0 +1,40 @@
+{
+    "rougail.var": [
+        "val1",
+        "val2"
+    ],
+    "rougail.dynval1.leadership.leader": [
+        {
+            "rougail.dynval1.leadership.leader": "string1",
+            "rougail.dynval1.leadership.follower1": null,
+            "rougail.dynval1.leadership.follower2": null
+        },
+        {
+            "rougail.dynval1.leadership.leader": "string2",
+            "rougail.dynval1.leadership.follower1": null,
+            "rougail.dynval1.leadership.follower2": null
+        },
+        {
+            "rougail.dynval1.leadership.leader": "string3",
+            "rougail.dynval1.leadership.follower1": null,
+            "rougail.dynval1.leadership.follower2": null
+        }
+    ],
+    "rougail.dynval2.leadership.leader": [
+        {
+            "rougail.dynval2.leadership.leader": "string1",
+            "rougail.dynval2.leadership.follower1": null,
+            "rougail.dynval2.leadership.follower2": null
+        },
+        {
+            "rougail.dynval2.leadership.leader": "string2",
+            "rougail.dynval2.leadership.follower1": null,
+            "rougail.dynval2.leadership.follower2": null
+        },
+        {
+            "rougail.dynval2.leadership.leader": "string3",
+            "rougail.dynval2.leadership.follower1": null,
+            "rougail.dynval2.leadership.follower2": null
+        }
+    ]
+}

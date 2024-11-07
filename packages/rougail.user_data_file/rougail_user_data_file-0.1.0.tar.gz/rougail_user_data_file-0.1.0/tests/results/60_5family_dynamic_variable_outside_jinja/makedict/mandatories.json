@@ -1,0 +1,12 @@
+{
+    "rougail.var": [
+        "val1",
+        "val2"
+    ],
+    "rougail.my_dyn_family_val1.var": "val1",
+    "rougail.my_dyn_family_val2.var": "val2",
+    "rougail.var2": [
+        "val1",
+        "val2"
+    ]
+}

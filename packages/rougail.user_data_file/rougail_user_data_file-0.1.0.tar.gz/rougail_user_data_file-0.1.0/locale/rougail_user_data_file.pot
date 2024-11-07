@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-11-01 12:13+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: src/rougail/user_data_file/__init__.py:40
+msgid "file is not set in step.user_data"
+msgstr ""
+
+#: src/rougail/user_data_file/__init__.py:58
+msgid "cannot load \"{0}\", the root value is not a dict but \"{1}\""
+msgstr ""
+
+#: src/rougail/user_data_file/__init__.py:66
+msgid "file ({0})"
+msgstr ""
+
+#: src/rougail/user_data_file/__init__.py:88
+msgid "\"{0}\" in {1} has an unknown value"
+msgstr ""
+

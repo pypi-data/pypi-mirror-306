@@ -1,0 +1,6 @@
+{
+    "errors": [
+        "cannot access to optiondescription \"rougail.family\" (a family) because has property \"hidden\""
+    ],
+    "warnings": []
+}

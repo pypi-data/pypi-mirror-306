@@ -1,0 +1,5 @@
+rougail:
+  condition: string1
+  family:
+    subfamily:
+      var1: string1

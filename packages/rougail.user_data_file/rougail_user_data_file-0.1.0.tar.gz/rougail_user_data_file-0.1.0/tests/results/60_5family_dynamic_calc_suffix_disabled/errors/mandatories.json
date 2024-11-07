@@ -1,0 +1,6 @@
+{
+    "errors": [
+        "cannot access to option \"rougail.dynval1.var\" (A dynamic variable) because has property \"disabled\""
+    ],
+    "warnings": []
+}

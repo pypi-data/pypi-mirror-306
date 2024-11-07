@@ -1,0 +1,14 @@
+{
+    "rougail.condition": "yes",
+    "rougail.leader.leader": [
+        {
+            "rougail.leader.leader": "string1"
+        },
+        {
+            "rougail.leader.leader": "string2"
+        },
+        {
+            "rougail.leader.leader": "string3"
+        }
+    ]
+}

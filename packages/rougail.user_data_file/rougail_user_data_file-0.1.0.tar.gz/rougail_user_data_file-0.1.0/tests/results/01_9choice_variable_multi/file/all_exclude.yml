@@ -1,0 +1,6 @@
+rougail:
+  variable1:
+  - string1
+  - string2
+  - string3
+  variable2: string1

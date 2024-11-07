@@ -1,0 +1,14 @@
+rougail:
+  my_family:
+    type:
+      my_variable: string1
+    description:
+      my_variable: string1
+    help:
+      my_variable: string1
+    mode:
+      my_variable: string1
+    hidden:
+      my_variable: string1
+    disabled:
+      my_variable: string1

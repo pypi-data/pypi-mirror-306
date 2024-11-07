@@ -1,0 +1,7 @@
+rougail:
+  var:
+  - string1
+  - string2
+  - string3
+  var2: string1
+  var3: string1

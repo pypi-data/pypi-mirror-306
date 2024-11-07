@@ -1,0 +1,6 @@
+{
+    "errors": [
+        "cannot access to option \"rougail.family.variable\" (a variable) because has property \"hidden\" (condition2 is true)"
+    ],
+    "warnings": []
+}

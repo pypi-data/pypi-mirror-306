@@ -1,0 +1,49 @@
+{
+    "rougail.var": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "rougail.dynstring1.var": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "rougail.dynstring1.dyn_string1.var": "string1",
+    "rougail.dynstring1.dyn_string1.var_identifier": "string1",
+    "rougail.dynstring1.dyn_string1.var_identifiers": "string1",
+    "rougail.dynstring1.dyn_string2.var": "string1",
+    "rougail.dynstring1.dyn_string2.var_identifier": "string1",
+    "rougail.dynstring1.dyn_string2.var_identifiers": "string1",
+    "rougail.dynstring1.dyn_string3.var": "string1",
+    "rougail.dynstring1.dyn_string3.var_identifier": "string1",
+    "rougail.dynstring1.dyn_string3.var_identifiers": "string1",
+    "rougail.dynstring2.var": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "rougail.dynstring2.dyn_string1.var": "string1",
+    "rougail.dynstring2.dyn_string1.var_identifier": "string1",
+    "rougail.dynstring2.dyn_string1.var_identifiers": "string1",
+    "rougail.dynstring2.dyn_string2.var": "string1",
+    "rougail.dynstring2.dyn_string2.var_identifier": "string1",
+    "rougail.dynstring2.dyn_string2.var_identifiers": "string1",
+    "rougail.dynstring2.dyn_string3.var": "string1",
+    "rougail.dynstring2.dyn_string3.var_identifier": "string1",
+    "rougail.dynstring2.dyn_string3.var_identifiers": "string1",
+    "rougail.dynstring3.var": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "rougail.dynstring3.dyn_string1.var": "string1",
+    "rougail.dynstring3.dyn_string1.var_identifier": "string1",
+    "rougail.dynstring3.dyn_string1.var_identifiers": "string1",
+    "rougail.dynstring3.dyn_string2.var": "string1",
+    "rougail.dynstring3.dyn_string2.var_identifier": "string1",
+    "rougail.dynstring3.dyn_string2.var_identifiers": "string1",
+    "rougail.dynstring3.dyn_string3.var": "string1",
+    "rougail.dynstring3.dyn_string3.var_identifier": "string1",
+    "rougail.dynstring3.dyn_string3.var_identifiers": "string1"
+}

@@ -1,0 +1,7 @@
+rougail:
+  dynval1:
+    family:
+      var: string1
+  dynval2:
+    family:
+      var: string1

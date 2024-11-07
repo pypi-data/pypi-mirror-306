@@ -1,0 +1,29 @@
+rougail:
+  leader:
+  - leader: string1
+    follower1:
+    - string1
+    - string2
+    - string3
+    follower2:
+    - string1
+    - string2
+    - string3
+  - leader: string2
+    follower1:
+    - string1
+    - string2
+    - string3
+    follower2:
+    - string1
+    - string2
+    - string3
+  - leader: string3
+    follower1:
+    - string1
+    - string2
+    - string3
+    follower2:
+    - string1
+    - string2
+    - string3

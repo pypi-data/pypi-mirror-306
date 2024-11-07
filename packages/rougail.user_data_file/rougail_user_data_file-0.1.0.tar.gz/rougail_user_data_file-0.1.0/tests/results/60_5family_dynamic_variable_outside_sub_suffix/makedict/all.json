@@ -1,0 +1,21 @@
+{
+    "rougail.var": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "rougail.my_dyn_family_string1.subdyn_string1.var": "string1",
+    "rougail.my_dyn_family_string1.subdyn_string2.var": "string1",
+    "rougail.my_dyn_family_string1.subdyn_string3.var": "string1",
+    "rougail.my_dyn_family_string2.subdyn_string1.var": "string1",
+    "rougail.my_dyn_family_string2.subdyn_string2.var": "string1",
+    "rougail.my_dyn_family_string2.subdyn_string3.var": "string1",
+    "rougail.my_dyn_family_string3.subdyn_string1.var": "string1",
+    "rougail.my_dyn_family_string3.subdyn_string2.var": "string1",
+    "rougail.my_dyn_family_string3.subdyn_string3.var": "string1",
+    "rougail.var2": [
+        "string1",
+        "string2",
+        "string3"
+    ]
+}

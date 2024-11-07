@@ -1,0 +1,12 @@
+{
+    "rougail.my_variable": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "rougail.my_calculated_variable": [
+        "string1",
+        "string2",
+        "string3"
+    ]
+}

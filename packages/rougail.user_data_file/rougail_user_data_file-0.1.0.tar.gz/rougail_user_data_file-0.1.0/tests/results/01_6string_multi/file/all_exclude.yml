@@ -1,0 +1,30 @@
+rougail:
+  var1:
+  - string1
+  - string2
+  - string3
+  var2:
+  - string1
+  - string2
+  - string3
+  var3: string1
+  var4:
+  - string1
+  - string2
+  - string3
+  var5:
+  - string1
+  - string2
+  - string3
+  var6:
+  - string1
+  - string2
+  - string3
+  var7:
+  - string1
+  - string2
+  - string3
+  var8:
+  - string1
+  - string2
+  - string3

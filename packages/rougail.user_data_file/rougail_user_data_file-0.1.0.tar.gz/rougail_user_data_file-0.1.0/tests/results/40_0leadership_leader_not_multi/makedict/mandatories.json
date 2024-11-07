@@ -1,0 +1,20 @@
+{
+    "rougail.general.mode_conteneur_actif": "non",
+    "rougail.general1.leader.leader": [
+        {
+            "rougail.general1.leader.leader": "string1",
+            "rougail.general1.leader.follower1": "string1",
+            "rougail.general1.leader.follower2": "string1"
+        },
+        {
+            "rougail.general1.leader.leader": "string2",
+            "rougail.general1.leader.follower1": "string1",
+            "rougail.general1.leader.follower2": "string1"
+        },
+        {
+            "rougail.general1.leader.leader": "string3",
+            "rougail.general1.leader.follower1": "string1",
+            "rougail.general1.leader.follower2": "string1"
+        }
+    ]
+}

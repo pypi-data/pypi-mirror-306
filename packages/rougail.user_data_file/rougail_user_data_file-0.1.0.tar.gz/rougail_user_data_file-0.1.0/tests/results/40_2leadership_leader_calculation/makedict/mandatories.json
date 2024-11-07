@@ -1,0 +1,14 @@
+{
+    "rougail.leader.leader": [
+        {
+            "rougail.leader.leader": "val1",
+            "rougail.leader.follower1": "string1",
+            "rougail.leader.follower2": "string1"
+        },
+        {
+            "rougail.leader.leader": "val2",
+            "rougail.leader.follower1": "string1",
+            "rougail.leader.follower2": "string1"
+        }
+    ]
+}

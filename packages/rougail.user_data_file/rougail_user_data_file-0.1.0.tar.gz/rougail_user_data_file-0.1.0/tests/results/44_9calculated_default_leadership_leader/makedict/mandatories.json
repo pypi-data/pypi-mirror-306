@@ -1,0 +1,11 @@
+{
+    "rougail.leader.leader": [
+        {
+            "rougail.leader.leader": "a"
+        },
+        {
+            "rougail.leader.leader": "b",
+            "rougail.leader.follower": "b"
+        }
+    ]
+}

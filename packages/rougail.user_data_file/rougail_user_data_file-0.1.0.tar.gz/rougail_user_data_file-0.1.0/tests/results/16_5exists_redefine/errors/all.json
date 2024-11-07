@@ -1,0 +1,6 @@
+{
+    "errors": [
+        "cannot access to option \"rougail.var1\" (a first variable) because has property \"hidden\""
+    ],
+    "warnings": []
+}

@@ -1,0 +1,58 @@
+{
+    "rougail.var": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "rougail.dynstring1.leadership.leader": [
+        {
+            "rougail.dynstring1.leadership.leader": "string1",
+            "rougail.dynstring1.leadership.follower1": "string1",
+            "rougail.dynstring1.leadership.follower2": "string1"
+        },
+        {
+            "rougail.dynstring1.leadership.leader": "string2",
+            "rougail.dynstring1.leadership.follower1": "string1",
+            "rougail.dynstring1.leadership.follower2": "string1"
+        },
+        {
+            "rougail.dynstring1.leadership.leader": "string3",
+            "rougail.dynstring1.leadership.follower1": "string1",
+            "rougail.dynstring1.leadership.follower2": "string1"
+        }
+    ],
+    "rougail.dynstring2.leadership.leader": [
+        {
+            "rougail.dynstring2.leadership.leader": "string1",
+            "rougail.dynstring2.leadership.follower1": "string1",
+            "rougail.dynstring2.leadership.follower2": "string1"
+        },
+        {
+            "rougail.dynstring2.leadership.leader": "string2",
+            "rougail.dynstring2.leadership.follower1": "string1",
+            "rougail.dynstring2.leadership.follower2": "string1"
+        },
+        {
+            "rougail.dynstring2.leadership.leader": "string3",
+            "rougail.dynstring2.leadership.follower1": "string1",
+            "rougail.dynstring2.leadership.follower2": "string1"
+        }
+    ],
+    "rougail.dynstring3.leadership.leader": [
+        {
+            "rougail.dynstring3.leadership.leader": "string1",
+            "rougail.dynstring3.leadership.follower1": "string1",
+            "rougail.dynstring3.leadership.follower2": "string1"
+        },
+        {
+            "rougail.dynstring3.leadership.leader": "string2",
+            "rougail.dynstring3.leadership.follower1": "string1",
+            "rougail.dynstring3.leadership.follower2": "string1"
+        },
+        {
+            "rougail.dynstring3.leadership.leader": "string3",
+            "rougail.dynstring3.leadership.follower1": "string1",
+            "rougail.dynstring3.leadership.follower2": "string1"
+        }
+    ]
+}

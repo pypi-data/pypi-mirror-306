@@ -1,0 +1,40 @@
+rougail:
+  dynstring1:
+    dyn_string1:
+      var: string1
+      var_identifier: string1
+      var_identifiers: string1
+    dyn_string2:
+      var: string1
+      var_identifier: string1
+      var_identifiers: string1
+    dyn_string3:
+      var: string1
+      var_identifier: string1
+      var_identifiers: string1
+  dynstring2:
+    dyn_string1:
+      var: string1
+      var_identifier: string1
+      var_identifiers: string1
+    dyn_string2:
+      var: string1
+      var_identifier: string1
+      var_identifiers: string1
+    dyn_string3:
+      var: string1
+      var_identifier: string1
+      var_identifiers: string1
+  dynstring3:
+    dyn_string1:
+      var: string1
+      var_identifier: string1
+      var_identifiers: string1
+    dyn_string2:
+      var: string1
+      var_identifier: string1
+      var_identifiers: string1
+    dyn_string3:
+      var: string1
+      var_identifier: string1
+      var_identifiers: string1
