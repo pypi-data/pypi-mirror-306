@@ -1,0 +1,3 @@
+[livenodes.nodes]
+macro = ln_macro.macro:Macro
+noop = ln_macro.noop:Noop
