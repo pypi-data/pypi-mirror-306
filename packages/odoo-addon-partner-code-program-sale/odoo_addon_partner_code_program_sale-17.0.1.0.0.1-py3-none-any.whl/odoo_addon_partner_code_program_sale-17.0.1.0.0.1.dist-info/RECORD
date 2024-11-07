@@ -1,0 +1,14 @@
+odoo/addons/partner_code_program_sale/README.rst,sha256=fl7ZPn7KeFdMY_QKAkqfWhq7OvKyP4SxGeMe-HuDBXg,1782
+odoo/addons/partner_code_program_sale/__init__.py,sha256=eShEGRadAlxopoLqIQ4-N42FM7MWPSuBe0h_l1cXTPM,87
+odoo/addons/partner_code_program_sale/__manifest__.py,sha256=SBDPsMMmQ632NWq4MXYci6tGsYG0SWvibOxF1MLdFno,611
+odoo/addons/partner_code_program_sale/i18n/es.po,sha256=HkX5lLWaiYq0ksFqRdhhhkX-5DHqjgFOBug87aZO4A0,1307
+odoo/addons/partner_code_program_sale/models/__init__.py,sha256=7iZd5Q0Qd6viaW1V-kTLNeRR2aYHN1I_AjouXSt5lxk,117
+odoo/addons/partner_code_program_sale/models/sale_order.py,sha256=UCe-_IBmTUT6jZbbpsvT7MouAzXuMkXjMQLAoR1xJPc,275
+odoo/addons/partner_code_program_sale/models/sale_report.py,sha256=YuBHsJNxVlM-gKkUHswcnWEA80WsxZ2adPPAnCnI94Y,668
+odoo/addons/partner_code_program_sale/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/partner_code_program_sale/views/sale_order.xml,sha256=Ufleutatk7Prlfk2J-n3tnF94nM27ouWAO-ifL96GHY,1041
+odoo/addons/partner_code_program_sale/views/sale_report.xml,sha256=sqSLRl7pmKe62HsM9phbnH0HL2FPdQ9X1rGpEMUpMg0,1069
+odoo_addon_partner_code_program_sale-17.0.1.0.0.1.dist-info/METADATA,sha256=qI1NWv-AZkdGmZG4UAO6M4nicYGjPLL3EdxbbMBLoBs,2333
+odoo_addon_partner_code_program_sale-17.0.1.0.0.1.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_partner_code_program_sale-17.0.1.0.0.1.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_partner_code_program_sale-17.0.1.0.0.1.dist-info/RECORD,,
