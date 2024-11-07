@@ -1,0 +1,204 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.2"]
+
+[project]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Web Environment",
+  "Framework :: Django",
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Internationalization",
+  "Topic :: Software Development :: Localization",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Internet :: WWW/HTTP :: Dynamic Content"
+]
+dependencies = [
+  "Django>=5.0,<5.2",
+  "django-appconf>=1.0",
+  "django-countries==7.6.1",
+  "django-vies==6.1.0",
+  "fakturace==0.7.2",
+  "psycopg[binary]",
+  "python-dateutil",
+  "requests",
+  "Weblate>=5.5.3"
+]
+description = "Hosted Weblate Customization"
+keywords = [
+  "i18n",
+  "l10n",
+  "gettext",
+  "git",
+  "mercurial",
+  "translate"
+]
+name = "wlhosted"
+requires-python = ">=3.11"
+version = "2024.11"
+
+[[project.authors]]
+email = "michal@cihar.com"
+name = "Michal Čihař"
+
+[project.license]
+text = "GPLv3+"
+
+[project.optional-dependencies]
+dev = [
+  "wlhosted[lint,test]"
+]
+lint = [
+  "pre-commit==4.0.1"
+]
+test = [
+  "httpretty",
+  "coverage",
+  "build==1.2.2.post1",
+  "twine==5.1.1"
+]
+
+[project.readme]
+content-type = "text/x-rst"
+file = "README.rst"
+
+[project.urls]
+Documentation = "https://docs.weblate.org/"
+Download = "https://github.com/WeblateOrg/hosted"
+Homepage = "https://weblate.org/"
+"Issue Tracker" = "https://github.com/WeblateOrg/hosted/issues"
+"Source Code" = "https://github.com/WeblateOrg/hosted"
+Twitter = "https://twitter.com/WeblateOrg"
+
+[tool.check-manifest]
+ignore = [
+  "LICENSES/*",
+  "json/*",
+  ".reuse/dep5",
+  "scripts/*",
+  "*.toml",
+  "*.yml",
+  "*.yaml",
+  "*.json",
+  ".editorconfig",
+  ".weblate"
+]
+
+[tool.check-wheel-contents]
+ignore = [
+  "W004"  # Django migrations fail here
+]
+
+[tool.coverage.paths]
+source = [
+  "."
+]
+
+[tool.coverage.report]
+exclude_also = [
+  "@(abc\\.)?abstractmethod",
+  # Have to re-enable the standard pragma
+  "pragma: no cover",
+  # Don't complain about missing debug-only code:
+  "def __repr__",
+  "if self\\.debug",
+  # Don't complain if tests don't hit defensive assertion code:
+  "raise AssertionError",
+  "raise NotImplementedError",
+  # Don't complain if non-runnable code isn't run:
+  "if 0:",
+  "if __name__ == .__main__.:",
+  # Type checking
+  "if TYPE_CHECKING:"
+]
+
+[tool.coverage.run]
+branch = true
+concurrency = ["thread", "multiprocessing"]
+omit = [
+  ".venv*/*"
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+target-version = "py311"
+
+[tool.ruff.lint]
+ignore = [
+  "D10",  # TODO: we are missing many docstrings
+  "D203",  # CONFIG: incompatible with D211
+  "D212",  # CONFIG: incompatible with D213
+  "ISC001",  # CONFIG: formatter
+  "D401",  # TODO: many strings need rephrasing
+  "DJ001",  # TODO: Avoid using `null=True` on string-based fields such as CharField (maybe add noqa)
+  "E501",  # WONTFIX: we accept long strings (rest is formatted by black)
+  "T201",  # WONTFIX: using print() (maybe add noqa)
+  "TRY003",  # WONTFIX: Avoid specifying long messages outside the exception class
+  "B904",  # TODO: Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling
+  "PLR2004",  # TODO: Magic value used in comparison, consider replacing 201 with a constant variable
+  "PLW2901",  # TODO: overwriting variables inside loop
+  "N818",  # TODO: exception naming
+  "RUF012",  # TODO: Mutable class attributes should be annotated with `typing.ClassVar`
+  "SLF001"  # TODO: Private member accessed (might need noqa tags)
+]
+select = [
+  "E",
+  "F",
+  "B",
+  "T10",
+  "A",
+  "C4",
+  "C90",
+  "YTT",
+  "DJ",
+  "UP",
+  "D",
+  "PD",
+  "PGH",
+  "PL",
+  "TRY",
+  "RUF",
+  "ERA",
+  "ICN",
+  "ISC",
+  "EXE",
+  "INP",
+  "PIE",
+  "G",
+  "PYI",
+  "Q",
+  "SIM",
+  "TID",
+  "RSE",
+  "T20",
+  "RET",
+  "SLF",
+  "N"
+]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 16
+
+[tool.ruff.lint.per-file-ignores]
+"wlhosted/settings_*.py" = ["F405"]
+
+[tool.setuptools]
+include-package-data = true
+zip-safe = true
+
+[tool.setuptools.package-dir]
+hosted = "hosted"
+
+[tool.setuptools.packages.find]
+namespaces = true
