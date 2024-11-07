@@ -1,0 +1,11 @@
+livenodes>=v0.12.1b1
+ln_ports>=0.12.1b1
+ln_io_python>=0.12.1b1
+numpy>=1.24.4
+h5py
+joblib>=1.4.2
+pyarrow>=16.0.0
+
+[dev]
+tox
+pytest>=8.2.2
