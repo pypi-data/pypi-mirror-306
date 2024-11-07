@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: odoo-addons-sygel-technology-sy-calendar
+Version: 15.0.20241105.0
+Summary: Meta package for sygel-technology-sy-calendar Odoo addons
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 15.0
+Requires-Dist: odoo-addon-calendar-document-popup<15.1dev,>=15.0dev
+
+UNKNOWN
