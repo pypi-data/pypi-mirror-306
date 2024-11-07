@@ -1,0 +1,7 @@
+livenodes>=0.12.1b9
+deprecation>=2.1.0
+numpy>=1.24.4
+
+[dev]
+tox
+pytest>=8.2.2
