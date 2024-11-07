@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: seq_dbutils
+Version: 2.0.2
+Summary: A package of MySQL database utilities
+Home-page: https://github.com/BDI-pathogens/seq_dbutils
+Author: Laura Thomson
+Author-email: laura.thomson@bdi.ox.ac.uk
+License: MIT
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Requires-Python: <3.13,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography~=43.0.1
+Requires-Dist: mysql-connector-python~=8.1.0
+Requires-Dist: pandas~=2.1.1
+Requires-Dist: SQLAlchemy~=2.0.22
+
+# seq_dbutils
+
+[![Python 3.9 to 3.12](https://github.com/BDI-pathogens/seq_dbutils/actions/workflows/python-versions.yml/badge.svg)](https://github.com/BDI-pathogens/seq_dbutils/actions/workflows/python-versions.yml)
+[![Coverage](https://github.com/BDI-pathogens/seq_dbutils/actions/workflows/coverage.yml/badge.svg)](https://github.com/BDI-pathogens/seq_dbutils/actions/workflows/coverage.yml)
+[![Codecov](https://codecov.io/gh/BDI-pathogens/seq_dbutils/branch/main/graph/badge.svg?token=189LXC6MG3)](https://codecov.io/gh/BDI-pathogens/seq_dbutils/branch/main/graph/badge.svg?token=189LXC6MG3)
+[![PyPI version](https://badge.fury.io/py/seq-dbutils.svg)](https://badge.fury.io/py/seq-dbutils)
+[![Wheel](https://img.shields.io/pypi/wheel/pronto?style=flat-square&maxAge=3600)](https://pypi.org/project/seq-dbutils/#files)
+[![Versions](https://img.shields.io/pypi/pyversions/seq-dbutils.svg?style=flat-square&maxAge=3600)](https://pypi.org/project/seq-dbutils/#files)
+
+MySQL database utilities for the sequencing databases
