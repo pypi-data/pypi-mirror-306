@@ -1,0 +1,4 @@
+pydantic
+wexample-config
+wexample-helpers
+wexample-prompt
