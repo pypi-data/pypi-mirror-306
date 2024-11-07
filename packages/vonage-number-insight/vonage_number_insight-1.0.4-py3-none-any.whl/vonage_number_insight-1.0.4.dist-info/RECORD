@@ -1,0 +1,10 @@
+vonage_number_insight/__init__.py,sha256=5xkaGKx3Em7SbvzraRWP4u-5ozHyNxTkdVF0pC5Gt30,772
+vonage_number_insight/_version.py,sha256=thGZHY6pLPhJc6CwYBjUaQ6pGxLhwPMp_pjoYsiwvI4,22
+vonage_number_insight/errors.py,sha256=pNLYneOivqDIHbggtT-BE6US1dxNIwkz_r2104gYl-w,156
+vonage_number_insight/number_insight.py,sha256=ysl4AJa09lvcELMcBmwWhpjREulxyaMEwWvpT7STHzw,5467
+vonage_number_insight/requests.py,sha256=PFSR5M7oszFAdr6GXr2y5sFNP7XuaKA609rqz6fR0iI,1695
+vonage_number_insight/responses.py,sha256=Iai0USpKhPGcCGGljaiTX1bhrNiNGvK7vMIVU3GbDI8,10482
+vonage_number_insight-1.0.4.dist-info/METADATA,sha256=43SiMh0mrjRGGzmgwQ8mWLAA44WB-tV7QbEUsIKs_mk,2988
+vonage_number_insight-1.0.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+vonage_number_insight-1.0.4.dist-info/top_level.txt,sha256=yJlrZzHBYQ71l0DcvGwKYIlBw4Jj_OPd8fwI5seQ1Ks,22
+vonage_number_insight-1.0.4.dist-info/RECORD,,
