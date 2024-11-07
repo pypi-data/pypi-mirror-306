@@ -1,0 +1,30 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+int:
+  description: A limited number
+  default: 10
+  params:
+    min_number: 0
+    max_number: 100
+----
+== Variables
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**int** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire`                                                                                                              | 
+A limited number. +
+**Validators**:
+
+* le valeur minimal est 0
+* le valeur maximal est 100
+
+**Défaut**: 10                                                                                                              
+|====
+
+

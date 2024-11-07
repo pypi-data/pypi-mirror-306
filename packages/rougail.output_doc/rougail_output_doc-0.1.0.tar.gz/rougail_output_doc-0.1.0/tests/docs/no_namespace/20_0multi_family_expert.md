@@ -1,0 +1,17 @@
+---
+gitea: none
+include_toc: true
+---
+# dictionaries/rougail/00-base.yml
+
+```yaml
+---
+version: '1.1'
+family:
+  description: a family
+  mode: advanced
+  subfamily:  # a sub family
+    variable:
+      description: a variable
+      mandatory: false
+```

@@ -1,0 +1,29 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+variable:
+  description: a variable
+  default:
+    jinja: |
+      {{test_information }}
+    params:
+      test_information:
+        type: information
+        information: test_information
+    description: get information test_information
+----
+== Variables
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**variable** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A variable. +
+**Défaut**: get information test_information.                                                                                                              
+|====
+
+

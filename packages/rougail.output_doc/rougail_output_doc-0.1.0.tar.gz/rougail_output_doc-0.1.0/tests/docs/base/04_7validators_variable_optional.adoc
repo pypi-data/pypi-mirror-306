@@ -1,0 +1,59 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+general:  # a family
+  int:
+    description: a first number
+    type: number
+    test:
+      - 5
+    validators:
+      - jinja: |
+          {% if _.int == int2 %}
+          int and int2 must be different
+          {% endif %}
+        params:
+          int2:
+            variable: _.int2
+            optional: true
+        description: int and int2 must be different
+      - jinja: |
+          {% if int3 is defined and _.int == int3 %}
+          int and int3 must be different
+          {% endif %}
+        params:
+          int3:
+            variable: _.int3
+            optional: true
+        description: int and int3 must be different
+  int2: 1  # a second number
+----
+== Variables pour "rougail"
+
+=== a family
+
+`basic`
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.general.int** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `basic` `obligatoire`                                                                                                              | 
+A first number. +
+**Validators**:
+
+* int and int2 must be different.
+* int and int3 must be different.
+
+**Exemple**: 5                                                                                                              
+| 
+**rougail.general.int2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire`                                                                                                              | 
+A second number. +
+**Défaut**: 1                                                                                                              
+|====
+
+

@@ -1,0 +1,109 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var1:
+  description: the first variable
+  choices:
+    - a
+    - b
+    - c
+var2:
+  description: the second variable
+  choices:
+    - a
+    - b
+    - c
+var3:
+  description: the third variable
+  choices:
+    - a
+    - b
+    - c
+  mandatory: false
+var4:
+  description: the forth variable
+  choices:
+    - 
+    - b
+    - c
+  mandatory: false
+var5:
+  description: the fifth variable
+  choices:
+    - a
+    - b
+    - c
+  default: a
+var6:
+  description: the sixth variable
+  choices:
+    - 1
+    - 2
+    - 3
+  default: 1
+----
+== Variables
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[choice]` `basic` `obligatoire`                                                                                                              | 
+The first variable. +
+**Choix**: 
+
+* a
+* b
+* c                                                                                                              
+| 
+**var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[choice]` `basic` `obligatoire`                                                                                                              | 
+The second variable. +
+**Choix**: 
+
+* a
+* b
+* c                                                                                                              
+| 
+**var3** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[choice]` `standard`                                                                                                              | 
+The third variable. +
+**Choix**: 
+
+* a
+* b
+* c
+* null                                                                                                              
+| 
+**var4** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[choice]` `standard`                                                                                                              | 
+The forth variable. +
+**Choix**: 
+
+* null
+* b
+* c                                                                                                              
+| 
+**var5** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[choice]` `standard` `obligatoire`                                                                                                              | 
+The fifth variable. +
+**Choix**: 
+
+* a ← (defaut)
+* b
+* c                                                                                                              
+| 
+**var6** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[choice]` `standard` `obligatoire`                                                                                                              | 
+The sixth variable. +
+**Choix**: 
+
+* 1 ← (defaut)
+* 2
+* 3                                                                                                              
+|====
+
+

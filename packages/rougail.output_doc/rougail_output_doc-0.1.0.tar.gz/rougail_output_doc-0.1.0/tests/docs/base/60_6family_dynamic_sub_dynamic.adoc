@@ -1,0 +1,112 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var:  # A identifier variable
+  - val1
+  - val2
+dyn{{ identifier }}:
+  description: A dynamic family
+  dynamic:
+    variable: _.var
+  var:
+    description: A dynamic variable
+    multi: true
+    default:
+      jinja: |
+        {% for val in __.var %}
+        t{{ val }}
+        {% endfor %}
+      description: add 't' to each var value
+  dyn_{{ identifier }}:
+    description: a Second dynamic variable
+    dynamic:
+      variable: rougail.dyn{{ identifier }}.var
+    var:
+      description: A variable dynamic
+      default:
+        type: identifier
+    var_identifier:
+      description: identifier from first family
+      default:
+        type: identifier
+        identifier: 0
+    var_identifiers:
+      description: merge identifiers
+      default:
+        jinja: |
+          {{ s1 }}-{{ s2 }}
+        params:
+          s1:
+            type: identifier
+            identifier: 0
+          s2:
+            type: identifier
+            identifier: 1
+        description: join identifier 1 et identifier 2
+----
+== Variables pour "rougail"
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                              | 
+A identifier variable. +
+**Défaut**: 
+
+* val1
+* val2                                                                                                              
+|====
+
+=== A dynamic family
+
+`standard`
+
+
+This family builds families dynamically.
+
+**Identifiers**: la valeur de la variable "rougail.var".
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.dynval1.var** ou **rougail.dynval2.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                              | 
+A dynamic variable. +
+**Défaut**: add 't' to each var value.                                                                                                              
+|====
+
+==== a Second dynamic variable
+
+`standard`
+
+
+This family builds families dynamically.
+
+**Identifiers**: la valeur de la variable "rougail.dyn{{ identifier }}.var".
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.dynval1.dyn_tval1.var**, **rougail.dynval1.dyn_tval2.var**, **rougail.dynval2.dyn_tval1.var** ou **rougail.dynval2.dyn_tval2.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A variable dynamic. +
+**Défaut**: la valeur de identifier.                                                                                                              
+| 
+**rougail.dynval1.dyn_tval1.var_identifier**, **rougail.dynval1.dyn_tval2.var_identifier**, **rougail.dynval2.dyn_tval1.var_identifier** ou **rougail.dynval2.dyn_tval2.var_identifier** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+Identifier from first family. +
+**Défaut**: la valeur de identifier.                                                                                                              
+| 
+**rougail.dynval1.dyn_tval1.var_identifiers**, **rougail.dynval1.dyn_tval2.var_identifiers**, **rougail.dynval2.dyn_tval1.var_identifiers** ou **rougail.dynval2.dyn_tval2.var_identifiers** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+Merge identifiers. +
+**Défaut**: join identifier 1 et identifier 2.                                                                                                              
+|====
+
+

@@ -1,0 +1,44 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+variable: rougail  # a variable
+----
+== dictionaries/extra/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+variable:
+  description: a variable
+  default:
+    jinja: no
+    description: return no
+----
+== Variables pour "rougail"
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.variable** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A variable. +
+**Défaut**: rougail                                                                                                              
+|====
+
+
+== Variables pour "extra"
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**extra.variable** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A variable. +
+**Défaut**: return no.                                                                                                              
+|====
+
+

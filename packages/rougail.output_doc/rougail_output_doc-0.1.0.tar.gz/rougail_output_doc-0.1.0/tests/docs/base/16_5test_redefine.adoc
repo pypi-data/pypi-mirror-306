@@ -1,0 +1,57 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var1: no    # a first variable
+var2:
+  description: a second variable
+  test:
+    - test
+  default: non
+var3:
+  description: a third variable
+  test:
+    - test
+----
+== dictionaries/rougail/10-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var1:
+  redefine: true
+  test:
+    - test1
+var2:
+  redefine: true
+  test:
+    - test1
+var3:
+  redefine: true
+  test:
+----
+== Variables pour "rougail"
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**rougail.var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                           | 
+A first variable. +
+**Défaut**: no +
+**Exemple**: test1                                                                                                           
+| 
+**rougail.var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                           | 
+A second variable. +
+**Défaut**: non +
+**Exemple**: test1                                                                                                           
+| 
+**rougail.var3** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+A third variable.                                                                                                           
+|====
+
+

@@ -1,0 +1,62 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+network_address_eth0:
+  description: Network address
+  type: network
+netmask_address_eth0:
+  description: Network address
+  type: netmask
+ip_address:
+  description: an IP
+  type: ip
+  validators:
+    - type: jinja
+      jinja: |
+        {% if not _.ip_address | valid_in_network(_.network_address_eth0, _.netmask_address_eth0) %}
+        {{ _.ip_address }} is not in network {{ _.network_address_eth0 }}/{{ _.netmask_address_eth0 }}
+        {% endif %}
+      description: check if IP in the previous network
+----
+== Variables
+
+[cols="101a,101a",options="header"]
+|====
+| Variable                                                                                            | Description                                                                                         
+| 
+**network_address_eth0** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[network]` `basic` `mandatory`                                                                                                     | 
+Network address.                                                                                                     
+| 
+**netmask_address_eth0** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[netmask]` `basic` `mandatory`                                                                                                     | 
+Network address.                                                                                                     
+| 
+**ip_address** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[IP]` `basic` `mandatory`                                                                                                     | 
+An IP. +
+**Validators**:
+
+* reserved IP are allowed
+* check if IP in the previous network.                                                                                                     
+|====
+
+
+== Example with mandatory variables not filled in
+
+[,yaml]
+----
+network_address_eth0: 1.1.1.0
+netmask_address_eth0: 255.255.255.0
+ip_address: 1.1.1.1
+----
+== Example with all variables modifiable
+
+[,yaml]
+----
+network_address_eth0: 1.1.1.0
+netmask_address_eth0: 255.255.255.0
+ip_address: 1.1.1.1
+----

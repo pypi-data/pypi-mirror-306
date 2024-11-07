@@ -1,0 +1,35 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: 1.1
+my_variable:
+  default: val1
+my_calculated_variable:
+  multi: true
+  default:
+    - variable: _.my_variable_unexists
+      optional: true
+    - variable: _.my_variable
+      optional: true
+----
+== Variables pour "rougail"
+
+[cols="130a,130a",options="header"]
+|====
+| Variable                                                                                                                         | Description                                                                                                                      
+| 
+**rougail.my_variable** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                                                  | 
+My_variable. +
+**Défaut**: val1                                                                                                                                  
+| 
+**rougail.my_calculated_variable** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+My_calculated_variable. +
+**Défaut**: 
+
+* la valeur de la variable "rougail.my_variable_unexists".                                                                                                                                  
+|====
+
+

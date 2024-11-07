@@ -1,0 +1,25 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+variable:
+  description: a variable
+  default:
+    - quote'"
+----
+== Variables pour "rougail"
+
+[cols="130a,130a",options="header"]
+|====
+| Variable                                                                                                                         | Description                                                                                                                      
+| 
+**rougail.variable** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+A variable. +
+**Défaut**: 
+
+* quote'"                                                                                                                                  
+|====
+
+

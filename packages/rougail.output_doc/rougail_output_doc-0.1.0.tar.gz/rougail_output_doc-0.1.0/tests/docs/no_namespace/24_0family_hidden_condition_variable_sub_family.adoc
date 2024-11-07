@@ -1,0 +1,47 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+condition: true  # the variable use has condition
+family:
+  description: possibly hidden family
+  hidden:
+    variable: _.condition
+  subfamily:  # a subfamily
+    var1:
+      description: a variable
+      mandatory: false
+----
+== Variables
+
+[cols="96a,96a",options="header"]
+|====
+| Variable                                                                                       | Description                                                                                    
+| 
+**condition** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[boolean]` `standard` `obligatoire`                                                                                                | 
+The variable use has condition. +
+**Défaut**: True                                                                                                
+|====
+
+=== possibly hidden family
+
+`standard` _`caché`_
+
+**Caché**: when the variable "condition" has the value "True".
+
+==== a subfamily
+
+`standard`
+
+[cols="96a,96a",options="header"]
+|====
+| Variable                                                                                       | Description                                                                                    
+| 
+**family.subfamily.var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard`                                                                                                | 
+A variable.                                                                                                
+|====
+
+

@@ -1,0 +1,44 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+bool: false  # a boolean variable
+int1:
+  description: first integer variable
+  type: number
+  default:
+    jinja: |
+      {% if rougail.bool %}1{% else %}2{% endif %}
+    description: if bool returns 1 otherwise return 2
+int2:
+  description: second integer variable
+  type: number
+  default:
+    jinja: |
+      {% if not rougail.bool %}3{% else %}4{% endif %}
+    description: if bool returns 3 otherwise return 4
+----
+== Variables pour "rougail"
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.bool** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[boolean]` `standard` `obligatoire`                                                                                                              | 
+A boolean variable. +
+**Défaut**: False                                                                                                              
+| 
+**rougail.int1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire`                                                                                                              | 
+First integer variable. +
+**Défaut**: if bool returns 1 otherwise return 2.                                                                                                              
+| 
+**rougail.int2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire`                                                                                                              | 
+Second integer variable. +
+**Défaut**: if bool returns 3 otherwise return 4.                                                                                                              
+|====
+
+

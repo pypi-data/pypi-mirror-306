@@ -1,0 +1,47 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var: val2  # a suffix variable
+dyn{{ identifier }}:
+  description: a dynamic family
+  dynamic:
+    - val1
+    - variable: _.var
+  vardyn:  # a dynamic variable
+----
+== Variables
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                           | 
+A suffix variable. +
+**Défaut**: val2                                                                                                           
+|====
+
+=== a dynamic family
+
+`basic`
+
+
+This family builds families dynamically.
+
+**Identifiers**: 
+
+* val1
+* la valeur de la variable "var".
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**dynval1.vardyn** ou **dynval2.vardyn** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+A dynamic variable.                                                                                                           
+|====
+
+

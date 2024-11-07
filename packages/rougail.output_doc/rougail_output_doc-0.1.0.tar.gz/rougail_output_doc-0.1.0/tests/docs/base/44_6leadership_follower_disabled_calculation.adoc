@@ -1,0 +1,55 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+condition: yes    # a condition
+leader:
+  description: a leadership
+  type: leadership
+  leader:
+    description: a leader
+    multi: true
+  follower:
+    description: a follower
+    disabled:
+      jinja: |
+        {% if __.condition == "yes" %}
+        disabled
+        {% endif %}
+      description: if condition is yes
+----
+== Variables pour "rougail"
+
+[cols="121a,121a",options="header"]
+|====
+| Variable                                                                                                                | Description                                                                                                             
+| 
+**rougail.condition** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                                         | 
+A condition. +
+**Défaut**: yes                                                                                                                         
+|====
+
+=== a leadership
+
+`basic`
+
+
+This family contains lists of variable blocks.
+
+[cols="121a,121a",options="header"]
+|====
+| Variable                                                                                                                | Description                                                                                                             
+| 
+**rougail.leader.leader** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire` `unique` `multiple`                                                                                                                         | 
+A leader.                                                                                                                         
+| 
+**rougail.leader.follower** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire` _`désactivé`_                                                                                                                         | 
+A follower. +
+**Désactivé**: if condition is yes.                                                                                                                         
+|====
+
+

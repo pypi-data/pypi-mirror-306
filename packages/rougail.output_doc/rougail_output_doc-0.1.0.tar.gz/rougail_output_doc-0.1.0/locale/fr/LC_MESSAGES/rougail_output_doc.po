@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-11-01 11:42+0100\n"
+"PO-Revision-Date: 2024-11-01 11:42+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.5\n"
+
+#: src/rougail/output_doc/__init__.py:40
+msgid "the domain name can starts by a dot"
+msgstr "le nom de domaine peut commencé par un point"
+
+#: src/rougail/output_doc/__init__.py:41
+msgid "the domain name can be a hostname"
+msgstr "le nom de domaine peut être un nom d'hôte"
+
+#: src/rougail/output_doc/__init__.py:42
+msgid "the domain name can be an IP"
+msgstr "le nom de domaine peut être une IP"
+
+#: src/rougail/output_doc/__init__.py:43
+msgid "the domain name can be network in CIDR format"
+msgstr "le nom de domaine peut être un réseau au format CIDR"
+
+#: src/rougail/output_doc/__init__.py:48
+msgid "the minimum value is {0}"
+msgstr "le valeur minimal est {0}"
+
+#: src/rougail/output_doc/__init__.py:49
+msgid "the maximum value is {0}"
+msgstr "le valeur maximal est {0}"
+
+#: src/rougail/output_doc/__init__.py:55
+msgid "IP must be in CIDR format"
+msgstr "IP doit être au format CIDR"
+
+#: src/rougail/output_doc/__init__.py:56
+msgid "private IP are allowed"
+msgstr "les IP privées sont autorisés"
+
+#: src/rougail/output_doc/__init__.py:57
+msgid "reserved IP are allowed"
+msgstr "les IP réservés sont autorisés"
+
+#: src/rougail/output_doc/__init__.py:62
+msgid "the host name can be an IP"
+msgstr "le nom d'hôte peut être une IP"
+
+#: src/rougail/output_doc/__init__.py:67
+msgid "the domain name in web address can be an IP"
+msgstr "le nom de domaine dans l'adresse web peut être une IP"
+
+#: src/rougail/output_doc/__init__.py:68
+msgid "the domain name in web address can be only a hostname"
+msgstr "le nom de domaine dans l'adresse web ne peut être qu'un nom d'hôte"
+
+#: src/rougail/output_doc/__init__.py:75
+msgid "can be range of port"
+msgstr "peut être un range de port"
+
+#: src/rougail/output_doc/__init__.py:76
+msgid "can have the protocol"
+msgstr "peut avoir un protocole"
+
+#: src/rougail/output_doc/__init__.py:77
+msgid "port 0 is allowed"
+msgstr "le port 0 est autorisé"
+
+#: src/rougail/output_doc/__init__.py:78
+msgid "ports 1 to 1023 are allowed"
+msgstr "les ports entre 1 et 1023 sont autorisés"
+
+#: src/rougail/output_doc/__init__.py:79
+msgid "ports 1024 to 49151 are allowed"
+msgstr "les ports entre 1024 et 49151 sont autorisés"
+
+#: src/rougail/output_doc/__init__.py:80
+msgid "ports greater than 49152 are allowed"
+msgstr "les ports supérieurs à 49152 sont autorisés"
+
+#: src/rougail/output_doc/__init__.py:125
+msgid "mandatory"
+msgstr "obligatoire"
+
+#: src/rougail/output_doc/__init__.py:126
+msgid "hidden"
+msgstr "caché"
+
+#: src/rougail/output_doc/__init__.py:127
+msgid "disabled"
+msgstr "désactivé"
+
+#: src/rougail/output_doc/__init__.py:128
+msgid "unique"
+msgstr "unique"
+
+#: src/rougail/output_doc/__init__.py:129
+msgid "auto modified"
+msgstr "auto modifiée"
+
+#: src/rougail/output_doc/__init__.py:163
+msgid "Variables for \"{0}\""
+msgstr "Variables pour \"{0}\""
+
+#: src/rougail/output_doc/__init__.py:180
+msgid "Variables"
+msgstr "Variables"
+
+#: src/rougail/output_doc/__init__.py:187
+msgid "Example with mandatory variables not filled in"
+msgstr "Exemple avec des variables obligatoire non renseignée"
+
+#: src/rougail/output_doc/__init__.py:493
+msgid "(default)"
+msgstr "(defaut)"
+
+#: src/rougail/output_doc/__init__.py:498
+msgid "Choices"
+msgstr "Choix"
+
+#: src/rougail/output_doc/__init__.py:501
+msgid "Default"
+msgstr "Défaut"
+
+#: src/rougail/output_doc/__init__.py:559
+msgid "the value of the variable \"{0}\""
+msgstr "la valeur de la variable \"{0}\""
+
+#: src/rougail/output_doc/__init__.py:564
+#: src/rougail/output_doc/__init__.py:566
+msgid "value of the {0}"
+msgstr "la valeur de {0}"
+
+#: src/rougail/output_doc/__init__.py:638
+#: src/rougail/output_doc/__init__.py:651
+msgid "Example"
+msgstr "Exemple"
+
+#: src/rougail/output_doc/__init__.py:649
+msgid "Examples"
+msgstr "Exemples"

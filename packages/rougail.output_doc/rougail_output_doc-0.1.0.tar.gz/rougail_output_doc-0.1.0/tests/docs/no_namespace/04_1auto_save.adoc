@@ -1,0 +1,23 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: 1.1
+variable:
+  description: an auto save variable
+  auto_save: true
+  default: no
+----
+== Variables
+
+[cols="123a,123a",options="header"]
+|====
+| Variable                                                                                                                  | Description                                                                                                               
+| 
+**variable** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire` `auto modifiée`                                                                                                                           | 
+An auto save variable. +
+**Défaut**: no                                                                                                                           
+|====
+
+

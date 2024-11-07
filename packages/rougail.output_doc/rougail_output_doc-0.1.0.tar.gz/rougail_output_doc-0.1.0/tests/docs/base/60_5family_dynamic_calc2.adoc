@@ -1,0 +1,66 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+
+var:  # A suffix variable
+  - val1
+  - val2
+
+var2:  # a second variable
+
+dyn{{ identifier }}:
+  description: A dynamic family
+  dynamic:
+    variable: _.var
+  hidden:
+    jinja: |
+      {% if _.var2 == "no" %}
+      var2 is no
+      {% endif %}
+    description: if var2 is no
+
+  vardyn: val  # a dynamic variable
+----
+== Variables pour "rougail"
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                              | 
+A suffix variable. +
+**Défaut**: 
+
+* val1
+* val2                                                                                                              
+| 
+**rougail.var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                              | 
+A second variable.                                                                                                              
+|====
+
+=== A dynamic family
+
+`standard` _`caché`_
+
+**Caché**: if var2 is no.
+
+
+This family builds families dynamically.
+
+**Identifiers**: la valeur de la variable "rougail.var".
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.dynval1.vardyn** ou **rougail.dynval2.vardyn** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A dynamic variable. +
+**Défaut**: val                                                                                                              
+|====
+
+

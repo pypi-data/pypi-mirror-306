@@ -1,0 +1,21 @@
+---
+gitea: none
+include_toc: true
+---
+# dictionaries/rougail/01-base.yml
+
+```yaml
+---
+version: '1.0'
+family:
+  redefine: true
+  disabled: true
+```
+# dictionaries/rougail/00-base.yml
+
+```yaml
+---
+version: '1.0'
+family:
+  var1:
+```

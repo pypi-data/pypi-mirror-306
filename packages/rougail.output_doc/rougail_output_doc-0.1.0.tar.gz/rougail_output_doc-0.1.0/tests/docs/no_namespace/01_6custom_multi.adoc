@@ -1,0 +1,34 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+custom1:
+  description: a first custom variable
+  type: custom
+  multi: true
+custom2:
+  description: a second custom variable
+  type: custom
+  default:
+    - value
+----
+== Variables
+
+[cols="130a,130a",options="header"]
+|====
+| Variable                                                                                                                         | Description                                                                                                                      
+| 
+**custom1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[custom]` `basic` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+A first custom variable.                                                                                                                                  
+| 
+**custom2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[custom]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+A second custom variable. +
+**Défaut**: 
+
+* value                                                                                                                                  
+|====
+
+

@@ -1,0 +1,51 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+
+leader:
+  description: a leadership
+  type: leadership
+
+  leader:
+    description: a leader
+    multi: true
+    default:
+      jinja: |
+        val1
+        val2
+      description: returns val1 and val2
+
+  follower1:  # a first follower
+
+  follower2:  # a second follower
+----
+== Variables pour "rougail"
+
+=== a leadership
+
+`basic`
+
+
+This family contains lists of variable blocks.
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**rougail.leader.leader** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                           | 
+A leader. +
+**Défaut**: returns val1 and val2.                                                                                                           
+| 
+**rougail.leader.follower1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+A first follower.                                                                                                           
+| 
+**rougail.leader.follower2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+A second follower.                                                                                                           
+|====
+
+

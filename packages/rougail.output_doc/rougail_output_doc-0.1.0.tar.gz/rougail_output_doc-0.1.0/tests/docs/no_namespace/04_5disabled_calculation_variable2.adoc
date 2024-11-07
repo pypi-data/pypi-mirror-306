@@ -1,0 +1,29 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+condition: true  # a condition
+variable:
+  description: a variable
+  disabled:
+    variable: _.condition
+----
+== Variables
+
+[cols="121a,121a",options="header"]
+|====
+| Variable                                                                                                                | Description                                                                                                             
+| 
+**condition** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[boolean]` `standard` `obligatoire`                                                                                                                         | 
+A condition. +
+**Défaut**: True                                                                                                                         
+| 
+**variable** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire` _`désactivé`_                                                                                                                         | 
+A variable. +
+**Désactivé**: when the variable "condition" has the value "True".                                                                                                                         
+|====
+
+

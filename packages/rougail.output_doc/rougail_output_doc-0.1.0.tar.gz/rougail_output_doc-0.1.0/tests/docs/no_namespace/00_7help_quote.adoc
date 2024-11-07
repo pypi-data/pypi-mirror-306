@@ -1,0 +1,30 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.0'
+var1:
+  description: the first variable
+  help: message with '
+var2:
+  description: the second variable
+  help: message with "
+----
+== Variables
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+The first variable. +
+Message with '.                                                                                                           
+| 
+**var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+The second variable. +
+Message with ".                                                                                                           
+|====
+
+

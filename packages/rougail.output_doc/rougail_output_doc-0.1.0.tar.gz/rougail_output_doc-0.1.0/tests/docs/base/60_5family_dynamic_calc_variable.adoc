@@ -1,0 +1,65 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var1:
+  description: A suffix variable
+  default:
+    - val1
+    - val2
+dyn{{ identifier }}:
+  dynamic:
+    variable: _.var1
+    propertyerror: false
+  var:
+    description: A dynamic variable
+var2:
+  description: A variable calculated
+  default:
+    variable: _.dynval1.var
+----
+== Variables pour "rougail"
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                              | 
+A suffix variable. +
+**Défaut**: 
+
+* val1
+* val2                                                                                                              
+|====
+
+=== "dyn_val1_" ou "dyn_val2_"
+
+`basic`
+
+
+This family builds families dynamically.
+
+**Identifiers**: la valeur de la variable "rougail.var1".
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.dynval1.var** ou **rougail.dynval2.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                              | 
+A dynamic variable.                                                                                                              
+|====
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A variable calculated. +
+**Défaut**: la valeur de la variable "rougail.dynval1.var".                                                                                                              
+|====
+
+

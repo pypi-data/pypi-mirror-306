@@ -1,0 +1,36 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+variable1:  # a first variable
+  - a
+  - b
+  - c
+variable2:
+  description: a second variable
+  choices:
+    variable: _.variable1
+----
+== Variables pour "rougail"
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**rougail.variable1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                           | 
+A first variable. +
+**Défaut**: 
+
+* a
+* b
+* c                                                                                                           
+| 
+**rougail.variable2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[choice]` `basic` `obligatoire`                                                                                                           | 
+A second variable. +
+**Choix**: la valeur de la variable "rougail.variable1".                                                                                                           
+|====
+
+

@@ -1,0 +1,54 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: 1.1
+var:  # a variable
+  - a
+----
+== dictionaries/extra/00-base.yml
+
+[,yaml]
+----
+version: 1.1
+dyn_{{ identifier }}:
+  dynamic:
+    variable: rougail.var
+  var:
+----
+== Variables pour "rougail"
+
+[cols="130a,130a",options="header"]
+|====
+| Variable                                                                                                                         | Description                                                                                                                      
+| 
+**rougail.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+A variable. +
+**Défaut**: 
+
+* a                                                                                                                                  
+|====
+
+
+== Variables pour "extra"
+
+=== "dyn__a_"
+
+`basic`
+
+
+This family builds families dynamically.
+
+**Identifiers**: la valeur de la variable "rougail.var".
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**extra.dyn_a.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+Var.                                                                                                           
+|====
+
+

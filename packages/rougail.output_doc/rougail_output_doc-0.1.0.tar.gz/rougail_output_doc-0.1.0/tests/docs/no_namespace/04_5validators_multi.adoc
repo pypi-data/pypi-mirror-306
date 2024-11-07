@@ -1,0 +1,35 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: 1.1
+var1:
+  description: a second variable
+  multi: true
+  default:
+    - no
+    - yes
+  validators:
+    - jinja: |
+        {% if _.var1 | length > 9 %}
+        length must be less than 10
+        {% endif %}
+      description: check length is less than 10
+----
+== Variables
+
+[cols="130a,130a",options="header"]
+|====
+| Variable                                                                                                                         | Description                                                                                                                      
+| 
+**var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+A second variable. +
+**Validator**: check length is less than 10. +
+**Défaut**: 
+
+* no
+* yes                                                                                                                                  
+|====
+
+

@@ -1,0 +1,80 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var:  # a suffix variable
+  - val1
+  - val2
+
+'{{ identifier }}_dyn':
+  description: a dynamic family
+  dynamic:
+    variable: _.var
+  var1:
+    description: value is suffix
+    default:
+      type: identifier
+  var2:
+    description: value is first variable
+    default:
+      variable: rougail.{{ identifier }}_dyn.var1
+  var3:
+    description: value is relative first variable
+    default:
+      variable: _.var1
+  var4:
+    description: value is first variable of val1
+    default:
+      variable: rougail.val1_dyn.var1
+----
+== Variables pour "rougail"
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                              | 
+A suffix variable. +
+**Défaut**: 
+
+* val1
+* val2                                                                                                              
+|====
+
+=== a dynamic family
+
+`standard`
+
+
+This family builds families dynamically.
+
+**Identifiers**: la valeur de la variable "rougail.var".
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.val1_dyn.var1** ou **rougail.val2_dyn.var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+Value is suffix. +
+**Défaut**: la valeur de identifier.                                                                                                              
+| 
+**rougail.val1_dyn.var2** ou **rougail.val2_dyn.var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+Value is first variable. +
+**Défaut**: la valeur de la variable "rougail.{{ identifier }}_dyn.var1".                                                                                                              
+| 
+**rougail.val1_dyn.var3** ou **rougail.val2_dyn.var3** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+Value is relative first variable. +
+**Défaut**: la valeur de la variable "rougail.{{ identifier }}_dyn.var1".                                                                                                              
+| 
+**rougail.val1_dyn.var4** ou **rougail.val2_dyn.var4** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+Value is first variable of val1. +
+**Défaut**: la valeur de la variable "rougail.val1_dyn.var1".                                                                                                              
+|====
+
+

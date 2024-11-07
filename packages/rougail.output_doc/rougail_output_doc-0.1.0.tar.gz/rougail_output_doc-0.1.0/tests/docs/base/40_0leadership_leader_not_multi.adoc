@@ -1,0 +1,69 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+general:
+  mode_conteneur_actif:
+    type: string
+    description: No change
+    default: non
+general1:
+  leader:
+    description: leader
+    type: leadership
+    leader:
+      type: string
+      description: leader
+    follower1:
+      type: string
+      description: follower1
+    follower2:
+      type: string
+      description: follower2
+version: '1.0'
+----
+== Variables pour "rougail"
+
+=== rougail.general
+
+`standard`
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**rougail.general.mode_conteneur_actif** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                           | 
+No change. +
+**Défaut**: non                                                                                                           
+|====
+
+=== rougail.general1
+
+`basic`
+
+==== rougail.general1.leader
+
+`basic`
+
+
+This family contains lists of variable blocks.
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**rougail.general1.leader.leader** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire` `unique` `multiple`                                                                                                           | 
+Leader.                                                                                                           
+| 
+**rougail.general1.leader.follower1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+Follower1.                                                                                                           
+| 
+**rougail.general1.leader.follower2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+Follower2.                                                                                                           
+|====
+
+

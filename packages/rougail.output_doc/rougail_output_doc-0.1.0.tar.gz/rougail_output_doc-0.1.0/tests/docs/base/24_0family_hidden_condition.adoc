@@ -1,0 +1,44 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+condition: no    # the variable use has condition
+family:
+  description: possibly hidden family
+  hidden:
+    jinja: |
+      {% if rougail.condition == "yes" %}
+      condition is yes
+      {% endif %}
+    description: if condition is yes
+  var1:  # a variable
+----
+== Variables pour "rougail"
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**rougail.condition** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                           | 
+The variable use has condition. +
+**Défaut**: no                                                                                                           
+|====
+
+=== possibly hidden family
+
+`basic` _`caché`_
+
+**Caché**: if condition is yes.
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**rougail.family.var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+A variable.                                                                                                           
+|====
+
+

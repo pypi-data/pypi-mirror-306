@@ -1,0 +1,30 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+custom1:
+  description: the first variable
+  type: custom
+custom2:
+  description: the seconf variable
+  type: custom
+  default: value
+----
+== Variables pour "rougail"
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.custom1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[custom]` `basic` `obligatoire`                                                                                                              | 
+The first variable.                                                                                                              
+| 
+**rougail.custom2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[custom]` `standard` `obligatoire`                                                                                                              | 
+The seconf variable. +
+**Défaut**: value                                                                                                              
+|====
+
+

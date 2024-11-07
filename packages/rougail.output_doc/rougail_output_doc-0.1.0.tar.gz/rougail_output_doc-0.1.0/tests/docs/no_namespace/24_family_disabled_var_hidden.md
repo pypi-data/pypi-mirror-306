@@ -1,0 +1,20 @@
+---
+gitea: none
+include_toc: true
+---
+# dictionaries/rougail/00-base.yml
+
+```yaml
+---
+version: 1.1
+
+family:
+  disabled: true
+
+  var1: true  # A description
+
+  var2:
+    description: A description
+    hidden:
+      variable: _.var1
+```

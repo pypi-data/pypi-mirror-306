@@ -1,0 +1,33 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+condition: no    # a condition
+var:
+  description: a variable
+  mandatory:
+    jinja: |
+      {% if _.condition == "yes" %}
+      condition is yes
+      {% endif %}
+    description: only if rougail.condition has the value "yes"
+----
+== Variables pour "rougail"
+
+[cols="112a,112a",options="header"]
+|====
+| Variable                                                                                                       | Description                                                                                                    
+| 
+**rougail.condition** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                                | 
+A condition. +
+**Défaut**: no                                                                                                                
+| 
+**rougail.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` _`obligatoire`_                                                                                                                | 
+A variable. +
+**Obligatoire**: only if rougail.condition has the value "yes".                                                                                                                
+|====
+
+

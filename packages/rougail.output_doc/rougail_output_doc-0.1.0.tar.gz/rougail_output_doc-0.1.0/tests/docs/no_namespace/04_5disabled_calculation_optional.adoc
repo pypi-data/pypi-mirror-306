@@ -1,0 +1,60 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+condition: no    # a condition
+var1:
+  description: a first variable
+  hidden:
+    jinja: |
+      {% if unknown is not defined %}
+      unknown is undefined
+      {% elif unknown == "no" %}
+      unknown is no
+      {% endif %}
+    params:
+      unknown:
+        variable: _.unknown
+        optional: true
+    description: calculation from an unknown variable
+  mandatory: false
+var2:
+  description: a second variable
+  hidden:
+    jinja: |
+      {% if condition is not defined %}
+      condition is undefined
+      {% elif condition == "no" %}
+      condition is no
+      {% endif %}
+    params:
+      condition:
+        variable: _.condition
+        optional: true
+    description: calculation from an condition variable
+  mandatory: false
+----
+== Variables
+
+[cols="106a,106a",options="header"]
+|====
+| Variable                                                                                                 | Description                                                                                              
+| 
+**condition** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                          | 
+A condition. +
+**Défaut**: no                                                                                                          
+| 
+**var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` _`caché`_                                                                                                          | 
+A first variable. +
+**Caché**: calculation from an unknown variable.                                                                                                          
+| 
+**var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` _`caché`_                                                                                                          | 
+A second variable. +
+**Caché**: calculation from an condition variable.                                                                                                          
+|====
+
+

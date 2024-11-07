@@ -1,0 +1,60 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var1: 0  # the first variable
+var2:
+  description: the second variable
+  default: 0
+var3:
+  description: the third variable
+  type: number
+  default: 0
+var4: 10  # this forth variable
+var5:
+  description: the fifth variable
+  default: 10
+var6:
+  description: the sixth variable
+  type: number
+  default: 10
+----
+== Variables pour "rougail"
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire`                                                                                                              | 
+The first variable. +
+**Défaut**: 0                                                                                                              
+| 
+**rougail.var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire`                                                                                                              | 
+The second variable. +
+**Défaut**: 0                                                                                                              
+| 
+**rougail.var3** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire`                                                                                                              | 
+The third variable. +
+**Défaut**: 0                                                                                                              
+| 
+**rougail.var4** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire`                                                                                                              | 
+This forth variable. +
+**Défaut**: 10                                                                                                              
+| 
+**rougail.var5** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire`                                                                                                              | 
+The fifth variable. +
+**Défaut**: 10                                                                                                              
+| 
+**rougail.var6** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire`                                                                                                              | 
+The sixth variable. +
+**Défaut**: 10                                                                                                              
+|====
+
+

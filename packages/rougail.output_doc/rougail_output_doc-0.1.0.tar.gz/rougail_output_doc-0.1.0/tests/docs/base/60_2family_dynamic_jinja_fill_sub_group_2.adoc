@@ -1,0 +1,74 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var:  # a identifier variable
+  - val1
+  - val2
+dyn{{ identifier }}:
+  description: a dynamic family
+  dynamic:
+    variable: _.var
+  family:
+    description: a family inside dynamic family
+    var:
+      description: a dynamic variable
+      default:
+        type: identifier
+var2:
+  description: a varible outside dynamic family
+  default:
+    jinja: |
+      {{ _.dynval1.family.var }}
+    description: the value of var
+----
+== Variables pour "rougail"
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                              | 
+A identifier variable. +
+**Défaut**: 
+
+* val1
+* val2                                                                                                              
+|====
+
+=== a dynamic family
+
+`standard`
+
+
+This family builds families dynamically.
+
+**Identifiers**: la valeur de la variable "rougail.var".
+
+==== a family inside dynamic family
+
+`standard`
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.dynval1.family.var** ou **rougail.dynval2.family.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A dynamic variable. +
+**Défaut**: la valeur de identifier.                                                                                                              
+|====
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A varible outside dynamic family. +
+**Défaut**: the value of var.                                                                                                              
+|====
+
+

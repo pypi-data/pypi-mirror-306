@@ -1,0 +1,57 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var:  # A identifier variable
+  - val1
+  - val2
+dyn{{ identifier }}:
+  description: A dynamic family
+  dynamic:
+    variable: _.var
+  var:
+    description: A dynamic variable
+    default:
+      jinja: |
+        {{ identifier }}
+      params:
+        identifier:
+          type: identifier
+      description: from suffix
+----
+== Variables pour "rougail"
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                              | 
+A identifier variable. +
+**Défaut**: 
+
+* val1
+* val2                                                                                                              
+|====
+
+=== A dynamic family
+
+`standard`
+
+
+This family builds families dynamically.
+
+**Identifiers**: la valeur de la variable "rougail.var".
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.dynval1.var** ou **rougail.dynval2.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A dynamic variable. +
+**Défaut**: from suffix.                                                                                                              
+|====
+
+

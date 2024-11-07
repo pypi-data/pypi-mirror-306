@@ -1,0 +1,56 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+bool: false  # a boolean variable
+multi1:
+  description: a first multi variable
+  type: boolean
+  multi: true
+  default:
+    jinja: |
+      {% if _.bool %}
+      True
+      False
+      {% else %}
+      False
+      {% endif %}
+    description: a calculation
+multi2:
+  description: a second multi variable
+  type: boolean
+  multi: true
+  default:
+    jinja: |
+      {% if not _.bool %}
+      True
+      False
+      {% else %}
+      False
+      {% endif %}
+    description: a calculation
+----
+== Variables
+
+[cols="131a,131a",options="header"]
+|====
+| Variable                                                                                                                          | Description                                                                                                                       
+| 
+**bool** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[boolean]` `standard` `obligatoire`                                                                                                                                   | 
+A boolean variable. +
+**Défaut**: False                                                                                                                                   
+| 
+**multi1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[boolean]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                   | 
+A first multi variable. +
+**Défaut**: a calculation.                                                                                                                                   
+| 
+**multi2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[boolean]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                   | 
+A second multi variable. +
+**Défaut**: a calculation.                                                                                                                                   
+|====
+
+

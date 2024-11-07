@@ -1,0 +1,37 @@
+== dictionaries/rougail/01-base.yml
+
+[,yaml]
+----
+version: '1.0'
+family:
+  redefine: true
+  disabled:
+    jinja: |
+      true
+----
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.0'
+family:
+  var1:
+----
+== Variables pour "rougail"
+
+=== rougail.family
+
+`basic` _`désactivé`_
+
+**Désactivé**: depends on a calculation.
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**rougail.family.var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+Var1.                                                                                                           
+|====
+
+

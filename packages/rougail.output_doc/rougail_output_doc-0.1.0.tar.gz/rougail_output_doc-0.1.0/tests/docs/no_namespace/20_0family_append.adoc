@@ -1,0 +1,39 @@
+== dictionaries/rougail/01-base.yml
+
+[,yaml]
+----
+version: '1.1'
+family:
+  var2:
+    description: The second variable
+----
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+family:
+  description: A family
+  var1:
+    description: The first variable
+----
+== Variables
+
+=== A family
+
+`basic`
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**family.var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+The first variable.                                                                                                           
+| 
+**family.var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+The second variable.                                                                                                           
+|====
+
+

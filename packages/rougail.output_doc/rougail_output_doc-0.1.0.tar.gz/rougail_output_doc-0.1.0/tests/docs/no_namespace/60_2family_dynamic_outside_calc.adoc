@@ -1,0 +1,65 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var1:  # a suffx variable
+  - val1
+  - val2
+dyn{{ identifier }}:
+  description: a dynamic family
+  dynamic:
+    variable: _.var1
+  var: val  # a dynamic variable
+newvar:
+  description: a second variable
+  default:
+    jinja: |
+      {{ _.dynval1.var }}
+    description: the value of var
+----
+== Variables
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                              | 
+A suffx variable. +
+**Défaut**: 
+
+* val1
+* val2                                                                                                              
+|====
+
+=== a dynamic family
+
+`standard`
+
+
+This family builds families dynamically.
+
+**Identifiers**: la valeur de la variable "var1".
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**dynval1.var** ou **dynval2.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A dynamic variable. +
+**Défaut**: val                                                                                                              
+|====
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**newvar** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A second variable. +
+**Défaut**: the value of var.                                                                                                              
+|====
+
+

@@ -1,0 +1,60 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var1: true  # the first variable
+var2:
+  description: the second variable
+  default: true
+var3:
+  description: the third variable
+  type: boolean
+  default: true
+var4: false  # the forth variable
+var5:
+  description: the fifth variable
+  default: false
+var6:
+  description: the sixth variable
+  type: boolean
+  default: false
+----
+== Variables
+
+[cols="111a,111a",options="header"]
+|====
+| Variable                                                                                                      | Description                                                                                                   
+| 
+**var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[boolean]` `standard` `obligatoire`                                                                                                               | 
+The first variable. +
+**Défaut**: True                                                                                                               
+| 
+**var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[boolean]` `standard` `obligatoire`                                                                                                               | 
+The second variable. +
+**Défaut**: True                                                                                                               
+| 
+**var3** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[boolean]` `standard` `obligatoire`                                                                                                               | 
+The third variable. +
+**Défaut**: True                                                                                                               
+| 
+**var4** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[boolean]` `standard` `obligatoire`                                                                                                               | 
+The forth variable. +
+**Défaut**: False                                                                                                               
+| 
+**var5** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[boolean]` `standard` `obligatoire`                                                                                                               | 
+The fifth variable. +
+**Défaut**: False                                                                                                               
+| 
+**var6** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[boolean]` `standard` `obligatoire`                                                                                                               | 
+The sixth variable. +
+**Défaut**: False                                                                                                               
+|====
+
+

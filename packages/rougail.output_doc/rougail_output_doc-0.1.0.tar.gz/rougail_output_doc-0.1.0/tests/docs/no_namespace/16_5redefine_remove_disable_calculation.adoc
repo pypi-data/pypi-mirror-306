@@ -1,0 +1,42 @@
+== dictionaries/rougail/01-base.yml
+
+[,yaml]
+----
+version: '1.1'
+variable:
+  redefine: true
+  disabled: false
+----
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+condition: no    # a condition
+variable:
+  description: a variable
+  disabled:
+    jinja: |
+      {% if _.condition == "yes" %}
+      true
+      {% else %}
+      false
+      {% endif %}
+----
+== Variables
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**condition** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                           | 
+A condition. +
+**Défaut**: no                                                                                                           
+| 
+**variable** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+A variable.                                                                                                           
+|====
+
+

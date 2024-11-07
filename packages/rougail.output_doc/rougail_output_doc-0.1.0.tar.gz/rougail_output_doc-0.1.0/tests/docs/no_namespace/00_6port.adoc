@@ -1,0 +1,39 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+variable1:
+  description: a port variable
+  type: port
+variable2:
+  description: a port variable with default value
+  type: port
+  default: '8080'
+variable3:
+  description: a port variable with integer default value
+  type: port
+  default: 8080
+----
+== Variables
+
+[cols="108a,108a",options="header"]
+|====
+| Variable                                                                                                   | Description                                                                                                
+| 
+**variable1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[port]` `basic` `obligatoire`                                                                                                            | 
+A port variable.                                                                                                            
+| 
+**variable2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[port]` `standard` `obligatoire`                                                                                                            | 
+A port variable with default value. +
+**Défaut**: 8080                                                                                                            
+| 
+**variable3** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[port]` `standard` `obligatoire`                                                                                                            | 
+A port variable with integer default value. +
+**Défaut**: 8080                                                                                                            
+|====
+
+

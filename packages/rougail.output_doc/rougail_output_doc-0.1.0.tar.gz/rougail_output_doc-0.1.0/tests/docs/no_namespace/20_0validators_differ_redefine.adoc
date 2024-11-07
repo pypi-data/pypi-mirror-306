@@ -1,0 +1,58 @@
+== dictionaries/rougail/01-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var3:
+  redefine: true
+  validators:
+    - jinja: |
+        {% if _.var3 == _.var2 %}
+        var3 must be different than var2
+        {% endif %}
+      description: var3 must be different than var2
+----
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var1: no    # a first variable
+var2: no    # a second variable
+var3:
+  description: a third variable
+  default: yes
+  test:
+    - yes
+  validators:
+    - jinja: |
+        {% if _.var3 == _.var1 %}
+        var3 must be different than var1
+        {% endif %}
+      description: var3 must be different than var1
+----
+== Variables
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A first variable. +
+**Défaut**: no                                                                                                              
+| 
+**var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A second variable. +
+**Défaut**: no                                                                                                              
+| 
+**var3** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A third variable. +
+**Validator**: var3 must be different than var2. +
+**Défaut**: yes +
+**Exemple**: yes                                                                                                              
+|====
+
+

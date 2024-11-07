@@ -1,0 +1,38 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var1: no    # a first variable
+var2:
+  description: a second variable
+  auto_save: true
+  hidden:
+    jinja: |
+      {% if _.var1 == "yes" %}
+      _.var1 is yes
+      {% endif %}
+    description: only if the variable var1 has value "yes"
+  default:
+    jinja: yes
+    description: the value is always yes
+----
+== Variables pour "rougail"
+
+[cols="133a,133a",options="header"]
+|====
+| Variable                                                                                                                            | Description                                                                                                                         
+| 
+**rougail.var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                                                     | 
+A first variable. +
+**Défaut**: no                                                                                                                                     
+| 
+**rougail.var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire` _`caché`_ `auto modifiée`                                                                                                                                     | 
+A second variable. +
+**Défaut**: the value is always yes. +
+**Caché**: only if the variable var1 has value "yes".                                                                                                                                     
+|====
+
+

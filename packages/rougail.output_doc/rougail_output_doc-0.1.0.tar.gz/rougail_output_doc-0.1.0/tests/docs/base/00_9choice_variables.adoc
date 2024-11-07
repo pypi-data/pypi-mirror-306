@@ -1,0 +1,43 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+source_variable_1: val1  # the first source variable
+source_variable_2: val2  # the second source variable
+my_variable:
+  description: a variable
+  type: choice
+  choices:
+    - variable: _.source_variable_1
+    - variable: _.source_variable_2
+  default: val1
+----
+== Variables pour "rougail"
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.source_variable_1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+The first source variable. +
+**Défaut**: val1                                                                                                              
+| 
+**rougail.source_variable_2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+The second source variable. +
+**Défaut**: val2                                                                                                              
+| 
+**rougail.my_variable** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[choice]` `standard` `obligatoire`                                                                                                              | 
+A variable. +
+**Choix**: 
+
+* la valeur de la variable "rougail.source_variable_1".
+* la valeur de la variable "rougail.source_variable_2".
+
+**Défaut**: val1                                                                                                              
+|====
+
+

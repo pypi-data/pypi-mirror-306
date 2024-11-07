@@ -1,0 +1,32 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: 1.1
+var1: no    # a first variable
+var2:
+  description: a second variable
+  multi: true
+  default:
+    jinja: |
+      {{ _.var1 }}
+    description: the value of var1
+----
+== Variables
+
+[cols="130a,130a",options="header"]
+|====
+| Variable                                                                                                                         | Description                                                                                                                      
+| 
+**var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                                                  | 
+A first variable. +
+**Défaut**: no                                                                                                                                  
+| 
+**var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+A second variable. +
+**Défaut**: the value of var1.                                                                                                                                  
+|====
+
+

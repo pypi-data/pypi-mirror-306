@@ -1,0 +1,44 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+fam1:  # first family
+  var: no    # a variable
+fam2:  # second family
+  var:
+    description: a varaible
+    default:
+      variable: __.fam1.var
+----
+== Variables
+
+=== first family
+
+`standard`
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**fam1.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A variable. +
+**Défaut**: no                                                                                                              
+|====
+
+=== second family
+
+`standard`
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**fam2.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A varaible. +
+**Défaut**: la valeur de la variable "fam1.var".                                                                                                              
+|====
+
+

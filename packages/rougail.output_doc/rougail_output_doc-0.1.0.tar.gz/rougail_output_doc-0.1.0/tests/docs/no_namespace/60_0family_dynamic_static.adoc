@@ -1,0 +1,36 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+dyn{{ identifier }}:
+  description: a dynamic family
+  dynamic:
+    - val1
+    - val2
+  var:  # a variable inside a dynamic family
+----
+== Variables
+
+=== a dynamic family
+
+`basic`
+
+
+This family builds families dynamically.
+
+**Identifiers**: 
+
+* val1
+* val2
+
+[cols="107a,107a",options="header"]
+|====
+| Variable                                                                                                  | Description                                                                                               
+| 
+**dynval1.var** ou **dynval2.var** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `basic` `obligatoire`                                                                                                           | 
+A variable inside a dynamic family.                                                                                                           
+|====
+
+

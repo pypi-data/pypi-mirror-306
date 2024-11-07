@@ -1,0 +1,38 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+leader:
+  description: a leadership
+  type: leadership
+  leader:
+    description: a leader
+    multi: true
+    mandatory: false
+  follower1: value  # a follower with default value
+----
+== Variables pour "rougail"
+
+=== a leadership
+
+`standard`
+
+
+This family contains lists of variable blocks.
+
+[cols="110a,110a",options="header"]
+|====
+| Variable                                                                                                     | Description                                                                                                  
+| 
+**rougail.leader.leader** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `unique` `multiple`                                                                                                              | 
+A leader.                                                                                                              
+| 
+**rougail.leader.follower1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire`                                                                                                              | 
+A follower with default value. +
+**Défaut**: value                                                                                                              
+|====
+
+

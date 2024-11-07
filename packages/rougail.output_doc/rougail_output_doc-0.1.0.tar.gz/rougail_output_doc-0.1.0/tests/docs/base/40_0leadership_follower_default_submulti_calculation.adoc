@@ -1,0 +1,52 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+leader:
+  description: a leadership
+  type: leadership
+  leader:  # the leader
+    - leader
+  follower1:  # the follower1
+    - value
+  follower2:
+    description: the follower2
+    multi: true
+    default:
+      variable: _.follower1
+----
+== Variables pour "rougail"
+
+=== a leadership
+
+`standard`
+
+
+This family contains lists of variable blocks.
+
+[cols="121a,121a",options="header"]
+|====
+| Variable                                                                                                                | Description                                                                                                             
+| 
+**rougail.leader.leader** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `unique` `multiple`                                                                                                                         | 
+The leader. +
+**Défaut**: 
+
+* leader                                                                                                                         
+| 
+**rougail.leader.follower1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `multiple`                                                                                                                         | 
+The follower1. +
+**Défaut**: 
+
+* value                                                                                                                         
+| 
+**rougail.leader.follower2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[string]` `standard` `obligatoire` `multiple`                                                                                                                         | 
+The follower2. +
+**Défaut**: la valeur de la variable "rougail.leader.follower1".                                                                                                                         
+|====
+
+

@@ -1,0 +1,34 @@
+---
+gitea: none
+include_toc: true
+---
+# dictionaries/rougail/01-base.yml
+
+```yaml
+---
+version: '1.1'
+leader:
+  follower3:
+    description: follower3
+    mandatory: false
+```
+# dictionaries/rougail/00-base.yml
+
+```yaml
+---
+version: '1.1'
+leader:
+  description: a leadership
+  type: leadership
+  leader:
+    description: a leader
+    multi: true
+    hidden: true
+    mandatory: false
+  follower1:
+    description: the follower1
+    mandatory: false
+  follower2:
+    description: the follower2
+    mandatory: false
+```

@@ -1,0 +1,104 @@
+== dictionaries/rougail/00-base.yml
+
+[,yaml]
+----
+version: '1.1'
+var1:  # the first variable
+  - 0
+var2:
+  description: the second variable
+  default:
+    - 0
+var3:
+  description: the third variable
+  type: number
+  default:
+    - 0
+var4:  # the forth variable
+  - 10
+var5:
+  description: the fifth variable
+  default:
+    - 10
+var6:
+  description: the sixth variable
+  type: number
+  default:
+    - 10
+
+var7:
+  description: the seventh variable
+  multi: true
+  default:
+    - 0
+var8:
+  description: the eighth variable
+  type: number
+  multi: true
+  default:
+    - 0
+----
+== Variables pour "rougail"
+
+[cols="130a,130a",options="header"]
+|====
+| Variable                                                                                                                         | Description                                                                                                                      
+| 
+**rougail.var1** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+The first variable. +
+**Défaut**: 
+
+* 0                                                                                                                                  
+| 
+**rougail.var2** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+The second variable. +
+**Défaut**: 
+
+* 0                                                                                                                                  
+| 
+**rougail.var3** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+The third variable. +
+**Défaut**: 
+
+* 0                                                                                                                                  
+| 
+**rougail.var4** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+The forth variable. +
+**Défaut**: 
+
+* 10                                                                                                                                  
+| 
+**rougail.var5** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+The fifth variable. +
+**Défaut**: 
+
+* 10                                                                                                                                  
+| 
+**rougail.var6** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+The sixth variable. +
+**Défaut**: 
+
+* 10                                                                                                                                  
+| 
+**rougail.var7** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+The seventh variable. +
+**Défaut**: 
+
+* 0                                                                                                                                  
+| 
+**rougail.var8** +
+`https://rougail.readthedocs.io/en/latest/variable.html#variables-types[number]` `standard` `obligatoire` `unique` `multiple`                                                                                                                                  | 
+The eighth variable. +
+**Défaut**: 
+
+* 0                                                                                                                                  
+|====
+
+
