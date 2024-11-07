@@ -1,0 +1,8 @@
+streamer_binaries/__init__.py,sha256=2NM-9VH1gL-KKeP6Ib1fgocYz50is3q2EY_PyUJF8FU,1500
+streamer_binaries/ffmpeg-win-x64.exe,sha256=6fMkaO-CqNYhJLK-PzUyWn1j_URGH5_TZabIXfznuvo,44882944
+streamer_binaries/ffprobe-win-x64.exe,sha256=kg4QJKo1MHcxTRNyVPK4lC-mtg7dXaOY_btH_pjMkFw,44746752
+streamer_binaries/packager-win-x64.exe,sha256=oQmfiToKeryylxsR9BiKuhXR_fS-PqPEu9W9rEsbrt8,5369344
+shaka_streamer_binaries-1.0.1.dist-info/METADATA,sha256=sexL3kRdf_hN8VQl4uP-uck9KE-1P4tCKtJOD-e8ZUc,683
+shaka_streamer_binaries-1.0.1.dist-info/WHEEL,sha256=mRFVR6BIY-4AcY-di6Z_WejDvSiiVIG1lUb-30eywqM,97
+shaka_streamer_binaries-1.0.1.dist-info/top_level.txt,sha256=KQJUc09Jl2yM6mD77b0ryi0nMKWPD0g0HBpaadKf61w,18
+shaka_streamer_binaries-1.0.1.dist-info/RECORD,,
