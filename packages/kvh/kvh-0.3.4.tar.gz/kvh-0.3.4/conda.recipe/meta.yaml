@@ -1,0 +1,37 @@
+package:
+  name: kvh
+  version: 0.2
+
+source:
+  path: ..
+
+build:
+  number: 0
+  script: python -m pip install . -vvv
+
+requirements:
+  build:
+    - {{ compiler('cxx') }}
+
+  host:
+    - python
+    - pip
+    - pybind11 >=2.6.0
+    - pytest
+
+
+  run:
+    - python
+    - pytest
+    
+test:
+  imports:
+    - kvh
+  source_files:
+    - tests
+  commands:
+    - pytest tests
+
+about:
+  summary: read/write files in KVH format
+  license_file: LICENSE

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kvh
+Version: 0.3.4
+Summary: KVH format reader/writer
+Keywords: key-value hierarchy
+Author-Email: Serguei Sokol <sokol@insa-toulouse.fr>
+License: GNU General Public License v2 or later (GPLv2+)
+Project-URL: Repository, https://forgemia.inra.fr/mathscell/kvh
+Requires-Python: >=3.8
+
