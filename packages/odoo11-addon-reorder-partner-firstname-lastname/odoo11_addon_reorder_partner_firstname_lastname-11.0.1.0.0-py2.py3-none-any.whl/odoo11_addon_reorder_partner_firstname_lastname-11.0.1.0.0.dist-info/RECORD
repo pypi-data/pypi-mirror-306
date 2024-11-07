@@ -1,0 +1,10 @@
+odoo/addons/reorder_partner_firstname_lastname/README.rst,sha256=l5EO3DfEccmVWkBR0UO36UaFjyMCGCu3orfvBPYypCc,1257
+odoo/addons/reorder_partner_firstname_lastname/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/reorder_partner_firstname_lastname/__manifest__.py,sha256=noeyD4oFaTwZIVLZc4S_-62B0ilXInExsKM6DFsFMKk,555
+odoo/addons/reorder_partner_firstname_lastname/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/reorder_partner_firstname_lastname/views/res_partner.xml,sha256=E6fbKCnmk7E_m7wIeV5Wgz3e219x5CzUy0tMlC7I7dA,2293
+odoo/addons/reorder_partner_firstname_lastname/views/res_user.xml,sha256=fWw3whuZfLyGSUitKB6GNp7MOrMRIAyWncCrK81tlJw,919
+odoo11_addon_reorder_partner_firstname_lastname-11.0.1.0.0.dist-info/METADATA,sha256=pwvDgxr8zmF4gTehGu2Wvwr62B3y0jCKNKIf0SpNqtM,1815
+odoo11_addon_reorder_partner_firstname_lastname-11.0.1.0.0.dist-info/WHEEL,sha256=fS9sRbCBHs7VFcwJLnLXN1MZRR0_TVTxvXKzOnaSFs8,110
+odoo11_addon_reorder_partner_firstname_lastname-11.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo11_addon_reorder_partner_firstname_lastname-11.0.1.0.0.dist-info/RECORD,,
