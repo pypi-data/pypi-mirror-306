@@ -1,0 +1,9 @@
+rougail/cli/__init__.py,sha256=VnC0UNBu-lrPqiMRqFRH3h5XcYBj1I8WkOBJtTZoIk4,661
+rougail/cli/__main__.py,sha256=8tkGPD_dHaV4ucOA7_YvuKAB9i47VFHeUVVR8qCUApc,3598
+rougail/cli/i18n.py,sha256=ZpRGKOarGZbm4vzy2AR1v7ive4GLuNoOCradGsl2bAg,835
+rougail/cli/locale/fr/LC_MESSAGES/rougail_cli.mo,sha256=NFQ9XnQA9YLyIIqgTpmNQ8IFIi9HBH5FicMFe4hlDhM,588
+rougail_cli-0.1.1.dist-info/entry_points.txt,sha256=JMOkbvBy3DmX4pZQczjIRmtVizKNoIrqaDTQsp-ZxYM,53
+rougail_cli-0.1.1.dist-info/LICENSE,sha256=tqi_Y64slbCqJW7ndGgNe9GPIfRX2nVGb3YQs7FqzE4,34670
+rougail_cli-0.1.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+rougail_cli-0.1.1.dist-info/METADATA,sha256=P7B-NcEb_cmZnJFnl249pht-VoVopXScDjCdOnHFfAY,923
+rougail_cli-0.1.1.dist-info/RECORD,,
