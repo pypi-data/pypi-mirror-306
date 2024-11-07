@@ -1,0 +1,7 @@
+wheel
+packaging
+build>=0.10.0
+click
+
+[:python_version < "3.11"]
+tomli
