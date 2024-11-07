@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/publish-pypi.yaml
+src/auris/__init__.py
+src/auris.egg-info/PKG-INFO
+src/auris.egg-info/SOURCES.txt
+src/auris.egg-info/dependency_links.txt
+src/auris.egg-info/requires.txt
+src/auris.egg-info/top_level.txt
