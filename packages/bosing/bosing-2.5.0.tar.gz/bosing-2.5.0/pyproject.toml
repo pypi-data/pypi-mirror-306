@@ -1,0 +1,117 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "bosing"
+dynamic = ["version"]
+description = "Waveform generator for pulse sequences in quantum computing"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = []
+authors = [{ name = "kaho", email = "kaho0769@qq.com" }]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Rust",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering",
+  "License :: OSI Approved :: MIT License",
+]
+dependencies = ["matplotlib>=3.5.0", "numpy>=1.19.3"]
+
+[project.urls]
+Documentation = "https://bosing.readthedocs.io"
+Issues = "https://github.com/kahojyun/Bosing/issues"
+Source = "https://github.com/kahojyun/Bosing"
+
+[tool.maturin]
+python-source = "python"
+module-name = "bosing._bosing"
+features = ["pyo3/extension-module"]
+
+[dependency-groups]
+dev = [
+  "ipython>=8.18.1",
+  "pyside6>=6.3",
+  { include-group = "docs" },
+  { include-group = "ci" },
+]
+ci = [
+  { include-group = "task" },
+  { include-group = "lint" },
+  { include-group = "test" },
+]
+docs = [
+  "furo>=2024.8.6",
+  "sphinx>=7.4.7",
+  { include-group = "examples" },
+  { include-group = "task" },
+]
+task = ["taskipy>=1.13.0"]
+lint = ["mypy>=1.11.2", "ruff>=0.6.7"]
+test = ["rich>=13.9.2", "pytest>=8.3.3"]
+examples = ["scipy>=1.9.3"]
+
+[tool.uv]
+cache-keys = [
+  { file = "src/**/*.rs" },
+  { file = "pyproject.toml" },
+  { file = "Cargo.toml" },
+  { file = "Cargo.lock" },
+  { file = "rust-toolchain.toml" },
+]
+
+[tool.taskipy.tasks]
+format = "task format_py && task format_rs"
+format_py = "ruff format"
+format_rs = "cargo fmt"
+lint = "task lint_py && task lint_rs"
+lint_py = "ruff check"
+lint_rs = "cargo clippy --all-targets"
+test = "task test_py && task test_rs"
+test_py = "pytest"
+test_rs = "cargo test"
+stubtest = "stubtest bosing --allowlist stubtest-allowlist.txt"
+makedocs = "sphinx-build -M html docs docs/_build"
+cleandocs = "sphinx-build -M clean docs docs/_build && rm -r docs/generated"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+  # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+  "COM812", # Missing trailing comma
+  "ISC001", # implicit string concatenation
+]
+[tool.ruff.lint.per-file-ignores]
+"{examples,benches}/*.py" = [
+  "T201", # Use of print
+]
+"tests/*.py" = [
+  "S101", # Use of assert
+]
+"!python/*.py" = [
+  "I002",   # Missing required imports
+  "D",      # Dosctring
+  "INP001", # Implicit namespace package
+]
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+[tool.ruff.lint.isort]
+known-first-party = ["bosing"]
+required-imports = ["from __future__ import annotations"]
+
+[tool.basedpyright]
+include = ["examples", "tests", "docs", "benches", "python"]
+exclude = ["**/node_modules", "**/__pycache__", "docs/_build"]
+[[tool.basedpyright.executionEnvironments]]
+root = "examples"
+reportAny = "none"
+reportMissingTypeStubs = "none"
+reportUnknownArgumentType = "none"
+reportUnknownVariableType = "none"
+reportUnknownMemberType = "none"
+reportUnknownParameterType = "none"
+reportUnusedCallResult = "none"
+reportMissingTypeArgument = "none"
