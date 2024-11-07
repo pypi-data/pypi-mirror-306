@@ -1,0 +1,6 @@
+bson>=0.5.10
+opencv-python
+numpy
+matplotlib
+tqdm
+scikit-image

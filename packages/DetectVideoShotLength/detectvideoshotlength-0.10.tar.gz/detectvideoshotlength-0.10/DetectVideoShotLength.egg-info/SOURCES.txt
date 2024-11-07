@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+DetectVideoShotLength/__init__.py
+DetectVideoShotLength/main.py
+DetectVideoShotLength.egg-info/PKG-INFO
+DetectVideoShotLength.egg-info/SOURCES.txt
+DetectVideoShotLength.egg-info/dependency_links.txt
+DetectVideoShotLength.egg-info/requires.txt
+DetectVideoShotLength.egg-info/top_level.txt
