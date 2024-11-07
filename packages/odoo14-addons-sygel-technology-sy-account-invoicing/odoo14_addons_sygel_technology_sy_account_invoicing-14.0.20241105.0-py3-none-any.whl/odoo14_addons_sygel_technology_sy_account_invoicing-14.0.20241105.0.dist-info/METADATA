@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: odoo14-addons-sygel-technology-sy-account-invoicing
+Version: 14.0.20241105.0
+Summary: Meta package for sygel-technology-sy-account-invoicing Odoo addons
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Requires-Dist: odoo14-addon-asynchronous-invoice-email
+Requires-Dist: odoo14-addon-bank-accounts-report
+Requires-Dist: odoo14-addon-followers-mass-invoice-mailing
+Requires-Dist: odoo14-addon-invoice-inside-account-menu
+Requires-Dist: odoo14-addon-invoice-paid-before
+
+UNKNOWN
