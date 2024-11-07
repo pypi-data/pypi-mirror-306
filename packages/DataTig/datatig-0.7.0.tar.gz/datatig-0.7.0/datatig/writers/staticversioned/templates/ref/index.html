@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}Ref {{ git_commit.get_refs_str() }}{% endblock %}
+
+
+{% block breadcrumbs %}
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url }}/">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Ref {{ git_commit.get_refs_str() }}</li>
+      </ol>
+    </nav>
+{% endblock %}
+
+{% block body %}
+
+<h2>Ref {{ git_commit.get_refs_str() }}</h2>
+
+<p class="text-right">
+    <a href="{{ url }}/ref/{{ git_commit.get_ref() }}/errors.html"><button type="button" class="btn btn-primary">Errors</button></a>
+</p>
+
+<h3>Comparison to default ref, {{  default_ref_str }}</h3>
+
+<h4>Data changes</h4>
+
+<table class="table">
+    <tr>
+        <th>Type</th>
+        <th>Record</th>
+        <th>Action</th>
+        <th>&nbsp;</th>
+    </tr>
+    {% for data_difference_between_refs in data_differences_between_refs %}
+        <tr>
+            <td>
+                {{ data_difference_between_refs['type_id'] }}
+            </td>
+            <td>
+                {{ data_difference_between_refs['record_id'] }}
+            </td>
+            <td>
+                {{ data_difference_between_refs['action'] }}
+            </td>
+            <td>
+                <a href="{{ url }}/type/{{ data_difference_between_refs['type_id'] }}/record/{{ data_difference_between_refs['record_id'] }}/"><button type="button" class="btn btn-link">View</button></a>
+            </td>
+        </tr>
+    {% else %}
+        <tr>
+            <td colspan="4">Nothing</td>
+        </tr>
+    {% endfor %}
+</table>
+
+
+<h4>General Errors Added</h4>
+
+<table class="table">
+    <tr>
+        <th>Filename</th>
+        <th>Message</th>
+    </tr>
+    {% for error in errors_added_between_refs %}
+        <tr>
+            <td>{{ error.get_filename() }}</td>
+            <td>{{ error.get_message() }}</td>
+        </tr>
+    {% else %}
+        <tr>
+            <td colspan="2">Nothing</td>
+        </tr>
+    {% endfor %}
+</table>
+
+
+
+
+{% endblock %}

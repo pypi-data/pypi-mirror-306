@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+
+{% block title %}{{ item.get_id() }} - {{ type.get_id() }}{% endblock %}
+
+{% block breadcrumbs %}
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url }}/">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ url }}/type/{{ type.get_id() }}/">{{ type.get_id() }}</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ item.get_id() }}</li>
+      </ol>
+    </nav>
+{% endblock %}
+
+{% block body %}
+
+<h2>{{ item.get_id() }} - {{ type.get_id() }}</h2>
+
+<table class="table">
+    {% for field_id, field in type.get_fields().items() %}
+        {% if field.get_type() != "list-dictionaries" %}
+            <tr>
+                <th>
+                    {{ field.get_title() }}
+                    {% if field.get_description() %}
+                        <p class="font-weight-normal" style="font-size: 80%;">{{ field.get_description() }}</p>
+                    {% endif %}
+                </th>
+                <td>
+                    {% if field.get_type() == 'url' %}
+                        <a href="{{ item.get_field_value(field_id).get_value() }}">{{ item.get_field_value(field_id).get_value() }}</a>
+                    {% elif field.get_type() == 'list-strings' %}
+                        <ul>
+                            {% for value in item.get_field_value(field_id).get_value() %}
+                                <li>{{ value }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% elif field.get_type() == 'boolean' %}
+                        {% if item.get_field_value(field_id).is_value_true() %}
+                            True
+                        {% elif item.get_field_value(field_id).is_value_false() %}
+                            False
+                        {% endif %}
+                    {% else %}
+                        {{ item.get_field_value(field_id).get_value() }}
+                    {% endif %}
+                </td>
+            </tr>
+        {% endif %}
+    {% endfor %}
+
+</table>
+
+{% for field_id, field in type.get_fields().items() %}
+    {% if field.get_type() == "list-dictionaries" %}
+        <h4>Field {{ field.get_title() }}</h4>
+        {% if item.get_field_value(field_id).get_sub_records() %}
+            <table class="table">
+                <tr>
+                    {% for sub_field_id, sub_field in field.get_fields().items() %}
+                        <th>
+                            {{ sub_field.get_title() }}
+                            {% if sub_field.get_description() %}
+                                <p class="font-weight-normal" style="font-size: 80%;">{{ sub_field.get_description() }}</p>
+                            {% endif %}
+                        </th>
+                    {% endfor %}
+                </tr>
+                {% for sub_record in item.get_field_value(field_id).get_sub_records() %}
+                    <tr>
+                        {% for sub_field_id, sub_field in field.get_fields().items() %}
+                            <td>
+                                {% if sub_field.get_type() == 'url' %}
+                                    <a href="{{ item.get_field_value(field_id).get_value() }}">{{ sub_record.get_value(sub_field_id).get_value() }}</a>
+                                {% elif sub_field.get_type() == 'boolean' %}
+                                    {% if sub_record.get_value(sub_field_id).is_value_true() %}
+                                        True
+                                    {% elif sub_record.get_value(sub_field_id).is_value_false() %}
+                                        False
+                                    {% endif %}
+                                {% else %}
+                                    {{ sub_record.get_value(sub_field_id).get_value() }}
+                                {% endif %}
+                            </td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </table>
+        {% else %}
+            <p>No data.</p>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+
+<h3>Errors</h3>
+
+{% if item.get_errors() %}
+    <p><i class="fas fa-times-circle"></i> There were errors:</p>
+    <p class="text-right">
+        <a href="#" onclick="$('#validation_errors').toggle(); return false;"><button type="button" class="btn btn-secondary">Show/Hide</button></a>
+    </p>
+    <table class="table" id="validation_errors">
+        <tr>
+            <th>Message</th>
+            <th>Data Path</th>
+            <th>Schema Path</th>
+        </tr>
+        {% for err in item.get_errors() %}
+            <tr>
+                <td>
+                    {{ err.get_message ()}}
+                </td>
+                <td>
+                    {{ err.get_data_path() }}
+                </td>
+                <td>
+                    {{ err.get_schema_path() }}
+                </td>
+
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <p><i class="fas fa-check-circle"></i> No errors</p>
+{% endif %}
+
+{% if calendar_ids %}
+<h3>Calendars</h3>
+
+<p>This appears on the following calendars:</p>
+
+<ul>
+    {% for calendar_id in calendar_ids %}
+        <li><a href="{{ url }}/calendar/{{ calendar_id }}">{{ calendar_id }}</a></li>
+    {% endfor %}
+</ul>
+
+{% endif %}
+
+<h3>Edit</h3>
+<p class="text-right">
+    <a href="editweb/"><button type="button" class="btn btn-primary">Edit in Browser</button></a>
+    {% if site.get_github_url() %}
+        <a href="https://github.com/{{ site.get_github_url() }}/edit/{{ site.get_githost_primary_branch() }}/{{  item.get_git_filename() }}"><button type="button" class="btn btn-primary">Edit Raw data directly on GitHub</button></a>
+    {% endif %}
+</p>
+
+<h3>Raw Data</h3>
+
+<div>
+    {{ record_data_html|safe }}
+</div>
+
+<p  class="text-right">
+    {% if site.get_github_url() %}
+        <a href="https://github.com/{{ site.get_github_url() }}/blob/{{ site.get_githost_primary_branch() }}/{{  item.get_git_filename() }}"><button type="button" class="btn btn-primary">View on GitHub</button></a>
+    {% endif %}
+    <a href="data.json"><button type="button" class="btn btn-primary">Download Raw JSON data</button></a>
+</p>
+
+
+<p  class="text-right">
+    <a href="api.json"><button type="button" class="btn btn-secondary">API</button></a>
+</p>
+{% endblock %}
