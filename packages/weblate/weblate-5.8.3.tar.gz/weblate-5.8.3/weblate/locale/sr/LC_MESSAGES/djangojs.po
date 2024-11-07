@@ -1,0 +1,486 @@
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright © Michal Čihař <michal@weblate.org>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+# NEXI <nexiphotographer@gmail.com>, 2023.
+# Julija Juli <slonovaca226@gmail.com>, 2024.
+# Anon <anonymousprivate76@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: Weblate 5.8.2\n"
+"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/weblate/issues\n"
+"POT-Creation-Date: 2024-10-16 12:39+0000\n"
+"PO-Revision-Date: 2024-08-26 07:12+0000\n"
+"Last-Translator: Anon <anonymousprivate76@gmail.com>\n"
+"Language-Team: Serbian <https://hosted.weblate.org/projects/weblate/"
+"javascript/sr/>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.7.1-dev\n"
+
+#: weblate/static/editor/base.js:89
+msgid "Please select target plural by clicking."
+msgstr "Molim vas izaberite metu množine klikom."
+
+#: weblate/static/editor/base.js:165
+#, javascript-format
+msgid "Cmd+%s"
+msgstr "Cmd+%s"
+
+#: weblate/static/editor/base.js:167
+#, javascript-format
+msgid "Ctrl+%s"
+msgstr "Ctrl+%s"
+
+#: weblate/static/editor/full.js:260
+msgid "Translation memory entry removed."
+msgstr "Prevodilački unos obrisan."
+
+#: weblate/static/editor/full.js:294
+msgid "The request for machine translation has failed:"
+msgstr "Захтев за машинским преводом није успео:"
+
+#: weblate/static/editor/full.js:304
+#, javascript-format
+msgid "The request for machine translation using %s has failed:"
+msgstr "Захтев за %s машинским преводом није успео:"
+
+#: weblate/static/editor/full.js:339
+#, javascript-format
+msgid "Cmd+M then %s"
+msgstr "Cmd+M затим %s"
+
+#: weblate/static/editor/full.js:341
+#, javascript-format
+msgid "Ctrl+M then %s"
+msgstr "Ctrl+M затим %s"
+
+#: weblate/static/editor/full.js:443
+#, javascript-format
+msgid "Press Cmd+I then %s to dismiss this."
+msgstr "Притисните Cmd+I затим %s да затворите ово."
+
+#: weblate/static/editor/full.js:448
+#, javascript-format
+msgid "Press Ctrl+I then %s to dismiss this."
+msgstr "Притисните Ctrl+I затим %s да затворите ово."
+
+#: weblate/static/editor/full.js:592
+msgid "Clone to translation"
+msgstr "Kloniraj do prevoda"
+
+#: weblate/static/editor/full.js:594
+msgid "Accept"
+msgstr "Прихвати"
+
+#: weblate/static/editor/full.js:603
+msgid "Delete entry"
+msgstr "Izbrisati unos"
+
+#: weblate/static/editor/tools/search.js:48
+msgid "No results found"
+msgstr ""
+
+#: weblate/static/editor/tools/search.js:101
+#, javascript-format
+msgid "%s matching string"
+msgid_plural "%s matching strings"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: weblate/static/editor/zen.js:105
+msgid "There are some unsaved changes, are you sure you want to leave?"
+msgstr "Постоје несачуване измене. Заиста желите да изађете?"
+
+#: weblate/static/js/screenshots/clipboard-paste.js:38
+msgid "Image Pasted!"
+msgstr ""
+
+#: weblate/static/js/screenshots/clipboard-paste.js:40
+#: weblate/static/js/screenshots/clipboard-paste.js:56
+msgid "Something went wrong!"
+msgstr ""
+
+#: weblate/static/js/screenshots/clipboard-paste.js:53
+msgid "No image found in clipboard"
+msgstr ""
+
+#: weblate/static/loader-bootstrap.js:171
+msgid "Error loading search results!"
+msgstr "Грешка при учитавању резултата претраге!"
+
+#: weblate/static/loader-bootstrap.js:175
+msgid "No new matching source strings found."
+msgstr "Нема нових одговарајућих изворних ниски."
+
+#: weblate/static/loader-bootstrap.js:259
+msgid "Sort this column"
+msgstr "Сортирати по овој колони"
+
+#: weblate/static/loader-bootstrap.js:565
+msgid "Error while loading page:"
+msgstr "Грешка при учитавању странице:"
+
+#: weblate/static/loader-bootstrap.js:834
+msgid "Text copied to clipboard."
+msgstr "Текст копиран у клипборд."
+
+#: weblate/static/loader-bootstrap.js:838
+msgid "Please press Ctrl+C to copy."
+msgstr "Притисните Ctrl+C за копирање."
+
+#: weblate/static/loader-bootstrap.js:862
+msgid "Search…"
+msgstr "Тражи…"
+
+#: weblate/static/loader-bootstrap.js:863
+msgid "Available:"
+msgstr "Доступно:"
+
+#: weblate/static/loader-bootstrap.js:864
+msgid "Chosen:"
+msgstr "Изабрано:"
+
+#: weblate/static/loader-bootstrap.js:1165
+msgid "Weblate is now scanning the repository, please be patient."
+msgstr "Веблејт сада претражује ризницу. Будите стрпљиви."
+
+#: weblate/static/loader-bootstrap.js:1279
+msgid ""
+"Notification settings removed, please do not forget to save the changes."
+msgstr ""
+
+#: weblate/static/loader-bootstrap.js:1441
+msgid "Custom range"
+msgstr ""
+
+#: weblate/static/loader-bootstrap.js:1442
+msgid "Clear"
+msgstr "Очисти"
+
+#: weblate/static/loader-bootstrap.js:1444
+#, fuzzy
+#| msgctxt "Minimal (for example two letter) name of day in week"
+#| msgid "Su"
+msgctxt "Short name of day"
+msgid "Su"
+msgstr "не"
+
+#: weblate/static/loader-bootstrap.js:1445
+#, fuzzy
+#| msgctxt "Minimal (for example two letter) name of day in week"
+#| msgid "Mo"
+msgctxt "Short name of day"
+msgid "Mo"
+msgstr "по"
+
+#: weblate/static/loader-bootstrap.js:1446
+#, fuzzy
+#| msgctxt "Minimal (for example two letter) name of day in week"
+#| msgid "Tu"
+msgctxt "Short name of day"
+msgid "Tu"
+msgstr "ут"
+
+#: weblate/static/loader-bootstrap.js:1447
+#, fuzzy
+#| msgctxt "Minimal (for example two letter) name of day in week"
+#| msgid "We"
+msgctxt "Short name of day"
+msgid "We"
+msgstr "ср"
+
+#: weblate/static/loader-bootstrap.js:1448
+#, fuzzy
+#| msgctxt "Minimal (for example two letter) name of day in week"
+#| msgid "Th"
+msgctxt "Short name of day"
+msgid "Th"
+msgstr "че"
+
+#: weblate/static/loader-bootstrap.js:1449
+#, fuzzy
+#| msgctxt "Minimal (for example two letter) name of day in week"
+#| msgid "Fr"
+msgctxt "Short name of day"
+msgid "Fr"
+msgstr "пе"
+
+#: weblate/static/loader-bootstrap.js:1450
+#, fuzzy
+#| msgctxt "Minimal (for example two letter) name of day in week"
+#| msgid "Sa"
+msgctxt "Short name of day"
+msgid "Sa"
+msgstr "су"
+
+#: weblate/static/loader-bootstrap.js:1453
+msgctxt "Short name of month"
+msgid "Jan"
+msgstr "јан"
+
+#: weblate/static/loader-bootstrap.js:1454
+msgctxt "Short name of month"
+msgid "Feb"
+msgstr "феб"
+
+#: weblate/static/loader-bootstrap.js:1455
+msgctxt "Short name of month"
+msgid "Mar"
+msgstr "мар"
+
+#: weblate/static/loader-bootstrap.js:1456
+msgctxt "Short name of month"
+msgid "Apr"
+msgstr "апр"
+
+#: weblate/static/loader-bootstrap.js:1457
+msgctxt "Short name of month"
+msgid "May"
+msgstr "мај"
+
+#: weblate/static/loader-bootstrap.js:1458
+msgctxt "Short name of month"
+msgid "Jun"
+msgstr "јун"
+
+#: weblate/static/loader-bootstrap.js:1459
+msgctxt "Short name of month"
+msgid "Jul"
+msgstr "јул"
+
+#: weblate/static/loader-bootstrap.js:1460
+msgctxt "Short name of month"
+msgid "Aug"
+msgstr "авг"
+
+#: weblate/static/loader-bootstrap.js:1461
+msgctxt "Short name of month"
+msgid "Sep"
+msgstr "сеп"
+
+#: weblate/static/loader-bootstrap.js:1462
+msgctxt "Short name of month"
+msgid "Oct"
+msgstr "окт"
+
+#: weblate/static/loader-bootstrap.js:1463
+msgctxt "Short name of month"
+msgid "Nov"
+msgstr "нов"
+
+#: weblate/static/loader-bootstrap.js:1464
+msgctxt "Short name of month"
+msgid "Dec"
+msgstr "дец"
+
+#: weblate/static/loader-bootstrap.js:1468
+msgid "Today"
+msgstr "данас"
+
+#: weblate/static/loader-bootstrap.js:1469
+msgid "Yesterday"
+msgstr ""
+
+#: weblate/static/loader-bootstrap.js:1473
+msgid "Last 7 days"
+msgstr ""
+
+#: weblate/static/loader-bootstrap.js:1474
+msgid "Last 30 days"
+msgstr ""
+
+#: weblate/static/loader-bootstrap.js:1475
+msgid "This month"
+msgstr ""
+
+#: weblate/static/loader-bootstrap.js:1479
+msgid "Last month"
+msgstr ""
+
+#: weblate/static/loader-bootstrap.js:1483
+msgid "This year"
+msgstr ""
+
+#: weblate/static/loader-bootstrap.js:1487
+msgid "Last year"
+msgstr ""
+
+#: weblate/static/loader-bootstrap.js:1568
+msgctxt "Alert to user when opening browser developer console"
+msgid "Stop!"
+msgstr ""
+
+#: weblate/static/loader-bootstrap.js:1574
+msgid ""
+"This is a browser feature intended for developers. If someone told you to "
+"copy-paste something here, they are likely trying to compromise your Weblate "
+"account."
+msgstr ""
+
+#: weblate/static/loader-bootstrap.js:1580
+msgid "See https://en.wikipedia.org/wiki/Self-XSS for more information."
+msgstr ""
+
+#: weblate/static/zammad.js:7
+msgid "Weblate feedback"
+msgstr "Ваш став о Веблејту"
+
+#: weblate/static/zammad.js:8
+msgid "Get help"
+msgstr "Помоћ"
+
+#: weblate/static/zammad.js:10
+#, javascript-format
+msgid ""
+"Thank you for your inquiry (#%s)! We'll contact you as soon as possible."
+msgstr "Хвала вам на упиту (#%s)! Контактираћемо вас у најкраћем року."
+
+#: weblate/static/zammad.js:17
+msgid "Subject"
+msgstr "Предмет"
+
+#: weblate/static/zammad.js:25
+msgid "Your name"
+msgstr "Ваше име"
+
+#: weblate/static/zammad.js:33
+msgid "Your e-mail"
+msgstr "Ваша е-пошта"
+
+#: weblate/static/zammad.js:41
+msgid "Message"
+msgstr "Порука"
+
+#: weblate/static/zammad.js:45
+msgid ""
+"Please contact us in English, otherwise we might be unable to process your "
+"request."
+msgstr ""
+"Контактирајте нас на енглеском, у супротном можда нећемо моћи да обрадимо "
+"ваш захтев."
+
+#: weblate/static/zammad.js:51
+msgid "Attachments"
+msgstr "Прилози"
+
+#~ msgid "Sunday"
+#~ msgstr "недеља"
+
+#~ msgid "Monday"
+#~ msgstr "понедељак"
+
+#~ msgid "Tuesday"
+#~ msgstr "уторак"
+
+#~ msgid "Wednesday"
+#~ msgstr "среда"
+
+#~ msgid "Thursday"
+#~ msgstr "четвртак"
+
+#~ msgid "Friday"
+#~ msgstr "петак"
+
+#~ msgid "Saturday"
+#~ msgstr "субота"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Sun"
+#~ msgstr "нед"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Mon"
+#~ msgstr "пон"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Tue"
+#~ msgstr "уто"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Wed"
+#~ msgstr "сре"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Thu"
+#~ msgstr "чет"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Fri"
+#~ msgstr "пет"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Sat"
+#~ msgstr "суб"
+
+#~ msgid "January"
+#~ msgstr "јануар"
+
+#~ msgid "February"
+#~ msgstr "фебруар"
+
+#~ msgid "March"
+#~ msgstr "март"
+
+#~ msgid "April"
+#~ msgstr "април"
+
+#~ msgid "May"
+#~ msgstr "мај"
+
+#~ msgid "June"
+#~ msgstr "јун"
+
+#~ msgid "July"
+#~ msgstr "јул"
+
+#~ msgid "August"
+#~ msgstr "август"
+
+#~ msgid "September"
+#~ msgstr "септембар"
+
+#~ msgid "October"
+#~ msgstr "октобар"
+
+#~ msgid "November"
+#~ msgstr "новембар"
+
+#~ msgid "December"
+#~ msgstr "децембар"
+
+#~ msgid "Copy"
+#~ msgstr "Копирај"
+
+#~ msgid "Copy and save"
+#~ msgstr "Копирај и сачувај"
+
+#~ msgid "Add to screenshot"
+#~ msgstr "Придодај снимку екрана"
+
+#, fuzzy
+#~| msgid "Alt+I then %s"
+#~ msgid "Ctrl+I then %s"
+#~ msgstr "Alt+I затим %s"
+
+#~ msgid "Selected:"
+#~ msgstr "Изабрано:"
+
+#~ msgid "Alt+%s"
+#~ msgstr "Alt+%s"
+
+#, fuzzy
+#~| msgid "Available:"
+#~ msgid "Available %s"
+#~ msgstr "Доступно:"
+
+#, fuzzy
+#~| msgctxt "Short name of month"
+#~| msgid "Nov"
+#~ msgid "Now"
+#~ msgstr "нов"
