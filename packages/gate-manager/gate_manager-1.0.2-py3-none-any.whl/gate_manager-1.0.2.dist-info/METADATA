@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gate-manager
+Version: 1.0.2
+Summary: A versatile device control class for managing Nanonis and Zurich devices
+Home-page: https://github.com/chenx820/gate-manager
+Author: Chen Huang
+Author-email: chen.huang23@imperial.ac.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nanonis-tramea
+Requires-Dist: tqdm
+
+# gate-manager
+
+**gate-manager** is a Python package for controlling quantum devices like Nanonis and Zurich instruments. This package offers a flexible class structure for handling different gate controls, designed to support multiple device integrations.
+
+## Installation
+
+```bash
+pip install gate-manager
+```
