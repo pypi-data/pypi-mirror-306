@@ -1,0 +1,4 @@
+gitpython
+pydantic
+wexample-filestate
+wexample-helpers
