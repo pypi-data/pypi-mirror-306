@@ -1,0 +1,5 @@
+rocraters-0.4.1.dist-info/METADATA,sha256=38xRQJMcTwn0WEiSDHZX3wP5Mz3-ZongsjSnboSncsw,5651
+rocraters-0.4.1.dist-info/WHEEL,sha256=OyoG6D5T7Pho5vyL_33RWLR7gxTHeMDjrl6624GxrJ0,128
+rocraters/__init__.py,sha256=FHhYTbgQof1TJZh9PW_ztKSPRDwGXxPSa4HCROvOG9k,119
+rocraters/rocraters.pypy310-pp73-x86-linux-gnu.so,sha256=dNGxZ4RV7DwEAd4aZErtuwyMC2FJgsAP1Itjv8bgteQ,2597880
+rocraters-0.4.1.dist-info/RECORD,,
