@@ -1,0 +1,7 @@
+[project]
+name = "hypeui"
+authors = [
+    {name = "oxynDev", email = "oxyn.dev@gmail.com"},
+]
+version = "0.0"
+description = "Coming soon"
