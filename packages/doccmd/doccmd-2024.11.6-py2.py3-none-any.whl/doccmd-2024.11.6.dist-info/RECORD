@@ -1,0 +1,11 @@
+doccmd/__init__.py,sha256=ySan1VNmAV-eNyt7q_WPCwdsOOrZ6RTu7ELMxQVTiTE,16946
+doccmd/__main__.py,sha256=MkcGwiERa8HdM4nD1g1ss5hD_lQNzIoqPC2EIl1OO80,121
+doccmd/_languages.py,sha256=cUSzOwsZ08KEEpaNGT0up7KkVieRITCGPR42_S6Rm8A,3123
+doccmd/_setuptools_scm_version.py,sha256=FEMN-Nz7EfxDW_UI0_09IIXPYXpGErtZFKX9dIxW9Nk,419
+doccmd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doccmd-2024.11.6.dist-info/LICENSE,sha256=548oOCrCNqQty8Fsqqry522lXdxnBTqLyzqr38ct-cw,1040
+doccmd-2024.11.6.dist-info/METADATA,sha256=w6cPfuxkn6ez8n6GGdM6KaDhfKgValj8GqzGMQYmAnM,9812
+doccmd-2024.11.6.dist-info/WHEEL,sha256=OpXWERl2xLPRHTvd2ZXo_iluPEQd8uSbYkJ53NAER_Y,109
+doccmd-2024.11.6.dist-info/entry_points.txt,sha256=0bB5o36-AeUakhmABvyzx24D23QVEEZdIvg8PMFFiQE,39
+doccmd-2024.11.6.dist-info/top_level.txt,sha256=FG5HffZtuosafVIEu213flKaCOn_L26N5r5Na63rqx8,7
+doccmd-2024.11.6.dist-info/RECORD,,
