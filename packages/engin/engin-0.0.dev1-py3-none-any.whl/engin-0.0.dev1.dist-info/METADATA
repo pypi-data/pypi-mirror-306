@@ -1,0 +1,6 @@
+Metadata-Version: 2.3
+Name: engin
+Version: 0.0.dev1
+Summary: An async-first modular application framework
+License-File: LICENSE
+Requires-Python: >=3.10
