@@ -1,0 +1,2 @@
+baseapp-core>=0.3.3
+baseapp-profiles>=0.0.1
