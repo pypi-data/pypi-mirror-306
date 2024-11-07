@@ -1,0 +1,6 @@
+Metadata-Version: 2.3
+Name: datastar-py
+Version: 0.1.0
+Summary: Helper functions and classes for the Datastar library (https://data-star.dev/)
+Author-email: Felix Ingram <f.ingram@gmail.com>
+Requires-Python: >=3.12

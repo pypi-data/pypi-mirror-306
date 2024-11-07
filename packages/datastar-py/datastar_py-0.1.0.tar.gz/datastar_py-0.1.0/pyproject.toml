@@ -1,0 +1,14 @@
+[project]
+name = "datastar-py"
+version = "0.1.0"
+description = "Helper functions and classes for the Datastar library (https://data-star.dev/)"
+readme = "README.md"
+authors = [
+    { name = "Felix Ingram", email = "f.ingram@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
