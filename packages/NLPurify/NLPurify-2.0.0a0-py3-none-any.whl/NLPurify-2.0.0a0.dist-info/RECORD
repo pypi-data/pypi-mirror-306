@@ -1,0 +1,15 @@
+nlpurify/__init__.py,sha256=yL9bdsjJJ9zTbdp2g8XnNDIwfwSSGXXFUFrbTE-2zk8,646
+nlpurify/normalization.py,sha256=4CGE0aU_hm3bRSJ0Y_33OF2kPXDtw9ZRIBgWuqdz4uk,6570
+nlpurify/feature/__init__.py,sha256=zwKr_QudcFWcOGEaPipbW4mDiewPJy3mmFXJtp9oYD8,430
+nlpurify/feature/selection/__init__.py,sha256=FvYJrJqeH7_vOVk590aJSLHGKdihVtKA3OF2zlXEfbc,453
+nlpurify/feature/selection/nltk.py,sha256=iHaLtQ926fPDuN520JbOrQLvZ-ALaygv-aO8Cav2uII,12651
+nlpurify/fuzzy/__init__.py,sha256=wcw9k4i1JQY_ZTa3MQfEPKsjf4SMnwiS7C2HpPQY9Q8,527
+nlpurify/fuzzy/logical.py,sha256=egVlq0s2UHR0acGmKYtHBn4g9NGxAiWXwS3J2q72JIk,3709
+nlpurify/fuzzy/wrapper.py,sha256=wDk7yF0X75RlAEM_M7-G4cjD-bR_uhdu2gHLZC5XHW4,1446
+nlpurify/legacy/__init__.py,sha256=VQW-W9o79IOcpNw-tLI6rUuwXVav-MfOuR9mQ-ANYjM,755
+nlpurify/legacy/nlp_utils.py,sha256=CKrjVTdczIpFLd7Mn2RmLfOYtlAllufckNzZKnTIW3k,4486
+NLPurify-2.0.0a0.dist-info/LICENSE,sha256=2nIpTHZB4ZYJUCrbDPteL5EpIKy1QnXfkDMOfrNa0fg,1095
+NLPurify-2.0.0a0.dist-info/METADATA,sha256=mu_a41mmxzy2tOOWWU2muGD-kG2rz6iaFLEjSV3aRME,4117
+NLPurify-2.0.0a0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+NLPurify-2.0.0a0.dist-info/top_level.txt,sha256=u-v9mu91yzPA-lmQ60Bmv_FCtvm4wfzUioyKbz40RTw,9
+NLPurify-2.0.0a0.dist-info/RECORD,,
