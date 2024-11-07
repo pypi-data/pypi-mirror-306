@@ -1,0 +1,31 @@
+[project]
+name = "pyrelukko"
+authors = [
+    {name = "Reto Zingg", email = "g.d0b3rm4n@gmail.com"},
+]
+readme = "README.md"
+
+# https://pypi.org/pypi?%3Aaction=list_classifiers
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.12"
+dynamic = ["version", "description"]
+dependencies = [
+    "requests >=2.32.3",
+]
+
+[tool.flit.sdist]
+exclude = [".gitignore", "demo.py"]
+
+[project.urls]
+Homepage = "https://gitlab.com/relukko/pyrelukko"
+Issues = "https://gitlab.com/relukko/pyrelukko/-/issues"
+
+[build-system]
+requires = ["flit_core >=3.2,<4", "semantic-version >= 2.10"]
+build-backend = "flit_core.buildapi"

@@ -1,0 +1,4 @@
+[tool.pylint.main]
+# Files or directories to be skipped. They should be base names, not paths.
+ignore = ["LICENSE", "pyproject.toml", "version.py",
+          "README.md", "demo.py",]
