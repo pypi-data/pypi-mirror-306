@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: cellmetrik
+Version: 0.0.1
+Summary: Geometric manipulations on embeddings.
+Author-email: Javier Ruiz-Ramirez <javier.ruizramirez@uhn.ca>
+License: GNU General Public License v3
+Project-URL: Homepage, https://github.com/JRR3/cellmetrik
+Keywords: cellmetrik
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: cellmetrik[extra] ; extra == 'all'
+Provides-Extra: extra
+Requires-Dist: pandas ; extra == 'extra'
+
+# cellmetrik
+
+
+[![image](https://img.shields.io/pypi/v/cellmetrik.svg)](https://pypi.python.org/pypi/cellmetrik)
+[![image](https://img.shields.io/conda/vn/conda-forge/cellmetrik.svg)](https://anaconda.org/conda-forge/cellmetrik)
+
+
+**Geometric manipulations.**
+
+
+-   Free software: GNU General Public License v3
+-   Documentation: https://JRR3.github.io/cellmetrik
+    
+
+## Features
+
+-   TODO
