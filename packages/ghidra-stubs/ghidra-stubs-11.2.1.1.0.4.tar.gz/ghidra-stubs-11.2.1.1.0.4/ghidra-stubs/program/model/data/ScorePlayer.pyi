@@ -1,0 +1,50 @@
+from typing import overload
+import ghidra.program.model.data
+import java.awt.event
+import java.lang
+import javax.sound.midi
+import javax.swing
+
+
+class ScorePlayer(object, ghidra.program.model.data.Playable, javax.sound.midi.MetaEventListener):
+    """
+    Plays a MIDI score
+    """
+
+
+
+
+
+    def __init__(self, bytes: List[int]): ...
+
+
+
+    def clicked(self, event: java.awt.event.MouseEvent) -> None: ...
+
+    def equals(self, __a0: object) -> bool: ...
+
+    def getClass(self) -> java.lang.Class: ...
+
+    def getImageIcon(self) -> javax.swing.Icon: ...
+
+    def hashCode(self) -> int: ...
+
+    def meta(self, message: javax.sound.midi.MetaMessage) -> None: ...
+
+    def notify(self) -> None: ...
+
+    def notifyAll(self) -> None: ...
+
+    def toString(self) -> unicode: ...
+
+    @overload
+    def wait(self) -> None: ...
+
+    @overload
+    def wait(self, __a0: long) -> None: ...
+
+    @overload
+    def wait(self, __a0: long, __a1: int) -> None: ...
+
+    @property
+    def imageIcon(self) -> javax.swing.Icon: ...

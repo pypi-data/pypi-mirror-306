@@ -1,0 +1,16 @@
+from .GoArrayType import GoArrayType as GoArrayType
+from .GoBaseType import GoBaseType as GoBaseType
+from .GoChanType import GoChanType as GoChanType
+from .GoFuncType import GoFuncType as GoFuncType
+from .GoIMethod import GoIMethod as GoIMethod
+from .GoInterfaceType import GoInterfaceType as GoInterfaceType
+from .GoMapType import GoMapType as GoMapType
+from .GoMethod import GoMethod as GoMethod
+from .GoPlainType import GoPlainType as GoPlainType
+from .GoPointerType import GoPointerType as GoPointerType
+from .GoSliceType import GoSliceType as GoSliceType
+from .GoStructField import GoStructField as GoStructField
+from .GoStructType import GoStructType as GoStructType
+from .GoType import GoType as GoType
+from .GoTypeDetector import GoTypeDetector as GoTypeDetector
+from .GoUncommonType import GoUncommonType as GoUncommonType

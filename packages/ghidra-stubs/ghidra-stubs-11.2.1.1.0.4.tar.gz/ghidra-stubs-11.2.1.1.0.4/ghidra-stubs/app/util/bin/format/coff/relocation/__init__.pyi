@@ -1,0 +1,3 @@
+from .CoffRelocationContext import CoffRelocationContext as CoffRelocationContext
+from .CoffRelocationHandler import CoffRelocationHandler as CoffRelocationHandler
+from .CoffRelocationHandlerFactory import CoffRelocationHandlerFactory as CoffRelocationHandlerFactory

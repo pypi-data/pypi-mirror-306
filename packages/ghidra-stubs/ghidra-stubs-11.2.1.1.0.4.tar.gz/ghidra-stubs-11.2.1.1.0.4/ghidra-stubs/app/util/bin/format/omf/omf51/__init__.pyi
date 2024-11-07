@@ -1,0 +1,4 @@
+from .Omf51ModuleEnd import Omf51ModuleEnd as Omf51ModuleEnd
+from .Omf51ModuleHeader import Omf51ModuleHeader as Omf51ModuleHeader
+from .Omf51RecordFactory import Omf51RecordFactory as Omf51RecordFactory
+from .Omf51RecordTypes import Omf51RecordTypes as Omf51RecordTypes
