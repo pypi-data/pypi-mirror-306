@@ -1,0 +1,17 @@
+{
+  "updates": [
+    "options.unicode"
+  ],
+  "model": {
+    "options.unicode": {
+      "required": true,
+      "properties": [
+        "unique"
+      ],
+      "value": [
+        "val"
+      ],
+      "owner": "user"
+    }
+  }
+}

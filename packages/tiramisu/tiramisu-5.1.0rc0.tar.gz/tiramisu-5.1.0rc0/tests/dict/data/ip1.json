@@ -1,0 +1,45 @@
+{
+  "schema": {
+    "options": {
+      "properties": {
+        "options.ip": {
+          "type": "ip",
+          "title": "IP Description"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration"
+    }
+  },
+  "model": {},
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "options.ip": {
+      "clearable": true,
+      "remote": true,
+      "type": "input"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}

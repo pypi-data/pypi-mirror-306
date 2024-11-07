@@ -1,0 +1,16 @@
+{
+  "options.unicode.unicode": [
+    {
+      "options.unicode.unicode": "val3",
+      "options.unicode.unicode1": "super1",
+      "options.unicode.unicode2": "pas test",
+      "options.unicode.unicode3": null
+    },
+    {
+      "options.unicode.unicode": "val4",
+      "options.unicode.unicode1": "super2",
+      "options.unicode.unicode2": "test2",
+      "options.unicode.unicode3": "super"
+    }
+  ]
+}

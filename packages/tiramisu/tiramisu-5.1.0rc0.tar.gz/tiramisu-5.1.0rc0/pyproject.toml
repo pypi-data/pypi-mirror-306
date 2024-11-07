@@ -1,0 +1,37 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.8.0,<4"]
+
+[project]
+name = "tiramisu"
+version = "5.1.0rc0"
+authors = [{name = "Emmanuel Garette", email = "gnunux@gnunux.info"}]
+readme = "README.md"
+description = "an options controller tool"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Natural Language :: French",
+
+]
+
+[project.urls]
+Home = "https://forge.cloud.silique.fr/stove/tiramisu"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "pep440"
+version_provider = "pep621"
+update_changelog_on_bump = true
+changelog_merge_prerelease = true

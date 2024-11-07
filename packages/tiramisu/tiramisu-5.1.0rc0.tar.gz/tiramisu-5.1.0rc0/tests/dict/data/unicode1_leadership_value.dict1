@@ -1,0 +1,16 @@
+{
+  "options.unicode.unicode": [
+    {
+      "options.unicode.unicode": "val1",
+      "options.unicode.unicode1": null,
+      "options.unicode.unicode2": "follower2",
+      "options.unicode.unicode3": null
+    },
+    {
+      "options.unicode.unicode": "val2",
+      "options.unicode.unicode1": null,
+      "options.unicode.unicode2": "follower2",
+      "options.unicode.unicode3": null
+    }
+  ]
+}

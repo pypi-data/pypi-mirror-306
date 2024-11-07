@@ -1,0 +1,56 @@
+{
+  "schema": {
+    "options": {
+      "properties": {
+        "options.choice": {
+          "type": "choice",
+          "isMulti": true,
+          "enum": [
+            "choice 1",
+            "choice 2"
+          ],
+          "title": "Choice description"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration"
+    }
+  },
+  "model": {
+    "options.choice": {
+      "required": true,
+      "properties": [
+        "unique"
+      ]
+    }
+  },
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "options.choice": {
+      "clearable": true,
+      "type": "choice"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,94 @@
+{
+  "schema": {
+    "options": {
+      "properties": {
+        "options.unicode1": {
+          "type": "string",
+          "title": "Value 'test' must show OptionDescription"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration"
+    },
+    "unicode1": {
+      "properties": {
+        "unicode1.unicode2": {
+          "type": "string",
+          "title": "Unicode 2"
+        },
+        "unicode1.unicode3": {
+          "type": "string",
+          "title": "Unicode 3"
+        }
+      },
+      "type": "object",
+      "title": "OptionDescription with 2 options"
+    }
+  },
+  "model": {
+    "unicode1": {
+      "properties": [
+        "hidden"
+      ]
+    },
+    "unicode1.unicode2": {
+      "hidden": true,
+      "display": false
+    },
+    "unicode1.unicode3": {
+      "hidden": true,
+      "display": false
+    }
+  },
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "options.unicode1": {
+      "clearable": true,
+      "type": "input",
+      "dependencies": {
+        "default": {
+          "hide": [
+            "unicode1"
+          ]
+        },
+        "expected": {
+          "test": {
+            "show": [
+              "unicode1"
+            ]
+          }
+        }
+      }
+    },
+    "unicode1.unicode2": {
+      "clearable": true,
+      "type": "input"
+    },
+    "unicode1.unicode3": {
+      "clearable": true,
+      "type": "input"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}

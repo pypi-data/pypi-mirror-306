@@ -1,0 +1,53 @@
+{
+  "schema": {
+    "options": {
+      "properties": {
+        "options.unicode": {
+          "type": "string",
+          "isMulti": true,
+          "title": "Unicode 1"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration"
+    }
+  },
+  "model": {
+    "options.unicode": {
+      "required": true,
+      "needs_len": true,
+      "properties": [
+        "unique"
+      ]
+    }
+  },
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "options.unicode": {
+      "clearable": true,
+      "type": "input"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}

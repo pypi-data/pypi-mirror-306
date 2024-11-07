@@ -1,0 +1,86 @@
+{
+  "schema": {
+    "options": {
+      "properties": {
+        "options.unicode": {
+          "properties": {
+            "options.unicode.unicode": {
+              "type": "string",
+              "isMulti": true,
+              "title": "Unicode leader"
+            },
+            "options.unicode.unicode1": {
+              "type": "string",
+              "isMulti": true,
+              "title": "Unicode follower 1"
+            },
+            "options.unicode.unicode2": {
+              "type": "string",
+              "isMulti": true,
+              "isSubMulti": true,
+              "title": "Unicode follower 2 submulti"
+            },
+            "options.unicode.unicode3": {
+              "type": "string",
+              "isMulti": true,
+              "title": "Unicode follower 3"
+            }
+          },
+          "type": "array",
+          "title": "Common configuration 1"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration 2"
+    }
+  },
+  "model": {
+    "options.unicode.unicode": {
+      "required": true,
+      "properties": [
+        "unique"
+      ]
+    }
+  },
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "options.unicode.unicode": {
+      "clearable": true,
+      "type": "input"
+    },
+    "options.unicode.unicode1": {
+      "clearable": true,
+      "type": "input"
+    },
+    "options.unicode.unicode2": {
+      "clearable": true,
+      "type": "input"
+    },
+    "options.unicode.unicode3": {
+      "clearable": true,
+      "type": "input"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}

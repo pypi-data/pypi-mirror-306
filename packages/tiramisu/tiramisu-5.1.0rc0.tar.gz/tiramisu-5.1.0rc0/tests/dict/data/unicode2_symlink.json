@@ -1,0 +1,53 @@
+{
+  "schema": {
+    "options": {
+      "properties": {
+        "options.unicode1": {
+          "type": "string",
+          "value": "test",
+          "title": "Unicode 1"
+        },
+        "options.unicode2": {
+          "type": "symlink",
+          "opt_path": "options.unicode1"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration"
+    }
+  },
+  "model": {
+    "options.unicode1": {
+      "value": "test"
+    }
+  },
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "options.unicode1": {
+      "clearable": true,
+      "type": "input"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}

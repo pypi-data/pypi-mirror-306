@@ -1,0 +1,4 @@
+{"cmd": "config.option('options.unicode.unicode', 1).value.reset()",
+ "body": {"updates": [{"action": "delete",
+                       "index": 1,
+                       "name": "options.unicode.unicode"}]}}

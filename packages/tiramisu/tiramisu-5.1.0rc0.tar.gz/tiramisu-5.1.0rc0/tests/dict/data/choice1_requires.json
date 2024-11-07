@@ -1,0 +1,85 @@
+{
+  "schema": {
+    "options": {
+      "properties": {
+        "options.choice": {
+          "type": "choice",
+          "enum": [
+            "hide",
+            "show"
+          ],
+          "value": "hide",
+          "title": "Choice description"
+        },
+        "options.unicode2": {
+          "type": "string",
+          "title": "Unicode 2"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration"
+    }
+  },
+  "model": {
+    "options.choice": {
+      "required": true,
+      "value": "hide"
+    },
+    "options.unicode2": {
+      "display": false,
+      "hidden": true
+    }
+  },
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "options.choice": {
+      "clearable": true,
+      "type": "choice",
+      "dependencies": {
+        "default": {
+          "show": [
+            "options.unicode2"
+          ]
+        },
+        "expected": {
+          "show": {
+            "show": [
+              "options.unicode2"
+            ]
+          },
+          "hide": {
+            "hide": [
+              "options.unicode2"
+            ]
+          }
+        }
+      }
+    },
+    "options.unicode2": {
+      "clearable": true,
+      "type": "input"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}

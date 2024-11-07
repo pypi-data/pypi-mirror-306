@@ -1,0 +1,109 @@
+{
+  "schema": {
+    "options": {
+      "properties": {
+        "options.choice1": {
+          "properties": {
+            "options.choice1.choice1": {
+              "type": "choice",
+              "isMulti": true,
+              "enum": [
+                "choice 1",
+                "choice 2"
+              ],
+              "title": "Choice description leader"
+            },
+            "options.choice1.choice2": {
+              "type": "choice",
+              "isMulti": true,
+              "enum": [
+                "",
+                "choice 3",
+                "choice 4"
+              ],
+              "title": "Choice description follower 1"
+            },
+            "options.choice1.choice3": {
+              "type": "choice",
+              "isMulti": true,
+              "enum": [
+                "",
+                "choice 5",
+                "choice 6"
+              ],
+              "title": "Choice description follower 2 hidden"
+            },
+            "options.choice1.choice4": {
+              "type": "choice",
+              "isMulti": true,
+              "enum": [
+                "",
+                "choice 7",
+                "choice 8"
+              ],
+              "title": "Choice description follower 3"
+            }
+          },
+          "type": "array",
+          "title": "Slave 2 is hidden"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration 2"
+    }
+  },
+  "model": {
+    "options.choice1.choice1": {
+      "required": true,
+      "properties": [
+        "unique"
+      ]
+    },
+    "options.choice1.choice3": {
+      "null": {
+        "display": false
+      }
+    }
+  },
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "options.choice1.choice1": {
+      "clearable": true,
+      "type": "choice"
+    },
+    "options.choice1.choice2": {
+      "clearable": true,
+      "type": "choice"
+    },
+    "options.choice1.choice3": {
+      "clearable": true,
+      "type": "choice"
+    },
+    "options.choice1.choice4": {
+      "clearable": true,
+      "type": "choice"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}

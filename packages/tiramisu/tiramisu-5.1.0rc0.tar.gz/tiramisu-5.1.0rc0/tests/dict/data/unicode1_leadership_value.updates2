@@ -1,0 +1,32 @@
+{
+  "updates": [
+    "options.unicode.unicode",
+    "options.unicode.unicode1",
+    "options.unicode.unicode2",
+    "options.unicode.unicode3"
+  ],
+  "model": {
+    "options.unicode.unicode": {
+      "required": true,
+      "properties": [
+        "unique"
+      ],
+      "value": [
+        "val3"
+      ],
+      "owner": "user"
+    },
+    "options.unicode.unicode1": {
+      "0": {
+        "value": "super1",
+        "owner": "user"
+      }
+    },
+    "options.unicode.unicode2": {
+      "0": {
+        "value": "pas test",
+        "owner": "user"
+      }
+    }
+  }
+}

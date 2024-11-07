@@ -1,0 +1,823 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-11-05 08:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: tiramisu/api.py:79
+msgid "Settings:"
+msgstr ""
+
+#: tiramisu/api.py:83
+msgid "Access to option without verifying permissive properties"
+msgstr ""
+
+#: tiramisu/api.py:88
+msgid "Access to option without property restriction"
+msgstr ""
+
+#: tiramisu/api.py:93
+msgid "Do not warnings during validation"
+msgstr ""
+
+#: tiramisu/api.py:97
+msgid "Commands:"
+msgstr ""
+
+#: tiramisu/api.py:111 tiramisu/api.py:1840
+msgid "please specify a valid sub function ({0}.{1})"
+msgstr ""
+
+#: tiramisu/api.py:194
+msgid "please do not specify index ({0}.{1})"
+msgstr ""
+
+#: tiramisu/api.py:199 tiramisu/api.py:844
+msgid "please specify index with a follower option ({0}.{1})"
+msgstr ""
+
+#: tiramisu/api.py:220
+msgid "please specify a valid sub function ({0}.{1}): {2}"
+msgstr ""
+
+#: tiramisu/api.py:431
+msgid "the option {0} is not a dynamic option, cannot get identifiers with only_self parameter to True"
+msgstr ""
+
+#: tiramisu/api.py:517
+msgid "cannot get option from a follower symlink without index"
+msgstr ""
+
+#: tiramisu/api.py:592
+msgid "cannot add this property: \"{0}\""
+msgstr ""
+
+#: tiramisu/api.py:619
+msgid "cannot remove option's property \"{0}\", use permissive instead in option \"{1}\""
+msgstr ""
+
+#: tiramisu/api.py:623
+msgid "cannot find \"{0}\" in option \"{1}\""
+msgstr ""
+
+#: tiramisu/api.py:628
+msgid "cannot remove option's property \"{0}\", use permissive instead in option \"{1}\" at index \"{2}\""
+msgstr ""
+
+#: tiramisu/api.py:632
+msgid "cannot find \"{0}\" in option \"{1}\" at index \"{2}\""
+msgstr ""
+
+#: tiramisu/api.py:676
+msgid "cannot find \"{0}\""
+msgstr ""
+
+#: tiramisu/api.py:808
+msgid "cannot reduce length of the leader {}"
+msgstr ""
+
+#: tiramisu/api.py:861
+msgid "only multi value has defaultmulti"
+msgstr ""
+
+#: tiramisu/api.py:1020
+msgid "please specify a valid sub function ({0}.{1}) for {2}"
+msgstr ""
+
+#: tiramisu/api.py:1407
+msgid "properties must be a frozenset"
+msgstr ""
+
+#: tiramisu/api.py:1411 tiramisu/api.py:1438
+msgid "unknown when {} (must be in append or remove)"
+msgstr ""
+
+#: tiramisu/api.py:1424 tiramisu/api.py:1448 tiramisu/config.py:1680
+msgid "unknown type {}"
+msgstr ""
+
+#: tiramisu/api.py:1812
+msgid "do not use unrestraint, nowarnings or forcepermissive together"
+msgstr ""
+
+#: tiramisu/autolib.py:80
+msgid "args in params must be a tuple"
+msgstr ""
+
+#: tiramisu/autolib.py:83 tiramisu/autolib.py:88
+msgid "arg in params must be a Param"
+msgstr ""
+
+#: tiramisu/autolib.py:85
+msgid "kwargs in params must be a dict"
+msgstr ""
+
+#: tiramisu/autolib.py:113
+msgid "paramoption needs an option not {}"
+msgstr ""
+
+#: tiramisu/autolib.py:119
+msgid "param must have a boolean not a {} for notraisepropertyerror"
+msgstr ""
+
+#: tiramisu/autolib.py:122
+msgid "param must have a boolean not a {} for raisepropertyerror"
+msgstr ""
+
+#: tiramisu/autolib.py:212
+msgid "option in ParamInformation cannot be a symlinkoption"
+msgstr ""
+
+#: tiramisu/autolib.py:215
+msgid "option in ParamInformation cannot be a follower"
+msgstr ""
+
+#: tiramisu/autolib.py:218
+msgid "option in ParamInformation cannot be a dynamic option"
+msgstr ""
+
+#: tiramisu/autolib.py:279
+msgid "first argument ({0}) must be a function"
+msgstr ""
+
+#: tiramisu/autolib.py:283
+msgid "help_function ({0}) must be a function"
+msgstr ""
+
+#: tiramisu/autolib.py:452 tiramisu/autolib.py:514
+msgid "unable to carry out a calculation for {}, {}"
+msgstr ""
+
+#: tiramisu/autolib.py:461 tiramisu/autolib.py:521
+msgid "the option {0} is used in a calculation but is invalid ({1})"
+msgstr ""
+
+#: tiramisu/autolib.py:477 tiramisu/autolib.py:535 tiramisu/autolib.py:584
+msgid "unable to get value for calculating {0}, {1}"
+msgstr ""
+
+#: tiramisu/autolib.py:601
+msgid "option {0} is not a dynoptiondescription or in a dynoptiondescription"
+msgstr ""
+
+#: tiramisu/autolib.py:848
+msgid "the \"{}\" function with positional arguments \"{}\" and keyword arguments \"{}\" must not return a list (\"{}\") for the follower option {}"
+msgstr ""
+
+#: tiramisu/autolib.py:863
+msgid "the \"{}\" function must not return a list (\"{}\") for the follower option {}"
+msgstr ""
+
+#: tiramisu/autolib.py:904
+msgid "unexpected error \"{0}\" in function \"{1}\" with arguments \"{3}\" and \"{4}\" for option {2}"
+msgstr ""
+
+#: tiramisu/autolib.py:915
+msgid "unexpected error \"{0}\" in function \"{1}\" for option {2}"
+msgstr ""
+
+#: tiramisu/config.py:419
+msgid "index \"{0}\" is greater than the leadership length \"{1}\" for option {2}"
+msgstr ""
+
+#: tiramisu/config.py:579
+msgid "there is no option description for this config (may be GroupConfig)"
+msgstr ""
+
+#: tiramisu/config.py:668
+msgid "no option found in config with these criteria"
+msgstr ""
+
+#: tiramisu/config.py:871
+msgid "the follower option {0} has greater length ({1}) than the leader length ({2})"
+msgstr ""
+
+#: tiramisu/config.py:982 tiramisu/option/optiondescription.py:74
+msgid "option description seems to be part of an other config"
+msgstr ""
+
+#: tiramisu/config.py:1144
+msgid "parent of {0} not already exists"
+msgstr ""
+
+#: tiramisu/config.py:1191
+msgid "cannot set leadership object has root optiondescription"
+msgstr ""
+
+#: tiramisu/config.py:1194
+msgid "cannot set dynoptiondescription object has root optiondescription"
+msgstr ""
+
+#: tiramisu/config.py:1246
+msgid "config name must be uniq in groupconfig for \"{0}\""
+msgstr ""
+
+#: tiramisu/config.py:1457
+msgid "unknown config \"{}\""
+msgstr ""
+
+#: tiramisu/config.py:1482
+msgid "child must be a Config, MixConfig or MetaConfig"
+msgstr ""
+
+#: tiramisu/config.py:1517
+msgid "force_default, force_default_if_same or force_dont_change_value cannot be set with only_config"
+msgstr ""
+
+#: tiramisu/config.py:1527
+msgid "force_default and force_dont_change_value cannot be set together"
+msgstr ""
+
+#: tiramisu/config.py:1676
+msgid "config name must be uniq in groupconfig for {0}"
+msgstr ""
+
+#: tiramisu/config.py:1721
+msgid "config added has no name, the name is mandatory"
+msgstr ""
+
+#: tiramisu/config.py:1726
+msgid "config name \"{0}\" is not uniq in groupconfig \"{1}\""
+msgstr ""
+
+#: tiramisu/config.py:1744 tiramisu/config.py:1750
+msgid "cannot find the config {0}"
+msgstr ""
+
+#: tiramisu/config.py:1776
+msgid "MetaConfig with optiondescription must have string has child, not {}"
+msgstr ""
+
+#: tiramisu/config.py:1788
+msgid "child must be a Config or MetaConfig"
+msgstr ""
+
+#: tiramisu/config.py:1793
+msgid "all config in metaconfig must have the same optiondescription"
+msgstr ""
+
+#: tiramisu/config.py:1810
+msgid "metaconfig must have the same optiondescription"
+msgstr ""
+
+#: tiramisu/error.py:31
+msgid "and"
+msgstr ""
+
+#: tiramisu/error.py:33
+msgid "or"
+msgstr ""
+
+#: tiramisu/error.py:55
+msgid " {} "
+msgstr ""
+
+#: tiramisu/error.py:108
+msgid "property"
+msgstr ""
+
+#: tiramisu/error.py:110
+msgid "properties"
+msgstr ""
+
+#: tiramisu/error.py:113
+msgid "cannot modify the {0} {1} because \"{2}\" has {3} {4}"
+msgstr ""
+
+#: tiramisu/error.py:115
+msgid "cannot modify the {0} {1} because has {2} {3}"
+msgstr ""
+
+#: tiramisu/error.py:118
+msgid "cannot access to {0} {1} because \"{2}\" has {3} {4}"
+msgstr ""
+
+#: tiramisu/error.py:120
+msgid "cannot access to {0} {1} because has {2} {3}"
+msgstr ""
+
+#: tiramisu/error.py:192
+msgid "invalid value"
+msgstr ""
+
+#: tiramisu/error.py:201
+msgid "attention, \"{0}\" could be an invalid {1} for \"{2}\""
+msgstr ""
+
+#: tiramisu/error.py:219 tiramisu/error.py:228
+msgid "\"{0}\" is an invalid {1} for \"{2}\""
+msgstr ""
+
+#: tiramisu/function.py:65
+msgid "network \"{0}\" ({1}) does not match with this netmask"
+msgstr ""
+
+#: tiramisu/function.py:83
+msgid "IP \"{0}\" ({1}) with this netmask is in fact a network address"
+msgstr ""
+
+#: tiramisu/function.py:88
+msgid "IP \"{0}\" ({1}) with this netmask is in fact a broadcast address"
+msgstr ""
+
+#: tiramisu/function.py:106
+msgid "broadcast invalid with network {0} ({1}) and netmask {2} ({3})"
+msgstr ""
+
+#: tiramisu/function.py:134
+msgid "this IP is not in network {network[\"value\"]} ({network[\"name\"]})"
+msgstr ""
+
+#: tiramisu/function.py:136
+msgid "this IP is not in network {network[\"value\"]} ({network[\"name\"]}) with netmask {netmask[\"value\"]} ({netmask[\"name\"]})"
+msgstr ""
+
+#: tiramisu/function.py:143
+msgid "this IP with the network {0} ({1}) is in fact a network address"
+msgstr ""
+
+#: tiramisu/function.py:148
+msgid "this IP with the network {0} ({1}) is in fact a broadcast address"
+msgstr ""
+
+#: tiramisu/function.py:165
+msgid "value is identical to {0}"
+msgstr ""
+
+#: tiramisu/function.py:400
+msgid "unexpected value in calc_value with join attribute \"{0}\" with invalid length \"{1}\""
+msgstr ""
+
+#: tiramisu/function.py:527
+msgid "unexpected {0} condition_operator in calc_value"
+msgstr ""
+
+#: tiramisu/function.py:591
+msgid "unexpected condition_{0} must have \"todict\" argument"
+msgstr ""
+
+#: tiramisu/function.py:602
+msgid "the value of \"{0}\" is {1}"
+msgstr ""
+
+#: tiramisu/function.py:604
+msgid "the value of \"{0}\" is not {1}"
+msgstr ""
+
+#: tiramisu/option/baseoption.py:75 tiramisu/option/symlinkoption.py:44
+msgid "\"{0}\" is an invalid name for an option"
+msgstr ""
+
+#: tiramisu/option/baseoption.py:88
+msgid "invalid properties type {0} for {1}, must be a frozenset"
+msgstr ""
+
+#: tiramisu/option/baseoption.py:98
+msgid "invalid property type {0} for {1}, must be a string or a Calculation"
+msgstr ""
+
+#: tiramisu/option/baseoption.py:249
+msgid "information's item for {0} not found: \"{1}\""
+msgstr ""
+
+#: tiramisu/option/baseoption.py:267
+msgid "'{0}' ({1}) object attribute '{2}' is read-only"
+msgstr ""
+
+#: tiramisu/option/baseoption.py:308
+msgid "\"{}\" ({}) object attribute \"{}\" is read-only"
+msgstr ""
+
+#: tiramisu/option/baseoption.py:320
+msgid "{0} not part of any Config"
+msgstr ""
+
+#: tiramisu/option/broadcastoption.py:41
+msgid "invalid string"
+msgstr ""
+
+#: tiramisu/option/choiceoption.py:47
+msgid "values must be a tuple or a calculation for {0}"
+msgstr ""
+
+#: tiramisu/option/choiceoption.py:70
+msgid "the calculated values \"{0}\" for \"{1}\" is not a list"
+msgstr ""
+
+#: tiramisu/option/choiceoption.py:101
+msgid "only \"{0}\" is allowed"
+msgstr ""
+
+#: tiramisu/option/choiceoption.py:103
+msgid "only {0} are allowed"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:60
+msgid "unknown type {0} for hostname"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:63
+msgid "allow_ip must be a boolean"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:65
+msgid "allow_cidr_network must be a boolean"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:67
+msgid "allow_without_dot must be a boolean"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:69
+msgid "allow_startswith_dot must be a boolean"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:81
+msgid "must start with lowercase characters followed by lowercase characters, number, \"-\" and \".\" characters are allowed"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:84
+msgid "must start with lowercase characters followed by lowercase characters, number, \"-\" and \".\" characters are recommanded"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:88
+#: tiramisu/option/domainnameoption.py:89
+msgid "could be a IP, otherwise {}"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:134
+msgid "invalid length (min 1)"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:137
+msgid "invalid length (max {0})"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:143
+msgid "must have dot"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:145
+msgid "invalid length (max 255)"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:163
+msgid "must not be an IP"
+msgstr ""
+
+#: tiramisu/option/domainnameoption.py:186
+msgid "some characters are uppercase"
+msgstr ""
+
+#: tiramisu/option/dynoptiondescription.py:131
+msgid "DynOptionDescription identifiers for option {0}, is not a list ({1})"
+msgstr ""
+
+#: tiramisu/option/dynoptiondescription.py:142
+msgid "invalid identifier \"{}\" for option {}"
+msgstr ""
+
+#: tiramisu/option/dynoptiondescription.py:150
+msgid "DynOptionDescription \"{0}\" identifiers return a list with same values \"{1}\""
+msgstr ""
+
+#: tiramisu/option/filenameoption.py:47
+msgid "types parameter must be a list, not \"{0}\" for \"{1}\""
+msgstr ""
+
+#: tiramisu/option/filenameoption.py:67
+msgid "must starts with \"/\""
+msgstr ""
+
+#: tiramisu/option/filenameoption.py:78
+msgid "cannot find {0} \"{1}\""
+msgstr ""
+
+#: tiramisu/option/intoption.py:52
+msgid "value should be equal or greater than \"{0}\""
+msgstr ""
+
+#: tiramisu/option/intoption.py:54
+msgid "value must be equal or greater than \"{0}\""
+msgstr ""
+
+#: tiramisu/option/intoption.py:59
+msgid "value should be less than \"{0}\""
+msgstr ""
+
+#: tiramisu/option/intoption.py:61
+msgid "value must be less than \"{0}\""
+msgstr ""
+
+#: tiramisu/option/ipoption.py:57
+msgid "it's in fact a network address"
+msgstr ""
+
+#: tiramisu/option/ipoption.py:59
+msgid "it's in fact a broacast address"
+msgstr ""
+
+#: tiramisu/option/ipoption.py:71
+msgid "CIDR address must have a \"/\""
+msgstr ""
+
+#: tiramisu/option/ipoption.py:80
+msgid "shouldn't be reserved IP"
+msgstr ""
+
+#: tiramisu/option/ipoption.py:82
+msgid "mustn't be reserved IP"
+msgstr ""
+
+#: tiramisu/option/ipoption.py:86
+msgid "should be private IP"
+msgstr ""
+
+#: tiramisu/option/ipoption.py:88
+msgid "must be private IP"
+msgstr ""
+
+#: tiramisu/option/leadership.py:55
+msgid "cannot set \"group_type\" attribute for a Leadership"
+msgstr ""
+
+#: tiramisu/option/leadership.py:67
+msgid "a leader and a follower are mandatories in leadership \"{}\""
+msgstr ""
+
+#: tiramisu/option/leadership.py:89
+msgid "leader cannot have \"{}\" property"
+msgstr ""
+
+#: tiramisu/option/leadership.py:101
+msgid "leadership {0} shall not have a symlinkoption"
+msgstr ""
+
+#: tiramisu/option/leadership.py:108
+msgid "leadership {0} shall not have a subgroup"
+msgstr ""
+
+#: tiramisu/option/leadership.py:114
+msgid "only multi option allowed in leadership {0} but option {1} is not a multi"
+msgstr ""
+
+#: tiramisu/option/leadership.py:141
+msgid "not allowed default value for follower option {0} in leadership {1}"
+msgstr ""
+
+#: tiramisu/option/networkoption.py:45
+msgid "must use CIDR notation"
+msgstr ""
+
+#: tiramisu/option/networkoption.py:60
+msgid "shouldn't be reserved network"
+msgstr ""
+
+#: tiramisu/option/networkoption.py:62
+msgid "mustn't be reserved network"
+msgstr ""
+
+#: tiramisu/option/option.py:73
+msgid "default_multi is set whereas multi is False in option: {0}"
+msgstr ""
+
+#: tiramisu/option/option.py:93
+msgid "invalid multi type \"{}\" for \"{}\""
+msgstr ""
+
+#: tiramisu/option/option.py:112
+msgid "validators must be a list of Calculation for \"{0}\""
+msgstr ""
+
+#: tiramisu/option/option.py:117
+msgid "validators must be a Calculation for \"{0}\""
+msgstr ""
+
+#: tiramisu/option/option.py:146
+msgid "invalid default_multi value \"{0}\" for option {1}"
+msgstr ""
+
+#: tiramisu/option/option.py:154
+msgid "invalid default_multi value \"{0}\" for option {1}, {2}"
+msgstr ""
+
+#: tiramisu/option/option.py:167
+msgid "invalid default_multi value \"{0}\" for option {1}, must be a list for a submulti"
+msgstr ""
+
+#: tiramisu/option/option.py:290
+msgid "the value \"{}\" is not unique"
+msgstr ""
+
+#: tiramisu/option/option.py:352
+msgid "which must not be a list"
+msgstr ""
+
+#: tiramisu/option/option.py:404 tiramisu/option/option.py:430
+msgid "which must be a list"
+msgstr ""
+
+#: tiramisu/option/option.py:424
+msgid "which \"{}\" must be a list of list"
+msgstr ""
+
+#: tiramisu/option/optiondescription.py:109
+msgid "duplicate option: {0}"
+msgstr ""
+
+#: tiramisu/option/optiondescription.py:244
+msgid "unknown option \"{0}\" in root optiondescription (it's a dynamic option)"
+msgstr ""
+
+#: tiramisu/option/optiondescription.py:279
+msgid "unknown option \"{0}\" in root optiondescription"
+msgstr ""
+
+#: tiramisu/option/optiondescription.py:282
+msgid "unknown option \"{0}\" in optiondescription {1}"
+msgstr ""
+
+#: tiramisu/option/optiondescription.py:338
+msgid "children in optiondescription \"{}\" must be a list"
+msgstr ""
+
+#: tiramisu/option/optiondescription.py:366
+msgid "duplicate option name: \"{0}\""
+msgstr ""
+
+#: tiramisu/option/optiondescription.py:372
+msgid "the option's name \"{0}\" start as the dynoptiondescription's name \"{1}\""
+msgstr ""
+
+#: tiramisu/option/optiondescription.py:415
+msgid "cannot change group_type if already set (old {0}, new {1})"
+msgstr ""
+
+#: tiramisu/option/optiondescription.py:420
+msgid "group_type: {0} not allowed"
+msgstr ""
+
+#: tiramisu/option/passwordoption.py:49
+msgid "at least {0} characters are required"
+msgstr ""
+
+#: tiramisu/option/passwordoption.py:52
+msgid "maximum {0} characters required"
+msgstr ""
+
+#: tiramisu/option/passwordoption.py:57
+msgid "must not have the characters {0}"
+msgstr ""
+
+#: tiramisu/option/permissionsoption.py:52
+msgid "only 3 or 4 octal digits are allowed"
+msgstr ""
+
+#: tiramisu/option/permissionsoption.py:63
+msgid "user"
+msgstr ""
+
+#: tiramisu/option/permissionsoption.py:64
+#: tiramisu/option/permissionsoption.py:66
+msgid "group"
+msgstr ""
+
+#: tiramisu/option/permissionsoption.py:67
+msgid "other"
+msgstr ""
+
+#: tiramisu/option/permissionsoption.py:68
+msgid "{0} has more right than {1}"
+msgstr ""
+
+#: tiramisu/option/permissionsoption.py:71
+msgid "too weak"
+msgstr ""
+
+#: tiramisu/option/portoption.py:74
+msgid "inconsistency in allowed range"
+msgstr ""
+
+#: tiramisu/option/portoption.py:79
+msgid "max value is empty"
+msgstr ""
+
+#: tiramisu/option/portoption.py:92
+msgid "range must have two values only"
+msgstr ""
+
+#: tiramisu/option/portoption.py:95
+msgid "first port in range must be smaller than the second one"
+msgstr ""
+
+#: tiramisu/option/portoption.py:121
+msgid "should be between {0} and {1}"
+msgstr ""
+
+#: tiramisu/option/portoption.py:123
+msgid "must be between {0} and {1}"
+msgstr ""
+
+#: tiramisu/option/symlinkoption.py:51
+msgid "malformed symlink second parameters must be an option for \"{0}\", not {1}"
+msgstr ""
+
+#: tiramisu/option/urloption.py:91
+msgid "must start with http:// or https://"
+msgstr ""
+
+#: tiramisu/option/urloption.py:119
+msgid "must ends with a valid resource name"
+msgstr ""
+
+#: tiramisu/setting.py:255
+msgid "can't rebind {0}"
+msgstr ""
+
+#: tiramisu/setting.py:262
+msgid "can't unbind {0}"
+msgstr ""
+
+#: tiramisu/setting.py:464
+msgid "invalid property type {type(new_prop)} for {subconfig.option.impl_getname()} with {prop.function.__name__} function"
+msgstr ""
+
+#: tiramisu/setting.py:476
+msgid "leader cannot have \"{new_prop}\" property"
+msgstr ""
+
+#: tiramisu/setting.py:564
+msgid "leader cannot have \"{0}\" property"
+msgstr ""
+
+#: tiramisu/setting.py:573
+msgid "a leader ({0}) cannot have \"force_default_on_freeze\" or \"force_metaconfig_on_freeze\" property without \"frozen\""
+msgstr ""
+
+#: tiramisu/setting.py:607
+msgid "permissive must be a frozenset"
+msgstr ""
+
+#: tiramisu/setting.py:617
+msgid "cannot add those permissives: {0}"
+msgstr ""
+
+#: tiramisu/setting.py:654
+msgid "can't reset properties to the symlinkoption \"{}\""
+msgstr ""
+
+#: tiramisu/setting.py:667
+msgid "can't reset permissives to the symlinkoption \"{}\""
+msgstr ""
+
+#: tiramisu/todict.py:395
+msgid "option {} only works when remotable is not \"none\""
+msgstr ""
+
+#: tiramisu/todict.py:561
+msgid "unable to transform tiramisu object to dict: {}"
+msgstr ""
+
+#: tiramisu/todict.py:876 tiramisu/todict.py:1033
+msgid "unknown form {}"
+msgstr ""
+
+#: tiramisu/todict.py:923
+msgid "not in current area"
+msgstr ""
+
+#: tiramisu/todict.py:947
+msgid "only multi option can have action \"add\", but \"{}\" is not a multi"
+msgstr ""
+
+#: tiramisu/todict.py:953
+msgid "unknown action {}"
+msgstr ""
+
+#: tiramisu/value.py:564 tiramisu/value.py:861
+msgid "set owner \"{0}\" is forbidden"
+msgstr ""
+
+#: tiramisu/value.py:571
+msgid "\"{0}\" is a default value, so we cannot change owner to \"{1}\""
+msgstr ""
+
+#: tiramisu/value.py:740
+msgid "index {index} is greater than the length {length} for option {subconfig.option.impl_get_display_name(with_quote=True)}"
+msgstr ""
+
+#: tiramisu/value.py:847
+msgid "information's item not found \"{}\""
+msgstr ""
+

@@ -1,0 +1,11 @@
+{
+  "updates": [
+    "options.unicode1"
+  ],
+  "model": {
+    "options.unicode1": {
+      "value": "val",
+      "owner": "user"
+    }
+  }
+}

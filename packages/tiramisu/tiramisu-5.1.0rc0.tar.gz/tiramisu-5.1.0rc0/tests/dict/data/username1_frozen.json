@@ -1,0 +1,49 @@
+{
+  "schema": {
+    "options": {
+      "properties": {
+        "options.username": {
+          "type": "username",
+          "title": "Username description frozen"
+        }
+      },
+      "type": "object",
+      "title": "Common configuration"
+    }
+  },
+  "model": {
+    "options.username": {
+      "readOnly": true
+    }
+  },
+  "global": {
+    "owner": "user",
+    "properties": [
+      "cache",
+      "demoting_error_warning",
+      "disabled",
+      "force_store_value",
+      "frozen",
+      "hidden",
+      "validator",
+      "warnings"
+    ],
+    "permissives": [
+      "hidden"
+    ]
+  },
+  "form": {
+    "options.username": {
+      "clearable": true,
+      "pattern": "^[a-z_][a-z0-9_-]{0,30}[$a-z0-9_-]{0,1}$",
+      "type": "input"
+    },
+    "null": [
+      {
+        "title": "Configurer",
+        "type": "submit"
+      }
+    ]
+  },
+  "version": "1.0"
+}
