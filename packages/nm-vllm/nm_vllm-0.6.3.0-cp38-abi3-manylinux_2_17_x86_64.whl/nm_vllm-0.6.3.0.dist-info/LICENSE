@@ -1,0 +1,25 @@
+Updated: August 12, 2024
+
+NEURAL MAGIC ENTERPRISE LICENSE AGREEMENT
+
+nm-vllm is an enterprise inferencing system for deployments of open-source large language
+models (LLMs) on hardware accelerators.
+
+The collective works, and packages based on it, is licensed under an executed Neural Magic
+Enteprise License Agreement (“Agreement”), as described in Neural Magic's complete Agreement
+at: https://neuralmagic.com/legal/master-software-license-and-service-agreement/.
+
+The Neural Magic Enteprise License Agreement must be executed prior to using Software for the
+first time. By using the Software, you agree to these terms. If you fail to execute this
+Agreement, the Software may not be installed, accessed or distributed. Your rights under the
+Agreement will terminate automatically without notice if you fail to comply with any term(s) of
+the Agreement.
+
+Source code and object files (“Software”) consist of a current version of: (a) machine
+executable (object) code, (b) Neural Magic-branded components, and (c) any existing user guide
+and release notes. The Software is copyrighted by Neuralmagic, Inc. (“Neural Magic”), a Delaware
+corporation with offices at 55 Davis Square STE 3, Somerville, MA 02144 United States, and is
+licensed and not sold. Licensing questions about this Software should be directed to
+https://www.neuralmagic.com/contact.
+
+Neuralmagic, Inc.’s Legal Policies https://www.neuralmagic.com/legal
