@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+genai/__init__.py
+genai/models/__init__.py
+genai_sdk.egg-info/PKG-INFO
+genai_sdk.egg-info/SOURCES.txt
+genai_sdk.egg-info/dependency_links.txt
+genai_sdk.egg-info/requires.txt
+genai_sdk.egg-info/top_level.txt
+tests/__init__.py
