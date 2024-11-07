@@ -1,0 +1,10 @@
+gradio_molecule3d/__init__.py,sha256=jnNsd8pbFfRQHi4R5dVCfL4eTJ5nMjXvoIUP_p7wrEY,62
+gradio_molecule3d/molecule3d.py,sha256=iCx_U4tnbtvod_I8i9heEaJ0zZO_6LQFJWhDhzTyE_Q,11808
+gradio_molecule3d/molecule3d.pyi,sha256=MCoTdfFop4Y4zmM9VrHjZefomJyd1CMRvktFOAOiTeA,78103
+gradio_molecule3d/templates/component/index.js,sha256=OpX6Ig8FWCsOiet_uJioHxYsW9Bhba6n55yUQlkMsng,1993472
+gradio_molecule3d/templates/component/style.css,sha256=eigEOor-SurGSPCDfQF7RS7rTgxF8JL4SCpDf8Ah1V8,1544894
+gradio_molecule3d/templates/example/index.js,sha256=-2OTroAgt784lcP8Xhh5BRfkFptBbAe53dQ9GqXZ4XE,2073
+gradio_molecule3d/templates/example/style.css,sha256=PmBkZe6ATBey2-rKvFlYDc6f7Ix5fk0mKg5_jbKcCP0,201
+gradio_molecule3d-0.0.6.dist-info/METADATA,sha256=7uLIEf3m-8Uxei5hynMRJbwRkNI4RAqFDzdAw9Y0sOo,12841
+gradio_molecule3d-0.0.6.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+gradio_molecule3d-0.0.6.dist-info/RECORD,,
