@@ -1,0 +1,13 @@
+spotter/__init__.py,sha256=CNcNXEN6Nrrt0DV8SyB9XWu805vzHqR9n5HlH6cswOo,96
+spotter/core.py,sha256=5eJt1pFBHVmtM-qsqgbQReJuukET1JNwlnh5CkTvVpo,5154
+spotter/distributions.py,sha256=ubMvzSP5xu7A8xYpwpypu_fu67kKtnUUnNB_MSk6tNQ,1224
+spotter/doppler.py,sha256=tXcTfv72ke1fRhfzROaqTInN4zs_nCDg0KwUFV_UYrc,806
+spotter/kernels.py,sha256=wKCbFi7O-qcjBKKfztLtUVPSfMn1BevQrHGK3jk2GfA,1300
+spotter/light_curves.py,sha256=CcZ_ZwZerQc1eUulDj0Vmou32FKjS6nCONQXFG6rCAU,2444
+spotter/star.py,sha256=8T7O09avyUWNum51tGtTs0NCGG9CYhC5ftRRMMlZXD0,7528
+spotter/utils.py,sha256=O0othCPLuRGOmBaI4AVuXNsZzJs1O4Ep5tjg0ycLGIk,745
+spotter/viz.py,sha256=B4FWufrFFJc7Jw9CkWVmAeYNgJuudeDDtA0zp38gFlQ,4799
+starspotter-0.0.1.dist-info/METADATA,sha256=ijE9j91C-coBmG7w1SvgWa4WHXsWBc6-wUeR_9F2V6s,2426
+starspotter-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+starspotter-0.0.1.dist-info/licenses/LICENSE,sha256=5t2CSimN0aFZkQeqlPlEw6fLYcKaCOfptHJMmS4L-2E,1118
+starspotter-0.0.1.dist-info/RECORD,,
