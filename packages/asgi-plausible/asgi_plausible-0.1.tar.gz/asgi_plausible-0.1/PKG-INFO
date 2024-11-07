@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: asgi-plausible
+Version: 0.1
+Project-URL: Homepage, https://github.com/feinheit/asgi-plausible/
+Author-email: York Schickl <ys@feinheit.ch>, Matthias Kestenholz <mk@feinheit.ch>
+License: BSD-3-Clause
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+
+==============
+asgi-plausible
+==============
+
+Provides an asgi middleware for request to plausible.io.
+
+The middleware
+
+- should make it harder to generally block requests to plausible.io
+- while masking ip addresses to overall achieve more privacy for clients
+- handles requests asynchronously, so they may fail.
