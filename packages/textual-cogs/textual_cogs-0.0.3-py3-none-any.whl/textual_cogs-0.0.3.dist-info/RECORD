@@ -1,0 +1,15 @@
+textual_cogs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textual_cogs/icons.py,sha256=uo1QLSwy9AhFRKUziWeyu5uY2A_-x4495VPRRZTTQh0,237
+textual_cogs/labels.py,sha256=7eGFrTIZvGWM3X6QOUlj6cxXCAAv3Wnr3BfGY4I8JEo,101
+textual_cogs/dialogs/__init__.py,sha256=vnMSoiX6HM2AYDuSq7TTetJmNTP8weoAk78bVSDmkgs,406
+textual_cogs/dialogs/message_dialog.py,sha256=rvOnznu6EUr__RCwmiSL2UKQ8qKy3F7C0lBX22NWybc,3720
+textual_cogs/dialogs/quit_dialog.py,sha256=aOuifldRPBv-G2WlxMEqEYidTS1SmhdYjOZnXr518sw,1339
+textual_cogs/dialogs/save_dialog.py,sha256=NQoYP-cwupfBHGwejCLXHUS5m3MPUTr8-Ww4_8CO3I4,2426
+textual_cogs/dialogs/single_choice_dialog.py,sha256=oGnWG09iLCXMydIopydTUhrIWTXOuGHzXQKKlq9CiUc,2530
+textual_cogs/dialogs/single_color_picker_dialog.py,sha256=LU63OfINhV-E_qt77seX0nyztdf5eaf5KzmU9C8pueo,2649
+textual_cogs/dialogs/text_entry_dialog.py,sha256=R_wwnUDOrvHX7_ze0P_gVfKQv2ZuTRiPVlgHJLUbSOI,2255
+textual_cogs-0.0.3.dist-info/LICENSE,sha256=jU4RTeRYULcPcYgQQqr3HHbroQOpoZTjaY-hdQbLvIc,1091
+textual_cogs-0.0.3.dist-info/METADATA,sha256=54knj_UYb0VA1c5ZzdYJQKW8bnkX2FBcxULNWNRI8r4,3913
+textual_cogs-0.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+textual_cogs-0.0.3.dist-info/top_level.txt,sha256=cEug5e9udkORGrJ8J7Ej0nRqU50Edok0hbyUZbHAZx4,13
+textual_cogs-0.0.3.dist-info/RECORD,,
