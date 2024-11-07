@@ -1,0 +1,14 @@
+whatsapp/__init__.py,sha256=Ek4XaWOihEqmnTEciQDEvLmaC_BMjCVD67wGiSMVsVs,149
+whatsapp/_datastore.py,sha256=tW_7e75DaSryXB9JpiV27hr3J5Llx9o-lopD0Ei99U4,5870
+whatsapp/_types.py,sha256=ch0WJeof-pO4ujUXYNsE3Ba8kN8P2UTdEIyzaVCYM2M,650
+whatsapp/agent_interface.py,sha256=wsZWxKzy22pwyBQEdyzVC0PyhE_Px0rREym9Oj-h3ow,8184
+whatsapp/conversation.py,sha256=kibj4n5Rp7S8QfRvdH7XmWLDmt0tfclyB5LJOij4iC0,2182
+whatsapp/conversation_handler.py,sha256=RMljJtLC8qyvomyyloLhdvVjhUxGnEQQKVPms9xlSe8,9697
+whatsapp/events.py,sha256=lQnR48yte2J0DjUu_MjA-3XmVxZ2hrmJgYAL-biJUv8,2236
+whatsapp/message.py,sha256=V8eZBME-CO5ytDljSsPmuB-PRn0YXJ5gC7MV05Mms-M,357
+whatsapp/reply_message.py,sha256=6iPeiYh7CVZ0vWMv-1kyOCMi3ted2gK7vdbMED53xtU,1221
+whatsapp/utils.py,sha256=zn5FsqQRwIGhvsYRsR6CvQIMsV2dsKi3PUmrhT8LQlM,1748
+whatsapp_framework-0.5.0.dist-info/LICENSE,sha256=FCfT491rdt9wBuzB8XaYbccE3NHsVFgmtm5Ppn_6ZEY,1073
+whatsapp_framework-0.5.0.dist-info/METADATA,sha256=QlJShNFhZH_eCvSS4ENJD6YT7mAnhuXHj5yMjwncZ7g,2504
+whatsapp_framework-0.5.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+whatsapp_framework-0.5.0.dist-info/RECORD,,
