@@ -1,0 +1,12 @@
+odoo/addons/product_name_with_country/README.rst,sha256=DelQbTAuQ-v_nNPy1VNkmNhbPGsvb1EPPM4hZZtGS4E,1837
+odoo/addons/product_name_with_country/__init__.py,sha256=JC_RBZQQfnie8b3c-5xHUk_pjA-wRsnw74_BHfCglRw,162
+odoo/addons/product_name_with_country/__manifest__.py,sha256=-q9uQrHrtKyqnjWB1lcwQeb5_sdyyNBeSPth1bwx0po,559
+odoo/addons/product_name_with_country/i18n/es.po,sha256=IVIW9Kg9UATcXr9FKT6skOyoT5enS5ONRZlj0R-putc,2223
+odoo/addons/product_name_with_country/models/__init__.py,sha256=FiMEu_gxUr_zfYOILg0WWhWePtlkKzRW6aeY1cVTESk,173
+odoo/addons/product_name_with_country/models/product_template.py,sha256=msB4ky3aCpPxBf1LQVL61Yq0oyJju3LHdjOK3BjsTFU,1629
+odoo/addons/product_name_with_country/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/product_name_with_country/views/product_template_views.xml,sha256=NMmbLFipsvGCgsb36jueKizs1Uv1d8wHWah1x_-RwqE,2027
+odoo14_addon_product_name_with_country-14.0.1.0.3.dist-info/METADATA,sha256=-GhW404Nmp7U-fy0Ru1CEvYIN3HQcOVQ2ucR4fdRaJQ,2343
+odoo14_addon_product_name_with_country-14.0.1.0.3.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo14_addon_product_name_with_country-14.0.1.0.3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_product_name_with_country-14.0.1.0.3.dist-info/RECORD,,

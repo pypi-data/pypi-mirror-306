@@ -1,0 +1,56 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_name_with_country
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-22 09:35+0000\n"
+"PO-Revision-Date: 2023-11-22 09:35+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: product_name_with_country
+#: model:ir.model.fields,field_description:product_name_with_country.field_product_product__country_id
+#: model:ir.model.fields,field_description:product_name_with_country.field_product_template__country_id
+#: model_terms:ir.ui.view,arch_db:product_name_with_country.product_name_with_country_product_template_search_view
+msgid "Country"
+msgstr "País"
+
+#. module: product_name_with_country
+#: model:ir.model.fields,field_description:product_name_with_country.field_product_product__display_name
+#: model:ir.model.fields,field_description:product_name_with_country.field_product_template__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: product_name_with_country
+#: model:ir.model.fields,field_description:product_name_with_country.field_product_product__id
+#: model:ir.model.fields,field_description:product_name_with_country.field_product_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: product_name_with_country
+#: model:ir.model.fields,field_description:product_name_with_country.field_product_product____last_update
+#: model:ir.model.fields,field_description:product_name_with_country.field_product_template____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: product_name_with_country
+#: model:ir.model,name:product_name_with_country.model_product_product
+msgid "Product"
+msgstr "Producto"
+
+#. module: product_name_with_country
+#: model_terms:ir.ui.view,arch_db:product_name_with_country.product_name_with_country_product_template_search_view
+msgid "Product Country"
+msgstr "País del producto"
+
+#. module: product_name_with_country
+#: model:ir.model,name:product_name_with_country.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
