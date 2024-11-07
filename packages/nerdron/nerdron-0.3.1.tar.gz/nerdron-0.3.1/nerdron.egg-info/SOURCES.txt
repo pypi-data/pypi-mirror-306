@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+nerdron/__init__.py
+nerdron/activation.py
+nerdron/layer.py
+nerdron/network.py
+nerdron.egg-info/PKG-INFO
+nerdron.egg-info/SOURCES.txt
+nerdron.egg-info/dependency_links.txt
+nerdron.egg-info/requires.txt
+nerdron.egg-info/top_level.txt
+tests/test_nerdron.py
