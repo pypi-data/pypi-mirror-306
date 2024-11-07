@@ -1,0 +1,11 @@
+HorusAPI/__init__.cpython-39-darwin.so,sha256=eA8M60tuwXLmtynReT2t8vQLLF98DWFA8GLHYYPZDCk,39304
+HorusAPI/extensions.cpython-39-darwin.so,sha256=O2ILG77CFIB1-01vb1GQoAcZRJQa4bKc34HFw4CDuLc,118016
+HorusAPI/molstar.cpython-39-darwin.so,sha256=D_4cbTsg2hVYqwpNZnmWzrWVJclQlgZBrG6yXC6VGvM,121120
+HorusAPI/plugins.cpython-39-darwin.so,sha256=K8pCdp67rLQ9dJ5KesvHOtzkHrYKyYvAII_BKJWTJr4,678440
+HorusAPI/smiles.cpython-39-darwin.so,sha256=nLJ55JhTz3ll4-GPD4GYK-d_bkjH7s_-po7Pl4n2taM,79936
+HorusAPI/utils.cpython-39-darwin.so,sha256=CFnO7-RVdtGaOkMvV-oam7gVq7tzr59kam68DPQRXj0,137936
+HorusAPI-0.4.4.dist-info/METADATA,sha256=i9kzEYDmBW9toPZZhUXK9h3wHVOZQJV8HeyAGAXNq_I,492
+HorusAPI-0.4.4.dist-info/WHEEL,sha256=ATOmOAMz13qz5V-b8lMpYjChDpPmoGD7nZ3z-U2mJPU,108
+HorusAPI-0.4.4.dist-info/entry_points.txt,sha256=qNU9fSMsC6xdNLwEY6q9Oo6PRywlUDccJH6F2tSnw0g,66
+HorusAPI-0.4.4.dist-info/top_level.txt,sha256=lR8Z0Pxc7WaXjRqt1JoP_AoOINmFXzwXJ3dIcZaE4RU,9
+HorusAPI-0.4.4.dist-info/RECORD,,
