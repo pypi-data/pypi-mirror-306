@@ -1,0 +1,11 @@
+odoo/addons/l10n_es_aeat_mod303_print/README.rst,sha256=4s7gk9xHA9z_0dhd96VjFOjG3-0mjmaZmWFqGeaPrqw,1663
+odoo/addons/l10n_es_aeat_mod303_print/__init__.py,sha256=w6AXzAlWPOuE8GW_FJQ_TRA4nNSDTFm1KuKBXnYIduY,145
+odoo/addons/l10n_es_aeat_mod303_print/__manifest__.py,sha256=rYzwMYOR2BqHvmlxhybCGFvGRSQ7WG0sljRqGM6tKcY,587
+odoo/addons/l10n_es_aeat_mod303_print/i18n/es.po,sha256=WRrvmUnZww5mZSuXNk22odKBzQgJpnji3VCnCb9h0i0,7827
+odoo/addons/l10n_es_aeat_mod303_print/report/aeat_mod303.xml,sha256=5_2Hc8YhtNop2M4ke6rcjYTpAEpkGkfSviOTZNTtJ7k,15605
+odoo/addons/l10n_es_aeat_mod303_print/report/report_views.xml,sha256=D3BDtxTHQ_yQwstvOQuNkhBUhgTdRpFI4bkLxdDL4qY,381
+odoo/addons/l10n_es_aeat_mod303_print/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo14_addon_l10n_es_aeat_mod303_print-14.0.1.0.0.dist-info/METADATA,sha256=LGaIOUq8bUtMDeR3HoTPqSbHjc9Z0ntmN_X-t9stenI,2209
+odoo14_addon_l10n_es_aeat_mod303_print-14.0.1.0.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo14_addon_l10n_es_aeat_mod303_print-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_l10n_es_aeat_mod303_print-14.0.1.0.0.dist-info/RECORD,,
