@@ -1,0 +1,13 @@
+trulens/connectors/snowflake/__init__.py,sha256=T4R6K1q7c7A3TOei5dInR2EfjOhNi9VGXZQzPB2kBDM,587
+trulens/connectors/snowflake/connector.py,sha256=CbeBQG6jfne6vX1Nqq3yNSyTzE2AwVB0TAFD13oPOG8,11277
+trulens/connectors/snowflake/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trulens/connectors/snowflake/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trulens/connectors/snowflake/utils/server_side_evaluation_artifacts.py,sha256=hPwFBHL1EFiAskBY2rFjbL-ZBi3hb7fyH4UaAXTww28,5348
+trulens/connectors/snowflake/utils/server_side_evaluation_stored_procedure.py,sha256=AAwee43RYTCtMpVjtkfaXhsj2ZxXWSaZ4eGGyFTX3RQ,971
+trulens/data/snowflake_stage_zips/trulens-connectors-snowflake.zip,sha256=NUc7VyPTLS69u1wzAY8MbS9ycWnZ1oWXLap1Azkwv3g,9236
+trulens/data/snowflake_stage_zips/trulens-core.zip,sha256=6uYCCLxXn2sDCmSw0nSoeVATUON98zQe8GV_rJjvY8Y,233862
+trulens/data/snowflake_stage_zips/trulens-feedback.zip,sha256=gZA35HJt2rM2qBRliir9DCSqy7qRDXRwV55wFeURD4k,46325
+trulens/data/snowflake_stage_zips/trulens-providers-cortex.zip,sha256=841GLC5SgvDGiALCAIDqsOL5l-SKJEXi3slwjJ-ZvDU,7909
+trulens_connectors_snowflake-1.2.5.dist-info/METADATA,sha256=j5rH_Bny7M-qE3oM07IPfXUfhzTkQPLXauoGLp_CdrE,986
+trulens_connectors_snowflake-1.2.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+trulens_connectors_snowflake-1.2.5.dist-info/RECORD,,
