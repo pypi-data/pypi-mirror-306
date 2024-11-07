@@ -1,0 +1,12 @@
+python_project_manager/__init__.py,sha256=iB43LZXmu2NcG5oxN59PGuqcn2R5ZIQlX4Tol2T8P2o,107
+python_project_manager/config.py,sha256=S7xy_3y2LoYK3ErxPpI4smL4CtRIRD0b_NtL46q_sZs,1374
+python_project_manager/main.py,sha256=Xj3pXWMBSeB9p-pGiZPgXCysK6MPUVsMVJBo6AMRtSE,1931
+python_project_manager/security.py,sha256=vqvJKnltnYWNSb63GNLoS474vclqPZBp5x_6t6wvrok,5152
+python_project_manager/utils.py,sha256=MGLlrlkoNiz_FPvpkZYz-2ySZCt34TXPM97RZ6aXDPM,3201
+python_project_manager/templates/gitignore.template,sha256=MUiu8JMEs36GnIVEc3-jzjH_ennH4h1xzH7x3urwxIc,1323
+hodlon_python_project_manager-1.0.0.dist-info/LICENSE,sha256=s9jGyESYmCe59B9_Mwkr_ybM5F9yzJjVw-dw54oibJE,35190
+hodlon_python_project_manager-1.0.0.dist-info/METADATA,sha256=aB6axYXnZEC6OffgOT6RXX6Kuf0gLzs2CbkCakU2Hro,45220
+hodlon_python_project_manager-1.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+hodlon_python_project_manager-1.0.0.dist-info/entry_points.txt,sha256=VX5Jx9jlc1-KcqzVFWBnybixmCSr4U1xt5eZUCzE7UE,61
+hodlon_python_project_manager-1.0.0.dist-info/top_level.txt,sha256=rYij48F-cfWG-vSIVkkWdGhwfq1teidMMBCoC2A34Ng,23
+hodlon_python_project_manager-1.0.0.dist-info/RECORD,,
