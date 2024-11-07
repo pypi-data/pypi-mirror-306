@@ -1,0 +1,7 @@
+README.md
+setup.py
+irods.egg-info/PKG-INFO
+irods.egg-info/SOURCES.txt
+irods.egg-info/dependency_links.txt
+irods.egg-info/requires.txt
+irods.egg-info/top_level.txt
