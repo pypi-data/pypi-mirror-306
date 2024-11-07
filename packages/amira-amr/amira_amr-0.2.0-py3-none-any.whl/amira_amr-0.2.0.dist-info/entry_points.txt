@@ -1,0 +1,3 @@
+[console_scripts]
+amira=amira.__main__:main
+
