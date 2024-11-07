@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"]  # Build requirements
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dz339-pygbm" # name of the package must match the core folder name
+dynamic = ["version"]
+description = "A python package to create simulations of geometric browninan motion."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Dario Zela", email = "dz339@cam.ac.uk" },
+]
+keywords = ["Geometric Brownian Motion", "physics", "simualtion"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+]
+
+# Runtime dependencies
+dependencies = [
+    "numpy",
+    "argparse",
+    "matplotlib",
+]
+
+[project.urls]
+"Documentation" = "https://pygbmdariodis2024.readthedocs.io/en/latest/#"
+"Source" = "https://github.com/Dario-Zela/pygbm"
+"Issues" = "https://github.com/Dario-Zela/pygbm/issues"
+
+[project.scripts]
+pygbm = "pygbm.cli:main"
+
+[tool.setuptools_scm]
+write_to = "pygbm/version.py"  # Where to write the dynamic version
+version_scheme = "post-release"
+local_scheme = "no-local-version"
+
+[tool.setuptools.packages.find]
+where = ["."]
