@@ -1,0 +1,99 @@
+# pycdstar3: Library and command-line client for GWDG CDSTAR 3.x
+
+This is a client library and command-line toolbelt for accessing a
+[GWDG CDSTAR 3](https://cdstar.gwdg.de/) repository, written in Python (3.4+) and designed to be extensible and used for building your own tools and workflows.
+
+There is already a library called [pycdstar](https://pypi.org/project/pycdstar/) for accessing older versions of CDSTAR. The two libraries may be merged at some point, but for now, use [pycdstar](https://pypi.org/project/pycdstar/) for CDSTAR 2 and [pycdstar3](https://gitlab.gwdg.de/cdstar/pycdstar3) for CDSTAR 3.
+
+## Library
+
+The `pycdstar3.CDStar` class closely reassembles the actual CDSTAR v3 REST API, one method per API endpoint. It provides basic connection pooling, transaction management, error handling and json parsing on top of the `requests` library, but tries to stay out of your way otherwise. Use this if you already know the CDSTAR API and need maximum control.
+
+```python
+from pycdstar3 import CDStar
+cdstar = CDStar("https://cdstar.gwdg.de/demo/v3/", auth=("USER", "PASS"))
+
+with cdstar.begin(autocommit=True):  # Wrap everything in a transaction (optional)
+    vault_name = "demo"
+    archive_id = cdstar.create_archive(vault_name).id
+    cdstar.put_file(vault_name, archive_id, "test.py", __file__)
+    
+    with cdstar.get_file(vault_name, archive_id, "test.py") as stream:
+        with open("/tmp/test.py", "wb") as target:
+            for chunk in stream.iter_content(buffsize=1024*64):
+                target.write(chunk)
+```
+
+For a more fluent and high-level approach, wrap your `CDStar` instance in a `CDStarVault`. This hides the HTTP layer behind an object-oriented API and offers convenient wrappers and methods for the most common operations.
+
+```python
+from pycdstar3 import CDStar, CDStarVault
+cdstar = CDStar("https://cdstar.gwdg.de/demo/v3/", auth=("USER", "PASS"))
+
+with cdstar.begin(autocommit=True):  # Wrap everything in a transaction (optional)
+    vault = CDStarVault(cdstar, "demo")
+    file = vault.new_archive().file("test.py")
+    file.put(__file__)
+
+    with file.stream() as stream:
+        stream.save_to("/tmp/")
+```
+
+## Command-Line interface
+
+`pycdstar3` is also a command-line toolbox to upload, download or manage data in a CDSTAR repository.
+
+Please note that the command-line interface is made for humans, not scripts. The commands and output may change between releases. If you want to automate CDSTAR, consider implementing your tools directly against the `pycdstar3` client library.
+
+### Workspace mode
+
+Most `pycdstar3` commands require `--server` and `--vault` arguments to be set, or `CDSTAR_SERVER` and `CDSTAR_VAULT` environment variables to be defined. As an alternative, you can run `pycdstar3 init` to create a *workspace directory*. When within this directory (or any sub-directory), the client will switch to *workspace mode* and read default values for `--server`, `--vault` and other settings from workspace configuration. This is particularly useful if you are working with multiple servers or vaults and want to easily switch between them.
+
+```sh
+# Explicit
+pycdstar3 --server https://user:pass@example.com/v3/ --vault myVault search 'dcAuthor=Einstein'
+
+# Environment Variables
+export CDSTAR_SERVER=https://user:pass@example.com/v3/
+export CDSTAR_VAULT=myVault
+pycdstar3 search 'dcAuthor=Einstein'
+
+# Workspace mode
+pycdstar3 init  # creates .cdstar/workspace.conf
+pycdstar3 search 'dcAuthor=Einstein'
+```
+
+### Command Usage
+
+This is an (incomplete) list of (planned) commands. For a complete list, run `pycdstar3 -h` and for details, see `pycdstar3 COMMAND -h`.
+
+* **`init`**: Create a new workspace. 
+* **`put`** Upload files or folders into an archive.
+* **`get`** Download or stream a single file from an archive.
+* **`ls`** List files in an archive.
+* **`rm`** Remove files from an archive.
+* **`rma`** Remove archives.
+* **`meta get/set/list/edit`** Manage metadata attributes for archives or files.
+* **`acl get/set/list/edit`** Manage access control entries and permissions.
+* **`profile set/get/wait`** Change storage profile and wait for migrations to complete.
+* **`zip`** Download an entire archive as zip or tar.
+* **`scroll`** List all IDs in a vault.
+* **`search`** Search in a vault.
+
+## License
+
+    Copyright 2019-2024 Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen
+    Copyright 2019-2024 Marcel Hellkamp
+    
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+        http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+

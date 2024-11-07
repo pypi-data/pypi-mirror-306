@@ -1,0 +1,62 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pycdstar3"
+dynamic = ["version"]
+description = "Library and command-line client to access CDSTAR (3.0+)"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+requires-python = ">=3.5"
+authors = [
+    { name = "Marcel Hellkamp", email = "marc@gsites.de" },
+]
+classifiers = [
+    "Development Status :: 6 - Mature",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "iso8601",
+    "requests",
+    "requests-toolbelt",
+    "tabulate",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = [
+    "hatch",
+    "black",
+    "flake8",
+    "tox",
+    "twine",
+    "wheel",
+]
+docs = [
+    "sphinx",
+]
+test = [
+    "coverage",
+    "mock",
+    "pytest",
+    "pytest-cov",
+    "responses",
+]
+
+[project.scripts]
+pycdstar3 = "pycdstar3.__main__:main"
+
+[project.urls]
+Homepage = "https://gitlab-ce.gwdg.de/cdstar/pycdstar3"
+
+[tool.hatch.version]
+path = "src/pycdstar3/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+]
