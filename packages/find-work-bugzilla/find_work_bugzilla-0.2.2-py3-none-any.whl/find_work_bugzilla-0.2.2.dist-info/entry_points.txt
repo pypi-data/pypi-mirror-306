@@ -1,0 +1,3 @@
+[find_work.plugins]
+bugzilla=find_work.plugins.gentoo_bugzilla
+
