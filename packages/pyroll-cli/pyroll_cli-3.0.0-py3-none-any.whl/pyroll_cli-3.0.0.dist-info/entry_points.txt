@@ -1,0 +1,2 @@
+[console_scripts]
+pyroll = pyroll.cli.program:run_cli
