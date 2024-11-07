@@ -1,0 +1,102 @@
+# This is a basic workflow to help you get started with Actions
+
+name: build
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-20.04, windows-2019, macos-latest]
+        python-version: ["3.8", "3.10"]
+        include:
+          - os: windows-2019
+            triplet: x64-windows
+    env:
+      CONDA_ENV_NAME: gadma_env
+    defaults:
+      run:
+        shell: bash -el {0}
+
+    steps:
+      - name: Cancel previous runs.
+        uses: styfle/cancel-workflow-action@0.6.0
+        with:
+          access_token: ${{ github.token }}
+
+      - name: Checkout.
+        uses: actions/checkout@v2
+
+      - name: Set up Conda environment.
+        uses: conda-incubator/setup-miniconda@v3
+        continue-on-error: true
+        with:
+          auto-update-conda: true
+          python-version: ${{ matrix.python-version }}
+          channels: conda-forge,bioconda
+          activate-environment: ${{ env.CONDA_ENV_NAME }}
+          
+      - name: Install dadi and scikit-allel using conda.
+        run: |
+          conda install dadi scikit-allel
+          
+      - name: Install momi2 (Linux).
+        run: |
+          pip install momi
+        if: runner.os == 'Linux'
+          
+      - name: Install dependencies for installation of moments and ignore numpy version in pyproject.toml for MacOS (python3.8).
+        run: |
+          pip install Cython
+          pip install "setuptools_scm>=8"
+          pip install --no-build-isolation moments-popgen
+        if: runner.os == 'MacOS' && matrix.python-version == '3.8'
+
+      - name: Install GADMA and its dependencies.
+        run: |
+          pip install .
+          
+      - name: Use old matplotlib for tests to enable moments pictures.
+        run: |
+          conda install "matplotlib<3.5"
+
+      - name: Check installations of packages.
+        run: |
+          python -c "import numpy"
+          python -c "import scipy"
+          python -c "import dadi"
+          python -c "import moments"
+          python -c "import gadma"
+
+      - name: Show versions of all installed packages.
+        run: |
+          conda list
+
+      - name: Show available engines and optimizations in gadma.
+        run: |
+          python -c "import gadma;print(gadma.engines.engine._registered_engines.keys())"
+          python -c "import gadma;print(gadma.optimizers.global_optimizer._registered_global_optimizers.keys())"
+
+      - name: Install dependencies for tests.
+        run: |
+          pip install -r requirements/tests.txt
+
+      - name: Run tests and codecov.
+        run: |
+          pytest --timeout=600 --cov=gadma --cov-report=xml -v tests --disable-warnings
+        
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./coverage.xml
+          flags: unittests
+        if: runner.os == 'Linux' && matrix.python-version == '3.8'
+
