@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: tchappui-myblocks
+Version: 0.1.1
+Summary: Mes blocs pour Wagtail
+Author-email: tchappui <tchappui@gmail.com>
+Classifier: Framework :: Wagtail
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
+Requires-Dist: wagtail>=6.0
+Description-Content-Type: text/markdown
+
+# Mes blocs pour Wagtail
