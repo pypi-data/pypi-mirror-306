@@ -1,0 +1,16 @@
+odoo/addons/bank_accounts_report/README.rst,sha256=y84y8eSZRDPsukKSYXm12MXU9TPN7382atjrm0c5sq8,3897
+odoo/addons/bank_accounts_report/__init__.py,sha256=JPF237Gfg_T3AWpz_XvNTh0zQfJcDiWfHdO6WWQZFxc,212
+odoo/addons/bank_accounts_report/__manifest__.py,sha256=CvPMJdvOosCMLF8novPlUDFfZ5s_KMMg_SqN0I747mE,886
+odoo/addons/bank_accounts_report/i18n/es.po,sha256=Q4ixIilMHo57Dhz_KbH5AlTbTpwqm3c7KaNx_8QLfc4,8183
+odoo/addons/bank_accounts_report/models/__init__.py,sha256=Y2nHLab9Fg7HkLsOyjMNrUihZKVQ3lHi4kPq-E43cxQ,278
+odoo/addons/bank_accounts_report/models/account_move.py,sha256=7LQfszKjwF95Fm8_CA8_x3ZtFinLjSyh_qf2xlF3Q_A,1724
+odoo/addons/bank_accounts_report/models/account_payment_mode.py,sha256=sFhpLnvHN8Fdac4CR_tGYNbGEK7vkorqOQMvWHlzd54,2322
+odoo/addons/bank_accounts_report/models/sale_order.py,sha256=jSEEd9U9Gz9Sof_-mM40928EKzVs-eqF8q68ShFYkoc,1358
+odoo/addons/bank_accounts_report/reports/account_invoice.xml,sha256=SRElkIzBq-GpHGDt8IuQlBfX03Ef4w5IiILWH6lxk5Y,2556
+odoo/addons/bank_accounts_report/reports/sale_order.xml,sha256=VQuD_uiu9GBtj0lXH_VIT2PSECs6_r5jehAPfSMi6qM,2532
+odoo/addons/bank_accounts_report/static/description/icon.png,sha256=Y2xOrg7-wLVv7biznOmOtOl0OHr9nq2vbm9kZNzz4MA,19258
+odoo/addons/bank_accounts_report/views/account_payment_mode.xml,sha256=cKA_B41ds2pjT9ctKUXBWkNOuP-xUlYGLhEnTh4ghVw,2547
+odoo_addon_bank_accounts_report-17.0.1.0.0.1.dist-info/METADATA,sha256=lARjdcL5ck5raamyYogtxf-FZZmGpQolG_ZW1_HpYro,4686
+odoo_addon_bank_accounts_report-17.0.1.0.0.1.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_bank_accounts_report-17.0.1.0.0.1.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_bank_accounts_report-17.0.1.0.0.1.dist-info/RECORD,,
