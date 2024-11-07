@@ -1,0 +1,11 @@
+myblocks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myblocks/blocks.py,sha256=fQ-_ePZy27BQoQf9n8AydCZpy1NcwhRQB1vCZYbjK5I,1953
+myblocks/templates/myblocks/blockquote.html,sha256=O6AlcOcmAR1T-49LTI85TNSceYxv2SdLI-Ugj3_rEns,152
+myblocks/templates/myblocks/embed_block.html,sha256=NcJ8e_-CIt8MwF6-aly774FGeQPPMLw-qfVcnzKIUHg,42
+myblocks/templates/myblocks/heading_block.html,sha256=NAC321j_67ZpYfPXH-pl_mV1f1X7XOTRXzGVU9JfeSE,329
+myblocks/templates/myblocks/image_block.html,sha256=0PHpsZBJ5lXVF9U3RSeOBcA0Nh9if7Lmxl-AcOPiQwU,254
+myblocks/templates/myblocks/paragraph_block.html,sha256=SpEXqkGsP2qD07opR91dpF3Sm2yBT2tsSn6SaOEiW8Q,11
+myblocks/templates/myblocks/recipe_step_block.html,sha256=RjlQvYrXcawaKUCO5ljWnPwn5NUSPjL4ZFTAZJ4PLBQ,16
+tchappui_myblocks-0.1.1.dist-info/METADATA,sha256=HycQiHGVgP-xrcllE06BwcBl3GzSsKA6zNwssVVjPpM,491
+tchappui_myblocks-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+tchappui_myblocks-0.1.1.dist-info/RECORD,,
