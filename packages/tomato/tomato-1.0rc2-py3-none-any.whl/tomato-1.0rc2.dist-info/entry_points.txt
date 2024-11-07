@@ -1,0 +1,6 @@
+[console_scripts]
+ketchup = tomato:run_ketchup
+tomato = tomato:run_tomato
+tomato-daemon = tomato.daemon:tomato_daemon
+tomato-driver = tomato.daemon.driver:tomato_driver
+tomato-job = tomato.daemon.job:tomato_job
