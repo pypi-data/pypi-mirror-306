@@ -1,0 +1,14 @@
+LICENSE
+README.md
+__init__.py
+client.py
+pyproject.toml
+setup.py
+./__init__.py
+./client.py
+./setup.py
+lantern_pinecone.egg-info/PKG-INFO
+lantern_pinecone.egg-info/SOURCES.txt
+lantern_pinecone.egg-info/dependency_links.txt
+lantern_pinecone.egg-info/requires.txt
+lantern_pinecone.egg-info/top_level.txt
