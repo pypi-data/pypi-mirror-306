@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "solana-account-sdk"
+version = "1.0.1"
+description = ""
+authors = ["ws <123456789@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+pytoniq = "^0.1.40"
+python = "^3.12"
+solana = "^0.35.0"
+bip39 = "^0.0.2"
+mnemonic = "^0.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
