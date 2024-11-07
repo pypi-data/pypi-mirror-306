@@ -1,0 +1,4 @@
+pydantic
+python-dotenv
+wexample-app
+wexample-filestate
