@@ -1,0 +1,10 @@
+setup.py
+mypackage3342432763125/__init__.py
+mypackage3342432763125/decorators.py
+mypackage3342432763125/descriptors.py
+mypackage3342432763125/generators.py
+mypackage3342432763125/iterators.py
+mypackage3342432763125.egg-info/PKG-INFO
+mypackage3342432763125.egg-info/SOURCES.txt
+mypackage3342432763125.egg-info/dependency_links.txt
+mypackage3342432763125.egg-info/top_level.txt
