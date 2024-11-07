@@ -1,0 +1,14 @@
+BytesViewFCM/BytesViewNotificationClient.py,sha256=hRPzpk8IGIlB6Lypp8AGp8wxDKeL3hxiw-AjKeCKZw8,16690
+BytesViewFCM/FCMClient.py,sha256=1lZDLAacLVrPyojMHHK62fmW7vaGDl0K2n9Z4vj1dVs,2582
+BytesViewFCM/NotificationTracker.py,sha256=3r93FlRiUK1by6ui6cTBb4-Nh73QTluy_psOAalCcQU,4282
+BytesViewFCM/OneSignalClient.py,sha256=GON6noVo_CP2GbfJEDvuNsX8K7iRKl97RpMWVYwjkuw,4006
+BytesViewFCM/__init__.py,sha256=8Tp38nIgwhRD3E5ZNGzrAgaE7ERGkIdCMk1Nl3Keijc,80
+BytesViewFCM/logger.py,sha256=4IGknmTYsrLgx5g9JKQi5xXlNmCpO_KUy0yGA7-_mQk,145
+BytesViewFCM/notification_exception.py,sha256=3tVjLOy2hqG4Wd6U2qcqjXkcunMpaWDp_s8muQsqau4,370
+BytesViewFCM/utils.py,sha256=jzl86_oU-TTnqwezavhZOPMVhrFtGW2CFNqCQtaAJEk,573
+tests/__init__.py,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+tests/test_notification.py,sha256=EMEDdbJIYFiNmGNWwFw7TohB1riRJ4PdpBl3clXACzk,1837
+bytesviewnotifiactionclient-1.1.2.dist-info/METADATA,sha256=sQaUZG6TMbEmGvNzpZDEThfFXVH7w6q633c6oy98GRY,1622
+bytesviewnotifiactionclient-1.1.2.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+bytesviewnotifiactionclient-1.1.2.dist-info/top_level.txt,sha256=I2BGk2GhWhWHzuc8A61djXWgFKrLC8aKJSrqvzAe_5w,19
+bytesviewnotifiactionclient-1.1.2.dist-info/RECORD,,
