@@ -1,0 +1,9 @@
+Metadata-Version: 2.3
+Name: pyroll-ring-model
+Version: 3.0.0
+Summary: Plugin for PyRoll providing basic data structures for discretization of a profile in concentric rings.
+Author-email: Max Weiner <max.weiner@imf.tu-freiberg.de>
+License-Expression: BSD-3-Clause
+License-File: LICENSE
+Requires-Python: >=3.9
+Requires-Dist: pyroll-core~=3.0

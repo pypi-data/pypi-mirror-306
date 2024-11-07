@@ -1,0 +1,17 @@
+[project]
+name = "pyroll-ring-model"
+description = "Plugin for PyRoll providing basic data structures for discretization of a profile in concentric rings." # edit the description
+authors = [
+    { name = "Max Weiner", email = "max.weiner@imf.tu-freiberg.de" }
+]
+license = "BSD-3-Clause"
+requires-python = ">=3.9"
+dependencies = [
+    "pyroll-core ~= 3.0",
+]
+
+dynamic = ["version"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
