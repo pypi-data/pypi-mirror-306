@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+thima/__init__.py
+thima/module1.py
+thima/module2.py
+thima/test.py
+thima.egg-info/PKG-INFO
+thima.egg-info/SOURCES.txt
+thima.egg-info/dependency_links.txt
+thima.egg-info/top_level.txt
