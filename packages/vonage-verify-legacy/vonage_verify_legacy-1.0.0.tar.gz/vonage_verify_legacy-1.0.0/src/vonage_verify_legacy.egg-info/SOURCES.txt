@@ -1,0 +1,15 @@
+README.md
+backend_shim.py
+pyproject.toml
+src/vonage_verify_legacy/__init__.py
+src/vonage_verify_legacy/_version.py
+src/vonage_verify_legacy/errors.py
+src/vonage_verify_legacy/language_codes.py
+src/vonage_verify_legacy/requests.py
+src/vonage_verify_legacy/responses.py
+src/vonage_verify_legacy/verify_legacy.py
+src/vonage_verify_legacy.egg-info/PKG-INFO
+src/vonage_verify_legacy.egg-info/SOURCES.txt
+src/vonage_verify_legacy.egg-info/dependency_links.txt
+src/vonage_verify_legacy.egg-info/requires.txt
+src/vonage_verify_legacy.egg-info/top_level.txt
