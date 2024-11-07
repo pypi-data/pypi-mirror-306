@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: quasemrfscangui-tspspi
+Version: 0.0.3
+Summary: Simple GUI frontend for the QUASEM RF scans for realtime views
+Home-page: https://github.com/tspspi/quasemrfscangui
+Author: Thomas Spielauer
+Author-email: pypipackages01@tspi.at
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: paho-mqtt>=1.6.1
+Requires-Dist: matplotlib>=3.3.4
+Requires-Dist: FreeSimpleGUI>=5.1.0
+Requires-Dist: numpy>=1.20.0
+
+# Graphical user interface for realtime view of QUASEM RF scans
+
+|     |     |
+| --- | --- |
+| ![](https://raw.githubusercontent.com/tspspi/quasemrfscangui/refs/heads/master/doc/screen001.png) | ![](https://raw.githubusercontent.com/tspspi/quasemrfscangui/refs/heads/master/doc/screen002.png) |
+
+This is a very simple interface for the QUASEM RF scan run type
+to visualize in realtime. It has been designed to allow for interactive
+viewing of short scans as well as display of the last retained RF
+scan so one can perform realtime adjustments on the setup.
+
+It requires a running ```quakesrctrl``` control system instance attached
+to the MQTT broker to fetch information and to perform control operations
+
+## Installation
+
+```
+pip install --upgrade quasemrfscangui-tspspi
+```
+
+## Configuration file
+
+An optional configuration file can be put into ```~/.config/quasemrfscangui.cfg```.
+This file supplies MQTT broker configuration and default spans
+
+```
+{
+	"broker" : {
+		"broker" : "198.51.100.1",
+		"user" : "exampleuser",
+		"port" : 1883,
+		"password" : "putyourbrokersecrethere",
+		"basetopic" : "quasem/experiment"
+	}
+}
+```
