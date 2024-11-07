@@ -1,0 +1,10 @@
+odoo/addons/partner_industrial_estate_hide_pdf_fields/README.rst,sha256=qCC9i0DOsjpaAQ_qQ5qKm9MJzMeF14XfqpDjWTvnk7o,1675
+odoo/addons/partner_industrial_estate_hide_pdf_fields/__init__.py,sha256=eShEGRadAlxopoLqIQ4-N42FM7MWPSuBe0h_l1cXTPM,87
+odoo/addons/partner_industrial_estate_hide_pdf_fields/__manifest__.py,sha256=f8OF9iM1iUDtmWwUH-uTkgvB0Oz3sCdKYl95sceE4Q4,602
+odoo/addons/partner_industrial_estate_hide_pdf_fields/models/__init__.py,sha256=CWabPLLEimw1uG7hyUo1mOCdFbuSRrI2Wj_lTjV17RE,92
+odoo/addons/partner_industrial_estate_hide_pdf_fields/models/res_partner.py,sha256=C4zn3-UePjB4xUdm9whXTXMxIDA0hE7P27lbkOdg9LE,423
+odoo/addons/partner_industrial_estate_hide_pdf_fields/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo_addon_partner_industrial_estate_hide_pdf_fields-17.0.1.0.0.1.dist-info/METADATA,sha256=oOIVL9PboN5jRVMNKZZKsUViwKiPCzUcOwOBJky7WJ8,2329
+odoo_addon_partner_industrial_estate_hide_pdf_fields-17.0.1.0.0.1.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_partner_industrial_estate_hide_pdf_fields-17.0.1.0.0.1.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_partner_industrial_estate_hide_pdf_fields-17.0.1.0.0.1.dist-info/RECORD,,
