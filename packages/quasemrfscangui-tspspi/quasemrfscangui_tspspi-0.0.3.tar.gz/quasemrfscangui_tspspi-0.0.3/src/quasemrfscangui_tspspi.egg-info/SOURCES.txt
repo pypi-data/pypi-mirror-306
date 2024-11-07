@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/quasemrfscangui/__init__.py
+src/quasemrfscangui/quasemrfscangui.py
+src/quasemrfscangui_tspspi.egg-info/PKG-INFO
+src/quasemrfscangui_tspspi.egg-info/SOURCES.txt
+src/quasemrfscangui_tspspi.egg-info/dependency_links.txt
+src/quasemrfscangui_tspspi.egg-info/entry_points.txt
+src/quasemrfscangui_tspspi.egg-info/requires.txt
+src/quasemrfscangui_tspspi.egg-info/top_level.txt
