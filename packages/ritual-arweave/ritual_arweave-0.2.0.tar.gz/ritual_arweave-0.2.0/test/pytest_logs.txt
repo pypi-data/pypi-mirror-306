@@ -1,0 +1,38 @@
+2024-10-25 14:39:48 - test_library.orchestration - INFO - Running command: make -C /Users/arshankhanifar/ritual/infernet-monorepo-internal/libraries/ritual_arweave run-ar port=3069
+2024-10-25 14:39:50 - ritual_arweave.concurrency_utils - ERROR - Worker: <ritual_arweave.concurrency_utils.Worker object at 0x106e197d0> failed, no longer using it: <!doctype html>
+<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_Eo1u2rM5kLEBBb2E+jBkNQHVOZsK60HV3m+Hy48KdBbNWM2FZxXg4OdhvfM7HAU49LMX8M7cHBnLYGw2leQ7jw==" lang="en" style="background: #2B2B2B;">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
+    <link rel="preconnect" href="https://www.google.com" crossorigin>
+</head>
+<body>
+<div id="target" style="opacity: 0"></div>
+<script>window.park = "eyJ1dWlkIjoiNzMwNmNkODQtZDc0My00ZjI5LTk5MDctNzhiNjAzZTQzMzZkIiwicGFnZV90aW1lIjoxNzI5ODgxNTkwLCJwYWdlX3VybCI6Imh0dHBzOi8vbW9ydWVob2NhLm9ubGluZS90eC9lQjg5MjhaSlg3MDlRdlBXWFhBZ0ZzV3lSenlwUDNYdy1kV0JITlFCN184L2RhdGFfc2l6ZSIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6Im1vcnVlaG9jYS5vbmxpbmUiLCJpcCI6Ijk5LjIzMC4xMjkuMzAifQo=";</script>
+<script src="/bamEqiuJt.js"></script>
+</body>
+</html>
+ - unfinished tasks: 62
+2024-10-25 14:39:50 - ritual_arweave.concurrency_utils - ERROR - Worker: <ritual_arweave.concurrency_utils.Worker object at 0x106e18850> failed, no longer using it: <!doctype html>
+<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_N9l9K/8W6eSF1F+wLAXU/kP/rKUC1nTIgdFKiUepOmcIjj0A+r0VnFYMwT6sgXhUK+e4bp0h3RjYloOBsrOPxg==" lang="en" style="background: #2B2B2B;">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
+    <link rel="preconnect" href="https://www.google.com" crossorigin>
+</head>
+<body>
+<div id="target" style="opacity: 0"></div>
+<script>window.park = "eyJ1dWlkIjoiZWY2MTRiOGUtZWUwYS00Y2RjLWJmNGItN2NhNDczMDZlYTg5IiwicGFnZV90aW1lIjoxNzI5ODgxNTkwLCJwYWdlX3VybCI6Imh0dHBzOi8vYm9kaGlpcm96dC54eXovdHgvamtfY2xhZlk5SGw0QzlGOXd4Z1FRYnF4ZlkxM1VJbVN4SGJSTWpHekxnNC9kYXRhX3NpemUiLCJwYWdlX21ldGhvZCI6IkdFVCIsInBhZ2VfcmVxdWVzdCI6e30sInBhZ2VfaGVhZGVycyI6e30sImhvc3QiOiJib2RoaWlyb3p0Lnh5eiIsImlwIjoiOTkuMjMwLjEyOS4zMCJ9Cg==";</script>
+<script src="/bFVadHCQJ.js"></script>
+</body>
+</html>
+ - unfinished tasks: 62
+2024-10-25 14:39:52 - ritual_arweave.concurrency_utils - ERROR - Worker: <ritual_arweave.concurrency_utils.Worker object at 0x106e19710> failed, no longer using it: ('https://cahil.store - ', 0, ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'cahil.store\', port=443): Max retries exceeded with url: /tx/23Pk49Kuwa6Jjeu7C0idsYuEFwiDqHlAZyrLICuwi9w/data_size (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106e21450>: Failed to resolve \'cahil.store\' ([Errno 8] nodename nor servname provided, or not known)"))')), None) - unfinished tasks: 39
+2024-10-25 14:39:52 - ritual_arweave.concurrency_utils - ERROR - Worker: <ritual_arweave.concurrency_utils.Worker object at 0x106e1b250> failed, no longer using it: ('https://canduesed.xyz - ', 0, ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'canduesed.xyz\', port=443): Max retries exceeded with url: /tx/HYJvqsvjWToyeRWNfiOmP0bM1QG1FuMXkgqJUp36_OY/data_size (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106f08cd0>: Failed to resolve \'canduesed.xyz\' ([Errno 8] nodename nor servname provided, or not known)"))')), None) - unfinished tasks: 39
+2024-10-25 14:39:53 - ritual_arweave.concurrency_utils - ERROR - Worker: <ritual_arweave.concurrency_utils.Worker object at 0x106e1a910> failed, no longer using it: ('https://iogate.uk - ', 0, ConnectionError(MaxRetryError("HTTPSConnectionPool(host='iogate.uk', port=443): Max retries exceeded with url: /tx/I2-Hum9WHrsq76HRBJwWngMWGIXQtxpIBrU9irFDSiM/data_size (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x106fe4110>: Failed to establish a new connection: [Errno 61] Connection refused'))")), None) - unfinished tasks: 34
+2024-10-25 14:39:53 - ritual_arweave.concurrency_utils - ERROR - Worker: <ritual_arweave.concurrency_utils.Worker object at 0x106e19750> failed, no longer using it: ('https://vrising.site - ', 0, ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'vrising.site\', port=443): Max retries exceeded with url: /tx/f1cnN17MloOLrW5hfv-KovgvQCvbNa5sFfTo2HL2p14/data_size (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106e05050>: Failed to resolve \'vrising.site\' ([Errno 8] nodename nor servname provided, or not known)"))')), None) - unfinished tasks: 33
+2024-10-25 14:39:53 - ritual_arweave.concurrency_utils - ERROR - Worker: <ritual_arweave.concurrency_utils.Worker object at 0x106dae950> failed, no longer using it: ('https://vrising.site - ', 0, ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'vrising.site\', port=443): Max retries exceeded with url: /tx/A7LKQxjG1KXvdwVtl3vbgbH_7LdY4O7o3cWeOcckMLY/data_size (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106efbbd0>: Failed to resolve \'vrising.site\' ([Errno 8] nodename nor servname provided, or not known)"))')), None) - unfinished tasks: 33
+2024-10-25 14:39:53 - ritual_arweave.concurrency_utils - ERROR - Worker: <ritual_arweave.concurrency_utils.Worker object at 0x106e18910> failed, no longer using it: ('https://iogate.co.uk - ', 0, SSLError(MaxRetryError('HTTPSConnectionPool(host=\'iogate.co.uk\', port=443): Max retries exceeded with url: /tx/zGFAvOp6M_FS3CSs3JSStGGfUCuVjlC1JpwkzQfz794/data_size (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for \'iogate.co.uk\'. (_ssl.c:1006)")))')), None) - unfinished tasks: 28
+2024-10-25 14:40:01 - test_library.orchestration - INFO - Running command: make -C /Users/arshankhanifar/ritual/infernet-monorepo-internal/libraries/ritual_arweave stop-ar
