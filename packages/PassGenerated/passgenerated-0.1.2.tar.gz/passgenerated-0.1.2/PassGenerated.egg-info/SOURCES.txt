@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+PassGenerated/__init__.py
+PassGenerated/main.py
+PassGenerated.egg-info/PKG-INFO
+PassGenerated.egg-info/SOURCES.txt
+PassGenerated.egg-info/dependency_links.txt
+PassGenerated.egg-info/top_level.txt
+test/test_core.py
