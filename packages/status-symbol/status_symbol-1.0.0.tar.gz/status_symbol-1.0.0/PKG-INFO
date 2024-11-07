@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: status_symbol
+Version: 1.0.0
+Summary: Status-symbol
+Home-page: 
+Author: Paul Nation
+Author-email: nonhermitian@gmail.com
+License: Apache 2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: packaging
+
+# status-symbol
+A generic status check for pypi versioning

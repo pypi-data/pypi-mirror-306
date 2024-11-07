@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+status_symbol/__init__.py
+status_symbol/config.py
+status_symbol/exceptions.py
+status_symbol/version.py
+status_symbol/version_check.py
+status_symbol.egg-info/PKG-INFO
+status_symbol.egg-info/SOURCES.txt
+status_symbol.egg-info/dependency_links.txt
+status_symbol.egg-info/not-zip-safe
+status_symbol.egg-info/requires.txt
+status_symbol.egg-info/top_level.txt
