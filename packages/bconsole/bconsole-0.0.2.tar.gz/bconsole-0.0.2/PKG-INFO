@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: bconsole
+Version: 0.0.2
+Summary: A simple module to make it a little less painful to use console applications.
+Home-page: https://github.com/betakors/bconsole
+License: MIT
+Keywords: console,console-helper,console-application,color,colors,colorama,terminal,terminal-colors
+Author: BetaKors
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Terminals
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Project-URL: Repository, https://github.com/betakors/bconsole
+Description-Content-Type: text/markdown
+
+# Console Helper
+
+A simple console helper for python.
+
+Requires [colorama](https://pypi.org/project/colorama/) for windows compatibility
+
+## Usage
+
+See bconsole/examples for examples.
+
