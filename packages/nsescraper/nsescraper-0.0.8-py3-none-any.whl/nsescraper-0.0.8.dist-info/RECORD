@@ -1,0 +1,14 @@
+nsescraper/__init__.py,sha256=fmMOC-2kk9RzI7PkyWb9YJ8cmYCu6noXLdZYoBaYOQo,193
+nsescraper/nifty_indices.pickle,sha256=_4VVmD01YtYBHMhVzq56rWdriL6qGBfwLLhlgZz_7iY,1207
+nsescraper/nsescraper.py,sha256=XsC4iBdgymuNxEm4EmNJa8p4XGsk-YrQRPsY7usg6cE,34111
+nsescraper/nsescraper.svg,sha256=11fCxhsKCp7mSB6lo4c4jTjVrCVzc3SpQ9LLEZgnLvg,9230
+nsescraper/option_indices.pickle,sha256=w_jrw7Skh0IYiSKTVHs7B_Cm3bk3QIs4IeXHPabM7ZI,60
+nsescraper/test_nsescraper.py,sha256=rGS7MyvAKRMSY1CoNuN9HE1rN8W3i9BULI1iSCuRw0w,19844
+nsescraper-0.0.8.data/data/nsescraper/nifty_indices.pickle,sha256=_4VVmD01YtYBHMhVzq56rWdriL6qGBfwLLhlgZz_7iY,1207
+nsescraper-0.0.8.data/data/nsescraper/nsescraper.svg,sha256=11fCxhsKCp7mSB6lo4c4jTjVrCVzc3SpQ9LLEZgnLvg,9230
+nsescraper-0.0.8.data/data/nsescraper/option_indices.pickle,sha256=w_jrw7Skh0IYiSKTVHs7B_Cm3bk3QIs4IeXHPabM7ZI,60
+nsescraper-0.0.8.dist-info/LICENSE,sha256=vXnJIQhjYJsWxlr5SfYt_HQVTXLxS0eTwcbJ0Lng8sk,1073
+nsescraper-0.0.8.dist-info/METADATA,sha256=kzY72bIHdgqCRwTASjT-KRolR-tckvvoeADY9XjYkME,3552
+nsescraper-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nsescraper-0.0.8.dist-info/top_level.txt,sha256=u1qTLJ1RnDxW6qHiF2K522EDqHhWsQxKuneXmSYHjww,11
+nsescraper-0.0.8.dist-info/RECORD,,
