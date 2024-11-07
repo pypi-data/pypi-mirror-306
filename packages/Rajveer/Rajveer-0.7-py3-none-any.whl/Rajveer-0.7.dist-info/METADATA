@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: Rajveer
+Version: 0.7
+Summary: A Python API Module That Helps Python Dev
+Author: Rajveer Verma
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: user-agent
+Requires-Dist: colorama
+Requires-Dist: termcolor
+
+# Rajveer
+
+`Rajveer` is a Python package for checking Hotmail and Gmail emails, retrieving Instagram user information, and more.
+
+## Installation
+
+Install `Rajveer` using pip:
+
+```bash
+pip install Rajveer
+```
+
+## Usage
+
+### Instagram Username genrator 
+
+```python
+from Rajveer import Insta
+
+Username=Insta.Usergen(2013)
+
+print(Username)
+```
+
+### Instagram User Information
+
+Retrieve information about an Instagram user:
+
+```python
+from Rajveer import Insta
+username = "cristiano"
+info = Insta.Info(username) or {}
+
+print("Name:", info.get("Name", "None"))
+print("Username:", info.get("Username", "None"))
+print("Followers:", info.get("Followers", "None"))
+print("Following:", info.get("Following", "None"))
+print("Date:", info.get("Date", "None"))
+print("ID:", info.get("Id", "None"))
+print("Posts:", info.get("Post", "None"))
+print("Bio:", info.get("Bio", "None"))
+print("Verified:", info.get("Verified", "None"))
+print("Private:", info.get("Private", "None"))
+```
+
+### Instagram Email Recovery
+
+Recover the email associated with an Instagram username:
+
+```python
+from Rajveer import Insta
+username = "cristiano"
+rest = Insta.Rest(username)
+print(rest)  # Example output: c*******o@gmail.com
+```
+
+### Additional Information
+
+For more info or support, contact [@CODEROGE](https://coderoge.t.me) on Telegram.
+
+### View All Module Functions
+
+```python
+import Rajveer
+print(dir(Rajveer))
+```
+
+## License
+
+This project is licensed under the MIT License.
