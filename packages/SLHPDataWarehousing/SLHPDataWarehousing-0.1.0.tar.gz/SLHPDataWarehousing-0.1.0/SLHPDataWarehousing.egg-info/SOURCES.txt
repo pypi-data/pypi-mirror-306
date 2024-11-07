@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+SLHPDataWarehousing/__init__.py
+SLHPDataWarehousing/database_connector.py
+SLHPDataWarehousing/environment_setup.py
+SLHPDataWarehousing.egg-info/PKG-INFO
+SLHPDataWarehousing.egg-info/SOURCES.txt
+SLHPDataWarehousing.egg-info/dependency_links.txt
+SLHPDataWarehousing.egg-info/requires.txt
+SLHPDataWarehousing.egg-info/top_level.txt
