@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sentry-old-jira-server
+Version: 1.0.0
+Summary: A Sentry integration to link Sentry issues to Jira project.
+Home-page: https://github.com/ohappykust/sentry-old-jira-server
+Author: Kirill Nikolaevskiy
+Author-email: me@happykust.dev
+Keywords: sentry old jira
+
