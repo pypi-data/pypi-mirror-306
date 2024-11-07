@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: nltk_punkt
+Version: 0.6
+Summary: A package to download NLTK 'punkt' on installation
+Author: Adam Malecek
+Author-email: malecekadam1@gmail.com
+Requires-Dist: nltk
