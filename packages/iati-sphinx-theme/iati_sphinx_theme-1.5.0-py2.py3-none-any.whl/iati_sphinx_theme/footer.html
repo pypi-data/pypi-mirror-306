@@ -1,0 +1,55 @@
+<footer class="iati-footer iati-brand-background">
+  <div class="iati-brand-background__content">
+
+    <div class="iati-footer__section iati-footer__section--first">
+      <div class="iati-footer__container">
+        <div class="iati-footer-block">
+          <h2 class="iati-footer-block__title">Additional information</h2>
+          <div class="iati-footer-block__content">
+            <p>Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.</p>
+            {% if theme_github_repository %}
+              <p>Source code on <a href="{{ theme_github_repository }}">GitHub</a>.</p>
+            {% endif %}
+            <p>Documentation licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="iati-footer__section iati-footer__section--last">
+      <div class="iati-footer__container">
+        <nav>
+          <ul class="iati-piped-list iati-footer__legal-nav">
+            <li><a href="https://iatistandard.org/en/privacy-policy/">Privacy Policy</a></li>
+            <li>
+              <span>
+                {{ copyright_block() }}
+              </span>
+            </li>
+          </ul>
+        </nav>
+
+        {%- include "language-switcher.html" %}
+
+        <div class="iati-footer__social">
+          <a
+            href="https://www.linkedin.com/company/international-aid-transparency-initiative/"
+            aria-label="LinkedIn"
+          >
+            <i class="iati-icon iati-icon--linkedin"></i>
+          </a>
+          <a href="https://twitter.com/IATI_aid" aria-label="Twitter">
+            <i class="iati-icon iati-icon--twitter"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCAVH1gcgJXElsj8ENC-bDQQ"
+            aria-label="YouTube"
+          >
+            <i class="iati-icon iati-icon--youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
