@@ -1,0 +1,186 @@
+Metadata-Version: 2.1
+Name: localstack-extension-event-studio
+Version: 0.0.1.dev1
+Summary: LocalStack Extension: eventstudio
+Author-email: Maximilian Hoheiser <max.hoheiser@gmail.com>
+License: UNLICENSED
+Project-URL: Homepage, https://github.com/localstack/localstack-extension-event-studio
+Keywords: localstack,localstack-extension,extension
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown; charset=UTF-8
+Requires-Dist: rolo
+Requires-Dist: boto3
+Requires-Dist: sqlalchemy
+Requires-Dist: jinja2
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Provides-Extra: dev
+Requires-Dist: localstack-extension-event-studio[test]; extra == "dev"
+Requires-Dist: airspeed-ext; extra == "dev"
+Requires-Dist: amazon.ion; extra == "dev"
+Requires-Dist: amazon-kclpy; extra == "dev"
+Requires-Dist: apispec; extra == "dev"
+Requires-Dist: aws-encryption-sdk; extra == "dev"
+Requires-Dist: aws-sam-translator; extra == "dev"
+Requires-Dist: awscli; extra == "dev"
+Requires-Dist: awscrt; extra == "dev"
+Requires-Dist: avro; extra == "dev"
+Requires-Dist: crontab; extra == "dev"
+Requires-Dist: boto3; extra == "dev"
+Requires-Dist: botocore; extra == "dev"
+Requires-Dist: cbor2; extra == "dev"
+Requires-Dist: dirtyjson; extra == "dev"
+Requires-Dist: dnspython; extra == "dev"
+Requires-Dist: distro; extra == "dev"
+Requires-Dist: docker; extra == "dev"
+Requires-Dist: docker-registry-client; extra == "dev"
+Requires-Dist: dulwich; extra == "dev"
+Requires-Dist: graphql-core; extra == "dev"
+Requires-Dist: hypercorn; extra == "dev"
+Requires-Dist: janus; extra == "dev"
+Requires-Dist: JPype1; extra == "dev"
+Requires-Dist: json5; extra == "dev"
+Requires-Dist: jsonpatch; extra == "dev"
+Requires-Dist: jsonpath-ng; extra == "dev"
+Requires-Dist: jsonpath-rw; extra == "dev"
+Requires-Dist: Js2Py; extra == "dev"
+Requires-Dist: kafka-python; extra == "dev"
+Requires-Dist: kubernetes; extra == "dev"
+Requires-Dist: libvirt-python; extra == "dev"
+Requires-Dist: localstack-core; extra == "dev"
+Requires-Dist: localstack-twisted; extra == "dev"
+Requires-Dist: localstack-snapshot; extra == "dev"
+Requires-Dist: moto-ext[all]; extra == "dev"
+Requires-Dist: mysql-replication; extra == "dev"
+Requires-Dist: opensearch-py; extra == "dev"
+Requires-Dist: openapi-core; extra == "dev"
+Requires-Dist: paho-mqtt; extra == "dev"
+Requires-Dist: parquet; extra == "dev"
+Requires-Dist: parse; extra == "dev"
+Requires-Dist: pg8000; extra == "dev"
+Requires-Dist: postgres; extra == "dev"
+Requires-Dist: postgresql-proxy; extra == "dev"
+Requires-Dist: pproxy-ext; extra == "dev"
+Requires-Dist: presto-python-client; extra == "dev"
+Requires-Dist: pycdlib; extra == "dev"
+Requires-Dist: pyftpdlib; extra == "dev"
+Requires-Dist: pyhive; extra == "dev"
+Requires-Dist: pyion2json; extra == "dev"
+Requires-Dist: PyJWT; extra == "dev"
+Requires-Dist: pymongo; extra == "dev"
+Requires-Dist: pymysql; extra == "dev"
+Requires-Dist: pyopenssl; extra == "dev"
+Requires-Dist: pyqldb; extra == "dev"
+Requires-Dist: python-snappy; extra == "dev"
+Requires-Dist: readerwriterlock; extra == "dev"
+Requires-Dist: redis; extra == "dev"
+Requires-Dist: requests-aws4auth; extra == "dev"
+Requires-Dist: rolo; extra == "dev"
+Requires-Dist: rsa; extra == "dev"
+Requires-Dist: service-identity; extra == "dev"
+Requires-Dist: sqlglot; extra == "dev"
+Requires-Dist: sql-metadata; extra == "dev"
+Requires-Dist: srp-ext; extra == "dev"
+Requires-Dist: testing.common.database; extra == "dev"
+Requires-Dist: thrift; extra == "dev"
+Requires-Dist: thrift-sasl; extra == "dev"
+Requires-Dist: tornado; extra == "dev"
+Requires-Dist: urllib3; extra == "dev"
+Requires-Dist: warrant-ext; extra == "dev"
+Requires-Dist: websockets; extra == "dev"
+Requires-Dist: Werkzeug; extra == "dev"
+Requires-Dist: Whoosh; extra == "dev"
+Requires-Dist: xmltodict; extra == "dev"
+Requires-Dist: antlr4-python3-runtime; extra == "dev"
+Requires-Dist: cryptography; extra == "dev"
+Provides-Extra: test
+Requires-Dist: localstack-core>=3.3; extra == "test"
+Requires-Dist: aws-cdk-lib; extra == "test"
+Requires-Dist: ruff; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-httpserver; extra == "test"
+
+# LocalStack EventStudio
+
+Visual UI to develop and debug event driven AWS services
+
+You need a LocalStack Pro license to install and use extension and activate it via the variable `LOCALSTACK_AUTH_TOKEN` either in localstack config file or as an environment variable.
+
+## Install extension to LocalStack
+
+You can either add EXTENSION_AUTO_INSTALL="git+https://github.com/localstack/localstack-extension-event-studio/" to your localstack config file or run the following command:
+
+```bash
+localstack extensions install "git+https://<personal-private-access-token>@github.com/localstack/localstack-extension-event-studio/#egg=eventstudio"
+```
+
+Run the extension from the docker container via the following command:
+
+```bash
+PROVIDER_OVERRIDE_EVENTS=v2 EXTRA_CORS_ALLOWED_ORIGINS=* localstack start
+```
+
+you can see the extension running at https://localhost.localstack.cloud:4566/_extension/eventstudio/events directly
+or via the LocalStack Web App under https://app.localstack.cloud/inst/default/extensions/manage
+
+## Install local development version
+
+First you need to create the `.env.development.local` file in the root of the project based on the `.env.example` file.
+
+To install the extension into localstack in developer mode, you will need Python 3.11, and create a virtual environment in the extensions project, example using virtualenv:
+
+```bash
+virtualenv -p python3.11 .venv
+source .venv/bin/activate
+```
+
+You will also need to install [yarn](https://yarnpkg.com/getting-started/install) as package manager if you haven't already, with corepack enabled.
+Furthermore you need to have localstack and localstack-pro correctly set up in their respective source folders.
+In the newly generated project, simply run
+
+```bash
+make install-dev
+```
+
+To check that the extension is installed correctly, you can run the following command:
+
+```bash
+make list-extension
+```
+
+You can then start LocalStack with `EXTENSION_DEV_MODE=1` to load all enabled extensions:
+
+```bash
+make start-extension
+```
+
+which is equivalent to:
+
+```bash
+EXTENSION_DEV_MODE=1 PROVIDER_OVERRIDE_EVENTS=v2 EXTRA_CORS_ALLOWED_ORIGINS=* localstack start
+```
+
+to access the frontend via the React dev server, you can run:
+
+```bash
+make start-frontend
+```
+
+You can access the frontend served from the extension directly under https://localhost.localstack.cloud:4566/_extension/eventstudio/events
+or via the React dev server under http://localhost:3000/.
+
+## Deploying sample application
+
+The default sample application used for development and testing:
+
+```bash
+make deploy-test-stack && make put-event
+```
+
+Second sample application:
+
+```bash
+cd samples/fintech_demo
+cdklocal bootstrap
+cdklocal deploy
+```
