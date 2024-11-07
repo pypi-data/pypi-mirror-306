@@ -1,0 +1,87 @@
+extract = '''Below is a document extract that, where useful, may be used for context in your conversation.
+Where you use information from the extract, cite its source.
+
+### Extract
+Source: {source}
+Added: {added}
+
+{extract}
+'''
+
+
+summary_relevance = '''Below is an extractive summary of a document extract.
+Based on its summary, you should evaluate the extract for likely contextual relevance to the preceding conversation.
+The relevance should be rated from 0 (irrelevant) to 9 (highly relevant and pertinent).
+You must stick very closely to the format of the template.
+Give your reply as valid JSON, according to the format:
+```json
+{{"relevance": 5}}
+```
+
+### Summary
+Source: {source}
+Added: {added}
+
+{summary}
+'''
+
+
+url = '''Below is a document from a URL that may, where useful, be used for context in your conversation.
+
+URL: {url}
+accessed: {accessed}
+### Document
+{document}
+'''
+
+
+arxiv_search = '''Below are the results of an arXiv search that may, where useful, be used for context in your conversation.
+Search topic: {topic}
+
+{summaries}
+'''
+
+
+arxiv_summary = '''
+### Summary of "{title}"
+Title: {title}
+Authors: {authors}
+Date: {date}
+arxiv id: {entry_id}
+DOI: {doi}
+#### Abstract
+{summary}")))))
+'''
+
+
+youtube = '''Below is a YouTube video transcript that may, where useful, be used for context in your conversation.
+
+Title: {title}
+Author: {author_name}
+youtube id: {youtube_id}
+accessed: {accessed}
+### Transcript
+{transcript}
+'''
+
+
+wikipedia = '''
+### Wikipedia page {title}
+Title: {title}
+URL: {url}
+{content}
+
+Related: {related}
+'''
+
+cohere = """
+Carefully perform the following instructions, in order, starting each with a new line.
+
+Firstly, Decide which of the retrieved documents are relevant to the user's last input by writing 'Relevant Documents:' followed by comma-separated list of document numbers. If none are relevant, you should instead write 'None'.
+
+Secondly, Decide which of the retrieved documents contain facts that should be cited in a good answer to the user's last input by writing 'Cited Documents:' followed a comma-separated list of document numbers. If you do not want to cite any of them, you should instead write 'None'.
+
+Thirdly, Write 'Answer:' followed by a response to the user's last input in high quality natural english. Use the retrieved documents to help you. Do not insert any citations or grounding markup.
+
+Finally, Write 'Grounded answer:' followed by a response to the user's last input in high quality natural english.
+"""
