@@ -1,0 +1,9 @@
+awx_plugins.interfaces
+PyYAML
+azure-identity
+azure-keyvault
+boto3
+msrestazure
+python-dsv-sdk>=1.0.4
+python-tss-sdk>=1.2.1
+requests
