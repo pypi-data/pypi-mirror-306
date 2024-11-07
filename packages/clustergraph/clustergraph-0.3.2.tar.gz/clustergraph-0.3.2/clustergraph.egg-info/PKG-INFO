@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: clustergraph
+Version: 0.3.2
+Summary: ClusterGraph is a tool which allows the visualization of a geometric organization of clusters.
+Home-page: https://github.com/dioscuri-tda/clustergraph
+Author: Mathis Hallier, Davide Gurnari
+Author-email: mathis.hallier28@gmail.com
+License: MIT license
+Keywords: clustergraph
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+Requires-Dist: bokeh
+Requires-Dist: scikit-learn
+Requires-Dist: pot
+
+# ClusterGraph
+ClusterGraph is a tool which allows the visualization of a geometric organization of clusters.
+
+### Install the package 📦   
+```
+pip install clustergraph
+```
+
+### Basic usage
+check out the [example notebooks](https://github.com/dioscuri-tda/clustergraph/tree/main/examples) 
+<!-- or the [documentation](https://pyballmapper.readthedocs.io). -->
+
+
+=======
+History
+=======
+
+0.1.0 (2023-04-27)
+------------------
+
+* First release on PyPI.
