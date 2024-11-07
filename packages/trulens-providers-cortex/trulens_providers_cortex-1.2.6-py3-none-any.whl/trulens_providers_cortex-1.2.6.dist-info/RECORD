@@ -1,0 +1,8 @@
+trulens/providers/cortex/__init__.py,sha256=rF6AtQlcd5rAfDN1H5s8rf8JFOuOnyFtARQGXhf7_YQ,549
+trulens/providers/cortex/config/cortex_model_costs.json,sha256=ydULWiL3n2AW792FbNNn7JswvLMvv8MQF_bU7YPVTJk,384
+trulens/providers/cortex/endpoint.py,sha256=RYUKhFz-1gqtzs-mo_oLQyDwiEFY08MqEa0rw7qE5D4,5088
+trulens/providers/cortex/provider.py,sha256=QyEQcTLRyNHLtY1Geg901Z8VlI0skhLTWYb12TYB2r8,7026
+trulens/providers/cortex/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trulens_providers_cortex-1.2.6.dist-info/METADATA,sha256=IH-_gh5tCT1Vz07k8IJUzH55Mpq9M9yjAvayKZwb_NQ,1049
+trulens_providers_cortex-1.2.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+trulens_providers_cortex-1.2.6.dist-info/RECORD,,
