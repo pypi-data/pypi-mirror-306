@@ -1,0 +1,8 @@
+ai_workflows/__init__.py,sha256=YrLBYzExxXynEPDXXoqTXf28QYRPTqc54UDm7HMEJK4,906
+ai_workflows/document_utilities.py,sha256=dSjzdchZc2e7JU7xBEsC9uLBiwCxnbMwDV077EfwUqo,88455
+ai_workflows/llm_utilities.py,sha256=BccE_GQfgm2X6norVTYktJ1zW4ha2THWDOGtsL_4jd0,24272
+py_ai_workflows-0.10.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+py_ai_workflows-0.10.0.dist-info/METADATA,sha256=1SWd_Uy3IZiiGxpwguAiNaoFGzQ9CxtuIFvGz6yTD-M,12249
+py_ai_workflows-0.10.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+py_ai_workflows-0.10.0.dist-info/top_level.txt,sha256=kVYd4SVq643I6I786N4X7iHfUywYTaW-E8pgmh0Uwmg,13
+py_ai_workflows-0.10.0.dist-info/RECORD,,
