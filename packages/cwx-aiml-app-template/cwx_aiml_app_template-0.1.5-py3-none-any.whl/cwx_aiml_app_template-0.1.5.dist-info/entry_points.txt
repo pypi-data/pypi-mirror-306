@@ -1,0 +1,2 @@
+[console_scripts]
+aimlapp = cwx_aiml_app_template.cli:main
