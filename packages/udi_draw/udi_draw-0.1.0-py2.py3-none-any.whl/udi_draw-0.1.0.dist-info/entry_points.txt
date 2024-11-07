@@ -1,0 +1,3 @@
+[console_scripts]
+udi_draw=udi_draw:main
+

@@ -1,0 +1,9 @@
+udi_draw/__init__.py,sha256=wt276v_YupTqZjzTJ7zqOGlb-1qCji4Vba5CDCH4RDs,294
+udi_draw/__main__.py,sha256=NFmfm9hwk1N7dvoWOkvNFcbGHdP5xH5bHQivkfV4wIo,33
+udi_draw/buildings.py,sha256=a8pG7KqHU4zILd6WCH4SzB_BZ8NUTX0RPZPhZzG6n-A,196
+udi_draw/simple/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+udi_draw/simple/shapes.py,sha256=a2Pf1NSkE_g9ayeifzgGDDwRmdgznQ_ofWOrbvZNLjE,184
+udi_draw-0.1.0.dist-info/entry_points.txt,sha256=us-f6fGH0NFd2OJ35hjD18DaCpWrDwUOsRJyWEOzU48,42
+udi_draw-0.1.0.dist-info/WHEEL,sha256=ssQ84EZ5gH1pCOujd3iW7HClo_O_aDaClUbX4B8bjKY,100
+udi_draw-0.1.0.dist-info/METADATA,sha256=sMzGydsgE8Cw_34thjMj7xNR6FBrcFQNGtqAAFGOZLA,104
+udi_draw-0.1.0.dist-info/RECORD,,
