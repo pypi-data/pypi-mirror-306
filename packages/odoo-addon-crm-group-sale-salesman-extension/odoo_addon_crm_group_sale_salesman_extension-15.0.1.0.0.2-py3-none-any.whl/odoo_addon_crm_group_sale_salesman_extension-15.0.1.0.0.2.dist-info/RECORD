@@ -1,0 +1,9 @@
+odoo/addons/crm_group_sale_salesman_extension/README.rst,sha256=HRlyQrVAZ92RYXafro34s90EaLhpFlB-qKBdvoTAMss,1696
+odoo/addons/crm_group_sale_salesman_extension/__init__.py,sha256=6eImpDpysTv71lHIgskroA9xnuQLp6OdXWoB9jdZW3c,133
+odoo/addons/crm_group_sale_salesman_extension/__manifest__.py,sha256=Et3HThwSZzjzHm4G3liAz-jG-fkhFQpzvyeIhKHMFcY,583
+odoo/addons/crm_group_sale_salesman_extension/security/crm_sale_record_rules.xml,sha256=IZJF3FiruTI5NPxqgzaKAsk3GJxZRY0UiuVqRTT52wo,2070
+odoo/addons/crm_group_sale_salesman_extension/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo_addon_crm_group_sale_salesman_extension-15.0.1.0.0.2.dist-info/METADATA,sha256=tAb-bnzdKsDBtPOLDPD9xEaBgAc_TeKQ3O2C64TDa54,2240
+odoo_addon_crm_group_sale_salesman_extension-15.0.1.0.0.2.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_crm_group_sale_salesman_extension-15.0.1.0.0.2.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_crm_group_sale_salesman_extension-15.0.1.0.0.2.dist-info/RECORD,,
