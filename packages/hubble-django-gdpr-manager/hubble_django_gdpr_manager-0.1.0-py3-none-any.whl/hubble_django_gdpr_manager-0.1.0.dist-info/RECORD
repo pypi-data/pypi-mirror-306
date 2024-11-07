@@ -1,0 +1,15 @@
+gdpr_manager/__init__.py,sha256=h4q68THr9sPpia6QaAXXiQxX8adDxG0F1mVZ3nUGZNE,59
+gdpr_manager/admin.py,sha256=ffxxfwS8za3Lv3HjdatwPwOUbLKVSoMH3ZCBuOCajlg,3316
+gdpr_manager/apps.py,sha256=R0W5gusVZ6xrbuuGaH05LRQTGrcuF-B2poqF1hxIsJQ,420
+gdpr_manager/handlers.py,sha256=PKavvktRNx11rae2yHufxthvXQlKVoiHvwX8A2XrIbE,2336
+gdpr_manager/helpers.py,sha256=WeasTThoxueYyBb90qbqu3VgTB9V6N3UAcycisS8XJs,2615
+gdpr_manager/models.py,sha256=oR6cWOt2iWM6mRmZKcm1z_1B9sn40U8A1AzgFYFRj8M,1869
+gdpr_manager/registry.py,sha256=IFHaA2SGzkuIrYob1R0DDSDnJ6a5iVrmc5ZBYD7dHIk,677
+gdpr_manager/settings.py,sha256=kIJwxGxKniesxK0iaCXRdCXZECZ6-B362p5oqxY9DKM,848
+gdpr_manager/migrations/0001_initial.py,sha256=wDEKXS9zMF-1C42sarnEzH_j11II31B_ZPsX2JcCVME,561
+gdpr_manager/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdpr_manager/templates/gdpr_manager/admin/gm_change_list.html,sha256=4fE_h6HlOAwVWCX84crKMxyQVl1SFZbxwYN9ClIYAa8,4046
+hubble_django_gdpr_manager-0.1.0.dist-info/METADATA,sha256=kPS3mvcWO67Fi7AheksOKCiITT-R8wvebYK4mDRvgMk,8384
+hubble_django_gdpr_manager-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+hubble_django_gdpr_manager-0.1.0.dist-info/licenses/LICENSE,sha256=WbvjKLSONw3Ql5aQXtDkiHwY8VDzR5zlWvrvxmyCvFk,1049
+hubble_django_gdpr_manager-0.1.0.dist-info/RECORD,,
