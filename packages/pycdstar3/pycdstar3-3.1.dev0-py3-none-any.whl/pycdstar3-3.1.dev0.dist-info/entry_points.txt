@@ -1,0 +1,2 @@
+[console_scripts]
+pycdstar3 = pycdstar3.__main__:main
