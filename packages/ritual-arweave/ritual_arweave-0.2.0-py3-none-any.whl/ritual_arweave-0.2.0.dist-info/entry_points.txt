@@ -1,0 +1,2 @@
+[console_scripts]
+ritual-arweave = ritual_arweave:main
