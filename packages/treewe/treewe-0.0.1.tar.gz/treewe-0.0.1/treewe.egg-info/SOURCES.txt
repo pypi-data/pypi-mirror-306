@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+treewe/__init__.py
+treewe/utils.py
+treewe.egg-info/PKG-INFO
+treewe.egg-info/SOURCES.txt
+treewe.egg-info/dependency_links.txt
+treewe.egg-info/requires.txt
+treewe.egg-info/top_level.txt
