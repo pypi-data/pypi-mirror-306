@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+NLPurify.egg-info/PKG-INFO
+NLPurify.egg-info/SOURCES.txt
+NLPurify.egg-info/dependency_links.txt
+NLPurify.egg-info/top_level.txt
+nlpurify/__init__.py
+nlpurify/normalization.py
+nlpurify/feature/__init__.py
+nlpurify/feature/selection/__init__.py
+nlpurify/feature/selection/nltk.py
+nlpurify/fuzzy/__init__.py
+nlpurify/fuzzy/logical.py
+nlpurify/fuzzy/wrapper.py
+nlpurify/legacy/__init__.py
+nlpurify/legacy/nlp_utils.py
