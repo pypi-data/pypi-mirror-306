@@ -1,0 +1,148 @@
+[tool.poetry]
+name = "roxie-api"
+version = "0.3.5" # Automatic dependency by tag
+description = "A Python API for ROXIE to build a model data input, modify cable database file, and control simulation with a tool adapter"
+authors = [ "Matthias Bonora <matthias.bonora@cern.ch>",
+            "mmaciejewski <michal.maciejewski@ief.ee.ethz.ch>",
+        ]
+maintainers= ["Matthias Bonora <matthias.bonora@cern.ch>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://gitlab.cern.ch/roxie/roxie-api"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Education",
+    "Operating System :: OS Independent",
+]
+packages = [
+    { include = "roxieapi" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = {version = "^2.0.3"}
+requests = "^2.28.1"
+plotly = "^5.9.0"
+pydantic = "^2"
+Jinja2 = "^3.1.2"
+ipython = "^8.2.0"
+matplotlib = "^3.6.0"
+kaleido = "0.2.1"
+pyvista = {version = "^0.43", extras = ["all", "trame"]}
+trame-matplotlib = "^2.0.2"
+mpld3 = "^0.5.9"
+papermill = "^2.5.0"
+async-timeout = "^4.0.3"
+
+[tool.poetry.group.lint.dependencies]
+mypy = "^0.961"
+types-requests = "^2.28.1"
+pre-commit = "^3.6.2"
+
+[tool.poetry.group.test.dependencies]
+toml-cli = "^0.3.1"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+pytest-mock = "^3.12.0"
+requests-mock = {extras = ["fixture"], version = "^1.11.0"}
+
+[tool.poetry.group.docs.dependencies]
+myst-parser = ">1"
+sphinx = "^7"
+toml = "^0.10.2"
+sphinx-gallery = ">0.13.0"
+pillow = "^9.4.0"
+nbsphinx = "^0.8.12"
+sphinxcontrib-apidoc = "^0.3.0"
+jupyter-sphinx = "^0.4.0"
+memory-profiler = "^0.61.0"
+orca = "^1.8"
+psutil = "^5.9.5"
+pandoc = "^2.0"
+trame-vtk = "^2.6.3"
+trame = "^3.4.0"
+trame-vuetify = "^2.3.1"
+sphinx-design = "^0.5.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+pattern = "default-unprefixed"
+
+
+[tool.mypy]
+ignore_missing_imports = true
+python_version = "3.9"
+namespace_packages=true
+mypy_path = "$MYPY_CONFIG_FILE_DIR"
+
+[tool.ruff]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+line-length = 88
+indent-width = 4
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+ignore = ["B006","B007"]
+fixable = ["ALL"]
+unfixable = []
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+extend-select = ["I", "B", "Q"]
+
+[tool.ruff.lint.per-file-ignores]
+"examples/**" = ["B018"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"  # Accepts: "google", "numpy", or "pep257".
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+docstring-code-format = true
+docstring-code-line-length = "dynamic"
+
+[tool.coverage.report]
+exclude_also = [
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "@(abc\\.)?abstractmethod",
+    ]
