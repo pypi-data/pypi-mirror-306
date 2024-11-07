@@ -1,0 +1,15 @@
+netclop/__init__.py,sha256=gzr82QSP09KqZl3NyfTYpJmOb-nDTsf1cVElcGmKpto,138
+netclop/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netclop/cli/commands.py,sha256=ZB8x6SNAmzdzXxWG3yI3wLfAriGDf_m1ahxvW1-wQiM,3735
+netclop/constants.py,sha256=6PSZ3U-omXq1EF98Y45ZqAS5x0U8Wgpa5vT8BPMhUGg,216
+netclop/exceptions.py,sha256=vVQZyv8sScQ7F-rN95wRNSl77AgTG9gLgoMmnGCFrVo,249
+netclop/geo.py,sha256=tQC3vDpQDUfGJhJa8qzwvTYNiNwRg75z2h4bvT2UpHA,10950
+netclop/main.py,sha256=zFxyf64YZBUFKztDQHGj2b_Bh_e31ZcJTqc1KpRDmcw,188
+netclop/networkensemble.py,sha256=jhVJlc_QohQKQ9UcTRzHvL3CgmYXATVL1gO-Bq2il3E,3294
+netclop/sigclu.py,sha256=AhkqwifbGMNIz7Xi-VfBwVQWuctlGQsnR00C9hMLH3w,8018
+netclop/upsetplot.py,sha256=MZZSLpSMix9loO55tiKjYCZ0a1gGVkISIM--MBEOeJw,6676
+netclop-2.0.0.dist-info/LICENSE,sha256=YWDzXS-QMfxvHWwXsCz6eHwZZA66fmOx1Amnh39fpII,1073
+netclop-2.0.0.dist-info/METADATA,sha256=KyHpRIak2bnfmAZeekvu6Hi23s8a79doxP3i4KjvqzI,3172
+netclop-2.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+netclop-2.0.0.dist-info/entry_points.txt,sha256=4bsUWHD42OL9FBtolugmOpn_I6JwYaSFf1PJOkFrygA,48
+netclop-2.0.0.dist-info/RECORD,,
