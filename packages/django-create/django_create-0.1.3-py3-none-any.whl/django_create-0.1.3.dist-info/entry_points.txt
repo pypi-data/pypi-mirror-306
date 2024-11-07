@@ -1,0 +1,3 @@
+[console_scripts]
+django-create=django_create.cli:cli
+
