@@ -1,0 +1,29 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-10-31 09:57+0100\n"
+"PO-Revision-Date: 2024-10-31 10:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.5\n"
+
+#: src/rougail/cli/__main__.py:43
+msgid "cannot find \"user_data\" module \"{0}\""
+msgstr "ne peut trouve le module \"user_data\" \"{0}\""
+
+#: src/rougail/cli/__main__.py:56
+msgid "cannot find cli file for \"output_name\" module \"{0}\""
+msgstr "ne peut trouve le fichier cli pour le module \"output_name\" \"{0}\""
+
+#: src/rougail/cli/__main__.py:69
+msgid "ERROR: {0}"
+msgstr "ERREUR : {0}"

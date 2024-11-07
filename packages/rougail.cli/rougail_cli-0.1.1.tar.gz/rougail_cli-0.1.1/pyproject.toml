@@ -1,0 +1,44 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.8.0,<4"]
+
+[project]
+name = "rougail.cli"
+version = "0.1.1"
+authors = [{name = "Emmanuel Garette", email = "gnunux@gnunux.info"}]
+readme = "README.md"
+description = "CLI for Rougail"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Natural Language :: French",
+
+]
+dependencies = [
+    "rougail >= 1.1,<2",
+    "tiramisu_cmdline_parser >= 0.6,<1",
+]
+
+[project.scripts]
+rougail = "rougail.cli.__main__:main"
+
+[project.urls]
+Home = "https://forge.cloud.silique.fr/stove/rougail-cli"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "pep440"
+version_provider = "pep621"
+#update_changelog_on_bump = true
+changelog_merge_prerelease = true
