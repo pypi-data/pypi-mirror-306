@@ -1,0 +1,15 @@
+wcgw/__init__.py,sha256=VMi3gCAN_4_Ft8v5dY74u6bt5X-H1QhFJqTMZRd4fvk,76
+wcgw/types_.py,sha256=qpMRh1y136GkjIONIFowLy56v5p0OcdNqEH2mTmHPqU,756
+wcgw/client/__main__.py,sha256=ngI_vBcLAv7fJgmS4w4U7tuWtalGB8c7W5qebuT6Z6o,30
+wcgw/client/basic.py,sha256=2rY5pKm9dBBRuku0uIBUeLWjNc3iXjTSK9CmfuTxoS8,16196
+wcgw/client/claude.py,sha256=Bp45-UMBIJd-4tzX618nu-SpRbVtkTb1Es6c_gW6xy0,14861
+wcgw/client/common.py,sha256=grH-yV_4tnTQZ29xExn4YicGLxEq98z-HkEZwH0ReSg,1410
+wcgw/client/openai_adapters.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wcgw/client/openai_utils.py,sha256=YNwCsA-Wqq7jWrxP0rfQmBTb1dI0s7dWXzQqyTzOZT4,2629
+wcgw/client/tools.py,sha256=Ggm5QrSQiyv3Bnme-O9eo_8dXFwS1srCAoow-pODDSE,21212
+wcgw/relay/serve.py,sha256=e3oo4trAWmEKJWcLOsdZCICyEXUCqrI-71DaFnPKI70,8641
+wcgw/relay/static/privacy.txt,sha256=s9qBdbx2SexCpC_z33sg16TptmAwDEehMCLz4L50JLc,529
+wcgw-1.0.1.dist-info/METADATA,sha256=O2BPohrX_Eo6RRuWfY18Cz8MX6qTlgSnExa52Nd8Ggg,5222
+wcgw-1.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+wcgw-1.0.1.dist-info/entry_points.txt,sha256=WlIB825-Vm9ZtNzgENQsbHj4DRMkbpVR7uSkQyBlaPA,93
+wcgw-1.0.1.dist-info/RECORD,,

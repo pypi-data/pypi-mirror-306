@@ -1,0 +1,4 @@
+[console_scripts]
+wcgw = wcgw:listen
+wcgw_local = wcgw:app
+wcgw_relay = wcgw.relay.serve:run
