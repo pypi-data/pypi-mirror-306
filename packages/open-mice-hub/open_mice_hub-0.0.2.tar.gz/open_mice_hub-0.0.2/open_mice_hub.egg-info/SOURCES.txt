@@ -1,0 +1,8 @@
+README.md
+setup.py
+open_mice_hub/__init__.py
+open_mice_hub/main.py
+open_mice_hub.egg-info/PKG-INFO
+open_mice_hub.egg-info/SOURCES.txt
+open_mice_hub.egg-info/dependency_links.txt
+open_mice_hub.egg-info/top_level.txt
