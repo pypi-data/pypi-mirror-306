@@ -1,0 +1,7 @@
+include LICENSE *.md
+include src/star_privateer/catalogs/*.csv
+include src/star_privateer/catalogs/*.fit
+include src/star_privateer/constants/*.hdf5
+include src/star_privateer/timeseries/*.fits
+include src/star_privateer/rooster_instances/rooster_default
+include src/star_privateer/rooster_instances/*.csv

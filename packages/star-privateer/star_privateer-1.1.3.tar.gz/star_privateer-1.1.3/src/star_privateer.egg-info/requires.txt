@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+astropy
+scipy
+tqdm
+scikit-learn
+scikit-image
+ssqueezepy
+h5py
+pycwt
