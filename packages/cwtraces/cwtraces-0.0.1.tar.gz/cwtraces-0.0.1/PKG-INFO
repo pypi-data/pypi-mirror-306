@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cwtraces
+Version: 0.0.1
+Author-email: "NewAE Technology Inc." <support@newae.com>
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: chipwhisperer
