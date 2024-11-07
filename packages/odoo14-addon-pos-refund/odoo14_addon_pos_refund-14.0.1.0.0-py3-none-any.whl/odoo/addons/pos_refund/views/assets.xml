@@ -1,0 +1,14 @@
+<odoo>
+<!-- Copyright 2022 Manuel Regidor <manuel.regidor@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+    <template id="assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="pos_refund/static/src/js/Screens/ProductScreen/ControlButtons/PosRefundButton.js"></script>
+            <script type="text/javascript" src="pos_refund/static/src/js/Screens/ProductScreen/PosRefundScreen.js"></script>
+            <script type="text/javascript" src="pos_refund/static/src/js/Screens/ProductScreen/RefundOrderDetails.js"></script>
+            <script type="text/javascript" src="pos_refund/static/src/js/Screens/ProductScreen/RefundOrderLine.js"></script>
+            <script type="text/javascript" src="pos_refund/static/src/js/models.js"></script>
+            <script type="text/javascript" src="pos_refund/static/src/js/TicketScreen.js"></script>
+        </xpath>
+    </template>
+</odoo>

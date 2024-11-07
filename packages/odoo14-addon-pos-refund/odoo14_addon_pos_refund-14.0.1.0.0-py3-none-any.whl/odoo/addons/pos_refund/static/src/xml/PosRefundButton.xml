@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2022 Manuel Regidor <manuel.regidor@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<templates id="template" xml:space="preserve">
+
+    <t t-name="PosRefundButton" owl="1">
+        <div class="control-button o_pos_refund_button">
+            Refund <t t-if="refundOrder" t-esc="refundOrder"/>
+        </div>
+    </t>
+
+</templates>

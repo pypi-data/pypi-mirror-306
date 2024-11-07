@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2022 Manuel Regidor <manuel.regidor@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<templates id="template" xml:space="preserve">
+
+    <t t-name="PosRefundScreen" owl="1">
+        <div class="posrefund-screen screen" t-on-activate-edit-mode="activateEditMode">
+            <div class="ticket-screen screen">
+                <div class="screen-content">
+                    <div class="top-content">
+                        <div class="button back"
+                              t-on-click="showScreen('ProductScreen')">
+                            <i class="fa fa-angle-double-left fa-fw"></i>
+                            <span class="back_text">Back</span>
+                        </div>
+                        <div class="button next highlight"
+                              t-on-click="trigger('click-refund')"
+                              t-if="state.detailIsShown">
+                            <span>Refund</span>
+                        </div>
+                        <div class="searchbox-client top-content-center">
+                            <input placeholder="Search Order" size="1" t-on-focusout="searchOrder" />
+                            <span class="search-order-refund"></span>
+                        </div>
+                    </div>
+                    <section class="full-content">
+                        <div class="order-window">
+                            <section t-if="state.detailIsShown" >
+                                <div>
+                                    <div class="client-details-contents subwindow-container-fix">
+                                        <RefundOrderDetails t-props="state.detailsProps"/>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="subwindow list" t-if="!state.detailIsShown">
+                                <div class="subwindow-container">
+                                    <div class="subwindow-container-fix scrollable-y">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>

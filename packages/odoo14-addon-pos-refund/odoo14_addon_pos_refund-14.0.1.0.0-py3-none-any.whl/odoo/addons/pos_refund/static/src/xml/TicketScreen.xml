@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2022 Manuel Regidor <manuel.regidor@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<templates id="template" xml:space="preserve">
+
+    <t t-name="TicketScreen" t-inherit="point_of_sale.TicketScreen" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('header-row')]//div[@name='delete']" position="before">
+            <div class="col start" name="refund">Refund</div>
+        </xpath>
+        <xpath expr="//div[hasclass('order-row')]//div[@name='delete']" position="before">
+            <div class="col start">
+                <t t-esc="getRefund(order)"></t>
+            </div>
+        </xpath>
+    </t>
+</templates>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2022 Manuel Regidor <manuel.regidor@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<templates id="template" xml:space="preserve">
+
+    <t t-name="RefundOrderLine" owl="1">
+        <div class="order-row pointer" t-att-line_id="line.id">
+            <div class="col start wide">
+                <t t-esc="line.full_product_name"></t>
+            </div>
+            <div class="col start wide">
+                <t t-if="line.lot_name" t-esc="line.lot_name"></t>
+            </div>
+            <div class="col start">
+                <t t-esc="line.qty"></t>
+            </div>
+            <div class="col start">
+                <t t-esc="getPriceUnit(line)"></t>
+            </div>
+            <div class="col start">
+                <t t-esc="line.discount"></t>
+            </div>
+            <div class="col start">
+                <t t-esc="getSubtotal(line)"></t>
+            </div>
+            <div class="col end" t-if="line.canBeRefunded">
+                <input type="text" class="o_field_float o_field_number o_input refund_qty" t-att-line_id="line.id" t-att-value="line.refund_qty" size="10"/>
+            </div>
+            <div class="col end" t-else="">
+                <input type="text" class="o_field_float o_field_number o_input refund_qty" t-att-line_id="line.id" t-att-value="line.refund_qty" disabled="disabled" size="10"/>
+            </div>
+        </div>
+    </t>
+
+</templates>

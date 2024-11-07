@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2022 Manuel Regidor <manuel.regidor@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<templates id="template" xml:space="preserve">
+
+    <t t-name="RefundOrderDetails" owl="1">
+            <div class="orders">
+                <div style="margin-top: 20px; margin-bottom: 20px;">
+                    <div style="width: 50%; float: left;">
+                        <div class="clearfix">
+                            <span class="label"><strong>Order: </strong></span>
+                            <t t-esc="props.selectedOrder.name"/>
+                        </div>
+                        <div>
+                            <span class="label"><strong>Date: </strong></span>
+                            <t t-esc="props.selectedOrder.date_order"/>
+                        </div>
+                        <div>
+                            <span class="label"><strong>Amount: </strong></span>
+                            <t t-esc="getTotal(props.selectedOrder.amount_total)"/>
+                        </div>
+                        <div t-if="props.selectedOrder.partner_id">
+                            <span class="label"><strong>Customer: </strong></span>
+                            <t t-esc="props.selectedOrder.partner_id[1]"/>
+                        </div>
+                        <div>
+                            <span class="label"><strong>Employee: </strong></span>
+                            <t t-esc="props.selectedOrder.user_id[1]"/>
+                        </div>
+                    </div>
+                    <div style="width: 50%; float: right;" id="refund_lines">  
+                        <t t-foreach="props.paymentLines" t-as="line">
+                            <div>
+                                <strong><t t-esc="line.payment_method_id[1]"/>: </strong>
+                                <t t-esc="getPaymentAmount(line)"/>
+                            </div>
+                        </t>
+                    </div>
+                </div>
+                <div>
+                    <div class="header-row">
+                        <div class="col start wide">Product</div>
+                        <div class="col start wide">Lot/Serial</div>
+                        <div class="col start">Quantity</div>
+                        <div class="col start">Price Unit</div>
+                        <div class="col start">Discount</div>
+                        <div class="col start">Subtotal</div>
+                        <div class="col start">Refund Quantity</div>
+                    </div>
+                    <div id="refund_lines">  
+                        <t t-foreach="props.selectedOrderLines" t-as="line">
+                            <t t-call="RefundOrderLine"/>
+                        </t>
+                    </div>
+                </div>
+            </div>           
+    </t>
+
+</templates>

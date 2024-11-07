@@ -1,0 +1,192 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_refund
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-06 12:00+0000\n"
+"PO-Revision-Date: 2022-10-06 14:03+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/RefundOrderDetails.xml:0
+#, python-format
+msgid "Amount:"
+msgstr "Importe:"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/PosRefundScreen.xml:0
+#, python-format
+msgid "Back"
+msgstr "Volver"
+
+#. module: pos_refund
+#: model:ir.model.fields,field_description:pos_refund.field_pos_order_line__can_be_refunded
+msgid "Can Be Refunded"
+msgstr "Se puede devolver"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/RefundOrderDetails.xml:0
+#, python-format
+msgid "Customer:"
+msgstr "Client:"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/RefundOrderDetails.xml:0
+#, python-format
+msgid "Date:"
+msgstr "Fecha:"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/RefundOrderDetails.xml:0
+#, python-format
+msgid "Discount"
+msgstr "Descuento"
+
+#. module: pos_refund
+#: model:ir.model.fields,field_description:pos_refund.field_pos_order__display_name
+#: model:ir.model.fields,field_description:pos_refund.field_pos_order_line__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/RefundOrderDetails.xml:0
+#, python-format
+msgid "Employee:"
+msgstr "Empleado:"
+
+#. module: pos_refund
+#: model:ir.model.fields,field_description:pos_refund.field_pos_order__id
+#: model:ir.model.fields,field_description:pos_refund.field_pos_order_line__id
+msgid "ID"
+msgstr ""
+
+#. module: pos_refund
+#: model:ir.model.fields,field_description:pos_refund.field_pos_order____last_update
+#: model:ir.model.fields,field_description:pos_refund.field_pos_order_line____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: pos_refund
+#: model:ir.model.fields,field_description:pos_refund.field_pos_order_line__lot_name
+msgid "Lot Name"
+msgstr "Nombre del lote"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/RefundOrderDetails.xml:0
+#, python-format
+msgid "Lot/Serial"
+msgstr "Lote/Serial"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/RefundOrderDetails.xml:0
+#, python-format
+msgid "Order:"
+msgstr "Pedido:"
+
+#. module: pos_refund
+#: code:addons/pos_refund/models/pos_order.py:0
+#, python-format
+msgid "Orders"
+msgstr "Pedidos"
+
+#. module: pos_refund
+#: model:ir.model,name:pos_refund.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr "Líneas de Orden de Punto de Venta"
+
+#. module: pos_refund
+#: model:ir.model,name:pos_refund.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Pedidos del Punto de Venta"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/RefundOrderDetails.xml:0
+#, python-format
+msgid "Price Unit"
+msgstr "Precio unitario"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/RefundOrderDetails.xml:0
+#, python-format
+msgid "Product"
+msgstr "Producto"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/RefundOrderDetails.xml:0
+#, python-format
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: pos_refund
+#: code:addons/pos_refund/models/pos_order.py:0
+#, python-format
+msgid "REFUND"
+msgstr "DEVOLUCIÓN"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/PosRefundButton.xml:0
+#: code:addons/pos_refund/static/src/xml/PosRefundScreen.xml:0
+#: code:addons/pos_refund/static/src/xml/TicketScreen.xml:0
+#: model:ir.model.fields,field_description:pos_refund.field_pos_order__refund_id
+#, python-format
+msgid "Refund"
+msgstr "Devolución"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/RefundOrderDetails.xml:0
+#, python-format
+msgid "Refund Quantity"
+msgstr "Cantidad de devolución"
+
+#. module: pos_refund
+#: model:ir.model.fields,field_description:pos_refund.field_pos_order__refunded_by_ids
+#: model_terms:ir.ui.view,arch_db:pos_refund.pos_refund_view_pos_pos_form
+msgid "Refunded By"
+msgstr "Devuelto por"
+
+#. module: pos_refund
+#: model:ir.model.fields,field_description:pos_refund.field_pos_order__refunded_by_count
+msgid "Refunded By Count"
+msgstr "Contado devuelto por"
+
+#. module: pos_refund
+#: model:ir.model.fields,field_description:pos_refund.field_pos_order_line__refunded_qty
+msgid "Refunded Qty."
+msgstr "Cantidad devuelta"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/PosRefundScreen.xml:0
+#, python-format
+msgid "Search Order"
+msgstr "Buscar pedido"
+
+#. module: pos_refund
+#. openerp-web
+#: code:addons/pos_refund/static/src/xml/RefundOrderDetails.xml:0
+#, python-format
+msgid "Subtotal"
+msgstr "Subtotal"
