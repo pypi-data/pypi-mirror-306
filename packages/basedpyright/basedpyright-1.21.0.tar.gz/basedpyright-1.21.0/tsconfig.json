@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es2021",
+        "module": "preserve",
+        "lib": [
+            "es2021"
+        ],
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "Bundler",
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "outDir": "./out",
+        "noImplicitReturns": true,
+        "noImplicitOverride": true,
+        "checkJs": true,
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "out"
+    ]
+}
