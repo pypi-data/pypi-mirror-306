@@ -1,0 +1,9 @@
+livenodes>=0.12.1b1
+ln-ports>=0.12.1b8
+numpy>=1.22.1
+seaborn>=0.11.2
+matplotlib>=3.5.1
+
+[dev]
+tox
+pytest>=7.0.1
