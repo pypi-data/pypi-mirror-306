@@ -1,0 +1,3 @@
+[jupyterhub.authenticators]
+ldap = ldapauthenticator:LDAPAuthenticator
+ldapauthenticator = ldapauthenticator:LDAPAuthenticator
