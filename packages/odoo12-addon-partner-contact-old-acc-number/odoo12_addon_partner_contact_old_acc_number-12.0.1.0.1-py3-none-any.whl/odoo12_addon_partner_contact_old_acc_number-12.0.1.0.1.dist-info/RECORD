@@ -1,0 +1,12 @@
+odoo/addons/partner_contact_old_acc_number/README.rst,sha256=ITmCBg4j_TbhMWjgWXeHX0r4tH-qXNfujwuOYDRqT8s,1748
+odoo/addons/partner_contact_old_acc_number/__init__.py,sha256=aZKOYa2w32amSpd-XEZz_jcbu3mt23I7tUtQ9gTItnA,162
+odoo/addons/partner_contact_old_acc_number/__manifest__.py,sha256=bAakXah3h0e98NxejBAO61gNa4QfFUiSaGLqFwpo4HU,590
+odoo/addons/partner_contact_old_acc_number/i18n/es.po,sha256=6zQYwRk5NNTrD-xLctCQd4rGf7j-_HwpfKFga6lWR00,1499
+odoo/addons/partner_contact_old_acc_number/models/__init__.py,sha256=KrtIWbR9Hnz92LE6GaXiYDBi2wYi61jhjSxlBH5KBAc,168
+odoo/addons/partner_contact_old_acc_number/models/res_partner.py,sha256=OADtts5KsXHHJd-FFMlROlmLg3D8n4m7_TQFcVRCQh0,461
+odoo/addons/partner_contact_old_acc_number/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/partner_contact_old_acc_number/views/res_partner_views.xml,sha256=L7TffRJmeLPbdyWHh2DCDRC0yRFQAaxEZGG9XyHgSug,2138
+odoo12_addon_partner_contact_old_acc_number-12.0.1.0.1.dist-info/METADATA,sha256=LZ3oSbmjLYHamC8uv0XGdsqU4z--qPwFwmX_bUK7OlU,2264
+odoo12_addon_partner_contact_old_acc_number-12.0.1.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo12_addon_partner_contact_old_acc_number-12.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_partner_contact_old_acc_number-12.0.1.0.1.dist-info/RECORD,,
