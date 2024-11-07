@@ -1,0 +1,6 @@
+haskellian
+zmq
+sqlmodel
+pydantic
+dslog
+sqltypes
