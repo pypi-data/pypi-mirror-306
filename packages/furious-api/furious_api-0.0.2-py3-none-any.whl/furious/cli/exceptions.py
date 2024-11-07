@@ -1,0 +1,2 @@
+class FuriousException(Exception):
+    pass

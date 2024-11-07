@@ -1,0 +1,2 @@
+[console_scripts]
+furious = furious.cli.bin.furious:tpr
