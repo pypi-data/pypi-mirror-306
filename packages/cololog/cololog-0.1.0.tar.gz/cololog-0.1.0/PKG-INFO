@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: cololog
+Version: 0.1.0
+Summary: Цветной регистратор с настраиваемыми уровнями и выводом в файл.
+Home-page: https://github.com/AsQqqq/cololog
+Author: AsQ
+Author-email: asqdanil@yandex.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+
+# cololog
+
+`cololog` вЂ” СЌС‚Рѕ Р±РёР±Р»РёРѕС‚РµРєР° РґР»СЏ Р»РѕРіРёСЂРѕРІР°РЅРёСЏ СЃ С†РІРµС‚РЅС‹Рј РІС‹РІРѕРґРѕРј РІ РєРѕРЅСЃРѕР»СЊ Рё РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊСЋ Р·Р°РїРёСЃРё Р»РѕРіРѕРІ РІ С„Р°Р№Р». РћРЅР° РїРѕРґРґРµСЂР¶РёРІР°РµС‚ РєР°СЃС‚РѕРјРЅС‹Рµ СѓСЂРѕРІРЅРё Р»РѕРіРёСЂРѕРІР°РЅРёСЏ Рё С†РІРµС‚РѕРІСѓСЋ РЅР°СЃС‚СЂРѕР№РєСѓ.
+
+## РЈСЃС‚Р°РЅРѕРІРєР°
+
+```bash
+pip install cololog
+```
+
+## РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ
+
+```python
+from cololog import cololog
+
+logger = cololog(__name__)
+logger.debug("This is a debug message")
+```
