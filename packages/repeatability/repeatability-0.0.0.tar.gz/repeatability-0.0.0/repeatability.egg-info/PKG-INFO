@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: repeatability
+Version: 0.0.0
+Summary: Async Jobs Repeatability
+Author-email: Dmitry Protasov <protasov.8@yandex.ru>
+License: LGPL-3.0
+Project-URL: Source, https://codeberg.org/protasov/repeatability/
+Project-URL: PyPi, https://pypi.org/project/repeatability/
+Keywords: job,async,asyncio,schedule,scheduler,scheduler,delay
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Framework :: AsyncIO
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: COPYING
+License-File: COPYING.LESSER
+Provides-Extra: build
+Requires-Dist: setuptools==69.0.2; extra == "build"
+Requires-Dist: build==1.2.1; extra == "build"

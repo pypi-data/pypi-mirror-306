@@ -1,0 +1,47 @@
+[build-system]
+requires = ['setuptools==69.0.2']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'repeatability'
+description = 'Async Jobs Repeatability'
+readme = {file = 'README.md', content-type = 'text/markdown'}
+authors = [
+    {name = 'Dmitry Protasov', email = 'protasov.8@yandex.ru'},
+]
+requires-python = '>=3.12'
+keywords = ['job', 'async', 'asyncio', 'schedule', 'scheduler', 'scheduler', 'delay']
+license = {text = 'LGPL-3.0'}
+classifiers = [
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
+    'Operating System :: OS Independent',
+
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3.13',
+
+    'Topic :: Software Development',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Internet',
+    'Topic :: Internet :: WWW/HTTP',
+    'Topic :: Internet :: WWW/HTTP :: HTTP Servers',
+
+    'Framework :: AsyncIO',
+]
+dynamic = ['version', 'optional-dependencies']
+
+[project.urls]
+Source = 'https://codeberg.org/protasov/repeatability/'
+PyPi = 'https://pypi.org/project/repeatability/'
+
+[tool.setuptools]
+packages = [
+    'repeatability',
+]
+
+[tool.setuptools.dynamic]
+version = {attr = 'repeatability.version.__version__'}
+
+[tool.setuptools.dynamic.optional-dependencies]
+build = {file = ['requirements.build.txt']}

@@ -1,0 +1,11 @@
+COPYING
+COPYING.LESSER
+pyproject.toml
+requirements.build.txt
+repeatability/__init__.py
+repeatability/version.py
+repeatability.egg-info/PKG-INFO
+repeatability.egg-info/SOURCES.txt
+repeatability.egg-info/dependency_links.txt
+repeatability.egg-info/requires.txt
+repeatability.egg-info/top_level.txt
