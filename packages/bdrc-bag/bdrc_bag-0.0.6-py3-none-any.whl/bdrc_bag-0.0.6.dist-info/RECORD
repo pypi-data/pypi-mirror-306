@@ -1,0 +1,14 @@
+bag/__init__.py,sha256=FQz4BZM03zWQYgfeSzxlhFdMJI-BT2-3Rw1OoFwCN7w,34
+bag/bag_main.py,sha256=ag0kKE5cFC-5ZzgcFe0W6XhTA8uM6AwNP2Mm3-2oKZ4,6764
+bag/bag_ops.py,sha256=MDQSiT_ZgxEq64HkHYKJ5rU1rJy-bSyqaPboMCYzxiw,12486
+bagSync/bagit.py,sha256=DmDhuSx6n61PRY52aPQaZvnxdBYv7SO9XB4K4tq_Xlc,55013
+bagSync/bag/__init__.py,sha256=FQz4BZM03zWQYgfeSzxlhFdMJI-BT2-3Rw1OoFwCN7w,34
+bagSync/bag/bag_main.py,sha256=ag0kKE5cFC-5ZzgcFe0W6XhTA8uM6AwNP2Mm3-2oKZ4,6764
+bagSync/bag/bag_ops.py,sha256=MDQSiT_ZgxEq64HkHYKJ5rU1rJy-bSyqaPboMCYzxiw,12486
+bagSync/bin/bagit.py,sha256=KLSdbZublmsLafRMD-yHBR20lDJB13Qtv1s17NajdEY,55036
+bdrc_bag-0.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bdrc_bag-0.0.6.dist-info/METADATA,sha256=EBmO42GuBKdY6ssZ94mvn1SFpkYSNnVihvPuHfS2jAk,3494
+bdrc_bag-0.0.6.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+bdrc_bag-0.0.6.dist-info/entry_points.txt,sha256=ERn51xK_aIv7xq5-nrhl1l_fdSQBx4UCAyqGXxAO2dk,47
+bdrc_bag-0.0.6.dist-info/top_level.txt,sha256=rdOpREZy5J4itRD1JUxuHV07jRHSazQ_4UwoZXB08dg,12
+bdrc_bag-0.0.6.dist-info/RECORD,,
