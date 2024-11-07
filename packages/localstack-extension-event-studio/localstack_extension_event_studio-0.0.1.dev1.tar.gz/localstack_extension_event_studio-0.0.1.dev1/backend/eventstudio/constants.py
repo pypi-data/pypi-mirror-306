@@ -1,0 +1,2 @@
+INTERNAL_REQUEST_TRACE_HEADER = "tracing-header"
+INTERNAL_CONTEXT_TRACE_CONTEXT = "_trace_context"
