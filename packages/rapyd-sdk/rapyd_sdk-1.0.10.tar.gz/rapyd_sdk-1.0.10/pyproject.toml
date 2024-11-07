@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rapyd-sdk"
+version = "1.0.10"
+license = { file = "LICENSE" }
+description = """This is a Beta release of the Python SDK for Rapyd's API methods. It is recommended to initially run the methods in the sandbox environment. For the most up to date documentation of Rapyd's methods, see the [online API Reference](https://docs.rapyd.net/en/index-en.html)."""
+readme = "PyPI_README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "requests>=2.31.0"
+]
