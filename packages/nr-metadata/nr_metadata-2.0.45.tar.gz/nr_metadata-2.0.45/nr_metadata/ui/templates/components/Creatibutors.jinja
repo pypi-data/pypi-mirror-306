@@ -1,0 +1,43 @@
+{#def metadata, search_link #}
+{% set creators = metadata.creators if metadata.creators  else [] %}
+{% set contributors = metadata.contributors if metadata.contributors  else [] %}
+{% set all_creatibutors = creators + contributors %}
+
+{% if all_creatibutors %}
+    {% set name_types = all_creatibutors | map(attribute='nameType') | list %}
+    {% set unique_name_types = name_types | unique | list %}
+
+    {% if unique_name_types | length == 1 %}
+        {% if 'Personal' in unique_name_types %}
+            {% set title = _("People") %}
+        {% else %}
+            {% set title = _("Organizations") %}
+        {% endif %}
+    {% else %}
+        {% set title =  _("People") ~ "/" ~ _("Organizations")   %}
+    {% endif %}
+
+    <dt>{{ title }}</dt>
+    <dd>
+        <div class="ui double separated">
+            <div role="list" class="ui horizontal separated creatibutors list">
+                {% for creatibutor in creators %}
+                    <Creatibutor creatibutor={creatibutor} search_link={search_link}></Creatibutor>
+                {% endfor %}
+            </div>
+            {% if contributors %}
+                {% if creators %}
+                    <div class="double separator"></div>
+                {% endif %}
+                <div role="list" class="ui horizontal separated creatibutors list">
+                    {% for contributor in contributors%}
+                        {% if contributor.contributorType.title %}
+                            {% set role = contributor.contributorType.title %}
+                        {% endif %}
+                        <Creatibutor creatibutor={contributor} search_link={search_link} role={role}></Creatibutor>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    </dd>
+{% endif %}
