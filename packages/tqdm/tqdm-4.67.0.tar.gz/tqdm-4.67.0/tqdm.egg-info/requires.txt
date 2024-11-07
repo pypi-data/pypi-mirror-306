@@ -1,0 +1,21 @@
+
+[:platform_system == "Windows"]
+colorama
+
+[dev]
+pytest>=6
+pytest-cov
+pytest-timeout
+pytest-xdist
+
+[discord]
+requests
+
+[notebook]
+ipywidgets>=6
+
+[slack]
+slack-sdk
+
+[telegram]
+requests
