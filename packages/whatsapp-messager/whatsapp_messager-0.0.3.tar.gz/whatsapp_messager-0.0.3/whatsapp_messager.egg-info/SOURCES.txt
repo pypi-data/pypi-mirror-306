@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./whatsapp_messager/__init__.py
+./whatsapp_messager/messaging.py
+whatsapp_messager.egg-info/PKG-INFO
+whatsapp_messager.egg-info/SOURCES.txt
+whatsapp_messager.egg-info/dependency_links.txt
+whatsapp_messager.egg-info/not-zip-safe
+whatsapp_messager.egg-info/requires.txt
+whatsapp_messager.egg-info/top_level.txt
