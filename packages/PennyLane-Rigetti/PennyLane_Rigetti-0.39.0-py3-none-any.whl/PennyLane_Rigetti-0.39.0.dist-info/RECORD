@@ -1,0 +1,16 @@
+pennylane_rigetti/__init__.py,sha256=ktN2iEBSk5Vas5JAVxAkEySh5QvYrdWQ4Z0QYoAFogY,322
+pennylane_rigetti/_version.py,sha256=Ph1-FGatRD48aW9Gw1vgw7gi1haOL497e3d_RGLkXcg,109
+pennylane_rigetti/converter.py,sha256=xHuOWNtU9y53oP5ygJL7kQo9KEurEK-_M40nrOf2jHA,20990
+pennylane_rigetti/device.py,sha256=m9bwprkS7SLdXe_s20i5druOKKJq8-uKnFHH9VcTCzQ,11936
+pennylane_rigetti/numpy_wavefunction.py,sha256=Cmid96qmWsQQfhibFgr0zyj6oJE2JF0q6GcKABLOsPA,2518
+pennylane_rigetti/ops.py,sha256=8q-w30q2gvi-GcpHlGfp6VWFAXrDE36B-QcZY7wbAvw,2986
+pennylane_rigetti/qc.py,sha256=swa9eg-CXW2Q9q7AwKZ20SRjYrcJC7omIdNgxusf1AI,11960
+pennylane_rigetti/qpu.py,sha256=HcHm52kpdg3M-UYMgof3doyzbOl169UKDco2ygg1xAU,8191
+pennylane_rigetti/qvm.py,sha256=o2vS_IMRywyWDebgI_ovXs2VyFq-PmyC-VaAX-ArJl0,4017
+pennylane_rigetti/wavefunction.py,sha256=FnSmDle_-EbkOqSQs0RBO0sejpFkaLuTmfFiC7x8h0U,4719
+PennyLane_Rigetti-0.39.0.dist-info/LICENSE,sha256=Tqk3MkoiBTMiCQqQb2SqOSyb1tILgaiXHLn26Qa0pBA,1517
+PennyLane_Rigetti-0.39.0.dist-info/METADATA,sha256=RmSB1qnsv3mPl0Rh1fqqPDDIev49ANOWl3zEK5EKfqs,8053
+PennyLane_Rigetti-0.39.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+PennyLane_Rigetti-0.39.0.dist-info/entry_points.txt,sha256=tgSzOEsahcORzN1aUoC-nnXcKIt4i5rPCpn5L_3O03Q,384
+PennyLane_Rigetti-0.39.0.dist-info/top_level.txt,sha256=egwXwG6cRW-lhTuDAaNbRI9NRQGrjijUSYQzROaG9U8,18
+PennyLane_Rigetti-0.39.0.dist-info/RECORD,,
