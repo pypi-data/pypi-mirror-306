@@ -1,0 +1,10 @@
+odoo/addons/base_old_migration_fields/README.rst,sha256=IpV88UgNZZ4YwJd-HTPPJOjxpV_nOcFA-doy9RhzCk4,1826
+odoo/addons/base_old_migration_fields/__init__.py,sha256=eDL1MHmmOQjfb3amQzidBWZv8yUM3jt8g_CsblEY3LQ,128
+odoo/addons/base_old_migration_fields/__manifest__.py,sha256=2IB33TMe8fafy68LCWSQRbKVpGIkyu26SMeF-8IdJiE,582
+odoo/addons/base_old_migration_fields/i18n/es.po,sha256=FVNGE-ymTAyTw68wnLOSQfG_tkcF4eb-OJ86pxnO34k,681
+odoo/addons/base_old_migration_fields/security/base_old_migration_fields_security.xml,sha256=JGoI0S_0olxigePd3mhDKAXZs8L-9m44Ee5j5mFeTi8,497
+odoo/addons/base_old_migration_fields/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo_addon_base_old_migration_fields-17.0.1.0.0.5.dist-info/METADATA,sha256=-pJ_SS8vHF5h_M6c8gA-plh4bVvqU9YWYpTPTkM5CEQ,2366
+odoo_addon_base_old_migration_fields-17.0.1.0.0.5.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_base_old_migration_fields-17.0.1.0.0.5.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_base_old_migration_fields-17.0.1.0.0.5.dist-info/RECORD,,
