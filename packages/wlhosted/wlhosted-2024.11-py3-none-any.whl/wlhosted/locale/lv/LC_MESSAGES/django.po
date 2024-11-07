@@ -1,0 +1,413 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Coool (github.com/Coool) <coool@mail.lv>, 2022.
+# "Coool (github.com/Coool)" <coool@mail.lv>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted Weblate\n"
+"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
+"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"PO-Revision-Date: 2024-09-22 01:54+0000\n"
+"Last-Translator: \"Coool (github.com/Coool)\" <coool@mail.lv>\n"
+"Language-Team: Latvian <https://hosted.weblate.org/projects/weblate/hosted/"
+"lv/>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
+"19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: Weblate 5.8-dev\n"
+
+#: wlhosted/addons.py:44 wlhosted/addons.py:45
+msgid "Generate Unknown Horizons scenario data"
+msgstr "Ģenerēt scenāriju datus nezināmiem laika periodiem"
+
+#: wlhosted/addons.py:67
+msgid "Reset repository to upstream"
+msgstr ""
+"Atiestatīt repozitoriju tā sākotnējā stāvoklī, pa pamatu ņemot izejas koda "
+"repozitoriju"
+
+#: wlhosted/addons.py:68
+msgid "Discards all changes in the Weblate repository each night."
+msgstr "Katru nakti atmet visas Weblate repozitorijā veiktās izmaiņas."
+
+#: wlhosted/integrations/forms.py:32
+msgid "Billing"
+msgstr "Rēķinu plāni"
+
+#: wlhosted/integrations/forms.py:33
+msgid "Choose the billing plan you want to update"
+msgstr "Atlasiet rēķina plānu, kuru vēlaties atjaunināt"
+
+#: wlhosted/integrations/forms.py:34
+msgid "Create new billing plan"
+msgstr "Izveidojiet jaunu rēķinu plānu"
+
+#: wlhosted/integrations/templates/hosted/create.html:8
+msgid "Create billing plan"
+msgstr "Izveidot rēķinu plānu"
+
+#: wlhosted/integrations/templates/hosted/create.html:17
+msgid "New billing plan"
+msgstr "Jauns rēķinu plāns"
+
+#: wlhosted/integrations/templates/hosted/create.html:20
+msgid "Please choose a hosting plan that fits the size of your project."
+msgstr "Lūdzu, izvēlieties savam projektam atbilstošu hostinga plānu."
+
+#: wlhosted/integrations/templates/hosted/create.html:26
+msgid "Current billing status"
+msgstr "Pašreizējais rēķinu stāvoklis"
+
+#: wlhosted/integrations/templates/hosted/create.html:47
+msgid "Too small for your project."
+msgstr "Pārāk mazs jūsu projektam."
+
+#: wlhosted/integrations/templates/hosted/create.html:47
+msgid "Too small"
+msgstr "Pārāk mazs"
+
+#: wlhosted/integrations/templates/hosted/create.html:49
+msgid "Selected plan"
+msgstr "Izvēlētais plāns"
+
+#: wlhosted/integrations/templates/hosted/create.html:51
+msgid "Current plan"
+msgstr "Pašreizējais plāns"
+
+#: wlhosted/integrations/templates/hosted/create.html:56
+msgid "Hosted strings limit"
+msgstr "Mitināto virkņu ierobežojums"
+
+#: wlhosted/integrations/templates/hosted/create.html:57
+#: wlhosted/integrations/templates/hosted/create.html:60
+#: wlhosted/integrations/templates/hosted/create.html:63
+#: wlhosted/integrations/templates/hosted/create.html:66
+msgid "Unlimited"
+msgstr "Neierobežots"
+
+#: wlhosted/integrations/templates/hosted/create.html:59
+msgid "Source strings limit"
+msgstr "Avota virkņu ierobežojums"
+
+#: wlhosted/integrations/templates/hosted/create.html:62
+msgid "Languages limit"
+msgstr "Valodu ierobežojums"
+
+#: wlhosted/integrations/templates/hosted/create.html:65
+msgid "Projects limit"
+msgstr "Projektu ierobežojumi"
+
+#: wlhosted/integrations/templates/hosted/create.html:78
+#, python-format
+msgid "%(price)s EUR / month"
+msgstr "%(price)s eiro mēnesī"
+
+#: wlhosted/integrations/templates/hosted/create.html:79
+#: wlhosted/integrations/templates/hosted/create.html:85
+#, python-format
+msgid "%(price)s EUR including VAT"
+msgstr "%(price)s eiro (ar PVN)"
+
+#: wlhosted/integrations/templates/hosted/create.html:84
+#, python-format
+msgid "%(price)s EUR / year"
+msgstr "%(price)s eiro gadā"
+
+#: wlhosted/integrations/templates/hosted/create.html:96
+msgid ""
+"Pricing is based on the number of source strings and target languages. The "
+"source string is a text unit defined in a translation format, it can be a "
+"word, sentence or paragraph."
+msgstr ""
+"Cenas ir atkarīgas no tulkojamo avota virkņu skaita un mērķa valodām. "
+"Tulkojuma avota virkne ir teksta vienība, kas atrodas tulkojuma failā. Tas "
+"var būt vārds, teikums vai rindkopa."
+
+#: wlhosted/integrations/templates/hosted/create.html:99
+msgid "All listed prices exclude VAT."
+msgstr "Visās norādītās cenās nav iekļauts PVN."
+
+#: wlhosted/integrations/templates/hosted/create.html:100
+#, python-format
+msgid ""
+"EU end users and Czech companies will be charged with additional 21%% VAT."
+msgstr ""
+"ES pilsoņiem un Čehijas uzņēmumiem tiks piemērots papildus PVN 21%% apmērā."
+
+#: wlhosted/integrations/templates/hosted/create.html:101
+msgid ""
+"The reverse charge applies to invoices issued to businesses within the EU."
+msgstr "Atlaide attiecas uz rēķiniem, kas izrakstīti ES uzņēmumiem."
+
+#: wlhosted/integrations/templates/mail/billing_paid.html:6
+msgid "Thank you for the payment, your billing is now paid."
+msgstr "Paldies par maksājumu, jūsu rēķins tagad ir apmaksāts."
+
+#: wlhosted/integrations/templates/mail/billing_paid.html:8
+msgid "This billing plan covers following projects:"
+msgstr "Šis rēķinu plāns attiecas uz šādiem projektiem:"
+
+#: wlhosted/integrations/templates/mail/billing_paid.html:17
+msgid "Check your billing status"
+msgstr "Pārbaudiet sava rēķina plāna stāvokli"
+
+#: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
+msgid "Your billing plan was paid"
+msgstr "Jūsu rēķinu plāns ir apmaksāts"
+
+#: wlhosted/integrations/views.py:67
+msgid "No matching payment found."
+msgstr "Atbilstošs maksājums netika atrasts."
+
+#: wlhosted/integrations/views.py:75
+msgid "Thank you for purchasing a hosting plan, it is now active."
+msgstr "Paldies, ka iegādājāties hostinga plānu, tagad tas ir aktīvs."
+
+#: wlhosted/integrations/views.py:83
+msgid ""
+"Thank you for purchasing a hosting plan, the payment for it is pending and "
+"will be processed in the background."
+msgstr ""
+"Paldies, ka iegādājāties hostinga plānu, maksājums tiek gaidīts un "
+"apstrādāts fonā."
+
+#: wlhosted/integrations/views.py:95
+msgid "The payment was rejected: {}"
+msgstr "Maksājums tika noraidīts: {}"
+
+#: wlhosted/integrations/views.py:96
+msgid "Unknown reason"
+msgstr "Nezināma iemesla dēļ"
+
+#: wlhosted/integrations/views.py:112
+msgid "Payments are temporarily inactive."
+msgstr "Maksājumi īslaicīgi nav pieejami."
+
+#: wlhosted/payments/backends.py:192
+msgid "Your payment on weblate.org"
+msgstr "Jūsu maksājums weblate.org vietnē"
+
+#: wlhosted/payments/backends.py:194
+#, python-format
+msgid ""
+"Hello,\n"
+"\n"
+"Thank you for your payment on weblate.org.\n"
+"\n"
+"You will find an invoice for this payment attached.\n"
+"Alternatively, you can download it from the website:\n"
+"\n"
+"%s\n"
+msgstr ""
+"Sveicināti,\n"
+"\n"
+"Paldies par maksājumu weblate.org vietnē.\n"
+"\n"
+"Vēstules pielikumā atradīsiet rēķinu par šo maksājumu.\n"
+"Tāpat, rēķinu varat lejupielādēt no vietnes:\n"
+"\n"
+"%s\n"
+
+#: wlhosted/payments/backends.py:220
+msgid "Your payment on weblate.org failed"
+msgstr "Jūsu maksājums weblate.org vietnē neizdevās"
+
+#: wlhosted/payments/backends.py:222
+#, python-format
+msgid ""
+"Hello,\n"
+"\n"
+"Your payment on weblate.org has failed.\n"
+"\n"
+"%s\n"
+"\n"
+"Retry issuing the payment on the website:\n"
+"\n"
+"%s\n"
+"\n"
+"If concerning a recurring payment, it is retried three times,\n"
+"and if still failing, cancelled.\n"
+msgstr ""
+"Sveicināti,\n"
+"\n"
+"Jūsu maksājums weblate.org vietnē neizdevās.\n"
+"\n"
+"%s\n"
+"\n"
+"Atkārtojiet maksājumu vietnē:\n"
+"\n"
+"%s\n"
+"\n"
+"Ja runa ir par atkārtotu maksājumu, tad tiek veikti trīs mēģinājumi.\n"
+"Un, ja joprojām neizdodas, tas tiek atcelts.\n"
+
+#: wlhosted/payments/backends.py:255
+msgid "Your pending payment on weblate.org"
+msgstr "Jūsu neapmaksātais maksājums weblate.org vietnē"
+
+#: wlhosted/payments/backends.py:257
+msgid ""
+"Hello,\n"
+"\n"
+"Your payment on weblate.org is pending. Please follow the provided\n"
+"instructions to complete the payment.\n"
+msgstr ""
+"Sveicināti,\n"
+"\n"
+"Tiek gaidīta jūsu neapmaksātā maksājuma apmaksa weblate.org vietnē. Lūdzu,\n"
+"izpildiet sniegtos norādījumus, lai veiktu maksājumu.\n"
+
+#: wlhosted/payments/backends.py:339
+msgid "Payment card"
+msgstr "Maksājumu karte"
+
+#: wlhosted/payments/backends.py:415
+msgid "Payment cancelled"
+msgstr "Maksājums atcelts"
+
+#: wlhosted/payments/backends.py:417
+msgid "Payment error"
+msgstr "Maksājuma kļūda"
+
+#: wlhosted/payments/backends.py:429
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: wlhosted/payments/backends.py:438
+msgid "IBAN bank transfer"
+msgstr "IBAN bankas pārskaitījums"
+
+#: wlhosted/payments/backends.py:468
+msgid "Issuing bank"
+msgstr "Izdevēja banka"
+
+#: wlhosted/payments/backends.py:469
+msgid "Account holder"
+msgstr "Konta īpašnieks"
+
+#: wlhosted/payments/backends.py:470
+msgid "Account number"
+msgstr "Konta numurs"
+
+#: wlhosted/payments/backends.py:471
+msgid "SWIFT code"
+msgstr "SWIFT kods"
+
+#: wlhosted/payments/backends.py:472
+msgid "IBAN"
+msgstr "IBAN"
+
+#: wlhosted/payments/backends.py:473
+msgid "Reference"
+msgstr "Uzziņa"
+
+#: wlhosted/payments/models.py:88
+msgid "European VAT ID"
+msgstr "Eiropas PVN maksātāja numurs"
+
+#: wlhosted/payments/models.py:90
+msgid "Please fill in European Union VAT ID, leave blank if not applicable."
+msgstr ""
+"Lūdzu, aizpildiet Eiropas Savienības PVN maksātāja numuru, atstājiet tukšu, "
+"ja tas nav piemērojams."
+
+#: wlhosted/payments/models.py:96
+msgid "Tax registration"
+msgstr "Nodokļu reģistrācija"
+
+#: wlhosted/payments/models.py:98
+msgid ""
+"Please fill in your tax registration if it should appear on the invoice."
+msgstr ""
+"Lūdzu, ievadiet savu nodokļu maksātāja numuru, ja vēlaties, lai tas parādās "
+"rēķinā."
+
+#: wlhosted/payments/models.py:105
+msgid "Company or individual name"
+msgstr "Uzņēmuma vai personas vārds"
+
+#: wlhosted/payments/models.py:108
+msgid "Address"
+msgstr "Adrese"
+
+#: wlhosted/payments/models.py:111
+msgid "Postcode and city"
+msgstr "Pasta indekss un pilsēta"
+
+#: wlhosted/payments/models.py:113
+msgid "Country"
+msgstr "Valsts"
+
+#: wlhosted/payments/models.py:144
+msgid "The country has to match your VAT code"
+msgstr "Valstij ir jāatbilst jūsu PVN kodam"
+
+#: wlhosted/payments/models.py:167
+msgid "Annual"
+msgstr "Ik gadu"
+
+#: wlhosted/payments/models.py:168
+msgid "Biannual"
+msgstr "Reizi pusgadā"
+
+#: wlhosted/payments/models.py:169
+msgid "Quarterly"
+msgstr "Reizi ceturksnī"
+
+#: wlhosted/payments/models.py:170
+msgid "Monthly"
+msgstr "Ikmēnesi"
+
+#: wlhosted/payments/models.py:171
+msgid "One-time"
+msgstr "Vienreizējs"
+
+#: wlhosted/payments/models.py:205
+msgctxt "Payment state"
+msgid "New payment"
+msgstr "Jauns maksājums"
+
+#: wlhosted/payments/models.py:206
+msgctxt "Payment state"
+msgid "Awaiting payment"
+msgstr "Gaida apmaksu"
+
+#: wlhosted/payments/models.py:207
+msgctxt "Payment state"
+msgid "Payment rejected"
+msgstr "Maksājums noraidīts"
+
+#: wlhosted/payments/models.py:208
+msgctxt "Payment state"
+msgid "Payment accepted"
+msgstr "Maksājums pieņemts"
+
+#: wlhosted/payments/models.py:209
+msgctxt "Payment state"
+msgid "Payment processed"
+msgstr "Maksājums apstrādāts"
+
+#: wlhosted/payments/validators.py:38
+msgid "{} is not a valid country code for any European Union member."
+msgstr "{} nav derīgs ES dalībvalsts kods."
+
+#: wlhosted/payments/validators.py:43
+msgid "{} does not match the country's VAT ID specifications."
+msgstr "{} neatbilst PVN maksātāja numura specifikācijām."
+
+#: wlhosted/payments/validators.py:50
+msgid "VAT ID validation service unavailable for {}, please try again later."
+msgstr ""
+"PVN maksātāja numura verifikācijas pakalpojums nav pieejams vietnei {}. "
+"Lūdzu, mēģiniet vēlreiz vēlāk."
+
+#: wlhosted/payments/validators.py:53
+msgid "{} is not a valid VAT ID."
+msgstr "{} nav derīgs PVN maksātāja numurs."
+
+#~ msgid "Component limit"
+#~ msgstr "Komponentu ierobežojums"
