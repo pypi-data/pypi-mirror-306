@@ -1,0 +1,45 @@
+{% block state %}
+terraform {
+  backend "local" {
+    path = "{{ config_renderer.working_dir }}/.terraform/{{ config_renderer.tf_state_namespace }}.tfstate"
+  }
+}
+{% endblock %}
+{% set lb_rules = namespace(priority=1) %}
+
+{% if not output_only %}
+
+{% block providers %}
+{% include "partials/collection/providers.tf.j2" %}
+{% endblock providers%}
+
+{% block environments %}
+{% include "partials/collection/environments.tf.j2" %}
+{% endblock environments %}
+
+
+{% block collection_level_resources %}
+{% if env_collection.database_resources %}
+{% block database_shared %}
+{% include "partials/collection/database/rds.tf.j2" %}
+{% endblock database_shared %}
+{% endif %}
+{% if env_collection.serverless_services %}
+
+{% block lambda_shared %}
+{% include "partials/collection/lambda/lambda.tf.j2" %}
+{% include "partials/collection/lambda/variables.tf.j2" %}
+{% include "partials/collection/lambda/outputs.tf.j2" %}
+{% endblock lambda_shared %}
+{% endif %}
+
+{% if env_collection.dynamodb_resources %}
+{% block dynamodb_shared %}
+{% include "partials/collection/dynamodb/dynamodb.tf.j2" %}
+{% include "partials/collection/dynamodb/variables.tf.j2" %}
+{% include "partials/collection/dynamodb/outputs.tf.j2" %}
+{% endblock dynamodb_shared %}
+{% endif %}
+{% endblock collection_level_resources %}
+
+{% endif %}{# {% if not output_only %} #}
