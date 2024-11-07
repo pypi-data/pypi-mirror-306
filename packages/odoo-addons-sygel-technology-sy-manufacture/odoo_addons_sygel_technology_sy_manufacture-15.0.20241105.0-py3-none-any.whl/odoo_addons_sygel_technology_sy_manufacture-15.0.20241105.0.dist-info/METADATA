@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: odoo-addons-sygel-technology-sy-manufacture
+Version: 15.0.20241105.0
+Summary: Meta package for sygel-technology-sy-manufacture Odoo addons
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 15.0
+Requires-Dist: odoo-addon-mrp-bom-warn-message<15.1dev,>=15.0dev
+Requires-Dist: odoo-addon-picking-very-high-priority-mrp<15.1dev,>=15.0dev
+
+UNKNOWN
