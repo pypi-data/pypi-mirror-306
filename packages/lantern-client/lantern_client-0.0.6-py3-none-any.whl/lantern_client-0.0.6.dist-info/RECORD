@@ -1,0 +1,9 @@
+lantern/__init__.py,sha256=CqOhs_t7BPWkaR7AjHgm52ynEHuoLfHH-z3yHeuNLZQ,78
+lantern/client.py,sha256=iKE2jo04Y8CYM7IkFW0YYmkloN2a3I4H4OxG_Jej6vI,18757
+lantern/setup.py,sha256=gQXZdncF43EIkjQzDyndm3nUET6aHleNZs1EPradMHE,876
+lantern/utils.py,sha256=ga_9b6xxMGd4lBLnifCkAKAXIKvaKjrZa6Lhit3-8wQ,3769
+lantern_client-0.0.6.dist-info/LICENSE,sha256=oUO3VR47xadZbM05TLRyd73pZ3HKwymLxL6jl0b4zew,1077
+lantern_client-0.0.6.dist-info/METADATA,sha256=eMCGSEeHZgF0J20Yrh1wPLJugBNhKIr9bIyj8ZyELBI,2905
+lantern_client-0.0.6.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+lantern_client-0.0.6.dist-info/top_level.txt,sha256=XoV2Tzc0ERS7k_EI4cD85j7zuDtiiY4qqFLZCG9Tjeo,8
+lantern_client-0.0.6.dist-info/RECORD,,
