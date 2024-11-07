@@ -1,0 +1,12 @@
+LICENSE
+README.md
+__init__.py
+pyproject.toml
+setup.py
+./__init__.py
+./setup.py
+lantern_django.egg-info/PKG-INFO
+lantern_django.egg-info/SOURCES.txt
+lantern_django.egg-info/dependency_links.txt
+lantern_django.egg-info/requires.txt
+lantern_django.egg-info/top_level.txt
