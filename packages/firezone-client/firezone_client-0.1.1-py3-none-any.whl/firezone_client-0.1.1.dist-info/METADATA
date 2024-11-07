@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: firezone-client
+Version: 0.1.1
+Summary: Client for firezone
+Author: msterhuj
+Author-email: gabin.lanore@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: cryptography (>=43.0.3,<44.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Firezone Client
+
+Manage your Firezone with its api.
+
+## Installation
+
+```bash
+pip install firezone-client
+```
+
+## Init client & List users
+
+```python
+from firezone_client import FZclient, User
+
+endpoint = "http://localhost:13000/v0"
+token = "0123456789abcdef"
+client = FZClient(endpoint, token)
+
+users = client.list(User)
+
+for user in users:
+    print(user.email)
+```
+
+Read more for how to use the client in the [docs](https://msterhuj.github.io/firezone-client/)
+
