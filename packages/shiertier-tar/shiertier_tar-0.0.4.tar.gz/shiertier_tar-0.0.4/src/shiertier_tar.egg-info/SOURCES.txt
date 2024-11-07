@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/shiertier_tar/__init__.py
+src/shiertier_tar/tar.py
+src/shiertier_tar.egg-info/PKG-INFO
+src/shiertier_tar.egg-info/SOURCES.txt
+src/shiertier_tar.egg-info/dependency_links.txt
+src/shiertier_tar.egg-info/requires.txt
+src/shiertier_tar.egg-info/top_level.txt
