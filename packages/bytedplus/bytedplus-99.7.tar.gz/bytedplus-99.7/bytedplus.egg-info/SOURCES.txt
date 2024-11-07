@@ -1,0 +1,7 @@
+main.py
+setup.py
+bytedplus.egg-info/PKG-INFO
+bytedplus.egg-info/SOURCES.txt
+bytedplus.egg-info/dependency_links.txt
+bytedplus.egg-info/requires.txt
+bytedplus.egg-info/top_level.txt
