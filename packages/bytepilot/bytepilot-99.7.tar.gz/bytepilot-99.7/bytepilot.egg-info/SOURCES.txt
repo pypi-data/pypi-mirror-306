@@ -1,0 +1,7 @@
+main.py
+setup.py
+bytepilot.egg-info/PKG-INFO
+bytepilot.egg-info/SOURCES.txt
+bytepilot.egg-info/dependency_links.txt
+bytepilot.egg-info/requires.txt
+bytepilot.egg-info/top_level.txt
