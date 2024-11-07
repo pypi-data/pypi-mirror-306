@@ -1,0 +1,12 @@
+rougail/output_doc/__init__.py,sha256=L-32Uj5CTuYKfzoAGaja4WJufBPb077dzZSQMZFSG8c,26057
+rougail/output_doc/annotator.py,sha256=sMx14AOW0oQCGMWSUPCrTUB29RMw7PvJYsvFK9q_UK4,8701
+rougail/output_doc/config.py,sha256=oxPljl1uQfpF2ClsxdTwDYAP8nvRV1vI8SvukjD5TyA,2921
+rougail/output_doc/i18n.py,sha256=O27Fwyp7nGBpxcfPxGj4c0rY17lfR7ZYaQ1YlX-Z8-A,890
+rougail/output_doc/locale/fr/LC_MESSAGES/rougail_output_doc.mo,sha256=0Sfx-uxVET9sovs-W4UtF5nsHIvZyQpnWWPAdD3jLJM,2705
+rougail/output_doc/output/__init__.py,sha256=vRZy8D_1DZkZY8116PVbx3XOCmfh3mgnZ3zwpySk1q4,706
+rougail/output_doc/output/asciidoc.py,sha256=93tFRmNnnGnyXS0MxeD8cSgVstIeXjPSb75-WsOe7W0,3344
+rougail/output_doc/output/github.py,sha256=AjcG_KOHeowIPFbzYj29g74Ou3dgi_y5sklJHgA29-c,3071
+rougail_output_doc-0.1.0.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+rougail_output_doc-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+rougail_output_doc-0.1.0.dist-info/METADATA,sha256=KMVoot_Gu_eRak-sbmaKI2Lx4vXTHbw-3bnWHiq3gMs,928
+rougail_output_doc-0.1.0.dist-info/RECORD,,
