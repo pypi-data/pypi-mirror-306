@@ -1,0 +1,31 @@
+	"fecha_creacion": {
+		"align": "center",
+		"class": "input_codebin",
+		"ecudocsField": "",
+		"codebinField": "cpicfechac",
+		"font": "large",
+		"fontSize": "26px",
+		"height": 30,
+		"maxChars": 10,
+		"maxLines": 1,
+		"value": "",
+		"width": 173,
+		"x": 477,
+		"y": 1357
+	},
+	"referencia": {
+		"align": "center",
+		"class": "input_codebin",
+		"ecudocsField": "",
+		"codebinField": "ref",
+		"font": "large",
+		"fontSize": "26px",
+		"height": 30,
+		"maxChars": 10,
+		"maxLines": 1,
+		"value": "",
+		"width": 173,
+		"x": 477,
+		"y": 1357
+	}
+}
