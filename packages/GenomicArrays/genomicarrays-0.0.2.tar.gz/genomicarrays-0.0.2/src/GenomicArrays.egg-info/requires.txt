@@ -1,0 +1,21 @@
+cellarr
+tiledb
+pyBigWig
+pandas
+numpy
+pyarrow>=1.0
+mopsy
+genomicranges
+pyfaidx
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[optional]
+torch
+pytorch-lightning
+
+[testing]
+setuptools
+pytest
+pytest-cov
