@@ -1,0 +1,65 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "textual-advanced-google-search"
+dynamic = ["version"]
+description = 'Second level google search'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Prakhar Gandhi", email = "gprakhar0@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = ["ml-things","shutup","textual","playwright","lingua-language-detector","EmotionExtractor","googletrans==4.0.0-rc1","mpire"]
+
+[tool.hatch.envs.default]
+python = 'C:\Users\gprak\anaconda3\envs\py38'
+
+[project.scripts]
+advsearch = "textual_calculator.entry_points:advsearch"
+
+[tool.hatch.version]
+path = "src/textual_advanced_google_search/__about__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/textual_advanced_google_search"]
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/textual_advanced_google_search tests}"
+
+[tool.coverage.run]
+source_pkgs = ["textual_advanced_google_search", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/textual_advanced_google_search/__about__.py",
+]
+
+[tool.coverage.paths]
+textual_advanced_google_search = ["src/textual_advanced_google_search", "*/textual-advanced-google-search/src/textual_advanced_google_search"]
+tests = ["tests", "*/textual-advanced-google-search/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
