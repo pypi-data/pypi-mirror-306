@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: rougail.output_exporter
+Version: 0.1.0
+Summary: Rougail output exporter
+Author-email: Emmanuel Garette <gnunux@gnunux.info>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Natural Language :: French
+Requires-Dist: rougail >= 1.1,<2
+Requires-Dist: rich ~= 13.9.3
+Project-URL: Home, https://forge.cloud.silique.fr/stove/rougail-output-exporter
+
+# rougail-exporter
+
+
