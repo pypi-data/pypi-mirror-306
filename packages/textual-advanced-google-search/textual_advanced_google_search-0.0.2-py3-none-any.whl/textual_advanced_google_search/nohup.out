@@ -1,0 +1,96 @@
++-------------------------------- Disclaimer ---------------------------------+
+|                                                                             |
+|  textual-web is currently under active development, and not suitable for    |
+|  production use.                                                            |
+|                                                                             |
+|  For support, please join the Discord server                                |
+|                                                                             |
++-----------------------------------------------------------------------------+
+[19:59:12] INFO     version='0.8.0'                                            
+           INFO     environment='prod'                                         
+           INFO     loading config from                                        
+                    'C:\\Users\\gprak\\OneDrive\\Desktop\\textual_app\\textual-
+                    advanced-google-search\\src\\textual_advanced_google_search
+                    \\ganglion.toml'                                           
+           INFO     connecting to Ganglion                                     
+[19:59:16] INFO     <ganglion> ---                                             
+           INFO     <ganglion> Serving https://textual-web.io/prakHr/search    
+[19:59:43] INFO     <ganglion> 106.222.201.45 'Search' 'Mozilla/5.0 (Windows NT
+                    10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)   
+                    Chrome/130.0.0.0 Safari/537.36'                            
+[19:59:55] INFO     <ganglion> 106.222.201.45 'Search' 0:00:11                 
+[19:59:58] INFO     <ganglion> 106.222.201.45 'Search' 'Mozilla/5.0 (Windows NT
+                    10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)   
+                    Chrome/130.0.0.0 Safari/537.36'                            
+[20:03:00] INFO     <ganglion> 106.222.201.45 'Search' 0:03:01                 
+[20:03:46] INFO     <ganglion> 106.222.201.45 'Search' 'Mozilla/5.0 (Windows NT
+                    10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)   
+                    Chrome/130.0.0.0 Safari/537.36'                            
+[20:03:52] INFO     <ganglion> 106.222.201.45 'Search' 0:00:04                 
++-------------------------------- Disclaimer ---------------------------------+
+|                                                                             |
+|  textual-web is currently under active development, and not suitable for    |
+|  production use.                                                            |
+|                                                                             |
+|  For support, please join the Discord server                                |
+|                                                                             |
++-----------------------------------------------------------------------------+
+[20:10:21] INFO     version='0.8.0'                                            
+           INFO     environment='prod'                                         
+           INFO     loading config from                                        
+                    'C:\\Users\\gprak\\OneDrive\\Desktop\\textual_app\\textual-
+                    advanced-google-search\\src\\textual_advanced_google_search
+                    \\ganglion.toml'                                           
+           INFO     connecting to Ganglion                                     
+[20:10:24] INFO     <ganglion> ---                                             
+           INFO     <ganglion> Serving https://textual-web.io/prakHr/search    
+[20:11:04] INFO     <ganglion> 106.222.201.45 'Search' 'Mozilla/5.0 (Windows NT
+                    10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)   
+                    Chrome/130.0.0.0 Safari/537.36'                            
+[20:11:11] INFO     <ganglion> 106.222.201.45 'Search' 0:00:06                 
+[20:11:18] INFO     Disconnected from Ganglion                                 
+[20:11:19] INFO     connecting to Ganglion                                     
+           WARNING  Unable to connect to Ganglion server. Will reattempt       
+                    connection soon.                                           
++-------------------------------- Disclaimer ---------------------------------+
+|                                                                             |
+|  textual-web is currently under active development, and not suitable for    |
+|  production use.                                                            |
+|                                                                             |
+|  For support, please join the Discord server                                |
+|                                                                             |
++-----------------------------------------------------------------------------+
+[20:15:20] INFO     version='0.8.0'                                            
+           INFO     environment='prod'                                         
+           INFO     loading config from                                        
+                    'C:\\Users\\gprak\\OneDrive\\Desktop\\textual_app\\textual-
+                    advanced-google-search\\src\\textual_advanced_google_search
+                    \\ganglion.toml'                                           
+           INFO     connecting to Ganglion                                     
+[20:15:25] INFO     <ganglion> ---                                             
+           INFO     <ganglion> Serving https://textual-web.io/prakHr/search    
+[20:15:56] INFO     <ganglion> 106.222.201.45 'Search' 'Mozilla/5.0 (Windows NT
+                    10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)   
+                    Chrome/130.0.0.0 Safari/537.36'                            
+[20:16:03] INFO     <ganglion> 106.222.201.45 'Search' 0:00:06                 
+[20:16:15] INFO     <ganglion> 106.222.201.45 'Search' 'Mozilla/5.0 (Linux;    
+                    Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko)      
+                    Chrome/130.0.0.0 Mobile Safari/537.36'                     
+[20:17:20] INFO     <ganglion> 106.222.201.45 'Search' 0:01:04                 
+[20:17:23] INFO     <ganglion> 106.222.201.45 'Search' 'Mozilla/5.0 (Linux;    
+                    Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko)      
+                    Chrome/130.0.0.0 Mobile Safari/537.36'                     
+[20:18:26] INFO     <ganglion> 106.222.201.45 'Search' 0:01:02                 
+[20:23:10] INFO     <ganglion> 106.222.201.45 'Search' 'Mozilla/5.0 (Windows NT
+                    10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)   
+                    Chrome/130.0.0.0 Safari/537.36'                            
+[20:23:16] INFO     <ganglion> 106.222.201.45 'Search' 0:00:05                 
+[20:23:35] INFO     <ganglion> In: 6 bytes/s Out: 826 bytes/s                  
+[20:24:18] INFO     <ganglion> 106.222.201.45 'Search' 'Mozilla/5.0 (Windows NT
+                    10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)   
+                    Chrome/130.0.0.0 Safari/537.36'                            
+[20:24:24] INFO     <ganglion> 106.222.201.45 'Search' 0:00:05                 
+[20:24:29] INFO     Disconnected from Ganglion                                 
+[20:24:30] INFO     connecting to Ganglion                                     
+           WARNING  Unable to connect to Ganglion server. Will reattempt       
+                    connection soon.                                           
