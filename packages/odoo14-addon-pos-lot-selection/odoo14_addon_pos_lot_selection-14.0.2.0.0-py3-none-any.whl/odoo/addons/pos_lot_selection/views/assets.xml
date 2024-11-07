@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2022 Manuel Regidor <manuel.regidor@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <template id="assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="pos_lot_selection/static/src/js/orderline.js"></script>
+            <script type="text/javascript" src="pos_lot_selection/static/src/js/popup/LotSelectorPopup.js"></script>
+            <script type="text/javascript" src="pos_lot_selection/static/src/js/popup/ProductScreen.js"></script>
+            <script type="text/javascript" src="pos_lot_selection/static/src/js/popup/StockProductionLot.js"></script>
+        </xpath>
+    </template>
+</odoo>

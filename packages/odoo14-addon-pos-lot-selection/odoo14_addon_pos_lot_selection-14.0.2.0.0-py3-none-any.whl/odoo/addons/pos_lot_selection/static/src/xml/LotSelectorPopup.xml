@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 Manuel Regidor <manuel.regidor@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<templates id="template" xml:space="preserve">
+
+    <t t-inherit="point_of_sale.EditListPopup" t-inherit-mode="extension">
+
+        <xpath expr="//main[hasclass('list-lines')]" position="replace">
+            <main class="body">
+                <input
+                    type="text"
+                    class="popup-input"
+                    id="new_select"
+                    placeholder="Serial/Lot Number"
+                    autofocus="autofocus"
+                />
+                <div >
+                    <span class="label">Operation</span>
+                    <select name="operation" id="operation_type">
+                        <option value="sale">
+                            <t>Sale</t>
+                        </option>
+                        <option value="refund">
+                            <t>Refund</t>
+                        </option>
+                    </select>
+                </div>
+            </main>
+        </xpath>
+    </t>
+
+</templates>

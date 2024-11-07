@@ -1,0 +1,17 @@
+odoo/addons/pos_lot_selection/README.rst,sha256=2T9Hb6XsRVu-ZSUx3b-Autd-b5Smvhr850tIJ-6JDPA,1737
+odoo/addons/pos_lot_selection/__init__.py,sha256=5hkCdGjo04vmZlLxpUKJpIvBYnWEsPz_JgKVdaKRzTg,145
+odoo/addons/pos_lot_selection/__manifest__.py,sha256=_G8r5DKcPNxFL7RIS_ZqIOJ_mboDmRN2UA7EaHXiZd0,671
+odoo/addons/pos_lot_selection/i18n/es.po,sha256=Dd2vw04wcoemqebMMBl9YWZgsMJ8mtKamcJuim_tmGU,2631
+odoo/addons/pos_lot_selection/models/__init__.py,sha256=ExTSJztdwerdEtS4UNlkEoxGz9Pp8RtUFyrjc1PgKok,150
+odoo/addons/pos_lot_selection/models/pos_session.py,sha256=isN0NMF4aMfqjDJ_GssAwwxme8JsCjJxLXqo7bmB0Vg,806
+odoo/addons/pos_lot_selection/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/pos_lot_selection/static/src/js/orderline.js,sha256=XelohfX7ktEKEndzYP-pFGz6f2xvP0XAhxGuE5H-eck,936
+odoo/addons/pos_lot_selection/static/src/js/popup/LotSelectorPopup.js,sha256=pGQFwayojTAAvxptHbrV7DOxV9zmTeLc4iQB4-U5FYM,8310
+odoo/addons/pos_lot_selection/static/src/js/popup/ProductScreen.js,sha256=rsfeebtJCmHXUucc-gVoC9yB0kEKoiOCKrbPEKP4Q6Q,2026
+odoo/addons/pos_lot_selection/static/src/js/popup/StockProductionLot.js,sha256=ZVOK40Ygm5CmfKzF8zHSrrpOq75EU6IVXNPCxrcLSvU,415
+odoo/addons/pos_lot_selection/static/src/xml/LotSelectorPopup.xml,sha256=AAp40iXkHHXqFMoOttfMFw-5bzz5Y44wsNi_QHx0Tbo,1149
+odoo/addons/pos_lot_selection/views/assets.xml,sha256=Yh5-t4DoyTxgiOgezoDSCKvXbPJ2BYwASQPUyaNKPms,778
+odoo14_addon_pos_lot_selection-14.0.2.0.0.dist-info/METADATA,sha256=3fesh2HJPyogfV4x-0KK4-vTnw9F80rDMYV-pyETB40,2256
+odoo14_addon_pos_lot_selection-14.0.2.0.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo14_addon_pos_lot_selection-14.0.2.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_pos_lot_selection-14.0.2.0.0.dist-info/RECORD,,

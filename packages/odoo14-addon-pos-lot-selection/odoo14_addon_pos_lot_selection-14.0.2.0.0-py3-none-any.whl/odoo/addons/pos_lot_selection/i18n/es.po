@@ -1,0 +1,91 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_lot_selection
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-29 06:23+0000\n"
+"PO-Revision-Date: 2022-09-29 08:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: pos_lot_selection
+#: model:ir.model.fields,field_description:pos_lot_selection.field_pos_session__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: pos_lot_selection
+#: model:ir.model.fields,field_description:pos_lot_selection.field_pos_session__id
+msgid "ID"
+msgstr ""
+
+#. module: pos_lot_selection
+#: model:ir.model.fields,field_description:pos_lot_selection.field_pos_session____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: pos_lot_selection
+#. openerp-web
+#: code:addons/pos_lot_selection/static/src/js/popup/ProductScreen.js:0
+#, python-format
+msgid "Lot/Serial Number(s) Required"
+msgstr "Lote/Número de serie requerido"
+
+#. module: pos_lot_selection
+#. openerp-web
+#: code:addons/pos_lot_selection/static/src/xml/LotSelectorPopup.xml:0
+#, python-format
+msgid "Operation"
+msgstr "Operación"
+
+#. module: pos_lot_selection
+#: model:ir.model,name:pos_lot_selection.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Sesión TPV"
+
+#. module: pos_lot_selection
+#. openerp-web
+#: code:addons/pos_lot_selection/static/src/xml/LotSelectorPopup.xml:0
+#, python-format
+msgid "Refund"
+msgstr "Devolución"
+
+#. module: pos_lot_selection
+#. openerp-web
+#: code:addons/pos_lot_selection/static/src/xml/LotSelectorPopup.xml:0
+#, python-format
+msgid "Sale"
+msgstr "Venta"
+
+#. module: pos_lot_selection
+#. openerp-web
+#: code:addons/pos_lot_selection/static/src/xml/LotSelectorPopup.xml:0
+#, python-format
+msgid "Serial/Lot Number"
+msgstr "Número de serie/lote"
+
+#. module: pos_lot_selection
+#. openerp-web
+#: code:addons/pos_lot_selection/static/src/js/popup/LotSelectorPopup.js:0
+#, python-format
+msgid "Something went wrong."
+msgstr "Algo salió mal."
+
+#. module: pos_lot_selection
+#. openerp-web
+#: code:addons/pos_lot_selection/static/src/js/popup/LotSelectorPopup.js:0
+#, python-format
+msgid ""
+"The serial number/lot could not be checked, so the product was added. "
+"Please, check your Internet connection."
+msgstr ""
+"El número de serie/note no se pudo comprobar, por lo que el producto "
+"fue añadido. Por favor, compruebe la conexión a internet."
