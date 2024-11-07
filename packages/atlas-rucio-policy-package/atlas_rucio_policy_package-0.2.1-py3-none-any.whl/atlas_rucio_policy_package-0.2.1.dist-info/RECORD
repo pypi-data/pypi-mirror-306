@@ -1,0 +1,9 @@
+atlas_rucio_policy_package/__init__.py,sha256=FYv8JbOm0YDpkX71RXEuRJhIlPjE2N_-ihk5N2nEkpk,112
+atlas_rucio_policy_package/archive_tape_metadata.py,sha256=dKgRf9QCN3fraiyYk1n_SPYLe1JkfcahqqQxbnpW58o,3375
+atlas_rucio_policy_package/permission.py,sha256=PQgj4oYPIi5v77Ih8jszuVDbf0rzreS8N-t1lvwBE_o,55734
+atlas_rucio_policy_package/schema.py,sha256=YRbg79iCdMZF5eUwWRaS8PjZrUwhVw8pbrf-OXLc1ck,15589
+atlas_rucio_policy_package-0.2.1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+atlas_rucio_policy_package-0.2.1.dist-info/METADATA,sha256=Js2u6SVCEYNxet1vD2PDOxZnOOyCQVaa1BStM8WXySo,13501
+atlas_rucio_policy_package-0.2.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+atlas_rucio_policy_package-0.2.1.dist-info/top_level.txt,sha256=MZTLTUyUWEUioBNmx4CfuiIsTW3rHwq0ftTlzrba9c0,27
+atlas_rucio_policy_package-0.2.1.dist-info/RECORD,,
