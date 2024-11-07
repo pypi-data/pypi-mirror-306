@@ -1,0 +1,9 @@
+ots/ots-sanitize,sha256=t79DvBcIeJjYgOuJpjTWmLYqiRUg_jMTmpU65KEVSkA,850128
+ots/_version.py,sha256=6l6pXdCg22nSFN8t5sIgk6c6ZS2anTQw_B4csJ-sz6w,411
+ots/__init__.py,sha256=qTfZpof3jg7KCzXVZEbkPsda3PEk-1sFaHm6oickxCk,2719
+ots/__main__.py,sha256=th6qKQ2qXYcEIB0LMtceSULFQ-6NYtYZxdSr3bhVqVg,225
+opentype_sanitizer-9.2.0.dist-info/RECORD,,
+opentype_sanitizer-9.2.0.dist-info/LICENSE,sha256=DXTePDzTGWqe0bxhLP1fgddQnWbEvjSlD5nWG9GtANQ,1485
+opentype_sanitizer-9.2.0.dist-info/WHEEL,sha256=qXYaukpbQo8qsCMEjKvHto4ocFAxIh9Oa3sUIf8J1ns,141
+opentype_sanitizer-9.2.0.dist-info/top_level.txt,sha256=DeYKAWCIE3i6OTTn8yevz62YlI2OOvcL8AXW0BftPtA,4
+opentype_sanitizer-9.2.0.dist-info/METADATA,sha256=J2xjF8-aYackeABF2ZuLwi6XvjuvxvGuuVwxGG3Dsrw,1204
