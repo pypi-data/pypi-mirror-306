@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+Magpy/MagmaPropertiesChecker.py
+Magpy/Magmas.py
+Magpy/RandSampMags.py
+Magpy/__init__.py
+MagpyCAS.egg-info/PKG-INFO
+MagpyCAS.egg-info/SOURCES.txt
+MagpyCAS.egg-info/dependency_links.txt
+MagpyCAS.egg-info/requires.txt
+MagpyCAS.egg-info/top_level.txt
