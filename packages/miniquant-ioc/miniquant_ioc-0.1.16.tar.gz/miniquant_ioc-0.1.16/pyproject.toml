@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miniquant-ioc"
+description = "Python interface for the Harp class of PicoQuant's time interval analysers and photon counters"
+dynamic = ["version"]
+#version = attr: setuptools_scm.get_version
+authors = [
+    { name = "Florin Boariu", email = "florin.pt@rootshell.ro" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: POSIX :: Linux",
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+keywords = []
+dependencies = [
+    "softioc",
+    "numpy",
+    "miniquant>=0.3.3",
+    "libusb1",
+    "schema",
+    "emmi[softioc]>=0.6.2, < 0.10",
+    "pyyaml",
+    "caproto",
+    "xarray"
+]
+
+[project.urls]
+"Source Code" = "https://gitlab.com/kmc3-xpp/miniquant-ioc/"
+"Bug Tracker" = "https://gitlab.com/kmc3-xpp/miniquant-ioc/-/issues"
+
+[project.optional-dependencies]
+test = [ "pytest", "pytest-cov", "pytest-asyncio" ]
+
+[tool.coverage.run]
+branch = true
+command_line = "pytest"
+include = [ "src/miniquant_ioc" ]
+source_pkgs = [ "miniquant_ioc" ]
+omit = [ "./test/*" ]
+
+[project.scripts]
+miniquant-ioc = "miniquant_ioc.main:main"
+tau0-ioc = "miniquant_ioc.tau0.main:main"
+miniquant-hview = "miniquant_ioc.histoview.display:main"
+miniquant-hsave = "miniquant_ioc.histoview.nxsave_main:main"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+minversion = "6.0"
+addopts = "-ra -s -m 'not with_miniquant_ioc'"
+log_cli = true
+testpaths = [ "test" ]
+markers = [
+    "with_miniquant_ioc: Tests to be run only when a Miniquant IOC is running",
+    "miniquant_ioc: Test the Miniquant IOC itself",
+    "tau0_ioc: Test the tau0 IOC"
+]
+
+[tool.setuptools_scm]
+write_to = "src/miniquant_ioc/_version.py"

@@ -1,0 +1,5 @@
+[console_scripts]
+miniquant-hsave = miniquant_ioc.histoview.nxsave_main:main
+miniquant-hview = miniquant_ioc.histoview.display:main
+miniquant-ioc = miniquant_ioc.main:main
+tau0-ioc = miniquant_ioc.tau0.main:main

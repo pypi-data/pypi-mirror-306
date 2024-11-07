@@ -1,0 +1,14 @@
+softioc
+numpy
+miniquant>=0.3.3
+libusb1
+schema
+emmi[softioc]<0.10,>=0.6.2
+pyyaml
+caproto
+xarray
+
+[test]
+pytest
+pytest-cov
+pytest-asyncio
